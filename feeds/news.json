@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:09:35.670Z",
+ "updated": "2026-11-17T21:06:37.827Z",
  "keepDays": 14,
  "sources": [
   {
@@ -16,6 +16,14 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Pagasa warns of dangerous heat index in 8 areas on Wednesday",
+   "url": "https://newsinfo.inquirer.net/2342936/pagasa-warns-of-dangerous-heat-index-in-8-areas-on-wednesday",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-17T20:28:52Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Dangerous heat index forecast in 3 PH areas on Nov. 17",
    "url": "https://newsinfo.inquirer.net/2342516/dangerous-heat-index-forecast-in-3-ph-areas-on-nov-17",

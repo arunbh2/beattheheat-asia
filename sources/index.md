@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2355 sources, each with where it is used on the site.
+> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2356 sources, each with where it is used on the site.
 
 Where does every claim come from?
 
@@ -24,11 +24,9 @@ Every claim on Common Shade links to its source. Each entry below shows who publ
 
 **Watch: Every claim, linked** · 0:26 · narrated, captions in the picture
 
-## Heat in the news 163
+## Heat in the news 164
 
 Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
-
-- [3 areas recorded ‘dangerous’ heat index on Monday, Nov. 16](https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16)Inquirer · Philippines · 16 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
 
@@ -36,21 +34,25 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Dangerous heat index forecast in 3 PH areas on Nov. 17](https://newsinfo.inquirer.net/2342516/dangerous-heat-index-forecast-in-3-ph-areas-on-nov-17)Inquirer · Philippines · 17 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
+- [3 areas recorded ‘dangerous’ heat index on Monday, Nov. 16](https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16)Inquirer · Philippines · 16 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon](https://doi.org/10.1039/d6ra08327g)Ngo HL et al. · RSC advances · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
 - [Dangerous heat index grips 9 areas on Thursday](https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday)Inquirer · Philippines · 12 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [3 areas under dangerous level heat index on Saturday - Pagasa](https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa)Inquirer · Philippines · 6 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Dangerous heat index expected in 3 areas on Friday – Pagasa](https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Butuan experiences scorching 42-45°C heat index for second straight day](https://newsinfo.inquirer.net/2336102/butuan-experiences-scorching-42-45c-heat-index-for-second-straight-day)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [44°C heat index recorded in 3 areas on Monday, Nov. 2](https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2)Inquirer · Philippines · 2 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [High daytime heat index, chilly nights logged in Pangasinan](https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan)Inquirer · Philippines · 8 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon](https://doi.org/10.1039/d6ra08327g)Ngo HL et al. · RSC advances · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Heatwave fuels 54% fire surge in Northern Mindanao](https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao)Inquirer · Philippines · 7 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry](https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/)Mongabay · Bangladesh · 6 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
+- [Pagasa warns of dangerous heat index in 8 areas on Wednesday](https://newsinfo.inquirer.net/2342936/pagasa-warns-of-dangerous-heat-index-in-8-areas-on-wednesday)Inquirer · Philippines · 17 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Rising preterm births in Bangladesh linked to extreme heat, research suggests](https://news.mongabay.com/2026/11/rising-preterm-births-in-bangladesh-linked-to-extreme-heat-research-suggests/)Mongabay · Bangladesh · 16 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
 
@@ -62,23 +64,23 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar](https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar)Inquirer · Philippines · 9 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [High daytime heat index, chilly nights logged in Pangasinan](https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan)Inquirer · Philippines · 8 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [Heatwave fuels 54% fire surge in Northern Mindanao](https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao)Inquirer · Philippines · 7 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [3 areas under dangerous level heat index on Saturday - Pagasa](https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa)Inquirer · Philippines · 6 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry](https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/)Mongabay · Bangladesh · 6 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
 
 - [Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves](https://doi.org/10.1126/sciadv.aeh9111)Tian Y et al. · Science advances · 6 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
-- [Dangerous heat index expected in 3 areas on Friday – Pagasa](https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Recent extreme heatwaves are no match for future events](https://doi.org/10.1038/s41467-026-76809-5)Aglas-Leitner P et al. · Nature communications · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
 - [WALANG PASOK: Class suspensions on Thursday due to high heat index](https://newsinfo.inquirer.net/2336167/walang-pasok-class-suspensions-on-thursday-due-to-high-heat-index)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Rising heat takes toll on Bangladesh’s garment workers](https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/)Eco-Business · Bangladesh · 25 Oct 2026 · eco-business.comUsed on: Heat in the news: headlines
 
 - [Discover Hazards, 2026](https://doi.org/10.1007/s44475-026-00075-8)Pingku Chandra Barman et al. · Discover Hazards · 25 Oct 2026 · doi.orgUsed on: Find practical actions · Heat in the news: new research
 
 - [Walang Pasok: Class suspensions on Friday (Nov. 6) due to high heat index](https://newsinfo.inquirer.net/2336740/walang-pasok-class-suspensions-on-friday-nov-6-due-to-high-heat-index)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Recent extreme heatwaves are no match for future events](https://doi.org/10.1038/s41467-026-76809-5)Aglas-Leitner P et al. · Nature communications · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Evaluating nursing performance during heatwave simulations: Protocol for a repeated measures cross-over study](https://doi.org/10.1371/journal.pone.0359681)Blount H et al. · PloS one · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
@@ -600,6 +602,8 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 
 - 12[UN News (2026). General Assembly backs historic World Court climate crisis ruling.](https://news.un.org/en/story/2026/05/1167561)news.un.orgUsed on: Lancet Countdown 2026, in plain language
 
+- 13[Climate & Health Funders Coalition](https://wellcome.org/engagement-and-advocacy/advocacy-and-partnerships/climate-health-funders-coalition)wellcome.orgUsed on: Lancet Countdown 2026, in plain language · The heat network
+
 - 18[Watts N, Adger WN, Ayeb-Karlsson S, et al. (2017). The Lancet Countdown: tracking progress on health and climate change. Lancet 389: 1151–1164.](https://doi.org/10.1016/S0140-6736(16)32124-9)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 19[Watts N, Amann M, Arnell N, et al. (2021). The 2020 report of The Lancet Countdown on health and climate change: responding to converging crises. Lancet 397: 129–170.](https://doi.org/10.1016/S0140-6736(20)32290-X)doi.orgUsed on: Lancet Countdown 2026, in plain language
@@ -853,8 +857,6 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 - 146[Barange M, Bahri T, Beveridge MCM, et al. (2018). Impacts of climate change on fisheries and aquaculture. FAO.](https://scholar.google.com/scholar?q=Barange%20M%2C%20Bahri%20T%2C%20Beveridge%20MCM%2C%20et%20al..%20Impacts%20of%20climate%20change%20on%20fisheries%20and%20aquaculture.%20FAO.)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
 
 - 147[Bruno JF, Côté IM, Toth LT (2019). Climate change, coral loss, and the curious case of the parrotfish paradigm. Annu Rev Mar Sci 11: 307–334.](https://doi.org/10.1146/annurev-marine-010318-095300)doi.orgUsed on: Lancet Countdown 2026, in plain language
-
-- 13[Climate & Health Funders Coalition](https://wellcome.org/engagement-and-advocacy/advocacy-and-partnerships/climate-health-funders-coalition)wellcome.orgUsed on: Lancet Countdown 2026, in plain language · The heat network
 
 - 148[Copernicus Climate Change Service (2021). ORAS5 global ocean reanalysis monthly data from 1958 to present.](https://scholar.google.com/scholar?q=Copernicus%20Climate%20Change%20Service.%20ORAS5%20global%20ocean%20reanalysis%20monthly%20data%20from%201958%20to%20present.)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
 
@@ -1406,61 +1408,17 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [A-Gas Singapore lifecycle refrigerant management &nbsp;](https://www.agas.com/sg/news-insights/a-gas-supports-customer-with-an-effective-long-term-lifecycle-refrigerant-management-lrm-solution/)agas.comUsed on: The heat economy: what could come up
 
-- [Agence Française de Développement: improving access to drinking water in Dhaka’s informal settlements](https://www.afd.fr/en/projects/improve-access-drinking-water-dhakas-informal-settlements)afd.frUsed on: Find practical actions · market explorer
-
 - [Agence Française de Développement / Proparco &nbsp;](https://www.afd.fr/)afd.frUsed on: Indonesia snapshot
-
-- [Aglas-Leitner et al., Nature Communications, 2026: recent extreme heatwaves are no match for future events](https://www.nature.com/articles/s41467-026-76809-5)nature.comUsed on: Actions
-
-- [Agrawal et al.: Optimization of earth air tunnel parameters, Taguchi method &nbsp;](https://link.springer.com/article/10.1186/s40517-018-0097-0)link.springer.comUsed on: Solutions library
-
-- [Aguilar-Gomez et al., summarised in VoxEU, 2024](https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system)cepr.orgUsed on: Actions · The web
-
-- [Ahmedabad informal-settlement roof study, Vellingiri et al. &nbsp;](https://www.mahilahousingtrust.org/wp-content/uploads/2022/06/MHT_Combating-Climate-Change%E2%80%90induced-Heat-Stress.pdf)mahilahousingtrust.orgUsed on: Solutions library
-
-- [AIDMI, southasiadisasters.net Issue 228: Small Heat Resilience Measures, Big Impact in Small Towns and on Small Businesses in India, 2026](https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and)preventionweb.netUsed on: Find practical actions · Why action stalls · market explorer
-
-- [Air Quality News, 2026: heatwaves drive dangerous ozone pollution across India (npj Clean Air study)](https://airqualitynews.com/news/health-news/heatwaves-drive-dangerous-ozone-pollution-across-india/)airqualitynews.comUsed on: The web
 
 - [AIT/Vital Strategies/BMA heat-health-plan development &nbsp;](https://ait.ac.th/2026/09/ait-vital-strategies-and-bma-advance-bangkok-heat-health-action-plan/)ait.ac.thUsed on: Thailand snapshot
 
-- [AKAH/IIIT-H Garden Housing Society project &nbsp;](https://www.akahindia.org/case_studies_all/urban-heat-island-mitigation-with-cool-roof-at-garden-housing-society-hyderabad/)akahindia.orgUsed on: Solutions library
-
-- [AKU SHAPES participatory heat adaptation trial &nbsp;](https://www.aku.edu/mrtc-pk/research/Pages/Projects/Structural-Heat-Adaptation.aspx)aku.eduUsed on: Solutions library
-
-- [Al-Lame and Al-Saadoon, soil mulch and irrigation, Iraq &nbsp;](https://jouagr.qu.edu.iq/article_167504.html)jouagr.qu.edu.iqUsed on: Solutions library
-
 - [Allied Bank fan replacement programme terms &nbsp;](https://www.abl.com/personal/loans/prime-minister-fan-replacement-program/)abl.comUsed on: The heat economy: what makes markets work
-
-- [All India Disaster Mitigation Institute, 2026](https://aidmi.org/?p=5718)aidmi.orgUsed on: Your city
 
 - [American Red Cross / Global Disaster Preparedness Center &nbsp;](https://preparecenter.org/)preparecenter.orgUsed on: Indonesia snapshot · Nepal snapshot
 
-- [Amnesty International Australia: conditions in Cox’s Bazar](https://www.amnesty.org.au/the-inhumane-conditions-in-coxs-bazar-and-what-must-be-done-to-support-refugees-looking-for-a-dignified-hopeful-future/)amnesty.org.auUsed on: The web
-
-- [Anguelovski et al., Nature Communications, 2022: green gentrification in European and North American cities](https://doi.org/10.1038/s41467-022-31572-1)doi.orgUsed on: Actions · The web · Vicious cycles
-
 - [Ankur Capital &nbsp;](https://www.ankurcapital.com/)ankurcapital.comUsed on: The heat economy: money and support
 
-- [Antara, 2025](https://www.antaranews.com/berita/5178905/pramono-instruksikan-mitigasi-dampak-cuaca-panas-ekstrem-di-jakarta)antaranews.comUsed on: Your city
-
-- [Anticipation Hub](https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi)anticipation-hub.orgUsed on: Your city
-
-- [Anticipation Hub: shock-responsive social protection simulation for anticipatory action in Rajshahi city, Bangladesh](https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf)anticipation-hub.orgUsed on: Actions · Bangladesh snapshot · Glossary · Solutions library · Who could help a household through a hot season
-
-- [Anticipation Hub: the story of heatwave anticipatory action in Dhaka](https://www.anticipation-hub.org/news/the-story-of-heatwave-anticipatory-action-in-dhaka-bangladesh)anticipation-hub.orgUsed on: Find practical actions
-
 - [APAC Sustainable Infrastructure Fund (A-SIF) &nbsp;](https://ir.patrizia.ag/)ir.patrizia.agUsed on: The heat economy: money and support
-
-- [APN and SLYCAN Trust, 2022](https://www.apn-gcr.org/publication/colombo-municipal-council-sri-lanka-integrating-heat-stress-management-into-climate-policies-and-guidelines-for-gender-sensitive-heat-action-plans-in-sri-lanka/)apn-gcr.orgUsed on: Your city
-
-- [AP News, June 2025, via KSAT](https://www.ksat.com/health/2025/06/07/how-an-innovative-portable-shelter-could-help-indias-outdoor-workers-beat-the-heat/)ksat.comUsed on: Find practical actions
-
-- [APN: high temperatures and work-related injuries in Guangzhou, China](https://www.apn-gcr.org/publication/does-hot-weather-affect-work-related-injury-a-case-crossover-study-in-guangzhou-china/)apn-gcr.orgUsed on: The web
-
-- [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/)ipcc.chUsed on: Actions
-
-- [Arab News, 2024: heatwave and election workers’ deaths](https://www.arabnews.com/node/2521366/amp)arabnews.comUsed on: The web
 
 - [Archived copy](https://web.archive.org/web/20240610171553/https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)web.archive.orgUsed on: How heat is reported
 
@@ -1484,13 +1442,7 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Archived copy](https://web.archive.org/web/20250722225809/https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/)web.archive.orgUsed on: How heat is reported
 
-- [Are hotspots and frequencies of heat waves changing over time? &nbsp;](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300070)journals.plos.orgUsed on: Bangladesh snapshot
-
 - [Arçelik Hitachi Home Appliances Sales (Thailand) Ltd. &nbsp;](https://www.hitachi-homeappliances.com/th-en/products/air-conditioners/)hitachi-homeappliances.comUsed on: Thailand snapshot
-
-- [Arizona regulator summer disconnection protection &nbsp;](https://www.azcc.gov/news/home/2026/06/02/acc-reminds-ratepayers-of-summer-utility-disconnection-moratorium--utility-bill-assistance-programs)azcc.govUsed on: Solutions library
-
-- [Arizona State University, 2020](https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation)news.asu.eduUsed on: Cooling options
 
 - [Aruwa Capital Management &nbsp;](https://aruwacapital.com/)aruwacapital.comUsed on: The heat economy: money and support
 
@@ -1498,81 +1450,17 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [ASEAN mARs Guide Version 1 official release &nbsp;](https://theacmf.org/initiatives/sustainable-finance/mitigation-co-benefit-and-adaptation-for-resilience-mars-guide-version-1)theacmf.orgUsed on: The heat economy: what makes markets work
 
-- [Ashtekar et al.: construction-worker cooling garment &nbsp;](https://pubmed.ncbi.nlm.nih.gov/30303042/)pubmed.ncbi.nlm.nih.govUsed on: Solutions library
-
 - [Asian Agri Fire Free Village 2024–2025 &nbsp;](https://www.asianagri.com/en/media-publications/press-release/asian-agri-holds-fire-readiness-drill-in-anticipation-of-dry-season-and-signs-mou-for-fire-free-village-programme-2024-2025/)asianagri.comUsed on: The heat economy: what could come up
-
-- [Asian Development Bank, ICP 2021 results for India](https://icp.adb.org/economies/results/2021ICP_Economy%20results_IND.pdf)icp.adb.orgUsed on: Cooling options
 
 - [Asian Development Bank &nbsp;](https://www.adb.org/)adb.orgUsed on: Thailand snapshot · The heat economy: money and support
 
-- [Asia News Network, 2026: Bangladesh’s mobile signals weaken as blackouts spread](https://asianews.network/?p=269961)asianews.networkUsed on: Glossary · The web
-
 - [Asian Infrastructure Investment Bank &nbsp;](https://www.aiib.org/en/what-we-do/Climate-Focused-Policy-Based-Financing/index.html)aiib.orgUsed on: The heat economy: money and support
 
-- [Asian Institute of Technology](https://ait.ac.th)ait.ac.thUsed on: Thailand snapshot · The heat network
-
-- [Asia-Pacific Network for Global Change Research (APN)](https://www.apn-gcr.org/wp-content/uploads/2025/11/CBA2021-07SY-Magotra-Final-Report-_APN.docx-1.pdf)apn-gcr.orgUsed on: Sri Lanka snapshot · The heat network
-
-- [ATACH Bangladesh heat EAP case &nbsp;](https://www.atachcommunity.com/our-impact/case-studies/case-study/bangladesh-early-action-protocol-for-heat-events/)atachcommunity.comUsed on: Solutions library
-
-- [Atal Bhujal Yojana: India’s scheme for community-led groundwater management](https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management)ceew.inUsed on: Actions
-
-- [Atlantic Council Climate Resilience Center (formerly Arsht-Rock)](https://onebillionresilient.org/project/extreme-heat-protection-initiative/)onebillionresilient.orgUsed on: How heat became visible · The heat network
-
-- [Aung et al., 2026: heat-related health impacts in ASEAN countries, a scoping review](https://researchprofiles.canberra.edu.au/en/publications/heat-related-health-impacts-in-asean-countries-a-scoping-review/)researchprofiles.canberra.edu.auUsed on: The web
-
-- [Australian Government YourHome: insulation &nbsp;](https://www.yourhome.gov.au/passive-design/insulation)yourhome.gov.auUsed on: Solutions library
-
-- [Australian Government YourHome: passive cooling &nbsp;](https://www.yourhome.gov.au/passive-design/passive-cooling)yourhome.gov.auUsed on: Solutions library
-
-- [Australian Government Your Home: Thermal mass &nbsp;](https://www.yourhome.gov.au/passive-design/thermal-mass)yourhome.gov.auUsed on: Solutions library
-
-- [Australian Government Your Home: Ventilation and airtightness &nbsp;](https://www.yourhome.gov.au/passive-design/ventilation-airtightness)yourhome.gov.auUsed on: Solutions library
-
-- [Autopsy findings in heat-related deaths: guidance for recording heat as a cause](https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/)heathealth.infoUsed on: Actions
-
 - [AXA heat cover - original source &nbsp;](https://climate.axa/publications/parametric-insurance-closing-climate-protection-gaps/)climate.axaUsed on: The heat economy: businesses
-
-- [AXA Hong Kong: heatwave parametric product launch &nbsp;](https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance)axa.com.hkUsed on: Solutions library
-
-- [Azhar et al., PLoS ONE, 2014: the 2010 heatwave](https://doi.org/10.1371/journal.pone.0091831)doi.orgUsed on: Plan a response
-
-- [Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) &nbsp;](https://www.bmkg.go.id/)bmkg.go.idUsed on: Heat right now · Indonesia snapshot
-
-- [Bakhtiar and Karim, IFPRI, 2025: extreme heat, schooling and child labour in rural Bangladesh](https://hdl.handle.net/10568/180558)hdl.handle.netUsed on: The web
 
 - [BambooCrete Green Building Systems &nbsp;](https://www.linkedin.com/posts/climatecollectivenetwork_pitch2026-cummins-india-foundation-winners-activity-7495107673592594433-xb4V)linkedin.comUsed on: The heat economy: money and support
 
 - [Bandung green-building regulation &nbsp;](https://peraturan.bpk.go.id/Details/167815/perwali-kota-bandung-no-1023-tahun-2016)peraturan.bpk.go.idUsed on: Indonesia snapshot
-
-- [Bangkok: a master’s thesis on Pathumwananurak Park, built where the Rong Poon community lived](https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok)researchgate.netUsed on: The web
-
-- [Bangkok Metropolitan Administration](https://www.bangkok.go.th)bangkok.go.thUsed on: Thailand snapshot · The heat network
-
-- [Bangkok Metropolitan Administration cooling-centre policy record &nbsp;](https://policy.bangkok.go.th/watch/pub-policy/view?id=P209)policy.bangkok.go.thUsed on: Solutions library
-
-- [Bangladesh Health National Adaptation Plan 2026 &nbsp;](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf)objectstorage.ap-dcc-gazipur-1.oraclecloud15.comUsed on: Bangladesh snapshot
-
-- [Bangladesh Institute of Labour Studies](https://bilsbd.org/news/bils-calls-to-include-informal-sector-in-the-employment-injury-scheme/)bilsbd.orgUsed on: Who could help a household through a hot season
-
-- [Bangladesh Labour Act section 52 - ventilation and temperature &nbsp;](https://bdlaws.minlaw.gov.bd/act-952/section-26468.html)bdlaws.minlaw.gov.bdUsed on: Bangladesh snapshot
-
-- [Bangladesh Labour Act section 58 - drinking water &nbsp;](https://bdlaws.minlaw.gov.bd/act-952/section-26474.html)bdlaws.minlaw.gov.bdUsed on: Bangladesh snapshot
-
-- [Bangladesh Meteorological Department heat-wave warning portal &nbsp;](https://server6.bmd.gov.bd/p/Heat-Wave-Warning/)server6.bmd.gov.bdUsed on: Bangladesh snapshot
-
-- [Bangladesh National Building Code 2020, Part 3 Chapter 4 &nbsp;](https://rmgcode.com/files/safety/bnbc2020/part-3-chapter-4.pdf)rmgcode.comUsed on: Bangladesh snapshot
-
-- [Bangladesh National Cooling Plan for implementation of Montreal Protocol &nbsp;](https://ozonecellbd.org/uploads/publications/b1232-national-cooling-plan_final.pdf)ozonecellbd.orgUsed on: Bangladesh snapshot
-
-- [Bangladesh Post Office](https://go-api.ifrc.org/api/downloadfile/91752/EAP2024BD07_MDRBD038)go-api.ifrc.orgUsed on: Who could help a household through a hot season
-
-- [Bangladesh Red Crescent Society, 2024: Nationwide Heatwave Early Actions/Response: Operations Update-01; 27 April, 2024](https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf)bdrcs.orgUsed on: Who could help a household through a hot season
-
-- [Bank Rakyat Indonesia, 2026: Kredit Usaha Rakyat (KUR)](https://bri.co.id/web/guest/promo-detail/900)bri.co.idUsed on: Who could help a household through a hot season
-
-- [Bara District Administration Office listing of heat-and-drought plan BS2083 &nbsp;](https://daobara.moha.gov.np/en/post/ata-yathha-ka-gara-ma-va-ta-ha-va-ka-lhara-l-heat-wave-ra-khada-ra-ka-l-ga-pa-ra)daobara.moha.gov.npUsed on: Nepal snapshot
 
 - [bbp acquisition - original source &nbsp;](https://bbp.sg/actis-acquires-leading-asia-cooling-systems-energy-efficiency-provider-bbp/)bbp.sgUsed on: The heat economy: businesses · The heat economy: money and support
 
@@ -2510,7 +2398,121 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [OECD Development Centre](https://www.oecd.org/en/publications/securing-the-livelihoods-of-informal-economy-workers-in-times-of-global-changes_7b0d17a9-en/full-report/informal-workers-and-emerging-risks-in-the-era-of-environmental-degradation-and-climate-change_3e3c5b34.html)oecd.orgUsed on: How heat is reported
 
+- [Agence Française de Développement: improving access to drinking water in Dhaka’s informal settlements](https://www.afd.fr/en/projects/improve-access-drinking-water-dhakas-informal-settlements)afd.frUsed on: Find practical actions · market explorer
+
+- [Aglas-Leitner et al., Nature Communications, 2026: recent extreme heatwaves are no match for future events](https://www.nature.com/articles/s41467-026-76809-5)nature.comUsed on: Actions
+
+- [Agrawal et al.: Optimization of earth air tunnel parameters, Taguchi method &nbsp;](https://link.springer.com/article/10.1186/s40517-018-0097-0)link.springer.comUsed on: Solutions library
+
+- [Aguilar-Gomez et al., summarised in VoxEU, 2024](https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system)cepr.orgUsed on: Actions · The web
+
+- [Ahmedabad informal-settlement roof study, Vellingiri et al. &nbsp;](https://www.mahilahousingtrust.org/wp-content/uploads/2022/06/MHT_Combating-Climate-Change%E2%80%90induced-Heat-Stress.pdf)mahilahousingtrust.orgUsed on: Solutions library
+
+- [AIDMI, southasiadisasters.net Issue 228: Small Heat Resilience Measures, Big Impact in Small Towns and on Small Businesses in India, 2026](https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and)preventionweb.netUsed on: Find practical actions · Why action stalls · market explorer
+
+- [Air Quality News, 2026: heatwaves drive dangerous ozone pollution across India (npj Clean Air study)](https://airqualitynews.com/news/health-news/heatwaves-drive-dangerous-ozone-pollution-across-india/)airqualitynews.comUsed on: The web
+
+- [AKAH/IIIT-H Garden Housing Society project &nbsp;](https://www.akahindia.org/case_studies_all/urban-heat-island-mitigation-with-cool-roof-at-garden-housing-society-hyderabad/)akahindia.orgUsed on: Solutions library
+
+- [AKU SHAPES participatory heat adaptation trial &nbsp;](https://www.aku.edu/mrtc-pk/research/Pages/Projects/Structural-Heat-Adaptation.aspx)aku.eduUsed on: Solutions library
+
+- [Al-Lame and Al-Saadoon, soil mulch and irrigation, Iraq &nbsp;](https://jouagr.qu.edu.iq/article_167504.html)jouagr.qu.edu.iqUsed on: Solutions library
+
+- [All India Disaster Mitigation Institute, 2026](https://aidmi.org/?p=5718)aidmi.orgUsed on: Your city
+
+- [Amnesty International Australia: conditions in Cox’s Bazar](https://www.amnesty.org.au/the-inhumane-conditions-in-coxs-bazar-and-what-must-be-done-to-support-refugees-looking-for-a-dignified-hopeful-future/)amnesty.org.auUsed on: The web
+
+- [Anguelovski et al., Nature Communications, 2022: green gentrification in European and North American cities](https://doi.org/10.1038/s41467-022-31572-1)doi.orgUsed on: Actions · The web · Vicious cycles
+
+- [Antara, 2025](https://www.antaranews.com/berita/5178905/pramono-instruksikan-mitigasi-dampak-cuaca-panas-ekstrem-di-jakarta)antaranews.comUsed on: Your city
+
+- [Anticipation Hub](https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi)anticipation-hub.orgUsed on: Your city
+
+- [Anticipation Hub: shock-responsive social protection simulation for anticipatory action in Rajshahi city, Bangladesh](https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf)anticipation-hub.orgUsed on: Actions · Bangladesh snapshot · Glossary · Solutions library · Who could help a household through a hot season
+
+- [Anticipation Hub: the story of heatwave anticipatory action in Dhaka](https://www.anticipation-hub.org/news/the-story-of-heatwave-anticipatory-action-in-dhaka-bangladesh)anticipation-hub.orgUsed on: Find practical actions
+
+- [APN and SLYCAN Trust, 2022](https://www.apn-gcr.org/publication/colombo-municipal-council-sri-lanka-integrating-heat-stress-management-into-climate-policies-and-guidelines-for-gender-sensitive-heat-action-plans-in-sri-lanka/)apn-gcr.orgUsed on: Your city
+
+- [AP News, June 2025, via KSAT](https://www.ksat.com/health/2025/06/07/how-an-innovative-portable-shelter-could-help-indias-outdoor-workers-beat-the-heat/)ksat.comUsed on: Find practical actions
+
+- [APN: high temperatures and work-related injuries in Guangzhou, China](https://www.apn-gcr.org/publication/does-hot-weather-affect-work-related-injury-a-case-crossover-study-in-guangzhou-china/)apn-gcr.orgUsed on: The web
+
+- [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/)ipcc.chUsed on: Actions
+
+- [Arab News, 2024: heatwave and election workers’ deaths](https://www.arabnews.com/node/2521366/amp)arabnews.comUsed on: The web
+
 - [Archived copy](https://web.archive.org/web/20240423054409/https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas)web.archive.orgUsed on: How heat is reported
+
+- [Are hotspots and frequencies of heat waves changing over time? &nbsp;](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300070)journals.plos.orgUsed on: Bangladesh snapshot
+
+- [Arizona regulator summer disconnection protection &nbsp;](https://www.azcc.gov/news/home/2026/06/02/acc-reminds-ratepayers-of-summer-utility-disconnection-moratorium--utility-bill-assistance-programs)azcc.govUsed on: Solutions library
+
+- [Arizona State University, 2020](https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation)news.asu.eduUsed on: Cooling options
+
+- [Ashtekar et al.: construction-worker cooling garment &nbsp;](https://pubmed.ncbi.nlm.nih.gov/30303042/)pubmed.ncbi.nlm.nih.govUsed on: Solutions library
+
+- [Asian Development Bank, ICP 2021 results for India](https://icp.adb.org/economies/results/2021ICP_Economy%20results_IND.pdf)icp.adb.orgUsed on: Cooling options
+
+- [Asia News Network, 2026: Bangladesh’s mobile signals weaken as blackouts spread](https://asianews.network/?p=269961)asianews.networkUsed on: Glossary · The web
+
+- [Asian Institute of Technology](https://ait.ac.th)ait.ac.thUsed on: Thailand snapshot · The heat network
+
+- [Asia-Pacific Network for Global Change Research (APN)](https://www.apn-gcr.org/wp-content/uploads/2025/11/CBA2021-07SY-Magotra-Final-Report-_APN.docx-1.pdf)apn-gcr.orgUsed on: Sri Lanka snapshot · The heat network
+
+- [ATACH Bangladesh heat EAP case &nbsp;](https://www.atachcommunity.com/our-impact/case-studies/case-study/bangladesh-early-action-protocol-for-heat-events/)atachcommunity.comUsed on: Solutions library
+
+- [Atal Bhujal Yojana: India’s scheme for community-led groundwater management](https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management)ceew.inUsed on: Actions
+
+- [Atlantic Council Climate Resilience Center (formerly Arsht-Rock)](https://onebillionresilient.org/project/extreme-heat-protection-initiative/)onebillionresilient.orgUsed on: How heat became visible · The heat network
+
+- [Aung et al., 2026: heat-related health impacts in ASEAN countries, a scoping review](https://researchprofiles.canberra.edu.au/en/publications/heat-related-health-impacts-in-asean-countries-a-scoping-review/)researchprofiles.canberra.edu.auUsed on: The web
+
+- [Australian Government YourHome: insulation &nbsp;](https://www.yourhome.gov.au/passive-design/insulation)yourhome.gov.auUsed on: Solutions library
+
+- [Australian Government YourHome: passive cooling &nbsp;](https://www.yourhome.gov.au/passive-design/passive-cooling)yourhome.gov.auUsed on: Solutions library
+
+- [Australian Government Your Home: Thermal mass &nbsp;](https://www.yourhome.gov.au/passive-design/thermal-mass)yourhome.gov.auUsed on: Solutions library
+
+- [Australian Government Your Home: Ventilation and airtightness &nbsp;](https://www.yourhome.gov.au/passive-design/ventilation-airtightness)yourhome.gov.auUsed on: Solutions library
+
+- [Autopsy findings in heat-related deaths: guidance for recording heat as a cause](https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/)heathealth.infoUsed on: Actions
+
+- [AXA Hong Kong: heatwave parametric product launch &nbsp;](https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance)axa.com.hkUsed on: Solutions library
+
+- [Azhar et al., PLoS ONE, 2014: the 2010 heatwave](https://doi.org/10.1371/journal.pone.0091831)doi.orgUsed on: Plan a response
+
+- [Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) &nbsp;](https://www.bmkg.go.id/)bmkg.go.idUsed on: Heat right now · Indonesia snapshot
+
+- [Bakhtiar and Karim, IFPRI, 2025: extreme heat, schooling and child labour in rural Bangladesh](https://hdl.handle.net/10568/180558)hdl.handle.netUsed on: The web
+
+- [Bangkok: a master’s thesis on Pathumwananurak Park, built where the Rong Poon community lived](https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok)researchgate.netUsed on: The web
+
+- [Bangkok Metropolitan Administration](https://www.bangkok.go.th)bangkok.go.thUsed on: Thailand snapshot · The heat network
+
+- [Bangkok Metropolitan Administration cooling-centre policy record &nbsp;](https://policy.bangkok.go.th/watch/pub-policy/view?id=P209)policy.bangkok.go.thUsed on: Solutions library
+
+- [Bangladesh Health National Adaptation Plan 2026 &nbsp;](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf)objectstorage.ap-dcc-gazipur-1.oraclecloud15.comUsed on: Bangladesh snapshot
+
+- [Bangladesh Institute of Labour Studies](https://bilsbd.org/news/bils-calls-to-include-informal-sector-in-the-employment-injury-scheme/)bilsbd.orgUsed on: Who could help a household through a hot season
+
+- [Bangladesh Labour Act section 52 - ventilation and temperature &nbsp;](https://bdlaws.minlaw.gov.bd/act-952/section-26468.html)bdlaws.minlaw.gov.bdUsed on: Bangladesh snapshot
+
+- [Bangladesh Labour Act section 58 - drinking water &nbsp;](https://bdlaws.minlaw.gov.bd/act-952/section-26474.html)bdlaws.minlaw.gov.bdUsed on: Bangladesh snapshot
+
+- [Bangladesh Meteorological Department heat-wave warning portal &nbsp;](https://server6.bmd.gov.bd/p/Heat-Wave-Warning/)server6.bmd.gov.bdUsed on: Bangladesh snapshot
+
+- [Bangladesh National Building Code 2020, Part 3 Chapter 4 &nbsp;](https://rmgcode.com/files/safety/bnbc2020/part-3-chapter-4.pdf)rmgcode.comUsed on: Bangladesh snapshot
+
+- [Bangladesh National Cooling Plan for implementation of Montreal Protocol &nbsp;](https://ozonecellbd.org/uploads/publications/b1232-national-cooling-plan_final.pdf)ozonecellbd.orgUsed on: Bangladesh snapshot
+
+- [Bangladesh Post Office](https://go-api.ifrc.org/api/downloadfile/91752/EAP2024BD07_MDRBD038)go-api.ifrc.orgUsed on: Who could help a household through a hot season
+
+- [Bangladesh Red Crescent Society, 2024: Nationwide Heatwave Early Actions/Response: Operations Update-01; 27 April, 2024](https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf)bdrcs.orgUsed on: Who could help a household through a hot season
+
+- [Bank Rakyat Indonesia, 2026: Kredit Usaha Rakyat (KUR)](https://bri.co.id/web/guest/promo-detail/900)bri.co.idUsed on: Who could help a household through a hot season
+
+- [Bara District Administration Office listing of heat-and-drought plan BS2083 &nbsp;](https://daobara.moha.gov.np/en/post/ata-yathha-ka-gara-ma-va-ta-ha-va-ka-lhara-l-heat-wave-ra-khada-ra-ka-l-ga-pa-ra)daobara.moha.gov.npUsed on: Nepal snapshot
 
 - [Barcelos et al., natural and artificial shade, 2026 &nbsp;](https://pubmed.ncbi.nlm.nih.gov/41510615/)pubmed.ncbi.nlm.nih.govUsed on: Solutions library
 
@@ -4716,15 +4718,15 @@ Organisations working on extreme heat, as listed in The heat network. Listing on
 
 Services the site reads from as you use it.
 
-- [Australian Bureau of Meteorology: Thermal comfort observations, about the approximation to the WBGT](http://www.bom.gov.au/info/thermal_stress/)bom.gov.auUsed on: Heat right now
-
-- [Bangladesh Meteorological Department](https://www.bmd.gov.bd/)bmd.gov.bdUsed on: Heat right now
-
 - [data.gov.sg: Singapore's measured wet-bulb globe temperature](https://data.gov.sg/)data.gov.sgUsed on: Heat right now
 
 - [Europe PMC REST API: new research with an Asian setting](https://europepmc.org/RestfulWebService)europepmc.orgUsed on: Heat in the news
 
 - [The GDELT Project: global news monitoring](https://www.gdeltproject.org/)gdeltproject.orgUsed on: Heat in the news
+
+- [Australian Bureau of Meteorology: Thermal comfort observations, about the approximation to the WBGT](http://www.bom.gov.au/info/thermal_stress/)bom.gov.auUsed on: Heat right now
+
+- [Bangladesh Meteorological Department](https://www.bmd.gov.bd/)bmd.gov.bdUsed on: Heat right now
 
 - [BMD heatwave bands, as reported by Prothom Alo](https://en.prothomalo.com/environment/lsjp2c74gu)en.prothomalo.comUsed on: Heat right now
 
