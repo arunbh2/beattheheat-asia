@@ -1,0 +1,46 @@
+{
+ "about": "Insights from 'The Standardized Soil Moisture-Temperature Compound Index (SSTCI): daily scale global data set and event catalogue for compound dry-hot extremes (1961-2023)', Earth System Science Data 18, 7981-8002, 2026 (published 3 November 2026, CC BY 4.0), DOI 10.5194/essd-18-7981-2026, supplied by the owner as a PDF. A daily, global estimate from reanalysis (ERA5-Land soil moisture and ERA5 maximum temperature), not station measurements; it reports no country-level result for South or Southeast Asia, and its one Asian hotspot is China's Yangtze River Basin. stage.js writes data/inbox/2026-11-compound-dry-hot/sources.json; verify-sources.yml checks each term on the publisher's open PDF; apply.js uses only confirmed claims. What was held back is in ledger.md.",
+ "sources": [
+  {
+   "key": "essd-pdf",
+   "title": "The Standardized Soil Moisture-Temperature Compound Index (SSTCI): daily scale global data set and event catalogue for compound dry-hot extremes (1961-2023)",
+   "publisher": "Earth System Science Data (Copernicus), open access",
+   "year": 2026,
+   "kind": "Peer-reviewed data set paper (open-access full text)",
+   "url": "https://essd.copernicus.org/articles/18/7981/2026/essd-18-7981-2026.pdf",
+   "expect": [
+    "Standardized Soil Moisture-Temperature Compound Index"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "c-together",
+   "where": "Consequence drysoil",
+   "text": "In hotspot regions, compound dry-hot events have become more frequent in the recent warming period (2000-2023) than in 1961-1999, and their joint occurrence rises faster than the two drivers alone would imply.",
+   "rests_on": [
+    ["essd-pdf", "Compound dry-hot extremes"],
+    ["essd-pdf", "recent warming period"],
+    ["essd-pdf", "joint occurrence rises faster than the independent combination"]
+   ]
+  },
+  {
+   "id": "c-yangtze",
+   "where": "Consequence drysoil",
+   "text": "In China's Yangtze River Basin, the median event count per grid cell rose from 10 in 1961-1999 to 21 in 2000-2023.",
+   "rests_on": [
+    ["essd-pdf", "Yangtze River Basin"],
+    ["essd-pdf", "increasing from 10 to 21 events"]
+   ]
+  },
+  {
+   "id": "c-limit",
+   "where": "Consequence drysoil",
+   "text": "The data set is built from reanalysis and does not represent irrigation.",
+   "rests_on": [
+    ["essd-pdf", "reanalysis"],
+    ["essd-pdf", "explicit irrigation scheme"]
+   ]
+  }
+ ]
+}
