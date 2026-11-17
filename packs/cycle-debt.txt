@@ -31,7 +31,7 @@ STUDIES BEHIND IT
 - American Red Cross, Red Cross Red Crescent Climate Centre, Nepal Red Cross Society and Bangladesh Red Crescent Society, 2026: The lived experiences of vulnerable populations in the context of extreme heat: five cities in Nepal and Bangladesh. In a survey of more than 2,000 residents of five cities, heat harmed health, cut incomes and working hours, and pushed some households towards high-interest loans. Women and people with disabilities faced the hardest trade-offs between health, work and care. Where: Five cities in Nepal and Bangladesh. Limit it states: Reported experiences; it does not measure how often loans followed heat. [https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/]
 
 ACTIONS THAT COULD INTERRUPT IT
-- Heat-safe work: Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.
+- Heat-safe work: Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay. Watch for: Protections work only when workers can use them. In Hong Kong, some outdoor cleaners given cooling vests were stopped from wearing them because the vests covered a company logo; in Cambodia, researchers found workers whose unions had bargained over heat exposure better protected, as Oxfam America reports. [https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/]
 - Free care for heat illness: Covering emergency treatment for heat illness stops one bad day from becoming years of debt.
 
 SOURCES
@@ -43,3 +43,4 @@ SOURCES
 - NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India: https://niua.in/publication-details/Heat_Resilient_Cities_Framework
 - Human Rights Watch, 2025: Microfinance debt in Cambodia: https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous
 - American Red Cross, Red Cross Red Crescent Climate Centre, Nepal Red Cross Society and Bangladesh Red Crescent Society, 2026: The lived experiences of vulnerable populations in the context of extreme heat: five cities in Nepal and Bangladesh: https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/
+- Oxfam America, Politics of Poverty, 2026: the unequal burden of extreme heat at work: https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/

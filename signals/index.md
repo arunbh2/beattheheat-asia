@@ -1,7 +1,7 @@
 ---
 title: "Signals: which way heat policy is moving"
 url: https://beattheheat.asia/signals/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -154,16 +154,16 @@ Finding[COP31 watch](#cop31)Latest development 9 November 2026
 
 World Meteorological Organization Global
 
-By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027.
+By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027. WMO calls it a risk multiplier for health, and reports that WHO has, for the first time, classified the anticipated health impacts as a health emergency.
 
 What to watchEarly warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016.
 
 Sources and review
 
-- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 9 November 2026
+- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 17 November 2026
 - [WMO: El Niño/La Niña Update, August 2026](https://wmo.int/node/38928) Originalchecked 9 November 2026
 
-ReviewRecord last reviewed 16 November 2026. Sources last checked 9 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+ReviewRecord last reviewed 17 November 2026. Sources last checked 17 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
 
 Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
@@ -173,17 +173,17 @@ Finding[COP31 watch](#cop31)Latest development 9 November 2026
 
 World Meteorological Organization Global
 
-WMO's State of the Climate Update 2026, released as COP31 opened, finds that the past 12 years have each been the warmest on record and the past four the top four. The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average. In early November the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record.
+WMO's State of the Climate Update 2026, released as COP31 opened, finds that the past 12 years have each been the warmest on record and the past four the top four. The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average. In early November the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record. It estimates that 146.5 million people in India were exposed to extreme heat in an April 2026 heatwave, and that the number of countries reporting multi-hazard early warning systems rose from 56 in 2015 to 136 in 2025.
 
 What to watchA finding, not a commitment: watch whether heat plans and budgets are sized for the heat these years now bring, not the heat people remember.
 
 Sources and review
 
-- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 9 November 2026
+- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 17 November 2026
 - [WMO: State of the Climate Update for COP31](https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31) Originalchecked 9 November 2026
 - [AFP via The Korea Times, 2026: 2026 most likely to be second-hottest year on record](https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor) Secondarychecked 9 November 2026
 
-ReviewRecord last reviewed 16 November 2026. Sources last checked 9 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+ReviewRecord last reviewed 17 November 2026. Sources last checked 17 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
 
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 

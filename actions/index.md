@@ -1,7 +1,7 @@
 ---
 title: "Actions that break the vicious cycles of extreme heat | Common Shade"
 url: https://beattheheat.asia/actions/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -280,6 +280,10 @@ Cuts the link: Informal workers can’t stop work → Heatstroke and heat exhaus
 **In practice:** Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78, and that September revised the rules to follow its three-level heat stress advisory, recommending at least 15 minutes’ rest an hour for heavy work at 33 °C or above. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.
 
 Sources: [Singapore Ministry of Manpower, 2023](https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers) · [Ministry of Manpower: revised heat stress framework, 2024](https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress) · [HRD Asia: 78 worksites found non-compliant](https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570) · [Garrigues on Spain’s 2023 decree](https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect) · [Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024](https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+
+**Watch for:** Protections work only when workers can use them. In Hong Kong, some outdoor cleaners given cooling vests were stopped from wearing them because the vests covered a company logo; in Cambodia, researchers found workers whose unions had bargained over heat exposure better protected, as Oxfam America reports.
+
+Sources: [Oxfam America, Politics of Poverty, 2026: the unequal burden of extreme heat at work](https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/)
 
 ### Practical guides
 

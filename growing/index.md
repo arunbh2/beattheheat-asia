@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 65 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 67 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-65 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,116 works the commons draws on carry a publication date, and 808 are still being dated.
+67 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -73,6 +73,74 @@ See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-1
 [Open the listing](https://beattheheat.asia/heat-tools/chirts_era5/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20daily%20heat%20data%20set%20covering%20the%20region%2C%20in%20the%20Heat%20Tool%20Finder&ref=g-chirts-era5#way-share)
+
+Evidence added · Experience
+
+### Heat-safe work: protections that workers cannot use
+
+Added 17 November 2026 · Oxfam America, Politics of Poverty: the unequal burden of extreme heat at work November 2026
+
+Why it matters our readingHeat-safe work now carries a watch-out, checked against an Oxfam America post: in Hong Kong some outdoor cleaners given cooling vests were stopped from wearing them because the vests covered a company logo, and in Cambodia workers whose unions had bargained over heat exposure were better protected. Equipment and rules help only where workers have the room to use them.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat-safe work
+
+ReviewSeven terms found on the post; two claims confirmed; the ILO exposure figure, an unlinked garment-brand study and examples outside the region are held back in the batch ledger. 1 checked · 1 confirmed.
+
+What it took to add this
+
+- **The question.** What does an advocacy post on heat at work add for workers in South and Southeast Asia?
+- **The search.** 1 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 1 confirmed.
+
+- **What is still open.** The Cambodia study itself, and whether Hong Kong's sensor and smartwatch alerts changed how often cleaners rested.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-oxfam-heat-work/link-check.json)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+A watch-out: protections that workers are not able to use.
+
+[See Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat-safe%20work%3A%20protections%20that%20workers%20cannot%20use&ref=g-oxfam-heat-work#way-share)
+
+Evidence added · Evidence
+
+### The year's climate findings: India's April heat, early warnings and El Niño's health risks
+
+Added 17 November 2026 · WMO State of the Climate Update 2026, released as COP31 opened November 2026
+
+Why it matters our readingTwo Signals records now carry more from WMO's State of the Climate Update 2026, checked against its press release: an estimated 146.5 million people in India exposed to extreme heat in an April 2026 heatwave, countries reporting multi-hazard early warning systems up from 56 in 2015 to 136 in 2025, and WHO's first classification of El Niño's anticipated health impacts as a health emergency.
+
+- India
+- South and Southeast Asia
+- Anticipatory action
+
+ReviewEight terms found on WMO's press release; three claims confirmed; the Nepal glacier collapse, quotations and figures outside the heat focus are held back in the batch ledger. 1 checked · 1 confirmed.
+
+What it took to add this
+
+- **The question.** What in WMO's State of the Climate Update bears on heat in South and Southeast Asia beyond the headline temperature?
+- **The search.** 1 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 1 confirmed.
+
+- **What is still open.** How many people in Southeast Asia were exposed to extreme heat in 2026, and whether early warning systems reach people working outdoors.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-wmo-soc-heat/link-check.json)
+
+How it connects
+
+- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · from the site's records
+Early warning systems reported by more countries.
+
+[See the records on Signals](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20year's%20climate%20findings%3A%20India's%20April%20heat%2C%20early%20warnings%20and%20El%20Ni%C3%B1o's%20health%20risks&ref=g-wmo-soc-heat#way-share)
 
 Tool improved · Evidence
 
@@ -2079,13 +2147,13 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-240 works published, 141 of them with a known month; 1,116 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+241 works published, 141 of them with a known month; 1,117 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
 - Evidence405
 - Experience98
-- Practical measures246
+- Practical measures247
 - Institutions and plans138
 - Financing229
 

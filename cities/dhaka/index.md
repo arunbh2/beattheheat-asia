@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Dhaka: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/dhaka/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -54,7 +54,7 @@ No checked estimate found yet for this city.
 
 Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for. What shade, parks and reflective roofs have been measured to do in Asian cities: [what has been measured, and where](https://beattheheat.asia/cooling-options/#measured).
 
-**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Free care for heat illness](https://beattheheat.asia/actions/#freecare) · [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
+**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) (watch for side effects) · [Free care for heat illness](https://beattheheat.asia/actions/#freecare) · [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
 
 **Over the next few years:** [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) (watch for side effects) · [Social protection floors](https://beattheheat.asia/actions/#socialprotection) · [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool) (watch for side effects)
 

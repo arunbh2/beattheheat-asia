@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Bangkok: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/bangkok/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -117,7 +117,7 @@ Heat deaths, about 593 a year, cost up to 0.7% of the city’s economy: more tha
 
 Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for. What shade, parks and reflective roofs have been measured to do in Asian cities: [what has been measured, and where](https://beattheheat.asia/cooling-options/#measured).
 
-**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
+**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) (watch for side effects) · [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 
 **Over the next few years:** [Green without pushing people out](https://beattheheat.asia/actions/#fairgreen) · [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) (watch for side effects) · [Social protection floors](https://beattheheat.asia/actions/#socialprotection) · [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget) · [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 

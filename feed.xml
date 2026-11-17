@@ -22,6 +22,20 @@
     <summary>The Heat Tool Finder now lists CHIRTS-ERA5 from the Climate Hazards Center, a quasi-global daily grid of maximum and minimum temperature, heat index and WBGT, checked against the provider's own page. It is listed as an estimate for analysts, not tested and not locally validated, with its licence not yet verified.</summary>
   </entry>
   <entry>
+    <title>Heat-safe work: protections that workers cannot use</title>
+    <link href="https://beattheheat.asia/growing/#g-oxfam-heat-work" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-oxfam-heat-work</id>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <summary>Heat-safe work now carries a watch-out, checked against an Oxfam America post: in Hong Kong some outdoor cleaners given cooling vests were stopped from wearing them because the vests covered a company logo, and in Cambodia workers whose unions had bargained over heat exposure were better protected. Equipment and rules help only where workers have the room to use them.</summary>
+  </entry>
+  <entry>
+    <title>The year's climate findings: India's April heat, early warnings and El Niño's health risks</title>
+    <link href="https://beattheheat.asia/growing/#g-wmo-soc-heat" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-wmo-soc-heat</id>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <summary>Two Signals records now carry more from WMO's State of the Climate Update 2026, checked against its press release: an estimated 146.5 million people in India exposed to extreme heat in an April 2026 heatwave, countries reporting multi-hazard early warning systems up from 56 in 2015 to 136 in 2025, and WHO's first classification of El Niño's anticipated health impacts as a health emergency.</summary>
+  </entry>
+  <entry>
     <title>Signals now shows what the evidence confirms for each promise</title>
     <link href="https://beattheheat.asia/growing/#g-signals-evidence-records" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-signals-evidence-records</id>
@@ -202,19 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-faster-pages</id>
     <updated>2026-11-13T00:00:00Z</updated>
     <summary>A page of the site now starts loading the moment a reader presses on a link to it, and the longest lists lay out only the cards near the screen. On a slowed phone the solutions list opened in about 830 ms instead of 1,120 ms.</summary>
-  </entry>
-  <entry>
-    <title>A page for the AI agents that read the site</title>
-    <link href="https://beattheheat.asia/growing/#g-for-ai" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-for-ai</id>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary>More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.</summary>
-  </entry>
-  <entry>
-    <title>Are heat plans budgeted, or only hoped for?</title>
-    <link href="https://beattheheat.asia/growing/#g-heat-plan-running-costs" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-heat-plan-running-costs</id>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <summary>After Bangkok's strategy found money to build but not always to run, a reading of heat plans from India and Bangladesh showed a nearby pattern: costs and potential funders are named, but budgets that recur each season rarely are. Each claim was written from passages checked on GitHub.</summary>
   </entry>
 </feed>

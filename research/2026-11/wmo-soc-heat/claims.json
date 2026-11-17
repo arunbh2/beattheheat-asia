@@ -1,0 +1,34 @@
+{
+ "about": "Further insights from WMO's press release on the State of the Climate Update 2026 (9 November 2026), already a source on Signals for its headline figures (checked in data/inbox/2026-11-signals-cop31-2). This batch checks only the terms the new points rest on: India's April 2026 heat exposure, the growth in multi-hazard early warning systems, and WHO's first classification of El Nino's anticipated health impacts as a health emergency. What was held back is in ledger.md.",
+ "sources": [
+  {
+   "key": "wmo-press",
+   "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+   "publisher": "World Meteorological Organization",
+   "year": 2026,
+   "kind": "Press release (original)",
+   "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+   "expect": ["State of the Climate Update 2026"]
+  }
+ ],
+ "claims": [
+  {
+   "id": "c-india",
+   "where": "Signals sig-wmo-state-of-climate-2026 summary",
+   "text": "An estimated 146.5 million people in India were exposed to extreme heat in an April 2026 heatwave.",
+   "rests_on": [["wmo-press", "146.5 million"], ["wmo-press", "April 2026 heatwave"]]
+  },
+  {
+   "id": "c-mhews",
+   "where": "Signals sig-wmo-state-of-climate-2026 summary",
+   "text": "Countries reporting multi-hazard early warning systems rose from 56 in 2015 to 136 in 2025.",
+   "rests_on": [["wmo-press", "multi-hazard early warning systems"], ["wmo-press", "from 56 in 2015 to 136 in 2025"]]
+  },
+  {
+   "id": "c-who",
+   "where": "Signals sig-el-nino-2026-2027 summary",
+   "text": "WHO has, for the first time, classified the anticipated health impacts of El Nino as a health emergency.",
+   "rests_on": [["wmo-press", "for the first time"], ["wmo-press", "health emergency"], ["wmo-press", "risk multiplier for health"]]
+  }
+ ]
+}

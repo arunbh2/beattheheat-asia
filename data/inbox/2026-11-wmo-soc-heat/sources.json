@@ -1,0 +1,32 @@
+[
+ {
+  "id": "src-wmo-wmo-press",
+  "type": "source",
+  "keys": [
+   "wmo-press"
+  ],
+  "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+  "kind": "Press release (original)",
+  "where": "Global, with India",
+  "expect": [
+   "State of the Climate Update 2026",
+   "146.5 million",
+   "April 2026 heatwave",
+   "multi-hazard early warning systems",
+   "from 56 in 2015 to 136 in 2025",
+   "for the first time",
+   "health emergency",
+   "risk multiplier for health"
+  ],
+  "claims": [
+   "c-india",
+   "c-mhews",
+   "c-who"
+  ],
+  "note": "Staged from the WMO State of the Climate heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115080738/https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+ }
+]

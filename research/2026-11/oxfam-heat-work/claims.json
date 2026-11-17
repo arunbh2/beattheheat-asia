@@ -1,0 +1,28 @@
+{
+ "about": "Insights from Oxfam America's Politics of Poverty blog, 'The unequal burden of extreme heat at work' (2 November 2026), supplied by the owner with its address. An advocacy organisation's blog reporting its own programme work and others' research; the site attributes each point to it ('as reported by Oxfam America'). Only the two Asian examples are used, as a 'Watch for' on the Heat-safe work lever. What was held back is in ledger.md.",
+ "sources": [
+  {
+   "key": "oxfam",
+   "title": "The unequal burden of extreme heat at work",
+   "publisher": "Oxfam America, Politics of Poverty",
+   "year": 2026,
+   "kind": "Advocacy organisation blog",
+   "url": "https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/",
+   "expect": ["unequal burden of extreme heat at work"]
+  }
+ ],
+ "claims": [
+  {
+   "id": "c-vests",
+   "where": "Lever heatrules watch",
+   "text": "In Hong Kong, some outdoor cleaners issued cooling vests were then prevented from wearing them because the vests obscured a company logo.",
+   "rests_on": [["oxfam", "Hong Kong"], ["oxfam", "outdoor cleaners"], ["oxfam", "cooling vests"], ["oxfam", "company logo"]]
+  },
+  {
+   "id": "c-unions",
+   "where": "Lever heatrules watch",
+   "text": "Researchers studying workers in Cambodia across multiple sectors found that those whose unions had bargained over heat exposure were better protected than those without.",
+   "rests_on": [["oxfam", "Cambodia"], ["oxfam", "bargained over heat exposure"]]
+  }
+ ]
+}
