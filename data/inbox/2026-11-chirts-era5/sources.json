@@ -1,0 +1,90 @@
+[
+ {
+  "id": "src-chirts-chc-499",
+  "type": "source",
+  "keys": [
+   "chc-499"
+  ],
+  "title": "Climate Hazards Center page (node 499)",
+  "publisher": "UC Santa Barbara Climate Hazards Center",
+  "year": null,
+  "url": "https://chc.ucsb.edu/node/499",
+  "kind": "Provider page",
+  "where": "Global land",
+  "expect": [
+   "CHIRTS-ERA5",
+   "Heat Index",
+   "latency",
+   "WBGT"
+  ],
+  "claims": [
+   "p-product"
+  ],
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-chirts-chc-404",
+  "type": "source",
+  "keys": [
+   "chc-404"
+  ],
+  "title": "Climate Hazards Center page (node 404)",
+  "publisher": "UC Santa Barbara Climate Hazards Center",
+  "year": null,
+  "url": "https://www.chc.ucsb.edu/node/404",
+  "kind": "Provider page",
+  "where": "Global land",
+  "expect": [
+   "CHIRTS",
+   "Heat Monitor",
+   "80th percentile"
+  ],
+  "claims": [
+   "p-monitor"
+  ],
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-chirts-chc-418",
+  "type": "source",
+  "keys": [
+   "chc-418"
+  ],
+  "title": "Climate Hazards Center page (node 418)",
+  "publisher": "UC Santa Barbara Climate Hazards Center",
+  "year": null,
+  "url": "https://chc.ucsb.edu/node/418",
+  "kind": "Provider page",
+  "where": "Global land",
+  "expect": [
+   "CHIRTS",
+   "CHIRTS-ERA5",
+   "experimental"
+  ],
+  "claims": [
+   "p-418"
+  ],
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-chirts-chc-data",
+  "type": "source",
+  "keys": [
+   "chc-data"
+  ],
+  "title": "Climate Hazards Center data",
+  "publisher": "UC Santa Barbara Climate Hazards Center",
+  "year": null,
+  "url": "https://www.chc.ucsb.edu/data",
+  "kind": "Provider data page",
+  "where": "Global land",
+  "expect": [
+   "CHIRTS",
+   "CHIRTS-ERA5"
+  ],
+  "claims": [
+   "p-data"
+  ],
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
