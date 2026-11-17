@@ -1,0 +1,29 @@
+[
+ {
+  "id": "src-oxw-oxfam",
+  "type": "source",
+  "keys": [
+   "oxfam"
+  ],
+  "title": "The unequal burden of extreme heat at work",
+  "publisher": "Oxfam America, Politics of Poverty",
+  "year": 2026,
+  "url": "https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/",
+  "kind": "Advocacy organisation blog",
+  "where": "Workplaces",
+  "expect": [
+   "unequal burden of extreme heat at work",
+   "Hong Kong",
+   "outdoor cleaners",
+   "cooling vests",
+   "company logo",
+   "Cambodia",
+   "bargained over heat exposure"
+  ],
+  "claims": [
+   "c-vests",
+   "c-unions"
+  ],
+  "note": "Staged from the Oxfam heat-at-work batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
