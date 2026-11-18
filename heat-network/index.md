@@ -1,11 +1,11 @@
 ---
 title: "Organisations working on extreme heat | Common Shade"
 url: https://beattheheat.asia/heat-network/
-updated: 2026-11-17
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> 334 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+> 335 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Who could we work with?
 
@@ -19,7 +19,7 @@ Organisations already at work, by the part they play.
 
 # Organisations working on extreme heat
 
-334 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+335 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
 
@@ -328,6 +328,9 @@ Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Backup po
 - [Delhi Urban Shelter Improvement Board](https://delhishelterboard.in/main/wp-content/uploads/2021/02/Plan-Write-up-DUSIB-2020-21-Housing.pdf) (Demand): Provides heat-season shelter arrangements and public shelter information.
 Government bodyIndia
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
+- [National Institute of Urban Affairs, Climate Centre for Cities (C-Cube)](https://niua.in/c-cube) (Supply): Works with Indian cities on climate action. Its heat work includes the Heat Resilient Cities Framework and a Building Heat Resilient Cities programme, and it publishes free learning notes for city officials.
+Research bodyIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 
 ## Research and evidence
 

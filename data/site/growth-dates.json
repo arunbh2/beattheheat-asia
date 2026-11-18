@@ -7140,6 +7140,30 @@
    "how": "url"
   },
   {
+   "url": "https://niua.in/c-cube",
+   "label": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube)",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer",
+   "label": "Cities and Climate Fundamentals Primer, the first of four learning notes",
+   "root": "practical",
+   "org": false,
+   "date": "2026-11-18",
+   "precision": "day",
+   "how": "online"
+  },
+  {
+   "url": "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities",
+   "label": "National Institute of Urban Affairs, Climate Centre for Cities, 2026: Climate Change Adaptation Actions in Indian Cities, Learning Note 2 (pp. 34, 51)",
+   "root": "evidence",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework",
    "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India",
    "root": "evidence",

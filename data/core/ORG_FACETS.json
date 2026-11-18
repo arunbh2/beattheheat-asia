@@ -329,6 +329,7 @@
  "delhijalboard": {"countries":["IN"],"basis":"text","type":"government","scale":"subnational","link":"work","checked":"2026-11-17"},
  "bsesdelhidistributionuti": {"countries":["IN"],"basis":"text","type":"company","scale":"subnational","link":"work","checked":"2026-11-17"},
  "delhiurbanshelterimprove": {"countries":["IN"],"basis":"text","type":"government","scale":"subnational","link":"work","checked":"2026-11-17"},
+ "niua-ccube": {"countries":["IN"],"basis":"text","type":"research","scale":"country","link":"work"},
  "nipponpaintindia": {"countries":["IN"],"basis":"text","type":"company","scale":"country","link":"home","checked":"2026-11-14"},
  "haqdarshak": {"countries":["IN"],"basis":"text","type":"ngo","scale":"country","link":"home","checked":"2026-11-14"},
  "healthserve": {"countries":["SG"],"basis":"text","type":"ngo","scale":"country","link":"work","linkStatus":"blocked"},

@@ -1,7 +1,7 @@
 ---
 title: "Fund and build"
 url: https://beattheheat.asia/fund/
-updated: 2026-11-07
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -27,7 +27,7 @@ Where money for protection comes from, where it reaches, and what to ask before 
 ## Also in Fund and build
 
 - [Businesses91 businesses offering protectionOn the path for: Employers](https://beattheheat.asia/heat-economy/businesses/)
-- [The heat network334 organisations already at workOn the path for: Communities](https://beattheheat.asia/heat-network/)
+- [The heat network335 organisations already at workOn the path for: Communities](https://beattheheat.asia/heat-network/)
 - [Paying for protection, as textCases and instruments in plain text](https://beattheheat.asia/paying-for-protection/)
 
 ## Paths through this group

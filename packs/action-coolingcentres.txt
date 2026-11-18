@@ -35,6 +35,7 @@ VICIOUS CYCLES IT COULD HELP INTERRUPT
 GUIDES
 - US Centers for Disease Control and Prevention, in the GHHIN resource library: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation [https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf]
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6) [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as cooling centres created, with what changes for people (pp. 51-54) [https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities]
 
 SOURCES
 - Narayanganj City Corporation: Heat Action Plan, 2025: https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf
@@ -42,3 +43,4 @@ SOURCES
 - UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026: https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf
 - US Centers for Disease Control and Prevention, in the GHHIN resource library: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation: https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6): https://niua.in/publication-details/Heat_Resilient_Cities_Framework
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as cooling centres created, with what changes for people (pp. 51-54): https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities

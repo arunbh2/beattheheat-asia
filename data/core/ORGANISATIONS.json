@@ -2640,6 +2640,14 @@
     "levers": ["affordablecool","coolhousing","coolnights"]
   },
   {
+    "id": "niua-ccube",
+    "role": "asia",
+    "name": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube)",
+    "url": "https://niua.in/c-cube",
+    "does": "Works with Indian cities on climate action. Its heat work includes the Heat Resilient Cities Framework and a Building Heat Resilient Cities programme, and it publishes free learning notes for city officials.",
+    "levers": ["hap","coolbydesign","greencity"]
+  },
+  {
     "id": "nipponpaintindia",
     "role": "cooling",
     "name": "Nippon Paint India",

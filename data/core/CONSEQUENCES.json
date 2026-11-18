@@ -508,7 +508,7 @@
     "id": "uhi",
     "sys": "cities",
     "label": "Urban heat\nislands",
-    "desc": "Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect.",
+    "desc": "Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect. Within a city, heat stress varies from ward to ward and is far greater in densely built areas with little vegetation. In the reading of India's National Institute of Urban Affairs, shade, trees and cool spaces designed without people in informal settlements in mind may do little for those most at risk.",
     "sources": [
       {
         "label": "Cooling Singapore, citing Chow and Roth, 2006",
@@ -517,6 +517,10 @@
       {
         "label": "Tamil Nadu State Planning Commission, 2024",
         "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      },
+      {
+        "label": "National Institute of Urban Affairs, Climate Centre for Cities, 2026: Climate Change Adaptation Actions in Indian Cities, Learning Note 2 (pp. 34, 51)",
+        "url": "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities"
       }
     ]
   },

@@ -368,13 +368,15 @@ Concrete, crowding and ageing infrastructure turn cities into amplifiers of heat
 
 #### Urban heat islands
 
-Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect.
+Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect. Within a city, heat stress varies from ward to ward and is far greater in densely built areas with little vegetation. In the reading of India's National Institute of Urban Affairs, shade, trees and cool spaces designed without people in informal settlements in mind may do little for those most at risk.
 
 Leads to: Cooling demand peaks (A hotter city needs even more cooling.); Sleepless hot nights (Cities hold their heat overnight.); City trees and parks die (Hotter streets stress trees further; many city species are already past their heat limits.)
 
 Source: Cooling Singapore, citing Chow and Roth, 2006 https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf
 
 Source: Tamil Nadu State Planning Commission, 2024 https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+
+Source: National Institute of Urban Affairs, Climate Centre for Cities, 2026: Climate Change Adaptation Actions in Indian Cities, Learning Note 2 (pp. 34, 51) https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
 
 #### Homes that trap heat
 
@@ -1462,6 +1464,8 @@ Could help interrupt: The cooling trap
 
 - Guide: Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Heat_Resilient_Cities_Framework
 
+- Guide: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as the number of roofs treated, with what changes for people, such as lower indoor temperatures and less heat illness (pp. 53-54) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026) https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
+
 ### Green, cool cities
 
 Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.
@@ -1477,6 +1481,8 @@ In practice: Cooling Singapore, a research programme across agencies, models whe
 - Guide: Nature-Based Solutions to Climate Change Adaptation in Urban Areas (Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access) https://doi.org/10.1007/978-3-319-56091-5
 
 - Guide: Heat in the city: guidance and resources for urban heat (Global Heat Health Information Network (GHHIN)) https://heathealth.info/in-the-city/
+
+- Guide: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as hectares of green cover added, with what changes for people (pp. 53-54) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026) https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
 
 ### Keep city trees alive
 
@@ -1741,6 +1747,8 @@ Watch for: Running costs can decide whether a cooling space keeps working. Bangk
 - Guide: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation (US Centers for Disease Control and Prevention, in the GHHIN resource library) https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf
 
 - Guide: Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Heat_Resilient_Cities_Framework
+
+- Guide: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as cooling centres created, with what changes for people (pp. 51-54) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026) https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
 
 ### Dedicated heat budgets
 
@@ -2698,7 +2706,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Organisations working on extreme heat
 
-334 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+335 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Each organisation is marked with its main side in a heat alliance. Demand: Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected. Supply: Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data. Platform: Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market. Many play more than one part; this is the main one.
 
@@ -2901,6 +2909,8 @@ Every link was opened by an automated check on 17 November 2026. A listing says 
 - Delhi Jal Board (Demand; Government body; India): Reports drinking-water preparedness and targeted extra tankers for heat-affected areas. (https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_9_kirari_0.pdf)
 
 - Delhi Urban Shelter Improvement Board (Demand; Government body; India): Provides heat-season shelter arrangements and public shelter information. (https://delhishelterboard.in/main/wp-content/uploads/2021/02/Plan-Write-up-DUSIB-2020-21-Housing.pdf)
+
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube) (Supply; Research body; India): Works with Indian cities on climate action. Its heat work includes the Heat Resilient Cities Framework and a Building Heat Resilient Cities programme, and it publishes free learning notes for city officials. (https://niua.in/c-cube)
 
 ### Research and evidence
 
@@ -6154,11 +6164,11 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 70 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 71 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1117 of 1944 works dated; 808 have no established date yet, 19 only an "online by" date; 462 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1118 of 1946 works dated; 809 have no established date yet, 19 only an "online by" date; 463 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
 - Before 2024: 470 works. Financing: 81; Institutions and plans: 64; Practical measures: 99; Experience: 23; Evidence: 203.
 
@@ -6166,9 +6176,11 @@ Dated by the publication date of the work Common Shade draws on (1117 of 1944 wo
 
 - 2025: 210 works published (123 with a known month), 876 in all by the end of the period. Financing: 173; Institutions and plans: 118; Practical measures: 182; Experience: 69; Evidence: 334.
 
-- 2026 so far: 241 works published (141 with a known month), 1117 in all by the end of the period. Financing: 230; Institutions and plans: 137; Practical measures: 247; Experience: 98; Evidence: 405.
+- 2026 so far: 242 works published (141 with a known month), 1118 in all by the end of the period. Financing: 230; Institutions and plans: 137; Practical measures: 247; Experience: 98; Evidence: 406.
 
 ### Changes, newest first
+
+- Evidence added: NIUA's learning notes for city officials: showing results, and where heat lands. Added 18 November 2026 · Underlying work: dates vary; each source shows its own. Why it matters (our reading): Two learning notes from India's National Institute of Urban Affairs add a guide to showing results on three cooling actions, a free training series, a passage on heat within a city, and NIUA's Climate Centre for Cities to the heat network. Places: India. Topics: Cool by design, Green, cool cities, Cooling centres and check-ins. Review: Five sources staged; all five passed the GitHub check at NIUA's own PDFs and pages; the primer's newspaper-cited heat figures were held back. Next: See the guides on Cool by design https://beattheheat.asia/actions/#coolbydesign. Connections: Cool by design (from the site's records): The guide pairs roofs treated with lower indoor temperatures and less heat illness. What it took to add this: The question: What can NIUA's learning notes for city officials add, confirmed at the source? 5 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 5 confirmed. 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The World Bank originals behind the primer's heat figures, and the two notes on finance and institutions.
 
 - Evidence added: COP31, third check-in: a cooling roadmap and WHO's El Niño plan. Added 18 November 2026 · COP31 check-in 18 November 2026. Why it matters (our reading): Governments backed a voluntary roadmap on heat resilience and cooling at the Cooling Ministerial, with new support announced, and WHO set out its El Niño health plan. Each joins the watch on the step it has reached. Places: South and Southeast Asia. Topics: Clean, efficient cooling, Anticipatory action. Review: Seven sources staged; five passed the GitHub check at UNEP, WHO and Mirage News; two Cool Coalition pages blocked the check and nothing rests on them. Next: Read the COP31 watch https://beattheheat.asia/signals/#cop31. Connections: Clean, efficient cooling (from the site's records): The roadmap and its support are for sustainable cooling and heat resilience. What it took to add this: The question: What has COP31 added on heat since the second check-in, confirmed at the source? 7 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 5 confirmed, and 2 could not be (2 blocked automated reading). 12 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether the closing decisions name heat, and when the cooling roadmap is launched.
 

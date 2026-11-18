@@ -24,8 +24,8 @@
   "changed": "2026-11-16"
  },
  "/actions/": {
-  "hash": "450bb0889ddacc14",
-  "changed": "2026-11-17"
+  "hash": "104036417adde43c",
+  "changed": "2026-11-18"
  },
  "/approach/": {
   "hash": "3fe5d256f86bbe6c",
@@ -148,8 +148,8 @@
   "changed": "2026-11-15"
  },
  "/cooling-options/": {
-  "hash": "6142132bc94edb87",
-  "changed": "2026-11-15"
+  "hash": "07cb642ead87a374",
+  "changed": "2026-11-18"
  },
  "/corrections/": {
   "hash": "74f87966858d838f",
@@ -200,19 +200,19 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "b3e5670f2281c432",
+  "hash": "4fb4ef26ee93e6a2",
   "changed": "2026-11-18"
  },
  "/fund/": {
-  "hash": "b70fe761d601a8c3",
-  "changed": "2026-11-07"
+  "hash": "f9e29c3fef253cdc",
+  "changed": "2026-11-18"
  },
  "/glossary/": {
   "hash": "bd84040344a1c5e5",
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "ad4cd48c283a2f45",
+  "hash": "a8ff40eee0b4027b",
   "changed": "2026-11-18"
  },
  "/guide/": {
@@ -248,8 +248,8 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "8701b2a051e4f06b",
-  "changed": "2026-11-17"
+  "hash": "ee8034fe7a7ba961",
+  "changed": "2026-11-18"
  },
  "/heat-tools/": {
   "hash": "1ed03f5d2d1d5690",
@@ -392,8 +392,8 @@
   "changed": "2026-10-01"
  },
  "/paths/funder/": {
-  "hash": "70950597a6bc6ee6",
-  "changed": "2026-11-17"
+  "hash": "39ba5153af2d385a",
+  "changed": "2026-11-18"
  },
  "/paths/health/": {
   "hash": "7515e4902dde7982",
@@ -632,12 +632,12 @@
   "changed": "2026-11-16"
  },
  "/sources/": {
-  "hash": "52c7ad606d90009d",
+  "hash": "e81929217eb1d2cc",
   "changed": "2026-11-18"
  },
  "/the-web/": {
-  "hash": "e0e3dabd7fa6ba50",
-  "changed": "2026-11-17"
+  "hash": "0cbf3c9f1fa85120",
+  "changed": "2026-11-18"
  },
  "/together/": {
   "hash": "2419965cdab15e35",

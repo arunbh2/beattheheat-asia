@@ -1,7 +1,7 @@
 ---
 title: "Cooling options by place, and what keeps them working | Common Shade"
 url: https://beattheheat.asia/cooling-options/
-updated: 2026-11-15
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -265,6 +265,7 @@ Sources: [Guerry et al., chapter 12 in Nature-Based Solutions for Cities, 2023](
 - [Urban Planet: Knowledge towards Sustainable Cities](https://doi.org/10.1017/9781316647554) Elmqvist et al. (eds), Cambridge University Press, 2018 Ways of knowing cities from sociology and political science to ecology and engineering, with contributions from architects, journalists, artists and activists.
 - [Resilient Urban Futures](https://doi.org/10.1007/978-3-030-63131-4) Hamstead, Iwaniec, McPhearson et al. (eds), Springer, 2021 How nine cities in Latin America and the United States used participatory visioning with residents to imagine resilient futures.
 - [The State of Cities Climate Finance](https://www.climatepolicyinitiative.org/publication/the-state-of-cities-climate-finance/) Cities Climate Finance Leadership Alliance, Climate Policy Initiative and World Bank, 2021 Maps the money: less than 10% of climate finance reaching cities goes to adaptation and resilience, and too little climate investment reaches cities in developing countries, singling out fast-urbanising South and Southeast Asia and Sub-Saharan Africa.
+- [Cities and Climate Fundamentals Primer, the first of four learning notes](https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026 and the International Climate Initiative (IKI) Free training for officials in Indian city governments, in four notes: climate fundamentals, adaptation actions, urban climate finance, and institutionalising climate action. The adaptation note covers resilience to heat, flooding and water stress.
 
 ## What has been measured, and where
 
