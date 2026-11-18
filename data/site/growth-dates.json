@@ -7149,7 +7149,10 @@
    "url": "https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer",
    "label": "Cities and Climate Fundamentals Primer, the first of four learning notes",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-11-18",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities",
