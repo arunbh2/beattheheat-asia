@@ -25,3 +25,23 @@ Held back: the state plan's district list (c-mh-districts). Two of the three nam
 so the page places Akola, Nanded and Jalgaon by region only. Maharashtra's subdivision monsoon deficits appear only in news
 reports, so they are not used. No district-level heat plan for Akola, Nanded or Jalgaon was found in the archive or in search.
 The Akola district guidelines found (a Hindi news report on a late April heatwave) were not used.
+
+## National revision (18 November 2026)
+
+The guide was revised from a Maharashtra-led page into a guide for smaller Indian cities. Eight claims were added and passed
+the GitHub source check (run of 18 November 2026); the Akola, Nanded and Jalgaon section was removed and `#local` now lands on
+`#adapt`.
+
+| Claim | What it supports | Source (as checked) | Terms found |
+|---|---|---|---|
+| c-wmo-oct | WMO seasonal update, 26 Oct 2026: up to 3.8 °C above average, Nov 2026 to Jan 2027 | WMO news release on the Global Seasonal Climate Update | 26 October 2026; 3.8°C above average; November 2026 to January 2027; unprecedented in strength |
+| c-imd-centres | IMD's regional and state meteorological centres disseminate warnings | IMD, Evolution of IMD | Regional Meteorological Centers (RMCs); Meteorological Centers (MCs) at the state level; advisories and warnings |
+| c-jodhpur-en | Jodhpur: net zero cooling station in a high-risk ward; warnings in local formats | NRDC, Extreme Heat in India (2026) | net zero cooling station; high-risk ward; designed for the informal sector; locally accessible formats |
+| c-kerala-en | Kerala: ₹1 crore per District Collector for kiosks and cooling centres | NRDC (2026) | 1 crore to each District Collector; drinking water kiosks; decentralized heat |
+| c-up-en | Uttar Pradesh: district-specific heatwave thresholds, yellow/orange/red | NRDC (2026) | heatwave thresholds; yellow, orange, red; regional climatic conditions |
+| c-ahmedabad-en | Ahmedabad (large city): evaluation, about 1,190 fewer deaths a year on hot days | NRDC (2026), citing the 2018 evaluation | may have contributed; 1,190 fewer deaths per year |
+| c-thane-en | Thane plan: extreme warm nights projected to rise more than hot days | NRDC (2026) | extreme warm nights; Thane HAP |
+| c-niua-m1-eq | NIUA Learning Note 1: informal settlements' higher exposure; municipal functions | NIUA Module 1 (2026) | disproportionately higher exposure to heat; entry points for climate action within municipal functions |
+
+Still held back: c-mh-districts (the state plan's district list, found only in part). Not claimed: any IMD outlook for March to
+May 2027 (none found as of 18 November 2026); any city's water storage (readers are pointed to their own source's figures).

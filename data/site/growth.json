@@ -636,6 +636,17 @@
       "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
     },
     {
+      "id": "g-el-nino-national", "kind": "plan", "root": "practical", "added": "2026-11-18", "pr": null,
+      "title": "The El Niño guide becomes national: preparing India's smaller cities for summer 2027",
+      "why": "The guide now serves Tier 2 and Tier 3 cities across India: it opens on one decision, helps a city adapt it through the conditions it recognises, gives a route to each city's own official warning, separates who authorises, pays, runs and repairs, and adds documented examples from Jodhpur, Kerala and Uttar Pradesh.",
+      "places": ["india"], "people": [], "topics": ["anticipatory", "hap"],
+      "review": "Eight new claims staged; all eight passed the GitHub check at WMO, IMD, NRDC's 2026 review and NIUA; the earlier district list stays held back",
+      "effort": { "asked": "What can a smaller Indian city anywhere in the country put in place before its own hot season, and what do the latest outlooks and documented Indian examples support?", "inbox": "data/inbox/2026-11-el-nino-cities", "dropped": "research/2026-11/el-nino-cities/dropped-after-check.json",
+                  "open": "The December NOAA update, IMD's hot-season outlook from March, and examples from smaller cities with outcome evidence." },
+      "pages": [["/el-nino-and-cities/", "El Niño and India's smaller cities"]], "action": ["Open the guide", "/el-nino-and-cities/"],
+      "links": [{ "to": "lever:anticipatory", "why": "The guide sets out what a city can prepare before its season and what changes on an official warning.", "basis": "record" }]
+    },
+    {
       "id": "g-el-nino-and-cities", "kind": "plan", "root": "practical", "added": "2026-11-18", "pr": null,
       "title": "El Niño and the city: what to prepare before summer 2027",
       "why": "A decision guide for smaller Indian cities, starting in Maharashtra: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting.",
