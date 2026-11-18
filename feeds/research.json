@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:43:54.952Z",
+ "updated": "2026-11-18T20:43:37.750Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -282,6 +282,16 @@
    "preprint": false,
    "url": "https://europepmc.org/article/PMC/PMC13674966",
    "firstAuthor": "Gunther S"
+  },
+  {
+   "title": "Global expansion of compound drought-heatwave risk.",
+   "journal": "Nature communications",
+   "date": "2026-10-14",
+   "doi": "10.1038/s41467-026-78045-3",
+   "pmid": "43015277",
+   "preprint": false,
+   "url": "https://doi.org/10.1038/s41467-026-78045-3",
+   "firstAuthor": "Sabut A"
   },
   {
    "title": "Estimating excess mortality during heat waves using a causal inference framework and non-randomized time series",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1016/j.isci.2026.117349",
    "firstAuthor": "Chaudhary SR"
-  },
-  {
-   "title": "Epidemiology, mechanisms and clinical implications of heat-related kidney disease.",
-   "journal": "Nature reviews. Nephrology",
-   "date": "2026-09-16",
-   "doi": "10.1038/s41581-026-01126-5",
-   "pmid": "42749859",
-   "preprint": false,
-   "url": "https://doi.org/10.1038/s41581-026-01126-5",
-   "firstAuthor": "McMullen L"
   }
  ]
 }
