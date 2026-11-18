@@ -13,7 +13,13 @@ Resources · Heat action plans
 
 146 verified documents from across India: plans written by cities, districts and states, the heat-health plans inside wider climate-and-health plans, and the national plan and guidance behind them. A growing archive, not a complete collection.
 
-Moving from a plan to action before summer 2027? [El Niño and the city](https://beattheheat.asia/el-nino-and-cities/) sets out what a municipality can have running by March, and how to check that people got relief.
+Before summer 2027
+
+## El Niño and the city
+
+A decision guide for smaller Indian cities: what can be running by March, who needs to agree, what changes when an official warning arrives, and how to check that people got relief.
+
+[Open the guide](https://beattheheat.asia/el-nino-and-cities/)
 
 - **37**heat-health plans inside wider climate-and-health plans
 - **1**national heat-illness action plan

@@ -4465,6 +4465,11 @@ a.sg-tag--watch { color: var(--ink); display: inline-flex; align-items: center; 
 .cs-note { --note: var(--note-info); background: var(--sand-50); background: color-mix(in srgb, var(--note) 7%, var(--canvas)); border: 1px solid var(--line); border-color: color-mix(in srgb, var(--note) 34%, var(--line)); border-radius: var(--r-sm); padding: var(--pad-compact); }
 .cs-note--limit { --note: var(--note-limit); } .cs-note--watch { --note: var(--note-watch); } .cs-note--example { --note: var(--note-example); }
 .cs-note__label { display: block; margin: 0 0 4px; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+/* The El Niño guide's feature card on other pages (words in tools/el-nino-text.js PROMO) */
+.en-promo { max-width: 46rem; margin: var(--s-5) 0; }
+.en-promo__h { margin: 0 0 6px; font-size: var(--fs-22); line-height: 1.15; }
+.en-promo p { margin: 0 0 var(--s-3); }
+.en-promo p:last-child { margin: 0; }
 
 /* Tap areas (interaction audit, November 2026): standalone text links and text buttons get a touch area about 44px
    tall from an invisible layer, so nothing moves. tools/check-targets.js keeps every standalone target at 24px or more. */

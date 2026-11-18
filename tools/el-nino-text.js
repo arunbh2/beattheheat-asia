@@ -151,7 +151,21 @@ const LOCAL = {
 
 const PRINT = "Print this page, or only the table above, for a meeting with the municipal body.";
 
-module.exports = { SLUG, TITLE, DESC, REVIEWED, NEXT_REVIEW, OUTLOOK, OPENING, SIGNAL, RISKS, SCENARIOS, WINDOWS, CONTINUITY, MARKET, SCALE, HANDOUT, EXAMPLES, EXAMPLES_NOTE, LOCAL, PRINT,
+// The feature card that points readers here from other pages (practical actions, the India HAP archive).
+// One set of words, so every entry point says the same thing.
+const PROMO = {
+  label: "Before summer 2027",
+  title: "El Niño and the city",
+  text: "A decision guide for smaller Indian cities: what can be running by March, who needs to agree, what changes when an official warning arrives, and how to check that people got relief.",
+  button: "Open the guide",
+};
+// tag: "h2" where the card sits beside the page's headings; "p" on the text pages, whose films are placed before the first h2.
+const promo = (esc, id, tag = "h2") => `<aside class="cs-card en-promo" aria-labelledby="${id}"><span class="cs-note__label">${esc(PROMO.label)}</span>
+  <${tag} class="en-promo__h" id="${id}">${esc(PROMO.title)}</${tag}><p>${esc(PROMO.text)}</p>
+  <p><a class="btn btn--cta" href="/${SLUG}/">${esc(PROMO.button)} <span aria-hidden="true">→</span></a></p></aside>`;
+const promoMd = () => `**${PROMO.label}: ${PROMO.title}.** ${PROMO.text} ${PROMO.button}: /${SLUG}/`;
+
+module.exports = { PROMO, promo, promoMd, SLUG, TITLE, DESC, REVIEWED, NEXT_REVIEW, OUTLOOK, OPENING, SIGNAL, RISKS, SCENARIOS, WINDOWS, CONTINUITY, MARKET, SCALE, HANDOUT, EXAMPLES, EXAMPLES_NOTE, LOCAL, PRINT,
   // every claim the page uses, so the build can refuse an unconfirmed one
   claimsUsed() { return [...new Set([...OUTLOOK.items.flatMap(i => i.claims), ...OUTLOOK.noneClaims, ...SIGNAL.can.claims, ...RISKS.flatMap(r => r.claims), ...SCENARIOS.flatMap(s => s.claims),
     ...WINDOWS.flatMap(w => w.claims), ...SCALE.claims, ...EXAMPLES.flatMap(e => e.claims), ...LOCAL.claims])]; },

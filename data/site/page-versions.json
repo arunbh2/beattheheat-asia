@@ -24,7 +24,7 @@
   "changed": "2026-11-18"
  },
  "/actions/": {
-  "hash": "3b5b2d1231849d01",
+  "hash": "8923db0e620d4719",
   "changed": "2026-11-18"
  },
  "/approach/": {
@@ -216,7 +216,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "2c6ddee282aba8da",
+  "hash": "89116c58fe9b2158",
   "changed": "2026-11-18"
  },
  "/guide/": {
@@ -224,8 +224,8 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "d07a55ef86b3206a",
-  "changed": "2026-11-17"
+  "hash": "99d8b82ec2b28ab0",
+  "changed": "2026-11-18"
  },
  "/heat-economy/": {
   "hash": "c18fccd1706bc155",
@@ -252,7 +252,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "8b510d954c435220",
+  "hash": "b33f94359543ae11",
   "changed": "2026-11-18"
  },
  "/heat-tools/": {
@@ -368,8 +368,8 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "6fe5dc177928cb7e",
-  "changed": "2026-11-17"
+  "hash": "ce9046c191c39ae1",
+  "changed": "2026-11-18"
  },
  "/loops/": {
   "hash": "b2a7c3bca3f29843",
@@ -420,7 +420,7 @@
   "changed": "2026-11-13"
  },
  "/practical-actions/": {
-  "hash": "a9b6532167c28216",
+  "hash": "9f339127ed2c1bf9",
   "changed": "2026-11-18"
  },
  "/practical/": {
@@ -620,7 +620,7 @@
   "changed": "2026-11-01"
  },
  "/resources/heat-action-plans/india/": {
-  "hash": "130016df5f43752d",
+  "hash": "933afa018b3faee6",
   "changed": "2026-11-18"
  },
  "/signals/": {

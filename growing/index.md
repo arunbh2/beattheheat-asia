@@ -5,7 +5,7 @@ updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 73 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 74 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,47 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-73 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
+74 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Plan or guidance added · Practical measures
+
+### El Niño and the city: what to prepare before summer 2027
+
+Added 18 November 2026 · Underlying work: dates vary; each source shows its own
+
+Why it matters our readingA decision guide for smaller Indian cities, starting in Maharashtra: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting.
+
+- India
+- Anticipatory action
+- Heat action plans
+
+ReviewTwenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, the Maharashtra disaster management authority, NIUA and Europe PMC; the state plan's district list was found only in part and the page places those districts by region. 20 checked · 20 confirmed.
+
+What it took to add this
+
+- **The question.** What can a smaller Indian city have running before summer 2027, given El Niño's lead time, and what do official outlooks and peer-reviewed studies support?
+- **The search.** 20 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 20 confirmed.
+- **What we set aside.** 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for Akola, Nanded and Jalgaon if they exist.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-el-nino-cities/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/el-nino-cities/dropped-after-check.json)
+
+How it connects
+
+- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · from the site's records
+The guide sets out what a city can prepare in the months a seasonal outlook gives.
+
+[Open the guide](https://beattheheat.asia/el-nino-and-cities/)
+[Practical actions](https://beattheheat.asia/practical-actions/)[India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=El%20Ni%C3%B1o%20and%20the%20city%3A%20what%20to%20prepare%20before%20summer%202027&ref=g-el-nino-and-cities#way-share)
 
 Evidence added · Institutions and plans
 

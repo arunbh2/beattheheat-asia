@@ -95,7 +95,7 @@ module.exports = function hapArchive({ page, write, esc, V, ROOT }) {
   write(SLUG, page(SLUG, "India heat action plan archive", `A searchable archive of ${C.total} verified Indian heat action plans, heat-health plans and guidance documents, with links to each PDF. Verified ${verifiedOn}; a growing archive, not a complete collection.`,
     `<header class="pg-hero"><div class="container"><p class="eyebrow">Resources · Heat action plans</p><h1 class="pg-h1">India heat action plan archive</h1>
       <p class="pg-lede">${n(C.total)} verified documents from across India: plans written by cities, districts and states, the heat-health plans inside wider climate-and-health plans, and the national plan and guidance behind them. A growing archive, not a complete collection.</p>
-      <p class="pg-lede">Moving from a plan to action before summer 2027? <a href="/el-nino-and-cities/">El Niño and the city</a> sets out what a municipality can have running by March, and how to check that people got relief.</p>
+      ${require("./el-nino-text.js").promo(esc, "en-promo-hap")}
       <nav class="rf-jump" aria-label="On this page"><a href="#archive">Search the archive</a><a href="#method">How it was checked</a><a href="#gaps">Research gaps</a><a href="#downloads">Download the data</a></nav></div></header>
 
     <section class="container hap-sec" aria-labelledby="what-h">
