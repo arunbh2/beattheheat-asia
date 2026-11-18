@@ -1,0 +1,137 @@
+[
+ {
+  "id": "src-ihc-tn-pr",
+  "type": "source",
+  "keys": [
+   "tn-pr"
+  ],
+  "title": "Government of Tamil Nadu and UK Government jointly launch a Heat Resilience Centre for the State",
+  "publisher": "Government of Tamil Nadu",
+  "year": 2025,
+  "url": "https://cms.tn.gov.in/cms_migrated/document/press_release/pr211125_e_2793.pdf",
+  "kind": "Press release (PDF)",
+  "where": "India",
+  "expect": [
+   "Heat Resilience",
+   "Heat Resilience Centre",
+   "Letter of Intent",
+   "nodal",
+   "heat action plan"
+  ],
+  "claims": [
+   "c-tn-launch",
+   "c-tn-role"
+  ],
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ihc-tngcc",
+  "type": "source",
+  "keys": [
+   "tngcc"
+  ],
+  "title": "Center for Heat Resilience",
+  "publisher": "Tamil Nadu Green Climate Company",
+  "year": 2025,
+  "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/",
+  "kind": "Project page",
+  "where": "India",
+  "expect": [
+   "Heat",
+   "September 2026"
+  ],
+  "claims": [
+   "c-tn-term"
+  ],
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ihc-week-tn",
+  "type": "source",
+  "keys": [
+   "week-tn"
+  ],
+  "title": "TN, UK launch Heat Resilience Centre to tackle rising extreme heat (PTI)",
+  "publisher": "The Week",
+  "year": 2025,
+  "url": "https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html",
+  "kind": "News (wire)",
+  "where": "India",
+  "expect": [
+   "Heat Resilience Centre",
+   "Letter of Intent",
+   "nodal",
+   "heat action plan"
+  ],
+  "claims": [
+   "c-tn-launch",
+   "c-tn-role"
+  ],
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ihc-mh-sdma",
+  "type": "source",
+  "keys": [
+   "mh-sdma"
+  ],
+  "title": "About CEHSC",
+  "publisher": "Maharashtra State Disaster Management Authority",
+  "year": 2026,
+  "url": "https://sdma.maharashtra.gov.in/en/about/",
+  "kind": "Official page",
+  "where": "India",
+  "expect": [
+   "CEHSC",
+   "Cooling"
+  ],
+  "claims": [
+   "c-mh-sdma"
+  ],
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ihc-ddnews",
+  "type": "source",
+  "keys": [
+   "ddnews"
+  ],
+  "title": "Maharashtra launches Centre of Excellence to combat extreme heat, promote sustainable cooling",
+  "publisher": "DD News (Prasar Bharati)",
+  "year": 2026,
+  "url": "https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/",
+  "kind": "News (public broadcaster)",
+  "where": "India",
+  "expect": [
+   "Centre of Excellence",
+   "IIM Nagpur",
+   "State Institute of Disaster Management"
+  ],
+  "claims": [
+   "c-mh-launch"
+  ],
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ihc-week-mh",
+  "type": "source",
+  "keys": [
+   "week-mh"
+  ],
+  "title": "Fadnavis launches heat resilience centre at IIM Nagpur (PTI)",
+  "publisher": "The Week",
+  "year": 2026,
+  "url": "https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html",
+  "kind": "News (wire)",
+  "where": "India",
+  "expect": [
+   "IIM Nagpur",
+   "State Institute of Disaster Management",
+   "heat"
+  ],
+  "claims": [
+   "c-mh-launch"
+  ],
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
