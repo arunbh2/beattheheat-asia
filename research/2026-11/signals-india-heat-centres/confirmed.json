@@ -1,5 +1,27 @@
 [
  {
+  "id": "c-tn-launch",
+  "where": "Signal: Tamil Nadu Heat Resilience Centre",
+  "text": "The Government of Tamil Nadu and the UK Government launched a Heat Resilience Centre for the state, with a Letter of Intent signed in November 2025.",
+  "sources": [
+   {
+    "label": "Tamil Nadu Green Climate Company: Center for Heat Resilience, 2025",
+    "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/"
+   }
+  ]
+ },
+ {
+  "id": "c-tn-role",
+  "where": "Signal: Tamil Nadu Heat Resilience Centre",
+  "text": "It is to coordinate heat-risk management across sectors and support city and district heat action planning.",
+  "sources": [
+   {
+    "label": "Tamil Nadu Green Climate Company: Center for Heat Resilience, 2025",
+    "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/"
+   }
+  ]
+ },
+ {
   "id": "c-tn-term",
   "where": "Signal: Tamil Nadu Heat Resilience Centre",
   "text": "The programme runs until September 2026.",
@@ -11,9 +33,42 @@
   ]
  },
  {
+  "id": "c-mh-launch",
+  "where": "Signal: Maharashtra Centre of Excellence",
+  "text": "In April 2026 Maharashtra launched a Centre of Excellence on extreme heat and sustainable cooling, operating first from IIM Nagpur and later to become part of the planned State Institute of Disaster Management.",
+  "sources": [
+   {
+    "label": "Maharashtra State Disaster Management Authority: About CEHSC, 2026",
+    "url": "https://sdma.maharashtra.gov.in/en/about/"
+   }
+  ]
+ },
+ {
   "id": "c-mh-sdma",
   "where": "Signal: Maharashtra Centre of Excellence",
   "text": "The Maharashtra State Disaster Management Authority's own site describes the centre (CEHSC) and its work on sustainable cooling.",
+  "sources": [
+   {
+    "label": "Maharashtra State Disaster Management Authority: About CEHSC, 2026",
+    "url": "https://sdma.maharashtra.gov.in/en/about/"
+   }
+  ]
+ },
+ {
+  "id": "c-tn-partners",
+  "where": "Signal: Tamil Nadu Heat Resilience Centre",
+  "text": "Its partners are the British High Commission, UNEP and the World Resources Institute.",
+  "sources": [
+   {
+    "label": "Tamil Nadu Green Climate Company: Center for Heat Resilience, 2025",
+    "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-host",
+  "where": "Signal: Maharashtra Centre of Excellence",
+  "text": "The centre is hosted within the state's Relief and Rehabilitation Department.",
   "sources": [
    {
     "label": "Maharashtra State Disaster Management Authority: About CEHSC, 2026",
