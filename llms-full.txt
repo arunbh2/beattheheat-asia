@@ -890,13 +890,15 @@ Source: WHO, 2026: climate change country profile, Timor-Leste https://cdn.who.i
 
 #### Heat protection underfunded
 
-Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions.
+Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions. Across the world's cities, adaptation received about USD 10 billion a year in 2021-2022, out of USD 831 billion in urban climate finance, by the count of the 2024 State of Cities Climate Finance report.
 
 Leads to: Heat deaths (Without warnings, cooling centres and outreach, more people die.); Emergency services stretched (Without prevention, emergencies multiply.); Health systems overwhelmed (Clinics aren’t prepared for heat.); Insurance losses and retreat (Unmanaged risk drives insurers away.)
 
 Source: Centre for Policy Research, 2023: assessment of 37 heat action plans https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/
 
 Source: Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
+
+Source: Climate Policy Initiative and National Institute of Urban Affairs, 2026: Understanding Urban Climate Finance, Learning Note 3, citing the 2024 State of Cities Climate Finance report https://niua.in/publication-details/Understanding_Urban_Climate_Finance
 
 #### Help can’t reach remote places
 
@@ -1460,11 +1462,15 @@ Cuts the link: Cooling demand peaks → Urban heat islands. Who can act: City an
 
 Could help interrupt: The cooling trap
 
+In practice: Amravati's Cool Roof Bylaws 2025 make high-reflectance roofs mandatory for new government and commercial buildings and for homes over 500 sq m. Tamil Nadu's Green Schools initiative put cool roof coatings on 300 government schools, lowering classroom temperatures during school hours from 31 °C to 27 °C.
+
 - Guide: Heat in the city: guidance and resources for urban heat (Global Heat Health Information Network (GHHIN)) https://heathealth.info/in-the-city/
 
 - Guide: Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Heat_Resilient_Cities_Framework
 
 - Guide: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as the number of roofs treated, with what changes for people, such as lower indoor temperatures and less heat illness (pp. 53-54) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026) https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
+
+- Guide: Institutionalisation of Climate Actions (Learning Note 4): a climate checklist for every project before approval, which asks whether it will increase flood or heat risk (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Institutionalisation_of_Climate_Actions
 
 ### Green, cool cities
 
@@ -1474,7 +1480,7 @@ Cuts the link: Urban heat islands → Cooling demand peaks. Who can act: City an
 
 Could help interrupt: The cooling trap
 
-In practice: Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31.
+In practice: Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31. Tamil Nadu's Urban Greening Policy 2026 asks city governments to keep at least 15% of their area under green cover.
 
 - Guide: Urban heat: resources and partner networks (Zurich Climate Resilience Alliance) https://zcralliance.org/resources-urban-heat/
 
@@ -1483,6 +1489,8 @@ In practice: Cooling Singapore, a research programme across agencies, models whe
 - Guide: Heat in the city: guidance and resources for urban heat (Global Heat Health Information Network (GHHIN)) https://heathealth.info/in-the-city/
 
 - Guide: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as hectares of green cover added, with what changes for people (pp. 53-54) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026) https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
+
+- Guide: Climate Considerations in City Plans, a study of 20 master plans: green cover is widely planned, but heat islands are seldom studied through microclimate analysis, and vulnerability mapping often does not directly inform the plans (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2024) https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities
 
 ### Keep city trees alive
 
@@ -1558,7 +1566,7 @@ Cuts the link: Heatstroke and heat exhaustion → Health systems overwhelmed. Wh
 
 Could help interrupt: The overwhelmed-clinic loop
 
-In practice: Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.
+In practice: Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. Uttar Pradesh sets heatwave thresholds district by district for its yellow, orange and red alerts, and in Kerala the Moodadi village council in Kozhikode wrote a village-level heat action plan. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.
 
 Watch for: Plans are often sized to the worst heatwave in memory. A 2026 modelling study found that even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region’s recent record heatwave; with high emissions, close to 1 in 5 in India and Pakistan. (Aglas-Leitner et al., Nature Communications, 2026: recent extreme heatwaves are no match for future events, https://www.nature.com/articles/s41467-026-76809-5)
 
@@ -1577,6 +1585,10 @@ Watch for: Humid heat is a separate test. A 2025 study using WBGT and UTCI proje
 - Guide: How can heat action plans make Thane a heat-resilient city? (Council on Energy, Environment and Water (CEEW)) https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan
 
 - Guide: Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Heat_Resilient_Cities_Framework
+
+- Guide: Extreme Heat in India: how heat action plans are moving from short-term response to ward-level risk assessment, department roles and financing (Natural Resources Defense Council (NRDC), 2026) https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf
+
+- Guide: Institutionalisation of Climate Actions (Learning Note 4): a heat action plan's roles by department, from health (warnings and outreach) and engineering (shade, cool roofs, water points) to disaster management and ward offices (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Institutionalisation_of_Climate_Actions
 
 ### Heat-ready health services
 
@@ -1738,7 +1750,7 @@ Cuts the link: Heat protection underfunded → Heat deaths. Who can act: City an
 
 Could help interrupt: The invisible-deaths loop
 
-In practice: Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them.
+In practice: Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them. Under its heat action plan, Jodhpur built a net-zero cooling station for informal workers in a high-risk ward.
 
 Watch for: A 2025 review found no study that measured health outcomes for people using cooling centres; in simulated heatwaves, the benefits were short-lived. That is not evidence of no benefit. (Dearman et al., UKHSA, 2025: public health effectiveness of cooling centres, a systematic review, https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/)
 
@@ -1750,6 +1762,8 @@ Watch for: Running costs can decide whether a cooling space keeps working. Bangk
 
 - Guide: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as cooling centres created, with what changes for people (pp. 51-54) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026) https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
 
+- Guide: Guidelines for Cooling Centers: site selection in high-risk areas, retrofitting existing buildings, ventilation and cooling design, and operations and maintenance (National Disaster Management Authority, India, 2025 (in the GHHIN library)) https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf
+
 ### Dedicated heat budgets
 
 Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.
@@ -1758,11 +1772,13 @@ Cuts the link: Public budgets strained → Heat protection underfunded. Who can 
 
 Could help interrupt: The reactive-spending loop, The protection-gap loop
 
-In practice: Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported.
+In practice: Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. Since September 2024, states may also use their disaster mitigation funds for heatwave projects, and Kerala gave each district collector ₹1 crore for heat protection such as drinking water kiosks and cooling centres. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported.
 
 - Guide: Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience (Centre for Policy Research, India) https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
 
 - Guide: How is India adapting to heatwaves? An assessment of 37 heat action plans (Centre for Policy Research, India, 2023) https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/
+
+- Guide: Understanding Urban Climate Finance (Learning Note 3): preparing a project for finance, with people protected from heat counted as a measurable outcome (Climate Policy Initiative and National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Understanding_Urban_Climate_Finance
 
 ### Anticipatory action
 
@@ -2706,7 +2722,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Organisations working on extreme heat
 
-335 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+336 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Each organisation is marked with its main side in a heat alliance. Demand: Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected. Supply: Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data. Platform: Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market. Many play more than one part; this is the main one.
 
@@ -2793,6 +2809,8 @@ Every link was opened by an automated check on 17 November 2026. A listing says 
 - City of Athens (Demand; City or district government; Greece): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://www.cityofathens.gr)
 
 - International Organization for Standardization (Platform; Standards body; Global): Publishes the WBGT-based occupational heat-stress screening standard. (https://www.iso.org)
+
+- Natural Resources Defense Council (NRDC), India programme (Supply; Non-profit organisation; India): Works with Indian cities and states on heat action plans. It developed Ahmedabad's 2013 heat action plan, the first in South Asia, with the Indian Institute of Public Health-Gandhinagar, and reviews heat policy in India. (https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
 
 ### Governments and regional bodies in Asia
 
@@ -6164,11 +6182,11 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 71 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 72 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1118 of 1946 works dated; 809 have no established date yet, 19 only an "online by" date; 463 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1119 of 1951 works dated; 812 have no established date yet, 20 only an "online by" date; 463 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
 - Before 2024: 470 works. Financing: 81; Institutions and plans: 64; Practical measures: 99; Experience: 23; Evidence: 203.
 
@@ -6176,9 +6194,11 @@ Dated by the publication date of the work Common Shade draws on (1118 of 1946 wo
 
 - 2025: 210 works published (123 with a known month), 876 in all by the end of the period. Financing: 173; Institutions and plans: 118; Practical measures: 182; Experience: 69; Evidence: 334.
 
-- 2026 so far: 242 works published (141 with a known month), 1118 in all by the end of the period. Financing: 230; Institutions and plans: 137; Practical measures: 247; Experience: 98; Evidence: 406.
+- 2026 so far: 243 works published (141 with a known month), 1119 in all by the end of the period. Financing: 230; Institutions and plans: 137; Practical measures: 247; Experience: 98; Evidence: 407.
 
 ### Changes, newest first
+
+- Evidence added: How India's heat policy is changing: state examples, guides and the money gap. Added 18 November 2026 · Underlying work: dates vary; each source shows its own. Why it matters (our reading): NRDC's 2026 review of heat policy in India and three NIUA documents add state and city examples to five actions, practical guides on heat plans, cooling centres, city plans and finance, a global figure on how little urban climate finance goes to adaptation, and NRDC to the heat network. Places: India. Topics: Heat action plans, Dedicated heat budgets, Cooling centres and check-ins, Cool by design, Green, cool cities. Review: Nine sources staged; eight passed the GitHub check at NRDC, NIUA and the GHHIN library; the NDMA roof guide's link did not open and it is not linked. Next: See heat action plans in practice https://beattheheat.asia/actions/#hap. Connections: Dedicated heat budgets (from the site's records): Mitigation funds can now pay for heatwave projects, and a state funds district heat protection directly. What it took to add this: The question: What do NRDC's review of India's heat policy and NIUA's notes on city plans, finance and institutions add, confirmed at the source? 9 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 8 confirmed, and 1 could not be (1 did not respond). 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The national figures the review cites, checked at their originals, and the state heat institutions it describes once they operate.
 
 - Evidence added: NIUA's learning notes for city officials: showing results, and where heat lands. Added 18 November 2026 · Underlying work: dates vary; each source shows its own. Why it matters (our reading): Two learning notes from India's National Institute of Urban Affairs add a guide to showing results on three cooling actions, a free training series, a passage on heat within a city, and NIUA's Climate Centre for Cities to the heat network. Places: India. Topics: Cool by design, Green, cool cities, Cooling centres and check-ins. Review: Five sources staged; all five passed the GitHub check at NIUA's own PDFs and pages; the primer's newspaper-cited heat figures were held back. Next: See the guides on Cool by design https://beattheheat.asia/actions/#coolbydesign. Connections: Cool by design (from the site's records): The guide pairs roofs treated with lower indoor temperatures and less heat illness. What it took to add this: The question: What can NIUA's learning notes for city officials add, confirmed at the source? 5 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 5 confirmed. 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The World Bank originals behind the primer's heat figures, and the two notes on finance and institutions.
 

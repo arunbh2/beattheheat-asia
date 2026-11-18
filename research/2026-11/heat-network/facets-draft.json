@@ -321,6 +321,7 @@
 "ceptuniversity":{"countries":["IN"],"basis":"domain","scale":"country","type":"research","link":"work"},
 "indianhotelscompanylimit":{"countries":["IN"],"basis":"text","scale":"country","type":"company","link":"home"},
 "internationalorganizatio":{"countries":[],"scale":"global","type":"standards","link":"home"},
+"nrdc-india":{"countries":["IN"],"basis":"text","scale":"country","type":"ngo","link":"work","year":2013},
 "bureauofenergyefficiency":{"countries":["IN"],"basis":"text","scale":"country","type":"standards","link":"work"},
 "disabilityrightsuk":{"countries":[],"scale":"unstated","type":"ngo","link":"home"},
 "laislanetwork":{"countries":[],"scale":"unstated","type":"network","link":"work"},

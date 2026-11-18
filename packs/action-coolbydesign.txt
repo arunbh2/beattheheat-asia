@@ -23,7 +23,7 @@ Over what time: decade.
 How progress could be measured: New buildings meeting cooling standards.
 
 EXAMPLE
-None recorded yet.
+Amravati's Cool Roof Bylaws 2025 make high-reflectance roofs mandatory for new government and commercial buildings and for homes over 500 sq m. Tamil Nadu's Green Schools initiative put cool roof coatings on 300 government schools, lowering classroom temperatures during school hours from 31 °C to 27 °C. [https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf]
 
 VICIOUS CYCLES IT COULD HELP INTERRUPT
 - The cooling trap: Air conditioning heats the street, and a hotter city needs even more air conditioning.
@@ -32,8 +32,11 @@ GUIDES
 - Global Heat Health Information Network (GHHIN): Heat in the city: guidance and resources for urban heat [https://heathealth.info/in-the-city/]
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8) [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as the number of roofs treated, with what changes for people, such as lower indoor temperatures and less heat illness (pp. 53-54) [https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities]
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Institutionalisation of Climate Actions (Learning Note 4): a climate checklist for every project before approval, which asks whether it will increase flood or heat risk [https://niua.in/publication-details/Institutionalisation_of_Climate_Actions]
 
 SOURCES
+- NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape: https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf
 - Global Heat Health Information Network (GHHIN): Heat in the city: guidance and resources for urban heat: https://heathealth.info/in-the-city/
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8): https://niua.in/publication-details/Heat_Resilient_Cities_Framework
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as the number of roofs treated, with what changes for people, such as lower indoor temperatures and less heat illness (pp. 53-54): https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Institutionalisation of Climate Actions (Learning Note 4): a climate checklist for every project before approval, which asks whether it will increase flood or heat risk: https://niua.in/publication-details/Institutionalisation_of_Climate_Actions

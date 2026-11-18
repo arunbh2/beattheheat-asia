@@ -927,11 +927,11 @@ Sources: [Down To Earth, 2024: the miscalculation in India’s heatwave mortalit
 
 ### Heat protection underfunded
 
-Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions.
+Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions. Across the world's cities, adaptation received about USD 10 billion a year in 2021-2022, out of USD 831 billion in urban climate finance, by the count of the 2024 State of Cities Climate Finance report.
 
 Leads to: Heat deaths (Without warnings, cooling centres and outreach, more people die.); Emergency services stretched (Without prevention, emergencies multiply.); Health systems overwhelmed (Clinics aren’t prepared for heat.); Insurance losses and retreat (Unmanaged risk drives insurers away.)
 
-Sources: [Centre for Policy Research, 2023: assessment of 37 heat action plans](https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/) · [Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience](https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/)
+Sources: [Centre for Policy Research, 2023: assessment of 37 heat action plans](https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/) · [Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience](https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/) · [Climate Policy Initiative and National Institute of Urban Affairs, 2026: Understanding Urban Climate Finance, Learning Note 3, citing the 2024 State of Cities Climate Finance report](https://niua.in/publication-details/Understanding_Urban_Climate_Finance)
 
 [See it on the map](https://beattheheat.asia/#underfund)
 

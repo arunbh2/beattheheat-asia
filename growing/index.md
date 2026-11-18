@@ -5,7 +5,7 @@ updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 71 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 72 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,50 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-71 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,118 works the commons draws on carry a publication date, and 808 are still being dated.
+72 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Institutions and plans
+
+### How India's heat policy is changing: state examples, guides and the money gap
+
+Added 18 November 2026 · Underlying work: dates vary; each source shows its own
+
+Why it matters our readingNRDC's 2026 review of heat policy in India and three NIUA documents add state and city examples to five actions, practical guides on heat plans, cooling centres, city plans and finance, a global figure on how little urban climate finance goes to adaptation, and NRDC to the heat network.
+
+- India
+- Heat action plans
+- Dedicated heat budgets
+- Cooling centres and check-ins
+- Cool by design
+- Green, cool cities
+
+ReviewNine sources staged; eight passed the GitHub check at NRDC, NIUA and the GHHIN library; the NDMA roof guide's link did not open and it is not linked. 9 checked · 8 confirmed · 1 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** What do NRDC's review of India's heat policy and NIUA's notes on city plans, finance and institutions add, confirmed at the source?
+- **The search.** 9 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 8 confirmed, and 1 could not be (1 did not respond).
+- **What we set aside.** 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** The national figures the review cites, checked at their originals, and the state heat institutions it describes once they operate.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-heat-india-policy/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/heat-india-policy/dropped-after-check.json)
+
+How it connects
+
+- [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget) Action · from the site's records
+Mitigation funds can now pay for heatwave projects, and a state funds district heat protection directly.
+
+[See heat action plans in practice](https://beattheheat.asia/actions/#hap)
+[Actions](https://beattheheat.asia/actions/)[Heat network](https://beattheheat.asia/heat-network/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=How%20India's%20heat%20policy%20is%20changing%3A%20state%20examples%2C%20guides%20and%20the%20money%20gap&ref=g-heat-india-policy#way-share)
 
 Evidence added · Institutions and plans
 
@@ -2265,17 +2304,17 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-242 works published, 141 of them with a known month; 1,118 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+243 works published, 141 of them with a known month; 1,119 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
-- Evidence406
+- Evidence407
 - Experience98
 - Practical measures247
 - Institutions and plans137
 - Financing230
 
-Not yet dated: 808 works whose records carry no date, and 20 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 24 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

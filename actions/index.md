@@ -98,11 +98,16 @@ Cuts the link: Cooling demand peaks → Urban heat islands. How soon it works: A
 
 **Could help interrupt:** [The cooling trap](https://beattheheat.asia/loops/#cooling)
 
+**In practice:** Amravati's Cool Roof Bylaws 2025 make high-reflectance roofs mandatory for new government and commercial buildings and for homes over 500 sq m. Tamil Nadu's Green Schools initiative put cool roof coatings on 300 government schools, lowering classroom temperatures during school hours from 31 °C to 27 °C.
+
+Sources: [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+
 ### Practical guides
 
 - [Heat in the city: guidance and resources for urban heat](https://heathealth.info/in-the-city/) Global Heat Health Information Network (GHHIN)
 - [Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 - [Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as the number of roofs treated, with what changes for people, such as lower indoor temperatures and less heat illness (pp. 53-54)](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026
+- [Institutionalisation of Climate Actions (Learning Note 4): a climate checklist for every project before approval, which asks whether it will increase flood or heat risk](https://niua.in/publication-details/Institutionalisation_of_Climate_Actions) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
 [See it on the map](https://beattheheat.asia/#break-coolbydesign) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolbydesign)
 
@@ -114,9 +119,9 @@ Cuts the link: Urban heat islands → Cooling demand peaks. How soon it works: 1
 
 **Could help interrupt:** [The cooling trap](https://beattheheat.asia/loops/#cooling)
 
-**In practice:** Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31.
+**In practice:** Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31. Tamil Nadu's Urban Greening Policy 2026 asks city governments to keep at least 15% of their area under green cover.
 
-Sources: [Cooling Singapore: digital urban climate twin](https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf) · [Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target](https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf)
+Sources: [Cooling Singapore: digital urban climate twin](https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf) · [Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target](https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf) · [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
 
 ### Practical guides
 
@@ -124,6 +129,7 @@ Sources: [Cooling Singapore: digital urban climate twin](https://www.thegpsc.org
 - [Nature-Based Solutions to Climate Change Adaptation in Urban Areas](https://doi.org/10.1007/978-3-319-56091-5) Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access
 - [Heat in the city: guidance and resources for urban heat](https://heathealth.info/in-the-city/) Global Heat Health Information Network (GHHIN)
 - [Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as hectares of green cover added, with what changes for people (pp. 53-54)](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026
+- [Climate Considerations in City Plans, a study of 20 master plans: green cover is widely planned, but heat islands are seldom studied through microclimate analysis, and vulnerability mapping often does not directly inform the plans](https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2024
 
 [See it on the map](https://beattheheat.asia/#break-greencity) · [Who works on this](https://beattheheat.asia/heat-network/?action=greencity)
 
@@ -228,7 +234,7 @@ Cuts the link: Heatstroke and heat exhaustion → Health systems overwhelmed. Ho
 
 **Could help interrupt:** [The overwhelmed-clinic loop](https://beattheheat.asia/loops/#clinic)
 
-**In practice:** Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.
+**In practice:** Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. Uttar Pradesh sets heatwave thresholds district by district for its yellow, orange and red alerts, and in Kerala the Moodadi village council in Kozhikode wrote a village-level heat action plan. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.
 
 Sources: [Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025](https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/) ·
 **Watch for:** Plans are often sized to the worst heatwave in memory. A 2026 modelling study found that even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region’s recent record heatwave; with high emissions, close to 1 in 5 in India and Pakistan.
@@ -248,6 +254,8 @@ Sources: [Scientific Reports, 2025: widespread heat stress will become the norm 
 - [How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans](https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf) Council on Energy, Environment and Water (CEEW), 2025
 - [How can heat action plans make Thane a heat-resilient city?](https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan) Council on Energy, Environment and Water (CEEW)
 - [Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
+- [Extreme Heat in India: how heat action plans are moving from short-term response to ward-level risk assessment, department roles and financing](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf) Natural Resources Defense Council (NRDC), 2026
+- [Institutionalisation of Climate Actions (Learning Note 4): a heat action plan's roles by department, from health (warnings and outreach) and engineering (shade, cool roofs, water points) to disaster management and ward offices](https://niua.in/publication-details/Institutionalisation_of_Climate_Actions) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
 [See it on the map](https://beattheheat.asia/#break-hap) · [Who works on this](https://beattheheat.asia/heat-network/?action=hap)
 
@@ -465,9 +473,9 @@ Cuts the link: Heat protection underfunded → Heat deaths. How soon it works: W
 
 **Could help interrupt:** [The invisible-deaths loop](https://beattheheat.asia/loops/#invisible)
 
-**In practice:** Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them.
+**In practice:** Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them. Under its heat action plan, Jodhpur built a net-zero cooling station for informal workers in a high-risk ward.
 
-Sources: [Narayanganj City Corporation: Heat Action Plan, 2025](https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf)
+Sources: [Narayanganj City Corporation: Heat Action Plan, 2025](https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf) · [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
 
 **Watch for:** A 2025 review found no study that measured health outcomes for people using cooling centres; in simulated heatwaves, the benefits were short-lived. That is not evidence of no benefit.
 
@@ -482,6 +490,7 @@ Sources: [UNDP and Bangkok Metropolitan Administration: Bangkok's financing stra
 - [The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation](https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf) US Centers for Disease Control and Prevention, in the GHHIN resource library
 - [Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 - [Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as cooling centres created, with what changes for people (pp. 51-54)](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026
+- [Guidelines for Cooling Centers: site selection in high-risk areas, retrofitting existing buildings, ventilation and cooling design, and operations and maintenance](https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf) National Disaster Management Authority, India, 2025 (in the GHHIN library)
 
 [See it on the map](https://beattheheat.asia/#break-coolingcentres) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolingcentres)
 
@@ -493,14 +502,15 @@ Cuts the link: Public budgets strained → Heat protection underfunded. How soon
 
 **Could help interrupt:** [The reactive-spending loop](https://beattheheat.asia/loops/#reactive), [The protection-gap loop](https://beattheheat.asia/loops/#protection)
 
-**In practice:** Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported.
+**In practice:** Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. Since September 2024, states may also use their disaster mitigation funds for heatwave projects, and Kerala gave each district collector ₹1 crore for heat protection such as drinking water kiosks and cooling centres. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported.
 
-Sources: [CEEW, Nepal in a Warming World, 2025](https://www.ceew.in/publications/nepal-heat-health-action) · [UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026](https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf)
+Sources: [CEEW, Nepal in a Warming World, 2025](https://www.ceew.in/publications/nepal-heat-health-action) · [UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026](https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf) · [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
 
 ### Practical guides
 
 - [Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience](https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/) Centre for Policy Research, India
 - [How is India adapting to heatwaves? An assessment of 37 heat action plans](https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/) Centre for Policy Research, India, 2023
+- [Understanding Urban Climate Finance (Learning Note 3): preparing a project for finance, with people protected from heat counted as a measurable outcome](https://niua.in/publication-details/Understanding_Urban_Climate_Finance) Climate Policy Initiative and National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
 [See it on the map](https://beattheheat.asia/#break-heatbudget) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatbudget)
 

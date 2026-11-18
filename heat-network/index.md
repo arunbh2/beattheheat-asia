@@ -5,7 +5,7 @@ updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> 335 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+> 336 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Who could we work with?
 
@@ -19,7 +19,7 @@ Organisations already at work, by the part they play.
 
 # Organisations working on extreme heat
 
-335 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+336 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
 
@@ -154,6 +154,9 @@ Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Gre
 - [International Organization for Standardization](https://www.iso.org) (Platform): Publishes the WBGT-based occupational heat-stress screening standard.
 Standards bodyGlobalLink not confirmed: the site turned the check away
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+- [Natural Resources Defense Council (NRDC), India programme](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf) (Supply): Works with Indian cities and states on heat action plans. It developed Ahmedabad's 2013 heat action plan, the first in South Asia, with the Indian Institute of Public Health-Gandhinagar, and reviews heat policy in India.
+Non-profit organisationIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 
 ## Governments and regional bodies in Asia
 
