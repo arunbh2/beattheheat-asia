@@ -1,26 +1,248 @@
 {
- "about": "Two state heat institutions that NRDC's 2026 review of heat policy in India describes (research/2026-11/heat-india-policy/ledger.md), followed as Signals at the owner's request (18 November 2026). Each is tied to the government's own pages where they open to the checker, with news reports as second routes; a claim carried only by news is marked reported, not checked against an original.",
+ "about": "Two state heat institutions that NRDC's 2026 review of heat policy in India describes (research/2026-11/heat-india-policy/ledger.md), followed as Signals at the owner's request (18 November 2026). Each is tied to the government's own pages where they open to the checker, with news reports as second routes; a claim carried only by news is marked reported, not checked against an original. First run: the Tamil Nadu press release and DD News failed to open, and The Week returned 'Access Denied' (a term found in its URL is not evidence, so nothing rests on it); the second run reads the two official pages that opened for more terms.",
  "sources": [
-  {"key": "tn-pr", "title": "Government of Tamil Nadu and UK Government jointly launch a Heat Resilience Centre for the State", "publisher": "Government of Tamil Nadu", "year": 2025, "kind": "Press release (PDF)", "url": "https://cms.tn.gov.in/cms_migrated/document/press_release/pr211125_e_2793.pdf", "expect": ["Heat Resilience"]},
-  {"key": "tngcc", "title": "Center for Heat Resilience", "publisher": "Tamil Nadu Green Climate Company", "year": 2025, "kind": "Project page", "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/", "expect": ["Heat"]},
-  {"key": "week-tn", "title": "TN, UK launch Heat Resilience Centre to tackle rising extreme heat (PTI)", "publisher": "The Week", "year": 2025, "kind": "News (wire)", "url": "https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html", "expect": ["Heat Resilience Centre"]},
-  {"key": "mh-sdma", "title": "About CEHSC", "publisher": "Maharashtra State Disaster Management Authority", "year": 2026, "kind": "Official page", "url": "https://sdma.maharashtra.gov.in/en/about/", "expect": ["CEHSC"]},
-  {"key": "ddnews", "title": "Maharashtra launches Centre of Excellence to combat extreme heat, promote sustainable cooling", "publisher": "DD News (Prasar Bharati)", "year": 2026, "kind": "News (public broadcaster)", "url": "https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/", "expect": ["Centre of Excellence"]},
-  {"key": "week-mh", "title": "Fadnavis launches heat resilience centre at IIM Nagpur (PTI)", "publisher": "The Week", "year": 2026, "kind": "News (wire)", "url": "https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html", "expect": ["IIM Nagpur"]}
+  {
+   "key": "tn-pr",
+   "title": "Government of Tamil Nadu and UK Government jointly launch a Heat Resilience Centre for the State",
+   "publisher": "Government of Tamil Nadu",
+   "year": 2025,
+   "kind": "Press release (PDF)",
+   "url": "https://cms.tn.gov.in/cms_migrated/document/press_release/pr211125_e_2793.pdf",
+   "expect": [
+    "Heat Resilience"
+   ]
+  },
+  {
+   "key": "tngcc",
+   "title": "Center for Heat Resilience",
+   "publisher": "Tamil Nadu Green Climate Company",
+   "year": 2025,
+   "kind": "Project page",
+   "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/",
+   "expect": [
+    "Heat"
+   ]
+  },
+  {
+   "key": "week-tn",
+   "title": "TN, UK launch Heat Resilience Centre to tackle rising extreme heat (PTI)",
+   "publisher": "The Week",
+   "year": 2025,
+   "kind": "News (wire)",
+   "url": "https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html",
+   "expect": [
+    "Heat Resilience Centre"
+   ]
+  },
+  {
+   "key": "mh-sdma",
+   "title": "About CEHSC",
+   "publisher": "Maharashtra State Disaster Management Authority",
+   "year": 2026,
+   "kind": "Official page",
+   "url": "https://sdma.maharashtra.gov.in/en/about/",
+   "expect": [
+    "CEHSC"
+   ]
+  },
+  {
+   "key": "ddnews",
+   "title": "Maharashtra launches Centre of Excellence to combat extreme heat, promote sustainable cooling",
+   "publisher": "DD News (Prasar Bharati)",
+   "year": 2026,
+   "kind": "News (public broadcaster)",
+   "url": "https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/",
+   "expect": [
+    "Centre of Excellence"
+   ]
+  },
+  {
+   "key": "week-mh",
+   "title": "Fadnavis launches heat resilience centre at IIM Nagpur (PTI)",
+   "publisher": "The Week",
+   "year": 2026,
+   "kind": "News (wire)",
+   "url": "https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html",
+   "expect": [
+    "IIM Nagpur"
+   ]
+  }
  ],
  "claims": [
-  {"id": "c-tn-launch", "where": "Signal: Tamil Nadu Heat Resilience Centre", "text": "The Government of Tamil Nadu and the UK Government launched a Heat Resilience Centre for the state, with a Letter of Intent signed in November 2025.",
-   "rests_on": [["tn-pr", "Heat Resilience Centre"], ["tn-pr", "Letter of Intent"]],
-   "alts": [[["week-tn", "Heat Resilience Centre"], ["week-tn", "Letter of Intent"]]]},
-  {"id": "c-tn-role", "where": "Signal: Tamil Nadu Heat Resilience Centre", "text": "It is to coordinate heat-risk management across sectors and support city and district heat action planning.",
-   "rests_on": [["tn-pr", "nodal"], ["tn-pr", "heat action plan"]],
-   "alts": [[["week-tn", "nodal"], ["week-tn", "heat action plan"]]]},
-  {"id": "c-tn-term", "where": "Signal: Tamil Nadu Heat Resilience Centre", "text": "The programme runs until September 2026.",
-   "rests_on": [["tngcc", "September 2026"]]},
-  {"id": "c-mh-launch", "where": "Signal: Maharashtra Centre of Excellence", "text": "In April 2026 Maharashtra launched a Centre of Excellence on extreme heat and sustainable cooling, operating first from IIM Nagpur and later to become part of the planned State Institute of Disaster Management.",
-   "rests_on": [["ddnews", "Centre of Excellence"], ["ddnews", "IIM Nagpur"], ["ddnews", "State Institute of Disaster Management"]],
-   "alts": [[["week-mh", "IIM Nagpur"], ["week-mh", "State Institute of Disaster Management"], ["week-mh", "heat"]]]},
-  {"id": "c-mh-sdma", "where": "Signal: Maharashtra Centre of Excellence", "text": "The Maharashtra State Disaster Management Authority's own site describes the centre (CEHSC) and its work on sustainable cooling.",
-   "rests_on": [["mh-sdma", "CEHSC"], ["mh-sdma", "Cooling"]]}
+  {
+   "id": "c-tn-launch",
+   "where": "Signal: Tamil Nadu Heat Resilience Centre",
+   "text": "The Government of Tamil Nadu and the UK Government launched a Heat Resilience Centre for the state, with a Letter of Intent signed in November 2025.",
+   "rests_on": [
+    [
+     "tn-pr",
+     "Heat Resilience Centre"
+    ],
+    [
+     "tn-pr",
+     "Letter of Intent"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "week-tn",
+      "Heat Resilience Centre"
+     ],
+     [
+      "week-tn",
+      "Letter of Intent"
+     ]
+    ],
+    [
+     [
+      "tngcc",
+      "Heat Resilience"
+     ],
+     [
+      "tngcc",
+      "British High Commission"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "c-tn-role",
+   "where": "Signal: Tamil Nadu Heat Resilience Centre",
+   "text": "It is to coordinate heat-risk management across sectors and support city and district heat action planning.",
+   "rests_on": [
+    [
+     "tn-pr",
+     "nodal"
+    ],
+    [
+     "tn-pr",
+     "heat action plan"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "week-tn",
+      "nodal"
+     ],
+     [
+      "week-tn",
+      "heat action plan"
+     ]
+    ],
+    [
+     [
+      "tngcc",
+      "nodal"
+     ],
+     [
+      "tngcc",
+      "heat action"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "c-tn-term",
+   "where": "Signal: Tamil Nadu Heat Resilience Centre",
+   "text": "The programme runs until September 2026.",
+   "rests_on": [
+    [
+     "tngcc",
+     "September 2026"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-launch",
+   "where": "Signal: Maharashtra Centre of Excellence",
+   "text": "In April 2026 Maharashtra launched a Centre of Excellence on extreme heat and sustainable cooling, operating first from IIM Nagpur and later to become part of the planned State Institute of Disaster Management.",
+   "rests_on": [
+    [
+     "ddnews",
+     "Centre of Excellence"
+    ],
+    [
+     "ddnews",
+     "IIM Nagpur"
+    ],
+    [
+     "ddnews",
+     "State Institute of Disaster Management"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "week-mh",
+      "IIM Nagpur"
+     ],
+     [
+      "week-mh",
+      "State Institute of Disaster Management"
+     ],
+     [
+      "week-mh",
+      "heat"
+     ]
+    ],
+    [
+     [
+      "mh-sdma",
+      "Centre of Excellence"
+     ],
+     [
+      "mh-sdma",
+      "Heat"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-sdma",
+   "where": "Signal: Maharashtra Centre of Excellence",
+   "text": "The Maharashtra State Disaster Management Authority's own site describes the centre (CEHSC) and its work on sustainable cooling.",
+   "rests_on": [
+    [
+     "mh-sdma",
+     "CEHSC"
+    ],
+    [
+     "mh-sdma",
+     "Cooling"
+    ]
+   ]
+  },
+  {
+   "id": "c-tn-partners",
+   "where": "Signal: Tamil Nadu Heat Resilience Centre",
+   "text": "Its partners are the British High Commission, UNEP and the World Resources Institute.",
+   "rests_on": [
+    [
+     "tngcc",
+     "British High Commission"
+    ],
+    [
+     "tngcc",
+     "World Resources Institute"
+    ],
+    [
+     "tngcc",
+     "UNEP"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-host",
+   "where": "Signal: Maharashtra Centre of Excellence",
+   "text": "The centre is hosted within the state's Relief and Rehabilitation Department.",
+   "rests_on": [
+    [
+     "mh-sdma",
+     "Relief and Rehabilitation"
+    ]
+   ]
+  }
  ]
 }

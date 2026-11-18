@@ -1,0 +1,35 @@
+[
+ {
+  "id": "c-tn-launch",
+  "where": "Signal: Tamil Nadu Heat Resilience Centre",
+  "text": "The Government of Tamil Nadu and the UK Government launched a Heat Resilience Centre for the state, with a Letter of Intent signed in November 2025.",
+  "missing": [
+   "tn-pr: \"Heat Resilience Centre\"",
+   "tn-pr: \"Letter of Intent\"",
+   "week-tn: \"Heat Resilience Centre\"",
+   "week-tn: \"Letter of Intent\""
+  ]
+ },
+ {
+  "id": "c-tn-role",
+  "where": "Signal: Tamil Nadu Heat Resilience Centre",
+  "text": "It is to coordinate heat-risk management across sectors and support city and district heat action planning.",
+  "missing": [
+   "tn-pr: \"nodal\"",
+   "tn-pr: \"heat action plan\"",
+   "week-tn: \"nodal\"",
+   "week-tn: \"heat action plan\""
+  ]
+ },
+ {
+  "id": "c-mh-launch",
+  "where": "Signal: Maharashtra Centre of Excellence",
+  "text": "In April 2026 Maharashtra launched a Centre of Excellence on extreme heat and sustainable cooling, operating first from IIM Nagpur and later to become part of the planned State Institute of Disaster Management.",
+  "missing": [
+   "ddnews: \"Centre of Excellence\"",
+   "ddnews: \"IIM Nagpur\"",
+   "ddnews: \"State Institute of Disaster Management\"",
+   "week-mh: \"State Institute of Disaster Management\""
+  ]
+ }
+]

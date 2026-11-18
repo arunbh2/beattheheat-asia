@@ -1,0 +1,24 @@
+[
+ {
+  "id": "c-tn-term",
+  "where": "Signal: Tamil Nadu Heat Resilience Centre",
+  "text": "The programme runs until September 2026.",
+  "sources": [
+   {
+    "label": "Tamil Nadu Green Climate Company: Center for Heat Resilience, 2025",
+    "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-sdma",
+  "where": "Signal: Maharashtra Centre of Excellence",
+  "text": "The Maharashtra State Disaster Management Authority's own site describes the centre (CEHSC) and its work on sustainable cooling.",
+  "sources": [
+   {
+    "label": "Maharashtra State Disaster Management Authority: About CEHSC, 2026",
+    "url": "https://sdma.maharashtra.gov.in/en/about/"
+   }
+  ]
+ }
+]
