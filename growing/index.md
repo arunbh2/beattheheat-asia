@@ -5,7 +5,7 @@ updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 72 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 73 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,46 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-72 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
+73 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Institutions and plans
+
+### Signals follows two new state heat institutions in India
+
+Added 18 November 2026 · Underlying work: dates vary; each source shows its own
+
+Why it matters our readingTamil Nadu's Heat Resilience Centre, set up with the UK, and Maharashtra's Centre of Excellence for heat resilience and sustainable cooling join Signals, each on the step its sources show, so the site can record whether they deliver.
+
+- India
+- Heat action plans
+- Clean, efficient cooling
+
+ReviewSeven sources staged over three runs; the state climate company's and the disaster management authority's own pages, and NRDC's review, passed the GitHub check; the press release and news pages did not open, and nothing rests on them. 7 checked · 4 confirmed · 3 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Do Tamil Nadu's and Maharashtra's heat centres exist, and what step has each reached, confirmed at the source?
+- **The search.** 7 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 4 confirmed, and 3 could not be (2 did not respond, 1 did not show the expected text).
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** What each centre delivers, whether Tamil Nadu's continues after September 2026, and Maharashtra's move into the State Institute of Disaster Management.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-signals-india-heat-centres/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/signals-india-heat-centres/dropped-after-check.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+Both centres are to support heat action planning across their states.
+
+[Read the signals of the year](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Signals%20follows%20two%20new%20state%20heat%20institutions%20in%20India&ref=g-signals-india-heat-centres#way-share)
 
 Evidence added · Institutions and plans
 
@@ -2314,7 +2349,7 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Institutions and plans137
 - Financing230
 
-Not yet dated: 808 works whose records carry no date, and 24 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

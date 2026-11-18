@@ -636,6 +636,17 @@
       "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
     },
     {
+      "id": "g-signals-india-heat-centres", "kind": "evidence", "root": "institutions", "added": "2026-11-18", "pr": null,
+      "title": "Signals follows two new state heat institutions in India",
+      "why": "Tamil Nadu's Heat Resilience Centre, set up with the UK, and Maharashtra's Centre of Excellence for heat resilience and sustainable cooling join Signals, each on the step its sources show, so the site can record whether they deliver.",
+      "places": ["india"], "people": [], "topics": ["hap", "cleancool"],
+      "review": "Seven sources staged over three runs; the state climate company's and the disaster management authority's own pages, and NRDC's review, passed the GitHub check; the press release and news pages did not open, and nothing rests on them",
+      "effort": { "asked": "Do Tamil Nadu's and Maharashtra's heat centres exist, and what step has each reached, confirmed at the source?", "inbox": "data/inbox/2026-11-signals-india-heat-centres", "dropped": "research/2026-11/signals-india-heat-centres/dropped-after-check.json",
+                  "open": "What each centre delivers, whether Tamil Nadu's continues after September 2026, and Maharashtra's move into the State Institute of Disaster Management." },
+      "pages": [["/signals/", "Signals"]], "action": ["Read the signals of the year", "/signals/"],
+      "links": [{ "to": "lever:hap", "why": "Both centres are to support heat action planning across their states.", "basis": "record" }]
+    },
+    {
       "id": "g-heat-india-policy", "kind": "evidence", "root": "institutions", "added": "2026-11-18", "pr": null,
       "title": "How India's heat policy is changing: state examples, guides and the money gap",
       "why": "NRDC's 2026 review of heat policy in India and three NIUA documents add state and city examples to five actions, practical guides on heat plans, cooling centres, city plans and finance, a global figure on how little urban climate finance goes to adaptation, and NRDC to the heat network.",

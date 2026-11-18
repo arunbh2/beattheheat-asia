@@ -18,7 +18,7 @@ cites were staged so the guides link to them directly.
   - Heat action plans: Uttar Pradesh's district thresholds; Kerala's village-level plan
   - Cooling centres: Jodhpur's net-zero cooling station
   - Dedicated heat budgets: mitigation funds for heatwave projects since September 2024; Kerala's allocation to district collectors
-- **Practical guides**: NRDC's review (Heat action plans); NDMA's cooling centre
+- **Practical guides**: NDMA's roof cooling guide for house owners (Cool by design; checked on the owner's copy, roofguide-check.md); NRDC's review (Heat action plans); NDMA's cooling centre
   guidelines (Cooling centres); the study of 20 city plans (Green, cool cities); Learning Note 3 (Dedicated heat budgets);
   Learning Note 4 (Heat action plans: roles by department; Cool by design: a heat-risk check before project approval)
 - **Heat protection underfunded**: urban adaptation finance of about USD 10 billion out of USD 831 billion a year (2021-2022),
@@ -27,8 +27,8 @@ cites were staged so the guides link to them directly.
 - **Heat network**: NRDC's India programme
 
 ## Held back
-- **NDMA's House Owners' Guide to Alternate Roof Cooling Solutions** (roofs up to 70% of heat gain; up to 5 °C cooler indoors):
-  its NDMA link did not open for the checker, so the guide is not linked; recheck the link.
+- **NRDC's "up to 5 °C" for roof measures**: not found in NDMA's handbook itself, so not used. (The handbook was added after the
+  owner supplied a copy, since its NDMA link does not open for the checker; see roofguide-check.md.)
 - **National figures the review cites from other originals** (each could be checked at its own source and added there):
   - deaths: 489,000 heat deaths a year worldwide; more than 24,000 heat deaths in India in 1992-2015
   - exposure: 536 heatwave days and over 44,000 heatstroke cases in 2024; 57% of districts at high or very high heat risk
