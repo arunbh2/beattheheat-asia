@@ -110,6 +110,19 @@
   "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": [
    {
     "kind": "content",
+    "batch": "2026-11-el-nino-cities",
+    "checked": "2026-11-18",
+    "status": "OK",
+    "terms": {
+     "Extreme Heat in India": true,
+     "between March and May": true,
+     "releases seasonal": true,
+     "Site selection in high-risk areas": true,
+     "Operations & maintenance protocols": true
+    }
+   },
+   {
+    "kind": "content",
     "batch": "2026-11-heat-india-policy",
     "checked": "2026-11-18",
     "status": "OK",

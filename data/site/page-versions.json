@@ -20,11 +20,11 @@
   "changed": "2026-10-01"
  },
  "/act/": {
-  "hash": "01d038b6672ceda1",
-  "changed": "2026-11-16"
+  "hash": "f4528afdc1112cd8",
+  "changed": "2026-11-18"
  },
  "/actions/": {
-  "hash": "3b5b2d1231849d01",
+  "hash": "8923db0e620d4719",
   "changed": "2026-11-18"
  },
  "/approach/": {
@@ -187,6 +187,10 @@
   "hash": "1cce79a8b34f796e",
   "changed": "2026-11-16"
  },
+ "/el-nino-and-cities/": {
+  "hash": "047577d31d1b009c",
+  "changed": "2026-11-18"
+ },
  "/evidence-map/": {
   "hash": "414069663018d1f7",
   "changed": "2026-11-16"
@@ -212,7 +216,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "2c6ddee282aba8da",
+  "hash": "89116c58fe9b2158",
   "changed": "2026-11-18"
  },
  "/guide/": {
@@ -220,8 +224,8 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "d07a55ef86b3206a",
-  "changed": "2026-11-17"
+  "hash": "99d8b82ec2b28ab0",
+  "changed": "2026-11-18"
  },
  "/heat-economy/": {
   "hash": "c18fccd1706bc155",
@@ -248,12 +252,12 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "8b510d954c435220",
+  "hash": "b33f94359543ae11",
   "changed": "2026-11-18"
  },
  "/heat-tools/": {
-  "hash": "1ed03f5d2d1d5690",
-  "changed": "2026-11-17"
+  "hash": "573b86e1491ad14d",
+  "changed": "2026-11-18"
  },
  "/heat-tools/bmd/": {
   "hash": "21db7d1f60659ee9",
@@ -364,8 +368,8 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "6fe5dc177928cb7e",
-  "changed": "2026-11-17"
+  "hash": "ce9046c191c39ae1",
+  "changed": "2026-11-18"
  },
  "/loops/": {
   "hash": "b2a7c3bca3f29843",
@@ -416,8 +420,8 @@
   "changed": "2026-11-13"
  },
  "/practical-actions/": {
-  "hash": "cb71391619942b31",
-  "changed": "2026-11-16"
+  "hash": "9f339127ed2c1bf9",
+  "changed": "2026-11-18"
  },
  "/practical/": {
   "hash": "d9cafe8219c84b09",
@@ -616,8 +620,8 @@
   "changed": "2026-11-01"
  },
  "/resources/heat-action-plans/india/": {
-  "hash": "8d71108086907556",
-  "changed": "2026-11-03"
+  "hash": "933afa018b3faee6",
+  "changed": "2026-11-18"
  },
  "/signals/": {
   "hash": "2365830290eba056",

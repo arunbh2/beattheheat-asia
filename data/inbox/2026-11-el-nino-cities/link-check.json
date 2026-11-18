@@ -1,0 +1,140 @@
+{
+ "_terms": {
+  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": {
+   "DIAGNOSTIC": true,
+   "12 November 2026": true,
+   "El Niño Advisory": true,
+   "likely through January-March 2027": true,
+   "greater than a 79% chance": true,
+   "beginning to weaken in early 2027": true,
+   "10 December": true
+  },
+  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml": {
+   "Diagnostic Discussion": true
+  },
+  "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027": {
+   "El Niño": true,
+   "3 September 2026": true,
+   "nearly 100%": true,
+   "February 2027": true,
+   "does not determine how severe its impacts will be in any individual country": true
+  },
+  "https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf": {
+   "Monsoon": true,
+   "01 October 2026": true,
+   "87% of its long period average": true,
+   "101% in July": true
+  },
+  "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2030-09-2026.pdf": {
+   "Press Release": true,
+   "30th September": true,
+   "has been recorded over Marathawada": true
+  },
+  "https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php": {
+   "Warnings": true
+  },
+  "https://mausam.imd.gov.in/nagpur/": {
+   "Nagpur": true
+  },
+  "https://mausam.imd.gov.in/mumbai/": {
+   "Mumbai": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/": {
+   "1961": true,
+   "Heat Waves over India": true,
+   "years following the El Nino events": true,
+   "April to June": true,
+   "tropical Indian Ocean": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4872222/fullTextXML": {
+   "1961": true,
+   "Heat Waves over India": true,
+   "years following the El Nino events": true,
+   "April to June": true,
+   "tropical Indian Ocean": true
+  },
+  "https://doi.org/10.1038/s41467-017-00744-9": {
+   "central India": true,
+   "threefold increase in widespread extreme rain events over central India": true,
+   "decline in the total rainfall": true
+  },
+  "https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/": {
+   "El Niño": true,
+   "16 June 2026": true,
+   "Practical Action Nepal has been using seasonal forecasts": true,
+   "heat action planning": true,
+   "Swiss Agency for Development and Cooperation": true,
+   "INDECI": true,
+   "1,500 families": true
+  },
+  "https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/": {
+   "Heat": true,
+   "Maharashtra State Heat Action Plan 2024": true,
+   "Vidarbha, Marathwada, and Khandesh": true,
+   "15 districts": true,
+   "cooling centers": true,
+   "hospital beds": true
+  },
+  "https://cdnbbsr.s3waas.gov.in/s36143cc48107351648de16d8367dc5db4/uploads/2025/03/20250313742462885.pdf": {
+   "2024": true,
+   "अकोला": true,
+   "जळगाव": false,
+   "नांदेड": true
+  },
+  "https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf": {
+   "Summer 2026": true,
+   "Advisory for State Health Departments for Summer 2026": true,
+   "March 01, 2026": true,
+   "public cooling and drinking water facilities": true,
+   "local early warning thresholds": true
+  },
+  "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf": {
+   "Cities and Climate Fundamentals Primer": true,
+   "Equity and Social Inequality": true,
+   "Limited Resources and Capacities": true,
+   "safe zones during heatwaves": true
+  },
+  "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf": {
+   "Climate Change Adaptation": true,
+   "City-Scale Climate Resilience Planning": true,
+   "isolated projects": true,
+   "Output and outcome indicators for various adaptation actions in urban context": true,
+   "Number of roofs": true
+  },
+  "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": {
+   "Extreme Heat in India": true,
+   "between March and May": true,
+   "releases seasonal": true,
+   "Site selection in high-risk areas": true,
+   "Operations & maintenance protocols": true
+  },
+  "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": {
+   "cooling": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": {
+   "central India": true,
+   "threefold increase in widespread extreme rain events over central India": true,
+   "decline in the total rainfall": true
+  }
+ },
+ "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": "OK",
+ "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml": "OK",
+ "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027": "OK",
+ "https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf": "OK",
+ "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2030-09-2026.pdf": "OK",
+ "https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php": "OK",
+ "https://mausam.imd.gov.in/nagpur/": "OK",
+ "https://mausam.imd.gov.in/mumbai/": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4872222/fullTextXML": "OK",
+ "https://doi.org/10.1038/s41467-017-00744-9": "REDIRECT",
+ "https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/": "OK",
+ "https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/": "OK",
+ "https://cdnbbsr.s3waas.gov.in/s36143cc48107351648de16d8367dc5db4/uploads/2025/03/20250313742462885.pdf": "OK",
+ "https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf": "OK",
+ "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf": "OK",
+ "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf": "OK",
+ "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": "OK",
+ "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": "OK"
+}

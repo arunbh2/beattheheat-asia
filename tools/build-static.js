@@ -112,6 +112,10 @@ function page(p, intro, body, extraLd) {
     .lede{font-size:1.1rem;color:#39424D}
     .src,.meta{font-size:.85rem;color:#5E6570}
     .cta{display:inline-block;margin:14px 0;padding:10px 18px;border-radius:999px;background:#F26430;color:#16202B;font-weight:800;text-decoration:none}
+    .en-promo{max-width:46rem;margin:22px 0;padding:20px;background:#fff;border:1px solid #E6DFD4;border-radius:12px}
+    .en-promo .cs-note__label{display:block;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#39424D}
+    .en-promo__h{font-size:1.375rem;font-weight:700;line-height:1.15;margin:4px 0 6px}.en-promo p{margin:0 0 12px}.en-promo p:last-child{margin:0}
+    .en-promo .btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:10px 24px;border-radius:999px;background:#F26430;color:#16202B;font-weight:800;text-decoration:none}
     footer{margin-top:48px;padding-bottom:40px;font-size:.85rem;color:#5E6570;border-top:1px solid #E6DFD4}
     ul{padding-left:20px} li{margin:4px 0}
   </style>
@@ -503,9 +507,10 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
   const intro = `${n} practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.`;
   const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
-  let h = `<p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
+  const EN = require("./el-nino-text.js");
+  let h = `${EN.promo(esc, "en-promo-practical", "p")}<p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro, EN.promoMd()];
   D.ACTION_SETTINGS.forEach(st => {
-    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/practical/#practical-${st.id}">Open them in the interactive version</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
+    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/practical/#practical-${st.id}">Open them in the interactive version</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}${st.id === "summer" ? ` · <a href="/el-nino-and-cities/">El Niño and the city: what to prepare before summer 2027</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);
     if (st.problems) { h += `<p><strong>What workers told researchers:</strong> ${st.problems.map(x => esc(x.q)).join(" · ")}. ${ext(st.problemsSource.url, st.problemsSource.label)}</p>`; m.push(`What workers told researchers: ${st.problems.map(x => x.q).join("; ")} (${st.problemsSource.label}, ${st.problemsSource.url})`); }
     st.cards.forEach(c => {
@@ -562,6 +567,8 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
 // ---- how heat became visible: its page is built by tools/build-visibility.js; the same text, from the same helper, joins llms-full.txt ----
 const VT = require("./visibility-text.js");
 if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
+// ---- El Niño and the city: page by tools/build-el-nino.js, the same words from tools/el-nino-text.js ----
+md.push(require("./build-el-nino.js").md(SITE));
 // ---- who could help a household through a hot season: page by tools/build-social-protection.js, the same words from tools/social-protection-text.js ----
 const SPT = require("./social-protection-text.js");
 if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE));

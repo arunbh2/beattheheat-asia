@@ -1,7 +1,7 @@
 ---
 title: "Practical actions against extreme heat, by setting | Common Shade"
 url: https://beattheheat.asia/practical-actions/
-updated: 2026-11-16
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -34,6 +34,13 @@ Water, shade, rest and cooler hours, with what each depends on.
 **Watch: What you can do this season** · 0:19 · narrated, with captions
 
 [Open the interactive practical actions](https://beattheheat.asia/practical/)
+Before summer 2027
+El Niño and the city
+
+A decision guide for smaller Indian cities: what can be running by March, who needs to agree, what changes when an official warning arrives, and how to check that people got relief.
+
+[Open the guide](https://beattheheat.asia/el-nino-and-cities/)
+
 Evidence labels: **Design concept**: Designed, but not yet tried by the people it is for. **Simulation or test**: Tried in a drill, simulation or small trial. **Reported, not evaluated**: Described by those running it or in the news; nobody independent has checked the results. **Official guidance or data**: What a government or UN agency advises or counts. It shows what is expected, not what works. **Measured in a study**: A study, survey or analysis measured it, often the size of the problem rather than the effect of the fix. **Independently evaluated**: Someone outside the programme measured whether the action worked.
 
 **Start from a question:** [How do I protect outdoor workers?](#work) · [How do I cool homes or classrooms?](#homes) · [What could our municipality do before summer?](#summer) · [Why are our interventions failing?](https://beattheheat.asia/#stalls) · [What would this mean for one worker?](#heatweek) · [How do we pay for protection?](https://beattheheat.asia/paying-for-protection/)
@@ -467,7 +474,7 @@ Evidence: Measured in a study · Over years
 
 ## Before summer: for municipalities
 
-The decisions a city or district makes before the first heatwave decide what happens during it. [Print these cards](https://beattheheat.asia/print/actions-summer/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-summer)
+The decisions a city or district makes before the first heatwave decide what happens during it. [Print these cards](https://beattheheat.asia/print/actions-summer/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-summer) · [El Niño and the city: what to prepare before summer 2027](https://beattheheat.asia/el-nino-and-cities/)
 
 ### Name an owner and set aside the money
 

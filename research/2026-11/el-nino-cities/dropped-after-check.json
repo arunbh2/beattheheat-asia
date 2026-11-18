@@ -1,0 +1,10 @@
+[
+ {
+  "id": "c-mh-districts",
+  "where": "Maharashtra (optional)",
+  "text": "The state plan lists Akola, Jalgaon and Nanded among its districts.",
+  "missing": [
+   "mh-plan: \"जळगाव\""
+  ]
+ }
+]

@@ -19,7 +19,7 @@ const NEAR = { "#1f6f4a": "--break", "#e8622c": "--orange", "#9a3a12": "--ember-
 const VALUE = { "--ink": "#16202B", "--canvas": "#FAF7F2", "--orange": "#F26430", "--ember": "#B8401A", "--ember-deep": "#8F3212", "--ember-50": "#FBE9DF", "--break": "#17703A",
   "--break-deep": "#0F5229", "--break-50": "#E8F3EB", "--line": "#E6DFD4", "--line-strong": "#C9C2B6", "--grey-700": "#39424D", "--grey-500": "#5E6570", "--amber": "#F5A623",
   "--teal": "#1F7A70", "--blue": "#2E6F95", "--sand-50": "#F7F0E6", "--sand-100": "#F2E7D9", "--ev-teal": "#1D6E64" };
-const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "heat-network/network.css", "how-heat-is-reported/media.css", "heat-assembly/game.css"];
+const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "el-nino-and-cities/el-nino.css", "heat-network/network.css", "how-heat-is-reported/media.css", "heat-assembly/game.css"];
 const SKIP = /(^|[\s,.#>-])(svg|node|edge|map|zoom|key__|legend|now-c|warn|wbgt|csn|csx|csp|invite|cs-tip|site-menu)\b|@font-face|^:root|^@/i;
 const skip = sel => SKIP.test(sel) || sel.includes(":root");
 module.exports = { EXACT, NEAR, VALUE, FILES, SKIP, skip };

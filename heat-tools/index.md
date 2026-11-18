@@ -1,7 +1,7 @@
 ---
 title: "Heat Tool Finder: which heat tool fits your decision"
 url: https://beattheheat.asia/heat-tools/
-updated: 2026-11-17
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -14,6 +14,8 @@ Heat Tool Finder
 Find tools for warnings, risk assessment, cooling and protection planning. Compare what they need, what they produce, and where their limits matter.
 
 A navigation and comparison service. Inclusion is not endorsement or certification. Check local applicability, current source information and professional requirements before relying on a tool. It is not a weather feed, a risk score or a complete list, and Common Shade has not run any of these tools itself.
+
+Reading a seasonal El Niño signal? A probability for the Pacific is not a heatwave forecast for a city: [El Niño and the city](https://beattheheat.asia/el-nino-and-cities/#outlook) explains what it can and cannot tell a municipality, with the latest dated outlooks.
 
 16 outside resources and 4 Common Shade pages, in groups by how they apply.
 
