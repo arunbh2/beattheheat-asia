@@ -28,7 +28,8 @@
    "c-cop32",
    "c-money"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118042826/https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling"
  },
  {
   "id": "src-cop31e-unep-speech",
@@ -53,7 +54,8 @@
    "c-ministerial",
    "c-cop32"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118042848/https://www.unep.org/en/news-and-stories/speech/advancing-heat-resilience-and-sustainable-cooling-together"
  },
  {
   "id": "src-cop31e-cc-dialogue",
@@ -79,7 +81,8 @@
    "c-ministerial",
    "c-cop32"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261106214010/https://coolcoalition.org/events/cop31-ministerial-dialogue-heat-resilience-and-sustainable-cooling"
  },
  {
   "id": "src-cop31e-who-sprp",
@@ -104,7 +107,8 @@
    "c-who-grade3",
    "c-who-heat"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115025923/https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan"
  },
  {
   "id": "src-cop31e-who-elnino",
@@ -127,6 +131,7 @@
    "c-who-grade3",
    "c-who-heat"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118042916/https://www.who.int/emergencies/situations/el-nino"
  }
 ]
