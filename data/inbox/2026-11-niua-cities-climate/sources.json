@@ -1,0 +1,118 @@
+[
+ {
+  "id": "src-niua-m1-pdf",
+  "type": "source",
+  "keys": [
+   "m1-pdf"
+  ],
+  "title": "Cities and Climate Fundamentals Primer: Learning Note 1",
+  "publisher": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube)",
+  "year": 2026,
+  "url": "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf",
+  "kind": "Training learning note (PDF)",
+  "where": "Global land",
+  "expect": [
+   "Cities and Climate Fundamentals Primer",
+   "urban local bodies",
+   "Understanding Urban Climate Finance",
+   "Institutionalising Climate Action in Cities",
+   "resilience to heat, flooding, water stress"
+  ],
+  "claims": [
+   "c-series"
+  ],
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-niua-m1-page",
+  "type": "source",
+  "keys": [
+   "m1-page"
+  ],
+  "title": "Cities and Climate Fundamentals Primer",
+  "publisher": "National Institute of Urban Affairs",
+  "year": 2026,
+  "url": "https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer",
+  "kind": "Publication page",
+  "where": "Global land",
+  "expect": [
+   "Cities and Climate Fundamentals Primer"
+  ],
+  "claims": [],
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-niua-m2-pdf",
+  "type": "source",
+  "keys": [
+   "m2-pdf"
+  ],
+  "title": "Climate Change Adaptation Actions in Indian Cities: Learning Note 2",
+  "publisher": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube)",
+  "year": 2026,
+  "url": "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf",
+  "kind": "Training learning note (PDF)",
+  "where": "Global land",
+  "expect": [
+   "Climate Change Adaptation",
+   "Output Indicator",
+   "Outcome Indicator",
+   "Number of roofs",
+   "Hectares of green",
+   "creation of cooling centres",
+   "Lower indoor",
+   "heat illness",
+   "Heat vulnerability is not uniformly distributed",
+   "densely built areas with low vegetation",
+   "informal settlements are",
+   "creating shaded areas, increasing tree cover",
+   "may be minimal"
+  ],
+  "claims": [
+   "c-results",
+   "c-ward",
+   "c-informal"
+  ],
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-niua-m2-page",
+  "type": "source",
+  "keys": [
+   "m2-page"
+  ],
+  "title": "Climate Change Adaptation Actions in Indian Cities",
+  "publisher": "National Institute of Urban Affairs",
+  "year": 2026,
+  "url": "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities",
+  "kind": "Publication page",
+  "where": "Global land",
+  "expect": [
+   "Climate Change Adaptation"
+  ],
+  "claims": [],
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-niua-ccube",
+  "type": "source",
+  "keys": [
+   "ccube"
+  ],
+  "title": "Climate Centre for Cities",
+  "publisher": "National Institute of Urban Affairs",
+  "year": 2026,
+  "url": "https://niua.in/c-cube",
+  "kind": "Organisation page",
+  "where": "Global land",
+  "expect": [
+   "Climate Centre for Cities",
+   "Heat Resilient Cities Framework",
+   "Building Heat Resilient Cities"
+  ],
+  "claims": [
+   "c-ccube"
+  ],
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
