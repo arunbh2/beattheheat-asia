@@ -5672,15 +5672,13 @@ https://beattheheat.asia/el-nino-and-cities/
 
 A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where protection is needed, agree who will keep it working, and decide what changes when a local warning arrives.
 
-Reviewed 18 November 2026; next review after NOAA's next ENSO discussion (due 10 December 2026), and again when IMD issues its outlook for the March to May hot season.
-
 A seasonal El Niño outlook gives cities a reason to review preparations early. The local heat season, water supply and places where people spend the hottest hours decide what a city puts in place. District forecasts and official warnings decide when to step up the response.
 
 The first decision: Which public service will we protect first, who relies on it during the hottest hours, and who has the authority to keep it running? One service, chosen with the people who use it, is enough to start. The rest of this guide helps a municipal team and a local organisation answer the question in one meeting, with information they already hold.
 
 Illustrative: A vegetable seller loses sales if she leaves her stall to find shade. So the shade needs to reach her occupied stall in the afternoon, not a room across town. Drinking water needs to be there when she needs it, at 2 p.m., not only when the market opens.
 
-### Where the outlook stands (as of 18 November 2026)
+### Seasonal outlook and observations
 
 - Forecast, NOAA Climate Prediction Center, issued 12 November 2026, through January to March 2027, Tropical Pacific Ocean: El Niño Advisory in effect. A strong to very strong El Niño is likely through January to March 2027 (a greater than 79% chance), then expected to begin weakening. A forecast for the Pacific Ocean, not for an Indian city. Next issue: 10 December 2026.
 
@@ -5688,7 +5686,7 @@ Illustrative: A vegetable seller loses sales if she leaves her stall to find sha
 
 - Observed, India Meteorological Department, issued 1 October 2026, June to September 2026, India as a whole: Rainfall over India in the 2026 monsoon was 87% of its long period average. A national total. It does not show how much water your city's own supply holds.
 
-As of 18 November 2026, Common Shade found no IMD seasonal outlook for March to May 2027. IMD releases its seasonal outlooks between March and May; look for it then, alongside your district's warnings.
+Consult IMD for hot-season outlooks and current district warnings.
 
 ### What a seasonal signal can and cannot tell a city
 

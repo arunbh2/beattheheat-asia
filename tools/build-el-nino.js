@@ -48,12 +48,11 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
 
   <section class="container en-sec" id="outlook" aria-labelledby="en-outlook-h">
     <p class="en-kicker" aria-hidden="true"><span>01</span>The evidence</p>
-    <h2 class="hub-h" id="en-outlook-h">Where the outlook stands, as of ${esc(O.asOf)}</h2>
+    <h2 class="hub-h" id="en-outlook-h">Seasonal outlook and observations</h2>
     <ul class="en-outlook">${O.items.map(i => `<li>${tag(i.kind, kindOf(i.kind))}<h3>${esc(i.who)}</h3>
       <p class="en-meta">Issued ${esc(i.issued)} · covers ${esc(i.period)} · ${esc(i.where)}</p><p>${esc(i.says)}</p><p class="en-meta">${esc(i.means)}</p>
       <p class="en-latest">Newer issue? ${ext(SRC[i.latest[0]].url, i.latest[1])}</p></li>`).join("")}</ul>
     <p class="en-none">${esc(O.none)}</p>
-    <p class="en-review">This section was checked on ${esc(T.REVIEWED)}. It will be reviewed ${esc(T.NEXT_REVIEW)}.</p>
     ${srcFold([...O.items.flatMap(i => i.claims), ...O.noneClaims])}
     <h3 class="en-h3">What a seasonal signal can and cannot tell a city</h3>
     <div class="en-cancan"><div><h3>It can</h3><p>${esc(T.SIGNAL.can.text)}</p></div><div><h3>It cannot</h3><p>${esc(T.SIGNAL.cannot)}</p></div></div>
@@ -157,7 +156,7 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
     <p class="en-large">${tag(T.LARGE.label, "observed")} <b>${esc(T.LARGE.place)}.</b> ${esc(T.LARGE.text)} <a href="/actions/#hap">Heat action plans, with Ahmedabad's</a>.</p>
     ${srcFold([...T.EXAMPLES.flatMap(e => e.claims), ...T.LARGE.claims])}
     <p>${esc(T.CLOSE)}</p>
-    <p class="en-review">Reviewed ${esc(T.REVIEWED)}. Next review ${esc(T.NEXT_REVIEW)}. See something to correct? <a href="/join/#join-form">Tell us</a>; corrections are listed on <a href="/corrections/">Corrections</a>.</p>
+    <p class="en-review">See something to correct? <a href="/join/#join-form">Tell us</a>; corrections are listed on <a href="/corrections/">Corrections</a>.</p>
   </section>`;
   write(T.SLUG, page(T.SLUG, T.TITLE, T.DESC, body, `\n  <link rel="stylesheet" href="/${T.SLUG}/el-nino.css?v=${V}">`));
 };
