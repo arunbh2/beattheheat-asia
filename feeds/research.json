@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:06:40.059Z",
+ "updated": "2026-11-18T07:43:54.952Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -22,6 +22,16 @@
    "preprint": true,
    "url": "https://doi.org/10.21203/rs.3.rs-11397313/v1",
    "firstAuthor": "Pranto FS"
+  },
+  {
+   "title": "Managing Chronic Conditions During Extreme Heat Among Older Women in China: An Interpretative Phenomenological Study to Inform Heat-Health Intervention Design.",
+   "journal": "Clinical interventions in aging",
+   "date": "2026-11-12",
+   "doi": "10.2147/cia.s645450",
+   "pmid": "43042308",
+   "preprint": false,
+   "url": "https://doi.org/10.2147/cia.s645450",
+   "firstAuthor": "Zhou H"
   },
   {
    "title": "Data-driven estimation of the onset of heat-related mortality in five Indian cities",
@@ -318,6 +328,16 @@
    "journal": "Scandinavian journal of work, environment & health",
    "date": "2026-10-09",
    "doi": "10.5271/sjweh.4336",
+   "pmid": "43042764",
+   "preprint": false,
+   "url": "https://doi.org/10.5271/sjweh.4336",
+   "firstAuthor": "Tantipanjaporn T"
+  },
+  {
+   "title": "Effect of occupation-related heat stress exposure on productivity among sugarcane workers in Thailand.",
+   "journal": "Scandinavian journal of work, environment & health",
+   "date": "2026-10-09",
+   "doi": "10.5271/sjweh.4336",
    "pmid": "42853598",
    "preprint": false,
    "url": "https://doi.org/10.5271/sjweh.4336",
@@ -582,26 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1038/s41581-026-01126-5",
    "firstAuthor": "McMullen L"
-  },
-  {
-   "title": "Effect of Ambient Temperature on Kidney Function.",
-   "journal": "Nephron",
-   "date": "2026-09-16",
-   "doi": "10.1159/nef/adtag002",
-   "pmid": "42748031",
-   "preprint": false,
-   "url": "https://doi.org/10.1159/nef/adtag002",
-   "firstAuthor": "Mondal K"
-  },
-  {
-   "title": "Mitigating exertional heat illness risk and preserving performance in mass-participation endurance events: a real-world analysis of a graded cooling and fluid replacement strategy.",
-   "journal": "Journal of science and medicine in sport",
-   "date": "2026-09-15",
-   "doi": "10.1016/j.jsams.2026.09.007",
-   "pmid": "42786052",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.jsams.2026.09.007",
-   "firstAuthor": "Li H"
   }
  ]
 }

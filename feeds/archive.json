@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Walang pasok: Zamboanga City schools suspend classes due to extreme heat",
+   "url": "https://newsinfo.inquirer.net/2343110/walang-pasok-zamboanga-city-schools-suspend-classes-due-to-extreme-heat",
+   "via": "Inquirer",
+   "date": "2026-11-18T07:55:37Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Pagasa warns of dangerous heat index in 8 areas on Wednesday",
    "url": "https://newsinfo.inquirer.net/2342936/pagasa-warns-of-dangerous-heat-index-in-8-areas-on-wednesday",
    "via": "Inquirer",
@@ -171,6 +178,14 @@
    "journal": "RSC advances",
    "date": "2026-11-13",
    "firstAuthor": "Ngo HL",
+   "preprint": false
+  },
+  {
+   "title": "Managing Chronic Conditions During Extreme Heat Among Older Women in China: An Interpretative Phenomenological Study to Inform Heat-Health Intervention Design.",
+   "url": "https://doi.org/10.2147/cia.s645450",
+   "journal": "Clinical interventions in aging",
+   "date": "2026-11-12",
+   "firstAuthor": "Zhou H",
    "preprint": false
   },
   {
@@ -1295,5 +1310,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-17T21:06:40.204Z"
+ "updated": "2026-11-18T07:43:55.098Z"
 }
