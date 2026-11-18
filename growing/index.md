@@ -5,7 +5,7 @@ updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 75 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 73 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,82 +13,11 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-75 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
+73 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
-
-Plan or guidance added · Practical measures
-
-### The El Niño guide becomes national: preparing India's smaller cities for summer 2027
-
-Added 18 November 2026 · Underlying work: dates vary; each source shows its own
-
-Why it matters our readingThe guide now serves Tier 2 and Tier 3 cities across India: it opens on one decision, helps a city adapt it through the conditions it recognises, gives a route to each city's own official warning, separates who authorises, pays, runs and repairs, and adds documented examples from Jodhpur, Kerala and Uttar Pradesh.
-
-- India
-- Anticipatory action
-- Heat action plans
-
-ReviewEight new claims staged; all eight passed the GitHub check at WMO, IMD, NRDC's 2026 review and NIUA; the earlier district list stays held back. 22 checked · 21 confirmed · 1 not confirmed, each recorded.
-
-What it took to add this
-
-- **The question.** What can a smaller Indian city anywhere in the country put in place before its own hot season, and what do the latest outlooks and documented Indian examples support?
-- **The search.** 22 sources were gathered for checking.
-
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 21 confirmed, and 1 could not be (1 did not respond).
-- **What we set aside.** 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
-
-- **What is still open.** The December NOAA update, IMD's hot-season outlook from March, and examples from smaller cities with outcome evidence.
-
-See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-el-nino-cities/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/el-nino-cities/dropped-after-check.json)
-
-How it connects
-
-- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · from the site's records
-The guide sets out what a city can prepare before its season and what changes on an official warning.
-
-[Open the guide](https://beattheheat.asia/el-nino-and-cities/)
-
-Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20El%20Ni%C3%B1o%20guide%20becomes%20national%3A%20preparing%20India's%20smaller%20cities%20for%20summer%202027&ref=g-el-nino-national#way-share)
-
-Plan or guidance added · Practical measures
-
-### El Niño and the city: what to prepare before summer 2027
-
-Added 18 November 2026 · Underlying work: dates vary; each source shows its own
-
-Why it matters our readingA decision guide for smaller Indian cities: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting.
-
-- India
-- Anticipatory action
-- Heat action plans
-
-ReviewTwenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, a state disaster management authority, NIUA and Europe PMC; one district list was found only in part and was held back. 22 checked · 21 confirmed · 1 not confirmed, each recorded.
-
-What it took to add this
-
-- **The question.** What can a smaller Indian city have running before summer 2027, given El Niño's lead time, and what do official outlooks and peer-reviewed studies support?
-- **The search.** 22 sources were gathered for checking.
-
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 21 confirmed, and 1 could not be (1 did not respond).
-- **What we set aside.** 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
-
-- **What is still open.** The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for more smaller cities.
-
-See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-el-nino-cities/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/el-nino-cities/dropped-after-check.json)
-
-How it connects
-
-- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · from the site's records
-The guide sets out what a city can prepare in the months a seasonal outlook gives.
-
-[Open the guide](https://beattheheat.asia/el-nino-and-cities/)
-[Practical actions](https://beattheheat.asia/practical-actions/)[India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/)
-
-Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=El%20Ni%C3%B1o%20and%20the%20city%3A%20what%20to%20prepare%20before%20summer%202027&ref=g-el-nino-and-cities#way-share)
 
 Evidence added · Institutions and plans
 
