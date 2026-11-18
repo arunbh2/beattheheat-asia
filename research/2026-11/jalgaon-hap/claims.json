@@ -1,0 +1,17 @@
+{
+ "about": "Jalgaon's city heat action plan: what its public sources confirm (developers, launch, ward-level mapping, thresholds, early warning). Staged so that nothing about the plan reaches a page unless its source holds the terms.",
+ "sources": [
+  {"key": "mht", "title": "Strengthening City Heat Action Plans to Protect Vulnerable Groups", "publisher": "Mahila Housing Trust", "year": 2026, "kind": "Organisation page", "url": "https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/", "expect": ["Jalgaon"]},
+  {"key": "uoftif", "title": "Heat Action Plans in Indian Cities: Implementation Guide", "publisher": "University of Toronto India Foundation", "year": 2026, "kind": "Organisation page", "url": "https://uoftindiafoundation.com/heat-action-plans-indian-cities/", "expect": ["Jalgaon"]},
+  {"key": "fpj", "title": "Jalgaon's 'Heat Action Plan' Shows Results As White Roof Coating Lowers Indoor Temperatures", "publisher": "Free Press Journal", "year": 2026, "kind": "News report", "url": "https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures", "expect": ["Jalgaon"]}
+ ],
+ "claims": [
+  {"id": "c-jal-partners", "where": "Archive / ledger", "text": "Jalgaon City Municipal Corporation developed Jalgaon's heat action plan with Mahila Housing Trust.", "rests_on": [["mht", "Jalgaon City Municipal Corporation"], ["mht", "Mahila Housing Trust"]]},
+  {"id": "c-jal-uoftif", "where": "Archive / ledger", "text": "The University of Toronto India Foundation and Mahila Housing Trust supported heat action planning in Jalgaon.", "rests_on": [["uoftif", "Jalgaon"], ["uoftif", "University of Toronto India Foundation"], ["uoftif", "Mahila Housing Trust"]]},
+  {"id": "c-jal-ward", "where": "Archive / ledger", "text": "The plan includes ward-level heat vulnerability mapping.", "rests_on": [["mht", "ward-level"]], "alts": [[["uoftif", "ward-level"]]]},
+  {"id": "c-jal-thresholds", "where": "Archive / ledger", "text": "The plan sets locally calibrated heat thresholds.", "rests_on": [["mht", "threshold"]], "alts": [[["uoftif", "threshold"]]]},
+  {"id": "c-jal-ews", "where": "Archive / ledger", "text": "The plan includes an early warning and response framework.", "rests_on": [["mht", "early warning"]], "alts": [[["uoftif", "early warning"]]]},
+  {"id": "c-jal-launch", "where": "Archive / ledger", "text": "The plan was launched in August 2026.", "rests_on": [["mht", "August 2026"]], "alts": [[["uoftif", "August 2026"]], [["fpj", "August"]]]},
+  {"id": "c-jal-roofs", "where": "Archive / ledger", "text": "Under the plan, Jalgaon Municipal Corporation coated roofs of small homes with heat-reflective white paint, starting with a pilot.", "rests_on": [["fpj", "Jalgaon"], ["fpj", "white"], ["fpj", "pilot"]]}
+ ]
+}

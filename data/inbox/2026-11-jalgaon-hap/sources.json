@@ -1,0 +1,86 @@
+[
+ {
+  "id": "src-jal-mht",
+  "type": "source",
+  "keys": [
+   "mht"
+  ],
+  "title": "Strengthening City Heat Action Plans to Protect Vulnerable Groups",
+  "publisher": "Mahila Housing Trust",
+  "year": 2026,
+  "url": "https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/",
+  "kind": "Organisation page",
+  "where": "Jalgaon heat action plan",
+  "expect": [
+   "Jalgaon",
+   "Jalgaon City Municipal Corporation",
+   "Mahila Housing Trust",
+   "ward-level",
+   "threshold",
+   "early warning",
+   "August 2026"
+  ],
+  "claims": [
+   "c-jal-partners",
+   "c-jal-ward",
+   "c-jal-thresholds",
+   "c-jal-ews",
+   "c-jal-launch"
+  ],
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-jal-uoftif",
+  "type": "source",
+  "keys": [
+   "uoftif"
+  ],
+  "title": "Heat Action Plans in Indian Cities: Implementation Guide",
+  "publisher": "University of Toronto India Foundation",
+  "year": 2026,
+  "url": "https://uoftindiafoundation.com/heat-action-plans-indian-cities/",
+  "kind": "Organisation page",
+  "where": "Jalgaon heat action plan",
+  "expect": [
+   "Jalgaon",
+   "University of Toronto India Foundation",
+   "Mahila Housing Trust",
+   "ward-level",
+   "threshold",
+   "early warning",
+   "August 2026"
+  ],
+  "claims": [
+   "c-jal-uoftif",
+   "c-jal-ward",
+   "c-jal-thresholds",
+   "c-jal-ews",
+   "c-jal-launch"
+  ],
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-jal-fpj",
+  "type": "source",
+  "keys": [
+   "fpj"
+  ],
+  "title": "Jalgaon's 'Heat Action Plan' Shows Results As White Roof Coating Lowers Indoor Temperatures",
+  "publisher": "Free Press Journal",
+  "year": 2026,
+  "url": "https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures",
+  "kind": "News report",
+  "where": "Jalgaon heat action plan",
+  "expect": [
+   "Jalgaon",
+   "August",
+   "white",
+   "pilot"
+  ],
+  "claims": [
+   "c-jal-launch",
+   "c-jal-roofs"
+  ],
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
