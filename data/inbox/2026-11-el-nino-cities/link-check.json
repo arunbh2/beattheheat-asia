@@ -92,7 +92,9 @@
    "Cities and Climate Fundamentals Primer": true,
    "Equity and Social Inequality": true,
    "Limited Resources and Capacities": true,
-   "safe zones during heatwaves": true
+   "safe zones during heatwaves": true,
+   "disproportionately higher exposure to heat": true,
+   "entry points for climate action within municipal functions": true
   },
   "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf": {
    "Climate Change Adaptation": true,
@@ -106,15 +108,42 @@
    "between March and May": true,
    "releases seasonal": true,
    "Site selection in high-risk areas": true,
-   "Operations & maintenance protocols": true
+   "Operations & maintenance protocols": true,
+   "net zero cooling station": true,
+   "high-risk ward": true,
+   "designed for the informal sector": true,
+   "locally accessible formats": true,
+   "1 crore to each District Collector": true,
+   "drinking water kiosks": true,
+   "decentralized heat": true,
+   "heatwave thresholds": true,
+   "yellow, orange, red": true,
+   "regional climatic conditions": true,
+   "may have contributed": true,
+   "1,190 fewer deaths per year": true,
+   "extreme warm nights": true,
+   "Thane HAP": true
   },
   "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": {
    "cooling": true
   },
   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": {
-   "central India": true,
-   "threefold increase in widespread extreme rain events over central India": true,
-   "decline in the total rainfall": true
+   "central India": false,
+   "threefold increase in widespread extreme rain events over central India": false,
+   "decline in the total rainfall": false
+  },
+  "https://wmo.int/media/news/wmo-global-seasonal-climate-outlook-informs-humanitarian-action": {
+   "Global Seasonal Climate Update": true,
+   "26 October 2026": true,
+   "3.8°C above average": true,
+   "November 2026 to January 2027": true,
+   "unprecedented in strength": true
+  },
+  "https://mausam.imd.gov.in/event/evolution.php": {
+   "India Meteorological Department": true,
+   "Regional Meteorological Centers (RMCs)": true,
+   "Meteorological Centers (MCs) at the state level": true,
+   "advisories and warnings": true
   }
  },
  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": "OK",
@@ -136,5 +165,7 @@
  "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf": "OK",
  "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": "OK",
  "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": "OK",
- "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": "OK"
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": "FAIL",
+ "https://wmo.int/media/news/wmo-global-seasonal-climate-outlook-informs-humanitarian-action": "OK",
+ "https://mausam.imd.gov.in/event/evolution.php": "OK"
 }
