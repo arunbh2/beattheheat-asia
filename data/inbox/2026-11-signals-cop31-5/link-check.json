@@ -1,0 +1,67 @@
+{
+ "_terms": {
+  "https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling": {
+   "COP31": true,
+   "Ministerial": true,
+   "Singapore": true,
+   "voluntary": true,
+   "Roadmap": true,
+   "COP32": false,
+   "Addis": false,
+   "20 million": true,
+   "Cool Coalition": true,
+   "Global Cooling Pledge": true
+  },
+  "https://www.unep.org/en/news-and-stories/speech/advancing-heat-resilience-and-sustainable-cooling-together": {
+   "heat resilience": true,
+   "roadmap": true,
+   "voluntary": false,
+   "COP32": false,
+   "Addis": true
+  },
+  "https://coolcoalition.org/events/cop31-ministerial-dialogue-heat-resilience-and-sustainable-cooling": {
+   "Heat Resilience": false,
+   "Ministerial": false,
+   "Singapore": false,
+   "Roadmap": false,
+   "COP32": false,
+   "Addis": false
+  },
+  "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan": {
+   "Strategic Preparedness and Response Plan": true,
+   "Grade 3": true,
+   "October 2026": true,
+   "September 2027": true,
+   "heat": true
+  },
+  "https://www.who.int/emergencies/situations/el-nino": {
+   "El Niño": true,
+   "Grade 3": false,
+   "heat": true
+  },
+  "https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/": {
+   "COP31": true,
+   "Ministerial": true,
+   "Singapore": true,
+   "voluntary": true,
+   "Roadmap": true,
+   "COP32": false,
+   "Addis": false,
+   "20 million": true,
+   "Cool Coalition": true,
+   "Global Cooling Pledge": true
+  },
+  "https://coolcoalition.org/download/file/3271b8cc-e2c3-41e5-8d16-7b7fd9ed1742?filename=Agenda_36.pdf": {
+   "Cooling Ministerial": false,
+   "COP32": false,
+   "Addis": false
+  }
+ },
+ "https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling": "OK",
+ "https://www.unep.org/en/news-and-stories/speech/advancing-heat-resilience-and-sustainable-cooling-together": "OK",
+ "https://coolcoalition.org/events/cop31-ministerial-dialogue-heat-resilience-and-sustainable-cooling": "BLOCKED",
+ "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan": "OK",
+ "https://www.who.int/emergencies/situations/el-nino": "OK",
+ "https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/": "OK",
+ "https://coolcoalition.org/download/file/3271b8cc-e2c3-41e5-8d16-7b7fd9ed1742?filename=Agenda_36.pdf": "BLOCKED"
+}

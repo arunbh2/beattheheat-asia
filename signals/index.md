@@ -1,7 +1,7 @@
 ---
 title: "Signals: which way heat policy is moving"
 url: https://beattheheat.asia/signals/
-updated: 2026-11-17
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -26,13 +26,13 @@ Where the commitments stand
 
 ## From promise to proof, deliverable by deliverable
 
-Of 22 deliverables in 15 commitments tracked here, among 26 records in all (15 commitments, 2 gatherings, 8 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
+Of 25 deliverables in 17 commitments tracked here, among 28 records in all (17 commitments, 2 gatherings, 8 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
 
-- 6
+- 7
 **Announced** Said in public. A weak signal on its own: announcements happen whether or not anything follows.
-- 9
+- 10
 **Adopted** Made formal: a plan approved, a rule changed, an office set up. 2 of these rest on secondary reports only. 1 not verified by a content check.
-- 4
+- 5
 **Funded** Money committed to it, whether or not the amount is public. 2 of these rest on secondary reports only.
 - 3
 **Delivered** Something exists that people can use: a service open, a guide published, money paid out. 1 of these rests on secondary reports only.
@@ -53,13 +53,13 @@ What we are watching for heat at COP31. Each item is added only after its source
 
 **Scope**: Heat in COP31's announcements and outcomes on adaptation, health, finance, cooling and early warnings, including launches shortly before the conference. Each item enters only after its source passes the site's check.
 
-**Review cut-off**: 15 November 2026. Developments after this date are not yet reflected.
+**Review cut-off**: 18 November 2026. Developments after this date are not yet reflected.
 
 **Following**: Adaptation indicators Health Adaptation finance Cooling Early warnings
 
-**A reading so far, after check-in 1 (13 November).** COP31's heat story is running through health, early warning and money, while we have so far found little on heat itself in the negotiating texts. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at each check-in and when the conference closes.
+**A reading so far, after check-in 3 (18 November).** COP31's heat story is running through cooling, health and money, while we have so far found little on heat itself in the negotiating texts. The cooling roadmap and WHO's El Niño plan sit outside the negotiated decisions. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at the last check-in and when the conference closes.
 
-Dated check-ins (3), latest 15 November 2026
+Dated check-ins (4), latest 18 November 2026
 
 - **9 November 2026 · Opening** The conference, the year's climate findings and the adaptation indicators it builds on.
 
@@ -80,6 +80,11 @@ Dated check-ins (3), latest 15 November 2026
 
 - [The Antalya Compact for Energy Efficient Buildings opens for endorsement](#sig-cop31-antalya-compact-2026) Commitment
 
+- **18 November 2026 · Check-in 3** Cooling and health: a heat resilience and cooling roadmap backed at the Cooling Ministerial, with new support announced, and WHO's El Niño response plan.
+
+- [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](#sig-cop31-cooling-ministerial-2026) Commitment
+- [WHO responds to El Niño's health risks at Grade 3](#sig-who-el-nino-response-2026) Commitment
+
 **Closing synthesis.** Not written yet. It will follow a review of the conference's final decisions and documents, not the closing date alone.
 
 Conference activity is not implementation: an announcement at a conference enters at the announced step, and later developments are added to the same record rather than as new cards.
@@ -87,6 +92,66 @@ Conference activity is not implementation: an announcement at a conference enter
 Every record
 
 ## Developments, newest first
+
+Commitment[COP31 watch](#cop31)Latest development 16 November 2026
+
+### [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](#sig-cop31-cooling-ministerial-2026)
+
+UNEP and the Government of Singapore (co-chairs) Global (UN climate process)
+
+At the third Cooling Pledge Ministerial in Antalya, co-chaired by Singapore and UNEP, governments backed a country-led, voluntary roadmap on heat resilience and sustainable cooling. More than US$20 million in new support was announced for the Cool Coalition's work on the Global Cooling Pledge. The roadmap is backed, not yet adopted, and the money is announced, not yet committed or paid out.
+
+What is tracked (2 deliverables)
+
+#### A country-led, voluntary roadmap on heat resilience and sustainable cooling Plan
+
+- AnnouncedAnnounced, 16 November 2026: original checked
+
+Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+#### More than US$20 million in new support for the Cool Coalition's work on the Global Cooling Pledge Funding
+
+- FundedFunding announced, 16 November 2026: original checked
+
+Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
+
+Evidence, history and what is not known
+
+#### A country-led, voluntary roadmap on heat resilience and sustainable cooling
+
+- 16 November 2026 **Announced**. Backed by governments at the third Cooling Pledge Ministerial, co-chaired by Singapore and UNEP
+
+- [UNEP, 2026: At COP31, governments back action on extreme heat and sustainable cooling](https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling) Original
+UNEP's own account of the ministerial and the roadmap governments backed. original checked: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”
+- [Mirage News, 2026: COP31 Governments Back Action on Extreme Heat, Cooling (UNEP release, republished)](https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/) Secondary
+The same UNEP release, republished. reported: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”
+
+Not known yet
+
+- Which countries have joined the roadmap: not verified
+- When and where it is to be launched: not verified
+
+What would change this recordThe roadmap's text, and countries in South and Southeast Asia taking part.
+
+#### More than US$20 million in new support for the Cool Coalition's work on the Global Cooling Pledge
+
+- 16 November 2026 **Funding announced**. Announced at the ministerial
+
+- [UNEP, 2026: At COP31, governments back action on extreme heat and sustainable cooling](https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling) Original
+UNEP reports the new support and what it is for. original checked: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”
+- [Mirage News, 2026: COP31 Governments Back Action on Extreme Heat, Cooling (UNEP release, republished)](https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/) Secondary
+The same UNEP release, republished. reported: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”
+
+Not known yet
+
+- How much is committed or paid out: not verified
+- How much reaches South and Southeast Asia: not verified
+
+What would change this recordGrants signed or paid out, and work funded in South and Southeast Asia.
+
+ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+
+Explore on Common Shade[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)[Cool by design](https://beattheheat.asia/actions/#coolbydesign)[Heat action plans](https://beattheheat.asia/actions/#hap)[Paying for protection](https://beattheheat.asia/paying-for-protection/)
 
 Gathering[COP31 watch](#cop31)Latest development 9 November 2026
 
@@ -186,6 +251,44 @@ Sources and review
 ReviewRecord last reviewed 17 November 2026. Sources last checked 17 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
 
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
+
+Commitment[COP31 watch](#cop31)Latest development November 2026
+
+### [WHO responds to El Niño's health risks at Grade 3](#sig-who-el-nino-response-2026)
+
+World Health Organization Global
+
+WHO is responding to El Niño's health risks at Grade 3 under a Strategic Preparedness and Response Plan for October 2026 to September 2027, and names heat among the risks it is preparing for. It is a plan for WHO's own response, published during COP31; it does not show what reaches clinics or households.
+
+What is tracked (1 deliverable)
+
+#### WHO's Strategic Preparedness and Response Plan for El Niño, October 2026 to September 2027 Plan
+
+- AdoptedAdopted, November 2026: original checked
+
+Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Evidence, history and what is not known
+
+#### WHO's Strategic Preparedness and Response Plan for El Niño, October 2026 to September 2027
+
+- November 2026 **Adopted**. Published by WHO, with the response at Grade 3
+
+- [WHO, 2026: Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies - Strategic Preparedness and Response Plan](https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan) Original
+WHO's plan, its Grade 3 response and its period. original checked: checked 18 November 2026 for “Strategic Preparedness and Response Plan”, “Grade 3”, “October 2026”, “September 2027”
+- [WHO: El Niño (emergency situation page)](https://www.who.int/emergencies/situations/el-nino) Original
+WHO names heat among El Niño's health risks. original checked: checked 18 November 2026 for “El Niño”, “heat”
+
+Not known yet
+
+- Funding for the plan: not verified
+- Which countries in South and Southeast Asia it prioritises: not verified
+
+What would change this recordSupport under the plan reaching countries in South and Southeast Asia.
+
+ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+
+Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
 Commitment[COP31 watch](#cop31)Latest development 29 October 2026
 

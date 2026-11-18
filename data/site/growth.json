@@ -636,6 +636,18 @@
       "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
     },
     {
+      "id": "g-signals-cop31-checkin-3", "kind": "evidence", "root": "evidence", "added": "2026-11-18", "pr": null,
+      "title": "COP31, third check-in: a cooling roadmap and WHO's El Niño plan",
+      "why": "Governments backed a voluntary roadmap on heat resilience and cooling at the Cooling Ministerial, with new support announced, and WHO set out its El Niño health plan. Each joins the watch on the step it has reached.",
+      "places": ["region"], "people": [], "topics": ["cleancool", "anticipatory"],
+      "event": { "what": "COP31 check-in", "date": "2026-11-18" },
+      "review": "Seven sources staged; five passed the GitHub check at UNEP, WHO and Mirage News; two Cool Coalition pages blocked the check and nothing rests on them",
+      "effort": { "asked": "What has COP31 added on heat since the second check-in, confirmed at the source?", "inbox": "data/inbox/2026-11-signals-cop31-5", "dropped": "research/2026-11/signals-cop31-5/dropped-after-check.json",
+                  "open": "Whether the closing decisions name heat, and when the cooling roadmap is launched." },
+      "pages": [["/signals/", "Signals"]], "action": ["Read the COP31 watch", "/signals/#cop31"],
+      "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
+    },
+    {
       "id": "g-city-heat-today", "kind": "tool", "root": "institutions", "added": "2026-11-15", "pr": null,
       "title": "Heat today and the next three days on every city page",
       "why": "Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away.",

@@ -1,0 +1,18 @@
+[
+ {
+  "id": "c-cop32",
+  "where": "Signal: third Cooling Pledge Ministerial (next step)",
+  "text": "The roadmap is to be launched at COP32 in Addis Ababa.",
+  "missing": [
+   "cc-dialogue: \"COP32\"",
+   "cc-dialogue: \"Addis\"",
+   "unep-pr: \"COP32\"",
+   "unep-pr: \"Addis\"",
+   "unep-speech: \"COP32\"",
+   "cc-agenda: \"COP32\"",
+   "cc-agenda: \"Addis\"",
+   "mirage: \"COP32\"",
+   "mirage: \"Addis\""
+  ]
+ }
+]

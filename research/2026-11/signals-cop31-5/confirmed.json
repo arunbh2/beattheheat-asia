@@ -1,0 +1,46 @@
+[
+ {
+  "id": "c-ministerial",
+  "where": "Signal: third Cooling Pledge Ministerial",
+  "text": "At the third Cooling Pledge Ministerial in Antalya on 16 November, co-chaired by Singapore and UNEP, governments backed a country-led, voluntary roadmap on heat resilience and sustainable cooling.",
+  "sources": [
+   {
+    "label": "UNEP: At COP31, governments back action on extreme heat and sustainable cooling, 2026",
+    "url": "https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling"
+   }
+  ]
+ },
+ {
+  "id": "c-money",
+  "where": "Signal: third Cooling Pledge Ministerial (funding, announced)",
+  "text": "More than US$20 million in new support was announced for the Cool Coalition's work on the Global Cooling Pledge.",
+  "sources": [
+   {
+    "label": "UNEP: At COP31, governments back action on extreme heat and sustainable cooling, 2026",
+    "url": "https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling"
+   }
+  ]
+ },
+ {
+  "id": "c-who-grade3",
+  "where": "Signal: WHO El Niño health response",
+  "text": "WHO is responding to El Niño's health risks at Grade 3, its highest emergency grade, under a plan for October 2026 to September 2027.",
+  "sources": [
+   {
+    "label": "World Health Organization: WHO Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies - Strategic Preparedness and Response Plan, 2026",
+    "url": "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan"
+   }
+  ]
+ },
+ {
+  "id": "c-who-heat",
+  "where": "Signal: WHO El Niño health response (heat)",
+  "text": "WHO names heat among the El Niño health risks it is preparing for.",
+  "sources": [
+   {
+    "label": "World Health Organization: El Niño, 2026",
+    "url": "https://www.who.int/emergencies/situations/el-nino"
+   }
+  ]
+ }
+]

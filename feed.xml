@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-17T00:00:00Z</updated>
+  <updated>2026-11-18T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>COP31, third check-in: a cooling roadmap and WHO's El Niño plan</title>
+    <link href="https://beattheheat.asia/growing/#g-signals-cop31-checkin-3" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-signals-cop31-checkin-3</id>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <summary>Governments backed a voluntary roadmap on heat resilience and cooling at the Cooling Ministerial, with new support announced, and WHO set out its El Niño health plan. Each joins the watch on the step it has reached.</summary>
+  </entry>
   <entry>
     <title>Dry soils and heat arriving together, from a daily global record</title>
     <link href="https://beattheheat.asia/growing/#g-compound-dry-hot" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-use-with-ai</id>
     <updated>2026-11-13T00:00:00Z</updated>
     <summary>Many readers already think with an AI assistant or notebook tool, and the site itself runs none. Each country, vicious cycle and action is now one plain-text pack of the site's own words and sources, with questions to start from and a plain warning that the sources, not the assistant, are the authority.</summary>
-  </entry>
-  <entry>
-    <title>A Heat Tool Finder: which tool fits the decision in front of you</title>
-    <link href="https://beattheheat.asia/growing/#g-heat-tools" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-heat-tools</id>
-    <updated>2026-11-13T00:00:00Z</updated>
-    <summary>People who plan, deliver or fund heat protection often know a decision but not the tool for it. The finder sets warning services, assessments, datasets, modelling tools and guidance side by side, with what each needs, what it gives and what it cannot tell you, and three illustrative workflows that combine them.</summary>
   </entry>
 </feed>
