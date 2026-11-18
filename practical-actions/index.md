@@ -1,7 +1,7 @@
 ---
 title: "Practical actions against extreme heat, by setting | Common Shade"
 url: https://beattheheat.asia/practical-actions/
-updated: 2026-11-16
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -467,7 +467,7 @@ Evidence: Measured in a study · Over years
 
 ## Before summer: for municipalities
 
-The decisions a city or district makes before the first heatwave decide what happens during it. [Print these cards](https://beattheheat.asia/print/actions-summer/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-summer)
+The decisions a city or district makes before the first heatwave decide what happens during it. [Print these cards](https://beattheheat.asia/print/actions-summer/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-summer) · [El Niño and the city: what to prepare before summer 2027](https://beattheheat.asia/el-nino-and-cities/)
 
 ### Name an owner and set aside the money
 

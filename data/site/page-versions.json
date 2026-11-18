@@ -20,8 +20,8 @@
   "changed": "2026-10-01"
  },
  "/act/": {
-  "hash": "01d038b6672ceda1",
-  "changed": "2026-11-16"
+  "hash": "f4528afdc1112cd8",
+  "changed": "2026-11-18"
  },
  "/actions/": {
   "hash": "3b5b2d1231849d01",
@@ -187,6 +187,10 @@
   "hash": "1cce79a8b34f796e",
   "changed": "2026-11-16"
  },
+ "/el-nino-and-cities/": {
+  "hash": "047577d31d1b009c",
+  "changed": "2026-11-18"
+ },
  "/evidence-map/": {
   "hash": "414069663018d1f7",
   "changed": "2026-11-16"
@@ -252,8 +256,8 @@
   "changed": "2026-11-18"
  },
  "/heat-tools/": {
-  "hash": "1ed03f5d2d1d5690",
-  "changed": "2026-11-17"
+  "hash": "573b86e1491ad14d",
+  "changed": "2026-11-18"
  },
  "/heat-tools/bmd/": {
   "hash": "21db7d1f60659ee9",
@@ -416,8 +420,8 @@
   "changed": "2026-11-13"
  },
  "/practical-actions/": {
-  "hash": "cb71391619942b31",
-  "changed": "2026-11-16"
+  "hash": "a9b6532167c28216",
+  "changed": "2026-11-18"
  },
  "/practical/": {
   "hash": "d9cafe8219c84b09",
@@ -616,8 +620,8 @@
   "changed": "2026-11-01"
  },
  "/resources/heat-action-plans/india/": {
-  "hash": "8d71108086907556",
-  "changed": "2026-11-03"
+  "hash": "130016df5f43752d",
+  "changed": "2026-11-18"
  },
  "/signals/": {
   "hash": "2365830290eba056",

@@ -596,6 +596,7 @@ require("./build-brief-health.js")({ page, write, esc, D, ROOT });
 require("./build-brief-social-security.js")({ page, write, esc, ROOT });
 require("./build-intersections.js")({ page, write, esc, V, D });
 require("./build-visibility.js")({ page, write, esc, hero, V, D });
+require("./build-el-nino.js")({ page, write, esc, hero, V });
 require("./build-social-protection.js")({ page, write, esc, hero, V, D });
 require("./build-growing.js")({ page, write, esc, hero, V });
 require("./build-signals.js")({ page, write, esc, hero, V });

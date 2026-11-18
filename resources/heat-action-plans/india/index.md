@@ -1,7 +1,7 @@
 ---
 title: "India heat action plan archive"
 url: https://beattheheat.asia/resources/heat-action-plans/india/
-updated: 2026-11-03
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -12,6 +12,8 @@ Resources · Heat action plans
 # India heat action plan archive
 
 146 verified documents from across India: plans written by cities, districts and states, the heat-health plans inside wider climate-and-health plans, and the national plan and guidance behind them. A growing archive, not a complete collection.
+
+Moving from a plan to action before summer 2027? [El Niño and the city](https://beattheheat.asia/el-nino-and-cities/) sets out what a municipality can have running by March, and how to check that people got relief.
 
 - **37**heat-health plans inside wider climate-and-health plans
 - **1**national heat-illness action plan

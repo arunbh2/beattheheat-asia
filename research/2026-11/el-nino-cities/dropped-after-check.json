@@ -1,14 +1,5 @@
 [
  {
-  "id": "c-roxy",
-  "where": "Six risks: intense rainfall",
-  "text": "Over central India, widespread extreme rain events rose threefold in 1950-2015 even as total rainfall declined.",
-  "missing": [
-   "roxy: \"threefold increase in widespread extreme rain events over central India\"",
-   "roxy: \"decline in the total rainfall\""
-  ]
- },
- {
   "id": "c-mh-districts",
   "where": "Maharashtra (optional)",
   "text": "The state plan lists Akola, Jalgaon and Nanded among its districts.",

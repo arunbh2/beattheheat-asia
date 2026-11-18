@@ -96,6 +96,17 @@
   ]
  },
  {
+  "id": "c-roxy",
+  "where": "Six risks: intense rainfall",
+  "text": "Over central India, widespread extreme rain events rose threefold in 1950-2015 even as total rainfall declined.",
+  "sources": [
+   {
+    "label": "Roxy and others (open access): A threefold rise in widespread extreme rain events over central India (Nature Communications, 2017), 2017",
+    "url": "https://doi.org/10.1038/s41467-017-00744-9"
+   }
+  ]
+ },
+ {
   "id": "c-pa-nepal",
   "where": "Documented preparedness",
   "text": "Practical Action Nepal has used seasonal forecasts to guide early action, working with media and local partners on awareness and supporting heat action planning (June 2026).",
