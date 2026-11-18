@@ -30,20 +30,24 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   const srcFold = (ids, what = "Sources for this section") => { const ss = srcOf(ids); return ss.length ? `<details class="en-src"><summary>${esc(what)} (${ss.length})</summary><ul>${ss.map(([u, l]) => `<li>${ext(u, l)}</li>`).join("")}</ul></details>` : ""; };
   const tag = (label, kind) => `<span class="en-tag en-tag--${kind}">${esc(label)}</span>`;
   const kindOf = l => /^Observed/.test(l) ? "observed" : /^Forecast/.test(l) ? "forecast" : /Scenario/.test(l) ? "scenario" : "design";
-  const related = items => `<ul class="en-related">${items.map(([u, t, d]) => `<li>${/^https?:/.test(u) ? ext(u, t) : `<a href="${esc(u)}">${esc(t)}</a>`}${d ? `: ${esc(d)}` : ""}</li>`).join("")}</ul>`;
+  // related pages as full-width rows: the whole row is the tap target
+  const related = items => `<ul class="en-related">${items.map(([u, t, d]) => { const out = /^https?:/.test(u);
+    return `<li><a href="${esc(u)}"${out ? ' target="_blank" rel="noopener"' : ""}><b>${esc(t)}</b>${d ? `<span>${esc(d)}</span>` : ""}${out ? '<span class="visually-hidden"> (opens in a new tab)</span>' : ""}<i aria-hidden="true">${out ? "↗" : "→"}</i></a></li>`; }).join("")}</ul>`;
   const O = T.OUTLOOK;
 
   const body = `${hero("Before the season", esc(T.TITLE), esc(T.DESC))}
   <section class="container en-sec" aria-labelledby="en-open-h">
+    <ul class="en-glance" aria-label="About this guide">${T.GLANCE.map(g => `<li>${esc(g)}</li>`).join("")}</ul>
     <h2 class="hub-h" id="en-open-h">What a seasonal outlook is for</h2>
     <p class="en-open">${esc(T.OPENING.text)}</p>
     <div class="en-next"><b>The first decision</b><p class="en-q">${esc(T.OPENING.decision)}</p><p>${esc(T.OPENING.decisionNote)}</p></div>
     <div class="en-pic">${tag("Illustrative", "design")}<p>${T.OPENING.picture.map(esc).join(" ")}</p>
       <p><a href="#market">The full market example</a> · <a href="#handout">The worksheet to print</a></p></div>
-    <p class="en-jump"><a href="#outlook">The outlook</a> · <a href="#adapt">Adapt this to your city</a> · <a href="#risks">Six linked risks</a> · <a href="#route">Your warning route</a> · <a href="#windows">Before, during, after</a> · <a href="#market">A market at 2 p.m.</a> · <a href="#scale">Reach</a> · <a href="#handout">Worksheet</a> · <a href="#examples">What has been done</a></p>
+    <nav class="en-toc" aria-label="On this page"><p class="en-toc__h">In this guide</p><ol>${[["outlook", "The outlook"], ["adapt", "Adapt to your city"], ["risks", "Six linked risks"], ["route", "Your warning route"], ["windows", "Before, during, after"], ["market", "A market at 2 p.m."], ["scale", "Reach"], ["handout", "Worksheet"], ["examples", "What has been done"]].map(([id, t], i) => `<li><a href="#${id}"><span aria-hidden="true">${String(i + 1).padStart(2, "0")}</span>${esc(t)}</a></li>`).join("")}</ol></nav>
   </section>
 
   <section class="container en-sec" id="outlook" aria-labelledby="en-outlook-h">
+    <p class="en-kicker" aria-hidden="true"><span>01</span>The evidence</p>
     <h2 class="hub-h" id="en-outlook-h">Where the outlook stands, as of ${esc(O.asOf)}</h2>
     <ul class="en-outlook">${O.items.map(i => `<li>${tag(i.kind, kindOf(i.kind))}<h3>${esc(i.who)}</h3>
       <p class="en-meta">Issued ${esc(i.issued)} · covers ${esc(i.period)} · ${esc(i.where)}</p><p>${esc(i.says)}</p><p class="en-meta">${esc(i.means)}</p>
@@ -58,18 +62,20 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   </section>
 
   <section class="container en-sec" id="adapt" aria-labelledby="en-adapt-h"><span id="local" class="en-anchor" aria-hidden="true"></span>
+    <p class="en-kicker" aria-hidden="true"><span>02</span>Your city</p>
     <h2 class="hub-h" id="en-adapt-h">Adapt this to your city</h2>
     <p>${esc(T.ADAPT.intro)}</p>
     <div class="en-tablewrap"><table class="en-table"><caption>Conditions your city may recognise, and the decision each raises</caption>
       <thead><tr><th scope="col">If this describes your city</th><th scope="col">The decision to make</th><th scope="col">Information you may already hold</th></tr></thead>
       <tbody>${T.ADAPT.rows.map(r => `<tr id="adapt-${esc(r.id)}"><th scope="row">${esc(r.if)}</th><td data-label="The decision to make">${esc(r.decide)}</td><td data-label="Information you may already hold">${esc(r.know)}</td></tr>`).join("")}</tbody></table></div>
-    <p>${esc(T.ADAPT.thane)} ${ext(SRC["ndma-cc"].url, "NDMA's guidelines for cooling centres")} cover site selection, retrofitting, and operations and maintenance.</p>
+    <p>For cooling spaces, ${ext(SRC["ndma-cc"].url, "NDMA's guidelines for cooling centres")} cover site selection, retrofitting, and operations and maintenance.</p>
     <p>${esc(T.ADAPT.close)}</p>
     ${srcFold(T.ADAPT.rows.flatMap(r => r.claims || []))}
     ${related([["/practical-actions/#summer", "Before summer: for municipalities", "the practical action cards for this season"], ["/resources/heat-action-plans/india/", "India heat action plan archive", "your state's and district's plans"], ["/heat-tools/", "Heat Tool Finder", "which tool fits the decision in front of you"]])}
   </section>
 
   <section class="container en-sec" id="risks" aria-labelledby="en-risks-h">
+    <p class="en-kicker" aria-hidden="true"><span>03</span>The evidence</p>
     <h2 class="hub-h" id="en-risks-h">Six linked risks</h2>
     <p>Each row keeps apart what the evidence shows, where it stops, and what your own city's information can add.</p>
     <div class="en-tablewrap"><table class="en-table"><caption>Six risks: the evidence and its limit, how it becomes harm, what to check locally</caption>
@@ -83,17 +89,16 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   </section>
 
   <section class="container en-sec" id="route" aria-labelledby="en-route-h">
+    <p class="en-kicker" aria-hidden="true"><span>04</span>Warnings</p>
     <h2 class="hub-h" id="en-route-h">Your warning route</h2>
     <p>${esc(T.ROUTE.intro)}</p>
     <ol class="en-route">${T.ROUTE.steps.map(x => `<li><b>${x.link ? ext(SRC[x.link].url, x.t) : x.href ? `<a href="${esc(x.href)}">${esc(x.t)}</a>` : esc(x.t)}</b><span>${esc(x.d)}</span></li>`).join("")}</ol>
     <p>${esc(T.ROUTE.health)} ${ext(SRC["ncdc26"].url, "NCDC's advisory for summer 2026")}.</p>
-    <details class="en-src en-exfold"><summary>${esc(T.ROUTE.mh.title)}</summary>
-      <p>${tag(T.ROUTE.mh.label, "observed")} ${esc(T.ROUTE.mh.text)}</p>
-      ${related([[SRC["sdma"].url, "Maharashtra's heat action plan page"], [SRC["rmc-nagpur"].url, "IMD Regional Meteorological Centre, Nagpur"], [SRC["rmc-mumbai"].url, "IMD Regional Meteorological Centre, Mumbai"], ["/resources/heat-action-plans/india/#IN-MH-STATE-MH-2024", "Maharashtra's state plan in the India archive"]])}</details>
-    ${srcFold([...T.ROUTE.claims, ...T.ROUTE.healthClaims, ...T.ROUTE.mh.claims])}
+    ${srcFold([...T.ROUTE.claims, ...T.ROUTE.healthClaims])}
   </section>
 
   <section class="container en-sec" id="windows" aria-labelledby="en-win-h">
+    <p class="en-kicker" aria-hidden="true"><span>05</span>Calendar</p>
     <h2 class="hub-h" id="en-win-h">Before, during and after: a local calendar</h2>
     <p>Read each window against your city's own season, not a national date.</p>
     <div class="en-tablewrap"><table class="en-table"><caption>Three decision windows</caption>
@@ -104,6 +109,7 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   </section>
 
   <section class="container en-sec" id="market" aria-labelledby="en-market-h">
+    <p class="en-kicker" aria-hidden="true"><span>06</span>Worked example</p>
     <h2 class="hub-h" id="en-market-h">Worked example: a market at 2 p.m.</h2>
     <div class="en-design">${tag("Illustrative design", "design")}
       <p>${esc(T.MARKET.story)}</p>
@@ -121,6 +127,7 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   </section>
 
   <section class="container en-sec" id="scale" aria-labelledby="en-scale-h">
+    <p class="en-kicker" aria-hidden="true"><span>07</span>Reach</p>
     <h2 class="hub-h" id="en-scale-h">Reach: how much protection people got</h2>
     <p>${esc(T.REACH.intro)}</p>
     <ul class="en-measures">${T.REACH.measures.map(m => `<li><b>${esc(m.t)}</b>${esc(m.d)}</li>`).join("")}</ul>
@@ -133,6 +140,7 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   </section>
 
   <section class="container en-sec" id="handout" aria-labelledby="en-hand-h">
+    <p class="en-kicker" aria-hidden="true"><span>08</span>Worksheet</p>
     <h2 class="hub-h" id="en-hand-h">A worksheet for the first meeting</h2>
     <div class="en-tablewrap"><table class="en-table en-hand"><caption>Copy, print or fill in: one worksheet per service</caption>
       <thead><tr><th scope="col">Field</th><th scope="col">Illustrative answer</th><th scope="col">Our city</th></tr></thead>
@@ -142,14 +150,12 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   </section>
 
   <section class="container en-sec" id="examples" aria-labelledby="en-ex-h">
+    <p class="en-kicker" aria-hidden="true"><span>09</span>In practice</p>
     <h2 class="hub-h" id="en-ex-h">Preparedness that has happened in India</h2>
     <p>${esc(T.EXAMPLES_NOTE)}</p>
     <ul class="en-ex">${T.EXAMPLES.map(e => `<li>${tag(e.status, "observed")}<h3>${esc(e.place)} <small>${esc(e.setting)}</small></h3><p><b>The decision: ${esc(e.decision.toLowerCase())}.</b> ${esc(e.text)}</p></li>`).join("")}</ul>
     <p class="en-large">${tag(T.LARGE.label, "observed")} <b>${esc(T.LARGE.place)}.</b> ${esc(T.LARGE.text)} <a href="/actions/#hap">Heat action plans, with Ahmedabad's</a>.</p>
     ${srcFold([...T.EXAMPLES.flatMap(e => e.claims), ...T.LARGE.claims])}
-    <details class="en-src en-exfold"><summary>Seasonal preparation outside India: Nepal and Peru</summary>
-    <ul class="en-ex">${T.ABROAD.map(e => `<li>${tag(e.status, "observed")}<h3>${esc(e.place)}</h3><p>${esc(e.text)}</p></li>`).join("")}</ul>
-    ${srcFold(T.ABROAD.flatMap(e => e.claims))}</details>
     <p>${esc(T.CLOSE)}</p>
     <p class="en-review">Reviewed ${esc(T.REVIEWED)}. Next review ${esc(T.NEXT_REVIEW)}. See something to correct? <a href="/join/#join-form">Tell us</a>; corrections are listed on <a href="/corrections/">Corrections</a>.</p>
   </section>`;

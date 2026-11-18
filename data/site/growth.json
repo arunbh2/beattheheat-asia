@@ -649,11 +649,11 @@
     {
       "id": "g-el-nino-and-cities", "kind": "plan", "root": "practical", "added": "2026-11-18", "pr": null,
       "title": "El Niño and the city: what to prepare before summer 2027",
-      "why": "A decision guide for smaller Indian cities, starting in Maharashtra: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting.",
+      "why": "A decision guide for smaller Indian cities: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting.",
       "places": ["india"], "people": [], "topics": ["anticipatory", "hap"],
-      "review": "Twenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, the Maharashtra disaster management authority, NIUA and Europe PMC; the state plan's district list was found only in part and the page places those districts by region",
+      "review": "Twenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, a state disaster management authority, NIUA and Europe PMC; one district list was found only in part and was held back",
       "effort": { "asked": "What can a smaller Indian city have running before summer 2027, given El Niño's lead time, and what do official outlooks and peer-reviewed studies support?", "inbox": "data/inbox/2026-11-el-nino-cities", "dropped": "research/2026-11/el-nino-cities/dropped-after-check.json",
-                  "open": "The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for Akola, Nanded and Jalgaon if they exist." },
+                  "open": "The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for more smaller cities." },
       "pages": [["/el-nino-and-cities/", "El Niño and the city"], ["/practical-actions/", "Practical actions"], ["/resources/heat-action-plans/india/", "India heat action plan archive"]], "action": ["Open the guide", "/el-nino-and-cities/"],
       "links": [{ "to": "lever:anticipatory", "why": "The guide sets out what a city can prepare in the months a seasonal outlook gives.", "basis": "record" }]
     },

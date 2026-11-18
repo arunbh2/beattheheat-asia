@@ -60,8 +60,7 @@ const ADAPT = {
       know: "Market registers and association lists, last summer's municipal orders on working hours, the ward office's count of afternoon stalls." },
     { id: "nights", if: "Homes or public buildings stay hot at night, or humidity limits relief",
       decide: "Which existing accessible spaces can offer meaningful respite, at what hours, and who can operate them? Check any technical cooling advice against NDMA's guidance on cooling centres.",
-      know: "Clinic attendance in past hot spells, community organisations' knowledge of crowded homes, the list of public buildings open in the evening.",
-      claims: ["c-thane-en"] },
+      know: "Clinic attendance in past hot spells, community organisations' knowledge of crowded homes, the list of public buildings open in the evening." },
     { id: "water", if: "Summer water supply is intermittent, or depends on electricity and tankers",
       decide: "Which priority sites have usable storage or another supply? Who can authorise a refill, pay for it and confirm it arrived?",
       know: "The water department's supply schedule, last summer's tanker orders, ward complaints about dry taps, the reservoir or groundwater figures for your own source." },
@@ -69,7 +68,6 @@ const ADAPT = {
       decide: "Which sites or access routes may fail, which alternative location is usable, and who decides when to switch?",
       know: "Last monsoon's waterlogging complaints, the drain-cleaning schedule, the district disaster plan, residents' knowledge of which lanes flood." }
   ],
-  thane: "Humidity changes what relief means. The Thane heat action plan, for example, highlights that extreme warm nights are projected to increase more than extreme hot days.",
   close: "None of these rows needs a new vulnerability assessment before the first meeting. Start with what the municipal body, the clinic and the local organisation already know, and write down what is missing."
 };
 
@@ -104,8 +102,8 @@ const RISKS = [
 const SCENARIOS = [
   { title: "Heat with the taps off", label: "Scenario",
     text: "An afternoon of heat, the ward's supply cut for a repair, the market water point running low by noon. What helps: storage sized to a hot day's demand, a refill arranged with enough lead time for the tanker to arrive, and someone who calls when it runs low.", claims: [] },
-  { title: "A downpour in a dry year", label: "Scenario, with an observed regional precedent",
-    text: "Below-normal rain, then one night of very heavy rain. IMD recorded very heavy rainfall over Marathwada on 30 September 2026, after a monsoon below normal for India. A cover that blocks a drain turns one hazard into two.", claims: ["c-marathwada", "c-imd-season"] }
+  { title: "A downpour in a dry year", label: "Scenario",
+    text: "A below-normal monsoon, then one night of very heavy rain before the season turns. Covers tear, a lane floods, and a cover that blocks a drain turns one hazard into two. What helps: covers fixed against wind, drains cleared around each site, and an agreed alternative site.", claims: [] }
 ];
 
 // the warning route: a national entry point, then the state and local steps
@@ -117,12 +115,9 @@ const ROUTE = {
     { t: "Your state or district disaster authority", d: "The state and district heat action plans say which department acts at each alert level. Find yours in the India heat action plan archive.", href: "/resources/heat-action-plans/india/" },
     { t: "The municipal officer or service operator named locally", d: "The person who extends water hours or moves a queue indoors. If no one is named for your chosen service, name them before the season." }
   ],
-  claims: ["c-warnings", "c-imd-centres"],
+  claims: ["c-imd-centres"],
   health: "For health departments, NCDC's advisory for summer 2026 asked states to start daily heat illness reporting from 1 March 2026 and to set local early warning thresholds.",
-  healthClaims: ["c-ncdc"],
-  mh: { title: "One state's route: Maharashtra", label: "A plan",
-    text: "Maharashtra's State Heat Action Plan 2024 names Vidarbha, Marathwada and Khandesh as most vulnerable and 15 districts as high-risk, with cooling centres and reserved hospital beds. Its districts follow IMD's Regional Meteorological Centres at Nagpur and Mumbai.",
-    claims: ["c-sdma", "c-warnings"] }
+  healthClaims: ["c-ncdc"]
 };
 
 // three decision windows, read against the city's own season
@@ -132,7 +127,7 @@ const WINDOWS = [
     who: "The body that manages each site (municipal body, market committee, health department or transport authority), the operator and the local organisation.", claims: [] },
   { id: "warning", when: "When an official local warning is issued",
     what: "The core protection is already working. Agree in advance who receives the warning and what is added under the applicable plan: an operator extends water hours, brings a refill forward, or moves a clinic queue indoors.",
-    who: "IMD issues district warnings; departments act under the state and district heat plans.", claims: ["c-warnings", "c-sdma"] },
+    who: "IMD issues district warnings; departments act under the state and district heat plans.", claims: ["c-imd-centres"] },
   { id: "after", when: "During and just after the event",
     what: "Check that each site works at the hours people rely on it, fix failures, and record who was left without access. After heavy rain, check covers and drains before reopening.",
     who: "Each site's operator and the named repair officer, with the local organisation reporting what users see.", claims: [] }
@@ -198,7 +193,7 @@ const WORKSHEET = {
     ["How users report a failure, and who records the fix", "The association's number on the post; the operator logs the time fixed"],
     ["What the local organisation changed", "Moved the shade from the entrance to the inner aisle"]
   ],
-  note: "Illustrative. The municipal team and the local organisation fill the last column together, and can change any field."
+  note: "Illustrative. Print the worksheet and fill the \"Our city\" column together; the municipal team and the local organisation can change any field."
 };
 
 // documented Indian examples, each showing one decision; a large-city precedent labelled by its scale
@@ -213,12 +208,10 @@ const EXAMPLES = [
 const LARGE = { place: "Ahmedabad", label: "A large city, with outcome evidence",
   text: "A 2018 evaluation found Ahmedabad's heat action plan may have contributed to about 1,190 fewer deaths a year on hot days after full implementation. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments.", claims: ["c-ahmedabad-en"] };
 const EXAMPLES_NOTE = "A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is. Each comes from NRDC's 2026 review of heat policy in India.";
-const ABROAD = [
-  { place: "Nepal", status: "Activities reported by the organisation", text: "Practical Action Nepal used seasonal forecasts to guide early action: awareness with media and local partners, and support for heat action planning (June 2026).", claims: ["c-pa-nepal"], src: "pa" },
-  { place: "Peru", status: "A stated aim", text: "With the Swiss Agency for Development and Cooperation, the national civil defence institute (INDECI) and local government, Practical Action set out early action to protect 1,500 families from floods and mudslides.", claims: ["c-pa-peru"], src: "pa" }
-];
 
 const CLOSE = "The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.";
+// three facts a reader sees first, all true of the page itself
+const GLANCE = ["Reviewed " + REVIEWED, "Every claim sourced", "Printable worksheet"];
 const PRINT = "Print this page, or only the worksheet, for a meeting between the municipal team and the local organisation.";
 
 // The feature card that points readers here from other pages (practical actions, the India HAP archive).
@@ -236,11 +229,11 @@ const promo = (esc, id, tag = "h2") => `<aside class="cs-card en-promo" aria-lab
 const promoMd = () => `**${PROMO.label}: ${PROMO.title}.** ${PROMO.text} ${PROMO.button}: /${SLUG}/`;
 
 module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NEXT_REVIEW, OPENING, OUTLOOK, SIGNAL, ADAPT, RISKS, SCENARIOS, ROUTE, WINDOWS, CONTINUITY,
-  MARKET, REACH, WORKSHEET, EXAMPLES, LARGE, EXAMPLES_NOTE, ABROAD, CLOSE, PRINT,
+  MARKET, REACH, WORKSHEET, EXAMPLES, LARGE, EXAMPLES_NOTE, CLOSE, PRINT, GLANCE,
   // every claim the page uses, so the build can refuse an unconfirmed one
   claimsUsed() { return [...new Set([...OUTLOOK.items.flatMap(i => i.claims), ...OUTLOOK.noneClaims, ...SIGNAL.can.claims, ...ADAPT.rows.flatMap(r => r.claims || []),
-    ...RISKS.flatMap(r => r.claims), ...SCENARIOS.flatMap(s => s.claims), ...ROUTE.claims, ...ROUTE.healthClaims, ...ROUTE.mh.claims, ...WINDOWS.flatMap(w => w.claims),
-    ...REACH.claims, ...EXAMPLES.flatMap(e => e.claims), ...LARGE.claims, ...ABROAD.flatMap(e => e.claims)])]; },
+    ...RISKS.flatMap(r => r.claims), ...SCENARIOS.flatMap(s => s.claims), ...ROUTE.claims, ...ROUTE.healthClaims, ...WINDOWS.flatMap(w => w.claims),
+    ...REACH.claims, ...EXAMPLES.flatMap(e => e.claims), ...LARGE.claims])]; },
   // the same guide as Markdown, for llms-full.txt
   md(SITE, SRC) {
     const s = k => SRC[k] ? ` (${SRC[k].publisher}: ${SRC[k].url})` : "";
@@ -248,10 +241,10 @@ module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NE
       OPENING.text, `The first decision: ${OPENING.decision} ${OPENING.decisionNote}`, `Illustrative: ${OPENING.picture.join(" ")}`,
       `### Where the outlook stands (as of ${OUTLOOK.asOf})`, ...OUTLOOK.items.map(i => `- ${i.kind}, ${i.who}, issued ${i.issued}, ${i.period}, ${i.where}: ${i.says} ${i.means}`), OUTLOOK.none,
       "### What a seasonal signal can and cannot tell a city", `Can: ${SIGNAL.can.text}`, `Cannot: ${SIGNAL.cannot}`, SIGNAL.apart,
-      "### Adapt this to your city", ADAPT.intro, ...ADAPT.rows.map(r => `- If ${r.if.charAt(0).toLowerCase() + r.if.slice(1)}: ${r.decide} Information you may already hold: ${r.know}`), ADAPT.thane, ADAPT.close,
+      "### Adapt this to your city", ADAPT.intro, ...ADAPT.rows.map(r => `- If ${r.if.charAt(0).toLowerCase() + r.if.slice(1)}: ${r.decide} Information you may already hold: ${r.know}`), ADAPT.close,
       "### Six linked risks", ...RISKS.map(r => `- ${r.risk} (${r.label}). Evidence and its limit: ${r.evidence} How it becomes harm: ${r.harm} What to check locally: ${r.check}`),
       ...SCENARIOS.map(x => `- ${x.label}: ${x.title}. ${x.text}`),
-      "### Your warning route", ROUTE.intro, ...ROUTE.steps.map((x, i) => `${i + 1}. ${x.t}: ${x.d}${x.link ? s(x.link) : x.href ? ` (${SITE}${x.href})` : ""}`), ROUTE.health, `${ROUTE.mh.title} (${ROUTE.mh.label}): ${ROUTE.mh.text}${s("sdma")}`,
+      "### Your warning route", ROUTE.intro, ...ROUTE.steps.map((x, i) => `${i + 1}. ${x.t}: ${x.d}${x.link ? s(x.link) : x.href ? ` (${SITE}${x.href})` : ""}`), ROUTE.health,
       "### Before, during and after", ...WINDOWS.map(w => `- ${w.when}: ${w.what} Who decides: ${w.who}`), CONTINUITY,
       "### Worked example: a market at 2 p.m. (illustrative design)", MARKET.story, `${MARKET.community.who} ${MARKET.community.role} ${MARKET.community.changes}`,
       ...MARKET.roles.map(r => `- ${r.who}: ${r.agrees}`), `On a warning day: ${MARKET.warningDay}`, MARKET.tradeoff,
@@ -260,6 +253,6 @@ module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NE
       "### Worksheet (illustrative answers)", ...WORKSHEET.fields.map(([f, v]) => `- ${f}: ${v}`), WORKSHEET.note,
       "### Preparedness that has happened in India", EXAMPLES_NOTE, ...EXAMPLES.map(e => `- ${e.place} (${e.setting}; ${e.status}; the decision: ${e.decision}): ${e.text}${s("nrdc")}`),
       `- ${LARGE.place} (${LARGE.label}): ${LARGE.text}${s("nrdc")}`,
-      "Elsewhere:", ...ABROAD.map(e => `- ${e.place} (${e.status}): ${e.text}${s(e.src)}`), CLOSE].join("\n\n");
+      CLOSE].join("\n\n");
   }
 };
