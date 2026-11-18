@@ -373,12 +373,14 @@
    "Cities and Climate Fundamentals Primer",
    "Equity and Social Inequality",
    "Limited Resources and Capacities",
-   "safe zones during heatwaves"
+   "safe zones during heatwaves",
+   "disproportionately higher exposure to heat",
+   "entry points for climate action within municipal functions"
   ],
   "claims": [
-   "c-niua-m1"
+   "c-niua-m1",
+   "c-niua-m1-eq"
   ],
-  "archive": "https://web.archive.org/web/20261118102904/https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf",
   "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
@@ -423,13 +425,31 @@
    "between March and May",
    "releases seasonal",
    "Site selection in high-risk areas",
-   "Operations & maintenance protocols"
+   "Operations & maintenance protocols",
+   "net zero cooling station",
+   "high-risk ward",
+   "designed for the informal sector",
+   "locally accessible formats",
+   "1 crore to each District Collector",
+   "drinking water kiosks",
+   "decentralized heat",
+   "heatwave thresholds",
+   "yellow, orange, red",
+   "regional climatic conditions",
+   "may have contributed",
+   "1,190 fewer deaths per year",
+   "extreme warm nights",
+   "Thane HAP"
   ],
   "claims": [
    "c-imd-outlooks",
-   "c-ndma-cc"
+   "c-ndma-cc",
+   "c-jodhpur-en",
+   "c-kerala-en",
+   "c-up-en",
+   "c-ahmedabad-en",
+   "c-thane-en"
   ],
-  "archive": "https://web.archive.org/web/20260615020055/https://www.nrdcindia.org/pdf/extreme-heat-India-report1.pdf",
   "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
@@ -472,6 +492,53 @@
   ],
   "claims": [
    "c-roxy"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-wmo-oct",
+  "type": "source",
+  "keys": [
+   "wmo-oct"
+  ],
+  "title": "WMO Global Seasonal Climate Outlook informs humanitarian action",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/media/news/wmo-global-seasonal-climate-outlook-informs-humanitarian-action",
+  "kind": "News release on the Global Seasonal Climate Update",
+  "where": "El Niño and cities",
+  "expect": [
+   "Global Seasonal Climate Update",
+   "26 October 2026",
+   "3.8°C above average",
+   "November 2026 to January 2027",
+   "unprecedented in strength"
+  ],
+  "claims": [
+   "c-wmo-oct"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-imd-evo",
+  "type": "source",
+  "keys": [
+   "imd-evo"
+  ],
+  "title": "Evolution of IMD",
+  "publisher": "India Meteorological Department",
+  "year": 2025,
+  "url": "https://mausam.imd.gov.in/event/evolution.php",
+  "kind": "Official page",
+  "where": "El Niño and cities",
+  "expect": [
+   "India Meteorological Department",
+   "Regional Meteorological Centers (RMCs)",
+   "Meteorological Centers (MCs) at the state level",
+   "advisories and warnings"
+  ],
+  "claims": [
+   "c-imd-centres"
   ],
   "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  }
