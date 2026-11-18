@@ -54,9 +54,9 @@
    "tropical Indian Ocean": true
   },
   "https://doi.org/10.1038/s41467-017-00744-9": {
-   "central India": false,
-   "threefold increase in widespread extreme rain events over central India": false,
-   "decline in the total rainfall": false
+   "central India": true,
+   "threefold increase in widespread extreme rain events over central India": true,
+   "decline in the total rainfall": true
   },
   "https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/": {
    "El Niño": true,
@@ -110,6 +110,11 @@
   },
   "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": {
    "cooling": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": {
+   "central India": true,
+   "threefold increase in widespread extreme rain events over central India": true,
+   "decline in the total rainfall": true
   }
  },
  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": "OK",
@@ -130,5 +135,6 @@
  "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf": "OK",
  "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf": "OK",
  "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": "OK",
- "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": "OK"
+ "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": "OK"
 }
