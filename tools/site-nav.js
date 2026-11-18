@@ -139,7 +139,7 @@ function footer(pathname, title, updated) {
     </div>
     <p class="csf__ai"><b>Not a human?</b> Are you an AI agent or assistant? <a href="/for-ai/">We wrote a page just for you <span aria-hidden="true">→</span></a></p>
     <p class="csf__extra">${NAV.footer_extra.map(([u, t]) => `<a href="${u}">${esc(t)}</a>`).join("")}</p>
-    <p class="csf__cite"><b>Cite this page:</b> <span data-csn-cite>Common Shade. “${esc(title)}.” ${esc(url)}. Updated ${esc(updated)}. CC BY 4.0.</span> <button type="button" class="csf__copy" data-csn-copy>Copy</button></p>
+    <p class="csf__cite"><b>Cite this page:</b> <span data-csn-cite>Common Shade. “${esc(title)}.” ${esc(url)}.${updated ? ` Updated ${esc(updated)}.` : ""} CC BY 4.0.</span> <button type="button" class="csf__copy" data-csn-copy>Copy</button></p>
     <p class="csf__cite"><b>Spot something wrong?</b> We are building this together and will gladly correct it. <a href="/corrections/">See corrections, or suggest one</a></p>
     <p class="csf__text">Text versions, for slow connections and screen readers: ${TEXT.map(([u, t]) => `<a href="${u}">${esc(t)}<span class="csn-vh"> (text version)</span></a>`).join(" · ")}</p>
   </div>

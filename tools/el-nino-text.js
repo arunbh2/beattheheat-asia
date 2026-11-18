@@ -1,6 +1,7 @@
 // Common Shade: the words of /el-nino-and-cities/ ("El Niño and India's smaller cities: preparing for summer 2027"), shared by the
 // page (tools/build-el-nino.js), its Markdown in llms-full.txt and the check. Every passage names the claims it rests on (ids in
 // research/2026-11/el-nino-cities/claims.json); the build stops, naming the claim, if one is not in that batch's confirmed.json.
+// The page shows no date of addition, review or update (the owner's decision, November 2026); each bulletin keeps its own issue date.
 // The dated outlook lives in OUTLOOK only, so it can be updated on its own when NOAA, WMO or IMD issue a new bulletin.
 // Labels in words (Forecast, Observed, Scenario, Illustrative) carry the meaning; colour only repeats it.
 // The guide is national: readers adapt it through the conditions their city recognises (ADAPT), not through a list of states.
@@ -41,7 +42,7 @@ const OUTLOOK = {
       means: "A national total. It does not show how much water your city's own supply holds.",
       claims: ["c-imd-season"], latest: ["imd-dw", "IMD's district warnings"] }
   ],
-  none: "As of 18 November 2026, Common Shade found no IMD seasonal outlook for March to May 2027. IMD releases its seasonal outlooks between March and May; look for it then, alongside your district's warnings.",
+  none: "IMD releases its seasonal outlook for the hot season between March and May. Until it is out, use your district's warnings, and read the outlook for your own region when it is issued.",
   noneClaims: ["c-imd-outlooks"]
 };
 
@@ -211,7 +212,7 @@ const EXAMPLES_NOTE = "A published plan shows a planning decision, an installed 
 
 const CLOSE = "The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.";
 // three facts a reader sees first, all true of the page itself
-const GLANCE = ["Reviewed " + REVIEWED, "Every claim sourced", "Printable worksheet"];
+const GLANCE = ["For smaller Indian cities", "Every claim sourced", "Printable worksheet"];
 const PRINT = "Print this page, or only the worksheet, for a meeting between the municipal team and the local organisation.";
 
 // The feature card that points readers here from other pages (practical actions, the India HAP archive).
@@ -237,9 +238,9 @@ module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NE
   // the same guide as Markdown, for llms-full.txt
   md(SITE, SRC) {
     const s = k => SRC[k] ? ` (${SRC[k].publisher}: ${SRC[k].url})` : "";
-    return [`## ${TITLE}`, `${SITE}/${SLUG}/`, DESC, `Reviewed ${REVIEWED}; next review ${NEXT_REVIEW}.`,
+    return [`## ${TITLE}`, `${SITE}/${SLUG}/`, DESC,
       OPENING.text, `The first decision: ${OPENING.decision} ${OPENING.decisionNote}`, `Illustrative: ${OPENING.picture.join(" ")}`,
-      `### Where the outlook stands (as of ${OUTLOOK.asOf})`, ...OUTLOOK.items.map(i => `- ${i.kind}, ${i.who}, issued ${i.issued}, ${i.period}, ${i.where}: ${i.says} ${i.means}`), OUTLOOK.none,
+      "### Where the outlook stands", ...OUTLOOK.items.map(i => `- ${i.kind}, ${i.who}, issued ${i.issued}, ${i.period}, ${i.where}: ${i.says} ${i.means}`), OUTLOOK.none,
       "### What a seasonal signal can and cannot tell a city", `Can: ${SIGNAL.can.text}`, `Cannot: ${SIGNAL.cannot}`, SIGNAL.apart,
       "### Adapt this to your city", ADAPT.intro, ...ADAPT.rows.map(r => `- If ${r.if.charAt(0).toLowerCase() + r.if.slice(1)}: ${r.decide} Information you may already hold: ${r.know}`), ADAPT.close,
       "### Six linked risks", ...RISKS.map(r => `- ${r.risk} (${r.label}). Evidence and its limit: ${r.evidence} How it becomes harm: ${r.harm} What to check locally: ${r.check}`),

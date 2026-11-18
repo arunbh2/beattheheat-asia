@@ -19,6 +19,8 @@ const TICKER = `<div class="ticker" id="cs-ticker" role="region" aria-label="Liv
 `;
 const NOSCRIPT = `<noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important;flex:1 0 100%;height:auto}.csn__groups{flex-wrap:wrap;height:auto}.csn__groups>li{height:auto}}</style></noscript>`;
 const UPDATED = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+// pages that show no date of addition or update (the owner's decision for the El Niño guide, November 2026)
+const UNDATED = new Set(["/el-nino-and-cities/"]);
 const SKIP = new Set(["node_modules", ".git", "research", "tools", "docs", "images", "media", "feeds"]);
 
 function pages(dir, out = []) {
@@ -96,7 +98,7 @@ function apply(file, pn) {
   const end = NO_END.test(pathname) ? "" : NAV.ending(pathname, title, descOf(html));
   // every page: the invitation (join.js, unless the page loads it itself) and the exit card (everything.js)
   const pops = later([...(/<script[^>]+src="\/join\.js/.test(html) ? [] : [`/join.js?v=${V}`]), `/everything.js?v=${V}`]);
-  const foot = `<!--csn-->${end}${NAV.footer(pathname, title, UPDATED)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script>${pops}<!--/csn-->\n`;
+  const foot = `<!--csn-->${end}${NAV.footer(pathname, title, UNDATED.has(pathname) ? "" : UPDATED)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script>${pops}<!--/csn-->\n`;
   const fAt = html.lastIndexOf("<footer");
   html = fAt > -1 && fAt > mainAt ? html.slice(0, fAt) + foot + html.slice(fAt) : html.replace(/<\/body>/, foot + "</body>");
   fs.writeFileSync(file, html);
