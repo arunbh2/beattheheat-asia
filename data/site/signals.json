@@ -20,13 +20,14 @@
    "when": "Antalya, 9 to 20 November 2026",
    "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.",
    "watching": ["Adaptation indicators","Health","Adaptation finance","Cooling","Early warnings"],
-   "reading": {"label":"A reading so far, after check-in 1 (13 November)","text":"COP31's heat story is running through health, early warning and money, while we have so far found little on heat itself in the negotiating texts. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at each check-in and when the conference closes."},
+   "reading": {"label":"A reading so far, after check-in 3 (18 November)","text":"COP31's heat story is running through cooling, health and money, while we have so far found little on heat itself in the negotiating texts. The cooling roadmap and WHO's El Niño plan sit outside the negotiated decisions. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at the last check-in and when the conference closes."},
    "scope": "Heat in COP31's announcements and outcomes on adaptation, health, finance, cooling and early warnings, including launches shortly before the conference. Each item enters only after its source passes the site's check.",
-   "cutoff": "2026-11-15",
+   "cutoff": "2026-11-18",
    "checkins": [
     {"date":"2026-11-09","label":"Opening","added":["sig-cop31-2026","sig-wmo-state-of-climate-2026","sig-el-nino-2026-2027","sig-emissions-gap-2026","sig-belem-adaptation-indicators-2025"],"note":"The conference, the year's climate findings and the adaptation indicators it builds on."},
     {"date":"2026-11-13","label":"Check-in 1","added":["sig-cop31-air-2026","sig-cop31-health-theme-2026","sig-ifrc-heat-warnings-2026","sig-adaptation-gap-2026"],"note":"Health and finance: the health platform launched on Health Day, the presidency's health theme, and two calls for money and warnings."},
-    {"date":"2026-11-15","label":"Check-in 2","added":["sig-cop31-antalya-compact-2026"],"note":"A buildings compact launched before the conference, added at the announced step."}
+    {"date":"2026-11-15","label":"Check-in 2","added":["sig-cop31-antalya-compact-2026"],"note":"A buildings compact launched before the conference, added at the announced step."},
+    {"date":"2026-11-18","label":"Check-in 3","added":["sig-cop31-cooling-ministerial-2026","sig-who-el-nino-response-2026"],"note":"Cooling and health: a heat resilience and cooling roadmap backed at the Cooling Ministerial, with new support announced, and WHO's El Niño response plan."}
    ],
    "synthesis": null
   },
@@ -286,6 +287,87 @@
     }
    ],
    "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
+  },
+  {
+   "id": "sig-cop31-cooling-ministerial-2026",
+   "group": "cop31",
+   "kind": "commitment",
+   "date": "2026-11-16",
+   "title": "Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial",
+   "summary": "At the third Cooling Pledge Ministerial in Antalya, co-chaired by Singapore and UNEP, governments backed a country-led, voluntary roadmap on heat resilience and sustainable cooling. More than US$20 million in new support was announced for the Cool Coalition's work on the Global Cooling Pledge. The roadmap is backed, not yet adopted, and the money is announced, not yet committed or paid out.",
+   "who": "UNEP and the Government of Singapore (co-chairs)",
+   "places": ["region"],
+   "levers": ["cleancool","coolbydesign","hap"],
+   "stage": "funded",
+   "history": [
+    {"date":"2026-11-16","stage":"announced","note":"Backed by governments at the third Cooling Pledge Ministerial, co-chaired by Singapore and UNEP"},
+    {"date":"2026-11-16","stage":"funded","note":"Announced at the ministerial"}
+   ],
+   "next": "Adopted: countries in South and Southeast Asia taking part in the roadmap, and the roadmap's own text, with what it asks of national heat and cooling plans.",
+   "sources": [
+    {"id":"unep-pr","type":"original","label":"UNEP, 2026: At COP31, governments back action on extreme heat and sustainable cooling","url":"https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling"},
+    {"id":"mirage","type":"secondary","label":"Mirage News, 2026: COP31 Governments Back Action on Extreme Heat, Cooling (UNEP release, republished)","url":"https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/"}
+   ],
+   "where": "Global (UN climate process)",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-roadmap",
+     "what": "A country-led, voluntary roadmap on heat resilience and sustainable cooling",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-backed","step":"announced","date":"2026-11-16","note":"Backed by governments at the third Cooling Pledge Ministerial, co-chaired by Singapore and UNEP","evidence":[{"source":"unep-pr","establishes":"UNEP's own account of the ministerial and the roadmap governments backed.","terms":["Ministerial","Singapore","voluntary","Roadmap"]},{"source":"mirage","establishes":"The same UNEP release, republished.","terms":["Ministerial","Singapore","voluntary","Roadmap"]}]}
+     ],
+     "unknown": ["Which countries have joined the roadmap: not verified","When and where it is to be launched: not verified"],
+     "next": "The roadmap's text, and countries in South and Southeast Asia taking part."
+    },
+    {
+     "id": "d-support",
+     "what": "More than US$20 million in new support for the Cool Coalition's work on the Global Cooling Pledge",
+     "type": "funding",
+     "milestones": [
+      {"id":"m-pledged","step":"funding-announced","date":"2026-11-16","note":"Announced at the ministerial","evidence":[{"source":"unep-pr","establishes":"UNEP reports the new support and what it is for.","terms":["20 million","Cool Coalition","Global Cooling Pledge"]},{"source":"mirage","establishes":"The same UNEP release, republished.","terms":["20 million","Cool Coalition","Global Cooling Pledge"]}]}
+     ],
+     "unknown": ["How much is committed or paid out: not verified","How much reaches South and Southeast Asia: not verified"],
+     "next": "Grants signed or paid out, and work funded in South and Southeast Asia."
+    }
+   ],
+   "review": {"reviewed":"2026-11-18","due":"2026-11-27"}
+  },
+  {
+   "id": "sig-who-el-nino-response-2026",
+   "group": "cop31",
+   "kind": "commitment",
+   "date": "2026-11",
+   "title": "WHO responds to El Niño's health risks at Grade 3",
+   "summary": "WHO is responding to El Niño's health risks at Grade 3 under a Strategic Preparedness and Response Plan for October 2026 to September 2027, and names heat among the risks it is preparing for. It is a plan for WHO's own response, published during COP31; it does not show what reaches clinics or households.",
+   "who": "World Health Organization",
+   "places": ["region"],
+   "levers": ["anticipatory","readyclinics","hap"],
+   "stage": "adopted",
+   "history": [
+    {"date":"2026-11","stage":"adopted","note":"Published by WHO, with the response at Grade 3"}
+   ],
+   "next": "Delivered: heat-health support under the plan reaching countries in South and Southeast Asia before the 2027 hot season.",
+   "sources": [
+    {"id":"who-sprp","type":"original","label":"WHO, 2026: Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies - Strategic Preparedness and Response Plan","url":"https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan"},
+    {"id":"who-elnino","type":"original","label":"WHO: El Niño (emergency situation page)","url":"https://www.who.int/emergencies/situations/el-nino"}
+   ],
+   "where": "Global",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-sprp",
+     "what": "WHO's Strategic Preparedness and Response Plan for El Niño, October 2026 to September 2027",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-published","step":"adopted","date":"2026-11","note":"Published by WHO, with the response at Grade 3","evidence":[{"source":"who-sprp","establishes":"WHO's plan, its Grade 3 response and its period.","terms":["Strategic Preparedness and Response Plan","Grade 3","October 2026","September 2027"]},{"source":"who-elnino","establishes":"WHO names heat among El Niño's health risks.","terms":["El Niño","heat"]}]}
+     ],
+     "unknown": ["Funding for the plan: not verified","Which countries in South and Southeast Asia it prioritises: not verified"],
+     "next": "Support under the plan reaching countries in South and Southeast Asia."
+    }
+   ],
+   "review": {"reviewed":"2026-11-18","due":"2026-11-27"}
   },
   {
    "id": "sig-india-heatwave-calamity-2026",

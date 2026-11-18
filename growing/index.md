@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-17
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 69 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 70 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,47 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-69 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
+70 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Evidence
+
+### COP31, third check-in: a cooling roadmap and WHO's El Niño plan
+
+Added 18 November 2026 · COP31 check-in 18 November 2026
+
+Why it matters our readingGovernments backed a voluntary roadmap on heat resilience and cooling at the Cooling Ministerial, with new support announced, and WHO set out its El Niño health plan. Each joins the watch on the step it has reached.
+
+- South and Southeast Asia
+- Clean, efficient cooling
+- Anticipatory action
+
+ReviewSeven sources staged; five passed the GitHub check at UNEP, WHO and Mirage News; two Cool Coalition pages blocked the check and nothing rests on them. 7 checked · 5 confirmed · 2 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** What has COP31 added on heat since the second check-in, confirmed at the source?
+- **The search.** 7 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 5 confirmed, and 2 could not be (2 blocked automated reading).
+- **What we set aside.** 12 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Whether the closing decisions name heat, and when the cooling roadmap is launched.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-signals-cop31-5/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/signals-cop31-5/dropped-after-check.json)
+
+How it connects
+
+- [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool) Action · from the site's records
+The roadmap and its support are for sustainable cooling and heat resilience.
+
+[Read the COP31 watch](https://beattheheat.asia/signals/#cop31)
+[Signals](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=COP31%2C%20third%20check-in%3A%20a%20cooling%20roadmap%20and%20WHO's%20El%20Ni%C3%B1o%20plan&ref=g-signals-cop31-checkin-3#way-share)
 
 Evidence added · Evidence
 
