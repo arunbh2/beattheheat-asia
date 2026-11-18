@@ -60,13 +60,13 @@ Plan or guidance added · Practical measures
 
 Added 18 November 2026 · Underlying work: dates vary; each source shows its own
 
-Why it matters our readingA decision guide for smaller Indian cities, starting in Maharashtra: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting.
+Why it matters our readingA decision guide for smaller Indian cities: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting.
 
 - India
 - Anticipatory action
 - Heat action plans
 
-ReviewTwenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, the Maharashtra disaster management authority, NIUA and Europe PMC; the state plan's district list was found only in part and the page places those districts by region. 22 checked · 21 confirmed · 1 not confirmed, each recorded.
+ReviewTwenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, a state disaster management authority, NIUA and Europe PMC; one district list was found only in part and was held back. 22 checked · 21 confirmed · 1 not confirmed, each recorded.
 
 What it took to add this
 
@@ -76,7 +76,7 @@ What it took to add this
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 21 confirmed, and 1 could not be (1 did not respond).
 - **What we set aside.** 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
-- **What is still open.** The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for Akola, Nanded and Jalgaon if they exist.
+- **What is still open.** The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for more smaller cities.
 
 See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-el-nino-cities/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/el-nino-cities/dropped-after-check.json)
 

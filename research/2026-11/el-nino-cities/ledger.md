@@ -1,4 +1,4 @@
-# El Niño and the city: claim ledger (built 18 November 2026)
+# El Niño and India's smaller cities: claim ledger (built 18 November 2026)
 
 Every claim on /el-nino-and-cities/ that rests on a source, with where it applies, the period it covers, the kind of evidence,
 and what it does and does not support. All passed `verify-sources.yml` (`2026-11-el-nino-cities`) except where noted.
@@ -21,16 +21,15 @@ and what it does and does not support. All passed `verify-sources.yml` (`2026-11
 | NIUA Learning Note 2, section 2.6 (p. 40), Table 2 (p. 54) (c-niua-m2) | India (cities) | 2026 | Training guidance | NIUA C-Cube | City-scale planning; outputs paired with outcomes | Evidence that a measure works |
 | NDMA cooling centre guidelines (c-ndma-cc) | India | 2025 | Official guidelines | NDMA (GHHIN library), with NRDC's summary | What the guidelines cover | Any city's cooling centres |
 
-Held back: the state plan's district list (c-mh-districts). Two of the three names were found in the Marathi PDF and one was not,
-so the page places Akola, Nanded and Jalgaon by region only. Maharashtra's subdivision monsoon deficits appear only in news
-reports, so they are not used. No district-level heat plan for Akola, Nanded or Jalgaon was found in the archive or in search.
-The Akola district guidelines found (a Hindi news report on a late April heatwave) were not used.
+Held back: one state plan's district list (c-mh-districts), found only in part. Sub-national monsoon deficits that appeared only in
+news reports are not used.
 
 ## National revision (18 November 2026)
 
-The guide was revised from a Maharashtra-led page into a guide for smaller Indian cities. Eight claims were added and passed
-the GitHub source check (run of 18 November 2026); the Akola, Nanded and Jalgaon section was removed and `#local` now lands on
-`#adapt`.
+The guide was revised into a national guide for smaller Indian cities. Eight claims were added and passed the GitHub source
+check (run of 18 November 2026); the earlier section on named districts was removed and `#local` now lands on `#adapt`.
+
+No longer used on the page (kept here as checked records): c-sdma, c-warnings, c-marathwada, c-thane-en, c-pa-nepal, c-pa-peru.
 
 | Claim | What it supports | Source (as checked) | Terms found |
 |---|---|---|---|

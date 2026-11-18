@@ -13,6 +13,10 @@ Before the season
 
 A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where protection is needed, agree who will keep it working, and decide what changes when a local warning arrives.
 
+- Reviewed 18 November 2026
+- Every claim sourced
+- Printable worksheet
+
 ## What a seasonal outlook is for
 
 A seasonal El Niño outlook gives cities a reason to review preparations early. The local heat season, water supply and places where people spend the hottest hours decide what a city puts in place. District forecasts and official warnings decide when to step up the response.
@@ -25,7 +29,7 @@ IllustrativeA vegetable seller loses sales if she leaves her stall to find shade
 
 [The full market example](#market) · [The worksheet to print](#handout)
 
-[The outlook](#outlook) · [Adapt this to your city](#adapt) · [Six linked risks](#risks) · [Your warning route](#route) · [Before, during, after](#windows) · [A market at 2 p.m.](#market) · [Reach](#scale) · [Worksheet](#handout) · [What has been done](#examples)
+The evidence
 
 ## Where the outlook stands, as of 18 November 2026
 
@@ -93,6 +97,8 @@ Sources for this section (1)
 
 - [Rohini, Rajeevan and Srivastava (open access, PMC): On the Variability and Increasing Trends of Heat Waves over India (Scientific Reports, 2016)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/)
 
+Your city
+
 ## Adapt this to your city
 
 Cities differ in when heat arrives, how humid it is, where water comes from, which public spaces people rely on and which authority manages them. Find the rows that describe your city; most cities fit more than one. They are illustrative situations, not categories, and a city's size says nothing on its own about its climate risk or its powers.
@@ -105,41 +111,21 @@ Homes or public buildings stay hot at night, or humidity limits relief | Which e
 Summer water supply is intermittent, or depends on electricity and tankers | Which priority sites have usable storage or another supply? Who can authorise a refill, pay for it and confirm it arrived? | The water department's supply schedule, last summer's tanker orders, ward complaints about dry taps, the reservoir or groundwater figures for your own source. |
 Short, intense rain can flood routes or public sites during an otherwise dry period | Which sites or access routes may fail, which alternative location is usable, and who decides when to switch? | Last monsoon's waterlogging complaints, the drain-cleaning schedule, the district disaster plan, residents' knowledge of which lanes flood. |
 
-Humidity changes what relief means. The Thane heat action plan, for example, highlights that extreme warm nights are projected to increase more than extreme hot days. [NDMA's guidelines for cooling centres](https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf) cover site selection, retrofitting, and operations and maintenance.
+For cooling spaces, [NDMA's guidelines for cooling centres](https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf) cover site selection, retrofitting, and operations and maintenance.
 
 None of these rows needs a new vulnerability assessment before the first meeting. Start with what the municipal body, the clinic and the local organisation already know, and write down what is missing.
 
-Sources for this section (1)
+- [Before summer: for municipalitiesthe practical action cards for this season
 
-- [Natural Resources Defense Council (NRDC): Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
-
-- [Before summer: for municipalities](https://beattheheat.asia/practical-actions/#summer): the practical action cards for this season
-- [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/): your state's and district's plans
-- [Heat Tool Finder](https://beattheheat.asia/heat-tools/): which tool fits the decision in front of you
+The evidence
 
 ## Six linked risks
 
 Each row keeps apart what the evidence shows, where it stops, and what your own city's information can add.
-
 Six risks: the evidence and its limit, how it becomes harm, what to check locally
-Risk | The evidence, and its limit | How it becomes harm | What to check locally |
-
-Extreme heat
-India-wide pattern | Most above-normal Indian heatwave years (1961-2013) followed El Niño events. An ENSO probability does not give your city's chance of a heatwave. | Hours outdoors without shade: a long queue, an unshaded stall, a worksite with no rest. | Last summer's municipal orders, clinic attendance in hot spells, the IMD district warnings issued for your district. |
-Water scarcity
-Observed, national | India's 2026 monsoon was 87% of normal. A national total does not establish water in your system. | A supply cut, a pump without power or a late tanker leaves a water point dry at peak hours. | Your utility's supply schedule and the reservoir or groundwater information for your own source. |
-Intense rainfall
-Central India, 1950-2015 | Widespread extreme rain events over central India tripled as total rain declined. A regional trend, not an El Niño prediction for India. | Very heavy rain within hours, often with wind, tearing covers and closing routes. | Which sites lost access in past downpours; how covers are fixed. |
-Urban flooding
-Depends on the city | Rain becomes flooding through drains, terrain, land use and building over water paths; isolated fixes leave the system exposed (NIUA). | A blocked drain, a low-lying site or a single access lane under water. | Waterlogging complaints and the drain-cleaning schedule around each priority site. |
-Public health
-A pathway, not a probability | A long outdoor wait or interrupted water raises the risk of heat illness. NCDC's advisory for summer 2026 asked states for public cooling and drinking water facilities. | Unshaded clinic queues, delayed treatment, no water at the wait. | Where heat illness reports clustered last summer; which clinics have outdoor queues. |
-Livelihoods
-A pathway, not a probability | Lost trading hours, fewer customers, spoiled goods. Informal settlements face disproportionately higher exposure to heat, flooding and water scarcity (NIUA). | Leaving a stall to cool down means losing sales or a place in the queue. | Vendors' and workers' own account of which hours they lose, through their association or a local organisation. |
-
-Sources for this section (6)
-
-- [Rohini, Rajeevan and Srivastava (open access, PMC): On the Variability and Increasing Trends of Heat Waves over India (Scientific Reports, 2016)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/)
+RiskThe evidence, and its limitHow it becomes harmWhat to check locally
+Extreme heatIndia-wide patternMost above-normal Indian heatwave years (1961-2013) followed El Niño events. An ENSO probability does not give your city's chance of a heatwave.Hours outdoors without shade: a long queue, an unshaded stall, a worksite with no rest.Last summer's municipal orders, clinic attendance in hot spells, the IMD district warnings issued for your district.Water scarcityObserved, nationalIndia's 2026 monsoon was 87% of normal. A national total does not establish water in your system.A supply cut, a pump without power or a late tanker leaves a water point dry at peak hours.Your utility's supply schedule and the reservoir or groundwater information for your own source.Intense rainfallCentral India, 1950-2015Widespread extreme rain events over central India tripled as total rain declined. A regional trend, not an El Niño prediction for India.Very heavy rain within hours, often with wind, tearing covers and closing routes.Which sites lost access in past downpours; how covers are fixed.Urban floodingDepends on the cityRain becomes flooding through drains, terrain, land use and building over water paths; isolated fixes leave the system exposed (NIUA).A blocked drain, a low-lying site or a single access lane under water.Waterlogging complaints and the drain-cleaning schedule around each priority site.Public healthA pathway, not a probabilityA long outdoor wait or interrupted water raises the risk of heat illness. NCDC's advisory for summer 2026 asked states for public cooling and drinking water facilities.Unshaded clinic queues, delayed treatment, no water at the wait.Where heat illness reports clustered last summer; which clinics have outdoor queues.LivelihoodsA pathway, not a probabilityLost trading hours, fewer customers, spoiled goods. Informal settlements face disproportionately higher exposure to heat, flooding and water scarcity (NIUA).Leaving a stall to cool down means losing sales or a place in the queue.Vendors' and workers' own account of which hours they lose, through their association or a local organisation.
+Sources for this section (6)Rohini, Rajeevan and Srivastava (open access, PMC): On the Variability and Increasing Trends of Heat Waves over India (Scientific Reports, 2016)](https://beattheheat.asia/practical-actions/#summer)
 - [India Meteorological Department: Extended range forecast and observed features, 1 October 2026](https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf)
 - [Roxy and others (open access): A threefold rise in widespread extreme rain events over central India (Nature Communications, 2017)](https://doi.org/10.1038/s41467-017-00744-9)
 - [National Institute of Urban Affairs, Climate Centre for Cities: Climate Change Adaptation Actions in Indian Cities: Learning Note 2](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities)
@@ -154,49 +140,32 @@ Sources for this section (6)
 
 An afternoon of heat, the ward's supply cut for a repair, the market water point running low by noon. What helps: storage sized to a hot day's demand, a refill arranged with enough lead time for the tanker to arrive, and someone who calls when it runs low.
 
-- Scenario, with an observed regional precedent
+- Scenario
 
 ### A downpour in a dry year
 
-Below-normal rain, then one night of very heavy rain. IMD recorded very heavy rainfall over Marathwada on 30 September 2026, after a monsoon below normal for India. A cover that blocks a drain turns one hazard into two.
+A below-normal monsoon, then one night of very heavy rain before the season turns. Covers tear, a lane floods, and a cover that blocks a drain turns one hazard into two. What helps: covers fixed against wind, drains cleared around each site, and an agreed alternative site.
 
-Sources for this section (2)
+- [The energy–water loophow heat, power cuts and water shortages feed each other
 
-- [India Meteorological Department: Press release, 30 September 2026](https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2030-09-2026.pdf)
-- [India Meteorological Department: Extended range forecast and observed features, 1 October 2026](https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf)
-
-- [The energy–water loop](https://beattheheat.asia/loops/#energywater): how heat, power cuts and water shortages feed each other
-- [The reactive-spending loop](https://beattheheat.asia/loops/#reactive): why money that waits for the damage arrives late
-- [Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/): the same heatwave, different barriers
+Warnings
 
 ## Your warning route
 
 This guide sets no warning thresholds of its own. Find who issues your warning and who acts on it:
-
-- **[IMD district warnings](https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php)**The official warning for your district, issued by the India Meteorological Department.
+IMD district warnings](https://beattheheat.asia/loops/#energywater)The official warning for your district, issued by the India Meteorological Department.
 - **[Your regional or state meteorological centre](https://mausam.imd.gov.in/event/evolution.php)**IMD works through Regional Meteorological Centres, assisted by Meteorological Centres at the state level that disseminate advisories and warnings for their region.
 - **[Your state or district disaster authority](https://beattheheat.asia/resources/heat-action-plans/india/)**The state and district heat action plans say which department acts at each alert level. Find yours in the India heat action plan archive.
 - **The municipal officer or service operator named locally**The person who extends water hours or moves a queue indoors. If no one is named for your chosen service, name them before the season.
 
 For health departments, NCDC's advisory for summer 2026 asked states to start daily heat illness reporting from 1 March 2026 and to set local early warning thresholds. [NCDC's advisory for summer 2026](https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf).
 
-One state's route: Maharashtra
+Sources for this section (2)
 
-A plan Maharashtra's State Heat Action Plan 2024 names Vidarbha, Marathwada and Khandesh as most vulnerable and 15 districts as high-risk, with cooling centres and reserved hospital beds. Its districts follow IMD's Regional Meteorological Centres at Nagpur and Mumbai.
-
-- [Maharashtra's heat action plan page](https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/)
-- [IMD Regional Meteorological Centre, Nagpur](https://mausam.imd.gov.in/nagpur/)
-- [IMD Regional Meteorological Centre, Mumbai](https://mausam.imd.gov.in/mumbai/)
-- [Maharashtra's state plan in the India archive](https://beattheheat.asia/resources/heat-action-plans/india/#IN-MH-STATE-MH-2024)
-
-Sources for this section (6)
-
-- [India Meteorological Department: District-wise warnings](https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php)
-- [India Meteorological Department: Regional Meteorological Centre, Nagpur](https://mausam.imd.gov.in/nagpur/)
-- [India Meteorological Department: Regional Meteorological Centre, Mumbai](https://mausam.imd.gov.in/mumbai/)
 - [India Meteorological Department: Evolution of IMD](https://mausam.imd.gov.in/event/evolution.php)
 - [National Centre for Disease Control, Ministry of Health and Family Welfare: Advisory for State Health Departments for Summer 2026](https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf)
-- [Maharashtra State Disaster Management Authority: Heat Wave Action Plan](https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/)
+
+Calendar
 
 ## Before, during and after: a local calendar
 
@@ -211,12 +180,11 @@ During and just after the event | Check that each site works at the hours people
 
 Before opening a site, check how people will get drinking water during a power cut. If the supply depends on a pump, agree who can release stored water or order a refill, how long it will take, and where people can go in the meantime. If a site floods, the agreed alternative site takes over. Clinical care follows official guidance such as NCDC's.
 
-Sources for this section (4)
+Sources for this section (1)
 
-- [India Meteorological Department: District-wise warnings](https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php)
-- [India Meteorological Department: Regional Meteorological Centre, Nagpur](https://mausam.imd.gov.in/nagpur/)
-- [India Meteorological Department: Regional Meteorological Centre, Mumbai](https://mausam.imd.gov.in/mumbai/)
-- [Maharashtra State Disaster Management Authority: Heat Wave Action Plan](https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/)
+- [India Meteorological Department: Evolution of IMD](https://mausam.imd.gov.in/event/evolution.php)
+
+Worked example
 
 ## Worked example: a market at 2 p.m.
 
@@ -255,108 +223,56 @@ A shaded, seated waiting line with water, and a route indoors when it rains. Man
 
 Patients and disability groups walk the route from the gate and say whether the shaded line is reachable with a wheelchair or a walking stick; their answer can move the queue indoors or change where the seating goes.
 
-- [Shade over market stalls](https://beattheheat.asia/practical-actions/#market-canopy): the action card, with what it depends on
-- [A water point at the market](https://beattheheat.asia/practical-actions/#market-water): the action card
-- [Explore an illustrative market](https://beattheheat.asia/practical/#market): shade, water, rest, a cooler roof and a vendor's day
-- [Shaded clinic waiting areas](https://beattheheat.asia/practical-actions/#clinics-waiting): the action card
-- [Who holds it up](https://beattheheat.asia/who-holds-it/): who could permit, pay for, deliver and check each action
+- [Shade over market stallsthe action card, with what it depends on
+
+Reach
 
 ## Reach: how much protection people got
 
 Start with one public service and show how much of it can be protected this season. NIUA's learning notes for city officials describe city-scale planning as moving beyond isolated projects (Learning Note 2, section 2.6, p. 40) and point to entry points within municipal functions (Learning Note 1).
-
-- **Service coverage**Functioning sites out of relevant sites, with the count of relevant sites stated: say 18 of 42 markets (an illustrative figure).
-- **People reached**Regular users and visits, reported separately where people come back every day. Footfall is not protection.
-- **Protection delivered**What was available at the hour that matters, and to whom. Claim no avoided deaths or illness without health data and a fair comparison.
-
+Service coverageFunctioning sites out of relevant sites, with the count of relevant sites stated: say 18 of 42 markets (an illustrative figure).People reachedRegular users and visits, reported separately where people come back every day. Footfall is not protection.Protection deliveredWhat was available at the hour that matters, and to whom. Claim no avoided deaths or illness without health data and a fair comparison.
 Pair each output with an observable result (after NIUA's Table 2, Learning Note 2, p. 54):
-
-- **Output:** Shade installed**Observable result:** Occupied vendor stalls shaded at 2 p.m.
-- **Output:** Water point installed**Observable result:** Drinking water available during peak trading hours
-- **Output:** Cooling space opened**Observable result:** People using it at peak hours, with staff on duty
-
+Output: Shade installedObservable result: Occupied vendor stalls shaded at 2 p.m.Output: Water point installedObservable result: Drinking water available during peak trading hoursOutput: Cooling space openedObservable result: People using it at peak hours, with staff on duty
 Give users a simple way to report a failure (a number on the post, the association's contact) and ask the operator to record when it was fixed. The log shows whether protection held, not only whether it was built.
-
 Exposure is uneven: NIUA's Learning Note 1 notes that informal settlements face disproportionately higher exposure to heat, flooding and water scarcity, and that smaller cities often work with constrained resources (pp. 33, 35). Count who the service reaches in those places.
-
-Sources for this section (2)
-
-- [National Institute of Urban Affairs, Climate Centre for Cities: Climate Change Adaptation Actions in Indian Cities: Learning Note 2](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities)
+Sources for this section (2)National Institute of Urban Affairs, Climate Centre for Cities: Climate Change Adaptation Actions in Indian Cities: Learning Note 2](https://beattheheat.asia/practical-actions/#market-canopy)
 - [National Institute of Urban Affairs, Climate Centre for Cities: Cities and Climate Fundamentals Primer: Learning Note 1](https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer)
 
-- [Paying for heat protection](https://beattheheat.asia/paying-for-protection/): who pays, how money arrives, and whether it lasts
-- [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget): including India's disaster mitigation funds for heatwave projects
-- [Release money on the forecast](https://beattheheat.asia/practical-actions/#summer-forecast): agree in advance what money moves, and when
-- [The systems map](https://beattheheat.asia/#explore): how heat, water, work and health connect
+- [Paying for heat protectionwho pays, how money arrives, and whether it lasts
+
+Worksheet
 
 ## A worksheet for the first meeting
 
 Copy, print or fill in: one worksheet per service
-Field | Illustrative answer | Our city |
-
-Service, and who relies on it at the hottest hours | A daily market; vendors and buyers in the afternoon | |
-Which conditions describe our city | Busy hot afternoons; intermittent summer water | |
-Information we already hold | The market register; the association's list of afternoon stalls; last summer's tanker orders | |
-Measure and sites | Shade over the occupied stalls the vendors marked, and one drinking water point | |
-Who authorises the site | The market's managing body | |
-Who pays for installation | To agree: the municipal budget or a district allocation | |
-Who covers summer operations | To agree: the municipal body with the association | |
-Who can authorise a repair or emergency refill | One named officer, with a phone number | |
-Our warning route, and what changes on a warning | IMD district warning, as issued: water hours extend, refill brought forward, noon and mid-afternoon checks | |
-Our city's readiness date, and why | Working by 15 March, because heat usually arrives in late March here and procurement takes six weeks (illustrative) | |
-How we will check | Stalls shaded at 2 p.m. out of occupied stalls; water available at each check | |
-How users report a failure, and who records the fix | The association's number on the post; the operator logs the time fixed | |
-What the local organisation changed | Moved the shade from the entrance to the inner aisle | |
-
-Illustrative. The municipal team and the local organisation fill the last column together, and can change any field.
-
+FieldIllustrative answerOur city
+Service, and who relies on it at the hottest hoursA daily market; vendors and buyers in the afternoonWhich conditions describe our cityBusy hot afternoons; intermittent summer waterInformation we already holdThe market register; the association's list of afternoon stalls; last summer's tanker ordersMeasure and sitesShade over the occupied stalls the vendors marked, and one drinking water pointWho authorises the siteThe market's managing bodyWho pays for installationTo agree: the municipal budget or a district allocationWho covers summer operationsTo agree: the municipal body with the associationWho can authorise a repair or emergency refillOne named officer, with a phone numberOur warning route, and what changes on a warningIMD district warning, as issued: water hours extend, refill brought forward, noon and mid-afternoon checksOur city's readiness date, and whyWorking by 15 March, because heat usually arrives in late March here and procurement takes six weeks (illustrative)How we will checkStalls shaded at 2 p.m. out of occupied stalls; water available at each checkHow users report a failure, and who records the fixThe association's number on the post; the operator logs the time fixedWhat the local organisation changedMoved the shade from the entrance to the inner aisle
+Illustrative. Print the worksheet and fill the "Our city" column together; the municipal team and the local organisation can change any field.
 Print this page, or only the worksheet, for a meeting between the municipal team and the local organisation.
+
+In practice
 
 ## Preparedness that has happened in India
 
 A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is. Each comes from NRDC's 2026 review of heat policy in India.
-
-- Installed, reported in a review
+Installed, reported in a review
 
 ### Jodhpur, Rajasthan Hot, dry
 
-**The decision: where to put protection.** Under Jodhpur's heat action plan, a net zero cooling station designed for the informal sector was installed in a high-risk ward identified through ward-level risk assessment, and IMD heat alerts were passed on in locally accessible formats through community channels.
-
-- An allocation, reported in a review
+The decision: where to put protection. Under Jodhpur's heat action plan, a net zero cooling station designed for the informal sector was installed in a high-risk ward identified through ward-level risk assessment, and IMD heat alerts were passed on in locally accessible formats through community channels.An allocation, reported in a review
 
 ### Kerala Humid, coastal
 
-**The decision: who can pay at short notice.** The state allocated ₹1 crore to each District Collector for heat protection such as drinking water kiosks and cooling centres, and directed local bodies to develop decentralised heat action plans.
-
-- A state rule, reported in a review
+The decision: who can pay at short notice. The state allocated ₹1 crore to each District Collector for heat protection such as drinking water kiosks and cooling centres, and directed local bodies to develop decentralised heat action plans.A state rule, reported in a review
 
 ### Uttar Pradesh Northern plains
 
-**The decision: what triggers a step-up.** District-specific heatwave thresholds classify alerts as yellow, orange or red according to regional climatic conditions, so an alert and the response it sets moving reflect local conditions.
-
-A large city, with outcome evidence **Ahmedabad.** A 2018 evaluation found Ahmedabad's heat action plan may have contributed to about 1,190 fewer deaths a year on hot days after full implementation. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments. [Heat action plans, with Ahmedabad's](https://beattheheat.asia/actions/#hap).
+The decision: what triggers a step-up. District-specific heatwave thresholds classify alerts as yellow, orange or red according to regional climatic conditions, so an alert and the response it sets moving reflect local conditions.
+A large city, with outcome evidence Ahmedabad. A 2018 evaluation found Ahmedabad's heat action plan may have contributed to about 1,190 fewer deaths a year on hot days after full implementation. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments. Heat action plans, with Ahmedabad's](https://beattheheat.asia/paying-for-protection/).
 
 Sources for this section (1)
 
 - [Natural Resources Defense Council (NRDC): Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
-
-Seasonal preparation outside India: Nepal and Peru
-
-- Activities reported by the organisation
-
-### Nepal
-
-Practical Action Nepal used seasonal forecasts to guide early action: awareness with media and local partners, and support for heat action planning (June 2026).
-
-- A stated aim
-
-### Peru
-
-With the Swiss Agency for Development and Cooperation, the national civil defence institute (INDECI) and local government, Practical Action set out early action to protect 1,500 families from floods and mudslides.
-
-Sources for this section (1)
-
-- [Practical Action: El Niño is coming, so how are we preparing?](https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/)
 
 The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.
 
