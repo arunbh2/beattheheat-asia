@@ -6963,6 +6963,12 @@
    "org": true
   },
   {
+   "url": "https://ndma.gov.in/sites/default/files/PDF/Guidelines/Cool-Roof-Handbook.pdf",
+   "label": "House Owners' Guide to Alternate Roof Cooling Solutions: the roof contributes up to 70% of a building's heat gain, and the guide sets out low-cost roof cooling for existing homes, from cool roof paint",
+   "root": "practical",
+   "org": false
+  },
+  {
    "url": "https://ndmindia.mha.gov.in/ndmi/response-fund",
    "label": "India Ministry of Home Affairs: Response Fund",
    "root": "financing",

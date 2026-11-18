@@ -934,6 +934,78 @@
    "populations": ["workers"],
    "relevance": {"basis":"explicit"},
    "review": {"reviewed":"2026-11-16","due":"2027-05-16"}
+  },
+  {
+   "id": "sig-tamil-nadu-heat-resilience-centre",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2025-11",
+   "title": "Tamil Nadu and the UK set up a Heat Resilience Centre for the state",
+   "summary": "In November 2025 the Government of Tamil Nadu, with the Government of the United Kingdom, announced a Heat Resilience Centre for the state. The Tamil Nadu Green Climate Company runs it, with the British High Commission, UNEP and the World Resources Institute as partners. It is to act as a nodal institution for heat risk across sectors and to support heat action planning. Its programme was set to run until September 2026; whether it continues after that has not been verified.",
+   "who": "Government of Tamil Nadu (Tamil Nadu Green Climate Company), with the UK Government",
+   "places": ["india"],
+   "levers": ["hap","heatbudget"],
+   "next": "Delivered: heat action plans or heat maps the centre supports, and whether the centre continues after its programme ended in September 2026.",
+   "sources": [
+    {"id":"tngcc","type":"original","label":"Tamil Nadu Green Climate Company: Center for Heat Resilience","url":"https://tngcc.tn.gov.in/project/center-for-heat-resillence/"},
+    {"id":"nrdc","type":"secondary","label":"NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape","url":"https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf"}
+   ],
+   "where": "Tamil Nadu, India",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-centre",
+     "what": "A Heat Resilience Centre for Tamil Nadu, to coordinate heat-risk management and support heat action planning",
+     "type": "office",
+     "milestones": [
+      {"id":"m-announced","step":"announced","date":"2025-11","note":"Announced by the Government of Tamil Nadu with the UK Government","evidence":[{"source":"tngcc","establishes":"The state climate company's own page for the centre, its partners, its role and its programme dates.","terms":["Heat Resilience","British High Commission","nodal","heat action","September 2026"]},{"source":"nrdc","establishes":"Dates the announcement to November 2025, with the UK Government.","terms":["In November 2025","Heat Resilience Centre","Government of the United Kingdom"]}]}
+     ],
+     "unknown": ["Staffing, budget and whether the centre is operating: not verified","What happened when the programme reached September 2026: not verified"],
+     "next": "Published heat maps or plans the centre supported, and its status after September 2026."
+    }
+   ],
+   "review": {"reviewed":"2026-11-18","due":"2027-02-18"},
+   "stage": "announced",
+   "history": [
+    {"date":"2025-11","stage":"announced","note":"Announced by the Government of Tamil Nadu with the UK Government"}
+   ]
+  },
+  {
+   "id": "sig-maharashtra-heat-coe",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026",
+   "title": "Maharashtra sets up a Centre of Excellence for heat resilience and sustainable cooling",
+   "summary": "Maharashtra has set up a Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC). The state disaster management authority's own site describes it as hosted within the Relief and Rehabilitation Department, and NRDC's 2026 review reports that it is to sit within the planned State Institute of Disaster Management.",
+   "who": "Government of Maharashtra (Relief and Rehabilitation Department; Maharashtra State Disaster Management Authority)",
+   "places": ["india"],
+   "levers": ["hap","cleancool"],
+   "next": "Delivered: guidance, training or research the centre publishes, and its move into the State Institute of Disaster Management.",
+   "sources": [
+    {"id":"mh-sdma","type":"original","label":"Maharashtra State Disaster Management Authority: About CEHSC","url":"https://sdma.maharashtra.gov.in/en/about/"},
+    {"id":"nrdc","type":"secondary","label":"NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape","url":"https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf"}
+   ],
+   "where": "Maharashtra, India",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-coe",
+     "what": "The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)",
+     "type": "office",
+     "milestones": [
+      {"id":"m-announced","step":"announced","date":"2026","note":"Reported as being established within the planned State Institute of Disaster Management","evidence":[{"source":"nrdc","establishes":"Reports the centre and where it is to sit.","terms":["Centre of Excellence for Heat Resilience and Sustainable Cooling","State Institute of Disaster Management"]}]},
+      {"id":"m-set-up","step":"adopted","date":"2026","note":"Described on the state disaster management authority's site, hosted within the Relief and Rehabilitation Department","evidence":[{"source":"mh-sdma","establishes":"The authority's own page for the centre and its host department.","terms":["CEHSC","Centre of Excellence","Relief and Rehabilitation","Cooling"]}]}
+     ],
+     "unknown": ["The month it was set up, its staffing and its budget: not verified in the sources checked","Its move into the State Institute of Disaster Management: not verified"],
+     "next": "The centre's first published guidance or training, and its move into the State Institute of Disaster Management."
+    }
+   ],
+   "review": {"reviewed":"2026-11-18","due":"2027-02-18"},
+   "stage": "adopted",
+   "history": [
+    {"date":"2026","stage":"announced","note":"Reported as being established within the planned State Institute of Disaster Management"},
+    {"date":"2026","stage":"adopted","note":"Described on the state disaster management authority's site, hosted within the Relief and Rehabilitation Department"}
+   ]
   }
  ]
 }

@@ -26,11 +26,11 @@ Where the commitments stand
 
 ## From promise to proof, deliverable by deliverable
 
-Of 25 deliverables in 17 commitments tracked here, among 28 records in all (17 commitments, 2 gatherings, 8 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
+Of 27 deliverables in 19 commitments tracked here, among 30 records in all (19 commitments, 2 gatherings, 8 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
 
-- 7
+- 8
 **Announced** Said in public. A weak signal on its own: announcements happen whether or not anything follows.
-- 10
+- 11
 **Adopted** Made formal: a plan approved, a rule changed, an office set up. 2 of these rest on secondary reports only. 1 not verified by a content check.
 - 5
 **Funded** Money committed to it, whether or not the amount is public. 2 of these rest on secondary reports only.
@@ -1086,6 +1086,48 @@ ReviewRecord last reviewed 16 November 2026. Sources last checked 12 November 20
 
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 
+CommitmentLatest development 2026
+
+### [Maharashtra sets up a Centre of Excellence for heat resilience and sustainable cooling](#sig-maharashtra-heat-coe)
+
+Government of Maharashtra (Relief and Rehabilitation Department; Maharashtra State Disaster Management Authority) Maharashtra, India
+
+Maharashtra has set up a Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC). The state disaster management authority's own site describes it as hosted within the Relief and Rehabilitation Department, and NRDC's 2026 review reports that it is to sit within the planned State Institute of Disaster Management.
+
+What is tracked (1 deliverable)
+
+#### The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC) Office or body
+
+- AnnouncedAnnounced, 2026: reported
+- AdoptedAdopted, 2026: original checked
+
+Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Evidence, history and what is not known
+
+#### The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)
+
+- 2026 **Announced**. Reported as being established within the planned State Institute of Disaster Management
+
+- [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf) Secondary
+Reports the centre and where it is to sit. reported: checked 18 November 2026 for “Centre of Excellence for Heat Resilience and Sustainable Cooling”, “State Institute of Disaster Management”
+
+- 2026 **Adopted**. Described on the state disaster management authority's site, hosted within the Relief and Rehabilitation Department
+
+- [Maharashtra State Disaster Management Authority: About CEHSC](https://sdma.maharashtra.gov.in/en/about/) Original
+The authority's own page for the centre and its host department. original checked: checked 18 November 2026 for “CEHSC”, “Centre of Excellence”, “Relief and Rehabilitation”, “Cooling”
+
+Not known yet
+
+- The month it was set up, its staffing and its budget: not verified in the sources checked
+- Its move into the State Institute of Disaster Management: not verified
+
+What would change this recordThe centre's first published guidance or training, and its move into the State Institute of Disaster Management.
+
+ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 18 February 2027. [What a review covers](#sg-method)
+
+Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
+
 GuidanceLatest development 2026
 
 ### [India's Heat Resilient Cities Framework](#sig-niua-heat-resilient-cities-2026)
@@ -1103,6 +1145,44 @@ Sources and review
 ReviewRecord last reviewed 16 November 2026. Sources last checked never. Next review due 16 May 2027. [What a review covers](#sg-method)
 
 Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Cool by design](https://beattheheat.asia/actions/#coolbydesign)
+
+CommitmentLatest development November 2025
+
+### [Tamil Nadu and the UK set up a Heat Resilience Centre for the state](#sig-tamil-nadu-heat-resilience-centre)
+
+Government of Tamil Nadu (Tamil Nadu Green Climate Company), with the UK Government Tamil Nadu, India
+
+In November 2025 the Government of Tamil Nadu, with the Government of the United Kingdom, announced a Heat Resilience Centre for the state. The Tamil Nadu Green Climate Company runs it, with the British High Commission, UNEP and the World Resources Institute as partners. It is to act as a nodal institution for heat risk across sectors and to support heat action planning. Its programme was set to run until September 2026; whether it continues after that has not been verified.
+
+What is tracked (1 deliverable)
+
+#### A Heat Resilience Centre for Tamil Nadu, to coordinate heat-risk management and support heat action planning Office or body
+
+- AnnouncedAnnounced, November 2025: original checked
+
+Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Evidence, history and what is not known
+
+#### A Heat Resilience Centre for Tamil Nadu, to coordinate heat-risk management and support heat action planning
+
+- November 2025 **Announced**. Announced by the Government of Tamil Nadu with the UK Government
+
+- [Tamil Nadu Green Climate Company: Center for Heat Resilience](https://tngcc.tn.gov.in/project/center-for-heat-resillence/) Original
+The state climate company's own page for the centre, its partners, its role and its programme dates. original checked: checked 18 November 2026 for “Heat Resilience”, “British High Commission”, “nodal”, “heat action”, “September 2026”
+- [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf) Secondary
+Dates the announcement to November 2025, with the UK Government. reported: checked 18 November 2026 for “In November 2025”, “Heat Resilience Centre”, “Government of the United Kingdom”
+
+Not known yet
+
+- Staffing, budget and whether the centre is operating: not verified
+- What happened when the programme reached September 2026: not verified
+
+What would change this recordPublished heat maps or plans the centre supported, and its status after September 2026.
+
+ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 18 February 2027. [What a review covers](#sg-method)
+
+Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 
 CommitmentLatest development 22 September 2025
 

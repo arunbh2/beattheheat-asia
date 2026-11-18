@@ -107,6 +107,61 @@
     }
    }
   ],
+  "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": [
+   {
+    "kind": "content",
+    "batch": "2026-11-heat-india-policy",
+    "checked": "2026-11-18",
+    "status": "OK",
+    "terms": {
+     "Extreme Heat in India": true,
+     "Ahmedabad became the first city in South Asia": true,
+     "ward-level planning": true,
+     "Institutional Mechanisms & Financing": true,
+     "none of the plans articulated a clear legal": true,
+     "national repository": true,
+     "Cool Roof Bylaws 2025": true,
+     "500 sq. m": true,
+     "300 government schools": true,
+     "31°C down to 27°C": true,
+     "House Owners’ Guide to Alternate Roof Cooling Solutions": true,
+     "up to 5°C": true,
+     "70% of building heat gain": true,
+     "Urban Greening Policy 2026": true,
+     "15% of their total municipal area": true,
+     "heatwave thresholds": true,
+     "yellow, orange, red": true,
+     "Moodadi Grama Panchayat": true,
+     "village-level heat action plan": true,
+     "net zero cooling station": true,
+     "high-risk ward": true,
+     "designed for the informal sector": true,
+     "Site selection in high-risk areas": true,
+     "Retrofitting of existing buildings": true,
+     "Operations & maintenance protocols": true,
+     "September 2024": true,
+     "mitigation funds for heatwave": true,
+     "1 crore to each District Collector": true,
+     "drinking water kiosks": true,
+     "Natural Resources Defense Council": true,
+     "Indian Institute of Public Health": true
+    }
+   },
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-india-heat-centres",
+    "checked": "2026-11-18",
+    "status": "OK",
+    "terms": {
+     "Extreme Heat in India": true,
+     "In November 2025": true,
+     "Heat Resilience Centre": true,
+     "Government of the United Kingdom": true,
+     "Centre of Excellence for Heat Resilience and Sustainable Cooling": true,
+     "State Institute of Disaster Management": true
+    }
+   }
+  ],
   "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf": [
    {
     "kind": "content",
@@ -136,6 +191,21 @@
     "batch": "research/2026-11/go-live",
     "checked": "2026-11-07",
     "status": "OK"
+   }
+  ],
+  "https://sdma.maharashtra.gov.in/en/about/": [
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-india-heat-centres",
+    "checked": "2026-11-18",
+    "status": "OK",
+    "terms": {
+     "CEHSC": true,
+     "Centre of Excellence": true,
+     "Heat": true,
+     "Cooling": true,
+     "Relief and Rehabilitation": true
+    }
    }
   ],
   "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf": [
@@ -196,6 +266,24 @@
     "terms": {
      "38": true,
      "emergency": true
+    }
+   }
+  ],
+  "https://tngcc.tn.gov.in/project/center-for-heat-resillence/": [
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-india-heat-centres",
+    "checked": "2026-11-18",
+    "status": "OK",
+    "terms": {
+     "Heat": true,
+     "Heat Resilience": true,
+     "British High Commission": true,
+     "nodal": true,
+     "heat action": true,
+     "September 2026": true,
+     "World Resources Institute": true,
+     "UNEP": true
     }
    }
   ],
