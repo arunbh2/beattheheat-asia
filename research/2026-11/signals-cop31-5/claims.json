@@ -1,0 +1,26 @@
+{
+ "about": "Heat-relevant outcomes from COP31 since check-in 2 (check-in 3 of 4, 18 November 2026), found through search and tied to primary pages: UNEP and the Cool Coalition for the third Cooling Pledge Ministerial (16 November), WHO for its El Niño health response. The Antalya-to-Addis declaration is described as proposed, so it is not claimed as adopted. A claim passes only when one route holds all its terms.",
+ "sources": [
+  {"key": "unep-pr", "title": "At COP31, governments back action on extreme heat and sustainable cooling", "publisher": "UNEP", "year": 2026, "kind": "Press release", "url": "https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling", "expect": ["COP31"]},
+  {"key": "unep-speech", "title": "Advancing heat resilience and sustainable cooling together", "publisher": "UNEP", "year": 2026, "kind": "Speech", "url": "https://www.unep.org/en/news-and-stories/speech/advancing-heat-resilience-and-sustainable-cooling-together", "expect": ["heat resilience"]},
+  {"key": "cc-dialogue", "title": "COP31 Ministerial Dialogue: Heat Resilience and Sustainable Cooling", "publisher": "Cool Coalition (UNEP)", "year": 2026, "kind": "Event page", "url": "https://coolcoalition.org/events/cop31-ministerial-dialogue-heat-resilience-and-sustainable-cooling", "expect": ["Heat Resilience"]},
+  {"key": "who-sprp", "title": "WHO Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies - Strategic Preparedness and Response Plan", "publisher": "World Health Organization", "year": 2026, "kind": "Official plan (publication page)", "url": "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan", "expect": ["Strategic Preparedness and Response Plan"]},
+  {"key": "who-elnino", "title": "El Niño", "publisher": "World Health Organization", "year": 2026, "kind": "Emergency situation page", "url": "https://www.who.int/emergencies/situations/el-nino", "expect": ["El Niño"]}
+ ],
+ "claims": [
+  {"id": "c-ministerial", "where": "Signal: third Cooling Pledge Ministerial", "text": "At the third Cooling Pledge Ministerial in Antalya on 16 November, co-chaired by Singapore and UNEP, governments backed a country-led, voluntary roadmap on heat resilience and sustainable cooling.",
+   "rests_on": [["unep-pr", "Ministerial"], ["unep-pr", "Singapore"], ["unep-pr", "voluntary"], ["unep-pr", "Roadmap"]],
+   "alt": [["cc-dialogue", "Ministerial"], ["cc-dialogue", "Singapore"], ["cc-dialogue", "Roadmap"], ["unep-speech", "roadmap"], ["unep-speech", "voluntary"]]},
+  {"id": "c-cop32", "where": "Signal: third Cooling Pledge Ministerial (next step)", "text": "The roadmap is to be launched at COP32 in Addis Ababa.",
+   "rests_on": [["cc-dialogue", "COP32"], ["cc-dialogue", "Addis"]],
+   "alts": [[["unep-pr", "COP32"], ["unep-pr", "Addis"]], [["unep-speech", "COP32"], ["unep-speech", "Addis"]]]},
+  {"id": "c-money", "where": "Signal: third Cooling Pledge Ministerial (funding, announced)", "text": "More than US$20 million in new support was announced for the Cool Coalition's work on the Global Cooling Pledge.",
+   "rests_on": [["unep-pr", "20 million"], ["unep-pr", "Cool Coalition"], ["unep-pr", "Global Cooling Pledge"]]},
+  {"id": "c-who-grade3", "where": "Signal: WHO El Niño health response", "text": "WHO is responding to El Niño's health risks at Grade 3, its highest emergency grade, under a plan for October 2026 to September 2027.",
+   "rests_on": [["who-sprp", "Grade 3"], ["who-sprp", "October 2026"], ["who-sprp", "September 2027"]],
+   "alt": [["who-elnino", "Grade 3"], ["who-sprp", "October 2026"], ["who-sprp", "September 2027"]]},
+  {"id": "c-who-heat", "where": "Signal: WHO El Niño health response (heat)", "text": "WHO names heat among the El Niño health risks it is preparing for.",
+   "rests_on": [["who-elnino", "heat"]],
+   "alt": [["who-sprp", "heat"]]}
+ ]
+}

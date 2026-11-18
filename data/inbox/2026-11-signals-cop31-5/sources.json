@@ -1,0 +1,132 @@
+[
+ {
+  "id": "src-cop31e-unep-pr",
+  "type": "source",
+  "keys": [
+   "unep-pr"
+  ],
+  "title": "At COP31, governments back action on extreme heat and sustainable cooling",
+  "publisher": "UNEP",
+  "year": 2026,
+  "url": "https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling",
+  "kind": "Press release",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Ministerial",
+   "Singapore",
+   "voluntary",
+   "Roadmap",
+   "COP32",
+   "Addis",
+   "20 million",
+   "Cool Coalition",
+   "Global Cooling Pledge"
+  ],
+  "claims": [
+   "c-ministerial",
+   "c-cop32",
+   "c-money"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31e-unep-speech",
+  "type": "source",
+  "keys": [
+   "unep-speech"
+  ],
+  "title": "Advancing heat resilience and sustainable cooling together",
+  "publisher": "UNEP",
+  "year": 2026,
+  "url": "https://www.unep.org/en/news-and-stories/speech/advancing-heat-resilience-and-sustainable-cooling-together",
+  "kind": "Speech",
+  "where": "COP31",
+  "expect": [
+   "heat resilience",
+   "roadmap",
+   "voluntary",
+   "COP32",
+   "Addis"
+  ],
+  "claims": [
+   "c-ministerial",
+   "c-cop32"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31e-cc-dialogue",
+  "type": "source",
+  "keys": [
+   "cc-dialogue"
+  ],
+  "title": "COP31 Ministerial Dialogue: Heat Resilience and Sustainable Cooling",
+  "publisher": "Cool Coalition (UNEP)",
+  "year": 2026,
+  "url": "https://coolcoalition.org/events/cop31-ministerial-dialogue-heat-resilience-and-sustainable-cooling",
+  "kind": "Event page",
+  "where": "COP31",
+  "expect": [
+   "Heat Resilience",
+   "Ministerial",
+   "Singapore",
+   "Roadmap",
+   "COP32",
+   "Addis"
+  ],
+  "claims": [
+   "c-ministerial",
+   "c-cop32"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31e-who-sprp",
+  "type": "source",
+  "keys": [
+   "who-sprp"
+  ],
+  "title": "WHO Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies - Strategic Preparedness and Response Plan",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan",
+  "kind": "Official plan (publication page)",
+  "where": "COP31",
+  "expect": [
+   "Strategic Preparedness and Response Plan",
+   "Grade 3",
+   "October 2026",
+   "September 2027",
+   "heat"
+  ],
+  "claims": [
+   "c-who-grade3",
+   "c-who-heat"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31e-who-elnino",
+  "type": "source",
+  "keys": [
+   "who-elnino"
+  ],
+  "title": "El Niño",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://www.who.int/emergencies/situations/el-nino",
+  "kind": "Emergency situation page",
+  "where": "COP31",
+  "expect": [
+   "El Niño",
+   "Grade 3",
+   "heat"
+  ],
+  "claims": [
+   "c-who-grade3",
+   "c-who-heat"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
