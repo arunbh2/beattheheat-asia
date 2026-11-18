@@ -1,0 +1,85 @@
+{
+ "_terms": {
+  "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": {
+   "Extreme Heat in India": true,
+   "Ahmedabad became the first city in South Asia": true,
+   "ward-level planning": true,
+   "Institutional Mechanisms & Financing": true,
+   "none of the plans articulated a clear legal": true,
+   "national repository": true,
+   "Cool Roof Bylaws 2025": true,
+   "500 sq. m": true,
+   "300 government schools": true,
+   "31°C down to 27°C": true,
+   "House Owners’ Guide to Alternate Roof Cooling Solutions": true,
+   "up to 5°C": true,
+   "70% of building heat gain": true,
+   "Urban Greening Policy 2026": true,
+   "15% of their total municipal area": true,
+   "heatwave thresholds": true,
+   "yellow, orange, red": true,
+   "Moodadi Grama Panchayat": true,
+   "village-level heat action plan": true,
+   "net zero cooling station": true,
+   "high-risk ward": true,
+   "designed for the informal sector": true,
+   "Site selection in high-risk areas": true,
+   "Retrofitting of existing buildings": true,
+   "Operations & maintenance protocols": true,
+   "September 2024": true,
+   "mitigation funds for heatwave": true,
+   "1 crore to each District Collector": true,
+   "drinking water kiosks": true,
+   "Natural Resources Defense Council": true,
+   "Indian Institute of Public Health": true
+  },
+  "https://niua.in/intranet/sites/default/files/publications/Master_Plan%20_Publication_19_Climate_Considerations_in_City_Plans%20%284%29.pdf": {
+   "Climate Considerations in City Plans": true,
+   "20 diverse cities": true,
+   "microclimate analysis": true,
+   "vulnerability mapping is acknowledged, it often does not directly inform the city plans": true
+  },
+  "https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities": {
+   "Climate Considerations in City Plans": true
+  },
+  "https://niua.in/intranet/sites/default/files/publications/Module%203-Understanding%20Urban%20Climate%20Finance_Learning%20Note_0.pdf": {
+   "Understanding Urban Climate Finance": true,
+   "USD 831 billion": true,
+   "USD 10 billion": true,
+   "Adaptation finance remains marginal": true,
+   "State of Cities Climate Finance": true,
+   "People protected from floods/heat": true,
+   "lack of structured and accessible climate finance": true,
+   "Heat Action Plans": true
+  },
+  "https://niua.in/publication-details/Understanding_Urban_Climate_Finance": {
+   "Understanding Urban Climate Finance": true
+  },
+  "https://niua.in/intranet/sites/default/files/publications/Module%204_Institutionalisation%20of%20Climate%20Actions_Learning%20Note_0.pdf": {
+   "Institutionalisation of Climate Actions": true,
+   "Health Department - early warning and outreach": true,
+   "Engineering - shade, cool roofs, water points": true,
+   "Disaster Management - response protocols": true,
+   "Ward Offices - local implementation": true,
+   "Will this project increase flood or heat risk?": true
+  },
+  "https://niua.in/publication-details/Institutionalisation_of_Climate_Actions": {
+   "Institutionalisation of Climate Actions": true
+  },
+  "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": {
+   "cooling": true
+  },
+  "https://ndma.gov.in/sites/default/files/PDF/Guidelines/Cool-Roof-Handbook.pdf": {
+   "roof": false
+  }
+ },
+ "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": "OK",
+ "https://niua.in/intranet/sites/default/files/publications/Master_Plan%20_Publication_19_Climate_Considerations_in_City_Plans%20%284%29.pdf": "OK",
+ "https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities": "OK",
+ "https://niua.in/intranet/sites/default/files/publications/Module%203-Understanding%20Urban%20Climate%20Finance_Learning%20Note_0.pdf": "OK",
+ "https://niua.in/publication-details/Understanding_Urban_Climate_Finance": "OK",
+ "https://niua.in/intranet/sites/default/files/publications/Module%204_Institutionalisation%20of%20Climate%20Actions_Learning%20Note_0.pdf": "OK",
+ "https://niua.in/publication-details/Institutionalisation_of_Climate_Actions": "OK",
+ "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": "OK",
+ "https://ndma.gov.in/sites/default/files/PDF/Guidelines/Cool-Roof-Handbook.pdf": "FAIL"
+}
