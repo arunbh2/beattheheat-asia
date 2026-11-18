@@ -1,0 +1,438 @@
+[
+ {
+  "id": "src-enc-noaa",
+  "type": "source",
+  "keys": [
+   "noaa"
+  ],
+  "title": "ENSO Diagnostic Discussion, 12 November 2026",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf",
+  "kind": "Official forecast discussion (PDF, archived issue)",
+  "where": "El Niño and cities",
+  "expect": [
+   "DIAGNOSTIC",
+   "12 November 2026",
+   "El Niño Advisory",
+   "likely through January-March 2027",
+   "greater than a 79% chance",
+   "beginning to weaken in early 2027",
+   "10 December"
+  ],
+  "claims": [
+   "c-noaa"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-noaa-latest",
+  "type": "source",
+  "keys": [
+   "noaa-latest"
+  ],
+  "title": "ENSO Diagnostic Discussion (latest issue)",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+  "kind": "Official forecast page",
+  "where": "El Niño and cities",
+  "expect": [
+   "Diagnostic Discussion"
+  ],
+  "claims": [
+   "c-noaa-latest"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-wmo",
+  "type": "source",
+  "keys": [
+   "wmo"
+  ],
+  "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+  "kind": "Press release on the WMO El Niño/La Niña Update",
+  "where": "El Niño and cities",
+  "expect": [
+   "El Niño",
+   "3 September 2026",
+   "nearly 100%",
+   "February 2027",
+   "does not determine how severe its impacts will be in any individual country"
+  ],
+  "claims": [
+   "c-wmo"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-imd-erf",
+  "type": "source",
+  "keys": [
+   "imd-erf"
+  ],
+  "title": "Extended range forecast and observed features, 1 October 2026",
+  "publisher": "India Meteorological Department",
+  "year": 2026,
+  "url": "https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf",
+  "kind": "Official bulletin (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Monsoon",
+   "01 October 2026",
+   "87% of its long period average",
+   "101% in July"
+  ],
+  "claims": [
+   "c-imd-season"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-imd-pr30",
+  "type": "source",
+  "keys": [
+   "imd-pr30"
+  ],
+  "title": "Press release, 30 September 2026",
+  "publisher": "India Meteorological Department",
+  "year": 2026,
+  "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2030-09-2026.pdf",
+  "kind": "Official press release (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Press Release",
+   "30th September",
+   "has been recorded over Marathawada"
+  ],
+  "claims": [
+   "c-marathwada"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-imd-dw",
+  "type": "source",
+  "keys": [
+   "imd-dw"
+  ],
+  "title": "District-wise warnings",
+  "publisher": "India Meteorological Department",
+  "year": 2026,
+  "url": "https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php",
+  "kind": "Official warnings page",
+  "where": "El Niño and cities",
+  "expect": [
+   "Warnings"
+  ],
+  "claims": [
+   "c-warnings"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-rmc-nagpur",
+  "type": "source",
+  "keys": [
+   "rmc-nagpur"
+  ],
+  "title": "Regional Meteorological Centre, Nagpur",
+  "publisher": "India Meteorological Department",
+  "year": 2026,
+  "url": "https://mausam.imd.gov.in/nagpur/",
+  "kind": "Official page",
+  "where": "El Niño and cities",
+  "expect": [
+   "Nagpur"
+  ],
+  "claims": [
+   "c-warnings"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-rmc-mumbai",
+  "type": "source",
+  "keys": [
+   "rmc-mumbai"
+  ],
+  "title": "Regional Meteorological Centre, Mumbai",
+  "publisher": "India Meteorological Department",
+  "year": 2026,
+  "url": "https://mausam.imd.gov.in/mumbai/",
+  "kind": "Official page",
+  "where": "El Niño and cities",
+  "expect": [
+   "Mumbai"
+  ],
+  "claims": [
+   "c-warnings"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-rohini",
+  "type": "source",
+  "keys": [
+   "rohini"
+  ],
+  "title": "On the Variability and Increasing Trends of Heat Waves over India (Scientific Reports, 2016)",
+  "publisher": "Rohini, Rajeevan and Srivastava (open access, PMC)",
+  "year": 2016,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/",
+  "kind": "Peer-reviewed study",
+  "where": "El Niño and cities",
+  "expect": [
+   "Heat Waves over India",
+   "years following the El Nino events",
+   "1961",
+   "April to June",
+   "tropical Indian Ocean"
+  ],
+  "claims": [
+   "c-rohini"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-rohini-xml",
+  "type": "source",
+  "keys": [
+   "rohini-xml"
+  ],
+  "title": "On the Variability and Increasing Trends of Heat Waves over India: full text",
+  "publisher": "Europe PMC",
+  "year": 2016,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4872222/fullTextXML",
+  "kind": "Peer-reviewed study (full text record)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Heat Waves over India",
+   "years following the El Nino events",
+   "1961",
+   "April to June",
+   "tropical Indian Ocean"
+  ],
+  "claims": [
+   "c-rohini"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-roxy",
+  "type": "source",
+  "keys": [
+   "roxy"
+  ],
+  "title": "A threefold rise in widespread extreme rain events over central India (Nature Communications, 2017)",
+  "publisher": "Roxy and others (open access)",
+  "year": 2017,
+  "url": "https://doi.org/10.1038/s41467-017-00744-9",
+  "kind": "Peer-reviewed study",
+  "where": "El Niño and cities",
+  "expect": [
+   "central India",
+   "threefold increase in widespread extreme rain events over central India",
+   "decline in the total rainfall"
+  ],
+  "claims": [
+   "c-roxy"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-pa",
+  "type": "source",
+  "keys": [
+   "pa"
+  ],
+  "title": "El Niño is coming, so how are we preparing?",
+  "publisher": "Practical Action",
+  "year": 2026,
+  "url": "https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/",
+  "kind": "Organisation article",
+  "where": "El Niño and cities",
+  "expect": [
+   "El Niño",
+   "16 June 2026",
+   "Practical Action Nepal has been using seasonal forecasts",
+   "heat action planning",
+   "Swiss Agency for Development and Cooperation",
+   "INDECI",
+   "1,500 families"
+  ],
+  "claims": [
+   "c-pa-nepal",
+   "c-pa-peru"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-sdma",
+  "type": "source",
+  "keys": [
+   "sdma"
+  ],
+  "title": "Heat Wave Action Plan",
+  "publisher": "Maharashtra State Disaster Management Authority",
+  "year": 2025,
+  "url": "https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/",
+  "kind": "Official page",
+  "where": "El Niño and cities",
+  "expect": [
+   "Heat",
+   "Maharashtra State Heat Action Plan 2024",
+   "Vidarbha, Marathwada, and Khandesh",
+   "15 districts",
+   "cooling centers",
+   "hospital beds"
+  ],
+  "claims": [
+   "c-sdma"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-mh-plan",
+  "type": "source",
+  "keys": [
+   "mh-plan"
+  ],
+  "title": "Maharashtra State Heat Wave Action Plan 2024 (Marathi)",
+  "publisher": "Disaster Management Department, Government of Maharashtra",
+  "year": 2024,
+  "url": "https://cdnbbsr.s3waas.gov.in/s36143cc48107351648de16d8367dc5db4/uploads/2025/03/20250313742462885.pdf",
+  "kind": "Official plan (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "2024",
+   "अकोला",
+   "जळगाव",
+   "नांदेड"
+  ],
+  "claims": [
+   "c-mh-districts"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-ncdc26",
+  "type": "source",
+  "keys": [
+   "ncdc26"
+  ],
+  "title": "Advisory for State Health Departments for Summer 2026",
+  "publisher": "National Centre for Disease Control, Ministry of Health and Family Welfare",
+  "year": 2026,
+  "url": "https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf",
+  "kind": "Official advisory (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Summer 2026",
+   "Advisory for State Health Departments for Summer 2026",
+   "March 01, 2026",
+   "public cooling and drinking water facilities",
+   "local early warning thresholds"
+  ],
+  "claims": [
+   "c-ncdc"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-niua-m1",
+  "type": "source",
+  "keys": [
+   "niua-m1"
+  ],
+  "title": "Cities and Climate Fundamentals Primer: Learning Note 1",
+  "publisher": "National Institute of Urban Affairs, Climate Centre for Cities",
+  "year": 2026,
+  "url": "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf",
+  "kind": "Training learning note (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Cities and Climate Fundamentals Primer",
+   "Equity and Social Inequality",
+   "Limited Resources and Capacities",
+   "safe zones during heatwaves"
+  ],
+  "claims": [
+   "c-niua-m1"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-niua-m2",
+  "type": "source",
+  "keys": [
+   "niua-m2"
+  ],
+  "title": "Climate Change Adaptation Actions in Indian Cities: Learning Note 2",
+  "publisher": "National Institute of Urban Affairs, Climate Centre for Cities",
+  "year": 2026,
+  "url": "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf",
+  "kind": "Training learning note (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Climate Change Adaptation",
+   "City-Scale Climate Resilience Planning",
+   "isolated projects",
+   "Output and outcome indicators for various adaptation actions in urban context",
+   "Number of roofs"
+  ],
+  "claims": [
+   "c-niua-m2"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-nrdc",
+  "type": "source",
+  "keys": [
+   "nrdc"
+  ],
+  "title": "Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape",
+  "publisher": "Natural Resources Defense Council (NRDC)",
+  "year": 2026,
+  "url": "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf",
+  "kind": "Policy review (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Extreme Heat in India",
+   "between March and May",
+   "releases seasonal",
+   "Site selection in high-risk areas",
+   "Operations & maintenance protocols"
+  ],
+  "claims": [
+   "c-imd-outlooks",
+   "c-ndma-cc"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-ndma-cc",
+  "type": "source",
+  "keys": [
+   "ndma-cc"
+  ],
+  "title": "Guidelines for Cooling Centers",
+  "publisher": "National Disaster Management Authority, India (in the GHHIN library)",
+  "year": 2025,
+  "url": "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf",
+  "kind": "Official guidelines (PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "cooling"
+  ],
+  "claims": [
+   "c-ndma-cc"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
