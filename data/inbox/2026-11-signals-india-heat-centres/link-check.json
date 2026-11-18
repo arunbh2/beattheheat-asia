@@ -1,0 +1,41 @@
+{
+ "_terms": {
+  "https://cms.tn.gov.in/cms_migrated/document/press_release/pr211125_e_2793.pdf": {
+   "Heat Resilience": false,
+   "Heat Resilience Centre": false,
+   "Letter of Intent": false,
+   "nodal": false,
+   "heat action plan": false
+  },
+  "https://tngcc.tn.gov.in/project/center-for-heat-resillence/": {
+   "Heat": true,
+   "September 2026": true
+  },
+  "https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html": {
+   "Heat Resilience Centre": false,
+   "Letter of Intent": false,
+   "nodal": false,
+   "heat action plan": false
+  },
+  "https://sdma.maharashtra.gov.in/en/about/": {
+   "CEHSC": true,
+   "Cooling": true
+  },
+  "https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/": {
+   "Centre of Excellence": false,
+   "IIM Nagpur": false,
+   "State Institute of Disaster Management": false
+  },
+  "https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html": {
+   "IIM Nagpur": true,
+   "State Institute of Disaster Management": false,
+   "heat": true
+  }
+ },
+ "https://cms.tn.gov.in/cms_migrated/document/press_release/pr211125_e_2793.pdf": "FAIL",
+ "https://tngcc.tn.gov.in/project/center-for-heat-resillence/": "OK",
+ "https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html": "OK",
+ "https://sdma.maharashtra.gov.in/en/about/": "OK",
+ "https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/": "FAIL",
+ "https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html": "OK"
+}

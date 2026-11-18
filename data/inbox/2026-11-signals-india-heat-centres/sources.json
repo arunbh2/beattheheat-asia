@@ -43,7 +43,8 @@
   "claims": [
    "c-tn-term"
   ],
-  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260614041045/https://www.tngcc.tn.gov.in/project/center-for-heat-resillence/"
  },
  {
   "id": "src-ihc-week-tn",
@@ -67,7 +68,8 @@
    "c-tn-launch",
    "c-tn-role"
   ],
-  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118113630/https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html"
  },
  {
   "id": "src-ihc-mh-sdma",
@@ -88,7 +90,8 @@
   "claims": [
    "c-mh-sdma"
   ],
-  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260811230142/https://sdma.maharashtra.gov.in/en/about/"
  },
  {
   "id": "src-ihc-ddnews",
@@ -110,7 +113,8 @@
   "claims": [
    "c-mh-launch"
   ],
-  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118113815/https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/"
  },
  {
   "id": "src-ihc-week-mh",
@@ -132,6 +136,7 @@
   "claims": [
    "c-mh-launch"
   ],
-  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the India heat centres signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118113943/https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html"
  }
 ]

@@ -1,0 +1,94 @@
+{
+ "src-ihc-tn-pr": {
+  "url": "https://cms.tn.gov.in/cms_migrated/document/press_release/pr211125_e_2793.pdf",
+  "status": "FAIL",
+  "http": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": "",
+  "title": "",
+  "found": {
+   "Heat Resilience": false,
+   "Heat Resilience Centre": false,
+   "Letter of Intent": false,
+   "nodal": false,
+   "heat action plan": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "src-ihc-tngcc": {
+  "url": "https://tngcc.tn.gov.in/project/center-for-heat-resillence/",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20260614041045/https://www.tngcc.tn.gov.in/project/center-for-heat-resillence/",
+  "title": "Center for Heat Resilience &#8211; TNGCC &#8211; Tamil Nadu Green Climate Company",
+  "found": {
+   "Heat": true,
+   "September 2026": true
+  },
+  "around": [
+   "ers Resources Close Resources Open Resources Resources Access official reports, notifications, data, and media from the Tamil Nadu Green Climate Company. This section brings together knowledge, transparency, and public communication in one place. Reports & Publications Notifications & Circulars News & Press Climate Hub Contact Close Contact Open Contact Engage & Connect Connect with TNGCC to participate, seek information, raise concerns, or explore opportunities. This section enables public engagement, transparency, and collaboration. Contact Get Involved RTI Careers Citizen Corner Center for Heat Resillence Key Partners: British High Commission, United Nations Environment Programme (UNEP) and the World Resources Institute (WRI). Start Date: 2025 The Government of Tamil Nadu, in partnership with the UK Government, has launched a Heat Resilience Centre to strengthen the State’s capacity to address rising extreme heat risks. The initiative is supported under the UK’s Climate Action for a Resilient Asia (CARA) programme and is implemented with technical partnership from the United Nations Environment Programme (UNEP) and the World Resources Institute (WRI) . The programme will run until September 2026 . The Heat Resilience Centre will function as the nodal institution for coordinating heat-risk management across sectors in Tamil Nadu. Its key objectives include establishing a scientific and institutional governance framework , building technical capacity across departments such as health, urban development, disaster management and planning, generating climate data, evidence and policy tools , supporting city- and district-level heat action plans , and developing bankable projects to mobilize funding from development banks, philanthropies and climate finance institutions. With this initiative, Tamil Nadu becomes one of the first states in India to create a dedicated institutional mechanism focused on extreme heat resilience. Project Gallery Other Projects Active Project 2025 Solar power project for Elephant camp and Mahout ilage at Kozhikamuthi, Anamalai Tiger Reserve Visit Project Active Project Climate Education Initiative Visit Project Active Project 2023 Green Schools Programme Visit Project Active Project 2025 Retrofitting of Government Buildings Visit Project Active Project 2023 Rehabilitation of coastal habitats for Climate Change Adaptation through Eco-friendly Solutions Visit Project Active Project 2023 Climate Resilient Village Visit Project TNGCC is the nodal SPV of the Government of Tamil Nadu to lead and coordinate climate missions across the state. We aim to build a more sustainable, resilient, and green future for all. Instagram Linkedin Total Visitors: 203,167 Quick Links About Projects Notifications & Circulars Careers Get Involved Resources Reports & Publications Notificati",
+   "Center for Heat Resilience TNGCC Tamil Nadu Green Climate Company Skip to content EN தமிழ் EN தமிழ் Home About us Board of Directors Leadership Team Our Team Missions Green Tamil Nadu Mission (GTM) Tamil Nadu Wetlands Mission (TNWM) Tamil Nadu Climate Change Mission (TNCCM) Tamil Nadu Coastal Restoration Mission (TN-SHORE) Projects Our Projects Project Tracker Tenders Resources Reports & Publications Notifications Circulars News Press Gallery Climate Hub Contact Get Involved RTI Careers Citizen Corner Home About us Board of Directors Leadership Team Our Team Missions Green Tamil Nadu Mission (GTM) Tamil Nadu Wetlands Mission (TNWM) Tamil Nadu Climate Change Mission (TNCCM) Tamil Nadu Coastal Restoration Mission (TN-SHORE) Projects Our Projects Project Tracker Tenders Resources Reports & Publications Notifications Circulars News Press Gallery Climate Hub Contact Get Involved RTI Careers Citizen Corn"
+  ],
+  "opening": "Center for Heat Resilience TNGCC Tamil Nadu Green Climate Company Skip to content EN தமிழ் EN தமிழ் Home About us Board of Directors Leadership Team Our Team Missions Green Tamil Nadu Mission (GTM) Tamil Nadu Wetlands Mission (TNWM) Tamil Nadu Climate Change Mission (TNCCM) Tamil Nadu Coastal Restoration Mission (TN-SHORE) Projects Our Projects Project Tracker Tenders Resources Reports & Publications Notifications Circulars News Press Gallery Climate Hub Contact Get Involved RTI Careers Citizen Corner Home About us Board of Directors Leadership Team Our Team Missions Green Tamil Nadu Mission (GTM) Tamil Nadu Wetlands Mission (TNWM) Tamil Nadu Climate Change Mission (TNCCM) Tamil Nadu Coastal Restoration Mission (TN-SHORE) Projects Our Projects Project Tracker Tenders Resources Reports & Publications Notifications Circulars News Press Gallery Climate Hub Contact Get Involved RTI Careers Citizen Corner EN EN தமிழ் Home About us Board of Directors Leadership Team Our Team Missions Green Tamil Nadu Mission (GTM) Tamil Nadu Wetlands Mission (TNWM) Tamil Nadu Climate Change Mission (TNCCM) Tamil Nadu Coastal Restoration Mission (TN-SHORE) Projects Our Projects Project Tracker Tenders Resources Reports & Publications Notifications Circulars News Press Gallery Climate Hub Contact Get Involved RTI Careers Citizen Corner Home About us Board of Directors Leadership Team Our Team Missions Green Tamil Nadu Mission (GTM) Tamil Nadu Wetlands Mission (TNWM) Tamil Nadu Climate Change Mission "
+ },
+ "src-ihc-week-tn": {
+  "url": "https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261118113630/https://www.theweek.in/wire-updates/national/2025/11/22/mds2-tn-climate-uk.html",
+  "title": "Access Denied",
+  "found": {
+   "Heat Resilience Centre": false,
+   "Letter of Intent": false,
+   "nodal": false,
+   "heat action plan": false
+  },
+  "around": [],
+  "opening": "Access Denied Access Denied You don't have permission to access \"http www theweek in wire updates national 2025 11 22 mds2 tn climate uk html\" on this server. Reference 18 471ca17 1795001741 a2427c18 https errors edgesuite net 18 471ca17 1795001741 a2427c18"
+ },
+ "src-ihc-mh-sdma": {
+  "url": "https://sdma.maharashtra.gov.in/en/about/",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20260811230142/https://sdma.maharashtra.gov.in/en/about/",
+  "title": "About CEHSC | Maharashtra State Disaster Management Authority | India",
+  "found": {
+   "CEHSC": true,
+   "Cooling": true
+  },
+  "around": [
+   "About CEHSC | Maharashtra State Disaster Management Authority | India Accessibility Tools Accessibility Tools Color Contrast High Contrast Normal Contrast Highlight Links Invert Saturation Text Size Font Size Increase Font Size Decrease Normal Font Text Spacing Line Height Others Hide Images Big Cursor Text to Speech महाराष्ट्र शासन Government of Maharashtra महाराष्ट्र राज्य आपत्ती व्यवस्थापन प्राधिकरण Maharashtra State Disaster Management Authority Be Ready, Be Safe Search Search Menu Toggle More Home About us State Overview Maharashtra State Disaster Management Authority Key Disaster Management Institutions in the Maharashtra Vision & Mission Who is who Directory Disaster Management Department District Important Contact Numbers District Emergency Contact Directory – Maharashtra Preparedness,Capacity Building Information, Education, and Communication (IEC) Monsoon IEC Resources Heatwave IEC Resources Heatwave Safety Infographics Heatwave Guidance for Vulnerable Groups Did You Know? Heatwave Facts Do’s and Don’ts Awareness Generation Lessons learnt and best practices Disaster Risk Reduction (DRR) initiatives Initiatives Workshops and Seminars Mock drills and Exercises Realtime Response / Rescue Activity Training Hazard, Vulnerability, Risk Overview Mitigation Guidelines National Disaster Mitigation Fund (NDMF) Guidelines State Disaster Mitigation Funds (SDMF) guidelines Projects Konkan Disaster Mitigation Project Mitigation Projects in the rest of Maharashtra CEHSC About CEHSC Documents Disaster Management (DM) Act 2005 National Policy on Disaster Management (2009) Plan Documents State Disaster Management Plan (SDMP) National Disaster Management Plan (NDMP) 2019 District Disaster Management Plan (DDMP) Heat Wave Action Plan Landslide Management Plan of Maharashtra The Panhala Fort Disaster Management Plan (2024) Prime Minister’s 10 Point Agenda Global Frameworks Government Resolutions Resources India Disaster Resource Network (IDRN) National Disaster Management Information System (NDMIS) Citizen’s Corner Grievance Redressal Mobile Application Notice Event Past Events Announcements (General) Recruitment Media corner Press Release Audio Gallery Photo Gallery Video Gallery Publish Handbook RTI RTI Documents RTI Contacts (PIOs / APIOs / AAs ) RTS Maharashtra Right to Public Service Act 2015 100 Days Program Report FAQ’s Close Home CEHSC About CEHSC Share on Facebook Share of X (formerly Twitter) Share on Linkedin About CEHSC Unveiling the Centre of Excellence for Heat and Sustainable Cooling (CEHSC), a collaborative initiative of the Government of Maharashtra and NRDC. Extreme heat is a growing climate and public health challenge across Maharashtra. The state ranks among the most heat-vulnerable in India, with several districts classified as facing high to very high heat risk. Rising temperatures and more frequent, prolonged heat events are increasing pressure on health, water, energy, and livelihood systems across both urban and rural areas. During the summer of 2026, Maharashtra experienced severe heat conditions, with Brahmapuri recording 47.2°C among the highest temperatures in the country. Heat stress is also projected to have significant implications for economic productivity, public health, and overall resilience across the state. The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC) is an initiative of the Government of Maharashtra, currently hosted within the Relief and Rehabilitation Department, Government of Maharashtra, and being developed with technical support from the Natural Resources Defense Council (NRDC). The Centre will serve as a knowledge and coordination platform to advance research, capacity building, innovation, and policy support for integrated heat resilience and sustainable cooling solutions. Bringing together government agencies, academic institutions, technical experts, industry partners, and development organizations, CEHSC aims to strengthen preparedness, foster collaboration, and support the development of practical, scalable, and evidence-based solutions that enhance heat resilience and sustainable cooling across the state. Approach CEHSC is structured around five mutually reinforcing areas of work Applied Research and Innovation Conduct research guided by thematic working groups across heat–health, urban planning, cooling solutions, and nature-based approaches, support with the review and implementation of Heat Action Plans and run incubation hubs in partnership with premier institutions. Capacity Building and Institutional Strengthening Provide structured training programmes to government and non-government participants to ensure sustained delivery, complemented by certification programmes, internships, and trainings through certified universities. Data Risk Analysis and Decision Support Develop and manage a centralised repository that integrates local and national data to facilitate decision-making through tools such as heat-risk maps and cooling-access indices. Policy Integration and Planning Provide technical support, demonstrate solutions, and identify policy pathways to embed heat resilience and climate-friendly cooling into urban development plans, building regulatory frameworks, critical infrastructure and public health systems. Knowledge and Industry Ecosystem Development Convene national summits, innovation showcases, and Communities of Practice to bring together government, academia, and industry partners, and develop knowledge products. Activities Experts Convening In June 2025, a roundtable dialogue was convened in Nagpur under the leadership of the Chief Secretary, Government of Maharashtra, to shape the vision, institutional framework, and operational roadmap of the CEHSC. The hybrid consultation brought together representatives from government departments, academic and scientific institutions, technical agencies, development partners, and civil society organisations. Participants examined existing gaps in heat action planning, sustainable cooling strategies, institutional coordination, and knowledge generation, and identified priority areas for the Centre’s work ahead. REPORT: Roundtable Discussion on Centre of Excellence on Heat Resilience & Sustainable Cooling (CEHSC) in Maharashtra. Technical Support and Advisories Technical partners developed sector-specific advisories addressing critical heat-risk areas, including the protection of outdoor informal workers, heat stress management in coal mines, and heat-resilient housing in urban heat-risk districts of Maharashtra. The advisories were formally released in April 2026 by the Disaster Management, Relief and Rehabilitation Department, Government of Maharashtra. Advisory on Protection of Outdoor Informal Workers in Urban High-Heat-Risk Districts of Maharashtra Advisory on Heat Stress Management in Coal Mines Advisory for Mainstreaming Heat-Resilient Housing and Settlements in High-Heat-Risk Districts of Maharashtra Virtual Launch of CEHSC Institutionalization of the CEHSC in April 2026, the Centre was formally inaugurated by the Chief Minister of Maharashtra. First Stakeholder Convening hosted by CEHSC at IIM Nagpur Hon’ble Minister of Water Resources and Disaster Management, Shri Girish Mahajan, addressed the State-Level Consultation on Heat Resilience and Sustainable Cooling, hosted by CEHSC at IIM Nagpur. Useful Links Feedback Website Policies Contact Us Help Web Information Manager Visitor Summary Sitemap Content Owned by Maharashtra State Disaster Management Authority Developed and hosted by National Informatics Centre , Ministry of Electronics & Information Technology , Government of India Last Updated: 29.06.2026 Follow Us Go to top"
+  ],
+  "opening": "About CEHSC | Maharashtra State Disaster Management Authority | India Accessibility Tools Accessibility Tools Color Contrast High Contrast Normal Contrast Highlight Links Invert Saturation Text Size Font Size Increase Font Size Decrease Normal Font Text Spacing Line Height Others Hide Images Big Cursor Text to Speech महाराष्ट्र शासन Government of Maharashtra महाराष्ट्र राज्य आपत्ती व्यवस्थापन प्राधिकरण Maharashtra State Disaster Management Authority Be Ready, Be Safe Search Search Menu Toggle More Home About us State Overview Maharashtra State Disaster Management Authority Key Disaster Management Institutions in the Maharashtra Vision & Mission Who is who Directory Disaster Management Department District Important Contact Numbers District Emergency Contact Directory – Maharashtra Preparedness,Capacity Building Information, Education, and Communication (IEC) Monsoon IEC Resources Heatwave IEC Resources Heatwave Safety Infographics Heatwave Guidance for Vulnerable Groups Did You Know? Heatwave Facts Do’s and Don’ts Awareness Generation Lessons learnt and best practices Disaster Risk Reduction (DRR) initiatives Initiatives Workshops and Seminars Mock drills and Exercises Realtime Response / Rescue Activity Training Hazard, Vulnerability, Risk Overview Mitigation Guidelines National Disaster Mitigation Fund (NDMF) Guidelines State Disaster Mitigation Funds (SDMF) guidelines Projects Konkan Disaster Mitigation Project Mitigation Projects in the rest of Maharashtra CEHSC About CEHS"
+ },
+ "src-ihc-ddnews": {
+  "url": "https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/",
+  "status": "FAIL",
+  "http": "ECONNRESET",
+  "archive": "https://web.archive.org/web/20261118113815/https://ddnews.gov.in/en/maharashtra-launches-centre-of-excellence-to-combat-extreme-heat-promote-sustainable-cooling/",
+  "title": "",
+  "found": {
+   "Centre of Excellence": false,
+   "IIM Nagpur": false,
+   "State Institute of Disaster Management": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "src-ihc-week-mh": {
+  "url": "https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261118113943/https://www.theweek.in/wire-updates/national/2026/04/21/fadnavis-launches-heat-resilience-centre-at-iim-nagpur.html",
+  "title": "Access Denied",
+  "found": {
+   "IIM Nagpur": true,
+   "State Institute of Disaster Management": false,
+   "heat": true
+  },
+  "around": [
+   "Access Denied Access Denied You don't have permission to access \"http www theweek in wire updates national 2026 04 21 fadnavis launches heat resilience centre at iim nagpur html\" on this server. Reference 18 471ca17 1795001926 a245e493 https errors edgesuite net 18 471ca17 1795001926 a245e493"
+  ],
+  "opening": "Access Denied Access Denied You don't have permission to access \"http www theweek in wire updates national 2026 04 21 fadnavis launches heat resilience centre at iim nagpur html\" on this server. Reference 18 471ca17 1795001926 a245e493 https errors edgesuite net 18 471ca17 1795001926 a245e493"
+ }
+}
