@@ -209,6 +209,17 @@
    "expect": [
     "cooling"
    ]
+  },
+  {
+   "key": "roxy-xml",
+   "title": "A threefold rise in widespread extreme rain events over central India: full text",
+   "publisher": "Europe PMC",
+   "year": 2017,
+   "kind": "Peer-reviewed study (full text record)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML",
+   "expect": [
+    "central India"
+   ]
   }
  ],
  "claims": [
@@ -400,6 +411,18 @@
     [
      "roxy",
      "decline in the total rainfall"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "roxy-xml",
+      "threefold increase in widespread extreme rain events over central India"
+     ],
+     [
+      "roxy-xml",
+      "decline in the total rainfall"
+     ]
     ]
    ]
   },

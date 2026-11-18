@@ -23,8 +23,8 @@
   "claims": [
    "c-noaa"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118131538/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf"
+  "archive": "https://web.archive.org/web/20261118131538/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-noaa-latest",
@@ -44,8 +44,8 @@
   "claims": [
    "c-noaa-latest"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261115192950/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  "archive": "https://web.archive.org/web/20261115192950/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-wmo",
@@ -69,8 +69,8 @@
   "claims": [
    "c-wmo"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261109232806/https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+  "archive": "https://web.archive.org/web/20261109232806/https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-imd-erf",
@@ -93,8 +93,8 @@
   "claims": [
    "c-imd-season"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118131558/https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf"
+  "archive": "https://web.archive.org/web/20261118131558/https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-imd-pr30",
@@ -116,8 +116,8 @@
   "claims": [
    "c-marathwada"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118131614/https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2030-09-2026.pdf"
+  "archive": "https://web.archive.org/web/20261118131614/https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2030-09-2026.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-imd-dw",
@@ -137,8 +137,8 @@
   "claims": [
    "c-warnings"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261028100020/https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php"
+  "archive": "https://web.archive.org/web/20261028100020/https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-rmc-nagpur",
@@ -158,8 +158,8 @@
   "claims": [
    "c-warnings"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260608015554/https://mausam.imd.gov.in/nagpur/"
+  "archive": "https://web.archive.org/web/20260608015554/https://mausam.imd.gov.in/nagpur/",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-rmc-mumbai",
@@ -179,8 +179,8 @@
   "claims": [
    "c-warnings"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261014185846/https://mausam.imd.gov.in/mumbai/"
+  "archive": "https://web.archive.org/web/20261014185846/https://mausam.imd.gov.in/mumbai/",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-rohini",
@@ -204,8 +204,8 @@
   "claims": [
    "c-rohini"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20251208140444/https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/"
+  "archive": "https://web.archive.org/web/20251208140444/https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-rohini-xml",
@@ -229,8 +229,8 @@
   "claims": [
    "c-rohini"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118131639/https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4872222/fullTextXML"
+  "archive": "https://web.archive.org/web/20261118131639/https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4872222/fullTextXML",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-roxy",
@@ -279,8 +279,8 @@
    "c-pa-nepal",
    "c-pa-peru"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261011015005/https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/"
+  "archive": "https://web.archive.org/web/20261011015005/https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-sdma",
@@ -305,8 +305,8 @@
   "claims": [
    "c-sdma"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260811232555/https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/"
+  "archive": "https://web.archive.org/web/20260811232555/https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-mh-plan",
@@ -329,8 +329,8 @@
   "claims": [
    "c-mh-districts"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260516030251/https://cdnbbsr.s3waas.gov.in/s36143cc48107351648de16d8367dc5db4/uploads/2025/03/20250313742462885.pdf"
+  "archive": "https://web.archive.org/web/20260516030251/https://cdnbbsr.s3waas.gov.in/s36143cc48107351648de16d8367dc5db4/uploads/2025/03/20250313742462885.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-ncdc26",
@@ -354,8 +354,8 @@
   "claims": [
    "c-ncdc"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260518150238/https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf"
+  "archive": "https://web.archive.org/web/20260518150238/https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-niua-m1",
@@ -378,8 +378,8 @@
   "claims": [
    "c-niua-m1"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118102904/https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf"
+  "archive": "https://web.archive.org/web/20261118102904/https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-niua-m2",
@@ -403,8 +403,8 @@
   "claims": [
    "c-niua-m2"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118103056/https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf"
+  "archive": "https://web.archive.org/web/20261118103056/https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-nrdc",
@@ -429,8 +429,8 @@
    "c-imd-outlooks",
    "c-ndma-cc"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260615020055/https://www.nrdcindia.org/pdf/extreme-heat-India-report1.pdf"
+  "archive": "https://web.archive.org/web/20260615020055/https://www.nrdcindia.org/pdf/extreme-heat-India-report1.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-ndma-cc",
@@ -450,7 +450,29 @@
   "claims": [
    "c-ndma-cc"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261113173801/https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf"
+  "archive": "https://web.archive.org/web/20261113173801/https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-roxy-xml",
+  "type": "source",
+  "keys": [
+   "roxy-xml"
+  ],
+  "title": "A threefold rise in widespread extreme rain events over central India: full text",
+  "publisher": "Europe PMC",
+  "year": 2017,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML",
+  "kind": "Peer-reviewed study (full text record)",
+  "where": "El Niño and cities",
+  "expect": [
+   "central India",
+   "threefold increase in widespread extreme rain events over central India",
+   "decline in the total rainfall"
+  ],
+  "claims": [
+   "c-roxy"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  }
 ]
