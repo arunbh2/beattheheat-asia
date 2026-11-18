@@ -35,9 +35,9 @@ Water, shade, rest and cooler hours, with what each depends on.
 
 [Open the interactive practical actions](https://beattheheat.asia/practical/)
 Before summer 2027
-El Niño and the city
+El Niño and India's smaller cities
 
-A decision guide for smaller Indian cities: what can be running by March, who needs to agree, what changes when an official warning arrives, and how to check that people got relief.
+A practical guide for municipal teams and community organisations in Tier 2 and Tier 3 cities: choose where protection is needed, agree who keeps it working, and decide what changes when a local warning arrives.
 
 [Open the guide](https://beattheheat.asia/el-nino-and-cities/)
 
@@ -474,7 +474,7 @@ Evidence: Measured in a study · Over years
 
 ## Before summer: for municipalities
 
-The decisions a city or district makes before the first heatwave decide what happens during it. [Print these cards](https://beattheheat.asia/print/actions-summer/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-summer) · [El Niño and the city: what to prepare before summer 2027](https://beattheheat.asia/el-nino-and-cities/)
+The decisions a city or district makes before the first heatwave decide what happens during it. [Print these cards](https://beattheheat.asia/print/actions-summer/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-summer) · [El Niño and India's smaller cities: preparing for summer 2027](https://beattheheat.asia/el-nino-and-cities/)
 
 ### Name an owner and set aside the money
 

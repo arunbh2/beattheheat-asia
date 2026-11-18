@@ -15,9 +15,9 @@ Resources · Heat action plans
 
 Before summer 2027
 
-## El Niño and the city
+## El Niño and India's smaller cities
 
-A decision guide for smaller Indian cities: what can be running by March, who needs to agree, what changes when an official warning arrives, and how to check that people got relief.
+A practical guide for municipal teams and community organisations in Tier 2 and Tier 3 cities: choose where protection is needed, agree who keeps it working, and decide what changes when a local warning arrives.
 
 [Open the guide](https://beattheheat.asia/el-nino-and-cities/)
 

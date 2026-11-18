@@ -50,7 +50,7 @@ module.exports = function heatTools({ page, write, esc, hero, V, D }) {
   ${hero("Heat Tool Finder", "Which heat tool fits the decision in front of you?", esc(CAT.design.subhead))}
   <div class="container ht-wrap">
     <p class="ht-note">${esc(CAT.design.disclaimer)} It is not a weather feed, a risk score or a complete list, and Common Shade has not run any of these tools itself.</p>
-    <p class="ht-note">Reading a seasonal El Niño signal? A probability for the Pacific is not a heatwave forecast for a city: <a href="/el-nino-and-cities/#outlook">El Niño and the city</a> explains what it can and cannot tell a municipality, with the latest dated outlooks.</p>
+    <p class="ht-note">Reading a seasonal El Niño signal? A probability for the Pacific is not a heatwave forecast for a city: <a href="/el-nino-and-cities/#outlook">El Niño and India's smaller cities</a> explains what it can and cannot tell a municipality, with the latest dated outlooks and a route to your own district's warning.</p>
     <form class="ht-form" id="ht-form" role="search" aria-label="Find a heat tool" hidden>
       <fieldset class="ht-fs ht-decide"><legend class="ht-legend">What do you need to do?</legend><div class="ht-opts ht-opts--chips">${opt(CAT.design.decisions.map(d => [d.id, d.label]), "decision")}</div></fieldset>
       <div class="ht-row">

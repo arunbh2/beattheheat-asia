@@ -220,6 +220,28 @@
    "expect": [
     "central India"
    ]
+  },
+  {
+   "key": "wmo-oct",
+   "title": "WMO Global Seasonal Climate Outlook informs humanitarian action",
+   "publisher": "World Meteorological Organization",
+   "year": 2026,
+   "kind": "News release on the Global Seasonal Climate Update",
+   "url": "https://wmo.int/media/news/wmo-global-seasonal-climate-outlook-informs-humanitarian-action",
+   "expect": [
+    "Global Seasonal Climate Update"
+   ]
+  },
+  {
+   "key": "imd-evo",
+   "title": "Evolution of IMD",
+   "publisher": "India Meteorological Department",
+   "year": 2025,
+   "kind": "Official page",
+   "url": "https://mausam.imd.gov.in/event/evolution.php",
+   "expect": [
+    "India Meteorological Department"
+   ]
   }
  ],
  "claims": [
@@ -591,6 +613,154 @@
     [
      "nrdc",
      "Operations & maintenance protocols"
+    ]
+   ]
+  },
+  {
+   "id": "c-wmo-oct",
+   "where": "Outlook",
+   "text": "WMO's Global Seasonal Climate Update, released 26 October 2026, forecasts that tropical Pacific sea surface temperatures may rise to 3.8 °C above average during November 2026 to January 2027, and says the event could be unprecedented in strength.",
+   "rests_on": [
+    [
+     "wmo-oct",
+     "26 October 2026"
+    ],
+    [
+     "wmo-oct",
+     "3.8°C above average"
+    ],
+    [
+     "wmo-oct",
+     "November 2026 to January 2027"
+    ],
+    [
+     "wmo-oct",
+     "unprecedented in strength"
+    ]
+   ]
+  },
+  {
+   "id": "c-imd-centres",
+   "where": "Warning route",
+   "text": "IMD works through Regional Meteorological Centres, assisted by Meteorological Centres at the state level that disseminate advisories and warnings about regional weather.",
+   "rests_on": [
+    [
+     "imd-evo",
+     "Regional Meteorological Centers (RMCs)"
+    ],
+    [
+     "imd-evo",
+     "Meteorological Centers (MCs) at the state level"
+    ],
+    [
+     "imd-evo",
+     "advisories and warnings"
+    ]
+   ]
+  },
+  {
+   "id": "c-jodhpur-en",
+   "where": "Examples",
+   "text": "Under Jodhpur's heat action plan, a net zero cooling station designed for the informal sector was installed in a high-risk ward identified through ward-level risk assessment, and IMD heat alerts were translated into locally accessible formats and passed on through community-based channels.",
+   "rests_on": [
+    [
+     "nrdc",
+     "net zero cooling station"
+    ],
+    [
+     "nrdc",
+     "high-risk ward"
+    ],
+    [
+     "nrdc",
+     "designed for the informal sector"
+    ],
+    [
+     "nrdc",
+     "locally accessible formats"
+    ]
+   ]
+  },
+  {
+   "id": "c-kerala-en",
+   "where": "Examples",
+   "text": "Kerala's government allocated ₹1 crore to each District Collector for heat protection measures such as drinking water kiosks and cooling centres, and directed local bodies to develop decentralised heat action plans.",
+   "rests_on": [
+    [
+     "nrdc",
+     "1 crore to each District Collector"
+    ],
+    [
+     "nrdc",
+     "drinking water kiosks"
+    ],
+    [
+     "nrdc",
+     "decentralized heat"
+    ]
+   ]
+  },
+  {
+   "id": "c-up-en",
+   "where": "Examples",
+   "text": "Uttar Pradesh introduced district-specific heatwave thresholds that classify alerts as yellow, orange or red based on regional climatic conditions.",
+   "rests_on": [
+    [
+     "nrdc",
+     "heatwave thresholds"
+    ],
+    [
+     "nrdc",
+     "yellow, orange, red"
+    ],
+    [
+     "nrdc",
+     "regional climatic conditions"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahmedabad-en",
+   "where": "Examples",
+   "text": "A 2018 evaluation, as reported in NRDC's review, found Ahmedabad's heat action plan may have contributed to approximately 1,190 fewer deaths per year on hot days after full implementation.",
+   "rests_on": [
+    [
+     "nrdc",
+     "may have contributed"
+    ],
+    [
+     "nrdc",
+     "1,190 fewer deaths per year"
+    ]
+   ]
+  },
+  {
+   "id": "c-thane-en",
+   "where": "Adapt",
+   "text": "The Thane heat action plan highlights that extreme warm nights are projected to increase more than extreme hot days, with felt temperatures higher than dry temperatures because of humidity.",
+   "rests_on": [
+    [
+     "nrdc",
+     "extreme warm nights"
+    ],
+    [
+     "nrdc",
+     "Thane HAP"
+    ]
+   ]
+  },
+  {
+   "id": "c-niua-m1-eq",
+   "where": "Reach",
+   "text": "NIUA's Learning Note 1 notes that informal settlements face disproportionately higher exposure to heat, flooding and water scarcity, and points to entry points for climate action within municipal functions.",
+   "rests_on": [
+    [
+     "niua-m1",
+     "disproportionately higher exposure to heat"
+    ],
+    [
+     "niua-m1",
+     "entry points for climate action within municipal functions"
     ]
    ]
   }

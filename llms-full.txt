@@ -4224,7 +4224,7 @@ Source: Mongabay, 2026 https://news.mongabay.com/short-article/2026/05/climate-c
 
 34 practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.
 
-**Before summer 2027: El Niño and the city.** A decision guide for smaller Indian cities: what can be running by March, who needs to agree, what changes when an official warning arrives, and how to check that people got relief. Open the guide: /el-nino-and-cities/
+**Before summer 2027: El Niño and India's smaller cities.** A practical guide for municipal teams and community organisations in Tier 2 and Tier 3 cities: choose where protection is needed, agree who keeps it working, and decide what changes when a local warning arrives. Open the guide: /el-nino-and-cities/
 
 ### Outdoor and hot workplaces
 
@@ -5666,121 +5666,189 @@ Identified, heat content not yet read: FAR (1990); Radiative forcing and IS92 sc
 
 - AR7 beyond the verified review notice: The Cities report review is a process event. Its draft findings were not treated as approved evidence. Other AR7 material through the cut-off was not fully audited. No future report or COP outcome is included as completed.
 
-## El Niño and the city: what to prepare before summer 2027
+## El Niño and India's smaller cities: preparing for summer 2027
 
 https://beattheheat.asia/el-nino-and-cities/
 
-A decision guide for smaller Indian cities, starting in Maharashtra: what El Niño's lead time allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to tell whether people got relief.
+A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where protection is needed, agree who will keep it working, and decide what changes when a local warning arrives.
 
-Reviewed 18 November 2026; next review after NOAA's next ENSO discussion (due 10 December 2026), and again when IMD issues its outlook for the 2027 hot season.
+Reviewed 18 November 2026; next review after NOAA's next ENSO discussion (due 10 December 2026), and again when IMD issues its outlook for the March to May hot season.
 
-El Niño gives a city months of notice. It cannot say which ward will overheat or which street will flood. It can say this is a season to start ordinary protection early: choose one public service, find its most exposed sites, and have shade, water and a named owner working by March.
+A seasonal El Niño outlook gives cities a reason to review preparations early. The local heat season, water supply and places where people spend the hottest hours decide what a city puts in place. District forecasts and official warnings decide when to step up the response.
 
-By the end of January 2027: which service comes first (markets, clinic queues, bus stops or worksites), which sites, and who owns shade and water at each. Working by March, April at the latest.
+The first decision: Which public service will we protect first, who relies on it during the hottest hours, and who has the authority to keep it running? One service, chosen with the people who use it, is enough to start. The rest of this guide helps a municipal team and a local organisation answer the question in one meeting, with information they already hold.
+
+Illustrative: A vegetable seller loses sales if she leaves her stall to find shade. So the shade needs to reach her occupied stall in the afternoon, not a room across town. Drinking water needs to be there when she needs it, at 2 p.m., not only when the market opens.
 
 ### Where the outlook stands (as of 18 November 2026)
 
-- Forecast, NOAA Climate Prediction Center, issued 12 November 2026, through January to March 2027: El Niño Advisory in effect. A strong to very strong El Niño is likely through January to March 2027 (a greater than 79% chance), then expected to begin weakening. A forecast for the Pacific Ocean, not for an Indian city. Next issue: 10 December 2026.
+- Forecast, NOAA Climate Prediction Center, issued 12 November 2026, through January to March 2027, Tropical Pacific Ocean: El Niño Advisory in effect. A strong to very strong El Niño is likely through January to March 2027 (a greater than 79% chance), then expected to begin weakening. A forecast for the Pacific Ocean, not for an Indian city. Next issue: 10 December 2026.
 
-- Forecast, World Meteorological Organization, issued 3 September 2026, through February 2027: A nearly 100% likelihood that El Niño persists through February 2027. Its strength alone does not decide how severe impacts are in any one country. The latest WMO Update found for this review.
+- Forecast, World Meteorological Organization, issued 26 October 2026, November 2026 to January 2027, Tropical Pacific Ocean: The Global Seasonal Climate Update forecasts sea surface temperatures in the tropical Pacific up to 3.8 °C above average, and says the event could be unprecedented in strength. WMO's quarterly El Niño Update of 3 September 2026 gave a nearly 100% likelihood that El Niño persists through February 2027. Strength in the Pacific does not decide how severe impacts are in any one country.
 
-- Observed, India Meteorological Department, issued 1 October 2026, June to September 2026: Rainfall over India in the 2026 monsoon was 87% of its long period average. A national total; districts differ.
+- Observed, India Meteorological Department, issued 1 October 2026, June to September 2026, India as a whole: Rainfall over India in the 2026 monsoon was 87% of its long period average. A national total. It does not show how much water your city's own supply holds.
 
-No official outlook for summer 2027 exists yet for any Indian city. IMD issues its hot-season outlooks between March and May.
+As of 18 November 2026, Common Shade found no IMD seasonal outlook for March to May 2027. IMD releases its seasonal outlooks between March and May; look for it then, alongside your district's warnings.
 
 ### What a seasonal signal can and cannot tell a city
 
-Can: Shift the odds early enough to prepare. In 1961-2013, most years with above-normal Indian heatwave activity (April to June) followed El Niño events: an India-wide pattern, not a city forecast.
+Can: Give a reason to start ordinary protection early. In India's records for 1961-2013, most years with above-normal heatwave activity (April to June) followed El Niño events: an India-wide pattern, not a city forecast.
 
-Cannot: Give a heatwave or flood probability for your city. A Pacific probability is never a municipal one.
+Cannot: Give your city's chance of a heatwave, a water shortage or a flood. An ENSO probability describes the Pacific, never a municipality.
 
-El Niño gives notice; long-term warming raises the baseline; the local heat island and failing infrastructure (a pump, a feeder, a drain) decide much of the harm, and those are within a city's reach.
+Long-term warming raises the baseline; the local heat island and failing infrastructure (a pump, a feeder, a drain) decide much of the harm, and those are within a city's reach.
+
+### Adapt this to your city
+
+Cities differ in when heat arrives, how humid it is, where water comes from, which public spaces people rely on and which authority manages them. Find the rows that describe your city; most cities fit more than one. They are illustrative situations, not categories, and a city's size says nothing on its own about its climate risk or its powers.
+
+- If outdoor markets, transport stands or worksites stay busy through hot afternoons: Where can shade, drinking water and rest be provided without asking people to give up earnings or lose their place in a queue? Information you may already hold: Market registers and association lists, last summer's municipal orders on working hours, the ward office's count of afternoon stalls.
+
+- If homes or public buildings stay hot at night, or humidity limits relief: Which existing accessible spaces can offer meaningful respite, at what hours, and who can operate them? Check any technical cooling advice against NDMA's guidance on cooling centres. Information you may already hold: Clinic attendance in past hot spells, community organisations' knowledge of crowded homes, the list of public buildings open in the evening.
+
+- If summer water supply is intermittent, or depends on electricity and tankers: Which priority sites have usable storage or another supply? Who can authorise a refill, pay for it and confirm it arrived? Information you may already hold: The water department's supply schedule, last summer's tanker orders, ward complaints about dry taps, the reservoir or groundwater figures for your own source.
+
+- If short, intense rain can flood routes or public sites during an otherwise dry period: Which sites or access routes may fail, which alternative location is usable, and who decides when to switch? Information you may already hold: Last monsoon's waterlogging complaints, the drain-cleaning schedule, the district disaster plan, residents' knowledge of which lanes flood.
+
+Humidity changes what relief means. The Thane heat action plan, for example, highlights that extreme warm nights are projected to increase more than extreme hot days.
+
+None of these rows needs a new vulnerability assessment before the first meeting. Start with what the municipal body, the clinic and the local organisation already know, and write down what is missing.
 
 ### Six linked risks
 
-- Extreme heat (India-wide pattern). Evidence: Most above-normal Indian heatwave years (1961-2013) followed El Niño events. What turns it into harm: Sheet roofs, unshaded stalls, queues and worksites. One municipal response: Shade and drinking water at priority sites by March.
+- Extreme heat (India-wide pattern). Evidence and its limit: Most above-normal Indian heatwave years (1961-2013) followed El Niño events. An ENSO probability does not give your city's chance of a heatwave. How it becomes harm: Hours outdoors without shade: a long queue, an unshaded stall, a worksite with no rest. What to check locally: Last summer's municipal orders, clinic attendance in hot spells, the IMD district warnings issued for your district.
 
-- Water scarcity (Observed, national). Evidence: India's 2026 monsoon: 87% of normal. Check district reservoirs and groundwater. What turns it into harm: Supply cuts, tanker dependence, water points dry at peak hours. One municipal response: A water point per site, with a refill schedule and tanker back-up.
+- Water scarcity (Observed, national). Evidence and its limit: India's 2026 monsoon was 87% of normal. A national total does not establish water in your system. How it becomes harm: A supply cut, a pump without power or a late tanker leaves a water point dry at peak hours. What to check locally: Your utility's supply schedule and the reservoir or groundwater information for your own source.
 
-- Intense rainfall (Central India, 1950-2015). Evidence: Widespread extreme rain events over central India tripled as total rain declined. Not attributed to El Niño. What turns it into harm: Very heavy rain within hours, often with wind. One municipal response: Covers fixed against wind and rain; a named rain fallback per site.
+- Intense rainfall (Central India, 1950-2015). Evidence and its limit: Widespread extreme rain events over central India tripled as total rain declined. A regional trend, not an El Niño prediction for India. How it becomes harm: Very heavy rain within hours, often with wind, tearing covers and closing routes. What to check locally: Which sites lost access in past downpours; how covers are fixed.
 
-- Urban flooding (Depends on the city). Evidence: Depends on drains, land use and settlement, not rain alone; isolated fixes leave the system exposed (NIUA). What turns it into harm: Blocked drains, building over water paths, low-lying homes. One municipal response: Clear drains around priority sites before the monsoon.
+- Urban flooding (Depends on the city). Evidence and its limit: Rain becomes flooding through drains, terrain, land use and building over water paths; isolated fixes leave the system exposed (NIUA). How it becomes harm: A blocked drain, a low-lying site or a single access lane under water. What to check locally: Waterlogging complaints and the drain-cleaning schedule around each priority site.
 
-- Public health (A pathway, not a probability). Evidence: Heat with cut water or power raises heat illness. NCDC asked for daily heatstroke reports from 1 March 2026. What turns it into harm: Long outdoor waits, unshaded clinics, delayed treatment. One municipal response: Shade and water at clinic queues; watch where reports cluster.
+- Public health (A pathway, not a probability). Evidence and its limit: A long outdoor wait or interrupted water raises the risk of heat illness. NCDC's advisory for summer 2026 asked states for public cooling and drinking water facilities. How it becomes harm: Unshaded clinic queues, delayed treatment, no water at the wait. What to check locally: Where heat illness reports clustered last summer; which clinics have outdoor queues.
 
-- Livelihoods (A pathway, not a probability). Evidence: Lost hours, fewer customers, spoiled goods. Informal settlements face higher exposure (NIUA). What turns it into harm: Leaving a stall means losing sales. One municipal response: Protection at the workplace, not a walk away from it.
+- Livelihoods (A pathway, not a probability). Evidence and its limit: Lost trading hours, fewer customers, spoiled goods. Informal settlements face disproportionately higher exposure to heat, flooding and water scarcity (NIUA). How it becomes harm: Leaving a stall to cool down means losing sales or a place in the queue. What to check locally: Vendors' and workers' own account of which hours they lose, through their association or a local organisation.
 
-- Scenario: Heat with the taps off. An afternoon of heat, the ward's supply cut for a repair, the market water point dry by noon. What helps: a refill schedule, a tanker contact, and someone who calls when it runs low.
+- Scenario: Heat with the taps off. An afternoon of heat, the ward's supply cut for a repair, the market water point running low by noon. What helps: storage sized to a hot day's demand, a refill arranged with enough lead time for the tanker to arrive, and someone who calls when it runs low.
 
-- Scenario, with an observed precedent: A downpour in a dry year. Below-normal rain, then one night of very heavy rain. IMD recorded very heavy rainfall over Marathwada on 30 September 2026, after a monsoon below normal for India. A cover that blocks a drain turns one hazard into two.
+- Scenario, with an observed regional precedent: A downpour in a dry year. Below-normal rain, then one night of very heavy rain. IMD recorded very heavy rainfall over Marathwada on 30 September 2026, after a monsoon below normal for India. A cover that blocks a drain turns one hazard into two.
 
-### From preparation to response
+### Your warning route
 
-- Before the hot season (December to March). Already running: One service and its priority sites; shade, water and an owner at each; refill and repair times; a rain and drainage check; who pays to install and to run. Added: Nothing waits for a warning. Who decides: Municipal body, market associations or community organisations, and the operator.
+This guide sets no warning thresholds of its own. Find who issues your warning and who acts on it:
 
-- When an official local warning is issued. Already running: Everything above keeps working. Added: Extra refills and longer water hours, a noon check at each site, warnings passed on through associations, clinic queues moved under cover. Who decides: IMD issues district warnings; departments act under state and district heat plans. This page sets no thresholds.
+1. IMD district warnings: The official warning for your district, issued by the India Meteorological Department. (India Meteorological Department: https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php)
 
-- During and just after an event. Already running: A daily check: shade intact, water at 2 p.m.; log each failure and fix time. Added: After heavy rain, check covers and drains before reopening; use the fallback site; note what failed. Who decides: Each site owner and the named repair officer.
+2. Your regional or state meteorological centre: IMD works through Regional Meteorological Centres, assisted by Meteorological Centres at the state level that disseminate advisories and warnings for their region. (India Meteorological Department: https://mausam.imd.gov.in/event/evolution.php)
 
-If the power goes, shade and water still work; fans do not. If supply stops, the tanker contact takes over. If a site floods, people go to the fallback site. Clinical care follows official guidance such as NCDC's.
+3. Your state or district disaster authority: The state and district heat action plans say which department acts at each alert level. Find yours in the India heat action plan archive. (https://beattheheat.asia/resources/heat-action-plans/india/)
 
-### Worked example: a municipal market at 2 p.m. (illustrative design)
+4. The municipal officer or service operator named locally: The person who extends water hours or moves a queue indoors. If no one is named for your chosen service, name them before the season.
 
-A vegetable seller would lose sales if she walked to a distant cooling room. So protection goes to her stall.
+For health departments, NCDC's advisory for summer 2026 asked states to start daily heat illness reporting from 1 March 2026 and to set local early warning thresholds.
 
-- Municipal body: Installs shade over afternoon stalls and one accessible water point, pays for installation, names a repair officer.
+One state's route: Maharashtra (A plan): Maharashtra's State Heat Action Plan 2024 names Vidarbha, Marathwada and Khandesh as most vulnerable and 15 districts as high-risk, with cooling centres and reserved hospital beds. Its districts follow IMD's Regional Meteorological Centres at Nagpur and Mumbai. (Maharashtra State Disaster Management Authority: https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/)
 
-- Market association or community organisation: Lists occupied afternoon stalls, keeps one contact for failures, passes on warnings.
+### Before, during and after
 
-- Operator (water supplier or contractor): Refills on schedule; fixes a tap or torn cover within an agreed time.
+- Before the locally expected heat season: Select the service and sites, confirm permissions and operators, agree costs, put the measures in place and test them. Work backwards from when heat usually arrives in your city, how long procurement takes, and official guidance. Who decides: The body that manages each site (municipal body, market committee, health department or transport authority), the operator and the local organisation.
 
-Refill earlier and twice; the association checks the water at noon and 3 p.m.
+- When an official local warning is issued: The core protection is already working. Agree in advance who receives the warning and what is added under the applicable plan: an operator extends water hours, brings a refill forward, or moves a clinic queue indoors. Who decides: IMD issues district warnings; departments act under the state and district heat plans.
+
+- During and just after the event: Check that each site works at the hours people rely on it, fix failures, and record who was left without access. After heavy rain, check covers and drains before reopening. Who decides: Each site's operator and the named repair officer, with the local organisation reporting what users see.
+
+Before opening a site, check how people will get drinking water during a power cut. If the supply depends on a pump, agree who can release stored water or order a refill, how long it will take, and where people can go in the meantime. If a site floods, the agreed alternative site takes over. Clinical care follows official guidance such as NCDC's.
+
+### Worked example: a market at 2 p.m. (illustrative design)
+
+A vegetable seller would lose sales if she walked to a distant cooling room. So protection goes to her stall, in the hours she trades.
+
+Vendors, through their association or a local organisation walk the market at 2 p.m. and mark which occupied stalls lose shade in the afternoon. Their map can move the shade: from the entrance, where it looks visible, to the aisle where sellers actually sit after lunch.
+
+- Authorises the site: Whoever manages the market: a municipal body, a market committee or another authority. Gives permission for shade and a water point.
+
+- Pays for installation: May be the municipal budget, a state scheme or a district allocation; agreed before procurement starts.
+
+- Covers summer operations: Water, cleaning and small repairs through the season; may be a different body from the one that paid to install.
+
+- Authorises a repair or emergency refill: One named person who can order a tanker or fix a torn cover the same day.
+
+On a warning day: Water hours extend and the refill comes forward, timed to the storage on site and the tanker's delivery time; the association checks the water point at noon and mid-afternoon.
 
 A badly sited cover can trap heat, pour rain onto the walkway or block a wheelchair or handcart. The check: stand under it at 2 p.m., pour a bucket on it, walk the aisle with a handcart.
 
-Or: a shaded clinic queue: A shaded, seated waiting line with water, and a route indoors when it rains. Owner: The clinic's medical officer. Needs: Someone checks the water and seating every morning, and the indoor route stays open.
+Or: a shaded clinic queue: A shaded, seated waiting line with water, and a route indoors when it rains. Managed by: Whoever manages the clinic, often the health department rather than the municipality. Patients and disability groups walk the route from the gate and say whether the shaded line is reachable with a wheelchair or a walking stick; their answer can move the queue indoors or change where the seating goes.
 
-### What city scale means this season
+### Reach: how much protection people got
 
-No new vulnerability assessment is needed: use the market list, clinic attendance, ward knowledge and the summer plan. NIUA describes city-scale planning as moving beyond isolated projects (Learning Note 2, section 2.6, p. 40).
+Start with one public service and show how much of it can be protected this season. NIUA's learning notes for city officials describe city-scale planning as moving beyond isolated projects (Learning Note 2, section 2.6, p. 40) and point to entry points within municipal functions (Learning Note 1).
 
-- One service across the city, not one showcase site.
+- Service coverage: Functioning sites out of relevant sites, with the count of relevant sites stated: say 18 of 42 markets (an illustrative figure).
 
-- Count honestly: priority sites working out of all relevant sites (say 18 of 42 markets, an illustrative figure). Every market is the aim; the share working is this season's claim.
+- People reached: Regular users and visits, reported separately where people come back every day. Footfall is not protection.
 
-- Keep apart regular users, visits per day and catchment population. Footfall is not protection.
+- Protection delivered: What was available at the hour that matters, and to whom. Claim no avoided deaths or illness without health data and a fair comparison.
 
-- Claim no avoided deaths or illness without health data and a fair comparison.
+Pair each output with an observable result (after NIUA's Table 2, Learning Note 2, p. 54):
 
-Pair each output with an observable result (after NIUA's Table 2, p. 54):
+- Shade installed -> Occupied vendor stalls shaded at 2 p.m.
 
-- Shade installed -> Occupied stalls shaded during trading hours
-
-- Water point installed -> Water available at 2 p.m.
+- Water point installed -> Drinking water available during peak trading hours
 
 - Cooling space opened -> People using it at peak hours, with staff on duty
 
-### A municipal handout (illustrative row)
+Give users a simple way to report a failure (a number on the post, the association's contact) and ask the operator to record when it was fixed. The log shows whether protection held, not only whether it was built.
 
-Service and exposed group: Daily market; vendors working in the afternoon; Existing evidence: The market list; the ward officer's count of afternoon stalls; Pre-season measure and date: Shade over occupied stalls and one water point, working by 15 March; Local warning and additional response: IMD district warning, as issued: refill twice, noon check; Municipal and community roles: Municipal body installs and answers repairs; association reports; operator refills; Who pays to install and to run: Installation: municipal budget. Running: municipal body with the association (to agree); Reach and service check: Occupied stalls shaded at 2 p.m.; water available at 2 p.m. on each check; What we changed: To agree between the municipal body and the local organisation
+Exposure is uneven: NIUA's Learning Note 1 notes that informal settlements face disproportionately higher exposure to heat, flooding and water scarcity, and that smaller cities often work with constrained resources (pp. 33, 35). Count who the service reaches in those places.
 
-Illustrative. The municipal body and the local organisation can change any part of it together; the last column records what changed and why.
+### Worksheet (illustrative answers)
 
-### Preparedness that has happened
+- Service, and who relies on it at the hottest hours: A daily market; vendors and buyers in the afternoon
+
+- Which conditions describe our city: Busy hot afternoons; intermittent summer water
+
+- Information we already hold: The market register; the association's list of afternoon stalls; last summer's tanker orders
+
+- Measure and sites: Shade over the occupied stalls the vendors marked, and one drinking water point
+
+- Who authorises the site: The market's managing body
+
+- Who pays for installation: To agree: the municipal budget or a district allocation
+
+- Who covers summer operations: To agree: the municipal body with the association
+
+- Who can authorise a repair or emergency refill: One named officer, with a phone number
+
+- Our warning route, and what changes on a warning: IMD district warning, as issued: water hours extend, refill brought forward, noon and mid-afternoon checks
+
+- Our city's readiness date, and why: Working by 15 March, because heat usually arrives in late March here and procurement takes six weeks (illustrative)
+
+- How we will check: Stalls shaded at 2 p.m. out of occupied stalls; water available at each check
+
+- How users report a failure, and who records the fix: The association's number on the post; the operator logs the time fixed
+
+- What the local organisation changed: Moved the shade from the entrance to the inner aisle
+
+Illustrative. The municipal team and the local organisation fill the last column together, and can change any field.
+
+### Preparedness that has happened in India
+
+A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is. Each comes from NRDC's 2026 review of heat policy in India.
+
+- Jodhpur, Rajasthan (Hot, dry; Installed, reported in a review; the decision: Where to put protection): Under Jodhpur's heat action plan, a net zero cooling station designed for the informal sector was installed in a high-risk ward identified through ward-level risk assessment, and IMD heat alerts were passed on in locally accessible formats through community channels. (Natural Resources Defense Council (NRDC): https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+
+- Kerala (Humid, coastal; An allocation, reported in a review; the decision: Who can pay at short notice): The state allocated ₹1 crore to each District Collector for heat protection such as drinking water kiosks and cooling centres, and directed local bodies to develop decentralised heat action plans. (Natural Resources Defense Council (NRDC): https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+
+- Uttar Pradesh (Northern plains; A state rule, reported in a review; the decision: What triggers a step-up): District-specific heatwave thresholds classify alerts as yellow, orange or red according to regional climatic conditions, so an alert and the response it sets moving reflect local conditions. (Natural Resources Defense Council (NRDC): https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+
+- Ahmedabad (A large city, with outcome evidence): A 2018 evaluation found Ahmedabad's heat action plan may have contributed to about 1,190 fewer deaths a year on hot days after full implementation. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments. (Natural Resources Defense Council (NRDC): https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+
+Elsewhere:
 
 - Nepal (Activities reported by the organisation): Practical Action Nepal used seasonal forecasts to guide early action: awareness with media and local partners, and support for heat action planning (June 2026). (Practical Action: https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/)
 
 - Peru (A stated aim): With the Swiss Agency for Development and Cooperation, the national civil defence institute (INDECI) and local government, Practical Action set out early action to protect 1,500 families from floods and mudslides. (Practical Action: https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/)
 
-- Maharashtra (A plan): The State Heat Action Plan 2024 names Vidarbha, Marathwada and Khandesh as most vulnerable and 15 districts as high-risk, with cooling centres and reserved hospital beds. (Maharashtra State Disaster Management Authority: https://sdma.maharashtra.gov.in/en/heat-wave-action-plan/)
-
-A plan, a pilot, a working service and a measured result differ; each example says which it is. Ahmedabad's heat action plan shows delivery over years, though not as an El Niño measure.
-
-### Akola, Nanded, Jalgaon and other smaller cities
-
-Akola (Vidarbha), Nanded (Marathwada) and Jalgaon (Khandesh) sit in the three regions the state plan calls most vulnerable. Common Shade's archive has 2026 district plans for Nashik, Palghar and Wardha but none for these three; that gap does not mean no plan exists. The collector's office, district disaster authority and municipal corporation know what is current. Smaller towns often have limited resources and capacities (NIUA, Learning Note 1, p. 35), another reason to start with one service.
-
-The method travels across South Asia; the warnings do not. Use your own country's weather service and disaster authority.
+The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.
 
 ## Who could help a household through a hot season
 
@@ -6302,7 +6370,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 74 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 75 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -6318,7 +6386,9 @@ Dated by the publication date of the work Common Shade draws on (1119 of 1952 wo
 
 ### Changes, newest first
 
-- Plan or guidance added: El Niño and the city: what to prepare before summer 2027. Added 18 November 2026 · Underlying work: dates vary; each source shows its own. Why it matters (our reading): A decision guide for smaller Indian cities, starting in Maharashtra: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting. Places: India. Topics: Anticipatory action, Heat action plans. Review: Twenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, the Maharashtra disaster management authority, NIUA and Europe PMC; the state plan's district list was found only in part and the page places those districts by region. Next: Open the guide https://beattheheat.asia/el-nino-and-cities/. Connections: Anticipatory action (from the site's records): The guide sets out what a city can prepare in the months a seasonal outlook gives. What it took to add this: The question: What can a smaller Indian city have running before summer 2027, given El Niño's lead time, and what do official outlooks and peer-reviewed studies support? 20 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 20 confirmed. 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for Akola, Nanded and Jalgaon if they exist.
+- Plan or guidance added: The El Niño guide becomes national: preparing India's smaller cities for summer 2027. Added 18 November 2026 · Underlying work: dates vary; each source shows its own. Why it matters (our reading): The guide now serves Tier 2 and Tier 3 cities across India: it opens on one decision, helps a city adapt it through the conditions it recognises, gives a route to each city's own official warning, separates who authorises, pays, runs and repairs, and adds documented examples from Jodhpur, Kerala and Uttar Pradesh. Places: India. Topics: Anticipatory action, Heat action plans. Review: Eight new claims staged; all eight passed the GitHub check at WMO, IMD, NRDC's 2026 review and NIUA; the earlier district list stays held back. Next: Open the guide https://beattheheat.asia/el-nino-and-cities/. Connections: Anticipatory action (from the site's records): The guide sets out what a city can prepare before its season and what changes on an official warning. What it took to add this: The question: What can a smaller Indian city anywhere in the country put in place before its own hot season, and what do the latest outlooks and documented Indian examples support? 22 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 21 confirmed, and 1 could not be (1 did not respond). 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The December NOAA update, IMD's hot-season outlook from March, and examples from smaller cities with outcome evidence.
+
+- Plan or guidance added: El Niño and the city: what to prepare before summer 2027. Added 18 November 2026 · Underlying work: dates vary; each source shows its own. Why it matters (our reading): A decision guide for smaller Indian cities, starting in Maharashtra: what the lead time from El Niño allows before summer 2027, who needs to agree, what changes when an official warning arrives, and how to check that people got relief, with the latest dated outlooks and a printable handout for a municipal meeting. Places: India. Topics: Anticipatory action, Heat action plans. Review: Twenty sources staged; sixteen of seventeen claims passed the GitHub check at NOAA, WMO, IMD, NCDC, the Maharashtra disaster management authority, NIUA and Europe PMC; the state plan's district list was found only in part and the page places those districts by region. Next: Open the guide https://beattheheat.asia/el-nino-and-cities/. Connections: Anticipatory action (from the site's records): The guide sets out what a city can prepare in the months a seasonal outlook gives. What it took to add this: The question: What can a smaller Indian city have running before summer 2027, given El Niño's lead time, and what do official outlooks and peer-reviewed studies support? 22 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 21 confirmed, and 1 could not be (1 did not respond). 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The December NOAA and WMO updates, IMD's hot-season outlook from March, and district heat plans for Akola, Nanded and Jalgaon if they exist.
 
 - Evidence added: Signals follows two new state heat institutions in India. Added 18 November 2026 · Underlying work: dates vary; each source shows its own. Why it matters (our reading): Tamil Nadu's Heat Resilience Centre, set up with the UK, and Maharashtra's Centre of Excellence for heat resilience and sustainable cooling join Signals, each on the step its sources show, so the site can record whether they deliver. Places: India. Topics: Heat action plans, Clean, efficient cooling. Review: Seven sources staged over three runs; the state climate company's and the disaster management authority's own pages, and NRDC's review, passed the GitHub check; the press release and news pages did not open, and nothing rests on them. Next: Read the signals of the year https://beattheheat.asia/signals/. Connections: Heat action plans (from the site's records): Both centres are to support heat action planning across their states. What it took to add this: The question: Do Tamil Nadu's and Maharashtra's heat centres exist, and what step has each reached, confirmed at the source? 7 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 4 confirmed, and 3 could not be (2 did not respond, 1 did not show the expected text). 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: What each centre delivers, whether Tamil Nadu's continues after September 2026, and Maharashtra's move into the State Institute of Disaster Management.
 
