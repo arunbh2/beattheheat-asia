@@ -1,0 +1,42 @@
+{
+ "_terms": {
+  "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf": {
+   "Cities and Climate Fundamentals Primer": true,
+   "urban local bodies": true,
+   "Understanding Urban Climate Finance": true,
+   "Institutionalising Climate Action in Cities": true,
+   "resilience to heat, flooding, water stress": true
+  },
+  "https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer": {
+   "Cities and Climate Fundamentals Primer": true
+  },
+  "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf": {
+   "Climate Change Adaptation": true,
+   "Output Indicator": true,
+   "Outcome Indicator": true,
+   "Number of roofs": true,
+   "Hectares of green": true,
+   "creation of cooling centres": true,
+   "Lower indoor": true,
+   "heat illness": true,
+   "Heat vulnerability is not uniformly distributed": true,
+   "densely built areas with low vegetation": true,
+   "informal settlements are": true,
+   "creating shaded areas, increasing tree cover": true,
+   "may be minimal": true
+  },
+  "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities": {
+   "Climate Change Adaptation": true
+  },
+  "https://niua.in/c-cube": {
+   "Climate Centre for Cities": true,
+   "Heat Resilient Cities Framework": true,
+   "Building Heat Resilient Cities": true
+  }
+ },
+ "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf": "OK",
+ "https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer": "OK",
+ "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf": "OK",
+ "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities": "OK",
+ "https://niua.in/c-cube": "OK"
+}

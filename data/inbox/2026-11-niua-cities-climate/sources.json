@@ -21,7 +21,8 @@
   "claims": [
    "c-series"
   ],
-  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118102904/https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf"
  },
  {
   "id": "src-niua-m1-page",
@@ -39,7 +40,8 @@
    "Cities and Climate Fundamentals Primer"
   ],
   "claims": [],
-  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118103018/https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer"
  },
  {
   "id": "src-niua-m2-pdf",
@@ -73,7 +75,8 @@
    "c-ward",
    "c-informal"
   ],
-  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118103056/https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf"
  },
  {
   "id": "src-niua-m2-page",
@@ -113,6 +116,7 @@
   "claims": [
    "c-ccube"
   ],
-  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the NIUA cities and climate batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261103134506/https://www.niua.in/c-cube/"
  }
 ]
