@@ -23,7 +23,7 @@ Over what time: years.
 How progress could be measured: Tree canopy and shaded street length in hotspot wards.
 
 EXAMPLE
-Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31. [https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf] [https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf]
+Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31. Tamil Nadu's Urban Greening Policy 2026 asks city governments to keep at least 15% of their area under green cover. [https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf] [https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf] [https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf]
 
 VICIOUS CYCLES IT COULD HELP INTERRUPT
 - The cooling trap: Air conditioning heats the street, and a hotter city needs even more air conditioning.
@@ -33,11 +33,14 @@ GUIDES
 - Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access: Nature-Based Solutions to Climate Change Adaptation in Urban Areas [https://doi.org/10.1007/978-3-319-56091-5]
 - Global Heat Health Information Network (GHHIN): Heat in the city: guidance and resources for urban heat [https://heathealth.info/in-the-city/]
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as hectares of green cover added, with what changes for people (pp. 53-54) [https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities]
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2024: Climate Considerations in City Plans, a study of 20 master plans: green cover is widely planned, but heat islands are seldom studied through microclimate analysis, and vulnerability mapping often does not directly inform the plans [https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities]
 
 SOURCES
 - Cooling Singapore: digital urban climate twin: https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf
 - Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target: https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf
+- NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape: https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf
 - Zurich Climate Resilience Alliance: Urban heat: resources and partner networks: https://zcralliance.org/resources-urban-heat/
 - Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access: Nature-Based Solutions to Climate Change Adaptation in Urban Areas: https://doi.org/10.1007/978-3-319-56091-5
 - Global Heat Health Information Network (GHHIN): Heat in the city: guidance and resources for urban heat: https://heathealth.info/in-the-city/
 - National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026: Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as hectares of green cover added, with what changes for people (pp. 53-54): https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2024: Climate Considerations in City Plans, a study of 20 master plans: green cover is widely planned, but heat islands are seldom studied through microclimate analysis, and vulnerability mapping often does not directly inform the plans: https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities

@@ -23,7 +23,7 @@ Over what time: years.
 How progress could be measured: Heat budget set aside before the season starts.
 
 EXAMPLE
-Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported. [https://www.ceew.in/publications/nepal-heat-health-action] [https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf]
+Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. Since September 2024, states may also use their disaster mitigation funds for heatwave projects, and Kerala gave each district collector ₹1 crore for heat protection such as drinking water kiosks and cooling centres. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported. [https://www.ceew.in/publications/nepal-heat-health-action] [https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf] [https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf]
 
 VICIOUS CYCLES IT COULD HELP INTERRUPT
 - The reactive-spending loop: Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further.
@@ -32,9 +32,12 @@ VICIOUS CYCLES IT COULD HELP INTERRUPT
 GUIDES
 - Centre for Policy Research, India: Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience [https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/]
 - Centre for Policy Research, India, 2023: How is India adapting to heatwaves? An assessment of 37 heat action plans [https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/]
+- Climate Policy Initiative and National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Understanding Urban Climate Finance (Learning Note 3): preparing a project for finance, with people protected from heat counted as a measurable outcome [https://niua.in/publication-details/Understanding_Urban_Climate_Finance]
 
 SOURCES
 - CEEW, Nepal in a Warming World, 2025: https://www.ceew.in/publications/nepal-heat-health-action
 - UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026: https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf
+- NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape: https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf
 - Centre for Policy Research, India: Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience: https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
 - Centre for Policy Research, India, 2023: How is India adapting to heatwaves? An assessment of 37 heat action plans: https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/
+- Climate Policy Initiative and National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Understanding Urban Climate Finance (Learning Note 3): preparing a project for finance, with people protected from heat counted as a measurable outcome: https://niua.in/publication-details/Understanding_Urban_Climate_Finance

@@ -636,6 +636,17 @@
       "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
     },
     {
+      "id": "g-heat-india-policy", "kind": "evidence", "root": "institutions", "added": "2026-11-18", "pr": null,
+      "title": "How India's heat policy is changing: state examples, guides and the money gap",
+      "why": "NRDC's 2026 review of heat policy in India and three NIUA documents add state and city examples to five actions, practical guides on heat plans, cooling centres, city plans and finance, a global figure on how little urban climate finance goes to adaptation, and NRDC to the heat network.",
+      "places": ["india"], "people": [], "topics": ["hap", "heatbudget", "coolingcentres", "coolbydesign", "greencity"],
+      "review": "Nine sources staged; eight passed the GitHub check at NRDC, NIUA and the GHHIN library; the NDMA roof guide's link did not open and it is not linked",
+      "effort": { "asked": "What do NRDC's review of India's heat policy and NIUA's notes on city plans, finance and institutions add, confirmed at the source?", "inbox": "data/inbox/2026-11-heat-india-policy", "dropped": "research/2026-11/heat-india-policy/dropped-after-check.json",
+                  "open": "The national figures the review cites, checked at their originals, and the state heat institutions it describes once they operate." },
+      "pages": [["/actions/", "Actions"], ["/heat-network/", "Heat network"]], "action": ["See heat action plans in practice", "/actions/#hap"],
+      "links": [{ "to": "lever:heatbudget", "why": "Mitigation funds can now pay for heatwave projects, and a state funds district heat protection directly.", "basis": "record" }]
+    },
+    {
       "id": "g-niua-learning-notes", "kind": "evidence", "root": "institutions", "added": "2026-11-18", "pr": null,
       "title": "NIUA's learning notes for city officials: showing results, and where heat lands",
       "why": "Two learning notes from India's National Institute of Urban Affairs add a guide to showing results on three cooling actions, a free training series, a passage on heat within a city, and NIUA's Climate Centre for Cities to the heat network.",

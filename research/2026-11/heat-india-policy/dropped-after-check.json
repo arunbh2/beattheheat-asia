@@ -1,0 +1,10 @@
+[
+ {
+  "id": "c-roofguide",
+  "where": "Lever coolbydesign guide",
+  "text": "NDMA's guide for house owners on roof cooling: roofs can account for up to 70% of a building's heat gain, and simple measures can cut indoor temperatures by up to 5 °C.",
+  "missing": [
+   "ndma-roof: \"roof\""
+  ]
+ }
+]

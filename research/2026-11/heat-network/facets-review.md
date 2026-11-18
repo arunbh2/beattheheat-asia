@@ -226,6 +226,7 @@ Rows where the record's own words did not settle the draft. Decisions go in `fac
 | ateenterprises | A.T.E. Enterprises | - | unstated | company | no place named; type from its group |
 | ceptuniversity | CEPT University | IN | country | research | type from its group |
 | indianhotelscompanylimit | Indian Hotels Company Limited | IN | country | company | type from its group |
+| nrdc-india | Natural Resources Defense Council (NRDC), India programme | IN | country | ngo | type from its group |
 | disabilityrightsuk | Disability Rights UK | - | unstated | ngo | no place named; type from its group |
 | laislanetwork | La Isla Network | - | unstated | network | no place named |
 | bsesdelhidistributionuti | BSES Delhi distribution utilities | IN | subnational | company | type from its group |
