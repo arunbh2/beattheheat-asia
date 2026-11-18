@@ -994,6 +994,10 @@
  "https://heathealth.info/wp-content/uploads/Knowledge__attitude_and_practice_around_heatwaves_in_Karachi__following_a_forecast-based_heatwave_messaging_project..pdf": null,
  "https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf": null,
  "https://heathealth.info/wp-content/uploads/MHT-Churu-Heat-Action-Plan-compressed.pdf": null,
+ "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": {
+  "date": "2025-08-18",
+  "how": "online"
+ },
  "https://heathealth.info/wp-content/uploads/Varanasi-Heat-Action-Plan-MHT-NRDC-IIPHG-compressed.pdf": null,
  "https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf": null,
  "https://heatisland.lbl.gov/index.php/projects/cool-walls": null,
@@ -1265,8 +1269,24 @@
   "date": "2026-11-18",
   "how": "online"
  },
+ "https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities": {
+  "date": "2026-11-18",
+  "how": "online"
+ },
  "https://niua.in/publication-details/Heat_Resilient_Cities_Framework": null,
+ "https://niua.in/publication-details/Institutionalisation_of_Climate_Actions": {
+  "date": "2026-11-18",
+  "how": "online"
+ },
+ "https://niua.in/publication-details/Understanding_Urban_Climate_Finance": {
+  "date": "2026-11-18",
+  "how": "online"
+ },
  "https://nopr.niscpr.res.in/handle/123456789/60741": null,
+ "https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf": {
+  "date": "2026-05-12",
+  "how": "online"
+ },
  "https://ntrs.nasa.gov/citations/20170007349": {
   "date": "2017",
   "how": "meta"
