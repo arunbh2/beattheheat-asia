@@ -1,0 +1,57 @@
+[
+ {
+  "id": "c-jal-partners",
+  "where": "Archive / ledger",
+  "text": "Jalgaon City Municipal Corporation developed Jalgaon's heat action plan with Mahila Housing Trust.",
+  "sources": [
+   {
+    "label": "Mahila Housing Trust: Strengthening City Heat Action Plans to Protect Vulnerable Groups, 2026",
+    "url": "https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/"
+   }
+  ]
+ },
+ {
+  "id": "c-jal-uoftif",
+  "where": "Archive / ledger",
+  "text": "The University of Toronto India Foundation and Mahila Housing Trust supported heat action planning in Jalgaon.",
+  "sources": [
+   {
+    "label": "University of Toronto India Foundation: Heat Action Plans in Indian Cities: Implementation Guide, 2026",
+    "url": "https://uoftindiafoundation.com/heat-action-plans-indian-cities/"
+   }
+  ]
+ },
+ {
+  "id": "c-jal-ward",
+  "where": "Archive / ledger",
+  "text": "The plan includes ward-level heat vulnerability mapping.",
+  "sources": [
+   {
+    "label": "Mahila Housing Trust: Strengthening City Heat Action Plans to Protect Vulnerable Groups, 2026",
+    "url": "https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/"
+   }
+  ]
+ },
+ {
+  "id": "c-jal-ews",
+  "where": "Archive / ledger",
+  "text": "The plan includes an early warning and response framework.",
+  "sources": [
+   {
+    "label": "Mahila Housing Trust: Strengthening City Heat Action Plans to Protect Vulnerable Groups, 2026",
+    "url": "https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/"
+   }
+  ]
+ },
+ {
+  "id": "c-jal-roofs",
+  "where": "Archive / ledger",
+  "text": "Under the plan, Jalgaon Municipal Corporation coated roofs of small homes with heat-reflective white paint, starting with a pilot.",
+  "sources": [
+   {
+    "label": "Free Press Journal: Jalgaon's 'Heat Action Plan' Shows Results As White Roof Coating Lowers Indoor Temperatures, 2026",
+    "url": "https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures"
+   }
+  ]
+ }
+]
