@@ -9,8 +9,6 @@ const SLUG = "el-nino-and-cities";
 const TITLE = "El Niño and India's smaller cities: preparing for summer 2027";
 const SHORT = "El Niño and India's smaller cities";
 const DESC = "A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where protection is needed, agree who will keep it working, and decide what changes when a local warning arrives.";
-const REVIEWED = "18 November 2026";
-const NEXT_REVIEW = "after NOAA's next ENSO discussion (due 10 December 2026), and again when IMD issues its outlook for the March to May hot season";
 
 // the opening: what a seasonal outlook is for, then the one decision, then a short illustration
 const OPENING = {
@@ -26,7 +24,6 @@ const OPENING = {
 
 // the dated outlook: replace these entries when a newer bulletin is issued, keeping the issue date, period, geography and meaning
 const OUTLOOK = {
-  asOf: "18 November 2026",
   items: [
     { who: "NOAA Climate Prediction Center", kind: "Forecast", issued: "12 November 2026", period: "through January to March 2027", where: "Tropical Pacific Ocean",
       says: "El Niño Advisory in effect. A strong to very strong El Niño is likely through January to March 2027 (a greater than 79% chance), then expected to begin weakening.",
@@ -41,7 +38,7 @@ const OUTLOOK = {
       means: "A national total. It does not show how much water your city's own supply holds.",
       claims: ["c-imd-season"], latest: ["imd-dw", "IMD's district warnings"] }
   ],
-  none: "As of 18 November 2026, Common Shade found no IMD seasonal outlook for March to May 2027. IMD releases its seasonal outlooks between March and May; look for it then, alongside your district's warnings.",
+  none: "Consult IMD for hot-season outlooks and current district warnings.",
   noneClaims: ["c-imd-outlooks"]
 };
 
@@ -211,7 +208,7 @@ const EXAMPLES_NOTE = "A published plan shows a planning decision, an installed 
 
 const CLOSE = "The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.";
 // three facts a reader sees first, all true of the page itself
-const GLANCE = ["Reviewed " + REVIEWED, "Every claim sourced", "Printable worksheet"];
+const GLANCE = ["Every claim sourced", "Printable worksheet"];
 const PRINT = "Print this page, or only the worksheet, for a meeting between the municipal team and the local organisation.";
 
 // The feature card that points readers here from other pages (practical actions, the India HAP archive).
@@ -228,7 +225,7 @@ const promo = (esc, id, tag = "h2") => `<aside class="cs-card en-promo" aria-lab
   <p><a class="btn btn--cta" href="/${SLUG}/">${esc(PROMO.button)} <span aria-hidden="true">→</span></a></p></aside>`;
 const promoMd = () => `**${PROMO.label}: ${PROMO.title}.** ${PROMO.text} ${PROMO.button}: /${SLUG}/`;
 
-module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NEXT_REVIEW, OPENING, OUTLOOK, SIGNAL, ADAPT, RISKS, SCENARIOS, ROUTE, WINDOWS, CONTINUITY,
+module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, OPENING, OUTLOOK, SIGNAL, ADAPT, RISKS, SCENARIOS, ROUTE, WINDOWS, CONTINUITY,
   MARKET, REACH, WORKSHEET, EXAMPLES, LARGE, EXAMPLES_NOTE, CLOSE, PRINT, GLANCE,
   // every claim the page uses, so the build can refuse an unconfirmed one
   claimsUsed() { return [...new Set([...OUTLOOK.items.flatMap(i => i.claims), ...OUTLOOK.noneClaims, ...SIGNAL.can.claims, ...ADAPT.rows.flatMap(r => r.claims || []),
@@ -237,9 +234,9 @@ module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NE
   // the same guide as Markdown, for llms-full.txt
   md(SITE, SRC) {
     const s = k => SRC[k] ? ` (${SRC[k].publisher}: ${SRC[k].url})` : "";
-    return [`## ${TITLE}`, `${SITE}/${SLUG}/`, DESC, `Reviewed ${REVIEWED}; next review ${NEXT_REVIEW}.`,
+    return [`## ${TITLE}`, `${SITE}/${SLUG}/`, DESC,
       OPENING.text, `The first decision: ${OPENING.decision} ${OPENING.decisionNote}`, `Illustrative: ${OPENING.picture.join(" ")}`,
-      `### Where the outlook stands (as of ${OUTLOOK.asOf})`, ...OUTLOOK.items.map(i => `- ${i.kind}, ${i.who}, issued ${i.issued}, ${i.period}, ${i.where}: ${i.says} ${i.means}`), OUTLOOK.none,
+      `### Seasonal outlook and observations`, ...OUTLOOK.items.map(i => `- ${i.kind}, ${i.who}, issued ${i.issued}, ${i.period}, ${i.where}: ${i.says} ${i.means}`), OUTLOOK.none,
       "### What a seasonal signal can and cannot tell a city", `Can: ${SIGNAL.can.text}`, `Cannot: ${SIGNAL.cannot}`, SIGNAL.apart,
       "### Adapt this to your city", ADAPT.intro, ...ADAPT.rows.map(r => `- If ${r.if.charAt(0).toLowerCase() + r.if.slice(1)}: ${r.decide} Information you may already hold: ${r.know}`), ADAPT.close,
       "### Six linked risks", ...RISKS.map(r => `- ${r.risk} (${r.label}). Evidence and its limit: ${r.evidence} How it becomes harm: ${r.harm} What to check locally: ${r.check}`),
