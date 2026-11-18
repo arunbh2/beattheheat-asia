@@ -13,7 +13,7 @@ Before the season
 
 A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where protection is needed, agree who will keep it working, and decide what changes when a local warning arrives.
 
-- Reviewed 18 November 2026
+- For smaller Indian cities
 - Every claim sourced
 - Printable worksheet
 
@@ -31,7 +31,7 @@ IllustrativeA vegetable seller loses sales if she leaves her stall to find shade
 
 The evidence
 
-## Where the outlook stands, as of 18 November 2026
+## Where the outlook stands
 
 - Forecast
 
@@ -69,9 +69,7 @@ A national total. It does not show how much water your city's own supply holds.
 
 Newer issue? [IMD's district warnings](https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php)
 
-As of 18 November 2026, Common Shade found no IMD seasonal outlook for March to May 2027. IMD releases its seasonal outlooks between March and May; look for it then, alongside your district's warnings.
-
-This section was checked on 18 November 2026. It will be reviewed after NOAA's next ENSO discussion (due 10 December 2026), and again when IMD issues its outlook for the March to May hot season.
+IMD releases its seasonal outlook for the hot season between March and May. Until it is out, use your district's warnings, and read the outlook for your own region when it is issued.
 
 Sources for this section (5)
 
@@ -276,7 +274,7 @@ Sources for this section (1)
 
 The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.
 
-Reviewed 18 November 2026. Next review after NOAA's next ENSO discussion (due 10 December 2026), and again when IMD issues its outlook for the March to May hot season. See something to correct? [Tell us](https://beattheheat.asia/join/#join-form); corrections are listed on [Corrections](https://beattheheat.asia/corrections/).
+See something to correct? [Tell us](https://beattheheat.asia/join/#join-form); corrections are listed on [Corrections](https://beattheheat.asia/corrections/).
 
 ---
 Human edition: https://beattheheat.asia/el-nino-and-cities/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt
