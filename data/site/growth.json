@@ -636,6 +636,17 @@
       "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
     },
     {
+      "id": "g-niua-learning-notes", "kind": "evidence", "root": "institutions", "added": "2026-11-18", "pr": null,
+      "title": "NIUA's learning notes for city officials: showing results, and where heat lands",
+      "why": "Two learning notes from India's National Institute of Urban Affairs add a guide to showing results on three cooling actions, a free training series, a passage on heat within a city, and NIUA's Climate Centre for Cities to the heat network.",
+      "places": ["india"], "people": [], "topics": ["coolbydesign", "greencity", "coolingcentres"],
+      "review": "Five sources staged; all five passed the GitHub check at NIUA's own PDFs and pages; the primer's newspaper-cited heat figures were held back",
+      "effort": { "asked": "What can NIUA's learning notes for city officials add, confirmed at the source?", "inbox": "data/inbox/2026-11-niua-cities-climate", "dropped": "research/2026-11/niua-cities-climate/dropped-after-check.json",
+                  "open": "The World Bank originals behind the primer's heat figures, and the two notes on finance and institutions." },
+      "pages": [["/actions/", "Actions"], ["/heat-network/", "Heat network"]], "action": ["See the guides on Cool by design", "/actions/#coolbydesign"],
+      "links": [{ "to": "lever:coolbydesign", "why": "The guide pairs roofs treated with lower indoor temperatures and less heat illness.", "basis": "record" }]
+    },
+    {
       "id": "g-signals-cop31-checkin-3", "kind": "evidence", "root": "evidence", "added": "2026-11-18", "pr": null,
       "title": "COP31, third check-in: a cooling roadmap and WHO's El Niño plan",
       "why": "Governments backed a voluntary roadmap on heat resilience and cooling at the Cooling Ministerial, with new support announced, and WHO set out its El Niño health plan. Each joins the watch on the step it has reached.",

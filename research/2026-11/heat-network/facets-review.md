@@ -229,6 +229,7 @@ Rows where the record's own words did not settle the draft. Decisions go in `fac
 | disabilityrightsuk | Disability Rights UK | - | unstated | ngo | no place named; type from its group |
 | laislanetwork | La Isla Network | - | unstated | network | no place named |
 | bsesdelhidistributionuti | BSES Delhi distribution utilities | IN | subnational | company | type from its group |
+| niua-ccube | National Institute of Urban Affairs, Climate Centre for Cities (C-Cube) | IN | country | government | type from its group |
 | nipponpaintindia | Nippon Paint India | IN | country | company | type from its group |
 | haqdarshak | Haqdarshak | IN | country | ngo | type from its group |
 | healthserve | HealthServe | SG | country | ngo | type from its group |

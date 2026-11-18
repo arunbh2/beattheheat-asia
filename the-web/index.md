@@ -1,7 +1,7 @@
 ---
 title: "The web of extreme heat: every consequence, system by system | Common Shade"
 url: https://beattheheat.asia/the-web/
-updated: 2026-11-17
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -399,11 +399,11 @@ Concrete, crowding and ageing infrastructure turn cities into amplifiers of heat
 
 ### Urban heat islands
 
-Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect.
+Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect. Within a city, heat stress varies from ward to ward and is far greater in densely built areas with little vegetation. In the reading of India's National Institute of Urban Affairs, shade, trees and cool spaces designed without people in informal settlements in mind may do little for those most at risk.
 
 Leads to: Cooling demand peaks (A hotter city needs even more cooling.); Sleepless hot nights (Cities hold their heat overnight.); City trees and parks die (Hotter streets stress trees further; many city species are already past their heat limits.)
 
-Sources: [Cooling Singapore, citing Chow and Roth, 2006](https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf) · [Tamil Nadu State Planning Commission, 2024](https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+Sources: [Cooling Singapore, citing Chow and Roth, 2006](https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf) · [Tamil Nadu State Planning Commission, 2024](https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf) · [National Institute of Urban Affairs, Climate Centre for Cities, 2026: Climate Change Adaptation Actions in Indian Cities, Learning Note 2 (pp. 34, 51)](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities)
 
 [See it on the map](https://beattheheat.asia/#uhi)
 

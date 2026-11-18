@@ -5,7 +5,7 @@ updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 70 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 71 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,48 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-70 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
+71 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,118 works the commons draws on carry a publication date, and 809 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Institutions and plans
+
+### NIUA's learning notes for city officials: showing results, and where heat lands
+
+Added 18 November 2026 · Underlying work: dates vary; each source shows its own
+
+Why it matters our readingTwo learning notes from India's National Institute of Urban Affairs add a guide to showing results on three cooling actions, a free training series, a passage on heat within a city, and NIUA's Climate Centre for Cities to the heat network.
+
+- India
+- Cool by design
+- Green, cool cities
+- Cooling centres and check-ins
+
+ReviewFive sources staged; all five passed the GitHub check at NIUA's own PDFs and pages; the primer's newspaper-cited heat figures were held back. 5 checked · 5 confirmed.
+
+What it took to add this
+
+- **The question.** What can NIUA's learning notes for city officials add, confirmed at the source?
+- **The search.** 5 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 5 confirmed.
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** The World Bank originals behind the primer's heat figures, and the two notes on finance and institutions.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-niua-cities-climate/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/niua-cities-climate/dropped-after-check.json)
+
+How it connects
+
+- [Cool by design](https://beattheheat.asia/actions/#coolbydesign) Action · from the site's records
+The guide pairs roofs treated with lower indoor temperatures and less heat illness.
+
+[See the guides on Cool by design](https://beattheheat.asia/actions/#coolbydesign)
+[Actions](https://beattheheat.asia/actions/)[Heat network](https://beattheheat.asia/heat-network/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=NIUA's%20learning%20notes%20for%20city%20officials%3A%20showing%20results%2C%20and%20where%20heat%20lands&ref=g-niua-learning-notes#way-share)
 
 Evidence added · Evidence
 
@@ -2228,17 +2265,17 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-241 works published, 141 of them with a known month; 1,117 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+242 works published, 141 of them with a known month; 1,118 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
-- Evidence405
+- Evidence406
 - Experience98
 - Practical measures247
 - Institutions and plans137
 - Financing230
 
-Not yet dated: 808 works whose records carry no date, and 19 known only to have been online by a certain date. 462 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 809 works whose records carry no date, and 19 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

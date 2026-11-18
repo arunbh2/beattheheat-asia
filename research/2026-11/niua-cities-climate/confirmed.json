@@ -1,0 +1,57 @@
+[
+ {
+  "id": "c-series",
+  "where": "Free books and guides (COOL_READING)",
+  "text": "A series of four learning notes for officials in Indian city governments: climate fundamentals, adaptation actions, urban climate finance, and institutionalising climate action; the adaptation note covers resilience to heat, flooding and water stress.",
+  "sources": [
+   {
+    "label": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube): Cities and Climate Fundamentals Primer: Learning Note 1, 2026",
+    "url": "https://niua.in/intranet/sites/default/files/publications/Module%201_Cities%20and%20Climate%20Primer_Learning%20Note.pdf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-results",
+  "where": "Practical guides on Cool by design, Greener, cooler cities and Cooling centres",
+  "text": "Learning note 2 shows a city how to report results by pairing what it builds (an output, such as the number of roofs treated, hectares of green cover added or cooling centres created) with what changes for people (an outcome, such as lower indoor temperatures and less heat illness).",
+  "sources": [
+   {
+    "label": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube): Climate Change Adaptation Actions in Indian Cities: Learning Note 2, 2026",
+    "url": "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-ward",
+  "where": "Consequence uhi",
+  "text": "Heat stress varies from ward to ward: it is far greater in densely built areas with little vegetation.",
+  "sources": [
+   {
+    "label": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube): Climate Change Adaptation Actions in Indian Cities: Learning Note 2, 2026",
+    "url": "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-informal",
+  "where": "Consequence uhi",
+  "text": "Shade, tree cover and cool spaces designed without people in informal settlements in mind may do little for those most at risk.",
+  "sources": [
+   {
+    "label": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube): Climate Change Adaptation Actions in Indian Cities: Learning Note 2, 2026",
+    "url": "https://niua.in/intranet/sites/default/files/publications/Module%202_Climate%20Change%20Adaptation%20Actions_Learning%20Note_0.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-ccube",
+  "where": "Heat network (ORGANISATIONS)",
+  "text": "NIUA's Climate Centre for Cities works with Indian cities on climate action; its heat work includes the Heat Resilient Cities Framework and a Building Heat Resilient Cities programme.",
+  "sources": [
+   {
+    "label": "National Institute of Urban Affairs: Climate Centre for Cities, 2026",
+    "url": "https://niua.in/c-cube"
+   }
+  ]
+ }
+]

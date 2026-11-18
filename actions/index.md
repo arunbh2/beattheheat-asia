@@ -1,7 +1,7 @@
 ---
 title: "Actions that break the vicious cycles of extreme heat | Common Shade"
 url: https://beattheheat.asia/actions/
-updated: 2026-11-17
+updated: 2026-11-18
 licence: CC BY 4.0
 ---
 
@@ -102,6 +102,7 @@ Cuts the link: Cooling demand peaks → Urban heat islands. How soon it works: A
 
 - [Heat in the city: guidance and resources for urban heat](https://heathealth.info/in-the-city/) Global Heat Health Information Network (GHHIN)
 - [Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
+- [Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as the number of roofs treated, with what changes for people, such as lower indoor temperatures and less heat illness (pp. 53-54)](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026
 
 [See it on the map](https://beattheheat.asia/#break-coolbydesign) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolbydesign)
 
@@ -122,6 +123,7 @@ Sources: [Cooling Singapore: digital urban climate twin](https://www.thegpsc.org
 - [Urban heat: resources and partner networks](https://zcralliance.org/resources-urban-heat/) Zurich Climate Resilience Alliance
 - [Nature-Based Solutions to Climate Change Adaptation in Urban Areas](https://doi.org/10.1007/978-3-319-56091-5) Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access
 - [Heat in the city: guidance and resources for urban heat](https://heathealth.info/in-the-city/) Global Heat Health Information Network (GHHIN)
+- [Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as hectares of green cover added, with what changes for people (pp. 53-54)](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026
 
 [See it on the map](https://beattheheat.asia/#break-greencity) · [Who works on this](https://beattheheat.asia/heat-network/?action=greencity)
 
@@ -479,6 +481,7 @@ Sources: [UNDP and Bangkok Metropolitan Administration: Bangkok's financing stra
 
 - [The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation](https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf) US Centers for Disease Control and Prevention, in the GHHIN resource library
 - [Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
+- [Climate Change Adaptation Actions in Indian Cities (Learning Note 2): show results by pairing what is built, such as cooling centres created, with what changes for people (pp. 51-54)](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), with GIZ India, 2026
 
 [See it on the map](https://beattheheat.asia/#break-coolingcentres) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolingcentres)
 
