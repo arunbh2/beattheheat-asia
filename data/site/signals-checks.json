@@ -364,6 +364,36 @@
     }
    }
   ],
+  "https://wellcome.org/heat-and-pregnancy": [
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-cop31-6",
+    "checked": "2026-11-19",
+    "status": "REDIRECT",
+    "terms": {
+     "Censuswide": true,
+     "September 2026": true,
+     "250 midwives": true,
+     "Zimbabwe": true,
+     "98%": true,
+     "99%": true,
+     "73%": true,
+     "76%": true,
+     "92%": true
+    }
+   }
+  ],
+  "https://wellcome.org/our-priorities/climate-and-health/extreme-heat/pregnancy": [
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-cop31-6",
+    "checked": "2026-11-19",
+    "status": "OK",
+    "terms": {
+     "commissioned a survey": true
+    }
+   }
+  ],
   "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance": [
    {
     "kind": "content",
@@ -465,6 +495,25 @@
     "terms": {
      "Global Heat Forum": true,
      "Bangkok": true
+    }
+   }
+  ],
+  "https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report": [
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-cop31-6",
+    "checked": "2026-11-19",
+    "status": "OK",
+    "terms": {
+     "COP31": true,
+     "200 respondents": true,
+     "62 per cent": true,
+     "66 per cent": true,
+     "26 per cent": true,
+     "November 13": true,
+     "Antalya": true,
+     "1 per cent of formal climate finance": true,
+     "UN Climate Change": true
     }
    }
   ],

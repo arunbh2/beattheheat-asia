@@ -9738,6 +9738,15 @@
    "how": "meta"
   },
   {
+   "url": "https://wellcome.org/heat-and-pregnancy",
+   "label": "Wellcome, 2026: survey of 1,000 healthcare professionals in pregnancy and newborn care (Censuswide, September 2026)",
+   "root": "evidence",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive",
    "label": "£17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India",
    "root": "practical",

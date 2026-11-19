@@ -26,7 +26,7 @@ Where the commitments stand
 
 ## From promise to proof, deliverable by deliverable
 
-Of 27 deliverables in 19 commitments tracked here, among 30 records in all (19 commitments, 2 gatherings, 8 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
+Of 27 deliverables in 19 commitments tracked here, among 31 records in all (19 commitments, 2 gatherings, 9 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
 
 - 8
 **Announced** Said in public. A weak signal on its own: announcements happen whether or not anything follows.
@@ -97,13 +97,13 @@ What we are watching for heat at COP31. Each item is added only after its source
 
 **Scope**: Heat in COP31's announcements and outcomes on adaptation, health, finance, cooling and early warnings, including launches shortly before the conference. Each item enters only after its source passes the site's check.
 
-**Review cut-off**: 18 November 2026. Developments after this date are not yet reflected.
+**Review cut-off**: 19 November 2026. Developments after this date are not yet reflected.
 
 **Following**: Adaptation indicators Health Adaptation finance Cooling Early warnings
 
 **A reading so far, after check-in 3 (18 November).** COP31's heat story is running through cooling, health and money, while we have so far found little on heat itself in the negotiating texts. The cooling roadmap and WHO's El Niño plan sit outside the negotiated decisions. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at the last check-in and when the conference closes.
 
-Dated check-ins (4), latest 18 November 2026
+Dated check-ins (5), latest 19 November 2026
 
 - **9 November 2026 · Opening** The conference, the year's climate findings and the adaptation indicators it builds on.
 
@@ -128,6 +128,10 @@ Dated check-ins (4), latest 18 November 2026
 
 - [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](#sig-cop31-cooling-ministerial-2026) Commitment
 - [WHO responds to El Niño's health risks at Grade 3](#sig-who-el-nino-response-2026) Commitment
+
+- **19 November 2026 · Check-in 4** Health: a survey of maternity and newborn clinicians in five countries, India among them, presented at COP31.
+
+- [98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed](#sig-clinicians-heat-pregnancy-2026) Finding
 
 **Closing synthesis.** Not written yet. It will follow a review of the conference's final decisions and documents, not the closing date alone.
 
@@ -526,6 +530,26 @@ Sources and review
 ReviewRecord last reviewed 16 November 2026. Sources last checked 12 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
 
 Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat action plans](https://beattheheat.asia/actions/#hap)[Social protection floors](https://beattheheat.asia/actions/#socialprotection)
+
+Finding[COP31 watch](#cop31)Latest development September 2026
+
+### [98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed](#sig-clinicians-heat-pregnancy-2026)
+
+Wellcome (commissioned the survey) Australia, Brazil, India, the UK and Zimbabwe
+
+A survey commissioned by Wellcome asked 1,000 practising clinicians in pregnancy, childbirth, postnatal and newborn care, 250 of them midwives, in Australia, Brazil, India, the UK and Zimbabwe (fieldwork by Censuswide, September 2026). Across the five countries, 98% said they had cared for a pregnant woman, and 99% for a baby, whose health they believed extreme heat had harmed; 73% reported more heat-related complications in pregnant women over the past five years and 76% in foetal or newborn health, and 92% want more training and resources. As reported by Down To Earth, among the 200 respondents in India, 62% reported more complications in pregnant women and 66% in foetal or newborn health, and 26% had seen pregnancy complications that needed extra monitoring or treatment. The findings were presented on 13 November on the sidelines of COP31 in Antalya, where a UN Climate Change official said that about 1% of formal climate finance goes to health. These are clinicians' reports of what they believe they have seen, not measured outcomes.
+
+What to watchA finding, not a commitment: watch whether national heat plans and health budgets name care in pregnancy and for newborns, and fund it.
+
+Sources and review
+
+- [Wellcome, 2026: Extreme heat is putting pregnant women and their babies at risk (survey results and methodology)](https://wellcome.org/heat-and-pregnancy) Originalchecked 19 November 2026
+- [Wellcome, 2026: Keeping Mothers Safe from Extreme Heat: A Global Call to Action](https://wellcome.org/our-priorities/climate-and-health/extreme-heat/pregnancy) Originalchecked 19 November 2026
+- [Down To Earth, 16 November 2026: COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report](https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report) Secondarychecked 19 November 2026
+
+ReviewRecord last reviewed 19 November 2026. Sources last checked 19 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+
+Explore on Common Shade[Heat-safe pregnancy and newborn care](https://beattheheat.asia/actions/#maternalheat)[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 
 CommitmentLatest development 28 August 2026
 

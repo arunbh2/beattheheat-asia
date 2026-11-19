@@ -37,7 +37,7 @@
     "city_profiles": 22,
     "country_snapshots": 7,
     "heatwaves": 10,
-    "sources": 2369,
+    "sources": 2370,
     "studies_graded": 71,
     "learning_questions": 44,
     "solutions": 131,
@@ -47,7 +47,7 @@
     "businesses": 91,
     "funders": 77,
     "organisations": 336,
-    "signals": 30,
+    "signals": 31,
     "commitments_tracked": 19
   },
   "evidence_labels": {
@@ -59,7 +59,7 @@
   "why_it_helps_you": [
     {
       "title": "You can check it instead of trusting it.",
-      "text": "2,369 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
+      "text": "2,370 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
     },
     {
       "title": "It says how sure it is.",

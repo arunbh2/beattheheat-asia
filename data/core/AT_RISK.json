@@ -284,6 +284,13 @@
           "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026",
           "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
         }
+      },
+      {
+        "fact": "In a survey commissioned by Wellcome, 98% of 1,000 maternity and newborn clinicians in five countries, India among them, said they had cared for a pregnant woman whose health they believed extreme heat had harmed. These are clinicians’ reports, not measured outcomes.",
+        "source": {
+          "label": "Wellcome, 2026: survey of 1,000 healthcare professionals in pregnancy and newborn care (Censuswide, September 2026)",
+          "url": "https://wellcome.org/heat-and-pregnancy"
+        }
       }
     ]
   },
