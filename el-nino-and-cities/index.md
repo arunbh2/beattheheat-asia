@@ -27,7 +27,7 @@ One service, chosen with the people who use it, is enough to start. The rest of 
 
 IllustrativeA vegetable seller loses sales if she leaves her stall to find shade. So the shade needs to reach her occupied stall in the afternoon, not a room across town. Drinking water needs to be there when she needs it, at 2 p.m., not only when the market opens.
 
-[The full market example](#market) · [The worksheet to print](#handout)
+[The full market example](#market) · [The worksheet to print](https://beattheheat.asia/print/el-nino-worksheet/)
 
 The evidence
 
@@ -242,31 +242,37 @@ Worksheet
 
 ## A worksheet for the first meeting
 
-Copy, print or fill in: one worksheet per service
-FieldIllustrative answerOur city
-Service, and who relies on it at the hottest hoursA daily market; vendors and buyers in the afternoonWhich conditions describe our cityBusy hot afternoons; intermittent summer waterInformation we already holdThe market register; the association's list of afternoon stalls; last summer's tanker ordersMeasure and sitesShade over the occupied stalls the vendors marked, and one drinking water pointWho authorises the siteThe market's managing bodyWho pays for installationTo agree: the municipal budget or a district allocationWho covers summer operationsTo agree: the municipal body with the associationWho can authorise a repair or emergency refillOne named officer, with a phone numberOur warning route, and what changes on a warningIMD district warning, as issued: water hours extend, refill brought forward, noon and mid-afternoon checksOur city's readiness date, and whyWorking by 15 March, because heat usually arrives in late March here and procurement takes six weeks (illustrative)How we will checkStalls shaded at 2 p.m. out of occupied stalls; water available at each checkHow users report a failure, and who records the fixThe association's number on the post; the operator logs the time fixedWhat the local organisation changedMoved the shade from the entrance to the inner aisle
-Illustrative. Print the worksheet and fill the "Our city" column together; the municipal team and the local organisation can change any field.
-Print this page, or only the worksheet, for a meeting between the municipal team and the local organisation.
+One sheet for each service, filled in together at one meeting with what you already know. In part 3, tick each item on the day and fix anything left unticked.
+Choose the serviceWhat the service is, who relies on it in the hottest hours, which conditions fit your city, and what you already know.Agree who keeps it workingWho authorises the site, pays to install, pays to run it and can order a same-day repair or refill, and the date it works by, with the reason.Three pause pointsTicks before opening, when an official warning is issued, and during and after: shade, water, power cuts, access and failures fixed.AgreeWhat the local organisation changed, who agreed, and when you check again.
+Open the worksheet to print (A4)](https://beattheheat.asia/paying-for-protection/)
+
+Hints are illustrative; write your own answers. Bring this sheet to the next check. The worksheet prints on one A4 sheet. The whole guide also prints, for reading before the meeting.
 
 In practice
 
 ## Preparedness that has happened in India
 
 A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is, and cites its own source.
-Installed, reported by a partner in the plan
+
+- Installed, reported by a partner in the plan
 
 ### Jodhpur, Rajasthan Hot, dry
 
-The decision: where to put protection. In April 2024 the city corporation and its partners opened a net-zero cooling station in a heat-vulnerable ward of Jodhpur North, chosen through the vulnerability assessment in the city's heat action plan. The 2023 plan also sets out passing heat warnings by SMS and WhatsApp.An allocation, reported in the news
+**The decision: where to put protection.** In April 2024 the city corporation and its partners opened a net-zero cooling station in a heat-vulnerable ward of Jodhpur North, chosen through the vulnerability assessment in the city's heat action plan. The 2023 plan also sets out passing heat warnings by SMS and WhatsApp.
+
+- An allocation, reported in the news
 
 ### Kerala Humid, coastal
 
-The decision: who can pay at short notice. In March 2026 the state decided to give each district collector ₹1 crore for summer measures, and asked officials to set up drinking water kiosks where people gather: markets, junctions and bus stands. The government order itself was not found online.A state method, with district thresholds reported
+**The decision: who can pay at short notice.** In March 2026 the state decided to give each district collector ₹1 crore for summer measures, and asked officials to set up drinking water kiosks where people gather: markets, junctions and bus stands. The government order itself was not found online.
+
+- A state method, with district thresholds reported
 
 ### Uttar Pradesh Northern plains
 
-The decision: what triggers a step-up. The state disaster management authority set yellow, orange and red alert temperatures for each of its 75 districts, from percentiles of each district's own temperature record, so an alert reflects local conditions. Its 2024 heat plan sets out the method, first drafted for Agra.
-A large city, with outcome evidence Ahmedabad. A 2018 evaluation estimated about 1,190 deaths a year avoided after Ahmedabad's heat action plan was fully implemented (95% confidence interval 162 to 2,218): an association, not proof of cause. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments. Heat action plans, with Ahmedabad's](https://beattheheat.asia/paying-for-protection/).
+**The decision: what triggers a step-up.** The state disaster management authority set yellow, orange and red alert temperatures for each of its 75 districts, from percentiles of each district's own temperature record, so an alert reflects local conditions. Its 2024 heat plan sets out the method, first drafted for Agra.
+
+A large city, with outcome evidence **Ahmedabad.** A 2018 evaluation estimated about 1,190 deaths a year avoided after Ahmedabad's heat action plan was fully implemented (95% confidence interval 162 to 2,218): an association, not proof of cause. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments. [Heat action plans, with Ahmedabad's](https://beattheheat.asia/actions/#hap).
 
 Sources for this section (6)
 

@@ -73,7 +73,7 @@ async function qr(url) {
   const svg = await QR.toString(url, { type: "svg", margin: 0, errorCorrectionLevel: "M", color: { dark: "#16202B", light: "#FAF7F2" } });
   return `${svg}<p>Scan for the live page</p>`;
 }
-async function sheet({ slug, kind, title, lede, body, live, sources }) {
+async function sheet({ slug, kind, title, lede, body, live, sources, undated }) {
   const url = `${SITE}/print/${slug}/`;
   return `<!DOCTYPE html>
 <html lang="en">
@@ -101,7 +101,7 @@ async function sheet({ slug, kind, title, lede, body, live, sources }) {
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: ${esc(short(live.startsWith("http") ? live : SITE + live))}</p>
       <p>Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
-      <p><b>Licence:</b> © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on ${TODAY}; check the live page for updates.</p>
+      <p><b>Licence:</b> © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. ${undated ? "Check the live page for updates." : `Printed from the map’s data on ${TODAY}; check the live page for updates.`}</p>
     </div>
     <div class="qr">${await qr(live.startsWith("http") ? live : SITE + live)}</div>
   </footer>
@@ -316,6 +316,39 @@ async function build() {
       await sheet({ slug: "paying-for-protection", kind: meta.kind, title: meta.title,
         lede: "Protection only works if someone pays for it, the money arrives in time, and it is still there next season.", body, live: "/finance/",
         sources: [F.basis.source, ...F.cases.map(c => c.sources[c.sources.length - 1])].filter((v, i, a) => a.findIndex(w => w.url === v.url) === i) }));
+  }
+
+  // 4a2. The El Niño guide's worksheet: a fill-in form, filled by hand at one meeting (words in tools/el-nino-text.js).
+  // Writing space is drawn as ruled lines; part 3 is a do-confirm checklist at three pause points. The guide shows no
+  // dates (the owner's decision), so this sheet prints none either.
+  {
+    const T = require("./el-nino-text.js"), W = T.WORKSHEET;
+    const rule = n => [...Array(n || 1)].map(() => '<span class="ws-line"></span>').join("");
+    const field = f => `<div class="ws-f"><p class="ws-l">${esc(f.l)}${f.hint ? ` <i>${esc(f.hint)}</i>` : ""}</p>${f.boxes === "adapt" ? `<ul class="check ws-boxes">${T.ADAPT.rows.map(r => `<li>${esc(r.short)}</li>`).join("")}</ul>` : f.sign ? `<div class="ws-sign">${[...Array(f.sign)].map(() => '<span><span class="ws-line"></span><small>Role and organisation</small></span>').join("")}${f.also ? `<span><span class="ws-line"></span><small>${esc(f.also)}</small></span>` : ""}</div>` : rule(f.lines)}</div>`;
+    const part = (pt, i) => `<section class="ws-part"><h2><span class="ws-n">${i + 1}</span>${esc(pt.h)}${pt.note ? ` <i>${esc(pt.note)}</i>` : ""}</h2>
+      ${pt.roles ? `<table class="ws-roles"><thead><tr><th scope="col">Role</th>${pt.cols.map(c => `<th scope="col">${esc(c)}</th>`).join("")}</tr></thead><tbody>${pt.roles.map(r => `<tr><th scope="row">${esc(r)}</th>${pt.cols.map(() => "<td></td>").join("")}</tr>`).join("")}</tbody></table>` : ""}
+      ${pt.pauses ? `<div class="ws-pauses">${pt.pauses.map(x => `<div class="ws-pause"><h3>${esc(x.h)}</h3>${(x.fields || []).map(field).join("")}${x.items ? `<ul class="check">${x.items.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}${(x.counts || []).map(c => `<p class="ws-count">${esc(c)}</p>`).join("")}</div>`).join("")}</div>` : ""}
+      ${(pt.fields || []).map(field).join("")}</section>`;
+    const body = `<style>
+      .ws-part { margin-top: 5px; } .ws-part h2 { display: flex; align-items: center; gap: 6px; } .ws-part h2 i { font-style: normal; font-weight: 600; text-transform: none; letter-spacing: 0; color: #5E6570; font-size: 8.4pt; }
+      .ws-n { display: inline-grid; place-items: center; width: 15px; height: 15px; border-radius: 50%; background: #16202B; color: #FAF7F2; font-size: 8pt; letter-spacing: 0; }
+      .ws-f { margin-top: 3px; } .ws-l { font-weight: 700; font-size: 8.8pt; } .ws-l i { font-weight: 400; font-style: normal; color: #5E6570; font-size: 7.8pt; }
+      .ws-line { display: block; height: 7mm; border-bottom: 1px solid #9A9387; }
+      .ws-boxes { display: grid; grid-template-columns: 1fr 1fr; gap: 0 6mm; margin-top: 2px; font-size: 8.6pt; }
+      .ws-roles { margin-top: 2px; } .ws-roles td, .ws-roles tbody th { height: 7mm; border-bottom: 1px solid #9A9387; vertical-align: bottom; font-size: 8.6pt; } .ws-roles tbody th { width: 34%; text-transform: none; letter-spacing: 0; font-weight: 700; border-right: 1px solid #E2DACE; }
+      .ws-roles thead th:nth-child(2) { width: 30%; }
+      .ws-pauses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 3px; }
+      .ws-pause { background: #fff; border: 1px solid #E2DACE; border-radius: 6px; padding: 5px 7px; font-size: 8.4pt; } .ws-pause h3 { font-size: 8.8pt; margin-bottom: 2px; }
+      .ws-pause .check li { margin: 2px 0; } .ws-pause .ws-line { height: 6mm; }
+      .ws-count { margin-top: 5px; font-weight: 700; }
+      .ws-sign { display: grid; grid-template-columns: 1fr 1fr 0.8fr; gap: 6mm; } .ws-sign small { display: block; font-size: 7pt; color: #5E6570; }
+      .ws-note { margin-top: 5px; font-size: 7.8pt; color: #5E6570; }
+      @media screen and (max-width: 820px) { .ws-pauses, .ws-boxes, .ws-sign { grid-template-columns: 1fr; } }
+    </style>
+    ${W.parts.map(part).join("")}
+    <p class="ws-note">${esc(W.note)} The guide behind it, with the outlook, the risks and the warning route, is on the live page.</p>`;
+    const meta = { kind: W.kind, title: W.title, for: "A municipal team and a local organisation" };
+    add(W.slug, meta, await sheet({ slug: W.slug, kind: W.kind, title: W.title, lede: W.lede, body, live: `/${T.SLUG}/`, sources: [], undated: true }));
   }
 
   // 4b. Practical action cards, one sheet per setting

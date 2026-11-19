@@ -56,16 +56,16 @@ const SIGNAL = {
 const ADAPT = {
   intro: "Cities differ in when heat arrives, how humid it is, where water comes from, which public spaces people rely on and which authority manages them. Find the rows that describe your city; most cities fit more than one. They are illustrative situations, not categories, and a city's size says nothing on its own about its climate risk or its powers.",
   rows: [
-    { id: "afternoons", if: "Outdoor markets, transport stands or worksites stay busy through hot afternoons",
+    { id: "afternoons", short: "Busy outdoor places through hot afternoons", if: "Outdoor markets, transport stands or worksites stay busy through hot afternoons",
       decide: "Where can shade, drinking water and rest be provided without asking people to give up earnings or lose their place in a queue?",
       know: "Market registers and association lists, last summer's municipal orders on working hours, the ward office's count of afternoon stalls." },
-    { id: "nights", if: "Homes or public buildings stay hot at night, or humidity limits relief",
+    { id: "nights", short: "Hot nights or humid heat", if: "Homes or public buildings stay hot at night, or humidity limits relief",
       decide: "Which existing accessible spaces can offer meaningful respite, at what hours, and who can operate them? Check any technical cooling advice against NDMA's guidance on cooling centres.",
       know: "Clinic attendance in past hot spells, community organisations' knowledge of crowded homes, the list of public buildings open in the evening." },
-    { id: "water", if: "Summer water supply is intermittent, or depends on electricity and tankers",
+    { id: "water", short: "Summer water that stops or depends on power or tankers", if: "Summer water supply is intermittent, or depends on electricity and tankers",
       decide: "Which priority sites have usable storage or another supply? Who can authorise a refill, pay for it and confirm it arrived?",
       know: "The water department's supply schedule, last summer's tanker orders, ward complaints about dry taps, the reservoir or groundwater figures for your own source." },
-    { id: "downpours", if: "Short, intense rain can flood routes or public sites during an otherwise dry period",
+    { id: "downpours", short: "Short, intense rain that floods routes or sites", if: "Short, intense rain can flood routes or public sites during an otherwise dry period",
       decide: "Which sites or access routes may fail, which alternative location is usable, and who decides when to switch?",
       know: "Last monsoon's waterlogging complaints, the drain-cleaning schedule, the district disaster plan, residents' knowledge of which lanes flood." }
   ],
@@ -177,25 +177,38 @@ const REACH = {
   claims: ["c-niua-m2", "c-niua-m1", "c-niua-m1-eq"]
 };
 
-// the worksheet: one labelled field per row, an illustrative answer, and space for the city's own
+// the worksheet: one A4 sheet per service, filled in by hand at one meeting. Its order follows the guide: choose the service,
+// agree who keeps it working, then three pause points (before opening, when a warning is issued, during and after), then
+// agree. Hints are short and marked "e.g." so they prompt without supplying the answer. Printed at /print/el-nino-worksheet/.
 const WORKSHEET = {
-  fields: [
-    ["Service, and who relies on it at the hottest hours", "A daily market; vendors and buyers in the afternoon"],
-    ["Which conditions describe our city", "Busy hot afternoons; intermittent summer water"],
-    ["Information we already hold", "The market register; the association's list of afternoon stalls; last summer's tanker orders"],
-    ["Measure and sites", "Shade over the occupied stalls the vendors marked, and one drinking water point"],
-    ["Who authorises the site", "The market's managing body"],
-    ["Who pays for installation", "To agree: the municipal budget or a district allocation"],
-    ["Who covers summer operations", "To agree: the municipal body with the association"],
-    ["Who can authorise a repair or emergency refill", "One named officer, with a phone number"],
-    ["Our warning route, and what changes on a warning", "IMD district warning, as issued: water hours extend, refill brought forward, noon and mid-afternoon checks"],
-    ["Our city's readiness date, and why", "Working by 15 March, because heat usually arrives in late March here and procurement takes six weeks (illustrative)"],
-    ["How we will check", "Stalls shaded at 2 p.m. out of occupied stalls; water available at each check"],
-    ["How users report a failure, and who records the fix", "The association's number on the post; the operator logs the time fixed"],
-    ["What the local organisation changed", "Moved the shade from the entrance to the inner aisle"]
+  slug: "el-nino-worksheet",
+  title: "One service, protected before the heat",
+  kind: "Worksheet · For a municipal team and a local organisation, filled in together",
+  lede: "One sheet for each service, filled in together at one meeting with what you already know. In part 3, tick each item on the day and fix anything left unticked.",
+  parts: [
+    { h: "Choose the service", sum: "What the service is, who relies on it in the hottest hours, which conditions fit your city, and what you already know.", fields: [
+      { l: "Service and sites", hint: "e.g. the daily market, two lanes", lines: 1 },
+      { l: "Who relies on it in the hottest hours, and what they lose if they leave", hint: "e.g. sellers lose sales", lines: 1 },
+      { l: "Conditions that describe our city (tick all that apply)", boxes: "adapt" },
+      { l: "What we already know, and from where", hint: "e.g. market register, last summer's tanker orders", lines: 1 }] },
+    { h: "Agree who keeps it working", sum: "Who authorises the site, pays to install, pays to run it and can order a same-day repair or refill, and the date it works by, with the reason.", note: "These can be different bodies.",
+      roles: ["Authorises the site", "Pays to install", "Pays to run it through the summer", "Can order a repair or a refill the same day"],
+      cols: ["Organisation", "Name and phone"],
+      fields: [{ l: "Working by (date), because", hint: "when heat usually arrives here, less the time to buy and install", lines: 1 }] },
+    { h: "Three pause points", sum: "Ticks before opening, when an official warning is issued, and during and after: shade, water, power cuts, access and failures fixed.", note: "Tick on the day.", pauses: [
+      { h: "Before opening", items: ["Shade over occupied places at 2 p.m.", "Drinking water at peak hours; storage checked", "Power cut: who refills, and how fast, agreed", "Step-free way in, passable with a handcart", "Failure number posted on site"] },
+      { h: "When an official warning is issued", fields: [{ l: "The warning comes from", hint: "e.g. IMD district warning, as issued", lines: 1 }, { l: "Who receives it here", lines: 1 }],
+        items: ["Refill brought forward", "Water hours extended", "Queues moved under cover"] },
+      { h: "During and after", counts: ["Sites working at 2 p.m.: ____ of ____", "Failures reported ____ · fixed ____ · slowest fix ____ hours"],
+        fields: [{ l: "Who could not use it, and why", lines: 1 }] }] },
+    { h: "Agree", sum: "What the local organisation changed, who agreed, and when you check again.", fields: [
+      { l: "What the local organisation changed in this plan", hint: "e.g. moved the shade to the inner lane", lines: 1 },
+      { l: "Agreed by", sign: 2, also: "Next check, on (date)" }] }
   ],
-  note: "Illustrative. Print the worksheet and fill the \"Our city\" column together; the municipal team and the local organisation can change any field."
+  note: "Hints are illustrative; write your own answers. Bring this sheet to the next check."
 };
+// the worksheet as plain lines, for the page's summary, its Markdown and llms-full.txt
+const worksheetLines = () => WORKSHEET.parts.map((p, i) => `${i + 1}. ${p.h}: ${p.sum}`);
 
 // documented Indian examples, each showing one decision; a large-city precedent labelled by its scale
 const EXAMPLES = [
@@ -213,7 +226,7 @@ const EXAMPLES_NOTE = "A published plan shows a planning decision, an installed 
 const CLOSE = "The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.";
 // three facts a reader sees first, all true of the page itself
 const GLANCE = ["For smaller Indian cities", "Every claim sourced", "Printable worksheet"];
-const PRINT = "Print this page, or only the worksheet, for a meeting between the municipal team and the local organisation.";
+const PRINT = "The worksheet prints on one A4 sheet. The whole guide also prints, for reading before the meeting.";
 
 // The feature card that points readers here from other pages (practical actions, the India HAP archive).
 // One set of words, so every entry point says the same thing.
@@ -230,7 +243,7 @@ const promo = (esc, id, tag = "h2") => `<aside class="cs-card en-promo" aria-lab
 const promoMd = () => `**${PROMO.label}: ${PROMO.title}.** ${PROMO.text} ${PROMO.button}: /${SLUG}/`;
 
 module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NEXT_REVIEW, OPENING, OUTLOOK, SIGNAL, ADAPT, RISKS, SCENARIOS, ROUTE, WINDOWS, CONTINUITY,
-  MARKET, REACH, WORKSHEET, EXAMPLES, LARGE, EXAMPLES_NOTE, CLOSE, PRINT, GLANCE,
+  MARKET, REACH, WORKSHEET, worksheetLines, EXAMPLES, LARGE, EXAMPLES_NOTE, CLOSE, PRINT, GLANCE,
   // every claim the page uses, so the build can refuse an unconfirmed one
   claimsUsed() { return [...new Set([...OUTLOOK.items.flatMap(i => i.claims), ...OUTLOOK.noneClaims, ...SIGNAL.can.claims, ...ADAPT.rows.flatMap(r => r.claims || []),
     ...RISKS.flatMap(r => r.claims), ...SCENARIOS.flatMap(s => s.claims), ...ROUTE.claims, ...ROUTE.healthClaims, ...WINDOWS.flatMap(w => w.claims),
@@ -251,7 +264,7 @@ module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NE
       ...MARKET.roles.map(r => `- ${r.who}: ${r.agrees}`), `On a warning day: ${MARKET.warningDay}`, MARKET.tradeoff,
       `${MARKET.alternative.title}: ${MARKET.alternative.text} Managed by: ${MARKET.alternative.owner} ${MARKET.alternative.community}`,
       "### Reach: how much protection people got", REACH.intro, ...REACH.measures.map(m => `- ${m.t}: ${m.d}`), REACH.pairsIntro, ...REACH.pairs.map(([a, b]) => `- ${a} -> ${b}`), REACH.fail, REACH.equity,
-      "### Worksheet (illustrative answers)", ...WORKSHEET.fields.map(([f, v]) => `- ${f}: ${v}`), WORKSHEET.note,
+      `### Worksheet: ${WORKSHEET.title}`, WORKSHEET.lede, ...worksheetLines(), `Printable A4 sheet: ${SITE}/print/${WORKSHEET.slug}/`, WORKSHEET.note,
       "### Preparedness that has happened in India", EXAMPLES_NOTE, ...EXAMPLES.map(e => `- ${e.place} (${e.setting}; ${e.status}; the decision: ${e.decision}): ${e.text}${e.src.map(s).join("")}`),
       `- ${LARGE.place} (${LARGE.label}): ${LARGE.text}${LARGE.src.map(s).join("")}`,
       CLOSE].join("\n\n");

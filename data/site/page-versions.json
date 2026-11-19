@@ -188,7 +188,7 @@
   "changed": "2026-11-16"
  },
  "/el-nino-and-cities/": {
-  "hash": "f34428e42f68235d",
+  "hash": "8180237c362955ae",
   "changed": "2026-11-19"
  },
  "/evidence-map/": {
@@ -428,7 +428,7 @@
   "changed": "2026-11-14"
  },
  "/print/": {
-  "hash": "d960c7a0ebef43ba",
+  "hash": "21724fe293bc8e44",
   "changed": "2026-11-19"
  },
  "/print/actions-clinics/": {
@@ -585,6 +585,10 @@
  },
  "/print/dry-and-humid-heat/": {
   "hash": "90ec5f31a0ec93ef",
+  "changed": "2026-11-19"
+ },
+ "/print/el-nino-worksheet/": {
+  "hash": "1e54562fb23cd86f",
   "changed": "2026-11-19"
  },
  "/print/four-heats/": {

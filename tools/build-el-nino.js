@@ -42,7 +42,7 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
     <p class="en-open">${esc(T.OPENING.text)}</p>
     <div class="en-next"><b>The first decision</b><p class="en-q">${esc(T.OPENING.decision)}</p><p>${esc(T.OPENING.decisionNote)}</p></div>
     <div class="en-pic">${tag("Illustrative", "design")}<p>${T.OPENING.picture.map(esc).join(" ")}</p>
-      <p><a href="#market">The full market example</a> · <a href="#handout">The worksheet to print</a></p></div>
+      <p><a href="#market">The full market example</a> · <a href="/print/${T.WORKSHEET.slug}/">The worksheet to print</a></p></div>
     <nav class="en-toc" aria-label="On this page"><p class="en-toc__h">In this guide</p><ol>${[["outlook", "The outlook"], ["adapt", "Adapt to your city"], ["risks", "Six linked risks"], ["route", "Your warning route"], ["windows", "Before, during, after"], ["market", "A market at 2 p.m."], ["scale", "Reach"], ["handout", "Worksheet"], ["examples", "What has been done"]].map(([id, t], i) => `<li><a href="#${id}"><span aria-hidden="true">${String(i + 1).padStart(2, "0")}</span>${esc(t)}</a></li>`).join("")}</ol></nav>
   </section>
 
@@ -141,11 +141,10 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
   <section class="container en-sec" id="handout" aria-labelledby="en-hand-h">
     <p class="en-kicker" aria-hidden="true"><span>08</span>Worksheet</p>
     <h2 class="hub-h" id="en-hand-h">A worksheet for the first meeting</h2>
-    <div class="en-tablewrap"><table class="en-table en-hand"><caption>Copy, print or fill in: one worksheet per service</caption>
-      <thead><tr><th scope="col">Field</th><th scope="col">Illustrative answer</th><th scope="col">Our city</th></tr></thead>
-      <tbody>${T.WORKSHEET.fields.map(([f, v]) => `<tr><th scope="row">${esc(f)}</th><td data-label="Illustrative answer">${esc(v)}</td><td data-label="Our city" class="en-blank"></td></tr>`).join("")}</tbody></table></div>
-    <p class="en-handnote">${esc(T.WORKSHEET.note)}</p>
-    <p class="en-print">${esc(T.PRINT)}</p>
+    <p>${esc(T.WORKSHEET.lede)}</p>
+    <ol class="en-ws">${T.WORKSHEET.parts.map((pt, i) => `<li><b><span aria-hidden="true">${i + 1}</span>${esc(pt.h)}</b><span>${esc(pt.sum)}</span></li>`).join("")}</ol>
+    <p class="en-ws-go"><a class="btn btn--cta" href="/print/${T.WORKSHEET.slug}/">Open the worksheet to print (A4) <span aria-hidden="true">→</span></a></p>
+    <p class="en-handnote">${esc(T.WORKSHEET.note)} ${esc(T.PRINT)}</p>
   </section>
 
   <section class="container en-sec" id="examples" aria-labelledby="en-ex-h">
