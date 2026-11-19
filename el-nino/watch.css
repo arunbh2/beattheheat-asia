@@ -1,0 +1,37 @@
+/* The El Niño watch panel: one look on /signals/ and /el-nino/ (markup from tools/enso-outlook.js). Page-only, loaded by both. */
+.ew { border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--white); padding: var(--pad-roomy); }
+.ew-kicker { margin: 0 0 var(--s-2); font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+.ew-h { font-size: var(--fs-22); line-height: 1.15; margin: 0 0 var(--s-3); }
+.ew-status { display: grid; gap: var(--s-2); margin: 0 0 var(--s-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.ew-status > div { border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--canvas); padding: var(--pad-compact); }
+.ew-status dt { font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+.ew-status dd { margin: 4px 0 0; font-size: var(--fs-14); line-height: 1.5; }
+.ew-status dd b { display: block; font-size: var(--fs-18); line-height: 1.4; }
+.ew-status dd span { color: var(--grey-700); }
+.ew-grid { display: grid; gap: var(--s-3); grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 760px) { .ew-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ew-box { border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--pad-std); background: var(--white); }
+.ew-box h3 { font-size: var(--fs-16); line-height: 1.4; margin: 0 0 var(--s-2); display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.ew-box p { margin: 0 0 var(--s-2); font-size: var(--fs-14); line-height: 1.5; } .ew-box p:last-child { margin: 0; }
+.ew-tag { display: inline-block; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; border: 1px solid var(--line-strong); border-radius: 999px; padding: 1px 8px; color: var(--grey-700); background: var(--white); }
+.ew-tag--obs { border-color: var(--ink); } .ew-tag--fc { border-color: var(--amber); } .ew-tag--read { border-style: dashed; } .ew-tag--limit { border-color: var(--ember); }
+.ew-note { margin: var(--s-4) 0 0; font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.ew-links { margin: var(--s-2) 0 0; font-size: var(--fs-14); line-height: 1.9; }
+.ew a { color: inherit; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.ew-tablewrap { margin-top: var(--s-3); overflow-x: auto; }
+.ew-table { width: 100%; border-collapse: collapse; font-size: var(--fs-14); line-height: 1.5; background: var(--white); }
+.ew-table caption { text-align: left; font-weight: 700; font-size: var(--fs-16); padding: 0 0 8px; }
+.ew-table th, .ew-table td { text-align: left; vertical-align: top; padding: 10px 12px; border: 1px solid var(--line); overflow-wrap: break-word; }
+.ew-table thead th { background: var(--sand-50); font-size: var(--fs-12); letter-spacing: var(--label-track); text-transform: uppercase; }
+.ew-table tbody th span { font-weight: 400; color: var(--grey-700); }
+@media (max-width: 760px) {
+  .ew { padding: var(--pad-std); }
+  .ew-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .ew-table, .ew-table tbody, .ew-table tr, .ew-table th, .ew-table td, .ew-table caption { display: block; width: 100%; }
+  .ew-table { background: transparent; } .ew-tablewrap { overflow: visible; }
+  .ew-table tr { border: 1px solid var(--line); border-radius: var(--r-md); margin-bottom: var(--s-2); background: var(--white); }
+  .ew-table th, .ew-table td { border: 0; border-top: 1px solid var(--line); }
+  .ew-table tbody th { border-top: 0; }
+  .ew-table td::before { content: attr(data-label); display: block; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); margin-bottom: 2px; }
+}
+@media print { .ew { border-color: var(--ink); } .ew a[href^="http"]::after { content: " (" attr(href) ")"; font-size: var(--fs-12); overflow-wrap: anywhere; } }

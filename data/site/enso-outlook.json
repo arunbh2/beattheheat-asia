@@ -1,0 +1,52 @@
+{
+ "about": "The current El Niño outlook, shared by the El Niño watch on /signals/, the explainer at /el-nino/ and the guide at /el-nino-and-cities/ (read through tools/enso-outlook.js). Each entry keeps the issuer's own issue date, forecast period, geography and index; entries with different indices or baselines are never combined. Every entry names the claims it rests on in research/2026-11/enso-asia/claims.json; the build stops if one has not passed the source check. To update: stage the new bulletin in that batch, run verify-sources.yml (month 2026-11-enso-asia) and gate.js, then edit this file. 'checked' is the editorial check date: it appears in source details and metadata only, never as a date the content was added.",
+ "checked": "2026-11-19",
+ "status": {
+  "label": "El Niño Advisory",
+  "means": "NOAA's alert status when El Niño conditions are observed and expected to continue.",
+  "issuer": "NOAA Climate Prediction Center",
+  "bulletin": "ENSO Diagnostic Discussion",
+  "issued": "2026-11-12",
+  "next": "2026-12-10",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+  "observed": "El Niño strengthened compared with the previous month: sea surface temperature anomalies exceeded 4.0 °C and extended farther west across the eastern equatorial Pacific. The weekly Niño-3.4 index reached +2.5 °C, and rainfall stayed suppressed over Indonesia.",
+  "forecast": "A strong-to-very strong El Niño is likely through January to March 2027 (a greater than 79% chance), before it begins to weaken in early 2027.",
+  "claims": ["e-noaa-status", "e-noaa-change"]
+ },
+ "phase": {
+  "issuer": "NOAA Climate Prediction Center",
+  "title": "Official ENSO probabilities",
+  "issued": "2026-11",
+  "index": "Relative Oceanic Niño Index (RONI), Niño-3.4 region, 1991–2020 base, ±0.5 °C thresholds",
+  "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/",
+  "rows": [
+   { "season": "January to March 2027", "elnino": 100, "neutral": 0, "lanina": 0 },
+   { "season": "February to April 2027", "elnino": 98, "neutral": 2, "lanina": 0 },
+   { "season": "March to May 2027", "elnino": 80, "neutral": 20, "lanina": 0 },
+   { "season": "April to June 2027", "elnino": 38, "neutral": 61, "lanina": 1 }
+  ],
+  "strength": { "season": "March to May 2027", "weak": 53, "moderate": 25, "strong": 2, "verystrong": 0, "neutral": 20,
+   "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/" },
+  "claims": ["e-noaa-prob", "e-noaa-def", "e-noaa-strength"]
+ },
+ "others": [
+  { "issuer": "World Meteorological Organization", "title": "Global Seasonal Climate Update for November 2026 to January 2027", "issued": "2026-10-21", "kind": "Forecast",
+    "period": "November 2026 to January 2027", "geography": "Niño 3.4 region and the Indian Ocean", "index": "Niño 3.4 sea surface temperature anomaly, multi-model ensemble mean (not RONI)",
+    "says": "The seasonal average anomaly is forecast at about +3.8 °C, peaking around December 2026; a positive Indian Ocean Dipole is forecast to decline to +0.3 °C.",
+    "url": "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026", "claims": ["e-wmo-gscu"] },
+  { "issuer": "World Meteorological Organization", "title": "El Niño/La Niña Update", "issued": "2026-09-03", "kind": "Forecast",
+    "period": "through February 2027", "geography": "Tropical Pacific", "index": "Consensus of WMO Global Producing Centres",
+    "says": "An exceptionally high likelihood, nearly 100%, that El Niño persists through February 2027.",
+    "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027", "claims": ["e-wmo-persist"] },
+  { "issuer": "ASEAN Specialised Meteorological Centre", "title": "Seasonal forecast for November 2026 to January 2027", "issued": "2026-11-05", "kind": "Forecast",
+    "period": "November 2026 to January 2027", "geography": "ASEAN region", "index": "Multi-model rainfall and temperature terciles",
+    "says": "Below-normal rainfall over parts of the southeastern and northeastern Maritime Continent and southeastern mainland Southeast Asia, and above-normal temperature over the ASEAN region. National services hold the national-scale outlook.",
+    "url": "https://asmc.asean.org/asmc-seasonal-outlook/", "claims": ["e-asmc-outlook"] },
+  { "issuer": "Meteorological Service Singapore", "title": "El Niño/La Niña status", "issued": "2026-10-16", "kind": "Observed",
+    "period": "September 2026, and July to September 2026", "geography": "Niño 3.4 region", "index": "Relative Niño3.4 index; RONI (three-month)",
+    "says": "The relative Niño3.4 index was 2.1 °C for September and 1.7 °C for July to September, and was predicted to peak during October to December 2026.",
+    "url": "https://www.weather.gov.sg/climate-el-la/", "claims": ["e-mss"] }
+ ],
+ "commitments": ["sig-who-el-nino-response-2026", "sig-philippines-heat-stress-advisories-2026"],
+ "finding": "sig-el-nino-2026-2027"
+}

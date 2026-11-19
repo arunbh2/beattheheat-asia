@@ -1,0 +1,435 @@
+[
+ {
+  "id": "src-ens-noaa-disc",
+  "type": "source",
+  "keys": [
+   "noaa-disc"
+  ],
+  "title": "ENSO Diagnostic Discussion",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+  "kind": "Official ENSO bulletin (monthly)",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "DIAGNOSTIC DISCUSSION",
+   "12 November 2026",
+   "ENSO Alert System Status",
+   "Advisory",
+   "likely through January-March 2027",
+   "greater than a 79",
+   "weaken in early 2027",
+   "10 December 2026",
+   "Compared to last month",
+   "exceeded 4.0",
+   "+2.5",
+   "suppressed conditions persisted over Indonesia",
+   "~60",
+   "for the October-December and November-January periods",
+   "3-month RONI value",
+   "higher, though not guaranteed",
+   "deeper-than-average thermocline"
+  ],
+  "claims": [
+   "e-noaa-status",
+   "e-noaa-change",
+   "e-noaa-historic",
+   "e-noaa-impacts",
+   "e-thermo"
+  ],
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261117203335/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ {
+  "id": "src-ens-noaa-prob",
+  "type": "source",
+  "keys": [
+   "noaa-prob"
+  ],
+  "title": "Official NOAA CPC ENSO Probabilities",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/",
+  "kind": "Official ENSO phase probabilities",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "ENSO Probabilities",
+   "Issued November 2026",
+   "JFM Jan Feb Mar 0 0 100",
+   "FMA Feb Mar Apr 0 2 98",
+   "MAM Mar Apr May 0 20 80",
+   "AMJ Apr May Jun 1 61 38",
+   "Relative Oceanic",
+   "-/+ 0.5 degree Celsius thresholds",
+   "climatological base period"
+  ],
+  "claims": [
+   "e-noaa-prob",
+   "e-noaa-def"
+  ],
+  "archive": "https://web.archive.org/web/20261113060356/https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-noaa-str",
+  "type": "source",
+  "keys": [
+   "noaa-str"
+  ],
+  "title": "Official NOAA CPC ENSO Strength Probabilities",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/",
+  "kind": "Official ENSO strength probabilities",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "Strength Probabilities",
+   "MAM Mar Apr May 0 0 0 0 20 53 25 2 0",
+   "Index ≥ 2.0°C",
+   "does not necessarily correspond with the strength of the influence or expected impact"
+  ],
+  "claims": [
+   "e-noaa-strength"
+  ],
+  "archive": "https://web.archive.org/web/20261116113700/https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-noaa-roni",
+  "type": "source",
+  "keys": [
+   "noaa-roni"
+  ],
+  "title": "Relative Oceanic Niño Index (RONI): historical El Niño / La Niña episodes",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/",
+  "kind": "Index definition and data",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "Relative Oceanic",
+   "3 month running mean",
+   "SST anomalies subtracted",
+   "should be considered an estimate"
+  ],
+  "claims": [
+   "e-roni-def"
+  ],
+  "archive": "https://web.archive.org/web/20261107191613/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-wmo-gscu",
+  "type": "source",
+  "keys": [
+   "wmo-gscu"
+  ],
+  "title": "Global Seasonal Climate Update for November-December-January 2026",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026",
+  "kind": "WMO monthly seasonal outlook",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "Global Seasonal Climate Update",
+   "21 October 2026",
+   "approximately +3.8°C during NDJ 2026–27",
+   "peaking around December 2026",
+   "positive IOD is predicted to decline"
+  ],
+  "claims": [
+   "e-wmo-gscu"
+  ],
+  "archive": "https://web.archive.org/web/20261116040526/https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-wmo-update",
+  "type": "source",
+  "keys": [
+   "wmo-update"
+  ],
+  "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+  "kind": "WMO El Niño/La Niña Update (news release)",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "El Niño",
+   "nearly 100%",
+   "February 2027"
+  ],
+  "claims": [
+   "e-wmo-persist"
+  ],
+  "archive": "https://web.archive.org/web/20261109232806/https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-wmo-bull",
+  "type": "source",
+  "keys": [
+   "wmo-bull"
+  ],
+  "title": "How ocean observations help us understand and forecast El Niño",
+  "publisher": "WMO Bulletin, vol. 75(2)",
+  "year": 2026,
+  "url": "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino",
+  "kind": "Explainer",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "El Niño",
+   "does not predict with certainty that a particular drought, flood or heatwave will occur",
+   "No two El Niño events produce identical impacts",
+   "interactions with other climate drivers",
+   "considered alongside exposure, vulnerability, historical impacts, sectoral knowledge and shorter-range weather information",
+   "strengthen the trade winds and increase cold-water upwelling",
+   "alter atmospheric circulation",
+   "large-scale atmospheric and oceanic teleconnections"
+  ],
+  "claims": [
+   "e-wmo-limits",
+   "e-wmo-use",
+   "e-wmo-coupling",
+   "e-telecon"
+  ],
+  "archive": "https://web.archive.org/web/20261119073358/https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-climgov",
+  "type": "source",
+  "keys": [
+   "climgov"
+  ],
+  "title": "El Niño and La Niña: frequently asked questions",
+  "publisher": "NOAA Climate.gov",
+  "year": 2026,
+  "url": "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions",
+  "kind": "Explainer",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "La Niña",
+   "normally blow from east to west across the tropical Pacific",
+   "The pool of warm water grows deeper",
+   "colder, deeper water to rise to the surface in the eastern half of the Pacific basin",
+   "surface winds across the entire tropical Pacific are weaker than usual",
+   "rainfall is below average over Indonesia",
+   "sinking air motion over Indonesia",
+   "every 3-7 years on average",
+   "low confidence",
+   "rising branch of the Walker Circulation",
+   "Maritime continent"
+  ],
+  "claims": [
+   "e-mech-trades",
+   "e-mech-nino",
+   "e-mech-cycle",
+   "e-walker"
+  ],
+  "archive": "https://web.archive.org/web/20261022053306/https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-spb",
+  "type": "source",
+  "keys": [
+   "spb"
+  ],
+  "title": "The Spring Predictability Barrier: we'd rather be on Spring Break",
+  "publisher": "NOAA Climate.gov ENSO blog",
+  "year": 2015,
+  "url": "https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break",
+  "kind": "Explainer",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "Spring",
+   "Spring Predictability Barrier",
+   "lull or a valley in ENSO forecasting accuracy"
+  ],
+  "claims": [
+   "e-spb"
+  ],
+  "archive": "https://web.archive.org/web/20260923183815/https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-asmc-enso",
+  "type": "source",
+  "keys": [
+   "asmc-enso"
+  ],
+  "title": "El Niño / La Niña",
+  "publisher": "ASEAN Specialised Meteorological Centre",
+  "year": 2026,
+  "url": "https://asmc.asean.org/asmc-el-nino/",
+  "kind": "Regional ENSO status and typical impacts",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "El Niño",
+   "including for most of the Maritime Continent during September",
+   "forest fires and smoke haze",
+   "stronger over the southern and eastern part of South East Asia during the months of Jun",
+   "strong or moderate-intensity events",
+   "(and consequently temperature)"
+  ],
+  "claims": [
+   "e-asmc-typical",
+   "e-asmc-temp"
+  ],
+  "archive": "https://web.archive.org/web/20261119073427/https://asmc.asean.org/asmc-el-nino/",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-asmc-so",
+  "type": "source",
+  "keys": [
+   "asmc-so"
+  ],
+  "title": "Seasonal Forecast for November 2026 – January 2027",
+  "publisher": "ASEAN Specialised Meteorological Centre",
+  "year": 2026,
+  "url": "https://asmc.asean.org/asmc-seasonal-outlook/",
+  "kind": "Regional seasonal outlook",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "Seasonal",
+   "Updated 5 November 2026",
+   "below-normal rainfall to persist over parts of the southeastern and northeastern Maritime Continent and southeastern Mainland Southeast Asia",
+   "above-normal temperature is predicted over the ASEAN region",
+   "National Meteorological and Hydrological Services should be consulted",
+   "hotspots with localised smoke plumes may still occur",
+   "northern ASEAN region is expected to enter its traditional dry season"
+  ],
+  "claims": [
+   "e-asmc-outlook",
+   "e-asmc-haze"
+  ],
+  "archive": "https://web.archive.org/web/20261005022633/https://asmc.asean.org/asmc-seasonal-outlook/",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-mss",
+  "type": "source",
+  "keys": [
+   "mss"
+  ],
+  "title": "El Niño/La Niña Status",
+  "publisher": "Meteorological Service Singapore",
+  "year": 2026,
+  "url": "https://www.weather.gov.sg/climate-el-la/",
+  "kind": "National ENSO status",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "Relative Nino3.4",
+   "Updated on 16 October 2026",
+   "2.1°C for September 2026",
+   "1.7°C for the three-month average July – September 2026",
+   "peak sometime during October-December 2026"
+  ],
+  "claims": [
+   "e-mss"
+  ],
+  "archive": "https://web.archive.org/web/20261109030310/https://www.weather.gov.sg/climate-el-la/",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-pib-moes",
+  "type": "source",
+  "keys": [
+   "pib-moes"
+  ],
+  "title": "Earth Sciences Minister explains El Nino and its Monsoon impact in Lok Sabha reply",
+  "publisher": "Press Information Bureau, Ministry of Earth Sciences, India",
+  "year": 2026,
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3",
+  "kind": "Government statement",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "El Nino",
+   "weaker Indian Summer Monsoon rainfall over parts of the country",
+   "not the sole determinant",
+   "Madden-Julian Oscillation",
+   "70 and 90 per cent",
+   "05 AUG 2026"
+  ],
+  "claims": [
+   "e-india"
+  ],
+  "archive": "https://web.archive.org/web/20261119073511/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-bmd-jas",
+  "type": "source",
+  "keys": [
+   "bmd-jas"
+  ],
+  "title": "Monsoon Outlook, July–September 2026",
+  "publisher": "Bangladesh Meteorological Department with RIMES",
+  "year": 2026,
+  "url": "https://instant.bmd.gov.bd/src/seasonal_forecast/SF_202607100900.pdf",
+  "kind": "National seasonal outlook (PDF)",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "MONSOON OUTLOOK",
+   "JULY- SEPTEMBER 2026",
+   "near-normal rainfall",
+   "normal temperature across Bangladesh"
+  ],
+  "claims": [
+   "e-bd"
+  ],
+  "archive": "https://web.archive.org/web/20261119073537/https://instant.bmd.gov.bd/src/seasonal_forecast/SF_202607100900.pdf",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-ktm-dhm",
+  "type": "source",
+  "keys": [
+   "ktm-dhm"
+  ],
+  "title": "An unusually rainy spring, a drier monsoon ahead: What's happening to Nepal's weather?",
+  "publisher": "The Kathmandu Post (reporting DHM)",
+  "year": 2026,
+  "url": "https://kathmandupost.com/climate-environment/2026/06/02/an-unusually-rainy-spring-a-drier-monsoon-ahead-what-s-happening-to-nepal-s-weather",
+  "kind": "News report of national service data",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "Nepal",
+   "eight of nine El Niño years were associated with reduced rainfall",
+   "Department of Hydrology and Meteorology"
+  ],
+  "claims": [
+   "e-np"
+  ],
+  "archive": "https://web.archive.org/web/20260815051410/https://kathmandupost.com/climate-environment/2026/06/02/an-unusually-rainy-spring-a-drier-monsoon-ahead-what-s-happening-to-nepal-s-weather",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ens-pagasa-adv",
+  "type": "source",
+  "keys": [
+   "pagasa-adv"
+  ],
+  "title": "ENSO Advisory: El Niño Advisory No. 2",
+  "publisher": "PAGASA, Philippines",
+  "year": 2026,
+  "url": "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf",
+  "kind": "National ENSO advisory (PDF)",
+  "where": "El Niño and heat in Asia",
+  "expect": [
+   "ENSO ADVISORY",
+   "increases the likelihood of below-normal rainfall",
+   "dry spells and droughts",
+   "Habagat",
+   "06 July 2026"
+  ],
+  "claims": [
+   "e-ph"
+  ],
+  "archive": "https://web.archive.org/web/20260812182139/https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf",
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]

@@ -1,0 +1,152 @@
+{
+ "_terms": {
+  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml": {
+   "DIAGNOSTIC DISCUSSION": true,
+   "12 November 2026": true,
+   "ENSO Alert System Status": true,
+   "Advisory": true,
+   "likely through January-March 2027": true,
+   "greater than a 79": true,
+   "weaken in early 2027": true,
+   "10 December 2026": true,
+   "Compared to last month": true,
+   "exceeded 4.0": true,
+   "+2.5": true,
+   "suppressed conditions persisted over Indonesia": true,
+   "~60": true,
+   "for the October-December and November-January periods": true,
+   "3-month RONI value": true,
+   "higher, though not guaranteed": true,
+   "deeper-than-average thermocline": true
+  },
+  "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/": {
+   "ENSO Probabilities": true,
+   "Issued November 2026": true,
+   "JFM Jan Feb Mar 0 0 100": true,
+   "FMA Feb Mar Apr 0 2 98": true,
+   "MAM Mar Apr May 0 20 80": true,
+   "AMJ Apr May Jun 1 61 38": true,
+   "Relative Oceanic": true,
+   "-/+ 0.5 degree Celsius thresholds": true,
+   "climatological base period": true
+  },
+  "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/": {
+   "Strength Probabilities": true,
+   "MAM Mar Apr May 0 0 0 0 20 53 25 2 0": true,
+   "Index ≥ 2.0°C": true,
+   "does not necessarily correspond with the strength of the influence or expected impact": true
+  },
+  "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/": {
+   "Relative Oceanic": true,
+   "3 month running mean": true,
+   "SST anomalies subtracted": true,
+   "should be considered an estimate": true
+  },
+  "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026": {
+   "Global Seasonal Climate Update": true,
+   "21 October 2026": true,
+   "approximately +3.8°C during NDJ 2026–27": true,
+   "peaking around December 2026": true,
+   "positive IOD is predicted to decline": true
+  },
+  "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027": {
+   "El Niño": true,
+   "nearly 100%": true,
+   "February 2027": true
+  },
+  "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino": {
+   "El Niño": true,
+   "does not predict with certainty that a particular drought, flood or heatwave will occur": true,
+   "No two El Niño events produce identical impacts": true,
+   "interactions with other climate drivers": true,
+   "considered alongside exposure, vulnerability, historical impacts, sectoral knowledge and shorter-range weather information": true,
+   "strengthen the trade winds and increase cold-water upwelling": true,
+   "alter atmospheric circulation": true,
+   "large-scale atmospheric and oceanic teleconnections": true
+  },
+  "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions": {
+   "La Niña": true,
+   "normally blow from east to west across the tropical Pacific": true,
+   "The pool of warm water grows deeper": true,
+   "colder, deeper water to rise to the surface in the eastern half of the Pacific basin": true,
+   "surface winds across the entire tropical Pacific are weaker than usual": true,
+   "rainfall is below average over Indonesia": true,
+   "sinking air motion over Indonesia": true,
+   "every 3-7 years on average": true,
+   "low confidence": true,
+   "rising branch of the Walker Circulation": true,
+   "Maritime continent": true
+  },
+  "https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break": {
+   "Spring": true,
+   "Spring Predictability Barrier": true,
+   "lull or a valley in ENSO forecasting accuracy": true
+  },
+  "https://asmc.asean.org/asmc-el-nino/": {
+   "El Niño": true,
+   "including for most of the Maritime Continent during September": true,
+   "forest fires and smoke haze": true,
+   "stronger over the southern and eastern part of South East Asia during the months of Jun": true,
+   "strong or moderate-intensity events": true,
+   "(and consequently temperature)": true
+  },
+  "https://asmc.asean.org/asmc-seasonal-outlook/": {
+   "Seasonal": true,
+   "Updated 5 November 2026": true,
+   "below-normal rainfall to persist over parts of the southeastern and northeastern Maritime Continent and southeastern Mainland Southeast Asia": true,
+   "above-normal temperature is predicted over the ASEAN region": true,
+   "National Meteorological and Hydrological Services should be consulted": true,
+   "hotspots with localised smoke plumes may still occur": true,
+   "northern ASEAN region is expected to enter its traditional dry season": true
+  },
+  "https://www.weather.gov.sg/climate-el-la/": {
+   "Relative Nino3.4": true,
+   "Updated on 16 October 2026": true,
+   "2.1°C for September 2026": true,
+   "1.7°C for the three-month average July – September 2026": true,
+   "peak sometime during October-December 2026": true
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3": {
+   "El Nino": true,
+   "weaker Indian Summer Monsoon rainfall over parts of the country": true,
+   "not the sole determinant": true,
+   "Madden-Julian Oscillation": true,
+   "70 and 90 per cent": true,
+   "05 AUG 2026": true
+  },
+  "https://instant.bmd.gov.bd/src/seasonal_forecast/SF_202607100900.pdf": {
+   "MONSOON OUTLOOK": true,
+   "JULY- SEPTEMBER 2026": true,
+   "near-normal rainfall": true,
+   "normal temperature across Bangladesh": true
+  },
+  "https://kathmandupost.com/climate-environment/2026/06/02/an-unusually-rainy-spring-a-drier-monsoon-ahead-what-s-happening-to-nepal-s-weather": {
+   "Nepal": true,
+   "eight of nine El Niño years were associated with reduced rainfall": true,
+   "Department of Hydrology and Meteorology": true
+  },
+  "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf": {
+   "ENSO ADVISORY": true,
+   "increases the likelihood of below-normal rainfall": true,
+   "dry spells and droughts": true,
+   "Habagat": true,
+   "06 July 2026": true
+  }
+ },
+ "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml": "OK",
+ "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/": "OK",
+ "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/": "OK",
+ "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/": "OK",
+ "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026": "OK",
+ "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027": "OK",
+ "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino": "OK",
+ "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions": "OK",
+ "https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break": "OK",
+ "https://asmc.asean.org/asmc-el-nino/": "OK",
+ "https://asmc.asean.org/asmc-seasonal-outlook/": "OK",
+ "https://www.weather.gov.sg/climate-el-la/": "OK",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3": "OK",
+ "https://instant.bmd.gov.bd/src/seasonal_forecast/SF_202607100900.pdf": "OK",
+ "https://kathmandupost.com/climate-environment/2026/06/02/an-unusually-rainy-spring-a-drier-monsoon-ahead-what-s-happening-to-nepal-s-weather": "OK",
+ "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf": "OK"
+}

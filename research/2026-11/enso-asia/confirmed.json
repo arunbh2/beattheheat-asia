@@ -1,0 +1,321 @@
+[
+ {
+  "id": "e-noaa-status",
+  "where": "Watch; explainer",
+  "text": "NOAA CPC's discussion of 12 November 2026 keeps an El Niño Advisory: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January–March 2027 (a greater than 79% chance), and is expected to begin weakening in early 2027. The next discussion is scheduled for 10 December 2026.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
+  "id": "e-noaa-change",
+  "where": "Watch",
+  "text": "Compared with the previous month, El Niño strengthened as sea surface temperature anomalies exceeded 4.0 °C and extended farther west across the eastern equatorial Pacific; the weekly Niño-3.4 index reached +2.5 °C, and suppressed rainfall persisted over Indonesia.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
+  "id": "e-noaa-historic",
+  "where": "Explainer",
+  "text": "NOAA puts the chance of a historic event, with a 3-month RONI of +2.5 °C or more, at about 60% for October–December and November–January.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
+  "id": "e-noaa-impacts",
+  "where": "Explainer; FAQ",
+  "text": "NOAA notes that even with a very strong El Niño, impacts consistent with El Niño are more likely but not guaranteed.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
+  "id": "e-noaa-prob",
+  "where": "Watch; explainer",
+  "text": "NOAA's probabilities issued in November 2026 give El Niño a 100% chance from October–December 2026 to January–March 2027, 98% for February–April, 80% for March–May and 38% for April–June 2027, when ENSO-neutral becomes most likely (61%).",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: Official NOAA CPC ENSO Probabilities, 2026",
+    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/"
+   }
+  ]
+ },
+ {
+  "id": "e-noaa-def",
+  "where": "Explainer",
+  "text": "NOAA verifies these probabilities with the Relative Oceanic Niño Index, defining El Niño and La Niña with ±0.5 °C thresholds in Niño-3.4 sea surface temperature departures from a 1991–2020 base period.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: Official NOAA CPC ENSO Probabilities, 2026",
+    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/"
+   }
+  ]
+ },
+ {
+  "id": "e-noaa-strength",
+  "where": "Watch; explainer; FAQ",
+  "text": "For March–May 2027, NOAA's strength probabilities give 53% weak, 25% moderate, 2% strong and 0% very strong; its categories rise in 0.5 °C steps, the highest being 2.0 °C or more. NOAA states that the strength of El Niño does not necessarily correspond with the strength of its influence or expected impact.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: Official NOAA CPC ENSO Strength Probabilities, 2026",
+    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/"
+   }
+  ]
+ },
+ {
+  "id": "e-roni-def",
+  "where": "Explainer",
+  "text": "RONI is the three-month running mean of Niño 3.4 sea surface temperature anomalies with the average tropical anomaly subtracted, rescaled to the original index's variance; its latest values are estimates that can change for up to two months.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: Relative Oceanic Niño Index (RONI): historical El Niño / La Niña episodes, 2026",
+    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/"
+   }
+  ]
+ },
+ {
+  "id": "e-wmo-gscu",
+  "where": "Watch; explainer",
+  "text": "WMO's Global Seasonal Climate Update, published 21 October 2026, forecasts the seasonal average Niño 3.4 sea surface temperature ensemble mean anomaly at about +3.8 °C for November 2026–January 2027, peaking around December, and a positive Indian Ocean Dipole declining to +0.3 °C.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: Global Seasonal Climate Update for November-December-January 2026, 2026",
+    "url": "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026"
+   }
+  ]
+ },
+ {
+  "id": "e-wmo-persist",
+  "where": "Watch",
+  "text": "WMO's El Niño/La Niña Update of 3 September 2026 gave an exceptionally high likelihood of nearly 100% that El Niño persists through February 2027.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: El Niño set to become very strong, raising risks of extreme weather into 2027, 2026",
+    "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+   }
+  ]
+ },
+ {
+  "id": "e-wmo-limits",
+  "where": "Explainer; FAQ",
+  "text": "An ENSO forecast can raise or lower the likelihood of wetter, drier, warmer or cooler conditions in different regions; it does not predict with certainty that a particular drought, flood or heatwave will occur. Regional outcomes depend on the pattern of Pacific warming, the atmospheric response, timing and duration, and other climate drivers.",
+  "sources": [
+   {
+    "label": "WMO Bulletin, vol. 75(2): How ocean observations help us understand and forecast El Niño, 2026",
+    "url": "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino"
+   }
+  ]
+ },
+ {
+  "id": "e-wmo-use",
+  "where": "Explainer",
+  "text": "To guide action, a climate forecast must be considered alongside exposure, vulnerability, historical impacts, sectoral knowledge and shorter-range weather information.",
+  "sources": [
+   {
+    "label": "WMO Bulletin, vol. 75(2): How ocean observations help us understand and forecast El Niño, 2026",
+    "url": "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino"
+   }
+  ]
+ },
+ {
+  "id": "e-mech-trades",
+  "where": "Explainer",
+  "text": "The trade winds normally blow from east to west across the tropical Pacific; stronger trades push warm surface water west, deepening the warm pool and letting colder, deeper water rise in the east.",
+  "sources": [
+   {
+    "label": "NOAA Climate.gov: El Niño and La Niña: frequently asked questions, 2026",
+    "url": "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions"
+   }
+  ]
+ },
+ {
+  "id": "e-mech-nino",
+  "where": "Explainer",
+  "text": "During El Niño, surface winds across the tropical Pacific are weaker than usual, the central and eastern Pacific are warmer than average, rainfall is below average over Indonesia, and rising air shifts to the central or eastern Pacific while sinking air increases over Indonesia.",
+  "sources": [
+   {
+    "label": "NOAA Climate.gov: El Niño and La Niña: frequently asked questions, 2026",
+    "url": "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions"
+   }
+  ]
+ },
+ {
+  "id": "e-mech-cycle",
+  "where": "Explainer",
+  "text": "El Niño and La Niña are opposite phases of a natural pattern that swings every 3–7 years on average; scientists have low confidence in predicting exactly how a warmer world will affect ENSO.",
+  "sources": [
+   {
+    "label": "NOAA Climate.gov: El Niño and La Niña: frequently asked questions, 2026",
+    "url": "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions"
+   }
+  ]
+ },
+ {
+  "id": "e-wmo-coupling",
+  "where": "Explainer",
+  "text": "During La Niña, cooler sea surface temperatures strengthen the trade winds and increase cold-water upwelling, reinforcing the cooling; changes in the tropical Pacific alter atmospheric circulation and can influence weather around the world.",
+  "sources": [
+   {
+    "label": "WMO Bulletin, vol. 75(2): How ocean observations help us understand and forecast El Niño, 2026",
+    "url": "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino"
+   }
+  ]
+ },
+ {
+  "id": "e-spb",
+  "where": "Explainer",
+  "text": "ENSO forecasts made in the northern spring are less reliable than at other times of year: a lull or valley in forecast accuracy, not a wall.",
+  "sources": [
+   {
+    "label": "NOAA Climate.gov ENSO blog: The Spring Predictability Barrier: we'd rather be on Spring Break, 2015",
+    "url": "https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break"
+   }
+  ]
+ },
+ {
+  "id": "e-asmc-typical",
+  "where": "Regions",
+  "text": "In Southeast Asia, El Niño typically brings drier-than-average rainfall, including for most of the Maritime Continent in September–November, raising the risk of forest fires and smoke haze; its effect is typically stronger over the southern and eastern parts of the region in June–October, and more pronounced in strong or moderate events.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
+  "id": "e-asmc-temp",
+  "where": "Explainer",
+  "text": "ASMC describes opposite rainfall, and consequently temperature, conditions during La Niña years, linking rainfall shifts to temperature in the region.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
+  "id": "e-asmc-outlook",
+  "where": "Watch; regions",
+  "text": "ASMC's seasonal forecast updated 5 November 2026 predicts below-normal rainfall over parts of the southeastern and northeastern Maritime Continent and southeastern Mainland Southeast Asia for November 2026–January 2027, above-normal temperature over the ASEAN region, and says national services are to be consulted for national-scale updates.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: Seasonal Forecast for November 2026 – January 2027, 2026",
+    "url": "https://asmc.asean.org/asmc-seasonal-outlook/"
+   }
+  ]
+ },
+ {
+  "id": "e-asmc-haze",
+  "where": "Regions",
+  "text": "Hotspots with localised smoke plumes may still occur under El Niño, particularly where below-normal rainfall is expected; the northern ASEAN dry season from the end of the year can bring more hotspot and haze activity.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: Seasonal Forecast for November 2026 – January 2027, 2026",
+    "url": "https://asmc.asean.org/asmc-seasonal-outlook/"
+   }
+  ]
+ },
+ {
+  "id": "e-mss",
+  "where": "Watch",
+  "text": "Meteorological Service Singapore's status of 16 October 2026: the Relative Niño3.4 index was 2.1 °C for September 2026 and 1.7 °C for July–September (RONI), with the index predicted to peak during October–December 2026.",
+  "sources": [
+   {
+    "label": "Meteorological Service Singapore: El Niño/La Niña Status, 2026",
+    "url": "https://www.weather.gov.sg/climate-el-la/"
+   }
+  ]
+ },
+ {
+  "id": "e-india",
+  "where": "Regions",
+  "text": "India's Ministry of Earth Sciences (5 August 2026): El Niño has historically been associated with weaker Indian summer monsoon rainfall over parts of the country but is not the sole determinant; the Indian Ocean Dipole, the Madden-Julian Oscillation and regional ocean–atmosphere interactions also influence it. INCOIS assessed El Niño as likely to persist from June 2026 to February 2027, with probabilities of 70 to 90 per cent.",
+  "sources": [
+   {
+    "label": "Press Information Bureau, Ministry of Earth Sciences, India: Earth Sciences Minister explains El Nino and its Monsoon impact in Lok Sabha reply, 2026",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3"
+   }
+  ]
+ },
+ {
+  "id": "e-bd",
+  "where": "Regions",
+  "text": "Bangladesh Meteorological Department's monsoon outlook for July–September 2026 expected near-normal rainfall overall, with above-normal rainfall in the southeast, below-normal in the west and northwest, and above-normal temperature across the country.",
+  "sources": [
+   {
+    "label": "Bangladesh Meteorological Department with RIMES: Monsoon Outlook, July–September 2026, 2026",
+    "url": "https://instant.bmd.gov.bd/src/seasonal_forecast/SF_202607100900.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e-np",
+  "where": "Regions",
+  "text": "Nepal's Department of Hydrology and Meteorology data, as reported, show eight of nine El Niño years associated with reduced monsoon rainfall, but one with above-average rainfall.",
+  "sources": [
+   {
+    "label": "The Kathmandu Post (reporting DHM): An unusually rainy spring, a drier monsoon ahead: What's happening to Nepal's weather?, 2026",
+    "url": "https://kathmandupost.com/climate-environment/2026/06/02/an-unusually-rainy-spring-a-drier-monsoon-ahead-what-s-happening-to-nepal-s-weather"
+   }
+  ]
+ },
+ {
+  "id": "e-ph",
+  "where": "Regions",
+  "text": "PAGASA (El Niño Advisory No. 2, 6 July 2026): El Niño increases the likelihood of below-normal rainfall, which may bring dry spells and droughts in some areas, while above-normal rainfall may still occur over the western part of the country during the southwest monsoon (Habagat).",
+  "sources": [
+   {
+    "label": "PAGASA, Philippines: ENSO Advisory: El Niño Advisory No. 2, 2026",
+    "url": "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e-thermo",
+  "where": "Explainer",
+  "text": "NOAA's November discussion reports a deeper-than-average thermocline in the eastern Pacific.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
+  "id": "e-walker",
+  "where": "Explainer",
+  "text": "Warming in the central and eastern Pacific shifts the rising branch of the Walker Circulation eastward, while sinking branches shift over the Maritime Continent.",
+  "sources": [
+   {
+    "label": "NOAA Climate.gov: El Niño and La Niña: frequently asked questions, 2026",
+    "url": "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions"
+   }
+  ]
+ },
+ {
+  "id": "e-telecon",
+  "where": "Explainer",
+  "text": "ENSO is associated with large-scale atmospheric and oceanic teleconnections.",
+  "sources": [
+   {
+    "label": "WMO Bulletin, vol. 75(2): How ocean observations help us understand and forecast El Niño, 2026",
+    "url": "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino"
+   }
+  ]
+ }
+]

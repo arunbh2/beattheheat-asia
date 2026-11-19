@@ -106,6 +106,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)
 - [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/)
 - [One service, protected before the heat](https://beattheheat.asia/print/el-nino-worksheet/)
+- [El Niño and heat in Asia](https://beattheheat.asia/print/el-nino-briefing/)
 - [Practical actions: Outdoor and hot workplaces (1 of 2)](https://beattheheat.asia/print/actions-work/)
 - [Practical actions: Outdoor and hot workplaces (2 of 2)](https://beattheheat.asia/print/actions-work-2/)
 - [Practical actions: Homes](https://beattheheat.asia/print/actions-homes/)

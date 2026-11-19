@@ -54,6 +54,7 @@ module.exports = function elNino({ page, write, esc, hero, V }) {
       <p class="en-latest">Newer issue? ${ext(SRC[i.latest[0]].url, i.latest[1])}</p></li>`).join("")}</ul>
     <p class="en-none">${esc(O.none)}</p>
     ${srcFold([...O.items.flatMap(i => i.claims), ...O.noneClaims])}
+    <p class="en-review">How El Niño works, region by region: <a href="/el-nino/">El Niño and heat in Asia</a>. The same bulletin is on the <a href="/signals/#el-nino-watch">El Niño watch</a>.</p>
     <h3 class="en-h3">What a seasonal signal can and cannot tell a city</h3>
     <div class="en-cancan"><div><h3>It can</h3><p>${esc(T.SIGNAL.can.text)}</p></div><div><h3>It cannot</h3><p>${esc(T.SIGNAL.cannot)}</p></div></div>
     <p>${esc(T.SIGNAL.apart)}</p>

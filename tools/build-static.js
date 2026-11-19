@@ -569,6 +569,7 @@ const VT = require("./visibility-text.js");
 if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
 // ---- El Niño and the city: page by tools/build-el-nino.js, the same words from tools/el-nino-text.js ----
 md.push(require("./build-el-nino.js").md(SITE));
+md.push(require("./build-el-nino-explainer.js").md(SITE));
 // ---- who could help a household through a hot season: page by tools/build-social-protection.js, the same words from tools/social-protection-text.js ----
 const SPT = require("./social-protection-text.js");
 if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE));
