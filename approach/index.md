@@ -1,7 +1,7 @@
 ---
 title: "How Common Shade sees heat"
 url: https://beattheheat.asia/approach/
-updated: 2026-11-17
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -13,7 +13,7 @@ News and evidence
 
 A shared map for everyone working to protect people from extreme heat in South and Southeast Asia. These are the ideas it is built on, and the standards it holds itself to.
 
-## Six ideas
+## Seven ideas
 
 - 1
 
@@ -33,13 +33,21 @@ A shaded rest point needs land, water, someone to open it and money to keep it g
 
 - 3
 
+### Heat connects lives
+
+A hot day ties people together through the places, work and services they share, without giving them the same exposure or the same say over those conditions. Protection lasts when the people who depend on a shared arrangement help shape it, and someone is responsible for keeping it going.
+
+[Who shares the heat](https://beattheheat.asia/shared-heat/)
+
+- 4
+
 ### The missing middle
 
 The damage of heat is widely reported. The question asked less often is how protection is organised, paid for and kept going: who pays, who decides, who checks.
 
 [How heat is reported](https://beattheheat.asia/how-heat-is-reported/)
 
-- 4
+- 5
 
 ### Known, inferred, uncertain
 
@@ -47,7 +55,7 @@ Every claim says what kind of evidence stands behind it. Known means measured in
 
 [Sources and references](https://beattheheat.asia/sources/)
 
-- 5
+- 6
 
 ### Built together, open to correction
 
@@ -55,13 +63,40 @@ Common Shade is built with the people who use it. When something here is wrong, 
 
 [Corrections](https://beattheheat.asia/corrections/)
 
-- 6
+- 7
 
 ### A gap is a task to solve together
 
 Where the research found nothing, the site says so plainly. A gap describes what we found, never a fault of any country, city or organisation.
 
 [The heat network](https://beattheheat.asia/heat-network/)
+
+## Connected by the heat
+
+On a hot afternoon at a market, whether a porter can rest depends on whether leaving the queue costs a paid load. Whether a vendor has water depends on who orders the refill. Whether a child can learn depends on the classroom, and whether a parent keeps a shift depends on the school's hours. And whether any of them recovers overnight depends on water, electricity and the home they go back to.
+
+Heat ties these lives together through the places, work, institutions and services they share. Common Shade calls such groups communities of fate: people whose wellbeing becomes connected through shared conditions, even when their exposure, money, rights and say in decisions are far from equal. The connection can run beyond one street, along a commuting route, a labour contract, a supply chain or a public service.
+
+A lens, not a findingA way of looking, not a measured finding. Common Shade uses the phrase as a lens and does not trace it to a single thinker or theory.
+
+## What resilience means here
+
+The ability of people and institutions to see heat coming and reduce the risk, to respond when it arrives, to recover without falling further behind, and to change the arrangements that cause the same harm every year. It rests on a household's own means and skills as well as on shared services, institutions that take responsibility, and public investment.
+
+- **Before heat arrives**Preparing and preventing: resources agreed, people named, sites ready and tested.
+- **During heat**Protection people can actually use, and essential services such as water, power and clinics that keep running.
+- **After heat**Recovery of health, income and services, without new debt, lost work or a lost place in the queue.
+- **Between seasons**Learning what failed, maintaining what works, and changing what causes the same harm each year.
+
+When something is said to build resilience, it helps to ask:
+
+- Whose ability improves?
+- To withstand or respond to which disruption?
+- Through what service, resource, right or institutional change?
+- Who is responsible for keeping it going?
+- Who could still be left out, or end up paying more?
+
+[Follow one market through a hot season](https://beattheheat.asia/shared-heat/)
 
 ## How we check facts
 

@@ -89,9 +89,11 @@ for (const p of PATHS.paths) {
 require("./build-sof.js")({ page, write, esc, hero, V });
 
 // ---- How Common Shade sees heat ----
+const SH = require("./shared-heat-text.js");
 const IDEAS = [
   ["Heat is a system, not a single hazard", "One hot night costs sleep; lost sleep costs a shift; a lost shift costs a repayment. The map follows these links, so protection can be aimed where a cycle breaks.", "/#explore", "The map"],
   ["Protection is held up together", "A shaded rest point needs land, water, someone to open it and money to keep it going, and each belongs to a different body. Protection reaches people only when every part holds.", "/together/", "Make it work together"],
+  ["Heat connects lives", "A hot day ties people together through the places, work and services they share, without giving them the same exposure or the same say over those conditions. Protection lasts when the people who depend on a shared arrangement help shape it, and someone is responsible for keeping it going.", "/shared-heat/", "Who shares the heat"],
   ["The missing middle", "The damage of heat is widely reported. The question asked less often is how protection is organised, paid for and kept going: who pays, who decides, who checks.", "/how-heat-is-reported/", "How heat is reported"],
   ["Known, inferred, uncertain", "Every claim says what kind of evidence stands behind it. Known means measured in a study, or set out in an official record; models and projections are inferred; reports not yet confirmed are uncertain. An official record can show that a rule, plan or scheme exists and what it promises. Whether it was carried out, or worked, takes an evaluation or an independent report: where none is cited, read the claim as saying only that it exists.", "/sources/", "Sources and references"],
   ["Built together, open to correction", "Common Shade is built with the people who use it. When something here is wrong, unfair or unclear, we say sorry, correct it in the open and keep a record of what changed.", "/corrections/", "Corrections"],
@@ -110,13 +112,62 @@ const STANDARDS = [
 write("approach", page("approach", "How Common Shade sees heat", "The ideas behind Common Shade, and the standards every page follows: sourced, honest about evidence, careful in tone, and kept current.",
   `${hero("News and evidence", "How Common Shade sees heat", "A shared map for everyone working to protect people from extreme heat in South and Southeast Asia. These are the ideas it is built on, and the standards it holds itself to.")}
     <section class="container hub">
-      <h2 class="hub-h">Six ideas</h2>
+      <h2 class="hub-h">${["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"][IDEAS.length]} ideas</h2>
       <ol class="idea-list">${IDEAS.map(([h, p, u, t], i) => `<li><span class="path-n">${i + 1}</span><div><h3>${esc(h)}</h3><p>${esc(p)}</p><p class="path-read"><a href="${u}">${esc(t)} <span aria-hidden="true">→</span></a></p></div></li>`).join("")}</ol>
+      <h2 class="hub-h" id="shared-conditions">${esc(SH.INTRO.h)}</h2>
+      <p class="hub-p">${esc(SH.INTRO.scene)}</p><p class="hub-p">${esc(SH.INTRO.phrase)}</p>
+      <p class="hub-p cs-note"><span class="cs-note__label">A lens, not a finding</span>${esc(SH.INTRO.lens)}</p>
+      <h2 class="hub-h" id="resilience">What resilience means here</h2>
+      <p class="hub-p">${esc(SH.RESILIENCE.meaning)}</p>
+      <ul class="hub-grid hub-grid--plain">${SH.RESILIENCE.times.map(t => `<li class="std"><b>${esc(t.t)}</b><span>${esc(t.d)}</span></li>`).join("")}</ul>
+      <p class="hub-p">${esc(SH.RESILIENCE.ask)}</p><ul class="hub-p">${SH.RESILIENCE.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ul>
+      <p class="hub-p"><a href="/${SH.SLUG}/">${esc(SH.INTRO.go[1])} <span aria-hidden="true">→</span></a></p>
       <h2 class="hub-h" id="standards">How we check facts</h2>
       <ul class="hub-grid hub-grid--plain">${STANDARDS.map(([h, p]) => `<li class="std"><b>${esc(h)}</b><span>${esc(p)}</span></li>`).join("")}</ul>
       <h2 class="hub-h">An open collaborative</h2>
       <p class="hub-p">Common Shade is free to use, share and adapt under CC BY 4.0. It grows with the people who use it: corrections, studies, plans and data are welcome, and contributions are credited. <a href="/join/">Help build Common Shade</a> · <a href="/cite/">Cite and reuse</a></p>
     </section>`));
+
+// ---- Who shares the heat (/shared-heat/): the worked example of shared conditions and dependable protection (words: tools/shared-heat-text.js) ----
+{
+  const E = SH.EXAMPLE, ext = (u, t) => `<a href="${esc(u)}">${esc(t)}</a>`;
+  const people = list => `<ul class="sh-people">${list.map(([a, b]) => `<li><b>${esc(a)}</b> ${esc(b)}</li>`).join("")}</ul>`;
+  const step = (st, i) => `<li class="sh-step" id="${esc(st.id)}"><h3><span aria-hidden="true">${i + 1}</span>${esc(st.h)}</h3>
+    ${st.text ? `<p>${esc(st.text)}</p>` : ""}${st.people ? people(st.people) : ""}${st.tension ? `<p class="cs-note cs-note--watch"><span class="cs-note__label">Where they disagree</span>${esc(st.tension)}</p>` : ""}
+    ${st.rows ? `<div class="sh-tablewrap" role="region" aria-label="${esc(st.h)}" tabindex="0"><table class="sh-table"><caption>Who authorises, pays, runs and fixes each arrangement</caption><thead><tr>${st.heads.map(h => `<th scope="col">${esc(h)}</th>`).join("")}</tr></thead>
+      <tbody>${st.rows.map(r => `<tr>${r.map((c, j) => j ? `<td data-label="${esc(st.heads[j])}">${esc(c)}</td>` : `<th scope="row">${esc(c)}</th>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}
+    ${st.list ? `<ul class="sh-list">${st.list.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</li>`;
+  const body = `${hero("Understand heat", esc(SH.TITLE), esc(SH.DESC))}
+    <section class="container hub sh">
+      <h2 class="hub-h" id="connected">${esc(SH.INTRO.h)}</h2>
+      <p class="hub-p sh-lede">${esc(SH.INTRO.scene)}</p>
+      <p class="hub-p">${esc(SH.INTRO.phrase)}</p>
+      <p class="hub-p">${esc(SH.INTRO.resilience)} <a href="/approach/#resilience">What resilience means here</a>.</p>
+      <p class="hub-p cs-note"><span class="cs-note__label">A lens, not a finding</span>${esc(SH.INTRO.lens)}</p>
+      <h2 class="hub-h" id="unequal">${esc(SH.UNEQUAL.h)}</h2>
+      <p class="hub-p">${esc(SH.UNEQUAL.text)}</p>
+
+      <h2 class="hub-h" id="example">One market through one hot season</h2>
+      <p class="hub-p cs-note cs-note--example"><span class="cs-note__label">${esc(E.label)}</span>${esc(E.labelNote)}</p>
+      <ol class="sh-steps">${E.steps.map(step).join("")}</ol>
+      <h3 class="sh-h3" id="season">Through the season</h3>
+      <ul class="hub-grid hub-grid--plain sh-times">${SH.RESILIENCE.times.map(t => `<li class="std"><b>${esc(t.t)}</b><span>${esc(E.times[t.id])}</span></li>`).join("")}</ul>
+      <div class="cs-note sh-question"><span class="cs-note__label">The question</span><p>${esc(E.question)}</p></div>
+
+      <h2 class="hub-h" id="reliable">${esc(SH.RELIABLE.h)}</h2>
+      <p class="hub-p">${esc(SH.RELIABLE.intro)}</p>
+      <ul class="hub-grid hub-grid--plain">${SH.RELIABLE.items.map(x => `<li class="std"><b>${esc(x.t)}</b><span>${esc(x.d)}</span></li>`).join("")}</ul>
+
+      <h2 class="hub-h" id="elsewhere">${esc(E.elsewhere.h)}</h2>
+      <p class="hub-p">${esc(E.elsewhere.intro)}</p>
+      <ul class="hub-grid hub-grid--plain">${E.elsewhere.items.map(x => `<li class="std" id="lens-${esc(x.id)}"><b>${esc(x.t)}</b><span><strong>Who shares it:</strong> ${esc(x.who)}</span><span>${esc(x.link)}</span><span><strong>Who can shape it:</strong> ${esc(x.voice)}</span><span>${x.links.map(([u, t]) => ext(u, t)).join(" · ")}</span></li>`).join("")}</ul>
+
+      <h2 class="hub-h">Go further</h2>
+      <ul class="hub-grid hub-grid--plain">${E.related.map(([u, t, d]) => `<li class="std"><b><a href="${esc(u)}">${esc(t)}</a></b><span>${esc(d)}</span></li>`).join("")}</ul>
+      <p class="hub-p">Questions to bring to a preparedness commitment are on <a href="/signals/#commitment-questions">Signals</a>; the planning workbook ends with <a href="/plan/#shared-plan">four questions about shared arrangements</a>.</p>
+    </section>`;
+  write(SH.SLUG, page(SH.SLUG, SH.TITLE, SH.DESC, body, `\n  <link rel="stylesheet" href="/${SH.SLUG}/shared.css?v=${V}">`));
+}
 
 
 const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "people.json"), "utf8"));
@@ -233,6 +284,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
         <li class="std"><b>No scores, no comparisons</b><span>Counts describe our research, not anyone’s performance. Organisations are never ranked against each other.</span></li>
         <li class="std"><b>Help fill the gaps</b><span>If you hold one of these parts, or know who does, <a href="/corrections/">please tell us</a> and we will add it with credit.</span></li>
       </ul>
+      <p class="hub-p">${esc(SH.UNEQUAL.text)} <a href="/${SH.SLUG}/">${esc(SH.INTRO.go[1])}</a>.</p>
       <p class="hub-p"><a href="/together/">Make it work together</a>: agree who does what in one place · <a href="/heat-network/">The heat network</a>: every organisation · <a href="/worked-plans/">Worked plans</a></p>
     </section>
     <script>window.WHO=${JSON.stringify(DATA).replace(/</g, "\\u003c")};</script><script src="/who-holds-it/holds.js?v=${V}" defer></script>`));

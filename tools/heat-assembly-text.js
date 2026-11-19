@@ -258,6 +258,7 @@ const T = {
     open: "Open the full game", fullscreen: "Continue on the game's own page"
   },
   links: [
+    ["/shared-heat/", "This market town through a whole season"],
     ["/actions/#heatrules", "Heat-safe work"],
     ["/actions/#coolingcentres", "Cooling centres and check-ins"],
     ["/actions/#heatcash", "Income protection in heatwaves"],

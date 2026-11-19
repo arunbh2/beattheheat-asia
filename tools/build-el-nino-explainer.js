@@ -4,6 +4,7 @@
 // GitHub source check. The page reads in full without JavaScript: the schematic shows all three states, every region and every
 // role are listed; el-nino/el-nino.js turns them into toggles. Called by tools/build-pages.js.
 "use strict";
+const SH = require("./shared-heat-text.js");
 const fs = require("fs"), path = require("path");
 const T = require("./el-nino-explainer-text.js"), EO = require("./enso-outlook.js");
 const ROOT = path.join(__dirname, "..");
@@ -121,6 +122,7 @@ module.exports = function elNinoExplainer({ page, write, esc, hero, V }) {
     <h2 class="hub-h" id="enx-daily-h">How it can travel through daily life</h2>
     <p>Each chain below may happen; whether it does depends on local conditions, which are what preparation can change.</p>
     <ol class="enx-paths">${T.PATHWAYS.map(p => `<li><p class="enx-chain">${p.chain.map((c, i) => `<span>${e(c)}</span>${i < p.chain.length - 1 ? '<i aria-hidden="true">→</i><span class="visually-hidden">, which can lead to </span>' : ""}`).join("")}</p><p>${e(p.when)}</p><p class="enx-small">On Common Shade: ${p.links.map(([u, t]) => `<a href="${e(u)}">${e(t)}</a>`).join(" · ")}</p>${p.claims ? cite(p.claims) : ""}</li>`).join("")}</ol>
+    <h3 class="enx-h3">Where the pathways meet</h3><p>${e(SH.ELNINO)} <a href="/${SH.SLUG}/">${e(SH.INTRO.go[1])}</a>.</p>
     <h3 class="enx-h3">Who has fewer choices</h3><p>${e(T.WHO)}</p>
     <div class="enx-illu"><span class="enx-tag">${e(T.HOUSEHOLD.label)}</span><p>${e(T.HOUSEHOLD.text)}</p></div>
   </section>
@@ -172,7 +174,7 @@ module.exports.md = SITE => {
     "### What El Niño is", ...ps(T.WHAT), `Schematic (illustrative): ${Object.values(T.SCHEMATIC.states).map(s => `${s.label}: ${s.text}`).join(" ")}`,
     "### How a change in the Pacific reaches Asia", ...ps(T.ASIA),
     "### South and Southeast Asia, region by region", ...T.REGIONS.map(r => `- ${r.name}. Historical pattern: ${r.typical} This season: ${r.now} Cannot be inferred: ${r.cannot} Service: ${r.service[0]} (${r.service[1]})${r.service2 ? `; ${r.service2[0]} (${r.service2[1]})` : ""}. Question: ${r.question}`),
-    "### How it can travel through daily life", ...T.PATHWAYS.map(p => `- ${p.chain.join(" -> ")}. ${p.when}`), T.WHO, `Illustrative: ${T.HOUSEHOLD.text}`,
+    "### How it can travel through daily life", ...T.PATHWAYS.map(p => `- ${p.chain.join(" -> ")}. ${p.when}`), `Where the pathways meet: ${SH.ELNINO}`, T.WHO, `Illustrative: ${T.HOUSEHOLD.text}`,
     "### The current outlook", EO.md(SITE), ...T.READ.map(r => `- ${r.h}: ${r.d} Example: ${r.ex}`), ...T.UNCERTAINTY.p, T.DISAGREE,
     "### From outlook to preparation", ...T.STEPS.map(s => `- ${s.when}: ${s.do} Who might lead: ${s.who}. Confirm locally: ${s.confirm}.`), T.STEPS_NOTE,
     ...T.ROLES.map(r => `- ${r.label}: ${r.items.join(" ")}`),

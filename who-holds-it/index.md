@@ -1,7 +1,7 @@
 ---
 title: "Who holds it up"
 url: https://beattheheat.asia/who-holds-it/
-updated: 2026-10-01
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -32,6 +32,8 @@ The organisations shown are those whose published work relates to each action. I
 - **No scores, no comparisons**Counts describe our research, not anyone’s performance. Organisations are never ranked against each other.
 
 - **Help fill the gaps**If you hold one of these parts, or know who does, [please tell us](https://beattheheat.asia/corrections/) and we will add it with credit.
+
+People in the same street, market or workplace share the same hot afternoon, but not the same exposure, money, rights or say over what changes. Shared consequences do not make responsibility equal, and they do not create agreement on their own. Protection tends to hold better when the people most exposed take a real part in decisions: organising, negotiating, and bringing what they know about their own day. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
 
 [Make it work together](https://beattheheat.asia/together/): agree who does what in one place · [The heat network](https://beattheheat.asia/heat-network/): every organisation · [Worked plans](https://beattheheat.asia/worked-plans/)
 

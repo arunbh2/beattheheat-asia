@@ -75,6 +75,7 @@ module.exports = function intersections({ page, write, esc, V, D }) {
           <span>From the Climate Resilience Center (Arsht-Rock’s One Billion Resilient), with Minecraft Education and Rewrite Edu: two games, Heat Wave Survival and Power Grid Hero, and a Build Challenge. Students learn to recognise heat exhaustion and heatstroke and respond with simple steps such as fans and water, and see how parks, reflective surfaces and shade can cool a city.</span></li>
         <li class="std"><b><a href="/a-night-in-the-heat/">A night in the heat</a></b><span>Stay with an older woman living alone, a pregnant woman or a family with a baby through a hot night and a clinic visit.</span></li>
         <li class="std"><b><a href="/who-is-at-risk/">Who heat hits hardest</a></b><span>${(D.AT_RISK || []).length} groups, the barriers between them and safety, and what helps.</span></li>
+        <li class="std"><b><a href="/shared-heat/">Who shares the heat</a></b><span>The same heat ties a porter, a carer and a tea seller together, without giving them the same say. One market followed through a hot season.</span></li>
       </ul>
       <p class="ix-more">We will be adding many more resources. If you know one that belongs here, we would be glad to <a href="/join/#join-form">hear about it</a>.</p>
     </section>

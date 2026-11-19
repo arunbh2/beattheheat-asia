@@ -41,11 +41,23 @@ A practical guide for municipal teams and community organisations in Tier 2 and 
 
 [Open the guide](https://beattheheat.asia/el-nino-and-cities/)
 
+**Watch: Eight questions every action answers** · 0:30 · narrated, captions in the picture
+
+## What keeps protection working
+
+A shade, a water point or a rest break protects people only while it keeps working. Five things usually decide whether it does:
+
+- **Ownership and authority:** Someone holds the site and can say yes, and everyone knows who.
+- **Operating money and maintenance:** Money for water, cleaning and repairs through the season, not only to build.
+- **Staffing and access:** Someone opens it at the hours people need it, and people can reach it: step-free, close to their work, without losing pay or a place.
+- **A say for workers and residents:** The people who use it help decide where it goes and when it opens, and can raise a problem without risk to their work.
+- **Monitoring, and a way to fix failures:** A way to report a failure, someone who fixes it, and a record of how long it took.
+
+Each card below says what it takes to run. [See who authorises, pays, runs and fixes each part in one worked example](https://beattheheat.asia/shared-heat/#resources).
+
 Evidence labels: **Design concept**: Designed, but not yet tried by the people it is for. **Simulation or test**: Tried in a drill, simulation or small trial. **Reported, not evaluated**: Described by those running it or in the news; nobody independent has checked the results. **Official guidance or data**: What a government or UN agency advises or counts. It shows what is expected, not what works. **Measured in a study**: A study, survey or analysis measured it, often the size of the problem rather than the effect of the fix. **Independently evaluated**: Someone outside the programme measured whether the action worked.
 
 **Start from a question:** [How do I protect outdoor workers?](#work) · [How do I cool homes or classrooms?](#homes) · [What could our municipality do before summer?](#summer) · [Why are our interventions failing?](https://beattheheat.asia/#stalls) · [What would this mean for one worker?](#heatweek) · [How do we pay for protection?](https://beattheheat.asia/paying-for-protection/)
-
-**Watch: Eight questions every action answers** · 0:30 · narrated, captions in the picture
 
 ## Outdoor and hot workplaces
 

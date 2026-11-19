@@ -225,6 +225,10 @@ On Common Shade: [Intersections](https://beattheheat.asia/intersections/)
 
 Sources: [ASEAN Specialised Meteorological Centre, 16 October 2026](https://asmc.asean.org/asmc-el-nino/) · [ASEAN Specialised Meteorological Centre, 5 November 2026](https://asmc.asean.org/asmc-seasonal-outlook/)
 
+### Where the pathways meet
+
+These pathways tend to meet in the same places. A pump that needs power, a clinic that needs water, a worker who cannot afford a break and a school that closes early can all fall on one household in the same week. Which of them matters depends on the local season and on how a town's services are arranged, which is why the outlook alone cannot say. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
+
 ### Who has fewer choices
 
 The same dry, hot season lands differently. A street vendor who cannot leave a stall, a construction worker paid by the day, an older person living alone under a tin roof, a person with a disability who cannot reach a cooling space, and a mother who stays home when the school shuts all face the heat with fewer choices than a salaried office worker with a fan and a refrigerator.

@@ -29,6 +29,7 @@ What extreme heat does, where, to whom, and how one harm leads to the next.
 - [Heatwaves that shaped Asia10 heatwaves, 1998 to 2026, and what changed after](https://beattheheat.asia/heatwaves/)
 - [El Niño and heat in AsiaHow a Pacific pattern can shift heat and rain across Asia, and how to read the outlook](https://beattheheat.asia/el-nino/)
 - [How heat became visibleWhen science, health, labour and the UN began to notice heat](https://beattheheat.asia/how-heat-became-visible/)
+- [Who shares the heatHow a hot day ties lives together, and what makes protection last: one market through a season](https://beattheheat.asia/shared-heat/)
 - [A day in a heatwaveEight hours, seven places across Asia](https://beattheheat.asia/#day)
 - [The web of heatEvery consequence, system by system, as textOn the path for: Research](https://beattheheat.asia/the-web/)
 - [Vicious cyclesEach cycle, its evidence and what breaks it, as text](https://beattheheat.asia/loops/)

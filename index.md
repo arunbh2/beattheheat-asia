@@ -111,6 +111,12 @@ How heat, work and the body add up
 
 People in the same community may need different routes to the same outcome: **livelihood security and dignity.**
 
+Connected by the heatOn a hot afternoon at a market, whether a porter can rest depends on whether leaving the queue costs a paid load. Whether a vendor has water depends on who orders the refill. Whether a child can learn depends on the classroom, and whether a parent keeps a shift depends on the school's hours. And whether any of them recovers overnight depends on water, electricity and the home they go back to.
+
+Heat ties these lives together through the places, work, institutions and services they share. Common Shade calls such groups communities of fate: people whose wellbeing becomes connected through shared conditions, even when their exposure, money, rights and say in decisions are far from equal. The connection can run beyond one street, along a commuting route, a labour contract, a supply chain or a public service.
+
+Building resilience, in this sense, means giving people a greater say in those shared conditions and making protection dependable: something a household can count on, not a project that ends with its funding. [Follow one market through a hot season ](https://beattheheat.asia/shared-heat/)
+
 - [Intersections: a game about who protection reaches, and why](https://beattheheat.asia/intersections/)
 - [Who heat hits hardest, as one page](https://beattheheat.asia/who-is-at-risk/)
 

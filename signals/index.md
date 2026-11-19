@@ -45,6 +45,14 @@ Checked against an original source Reported by secondary sources; original not c
 
 Commitment Something an institution has promised or started; it climbs the ladder.Gathering A conference or forum where the field meets; what it produces may become commitments.Finding New science that changes how heat is understood.Guidance A framework or guide published for others to use.
 
+Questions to bring to a commitmentAn announcement is a start, not protection. These questions help read one; the record shows only what its evidence shows.
+
+- Which people and services does it cover?
+- Who can authorise action when heat arrives?
+- Are money and staff there when they are needed?
+- Can the people affected shape how it is delivered?
+- What evidence would show that protection reached people?
+
 El Niño watch
 
 ## Implications for Asia's next hot season
@@ -76,6 +84,8 @@ A Pacific probability does not give any town's chance of a heatwave, a water sho
 This panel reflects NOAA's discussion of 12 November 2026. NOAA's next discussion is scheduled for 10 December 2026.
 
 [NOAA's discussion](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [NOAA's ENSO probabilities](https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/) · [ASMC's regional outlook](https://asmc.asean.org/asmc-seasonal-outlook/) · [WMO's seasonal update](https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026) · [El Niño and heat in Asia, explained](https://beattheheat.asia/el-nino/)
+
+A hot, dry season can strain water, power, work, schools and care at once, in the same households. [How these pathways connect](https://beattheheat.asia/el-nino/#daily), and why the outlook alone cannot say which matters where.
 
 An outlook is a finding, not a commitment, so it stays outside the commitments above. The finding is tracked as [El Niño set to bring more heat into 2027](#sig-el-nino-2026-2027); preparedness commitments made in response are tracked as their own records: [WHO responds to El Niño's health risks at Grade 3](#sig-who-el-nino-response-2026) · [The Philippines issues guidelines on heat stress at work and on compensation for heat illness](#sig-philippines-heat-stress-advisories-2026).
 

@@ -226,7 +226,7 @@ Ask which schools are open, on which dates and at what hours during the hot week
 
 - What changes on a heat-warning day
 
-Something within the school's own authority: hold the morning assembly in the shaded area instead of the open yard, and check that the drinking-water point works before pupils arrive. Changes to school hours or closures follow the education department and the state or district heat action plan.
+Something within the school's own authority: hold the morning assembly in the shaded area instead of the open yard, and check that the drinking-water point works before pupils arrive. Changes to school hours or closures follow the education department and the state or district heat action plan. A shorter school day also moves care to families and can cost a parent paid work, so changes are easier to carry when agreed with families early.
 
 [Find your state's and district's heat action plan](https://beattheheat.asia/resources/heat-action-plans/india/) · [Water, and time to drink it](https://beattheheat.asia/practical-actions/#schools-water) · [Heat-ready timetables](https://beattheheat.asia/practical-actions/#schools-timetable)
 

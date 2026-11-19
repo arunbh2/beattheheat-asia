@@ -1,7 +1,7 @@
 ---
 title: "Vicious cycles of extreme heat, and where they can be broken | Common Shade"
 url: https://beattheheat.asia/loops/
-updated: 2026-11-16
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -176,6 +176,15 @@ News report of a World Bank early estimate · Northern Vietnam · National, one 
 - 14 of India’s 20 largest thermal utilities shut down at least once for lack of water between 2013 and 2016. Water shortages cost 14 TWh of power in 2016. [World Resources Institute, 2018](https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns)
 Research institute analysis · India · 20 largest thermal utilities, 2013–2016. Limit: Data from before 2017; plants and water rules have changed since.
 
+#### Who depends on whom
+
+- **Who depends on it:** Households, clinics, water pumps and cooling draw on the same grid on the same hot afternoons.
+- **Where one choice changes another's options:** When supply is cut in one area to keep another running, the pumps and fans in that area stop first.
+- **A shared arrangement that could help:** Agreed priority supply for water pumping and health facilities, with storage at shared sites.
+- **Where the cost could land:** Households that buy diesel, tankers or bottled water to cope.
+
+Our reading, an illustration of the connections; the evidence for the cycle is above. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
+
 [Follow it on the map](https://beattheheat.asia/#loop-energywater) · [Watch the film (0:46)](https://beattheheat.asia/media/loops/energywater.mp4)
 
 ### The groundwater loop
@@ -299,6 +308,15 @@ Peer-reviewed global assessment · Global · Global indicators. Limit: Potential
 - Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion, about 0.4% of GDP. Since 1980 the ‘feels-like’ temperature has risen by 4.5 °C. [World Bank, 2025](https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank)
 Agency report · Bangladesh · National survey and model. Limit: Combines survey and modelling; the money value is an upper estimate.
 
+#### Who depends on whom
+
+- **Who depends on it:** Workers paid per piece or per load, the contractors and employers above them, and buyers further along the chain.
+- **Where one choice changes another's options:** A buyer's deadline sets how hard someone works in the heat, and whether a break costs pay.
+- **A shared arrangement that could help:** Paid rest written into contracts and purchasing terms, so the cost is shared along the chain.
+- **Where the cost could land:** The worker, in lost earnings, when a break has no pay protection.
+
+Our reading, an illustration of the connections; the evidence for the cycle is above. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
+
 [Follow it on the map](https://beattheheat.asia/#loop-poverty) · [Watch the film (0:50)](https://beattheheat.asia/media/loops/poverty.mp4)
 
 ### The medical-debt trap
@@ -415,6 +433,15 @@ News report · Philippines · 5,288 schools, April 2024. Limit: A snapshot of on
 - Bangladesh closed schools for about 33 million children in its April 2024 heatwave, and Cambodia cut the school day by two hours. [NBC News, 2024](https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485)
 News report · Bangladesh and Cambodia · National, April 2024. Limit: News figures from official announcements.
 
+#### Who depends on whom
+
+- **Who depends on it:** Pupils, teachers, support staff, and families whose working day follows the school day.
+- **Where one choice changes another's options:** When a school shortens hours or closes in the heat, care moves to whoever is at home, and that person can lose a shift.
+- **A shared arrangement that could help:** Cooler classrooms, and heat-day timetables agreed with families, so hours change without dropping care.
+- **Where the cost could land:** Unpaid carers, and children who lose learning time.
+
+Our reading, an illustration of the connections; the evidence for the cycle is above. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
+
 [Follow it on the map](https://beattheheat.asia/#loop-school) · [Watch the film (0:45)](https://beattheheat.asia/media/loops/school.mp4)
 
 ### The sleepless-nights loop
@@ -447,6 +474,15 @@ Peer-reviewed review and meta-analysis · Global · 114 studies. Limit: Shows an
 Research institute analysis · India, by district · All districts, 1982–2022. Limit: Based on reanalysis data, which can miss very local differences.
 - Tamil Nadu’s summer minimum temperatures have risen by about 0.75 °C since the 1980s, and about 56% of its people now live where summer nights are warmer than the 1981–2011 average. [Tamil Nadu State Planning Commission, 2024](https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
 Government strategy · Tamil Nadu, India · State-wide. Limit: State-level averages; neighbourhoods differ.
+
+#### Who depends on whom
+
+- **Who depends on it:** Tenants, landlords, power utilities and municipal services each shape how hot a room stays at night.
+- **Where one choice changes another's options:** A landlord's roof, a night power cut and a street without trees decide whether a tenant can cool the room.
+- **A shared arrangement that could help:** Roof and repair standards for rented homes, reliable night supply, and shaded, ventilated streets.
+- **Where the cost could land:** Tenants, if the cost of a cooler roof is added to the rent.
+
+Our reading, an illustration of the connections; the evidence for the cycle is above. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
 
 [Follow it on the map](https://beattheheat.asia/#loop-sleep) · [Watch the film (0:45)](https://beattheheat.asia/media/loops/sleep.mp4)
 
@@ -610,6 +646,15 @@ Agency report · Global · Global assessment. Limit: About wildfire budgets; we 
 Research institute review · India · 37 heat action plans. Limit: Plans as of 2023; several have been updated since.
 - In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds. [Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026](https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push)
 Government statement, reported by the press · India · National. Limit: A rule change; how money flows in practice is still to be seen.
+
+#### Who depends on whom
+
+- **Who depends on it:** Every service waiting on the same emergency budget: health, water and relief.
+- **Where one choice changes another's options:** Money held until damage is visible arrives after households have already spent their savings.
+- **A shared arrangement that could help:** Budgets agreed before the season that release on a forecast or an alert.
+- **Where the cost could land:** Households that borrow or sell what they own to get through.
+
+Our reading, an illustration of the connections; the evidence for the cycle is above. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
 
 [Follow it on the map](https://beattheheat.asia/#loop-reactive) · [Watch the film (0:44)](https://beattheheat.asia/media/loops/reactive.mp4)
 

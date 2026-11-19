@@ -1,7 +1,7 @@
 ---
 title: "Paying for heat protection: who pays, how money arrives, and whether it lasts | Common Shade"
 url: https://beattheheat.asia/paying-for-protection/
-updated: 2026-11-16
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -59,6 +59,16 @@ When money goes first to a government, cooperative or microfinance institution, 
 - What evidence would make you change it, or stop it?
 
 [Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 58–59](https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/)
+
+## Who pays first, and who keeps paying
+
+Setting protection up is often paid once, from a budget or a grant. Running it comes back every season, and that cost lands somewhere. Three common ways it moves, as illustrations:
+
+- **Onto households:** A cooling space open only by day leaves the cost of a hot night (fans, power, water) to each household.
+- **Onto informal workers:** A rest break with no pay protection is paid for by the worker, in lost loads or lost sales.
+- **Onto unpaid carers:** Shorter school or childcare hours on hot days move care to whoever is at home, and can cost that person paid work.
+
+For any measure, ask who paid to set it up, who pays to run it each season, and who pays if it stops. Proposed, funded and operating are different states; the cases on this page say which each one is.
 
 ## When heat reaches lenders
 

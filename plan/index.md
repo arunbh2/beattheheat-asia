@@ -1,7 +1,7 @@
 ---
 title: "Plan a response to extreme heat | Common Shade"
 url: https://beattheheat.asia/plan/
-updated: 2026-11-13
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -63,6 +63,17 @@ Tick what you expect to get in the way. Each one adds what has moved it elsewher
 
 6 Check it against WHO’s eight core elements
 WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above. To assess how ready your institutions are to deliver, run the self-assessment in the [Extreme Heat Risk Governance Framework and Toolkit ](https://heathealth.info/resources/heat-gov-framework/) (GHHIN, UNDRR and WMO, 2025) as a facilitated workshop; it is a first edition, written mainly for national governments.
+
+## Before the plan is finished: four questions
+
+A plan holds up when it names the shared arrangement it depends on. Check that yours answers:
+
+- **The shared service or arrangement.** Which one needs to improve: a water point's refill, a school timetable, a queue rule, a night supply of power?
+- **Who controls it, and who depends on it.** The body that can change it, and the people whose day depends on it, including those with no seat at the table yet.
+- **The next agreement.** The one decision or agreement needed next, and who has to say yes.
+- **How to check it works for different people.** One observable check, read for people in different circumstances: a porter paid per load, a carer, an older person who cannot walk far.
+
+[See it worked through for one market ](https://beattheheat.asia/shared-heat/)
 
 **Find tools for this decision.** Before you name triggers and payers, compare the warning services, assessments and guidance that could inform them, with what each cannot tell you. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?decision=check_warnings,prioritise_places,plan_response)
 

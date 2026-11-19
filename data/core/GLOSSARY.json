@@ -287,6 +287,22 @@
     "text": "A response to heat that makes things worse elsewhere or later, such as air conditioners that cool a room but heat the street."
   },
   {
+    "id": "communityoffate",
+    "group": "act",
+    "term": "Community of fate",
+    "match": "communities of fate",
+    "auto": false,
+    "text": "People whose wellbeing becomes connected through shared places, work, institutions, services or ecological conditions, such as a market, a school's catchment or a supply chain, even when their exposure, money, rights and say in decisions are unequal. Common Shade uses the phrase as a lens, not a measured finding: see Who shares the heat (beattheheat.asia/shared-heat/)."
+  },
+  {
+    "id": "resilience",
+    "group": "act",
+    "term": "Resilience",
+    "match": "resilience",
+    "auto": false,
+    "text": "As Common Shade uses it: the ability of people and institutions to see heat coming and reduce the risk, respond when it arrives, recover without falling further behind, and change the arrangements that cause the same harm every year. It rests on a household's own means and on dependable shared services, institutions and public investment."
+  },
+  {
     "id": "mrt",
     "group": "measure",
     "term": "Mean radiant temperature",
