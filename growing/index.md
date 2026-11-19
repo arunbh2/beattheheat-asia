@@ -5,7 +5,7 @@ updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 75 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 76 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-75 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,121 works the commons draws on carry a publication date, and 808 are still being dated.
+76 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,122 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -53,6 +53,30 @@ The plan's heat chapter and its call for a formal heat action plan.
 [Open the record](https://beattheheat.asia/resources/heat-action-plans/india/#IN-MH-CITY-JALGAON-CAP)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20India%20archive%20adds%20Jalgaon's%20climate%20action%20plan%2C%20with%20its%20heat%20chapter&ref=g-hap-jalgaon#way-share)
+
+Connection documented · Practical measures
+
+### From what clinicians report to the guidance they can already use
+
+Added 19 November 2026 · Guidance linked 19 November 2026
+
+Why it matters our readingThe clinicians' survey presented at COP31 now leads straight to India's own guidance on heat and pregnancy, published by the health ministry and UNFPA India in May 2026 for healthcare providers and community health workers. It sits beside the survey on Signals and Who is at risk, and among the guides for heat-safe pregnancy and newborn care.
+
+- India
+- Pregnant women, babies and young children
+- Heat-safe pregnancy and newborn care
+
+ReviewThe guidance page passed the GitHub check in the gap-lens batch with every term found (its date, the heat-risk checklist, functional referral systems, breastfeeding); only those terms are described.
+
+How it connects
+
+- [Heat-safe pregnancy and newborn care](https://beattheheat.asia/actions/#maternalheat) Action · from the site's records
+The guidance is written for the people who deliver heat-safe pregnancy and newborn care.
+
+[See the guides for heat-safe pregnancy](https://beattheheat.asia/actions/#maternalheat)
+[Signals](https://beattheheat.asia/signals/)[Who is at risk](https://beattheheat.asia/who-is-at-risk/)[Actions](https://beattheheat.asia/actions/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=From%20what%20clinicians%20report%20to%20the%20guidance%20they%20can%20already%20use&ref=g-maternal-guidance-india#way-share)
 
 Evidence added · Evidence
 
@@ -2416,11 +2440,11 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-245 works published, 142 of them with a known month; 1,121 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+246 works published, 142 of them with a known month; 1,122 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
-- Evidence408
+- Evidence409
 - Experience98
 - Practical measures247
 - Institutions and plans138

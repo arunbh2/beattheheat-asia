@@ -189,6 +189,8 @@ In consultations for Bangkok's financing strategy, participants said heat respon
 
 In a survey commissioned by Wellcome, 98% of 1,000 maternity and newborn clinicians in five countries, India among them, said they had cared for a pregnant woman whose health they believed extreme heat had harmed. These are clinicians’ reports, not measured outcomes. [Wellcome, 2026: survey of 1,000 healthcare professionals in pregnancy and newborn care (Censuswide, September 2026)](https://wellcome.org/heat-and-pregnancy)
 
+For India, the health ministry and UNFPA India published guidance on heat and pregnancy for healthcare providers and community health workers on 6 May 2026, with a heat-risk checklist, preparedness for health facilities including functional referral systems, and counselling that covers breastfeeding. [Ministry of Health and Family Welfare and UNFPA India, 2026: Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers)
+
 **What helps:** [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Heat action plans](https://beattheheat.asia/actions/#hap), [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 
 **Watch:** [Older people and heat (0:42)](https://beattheheat.asia/media/glossary/olderheat.mp4), [Heat check-ins (0:37)](https://beattheheat.asia/media/glossary/checkins.mp4), [Sleep in the heat (0:36)](https://beattheheat.asia/media/glossary/sleepheat.mp4). Or [live through a hot night](https://beattheheat.asia/a-night-in-the-heat/).

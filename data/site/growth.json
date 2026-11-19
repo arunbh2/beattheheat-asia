@@ -692,6 +692,16 @@
       "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
     },
     {
+      "id": "g-maternal-guidance-india", "kind": "connection", "root": "practical", "added": "2026-11-19", "pr": null,
+      "title": "From what clinicians report to the guidance they can already use",
+      "why": "The clinicians' survey presented at COP31 now leads straight to India's own guidance on heat and pregnancy, published by the health ministry and UNFPA India in May 2026 for healthcare providers and community health workers. It sits beside the survey on Signals and Who is at risk, and among the guides for heat-safe pregnancy and newborn care.",
+      "places": ["india"], "people": ["mothers"], "topics": ["maternalheat"],
+      "event": { "what": "Guidance linked", "date": "2026-11-19" },
+      "review": "The guidance page passed the GitHub check in the gap-lens batch with every term found (its date, the heat-risk checklist, functional referral systems, breastfeeding); only those terms are described",
+      "pages": [["/signals/", "Signals"], ["/who-is-at-risk/", "Who is at risk"], ["/actions/", "Actions"]], "action": ["See the guides for heat-safe pregnancy", "/actions/#maternalheat"],
+      "links": [{ "to": "lever:maternalheat", "why": "The guidance is written for the people who deliver heat-safe pregnancy and newborn care.", "basis": "record" }]
+    },
+    {
       "id": "g-signals-cop31-checkin-4", "kind": "evidence", "root": "evidence", "added": "2026-11-19", "pr": null,
       "title": "COP31, fourth check-in: what maternity and newborn clinicians report seeing",
       "why": "A survey commissioned by Wellcome, presented at COP31, asked 1,000 clinicians in pregnancy and newborn care in five countries, India among them, what heat is doing to the women and babies they care for. It joins the watch as a finding, labelled as clinicians' reports rather than measured outcomes, and the pregnant women group on Who is at risk now carries it too.",

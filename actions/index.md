@@ -588,6 +588,7 @@ Sources: [Tamil Nadu Heat Mitigation Strategy, 2024](https://spc.tn.gov.in/wp-co
 ### Practical guides
 
 - [Protecting maternal, newborn and child health from the impacts of climate change: a call for action](https://www.who.int/publications/i/item/9789240085350) WHO, UNICEF and UNFPA, 2023
+- [Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers) Ministry of Health and Family Welfare and UNFPA India, 2026
 
 [See it on the map](https://beattheheat.asia/#break-maternalheat)
 

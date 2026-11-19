@@ -5532,6 +5532,15 @@
    "org": false
   },
   {
+   "url": "https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers",
+   "label": "Ministry of Health and Family Welfare and UNFPA India, 2026: Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers",
+   "root": "evidence",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://indiaclimatecollaborative.org/blog/centering-workers-in-heat-resilience-from-lived-experience-to-systemic-action",
    "label": "Jan Sahas",
    "root": "institutions",
