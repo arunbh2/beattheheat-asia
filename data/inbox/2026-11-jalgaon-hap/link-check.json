@@ -1,0 +1,53 @@
+{
+ "_terms": {
+  "https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/": {
+   "Jalgaon": true,
+   "Jalgaon City Municipal Corporation": true,
+   "Mahila Housing Trust": true,
+   "ward-level": true,
+   "threshold": false,
+   "early warning": true,
+   "August 2026": false
+  },
+  "https://uoftindiafoundation.com/heat-action-plans-indian-cities/": {
+   "Jalgaon": true,
+   "University of Toronto India Foundation": true,
+   "Mahila Housing Trust": true,
+   "ward-level": false,
+   "threshold": false,
+   "early warning": true,
+   "August 2026": false
+  },
+  "https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures": {
+   "Jalgaon": true,
+   "August": false,
+   "white": true,
+   "pilot": true
+  },
+  "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf": {
+   "Jalgaon": true,
+   "Jalgaon City Municipal Corporation": true,
+   "Mahila Housing Trust": true,
+   "Heat Action Plan": true,
+   "ward": true,
+   "vulnerab": true,
+   "threshold": true,
+   "Early Warning": true,
+   "University of Toronto": false
+  },
+  "https://www.mahilahousingtrust.org/knowledgehub/12064/": {
+   "2026": true,
+   "Jalgaon": true
+  },
+  "https://www.mahilahousingtrust.org/knowledgehub/jalgaon-climate-action-plan/": {
+   "2026": true,
+   "Jalgaon": true
+  }
+ },
+ "https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/": "OK",
+ "https://uoftindiafoundation.com/heat-action-plans-indian-cities/": "OK",
+ "https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures": "OK",
+ "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf": "OK",
+ "https://www.mahilahousingtrust.org/knowledgehub/12064/": "OK",
+ "https://www.mahilahousingtrust.org/knowledgehub/jalgaon-climate-action-plan/": "OK"
+}

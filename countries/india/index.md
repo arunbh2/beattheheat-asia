@@ -1,7 +1,7 @@
 ---
 title: "India: heat country snapshot"
 url: https://beattheheat.asia/countries/india/
-updated: 2026-11-16
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -23,7 +23,7 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 
 ## Official plans and authority
 
-**Every plan on file:** the [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) lists 146 verified documents (85 standalone heat action plans, 37 heat-health plans inside wider climate-and-health plans, 1 national plan and 23 guidance documents), with a link to each PDF.
+**Every plan on file:** the [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) lists 147 verified documents (85 standalone heat action plans, 38 heat-health plans inside wider climate-and-health plans, 1 national plan and 23 guidance documents), with a link to each PDF.
 
 **Description:** National guidance, state/district/local HAPs and health-sector plans operate through different institutional/legal routes. Publication alone is not a separately enforceable heat entitlement. **Current rules check:** Central OSH Rules 2026 are notified, not a draft. Check appropriate-government, sector and state implementation.
 

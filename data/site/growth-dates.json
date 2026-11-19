@@ -13923,6 +13923,15 @@
    "how": "url"
   },
   {
+   "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf",
+   "label": "Jalgaon Climate Action Plan",
+   "root": "institutions",
+   "org": false,
+   "date": "2026-08",
+   "precision": "month",
+   "how": "url"
+  },
+  {
    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/09/Impact-Study-CMSR-for-CRI-2024.pdf",
    "label": "Mahila Housing Trust",
    "root": "financing",

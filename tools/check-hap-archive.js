@@ -44,7 +44,7 @@ expect(A.docs.every(d => d.status === "verified"), "every catalogue record is ve
 const docIds = new Set(A.docs.map(d => d.id));
 expect(!A.leads.some(l => docIds.has(l.id)) && A.leads.every(l => l.status !== "verified"), "no lead or unresolved record is counted as verified");
 expect(A.leads.every(l => !l.pdf_url), "no lead carries a PDF link");
-if (E.verified_on) expect(C.checked.length === 1 && C.checked[0] === E.verified_on, `verification date: ${C.checked.join(", ")} (expected ${E.verified_on})`);
+if (E.verified_on) { const want = [].concat(E.verified_on); expect(C.checked.join() === want.join(), `verification dates: ${C.checked.join(", ")} (expected ${want.join(", ")})`); }
 // the CSV download is the same catalogue
 {
   const rows = HAP.parseCSV(fs.readFileSync(path.join(A.dir, A.files.catalogueCsv), "utf8")).rows;

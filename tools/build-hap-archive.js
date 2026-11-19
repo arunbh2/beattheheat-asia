@@ -32,7 +32,9 @@ module.exports = function hapArchive({ page, write, esc, V, ROOT }) {
   const yearKey = y => /^\d{4}/.test(y) ? y : "9999" + y;   // periods sort by their first year; "undated" last
   const sorted = docs.slice().sort((a, b) => (b.state === "India") - (a.state === "India") || a.state.localeCompare(b.state) ||
     (LVL[a.level] ?? 9) - (LVL[b.level] ?? 9) || a.place.localeCompare(b.place) || yearKey(a.year).localeCompare(yearKey(b.year)) || a.id.localeCompare(b.id));
-  const verifiedOn = C.checked.length === 1 ? new Date(C.checked[0] + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : C.checked.join(", ");
+  const fmt = d => new Date(d + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+  // one date, or "1 November 2026 and 19 November 2026" when a later record was checked on its own day
+  const verifiedOn = C.checked.length ? C.checked.map(fmt).join(C.checked.length === 2 ? " and " : ", ").replace(/, ([^,]+)$/, ", and $1") : "";
 
   // filter options, all from the data
   const opts = (obj, sort, label = x => x) => Object.keys(obj).sort(sort).map(k => `<option value="${esc(k)}">${esc(label(k))} (${obj[k]})</option>`).join("");

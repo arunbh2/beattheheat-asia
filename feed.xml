@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-18T00:00:00Z</updated>
+  <updated>2026-11-19T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>The India archive adds Jalgaon's climate action plan, with its heat chapter</title>
+    <link href="https://beattheheat.asia/growing/#g-hap-jalgaon" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-hap-jalgaon</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <summary>Jalgaon City Municipal Corporation's climate action plan, co-developed with Mahila Housing Trust, joins the India heat action plan archive. It is recorded as a heat plan inside a wider plan: its heat chapter includes ward-level heat-vulnerability mapping and cool-roof pilots, and it recommends passing a formal heat action plan.</summary>
+  </entry>
   <entry>
     <title>Signals follows two new state heat institutions in India</title>
     <link href="https://beattheheat.asia/growing/#g-signals-india-heat-centres" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-heat-network-finder</id>
     <updated>2026-11-14T00:00:00Z</updated>
     <summary>A reader can now ask who works on one action in one place, and each listing says what kind of body it is, where its listed work is and whether its link answered a check. Where nothing is listed for a place, the page says not found yet.</summary>
-  </entry>
-  <entry>
-    <title>Listings in the heat network now open on the heat work itself</title>
-    <link href="https://beattheheat.asia/growing/#g-heat-network-depth-1" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-heat-network-depth-1</id>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <summary>A first set of listings that linked only to an organisation’s homepage now link to the page that shows its heat work, such as a warning service, a plan or a report. Each new link was opened and read by a check before it replaced the old one.</summary>
   </entry>
 </feed>

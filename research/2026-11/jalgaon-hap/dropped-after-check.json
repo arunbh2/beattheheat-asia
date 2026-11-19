@@ -1,0 +1,29 @@
+[
+ {
+  "id": "c-jal-thresholds",
+  "where": "Archive / ledger",
+  "text": "The plan sets locally calibrated heat thresholds.",
+  "missing": [
+   "mht: \"threshold\"",
+   "uoftif: \"threshold\""
+  ]
+ },
+ {
+  "id": "c-jal-launch",
+  "where": "Archive / ledger",
+  "text": "The plan was launched in August 2026.",
+  "missing": [
+   "mht: \"August 2026\"",
+   "uoftif: \"August 2026\"",
+   "fpj: \"August\""
+  ]
+ },
+ {
+  "id": "c-plan-uoft",
+  "where": "Archive",
+  "text": "The plan names the University of Toronto.",
+  "missing": [
+   "plan: \"University of Toronto\""
+  ]
+ }
+]

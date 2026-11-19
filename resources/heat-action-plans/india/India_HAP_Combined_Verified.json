@@ -2918,5 +2918,25 @@
     "notes": "HAP; Copyright 2024; draft consultation status in contemporaneous municipal announcement, adoption not established. Recovered previously unresolved document. Checked 2026-11-01.",
     "document_type": "HAP",
     "verification_checked": "2026-11-01"
+  },
+  {
+    "id": "IN-MH-CITY-JALGAON-CAP",
+    "title": "Jalgaon Climate Action Plan",
+    "level": "city",
+    "state": "Maharashtra",
+    "district_or_city": "Jalgaon",
+    "year": "undated",
+    "language": "English",
+    "publisher_agency": "Jalgaon City Municipal Corporation; Mahila Housing Trust",
+    "pdf_url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf",
+    "alternate_url": "",
+    "landing_page": "https://www.mahilahousingtrust.org/knowledgehub/jalgaon-climate-action-plan/",
+    "archive_org_url": "",
+    "file_type": "PDF",
+    "approx_pages": "168",
+    "status": "verified",
+    "notes": "EMBEDDED_HEAT_HEALTH_PLAN; Urban Greening & Heat Resilience chapter in a city climate action plan, printed start page 130, with a heat-stress assessment from page 98 and heat recommendations in Table 10 (page 132), including ward-level heat-vulnerability mapping and cool-roof pilots. Co-developed by Mahila Housing Trust with Jalgaon City Municipal Corporation. Not a standalone heat action plan: it recommends formally passing an urban heat action plan through the municipal general board. No edition printed on the document. Checked 2026-11-19.",
+    "document_type": "EMBEDDED_HEAT_HEALTH_PLAN",
+    "verification_checked": "2026-11-19"
   }
 ]

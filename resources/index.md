@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 url: https://beattheheat.asia/resources/
-updated: 2026-11-03
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -13,7 +13,7 @@ Resources
 
 Collections to search, download and reuse.
 
-- [India heat action plan archive146 verified plans and guidance documents, searchable, with links to each PDF](https://beattheheat.asia/resources/heat-action-plans/india/)
+- [India heat action plan archive147 verified plans and guidance documents, searchable, with links to each PDF](https://beattheheat.asia/resources/heat-action-plans/india/)
 
 - [Heat Resilient Cities Framework (NIUA, 2026)India’s national guidance on moving from heat action plans to heat resilience, summarised, with the full document](https://beattheheat.asia/resources/heat-action-plans/india/#resilience)
 
