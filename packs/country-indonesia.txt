@@ -28,6 +28,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
 
+Explainer
+
+## El Niño and heat in Asia
+
+What El Niño has tended to mean for rainfall, fire and haze in Indonesia, what the current outlook says, what it cannot tell any province, and where BMKG's own outlooks come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-maritime)
+
 ## Heat context
 
 **Climate:** Official guidance or data Predominantly hot-humid lowland exposure, with important monsoonal and seasonally drier conditions; elevation and island differences prohibit a single national cooling prescription. [BMKG persistent hot weather explanation ](https://www.bmkg.go.id/berita/utama/suhu-panas-landa-sejumlah-wilayah-indonesia-bmkg-ungkap-penyebab-dan-potensinya-ke-depan) · [CoCHAP Indonesia programme account ](https://preparecenter.org/initiative/coastalheat/cochap-indonesia/) **Night heat:** Measured in a study Urban heat storage makes night exposure important; national and city-specific night-health thresholds and comparable city night trends were not established in this snapshot. [World Bank Unlivable: urban heat in East Asian cities ](https://www.worldbank.org/en/region/eap/publication/unlivable-what-the-urban-heat-island-effect-means-for-east-asia-s-cities) **Temperature records:**

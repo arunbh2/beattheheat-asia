@@ -28,6 +28,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
 
+Explainer
+
+## El Niño and heat in Asia
+
+What El Niño has tended to mean for mainland Southeast Asia, what the current outlook says, what it cannot tell any province, and where the regional outlook from ASMC and the national weather service come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-mainland)
+
 ## Heat context
 
 **Climate:** Official guidance or data Monsoonal climate: hot-humid exposure especially Bangkok/southern lowlands, with seasonally drier intense heat inland; evaluate humidity by season and time rather than treating Thailand as one cooling climate. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) · [ADB Thailand heat policy and solutions report ](https://www.adb.org/sites/default/files/publication/1155851/heat-crisis-thailand-southeast-asia.pdf) **Night heat:** Measured in a study 1970–2024 analysis finds growing independent hot-night and compound hot-event exposure; station-district coverage does not establish every city’s bedroom conditions. [Hot-day, hot-night and compound-event trends in Thailand ](https://he01.tci-thaijo.org/index.php/AIHD-MU/article/view/279655) **Temperature record:** Official guidance or data **Value:** 28.5 **Unit:** °C annual mean dry-bulb temperature **Period:** 2024 **Place:** Thailand national station summary **Sample:** TMD station aggregate; exact station count not reported in reviewed summary **Baseline:** **Period:** 1991–2020 **Value:** 27.4 **Unit:** °C **Anomaly:** 1.1 [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)

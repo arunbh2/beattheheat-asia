@@ -158,6 +158,10 @@ const PROMO = { label: "Explainer", title: TITLE, text: "How a change in the Pac
 // a prominent card on country snapshots: opens the explainer at the country's own region tab (one line of words per country)
 const COUNTRY_PROMO = {
   india: { region: "india", text: "What El Niño has tended to mean for India's hot season, what the current outlook says, what it cannot tell any district, and where IMD's own outlooks come in." },
+  bangladesh: { region: "bdnp", text: "What the current outlook says, why this guide gives no typical El Niño pattern for Bangladesh yet, what the outlook cannot tell any district, and where the Bangladesh Meteorological Department's own outlooks come in." },
+  nepal: { region: "bdnp", text: "What El Niño has tended to mean for Nepal's monsoon, as reported from the Department of Hydrology and Meteorology's data, what the current outlook says, what it cannot tell any district, and where the Department's own outlooks come in." },
+  indonesia: { region: "maritime", text: "What El Niño has tended to mean for rainfall, fire and haze in Indonesia, what the current outlook says, what it cannot tell any province, and where BMKG's own outlooks come in." },
+  thailand: { region: "mainland", text: "What El Niño has tended to mean for mainland Southeast Asia, what the current outlook says, what it cannot tell any province, and where the regional outlook from ASMC and the national weather service come in." },
   philippines: { region: "philippines", text: "What El Niño has tended to mean for the Philippines, what the current outlook says, what it cannot tell any province, and where PAGASA's own advisories come in." }
 };
 const countryPromo = (esc, slug) => { const c = COUNTRY_PROMO[slug]; if (!c) return "";

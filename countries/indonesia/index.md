@@ -1,7 +1,7 @@
 ---
 title: "Indonesia: heat country snapshot"
 url: https://beattheheat.asia/countries/indonesia/
-updated: 2026-11-16
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -16,6 +16,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 **Watch: Indonesia and heat** · 0:49 · narrated, captions in the picture
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
+
+Explainer
+
+## El Niño and heat in Asia
+
+What El Niño has tended to mean for rainfall, fire and haze in Indonesia, what the current outlook says, what it cannot tell any province, and where BMKG's own outlooks come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-maritime)
 
 ## Heat context
 
