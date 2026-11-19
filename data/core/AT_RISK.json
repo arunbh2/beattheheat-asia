@@ -291,6 +291,13 @@
           "label": "Wellcome, 2026: survey of 1,000 healthcare professionals in pregnancy and newborn care (Censuswide, September 2026)",
           "url": "https://wellcome.org/heat-and-pregnancy"
         }
+      },
+      {
+        "fact": "For India, the health ministry and UNFPA India published guidance on heat and pregnancy for healthcare providers and community health workers on 6 May 2026, with a heat-risk checklist, preparedness for health facilities including functional referral systems, and counselling that covers breastfeeding.",
+        "source": {
+          "label": "Ministry of Health and Family Welfare and UNFPA India, 2026: Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers",
+          "url": "https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers"
+        }
       }
     ]
   },
