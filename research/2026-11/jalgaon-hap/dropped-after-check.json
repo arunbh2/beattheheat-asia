@@ -17,5 +17,13 @@
    "uoftif: \"August 2026\"",
    "fpj: \"August\""
   ]
+ },
+ {
+  "id": "c-plan-uoft",
+  "where": "Archive",
+  "text": "The plan names the University of Toronto.",
+  "missing": [
+   "plan: \"University of Toronto\""
+  ]
  }
 ]

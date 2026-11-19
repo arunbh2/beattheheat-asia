@@ -636,6 +636,17 @@
       "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
     },
     {
+      "id": "g-hap-jalgaon", "kind": "plan", "root": "institutions", "added": "2026-11-19", "pr": null,
+      "title": "The India archive adds Jalgaon's climate action plan, with its heat chapter",
+      "why": "Jalgaon City Municipal Corporation's climate action plan, co-developed with Mahila Housing Trust, joins the India heat action plan archive. It is recorded as a heat plan inside a wider plan: its heat chapter includes ward-level heat-vulnerability mapping and cool-roof pilots, and it recommends passing a formal heat action plan.",
+      "places": ["india"], "people": [], "topics": ["hap", "coolhousing"],
+      "review": "Six sources staged; the plan PDF passed the GitHub check and was read in full; locally calibrated alert thresholds and a dated launch were not found in the public sources",
+      "effort": { "asked": "Does Jalgaon have a city heat action plan, and what does its public document contain?", "inbox": "data/inbox/2026-11-jalgaon-hap", "dropped": "research/2026-11/jalgaon-hap/dropped-after-check.json",
+                  "open": "A formally passed Jalgaon heat action plan, and its alert thresholds, if and when published." },
+      "pages": [["/resources/heat-action-plans/india/#IN-MH-CITY-JALGAON-CAP", "India heat action plan archive"]], "action": ["Open the record", "/resources/heat-action-plans/india/#IN-MH-CITY-JALGAON-CAP"],
+      "links": [{ "to": "lever:hap", "why": "The plan's heat chapter and its call for a formal heat action plan.", "basis": "record" }]
+    },
+    {
       "id": "g-signals-india-heat-centres", "kind": "evidence", "root": "institutions", "added": "2026-11-18", "pr": null,
       "title": "Signals follows two new state heat institutions in India",
       "why": "Tamil Nadu's Heat Resilience Centre, set up with the UK, and Maharashtra's Centre of Excellence for heat resilience and sustainable cooling join Signals, each on the step its sources show, so the site can record whether they deliver.",

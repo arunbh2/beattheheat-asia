@@ -1,17 +1,17 @@
 ---
 title: "India heat action plan archive"
 url: https://beattheheat.asia/resources/heat-action-plans/india/
-updated: 2026-11-18
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
-> A searchable archive of 146 verified Indian heat action plans, heat-health plans and guidance documents, with links to each PDF. Verified 1 November 2026; a growing archive, not a complete collection.
+> A searchable archive of 147 verified Indian heat action plans, heat-health plans and guidance documents, with links to each PDF. Verified 1 November 2026 and 19 November 2026; a growing archive, not a complete collection.
 
 Resources · Heat action plans
 
 # India heat action plan archive
 
-146 verified documents from across India: plans written by cities, districts and states, the heat-health plans inside wider climate-and-health plans, and the national plan and guidance behind them. A growing archive, not a complete collection.
+147 verified documents from across India: plans written by cities, districts and states, the heat-health plans inside wider climate-and-health plans, and the national plan and guidance behind them. A growing archive, not a complete collection.
 
 Before summer 2027
 
@@ -21,11 +21,11 @@ A practical guide for municipal teams and community organisations in Tier 2 and 
 
 [Open the guide](https://beattheheat.asia/el-nino-and-cities/)
 
-- **37**heat-health plans inside wider climate-and-health plans
+- **38**heat-health plans inside wider climate-and-health plans
 - **1**national heat-illness action plan
 - **23**guidance, advisory or manual documents
 
-That is 123 plan documents and 23 guidance documents, not 146 standalone plans. Every one of the 36 states and union territories in the archive has a verified heat-health plan inside a climate-and-health plan; 16 have at least one verified standalone heat action plan.
+That is 124 plan documents and 23 guidance documents, not 147 standalone plans. Every one of the 36 states and union territories in the archive has a verified heat-health plan inside a climate-and-health plan; 16 have at least one verified standalone heat action plan.
 
 ## Search the archive
 
@@ -1647,6 +1647,28 @@ Catalogue ID: IN-MH-DISTRICT-PALGHAR-2026
 
 Catalogue ID: IN-MH-DISTRICT-WARDHA-2026
 
+- Heat-health plan in a wider plan
+
+### Jalgaon Climate Action Plan
+
+**Category**: Heat-health plan within a wider climate-and-health plan
+
+**Jurisdiction**: Jalgaon, Maharashtra · City
+
+**Edition**: undated (no printed year found)
+
+**Language**: English
+
+**Publisher**: Jalgaon City Municipal Corporation; Mahila Housing Trust
+
+**Pages**: 168 (whole document)
+
+**Note:** Urban Greening & Heat Resilience chapter in a city climate action plan, printed start page 130, with a heat-stress assessment from page 98 and heat recommendations in Table 10 (page 132), including ward-level heat-vulnerability mapping and cool-roof pilots. Co-developed by Mahila Housing Trust with Jalgaon City Municipal Corporation. Not a standalone heat action plan: it recommends formally passing an urban heat action plan through the municipal general board. No edition printed on the document.
+
+[Open PDF](https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf)[Source page](https://www.mahilahousingtrust.org/knowledgehub/jalgaon-climate-action-plan/)
+
+Catalogue ID: IN-MH-CITY-JALGAON-CAP
+
 - Heat action planDraftAdoption not established
 
 ### Heat Action Plan: Pimpri-Chinchwad Municipal Corporation
@@ -3149,7 +3171,7 @@ Source: National Institute of Urban Affairs, Climate Centre for Cities (C-Cube),
 
 ## How it was checked
 
-- **Source verification was conducted on 1 November 2026.** For each document, the source content was retrieved and read to confirm that it is a relevant plan or guidance document, and the edition printed on it was recorded.
+- **Source verification was conducted on 1 November 2026 and 19 November 2026.** For each document, the source content was retrieved and read to confirm that it is a relevant plan or guidance document, and the edition printed on it was recorded.
 
 - **Verified means found, not endorsed.** Verification establishes that a relevant document was retrieved. It does not establish official adoption, the quality of implementation, or that the PDF can still be downloaded today.
 
@@ -3369,8 +3391,8 @@ Official repository indexes Sultanpur HAP; page fetch returned 502 and PDF conte
 
 ## Download the data
 
-- [Verified catalogue (CSV)All 146 verified documents, with the 16 original columnsIndia_HAP_Combined_Verified.csv · 54 KB](https://beattheheat.asia/resources/heat-action-plans/india/India_HAP_Combined_Verified.csv)
-- [Verified catalogue (JSON)The same records, with each document's type and verification date as fieldsIndia_HAP_Combined_Verified.json · 111 KB](https://beattheheat.asia/resources/heat-action-plans/india/India_HAP_Combined_Verified.json)
+- [Verified catalogue (CSV)All 147 verified documents, with the 16 original columnsIndia_HAP_Combined_Verified.csv · 55 KB](https://beattheheat.asia/resources/heat-action-plans/india/India_HAP_Combined_Verified.csv)
+- [Verified catalogue (JSON)The same records, with each document's type and verification date as fieldsIndia_HAP_Combined_Verified.json · 112 KB](https://beattheheat.asia/resources/heat-action-plans/india/India_HAP_Combined_Verified.json)
 - [Coverage report, second search (Markdown)What the second search added, the corrections it made, and the combined totalsIndia_HAP_Batch_2_Coverage_Report.md · 7 KB](https://beattheheat.asia/resources/heat-action-plans/india/India_HAP_Batch_2_Coverage_Report.md)
 - [Coverage report, first search (Markdown)How documents were first found, checked and countedIndia_HAP_Coverage_Report.md · 10 KB](https://beattheheat.asia/resources/heat-action-plans/india/India_HAP_Coverage_Report.md)
 - [Leads not yet verified, second search (CSV)67 documents listed or located but not verified, with the reason for eachIndia_HAP_Batch_2_Unverified_Leads.csv · 24 KB](https://beattheheat.asia/resources/heat-action-plans/india/India_HAP_Batch_2_Unverified_Leads.csv)

@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-18
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 73 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 74 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,46 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-73 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,119 works the commons draws on carry a publication date, and 808 are still being dated.
+74 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,120 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Plan or guidance added · Institutions and plans
+
+### The India archive adds Jalgaon's climate action plan, with its heat chapter
+
+Added 19 November 2026 · Underlying work: dates vary; each source shows its own
+
+Why it matters our readingJalgaon City Municipal Corporation's climate action plan, co-developed with Mahila Housing Trust, joins the India heat action plan archive. It is recorded as a heat plan inside a wider plan: its heat chapter includes ward-level heat-vulnerability mapping and cool-roof pilots, and it recommends passing a formal heat action plan.
+
+- India
+- Heat action plans
+- Cool, affordable housing
+
+ReviewSix sources staged; the plan PDF passed the GitHub check and was read in full; locally calibrated alert thresholds and a dated launch were not found in the public sources. 6 checked · 6 confirmed.
+
+What it took to add this
+
+- **The question.** Does Jalgaon have a city heat action plan, and what does its public document contain?
+- **The search.** 6 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 6 confirmed.
+- **What we set aside.** 15 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** A formally passed Jalgaon heat action plan, and its alert thresholds, if and when published.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-jalgaon-hap/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/jalgaon-hap/dropped-after-check.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+The plan's heat chapter and its call for a formal heat action plan.
+
+[Open the record](https://beattheheat.asia/resources/heat-action-plans/india/#IN-MH-CITY-JALGAON-CAP)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20India%20archive%20adds%20Jalgaon's%20climate%20action%20plan%2C%20with%20its%20heat%20chapter&ref=g-hap-jalgaon#way-share)
 
 Evidence added · Institutions and plans
 
@@ -1765,14 +1800,14 @@ Why it matters our readingPlans are easier to learn from side by side. Each one 
 - Older people
 - Heat action plans
 
-ReviewEvery plan verified; leads never counted as verified. 240 checked · 146 confirmed · 94 not confirmed, each recorded.
+ReviewEvery plan verified; leads never counted as verified. 241 checked · 147 confirmed · 94 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** Which heat action plans and guidance has India published, at every level of government?
-- **The search.** 240 documents and leads were screened.
+- **The search.** 241 documents and leads were screened.
 
-- **The checking.** 146 plans and guidance documents were verified one by one, each typed and dated as printed; 94 leads are kept apart and never counted as verified.
+- **The checking.** 147 plans and guidance documents were verified one by one, each typed and dated as printed; 94 leads are kept apart and never counted as verified.
 
 - **What is still open.** Unverified leads remain, and plan scoring against the rubric is planned.
 
@@ -2339,14 +2374,14 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-243 works published, 141 of them with a known month; 1,119 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+244 works published, 142 of them with a known month; 1,120 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
 - Evidence407
 - Experience98
 - Practical measures247
-- Institutions and plans137
+- Institutions and plans138
 - Financing230
 
 Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.

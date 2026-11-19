@@ -53,5 +53,71 @@
     "url": "https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures"
    }
   ]
+ },
+ {
+  "id": "c-plan-exists",
+  "where": "Archive",
+  "text": "The Jalgaon heat action plan document names Jalgaon City Municipal Corporation and Mahila Housing Trust.",
+  "sources": [
+   {
+    "label": "Jalgaon City Municipal Corporation with Mahila Housing Trust: Jalgaon Heat Action Plan (file: Jalgaon_CAP_14082026), 2026",
+    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-plan-heat",
+  "where": "Archive",
+  "text": "The document is a heat action plan.",
+  "sources": [
+   {
+    "label": "Jalgaon City Municipal Corporation with Mahila Housing Trust: Jalgaon Heat Action Plan (file: Jalgaon_CAP_14082026), 2026",
+    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-plan-ward",
+  "where": "Archive",
+  "text": "The plan maps heat vulnerability by ward.",
+  "sources": [
+   {
+    "label": "Jalgaon City Municipal Corporation with Mahila Housing Trust: Jalgaon Heat Action Plan (file: Jalgaon_CAP_14082026), 2026",
+    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-plan-thresh",
+  "where": "Archive",
+  "text": "The plan sets heat thresholds for its alerts.",
+  "sources": [
+   {
+    "label": "Jalgaon City Municipal Corporation with Mahila Housing Trust: Jalgaon Heat Action Plan (file: Jalgaon_CAP_14082026), 2026",
+    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-plan-ews",
+  "where": "Archive",
+  "text": "The plan includes an early warning system and response.",
+  "sources": [
+   {
+    "label": "Jalgaon City Municipal Corporation with Mahila Housing Trust: Jalgaon Heat Action Plan (file: Jalgaon_CAP_14082026), 2026",
+    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-plan-date",
+  "where": "Archive",
+  "text": "The listing dates the plan August 2026.",
+  "sources": [
+   {
+    "label": "Mahila Housing Trust: Jalgaon Heat Action Plan, 2026",
+    "url": "https://www.mahilahousingtrust.org/knowledgehub/12064/"
+   }
+  ]
  }
 ]

@@ -1,5 +1,5 @@
 Common Shade: for AI agents
-Updated 2026-11-18. Human edition: https://beattheheat.asia/
+Updated 2026-11-19. Human edition: https://beattheheat.asia/
 
 A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.
 
@@ -20,7 +20,7 @@ COUNTS (calculated at build time)
 - studies graded: 71
 - learning questions: 44
 - solutions: 131
-- heat action plans verified: 146
+- heat action plans verified: 147
 - schemes: 98
 - financial instruments: 36
 - businesses: 91
