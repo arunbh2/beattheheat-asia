@@ -3,18 +3,20 @@
   "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml": {
    "DIAGNOSTIC DISCUSSION": true,
    "12 November 2026": true,
-   "El Niño Advisory": false,
+   "ENSO Alert System Status": true,
+   "Advisory": true,
    "likely through January-March 2027": true,
-   "greater than a 79% chance": false,
+   "79% chance": false,
    "weaken in early 2027": true,
    "10 December 2026": true,
-   "Compared to last month, El Niño strengthened": false,
-   "exceeded 4.0°C": false,
-   "+2.5°C in Niño-3.4": false,
+   "Compared to last month": true,
+   "exceeded 4.0": true,
+   "+2.5": true,
    "suppressed conditions persisted over Indonesia": true,
-   "~60% for the October-December and November-January periods": false,
+   "60% for the October-December and November-January periods": false,
    "3-month RONI value": true,
-   "higher, though not guaranteed": true
+   "higher, though not guaranteed": true,
+   "deeper-than-average thermocline": true
   },
   "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/": {
    "ENSO Probabilities": true,
@@ -23,10 +25,9 @@
    "FMA Feb Mar Apr 0 2 98": true,
    "MAM Mar Apr May 0 20 80": true,
    "AMJ Apr May Jun 1 61 38": true,
-   "Relative Oceanic Niño Index (RONI)": false,
+   "Relative Oceanic": true,
    "-/+ 0.5 degree Celsius thresholds": true,
-   "1991–2020 climatological base period": false,
-   "170–120W, 5S–5N": false
+   "climatological base period": true
   },
   "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/": {
    "Strength Probabilities": true,
@@ -37,7 +38,7 @@
   "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/": {
    "Relative Oceanic": true,
    "3 month running mean": true,
-   "average tropical mean (20°N–20°S) SST anomalies subtracted": false,
+   "SST anomalies subtracted": true,
    "should be considered an estimate": true
   },
   "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026": {
@@ -59,7 +60,8 @@
    "interactions with other climate drivers": true,
    "considered alongside exposure, vulnerability, historical impacts, sectoral knowledge and shorter-range weather information": true,
    "strengthen the trade winds and increase cold-water upwelling": true,
-   "alter atmospheric circulation": true
+   "alter atmospheric circulation": true,
+   "large-scale atmospheric and oceanic teleconnections": true
   },
   "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions": {
    "La Niña": true,
@@ -70,7 +72,9 @@
    "rainfall is below average over Indonesia": true,
    "sinking air motion over Indonesia": true,
    "every 3-7 years on average": true,
-   "low confidence": true
+   "low confidence": true,
+   "rising branch of the Walker Circulation": true,
+   "Maritime continent": true
   },
   "https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break": {
    "Spring": true,
@@ -79,9 +83,9 @@
   },
   "https://asmc.asean.org/asmc-el-nino/": {
    "El Niño": true,
-   "drier-than-average rainfall conditions, including for most of the Maritime Continent during September – November": false,
+   "including for most of the Maritime Continent during September": true,
    "forest fires and smoke haze": true,
-   "stronger over the southern and eastern part of South East Asia during the months of Jun – Oct": false,
+   "stronger over the southern and eastern part of South East Asia during the months of Jun": true,
    "strong or moderate-intensity events": true,
    "(and consequently temperature)": true
   },
