@@ -6,5 +6,15 @@
   "missing": [
    "mh-plan: \"जळगाव\""
   ]
+ },
+ {
+  "id": "c-ahd-orig",
+  "where": "Examples",
+  "text": "A 2018 evaluation estimated about 1,190 average annualized deaths avoided after Ahmedabad's heat action plan was implemented.",
+  "missing": [
+   "hess: \"Pilot Evaluation of the Impact\"",
+   "hess: \"1,190\"",
+   "hess: \"average annualized deaths\""
+  ]
  }
 ]

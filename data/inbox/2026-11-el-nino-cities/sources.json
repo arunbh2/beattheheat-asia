@@ -569,8 +569,8 @@
   "claims": [
    "c-jod-orig"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260929182219/https://www.nrdc.org/bio/vijay-limaye/jodhpur-india-unveils-its-first-net-zero-cooling-station"
+  "archive": "https://web.archive.org/web/20260929182219/https://www.nrdc.org/bio/vijay-limaye/jodhpur-india-unveils-its-first-net-zero-cooling-station",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-jod-hap",
@@ -592,8 +592,8 @@
   "claims": [
    "c-jod-plan"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20251231205359/https://www.mahilahousingtrust.org/wp-content/uploads/2023/05/MHT-Jodhpur-Heat-Action-Plan-2023small.pdf"
+  "archive": "https://web.archive.org/web/20251231205359/https://www.mahilahousingtrust.org/wp-content/uploads/2023/05/MHT-Jodhpur-Heat-Action-Plan-2023small.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-bs-kerala",
@@ -617,8 +617,8 @@
   "claims": [
    "c-kerala-orig"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260311041615/https://www.business-standard.com/india-news/kerala-allocates-1-crore-each-to-districts-for-summer-mitigation-126031001041_1.html"
+  "archive": "https://web.archive.org/web/20260311041615/https://www.business-standard.com/india-news/kerala-allocates-1-crore-each-to-districts-for-summer-mitigation-126031001041_1.html",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-up-hap",
@@ -640,8 +640,8 @@
   "claims": [
    "c-up-orig"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20250804100657/https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf"
+  "archive": "https://web.archive.org/web/20250804100657/https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-dte-up",
@@ -663,8 +663,8 @@
   "claims": [
    "c-up-orig"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260808184314/https://www.downtoearth.org.in/governance/step-towards-prompt-action-uttar-pradesh-sets-district-specific-thresholds-to-send-out-custom-heatwave-alerts"
+  "archive": "https://web.archive.org/web/20260808184314/https://www.downtoearth.org.in/governance/step-towards-prompt-action-uttar-pradesh-sets-district-specific-thresholds-to-send-out-custom-heatwave-alerts",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-enc-hess",
@@ -677,6 +677,29 @@
   "year": 2018,
   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6236972/fullTextXML",
   "kind": "Peer-reviewed evaluation (Europe PMC full text)",
+  "where": "El Niño and cities",
+  "expect": [
+   "Ahmedabad",
+   "Pilot Evaluation of the Impact",
+   "1,190",
+   "average annualized deaths"
+  ],
+  "claims": [
+   "c-ahd-orig"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-hess-pm",
+  "type": "source",
+  "keys": [
+   "hess-pm"
+  ],
+  "title": "Building Resilience to Climate Change: Pilot Evaluation of the Impact of India's First Heat Action Plan on All-Cause Mortality (PubMed record)",
+  "publisher": "Journal of Environmental and Public Health (Hess et al.)",
+  "year": 2018,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/30515228/",
+  "kind": "Peer-reviewed evaluation (PubMed abstract)",
   "where": "El Niño and cities",
   "expect": [
    "Ahmedabad",

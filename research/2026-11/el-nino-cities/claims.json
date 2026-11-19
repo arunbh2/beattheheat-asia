@@ -308,6 +308,17 @@
    "expect": [
     "Ahmedabad"
    ]
+  },
+  {
+   "key": "hess-pm",
+   "title": "Building Resilience to Climate Change: Pilot Evaluation of the Impact of India's First Heat Action Plan on All-Cause Mortality (PubMed record)",
+   "publisher": "Journal of Environmental and Public Health (Hess et al.)",
+   "year": 2018,
+   "kind": "Peer-reviewed evaluation (PubMed abstract)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30515228/",
+   "expect": [
+    "Ahmedabad"
+   ]
   }
  ],
  "claims": [
@@ -930,6 +941,22 @@
     [
      "hess",
      "average annualized deaths"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "hess-pm",
+      "Pilot Evaluation of the Impact"
+     ],
+     [
+      "hess-pm",
+      "1,190"
+     ],
+     [
+      "hess-pm",
+      "average annualized deaths"
+     ]
     ]
    ]
   }
