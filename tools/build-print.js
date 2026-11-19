@@ -346,7 +346,8 @@ async function build() {
       @media screen and (max-width: 820px) { .ws-pauses, .ws-boxes, .ws-sign { grid-template-columns: 1fr; } }
     </style>
     ${W.parts.map(part).join("")}
-    <p class="ws-note">${esc(W.note)} The guide behind it, with the outlook, the risks and the warning route, is on the live page.</p>`;
+    <p class="ws-note">${esc(W.note)} The guide behind it, with the outlook, the risks and the warning route, is on the live page.</p>
+    <p class="ws-note"><b>${esc(W.invite)}</b></p>`;
     const meta = { kind: W.kind, title: W.title, for: "A municipal team and a local organisation" };
     add(W.slug, meta, await sheet({ slug: W.slug, kind: W.kind, title: W.title, lede: W.lede, body, live: `/${T.SLUG}/`, sources: [], undated: true }));
   }

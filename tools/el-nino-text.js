@@ -205,7 +205,8 @@ const WORKSHEET = {
       { l: "What the local organisation changed in this plan", hint: "e.g. moved the shade to the inner lane", lines: 1 },
       { l: "Agreed by", sign: 2, also: "Next check, on (date)" }] }
   ],
-  note: "Hints are illustrative; write your own answers. Bring this sheet to the next check."
+  note: "Hints are illustrative; write your own answers. Bring this sheet to the next check.",
+  invite: "Used this sheet? Tell us what you changed, and what you would add, through the form at beattheheat.asia/join. No names needed."
 };
 // the worksheet as plain lines, for the page's summary, its Markdown and llms-full.txt
 const worksheetLines = () => WORKSHEET.parts.map((p, i) => `${i + 1}. ${p.h}: ${p.sum}`);
