@@ -20,7 +20,7 @@ const TICKER = `<div class="ticker" id="cs-ticker" role="region" aria-label="Liv
 const NOSCRIPT = `<noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important;flex:1 0 100%;height:auto}.csn__groups{flex-wrap:wrap;height:auto}.csn__groups>li{height:auto}}</style></noscript>`;
 const UPDATED = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 // pages that show no date of addition or update (the owner's decision for the El Niño guide, November 2026)
-const UNDATED = new Set(["/el-nino-and-cities/", "/print/el-nino-worksheet/"]);
+const UNDATED = new Set(["/el-nino-and-cities/", "/print/el-nino-worksheet/", "/el-nino/", "/print/el-nino-briefing/"]);
 const SKIP = new Set(["node_modules", ".git", "research", "tools", "docs", "images", "media", "feeds"]);
 
 function pages(dir, out = []) {

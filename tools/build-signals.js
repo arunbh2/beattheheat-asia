@@ -26,6 +26,7 @@ const PLACE = { region: "South and Southeast Asia", bangladesh: "Bangladesh", in
 const STATE_MARK = { confirmed: "✓", reported: "◐", unverified: "○", scheduled: "◷", none: "–", na: "·" };
 
 function render(esc, ctx) {
+  const ENSO_FINDING = JSON.parse(require("fs").readFileSync(require("path").join(__dirname, "..", "data", "site", "enso-outlook.json"), "utf8")).finding;
   const e = s => esc(s).replace(/ °C/g, " °C");   // a figure and its unit stay on one line
   const ext = (u, l) => `<a href="${e(u)}" target="_blank" rel="noopener">${e(l)}<span class="visually-hidden"> (opens in a new tab)</span></a>`;
   const time = d => `<time datetime="${e(d)}">${e(SM.date(d))}</time>`;
@@ -102,6 +103,7 @@ function render(esc, ctx) {
         <p class="sg-review"><span class="sg-lab">Review</span>Record last reviewed ${time(s.review.reviewed)}. Sources last checked ${checked ? time(checked) : "never"}. Next review due ${time(s.review.due)}. <a href="#sg-method">What a review covers</a></p>
       </details>
       ${reading(s)}
+      ${s.id === ENSO_FINDING ? `<p class="sg-small">Read with the <a href="#el-nino-watch">El Niño watch</a> above, which shows the latest official bulletin, and the explainer <a href="/el-nino/">El Niño and heat in Asia</a>.</p>` : ""}
       ${related(s)}
       <p class="sg-tools" hidden><button type="button" class="sg-save" data-save="${e(s.id)}" aria-pressed="false">Save</button><button type="button" class="sg-copy" data-copy="${e(s.id)}">Copy link</button></p>
     </article>`;
@@ -109,6 +111,8 @@ function render(esc, ctx) {
 }
 
 module.exports = function signals({ page, write, esc, hero }) {
+  const EO = require("./enso-outlook.js"), EOD = EO.load().O;
+  const V = (require("fs").readFileSync(require("path").join(__dirname, "..", "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
   const D = T.load(), today = new Date().toISOString().slice(0, 10), ctx = context(today), card = render(esc, ctx), e = s => esc(s);
   const O = SM.overview(D, ctx.CHECKS, today), B = O.buckets;
   const sorted = D.signals.slice().sort((a, b) => SM.key(SM.latest(b, today)).localeCompare(SM.key(SM.latest(a, today))) || a.id.localeCompare(b.id));
@@ -135,6 +139,10 @@ module.exports = function signals({ page, write, esc, hero }) {
     <p class="sg-note">${e(T.NOTE)}</p>
     <p class="sg-keys"><span><span aria-hidden="true">✓</span> ${e(SM.STATE.confirmed.label)}</span><span><span aria-hidden="true">◐</span> ${e(SM.STATE.reported.label)}</span><span><span aria-hidden="true">○</span> ${e(SM.STATE.unverified.label)}</span><span><span aria-hidden="true">◷</span> Scheduled: a future date, not yet reached</span><span><span aria-hidden="true">–</span> Not verified in the sources checked</span></p>
     <p class="sg-kinds">${D.kinds.map(k => `<span><span class="sg-kind sg-kind--${k.id}">${e(k.label)}</span> ${e(k.means)}</span>`).join("")}</p>
+  </div></section>
+  <section class="sg-watch" id="el-nino-watch" aria-labelledby="enso-watch-h"><div class="container">
+    ${EO.panel(e, { today })}
+    <p class="sg-small">An outlook is a finding, not a commitment, so it stays outside the commitments above. The finding is tracked as <a href="#${e(EOD.finding)}">${e((D.signals.find(x => x.id === EOD.finding) || {}).title || "the El Niño record")}</a>; preparedness commitments made in response are tracked as their own records: ${EOD.commitments.map(id => { const x = D.signals.find(r => r.id === id); return x ? `<a href="#${e(id)}">${e(x.title)}</a>` : ""; }).filter(Boolean).join(" · ")}.</p>
   </div></section>
   <section class="sg-cop" id="cop31" aria-labelledby="cop31-h"><div class="container">
     <p class="sg-cop__when">${e(cop.when || "")}</p>
@@ -177,7 +185,7 @@ module.exports = function signals({ page, write, esc, hero }) {
     <p class="hub-p sg-more">Know of a development we have missed, or one that has moved? <a href="/join/?about=Signals#way-share">Tell us, with its source</a>. The whole record is open: <a href="/data/site/signals.json">signals.json</a>, with its <a href="/data/site/signals-checks.json">source-check records</a>, and a <a href="/signals/index.md">plain-text version</a>. See also <a href="/whats-new/">State of the field</a> and <a href="/news/">Heat in the news</a>.</p>
   </div></section>
   <script src="/signals/signals.js?v=${T.V}" defer></script>`;
-  write("signals", page("signals", "Signals: which way heat policy is moving", T.LEDE, body));
+  write("signals", page("signals", "Signals: which way heat policy is moving", T.LEDE, body, `\n  <link rel="stylesheet" href="/el-nino/watch.css?v=${V}">`));
   return D.signals.length;
 };
 module.exports.render = render;

@@ -26,25 +26,28 @@ const OPENING = {
 };
 
 // the dated outlook: replace these entries when a newer bulletin is issued, keeping the issue date, period, geography and meaning
-const OUTLOOK = {
-  asOf: "18 November 2026",
-  items: [
-    { who: "NOAA Climate Prediction Center", kind: "Forecast", issued: "12 November 2026", period: "through January to March 2027", where: "Tropical Pacific Ocean",
-      says: "El Niño Advisory in effect. A strong to very strong El Niño is likely through January to March 2027 (a greater than 79% chance), then expected to begin weakening.",
-      means: "A forecast for the Pacific Ocean, not for an Indian city. Next issue: 10 December 2026.",
-      claims: ["c-noaa"], latest: ["noaa-latest", "NOAA's latest ENSO discussion"] },
-    { who: "World Meteorological Organization", kind: "Forecast", issued: "26 October 2026", period: "November 2026 to January 2027", where: "Tropical Pacific Ocean",
-      says: "The Global Seasonal Climate Update forecasts sea surface temperatures in the tropical Pacific up to 3.8 °C above average, and says the event could be unprecedented in strength. WMO's quarterly El Niño Update of 3 September 2026 gave a nearly 100% likelihood that El Niño persists through February 2027.",
-      means: "Strength in the Pacific does not decide how severe impacts are in any one country.",
-      claims: ["c-wmo-oct", "c-wmo"], latest: ["wmo-oct", "WMO's latest seasonal update"] },
-    { who: "India Meteorological Department", kind: "Observed", issued: "1 October 2026", period: "June to September 2026", where: "India as a whole",
-      says: "Rainfall over India in the 2026 monsoon was 87% of its long period average.",
-      means: "A national total. It does not show how much water your city's own supply holds.",
-      claims: ["c-imd-season"], latest: ["imd-dw", "IMD's district warnings"] }
-  ],
-  none: "IMD releases its seasonal outlook for the hot season between March and May. Until it is out, use your district's warnings, and read the outlook for your own region when it is issued.",
-  noneClaims: ["c-imd-outlooks"]
-};
+const EO = require("./enso-outlook.js");
+const OUTLOOK = (() => {
+  const { O } = EO.load(), S = O.status, G = O.others.find(x => /Seasonal Climate Update/.test(x.title)), W = O.others.find(x => /El Niño\/La Niña Update/.test(x.title));
+  return {
+    asOf: EO.date(O.checked),
+    items: [
+      { who: S.issuer, kind: "Forecast", issued: EO.date(S.issued), period: "through January to March 2027", where: "Tropical Pacific Ocean",
+        says: `${S.label} in effect. ${S.forecast}`, means: `A forecast for the Pacific Ocean, not for an Indian city. Next issue: ${EO.date(S.next)}.`,
+        claims: [], latest: ["noaa-latest", "NOAA's latest ENSO discussion"] },
+      { who: G.issuer, kind: "Forecast", issued: EO.date(G.issued), period: G.period, where: "Tropical Pacific Ocean",
+        says: `${G.says} WMO's quarterly El Niño Update of ${EO.date(W.issued)} gave a nearly 100% likelihood that El Niño persists through February 2027.`,
+        means: "Strength in the Pacific does not decide how severe impacts are in any one country.",
+        claims: ["c-wmo"], latest: ["wmo-oct", "WMO's latest seasonal update"] },
+      { who: "India Meteorological Department", kind: "Observed", issued: "1 October 2026", period: "June to September 2026", where: "India as a whole",
+        says: "Rainfall over India in the 2026 monsoon was 87% of its long period average.",
+        means: "A national total. It does not show how much water your city's own supply holds.",
+        claims: ["c-imd-season"], latest: ["imd-dw", "IMD's district warnings"] }
+    ],
+    none: "IMD releases its seasonal outlook for the hot season between March and May. Until it is out, use your district's warnings, and read the outlook for your own region when it is issued.",
+    noneClaims: ["c-imd-outlooks"]
+  };
+})();
 
 const SIGNAL = {
   can: { text: "Give a reason to start ordinary protection early. In India's records for 1961-2013, most years with above-normal heatwave activity (April to June) followed El Niño events: an India-wide pattern, not a city forecast.", claims: ["c-rohini"] },

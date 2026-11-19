@@ -1,7 +1,7 @@
 ---
 title: "Understand heat"
 url: https://beattheheat.asia/understand/
-updated: 2026-11-15
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -27,6 +27,7 @@ What extreme heat does, where, to whom, and how one harm leads to the next.
 ## Also in Understand heat
 
 - [Heatwaves that shaped Asia10 heatwaves, 1998 to 2026, and what changed after](https://beattheheat.asia/heatwaves/)
+- [El Niño and heat in AsiaHow a Pacific pattern can shift heat and rain across Asia, and how to read the outlook](https://beattheheat.asia/el-nino/)
 - [How heat became visibleWhen science, health, labour and the UN began to notice heat](https://beattheheat.asia/how-heat-became-visible/)
 - [A day in a heatwaveEight hours, seven places across Asia](https://beattheheat.asia/#day)
 - [The web of heatEvery consequence, system by system, as textOn the path for: Research](https://beattheheat.asia/the-web/)

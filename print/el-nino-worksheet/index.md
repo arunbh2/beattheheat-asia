@@ -78,6 +78,8 @@ Role and organisationRole and organisationNext check, on (date)
 
 Hints are illustrative; write your own answers. Bring this sheet to the next check. The guide behind it, with the outlook, the risks and the warning route, is on the live page.
 
+**Used this sheet? Tell us what you changed, and what you would add, through the form at beattheheat.asia/join. No names needed.**
+
 **Common Shade** · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/el-nino-and-cities
 
 Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.

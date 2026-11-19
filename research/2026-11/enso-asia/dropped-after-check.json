@@ -1,18 +1,1 @@
-[
- {
-  "id": "e-noaa-status",
-  "where": "Watch; explainer",
-  "text": "NOAA CPC's discussion of 12 November 2026 keeps an El Niño Advisory: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January–March 2027 (a greater than 79% chance), and is expected to begin weakening in early 2027. The next discussion is scheduled for 10 December 2026.",
-  "missing": [
-   "noaa-disc: \"79% chance\""
-  ]
- },
- {
-  "id": "e-noaa-historic",
-  "where": "Explainer",
-  "text": "NOAA puts the chance of a historic event, with a 3-month RONI of +2.5 °C or more, at about 60% for October–December and November–January.",
-  "missing": [
-   "noaa-disc: \"60% for the October-December and November-January periods\""
-  ]
- }
-]
+[]

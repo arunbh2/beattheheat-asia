@@ -45,6 +45,40 @@ Checked against an original source Reported by secondary sources; original not c
 
 Commitment Something an institution has promised or started; it climbs the ladder.Gathering A conference or forum where the field meets; what it produces may become commitments.Finding New science that changes how heat is understood.Guidance A framework or guide published for others to use.
 
+El Niño watch
+
+## Implications for Asia's next hot season
+
+**Official status**: **El Niño Advisory** NOAA's alert status when El Niño conditions are observed and expected to continue.
+
+**Bulletin**: NOAA Climate Prediction Center, ENSO Diagnostic Discussion, issued 12 November 2026
+
+**Forecast period**: January to March 2027 for strength; ENSO phase odds to April to June 2027
+
+### Observed What changed
+
+El Niño strengthened compared with the previous month: sea surface temperature anomalies exceeded 4.0 °C and extended farther west across the eastern equatorial Pacific. The weekly Niño-3.4 index reached +2.5 °C, and rainfall stayed suppressed over Indonesia.
+
+### Forecast What the bulletin expects
+
+A strong-to-very strong El Niño is likely through January to March 2027 (a greater than 79% chance), before it begins to weaken in early 2027.
+
+For March to May 2027, NOAA puts the chance of El Niño at 80%, most likely weak (53%) or moderate (25%); for April to June 2027, ENSO-neutral becomes more likely (61%) than El Niño (38%).
+
+### Our reading What it means for preparation
+
+The odds favour El Niño persisting into the start of the hot season in much of South and Southeast Asia, and ASMC expects above-normal temperature over the ASEAN region through January 2027. That is a reason to get ordinary heat protection ready early. It is not a forecast of a heatwave anywhere.
+
+### Uncertain What remains uncertain locally
+
+A Pacific probability does not give any town's chance of a heatwave, a water shortage or a flood. NOAA's strength odds describe the Pacific, not the strength of local impacts. Local outcomes depend on the season, geography, other ocean drivers and local warnings.
+
+This panel reflects NOAA's discussion of 12 November 2026. NOAA's next discussion is scheduled for 10 December 2026.
+
+[NOAA's discussion](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [NOAA's ENSO probabilities](https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/) · [ASMC's regional outlook](https://asmc.asean.org/asmc-seasonal-outlook/) · [WMO's seasonal update](https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026) · [El Niño and heat in Asia, explained](https://beattheheat.asia/el-nino/)
+
+An outlook is a finding, not a commitment, so it stays outside the commitments above. The finding is tracked as [El Niño set to bring more heat into 2027](#sig-el-nino-2026-2027); preparedness commitments made in response are tracked as their own records: [WHO responds to El Niño's health risks at Grade 3](#sig-who-el-nino-response-2026) · [The Philippines issues guidelines on heat stress at work and on compensation for heat illness](#sig-philippines-heat-stress-advisories-2026).
+
 Antalya, 9 to 20 November 2026
 
 ## COP31 watch
@@ -229,6 +263,8 @@ Sources and review
 - [WMO: El Niño/La Niña Update, August 2026](https://wmo.int/node/38928) Originalchecked 9 November 2026
 
 ReviewRecord last reviewed 17 November 2026. Sources last checked 17 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+
+Read with the [El Niño watch](#el-nino-watch) above, which shows the latest official bulletin, and the explainer [El Niño and heat in Asia](https://beattheheat.asia/el-nino/).
 
 Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat action plans](https://beattheheat.asia/actions/#hap)
 

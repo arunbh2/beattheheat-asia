@@ -1,8 +1,30 @@
 [
  {
+  "id": "e-noaa-status",
+  "where": "Watch; explainer",
+  "text": "NOAA CPC's discussion of 12 November 2026 keeps an El Niño Advisory: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January–March 2027 (a greater than 79% chance), and is expected to begin weakening in early 2027. The next discussion is scheduled for 10 December 2026.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
   "id": "e-noaa-change",
   "where": "Watch",
   "text": "Compared with the previous month, El Niño strengthened as sea surface temperature anomalies exceeded 4.0 °C and extended farther west across the eastern equatorial Pacific; the weekly Niño-3.4 index reached +2.5 °C, and suppressed rainfall persisted over Indonesia.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
+  "id": "e-noaa-historic",
+  "where": "Explainer",
+  "text": "NOAA puts the chance of a historic event, with a 3-month RONI of +2.5 °C or more, at about 60% for October–December and November–January.",
   "sources": [
    {
     "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",

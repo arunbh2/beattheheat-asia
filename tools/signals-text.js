@@ -53,6 +53,7 @@ function md(SITE) {
   const L = [`## ${TITLE}`, `${SITE}/signals/`, LEDE, NOTE, denominator(O),
     "Overview, by the furthest step each deliverable has evidence for: " + [...SM.RUNGS, "none"].filter(r => r !== "none" || O.buckets.none.n).map(r => `${r === "none" ? "no step with evidence" : SM.RUNG_LABEL[r]} ${O.buckets[r].n}${O.buckets[r].reportedOnly ? ` (${O.buckets[r].reportedOnly} on secondary reports only)` : ""}`).join("; ") + ".",
     "Evidence states: " + Object.values(SM.STATE).map(s => s.label).join("; ") + ".", "How records are kept: " + METHOD.join(" ")];
+  L.push("### El Niño watch: implications for Asia's next hot season", require("./enso-outlook.js").md(SITE), `An outlook is a finding, not a commitment; it stays outside the commitment counts. Explainer: ${SITE}/el-nino/`);
   for (const g of D.groups) {
     L.push(`### ${g.label}`, g.intro);
     if (g.when) L.push(g.when + ".");

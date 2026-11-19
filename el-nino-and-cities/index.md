@@ -39,7 +39,7 @@ The evidence
 
 Issued 12 November 2026 · covers through January to March 2027 · Tropical Pacific Ocean
 
-El Niño Advisory in effect. A strong to very strong El Niño is likely through January to March 2027 (a greater than 79% chance), then expected to begin weakening.
+El Niño Advisory in effect. A strong-to-very strong El Niño is likely through January to March 2027 (a greater than 79% chance), before it begins to weaken in early 2027.
 
 A forecast for the Pacific Ocean, not for an Indian city. Next issue: 10 December 2026.
 
@@ -49,9 +49,9 @@ Newer issue? [NOAA's latest ENSO discussion](https://www.cpc.ncep.noaa.gov/produ
 
 ### World Meteorological Organization
 
-Issued 26 October 2026 · covers November 2026 to January 2027 · Tropical Pacific Ocean
+Issued 21 October 2026 · covers November 2026 to January 2027 · Tropical Pacific Ocean
 
-The Global Seasonal Climate Update forecasts sea surface temperatures in the tropical Pacific up to 3.8 °C above average, and says the event could be unprecedented in strength. WMO's quarterly El Niño Update of 3 September 2026 gave a nearly 100% likelihood that El Niño persists through February 2027.
+The seasonal average anomaly is forecast at about +3.8 °C, peaking around December 2026; a positive Indian Ocean Dipole is forecast to decline to +0.3 °C. WMO's quarterly El Niño Update of 3 September 2026 gave a nearly 100% likelihood that El Niño persists through February 2027.
 
 Strength in the Pacific does not decide how severe impacts are in any one country.
 
@@ -71,13 +71,13 @@ Newer issue? [IMD's district warnings](https://mausam.imd.gov.in/responsive/dist
 
 IMD releases its seasonal outlook for the hot season between March and May. Until it is out, use your district's warnings, and read the outlook for your own region when it is issued.
 
-Sources for this section (5)
+Sources for this section (3)
 
-- [NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 12 November 2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf)
-- [World Meteorological Organization: WMO Global Seasonal Climate Outlook informs humanitarian action](https://wmo.int/media/news/wmo-global-seasonal-climate-outlook-informs-humanitarian-action)
 - [World Meteorological Organization: El Niño set to become very strong, raising risks of extreme weather into 2027](https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027)
 - [India Meteorological Department: Extended range forecast and observed features, 1 October 2026](https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf)
 - [Natural Resources Defense Council (NRDC): Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+
+How El Niño works, region by region: [El Niño and heat in Asia](https://beattheheat.asia/el-nino/). The same bulletin is on the [El Niño watch](https://beattheheat.asia/signals/#el-nino-watch).
 
 ### What a seasonal signal can and cannot tell a city
 
