@@ -1,0 +1,27 @@
+/* Who shares the heat (/shared-heat/): styles for this page only (loaded by tools/build-pages.js). */
+.sh .hub-h { margin-top: var(--s-7); }
+.sh .hub-h:first-child { margin-top: 0; }
+.sh-lede { font-family: var(--font-serif); font-size: var(--fs-18); line-height: 1.55; }
+.sh .cs-note { max-width: 46rem; }
+.sh-steps { list-style: none; margin: var(--s-4) 0 0; padding: 0; display: grid; gap: var(--s-3); max-width: 52rem; }
+.sh-step { background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--pad-std); }
+.sh-step h3 { display: flex; align-items: center; gap: var(--s-2); margin: 0; font-size: var(--fs-18); line-height: 1.15; }
+.sh-step h3 span { display: inline-grid; place-items: center; width: 24px; height: 24px; flex: none; border-radius: 999px; background: var(--ink); color: var(--canvas); font-size: var(--fs-12); }
+.sh-step p, .sh-step ul { margin: 8px 0 0; }
+.sh-people, .sh-list { padding-left: 1.1rem; display: grid; gap: 4px; }
+.sh-step .cs-note { margin-top: var(--s-3); }
+.sh-tablewrap { margin-top: var(--s-3); overflow-x: auto; max-width: 100%; }
+.sh-table { width: 100%; border-collapse: collapse; font-size: var(--fs-14); line-height: 1.5; }
+.sh-table caption { text-align: left; font-weight: 700; padding-bottom: 6px; }
+.sh-table th, .sh-table td { border-top: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; overflow-wrap: break-word; }
+.sh-table thead th { font-size: var(--fs-12); letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+@media (max-width: 720px) {
+  .sh-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .sh-table, .sh-table caption, .sh-table tbody, .sh-table tr, .sh-table th, .sh-table td { display: block; width: 100%; }
+  .sh-table tr { border: 1px solid var(--line); border-radius: var(--r-sm); padding: var(--pad-compact); margin-top: 8px; }
+  .sh-table th, .sh-table td { border: 0; padding: 4px 0; }
+  .sh-table td::before { content: attr(data-label); display: block; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+}
+.sh-h3 { margin: var(--s-5) 0 var(--s-2); font-size: var(--fs-18); line-height: 1.15; }
+.sh-question { margin-top: var(--s-4); }
+.sh-question p { margin: 0; font-size: var(--fs-18); font-weight: 700; line-height: 1.4; }

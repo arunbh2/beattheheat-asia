@@ -10,6 +10,7 @@
 // Model: tools/signals-model.js. Words shared with llms-full.txt: tools/signals-text.js. Data: data/site/signals.json and
 // the derived data/site/signals-checks.json (node tools/signals-sync.js). Called by build-pages.js.
 "use strict";
+const SH = require("./shared-heat-text.js");
 const fs = require("fs"), path = require("path"), T = require("./signals-text.js"), SM = require("./signals-model.js");
 const ROOT = path.join(__dirname, "..");
 const J = f => JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8")), arr = x => Array.isArray(x) ? x : Object.values(x || {});
@@ -139,9 +140,11 @@ module.exports = function signals({ page, write, esc, hero }) {
     <p class="sg-note">${e(T.NOTE)}</p>
     <p class="sg-keys"><span><span aria-hidden="true">✓</span> ${e(SM.STATE.confirmed.label)}</span><span><span aria-hidden="true">◐</span> ${e(SM.STATE.reported.label)}</span><span><span aria-hidden="true">○</span> ${e(SM.STATE.unverified.label)}</span><span><span aria-hidden="true">◷</span> Scheduled: a future date, not yet reached</span><span><span aria-hidden="true">–</span> Not verified in the sources checked</span></p>
     <p class="sg-kinds">${D.kinds.map(k => `<span><span class="sg-kind sg-kind--${k.id}">${e(k.label)}</span> ${e(k.means)}</span>`).join("")}</p>
+    <div class="cs-note sg-cq" id="commitment-questions"><span class="cs-note__label">${e(SH.COMMITMENT.h)}</span><p>${e(SH.COMMITMENT.intro)}</p><ol>${SH.COMMITMENT.questions.map(q => `<li>${e(q)}</li>`).join("")}</ol></div>
   </div></section>
   <section class="sg-watch" id="el-nino-watch" aria-labelledby="enso-watch-h"><div class="container">
     ${EO.panel(e, { today })}
+    <p class="sg-small">A hot, dry season can strain water, power, work, schools and care at once, in the same households. <a href="/el-nino/#daily">How these pathways connect</a>, and why the outlook alone cannot say which matters where.</p>
     <p class="sg-small">An outlook is a finding, not a commitment, so it stays outside the commitments above. The finding is tracked as <a href="#${e(EOD.finding)}">${e((D.signals.find(x => x.id === EOD.finding) || {}).title || "the El Niño record")}</a>; preparedness commitments made in response are tracked as their own records: ${EOD.commitments.map(id => { const x = D.signals.find(r => r.id === id); return x ? `<a href="#${e(id)}">${e(x.title)}</a>` : ""; }).filter(Boolean).join(" · ")}.</p>
   </div></section>
   <section class="sg-cop" id="cop31" aria-labelledby="cop31-h"><div class="container">

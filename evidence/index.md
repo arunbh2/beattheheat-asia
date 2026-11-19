@@ -1,7 +1,7 @@
 ---
 title: "News and evidence"
 url: https://beattheheat.asia/evidence/
-updated: 2026-11-17
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -24,7 +24,7 @@ What the evidence says, how sure we are, and where every claim comes from.
 - [How heat is reportedWhat the coverage shows, across 10 languagesOn the path for: Research](https://beattheheat.asia/how-heat-is-reported/)
 - [Heat in the newsHeadlines and new research, refreshed automatically](https://beattheheat.asia/news/)
 - [Sources and referencesEvery source the site cites, searchableOn the path for: Research](https://beattheheat.asia/sources/)
-- [Glossary89 terms, 85 with a short film](https://beattheheat.asia/glossary/)
+- [Glossary91 terms, 85 with a short film](https://beattheheat.asia/glossary/)
 
 ## Also in News and evidence
 

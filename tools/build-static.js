@@ -38,7 +38,27 @@ const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
   if (unknown.size) throw new Error(`index.html: data-stat "${[...unknown].join('", "')}" has no value in tools/build-static.js (STAT). Add it there and in script.js renderStats().`);
   if (out !== html) fs.writeFileSync(file, out);
 }
+// ---- shared conditions: blocks on the hand-written homepage and plan page, filled between <!--sh:KEY--> markers from
+// tools/shared-heat-text.js, so the homepage, /plan/ and llms-full.txt never differ ----
+{
+  const SH = require("./shared-heat-text.js"), e = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const BLOCKS = {
+    "index.html": { home: `<div class="cs-note sh-home" id="connected"><span class="cs-note__label">${e(SH.INTRO.h)}</span><p>${e(SH.INTRO.scene)}</p><p>${e(SH.INTRO.phrase)}</p><p>${e(SH.INTRO.resilience)} <a href="${SH.INTRO.go[0]}">${e(SH.INTRO.go[1])}&nbsp;<span aria-hidden="true">→</span></a></p></div>` },
+    "plan/index.html": { plan: `<section class="container sh-plan" id="shared-plan" aria-labelledby="shared-plan-h"><h2 class="h3" id="shared-plan-h">${e(SH.PLAN.h)}</h2><p>${e(SH.PLAN.intro)}</p><ol>${SH.PLAN.questions.map(q => `<li><b>${e(q.t)}.</b> ${e(q.d)}</li>`).join("")}</ol><p><a href="${SH.PLAN.go[0]}">${e(SH.PLAN.go[1])}&nbsp;<span aria-hidden="true">→</span></a></p></section>` }
+  };
+  Object.entries(BLOCKS).forEach(([f, keys]) => {
+    const file = path.join(ROOT, f), html = fs.readFileSync(file, "utf8");
+    let out = html;
+    Object.entries(keys).forEach(([k, block]) => {
+      const re = new RegExp(`<!--sh:${k}-->[\\s\\S]*?<!--/sh:${k}-->`);
+      if (!re.test(out)) throw new Error(`${f}: no <!--sh:${k}--> ... <!--/sh:${k}--> markers for the shared-conditions block`);
+      out = out.replace(re, `<!--sh:${k}-->${block}<!--/sh:${k}-->`);
+    });
+    if (out !== html) fs.writeFileSync(file, out);
+  });
+}
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const SH = require("./shared-heat-text.js");
 const plain = s => String(s || "").replace(/\n/g, " ");
 const byId = Object.fromEntries([...D.SYSTEMS, ...D.CONSEQUENCES, { id: "heat", label: "Extreme heat" }].map(x => [x.id, x]));
 const inst = Object.fromEntries(D.INSTITUTIONS.map(i => [i.id, i]));
@@ -188,11 +208,12 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
         ${lv.length ? `<p><strong>Where it breaks:</strong> ${lv.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>`).join(", ")}</p>` : ""}${rfLine(l.id)}
         ${(x => x ? `<p><strong>Solutions to try:</strong> ${x.note ? `${esc(x.note)} ` : ""}${x.items.map(i => `<a href="/solutions/#${i.id}">${esc(i.name)}</a> (${esc(i.why.replace(/\.$/, "").replace(/^./, c => c.toLowerCase()))})`).join("; ")}. A suggested match, not a measured effect on the cycle. <a href="/heat-economy/opportunities/#loop-${l.id}">Business ideas for this cycle</a>.</p>` : "")(D.LOOP_SOLUTIONS[l.id])}
         ${ev.length ? `<ul>${ev.map(e => `<li>${esc(e.finding)} ${ext(e.url, e.by)}${e.type ? `<br><span class="meta">${esc(e.type)} · ${esc(e.where)} · ${esc(e.scale)}. Limit: ${esc(e.limit)}</span>${e.reading ? `<br><span class="meta"><strong>Our reading:</strong> ${esc(e.reading)}</span>` : ""}` : ""}</li>`).join("")}</ul>` : ""}
+        ${(x => x ? `<h4 id="${l.id}-shared">${esc(SH.LOOPS.label)}</h4><ul>${Object.keys(SH.LOOPS.heads).map(k => `<li><strong>${esc(SH.LOOPS.heads[k])}:</strong> ${esc(x[k])}</li>`).join("")}</ul><p class="meta">${esc(SH.LOOPS.note)} <a href="/${SH.SLUG}/">${esc(SH.INTRO.go[1])}</a>.</p>` : "")(SH.LOOPS.items[l.id])}
         <p class="meta"><a href="/#loop-${l.id}">Follow it on the map</a>${l.video ? ` · <a href="/${l.video}">Watch the film (${esc(l.length)})</a>` : ""}</p>`;
       m.push(`#### ${l.name}`, l.summary, `The cycle: ${l.path.map(name).join(" → ")} → back to the start.`,
         D.LOOP_STAKES[l.id] ? `${D.STAKES_LABEL[D.LOOP_STAKES[l.id].kind]} (${D.LOOP_STAKES[l.id].where}): ${D.LOOP_STAKES[l.id].n}. ${D.LOOP_STAKES[l.id].text} (${D.LOOP_STAKES[l.id].by}, ${D.LOOP_STAKES[l.id].url})` : `${D.STAKES_LABEL.none}.`,
         D.LOOP_STAKES[l.id] && D.LOOP_STAKES[l.id].sea ? `In Southeast Asia (${D.LOOP_STAKES[l.id].sea.where}): ${D.LOOP_STAKES[l.id].sea.n}. ${D.LOOP_STAKES[l.id].sea.text} (${D.LOOP_STAKES[l.id].sea.by}, ${D.LOOP_STAKES[l.id].sea.url})` : "", D.LOOP_PLACES[l.id] ? `Where it plays out: ${D.LOOP_PLACES[l.id]}` : "",
-        lv.length ? `Where it breaks: ${lv.map(v => v.title).join(", ")}` : "", D.LOOP_SOLUTIONS[l.id] ? `Solutions to try (a suggested match, not a measured effect): ${D.LOOP_SOLUTIONS[l.id].items.map(i => `${i.name} (https://beattheheat.asia/solutions/#${i.id})`).join("; ")}` : "", ...ev.map(e => `- ${e.finding} (${e.by}, ${e.url})${e.type ? ` Type: ${e.type}. Where: ${e.where}. Scale: ${e.scale}. Limit: ${e.limit}${e.reading ? ` Our reading: ${e.reading}` : ""}` : ""}`));
+        lv.length ? `Where it breaks: ${lv.map(v => v.title).join(", ")}` : "", SH.LOOPS.items[l.id] ? `${SH.LOOPS.label} (${SH.LOOPS.note}) ${Object.keys(SH.LOOPS.heads).map(k => `${SH.LOOPS.heads[k]}: ${SH.LOOPS.items[l.id][k]}`).join(" ")}` : "", D.LOOP_SOLUTIONS[l.id] ? `Solutions to try (a suggested match, not a measured effect): ${D.LOOP_SOLUTIONS[l.id].items.map(i => `${i.name} (https://beattheheat.asia/solutions/#${i.id})`).join("; ")}` : "", ...ev.map(e => `- ${e.finding} (${e.by}, ${e.url})${e.type ? ` Type: ${e.type}. Where: ${e.where}. Scale: ${e.scale}. Limit: ${e.limit}${e.reading ? ` Our reading: ${e.reading}` : ""}` : ""}`));
     });
   });
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: "Vicious cycles of extreme heat", numberOfItems: D.LOOPS.length,
@@ -245,7 +266,7 @@ if(rm){b.hidden=true;}else{b.textContent="Play again";b.focus();requestAnimation
 // who is at risk
 {
   const p = PAGES[3], intro = "The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.";
-  let h = `<h2>Five questions behind every barrier</h2><ul>${D.AT_RISK_BARRIERS.map(b => `<li><strong>${esc(b.q)}</strong> ${esc(b.a)}</li>`).join("")}</ul><p>These barriers rarely come alone. <a href="/intersections/">Intersections</a> is a short note and a game about where they meet, and who protection reaches.</p>`, m = [`## ${p.title}`, intro, ...D.AT_RISK_BARRIERS.map(b => `- ${b.q} ${b.a}`)];
+  let h = `<h2 id="shared">${esc(SH.UNEQUAL.h)}</h2><p>${esc(SH.UNEQUAL.text)} <a href="/${SH.SLUG}/">${esc(SH.INTRO.go[1])}</a>.</p><h2>Five questions behind every barrier</h2><ul>${D.AT_RISK_BARRIERS.map(b => `<li><strong>${esc(b.q)}</strong> ${esc(b.a)}</li>`).join("")}</ul><p>These barriers rarely come alone. <a href="/intersections/">Intersections</a> is a short note and a game about where they meet, and who protection reaches.</p>`, m = [`## ${p.title}`, intro, `### ${SH.UNEQUAL.h}`, SH.UNEQUAL.text, ...D.AT_RISK_BARRIERS.map(b => `- ${b.q} ${b.a}`)];
   // the short films and simulation that go with each group (the same pairs as the map's version, in script.js)
   const RISK_FILMS = { older: ["olderheat", "checkins", "sleepheat"], mothers: ["pregnancyheat", "babyheat"], settlements: ["homeheat", "shadegap"], women: ["kitchenheat"],
     disability: ["kidneyheat", "mindheat"], excluded: ["closedplaces"], workers: ["firstaid", "workrest"], farmers: ["drysoilloop", "nightcrops"], coastal: ["saltwater"], remote: ["clinicheat", "telecomheat"] };
@@ -508,7 +529,8 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
   const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
   const EN = require("./el-nino-text.js");
-  let h = `${EN.promo(esc, "en-promo-practical", "p")}<p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro, EN.promoMd()];
+  const RL = SH.RELIABLE;
+  let h = `${EN.promo(esc, "en-promo-practical", "p")}<h2 id="reliable">${esc(RL.h)}</h2><p>${esc(RL.intro)}</p><ul>${RL.items.map(x => `<li><strong>${esc(x.t)}:</strong> ${esc(x.d)}</li>`).join("")}</ul><p class="meta">Each card below says what it takes to run. <a href="/${SH.SLUG}/#resources">See who authorises, pays, runs and fixes each part in one worked example</a>.</p><p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro, EN.promoMd(), `### ${SH.RELIABLE.h}`, SH.RELIABLE.intro, ...SH.RELIABLE.items.map(x => `- ${x.t}: ${x.d}`)];
   D.ACTION_SETTINGS.forEach(st => {
     h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/practical/#practical-${st.id}">Open them in the interactive version</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}${st.id === "summer" ? ` · <a href="/el-nino-and-cities/">El Niño and India's smaller cities: preparing for summer 2027</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);
@@ -549,6 +571,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     <h2>${esc(F.basis.q)}</h2><ul>${F.basis.kinds.map(k => `<li><strong>${esc(k.name)}.</strong> ${esc(k.text)}</li>`).join("")}</ul><p><strong>${esc(F.basis.ask)}</strong> ${esc(F.basis.note)} ${src(F.basis.source)}</p>
     <h2>From trigger to protection</h2><ol>${F.pathway.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol><p>${esc(F.pathway.note)} ${src(F.pathway.source)}</p>
     <h2>Will it survive the next season?</h2><ul>${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul><p class="meta">${src(F.surviveSource)}</p>
+    <h2 id="who-keeps-paying">${esc(SH.COSTS.h)}</h2><p>${esc(SH.COSTS.intro)}</p><ul>${SH.COSTS.shifts.map(x => `<li><strong>${esc(x.t)}:</strong> ${esc(x.d)}</li>`).join("")}</ul><p>${esc(SH.COSTS.ask)}</p>
     ${F.lenders ? `<h2 id="lenders">${esc(F.lenders.title)}</h2><p>${esc(F.lenders.intro)} <a href="/media/films/heat-and-lenders.mp4">Watch the ${esc(F.lenders.video.length)} narrated film</a> (transcript: <a href="/media/films/heat-and-lenders.en.vtt">captions</a>).</p><ul>${F.lenders.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul><p><strong>What could help, in combination:</strong></p><ul>${F.lenders.helps.map(x => `<li><strong>${esc(x.name)}:</strong> ${esc(x.text)}</li>`).join("")}</ul><p>${esc(F.lenders.shift)}</p><p class="meta">${esc(F.lenders.note)} ${src(F.lenders.source)}</p>` : ""}
     <h2>What has been tried</h2>${F.cases.map(c => `<h3 id="${c.id}">${esc(c.name)}</h3><p class="meta">${esc(c.where)} · ${esc(c.hazard)}</p><ul><li><strong>Who paid:</strong> ${esc(c.paid)}</li><li><strong>Who received it:</strong> ${esc(c.received)}</li><li><strong>What it made possible:</strong> ${esc(c.enabled)}</li><li><strong>What it left out:</strong> ${esc(c.uncovered)}</li><li><strong>Did it continue?</strong> ${esc(c.continued)}</li><li><strong>Lesson:</strong> ${esc(c.lesson)}</li></ul><p class="meta">Sources: ${c.sources.map(src).join(" · ")}</p>`).join("")}
     <h2>What this evidence can and can’t tell you</h2><p>${esc(F.boundary)} ${src(F.boundarySource)}</p>
@@ -557,7 +580,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     "### Three triggers, not one", ...F.triggers.map(t => `- ${t.name}: ${t.does} ${t.who}.`), F.triggersNote,
     `### ${F.basis.q}`, ...F.basis.kinds.map(k => `- ${k.name}: ${k.text}`), `${F.basis.ask} ${F.basis.note} (${F.basis.source.label}, ${F.basis.source.url})`,
     "### From trigger to protection", F.pathway.steps.join(" → "), `${F.pathway.note} (${F.pathway.source.label}, ${F.pathway.source.url})`,
-    "### Will it survive the next season?", ...F.survive.map(q => `- ${q}`),
+    "### Will it survive the next season?", ...F.survive.map(q => `- ${q}`), `### ${SH.COSTS.h}`, SH.COSTS.intro, ...SH.COSTS.shifts.map(x => `- ${x.t}: ${x.d}`), SH.COSTS.ask,
     ...(F.lenders ? [`### ${F.lenders.title}`, F.lenders.intro, ...F.lenders.facts.map(f => `- ${f}`), "What could help, in combination:", ...F.lenders.helps.map(x => `- ${x.name}: ${x.text}`), F.lenders.shift, `Source: ${F.lenders.source.label} ${F.lenders.source.url}`] : []),
     "### What has been tried", ...F.cases.flatMap(c => [`#### ${c.name} (${c.where}; ${c.hazard})`, `Who paid: ${c.paid}`, `Who received it: ${c.received}`, `What it made possible: ${c.enabled}`, `What it left out: ${c.uncovered}`, `Did it continue? ${c.continued}`, `Lesson: ${c.lesson}`, ...c.sources.map(x => `Source: ${x.label} ${x.url}`)]),
     "### What this evidence can and can’t tell you", `${F.boundary} (${F.boundarySource.label}, ${F.boundarySource.url})`];
@@ -570,6 +593,7 @@ if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
 // ---- El Niño and the city: page by tools/build-el-nino.js, the same words from tools/el-nino-text.js ----
 md.push(require("./build-el-nino.js").md(SITE));
 md.push(require("./build-el-nino-explainer.js").md(SITE));
+md.push(SH.md(SITE));
 // ---- who could help a household through a hot season: page by tools/build-social-protection.js, the same words from tools/social-protection-text.js ----
 const SPT = require("./social-protection-text.js");
 if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE));

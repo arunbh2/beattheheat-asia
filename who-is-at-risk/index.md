@@ -1,7 +1,7 @@
 ---
 title: "Who extreme heat hits hardest | Common Shade"
 url: https://beattheheat.asia/who-is-at-risk/
-updated: 2026-11-08
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -32,6 +32,10 @@ Who is exposed, and why?
 The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.
 
 [Open the interactive version](https://beattheheat.asia/#at-risk)
+
+## Shared heat, unequal ground
+
+People in the same street, market or workplace share the same hot afternoon, but not the same exposure, money, rights or say over what changes. Shared consequences do not make responsibility equal, and they do not create agreement on their own. Protection tends to hold better when the people most exposed take a real part in decisions: organising, negotiating, and bringing what they know about their own day. [Follow one market through a hot season](https://beattheheat.asia/shared-heat/).
 
 ## Five questions behind every barrier
 

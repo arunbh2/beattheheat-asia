@@ -1,15 +1,15 @@
 ---
 title: "Plain-language glossary of extreme heat | Common Shade"
 url: https://beattheheat.asia/glossary/
-updated: 2026-11-07
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
-> 89 terms that come up again and again in extreme heat, explained in a sentence or two.
+> 91 terms that come up again and again in extreme heat, explained in a sentence or two.
 
 # Plain-language glossary of extreme heat
 
-89 terms that come up again and again in extreme heat, explained in a sentence or two.
+91 terms that come up again and again in extreme heat, explained in a sentence or two.
 
 [Open the glossary with its films](https://beattheheat.asia/#glossary)
 
@@ -78,6 +78,10 @@ licence: CC BY 4.0
 ****Anticipatory action****: Acting on a forecast, before a disaster peaks, by releasing pre-agreed money and help when a trigger is reached. [Watch the explainer (0:36)](https://beattheheat.asia/media/glossary/anticipatory.mp4)
 
 ****Cooling centre****: A public place, such as a library, school or community hall, kept cool during heatwaves for people with no cool space at home. [Watch the explainer (0:33)](https://beattheheat.asia/media/glossary/coolingcentre.mp4)
+
+****Community of fate****: People whose wellbeing becomes connected through shared places, work, institutions, services or ecological conditions, such as a market, a school's catchment or a supply chain, even when their exposure, money, rights and say in decisions are unequal. Common Shade uses the phrase as a lens, not a measured finding: see Who shares the heat (beattheheat.asia/shared-heat/).
+
+****Resilience****: As Common Shade uses it: the ability of people and institutions to see heat coming and reduce the risk, respond when it arrives, recover without falling further behind, and change the arrangements that cause the same harm every year. It rests on a household's own means and on dependable shared services, institutions and public investment.
 
 ****Chief heat officer****: A city official whose job is heat: joining up health, water, power, schools and work so that protection is planned before the hot season. Dhaka North City Corporation appointed Asia’s first in 2023. [Watch the explainer (0:30)](https://beattheheat.asia/media/glossary/chiefheatofficer.mp4) Source: [One Billion Resilient, 2023](https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/)
 

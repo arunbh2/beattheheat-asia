@@ -24,12 +24,12 @@
   "changed": "2026-11-18"
  },
  "/actions/": {
-  "hash": "c1abed20758a229e",
+  "hash": "ff733ac9733f9977",
   "changed": "2026-11-19"
  },
  "/approach/": {
-  "hash": "3fe5d256f86bbe6c",
-  "changed": "2026-11-17"
+  "hash": "e89e4d4a4230d3af",
+  "changed": "2026-11-19"
  },
  "/atlas/": {
   "hash": "4de8675d65ddeb61",
@@ -188,11 +188,11 @@
   "changed": "2026-11-19"
  },
  "/el-nino-and-cities/": {
-  "hash": "e50ec3139f168d63",
+  "hash": "ab87fe4cc55e7a5b",
   "changed": "2026-11-19"
  },
  "/el-nino/": {
-  "hash": "7823e150aaace44e",
+  "hash": "75d9063f84f3661d",
   "changed": "2026-11-19"
  },
  "/evidence-map/": {
@@ -200,8 +200,8 @@
   "changed": "2026-11-16"
  },
  "/evidence/": {
-  "hash": "90353d45cd00e27f",
-  "changed": "2026-11-17"
+  "hash": "7f1ce96f4869b71d",
+  "changed": "2026-11-19"
  },
  "/finance/": {
   "hash": "2efdcb132fa3ae81",
@@ -216,8 +216,8 @@
   "changed": "2026-11-18"
  },
  "/glossary/": {
-  "hash": "bd84040344a1c5e5",
-  "changed": "2026-11-07"
+  "hash": "2d8c19f27a4d3421",
+  "changed": "2026-11-19"
  },
  "/growing/": {
   "hash": "7014a80061a6c35e",
@@ -228,7 +228,7 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "8c9e98a171b742f7",
+  "hash": "c428f2211634c03f",
   "changed": "2026-11-19"
  },
  "/heat-economy/": {
@@ -256,7 +256,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "9ee1148b2ec3037d",
+  "hash": "c28ff7985418db2e",
   "changed": "2026-11-19"
  },
  "/heat-tools/": {
@@ -360,8 +360,8 @@
   "changed": "2026-11-17"
  },
  "/intersections/": {
-  "hash": "f60c757fcbbef65c",
-  "changed": "2026-11-17"
+  "hash": "22d5124f49a2cb87",
+  "changed": "2026-11-19"
  },
  "/join/": {
   "hash": "150465899076b4c9",
@@ -372,12 +372,12 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "32f004c0c8f932bd",
+  "hash": "af887799977b9e18",
   "changed": "2026-11-19"
  },
  "/loops/": {
-  "hash": "b2a7c3bca3f29843",
-  "changed": "2026-11-16"
+  "hash": "56613217d5f39a88",
+  "changed": "2026-11-19"
  },
  "/news/": {
   "hash": "4112bba5dabb0344",
@@ -412,19 +412,19 @@
   "changed": "2026-10-31"
  },
  "/paying-for-protection/": {
-  "hash": "a1153fcdfdcb19ee",
-  "changed": "2026-11-16"
+  "hash": "c6379610056b2947",
+  "changed": "2026-11-19"
  },
  "/paying-when-heat-strikes/": {
   "hash": "1e04bab979f6fa91",
   "changed": "2026-11-13"
  },
  "/plan/": {
-  "hash": "b64d7543720fc963",
-  "changed": "2026-11-13"
+  "hash": "bd89a4fb859bd5af",
+  "changed": "2026-11-19"
  },
  "/practical-actions/": {
-  "hash": "13297d9c7db89cdc",
+  "hash": "40dd41297669f2be",
   "changed": "2026-11-19"
  },
  "/practical/": {
@@ -635,8 +635,12 @@
   "hash": "e826fde106a18bce",
   "changed": "2026-11-19"
  },
+ "/shared-heat/": {
+  "hash": "26b9450abb59d932",
+  "changed": "2026-11-19"
+ },
  "/signals/": {
-  "hash": "24f7843ec8b4a577",
+  "hash": "b581832799127c94",
   "changed": "2026-11-19"
  },
  "/social-protection/": {
@@ -660,7 +664,7 @@
   "changed": "2026-11-14"
  },
  "/understand/": {
-  "hash": "a9aabfe11cbd6265",
+  "hash": "46bb55b87c6d4ca0",
   "changed": "2026-11-19"
  },
  "/use-with-ai/": {
@@ -680,12 +684,12 @@
   "changed": "2026-11-16"
  },
  "/who-holds-it/": {
-  "hash": "f0f46ef81076c17d",
-  "changed": "2026-10-01"
+  "hash": "33ea9693a73dbe1c",
+  "changed": "2026-11-19"
  },
  "/who-is-at-risk/": {
-  "hash": "ed235b24c49f3494",
-  "changed": "2026-11-08"
+  "hash": "cd6b7e8a609f2741",
+  "changed": "2026-11-19"
  },
  "/worked-plans/": {
   "hash": "7c579e3076b7ac2f",

@@ -4587,3 +4587,10 @@ main .pd-fold > .container > h2, main .pd-fold:not(.pd-is-open) > .container > h
 body { overflow-wrap: break-word; }
 h1, h2, h3, h4, .pg-h1 { overflow-wrap: anywhere; }
 
+/* shared conditions: the homepage note under "Who can act" and the closing questions on /plan/ (words: tools/shared-heat-text.js) */
+.sh-home { max-width: 46rem; margin-top: var(--s-5); }
+.sh-home p { margin: 6px 0 0; line-height: 1.55; }
+.sh-plan { margin-top: var(--s-6); max-width: 46rem; }
+.sh-plan ol { margin: var(--s-3) 0 0; padding-left: 1.25rem; display: grid; gap: 6px; }
+.sh-plan p { margin: var(--s-2) 0 0; }
+.sg-cq { margin-top: var(--s-4); max-width: 46rem; } .sg-cq ol { margin: 6px 0 0; padding-left: 1.25rem; } .sg-cq p { margin: 0; }

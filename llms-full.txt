@@ -1056,6 +1056,8 @@ Where it plays out: Coal-fired power plants along water-stressed rivers in India
 
 Where it breaks: Power that doesn’t need water, Backup power for water
 
+Who depends on whom (Our reading, an illustration of the connections; the evidence for the cycle is above.) Who depends on it: Households, clinics, water pumps and cooling draw on the same grid on the same hot afternoons. Where one choice changes another's options: When supply is cut in one area to keep another running, the pumps and fans in that area stop first. A shared arrangement that could help: Agreed priority supply for water pumping and health facilities, with storage at shared sites. Where the cost could land: Households that buy diesel, tankers or bottled water to cope.
+
 Solutions to try (a suggested match, not a measured effect): Solar/hybrid pumping with water storage for resilient water service (https://beattheheat.asia/solutions/#system_water_power_resilience); Heatwave grid-readiness planning and emergency resource coordination (https://beattheheat.asia/solutions/#system_heatwave_grid_readiness); Demand response and scheduled flexible loads to relieve heat-period peaks (https://beattheheat.asia/solutions/#system_demand_flexibility); Minimum energy performance standards for cooling appliances (https://beattheheat.asia/solutions/#system_minimum_energy_performance_standards)
 
 - Heatwaves in May and June 2023 pushed up demand while hydropower reservoirs ran low, and rolling blackouts hit northern Vietnam. The World Bank’s early estimate put the cost at about US$1.4 billion, roughly 0.3% of GDP. (World Bank estimate, reported by AFP via The Manila Times, 2023, https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp) Type: News report of a World Bank early estimate. Where: Northern Vietnam. Scale: National, one season (2023). Limit: An early estimate reported in the press; drought and demand both played a part.
@@ -1135,6 +1137,8 @@ In Southeast Asia (Bangkok, Thailand): 75%. of home-based workers in Bangkok los
 Where it plays out: Construction sites, brick kilns, farms and street markets across South and Southeast Asia.
 
 Where it breaks: Heat-safe work, Income protection in heatwaves, Social protection floors
+
+Who depends on whom (Our reading, an illustration of the connections; the evidence for the cycle is above.) Who depends on it: Workers paid per piece or per load, the contractors and employers above them, and buyers further along the chain. Where one choice changes another's options: A buyer's deadline sets how hard someone works in the heat, and whether a break costs pay. A shared arrangement that could help: Paid rest written into contracts and purchasing terms, so the cost is shared along the chain. Where the cost could land: The worker, in lost earnings, when a break has no pay protection.
 
 Solutions to try (a suggested match, not a measured effect): Paid rest, shade and drinking-water protocols (https://beattheheat.asia/solutions/#nonphysical_paid_recovery); Reschedule work and reduce peak-heat task exposure (https://beattheheat.asia/solutions/#nonphysical_workhour_changes); Parametric heat insurance for income shocks (https://beattheheat.asia/solutions/#nonphysical_parametric_heat_insurance); Scale up existing social protection for heat risk (https://beattheheat.asia/solutions/#nonphysical_shock_responsive_social_protection)
 
@@ -1222,6 +1226,8 @@ Where it plays out: School systems that closed classrooms during the 2024 heatwa
 
 Where it breaks: Keep children in school
 
+Who depends on whom (Our reading, an illustration of the connections; the evidence for the cycle is above.) Who depends on it: Pupils, teachers, support staff, and families whose working day follows the school day. Where one choice changes another's options: When a school shortens hours or closes in the heat, care moves to whoever is at home, and that person can lose a shift. A shared arrangement that could help: Cooler classrooms, and heat-day timetables agreed with families, so hours change without dropping care. Where the cost could land: Unpaid carers, and children who lose learning time.
+
 Solutions to try (a suggested match, not a measured effect): School heat operating plans, water access and escalation (https://beattheheat.asia/solutions/#nonphysical_school_heat_operations); Closure decisions with offline learning continuity (https://beattheheat.asia/solutions/#nonphysical_learning_continuity); Schoolyard greening, depaving and shade as a coordinated retrofit (https://beattheheat.asia/solutions/#passive_schoolyard_greening); Heat-responsive school timetables and activity changes (https://beattheheat.asia/solutions/#nonphysical_school_timetables)
 
 - Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students. (Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020, https://www.aeaweb.org/doi/10.1257/pol.20180612) Type: Peer-reviewed study. Where: United States. Scale: 10 million students. Limit: US schools and tests; the size of the effect in Asian classrooms is not known. Our reading: We use it for direction: hotter school years mean less learning, and the poorest lose most.
@@ -1245,6 +1251,8 @@ In Southeast Asia (Singapore): 76 → most nights. Singapore has averaged 76 war
 Where it plays out: Tropical cities whose nights stay hot, such as Bangkok, Chennai and Ho Chi Minh City.
 
 Where it breaks: Cool nights and support
+
+Who depends on whom (Our reading, an illustration of the connections; the evidence for the cycle is above.) Who depends on it: Tenants, landlords, power utilities and municipal services each shape how hot a room stays at night. Where one choice changes another's options: A landlord's roof, a night power cut and a street without trees decide whether a tenant can cool the room. A shared arrangement that could help: Roof and repair standards for rented homes, reliable night supply, and shaded, ventilated streets. Where the cost could land: Tenants, if the cost of a cooler roof is added to the rent.
 
 Solutions to try (a suggested match, not a measured effect): Night flushing / night-purge ventilation (https://beattheheat.asia/solutions/#passive_night_flushing); Solar-reflective roof coatings (https://beattheheat.asia/solutions/#passive_cool_roof_coating); Efficient BLDC ceiling fans (https://beattheheat.asia/solutions/#active_bldc_ceiling_fan); Night-time and round-the-clock outreach with heat escalation (https://beattheheat.asia/solutions/#nonphysical_night_outreach)
 
@@ -1365,6 +1373,8 @@ In Southeast Asia (Bangkok, Thailand): Up to 0.7%. of Bangkok’s economy is wha
 Where it plays out: Disaster budgets designed for floods and cyclones rather than heat.
 
 Where it breaks: Dedicated heat budgets, Anticipatory action
+
+Who depends on whom (Our reading, an illustration of the connections; the evidence for the cycle is above.) Who depends on it: Every service waiting on the same emergency budget: health, water and relief. Where one choice changes another's options: Money held until damage is visible arrives after households have already spent their savings. A shared arrangement that could help: Budgets agreed before the season that release on a forecast or an alert. Where the cost could land: Households that borrow or sell what they own to get through.
 
 Solutions to try (a suggested match, not a measured effect): Dedicated and traceable heat operating budgets (https://beattheheat.asia/solutions/#nonphysical_dedicated_heat_budgets); Pre-agreed heat anticipatory action and forecast finance (https://beattheheat.asia/solutions/#nonphysical_forecast_based_finance); Heat action plans with a seasonal responsibility matrix (https://beattheheat.asia/solutions/#nonphysical_heat_action_plan); Recognise heat in disaster-funding rules and eligibility (https://beattheheat.asia/solutions/#nonphysical_disaster_law_fund_access)
 
@@ -1865,6 +1875,10 @@ In practice: In 2024, Bangladesh's Directorate General of Health Services launch
 ## Who extreme heat hits hardest
 
 The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.
+
+### Shared heat, unequal ground
+
+People in the same street, market or workplace share the same hot afternoon, but not the same exposure, money, rights or say over what changes. Shared consequences do not make responsibility equal, and they do not create agreement on their own. Protection tends to hold better when the people most exposed take a real part in decisions: organising, negotiating, and bringing what they know about their own day.
 
 - Who receives the warning Alerts by app, radio or loudspeaker miss people without phones, signal, literacy or the right language.
 
@@ -2530,7 +2544,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Plain-language glossary of extreme heat
 
-89 terms that come up again and again in extreme heat, explained in a sentence or two.
+91 terms that come up again and again in extreme heat, explained in a sentence or two.
 
 ### What heat does to the body
 
@@ -2597,6 +2611,10 @@ From interviews with city officials in October and November 2024 and published m
 - **Anticipatory action**: Acting on a forecast, before a disaster peaks, by releasing pre-agreed money and help when a trigger is reached.
 
 - **Cooling centre**: A public place, such as a library, school or community hall, kept cool during heatwaves for people with no cool space at home.
+
+- **Community of fate**: People whose wellbeing becomes connected through shared places, work, institutions, services or ecological conditions, such as a market, a school's catchment or a supply chain, even when their exposure, money, rights and say in decisions are unequal. Common Shade uses the phrase as a lens, not a measured finding: see Who shares the heat (beattheheat.asia/shared-heat/).
+
+- **Resilience**: As Common Shade uses it: the ability of people and institutions to see heat coming and reduce the risk, respond when it arrives, recover without falling further behind, and change the arrangements that cause the same harm every year. It rests on a household's own means and on dependable shared services, institutions and public investment.
 
 - **Chief heat officer**: A city official whose job is heat: joining up health, water, power, schools and work so that protection is planned before the hot season. Dhaka North City Corporation appointed Asia’s first in 2023.
 
@@ -4226,6 +4244,20 @@ Source: Mongabay, 2026 https://news.mongabay.com/short-article/2026/05/climate-c
 
 **Before summer 2027: El Niño and India's smaller cities.** A practical guide for municipal teams and community organisations in Tier 2 and Tier 3 cities: choose where people already have to be in the hottest hours (a school, a market, a clinic or a waiting space), agree who keeps it working, and decide what changes when a local warning arrives. Open the guide: /el-nino-and-cities/
 
+### What keeps protection working
+
+A shade, a water point or a rest break protects people only while it keeps working. Five things usually decide whether it does:
+
+- Ownership and authority: Someone holds the site and can say yes, and everyone knows who.
+
+- Operating money and maintenance: Money for water, cleaning and repairs through the season, not only to build.
+
+- Staffing and access: Someone opens it at the hours people need it, and people can reach it: step-free, close to their work, without losing pay or a place.
+
+- A say for workers and residents: The people who use it help decide where it goes and when it opens, and can raise a problem without risk to their work.
+
+- Monitoring, and a way to fix failures: A way to report a failure, someone who fixes it, and a record of how long it took.
+
 ### Outdoor and hot workplaces
 
 People who cannot stop working when it is hot: builders, vendors, riders, farm, factory and sanitation workers.
@@ -5258,6 +5290,18 @@ When money goes first to a government, cooperative or microfinance institution, 
 
 - What evidence would make you change it, or stop it?
 
+### Who pays first, and who keeps paying
+
+Setting protection up is often paid once, from a budget or a grant. Running it comes back every season, and that cost lands somewhere. Three common ways it moves, as illustrations:
+
+- Onto households: A cooling space open only by day leaves the cost of a hot night (fans, power, water) to each household.
+
+- Onto informal workers: A rest break with no pay protection is paid for by the worker, in lost loads or lost sales.
+
+- Onto unpaid carers: Shorter school or childcare hours on hot days move care to whoever is at home, and can cost that person paid work.
+
+For any measure, ask who paid to set it up, who pays to run it each season, and who pays if it stops. Proposed, funded and operating are different states; the cases on this page say which each one is.
+
 ### When heat reaches lenders
 
 Heat does not stop at the household. When people earn less in a heatwave, loan repayments slow, and the strain travels up to microfinance institutions and banks. A 2026 commentary sets out how, and what could help.
@@ -5778,7 +5822,7 @@ Nothing had to be built to see this. Watching one ordinary part of the school da
 
 - Use the school calendar: Ask which schools are open, on which dates and at what hours during the hot weeks. Count reach only for the days children are present. Opening a school as neighbourhood respite during the holidays is a separate decision, needing permission, staff, drinking water, a step-free entrance and safeguarding.
 
-- What changes on a heat-warning day: Something within the school's own authority: hold the morning assembly in the shaded area instead of the open yard, and check that the drinking-water point works before pupils arrive. Changes to school hours or closures follow the education department and the state or district heat action plan.
+- What changes on a heat-warning day: Something within the school's own authority: hold the morning assembly in the shaded area instead of the open yard, and check that the drinking-water point works before pupils arrive. Changes to school hours or closures follow the education department and the state or district heat action plan. A shorter school day also moves care to families and can cost a parent paid work, so changes are easier to carry when agreed with families early.
 
 - Check the result: For the meal queue, time how long pupils wait in direct sun during comparable lunch periods, before and after the change. For a roof or a classroom change, compare temperatures in occupied rooms at similar times of day and in comparable weather; NIUA's Table 2 pairs roofs treated with lower indoor temperatures (Learning Note 2, p. 54). Claims about attendance, learning or illness need evidence of their own.
 
@@ -5976,6 +6020,8 @@ An event's peak in the Pacific and its effects in a region need not coincide. Th
 
 - Dry vegetation and fires lit by people -> more fire and smoke haze -> heat and smoke together. Most relevant where land is cleared by burning and where El Niño brings drier months, as in parts of the Maritime Continent.
 
+Where the pathways meet: These pathways tend to meet in the same places. A pump that needs power, a clinic that needs water, a worker who cannot afford a break and a school that closes early can all fall on one household in the same week. Which of them matters depends on the local season and on how a town's services are arranged, which is why the outlook alone cannot say.
+
 The same dry, hot season lands differently. A street vendor who cannot leave a stall, a construction worker paid by the day, an older person living alone under a tin roof, a person with a disability who cannot reach a cooling space, and a mother who stays home when the school shuts all face the heat with fewer choices than a salaried office worker with a fan and a refrigerator.
 
 Illustrative: Picture a household in a dense ward: the father does day-labour, the mother sells vegetables, the grandmother has diabetes. If water is cut in the afternoon and the school closes for heat, someone loses a day's earnings to collect water and look after the children, and the grandmother waits longer in the clinic queue. None of this is a forecast; it shows where preparation helps.
@@ -6045,6 +6091,192 @@ Throughout: workers' ability to take breaks, household access to water and cooli
 - What local information is worth checking next? Your national weather service's seasonal outlook for your region, its heat and rainfall warnings for your district, and your own records of what failed in the last hot season. Regional centres such as ASMC add the regional picture.
 
 Sources: NOAA Climate Prediction Center, ENSO Diagnostic Discussion (issued 12 November 2026): https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml; NOAA Climate Prediction Center, Official NOAA CPC ENSO Probabilities (issued November 2026): https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/; NOAA Climate Prediction Center, Official NOAA CPC ENSO Strength Probabilities (issued November 2026): https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/; NOAA Climate Prediction Center, Relative Oceanic Niño Index (RONI): historical El Niño / La Niña episodes: https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/; World Meteorological Organization, Global Seasonal Climate Update for November-December-January 2026 (issued 21 October 2026): https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026; World Meteorological Organization, El Niño set to become very strong, raising risks of extreme weather into 2027 (issued 3 September 2026): https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027; WMO Bulletin, vol. 75(2), How ocean observations help us understand and forecast El Niño: https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino; NOAA Climate.gov, El Niño and La Niña: frequently asked questions: https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions; NOAA Climate.gov ENSO blog, The Spring Predictability Barrier: we'd rather be on Spring Break: https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break; ASEAN Specialised Meteorological Centre, El Niño / La Niña (issued 16 October 2026): https://asmc.asean.org/asmc-el-nino/; ASEAN Specialised Meteorological Centre, Seasonal Forecast for November 2026 – January 2027 (issued 5 November 2026): https://asmc.asean.org/asmc-seasonal-outlook/; Meteorological Service Singapore, El Niño/La Niña Status (issued 16 October 2026): https://www.weather.gov.sg/climate-el-la/; Press Information Bureau, Ministry of Earth Sciences, India, Earth Sciences Minister explains El Nino and its Monsoon impact in Lok Sabha reply (issued 5 August 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3; Bangladesh Meteorological Department with RIMES, Monsoon Outlook, July–September 2026 (issued July 2026): https://instant.bmd.gov.bd/src/seasonal_forecast/SF_202607100900.pdf; The Kathmandu Post (reporting DHM), An unusually rainy spring, a drier monsoon ahead: What's happening to Nepal's weather? (issued 2 June 2026): https://kathmandupost.com/climate-environment/2026/06/02/an-unusually-rainy-spring-a-drier-monsoon-ahead-what-s-happening-to-nepal-s-weather; PAGASA, Philippines, ENSO Advisory: El Niño Advisory No. 2 (issued 6 July 2026): https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf
+
+## Who shares the heat: one market through one hot season
+
+https://beattheheat.asia/shared-heat/
+
+A worked example of how a hot day ties lives together through shared places, work and services, why people sharing the heat do not share the same power over it, and what makes protection last beyond one season.
+
+### Connected by the heat
+
+On a hot afternoon at a market, whether a porter can rest depends on whether leaving the queue costs a paid load. Whether a vendor has water depends on who orders the refill. Whether a child can learn depends on the classroom, and whether a parent keeps a shift depends on the school's hours. And whether any of them recovers overnight depends on water, electricity and the home they go back to.
+
+Heat ties these lives together through the places, work, institutions and services they share. Common Shade calls such groups communities of fate: people whose wellbeing becomes connected through shared conditions, even when their exposure, money, rights and say in decisions are far from equal. The connection can run beyond one street, along a commuting route, a labour contract, a supply chain or a public service.
+
+Building resilience, in this sense, means giving people a greater say in those shared conditions and making protection dependable: something a household can count on, not a project that ends with its funding.
+
+A way of looking, not a measured finding. Common Shade uses the phrase as a lens and does not trace it to a single thinker or theory.
+
+### What resilience means here
+
+The ability of people and institutions to see heat coming and reduce the risk, to respond when it arrives, to recover without falling further behind, and to change the arrangements that cause the same harm every year. It rests on a household's own means and skills as well as on shared services, institutions that take responsibility, and public investment.
+
+- Before heat arrives: Preparing and preventing: resources agreed, people named, sites ready and tested.
+
+- During heat: Protection people can actually use, and essential services such as water, power and clinics that keep running.
+
+- After heat: Recovery of health, income and services, without new debt, lost work or a lost place in the queue.
+
+- Between seasons: Learning what failed, maintaining what works, and changing what causes the same harm each year.
+
+When something is said to build resilience, it helps to ask:
+
+- Whose ability improves?
+
+- To withstand or respond to which disruption?
+
+- Through what service, resource, right or institutional change?
+
+- Who is responsible for keeping it going?
+
+- Who could still be left out, or end up paying more?
+
+### Shared heat, unequal ground
+
+People in the same street, market or workplace share the same hot afternoon, but not the same exposure, money, rights or say over what changes. Shared consequences do not make responsibility equal, and they do not create agreement on their own. Protection tends to hold better when the people most exposed take a real part in decisions: organising, negotiating, and bringing what they know about their own day.
+
+### The worked example (fictional)
+
+The town, the people and every event here are made up, and continue the market town of The Heat Assembly. The relationships they illustrate are drawn from the sources behind that game and the pages linked below; no figure here is a measurement.
+
+#### Shared exposure
+
+A hot season is forecast for the market town. The public hall beside the market is shaded and open, and almost empty. The loading lane, the stalls, the tea stall at the bay and the homes around the square will all take the same heat.
+
+#### Different constraints
+
+The same heat, five different reasons the hall does not help. The municipal officer controls the hall and a small budget; the market association controls the loading order; the porters have no seat at first.
+
+- Tara, a porter paid per load loses about two loads by leaving the queue to rest.
+
+- Jeevan, a porter on a day rate loses nothing by resting, so is the person others ask to cover the loads.
+
+- Noor, a stitcher paid per piece, caring for a child of three can work only while the childcare centre is open; nothing on offer cools Noor's home.
+
+- Kiran, a stall holder can leave the stall in the afternoon lull, not at the midday peak.
+
+- Hira, an older tea seller cannot walk to the hall in the heat; a rickshaw costs a day's money.
+
+#### A collective decision
+
+Before the season, the market association calls a meeting with the municipal officer, the neighbourhood services coordinator and a workers' representative, invited after porters raised the queue. Traders object to paying for cover; the association agrees to keep places in the queue only with a day's notice. After two meetings they agree four things: places are kept for anyone who rests, with a paid relief porter on alert days; the hall opens at midday and in the afternoon; a water point and shade go to the loading bay; and childcare keeps its hours on alert days.
+
+They do not agree on everything. The traders accept the cost of relief cover for one season only, and the workers' representative wanted it every hot day, not only on alert days.
+
+#### Resources and responsibilities
+
+- Arrangement: Queue places kept, with relief cover; Who authorises it: Market association; Who pays first: Municipal operating budget, this season; Who pays each season: Not yet agreed; Who runs it: Workers' representative names the relief porter; How a failure is raised and fixed: Porters tell the association; it replies the same day
+
+- Arrangement: Hall open midday and afternoon; Who authorises it: Municipal officer; Who pays first: Already paid for (building); Who pays each season: Municipal operating budget (staff hours); Who runs it: Services coordinator sets the caretaker's timetable; How a failure is raised and fixed: A number posted on the door; the coordinator logs each closure
+
+- Arrangement: Water and shade at the loading bay; Who authorises it: Market association, with the municipal officer; Who pays first: A one-off grant; Who pays each season: Market association (refills); Who runs it: A named trader orders refills; How a failure is raised and fixed: Hira and the tea sellers report a dry tap
+
+- Arrangement: Childcare keeps its hours on alert days; Who authorises it: Services coordinator; Who pays first: No new cost; Who pays each season: Relief staff from the operating budget; Who runs it: Childcare centre; How a failure is raised and fixed: Parents raise it with the coordinator
+
+#### Who gains access
+
+- Tara can rest at midday on alert days without losing a place.
+
+- Kiran rests in the hall in the afternoon.
+
+- Hira gets water and shade at the bay, where the work is, rather than at the hall.
+
+- Noor keeps the childcare hours, and the paid work that depends on them.
+
+- Jeevan is no longer the unpaid cover, because the relief porter is paid.
+
+#### What remains
+
+- Noor's home is still hot at night. Housing sits with another department, which was not at the meeting.
+
+- Relief cover is funded for one season. Who pays next year is not agreed.
+
+- On hot days without an official alert, Tara still pays for a break in lost loads.
+
+- Nobody yet records who used the hall, at what hour, so the next meeting cannot see who it missed.
+
+#### Learning for the next season
+
+- Record use of the hall and the water point by hour, and ask who could not come and why.
+
+- Move relief cover from a one-season allocation into the municipal budget, or into the market's own fees.
+
+- Invite the housing department, and ask what would cool the homes around the square at night.
+
+- Agree in advance what changes on a hot day without an alert, so protection does not wait for the warning.
+
+#### Through the season
+
+- Before heat arrives: The meeting, the agreements and the budget line
+
+- During heat: The hall, the kept places, the water at the bay and the childcare hours
+
+- After heat: Checking earnings lost and failures fixed
+
+- Between seasons: The four lessons above, before the next forecast
+
+The question: What would need to change here so that protection remains available when the project team leaves?
+
+### The same lens, three other places
+
+- A school. Who shares it: Pupils, teachers, support staff and families. Classroom heat affects all of them at once. If a school shortens its hours on hot days, care moves home and a parent can lose a shift. Opening a school to the neighbourhood in the holidays needs its own permission, staffing and safeguarding. Children, meal staff and teachers know where the heat is worst; the School Management Committee can help choose what changes.
+
+- A rented neighbourhood. Who shares it: Tenants, landlords, the power utility and the municipality. Whether a room cools at night depends on a roof the tenant does not own, power the utility supplies and trees the municipality plants. A landlord can pass the cost of a cooler roof into the rent. Tenants' groups can say which rooms stay hottest and when the power goes; that knowledge can set priorities for repairs.
+
+- A workplace and its supply chain. Who shares it: Workers, contractors, employers and the buyers they supply. A buyer's deadline sets the pace of work in the heat; a contractor decides whether a break costs pay. When protection is not paid for up the chain, the worker pays for it. Workers' organisations can negotiate rest, shade and timing, and report what actually happens on site.
+
+### What keeps protection working
+
+A shade, a water point or a rest break protects people only while it keeps working. Five things usually decide whether it does:
+
+- Ownership and authority: Someone holds the site and can say yes, and everyone knows who.
+
+- Operating money and maintenance: Money for water, cleaning and repairs through the season, not only to build.
+
+- Staffing and access: Someone opens it at the hours people need it, and people can reach it: step-free, close to their work, without losing pay or a place.
+
+- A say for workers and residents: The people who use it help decide where it goes and when it opens, and can raise a problem without risk to their work.
+
+- Monitoring, and a way to fix failures: A way to report a failure, someone who fixes it, and a record of how long it took.
+
+### Who pays first, and who keeps paying
+
+Setting protection up is often paid once, from a budget or a grant. Running it comes back every season, and that cost lands somewhere. Three common ways it moves, as illustrations:
+
+- Onto households: A cooling space open only by day leaves the cost of a hot night (fans, power, water) to each household.
+
+- Onto informal workers: A rest break with no pay protection is paid for by the worker, in lost loads or lost sales.
+
+- Onto unpaid carers: Shorter school or childcare hours on hot days move care to whoever is at home, and can cost that person paid work.
+
+For any measure, ask who paid to set it up, who pays to run it each season, and who pays if it stops. Proposed, funded and operating are different states; the cases on this page say which each one is.
+
+### Questions to bring to a commitment
+
+An announcement is a start, not protection. These questions help read one; the record shows only what its evidence shows.
+
+- Which people and services does it cover?
+
+- Who can authorise action when heat arrives?
+
+- Are money and staff there when they are needed?
+
+- Can the people affected shape how it is delivered?
+
+- What evidence would show that protection reached people?
+
+### Before the plan is finished: four questions
+
+A plan holds up when it names the shared arrangement it depends on. Check that yours answers:
+
+- The shared service or arrangement: Which one needs to improve: a water point's refill, a school timetable, a queue rule, a night supply of power?
+
+- Who controls it, and who depends on it: The body that can change it, and the people whose day depends on it, including those with no seat at the table yet.
+
+- The next agreement: The one decision or agreement needed next, and who has to say yes.
+
+- How to check it works for different people: One observable check, read for people in different circumstances: a porter paid per load, a carer, an older person who cannot walk far.
 
 ## Who could help a household through a hot season
 
@@ -6763,6 +6995,22 @@ El Niño watch (bulletin: NOAA Climate Prediction Center, ENSO Diagnostic Discus
 - A Pacific probability does not give any town's chance of a heatwave, water shortage or flood; follow national services and local warnings.
 
 An outlook is a finding, not a commitment; it stays outside the commitment counts. Explainer: https://beattheheat.asia/el-nino/
+
+A hot, dry season can strain water, power, work, schools and care at once, in the same households; the explainer shows how these pathways connect.
+
+### Questions to bring to a commitment
+
+An announcement is a start, not protection. These questions help read one; the record shows only what its evidence shows.
+
+- Which people and services does it cover?
+
+- Who can authorise action when heat arrives?
+
+- Are money and staff there when they are needed?
+
+- Can the people affected shape how it is delivered?
+
+- What evidence would show that protection reached people?
 
 ### COP31 watch
 
