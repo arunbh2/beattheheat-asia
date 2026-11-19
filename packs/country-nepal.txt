@@ -28,6 +28,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
 
+Explainer
+
+## El Niño and heat in Asia
+
+What El Niño has tended to mean for Nepal's monsoon, as reported from the Department of Hydrology and Meteorology's data, what the current outlook says, what it cannot tell any district, and where the Department's own outlooks come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-bdnp)
+
 ## Heat context
 
 **Climate:** Official guidance or data Terai lowland heat includes seasonally drier pre-monsoon exposure and humid monsoon conditions. Climate suitability would be worth assessing at the actual place, season and task. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf) · [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) **Trends:** Reported, not evaluated National synthesis describes intensifying heat concern in the Terai and increasing exposure elsewhere. DHM2024 post-monsoon report documents above-normal southern minimum temperatures; this seasonal observation is not a long-term trend estimate. [Living with Heat in Nepal - original publisher overview ](https://www.ceew.in/publications/nepal-heat-health-action) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf) **Night heat:** Official guidance or data Dhangadhi plan describes reduced night-time recovery in monsoon months. Comparable occupied-bedroom night records across all eight cities not verified. [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) **Measurement caution:** Keep dry-bulb air temperature, Heat Index, WBGT, land-surface and occupied-room temperature separate. No national exposure rank assigned.

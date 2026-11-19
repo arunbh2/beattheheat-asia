@@ -1,7 +1,7 @@
 ---
 title: "Bangladesh: heat country snapshot"
 url: https://beattheheat.asia/countries/bangladesh/
-updated: 2026-11-16
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -16,6 +16,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 **Watch: Bangladesh and heat** · 0:44 · narrated, captions in the picture
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
+
+Explainer
+
+## El Niño and heat in Asia
+
+What the current outlook says, why this guide gives no typical El Niño pattern for Bangladesh yet, what the outlook cannot tell any district, and where the Bangladesh Meteorological Department's own outlooks come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-bdnp)
 
 ## Heat context
 

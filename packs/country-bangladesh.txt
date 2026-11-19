@@ -28,6 +28,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
 
+Explainer
+
+## El Niño and heat in Asia
+
+What the current outlook says, why this guide gives no typical El Niño pattern for Bangladesh yet, what the outlook cannot tell any district, and where the Bangladesh Meteorological Department's own outlooks come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-bdnp)
+
 ## Heat context
 
 **Known:** Western/southwestern daytime hotspots coexist with humid urban and night exposure. **Inferred:** Combine work, housing and overnight recovery with warning-to-action design. **Uncertain:** Comparable ward-level exposure, health burden and nationally representative indoor monitoring. [Are hotspots and frequencies of heat waves changing over time? ](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300070) · [Diurnal asymmetry in heat stress intensification across Bangladesh, 1985–2024 ](https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000848) · [Bangladesh faces health and economic risks from rising temperature - report release ](https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank)
