@@ -1,0 +1,20 @@
+{
+ "about": "One heat-relevant finding presented at COP31 (an addition after check-in 3, 19 November 2026): a survey commissioned by Wellcome of 1,000 clinicians in maternity and newborn care across Australia, Brazil, India, the UK and Zimbabwe. The five-country figures rest on Wellcome's own results page; the India-only figures, the COP31 presentation and a UN official's remark on health's share of climate finance rest on Down To Earth's report of the media briefing (16 November 2026) and are marked secondary. All figures are clinicians' reports of what they believe they have seen, not measured outcomes.",
+ "sources": [
+  { "key": "wellcome-results", "title": "Extreme heat is putting pregnant women and their babies at risk", "publisher": "Wellcome", "year": 2026, "kind": "Survey results", "url": "https://wellcome.org/heat-and-pregnancy", "expect": ["Censuswide"] },
+  { "key": "wellcome-call", "title": "Keeping Mothers Safe from Extreme Heat: A Global Call to Action", "publisher": "Wellcome", "year": 2026, "kind": "Call to action", "url": "https://wellcome.org/our-priorities/climate-and-health/extreme-heat/pregnancy", "expect": ["commissioned a survey"] },
+  { "key": "dte", "title": "COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report", "publisher": "Down To Earth", "year": 2026, "kind": "News report", "url": "https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report", "expect": ["COP31"] }
+ ],
+ "claims": [
+  { "id": "c-survey", "where": "Signal: clinicians' survey on heat in pregnancy", "text": "In September 2026, Censuswide surveyed 1,000 practising healthcare professionals, 250 of them midwives, in pregnancy, childbirth, postnatal and newborn care across Australia, Brazil, India, the UK and Zimbabwe, for a survey commissioned by Wellcome.",
+    "rests_on": [["wellcome-results", "Censuswide"], ["wellcome-results", "September 2026"], ["wellcome-results", "250 midwives"], ["wellcome-results", "Zimbabwe"], ["wellcome-call", "commissioned a survey"]] },
+  { "id": "c-five", "where": "Signal: clinicians' survey on heat in pregnancy", "text": "Across the five countries, 98% said they had cared for a pregnant woman, and 99% for a baby, whose health they believed extreme heat had harmed; 73% reported more heat-related complications in pregnant women and 76% in foetal or newborn health; 92% want more training and resources.",
+    "rests_on": [["wellcome-results", "98%"], ["wellcome-results", "99%"], ["wellcome-results", "73%"], ["wellcome-results", "76%"], ["wellcome-results", "92%"]] },
+  { "id": "c-india", "where": "Signal: clinicians' survey on heat in pregnancy (secondary)", "text": "Among the 200 respondents in India, 62% reported more heat-related complications in pregnant women over five years and 66% in foetal or newborn health; 26% had seen pregnancy complications needing extra monitoring or treatment.",
+    "rests_on": [["dte", "200 respondents"], ["dte", "62 per cent"], ["dte", "66 per cent"], ["dte", "26 per cent"]] },
+  { "id": "c-cop31", "where": "Signal: clinicians' survey on heat in pregnancy (secondary)", "text": "The findings were presented on 13 November on the sidelines of COP31 in Antalya.",
+    "rests_on": [["dte", "November 13"], ["dte", "COP31"], ["dte", "Antalya"]] },
+  { "id": "c-finance", "where": "Signal: clinicians' survey on heat in pregnancy (secondary)", "text": "At the presentation, a UN Climate Change official said that about 1% of formal climate finance goes to health.",
+    "rests_on": [["dte", "1 per cent of formal climate finance"], ["dte", "UN Climate Change"]] }
+ ]
+}

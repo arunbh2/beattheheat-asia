@@ -1,0 +1,81 @@
+[
+ {
+  "id": "src-cop31f-wellcome-results",
+  "type": "source",
+  "keys": [
+   "wellcome-results"
+  ],
+  "title": "Extreme heat is putting pregnant women and their babies at risk",
+  "publisher": "Wellcome",
+  "year": 2026,
+  "url": "https://wellcome.org/heat-and-pregnancy",
+  "kind": "Survey results",
+  "where": "COP31",
+  "expect": [
+   "Censuswide",
+   "September 2026",
+   "250 midwives",
+   "Zimbabwe",
+   "98%",
+   "99%",
+   "73%",
+   "76%",
+   "92%"
+  ],
+  "claims": [
+   "c-survey",
+   "c-five"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31f-wellcome-call",
+  "type": "source",
+  "keys": [
+   "wellcome-call"
+  ],
+  "title": "Keeping Mothers Safe from Extreme Heat: A Global Call to Action",
+  "publisher": "Wellcome",
+  "year": 2026,
+  "url": "https://wellcome.org/our-priorities/climate-and-health/extreme-heat/pregnancy",
+  "kind": "Call to action",
+  "where": "COP31",
+  "expect": [
+   "commissioned a survey"
+  ],
+  "claims": [
+   "c-survey"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31f-dte",
+  "type": "source",
+  "keys": [
+   "dte"
+  ],
+  "title": "COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report",
+  "publisher": "Down To Earth",
+  "year": 2026,
+  "url": "https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report",
+  "kind": "News report",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "200 respondents",
+   "62 per cent",
+   "66 per cent",
+   "26 per cent",
+   "November 13",
+   "Antalya",
+   "1 per cent of formal climate finance",
+   "UN Climate Change"
+  ],
+  "claims": [
+   "c-india",
+   "c-cop31",
+   "c-finance"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
