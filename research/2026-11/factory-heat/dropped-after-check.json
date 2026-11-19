@@ -126,14 +126,6 @@
   ]
  },
  {
-  "id": "c-otm-wbgt",
-  "where": "Measure effectiveness",
-  "text": "OSHA's Technical Manual describes WBGT as combining the natural wet bulb temperature, the globe temperature and, outdoors, the dry bulb temperature.",
-  "missing": [
-   "osha-otm: \"natural wet bulb\""
-  ]
- },
- {
   "id": "c-jay",
   "where": "Interventions: active cooling",
   "text": "A 2021 Lancet review argues that reliance on air conditioning is unsustainable and further marginalises the communities most vulnerable to heat, and summarises the benefits and limits of cooling strategies for settings including workplaces.",

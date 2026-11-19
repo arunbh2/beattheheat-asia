@@ -11,6 +11,17 @@
   ]
  },
  {
+  "id": "c-otm-wbgt",
+  "where": "Measure effectiveness",
+  "text": "OSHA's Technical Manual describes WBGT as combining a wet bulb temperature, the globe temperature and, outdoors, the dry bulb temperature.",
+  "sources": [
+   {
+    "label": "US Occupational Safety and Health Administration (OSHA): OSHA Technical Manual, Section III, Chapter 4: Heat Stress, 2017",
+    "url": "https://www.osha.gov/otm/section-3-health-hazards/chapter-4"
+   }
+  ]
+ },
+ {
   "id": "c-otm-strain",
   "where": "Understand the heat",
   "text": "OSHA's Technical Manual distinguishes heat stress, the load on the body, from heat strain, the body's response to it.",

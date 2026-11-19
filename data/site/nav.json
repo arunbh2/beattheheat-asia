@@ -28,6 +28,7 @@
      ["/build/", "Build protection", "Assemble actions for one place, or sketch a portfolio", 1],
      ["/heat-tools/", "Find a heat tool", "Which heat tool fits the decision in front of you: compare what each needs, gives and cannot tell you", 1],
      ["/cooling-options/", "Cooling options", "What to build where people are", 2],
+     ["/factory-heat/", "Heat inside factories", "Sources, protection and an intervention library, with garment factories as the worked example", 2],
      ["/plan/", "Plan a response", "A six-step workbook for a team or a workshop", 1],
      ["/worked-plans/", "Worked plans", "How places in Asia turned heat risk into a plan", 1],
      ["/el-nino-and-cities/", "El Niño and smaller cities", "What a smaller Indian city can prepare before its hot season, and how to check people got relief", 2],
@@ -84,6 +85,6 @@
  "names": {
   "/resources/": "Resources", "/resources/heat-action-plans/": "Heat action plans", "/resources/heat-action-plans/india/": "India",
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
-  "/heat-assembly/": "The Heat Assembly", "/el-nino/": "El Niño and heat in Asia", "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/heat-tools/": "Heat Tool Finder", "/atlas/": "Atlas", "/live-through-a-heatwave/": "Live through a heatwave", "/intersections/": "Intersections", "/shared-heat/": "Who shares the heat", "/paying-when-heat-strikes/": "Paying when heat strikes"
+  "/heat-assembly/": "The Heat Assembly", "/el-nino/": "El Niño and heat in Asia", "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/heat-tools/": "Heat Tool Finder", "/atlas/": "Atlas", "/live-through-a-heatwave/": "Live through a heatwave", "/intersections/": "Intersections", "/shared-heat/": "Who shares the heat", "/factory-heat/": "Heat inside factories", "/factory-heat/worksheet/": "Factory heat worksheet", "/paying-when-heat-strikes/": "Paying when heat strikes"
  }
 }

@@ -302,6 +302,7 @@ Illustrative drawing of the watch-out above: an outdoor cleaner sweeping in the 
 
 - [Heat at work: the first joint global guidance on workplace heat stress](https://heathealth.info/at-work/) WHO and WMO, in the GHHIN resource library
 - [Heat Resilient Cities Framework: occupational heat protection for informal workers indoors and out, and who carries duties where there is no single employer (pp. 4, 8)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
+- [Code of practice on safety and health in textiles, clothing, leather and footwear](https://www.ilo.org/resource/other/code-practice-safety-and-health-textiles-clothing-leather-and-footwear) International Labour Organization, 2022
 
 [See it on the map](https://beattheheat.asia/#break-heatrules) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatrules)
 

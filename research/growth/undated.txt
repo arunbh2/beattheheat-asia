@@ -757,6 +757,7 @@ https://www.ifrc.org/appeal/bangladesh-heatwave-eap-mdrbd032
 https://www.ifrc.org/appeals?disaster_type%5B0%5D=42&page=1
 https://www.ifrc.org/happening-now/emergencies/anticipatory-pillar-dref
 https://www.iieta.org/download/file/fid/4326
+https://www.ilo.org/resource/other/code-practice-safety-and-health-textiles-clothing-leather-and-footwear
 https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@arabstates/@ro-beirut/documents/legaldocument/wcms_794551.pdf
 https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@arabstates/@ro-beirut/documents/publication/wcms_723545.pdf
 https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown
