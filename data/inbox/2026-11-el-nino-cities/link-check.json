@@ -54,9 +54,9 @@
    "tropical Indian Ocean": true
   },
   "https://doi.org/10.1038/s41467-017-00744-9": {
-   "central India": false,
-   "threefold increase in widespread extreme rain events over central India": false,
-   "decline in the total rainfall": false
+   "central India": true,
+   "threefold increase in widespread extreme rain events over central India": true,
+   "decline in the total rainfall": true
   },
   "https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/": {
    "El Niño": true,
@@ -175,16 +175,21 @@
    "80th, 88th and 95th percentiles": true
   },
   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6236972/fullTextXML": {
-   "Ahmedabad": true,
-   "Pilot Evaluation of the Impact": true,
-   "1,190": true,
-   "average annualized deaths": true
+   "Ahmedabad": false,
+   "Pilot Evaluation of the Impact": false,
+   "1,190": false,
+   "average annualized deaths": false
   },
   "https://pubmed.ncbi.nlm.nih.gov/30515228/": {
    "Ahmedabad": true,
    "Pilot Evaluation of the Impact": true,
    "1,190": true,
    "average annualized deaths": true
+  },
+  "https://hal.sorbonne-universite.fr/hal-01618029/file/s41467-017-00744-9.pdf": {
+   "central India": false,
+   "threefold increase in widespread extreme rain events over central India": false,
+   "decline in the total rainfall": false
   }
  },
  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": "OK",
@@ -214,6 +219,7 @@
  "https://www.business-standard.com/india-news/kerala-allocates-1-crore-each-to-districts-for-summer-mitigation-126031001041_1.html": "OK",
  "https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf": "OK",
  "https://www.downtoearth.org.in/governance/step-towards-prompt-action-uttar-pradesh-sets-district-specific-thresholds-to-send-out-custom-heatwave-alerts": "OK",
- "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6236972/fullTextXML": "OK",
- "https://pubmed.ncbi.nlm.nih.gov/30515228/": "OK"
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6236972/fullTextXML": "FAIL",
+ "https://pubmed.ncbi.nlm.nih.gov/30515228/": "OK",
+ "https://hal.sorbonne-universite.fr/hal-01618029/file/s41467-017-00744-9.pdf": "OK"
 }
