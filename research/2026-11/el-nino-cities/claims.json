@@ -242,6 +242,94 @@
    "expect": [
     "India Meteorological Department"
    ]
+  },
+  {
+   "key": "nrdc-jod",
+   "title": "Jodhpur, India Unveils a Net-Zero Public Cooling Station",
+   "publisher": "NRDC",
+   "year": 2024,
+   "kind": "Blog by a partner in the city's heat action plan",
+   "url": "https://www.nrdc.org/bio/vijay-limaye/jodhpur-india-unveils-its-first-net-zero-cooling-station",
+   "expect": [
+    "Jodhpur"
+   ]
+  },
+  {
+   "key": "jod-hap",
+   "title": "Jodhpur Heat Action Plan 2023",
+   "publisher": "Jodhpur Nagar Nigam North with Mahila Housing Trust and NRDC",
+   "year": 2023,
+   "kind": "City heat action plan (PDF)",
+   "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2023/05/MHT-Jodhpur-Heat-Action-Plan-2023small.pdf",
+   "expect": [
+    "Jodhpur"
+   ]
+  },
+  {
+   "key": "bs-kerala",
+   "title": "Kerala allocates ₹1 crore each to districts for summer mitigation",
+   "publisher": "Business Standard (PTI)",
+   "year": 2026,
+   "kind": "News report",
+   "url": "https://www.business-standard.com/india-news/kerala-allocates-1-crore-each-to-districts-for-summer-mitigation-126031001041_1.html",
+   "expect": [
+    "Kerala"
+   ]
+  },
+  {
+   "key": "up-hap",
+   "title": "Uttar Pradesh Heat Wave Action Plan 2024",
+   "publisher": "Uttar Pradesh State Disaster Management Authority",
+   "year": 2024,
+   "kind": "State heat action plan (PDF, repository copy)",
+   "url": "https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf",
+   "expect": [
+    "Uttar Pradesh"
+   ]
+  },
+  {
+   "key": "dte-up",
+   "title": "Step towards prompt action: Uttar Pradesh sets district-specific thresholds to send out custom heatwave alerts",
+   "publisher": "Down To Earth",
+   "year": 2024,
+   "kind": "News report",
+   "url": "https://www.downtoearth.org.in/governance/step-towards-prompt-action-uttar-pradesh-sets-district-specific-thresholds-to-send-out-custom-heatwave-alerts",
+   "expect": [
+    "Uttar Pradesh"
+   ]
+  },
+  {
+   "key": "hess",
+   "title": "Building Resilience to Climate Change: Pilot Evaluation of the Impact of India's First Heat Action Plan on All-Cause Mortality",
+   "publisher": "Journal of Environmental and Public Health (Hess et al.)",
+   "year": 2018,
+   "kind": "Peer-reviewed evaluation (Europe PMC full text)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6236972/fullTextXML",
+   "expect": [
+    "Ahmedabad"
+   ]
+  },
+  {
+   "key": "hess-pm",
+   "title": "Building Resilience to Climate Change: Pilot Evaluation of the Impact of India's First Heat Action Plan on All-Cause Mortality (PubMed record)",
+   "publisher": "Journal of Environmental and Public Health (Hess et al.)",
+   "year": 2018,
+   "kind": "Peer-reviewed evaluation (PubMed abstract)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30515228/",
+   "expect": [
+    "Ahmedabad"
+   ]
+  },
+  {
+   "key": "roxy-hal",
+   "title": "A threefold rise in widespread extreme rain events over central India (open archive copy)",
+   "publisher": "Nature Communications (Roxy et al.), via HAL",
+   "year": 2017,
+   "kind": "Peer-reviewed study (open archive PDF)",
+   "url": "https://hal.sorbonne-universite.fr/hal-01618029/file/s41467-017-00744-9.pdf",
+   "expect": [
+    "central India"
+   ]
   }
  ],
  "claims": [
@@ -443,6 +531,16 @@
      ],
      [
       "roxy-xml",
+      "decline in the total rainfall"
+     ]
+    ],
+    [
+     [
+      "roxy-hal",
+      "threefold increase in widespread extreme rain events over central India"
+     ],
+     [
+      "roxy-hal",
       "decline in the total rainfall"
      ]
     ]
@@ -761,6 +859,125 @@
     [
      "niua-m1",
      "entry points for climate action within municipal functions"
+    ]
+   ]
+  },
+  {
+   "id": "c-jod-orig",
+   "where": "Examples",
+   "text": "In April 2024 the city corporation and its partners opened a net-zero cooling station in a heat-vulnerable ward of Jodhpur North identified through the heat action plan's vulnerability assessment.",
+   "rests_on": [
+    [
+     "nrdc-jod",
+     "Net-Zero Cooling Station"
+    ],
+    [
+     "nrdc-jod",
+     "heat-vulnerable ward"
+    ],
+    [
+     "nrdc-jod",
+     "April 2024"
+    ],
+    [
+     "nrdc-jod",
+     "vulnerability assessment"
+    ]
+   ]
+  },
+  {
+   "id": "c-jod-plan",
+   "where": "Examples",
+   "text": "Jodhpur's 2023 heat action plan sets out passing warnings by SMS and WhatsApp and estimating local thresholds.",
+   "rests_on": [
+    [
+     "jod-hap",
+     "WhatsApp"
+    ],
+    [
+     "jod-hap",
+     "Threshold Estimation"
+    ]
+   ]
+  },
+  {
+   "id": "c-kerala-orig",
+   "where": "Examples",
+   "text": "In March 2026 Kerala decided to allocate ₹1 crore to each district collector for summer measures and asked officials to set up drinking water kiosks where people gather.",
+   "rests_on": [
+    [
+     "bs-kerala",
+     "Rs 1 crore each to district collectors"
+    ],
+    [
+     "bs-kerala",
+     "drinking water kiosks"
+    ],
+    [
+     "bs-kerala",
+     "bus stands"
+    ],
+    [
+     "bs-kerala",
+     "Mar 10 2026"
+    ]
+   ]
+  },
+  {
+   "id": "c-up-orig",
+   "where": "Examples",
+   "text": "Uttar Pradesh's disaster management authority derived yellow, orange and red alert temperatures for each of its 75 districts from percentiles of each district's temperature record; its 2024 heat plan sets out the method, first drafted for Agra.",
+   "rests_on": [
+    [
+     "dte-up",
+     "all 75 of its districts"
+    ],
+    [
+     "dte-up",
+     "80th, 88th and 95th percentiles"
+    ],
+    [
+     "up-hap",
+     "District Wise Heat Wave Threshold Determination"
+    ],
+    [
+     "up-hap",
+     "First Draft for Agra"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahd-orig",
+   "where": "Examples",
+   "text": "A 2018 evaluation estimated about 1,190 average annualized deaths avoided after Ahmedabad's heat action plan was implemented.",
+   "rests_on": [
+    [
+     "hess",
+     "Pilot Evaluation of the Impact"
+    ],
+    [
+     "hess",
+     "1,190"
+    ],
+    [
+     "hess",
+     "average annualized deaths"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "hess-pm",
+      "Pilot Evaluation of the Impact"
+     ],
+     [
+      "hess-pm",
+      "1,190"
+     ],
+     [
+      "hess-pm",
+      "average annualized deaths"
+     ]
     ]
    ]
   }

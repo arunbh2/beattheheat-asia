@@ -1,7 +1,7 @@
 ---
 title: "El Niño and India's smaller cities: preparing for summer 2027"
 url: https://beattheheat.asia/el-nino-and-cities/
-updated: 2026-11-18
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -252,25 +252,30 @@ In practice
 
 ## Preparedness that has happened in India
 
-A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is. Each comes from NRDC's 2026 review of heat policy in India.
-Installed, reported in a review
+A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is, and cites its own source.
+Installed, reported by a partner in the plan
 
 ### Jodhpur, Rajasthan Hot, dry
 
-The decision: where to put protection. Under Jodhpur's heat action plan, a net zero cooling station designed for the informal sector was installed in a high-risk ward identified through ward-level risk assessment, and IMD heat alerts were passed on in locally accessible formats through community channels.An allocation, reported in a review
+The decision: where to put protection. In April 2024 the city corporation and its partners opened a net-zero cooling station in a heat-vulnerable ward of Jodhpur North, chosen through the vulnerability assessment in the city's heat action plan. The 2023 plan also sets out passing heat warnings by SMS and WhatsApp.An allocation, reported in the news
 
 ### Kerala Humid, coastal
 
-The decision: who can pay at short notice. The state allocated ₹1 crore to each District Collector for heat protection such as drinking water kiosks and cooling centres, and directed local bodies to develop decentralised heat action plans.A state rule, reported in a review
+The decision: who can pay at short notice. In March 2026 the state decided to give each district collector ₹1 crore for summer measures, and asked officials to set up drinking water kiosks where people gather: markets, junctions and bus stands. The government order itself was not found online.A state method, with district thresholds reported
 
 ### Uttar Pradesh Northern plains
 
-The decision: what triggers a step-up. District-specific heatwave thresholds classify alerts as yellow, orange or red according to regional climatic conditions, so an alert and the response it sets moving reflect local conditions.
-A large city, with outcome evidence Ahmedabad. A 2018 evaluation found Ahmedabad's heat action plan may have contributed to about 1,190 fewer deaths a year on hot days after full implementation. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments. Heat action plans, with Ahmedabad's](https://beattheheat.asia/paying-for-protection/).
+The decision: what triggers a step-up. The state disaster management authority set yellow, orange and red alert temperatures for each of its 75 districts, from percentiles of each district's own temperature record, so an alert reflects local conditions. Its 2024 heat plan sets out the method, first drafted for Agra.
+A large city, with outcome evidence Ahmedabad. A 2018 evaluation estimated about 1,190 deaths a year avoided after Ahmedabad's heat action plan was fully implemented (95% confidence interval 162 to 2,218): an association, not proof of cause. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments. Heat action plans, with Ahmedabad's](https://beattheheat.asia/paying-for-protection/).
 
-Sources for this section (1)
+Sources for this section (6)
 
-- [Natural Resources Defense Council (NRDC): Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+- [NRDC: Jodhpur, India Unveils a Net-Zero Public Cooling Station](https://www.nrdc.org/bio/vijay-limaye/jodhpur-india-unveils-its-first-net-zero-cooling-station)
+- [Jodhpur Nagar Nigam North with Mahila Housing Trust and NRDC: Jodhpur Heat Action Plan 2023](https://www.mahilahousingtrust.org/wp-content/uploads/2023/05/MHT-Jodhpur-Heat-Action-Plan-2023small.pdf)
+- [Business Standard (PTI): Kerala allocates ₹1 crore each to districts for summer mitigation](https://www.business-standard.com/india-news/kerala-allocates-1-crore-each-to-districts-for-summer-mitigation-126031001041_1.html)
+- [Down To Earth: Step towards prompt action: Uttar Pradesh sets district-specific thresholds to send out custom heatwave alerts](https://www.downtoearth.org.in/governance/step-towards-prompt-action-uttar-pradesh-sets-district-specific-thresholds-to-send-out-custom-heatwave-alerts)
+- [Uttar Pradesh State Disaster Management Authority: Uttar Pradesh Heat Wave Action Plan 2024](https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf)
+- [Journal of Environmental and Public Health (Hess et al.): Building Resilience to Climate Change: Pilot Evaluation of the Impact of India's First Heat Action Plan on All-Cause Mortality (PubMed record)](https://pubmed.ncbi.nlm.nih.gov/30515228/)
 
 The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.
 

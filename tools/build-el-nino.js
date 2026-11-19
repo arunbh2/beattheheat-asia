@@ -7,7 +7,7 @@ const fs = require("fs"), path = require("path");
 const T = require("./el-nino-text.js");
 const BATCH = path.join(__dirname, "..", "research", "2026-11", "el-nino-cities");
 // readers see the public page of a document; the checker read the PDF or full-text record behind it
-const PUBLIC = { "niua-m1": "https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer", "niua-m2": "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities", "rohini-xml": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/", "roxy-xml": "https://doi.org/10.1038/s41467-017-00744-9" };
+const PUBLIC = { "niua-m1": "https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer", "niua-m2": "https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities", "rohini-xml": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/", "roxy-xml": "https://doi.org/10.1038/s41467-017-00744-9", "hess": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6236972/" };
 
 function load() {
   const C = JSON.parse(fs.readFileSync(path.join(BATCH, "claims.json"), "utf8"));

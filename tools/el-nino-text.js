@@ -199,16 +199,16 @@ const WORKSHEET = {
 
 // documented Indian examples, each showing one decision; a large-city precedent labelled by its scale
 const EXAMPLES = [
-  { place: "Jodhpur, Rajasthan", setting: "Hot, dry", status: "Installed, reported in a review", decision: "Where to put protection",
-    text: "Under Jodhpur's heat action plan, a net zero cooling station designed for the informal sector was installed in a high-risk ward identified through ward-level risk assessment, and IMD heat alerts were passed on in locally accessible formats through community channels.", claims: ["c-jodhpur-en"] },
-  { place: "Kerala", setting: "Humid, coastal", status: "An allocation, reported in a review", decision: "Who can pay at short notice",
-    text: "The state allocated ₹1 crore to each District Collector for heat protection such as drinking water kiosks and cooling centres, and directed local bodies to develop decentralised heat action plans.", claims: ["c-kerala-en"] },
-  { place: "Uttar Pradesh", setting: "Northern plains", status: "A state rule, reported in a review", decision: "What triggers a step-up",
-    text: "District-specific heatwave thresholds classify alerts as yellow, orange or red according to regional climatic conditions, so an alert and the response it sets moving reflect local conditions.", claims: ["c-up-en"] }
+  { place: "Jodhpur, Rajasthan", setting: "Hot, dry", status: "Installed, reported by a partner in the plan", decision: "Where to put protection",
+    text: "In April 2024 the city corporation and its partners opened a net-zero cooling station in a heat-vulnerable ward of Jodhpur North, chosen through the vulnerability assessment in the city's heat action plan. The 2023 plan also sets out passing heat warnings by SMS and WhatsApp.", claims: ["c-jod-orig", "c-jod-plan"], src: ["nrdc-jod", "jod-hap"] },
+  { place: "Kerala", setting: "Humid, coastal", status: "An allocation, reported in the news", decision: "Who can pay at short notice",
+    text: "In March 2026 the state decided to give each district collector ₹1 crore for summer measures, and asked officials to set up drinking water kiosks where people gather: markets, junctions and bus stands. The government order itself was not found online.", claims: ["c-kerala-orig"], src: ["bs-kerala"] },
+  { place: "Uttar Pradesh", setting: "Northern plains", status: "A state method, with district thresholds reported", decision: "What triggers a step-up",
+    text: "The state disaster management authority set yellow, orange and red alert temperatures for each of its 75 districts, from percentiles of each district's own temperature record, so an alert reflects local conditions. Its 2024 heat plan sets out the method, first drafted for Agra.", claims: ["c-up-orig"], src: ["dte-up", "up-hap"] }
 ];
 const LARGE = { place: "Ahmedabad", label: "A large city, with outcome evidence",
-  text: "A 2018 evaluation found Ahmedabad's heat action plan may have contributed to about 1,190 fewer deaths a year on hot days after full implementation. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments.", claims: ["c-ahmedabad-en"] };
-const EXAMPLES_NOTE = "A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is. Each comes from NRDC's 2026 review of heat policy in India.";
+  text: "A 2018 evaluation estimated about 1,190 deaths a year avoided after Ahmedabad's heat action plan was fully implemented (95% confidence interval 162 to 2,218): an association, not proof of cause. The scale differs; the practice a smaller city can adapt is a named plan in which a warning sets agreed actions moving across departments.", claims: ["c-ahd-orig"], src: ["hess"] };
+const EXAMPLES_NOTE = "A published plan shows a planning decision, an installed facility shows installation, and measured benefit needs outcome evidence; each example says which it is, and cites its own source.";
 
 const CLOSE = "The method travels; the warnings do not. Outside India, use your own country's weather service and disaster authority.";
 // three facts a reader sees first, all true of the page itself
@@ -252,8 +252,8 @@ module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NE
       `${MARKET.alternative.title}: ${MARKET.alternative.text} Managed by: ${MARKET.alternative.owner} ${MARKET.alternative.community}`,
       "### Reach: how much protection people got", REACH.intro, ...REACH.measures.map(m => `- ${m.t}: ${m.d}`), REACH.pairsIntro, ...REACH.pairs.map(([a, b]) => `- ${a} -> ${b}`), REACH.fail, REACH.equity,
       "### Worksheet (illustrative answers)", ...WORKSHEET.fields.map(([f, v]) => `- ${f}: ${v}`), WORKSHEET.note,
-      "### Preparedness that has happened in India", EXAMPLES_NOTE, ...EXAMPLES.map(e => `- ${e.place} (${e.setting}; ${e.status}; the decision: ${e.decision}): ${e.text}${s("nrdc")}`),
-      `- ${LARGE.place} (${LARGE.label}): ${LARGE.text}${s("nrdc")}`,
+      "### Preparedness that has happened in India", EXAMPLES_NOTE, ...EXAMPLES.map(e => `- ${e.place} (${e.setting}; ${e.status}; the decision: ${e.decision}): ${e.text}${e.src.map(s).join("")}`),
+      `- ${LARGE.place} (${LARGE.label}): ${LARGE.text}${LARGE.src.map(s).join("")}`,
       CLOSE].join("\n\n");
   }
 };

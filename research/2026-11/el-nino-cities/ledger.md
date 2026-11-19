@@ -44,3 +44,18 @@ No longer used on the page (kept here as checked records): c-sdma, c-warnings, c
 
 Still held back: c-mh-districts (the state plan's district list, found only in part). Not claimed: any IMD outlook for March to
 May 2027 (none found as of 18 November 2026); any city's water storage (readers are pointed to their own source's figures).
+
+## Examples checked at their originals (19 November 2026)
+
+The four examples on the page no longer rest on NRDC's 2026 review. Each now cites its own source, and all passed the
+GitHub source check (two Europe PMC records needed second routes: PubMed for Hess et al., the HAL open-archive copy for
+Roxy et al.).
+
+| Claim | Original | What changed in the wording |
+|---|---|---|
+| c-jod-orig, c-jod-plan | NRDC blog by a partner in the plan (7 June 2024); Jodhpur Heat Action Plan 2023 (PDF) | The station opened in April 2024 in a heat-vulnerable ward of Jodhpur North chosen through the plan's vulnerability assessment; the plan sets out warnings by SMS and WhatsApp. "Locally accessible formats" (the review's phrase) is no longer used |
+| c-kerala-orig | Business Standard (PTI), 10 March 2026 | ₹1 crore to each district collector for summer measures; kiosks at markets, junctions and bus stands. The government order itself was not found online, and the page says so. "Cooling centres" (the review's phrase) is no longer used |
+| c-up-orig | Down To Earth, 30 July 2024, on the SDMA's study; Uttar Pradesh Heat Wave Action Plan 2024 | Thresholds for all 75 districts from the 80th, 88th and 95th percentiles; the 2024 plan's district-threshold annexure is a first draft for Agra only |
+| c-ahd-orig | Hess et al. 2018, J Environ Public Health (PubMed 30515228) | An estimated 1,190 (95% CI 162 to 2,218) average annualised deaths avoided: stated as an association, not proof of cause |
+
+No longer used on the page: c-jodhpur-en, c-kerala-en, c-up-en, c-ahmedabad-en (NRDC's review), kept as checked records.

@@ -128,9 +128,9 @@
    "cooling": true
   },
   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": {
-   "central India": false,
-   "threefold increase in widespread extreme rain events over central India": false,
-   "decline in the total rainfall": false
+   "central India": true,
+   "threefold increase in widespread extreme rain events over central India": true,
+   "decline in the total rainfall": true
   },
   "https://wmo.int/media/news/wmo-global-seasonal-climate-outlook-informs-humanitarian-action": {
    "Global Seasonal Climate Update": true,
@@ -144,6 +144,52 @@
    "Regional Meteorological Centers (RMCs)": true,
    "Meteorological Centers (MCs) at the state level": true,
    "advisories and warnings": true
+  },
+  "https://www.nrdc.org/bio/vijay-limaye/jodhpur-india-unveils-its-first-net-zero-cooling-station": {
+   "Jodhpur": true,
+   "Net-Zero Cooling Station": true,
+   "heat-vulnerable ward": true,
+   "April 2024": true,
+   "vulnerability assessment": true
+  },
+  "https://www.mahilahousingtrust.org/wp-content/uploads/2023/05/MHT-Jodhpur-Heat-Action-Plan-2023small.pdf": {
+   "Jodhpur": true,
+   "WhatsApp": true,
+   "Threshold Estimation": true
+  },
+  "https://www.business-standard.com/india-news/kerala-allocates-1-crore-each-to-districts-for-summer-mitigation-126031001041_1.html": {
+   "Kerala": true,
+   "Rs 1 crore each to district collectors": true,
+   "drinking water kiosks": true,
+   "bus stands": true,
+   "Mar 10 2026": true
+  },
+  "https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf": {
+   "Uttar Pradesh": true,
+   "District Wise Heat Wave Threshold Determination": true,
+   "First Draft for Agra": true
+  },
+  "https://www.downtoearth.org.in/governance/step-towards-prompt-action-uttar-pradesh-sets-district-specific-thresholds-to-send-out-custom-heatwave-alerts": {
+   "Uttar Pradesh": true,
+   "all 75 of its districts": true,
+   "80th, 88th and 95th percentiles": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6236972/fullTextXML": {
+   "Ahmedabad": false,
+   "Pilot Evaluation of the Impact": false,
+   "1,190": false,
+   "average annualized deaths": false
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/30515228/": {
+   "Ahmedabad": true,
+   "Pilot Evaluation of the Impact": true,
+   "1,190": true,
+   "average annualized deaths": true
+  },
+  "https://hal.sorbonne-universite.fr/hal-01618029/file/s41467-017-00744-9.pdf": {
+   "central India": false,
+   "threefold increase in widespread extreme rain events over central India": false,
+   "decline in the total rainfall": false
   }
  },
  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": "OK",
@@ -167,5 +213,13 @@
  "https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf": "OK",
  "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626780/fullTextXML": "FAIL",
  "https://wmo.int/media/news/wmo-global-seasonal-climate-outlook-informs-humanitarian-action": "OK",
- "https://mausam.imd.gov.in/event/evolution.php": "OK"
+ "https://mausam.imd.gov.in/event/evolution.php": "OK",
+ "https://www.nrdc.org/bio/vijay-limaye/jodhpur-india-unveils-its-first-net-zero-cooling-station": "OK",
+ "https://www.mahilahousingtrust.org/wp-content/uploads/2023/05/MHT-Jodhpur-Heat-Action-Plan-2023small.pdf": "OK",
+ "https://www.business-standard.com/india-news/kerala-allocates-1-crore-each-to-districts-for-summer-mitigation-126031001041_1.html": "OK",
+ "https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf": "OK",
+ "https://www.downtoearth.org.in/governance/step-towards-prompt-action-uttar-pradesh-sets-district-specific-thresholds-to-send-out-custom-heatwave-alerts": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6236972/fullTextXML": "FAIL",
+ "https://pubmed.ncbi.nlm.nih.gov/30515228/": "OK",
+ "https://hal.sorbonne-universite.fr/hal-01618029/file/s41467-017-00744-9.pdf": "OK"
 }
