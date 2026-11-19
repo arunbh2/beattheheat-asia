@@ -32,7 +32,7 @@ Single A4 pages from the map, for meetings, briefings and noticeboards. Each one
 - [Dry heat and humid heat](https://beattheheat.asia/print/dry-and-humid-heat/)Health, labour and disaster management officials
 - [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)Journalists, officials and funders
 - [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/)Heat officers, finance departments and funders
-- [One service, protected before the heat](https://beattheheat.asia/print/el-nino-worksheet/)A municipal team and a local organisation
+- [One setting, protected before the heat](https://beattheheat.asia/print/el-nino-worksheet/)A municipal team and a local organisation
 - [El Niño and heat in Asia](https://beattheheat.asia/print/el-nino-briefing/)Municipal teams, employers, community organisations and funders
 
 ## City briefs

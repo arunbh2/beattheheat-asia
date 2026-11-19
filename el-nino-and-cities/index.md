@@ -5,29 +5,42 @@ updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
-> A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where protection is needed, agree who will keep it working, and decide what changes when a local warning arrives.
+> A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where people already have to be in the hottest hours (a school, a market, a clinic or a waiting space), agree who will keep protection working, and decide what changes when a local warning arrives.
 
 Before the season
 
 # El Niño and India's smaller cities: preparing for summer 2027
 
-A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where protection is needed, agree who will keep it working, and decide what changes when a local warning arrives.
+A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where people already have to be in the hottest hours (a school, a market, a clinic or a waiting space), agree who will keep protection working, and decide what changes when a local warning arrives.
 
 - For smaller Indian cities
-- Every claim sourced
+- Schools, markets, clinics, waiting spaces
 - Printable worksheet
 
 ## What a seasonal outlook is for
 
 A seasonal El Niño outlook gives cities a reason to review preparations early. The local heat season, water supply and places where people spend the hottest hours decide what a city puts in place. District forecasts and official warnings decide when to step up the response.
 
-**The first decision**Which public service will we protect first, who relies on it during the hottest hours, and who has the authority to keep it running?
+**The first decision**Where do people already have to be in the hottest hours, which one place will we protect first, and who has the authority to keep it working?
 
-One service, chosen with the people who use it, is enough to start. The rest of this guide helps a municipal team and a local organisation answer the question in one meeting, with information they already hold.
+One setting, chosen with the people who use it, is enough to start. Getting one change working across several schools or markets may protect more people than starting all four settings at once. The rest of this guide helps a municipal team and a local organisation decide in one meeting, with information they already hold.
 
-IllustrativeA vegetable seller loses sales if she leaves her stall to find shade. So the shade needs to reach her occupied stall in the afternoon, not a room across town. Drinking water needs to be there when she needs it, at 2 p.m., not only when the market opens.
+### Where people already have to be
 
-[The full market example](#market) · [The worksheet to print](https://beattheheat.asia/print/el-nino-worksheet/)
+The best place to offer heat respite may be the place someone already has to be.
+
+A child at the midday meal, a vendor at a stall, a patient in a clinic queue, a passenger at a bus stand: none of them can walk away without losing something. NIUA's Learning Note 1 describes public spaces becoming safe zones during heatwaves (p. 85). Here are four settings where a town can act before the hot season.
+
+- [SchoolsPupils in the midday meal queue, at assembly and in the hottest classrooms.Worked example: a school at lunchtime](#school)
+- [Markets and vending streetsVendors at occupied stalls through peak trading hours.Worked example: a market at 2 p.m.](#market)
+- [Clinics and health-centre queuesPatients and caregivers waiting outside to be seen.The decision and the check](#setting-clinics)
+- [Public waiting and transit spacesPassengers at bus stands and people in ration-shop queues.The decision and the check](#setting-transit)
+
+These are choices, not a checklist. Pick the one where your town can remove the most avoidable exposure before the first hot spell. [The worksheet to print](https://beattheheat.asia/print/el-nino-worksheet/) has all four, and room for your own.
+
+Source for this section (1)
+
+- [National Institute of Urban Affairs, Climate Centre for Cities: Cities and Climate Fundamentals Primer: Learning Note 1](https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer)
 
 The evidence
 
@@ -104,7 +117,7 @@ Cities differ in when heat arrives, how humid it is, where water comes from, whi
 Conditions your city may recognise, and the decision each raises
 If this describes your city | The decision to make | Information you may already hold |
 
-Outdoor markets, transport stands or worksites stay busy through hot afternoons | Where can shade, drinking water and rest be provided without asking people to give up earnings or lose their place in a queue? | Market registers and association lists, last summer's municipal orders on working hours, the ward office's count of afternoon stalls. |
+Outdoor markets, transport stands, school yards or worksites stay busy through the hottest hours | Where can shade, drinking water and rest be provided without asking people to give up earnings or lose their place in a queue? | Market registers and association lists, last summer's municipal orders on working hours, the ward office's count of afternoon stalls. |
 Homes or public buildings stay hot at night, or humidity limits relief | Which existing accessible spaces can offer meaningful respite, at what hours, and who can operate them? Check any technical cooling advice against NDMA's guidance on cooling centres. | Clinic attendance in past hot spells, community organisations' knowledge of crowded homes, the list of public buildings open in the evening. |
 Summer water supply is intermittent, or depends on electricity and tankers | Which priority sites have usable storage or another supply? Who can authorise a refill, pay for it and confirm it arrived? | The water department's supply schedule, last summer's tanker orders, ward complaints about dry taps, the reservoir or groundwater figures for your own source. |
 Short, intense rain can flood routes or public sites during an otherwise dry period | Which sites or access routes may fail, which alternative location is usable, and who decides when to switch? | Last monsoon's waterlogging complaints, the drain-cleaning schedule, the district disaster plan, residents' knowledge of which lanes flood. |
@@ -154,7 +167,7 @@ This guide sets no warning thresholds of its own. Find who issues your warning a
 IMD district warnings](https://beattheheat.asia/loops/#energywater)The official warning for your district, issued by the India Meteorological Department.
 - **[Your regional or state meteorological centre](https://mausam.imd.gov.in/event/evolution.php)**IMD works through Regional Meteorological Centres, assisted by Meteorological Centres at the state level that disseminate advisories and warnings for their region.
 - **[Your state or district disaster authority](https://beattheheat.asia/resources/heat-action-plans/india/)**The state and district heat action plans say which department acts at each alert level. Find yours in the India heat action plan archive.
-- **The municipal officer or service operator named locally**The person who extends water hours or moves a queue indoors. If no one is named for your chosen service, name them before the season.
+- **The municipal officer or service operator named locally**The person who extends water hours, moves a queue indoors or moves a school assembly into the shade. If no one is named for your chosen service, name them before the season.
 
 For health departments, NCDC's advisory for summer 2026 asked states to start daily heat illness reporting from 1 March 2026 and to set local early warning thresholds. [NCDC's advisory for summer 2026](https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf).
 
@@ -172,7 +185,7 @@ Read each window against your city's own season, not a national date.
 Three decision windows
 Window | What happens | Who decides |
 
-Before the locally expected heat season | Select the service and sites, confirm permissions and operators, agree costs, put the measures in place and test them. Work backwards from when heat usually arrives in your city, how long procurement takes, and official guidance. | The body that manages each site (municipal body, market committee, health department or transport authority), the operator and the local organisation. |
+Before the locally expected heat season | Select the service and sites, confirm permissions and operators, agree costs, put the measures in place and test them. Work backwards from when heat usually arrives in your city, how long procurement takes, and official guidance. | The body that manages each site (municipal body, education authority or school management, market committee, health department or transport authority), the operator and the local organisation. |
 When an official local warning is issued | The core protection is already working. Agree in advance who receives the warning and what is added under the applicable plan: an operator extends water hours, brings a refill forward, or moves a clinic queue indoors. | IMD issues district warnings; departments act under the state and district heat plans. |
 During and just after the event | Check that each site works at the hours people rely on it, fix failures, and record who was left without access. After heavy rain, check covers and drains before reopening. | Each site's operator and the named repair officer, with the local organisation reporting what users see. |
 
@@ -184,7 +197,63 @@ Sources for this section (1)
 
 Worked example
 
-## Worked example: a market at 2 p.m.
+## A school at lunchtime
+
+Illustrative scene
+Children queue for the midday meal in an open courtyard, in full sun. Along one side, a veranda is in shade at the time the meal is served. Could the school move the serving point to the veranda, keeping the route step-free and leaving kitchen staff room to serve the children quickly?
+
+Nothing had to be built to see this. Watching one ordinary part of the school day, at the hour it happens, changed the proposal: from new shade over the whole courtyard to moving where the meal is served.
+
+How a municipal team turns that observation into something it can deliver:
+
+- Choose the right exposure
+
+The meal queue is one exposure. Where a classroom is the main problem, there are alternatives: move the hottest lessons to a cooler room that is free at that time, shade the sun-facing windows, or treat a suitable roof. Match the choice to the building, the hours the room is used and the permissions available.
+
+[Cool the hottest classrooms first](https://beattheheat.asia/practical-actions/#schools-classroofs) · [Shaded play space](https://beattheheat.asia/practical-actions/#schools-play)
+
+- Give people a real design decision
+
+- **Children**can point out where they stand in the sun.
+- **Meal staff**know where they can serve safely and quickly.
+- **Teachers**know which rooms are occupied during the hottest lessons.
+- **The headteacher and the School Management Committee**can help choose a change that works in this school.
+- **The education authority or building owner**approves changes to the building and maintains them. Who that is varies by town, so confirm it before the plan is agreed.
+
+- Use the school calendar
+
+Ask which schools are open, on which dates and at what hours during the hot weeks. Count reach only for the days children are present. Opening a school as neighbourhood respite during the holidays is a separate decision, needing permission, staff, drinking water, a step-free entrance and safeguarding.
+
+- What changes on a heat-warning day
+
+Something within the school's own authority: hold the morning assembly in the shaded area instead of the open yard, and check that the drinking-water point works before pupils arrive. Changes to school hours or closures follow the education department and the state or district heat action plan.
+
+[Find your state's and district's heat action plan](https://beattheheat.asia/resources/heat-action-plans/india/) · [Water, and time to drink it](https://beattheheat.asia/practical-actions/#schools-water) · [Heat-ready timetables](https://beattheheat.asia/practical-actions/#schools-timetable)
+
+- Check the result
+
+For the meal queue, time how long pupils wait in direct sun during comparable lunch periods, before and after the change. For a roof or a classroom change, compare temperatures in occupied rooms at similar times of day and in comparable weather; NIUA's Table 2 pairs roofs treated with lower indoor temperatures (Learning Note 2, p. 54). Claims about attendance, learning or illness need evidence of their own.
+
+**The question for the education team**Which schools share this problem, are open during the relevant weeks, and could have the change in place before the first hot spell?
+
+Source for the check (1)
+
+- [National Institute of Urban Affairs, Climate Centre for Cities: Climate Change Adaptation Actions in Indian Cities: Learning Note 2](https://niua.in/publication-details/Climate_Change_Adaptation_Actions_in_Indian_Cities)
+
+- [Schools and childcare: the action cardsroofs, shaded play, water and heat-ready timetables
+
+Three more settings
+
+## Markets, clinics and waiting spaces
+
+Each setting has its own decision, its own operator and its own way to tell whether people benefited.
+The decision, who runs it, and what to check
+SettingThe decisionWho runs itWhat to check
+Markets and vending streetsVendors mark which occupied stalls lose shade during peak trading hours. Agree who can authorise shade and who can order a water refill.The market committee or municipal body authorises; a named officer orders refills; the vendors' association reports problems.Are vendors shaded while they trade? Is drinking water there when they need it?The full market example](https://beattheheat.asia/practical-actions/#schools) · [Shade over market stalls](https://beattheheat.asia/practical-actions/#market-canopy) |
+Clinics and health-centre queues | Move waiting into accessible shade or a cooler area, and change how patients are called so they keep their place in the queue. Patients, caregivers and clinic staff decide it together. Patients and disability groups walk the route from the gate and say whether the shaded line is reachable with a wheelchair or a walking stick; their answer can move the queue indoors or change where the seating goes. | The clinic in-charge, often under the health department rather than the municipality. | How much of the wait is still spent in direct sun? Can someone using a wheelchair or a walking aid use the same arrangement?[Shade and water for people waiting outside](https://beattheheat.asia/practical-actions/#clinics-waiting) |
+Public waiting and transit spaces | At a bus stand, put shade and seating where passengers can see and reach the arriving bus. At a ration shop, protect the queue while people keep their place. | Whoever controls the site: for a bus stand, often the transport authority or the depot; for a ration shop, the shop's licence holder with the supplies department. Confirm it locally. | Is the actual waiting line shaded at peak hours? Can people use the shelter without missing their bus or their turn?[Cool waiting points](https://beattheheat.asia/practical-actions/#neighbourhoods-stops) · [Bus stops and queues: cooling options](https://beattheheat.asia/cooling-options/#waiting) |
+
+### Worked example: a market at 2 p.m.
 
 Illustrative design
 A vegetable seller would lose sales if she walked to a distant cooling room. So protection goes to her stall, in the hours she trades.
@@ -215,22 +284,19 @@ Shade over occupied stalls | The site manager authorises; the installer repairs 
 Drinking water point | The operator refills; one named person can authorise an emergency refill | Water available during peak trading hours; storage sized to a hot day |
 Failure reports | The association or local organisation | One number that answers; the operator records when each failure was fixed |
 
-### Or: a shaded clinic queue
-
-A shaded, seated waiting line with water, and a route indoors when it rains. Managed by: Whoever manages the clinic, often the health department rather than the municipality.
-
-Patients and disability groups walk the route from the gate and say whether the shaded line is reachable with a wheelchair or a walking stick; their answer can move the queue indoors or change where the seating goes.
-
 - [Shade over market stallsthe action card, with what it depends on
 
 Reach
 
 ## Reach: how much protection people got
 
-Start with one public service and show how much of it can be protected this season. NIUA's learning notes for city officials describe city-scale planning as moving beyond isolated projects (Learning Note 2, section 2.6, p. 40) and point to entry points within municipal functions (Learning Note 1).
-Service coverageFunctioning sites out of relevant sites, with the count of relevant sites stated: say 18 of 42 markets (an illustrative figure).People reachedRegular users and visits, reported separately where people come back every day. Footfall is not protection.Protection deliveredWhat was available at the hour that matters, and to whom. Claim no avoided deaths or illness without health data and a fair comparison.
+Start with one setting and show how much of it can be protected this season. A change working across many schools or markets is what reaches a city: NIUA's Learning Note 2 describes city-scale resilience planning as a coordinated approach across a city's systems, moving beyond isolated projects (section 2.6, p. 40), and Learning Note 1 points to entry points within municipal functions.
+Service coverageFunctioning sites out of eligible sites, always with the eligible count stated: say 6 of 40 schools open during the hot weeks (an illustrative figure).People reachedRegular users counted once, and repeated visits counted separately: a pupil present on 30 school days is one pupil and 30 school-day visits. Footfall is not protection.Protection deliveredWhat was available at the hour that matters, and to whom. Claim no avoided deaths or illness without health data and a fair comparison.
+Reach, setting by setting: state the denominator, and keep people apart from visits
+SettingCoverage, with its denominatorPeople and visits, kept apart
+SchoolsParticipating schools with the change working, out of eligible schools open during the hot weeksPupils reached, each counted once, and school-day visits (pupils times days present), reported apart. Count only days children are present.Markets and vending streetsMarkets, or occupied stalls, shaded and watered at peak trading hours, out of those trading through the hottest hoursRegular vendors counted once; shopper footfall reported apart, as visits.Clinics and health-centre queuesClinics with shaded or indoor waiting, out of clinics where patients queue outsidePatient visits are visits: one person may come several times. Count caregivers who wait too.Public waiting and transit spacesStops or queues shaded where people actually wait, out of those with peak-hour queuesBoardings and ration collections are trips, not people; report them as visits.
 Pair each output with an observable result (after NIUA's Table 2, Learning Note 2, p. 54):
-Output: Shade installedObservable result: Occupied vendor stalls shaded at 2 p.m.Output: Water point installedObservable result: Drinking water available during peak trading hoursOutput: Cooling space openedObservable result: People using it at peak hours, with staff on duty
+Output: Shade installedObservable result: Occupied vendor stalls shaded at 2 p.m.Output: Water point installedObservable result: Drinking water available during peak trading hoursOutput: Cooling space openedObservable result: People using it at peak hours, with staff on dutyOutput: Meal served from the shaded verandaObservable result: Minutes pupils wait in direct sun at lunch, on comparable daysOutput: Classroom roof treatedObservable result: Lower temperature in occupied rooms at similar times and in comparable weatherOutput: Clinic waiting moved into shadeObservable result: Share of the wait still spent in direct sunOutput: Bus-stand shelter installedObservable result: Waiting line shaded at the peak hour, with the arriving bus in view
 Give users a simple way to report a failure (a number on the post, the association's contact) and ask the operator to record when it was fixed. The log shows whether protection held, not only whether it was built.
 Exposure is uneven: NIUA's Learning Note 1 notes that informal settlements face disproportionately higher exposure to heat, flooding and water scarcity, and that smaller cities often work with constrained resources (pp. 33, 35). Count who the service reaches in those places.
 Sources for this section (2)National Institute of Urban Affairs, Climate Centre for Cities: Climate Change Adaptation Actions in Indian Cities: Learning Note 2](https://beattheheat.asia/practical-actions/#market-canopy)
@@ -242,11 +308,13 @@ Worksheet
 
 ## A worksheet for the first meeting
 
-One sheet for each service, filled in together at one meeting with what you already know. In part 3, tick each item on the day and fix anything left unticked.
-Choose the serviceWhat the service is, who relies on it in the hottest hours, which conditions fit your city, and what you already know.Agree who keeps it workingWho authorises the site, pays to install, pays to run it and can order a same-day repair or refill, and the date it works by, with the reason.Three pause pointsTicks before opening, when an official warning is issued, and during and after: shade, water, power cuts, access and failures fixed.AgreeWhat the local organisation changed, who agreed, and when you check again.
+One sheet for each setting, filled in together at one meeting with what you already know. In part 3, tick each item on the day and fix anything left unticked.
+Tick one setting: Schools, Markets and vending streets, Clinics and health-centre queues, Public waiting and transit spaces, or write in your own.
+A filled-in example (illustrative)SettingSchoolsSiteA ward primary school: the midday meal queueWho is exposed, and whenPupils queuing in the open courtyard, 12:30 to 1:15, on school daysProposed changeServe from the shaded veranda; keep the ramp clear; meal staff agree the layoutAuthorises itHeadteacher with the School Management Committee; the building owner for any fixtureRuns itMeal staff; a teacher checks the drinking-water point each morningReady byBefore the first hot week of termOne result to checkMinutes pupils wait in direct sun at lunch, on comparable days, before and after
+Choose the settingWhich setting, the site, who is exposed and at what hours, the change you propose, and what you already know.Agree who runs itWho authorises it, who runs it day to day, who pays to install and to run it, who can order a same-day repair or refill, and the date it is ready by, with the reason.Three pause pointsTicks before opening, when an official warning is issued, and during and after: shade, water, power cuts, access and failures fixed.Check and agreeOne observable result before and after, what the local organisation changed, who agreed, and when you check again.
 Open the worksheet to print (A4)](https://beattheheat.asia/paying-for-protection/)
 
-Hints are illustrative; write your own answers. Bring this sheet to the next check. The worksheet prints on one A4 sheet. The whole guide also prints, for reading before the meeting.
+Hints and the example are illustrative; write your own answers. Bring this sheet to the next check. The worksheet prints on one A4 sheet. The whole guide also prints, for reading before the meeting.
 
 In practice
 

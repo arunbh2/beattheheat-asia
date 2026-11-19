@@ -324,7 +324,7 @@ async function build() {
   {
     const T = require("./el-nino-text.js"), W = T.WORKSHEET;
     const rule = n => [...Array(n || 1)].map(() => '<span class="ws-line"></span>').join("");
-    const field = f => `<div class="ws-f"><p class="ws-l">${esc(f.l)}${f.hint ? ` <i>${esc(f.hint)}</i>` : ""}</p>${f.boxes === "adapt" ? `<ul class="check ws-boxes">${T.ADAPT.rows.map(r => `<li>${esc(r.short)}</li>`).join("")}</ul>` : f.sign ? `<div class="ws-sign">${[...Array(f.sign)].map(() => '<span><span class="ws-line"></span><small>Role and organisation</small></span>').join("")}${f.also ? `<span><span class="ws-line"></span><small>${esc(f.also)}</small></span>` : ""}</div>` : rule(f.lines)}</div>`;
+    const field = f => `<div class="ws-f"><p class="ws-l">${esc(f.l)}${f.hint ? ` <i>${esc(f.hint)}</i>` : ""}</p>${f.boxes === "adapt" ? `<ul class="check ws-boxes">${T.ADAPT.rows.map(r => `<li>${esc(r.short)}</li>`).join("")}</ul>` : f.boxes === "settings" ? `<ul class="check ws-boxes ws-set">${W.settings.map(t => `<li>${esc(t)}</li>`).join("")}<li class="ws-other">Other: <span class="ws-line"></span></li></ul>` : f.sign ? `<div class="ws-sign">${[...Array(f.sign)].map(() => '<span><span class="ws-line"></span><small>Role and organisation</small></span>').join("")}${f.also ? `<span><span class="ws-line"></span><small>${esc(f.also)}</small></span>` : ""}</div>` : rule(f.lines)}</div>`;
     const part = (pt, i) => `<section class="ws-part"><h2><span class="ws-n">${i + 1}</span>${esc(pt.h)}${pt.note ? ` <i>${esc(pt.note)}</i>` : ""}</h2>
       ${pt.roles ? `<table class="ws-roles"><thead><tr><th scope="col">Role</th>${pt.cols.map(c => `<th scope="col">${esc(c)}</th>`).join("")}</tr></thead><tbody>${pt.roles.map(r => `<tr><th scope="row">${esc(r)}</th>${pt.cols.map(() => "<td></td>").join("")}</tr>`).join("")}</tbody></table>` : ""}
       ${pt.pauses ? `<div class="ws-pauses">${pt.pauses.map(x => `<div class="ws-pause"><h3>${esc(x.h)}</h3>${(x.fields || []).map(field).join("")}${x.items ? `<ul class="check">${x.items.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}${(x.counts || []).map(c => `<p class="ws-count">${esc(c)}</p>`).join("")}</div>`).join("")}</div>` : ""}
@@ -343,10 +343,15 @@ async function build() {
       .ws-count { margin-top: 5px; font-weight: 700; }
       .ws-sign { display: grid; grid-template-columns: 1fr 1fr 0.8fr; gap: 6mm; } .ws-sign small { display: block; font-size: 7pt; color: #5E6570; }
       .ws-note { margin-top: 5px; font-size: 7.8pt; color: #5E6570; }
-      @media screen and (max-width: 820px) { .ws-pauses, .ws-boxes, .ws-sign { grid-template-columns: 1fr; } }
+      .ws-set { grid-template-columns: repeat(3, 1fr); } .ws-other { display: flex; align-items: flex-end; gap: 4px; grid-column: span 2; } .ws-other .ws-line { flex: 1; height: 5mm; }
+      .ws-ex { margin-top: 5px; border: 1px dashed #9A9387; border-radius: 6px; padding: 4px 8px; background: #fff; font-size: 7.8pt; }
+      .ws-ex__h { font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: 7.4pt; color: #5E6570; }
+      .ws-ex dl { display: grid; grid-template-columns: 1fr 1fr; gap: 1px 6mm; margin-top: 2px; } .ws-ex dl div { display: flex; gap: 4px; } .ws-ex dt { font-weight: 700; flex: none; } .ws-ex dt::after { content: ":"; } .ws-ex dd { margin: 0; }
+      @media screen and (max-width: 820px) { .ws-pauses, .ws-boxes, .ws-sign, .ws-ex dl { grid-template-columns: 1fr; } .ws-other { grid-column: auto; } }
     </style>
+    <section class="ws-ex" aria-label="${esc(W.example.label)}"><p class="ws-ex__h">${esc(W.example.label)}</p><dl>${W.example.rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></section>
     ${W.parts.map(part).join("")}
-    <p class="ws-note">${esc(W.note)} The guide behind it, with the outlook, the risks and the warning route, is on the live page.</p>
+    <p class="ws-note">${esc(W.note)} The guide behind it, with the school, market, clinic and waiting-space examples, the outlook and the warning route, is on the live page.</p>
     <p class="ws-note"><b>${esc(W.invite)}</b></p>`;
     const meta = { kind: W.kind, title: W.title, for: "A municipal team and a local organisation" };
     add(W.slug, meta, await sheet({ slug: W.slug, kind: W.kind, title: W.title, lede: W.lede, body, live: `/${T.SLUG}/`, sources: [], undated: true }));
