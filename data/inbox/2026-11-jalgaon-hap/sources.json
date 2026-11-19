@@ -27,8 +27,8 @@
    "c-jal-ews",
    "c-jal-launch"
   ],
-  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118172857/https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/"
+  "archive": "https://web.archive.org/web/20261118172857/https://www.mahilahousingtrust.org/strengthening-city-heat-action-plans-to-protect-vulnerable-groups/",
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-jal-uoftif",
@@ -58,8 +58,8 @@
    "c-jal-ews",
    "c-jal-launch"
   ],
-  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261118172936/https://uoftindiafoundation.com/heat-action-plans-indian-cities/"
+  "archive": "https://web.archive.org/web/20261118172936/https://uoftindiafoundation.com/heat-action-plans-indian-cities/",
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-jal-fpj",
@@ -83,7 +83,82 @@
    "c-jal-launch",
    "c-jal-roofs"
   ],
-  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260328032403/https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures"
+  "archive": "https://web.archive.org/web/20260328032403/https://www.freepressjournal.in/pune/jalgaons-heat-action-plan-shows-results-as-white-roof-coating-lowers-indoor-temperatures",
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-jal-plan",
+  "type": "source",
+  "keys": [
+   "plan"
+  ],
+  "title": "Jalgaon Heat Action Plan (file: Jalgaon_CAP_14082026)",
+  "publisher": "Jalgaon City Municipal Corporation with Mahila Housing Trust",
+  "year": 2026,
+  "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2026/08/Jalgaon_CAP_14082026pdf.pdf",
+  "kind": "Plan (PDF)",
+  "where": "Jalgaon heat action plan",
+  "expect": [
+   "Jalgaon",
+   "Jalgaon City Municipal Corporation",
+   "Mahila Housing Trust",
+   "Heat Action Plan",
+   "ward",
+   "vulnerab",
+   "threshold",
+   "Early Warning",
+   "University of Toronto"
+  ],
+  "claims": [
+   "c-plan-exists",
+   "c-plan-heat",
+   "c-plan-ward",
+   "c-plan-thresh",
+   "c-plan-ews",
+   "c-plan-uoft"
+  ],
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-jal-hub-hap",
+  "type": "source",
+  "keys": [
+   "hub-hap"
+  ],
+  "title": "Jalgaon Heat Action Plan",
+  "publisher": "Mahila Housing Trust",
+  "year": 2026,
+  "url": "https://www.mahilahousingtrust.org/knowledgehub/12064/",
+  "kind": "Knowledge hub listing",
+  "where": "Jalgaon heat action plan",
+  "expect": [
+   "Jalgaon",
+   "2026"
+  ],
+  "claims": [
+   "c-plan-date"
+  ],
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-jal-hub-cap",
+  "type": "source",
+  "keys": [
+   "hub-cap"
+  ],
+  "title": "Jalgaon Climate Action Plan",
+  "publisher": "Mahila Housing Trust",
+  "year": 2026,
+  "url": "https://www.mahilahousingtrust.org/knowledgehub/jalgaon-climate-action-plan/",
+  "kind": "Knowledge hub listing",
+  "where": "Jalgaon heat action plan",
+  "expect": [
+   "Jalgaon",
+   "2026"
+  ],
+  "claims": [
+   "c-plan-date"
+  ],
+  "note": "Staged from the Jalgaon heat action plan batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  }
 ]
