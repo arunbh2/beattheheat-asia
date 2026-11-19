@@ -253,7 +253,7 @@
     ],
     [
      "noaa-disc",
-     "79% chance"
+     "greater than a 79"
     ],
     [
      "noaa-disc",
@@ -295,7 +295,11 @@
    "rests_on": [
     [
      "noaa-disc",
-     "60% for the October-December and November-January periods"
+     "~60"
+    ],
+    [
+     "noaa-disc",
+     "for the October-December and November-January periods"
     ],
     [
      "noaa-disc",

@@ -1,5 +1,16 @@
 [
  {
+  "id": "e-noaa-change",
+  "where": "Watch",
+  "text": "Compared with the previous month, El Niño strengthened as sea surface temperature anomalies exceeded 4.0 °C and extended farther west across the eastern equatorial Pacific; the weekly Niño-3.4 index reached +2.5 °C, and suppressed rainfall persisted over Indonesia.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
   "id": "e-noaa-impacts",
   "where": "Explainer; FAQ",
   "text": "NOAA notes that even with a very strong El Niño, impacts consistent with El Niño are more likely but not guaranteed.",
@@ -22,6 +33,17 @@
   ]
  },
  {
+  "id": "e-noaa-def",
+  "where": "Explainer",
+  "text": "NOAA verifies these probabilities with the Relative Oceanic Niño Index, defining El Niño and La Niña with ±0.5 °C thresholds in Niño-3.4 sea surface temperature departures from a 1991–2020 base period.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: Official NOAA CPC ENSO Probabilities, 2026",
+    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/"
+   }
+  ]
+ },
+ {
   "id": "e-noaa-strength",
   "where": "Watch; explainer; FAQ",
   "text": "For March–May 2027, NOAA's strength probabilities give 53% weak, 25% moderate, 2% strong and 0% very strong; its categories rise in 0.5 °C steps, the highest being 2.0 °C or more. NOAA states that the strength of El Niño does not necessarily correspond with the strength of its influence or expected impact.",
@@ -29,6 +51,17 @@
    {
     "label": "NOAA Climate Prediction Center: Official NOAA CPC ENSO Strength Probabilities, 2026",
     "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/"
+   }
+  ]
+ },
+ {
+  "id": "e-roni-def",
+  "where": "Explainer",
+  "text": "RONI is the three-month running mean of Niño 3.4 sea surface temperature anomalies with the average tropical anomaly subtracted, rescaled to the original index's variance; its latest values are estimates that can change for up to two months.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: Relative Oceanic Niño Index (RONI): historical El Niño / La Niña episodes, 2026",
+    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/"
    }
   ]
  },
@@ -132,6 +165,17 @@
   ]
  },
  {
+  "id": "e-asmc-typical",
+  "where": "Regions",
+  "text": "In Southeast Asia, El Niño typically brings drier-than-average rainfall, including for most of the Maritime Continent in September–November, raising the risk of forest fires and smoke haze; its effect is typically stronger over the southern and eastern parts of the region in June–October, and more pronounced in strong or moderate events.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
   "id": "e-asmc-temp",
   "where": "Explainer",
   "text": "ASMC describes opposite rainfall, and consequently temperature, conditions during La Niña years, linking rainfall shifts to temperature in the region.",
@@ -216,6 +260,39 @@
    {
     "label": "PAGASA, Philippines: ENSO Advisory: El Niño Advisory No. 2, 2026",
     "url": "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e-thermo",
+  "where": "Explainer",
+  "text": "NOAA's November discussion reports a deeper-than-average thermocline in the eastern Pacific.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO Diagnostic Discussion, 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+   }
+  ]
+ },
+ {
+  "id": "e-walker",
+  "where": "Explainer",
+  "text": "Warming in the central and eastern Pacific shifts the rising branch of the Walker Circulation eastward, while sinking branches shift over the Maritime Continent.",
+  "sources": [
+   {
+    "label": "NOAA Climate.gov: El Niño and La Niña: frequently asked questions, 2026",
+    "url": "https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions"
+   }
+  ]
+ },
+ {
+  "id": "e-telecon",
+  "where": "Explainer",
+  "text": "ENSO is associated with large-scale atmospheric and oceanic teleconnections.",
+  "sources": [
+   {
+    "label": "WMO Bulletin, vol. 75(2): How ocean observations help us understand and forecast El Niño, 2026",
+    "url": "https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino"
    }
   ]
  }

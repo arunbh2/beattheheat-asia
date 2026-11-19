@@ -4,18 +4,7 @@
   "where": "Watch; explainer",
   "text": "NOAA CPC's discussion of 12 November 2026 keeps an El Niño Advisory: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January–March 2027 (a greater than 79% chance), and is expected to begin weakening in early 2027. The next discussion is scheduled for 10 December 2026.",
   "missing": [
-   "noaa-disc: \"El Niño Advisory\"",
-   "noaa-disc: \"greater than a 79% chance\""
-  ]
- },
- {
-  "id": "e-noaa-change",
-  "where": "Watch",
-  "text": "Compared with the previous month, El Niño strengthened as sea surface temperature anomalies exceeded 4.0 °C and extended farther west across the eastern equatorial Pacific; the weekly Niño-3.4 index reached +2.5 °C, and suppressed rainfall persisted over Indonesia.",
-  "missing": [
-   "noaa-disc: \"Compared to last month, El Niño strengthened\"",
-   "noaa-disc: \"exceeded 4.0°C\"",
-   "noaa-disc: \"+2.5°C in Niño-3.4\""
+   "noaa-disc: \"79% chance\""
   ]
  },
  {
@@ -23,34 +12,7 @@
   "where": "Explainer",
   "text": "NOAA puts the chance of a historic event, with a 3-month RONI of +2.5 °C or more, at about 60% for October–December and November–January.",
   "missing": [
-   "noaa-disc: \"~60% for the October-December and November-January periods\""
-  ]
- },
- {
-  "id": "e-noaa-def",
-  "where": "Explainer",
-  "text": "NOAA verifies these probabilities with the Relative Oceanic Niño Index, defining El Niño and La Niña with ±0.5 °C thresholds in Niño-3.4 sea surface temperature departures from a 1991–2020 base period.",
-  "missing": [
-   "noaa-prob: \"Relative Oceanic Niño Index (RONI)\"",
-   "noaa-prob: \"1991–2020 climatological base period\"",
-   "noaa-prob: \"170–120W, 5S–5N\""
-  ]
- },
- {
-  "id": "e-roni-def",
-  "where": "Explainer",
-  "text": "RONI is the three-month running mean of Niño 3.4 sea surface temperature anomalies with the average tropical anomaly subtracted, rescaled to the original index's variance; its latest values are estimates that can change for up to two months.",
-  "missing": [
-   "noaa-roni: \"average tropical mean (20°N–20°S) SST anomalies subtracted\""
-  ]
- },
- {
-  "id": "e-asmc-typical",
-  "where": "Regions",
-  "text": "In Southeast Asia, El Niño typically brings drier-than-average rainfall, including for most of the Maritime Continent in September–November, raising the risk of forest fires and smoke haze; its effect is typically stronger over the southern and eastern parts of the region in June–October, and more pronounced in strong or moderate events.",
-  "missing": [
-   "asmc-enso: \"drier-than-average rainfall conditions, including for most of the Maritime Continent during September – November\"",
-   "asmc-enso: \"stronger over the southern and eastern part of South East Asia during the months of Jun – Oct\""
+   "noaa-disc: \"60% for the October-December and November-January periods\""
   ]
  }
 ]
