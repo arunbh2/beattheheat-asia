@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:43:35.913Z",
+ "updated": "2026-11-19T07:40:01.188Z",
  "keepDays": 14,
  "sources": [
   {
@@ -16,6 +16,14 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Heatwaves push up premature births in Bangladesh: study",
+   "url": "https://www.eco-business.com/news/heatwaves-push-up-premature-births-in-bangladesh-study/",
+   "domain": "eco-business.com",
+   "date": "2026-11-19T00:59:00Z",
+   "place": "Bangladesh",
+   "via": "Eco-Business"
+  },
   {
    "title": "Walang pasok: Zamboanga City schools suspend classes due to extreme heat",
    "url": "https://newsinfo.inquirer.net/2343110/walang-pasok-zamboanga-city-schools-suspend-classes-due-to-extreme-heat",

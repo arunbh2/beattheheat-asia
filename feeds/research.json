@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-18T20:43:37.750Z",
+ "updated": "2026-11-19T07:40:02.431Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan",
+   "journal": "Preprint",
+   "date": "2026-11-18",
+   "doi": "10.21203/rs.3.rs-10514260/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-10514260/v1",
+   "firstAuthor": "Haroon MH"
+  },
   {
    "title": "Decoupling of cryogenic N&lt;sub&gt;2&lt;/sub&gt; porosity and ambient-temperature CO&lt;sub&gt;2&lt;/sub&gt; uptake in PVA-GTMAC-functionalized biomass carbon.",
    "journal": "RSC advances",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1093/nsr/nwag603",
    "firstAuthor": "Wu S"
-  },
-  {
-   "title": "Heat stress and maternal complications in India: A nationwide analysis using the universal thermal climate index.",
-   "journal": "iScience",
-   "date": "2026-09-17",
-   "doi": "10.1016/j.isci.2026.117349",
-   "pmid": "42787552",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.isci.2026.117349",
-   "firstAuthor": "Chaudhary SR"
   }
  ]
 }

@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Heatwaves push up premature births in Bangladesh: study",
+   "url": "https://www.eco-business.com/news/heatwaves-push-up-premature-births-in-bangladesh-study/",
+   "via": "Eco-Business",
+   "date": "2026-11-19T00:59:00Z",
+   "place": "Bangladesh"
+  },
+  {
    "title": "Walang pasok: Zamboanga City schools suspend classes due to extreme heat",
    "url": "https://newsinfo.inquirer.net/2343110/walang-pasok-zamboanga-city-schools-suspend-classes-due-to-extreme-heat",
    "via": "Inquirer",
@@ -164,6 +171,14 @@
   }
  ],
  "research": [
+  {
+   "title": "Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan",
+   "url": "https://doi.org/10.21203/rs.3.rs-10514260/v1",
+   "journal": "Preprint",
+   "date": "2026-11-18",
+   "firstAuthor": "Haroon MH",
+   "preprint": true
+  },
   {
    "title": "Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh",
    "url": "https://doi.org/10.21203/rs.3.rs-11397313/v1",
@@ -1310,5 +1325,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-18T07:43:55.098Z"
+ "updated": "2026-11-19T07:40:02.571Z"
 }
