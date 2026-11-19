@@ -33,7 +33,8 @@
    "e-noaa-historic",
    "e-noaa-impacts"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261117203335/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
  },
  {
   "id": "src-ens-noaa-prob",
@@ -63,7 +64,8 @@
    "e-noaa-prob",
    "e-noaa-def"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261113060356/https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/"
  },
  {
   "id": "src-ens-noaa-str",
@@ -86,7 +88,8 @@
   "claims": [
    "e-noaa-strength"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261116113700/https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/"
  },
  {
   "id": "src-ens-noaa-roni",
@@ -109,7 +112,8 @@
   "claims": [
    "e-roni-def"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107191613/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/"
  },
  {
   "id": "src-ens-wmo-gscu",
@@ -133,7 +137,8 @@
   "claims": [
    "e-wmo-gscu"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261116040526/https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026"
  },
  {
   "id": "src-ens-wmo-update",
@@ -155,7 +160,8 @@
   "claims": [
    "e-wmo-persist"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109232806/https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
  },
  {
   "id": "src-ens-wmo-bull",
@@ -183,7 +189,8 @@
    "e-wmo-use",
    "e-wmo-coupling"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261119073358/https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino"
  },
  {
   "id": "src-ens-climgov",
@@ -213,7 +220,8 @@
    "e-mech-nino",
    "e-mech-cycle"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261022053306/https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions"
  },
  {
   "id": "src-ens-spb",
@@ -235,7 +243,8 @@
   "claims": [
    "e-spb"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260923183815/https://www.climate.gov/news-features/blogs/enso/spring-predictability-barrier-we%E2%80%99d-rather-be-spring-break"
  },
  {
   "id": "src-ens-asmc-enso",
@@ -261,7 +270,8 @@
    "e-asmc-typical",
    "e-asmc-temp"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261119073427/https://asmc.asean.org/asmc-el-nino/"
  },
  {
   "id": "src-ens-asmc-so",
@@ -288,7 +298,8 @@
    "e-asmc-outlook",
    "e-asmc-haze"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261005022633/https://asmc.asean.org/asmc-seasonal-outlook/"
  },
  {
   "id": "src-ens-mss",
@@ -312,7 +323,8 @@
   "claims": [
    "e-mss"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109030310/https://www.weather.gov.sg/climate-el-la/"
  },
  {
   "id": "src-ens-pib-moes",
@@ -337,7 +349,8 @@
   "claims": [
    "e-india"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261119073511/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3"
  },
  {
   "id": "src-ens-bmd-jas",
@@ -360,7 +373,8 @@
   "claims": [
    "e-bd"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261119073537/https://instant.bmd.gov.bd/src/seasonal_forecast/SF_202607100900.pdf"
  },
  {
   "id": "src-ens-ktm-dhm",
@@ -382,7 +396,8 @@
   "claims": [
    "e-np"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260815051410/https://kathmandupost.com/climate-environment/2026/06/02/an-unusually-rainy-spring-a-drier-monsoon-ahead-what-s-happening-to-nepal-s-weather"
  },
  {
   "id": "src-ens-pagasa-adv",
@@ -406,6 +421,7 @@
   "claims": [
    "e-ph"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260812182139/https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/climate/monthlyclimateassessment/ENSO%20Advisory2%20OS.pdf"
  }
 ]
