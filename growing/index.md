@@ -5,7 +5,7 @@ updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 76 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 77 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-76 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,122 works the commons draws on carry a publication date, and 808 are still being dated.
+77 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,122 works the commons draws on carry a publication date, and 809 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -53,6 +53,48 @@ The plan's heat chapter and its call for a formal heat action plan.
 [Open the record](https://beattheheat.asia/resources/heat-action-plans/india/#IN-MH-CITY-JALGAON-CAP)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20India%20archive%20adds%20Jalgaon's%20climate%20action%20plan%2C%20with%20its%20heat%20chapter&ref=g-hap-jalgaon#way-share)
+
+Tool improved · Practical measures
+
+### Heat inside factories: sources, protection and an intervention library
+
+Added 19 November 2026 · Feature published 19 November 2026
+
+Why it matters our readingA new feature follows heat by task, place and time through a garment factory, explaining why two people in the same building can face very different heat. Its library of measures, from roofs and steam repair to paid breaks and buyer purchasing, gives each one's evidence type and limits, with a finder, comparison, worked examples and a worksheet for workers and managers.
+
+What the source says quoted“women's core temperature fell only with air conditioning”
+
+[Smallcombe et al., The Lancet Planetary Health, 2025: sustainable cooling strategies for garment workers under simulated extreme heat, a randomised crossover trial ](https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/)
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Pregnant women, babies and young children
+- Heat-safe work
+- Heat-safe pregnancy and newborn care
+
+ReviewTwenty sources staged and checked on GitHub; 42 of 57 claims passed. EU-OSHA's guidance reset the checker's connection on two runs, so its claims are held back and the records that rest only on it are marked as not yet confirmed. The garment trial is labelled a laboratory simulation throughout; field reports are labelled as reports, not evaluations.. 20 checked · 18 confirmed · 2 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** What reduces heat for people working inside factories, and what does the evidence say about each measure?
+- **The search.** 20 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 18 confirmed, and 2 could not be (1 did not respond, 1 did not show the expected text).
+- **What we set aside.** 75 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Independent before-and-after evaluations in operating garment factories; women's experiences of menstruation, menopause and protective-equipment fit in heat; EU-OSHA's guidance once the checker can reach it.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-factory-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/factory-heat/dropped-after-check.json)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+The intervention library sets out how heat-safe work is done inside factories, measure by measure.
+
+[Explore a factory](https://beattheheat.asia/factory-heat/#explore)
+[Heat inside factories](https://beattheheat.asia/factory-heat/)[Factory heat worksheet](https://beattheheat.asia/factory-heat/worksheet/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20inside%20factories%3A%20sources%2C%20protection%20and%20an%20intervention%20library&ref=g-factory-heat#way-share)
 
 Connection documented · Practical measures
 
@@ -2450,7 +2492,7 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Institutions and plans138
 - Financing230
 
-Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 809 works whose records carry no date, and 25 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

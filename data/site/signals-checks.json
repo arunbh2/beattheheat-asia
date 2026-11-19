@@ -97,6 +97,17 @@
      "breastfeeding": true,
      "functional referral systems": true
     }
+   },
+   {
+    "kind": "content",
+    "batch": "2026-11-factory-heat",
+    "checked": "2026-11-19",
+    "status": "OK",
+    "terms": {
+     "Heat and Pregnancy": true,
+     "heat-risk checklist": true,
+     "functional referral systems": true
+    }
    }
   ],
   "https://news.mongabay.com/short-article/2026/05/climate-change-triples-chance-of-deadly-2026-south-asia-pre-monsoon-heatwave-report/": [

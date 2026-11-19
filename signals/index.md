@@ -546,7 +546,7 @@ Sources and review
 - [Wellcome, 2026: Extreme heat is putting pregnant women and their babies at risk (survey results and methodology)](https://wellcome.org/heat-and-pregnancy) Originalchecked 19 November 2026
 - [Wellcome, 2026: Keeping Mothers Safe from Extreme Heat: A Global Call to Action](https://wellcome.org/our-priorities/climate-and-health/extreme-heat/pregnancy) Originalchecked 19 November 2026
 - [Down To Earth, 16 November 2026: COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report](https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report) Secondarychecked 19 November 2026
-- [Ministry of Health and Family Welfare and UNFPA India, 2026: Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers) Originalchecked 7 November 2026
+- [Ministry of Health and Family Welfare and UNFPA India, 2026: Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers) Originalchecked 19 November 2026
 
 ReviewRecord last reviewed 19 November 2026. Sources last checked 19 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
 

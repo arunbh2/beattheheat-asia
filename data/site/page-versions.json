@@ -20,11 +20,11 @@
   "changed": "2026-10-01"
  },
  "/act/": {
-  "hash": "14595cbcc2557c1b",
-  "changed": "2026-11-18"
+  "hash": "21e1d7be87f71dcb",
+  "changed": "2026-11-19"
  },
  "/actions/": {
-  "hash": "14eaefe02ebf8545",
+  "hash": "2700cd545de81064",
   "changed": "2026-11-19"
  },
  "/approach/": {
@@ -203,12 +203,20 @@
   "hash": "7f1ce96f4869b71d",
   "changed": "2026-11-19"
  },
+ "/factory-heat/": {
+  "hash": "c571e5d35dbc16ea",
+  "changed": "2026-11-19"
+ },
+ "/factory-heat/worksheet/": {
+  "hash": "0b6d8f6faa6b8005",
+  "changed": "2026-10-01"
+ },
  "/finance/": {
   "hash": "2efdcb132fa3ae81",
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "3526d14c83fbcd03",
+  "hash": "9665024087617621",
   "changed": "2026-11-19"
  },
  "/fund/": {
@@ -220,7 +228,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "8dfbd22d3cf0433a",
+  "hash": "a64292afef139a0c",
   "changed": "2026-11-19"
  },
  "/guide/": {
@@ -228,7 +236,7 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "c428f2211634c03f",
+  "hash": "2088e71f82be3d58",
   "changed": "2026-11-19"
  },
  "/heat-economy/": {
@@ -256,7 +264,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "c28ff7985418db2e",
+  "hash": "02b1c7b305f2433c",
   "changed": "2026-11-19"
  },
  "/heat-tools/": {
@@ -372,7 +380,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "af887799977b9e18",
+  "hash": "8c59de559c1bbba2",
   "changed": "2026-11-19"
  },
  "/loops/": {
@@ -424,7 +432,7 @@
   "changed": "2026-11-19"
  },
  "/practical-actions/": {
-  "hash": "40dd41297669f2be",
+  "hash": "6843a027c1b8bf00",
   "changed": "2026-11-19"
  },
  "/practical/": {
@@ -640,7 +648,7 @@
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "38cbf29b68a1724e",
+  "hash": "13d1afc82b0d172b",
   "changed": "2026-11-19"
  },
  "/social-protection/": {
@@ -652,7 +660,7 @@
   "changed": "2026-11-16"
  },
  "/sources/": {
-  "hash": "bd8f3c31f98107e9",
+  "hash": "4d7b5a6de968127f",
   "changed": "2026-11-19"
  },
  "/the-web/": {
@@ -688,7 +696,7 @@
   "changed": "2026-11-19"
  },
  "/who-is-at-risk/": {
-  "hash": "cd7a5a8be80d2ad1",
+  "hash": "2299d3a47ce04933",
   "changed": "2026-11-19"
  },
  "/worked-plans/": {

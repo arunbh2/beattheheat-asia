@@ -158,6 +158,7 @@ module.exports = function heatTools({ page, write, esc, hero, V, D }) {
     ["plan", "Before you name triggers and payers, compare the warning services, assessments and guidance that could inform them, with what each cannot tell you.", q({ decision: ["check_warnings", "prioritise_places", "plan_response"] })],
     ["build", "Choosing where and how to cool? Compare modelling tools, assessments and inclusion checks, with their limits.", q({ decision: ["design_cooling", "prioritise_places", "check_inclusion"] })],
     ["paying-when-heat-strikes", "Assessing hazard, future heat or financial protection for a proposal? Compare screening tools and climate data, with what each cannot show.", q({ decision: ["prioritise_places", "understand_future_heat", "assess_finance"] })],
+    ["factory-heat", "Planning protection for workers indoors? Compare heat stress apps, workplace guidance and warning services, with what each cannot tell you.", q({ decision: ["protect_workers"] })],
     ["finance", "Assessing hazard, future heat or financial protection for a proposal? Compare screening tools and climate data, with what each cannot show.", q({ decision: ["prioritise_places", "understand_future_heat", "assess_finance"] })],
     ...(D ? D.LIVE_CITIES.filter(c => CITY_CODE[c.country]).map(c => [`cities/${c.id}`, `Official warnings, heat risk and cooler places in ${c.country}: compare the tools that cover it, each with its limits.`, q({ country: CITY_CODE[c.country] })]) : [])
   ];

@@ -47,6 +47,8 @@ People in the same street, market or workplace share the same hot afternoon, but
 
 These barriers rarely come alone. [Intersections](https://beattheheat.asia/intersections/) is a short note and a game about where they meet, and who protection reaches.
 
+For workers indoors, [Heat inside factories](https://beattheheat.asia/factory-heat/) follows heat by task, place and time through a garment factory, with a section on women's work, pregnancy and the arrangements around them.
+
 ## Smallholder and rainfed farming households
 
 **Exposed to:** Work in open fields through the hottest hours, with crops and animals that depend on rain heat makes less reliable.

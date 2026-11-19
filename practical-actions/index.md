@@ -61,7 +61,7 @@ Evidence labels: **Design concept**: Designed, but not yet tried by the people i
 
 ## Outdoor and hot workplaces
 
-People who cannot stop working when it is hot: builders, vendors, riders, farm, factory and sanitation workers. [Print these cards](https://beattheheat.asia/print/actions-work/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-work) · [Options, costs and traps](https://beattheheat.asia/cooling-options/#work)
+People who cannot stop working when it is hot: builders, vendors, riders, farm, factory and sanitation workers. [Print these cards](https://beattheheat.asia/print/actions-work/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-work) · [Options, costs and traps](https://beattheheat.asia/cooling-options/#work) · [Heat inside factories: sources, measures and a worksheet](https://beattheheat.asia/factory-heat/)
 
 **What workers told researchers:** Stopping work means losing income · There is nowhere to recover · Safe drinking water costs too much · Home stays hot after the shift · Warnings don’t reach us in a useful way · No one local to install or fix it. [People’s Courage International: Hot Cities Make Hard Work Harder, a study with workers in Delhi, Kathmandu, Dhaka, Jakarta and Quezon City](https://www.ccacoalition.org/events/hot-cities-make-hard-work-harder-strengthening-health-and-livelihood-resilience-informal-workers-south-and-southeast-asian-cities)
 

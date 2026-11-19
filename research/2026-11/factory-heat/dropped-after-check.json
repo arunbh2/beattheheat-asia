@@ -1,0 +1,137 @@
+[
+ {
+  "id": "c-eu-stress",
+  "where": "Understand the heat",
+  "text": "EU-OSHA defines heat stress as the overall heat load from metabolic heat, clothing and the environment: air temperature and movement, humidity and radiant heat.",
+  "missing": [
+   "euosha: \"metabolic heat, clothing, and environmental factors\"",
+   "euosha: \"humidity and radiant heat\""
+  ]
+ },
+ {
+  "id": "c-eu-discomfort",
+  "where": "Understand the heat",
+  "text": "Mild or moderate heat stress can cause discomfort and affect performance and safety without harming health; extremes compromise the body's ability to regulate its temperature.",
+  "missing": [
+   "euosha: \"Mild or moderate heat stress can lead to discomfort\"",
+   "euosha: \"not harmful to health\""
+  ]
+ },
+ {
+  "id": "c-eu-radiant",
+  "where": "Understand the heat",
+  "text": "Radiant heat reaches the body from hot objects such as hot metal, furnaces and steam pipes without contact; the sun is a common source.",
+  "missing": [
+   "euosha: \"hot metal, furnaces and steam pipes\"",
+   "euosha: \"common example of a source of radiant heat\""
+  ]
+ },
+ {
+  "id": "c-eu-indoor",
+  "where": "Understand the heat",
+  "text": "Indoor workers are also at risk of heat stress, especially in poorly cooled buildings.",
+  "missing": [
+   "euosha: \"Indoor workers are also at risk of heat stress\"",
+   "euosha: \"poorly cooled buildings\""
+  ]
+ },
+ {
+  "id": "c-eu-source",
+  "where": "Interventions: process and radiant heat",
+  "text": "EU-OSHA's engineering controls include reducing heat release, reflective or heat-absorbing shielding, insulating or enclosing heat-generating processes or separating them from workers, and covering hot surfaces with low-emissivity material.",
+  "missing": [
+   "euosha: \"reducing heat release\"",
+   "euosha: \"heat-absorbing shielding\"",
+   "euosha: \"low-emissivity material\"",
+   "euosha: \"separating them from workers\""
+  ]
+ },
+ {
+  "id": "c-eu-steam",
+  "where": "Interventions: steam and moisture",
+  "text": "It lists reducing humidity by eliminating open hot water baths, drains and leaky steam valves, and removing heated air or steam from hot processes with local exhaust ventilation.",
+  "missing": [
+   "euosha: \"leaky steam valves\"",
+   "euosha: \"removing heated air or steam from hot processes using local exhaust ventilation\""
+  ]
+ },
+ {
+  "id": "c-eu-sun",
+  "where": "Interventions: envelope and solar heat",
+  "text": "It lists shading workers from direct sunlight with blinds or reflective film on windows, and positioning workstations away from direct sunlight or sources of heat.",
+  "missing": [
+   "euosha: \"reflective film on windows\"",
+   "euosha: \"positioning workstations away from direct sunlight\""
+  ]
+ },
+ {
+  "id": "c-eu-air",
+  "where": "Interventions: air movement",
+  "text": "It lists fans and air movement, particularly in humid conditions, without compromising local exhaust ventilation installed on machinery.",
+  "missing": [
+   "euosha: \"particularly in humid conditions\"",
+   "euosha: \"without compromising technical ventilation\""
+  ]
+ },
+ {
+  "id": "c-eu-rest",
+  "where": "Interventions: rest spaces",
+  "text": "It lists air-conditioned, shaded or cool break areas as close as possible to the work site.",
+  "missing": [
+   "euosha: \"as close as possible to the work site\""
+  ]
+ },
+ {
+  "id": "c-eu-booth",
+  "where": "Interventions: cooled enclosures",
+  "text": "In very hot industrial areas, ventilation, localised air conditioning and cooled observation booths are commonly used to provide cool workstations.",
+  "missing": [
+   "euosha: \"cooled observation booths\""
+  ]
+ },
+ {
+  "id": "c-eu-review",
+  "where": "Measure effectiveness",
+  "text": "The risk assessment needs revising regularly and when conditions change, and technical or organisational changes need checking so that they do not increase the risk for workers.",
+  "missing": [
+   "euosha: \"revised regularly\"",
+   "euosha: \"do not increase the risk for workers\""
+  ]
+ },
+ {
+  "id": "c-eu-pregnancy",
+  "where": "Women's health and work",
+  "text": "EU-OSHA notes that the risk assessment already covers pregnant workers and may be reviewed when a worker says she is pregnant; in very hot work a pregnant woman's core temperature may rise.",
+  "missing": [
+   "euosha: \"address risks to pregnant workers\"",
+   "euosha: \"core (internal body) temperature may rise\""
+  ]
+ },
+ {
+  "id": "c-eu-water",
+  "where": "Interventions: water",
+  "text": "On average about one litre of water an hour may be needed to replace sweat losses, and drinking every 15 to 20 minutes is encouraged: an average from guidance, not an individual prescription.",
+  "missing": [
+   "euosha: \"about one litre of water every hour\"",
+   "euosha: \"every 15 to 20 minutes\""
+  ]
+ },
+ {
+  "id": "c-eu-law",
+  "where": "Measure effectiveness: law",
+  "text": "In the EU, the Workplaces Directive requires the temperature in rooms containing workstations to be adequate for human beings; most legislation sets no specific maximum, so national legislation needs checking.",
+  "missing": [
+   "euosha: \"adequate for human beings\"",
+   "euosha: \"check the national legislation\""
+  ]
+ },
+ {
+  "id": "c-jay",
+  "where": "Interventions: active cooling",
+  "text": "A 2021 Lancet review argues that reliance on air conditioning is unsustainable and further marginalises the communities most vulnerable to heat, and summarises the benefits and limits of cooling strategies for settings including workplaces.",
+  "missing": [
+   "jay: \"air conditioning is unsustainable\"",
+   "jay: \"workplaces\""
+  ]
+ }
+]

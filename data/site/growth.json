@@ -692,6 +692,19 @@
       "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
     },
     {
+      "id": "g-factory-heat", "kind": "tool", "root": "practical", "added": "2026-11-19", "pr": null,
+      "title": "Heat inside factories: sources, protection and an intervention library",
+      "why": "A new feature follows heat by task, place and time through a garment factory, explaining why two people in the same building can face very different heat. Its library of measures, from roofs and steam repair to paid breaks and buyer purchasing, gives each one's evidence type and limits, with a finder, comparison, worked examples and a worksheet for workers and managers.",
+      "places": ["region"], "people": ["workers", "mothers"], "topics": ["heatrules", "maternalheat"],
+      "event": { "what": "Feature published", "date": "2026-11-19" },
+      "finding": { "text": "women's core temperature fell only with air conditioning", "source": ["Smallcombe et al., The Lancet Planetary Health, 2025: sustainable cooling strategies for garment workers under simulated extreme heat, a randomised crossover trial", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/"] },
+      "review": "Twenty sources staged and checked on GitHub; 42 of 57 claims passed. EU-OSHA's guidance reset the checker's connection on two runs, so its claims are held back and the records that rest only on it are marked as not yet confirmed. The garment trial is labelled a laboratory simulation throughout; field reports are labelled as reports, not evaluations.",
+      "effort": { "asked": "What reduces heat for people working inside factories, and what does the evidence say about each measure?", "inbox": "data/inbox/2026-11-factory-heat", "dropped": "research/2026-11/factory-heat/dropped-after-check.json",
+                  "open": "Independent before-and-after evaluations in operating garment factories; women's experiences of menstruation, menopause and protective-equipment fit in heat; EU-OSHA's guidance once the checker can reach it." },
+      "pages": [["/factory-heat/", "Heat inside factories"], ["/factory-heat/worksheet/", "Factory heat worksheet"]], "action": ["Explore a factory", "/factory-heat/#explore"],
+      "links": [{ "to": "lever:heatrules", "why": "The intervention library sets out how heat-safe work is done inside factories, measure by measure.", "basis": "record" }]
+    },
+    {
       "id": "g-maternal-guidance-india", "kind": "connection", "root": "practical", "added": "2026-11-19", "pr": null,
       "title": "From what clinicians report to the guidance they can already use",
       "why": "The clinicians' survey presented at COP31 now leads straight to India's own guidance on heat and pregnancy, published by the health ministry and UNFPA India in May 2026 for healthcare providers and community health workers. It sits beside the survey on Signals and Who is at risk, and among the guides for heat-safe pregnancy and newborn care.",
