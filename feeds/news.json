@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T07:40:01.188Z",
+ "updated": "2026-11-19T20:49:23.949Z",
  "keepDays": 14,
  "sources": [
   {
@@ -127,22 +127,6 @@
    "date": "2026-11-06T06:39:56Z",
    "place": "Bangladesh",
    "via": "Mongabay"
-  },
-  {
-   "title": "Dangerous heat index expected in 3 areas on Friday – Pagasa",
-   "url": "https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa",
-   "domain": "newsinfo.inquirer.net",
-   "date": "2026-11-05T19:52:00Z",
-   "place": "Philippines",
-   "via": "Inquirer"
-  },
-  {
-   "title": "Walang Pasok: Class suspensions on Friday (Nov. 6) due to high heat index",
-   "url": "https://newsinfo.inquirer.net/2336740/walang-pasok-class-suspensions-on-friday-nov-6-due-to-high-heat-index",
-   "domain": "newsinfo.inquirer.net",
-   "date": "2026-11-05T17:37:53Z",
-   "place": "Philippines",
-   "via": "Inquirer"
   }
  ]
 }
