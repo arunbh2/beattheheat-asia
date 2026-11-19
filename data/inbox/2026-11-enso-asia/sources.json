@@ -37,7 +37,8 @@
    "e-noaa-impacts",
    "e-thermo"
   ],
-  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño and heat in Asia batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261117203335/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
  },
  {
   "id": "src-ens-noaa-prob",
