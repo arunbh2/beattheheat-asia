@@ -710,7 +710,29 @@
   "claims": [
    "c-ahd-orig"
   ],
-  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261006002012/https://pubmed.ncbi.nlm.nih.gov/30515228/"
+  "archive": "https://web.archive.org/web/20261006002012/https://pubmed.ncbi.nlm.nih.gov/30515228/",
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-enc-roxy-hal",
+  "type": "source",
+  "keys": [
+   "roxy-hal"
+  ],
+  "title": "A threefold rise in widespread extreme rain events over central India (open archive copy)",
+  "publisher": "Nature Communications (Roxy et al.), via HAL",
+  "year": 2017,
+  "url": "https://hal.sorbonne-universite.fr/hal-01618029/file/s41467-017-00744-9.pdf",
+  "kind": "Peer-reviewed study (open archive PDF)",
+  "where": "El Niño and cities",
+  "expect": [
+   "central India",
+   "threefold increase in widespread extreme rain events over central India",
+   "decline in the total rainfall"
+  ],
+  "claims": [
+   "c-roxy"
+  ],
+  "note": "Staged from the El Niño and cities batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  }
 ]

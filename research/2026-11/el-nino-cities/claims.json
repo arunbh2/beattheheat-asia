@@ -319,6 +319,17 @@
    "expect": [
     "Ahmedabad"
    ]
+  },
+  {
+   "key": "roxy-hal",
+   "title": "A threefold rise in widespread extreme rain events over central India (open archive copy)",
+   "publisher": "Nature Communications (Roxy et al.), via HAL",
+   "year": 2017,
+   "kind": "Peer-reviewed study (open archive PDF)",
+   "url": "https://hal.sorbonne-universite.fr/hal-01618029/file/s41467-017-00744-9.pdf",
+   "expect": [
+    "central India"
+   ]
   }
  ],
  "claims": [
@@ -520,6 +531,16 @@
      ],
      [
       "roxy-xml",
+      "decline in the total rainfall"
+     ]
+    ],
+    [
+     [
+      "roxy-hal",
+      "threefold increase in widespread extreme rain events over central India"
+     ],
+     [
+      "roxy-hal",
       "decline in the total rainfall"
      ]
     ]
