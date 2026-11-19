@@ -322,5 +322,16 @@
     "url": "https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf"
    }
   ]
+ },
+ {
+  "id": "c-ahd-orig",
+  "where": "Examples",
+  "text": "A 2018 evaluation estimated about 1,190 average annualized deaths avoided after Ahmedabad's heat action plan was implemented.",
+  "sources": [
+   {
+    "label": "Journal of Environmental and Public Health (Hess et al.): Building Resilience to Climate Change: Pilot Evaluation of the Impact of India's First Heat Action Plan on All-Cause Mortality (PubMed record), 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30515228/"
+   }
+  ]
  }
 ]

@@ -1,7 +1,7 @@
 ---
 title: "Signals: which way heat policy is moving"
 url: https://beattheheat.asia/signals/
-updated: 2026-11-18
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -1124,7 +1124,7 @@ Not known yet
 
 What would change this recordThe centre's first published guidance or training, and its move into the State Institute of Disaster Management.
 
-ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 18 February 2027. [What a review covers](#sg-method)
+ReviewRecord last reviewed 18 November 2026. Sources last checked 19 November 2026. Next review due 18 February 2027. [What a review covers](#sg-method)
 
 Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 
@@ -1180,7 +1180,7 @@ Not known yet
 
 What would change this recordPublished heat maps or plans the centre supported, and its status after September 2026.
 
-ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 18 February 2027. [What a review covers](#sg-method)
+ReviewRecord last reviewed 18 November 2026. Sources last checked 19 November 2026. Next review due 18 February 2027. [What a review covers](#sg-method)
 
 Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 
