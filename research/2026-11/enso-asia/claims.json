@@ -241,7 +241,11 @@
     ],
     [
      "noaa-disc",
-     "El Niño Advisory"
+     "ENSO Alert System Status"
+    ],
+    [
+     "noaa-disc",
+     "Advisory"
     ],
     [
      "noaa-disc",
@@ -249,7 +253,7 @@
     ],
     [
      "noaa-disc",
-     "greater than a 79% chance"
+     "79% chance"
     ],
     [
      "noaa-disc",
@@ -268,15 +272,15 @@
    "rests_on": [
     [
      "noaa-disc",
-     "Compared to last month, El Niño strengthened"
+     "Compared to last month"
     ],
     [
      "noaa-disc",
-     "exceeded 4.0°C"
+     "exceeded 4.0"
     ],
     [
      "noaa-disc",
-     "+2.5°C in Niño-3.4"
+     "+2.5"
     ],
     [
      "noaa-disc",
@@ -291,7 +295,7 @@
    "rests_on": [
     [
      "noaa-disc",
-     "~60% for the October-December and November-January periods"
+     "60% for the October-December and November-January periods"
     ],
     [
      "noaa-disc",
@@ -344,7 +348,7 @@
    "rests_on": [
     [
      "noaa-prob",
-     "Relative Oceanic Niño Index (RONI)"
+     "Relative Oceanic"
     ],
     [
      "noaa-prob",
@@ -352,11 +356,7 @@
     ],
     [
      "noaa-prob",
-     "1991–2020 climatological base period"
-    ],
-    [
-     "noaa-prob",
-     "170–120W, 5S–5N"
+     "climatological base period"
     ]
    ]
   },
@@ -390,7 +390,7 @@
     ],
     [
      "noaa-roni",
-     "average tropical mean (20°N–20°S) SST anomalies subtracted"
+     "SST anomalies subtracted"
     ],
     [
      "noaa-roni",
@@ -556,7 +556,7 @@
    "rests_on": [
     [
      "asmc-enso",
-     "drier-than-average rainfall conditions, including for most of the Maritime Continent during September – November"
+     "including for most of the Maritime Continent during September"
     ],
     [
      "asmc-enso",
@@ -564,7 +564,7 @@
     ],
     [
      "asmc-enso",
-     "stronger over the southern and eastern part of South East Asia during the months of Jun – Oct"
+     "stronger over the southern and eastern part of South East Asia during the months of Jun"
     ],
     [
      "asmc-enso",
@@ -725,6 +725,43 @@
     [
      "pagasa-adv",
      "06 July 2026"
+    ]
+   ]
+  },
+  {
+   "id": "e-thermo",
+   "where": "Explainer",
+   "text": "NOAA's November discussion reports a deeper-than-average thermocline in the eastern Pacific.",
+   "rests_on": [
+    [
+     "noaa-disc",
+     "deeper-than-average thermocline"
+    ]
+   ]
+  },
+  {
+   "id": "e-walker",
+   "where": "Explainer",
+   "text": "Warming in the central and eastern Pacific shifts the rising branch of the Walker Circulation eastward, while sinking branches shift over the Maritime Continent.",
+   "rests_on": [
+    [
+     "climgov",
+     "rising branch of the Walker Circulation"
+    ],
+    [
+     "climgov",
+     "Maritime continent"
+    ]
+   ]
+  },
+  {
+   "id": "e-telecon",
+   "where": "Explainer",
+   "text": "ENSO is associated with large-scale atmospheric and oceanic teleconnections.",
+   "rests_on": [
+    [
+     "wmo-bull",
+     "large-scale atmospheric and oceanic teleconnections"
     ]
    ]
   }
