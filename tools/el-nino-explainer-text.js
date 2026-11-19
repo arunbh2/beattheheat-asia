@@ -155,8 +155,17 @@ const FAQ = [
 const PRINT_QUESTIONS = ["Which public service will we protect first, and where do people wait or work in the heat?", "Who receives the official local warning, and what does it change?", "Who authorises, pays for, runs and repairs each measure?", "How will we know who could not get water, shade or care?"];
 
 const PROMO = { label: "Explainer", title: TITLE, text: "How a change in the Pacific can shift heat and rainfall across Asia, and how to read the current outlook without mistaking it for a local forecast." };
+// a prominent card on country snapshots: opens the explainer at the country's own region tab (one line of words per country)
+const COUNTRY_PROMO = {
+  india: { region: "india", text: "What El Niño has tended to mean for India's hot season, what the current outlook says, what it cannot tell any district, and where IMD's own outlooks come in." },
+  philippines: { region: "philippines", text: "What El Niño has tended to mean for the Philippines, what the current outlook says, what it cannot tell any province, and where PAGASA's own advisories come in." }
+};
+const countryPromo = (esc, slug) => { const c = COUNTRY_PROMO[slug]; if (!c) return "";
+  return `<aside class="cs-card en-promo" aria-labelledby="enx-promo-${slug}"><span class="cs-note__label">${esc(PROMO.label)}</span>
+  <h2 class="en-promo__h" id="enx-promo-${slug}">${esc(TITLE)}</h2><p>${esc(c.text)}</p>
+  <p><a class="btn btn--cta" href="/${SLUG}/#region-${c.region}">Open the guide <span aria-hidden="true">→</span></a></p></aside>`; };
 
-module.exports = { SLUG, TITLE, SUB, DESC, TOC, OPENING, SUMMARY, SUMMARY_CLAIMS, WHAT, SCHEMATIC, ASIA, REGIONS, PATHWAYS, WHO, HOUSEHOLD, READ, READ_CLAIMS, UNCERTAINTY, DISAGREE, STEPS, STEPS_NOTE, ROLES, ROLE_SERVICES, FAQ, PRINT_QUESTIONS, PROMO,
+module.exports = { SLUG, TITLE, SUB, DESC, TOC, OPENING, SUMMARY, SUMMARY_CLAIMS, WHAT, SCHEMATIC, ASIA, REGIONS, PATHWAYS, WHO, HOUSEHOLD, READ, READ_CLAIMS, UNCERTAINTY, DISAGREE, STEPS, STEPS_NOTE, ROLES, ROLE_SERVICES, FAQ, PRINT_QUESTIONS, PROMO, COUNTRY_PROMO, countryPromo,
   // every claim the page uses, by batch, so the build can refuse an unconfirmed one
   claimsUsed() {
     const all = [...OPENING.claims, ...SUMMARY_CLAIMS, ...WHAT.flatMap(x => x.claims), ...SCHEMATIC.claims, ...ASIA.flatMap(x => x.claims), ...REGIONS.flatMap(r => [...r.typicalClaims, ...r.nowClaims]),

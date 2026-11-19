@@ -17,6 +17,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
 
+Explainer
+
+## El Niño and heat in Asia
+
+What El Niño has tended to mean for India's hot season, what the current outlook says, what it cannot tell any district, and where IMD's own outlooks come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-india)
+
 ## Heat context
 
 **Summary:** India spans hot-dry, composite and hot-humid contexts. District composite risk, daytime weather alerts, humid heat, night heat and indoor exposure are different measures.

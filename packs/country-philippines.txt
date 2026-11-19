@@ -28,6 +28,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
 
+Explainer
+
+## El Niño and heat in Asia
+
+What El Niño has tended to mean for the Philippines, what the current outlook says, what it cannot tell any province, and where PAGASA's own advisories come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-philippines)
+
 ## Heat context
 
 **Climate:** Predominantly tropical maritime and humid. A hot dry rainfall season is not equivalent to a low-humidity hot-dry climate. Conditions vary by location and season. **Seasonality:** PAGASA identifies a generally hot dry season in March–May; this is not a guarantee of safe temperatures in other months. **Night heat:** The National Adaptation Plan describes rising maximum and minimum temperatures, with minimum temperatures rising faster over the period discussed. Indoor night exposure is not measured by satellite surface temperature or a daytime station heat index. **Trend scope:** NAP climate discussion uses historical records, including 1951–2020 anomalies relative to 1991–2020; no historical trend is labelled a 2026 local measurement. **Evidence:**

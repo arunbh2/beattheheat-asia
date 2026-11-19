@@ -1,7 +1,7 @@
 ---
 title: "Philippines: heat country snapshot"
 url: https://beattheheat.asia/countries/philippines/
-updated: 2026-11-16
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -16,6 +16,14 @@ Heat, the plans and rules that shape protection, the organisations at work, and 
 **Watch: The Philippines and heat** · 0:40 · narrated, captions in the picture
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
+
+Explainer
+
+## El Niño and heat in Asia
+
+What El Niño has tended to mean for the Philippines, what the current outlook says, what it cannot tell any province, and where PAGASA's own advisories come in.
+
+[Open the guide](https://beattheheat.asia/el-nino/#region-philippines)
 
 ## Heat context
 
