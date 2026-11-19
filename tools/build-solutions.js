@@ -311,6 +311,7 @@ function countryPage(s) {
         <h1 class="h2 tool-h1">${esc(s.name)}</h1>
         <p class="tool-lede">Heat, the plans and rules that shape protection, the organisations at work, and where a shared effort could help. Researched in October 2026.</p>
         <p class="sol-caveat"><b>How to read this.</b> Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.</p>
+        ${require("./el-nino-explainer-text.js").countryPromo(esc, s.slug)}
         <nav class="sol-jump" aria-label="On this page">${jump}</nav>
         ${all.join("\n        ")}
         <p class="tool-alt">Other snapshots: ${SNAPS.filter(x => x !== s).map(x => `<a href="/countries/${x.slug}/">${esc(x.name)}</a>`).join(" · ")} · <a href="/solutions/">Solutions library</a></p>

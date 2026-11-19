@@ -164,7 +164,7 @@
   "changed": "2026-11-16"
  },
  "/countries/india/": {
-  "hash": "8422d7493e529af5",
+  "hash": "1cb85e20cf832f39",
   "changed": "2026-11-19"
  },
  "/countries/indonesia/": {
@@ -176,8 +176,8 @@
   "changed": "2026-11-16"
  },
  "/countries/philippines/": {
-  "hash": "b250adfbac5cc2a0",
-  "changed": "2026-11-16"
+  "hash": "b6cc38d7a5287cbc",
+  "changed": "2026-11-19"
  },
  "/countries/sri-lanka/": {
   "hash": "93589046836573a6",
@@ -208,7 +208,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "200795f0a40cdeac",
+  "hash": "d9a551ba0b18e31f",
   "changed": "2026-11-19"
  },
  "/fund/": {
@@ -648,8 +648,8 @@
   "changed": "2026-11-16"
  },
  "/sources/": {
-  "hash": "67b31fc11212c2b2",
-  "changed": "2026-11-18"
+  "hash": "85e9ac913eea7b08",
+  "changed": "2026-11-19"
  },
  "/the-web/": {
   "hash": "c17a51f439075de3",
