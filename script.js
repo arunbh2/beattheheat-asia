@@ -2981,7 +2981,7 @@
   // so they add nothing to the first view of the homepage
   let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
   function loadProfiles() {
-    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=241").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=242").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
       .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
       .catch(e => { profilesPromise = null; throw e; });
     return profilesPromise;

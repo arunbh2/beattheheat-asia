@@ -121,6 +121,38 @@
 .en-src li a { display: inline-block; padding: 3px 0; }
 .en-print { margin-top: 10px; }
 @media (prefers-reduced-motion: reduce) { .en-toc a, .en-related a { transition: border-color 140ms ease; } .en-toc a:active, .en-related a:active { transform: none; } }
+/* the four settings near the top: each card is one link to its worked example or table row */
+.en-settings { margin-top: var(--s-5); max-width: 46rem; }
+.en-settings > p { margin: var(--s-2) 0 0; }
+.en-line { font-family: var(--font-serif); font-size: var(--fs-22); line-height: 1.4; color: var(--ink); }
+.en-set { list-style: none; margin: var(--s-4) 0 0; padding: 0; display: grid; gap: var(--s-2); grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr)); }
+.en-set a { position: relative; display: flex; flex-direction: column; gap: 4px; height: 100%; min-height: 44px; padding: var(--pad-std); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); text-decoration: none; color: var(--ink); line-height: 1.4; touch-action: manipulation; transition: transform 140ms var(--ease-out), border-color 140ms ease; }
+.en-set a b { font-size: var(--fs-18); line-height: 1.15; }
+.en-set a > span:not(.en-set__n) { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.en-set a em { margin-top: auto; padding-top: 6px; font-style: normal; font-size: var(--fs-14); font-weight: 700; text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.en-set__n { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 999px; background: var(--ink); color: var(--canvas); font-size: var(--fs-12); font-weight: 700; }
+.en-set li:first-child a { border-color: var(--line-strong); background: var(--sand-50); }
+.en-set a:active { transform: scale(0.98); }
+@media (hover: hover) and (pointer: fine) { .en-set a:hover { border-color: var(--line-strong); } }
+.en-choose { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+/* the school worked example: a numbered sequence a team can follow */
+.en-scene { font-family: var(--font-serif); font-size: var(--fs-18); line-height: 1.55; }
+.en-steps { list-style: none; margin: var(--s-3) 0 0; padding: 0; display: grid; gap: var(--s-3); max-width: 46rem; }
+.en-steps > li { border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); padding: var(--pad-std); }
+.en-steps h3 { display: flex; align-items: center; gap: var(--s-2); margin: 0; font-size: var(--fs-18); line-height: 1.15; }
+.en-steps h3 span { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 999px; background: var(--ink); color: var(--canvas); font-size: var(--fs-12); flex: none; }
+.en-steps p { margin: 8px 0 0; }
+.en-steps .en-roles li { background: var(--canvas); }
+.en-steplinks, .en-rowlinks { font-size: var(--fs-14); line-height: 1.5; }
+.en-rowlinks { display: block; margin-top: 6px; }
+.en-sec .en-next { margin-top: var(--s-4); }
+/* the filled-in worksheet example */
+.en-filled { margin-top: var(--s-4); max-width: 46rem; border: 1px dashed var(--line-strong); border-radius: var(--r-md); background: var(--canvas); padding: var(--pad-std); }
+.en-filled dl { margin: 8px 0 0; display: grid; gap: 6px; }
+.en-filled dl div { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); gap: var(--s-3); font-size: var(--fs-14); line-height: 1.5; }
+.en-filled dt { font-weight: 700; }
+.en-filled dd { margin: 0; }
+@media (max-width: 560px) { .en-filled dl div { grid-template-columns: minmax(0, 1fr); gap: 0; } }
 @media print {
   .csn, .csf, .cse, .csp, .skip-link, .wkp-foot, .en-toc, .en-print, .en-related, .en-kicker { display: none !important; }
   .en-sec + .en-sec { border-top: 0; }
@@ -134,6 +166,7 @@
   .en-src[open] summary ~ *, .en-src summary ~ * { display: block; }
   #handout { break-before: page; }
   .en-pic a, .en-anchor { display: none; }
+  .en-set a em { display: none; } .en-set a { padding: 8px 10px; } .en-steps > li, .en-filled { break-inside: avoid; }
   .en-sec a[href^="http"]::after { content: " (" attr(href) ")"; font-size: var(--fs-12); overflow-wrap: anywhere; }
 }
 .en-h3 { font-size: var(--fs-18); line-height: 1.4; margin: 22px 0 6px; }

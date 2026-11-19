@@ -24,8 +24,8 @@
   "changed": "2026-11-18"
  },
  "/actions/": {
-  "hash": "8923db0e620d4719",
-  "changed": "2026-11-18"
+  "hash": "c1abed20758a229e",
+  "changed": "2026-11-19"
  },
  "/approach/": {
   "hash": "3fe5d256f86bbe6c",
@@ -188,7 +188,7 @@
   "changed": "2026-11-19"
  },
  "/el-nino-and-cities/": {
-  "hash": "ac8b09f2da29154c",
+  "hash": "e50ec3139f168d63",
   "changed": "2026-11-19"
  },
  "/el-nino/": {
@@ -228,8 +228,8 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "99d8b82ec2b28ab0",
-  "changed": "2026-11-18"
+  "hash": "8c9e98a171b742f7",
+  "changed": "2026-11-19"
  },
  "/heat-economy/": {
   "hash": "c18fccd1706bc155",
@@ -256,8 +256,8 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "b33f94359543ae11",
-  "changed": "2026-11-18"
+  "hash": "9ee1148b2ec3037d",
+  "changed": "2026-11-19"
  },
  "/heat-tools/": {
   "hash": "729946b6d7201a44",
@@ -372,8 +372,8 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "ce9046c191c39ae1",
-  "changed": "2026-11-18"
+  "hash": "32f004c0c8f932bd",
+  "changed": "2026-11-19"
  },
  "/loops/": {
   "hash": "b2a7c3bca3f29843",
@@ -424,15 +424,15 @@
   "changed": "2026-11-13"
  },
  "/practical-actions/": {
-  "hash": "7a55ccbcaed28e2b",
-  "changed": "2026-11-18"
+  "hash": "13297d9c7db89cdc",
+  "changed": "2026-11-19"
  },
  "/practical/": {
   "hash": "d9cafe8219c84b09",
   "changed": "2026-11-14"
  },
  "/print/": {
-  "hash": "f74a2e4759046ba0",
+  "hash": "528d5b5dbc0b8e0c",
   "changed": "2026-11-19"
  },
  "/print/actions-clinics/": {
@@ -596,7 +596,7 @@
   "changed": "2026-11-19"
  },
  "/print/el-nino-worksheet/": {
-  "hash": "f99cb5cec6ab96e9",
+  "hash": "7f407788ad437913",
   "changed": "2026-11-19"
  },
  "/print/four-heats/": {
@@ -632,7 +632,7 @@
   "changed": "2026-11-19"
  },
  "/resources/heat-action-plans/india/": {
-  "hash": "cf41a0be44a50404",
+  "hash": "e826fde106a18bce",
   "changed": "2026-11-19"
  },
  "/signals/": {

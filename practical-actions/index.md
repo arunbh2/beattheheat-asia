@@ -1,7 +1,7 @@
 ---
 title: "Practical actions against extreme heat, by setting | Common Shade"
 url: https://beattheheat.asia/practical-actions/
-updated: 2026-11-18
+updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
@@ -37,7 +37,7 @@ Water, shade, rest and cooler hours, with what each depends on.
 Before summer 2027
 El Niño and India's smaller cities
 
-A practical guide for municipal teams and community organisations in Tier 2 and Tier 3 cities: choose where protection is needed, agree who keeps it working, and decide what changes when a local warning arrives.
+A practical guide for municipal teams and community organisations in Tier 2 and Tier 3 cities: choose where people already have to be in the hottest hours (a school, a market, a clinic or a waiting space), agree who keeps it working, and decide what changes when a local warning arrives.
 
 [Open the guide](https://beattheheat.asia/el-nino-and-cities/)
 
