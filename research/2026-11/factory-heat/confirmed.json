@@ -1,0 +1,457 @@
+[
+ {
+  "id": "c-osha-eng",
+  "where": "Interventions: engineering controls (US guidance)",
+  "text": "US OSHA's engineering controls include reflective shields, insulation of hot surfaces, elimination of steam leaks, local exhaust ventilation and mechanical equipment to reduce manual work.",
+  "sources": [
+   {
+    "label": "US Occupational Safety and Health Administration (OSHA): Heat: protecting workers, engineering controls, work practices and PPE, 2024",
+    "url": "https://www.osha.gov/heat-exposure/controls"
+   }
+  ]
+ },
+ {
+  "id": "c-otm-strain",
+  "where": "Understand the heat",
+  "text": "OSHA's Technical Manual distinguishes heat stress, the load on the body, from heat strain, the body's response to it.",
+  "sources": [
+   {
+    "label": "US Occupational Safety and Health Administration (OSHA): OSHA Technical Manual, Section III, Chapter 4: Heat Stress, 2017",
+    "url": "https://www.osha.gov/otm/section-3-health-hazards/chapter-4"
+   }
+  ]
+ },
+ {
+  "id": "c-niosh-accl",
+  "where": "Interventions: acclimatisation (US guidance)",
+  "text": "NIOSH recommends acclimatisation for workers new to heat, beginning with no more than 20% of the usual duration of heat exposure on the first day.",
+  "sources": [
+   {
+    "label": "US National Institute for Occupational Safety and Health (NIOSH): Heat stress: recommendations, 2024",
+    "url": "https://www.cdc.gov/niosh/heat-stress/recommendations/index.html"
+   }
+  ]
+ },
+ {
+  "id": "c-niosh-crit",
+  "where": "Measure effectiveness",
+  "text": "NIOSH's criteria for a recommended standard on occupational exposure to heat and hot environments (2016) set out recommended exposure limits that depend on work intensity.",
+  "sources": [
+   {
+    "label": "US National Institute for Occupational Safety and Health (NIOSH): Criteria for a recommended standard: occupational exposure to heat and hot environments, 2016",
+    "url": "https://stacks.cdc.gov/view/cdc/37911"
+   }
+  ]
+ },
+ {
+  "id": "c-trial-design",
+  "where": "Garment worked example; interventions",
+  "text": "A randomised crossover trial in a climate chamber at the University of Sydney had 42 healthy participants aged 18 to 40 complete 3-hour garment-work simulations (men ironed, women sewed) at a control condition of 40 °C and 38% relative humidity, representing a non-air-conditioned Bangladeshi factory.",
+  "sources": [
+   {
+    "label": "Smallcombe et al., The Lancet Planetary Health: Sustainable cooling strategies for workers in the ready-made garment factory industry in Bangladesh under simulated extreme heat: a randomised crossover trial, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41130225/"
+   }
+  ]
+ },
+ {
+  "id": "c-trial-results",
+  "where": "Garment worked example; interventions",
+  "text": "Compared with the control, men's core temperature fell with a fan plus drinking water, with a modified rooftop (37.5 °C) and with air conditioning (24 °C); women's core temperature fell only with air conditioning. Heart rate and sweat-loss fluid deficit fell with several of the alternatives in both groups.",
+  "sources": [
+   {
+    "label": "Smallcombe et al., The Lancet Planetary Health: Sustainable cooling strategies for workers in the ready-made garment factory industry in Bangladesh under simulated extreme heat: a randomised crossover trial, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41130225/"
+   }
+  ]
+ },
+ {
+  "id": "c-trial-gender",
+  "where": "Women's health and work",
+  "text": "The trial found cooling benefits were greater in men, which its authors read as a sign of possible gender-based inequalities in workplace heat stress.",
+  "sources": [
+   {
+    "label": "Smallcombe et al., The Lancet Planetary Health: Sustainable cooling strategies for workers in the ready-made garment factory industry in Bangladesh under simulated extreme heat: a randomised crossover trial, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41130225/"
+   }
+  ]
+ },
+ {
+  "id": "c-ilo-cop",
+  "where": "Sources and standards",
+  "text": "The ILO code of practice on safety and health in textiles, clothing, leather and footwear, adopted by experts from governments, employers and workers in October 2021, is the first for these industries and covers chemical, ergonomic and physical hazards, machinery and building and fire safety.",
+  "sources": [
+   {
+    "label": "International Labour Organization: ILO adopts code of practice on safety and health in textiles, clothing, leather and footwear industries, 2021",
+    "url": "https://www.ilo.org/resource/news/ilo-adopts-code-practice-safety-and-health-textiles-clothing-leather-and"
+   },
+   {
+    "label": "International Labour Organization: Code of practice on safety and health in textiles, clothing, leather and footwear, 2022",
+    "url": "https://www.ilo.org/resource/other/code-practice-safety-and-health-textiles-clothing-leather-and-footwear"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-insul",
+  "where": "Interventions: insulation of hot pipes",
+  "text": "In an IFC case study at an apparel factory in Bangladesh, an uninsulated exhaust-gas boiler and pipes producing steam for the pressing section had surface temperatures above 100 °C; after insulation, the factory reported lower heat loss and energy use and improved indoor air temperature.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-evap",
+  "where": "Interventions: evaporative cooling",
+  "text": "Factory management in Bangladesh reports that in the monsoon or on rainy days, added humidity makes fabric absorb moisture and affects product quality, so evaporative cooling does not suit every season.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-pk",
+  "where": "Interventions: combined cooling",
+  "text": "A textile and apparel manufacturer in Pakistan combining exhaust fans, refrigerant air-cooling and evaporative air-conditioners reported average monthly indoor temperatures of 27 to 31 °C in the three hottest months of 2022.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-kh",
+  "where": "Interventions: combined cooling",
+  "text": "A large apparel manufacturer in Cambodia combining evaporative cooling, exhaust fans, 13-metre ceilings and a roof heat shield reported dry-bulb temperatures below 32 °C.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-fans",
+  "where": "Interventions: what factories already use",
+  "text": "Better Work staff found over half the factories visited in Egypt had workstation fans and 15% had evaporative cooling; in Nicaragua slightly more than a third had evaporative cooling.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-vn",
+  "where": "Measure effectiveness: law",
+  "text": "Viet Nam's Ministry of Health sets WBGT limits that fall as work gets heavier and as the share of time exposed rises.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-bd",
+  "where": "Measure effectiveness: law",
+  "text": "Bangladesh's Labour Act of 2006 requires adequate ventilation and comfortable temperatures; the 2015 Labour Rules call for at least one thermometer in every workroom, and the law does not specify temperatures or thresholds.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-accord",
+  "where": "Buyer and supply-chain arrangements",
+  "text": "The Accord on Fire and Building Safety in Bangladesh excludes indoor heat from its remit.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-fm",
+  "where": "Buyer and supply-chain arrangements",
+  "text": "The report proposes treating extreme climate events as force majeure in labour law and buyer agreements, with allowances in production schedules, delivery, leave and income, and treating heat stress as a health hazard with a right to stop work without penalty or loss of income.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-preg",
+  "where": "Women's health and work",
+  "text": "The report asks for particular attention to pregnant women and breastfeeding mothers, for whom access to potable drinking water is critical, and for women workers' voices in production schedules, given unpaid care work.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-bfc",
+  "where": "Measure effectiveness",
+  "text": "Better Factories Cambodia's 32 °C threshold is a dry-bulb measurement, not WBGT, with readings typically taken between 12:00 and 14:00.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hio-prod",
+  "where": "Understand the heat",
+  "text": "The report cites an estimated average fall of 1.5% in productivity for moderate effort in manufacturing for every 1 °C above 25 °C WBGT.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health, 2025",
+    "url": "https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-glw-bfc",
+  "where": "Why indoor heat matters",
+  "text": "Across 800 Better Factories Cambodia assessments in the hottest months of 2015 to 2024, 82% of factories had hottest production areas above the programme's own 32 °C dry-bulb threshold, which is not set by law, and one in three had days above 35 °C.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Warming to the Idea? Labor governance and extreme heat in apparel production, 2025",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-glw-hotter",
+  "where": "Why indoor heat matters",
+  "text": "Almost 53% of the factories were above 32 °C while also hotter than the concurrent outdoor temperature.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Warming to the Idea? Labor governance and extreme heat in apparel production, 2025",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-glw-lights",
+  "where": "Interventions: lighting and equipment heat",
+  "text": "In Bangladesh, Better Work advisers reported workers turning off production floor lights to reduce the heat, creating a low-light problem.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Warming to the Idea? Labor governance and extreme heat in apparel production, 2025",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-glw-reactive",
+  "where": "Management",
+  "text": "An adviser in Viet Nam described management responding reactively to worker complaints of heat by setting up fans.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Warming to the Idea? Labor governance and extreme heat in apparel production, 2025",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-giz-voice",
+  "where": "Worker participation",
+  "text": "Workers know where heat accumulates, where airflow is weak, where equipment fails and where uniforms or production systems increase risk.",
+  "sources": [
+   {
+    "label": "GIZ FABRIC Cambodia, with Cornell Global Labor Institute: Mitigating heat stress in the garment, footwear, and travel goods sector (Sustainability Recommendation Paper), 2026",
+    "url": "https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-giz-low",
+  "where": "Interventions: costs and effort",
+  "text": "Low-cost measures such as water access, ventilation, fans, shaded rest areas, maintenance and adjusted breaks can be put in place quickly; roof insulation, evaporative cooling, water curtains, sensors and retrofits need capital, planning and buyer support.",
+  "sources": [
+   {
+    "label": "GIZ FABRIC Cambodia, with Cornell Global Labor Institute: Mitigating heat stress in the garment, footwear, and travel goods sector (Sustainability Recommendation Paper), 2026",
+    "url": "https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-giz-prakas",
+  "where": "Measure effectiveness: law",
+  "text": "In Cambodia, a possible revision of Prakas 147 on workplace thermal environments could add WBGT-based thresholds and work-rest protocols.",
+  "sources": [
+   {
+    "label": "GIZ FABRIC Cambodia, with Cornell Global Labor Institute: Mitigating heat stress in the garment, footwear, and travel goods sector (Sustainability Recommendation Paper), 2026",
+    "url": "https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-giz-care",
+  "where": "Women's health and work",
+  "text": "Pregnant workers and workers with long commutes or unpaid care responsibilities may have less time to rest, rehydrate and recover outside working hours.",
+  "sources": [
+   {
+    "label": "GIZ FABRIC Cambodia, with Cornell Global Labor Institute: Mitigating heat stress in the garment, footwear, and travel goods sector (Sustainability Recommendation Paper), 2026",
+    "url": "https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-giz-dry",
+  "where": "Measure effectiveness",
+  "text": "Dry-bulb (air) temperature does not capture humidity, air movement or radiant heat, which heat stress indicators such as WBGT reflect more fully.",
+  "sources": [
+   {
+    "label": "GIZ FABRIC Cambodia, with Cornell Global Labor Institute: Mitigating heat stress in the garment, footwear, and travel goods sector (Sustainability Recommendation Paper), 2026",
+    "url": "https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-cool-sensors",
+  "where": "Measure effectiveness",
+  "text": "One Cambodian garment factory in Cornell GLI's case studies has 45 temperature and humidity sensors that workers and managers can see, and logs readings several times a day.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Cooling before it got cool: case studies in heat adaptation in Southeast Asian factories, 2026",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-cool-union",
+  "where": "Worker participation",
+  "text": "At that factory, workers report warm corners, stagnant air and discomfort near machines through their union and a messaging app, and cooling improvements formed part of the bargaining relationship with the union.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Cooling before it got cool: case studies in heat adaptation in Southeast Asian factories, 2026",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-cool-pads",
+  "where": "Interventions: evaporative cooling",
+  "text": "Evaporative pads (water curtains) pull outside air through water-saturated pads under negative pressure, cooling it by five to twelve degrees depending on humidity; at that factory they created uneven airflow, and workers nearest the vents wore light jackets.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Cooling before it got cool: case studies in heat adaptation in Southeast Asian factories, 2026",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-cool-roof",
+  "where": "Interventions: roof",
+  "text": "At a factory in Viet Nam, management and technical staff reported that rooftop solar panels shading the roof, combined with new insulation, lowered indoor temperatures by around 3 °C.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Cooling before it got cool: case studies in heat adaptation in Southeast Asian factories, 2026",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-cool-home",
+  "where": "Women's health and work",
+  "text": "Heat at home disrupts workers' sleep and recovery, and its effects carry into the production environment even in factories with effective indoor cooling.",
+  "sources": [
+   {
+    "label": "Cornell Global Labor Institute: Cooling before it got cool: case studies in heat adaptation in Southeast Asian factories, 2026",
+    "url": "https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-ccohs",
+  "where": "Women's health and work",
+  "text": "Canada's CCOHS notes that extreme heat raises the risk of dehydration and heat exhaustion in pregnancy and can affect the fetus if core body temperature rises above 38 °C, and suggests tasks earlier in the day or in cooler places, with work-rest cycles.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Reproductive health: pregnancy in the workplace, 2024",
+    "url": "https://ccohs.gc.ca/oshanswers/psychosocial/wh/reproductive-health-pregnancy-in-the-workplace.html"
+   }
+  ]
+ },
+ {
+  "id": "c-c183",
+  "where": "Women's health and work",
+  "text": "The ILO Maternity Protection Convention, 2000 (No. 183) provides, in countries that ratify it, a right to one or more daily breaks or a daily reduction of hours to breastfeed, counted as working time and paid.",
+  "sources": [
+   {
+    "label": "International Labour Organization (NORMLEX): C183: Maternity Protection Convention, 2000 (No. 183), 2000",
+    "url": "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C183"
+   }
+  ]
+ },
+ {
+  "id": "c-mohfw",
+  "where": "Women's health and work",
+  "text": "In India, the health ministry and UNFPA India published guidance on heat and pregnancy for healthcare providers and community health workers, with a heat-risk checklist and preparedness for health facilities including functional referral systems.",
+  "sources": [
+   {
+    "label": "Ministry of Health and Family Welfare and UNFPA India: Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers, 2026",
+    "url": "https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers"
+   }
+  ]
+ },
+ {
+  "id": "c-fan",
+  "where": "Interventions: fans",
+  "text": "A biophysical modelling study across 108 cities found electric fans would not have worsened heat stress for healthy young adults on most hot days, and proposed humidity-dependent temperature thresholds above which fans worsen heat stress; it modelled population groups, not factory tasks.",
+  "sources": [
+   {
+    "label": "Morris et al., The Lancet Planetary Health: Electric fan use for cooling during hot weather: a biophysical modelling study, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34119011/"
+   }
+  ]
+ },
+ {
+  "id": "c-led",
+  "where": "Interventions: lighting and equipment heat",
+  "text": "In garment factories near Bengaluru, a working paper found that switching to LED lighting, which gives off less heat, softened the drop in output on hot days.",
+  "sources": [
+   {
+    "label": "Adhvaryu, Kala and Nyshadham, MIT CEEPR working paper: The light and the heat: productivity co-benefits of energy-saving technology, 2017",
+    "url": "https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-chea",
+  "where": "Why indoor heat matters",
+  "text": "In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, by their own reports.",
+  "sources": [
+   {
+    "label": "Chea et al., BMC Public Health: Heat stress among women garment workers in Cambodia in cool and hot months, 2025",
+    "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0"
+   }
+  ]
+ },
+ {
+  "id": "c-whowmo",
+  "where": "Sources and standards",
+  "text": "WHO and WMO issued a report and guidance in 2025 to protect workers from increasing heat stress.",
+  "sources": [
+   {
+    "label": "World Health Organization and World Meteorological Organization: WHO and WMO issue new report and guidance to protect workers from increasing heat stress, 2025",
+    "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress"
+   }
+  ]
+ }
+]

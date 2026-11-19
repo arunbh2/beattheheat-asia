@@ -1,36 +1,5 @@
 {
  "_terms": {
-  "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": {
-   "heat stress": true,
-   "metabolic heat, clothing, and environmental factors": true,
-   "humidity and radiant heat": true,
-   "Mild or moderate heat stress can lead to discomfort": true,
-   "not harmful to health": true,
-   "hot metal, furnaces and steam pipes": true,
-   "common example of a source of radiant heat": true,
-   "Indoor workers are also at risk of heat stress": true,
-   "poorly cooled buildings": true,
-   "reducing heat release": true,
-   "heat-absorbing shielding": true,
-   "low-emissivity material": true,
-   "separating them from workers": true,
-   "leaky steam valves": true,
-   "removing heated air or steam from hot processes using local exhaust ventilation": true,
-   "reflective film on windows": true,
-   "positioning workstations away from direct sunlight": true,
-   "particularly in humid conditions": true,
-   "without compromising technical ventilation": true,
-   "as close as possible to the work site": true,
-   "cooled observation booths": true,
-   "revised regularly": true,
-   "do not increase the risk for workers": true,
-   "address risks to pregnant workers": true,
-   "core (internal body) temperature may rise": true,
-   "about one litre of water every hour": true,
-   "every 15 to 20 minutes": true,
-   "adequate for human beings": true,
-   "check the national legislation": true
-  },
   "https://www.osha.gov/heat-exposure/controls": {
    "Engineering": true,
    "Reflective shields": true,
@@ -38,13 +7,6 @@
    "steam leaks": true,
    "Local exhaust ventilation": true,
    "mechanical equipment": true
-  },
-  "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": {
-   "Heat Stress": true,
-   "natural wet bulb": false,
-   "globe temperature": true,
-   "WBGT": true,
-   "heat strain": true
   },
   "https://www.cdc.gov/niosh/heat-stress/recommendations/index.html": {
    "heat": true,
@@ -190,9 +152,7 @@
    "workers": true
   }
  },
- "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": "FAIL",
  "https://www.osha.gov/heat-exposure/controls": "OK",
- "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": "OK",
  "https://www.cdc.gov/niosh/heat-stress/recommendations/index.html": "BLOCKED",
  "https://stacks.cdc.gov/view/cdc/37911": "BLOCKED",
  "https://pubmed.ncbi.nlm.nih.gov/41130225/": "OK",
