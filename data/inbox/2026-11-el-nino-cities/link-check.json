@@ -54,9 +54,9 @@
    "tropical Indian Ocean": true
   },
   "https://doi.org/10.1038/s41467-017-00744-9": {
-   "central India": false,
-   "threefold increase in widespread extreme rain events over central India": false,
-   "decline in the total rainfall": false
+   "central India": true,
+   "threefold increase in widespread extreme rain events over central India": true,
+   "decline in the total rainfall": true
   },
   "https://practicalaction.org/news-stories/el-nino-is-coming-so-how-are-we-preparing/": {
    "El Niño": true,
