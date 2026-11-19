@@ -150,6 +150,44 @@
   "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": {
    "heat stress": true,
    "workers": true
+  },
+  "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": {
+   "heat stress": true,
+   "metabolic heat, clothing, and environmental factors": true,
+   "humidity and radiant heat": true,
+   "Mild or moderate heat stress can lead to discomfort": true,
+   "not harmful to health": true,
+   "hot metal, furnaces and steam pipes": true,
+   "common example of a source of radiant heat": true,
+   "Indoor workers are also at risk of heat stress": true,
+   "poorly cooled buildings": true,
+   "reducing heat release": true,
+   "heat-absorbing shielding": true,
+   "low-emissivity material": true,
+   "separating them from workers": true,
+   "leaky steam valves": true,
+   "removing heated air or steam from hot processes using local exhaust ventilation": true,
+   "reflective film on windows": true,
+   "positioning workstations away from direct sunlight": true,
+   "particularly in humid conditions": true,
+   "without compromising technical ventilation": true,
+   "as close as possible to the work site": true,
+   "cooled observation booths": true,
+   "revised regularly": true,
+   "do not increase the risk for workers": true,
+   "address risks to pregnant workers": true,
+   "core (internal body) temperature may rise": true,
+   "about one litre of water every hour": true,
+   "every 15 to 20 minutes": true,
+   "adequate for human beings": true,
+   "check the national legislation": true
+  },
+  "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": {
+   "Heat Stress": true,
+   "wet bulb": true,
+   "globe temperature": true,
+   "WBGT": true,
+   "heat strain": true
   }
  },
  "https://www.osha.gov/heat-exposure/controls": "OK",
@@ -169,5 +207,7 @@
  "https://pubmed.ncbi.nlm.nih.gov/34119011/": "OK",
  "https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf": "OK",
  "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0": "REDIRECT",
- "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": "OK"
+ "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": "OK",
+ "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": "FAIL",
+ "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": "OK"
 }
