@@ -22,12 +22,13 @@
    "watching": ["Adaptation indicators","Health","Adaptation finance","Cooling","Early warnings"],
    "reading": {"label":"A reading so far, after check-in 3 (18 November)","text":"COP31's heat story is running through cooling, health and money, while we have so far found little on heat itself in the negotiating texts. The cooling roadmap and WHO's El Niño plan sit outside the negotiated decisions. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at the last check-in and when the conference closes."},
    "scope": "Heat in COP31's announcements and outcomes on adaptation, health, finance, cooling and early warnings, including launches shortly before the conference. Each item enters only after its source passes the site's check.",
-   "cutoff": "2026-11-18",
+   "cutoff": "2026-11-19",
    "checkins": [
     {"date":"2026-11-09","label":"Opening","added":["sig-cop31-2026","sig-wmo-state-of-climate-2026","sig-el-nino-2026-2027","sig-emissions-gap-2026","sig-belem-adaptation-indicators-2025"],"note":"The conference, the year's climate findings and the adaptation indicators it builds on."},
     {"date":"2026-11-13","label":"Check-in 1","added":["sig-cop31-air-2026","sig-cop31-health-theme-2026","sig-ifrc-heat-warnings-2026","sig-adaptation-gap-2026"],"note":"Health and finance: the health platform launched on Health Day, the presidency's health theme, and two calls for money and warnings."},
     {"date":"2026-11-15","label":"Check-in 2","added":["sig-cop31-antalya-compact-2026"],"note":"A buildings compact launched before the conference, added at the announced step."},
-    {"date":"2026-11-18","label":"Check-in 3","added":["sig-cop31-cooling-ministerial-2026","sig-who-el-nino-response-2026"],"note":"Cooling and health: a heat resilience and cooling roadmap backed at the Cooling Ministerial, with new support announced, and WHO's El Niño response plan."}
+    {"date":"2026-11-18","label":"Check-in 3","added":["sig-cop31-cooling-ministerial-2026","sig-who-el-nino-response-2026"],"note":"Cooling and health: a heat resilience and cooling roadmap backed at the Cooling Ministerial, with new support announced, and WHO's El Niño response plan."},
+    {"date":"2026-11-19","label":"Check-in 4","added":["sig-clinicians-heat-pregnancy-2026"],"note":"Health: a survey of maternity and newborn clinicians in five countries, India among them, presented at COP31."}
    ],
    "synthesis": null
   },
@@ -368,6 +369,26 @@
     }
    ],
    "review": {"reviewed":"2026-11-18","due":"2026-11-27"}
+  },
+  {
+   "id": "sig-clinicians-heat-pregnancy-2026",
+   "group": "cop31",
+   "kind": "finding",
+   "date": "2026-09",
+   "title": "98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed",
+   "summary": "A survey commissioned by Wellcome asked 1,000 practising clinicians in pregnancy, childbirth, postnatal and newborn care, 250 of them midwives, in Australia, Brazil, India, the UK and Zimbabwe (fieldwork by Censuswide, September 2026). Across the five countries, 98% said they had cared for a pregnant woman, and 99% for a baby, whose health they believed extreme heat had harmed; 73% reported more heat-related complications in pregnant women over the past five years and 76% in foetal or newborn health, and 92% want more training and resources. As reported by Down To Earth, among the 200 respondents in India, 62% reported more complications in pregnant women and 66% in foetal or newborn health, and 26% had seen pregnancy complications that needed extra monitoring or treatment. The findings were presented on 13 November on the sidelines of COP31 in Antalya, where a UN Climate Change official said that about 1% of formal climate finance goes to health. These are clinicians' reports of what they believe they have seen, not measured outcomes.",
+   "who": "Wellcome (commissioned the survey)",
+   "places": ["region"],
+   "levers": ["maternalheat","readyclinics"],
+   "next": "A finding, not a commitment: watch whether national heat plans and health budgets name care in pregnancy and for newborns, and fund it.",
+   "sources": [
+    {"id":"wellcome-results","type":"original","label":"Wellcome, 2026: Extreme heat is putting pregnant women and their babies at risk (survey results and methodology)","url":"https://wellcome.org/heat-and-pregnancy"},
+    {"id":"wellcome-call","type":"original","label":"Wellcome, 2026: Keeping Mothers Safe from Extreme Heat: A Global Call to Action","url":"https://wellcome.org/our-priorities/climate-and-health/extreme-heat/pregnancy"},
+    {"id":"dte","type":"secondary","label":"Down To Earth, 16 November 2026: COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report","url":"https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report"}
+   ],
+   "where": "Australia, Brazil, India, the UK and Zimbabwe",
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-19","due":"2026-11-27"}
   },
   {
    "id": "sig-india-heatwave-calamity-2026",

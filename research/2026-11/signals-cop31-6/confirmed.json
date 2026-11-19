@@ -1,0 +1,61 @@
+[
+ {
+  "id": "c-survey",
+  "where": "Signal: clinicians' survey on heat in pregnancy",
+  "text": "In September 2026, Censuswide surveyed 1,000 practising healthcare professionals, 250 of them midwives, in pregnancy, childbirth, postnatal and newborn care across Australia, Brazil, India, the UK and Zimbabwe, for a survey commissioned by Wellcome.",
+  "sources": [
+   {
+    "label": "Wellcome: Extreme heat is putting pregnant women and their babies at risk, 2026",
+    "url": "https://wellcome.org/heat-and-pregnancy"
+   },
+   {
+    "label": "Wellcome: Keeping Mothers Safe from Extreme Heat: A Global Call to Action, 2026",
+    "url": "https://wellcome.org/our-priorities/climate-and-health/extreme-heat/pregnancy"
+   }
+  ]
+ },
+ {
+  "id": "c-five",
+  "where": "Signal: clinicians' survey on heat in pregnancy",
+  "text": "Across the five countries, 98% said they had cared for a pregnant woman, and 99% for a baby, whose health they believed extreme heat had harmed; 73% reported more heat-related complications in pregnant women and 76% in foetal or newborn health; 92% want more training and resources.",
+  "sources": [
+   {
+    "label": "Wellcome: Extreme heat is putting pregnant women and their babies at risk, 2026",
+    "url": "https://wellcome.org/heat-and-pregnancy"
+   }
+  ]
+ },
+ {
+  "id": "c-india",
+  "where": "Signal: clinicians' survey on heat in pregnancy (secondary)",
+  "text": "Among the 200 respondents in India, 62% reported more heat-related complications in pregnant women over five years and 66% in foetal or newborn health; 26% had seen pregnancy complications needing extra monitoring or treatment.",
+  "sources": [
+   {
+    "label": "Down To Earth: COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report, 2026",
+    "url": "https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report"
+   }
+  ]
+ },
+ {
+  "id": "c-cop31",
+  "where": "Signal: clinicians' survey on heat in pregnancy (secondary)",
+  "text": "The findings were presented on 13 November on the sidelines of COP31 in Antalya.",
+  "sources": [
+   {
+    "label": "Down To Earth: COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report, 2026",
+    "url": "https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report"
+   }
+  ]
+ },
+ {
+  "id": "c-finance",
+  "where": "Signal: clinicians' survey on heat in pregnancy (secondary)",
+  "text": "At the presentation, a UN Climate Change official said that about 1% of formal climate finance goes to health.",
+  "sources": [
+   {
+    "label": "Down To Earth: COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report, 2026",
+    "url": "https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report"
+   }
+  ]
+ }
+]

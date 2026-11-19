@@ -5,7 +5,7 @@ updated: 2026-11-19
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 74 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 75 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-74 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,120 works the commons draws on carry a publication date, and 808 are still being dated.
+75 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,121 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -53,6 +53,48 @@ The plan's heat chapter and its call for a formal heat action plan.
 [Open the record](https://beattheheat.asia/resources/heat-action-plans/india/#IN-MH-CITY-JALGAON-CAP)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20India%20archive%20adds%20Jalgaon's%20climate%20action%20plan%2C%20with%20its%20heat%20chapter&ref=g-hap-jalgaon#way-share)
+
+Evidence added · Evidence
+
+### COP31, fourth check-in: what maternity and newborn clinicians report seeing
+
+Added 19 November 2026 · COP31 check-in 19 November 2026
+
+Why it matters our readingA survey commissioned by Wellcome, presented at COP31, asked 1,000 clinicians in pregnancy and newborn care in five countries, India among them, what heat is doing to the women and babies they care for. It joins the watch as a finding, labelled as clinicians' reports rather than measured outcomes, and the pregnant women group on Who is at risk now carries it too.
+
+What the source says quoted“98% said they had cared for a pregnant woman, and 99% for a baby, whose health they believed extreme heat had harmed”
+
+[Wellcome, 2026: Extreme heat is putting pregnant women and their babies at risk (survey results and methodology) ](https://wellcome.org/heat-and-pregnancy)
+
+- India
+- South and Southeast Asia
+- Pregnant women, babies and young children
+- Heat-safe pregnancy and newborn care
+- Heat-ready health services
+
+ReviewThree sources staged; all five claims passed the GitHub check at Wellcome's own pages and Down To Earth; the India-only figures and the remark on climate finance rest on Down To Earth's report of the briefing and are marked secondary; no individuals named. 3 checked · 3 confirmed.
+
+What it took to add this
+
+- **The question.** What does the clinicians' survey presented at COP31 establish, confirmed at the source?
+- **The search.** 3 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 3 confirmed.
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Wellcome's own India breakdown, and a UNFCCC document for the share of climate finance that goes to health.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-signals-cop31-6/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/signals-cop31-6/dropped-after-check.json)
+
+How it connects
+
+- [Heat-safe pregnancy and newborn care](https://beattheheat.asia/actions/#maternalheat) Action · from the site's records
+Clinicians in pregnancy and newborn care report heat harming the women and babies they treat, and ask for training and resources.
+
+[Read the COP31 watch](https://beattheheat.asia/signals/#cop31)
+[Signals](https://beattheheat.asia/signals/)[Who is at risk](https://beattheheat.asia/who-is-at-risk/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=COP31%2C%20fourth%20check-in%3A%20what%20maternity%20and%20newborn%20clinicians%20report%20seeing&ref=g-signals-cop31-checkin-4#way-share)
 
 Evidence added · Institutions and plans
 
@@ -2374,11 +2416,11 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-244 works published, 142 of them with a known month; 1,120 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+245 works published, 142 of them with a known month; 1,121 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
-- Evidence407
+- Evidence408
 - Experience98
 - Practical measures247
 - Institutions and plans138

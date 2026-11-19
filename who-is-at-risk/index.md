@@ -187,6 +187,8 @@ Bhutan's 2015 WHO profile projects about 49 heat-related deaths per 100,000 peop
 
 In consultations for Bangkok's financing strategy, participants said heat response may not reach older and bedridden people living in metal-roofed homes, who are highly affected by heat. [UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026](https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf)
 
+In a survey commissioned by Wellcome, 98% of 1,000 maternity and newborn clinicians in five countries, India among them, said they had cared for a pregnant woman whose health they believed extreme heat had harmed. These are clinicians’ reports, not measured outcomes. [Wellcome, 2026: survey of 1,000 healthcare professionals in pregnancy and newborn care (Censuswide, September 2026)](https://wellcome.org/heat-and-pregnancy)
+
 **What helps:** [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Heat action plans](https://beattheheat.asia/actions/#hap), [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 
 **Watch:** [Older people and heat (0:42)](https://beattheheat.asia/media/glossary/olderheat.mp4), [Heat check-ins (0:37)](https://beattheheat.asia/media/glossary/checkins.mp4), [Sleep in the heat (0:36)](https://beattheheat.asia/media/glossary/sleepheat.mp4). Or [live through a hot night](https://beattheheat.asia/a-night-in-the-heat/).
