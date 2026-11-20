@@ -24,12 +24,6 @@
    "normal physiological levels of electrolytes": true,
    "higher probability of hyponatremia": true
   },
-  "https://pubmed.ncbi.nlm.nih.gov/36453470/": {
-   "rice farmers": false,
-   "379 farmers": false,
-   "83.4% of farmers": false,
-   "increased water intake": false
-  },
   "https://pubmed.ncbi.nlm.nih.gov/32882881/": {
    "sugarcane": true,
    "90 sugarcane cutters and 93 factory workers": true,
@@ -115,7 +109,6 @@
  "https://pubmed.ncbi.nlm.nih.gov/40808610/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/40963212/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/42214031/": "OK",
- "https://pubmed.ncbi.nlm.nih.gov/36453470/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/32882881/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/39899707/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/42303799/": "OK",
