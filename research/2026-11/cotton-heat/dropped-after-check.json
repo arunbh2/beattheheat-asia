@@ -1,0 +1,12 @@
+[
+ {
+  "id": "c-profit",
+  "where": "Calendar; transport",
+  "text": "In May 2025, picking began early in coastal Sindh, attributed to a sudden rise in temperatures, and gins in Punjab bought raw cotton from Sindh for ginning.",
+  "missing": [
+   "profit: \"coastal areas of Sindh\"",
+   "profit: \"sudden rise in temperatures\"",
+   "profit: \"Burewala\""
+  ]
+ }
+]

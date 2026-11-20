@@ -377,6 +377,8 @@ const OTHERS = {
   ]
 };
 
+// upstream: the reciprocal card to /cotton-and-heat/
+const UPSTREAM = { h: "Heat begins before the factory gate", p: "Explore cotton farming, harvesting and transport, and the working arrangements that shape protection upstream.", href: "/cotton-and-heat/", go: "Heat from field to factory" };
 const GAPS_CONTEXT = { text: "The wider evidence has the same shape. A 2026 scoping review of 90 intervention studies found 68% were in laboratories and 73% in developed countries, with only four testing engineering controls. A 2026 mapping review of field research on workers' heat in low- and middle-income countries found only 9% of reports included any intervention, and 39% included no women.", claims: ["c-venugopal", "c-wiskel"] };
 const GAPS = [
   "No checked independent before-and-after evaluation of a heat intervention in an operating garment factory was found for this page; garment field evidence is from reports by management, programme staff and researchers. The nearest field trial found is a pilot with 12 workers in an indoor sawmill in Thailand.",
@@ -433,10 +435,10 @@ function md(SITE, ok) {
     "### Finder: what you observe, and where to look", FINDER.intro, ...CONDITIONS.map(c => `- ${c.t}: ${c.why} Families: ${c.fams.map(id => FAMILIES.find(f => f.id === id).t).join("; ")}. Investigate next: ${c.next}`), "",
     "### Worked examples (illustrative)", ...EXAMPLES.map(e => `#### ${e.t}\n- Observed problem: ${e.problem}\n- Missing information: ${e.missing}\n- Candidate measures: ${e.measures.map(id => RECORDS.find(r => r.id === id).t).join("; ")}\n- Organisational arrangements: ${e.org}\n- Verification: ${e.verify}`), "",
     "### Measure effectiveness", MEASURE.intro, ...MEASURE.metrics.map(m => `- ${m.t}: ${m.d}`), ...MEASURE.practice.map(p => `- ${p}`), "Four levels of evidence that a measure worked:", ...MEASURE.levels.map(l => `- ${l.t}: ${l.d}`), MEASURE.law, ...MEASURE.jurisdictions.map(j => `- ${j.where}: ${j.what}`), "",
-    "### Other manufacturing", OTHERS.intro, ...OTHERS.rows.map(r => `- ${r.t}: ${r.d}`), "",
+    "### Other manufacturing", OTHERS.intro, ...OTHERS.rows.map(r => `- ${r.t}: ${r.d}`), `${UPSTREAM.h}: ${UPSTREAM.p} ${SITE}${UPSTREAM.href}`, "",
     "### Evidence gaps", GAPS_CONTEXT.text, ...GAPS.map(g => `- ${g}`), "",
     `Worksheet to print: ${SITE}/${WORKSHEET.slug}/`, ""];
   return L.join("\n");
 }
 
-module.exports = { GAPS_CONTEXT, SLUG, TITLE, SUB, DESC, EV, EV_NOTE, OPEN, ENTRIES, UNDERSTAND, ZONES, HEALTH, FAMILIES, RECORDS, CONDITIONS, FINDER, EXAMPLES, MEASURE, OTHERS, GAPS, WORKSHEET, claimsUsed, md };
+module.exports = { UPSTREAM, GAPS_CONTEXT, SLUG, TITLE, SUB, DESC, EV, EV_NOTE, OPEN, ENTRIES, UNDERSTAND, ZONES, HEALTH, FAMILIES, RECORDS, CONDITIONS, FINDER, EXAMPLES, MEASURE, OTHERS, GAPS, WORKSHEET, claimsUsed, md };

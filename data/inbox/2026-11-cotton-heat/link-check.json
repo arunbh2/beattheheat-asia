@@ -1,0 +1,101 @@
+{
+ "_terms": {
+  "https://www.ilo.org/resource/news/cotton-farming-communities-trained-safe-work-practices-amid-extreme-heat": {
+   "cotton": true,
+   "adapting working hours during periods of extreme heat": true,
+   "oral rehydration solutions": true,
+   "more than 50 small and marginal cotton farmers": true,
+   "Ratlam": true,
+   "washing areas, resting spaces and safe transport": true,
+   "lack coverage under labour legislation and social protection systems": true,
+   "often engaged in cotton picking": true,
+   "fetching water": true,
+   "household demand increases": true,
+   "absence of organized associations": true,
+   "drinking water point using earthen pots": true,
+   "hazardous agrochemicals": true,
+   "repetitive bending and heavy lifting": true
+  },
+  "https://bettercotton.org/wp-content/uploads/2026/01/Co-Creating-Sustainable-Futures-With-Women-Farmers-in-Pakistan.pdf": {
+   "cotton": true,
+   "300 BCI women cotton farmers": true,
+   "(93%)": true,
+   "(77%)": true,
+   "(69%)": true,
+   "operate irrigation": true,
+   "unpaid domestic/care work": true,
+   "only 4% for leisure": true
+  },
+  "https://tribune.com.pk/story/1502534/women-pickers-toil-unprotected-pakistans-cotton-fields": {
+   "cotton": true,
+   "carry their bundles of blooms to be weighed": true,
+   "estimated half a million cotton pickers": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/40739483/": {
+   "cotton": true,
+   "16 upland cotton cultivars": true,
+   "pollen germination was reduced by 71%": true,
+   "decreased by 19% and 26%": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/27618928/": {
+   "cotton": true,
+   "Vehari": true,
+   "61 % cotton pickers": true,
+   "66 %": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/32865685/": {
+   "cotton": true,
+   "600 cotton pickers": true,
+   "distance from hospital": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/29140634/": {
+   "cotton": true,
+   "can support smoldering combustion": true,
+   "unknown in the cotton ginning industry": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/24321634/": {
+   "cotton": true,
+   "188 workers of 10 cotton-ginning factories": true,
+   "Byssinosis symptoms": true
+  },
+  "https://gain.fas.usda.gov/Recent%20GAIN%20Publications/Cotton%20and%20Products%20Annual_Islamabad_Pakistan_3-20-2018.pdf": {
+   "cotton": true,
+   "since mid-March": true,
+   "1,200 ginneries": true,
+   "cottonseed crushers": true,
+   "high levels of foreign matter": true
+  },
+  "https://epubs.icar.org.in/index.php/IJAgS/article/download/141408/53846/402087": {
+   "cotton": true,
+   "15th May": true,
+   "27 to 32": true,
+   "cotton planted in our country is rainfed": true,
+   "extremely sensitive to rain during harvest": true
+  },
+  "https://profit.pakistantoday.com.pk/2025/05/03/early-cotton-picking-begins-in-sindh-raising-hopes-for-advanced-ginning-season": {
+   "cotton": false,
+   "coastal areas of Sindh": false,
+   "sudden rise in temperatures": false,
+   "Burewala": false
+  },
+  "https://www.ers.usda.gov/topics/crops/cotton-and-wool/cotton-sector-at-a-glance": {
+   "cotton": true,
+   "cotton fibers are separated from the seeds": true,
+   "lint plus seed": true,
+   "mechanically harvested using specialized equipment": true,
+   "for further processing before many of the finished products return": true
+  }
+ },
+ "https://www.ilo.org/resource/news/cotton-farming-communities-trained-safe-work-practices-amid-extreme-heat": "OK",
+ "https://bettercotton.org/wp-content/uploads/2026/01/Co-Creating-Sustainable-Futures-With-Women-Farmers-in-Pakistan.pdf": "OK",
+ "https://tribune.com.pk/story/1502534/women-pickers-toil-unprotected-pakistans-cotton-fields": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/40739483/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/27618928/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/32865685/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/29140634/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/24321634/": "OK",
+ "https://gain.fas.usda.gov/Recent%20GAIN%20Publications/Cotton%20and%20Products%20Annual_Islamabad_Pakistan_3-20-2018.pdf": "REDIRECT",
+ "https://epubs.icar.org.in/index.php/IJAgS/article/download/141408/53846/402087": "OK",
+ "https://profit.pakistantoday.com.pk/2025/05/03/early-cotton-picking-begins-in-sindh-raising-hopes-for-advanced-ginning-season": "BLOCKED",
+ "https://www.ers.usda.gov/topics/crops/cotton-and-wool/cotton-sector-at-a-glance": "OK"
+}

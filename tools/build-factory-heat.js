@@ -179,6 +179,7 @@ module.exports = function factoryHeat({ page, write, esc, hero, V }) {
     <h2 class="hub-h" id="fh-oth-h">Beyond garment assembly</h2>
     <p>${esc(T.OTHERS.intro)}</p>
     <ul class="fh-others">${T.OTHERS.rows.map(r => `<li><h3>${esc(r.t)}</h3><p>${esc(r.d)}</p></li>`).join("")}</ul>
+    <aside class="cs-card fh-upstream" id="upstream" aria-labelledby="fh-up-h"><h3 id="fh-up-h">${esc(T.UPSTREAM.h)}</h3><p>${esc(T.UPSTREAM.p)}</p><p><a class="btn" href="${esc(T.UPSTREAM.href)}">${esc(T.UPSTREAM.go)}</a> <a class="fh-uplink" href="/cotton-and-heat/#stage-gin">Ginning and baling</a></p></aside>
   </section>`;
 
   // 8-9. worked examples, measurement, worksheet
@@ -241,6 +242,7 @@ module.exports = function factoryHeat({ page, write, esc, hero, V }) {
   <section class="container fh-sec" aria-labelledby="fh-rel-h">
     <h2 class="hub-h" id="fh-rel-h">Related on Common Shade</h2>
     <ul class="fh-related">
+      <li><a href="/cotton-and-heat/"><b>Heat from field to factory</b><span>cotton farming, picking, transport and ginning</span></a></li>
       <li><a href="/practical-actions/#work"><b>Practical actions at work</b><span>water, breaks, warnings and income in heat</span></a></li>
       <li><a href="/who-is-at-risk/"><b>Who is at risk</b><span>workers, women, pregnancy and older people</span></a></li>
       <li><a href="/heat-tools/?decision=protect_workers"><b>Heat Tool Finder: plan worker protection</b><span>apps and guidance, each with its limits</span></a></li>

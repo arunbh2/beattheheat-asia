@@ -10,7 +10,7 @@
 "use strict";
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..");
-const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "how-heat-became-visible/visibility.css", "el-nino-and-cities/el-nino.css", "el-nino/el-nino.css", "el-nino/watch.css", "shared-heat/shared.css", "factory-heat/factory.css", "social-protection/sp.css", "script.js", "tools/site-nav.js"];
+const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "how-heat-became-visible/visibility.css", "el-nino-and-cities/el-nino.css", "el-nino/el-nino.css", "el-nino/watch.css", "shared-heat/shared.css", "factory-heat/factory.css", "cotton-and-heat/cotton.css", "social-protection/sp.css", "script.js", "tools/site-nav.js"];
 const { KEEP, QUOTE, keepReason } = require("./stripe-rules.js");
 const args = process.argv.slice(2), dry = args.includes("--dry"), rest = args.includes("--rest"), want = args.filter(a => !a.startsWith("--"));
 const SIDE = /border-(left|right|top|bottom)\s*:\s*(\d+(?:\.\d+)?)px\s+solid\s+([^;}"'`]+?)\s*(?=;|}|$)/gi;

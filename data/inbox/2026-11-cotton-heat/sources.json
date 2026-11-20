@@ -1,0 +1,311 @@
+[
+ {
+  "id": "src-ct-ilo-mp",
+  "type": "source",
+  "keys": [
+   "ilo-mp"
+  ],
+  "title": "Cotton farming communities trained on safe work practices amid extreme heat in India",
+  "publisher": "International Labour Organization",
+  "year": 2026,
+  "url": "https://www.ilo.org/resource/news/cotton-farming-communities-trained-safe-work-practices-amid-extreme-heat",
+  "kind": "Programme description (news release)",
+  "where": "Ratlam district, Madhya Pradesh, India",
+  "expect": [
+   "cotton",
+   "adapting working hours during periods of extreme heat",
+   "oral rehydration solutions",
+   "more than 50 small and marginal cotton farmers",
+   "Ratlam",
+   "washing areas, resting spaces and safe transport",
+   "lack coverage under labour legislation and social protection systems",
+   "often engaged in cotton picking",
+   "fetching water",
+   "household demand increases",
+   "absence of organized associations",
+   "drinking water point using earthen pots",
+   "hazardous agrochemicals",
+   "repetitive bending and heavy lifting"
+  ],
+  "claims": [
+   "c-ilo-train",
+   "c-ilo-gaps",
+   "c-ilo-women",
+   "c-ilo-org",
+   "c-ilo-water",
+   "c-ilo-haz"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261120175428/https://www.ilo.org/resource/news/cotton-farming-communities-trained-safe-work-practices-amid-extreme-heat"
+ },
+ {
+  "id": "src-ct-bc-women",
+  "type": "source",
+  "keys": [
+   "bc-women"
+  ],
+  "title": "Co-creating sustainable futures with women cotton farmers in Pakistan: insights on time use, support structures and farm-level programming",
+  "publisher": "Better Cotton Initiative (study by Ardis Research & Consultancy)",
+  "year": 2025,
+  "url": "https://bettercotton.org/wp-content/uploads/2026/01/Co-Creating-Sustainable-Futures-With-Women-Farmers-in-Pakistan.pdf",
+  "kind": "Commissioned rapid assessment (survey and focus groups)",
+  "where": "Four districts of Sindh, Pakistan",
+  "expect": [
+   "cotton",
+   "300 BCI women cotton farmers",
+   "(93%)",
+   "(77%)",
+   "(69%)",
+   "operate irrigation",
+   "unpaid domestic/care work",
+   "only 4% for leisure"
+  ],
+  "claims": [
+   "c-bcw-tasks",
+   "c-bcw-time"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261120175445/https://bettercotton.org/wp-content/uploads/2026/01/Co-Creating-Sustainable-Futures-With-Women-Farmers-in-Pakistan.pdf"
+ },
+ {
+  "id": "src-ct-reuters",
+  "type": "source",
+  "keys": [
+   "reuters"
+  ],
+  "title": "Women pickers toil unprotected in cotton fields (Thomson Reuters Foundation report)",
+  "publisher": "The Express Tribune, from Reuters",
+  "year": 2017,
+  "url": "https://tribune.com.pk/story/1502534/women-pickers-toil-unprotected-pakistans-cotton-fields",
+  "kind": "News report",
+  "where": "Vehari, Punjab, Pakistan",
+  "expect": [
+   "cotton",
+   "carry their bundles of blooms to be weighed",
+   "estimated half a million cotton pickers"
+  ],
+  "claims": [
+   "c-reuters-pay"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260613003215/https://tribune.com.pk/story/1502534/women-pickers-toil-unprotected-pakistans-cotton-fields"
+ },
+ {
+  "id": "src-ct-bista",
+  "type": "source",
+  "keys": [
+   "bista"
+  ],
+  "title": "Intensifying heat stress impacts cotton flowering and boll development efficiency",
+  "publisher": "Bista et al., BMC Plant Biology",
+  "year": 2025,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40739483/",
+  "kind": "Controlled-environment experiment",
+  "where": "Controlled growth chambers (United States)",
+  "expect": [
+   "cotton",
+   "16 upland cotton cultivars",
+   "pollen germination was reduced by 71%",
+   "decreased by 19% and 26%"
+  ],
+  "claims": [
+   "c-bista"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261029170248/https://pubmed.ncbi.nlm.nih.gov/40739483/"
+ },
+ {
+  "id": "src-ct-bakhsh",
+  "type": "source",
+  "keys": [
+   "bakhsh"
+  ],
+  "title": "Occupational hazards and health cost of women cotton pickers in Pakistani Punjab",
+  "publisher": "Bakhsh et al., BMC Public Health",
+  "year": 2016,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/27618928/",
+  "kind": "Cross-sectional survey",
+  "where": "Vehari district, Punjab, Pakistan",
+  "expect": [
+   "cotton",
+   "Vehari",
+   "61 % cotton pickers",
+   "66 %"
+  ],
+  "claims": [
+   "c-bakhsh"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20251204233346/https://pubmed.ncbi.nlm.nih.gov/27618928/"
+ },
+ {
+  "id": "src-ct-yasin",
+  "type": "source",
+  "keys": [
+   "yasin"
+  ],
+  "title": "Impact of Better Cotton Initiative on health cost and pesticide exposure of women cotton pickers in Punjab, Pakistan",
+  "publisher": "Yasin et al., Environmental Science and Pollution Research",
+  "year": 2021,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32865685/",
+  "kind": "Cross-sectional survey",
+  "where": "Three districts of Punjab, Pakistan",
+  "expect": [
+   "cotton",
+   "600 cotton pickers",
+   "distance from hospital"
+  ],
+  "claims": [
+   "c-yasin"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250206175706/https://pubmed.ncbi.nlm.nih.gov/32865685/"
+ },
+ {
+  "id": "src-ct-hughs",
+  "type": "source",
+  "keys": [
+   "hughs"
+  ],
+  "title": "Combustibility determination for cotton gin dust and almond huller dust",
+  "publisher": "Hughs and Wakelyn, Journal of Agricultural Safety and Health",
+  "year": 2017,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/29140634/",
+  "kind": "Laboratory testing",
+  "where": "United States",
+  "expect": [
+   "cotton",
+   "can support smoldering combustion",
+   "unknown in the cotton ginning industry"
+  ],
+  "claims": [
+   "c-hughs"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20241214173350/https://pubmed.ncbi.nlm.nih.gov/29140634/"
+ },
+ {
+  "id": "src-ct-dube",
+  "type": "source",
+  "keys": [
+   "dube"
+  ],
+  "title": "Respiratory impairment in cotton-ginning workers exposed to cotton dust",
+  "publisher": "Dube et al., International Journal of Occupational Safety and Ergonomics",
+  "year": 2013,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/24321634/",
+  "kind": "Cross-sectional study in operating factories",
+  "where": "Ten cotton-ginning factories (location not stated in the abstract)",
+  "expect": [
+   "cotton",
+   "188 workers of 10 cotton-ginning factories",
+   "Byssinosis symptoms"
+  ],
+  "claims": [
+   "c-dube"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20230316024941/https://pubmed.ncbi.nlm.nih.gov/24321634/"
+ },
+ {
+  "id": "src-ct-gain18",
+  "type": "source",
+  "keys": [
+   "gain18"
+  ],
+  "title": "Pakistan: Cotton and Products Annual 2018",
+  "publisher": "USDA Foreign Agricultural Service (GAIN)",
+  "year": 2018,
+  "url": "https://gain.fas.usda.gov/Recent%20GAIN%20Publications/Cotton%20and%20Products%20Annual_Islamabad_Pakistan_3-20-2018.pdf",
+  "kind": "Government market report",
+  "where": "Pakistan",
+  "expect": [
+   "cotton",
+   "since mid-March",
+   "1,200 ginneries",
+   "cottonseed crushers",
+   "high levels of foreign matter"
+  ],
+  "claims": [
+   "c-gain-sindh",
+   "c-gain-sector",
+   "c-gain-quality"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ct-icar",
+  "type": "source",
+  "keys": [
+   "icar"
+  ],
+  "title": "Climate-smart cotton crop production in Punjab: a comprehensive review of sustainable management practices",
+  "publisher": "Dhir et al., Indian Journal of Agricultural Sciences (ICAR)",
+  "year": 2024,
+  "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/141408/53846/402087",
+  "kind": "Agronomic review",
+  "where": "Punjab, India",
+  "expect": [
+   "cotton",
+   "15th May",
+   "27 to 32",
+   "cotton planted in our country is rainfed",
+   "extremely sensitive to rain during harvest"
+  ],
+  "claims": [
+   "c-icar-window",
+   "c-icar-rain"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ct-profit",
+  "type": "source",
+  "keys": [
+   "profit"
+  ],
+  "title": "Early cotton picking begins in Sindh, raising hopes for advanced ginning season",
+  "publisher": "Profit by Pakistan Today",
+  "year": 2025,
+  "url": "https://profit.pakistantoday.com.pk/2025/05/03/early-cotton-picking-begins-in-sindh-raising-hopes-for-advanced-ginning-season",
+  "kind": "News report",
+  "where": "Coastal Sindh and Punjab, Pakistan",
+  "expect": [
+   "cotton",
+   "coastal areas of Sindh",
+   "sudden rise in temperatures",
+   "Burewala"
+  ],
+  "claims": [
+   "c-profit"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250826090414/https://profit.pakistantoday.com.pk/2025/05/03/early-cotton-picking-begins-in-sindh-raising-hopes-for-advanced-ginning-season/"
+ },
+ {
+  "id": "src-ct-ers",
+  "type": "source",
+  "keys": [
+   "ers"
+  ],
+  "title": "Cotton sector at a glance",
+  "publisher": "USDA Economic Research Service",
+  "year": 2024,
+  "url": "https://www.ers.usda.gov/topics/crops/cotton-and-wool/cotton-sector-at-a-glance",
+  "kind": "Government reference page",
+  "where": "United States",
+  "expect": [
+   "cotton",
+   "cotton fibers are separated from the seeds",
+   "lint plus seed",
+   "mechanically harvested using specialized equipment",
+   "for further processing before many of the finished products return"
+  ],
+  "claims": [
+   "c-ers-gin",
+   "c-ers-mech"
+  ],
+  "note": "Staged from the cotton heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261111225035/https://www.ers.usda.gov/topics/crops/cotton-and-wool/cotton-sector-at-a-glance"
+ }
+]

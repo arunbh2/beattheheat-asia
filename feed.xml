@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-19T00:00:00Z</updated>
+  <updated>2026-11-20T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>Heat from field to factory: cotton, informal work and who can stop</title>
+    <link href="https://beattheheat.asia/growing/#g-cotton-heat" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-cotton-heat</id>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <summary>A new page follows cotton from field preparation and hand-picking through yards and ginning to the factory, keeping heat on people, heat on the crop and harm to livelihoods apart. It asks who can actually stop work in the heat, lists measures with who acts and who pays, and links both ways with Heat inside factories.</summary>
+  </entry>
   <entry>
     <title>The India archive adds Jalgaon's climate action plan, with its heat chapter</title>
     <link href="https://beattheheat.asia/growing/#g-hap-jalgaon" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-city-brief-districts</id>
     <updated>2026-11-15T00:00:00Z</updated>
     <summary>Every city page now says what a checked study finds heat costs there, or that no checked estimate has been found yet, and lists the actions that could break its vicious cycles by how soon they could act; Bangkok, Delhi, Jakarta, Phnom Penh and Ho Chi Minh City also show their districts side by side, from modelled residents and ages to mapped hospitals, built-up ground and park area, with each figure's limits beside it.</summary>
-  </entry>
-  <entry>
-    <title>New signals from Asia on heat at work, and lessons on heat insurance on the map</title>
-    <link href="https://beattheheat.asia/growing/#g-heat-signals-asia-2026" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-heat-signals-asia-2026</id>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary>Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.</summary>
   </entry>
 </feed>
