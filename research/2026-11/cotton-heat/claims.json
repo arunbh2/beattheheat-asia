@@ -1,0 +1,501 @@
+{
+ "about": "Heat from field to factory (November 2026): the evidence behind /cotton-and-heat/. Occupational guidance is reused from the factory heat batch (research/2026-11/factory-heat), which the page builder also reads. New here: an ILO programme description from Madhya Pradesh, a commissioned rapid assessment of women cotton farmers in Sindh, two surveys of women cotton pickers in Pakistani Punjab, a news report on payment by weight, a controlled-environment experiment on heat and cotton flowering, an ICAR agronomic review, USDA reports on the Pakistan cotton sector and on ginning, two ginning studies (dust and combustibility) and a news report on early picking in Sindh. Programme descriptions are not evaluations; training delivered is not proof of reduced illness; the crop experiment is not a field result. Named individuals in the sources are not named on the page. Better Cotton's Pakistan page and its account of an individual worker could not be read from the build session and are not used.",
+ "sources": [
+  {
+   "key": "ilo-mp",
+   "title": "Cotton farming communities trained on safe work practices amid extreme heat in India",
+   "publisher": "International Labour Organization",
+   "year": 2026,
+   "kind": "Programme description (news release)",
+   "where": "Ratlam district, Madhya Pradesh, India",
+   "url": "https://www.ilo.org/resource/news/cotton-farming-communities-trained-safe-work-practices-amid-extreme-heat",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "bc-women",
+   "title": "Co-creating sustainable futures with women cotton farmers in Pakistan: insights on time use, support structures and farm-level programming",
+   "publisher": "Better Cotton Initiative (study by Ardis Research & Consultancy)",
+   "year": 2025,
+   "kind": "Commissioned rapid assessment (survey and focus groups)",
+   "where": "Four districts of Sindh, Pakistan",
+   "url": "https://bettercotton.org/wp-content/uploads/2026/01/Co-Creating-Sustainable-Futures-With-Women-Farmers-in-Pakistan.pdf",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "reuters",
+   "title": "Women pickers toil unprotected in cotton fields (Thomson Reuters Foundation report)",
+   "publisher": "The Express Tribune, from Reuters",
+   "year": 2017,
+   "kind": "News report",
+   "where": "Vehari, Punjab, Pakistan",
+   "url": "https://tribune.com.pk/story/1502534/women-pickers-toil-unprotected-pakistans-cotton-fields",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "bista",
+   "title": "Intensifying heat stress impacts cotton flowering and boll development efficiency",
+   "publisher": "Bista et al., BMC Plant Biology",
+   "year": 2025,
+   "kind": "Controlled-environment experiment",
+   "where": "Controlled growth chambers (United States)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40739483/",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "bakhsh",
+   "title": "Occupational hazards and health cost of women cotton pickers in Pakistani Punjab",
+   "publisher": "Bakhsh et al., BMC Public Health",
+   "year": 2016,
+   "kind": "Cross-sectional survey",
+   "where": "Vehari district, Punjab, Pakistan",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27618928/",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "yasin",
+   "title": "Impact of Better Cotton Initiative on health cost and pesticide exposure of women cotton pickers in Punjab, Pakistan",
+   "publisher": "Yasin et al., Environmental Science and Pollution Research",
+   "year": 2021,
+   "kind": "Cross-sectional survey",
+   "where": "Three districts of Punjab, Pakistan",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32865685/",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "hughs",
+   "title": "Combustibility determination for cotton gin dust and almond huller dust",
+   "publisher": "Hughs and Wakelyn, Journal of Agricultural Safety and Health",
+   "year": 2017,
+   "kind": "Laboratory testing",
+   "where": "United States",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29140634/",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "dube",
+   "title": "Respiratory impairment in cotton-ginning workers exposed to cotton dust",
+   "publisher": "Dube et al., International Journal of Occupational Safety and Ergonomics",
+   "year": 2013,
+   "kind": "Cross-sectional study in operating factories",
+   "where": "Ten cotton-ginning factories (location not stated in the abstract)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24321634/",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "gain18",
+   "title": "Pakistan: Cotton and Products Annual 2018",
+   "publisher": "USDA Foreign Agricultural Service (GAIN)",
+   "year": 2018,
+   "kind": "Government market report",
+   "where": "Pakistan",
+   "url": "https://gain.fas.usda.gov/Recent%20GAIN%20Publications/Cotton%20and%20Products%20Annual_Islamabad_Pakistan_3-20-2018.pdf",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "icar",
+   "title": "Climate-smart cotton crop production in Punjab: a comprehensive review of sustainable management practices",
+   "publisher": "Dhir et al., Indian Journal of Agricultural Sciences (ICAR)",
+   "year": 2024,
+   "kind": "Agronomic review",
+   "where": "Punjab, India",
+   "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/141408/53846/402087",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "profit",
+   "title": "Early cotton picking begins in Sindh, raising hopes for advanced ginning season",
+   "publisher": "Profit by Pakistan Today",
+   "year": 2025,
+   "kind": "News report",
+   "where": "Coastal Sindh and Punjab, Pakistan",
+   "url": "https://profit.pakistantoday.com.pk/2025/05/03/early-cotton-picking-begins-in-sindh-raising-hopes-for-advanced-ginning-season",
+   "expect": [
+    "cotton"
+   ]
+  },
+  {
+   "key": "ers",
+   "title": "Cotton sector at a glance",
+   "publisher": "USDA Economic Research Service",
+   "year": 2024,
+   "kind": "Government reference page",
+   "where": "United States",
+   "url": "https://www.ers.usda.gov/topics/crops/cotton-and-wool/cotton-sector-at-a-glance",
+   "expect": [
+    "cotton"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "c-ilo-train",
+   "where": "Field stage; interventions",
+   "text": "In Madhya Pradesh, an ILO project with the Confederation of Indian Textile Industry trained small and marginal cotton farmers on adapting working hours in extreme heat, oral rehydration solution, safe postures for carrying loads and warning signs needing medical attention; more than 50 farmers joined a field demonstration in Ratlam district on 11 May 2026.",
+   "rests_on": [
+    [
+     "ilo-mp",
+     "adapting working hours during periods of extreme heat"
+    ],
+    [
+     "ilo-mp",
+     "oral rehydration solutions"
+    ],
+    [
+     "ilo-mp",
+     "more than 50 small and marginal cotton farmers"
+    ],
+    [
+     "ilo-mp",
+     "Ratlam"
+    ]
+   ]
+  },
+  {
+   "id": "c-ilo-gaps",
+   "where": "Barriers",
+   "text": "The workshops highlighted inadequate access to safe drinking water, sanitation, washing areas, resting spaces and safe transport, and that the farmers lack coverage under labour legislation and social protection systems.",
+   "rests_on": [
+    [
+     "ilo-mp",
+     "washing areas, resting spaces and safe transport"
+    ],
+    [
+     "ilo-mp",
+     "lack coverage under labour legislation and social protection systems"
+    ]
+   ]
+  },
+  {
+   "id": "c-ilo-women",
+   "where": "Gender",
+   "text": "Women are often engaged in cotton picking and other labour-intensive tasks in intense heat; a participant described women's added work fetching water in summer, when water availability falls and household demand rises.",
+   "rests_on": [
+    [
+     "ilo-mp",
+     "often engaged in cotton picking"
+    ],
+    [
+     "ilo-mp",
+     "fetching water"
+    ],
+    [
+     "ilo-mp",
+     "household demand increases"
+    ]
+   ]
+  },
+  {
+   "id": "c-ilo-org",
+   "where": "Who can act",
+   "text": "The absence of organised associations among cotton farmers and farming communities limits collective dialogue on workplace safety and welfare.",
+   "rests_on": [
+    [
+     "ilo-mp",
+     "absence of organized associations"
+    ]
+   ]
+  },
+  {
+   "id": "c-ilo-water",
+   "where": "Interventions",
+   "text": "With support from the Confederation of Indian Textile Industry, the project set up a drinking water point using earthen pots.",
+   "rests_on": [
+    [
+     "ilo-mp",
+     "drinking water point using earthen pots"
+    ]
+   ]
+  },
+  {
+   "id": "c-ilo-haz",
+   "where": "Field stage",
+   "text": "Small and marginal cotton farmers are frequently exposed to hazardous agrochemicals, biological dust and prolonged physical strain from repetitive bending and heavy lifting.",
+   "rests_on": [
+    [
+     "ilo-mp",
+     "hazardous agrochemicals"
+    ],
+    [
+     "ilo-mp",
+     "repetitive bending and heavy lifting"
+    ]
+   ]
+  },
+  {
+   "id": "c-bcw-tasks",
+   "where": "Gender; field stage",
+   "text": "In a 2025 rapid assessment of 300 women cotton farmers in four districts of Sindh, commissioned by Better Cotton, 93% sowed seed by hand, 77% weeded and 69% picked cotton, while far fewer operated irrigation or sprayed pesticides.",
+   "rests_on": [
+    [
+     "bc-women",
+     "300 BCI women cotton farmers"
+    ],
+    [
+     "bc-women",
+     "(93%)"
+    ],
+    [
+     "bc-women",
+     "(77%)"
+    ],
+    [
+     "bc-women",
+     "(69%)"
+    ],
+    [
+     "bc-women",
+     "operate irrigation"
+    ]
+   ]
+  },
+  {
+   "id": "c-bcw-time",
+   "where": "Gender",
+   "text": "The same assessment found women's waking hours split almost evenly between cotton farming and unpaid domestic and care work, with only 4% left for leisure or learning.",
+   "rests_on": [
+    [
+     "bc-women",
+     "unpaid domestic/care work"
+    ],
+    [
+     "bc-women",
+     "only 4% for leisure"
+    ]
+   ]
+  },
+  {
+   "id": "c-reuters-pay",
+   "where": "Harvest stage; pay",
+   "text": "A 2017 report from Pakistan's cotton belt described cotton picked by hand, with women carrying their bundles to be weighed at the end of the day to determine their pay; women made up the bulk of an estimated half a million cotton pickers.",
+   "rests_on": [
+    [
+     "reuters",
+     "carry their bundles of blooms to be weighed"
+    ],
+    [
+     "reuters",
+     "estimated half a million cotton pickers"
+    ]
+   ]
+  },
+  {
+   "id": "c-bakhsh",
+   "where": "Harvest stage; health",
+   "text": "In Vehari district in Pakistani Punjab, 61% of women cotton pickers from Bt-cotton households and 66% from non-Bt households reported one or more pesticide-related health effects during the picking season.",
+   "rests_on": [
+    [
+     "bakhsh",
+     "Vehari"
+    ],
+    [
+     "bakhsh",
+     "61 % cotton pickers"
+    ],
+    [
+     "bakhsh",
+     "66 %"
+    ]
+   ]
+  },
+  {
+   "id": "c-yasin",
+   "where": "Harvest stage; health",
+   "text": "A survey of 600 women cotton pickers in three Punjab districts found lower health costs among pickers trained in precautionary measures under Better Cotton, and that distance from hospital affected health costs.",
+   "rests_on": [
+    [
+     "yasin",
+     "600 cotton pickers"
+    ],
+    [
+     "yasin",
+     "distance from hospital"
+    ]
+   ]
+  },
+  {
+   "id": "c-bista",
+   "where": "Heat and the crop",
+   "text": "In a controlled-environment study of 16 upland cotton cultivars, heat during the reproductive stage (36/24 °C day/night against 32/24 °C) cut pollen germination by 71% and seed cotton and lint yield by 19% and 26% on average; cultivars responded differently.",
+   "rests_on": [
+    [
+     "bista",
+     "16 upland cotton cultivars"
+    ],
+    [
+     "bista",
+     "pollen germination was reduced by 71%"
+    ],
+    [
+     "bista",
+     "decreased by 19% and 26%"
+    ]
+   ]
+  },
+  {
+   "id": "c-icar-window",
+   "where": "Heat and the crop; calendar",
+   "text": "In Indian Punjab the recommended sowing window for cotton runs from April to mid-May; temperatures of 27 to 32 °C support reproductive development, and most of India's cotton is rainfed.",
+   "rests_on": [
+    [
+     "icar",
+     "15th May"
+    ],
+    [
+     "icar",
+     "27 to 32"
+    ],
+    [
+     "icar",
+     "cotton planted in our country is rainfed"
+    ]
+   ]
+  },
+  {
+   "id": "c-icar-rain",
+   "where": "Heat and the crop",
+   "text": "Cotton fibre becomes extremely sensitive to rain during harvest.",
+   "rests_on": [
+    [
+     "icar",
+     "extremely sensitive to rain during harvest"
+    ]
+   ]
+  },
+  {
+   "id": "c-gain-sindh",
+   "where": "Calendar",
+   "text": "In 2018, cotton planting in Sindh proceeded from mid-March.",
+   "rests_on": [
+    [
+     "gain18",
+     "since mid-March"
+    ]
+   ]
+  },
+  {
+   "id": "c-gain-sector",
+   "where": "Chain; coproducts",
+   "text": "Pakistan's integrated cotton and textile sector was reported to include 1,200 ginneries, 523 textile units and 400 cottonseed crushers and oil refiners.",
+   "rests_on": [
+    [
+     "gain18",
+     "1,200 ginneries"
+    ],
+    [
+     "gain18",
+     "cottonseed crushers"
+    ]
+   ]
+  },
+  {
+   "id": "c-gain-quality",
+   "where": "Harvest and ginning",
+   "text": "The quality of picking and ginning in Pakistan results in varying bale sizes and high levels of foreign matter.",
+   "rests_on": [
+    [
+     "gain18",
+     "high levels of foreign matter"
+    ]
+   ]
+  },
+  {
+   "id": "c-profit",
+   "where": "Calendar; transport",
+   "text": "In May 2025, picking began early in coastal Sindh, attributed to a sudden rise in temperatures, and gins in Punjab bought raw cotton from Sindh for ginning.",
+   "rests_on": [
+    [
+     "profit",
+     "coastal areas of Sindh"
+    ],
+    [
+     "profit",
+     "sudden rise in temperatures"
+    ],
+    [
+     "profit",
+     "Burewala"
+    ]
+   ]
+  },
+  {
+   "id": "c-ers-gin",
+   "where": "Ginning; coproducts",
+   "text": "During ginning, cotton fibres are separated from the seeds, cleaned of foreign material and pressed into bales of lint; cotton's value is counted as lint plus seed.",
+   "rests_on": [
+    [
+     "ers",
+     "cotton fibers are separated from the seeds"
+    ],
+    [
+     "ers",
+     "lint plus seed"
+    ]
+   ]
+  },
+  {
+   "id": "c-ers-mech",
+   "where": "Comparison; cross-border",
+   "text": "In the United States cotton is mechanically harvested with specialised equipment, and US yarn and fabric exports often go abroad for further processing before finished products return.",
+   "rests_on": [
+    [
+     "ers",
+     "mechanically harvested using specialized equipment"
+    ],
+    [
+     "ers",
+     "for further processing before many of the finished products return"
+    ]
+   ]
+  },
+  {
+   "id": "c-hughs",
+   "where": "Ginning; fire",
+   "text": "Loose cotton fibre from ginning can support smouldering combustion if ignited; in laboratory tests, collected gin dust did not behave as a combustible dust, and dust explosions are unknown in the cotton ginning industry.",
+   "rests_on": [
+    [
+     "hughs",
+     "can support smoldering combustion"
+    ],
+    [
+     "hughs",
+     "unknown in the cotton ginning industry"
+    ]
+   ]
+  },
+  {
+   "id": "c-dube",
+   "where": "Ginning; health",
+   "text": "In a study of 188 workers in 10 cotton-ginning factories, lung function declined with longer exposure to cotton dust, many workers reported chest tightness and cough, and byssinosis symptoms were observed.",
+   "rests_on": [
+    [
+     "dube",
+     "188 workers of 10 cotton-ginning factories"
+    ],
+    [
+     "dube",
+     "Byssinosis symptoms"
+    ]
+   ]
+  }
+ ]
+}
