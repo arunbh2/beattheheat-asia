@@ -563,5 +563,163 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/41559604/"
    }
   ]
+ },
+ {
+  "id": "c-cc-stress",
+  "where": "Understand the heat",
+  "text": "CCOHS, citing ACGIH, defines heat stress as the net heat load on a worker from metabolic heat, environmental factors and clothing, and heat strain as the overall physiological response to it.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   },
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-radiant",
+  "where": "Understand the heat",
+  "text": "The body gains radiant heat from hot objects such as hot metal, furnaces or steam pipes without touching them; the sun is a common source.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-humid",
+  "where": "Understand the heat",
+  "text": "In hot and humid workplaces, sweat evaporation cools the body less because the air cannot accept more moisture.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-ppe",
+  "where": "Understand the heat; clothing",
+  "text": "Protective equipment such as overalls, aprons, gowns, hoods and gloves can hold in heat and moisture, and heavy equipment adds physical effort.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-source",
+  "where": "Interventions: heat sources and workload",
+  "text": "CCOHS lists engineering controls including automation and mechanical aids such as carts to reduce body heat from heavy work, covering hot surfaces with low-emissivity material, insulating hot surfaces, and reflective or absorbent shields that stop radiated heat reaching work areas.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-steam",
+  "where": "Interventions: steam and humidity",
+  "text": "Air conditioning, dehumidification and eliminating open hot water baths, drains and leaky steam valves help reduce humidity.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-booth",
+  "where": "Interventions: cooled enclosures",
+  "text": "Ventilation, localised air conditioning and cooled observation booths are commonly used; booths let workers cool down after brief intense exposure while still monitoring equipment.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-fans",
+  "where": "Interventions: fans",
+  "text": "Fans do not cool the air; they move it, which can keep people cooler by increasing sweat evaporation.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-rest",
+  "where": "Interventions: rest",
+  "text": "CCOHS advises establishing rest areas in cooler environments, with break length set by the work and the temperature.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-water",
+  "where": "Interventions: water",
+  "text": "On average about one litre of water an hour may be needed to replace fluid loss, with drinking encouraged every 15 to 20 minutes: an average from guidance, not an individual prescription.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-resched",
+  "where": "Interventions: work organisation",
+  "text": "CCOHS lists moving strenuous work to cooler times of day and rotating workers through the day to reduce exposure to heat and exertion.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-programme",
+  "where": "Interventions: management",
+  "text": "Measurement and control measures form part of a heat stress management program with written plans for training, monitoring, control measures, recordkeeping and emergency response.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-women",
+  "where": "Women's health and work",
+  "text": "CCOHS notes that women tend to have a lower sweat rate than men of equal fitness, size and acclimatisation, and that differences in heat tolerance diminish when fitness, body size and acclimatisation are taken into account.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-pregnancy",
+  "where": "Women's health and work",
+  "text": "CCOHS notes there is no conclusive evidence of birth defects from high temperatures in humans, while NIOSH recommends that a pregnant worker's body temperature not exceed 39 to 39.5 °C in the first trimester.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
  }
 ]

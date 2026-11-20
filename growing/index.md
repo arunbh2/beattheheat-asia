@@ -72,14 +72,14 @@ What the source says quoted“women's core temperature fell only with air condit
 - Heat-safe work
 - Heat-safe pregnancy and newborn care
 
-ReviewTwenty sources staged and checked on GitHub; 42 of 57 claims passed. EU-OSHA's guidance reset the checker's connection on two runs, so its claims are held back and the records that rest only on it are marked as not yet confirmed. The garment trial is labelled a laboratory simulation throughout; field reports are labelled as reports, not evaluations.. 29 checked · 27 confirmed · 2 not confirmed, each recorded.
+ReviewTwenty sources staged and checked on GitHub; 42 of 57 claims passed. EU-OSHA's guidance reset the checker's connection on two runs, so its claims are held back and the records that rest only on it are marked as not yet confirmed. The garment trial is labelled a laboratory simulation throughout; field reports are labelled as reports, not evaluations.. 31 checked · 29 confirmed · 2 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** What reduces heat for people working inside factories, and what does the evidence say about each measure?
-- **The search.** 29 sources were gathered for checking.
+- **The search.** 31 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 27 confirmed, and 2 could not be (2 did not respond).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 29 confirmed, and 2 could not be (2 did not respond).
 - **What we set aside.** 98 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Independent before-and-after evaluations in operating garment factories; women's experiences of menstruation, menopause and protective-equipment fit in heat; EU-OSHA's guidance once the checker can reach it.
