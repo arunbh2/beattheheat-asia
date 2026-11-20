@@ -103,6 +103,12 @@
    "South-East Asia Region (40%)": true,
    "39% of reports not including any female participants": true,
    "only 9% included some form of intervention": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/36453470/": {
+   "rice farmers": true,
+   "379 farmers": true,
+   "83.4% of farmers": true,
+   "increased water intake": true
   }
  },
  "https://pubmed.ncbi.nlm.nih.gov/23685851/": "OK",
@@ -121,5 +127,6 @@
  "https://pubmed.ncbi.nlm.nih.gov/41141547/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/31304082/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/41857093/": "OK",
- "https://pubmed.ncbi.nlm.nih.gov/42905195/": "OK"
+ "https://pubmed.ncbi.nlm.nih.gov/42905195/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/36453470/": "OK"
 }
