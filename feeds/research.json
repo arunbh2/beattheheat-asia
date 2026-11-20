@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-19T20:49:25.530Z",
+ "updated": "2026-11-20T07:30:28.482Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "White-backed chalky grains of japonica rice caused by heat stress during maturation is associated with morphological and epigenetic regulation.",
+   "journal": "Annals of botany",
+   "date": "2026-11-19",
+   "doi": "10.1093/aob/mcag367",
+   "pmid": "43053588",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/aob/mcag367",
+   "firstAuthor": "Kobayashi T"
+  },
   {
    "title": "Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan",
    "journal": "Preprint",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://europepmc.org/article/PMC/PMC13579790",
    "firstAuthor": "Chen G"
-  },
-  {
-   "title": "Emerging compound air-soil heatwaves amplify global vegetation losses.",
-   "journal": "National science review",
-   "date": "2026-09-17",
-   "doi": "10.1093/nsr/nwag603",
-   "pmid": "42936203",
-   "preprint": false,
-   "url": "https://doi.org/10.1093/nsr/nwag603",
-   "firstAuthor": "Wu S"
   }
  ]
 }

@@ -172,6 +172,14 @@
  ],
  "research": [
   {
+   "title": "White-backed chalky grains of japonica rice caused by heat stress during maturation is associated with morphological and epigenetic regulation.",
+   "url": "https://doi.org/10.1093/aob/mcag367",
+   "journal": "Annals of botany",
+   "date": "2026-11-19",
+   "firstAuthor": "Kobayashi T",
+   "preprint": false
+  },
+  {
    "title": "Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan",
    "url": "https://doi.org/10.21203/rs.3.rs-10514260/v1",
    "journal": "Preprint",
@@ -1325,5 +1333,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-19T07:40:02.571Z"
+ "updated": "2026-11-20T07:30:28.595Z"
 }
