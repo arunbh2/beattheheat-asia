@@ -15,7 +15,7 @@ const PAD_MAP = { "10px 12px": "compact", "10px 14px": "compact", "12px 14px": "
   "14px 18px": "std", "16px 16px": "std", "16px 18px": "std", "18px 18px": "std", "16px 20px": "std", "18px 16px": "std",
   "18px 20px": "roomy", "20px 22px": "roomy", "20px 24px": "roomy", "22px 24px": "roomy", "22px 22px": "roomy", "24px 24px": "roomy" };
 // files in scope, and what is never touched: the pop-ups (the owner's rule), the site menu, print handouts and films
-const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "el-nino-and-cities/el-nino.css", "el-nino/el-nino.css", "el-nino/watch.css", "shared-heat/shared.css", "factory-heat/factory.css", "heat-network/network.css", "how-heat-is-reported/media.css", "heat-assembly/game.css"];
+const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "el-nino-and-cities/el-nino.css", "el-nino/el-nino.css", "el-nino/watch.css", "shared-heat/shared.css", "factory-heat/factory.css", "cotton-and-heat/cotton.css", "heat-network/network.css", "how-heat-is-reported/media.css", "heat-assembly/game.css"];
 const SKIP_SEL = [".invite", ".csx", ".csp", ".csn", ".cs-tip", ".site-menu", "@font-face"];
 const skip = sel => SKIP_SEL.some(s => sel.includes(s)) || sel.includes(":root");
 // things that float over the page or draw a real object keep their shadow: map controls and pins, the phone mock-up

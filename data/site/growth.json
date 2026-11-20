@@ -692,6 +692,19 @@
       "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
     },
     {
+      "id": "g-cotton-heat", "kind": "tool", "root": "practical", "added": "2026-11-20", "pr": null,
+      "title": "Heat from field to factory: cotton, informal work and who can stop",
+      "why": "A new page follows cotton from field preparation and hand-picking through yards and ginning to the factory, keeping heat on people, heat on the crop and harm to livelihoods apart. It asks who can actually stop work in the heat, lists measures with who acts and who pays, and links both ways with Heat inside factories.",
+      "places": ["india", "region"], "people": ["workers", "farmers", "women"], "topics": ["heatrules", "farmcredit"],
+      "event": { "what": "Feature published", "date": "2026-11-20" },
+      "finding": { "text": "nearly all sowed by hand and most weeded, while few operated irrigation or sprayed", "source": ["Better Cotton Initiative (study by Ardis Research & Consultancy): Co-creating sustainable futures with women cotton farmers in Pakistan, 2025", "https://bettercotton.org/wp-content/uploads/2026/01/Co-Creating-Sustainable-Futures-With-Women-Farmers-in-Pakistan.pdf"] },
+      "review": "Twelve sources staged and checked on GitHub; 21 of 22 claims passed, and occupational guidance is reused from the factory heat batch. A news report on early picking in Sindh was blocked and left out; Better Cotton's Pakistan pages could not be read and are not used; no individuals are named.",
+      "effort": { "asked": "Where does heat meet the people who grow, pick, move and gin cotton in Asia, and what makes protection usable for them?", "inbox": "data/inbox/2026-11-cotton-heat", "dropped": "research/2026-11/cotton-heat/dropped-after-check.json",
+                  "open": "Any measured study of heat strain among cotton pickers, yard or gin workers in Asia; evaluations of shade, water or paid breaks in cotton; checked picking calendars by region." },
+      "pages": [["/cotton-and-heat/", "Heat from field to factory"], ["/factory-heat/", "Heat inside factories"]], "action": ["Follow the cotton", "/cotton-and-heat/#journey"],
+      "links": [{ "to": "lever:heatrules", "why": "The page sets out what heat-safe work needs in cotton fields, yards and gins, and who can provide it.", "basis": "record" }]
+    },
+    {
       "id": "g-factory-heat", "kind": "tool", "root": "practical", "added": "2026-11-19", "pr": null,
       "title": "Heat inside factories: sources, protection and an intervention library",
       "why": "A new feature follows heat by task, place and time through a garment factory, explaining why two people in the same building can face very different heat. Its library of measures, from roofs and steam repair to paid breaks and buyer purchasing, gives each one's evidence type and limits, with a finder, comparison, worked examples and a worksheet for workers and managers.",

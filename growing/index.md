@@ -5,7 +5,7 @@ updated: 2026-11-20
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 77 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 78 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,55 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-77 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+78 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### Heat from field to factory: cotton, informal work and who can stop
+
+Added 20 November 2026 · Feature published 20 November 2026
+
+Why it matters our readingA new page follows cotton from field preparation and hand-picking through yards and ginning to the factory, keeping heat on people, heat on the crop and harm to livelihoods apart. It asks who can actually stop work in the heat, lists measures with who acts and who pays, and links both ways with Heat inside factories.
+
+What the source says quoted“nearly all sowed by hand and most weeded, while few operated irrigation or sprayed”
+
+[Better Cotton Initiative (study by Ardis Research & Consultancy): Co-creating sustainable futures with women cotton farmers in Pakistan, 2025 ](https://bettercotton.org/wp-content/uploads/2026/01/Co-Creating-Sustainable-Futures-With-Women-Farmers-in-Pakistan.pdf)
+
+- India
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Smallholder and rainfed farming households
+- Women whose livelihoods are held back by unequal access
+- Heat-safe work
+- Crop insurance and fair credit
+
+ReviewTwelve sources staged and checked on GitHub; 21 of 22 claims passed, and occupational guidance is reused from the factory heat batch. A news report on early picking in Sindh was blocked and left out; Better Cotton's Pakistan pages could not be read and are not used; no individuals are named.. 12 checked · 11 confirmed · 1 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Where does heat meet the people who grow, pick, move and gin cotton in Asia, and what makes protection usable for them?
+- **The search.** 12 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 11 confirmed, and 1 could not be (1 blocked automated reading).
+- **What we set aside.** 6 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Any measured study of heat strain among cotton pickers, yard or gin workers in Asia; evaluations of shade, water or paid breaks in cotton; checked picking calendars by region.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-cotton-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/cotton-heat/dropped-after-check.json)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+The page sets out what heat-safe work needs in cotton fields, yards and gins, and who can provide it.
+
+[Follow the cotton](https://beattheheat.asia/cotton-and-heat/#journey)
+[Heat from field to factory](https://beattheheat.asia/cotton-and-heat/)[Heat inside factories](https://beattheheat.asia/factory-heat/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20from%20field%20to%20factory%3A%20cotton%2C%20informal%20work%20and%20who%20can%20stop&ref=g-cotton-heat#way-share)
 
 Plan or guidance added · Institutions and plans
 

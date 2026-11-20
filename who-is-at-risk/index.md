@@ -1,7 +1,7 @@
 ---
 title: "Who extreme heat hits hardest | Common Shade"
 url: https://beattheheat.asia/who-is-at-risk/
-updated: 2026-11-19
+updated: 2026-11-20
 licence: CC BY 4.0
 ---
 
@@ -46,6 +46,8 @@ People in the same street, market or workplace share the same hot afternoon, but
 - **Who can reach care in time** A clinic that is far away, has no way to cool patients, or is open only while people are at work turns treatable heat illness into a death.
 
 These barriers rarely come alone. [Intersections](https://beattheheat.asia/intersections/) is a short note and a game about where they meet, and who protection reaches.
+
+For farm and processing work, [Heat from field to factory](https://beattheheat.asia/cotton-and-heat/) follows cotton from field to gin, and asks who can actually stop work when it is too hot.
 
 For workers indoors, [Heat inside factories](https://beattheheat.asia/factory-heat/) follows heat by task, place and time through a garment factory, with a section on women's work, pregnancy and the arrangements around them.
 

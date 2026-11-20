@@ -2874,6 +2874,12 @@ Intense radiant heat from furnaces and molten metal, heavy protective clothing a
 
 Moulding machines, kilns and furnaces radiate heat; hot products are handled. Check radiant heat, contact burns and ventilation around machines.
 
+### Heat begins before the factory gate
+
+Explore cotton farming, harvesting and transport, and the working arrangements that shape protection upstream.
+
+[Heat from field to factory](https://beattheheat.asia/cotton-and-heat/) [Ginning and baling](https://beattheheat.asia/cotton-and-heat/#stage-gin)
+
 Plan an assessment
 
 ## Four worked examples
@@ -3057,6 +3063,8 @@ Source | Kind | Geography | Statements |
 This library will keep growing as new interventions and evidence are checked. Found something we missed, or used one of these measures? [Tell us through the join form](https://beattheheat.asia/join/).
 
 ## Related on Common Shade
+
+- [Heat from field to factorycotton farming, picking, transport and ginning](https://beattheheat.asia/cotton-and-heat/)
 
 - [Practical actions at workwater, breaks, warnings and income in heat](https://beattheheat.asia/practical-actions/#work)
 

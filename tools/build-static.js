@@ -266,7 +266,7 @@ if(rm){b.hidden=true;}else{b.textContent="Play again";b.focus();requestAnimation
 // who is at risk
 {
   const p = PAGES[3], intro = "The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.";
-  let h = `<h2 id="shared">${esc(SH.UNEQUAL.h)}</h2><p>${esc(SH.UNEQUAL.text)} <a href="/${SH.SLUG}/">${esc(SH.INTRO.go[1])}</a>.</p><h2>Five questions behind every barrier</h2><ul>${D.AT_RISK_BARRIERS.map(b => `<li><strong>${esc(b.q)}</strong> ${esc(b.a)}</li>`).join("")}</ul><p>These barriers rarely come alone. <a href="/intersections/">Intersections</a> is a short note and a game about where they meet, and who protection reaches.</p><p>For workers indoors, <a href="/factory-heat/">Heat inside factories</a> follows heat by task, place and time through a garment factory, with a section on women's work, pregnancy and the arrangements around them.</p>`, m = [`## ${p.title}`, intro, `### ${SH.UNEQUAL.h}`, SH.UNEQUAL.text, ...D.AT_RISK_BARRIERS.map(b => `- ${b.q} ${b.a}`)];
+  let h = `<h2 id="shared">${esc(SH.UNEQUAL.h)}</h2><p>${esc(SH.UNEQUAL.text)} <a href="/${SH.SLUG}/">${esc(SH.INTRO.go[1])}</a>.</p><h2>Five questions behind every barrier</h2><ul>${D.AT_RISK_BARRIERS.map(b => `<li><strong>${esc(b.q)}</strong> ${esc(b.a)}</li>`).join("")}</ul><p>These barriers rarely come alone. <a href="/intersections/">Intersections</a> is a short note and a game about where they meet, and who protection reaches.</p><p>For farm and processing work, <a href="/cotton-and-heat/">Heat from field to factory</a> follows cotton from field to gin, and asks who can actually stop work when it is too hot.</p><p>For workers indoors, <a href="/factory-heat/">Heat inside factories</a> follows heat by task, place and time through a garment factory, with a section on women's work, pregnancy and the arrangements around them.</p>`, m = [`## ${p.title}`, intro, `### ${SH.UNEQUAL.h}`, SH.UNEQUAL.text, ...D.AT_RISK_BARRIERS.map(b => `- ${b.q} ${b.a}`)];
   // the short films and simulation that go with each group (the same pairs as the map's version, in script.js)
   const RISK_FILMS = { older: ["olderheat", "checkins", "sleepheat"], mothers: ["pregnancyheat", "babyheat"], settlements: ["homeheat", "shadegap"], women: ["kitchenheat"],
     disability: ["kidneyheat", "mindheat"], excluded: ["closedplaces"], workers: ["firstaid", "workrest"], farmers: ["drysoilloop", "nightcrops"], coastal: ["saltwater"], remote: ["clinicheat", "telecomheat"] };
@@ -594,6 +594,7 @@ if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
 md.push(require("./build-el-nino.js").md(SITE));
 md.push(require("./build-el-nino-explainer.js").md(SITE));
 md.push(require("./build-factory-heat.js").md(SITE));
+md.push(require("./build-cotton-heat.js").md(SITE));
 md.push(SH.md(SITE));
 // ---- who could help a household through a hot season: page by tools/build-social-protection.js, the same words from tools/social-protection-text.js ----
 const SPT = require("./social-protection-text.js");
