@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Quezon town schools to shift to online learning during extreme heat",
+   "url": "https://newsinfo.inquirer.net/2344414/quezon-town-schools-to-shift-to-online-learning-during-extreme-heat",
+   "via": "Inquirer",
+   "date": "2026-11-20T16:07:13Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Heatwaves push up premature births in Bangladesh: study",
    "url": "https://www.eco-business.com/news/heatwaves-push-up-premature-births-in-bangladesh-study/",
    "via": "Eco-Business",
@@ -180,12 +187,36 @@
    "preprint": false
   },
   {
+   "title": "Heatwaves spell to consequent heavy rainfall in a changing climate over Bangladesh.",
+   "url": "https://doi.org/10.1371/journal.pone.0362951",
+   "journal": "PloS one",
+   "date": "2026-11-19",
+   "firstAuthor": "Hossain A",
+   "preprint": false
+  },
+  {
+   "title": "Heat stress drives contrasting redox shifts in temperate and tropical Drosophila melanogaster embryos.",
+   "url": "https://doi.org/10.1242/jeb.252622",
+   "journal": "The Journal of experimental biology",
+   "date": "2026-11-19",
+   "firstAuthor": "O'Leary TS",
+   "preprint": false
+  },
+  {
    "title": "Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan",
    "url": "https://doi.org/10.21203/rs.3.rs-10514260/v1",
    "journal": "Preprint",
    "date": "2026-11-18",
    "firstAuthor": "Haroon MH",
    "preprint": true
+  },
+  {
+   "title": "Effects of early and late heat stress during in vitro maturation on selected transcripts and embryo development in cattle.",
+   "url": "https://doi.org/10.1016/j.theriogenology.2026.118346",
+   "journal": "Theriogenology",
+   "date": "2026-11-18",
+   "firstAuthor": "Kunkitti P",
+   "preprint": false
   },
   {
    "title": "Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh",
@@ -252,6 +283,14 @@
    "preprint": true
   },
   {
+   "title": "Occupational heat stress in nurses working in hot environments and wearing personal protective equipment: mechanisms, health and safety implications, and prevention.",
+   "url": "https://doi.org/10.3389/fpubh.2026.1986823",
+   "journal": "Frontiers in public health",
+   "date": "2026-11-02",
+   "firstAuthor": "Xu X",
+   "preprint": false
+  },
+  {
    "title": "Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management",
    "url": "https://europepmc.org/article/PMC/PMC13722842",
    "journal": "Cureus",
@@ -273,6 +312,14 @@
    "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
    "date": "2026-11-01",
    "firstAuthor": "Dassah C",
+   "preprint": false
+  },
+  {
+   "title": "Identification of QTLs and candidate genes associated with seed germination capacity under heat stress in watermelon.",
+   "url": "https://doi.org/10.3389/fpls.2026.1932864",
+   "journal": "Frontiers in plant science",
+   "date": "2026-10-30",
+   "firstAuthor": "Song J",
    "preprint": false
   },
   {
@@ -1333,5 +1380,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-20T07:30:28.595Z"
+ "updated": "2026-11-20T20:33:26.358Z"
 }

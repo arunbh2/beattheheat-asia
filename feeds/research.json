@@ -1,8 +1,28 @@
 {
- "updated": "2026-11-20T07:30:28.482Z",
+ "updated": "2026-11-20T20:33:26.111Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Heatwaves spell to consequent heavy rainfall in a changing climate over Bangladesh.",
+   "journal": "PloS one",
+   "date": "2026-11-19",
+   "doi": "10.1371/journal.pone.0362951",
+   "pmid": "43056363",
+   "preprint": false,
+   "url": "https://doi.org/10.1371/journal.pone.0362951",
+   "firstAuthor": "Hossain A"
+  },
+  {
+   "title": "Heat stress drives contrasting redox shifts in temperate and tropical Drosophila melanogaster embryos.",
+   "journal": "The Journal of experimental biology",
+   "date": "2026-11-19",
+   "doi": "10.1242/jeb.252622",
+   "pmid": "43055103",
+   "preprint": false,
+   "url": "https://doi.org/10.1242/jeb.252622",
+   "firstAuthor": "O'Leary TS"
+  },
   {
    "title": "White-backed chalky grains of japonica rice caused by heat stress during maturation is associated with morphological and epigenetic regulation.",
    "journal": "Annals of botany",
@@ -12,6 +32,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1093/aob/mcag367",
    "firstAuthor": "Kobayashi T"
+  },
+  {
+   "title": "Effects of early and late heat stress during in vitro maturation on selected transcripts and embryo development in cattle.",
+   "journal": "Theriogenology",
+   "date": "2026-11-18",
+   "doi": "10.1016/j.theriogenology.2026.118346",
+   "pmid": "43057044",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.theriogenology.2026.118346",
+   "firstAuthor": "Kunkitti P"
   },
   {
    "title": "Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan",
@@ -94,6 +124,16 @@
    "firstAuthor": "Blount H"
   },
   {
+   "title": "Occupational heat stress in nurses working in hot environments and wearing personal protective equipment: mechanisms, health and safety implications, and prevention.",
+   "journal": "Frontiers in public health",
+   "date": "2026-11-02",
+   "doi": "10.3389/fpubh.2026.1986823",
+   "pmid": "43042310",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fpubh.2026.1986823",
+   "firstAuthor": "Xu X"
+  },
+  {
    "title": "500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest",
    "journal": "Preprint",
    "date": "2026-11-02",
@@ -122,6 +162,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1093/gerona/glag239",
    "firstAuthor": "Dassah C"
+  },
+  {
+   "title": "Identification of QTLs and candidate genes associated with seed germination capacity under heat stress in watermelon.",
+   "journal": "Frontiers in plant science",
+   "date": "2026-10-30",
+   "doi": "10.3389/fpls.2026.1932864",
+   "pmid": "43031766",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fpls.2026.1932864",
+   "firstAuthor": "Song J"
   },
   {
    "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
@@ -552,56 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1073/pnas.2607273123",
    "firstAuthor": "Sabut A"
-  },
-  {
-   "title": "Changing patterns of heat waves and population exposure in India, 1980-2024",
-   "journal": "Preprint",
-   "date": "2026-09-21",
-   "doi": "10.21203/rs.3.rs-10806998/v1",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.21203/rs.3.rs-10806998/v1",
-   "firstAuthor": "Talukdar S"
-  },
-  {
-   "title": "Enhanced Levels of Combined Waterlogging and Heat Stress Exacerbate Anatomical Damage, Photosynthetic Impairment, and Oxidative Stress in Tomato.",
-   "journal": "Antioxidants (Basel, Switzerland)",
-   "date": "2026-09-20",
-   "doi": "10.3390/antiox15091210",
-   "pmid": "42792249",
-   "preprint": false,
-   "url": "https://doi.org/10.3390/antiox15091210",
-   "firstAuthor": "Qin W"
-  },
-  {
-   "title": "Concurrent exposure to water deficit and elevated ambient temperature alleviates root growth defects in Arabidopsis.",
-   "journal": "Journal of plant physiology",
-   "date": "2026-09-19",
-   "doi": "10.1016/j.jplph.2026.154877",
-   "pmid": "42790163",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.jplph.2026.154877",
-   "firstAuthor": "Parvin A"
-  },
-  {
-   "title": "Shaping the discourse on rehydrating children in heat stress: expositions from India.",
-   "journal": "Frontiers in pediatrics",
-   "date": "2026-09-18",
-   "doi": "10.3389/fped.2026.1895976",
-   "pmid": "42827920",
-   "preprint": false,
-   "url": "https://doi.org/10.3389/fped.2026.1895976",
-   "firstAuthor": "Dasgupta R"
-  },
-  {
-   "title": "Case Report: Extremely elevated ascitic fluid amylase as a diagnostic clue for peritoneal mucormycosis caused by Rhizopus microsporus following exertional heatstroke",
-   "journal": "Frontiers in medicine",
-   "date": "2026-09-17",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13579790",
-   "firstAuthor": "Chen G"
   }
  ]
 }
