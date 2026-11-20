@@ -1,6 +1,7 @@
 // Heat from field to factory (/cotton-and-heat/): cotton in Asia as the first worked example of heat across an
 // agricultural value chain. Words come from tools/cotton-heat-text.js (shared with llms-full.txt). Claims come from two
-// checked batches: research/2026-11/cotton-heat and research/2026-11/factory-heat (occupational guidance reused).
+// checked batches: research/2026-11/cotton-heat, research/2026-11/factory-heat (occupational guidance reused) and
+// research/2026-11/agri-heat (heat strain measured in other Asian field work, shown as nearby evidence).
 // Only claims in their confirmed.json files reach the page; a passage resting on an unconfirmed claim is left out and
 // named in the build log, and an intervention with no checked evidence shows as a proposal requiring validation.
 // The page reads in full without JavaScript; cotton.js adds the stage stepper, the three views, the explorer and printing
@@ -8,7 +9,7 @@
 "use strict";
 const fs = require("fs"), path = require("path");
 const T = require("./cotton-heat-text.js");
-const BATCHES = ["cotton-heat", "factory-heat"].map(b => path.join(__dirname, "..", "research", "2026-11", b));
+const BATCHES = ["cotton-heat", "factory-heat", "agri-heat"].map(b => path.join(__dirname, "..", "research", "2026-11", b));
 const PUBLIC = { trial: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/" };
 
 function load() {
@@ -193,6 +194,19 @@ module.exports = function cottonHeat({ page, write, esc, hero, V }) {
     <p class="ct-small">${esc(C.fate)} <a href="${esc(C.fateLink[0])}">${esc(C.fateLink[1])}</a>.</p>
   </section>`;
 
+  // nearby evidence: heat strain measured in other Asian field work (not cotton); only confirmed claims, each with its source
+  const N = T.NEARBY;
+  const nGroups = N.groups.map(g => ({ g, ids: g.claims.filter(id => OK.has(id)) })).filter(x => x.ids.length);
+  N.groups.forEach(g => g.claims.filter(id => !OK.has(id)).forEach(id => left.add(id)));
+  const nearby = nGroups.length ? `<div class="ct-nearby" id="nearby-evidence">
+    <h3 class="ct-h3">${esc(N.h)}</h3>
+    <p>${esc(N.intro)}</p>
+    <div class="ct-nearby__grid">${nGroups.map(({ g, ids }) => `<div class="cs-card"><h4>${esc(g.t)}</h4><ul class="ct-list">${ids.map(id => `<li>${esc(CL[id].text)} <span class="ct-small">${srcLinks([id])}</span></li>`).join("")}</ul>${g.note ? `<p class="ct-small">${esc(g.note)}</p>` : ""}</div>`).join("")}</div>
+    ${all(N.womenClaims) ? `<p>${esc(N.women)}</p>` : ""}
+    <div class="cs-note cs-note--example"><p class="cs-note__label">For a cotton study</p><p>${esc(N.borrow)}</p></div>
+    <p class="ct-small">${esc(N.notFound)}</p>
+  </div>` : "";
+
   // 10. evidence
   const used = new Set(T.claimsUsed().filter(id => OK.has(id)));
   const rows = Object.values(SRC).map(s => ({ s, n: [...used].filter(id => CL[id].rests_on.some(([k]) => k === s.key)).length })).filter(x => x.n);
@@ -201,6 +215,7 @@ module.exports = function cottonHeat({ page, write, esc, hero, V }) {
     ${kicker("09", "The evidence")}
     <h2 class="hub-h" id="ct-ev-h">The evidence, its limits, and what was left out</h2>
     <h3 class="ct-h3">Gaps</h3><ul class="ct-list">${T.GAPS.map(g => `<li>${esc(g)}</li>`).join("")}</ul>
+    ${nearby}
     <h3 class="ct-h3">Withheld</h3><ul class="ct-list">${T.WITHHELD.map(g => `<li>${esc(g)}</li>`).join("")}</ul>
     <h3 class="ct-h3">Sources behind this page</h3>
     <p>Each passed Common Shade's automated check: the page or its archived copy held every term the claims rest on. Passing means the source says what is cited, not that it is right or representative.</p>
@@ -226,4 +241,4 @@ module.exports = function cottonHeat({ page, write, esc, hero, V }) {
   if (left.size) console.warn(`cotton heat: left out passages resting on unconfirmed claims: ${[...left].join(", ")}`);
 };
 
-module.exports.md = function md(SITE) { const { OK } = load(); return T.md(SITE, OK); };
+module.exports.md = function md(SITE) { const { OK, CL } = load(); return T.md(SITE, OK, CL); };

@@ -279,7 +279,7 @@ const CHAINS = {
 const FACTORY_CARD = { h: "The fibre moves indoors. The heat problem changes.", p: "Follow cotton into spinning, fabric production and garment manufacturing.", href: "/factory-heat/", go: "Explore heat inside factories" };
 
 const GAPS = [
-  "No checked study on this page measures heat strain or heat illness among cotton field workers, pickers, yard workers or gin workers in Asia.",
+  "No checked study on this page measures heat strain or heat illness among cotton field workers, pickers, yard workers or gin workers in Asia. Studies of rice, sugarcane and salt work are summarised below as nearby evidence.",
   "No checked evaluation tests shade, water points, paid breaks or appointment systems in cotton production.",
   "The pickers' studies measure pesticide-related health effects and costs, not heat.",
   "The crop study is a controlled-environment experiment; field yield losses from heat for any district are not given here.",
@@ -287,6 +287,25 @@ const GAPS = [
   "No checked study on menstrual hygiene or pregnancy in cotton field work was found.",
   "No checked source supports contrasts with other Asian cotton regions, such as mechanised harvesting in China, so none is made."
 ];
+// Field studies of heat strain in other Asian field work (research/2026-11/agri-heat). None is about cotton; each
+// statement is the confirmed claim's own text, so the page and llms-full.txt say the same thing.
+const NEARBY = {
+  h: "Nearby evidence: heat strain measured in other Asian field work",
+  intro: "No checked study measures heat strain among cotton workers in Asia. Researchers have measured it in neighbouring work: rice and sugarcane fields, farming villages and salt pans in India, Thailand, Viet Nam, Malaysia and Sri Lanka. These studies are not about cotton, and crops differ in season, posture, pace and pay; they show what has been found where people looked, and what a cotton study could measure.",
+  groups: [
+    { t: "Strain in the body", claims: ["a-sahu", "a-psi", "a-transplant", "a-thsc20", "a-thsc25"] },
+    { t: "Symptoms people report", claims: ["a-vn", "a-thsym", "a-thclo"] },
+    { t: "Water, salt and kidneys", claims: ["a-salt", "a-thsalt", "a-biochem", "a-ngal", "a-bargarh", "a-sl"], note: "Kidney findings are cross-sectional: they show patterns at one time, not cause. The Sri Lanka study found no association, and is listed for that reason." },
+    { t: "Heat with pesticides", claims: ["a-my"], note: "Cotton work often combines both exposures; no checked study measures the two together in cotton." },
+    { t: "Output and pay", claims: ["a-thprod", "a-tn"], note: "Where pay follows output, fewer stalks or bundles an hour can mean less income, which is one reason rest can feel unaffordable." },
+    { t: "What the research itself leaves out", claims: ["a-map"] }
+  ],
+  women: "On women and men, the studies differ: one Thai sugarcane study found no significant difference in symptom risk, another found women at higher risk, and many reports include no women at all. This is one reason the page does not assume a single pattern.",
+  womenClaims: ["a-thsym", "a-thclo", "a-map"],
+  borrow: "What a cotton study could borrow: hourly heat measured where people work (WBGT), heart rate and body temperature across a shift, urine concentration before and after work, output per hour alongside pay, and women counted and reported, all agreed with workers and their organisations before any measurement starts.",
+  notFound: "Searched in Europe PMC (November 2026): heat strain, body temperature, heart rate, WBGT, urine specific gravity, heat-related illness and kidney markers among farmers and agricultural, rice, sugarcane, tea, salt and brick workers in South and Southeast Asia, 2008 to 2026, with intervention terms. No measured field study from Pakistan or Bangladesh was found, and no field trial of shade, water or rest in Asian agriculture; one Indian study proposes work-rest cycles from measurements but did not test them over a season."
+};
+
 const WITHHELD = [
   "Better Cotton's account of an individual cotton worker in Pakistan and its Pakistan programme page could not be read from the build session and are not used; the page names no individuals in any case.",
   "Named testimony in the sources (in the ILO release and the 2017 news report) is described without names.",
@@ -298,10 +317,11 @@ function claimsUsed() {
   STAGES.forEach(x => { add(x.whoClaims); add(x.exposureClaims); add(x.barrierClaims); add(x.evidence); });
   add(CHAIN_NOTES.claims); PATHWAYS.forEach(p => add(p.documented.claims)); add(INFORMAL_CLAIMS);
   EQUITY.items.forEach(i => add(i.claims)); ASIA.rows.forEach(r => add(r.claims)); RECORDS.forEach(r => r.ev.forEach(e => add(e.claims))); add(EXPLORER.limitsClaims);
+  NEARBY.groups.forEach(g => add(g.claims)); add(NEARBY.womenClaims);
   return [...s];
 }
 
-function md(SITE, ok) {
+function md(SITE, ok, CL) {
   const okc = id => !ok || ok.has(id);
   const L = [`## ${TITLE}`, `${SITE}/${SLUG}/`, SUB, DESC, "", QUESTION, OPEN.p1, OPEN.p2, OPEN.note, "",
     "### The cotton journey (illustrative)", ...CHAIN_NOTES.items.map(i => `- ${i}`),
@@ -316,8 +336,10 @@ function md(SITE, ok) {
     "### What makes protection usable?", EXPLORER.intro, EXPLORER.limits, ...BARRIERS.map(b => `- ${b.t}: assess locally ${b.local}`), "",
     "### How risk can pass along the chain", CHAINS.intro, ...CHAINS.rows.map(r => `- ${r.t}. ${r.d} Interruption point: ${r.cut} Actor: ${r.actor}`), CHAINS.fate, "",
     `### ${FACTORY_CARD.h}`, FACTORY_CARD.p, `${SITE}${FACTORY_CARD.href}`, "",
-    "### Evidence gaps", ...GAPS.map(g => `- ${g}`), "### Withheld", ...WITHHELD.map(w => `- ${w}`), ""];
+    "### Evidence gaps", ...GAPS.map(g => `- ${g}`), "",
+    `### ${NEARBY.h}`, NEARBY.intro, ...NEARBY.groups.map(g => { const c = g.claims.filter(okc).filter(id => CL && CL[id]); return c.length ? [`#### ${g.t}`, ...c.map(id => `- ${CL[id].text}`), ...(g.note ? [g.note] : [])].join("\n") : ""; }).filter(Boolean),
+    ...(NEARBY.womenClaims.every(okc) ? [NEARBY.women] : []), NEARBY.borrow, NEARBY.notFound, "", "### Withheld", ...WITHHELD.map(w => `- ${w}`), ""];
   return L.join("\n");
 }
 
-module.exports = { SLUG, TITLE, SUB, DESC, QUESTION, OPEN, KIND, KIND_NOTE, STAGES, CHAIN_NOTES, PATHWAYS, NOT_CLAIMED, ARRANGEMENTS, INFORMAL_NOTE, INFORMAL_CLAIMS, STOP, EQUITY, ASIA, FAMILIES, RECORDS, BARRIERS, EXPLORER, CHAINS, FACTORY_CARD, GAPS, WITHHELD, claimsUsed, md };
+module.exports = { SLUG, TITLE, SUB, DESC, QUESTION, OPEN, KIND, KIND_NOTE, STAGES, CHAIN_NOTES, PATHWAYS, NOT_CLAIMED, ARRANGEMENTS, INFORMAL_NOTE, INFORMAL_CLAIMS, STOP, EQUITY, ASIA, FAMILIES, RECORDS, BARRIERS, EXPLORER, CHAINS, FACTORY_CARD, GAPS, NEARBY, WITHHELD, claimsUsed, md };

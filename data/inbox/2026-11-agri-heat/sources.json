@@ -1,0 +1,430 @@
+[
+ {
+  "id": "src-ag-sahu",
+  "type": "source",
+  "keys": [
+   "sahu"
+  ],
+  "title": "Heat exposure, cardiovascular stress and work productivity in rice harvesters in India: implications for a climate change future",
+  "publisher": "Sahu et al., Industrial Health",
+  "year": 2013,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/23685851/",
+  "kind": "Field study with heart-rate monitoring and output counts",
+  "where": "West Bengal, India (rice harvest)",
+  "expect": [
+   "rice harvesters",
+   "124 rice harvesters",
+   "Heart rate recovered quickly at low heat, but more slowly at high heat",
+   "approximately 5% per"
+  ],
+  "claims": [
+   "a-sahu"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261024075126/https://pubmed.ncbi.nlm.nih.gov/23685851"
+ },
+ {
+  "id": "src-ag-transplant",
+  "type": "source",
+  "keys": [
+   "transplant"
+  ],
+  "title": "Physiological responses to heat stress in rice transplanting workers in Northeast India and work-rest schedule recommendations",
+  "publisher": "Work (IOS Press)",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40808610/",
+  "kind": "Small field study (14 workers) with body-temperature monitoring",
+  "where": "Northeast India (paddy transplanting)",
+  "expect": [
+   "paddy transplant",
+   "Fourteen participants",
+   "Oral temperature increased by 0.5",
+   "35 and 22 min"
+  ],
+  "claims": [
+   "a-transplant"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261120183335/https://pubmed.ncbi.nlm.nih.gov/40808610/"
+ },
+ {
+  "id": "src-ag-psi",
+  "type": "source",
+  "keys": [
+   "psi"
+  ],
+  "title": "Predicting heat-induced physiological strain and dehydration among male agricultural workers in eastern India",
+  "publisher": "Journal of Occupational and Environmental Medicine",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40963212/",
+  "kind": "Cross-sectional field study (200 men) with hourly heart rate, ear temperature and urine tests",
+  "where": "West Bengal, India (paddy harvest)",
+  "expect": [
+   "paddy harvesting",
+   "200 adult males",
+   "WBGT steadily predicted PSI",
+   "age amplified strain"
+  ],
+  "claims": [
+   "a-psi"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261120183414/https://pubmed.ncbi.nlm.nih.gov/40963212/"
+ },
+ {
+  "id": "src-ag-biochem",
+  "type": "source",
+  "keys": [
+   "biochem"
+  ],
+  "title": "Physiological responses to occupational heat exposure among male agricultural and brick-field workers in eastern India: a biochemical perspective",
+  "publisher": "American Journal of Human Biology",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42214031/",
+  "kind": "Field study with blood tests in summer and winter (sub-sample of 20 agricultural workers)",
+  "where": "Eastern India",
+  "expect": [
+   "brick-field workers",
+   "Sweat gland activation was also significantly higher during the summer season",
+   "normal physiological levels of electrolytes",
+   "higher probability of hyponatremia"
+  ],
+  "claims": [
+   "a-biochem"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260605155830/https://pubmed.ncbi.nlm.nih.gov/42214031/"
+ },
+ {
+  "id": "src-ag-vn",
+  "type": "source",
+  "keys": [
+   "vn"
+  ],
+  "title": "The prevalence of heat-related illnesses and associated factors among rice farmers in Vietnam",
+  "publisher": "Journal of Agromedicine",
+  "year": 2023,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36453470/",
+  "kind": "Cross-sectional survey of self-reported symptoms",
+  "where": "Ha Tinh province, Viet Nam (rice)",
+  "expect": [
+   "rice farmers",
+   "379 farmers",
+   "83.4% of farmers",
+   "increased water intake"
+  ],
+  "claims": [
+   "a-vn"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ag-thsc20",
+  "type": "source",
+  "keys": [
+   "thsc20"
+  ],
+  "title": "Heat stress, physiological response, and heat-related symptoms among Thai sugarcane workers",
+  "publisher": "International Journal of Environmental Research and Public Health",
+  "year": 2020,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32882881/",
+  "kind": "Field study with pre- and post-shift measurements",
+  "where": "Thailand (sugarcane harvest)",
+  "expect": [
+   "sugarcane",
+   "90 sugarcane cutters and 93 factory workers",
+   "Dehydration was observed among sugarcane cutters"
+  ],
+  "claims": [
+   "a-thsc20"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250206145337/https://pubmed.ncbi.nlm.nih.gov/32882881/"
+ },
+ {
+  "id": "src-ag-thsc25",
+  "type": "source",
+  "keys": [
+   "thsc25"
+  ],
+  "title": "High levels of heat stress among sugarcane workers in Thailand",
+  "publisher": "Annals of Work Exposures and Health",
+  "year": 2025,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39899707/",
+  "kind": "Full-shift field heat measurements in two seasons (300 workers)",
+  "where": "Nakhon Sawan, Thailand (sugarcane)",
+  "expect": [
+   "sugarcane",
+   "72.7% of the working time",
+   "90.9% in the hotter month",
+   "harvesting burnt sugarcane were significantly associated with increased effective WBGT"
+  ],
+  "claims": [
+   "a-thsc25"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260326153540/https://pubmed.ncbi.nlm.nih.gov/39899707/"
+ },
+ {
+  "id": "src-ag-thsym",
+  "type": "source",
+  "keys": [
+   "thsym"
+  ],
+  "title": "Occupational related heat stress exposure and heat-related symptoms among sugarcane workers in Thailand",
+  "publisher": "International Archives of Occupational and Environmental Health",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42303799/",
+  "kind": "Field heat measurements with symptom survey (295 workers)",
+  "where": "Nakhon Sawan, Thailand (sugarcane)",
+  "expect": [
+   "sugarcane",
+   "295 participants",
+   "Ninety-eight percent",
+   "74% reported",
+   "no significant gender differences"
+  ],
+  "claims": [
+   "a-thsym"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ag-thprod",
+  "type": "source",
+  "keys": [
+   "thprod"
+  ],
+  "title": "Effect of occupation-related heat stress exposure on productivity among sugarcane workers in Thailand",
+  "publisher": "Scandinavian Journal of Work, Environment and Health",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42853598/",
+  "kind": "Field heat measurements with output counts (287 workers)",
+  "where": "Nakhon Sawan, Thailand (sugarcane)",
+  "expect": [
+   "sugarcane",
+   "287 sugarcane workers",
+   "decreased by 9 stalks per hour"
+  ],
+  "claims": [
+   "a-thprod"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ag-thclo",
+  "type": "source",
+  "keys": [
+   "thclo"
+  ],
+  "title": "Risk factors associated with heat-related illness among sugarcane farmers in Thailand",
+  "publisher": "Industrial Health",
+  "year": 2022,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34819408/",
+  "kind": "Cross-sectional survey with body-composition tests (200 farmers)",
+  "where": "Kamphaeng Phet, Thailand (sugarcane)",
+  "expect": [
+   "sugarcane farmers",
+   "200 sugarcane farmers",
+   "The prevalence of heat-related illness symptoms was 48%",
+   "included women and clothing",
+   "two-layer shirts"
+  ],
+  "claims": [
+   "a-thclo"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260212024611/https://pubmed.ncbi.nlm.nih.gov/34819408/"
+ },
+ {
+  "id": "src-ag-ngal",
+  "type": "source",
+  "keys": [
+   "ngal"
+  ],
+  "title": "Cross-shift change of acute kidney injury biomarkers in sugarcane farmers and cutters",
+  "publisher": "Human and Ecological Risk Assessment",
+  "year": 2021,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34290492/",
+  "kind": "Cross-sectional field study with pre- and post-shift urine markers",
+  "where": "Thailand (sugarcane)",
+  "expect": [
+   "sugarcane",
+   "150 sugarcane cutters and 98 sugarcane farmers",
+   "62% of cutters and 56% of farmers were female",
+   "cross-shift changes of NGAL were significantly higher for sugarcane cutters"
+  ],
+  "claims": [
+   "a-ngal"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260215053007/https://pubmed.ncbi.nlm.nih.gov/34290492/"
+ },
+ {
+  "id": "src-ag-my",
+  "type": "source",
+  "keys": [
+   "my"
+  ],
+  "title": "The effects of heat exposure on tropical farm workers in Malaysia: six-month physiological health monitoring",
+  "publisher": "International Journal of Environmental Health Research",
+  "year": 2023,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35157533/",
+  "kind": "Six-month follow-up of farmworkers",
+  "where": "Malaysia",
+  "expect": [
+   "Malaysia",
+   "six-month longitudinal study",
+   "agroecological farmers is more resistant",
+   "pesticide exposure"
+  ],
+  "claims": [
+   "a-my"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ag-salt",
+  "type": "source",
+  "keys": [
+   "salt"
+  ],
+  "title": "Occupational heat stress and kidney health in salt pan workers",
+  "publisher": "Kidney International Reports",
+  "year": 2023,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37441492/",
+  "kind": "Field study with pre- and post-shift measurements and blood tests (352 workers)",
+  "where": "Seven salt pans, India",
+  "expect": [
+   "salt pan",
+   "absence of occupational exposures to pesticides",
+   "352 workers",
+   "most workers (87%) exceeded the TLV",
+   "median was one Litre",
+   "2.9 (95% CI"
+  ],
+  "claims": [
+   "a-salt"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250203041726/https://pubmed.ncbi.nlm.nih.gov/37441492/"
+ },
+ {
+  "id": "src-ag-thsalt",
+  "type": "source",
+  "keys": [
+   "thsalt"
+  ],
+  "title": "Effect of heat exposure on dehydration and kidney function among sea salt workers in Thailand",
+  "publisher": "Roczniki Panstwowego Zakladu Higieny",
+  "year": 2021,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34928120/",
+  "kind": "Small cross-sectional field study (50 workers)",
+  "where": "Thailand (sea salt farms)",
+  "expect": [
+   "sea salt workers",
+   "50 workers",
+   "more than 50% of the participants were dehydrated after work"
+  ],
+  "claims": [
+   "a-thsalt"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260516003745/https://pubmed.ncbi.nlm.nih.gov/34928120/"
+ },
+ {
+  "id": "src-ag-bargarh",
+  "type": "source",
+  "keys": [
+   "bargarh"
+  ],
+  "title": "Heat stress nephropathy in CKD of uncertain etiology hotspots of Bargarh district, Odisha, India",
+  "publisher": "Kidney International Reports",
+  "year": 2025,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41141547/",
+  "kind": "Cross-sectional screening with urine, blood and biopsy tests",
+  "where": "Bargarh district, Odisha, India (farming villages)",
+  "expect": [
+   "Bargarh",
+   "1136 participants",
+   "157 potential cases of heat stress nephropathy",
+   "63.3% of affected individuals being farmers"
+  ],
+  "claims": [
+   "a-bargarh"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ag-sl",
+  "type": "source",
+  "keys": [
+   "sl"
+  ],
+  "title": "Relevance of heat stress and dehydration to chronic kidney disease (CKDu) in Sri Lanka",
+  "publisher": "Preventive Medicine Reports",
+  "year": 2019,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/31304082/",
+  "kind": "Cross-sectional survey with urine tests (261 workers)",
+  "where": "North Central Province, Sri Lanka",
+  "expect": [
+   "Sri Lanka",
+   "four villages (n = 261)",
+   "heat stress-dehydration index overall was not associated with ACR",
+   "not a reliable marker of early CKDu"
+  ],
+  "claims": [
+   "a-sl"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260214114328/https://pubmed.ncbi.nlm.nih.gov/31304082/"
+ },
+ {
+  "id": "src-ag-tn",
+  "type": "source",
+  "keys": [
+   "tn"
+  ],
+  "title": "Quantifying the impact of heat stress on labour productivity in outdoor workplaces in Southern India amid a changing climate",
+  "publisher": "Scientific Reports",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41857093/",
+  "kind": "Field heat measurements with a survey of reported productivity loss (1,560 outdoor workers)",
+  "where": "Tamil Nadu, India (informal outdoor work)",
+  "expect": [
+   "Tamil Nadu",
+   "11 districts in Tamil Nadu",
+   "1560 outdoor workers",
+   "1.4-fold increased risk"
+  ],
+  "claims": [
+   "a-tn"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ag-map",
+  "type": "source",
+  "keys": [
+   "map"
+  ],
+  "title": "Trends in occupational heat-health research in low- and middle-income countries: a mapping review",
+  "publisher": "Current Environmental Health Reports",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42905195/",
+  "kind": "Mapping review of 210 field reports",
+  "where": "Low- and middle-income countries",
+  "expect": [
+   "mapping review",
+   "210 reports",
+   "South-East Asia Region (40%)",
+   "39% of reports not including any female participants",
+   "only 9% included some form of intervention"
+  ],
+  "claims": [
+   "a-map"
+  ],
+  "note": "Staged from the field heat strain batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261120170938/https://pubmed.ncbi.nlm.nih.gov/42905195/"
+ }
+]

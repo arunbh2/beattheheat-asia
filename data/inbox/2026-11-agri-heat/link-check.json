@@ -1,0 +1,132 @@
+{
+ "_terms": {
+  "https://pubmed.ncbi.nlm.nih.gov/23685851/": {
+   "rice harvesters": true,
+   "124 rice harvesters": true,
+   "Heart rate recovered quickly at low heat, but more slowly at high heat": true,
+   "approximately 5% per": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/40808610/": {
+   "paddy transplant": true,
+   "Fourteen participants": true,
+   "Oral temperature increased by 0.5": true,
+   "35 and 22 min": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/40963212/": {
+   "paddy harvesting": true,
+   "200 adult males": true,
+   "WBGT steadily predicted PSI": true,
+   "age amplified strain": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42214031/": {
+   "brick-field workers": true,
+   "Sweat gland activation was also significantly higher during the summer season": true,
+   "normal physiological levels of electrolytes": true,
+   "higher probability of hyponatremia": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/32882881/": {
+   "sugarcane": true,
+   "90 sugarcane cutters and 93 factory workers": true,
+   "Dehydration was observed among sugarcane cutters": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/39899707/": {
+   "sugarcane": true,
+   "72.7% of the working time": true,
+   "90.9% in the hotter month": true,
+   "harvesting burnt sugarcane were significantly associated with increased effective WBGT": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42303799/": {
+   "sugarcane": true,
+   "295 participants": true,
+   "Ninety-eight percent": true,
+   "74% reported": true,
+   "no significant gender differences": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42853598/": {
+   "sugarcane": true,
+   "287 sugarcane workers": true,
+   "decreased by 9 stalks per hour": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/34819408/": {
+   "sugarcane farmers": true,
+   "200 sugarcane farmers": true,
+   "The prevalence of heat-related illness symptoms was 48%": true,
+   "included women and clothing": true,
+   "two-layer shirts": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/34290492/": {
+   "sugarcane": true,
+   "150 sugarcane cutters and 98 sugarcane farmers": true,
+   "62% of cutters and 56% of farmers were female": true,
+   "cross-shift changes of NGAL were significantly higher for sugarcane cutters": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/35157533/": {
+   "Malaysia": true,
+   "six-month longitudinal study": true,
+   "agroecological farmers is more resistant": true,
+   "pesticide exposure": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/37441492/": {
+   "salt pan": true,
+   "absence of occupational exposures to pesticides": true,
+   "352 workers": true,
+   "most workers (87%) exceeded the TLV": true,
+   "median was one Litre": true,
+   "2.9 (95% CI": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/34928120/": {
+   "sea salt workers": true,
+   "50 workers": true,
+   "more than 50% of the participants were dehydrated after work": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/41141547/": {
+   "Bargarh": true,
+   "1136 participants": true,
+   "157 potential cases of heat stress nephropathy": true,
+   "63.3% of affected individuals being farmers": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/31304082/": {
+   "Sri Lanka": true,
+   "four villages (n = 261)": true,
+   "heat stress-dehydration index overall was not associated with ACR": true,
+   "not a reliable marker of early CKDu": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/41857093/": {
+   "Tamil Nadu": true,
+   "11 districts in Tamil Nadu": true,
+   "1560 outdoor workers": true,
+   "1.4-fold increased risk": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42905195/": {
+   "mapping review": true,
+   "210 reports": true,
+   "South-East Asia Region (40%)": true,
+   "39% of reports not including any female participants": true,
+   "only 9% included some form of intervention": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/36453470/": {
+   "rice farmers": true,
+   "379 farmers": true,
+   "83.4% of farmers": true,
+   "increased water intake": true
+  }
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/23685851/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/40808610/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/40963212/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42214031/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/32882881/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/39899707/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42303799/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42853598/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/34819408/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/34290492/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/35157533/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/37441492/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/34928120/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/41141547/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/31304082/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/41857093/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42905195/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/36453470/": "OK"
+}
