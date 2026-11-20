@@ -475,5 +475,93 @@
     "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress"
    }
   ]
+ },
+ {
+  "id": "c-yeasmin",
+  "where": "Women's health and work; breaks and water",
+  "text": "In a qualitative study at two garment factories in Dhaka in 2022, workers and health professionals attributed headaches, dizziness, fatigue and nausea to heat, and quota pressures restricted workers' use of drinking water.",
+  "sources": [
+   {
+    "label": "Yeasmin et al., Environmental and Occupational Health Practice: Heat impacts on health and productivity: the case of two ready-made garment factories in tropical Bangladesh, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40568029/"
+   }
+  ]
+ },
+ {
+  "id": "c-bach-roof",
+  "where": "Interventions: roofs",
+  "text": "A building simulation of a typical non-air-conditioned garment factory in Dhaka found that each of four rooftop retrofits (green roof, rooftop shading, white cool roof, insulated white cool roof) lowered indoor air temperature by around 2 °C on average and cut annual work-hours above WBGT limits for moderate work by up to 603.",
+  "sources": [
+   {
+    "label": "Bach et al., Energy and Buildings: Retrofitting passive cooling strategies to combat heat stress in the face of climate change: a case study of a ready-made garment factory in Dhaka, Bangladesh, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37601430/"
+   }
+  ]
+ },
+ {
+  "id": "c-venugopal",
+  "where": "Evidence gaps",
+  "text": "A 2026 scoping review of 90 occupational heat-stress intervention studies found 68% were in controlled laboratory settings and 73% in developed countries, with only four testing engineering controls; field-based effectiveness data were limited.",
+  "sources": [
+   {
+    "label": "Venugopal et al., Journal of Occupational Health: Occupational heat stress prevention interventions: a scoping review of evidence and gaps, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42799657/"
+   }
+  ]
+ },
+ {
+  "id": "c-wiskel",
+  "where": "Evidence gaps",
+  "text": "A 2026 mapping review of 210 field reports on workers' heat in low- and middle-income countries found only 9% included any intervention to protect workers, and 39% included no female participants.",
+  "sources": [
+   {
+    "label": "Wiskel et al., Current Environmental Health Reports: Trends in occupational heat-health research in low- and middle-income countries: a mapping review, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42905195/"
+   }
+  ]
+ },
+ {
+  "id": "c-sheth",
+  "where": "Interventions: cooling garments",
+  "text": "A 2026 meta-analysis of 69 trials found wearable cooling reduced core temperature and heart rate, most consistently with water or ice and phase-change garments, at low to very low certainty.",
+  "sources": [
+   {
+    "label": "Sheth et al., Scandinavian Journal of Work, Environment and Health: Occupational heat stress and the role of wearable cooling interventions: a systematic review and meta-analysis of physiological and perceptual outcomes, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42055079/"
+   }
+  ]
+ },
+ {
+  "id": "c-sawmill",
+  "where": "Interventions: cooling garments and cool rest",
+  "text": "In a pilot randomised crossover field trial with 12 workers in an indoor sawmill in Thailand, a combined cooling station (water, fans, dousing and cooling towels) and a phase-change cooling vest each lowered core temperature and heart rate compared with no cooling; workers found the station effective but interruptive and most preferred the vest.",
+  "sources": [
+   {
+    "label": "Journal of Agromedicine: Characterizing heat health hazards and receptivity of cooling interventions among indoor lumber mill workers in southern Thailand, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42897938/"
+   }
+  ]
+ },
+ {
+  "id": "c-foundry",
+  "where": "Interventions: training",
+  "text": "In a controlled before-and-after study with 50 foundry workers, a two-session heat-stress education programme improved workers' perception, awareness, knowledge and practice scores compared with a control group; it did not measure heat exposure or illness.",
+  "sources": [
+   {
+    "label": "BMC Public Health: Improving heat stress prevention through targeted education in hot and humid workplaces: a study in a foundry industry, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40751142/"
+   }
+  ]
+ },
+ {
+  "id": "c-srilanka",
+  "where": "Health: injury pathway",
+  "text": "In a survey of 384 workers at small and medium apparel firms in Sri Lanka's export zones, 81% reported heat stress, and workers linked headaches, dehydration and diminished concentration to needle injuries, by their own accounts.",
+  "sources": [
+   {
+    "label": "Senadeera et al., BMC Public Health: Workplace health and safety under climate stress in Sri Lankan apparel SMEs, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41559604/"
+   }
+  ]
  }
 ]

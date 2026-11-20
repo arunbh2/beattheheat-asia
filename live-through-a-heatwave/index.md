@@ -1,7 +1,7 @@
 ---
 title: "Live through a heatwave"
 url: https://beattheheat.asia/live-through-a-heatwave/
-updated: 2026-11-19
+updated: 2026-11-20
 licence: CC BY 4.0
 ---
 

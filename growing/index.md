@@ -1,7 +1,7 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-19
+updated: 2026-11-20
 licence: CC BY 4.0
 ---
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-77 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,122 works the commons draws on carry a publication date, and 809 are still being dated.
+77 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -72,15 +72,15 @@ What the source says quoted“women's core temperature fell only with air condit
 - Heat-safe work
 - Heat-safe pregnancy and newborn care
 
-ReviewTwenty sources staged and checked on GitHub; 42 of 57 claims passed. EU-OSHA's guidance reset the checker's connection on two runs, so its claims are held back and the records that rest only on it are marked as not yet confirmed. The garment trial is labelled a laboratory simulation throughout; field reports are labelled as reports, not evaluations.. 20 checked · 18 confirmed · 2 not confirmed, each recorded.
+ReviewTwenty sources staged and checked on GitHub; 42 of 57 claims passed. EU-OSHA's guidance reset the checker's connection on two runs, so its claims are held back and the records that rest only on it are marked as not yet confirmed. The garment trial is labelled a laboratory simulation throughout; field reports are labelled as reports, not evaluations.. 29 checked · 27 confirmed · 2 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** What reduces heat for people working inside factories, and what does the evidence say about each measure?
-- **The search.** 20 sources were gathered for checking.
+- **The search.** 29 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 18 confirmed, and 2 could not be (1 did not respond, 1 did not show the expected text).
-- **What we set aside.** 75 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 27 confirmed, and 2 could not be (2 did not respond).
+- **What we set aside.** 98 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Independent before-and-after evaluations in operating garment factories; women's experiences of menstruation, menopause and protective-equipment fit in heat; EU-OSHA's guidance once the checker can reach it.
 
@@ -2448,51 +2448,51 @@ Common Shade began gathering in October 2026. The work it draws on is much older
 
 - Before 2024
 
-470 works published before 2024 form the roots the commons stands on.
+471 works published before 2024 form the roots the commons stands on.
 
 - Evidence203
 - Experience23
-- Practical measures99
+- Practical measures100
 - Institutions and plans64
 - Financing81
 
 - 2024
 
-196 works published, 94 of them with a known month; 666 in all by the end of the year. 25 of the verified Indian heat action plans carry this year.
+196 works published, 94 of them with a known month; 667 in all by the end of the year. 25 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Nepal adopts a national plan of action on heat waves](https://beattheheat.asia/atlas/); [Thane plans ward by ward](https://beattheheat.asia/atlas/); [Tamil Nadu builds a state-wide heat network](https://beattheheat.asia/atlas/).
 
 - Evidence280
 - Experience44
-- Practical measures134
+- Practical measures135
 - Institutions and plans90
 - Financing118
 
 - 2025
 
-210 works published, 123 of them with a known month; 876 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
+210 works published, 123 of them with a known month; 877 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 
 - Evidence334
 - Experience69
-- Practical measures182
+- Practical measures183
 - Institutions and plans118
 - Financing173
 
 - 2026 so far
 
-246 works published, 142 of them with a known month; 1,122 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+246 works published, 142 of them with a known month; 1,123 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
 - Evidence409
 - Experience98
-- Practical measures247
+- Practical measures248
 - Institutions and plans138
 - Financing230
 
-Not yet dated: 809 works whose records carry no date, and 25 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

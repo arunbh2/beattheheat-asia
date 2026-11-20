@@ -228,7 +228,9 @@ module.exports = function factoryHeat({ page, write, esc, hero, V }) {
   <section class="container fh-sec" id="gaps" aria-labelledby="fh-gaps-h">
     ${kicker("07", "What is not known")}
     <h2 class="hub-h" id="fh-gaps-h">Evidence gaps, stated plainly</h2>
+    ${shown({ claims: T.GAPS_CONTEXT.claims }) ? `<p>${esc(T.GAPS_CONTEXT.text)}</p>` : ""}
     <ul class="fh-list">${T.GAPS.map(g => `<li>${esc(g)}</li>`).join("")}</ul>
+    ${srcFold(T.GAPS_CONTEXT.claims, "Sources for the reviews")}
     <h3 class="fh-h3" id="evidence">The evidence behind this page</h3>
     <p>Every source below passed Common Shade's automated check: the page opened (or its archived copy did) and held each term the claims rest on. Passing the check means the source says what is cited, not that the source is right.</p>
     <div class="fh-tablewrap" role="region" aria-label="Evidence table" tabindex="0"><table class="fh-table"><caption>Sources, what kind of evidence each is, where it comes from, and how many statements on this page rest on it</caption>
