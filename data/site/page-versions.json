@@ -24,7 +24,7 @@
   "changed": "2026-11-20"
  },
  "/actions/": {
-  "hash": "369810205cc1ddcc",
+  "hash": "c1b828a58efedbbe",
   "changed": "2026-11-20"
  },
  "/approach/": {
@@ -156,8 +156,8 @@
   "changed": "2026-11-16"
  },
  "/cotton-and-heat/": {
-  "hash": "cd118a3b5f69af4b",
-  "changed": "2026-10-01"
+  "hash": "750fa5d42b332098",
+  "changed": "2026-11-20"
  },
  "/countries/": {
   "hash": "b3ffff3feb63ee0e",
@@ -232,7 +232,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "19f8f2f0c9328c87",
+  "hash": "7e33f43286445729",
   "changed": "2026-11-20"
  },
  "/guide/": {
@@ -240,7 +240,7 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "c979a2da9511098f",
+  "hash": "5b59ee8011c43b8a",
   "changed": "2026-11-20"
  },
  "/heat-economy/": {
@@ -268,7 +268,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "c42fcbd2ca519ad7",
+  "hash": "c75fb25b1329fdc6",
   "changed": "2026-11-20"
  },
  "/heat-tools/": {
@@ -384,7 +384,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "20f8d84c21d3b7fc",
+  "hash": "2866657f81d29d48",
   "changed": "2026-11-20"
  },
  "/loops/": {

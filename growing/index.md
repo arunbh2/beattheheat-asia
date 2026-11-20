@@ -5,7 +5,7 @@ updated: 2026-11-20
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 78 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 79 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,56 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-78 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+79 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Practical measures
+
+### Heat strain measured in Asian field work, beside the cotton page
+
+Added 20 November 2026 · Evidence added 20 November 2026
+
+Why it matters our readingNo study has measured heat strain among cotton workers in Asia, so the cotton page now sets out what researchers found in neighbouring work: rice and sugarcane fields, farming villages and salt pans in India, Thailand, Viet Nam, Malaysia and Sri Lanka. It keeps strain, symptoms, kidneys, output and the gaps in the research apart, and names what a cotton study could measure.
+
+What the source says quoted“bundles collected fell by about 5% for each degree of WBGT above 26°C”
+
+[Sahu et al., Industrial Health: Heat exposure, cardiovascular stress and work productivity in rice harvesters in India, 2013 ](https://pubmed.ncbi.nlm.nih.gov/23685851/)
+
+- India
+- Thailand
+- Sri Lanka
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Smallholder and rainfed farming households
+- Women whose livelihoods are held back by unequal access
+- Heat-safe work
+
+ReviewEighteen studies found through Europe PMC, staged and checked on GitHub; all 18 claims passed (one source showed the checker a cookie wall on the first pass and was re-checked). None is about cotton, and the page says so. One study found no association, and is shown for that reason.. 18 checked · 18 confirmed.
+
+What it took to add this
+
+- **The question.** What have field studies measured about heat strain among agricultural workers in South and Southeast Asia?
+- **The search.** 18 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 18 confirmed.
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Measured field studies from Pakistan and Bangladesh; any field trial of shade, water or rest in Asian agriculture; heat and pesticides measured together in cotton.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-agri-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/agri-heat/dropped-after-check.json)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+The studies show heat at work exceeding occupational limits in rice, sugarcane and salt work, which is what heat-safe work rules address.
+
+[Read the nearby evidence](https://beattheheat.asia/cotton-and-heat/#nearby-evidence)
+[Heat from field to factory](https://beattheheat.asia/cotton-and-heat/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20strain%20measured%20in%20Asian%20field%20work%2C%20beside%20the%20cotton%20page&ref=g-agri-heat-strain#way-share)
 
 Tool improved · Practical measures
 

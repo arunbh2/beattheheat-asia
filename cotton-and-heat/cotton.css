@@ -144,3 +144,8 @@
   html.ct-print-sel main > *:not(#protections) { display: none !important; }
   html.ct-print-sel #protections .ct-rec:not(.is-picked), html.ct-print-sel #protections .ct-fam:not(.has-picked), html.ct-print-sel #protections > p, html.ct-print-sel .ct-key { display: none !important; }
 }
+
+/* nearby evidence: heat strain measured in other Asian field work */
+.ct-nearby__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); align-items: start; gap: var(--s-3); margin: var(--s-3) 0; }
+.ct-nearby__grid h4 { font-size: var(--fs-18); line-height: 1.15; margin: 0 0 var(--s-2); }
+.ct-nearby__grid .ct-list { margin: 0; }

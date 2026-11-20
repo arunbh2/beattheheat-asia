@@ -1,7 +1,7 @@
 ---
 title: "Heat from field to factory"
 url: https://beattheheat.asia/cotton-and-heat/
-updated: 2026-10-01
+updated: 2026-11-20
 licence: CC BY 4.0
 ---
 
@@ -1386,13 +1386,67 @@ The evidence
 
 ### Gaps
 
-- No checked study on this page measures heat strain or heat illness among cotton field workers, pickers, yard workers or gin workers in Asia.
+- No checked study on this page measures heat strain or heat illness among cotton field workers, pickers, yard workers or gin workers in Asia. Studies of rice, sugarcane and salt work are summarised below as nearby evidence.
 - No checked evaluation tests shade, water points, paid breaks or appointment systems in cotton production.
 - The pickers' studies measure pesticide-related health effects and costs, not heat.
 - The crop study is a controlled-environment experiment; field yield losses from heat for any district are not given here.
 - No checked source describes heat in cotton market yards or gins in Asia.
 - No checked study on menstrual hygiene or pregnancy in cotton field work was found.
 - No checked source supports contrasts with other Asian cotton regions, such as mechanised harvesting in China, so none is made.
+
+### Nearby evidence: heat strain measured in other Asian field work
+
+No checked study measures heat strain among cotton workers in Asia. Researchers have measured it in neighbouring work: rice and sugarcane fields, farming villages and salt pans in India, Thailand, Viet Nam, Malaysia and Sri Lanka. These studies are not about cotton, and crops differ in season, posture, pace and pay; they show what has been found where people looked, and what a cotton study could measure.
+
+#### Strain in the body
+
+- In rice fields in West Bengal, India, hourly heat (WBGT) was 26-32°C. Among 124 harvesters, most reported exhaustion and pain on hot days; in 48 whose heart rate was recorded, it recovered more slowly at high heat, and bundles collected fell by about 5% for each degree of WBGT above 26°C. [Sahu et al., Industrial Health, 2013](https://pubmed.ncbi.nlm.nih.gov/23685851/)
+- Among 200 men harvesting paddy in West Bengal from April to June 2024, heat (WBGT) predicted physiological strain hour by hour; older age added to the strain and work experience was protective. [Journal of Occupational and Environmental Medicine, 2026](https://pubmed.ncbi.nlm.nih.gov/40963212/)
+- In a small study of 14 people transplanting paddy by hand in Northeast India, oral temperature rose by 0.5°C after 65 minutes of work at the lower heat levels studied. The authors propose work-rest cycles that shorten as heat rises, down to 35 minutes of work and 22 of rest at a WBGT of 31-32°C. [Work (IOS Press), 2026](https://pubmed.ncbi.nlm.nih.gov/40808610/)
+- In the hottest month of a Thai sugarcane harvest, cane cutters faced high heat stress and strain, with dehydration and rises in heart rate and body temperature across the shift; workers in the sugar factory were at low risk. [International Journal of Environmental Research and Public Health, 2020](https://pubmed.ncbi.nlm.nih.gov/32882881/)
+- In Nakhon Sawan, Thailand, sugarcane harvesters' heat stress exceeded the occupational limit (ACGIH) for 72.7% of working time in the cooler months and 90.9% in the hotter month; harvesting burnt cane added to the heat. [Annals of Work Exposures and Health, 2025](https://pubmed.ncbi.nlm.nih.gov/39899707/)
+
+#### Symptoms people report
+
+- Among 379 rice farmers in Ha Tinh province, Viet Nam, 83.4% reported at least one heat-related symptom during the 2021 summer-autumn harvest. More than 4 hours outdoors in the heat and heavy tasks were associated with more illness, and drinking more water with less. [Journal of Agromedicine, 2023](https://pubmed.ncbi.nlm.nih.gov/36453470/)
+- Among 295 Thai sugarcane workers (165 men, 130 women), 98% reported at least one heat-related symptom and 74% at least one severe symptom. Symptoms rose with each degree of full-shift heat, and the study found no significant difference in risk between women and men. [International Archives of Occupational and Environmental Health, 2026](https://pubmed.ncbi.nlm.nih.gov/42303799/)
+- Among 200 sugarcane farmers in Kamphaeng Phet, Thailand, 48% reported heat-related illness symptoms in summer. Being a woman and wearing two-layer shirts were associated with higher risk, and drinking 3.1-5.0 litres a day with lower risk. [Industrial Health, 2022](https://pubmed.ncbi.nlm.nih.gov/34819408/)
+
+#### Water, salt and kidneys
+
+- In seven Indian salt pans, where there is no pesticide exposure, 87% of 352 workers exceeded the heat-stress limit and median water intake over the workday was one litre. Workers above the limit had 2.9 times the odds of reduced kidney function. [Kidney International Reports, 2023](https://pubmed.ncbi.nlm.nih.gov/37441492/)
+- Among 50 sea salt workers in Thailand, more than half were dehydrated after work. [Roczniki Panstwowego Zakladu Higieny, 2021](https://pubmed.ncbi.nlm.nih.gov/34928120/)
+- Among agricultural and brick-field workers in eastern India, sweat gland activity was higher in summer. Blood electrolytes stayed in the normal range at the monitoring sessions, but full-shift heat above a WBGT of about 23-25°C was associated with a higher probability of low blood sodium. [American Journal of Human Biology, 2026](https://pubmed.ncbi.nlm.nih.gov/42214031/)
+- Thai sugarcane cutters and farmers, most of them women, both had higher urinary markers of kidney injury after the shift than before, more so among cutters. Cutters exceeded recommended heat exposure; farmers did not. [Human and Ecological Risk Assessment, 2021](https://pubmed.ncbi.nlm.nih.gov/34290492/)
+- In chronic kidney disease hotspot villages of Bargarh district, Odisha, screening of 1,136 people identified 157 potential cases of heat stress nephropathy, 63.3% of them farmers. The study is cross-sectional and does not show cause. [Kidney International Reports, 2025](https://pubmed.ncbi.nlm.nih.gov/41141547/)
+- Among 261 agricultural workers in four villages of Sri Lanka's North Central Province, a heat stress and dehydration symptom index was not associated with urine albumin or urine concentration; the authors note that urine albumin is not a reliable marker of early disease. [Preventive Medicine Reports, 2019](https://pubmed.ncbi.nlm.nih.gov/31304082/)
+
+Kidney findings are cross-sectional: they show patterns at one time, not cause. The Sri Lanka study found no association, and is listed for that reason.
+
+#### Heat with pesticides
+
+- Over six months in Malaysia, conventional farmworkers adapted less well to heat than agroecological farmers; the authors link this to earlier metabolic effects of pesticide exposure. [International Journal of Environmental Health Research, 2023](https://pubmed.ncbi.nlm.nih.gov/35157533/)
+
+Cotton work often combines both exposures; no checked study measures the two together in cotton.
+
+#### Output and pay
+
+- Among 287 Thai sugarcane workers, each degree of full-shift heat was associated with about 9 fewer stalks harvested per hour. [Scandinavian Journal of Work, Environment and Health, 2026](https://pubmed.ncbi.nlm.nih.gov/42853598/)
+- Across 11 districts of Tamil Nadu, WBGT measured at outdoor workplaces exceeded 30°C, and among 1,560 informal outdoor workers higher heat was associated with 1.4 times the risk of reported productivity loss. [Scientific Reports, 2026](https://pubmed.ncbi.nlm.nih.gov/41857093/)
+
+Where pay follows output, fewer stalks or bundles an hour can mean less income, which is one reason rest can feel unaffordable.
+
+#### What the research itself leaves out
+
+- A 2026 mapping review of 210 field reports from low- and middle-income countries found 40% from the South-East Asia Region and 30% from India; agriculture made up 33%. 39% of reports included no women, and only 9% included any intervention to protect workers. [Current Environmental Health Reports, 2026](https://pubmed.ncbi.nlm.nih.gov/42905195/)
+
+On women and men, the studies differ: one Thai sugarcane study found no significant difference in symptom risk, another found women at higher risk, and many reports include no women at all. This is one reason the page does not assume a single pattern.
+
+For a cotton study
+
+What a cotton study could borrow: hourly heat measured where people work (WBGT), heart rate and body temperature across a shift, urine concentration before and after work, output per hour alongside pay, and women counted and reported, all agreed with workers and their organisations before any measurement starts.
+
+Searched in Europe PMC (November 2026): heat strain, body temperature, heart rate, WBGT, urine specific gravity, heat-related illness and kidney markers among farmers and agricultural, rice, sugarcane, tea, salt and brick workers in South and Southeast Asia, 2008 to 2026, with intervention terms. No measured field study from Pakistan or Bangladesh was found, and no field trial of shade, water or rest in Asian agriculture; one Indian study proposes work-rest cycles from measurements but did not test them over a season.
 
 ### Withheld
 
@@ -1430,6 +1484,24 @@ Source | Kind | Place | Year | Statements |
 [Journal of Agromedicine: Characterizing heat health hazards and receptivity of cooling interventions among indoor lumber mill workers in southern Thailand](https://pubmed.ncbi.nlm.nih.gov/42897938/) | Pilot randomised crossover field trial in an operating workplace | An indoor sawmill in southern Thailand | 2026 | 1 |
 [Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html) | Occupational guidance | Canada | 2026 | 5 |
 [Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html) | Occupational guidance | Canada | 2026 | 3 |
+[Sahu et al., Industrial Health: Heat exposure, cardiovascular stress and work productivity in rice harvesters in India: implications for a climate change future](https://pubmed.ncbi.nlm.nih.gov/23685851/) | Field study with heart-rate monitoring and output counts | West Bengal, India (rice harvest) | 2013 | 1 |
+[Work (IOS Press): Physiological responses to heat stress in rice transplanting workers in Northeast India and work-rest schedule recommendations](https://pubmed.ncbi.nlm.nih.gov/40808610/) | Small field study (14 workers) with body-temperature monitoring | Northeast India (paddy transplanting) | 2026 | 1 |
+[Journal of Occupational and Environmental Medicine: Predicting heat-induced physiological strain and dehydration among male agricultural workers in eastern India](https://pubmed.ncbi.nlm.nih.gov/40963212/) | Cross-sectional field study (200 men) with hourly heart rate, ear temperature and urine tests | West Bengal, India (paddy harvest) | 2026 | 1 |
+[American Journal of Human Biology: Physiological responses to occupational heat exposure among male agricultural and brick-field workers in eastern India: a biochemical perspective](https://pubmed.ncbi.nlm.nih.gov/42214031/) | Field study with blood tests in summer and winter (sub-sample of 20 agricultural workers) | Eastern India | 2026 | 1 |
+[Journal of Agromedicine: The prevalence of heat-related illnesses and associated factors among rice farmers in Vietnam](https://pubmed.ncbi.nlm.nih.gov/36453470/) | Cross-sectional survey of self-reported symptoms | Ha Tinh province, Viet Nam (rice) | 2023 | 1 |
+[International Journal of Environmental Research and Public Health: Heat stress, physiological response, and heat-related symptoms among Thai sugarcane workers](https://pubmed.ncbi.nlm.nih.gov/32882881/) | Field study with pre- and post-shift measurements | Thailand (sugarcane harvest) | 2020 | 1 |
+[Annals of Work Exposures and Health: High levels of heat stress among sugarcane workers in Thailand](https://pubmed.ncbi.nlm.nih.gov/39899707/) | Full-shift field heat measurements in two seasons (300 workers) | Nakhon Sawan, Thailand (sugarcane) | 2025 | 1 |
+[International Archives of Occupational and Environmental Health: Occupational related heat stress exposure and heat-related symptoms among sugarcane workers in Thailand](https://pubmed.ncbi.nlm.nih.gov/42303799/) | Field heat measurements with symptom survey (295 workers) | Nakhon Sawan, Thailand (sugarcane) | 2026 | 1 |
+[Scandinavian Journal of Work, Environment and Health: Effect of occupation-related heat stress exposure on productivity among sugarcane workers in Thailand](https://pubmed.ncbi.nlm.nih.gov/42853598/) | Field heat measurements with output counts (287 workers) | Nakhon Sawan, Thailand (sugarcane) | 2026 | 1 |
+[Industrial Health: Risk factors associated with heat-related illness among sugarcane farmers in Thailand](https://pubmed.ncbi.nlm.nih.gov/34819408/) | Cross-sectional survey with body-composition tests (200 farmers) | Kamphaeng Phet, Thailand (sugarcane) | 2022 | 1 |
+[Human and Ecological Risk Assessment: Cross-shift change of acute kidney injury biomarkers in sugarcane farmers and cutters](https://pubmed.ncbi.nlm.nih.gov/34290492/) | Cross-sectional field study with pre- and post-shift urine markers | Thailand (sugarcane) | 2021 | 1 |
+[International Journal of Environmental Health Research: The effects of heat exposure on tropical farm workers in Malaysia: six-month physiological health monitoring](https://pubmed.ncbi.nlm.nih.gov/35157533/) | Six-month follow-up of farmworkers | Malaysia | 2023 | 1 |
+[Kidney International Reports: Occupational heat stress and kidney health in salt pan workers](https://pubmed.ncbi.nlm.nih.gov/37441492/) | Field study with pre- and post-shift measurements and blood tests (352 workers) | Seven salt pans, India | 2023 | 1 |
+[Roczniki Panstwowego Zakladu Higieny: Effect of heat exposure on dehydration and kidney function among sea salt workers in Thailand](https://pubmed.ncbi.nlm.nih.gov/34928120/) | Small cross-sectional field study (50 workers) | Thailand (sea salt farms) | 2021 | 1 |
+[Kidney International Reports: Heat stress nephropathy in CKD of uncertain etiology hotspots of Bargarh district, Odisha, India](https://pubmed.ncbi.nlm.nih.gov/41141547/) | Cross-sectional screening with urine, blood and biopsy tests | Bargarh district, Odisha, India (farming villages) | 2025 | 1 |
+[Preventive Medicine Reports: Relevance of heat stress and dehydration to chronic kidney disease (CKDu) in Sri Lanka](https://pubmed.ncbi.nlm.nih.gov/31304082/) | Cross-sectional survey with urine tests (261 workers) | North Central Province, Sri Lanka | 2019 | 1 |
+[Scientific Reports: Quantifying the impact of heat stress on labour productivity in outdoor workplaces in Southern India amid a changing climate](https://pubmed.ncbi.nlm.nih.gov/41857093/) | Field heat measurements with a survey of reported productivity loss (1,560 outdoor workers) | Tamil Nadu, India (informal outdoor work) | 2026 | 1 |
+[Current Environmental Health Reports: Trends in occupational heat-health research in low- and middle-income countries: a mapping review](https://pubmed.ncbi.nlm.nih.gov/42905195/) | Mapping review of 210 field reports | Low- and middle-income countries | 2026 | 1 |
 
 Ideas from history and development thinking shaped how this page looks at power, agency and local knowledge; none is used as evidence of present-day conditions. Cotton is the first value chain here; the same structure can hold others once their evidence is checked. Know a source we missed? [Tell us through the join form](https://beattheheat.asia/join/).
 

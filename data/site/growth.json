@@ -692,6 +692,19 @@
       "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
     },
     {
+      "id": "g-agri-heat-strain", "kind": "evidence", "root": "practical", "added": "2026-11-20", "pr": null,
+      "title": "Heat strain measured in Asian field work, beside the cotton page",
+      "why": "No study has measured heat strain among cotton workers in Asia, so the cotton page now sets out what researchers found in neighbouring work: rice and sugarcane fields, farming villages and salt pans in India, Thailand, Viet Nam, Malaysia and Sri Lanka. It keeps strain, symptoms, kidneys, output and the gaps in the research apart, and names what a cotton study could measure.",
+      "places": ["india", "thailand", "sri-lanka", "region"], "people": ["workers", "farmers", "women"], "topics": ["heatrules"],
+      "event": { "what": "Evidence added", "date": "2026-11-20" },
+      "finding": { "text": "bundles collected fell by about 5% for each degree of WBGT above 26°C", "source": ["Sahu et al., Industrial Health: Heat exposure, cardiovascular stress and work productivity in rice harvesters in India, 2013", "https://pubmed.ncbi.nlm.nih.gov/23685851/"] },
+      "review": "Eighteen studies found through Europe PMC, staged and checked on GitHub; all 18 claims passed (one source showed the checker a cookie wall on the first pass and was re-checked). None is about cotton, and the page says so. One study found no association, and is shown for that reason.",
+      "effort": { "asked": "What have field studies measured about heat strain among agricultural workers in South and Southeast Asia?", "inbox": "data/inbox/2026-11-agri-heat", "dropped": "research/2026-11/agri-heat/dropped-after-check.json",
+                  "open": "Measured field studies from Pakistan and Bangladesh; any field trial of shade, water or rest in Asian agriculture; heat and pesticides measured together in cotton." },
+      "pages": [["/cotton-and-heat/", "Heat from field to factory"]], "action": ["Read the nearby evidence", "/cotton-and-heat/#nearby-evidence"],
+      "links": [{ "to": "lever:heatrules", "why": "The studies show heat at work exceeding occupational limits in rice, sugarcane and salt work, which is what heat-safe work rules address.", "basis": "record" }]
+    },
+    {
       "id": "g-cotton-heat", "kind": "tool", "root": "practical", "added": "2026-11-20", "pr": null,
       "title": "Heat from field to factory: cotton, informal work and who can stop",
       "why": "A new page follows cotton from field preparation and hand-picking through yards and ginning to the factory, keeping heat on people, heat on the crop and harm to livelihoods apart. It asks who can actually stop work in the heat, lists measures with who acts and who pays, and links both ways with Heat inside factories.",
