@@ -268,6 +268,39 @@
    "384 employees": true,
    "81.25%": true,
    "diminished concentration": true
+  },
+  "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html": {
+   "Hot Environments": true,
+   "overall physiological response resulting from heat stress": true,
+   "Mechanical aids, such as carts and turn tables": true,
+   "low-emissivity material": true,
+   "Insulation reduces the heat exchange": true,
+   "Shields stop radiated heat from reaching work areas": true,
+   "leaky steam valves": true,
+   "dehumidification": true,
+   "cooled observation booths are commonly used": true,
+   "localized air conditioning": true,
+   "Fans do not cool the air": true,
+   "Establish rest areas in cooler environments": true,
+   "about one litre of water per hour": true,
+   "every 15 to 20 minutes": true,
+   "especially those that are strenuous, to cooler times of the day": true,
+   "Rotate workers throughout the day": true,
+   "Heat Stress Management Program": true,
+   "Emergency response planning": true
+  },
+  "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html": {
+   "Hot Environments": true,
+   "combined contributions of metabolic heat, environmental factors, and clothing requirements": true,
+   "hot metal, furnaces or steam pipes": true,
+   "common example of a source of radiant heat": true,
+   "the air cannot accept more moisture": true,
+   "can hold in heat and moisture": true,
+   "Heavy PPE can also increase workers": true,
+   "women tend to have a lower sweat rate": true,
+   "cardiovascular fitness, body size, and acclimatization": true,
+   "no conclusive evidence of the teratogenic effects": true,
+   "first trimester": true
   }
  },
  "https://www.osha.gov/heat-exposure/controls": "OK",
@@ -298,5 +331,7 @@
  "https://pubmed.ncbi.nlm.nih.gov/42055079/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/42897938/": "OK",
  "https://pubmed.ncbi.nlm.nih.gov/40751142/": "OK",
- "https://pubmed.ncbi.nlm.nih.gov/41559604/": "OK"
+ "https://pubmed.ncbi.nlm.nih.gov/41559604/": "OK",
+ "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html": "OK",
+ "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html": "OK"
 }

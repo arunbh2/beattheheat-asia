@@ -739,7 +739,8 @@
   "claims": [
    "c-wiskel"
   ],
-  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261120170938/https://pubmed.ncbi.nlm.nih.gov/42905195/"
  },
  {
   "id": "src-fh-sheth",
@@ -877,7 +878,8 @@
    "c-cc-resched",
    "c-cc-programme"
   ],
-  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261004063044/https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
  },
  {
   "id": "src-fh-ccohs-health",
@@ -912,6 +914,7 @@
    "c-cc-women",
    "c-cc-pregnancy"
   ],
-  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261020200917/https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
  }
 ]
