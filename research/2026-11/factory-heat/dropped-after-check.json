@@ -124,14 +124,5 @@
    "euosha: \"adequate for human beings\"",
    "euosha: \"check the national legislation\""
   ]
- },
- {
-  "id": "c-jay",
-  "where": "Interventions: active cooling",
-  "text": "A 2021 Lancet review argues that reliance on air conditioning is unsustainable and further marginalises the communities most vulnerable to heat, and summarises the benefits and limits of cooling strategies for settings including workplaces.",
-  "missing": [
-   "jay: \"air conditioning is unsustainable\"",
-   "jay: \"workplaces\""
-  ]
  }
 ]

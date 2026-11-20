@@ -422,6 +422,17 @@
   ]
  },
  {
+  "id": "c-jay",
+  "where": "Interventions: active cooling",
+  "text": "A 2021 Lancet review argues that reliance on air conditioning is unsustainable and further marginalises the communities most vulnerable to heat, and summarises the benefits and limits of cooling strategies for settings including workplaces.",
+  "sources": [
+   {
+    "label": "Jay et al., The Lancet: Reducing the health effects of hot weather and heat extremes: from personal cooling strategies to green cities, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34419206/"
+   }
+  ]
+ },
+ {
   "id": "c-fan",
   "where": "Interventions: fans",
   "text": "A biophysical modelling study across 108 cities found electric fans would not have worsened heat stress for healthy young adults on most hot days, and proposed humidity-dependent temperature thresholds above which fans worsen heat stress; it modelled population groups, not factory tasks.",
