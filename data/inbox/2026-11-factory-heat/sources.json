@@ -584,5 +584,337 @@
   ],
   "archive": "https://web.archive.org/web/20261112061517/https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
   "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-euosha-pdf",
+  "type": "source",
+  "keys": [
+   "euosha-pdf"
+  ],
+  "title": "Heat at work: guidance for workplaces",
+  "publisher": "European Agency for Safety and Health at Work (EU-OSHA)",
+  "year": 2023,
+  "url": "https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf",
+  "kind": "Occupational guidance",
+  "where": "European Union",
+  "expect": [
+   "Heat at work",
+   "metabolic heat, clothing, and environmental factors",
+   "humidity and radiant heat",
+   "Mild or moderate heat stress can lead to discomfort",
+   "not harmful to health",
+   "hot metal, furnaces and steam pipes",
+   "common example of a source of radiant heat",
+   "Indoor workers are also at risk of heat stress",
+   "poorly cooled buildings",
+   "reducing heat release",
+   "heat-absorbing shielding",
+   "low-emissivity material",
+   "separating them from workers",
+   "leaky steam valves",
+   "removing heated air or steam from hot processes using local exhaust ventilation",
+   "reflective film on windows",
+   "positioning workstations away from direct sunlight",
+   "particularly in humid conditions",
+   "without compromising technical ventilation",
+   "as close as possible to the work site",
+   "cooled observation booths",
+   "revised regularly",
+   "do not increase the risk for workers",
+   "address risks to pregnant workers",
+   "core (internal body) temperature may rise",
+   "about one litre of water every hour",
+   "every 15 to 20 minutes",
+   "adequate for human beings",
+   "check the national legislation"
+  ],
+  "claims": [
+   "c-eu-stress",
+   "c-eu-discomfort",
+   "c-eu-radiant",
+   "c-eu-indoor",
+   "c-eu-source",
+   "c-eu-steam",
+   "c-eu-sun",
+   "c-eu-air",
+   "c-eu-rest",
+   "c-eu-booth",
+   "c-eu-review",
+   "c-eu-pregnancy",
+   "c-eu-water",
+   "c-eu-law"
+  ],
+  "archive": "https://web.archive.org/web/20250710224455/https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf",
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-yeasmin",
+  "type": "source",
+  "keys": [
+   "yeasmin"
+  ],
+  "title": "Heat impacts on health and productivity: the case of two ready-made garment factories in tropical Bangladesh",
+  "publisher": "Yeasmin et al., Environmental and Occupational Health Practice",
+  "year": 2025,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40568029/",
+  "kind": "Qualitative field study in operating factories",
+  "where": "Two garment factories in Dhaka, Bangladesh",
+  "expect": [
+   "garment",
+   "two RMG factories",
+   "headaches, dizziness, fatigue and nausea",
+   "quota pressures"
+  ],
+  "claims": [
+   "c-yeasmin"
+  ],
+  "archive": "https://web.archive.org/web/20260922025903/https://pubmed.ncbi.nlm.nih.gov/40568029/",
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-bach-roof",
+  "type": "source",
+  "keys": [
+   "bach-roof"
+  ],
+  "title": "Retrofitting passive cooling strategies to combat heat stress in the face of climate change: a case study of a ready-made garment factory in Dhaka, Bangladesh",
+  "publisher": "Bach et al., Energy and Buildings",
+  "year": 2023,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37601430/",
+  "kind": "Building simulation (modelling)",
+  "where": "A modelled garment factory in Dhaka, Bangladesh",
+  "expect": [
+   "garment",
+   "four rooftop retrofits",
+   "insulated white cool roof",
+   "reduce indoor air temperatures by around 2",
+   "603 h"
+  ],
+  "claims": [
+   "c-bach-roof"
+  ],
+  "archive": "https://web.archive.org/web/20250205050703/https://pubmed.ncbi.nlm.nih.gov/37601430/",
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-venugopal",
+  "type": "source",
+  "keys": [
+   "venugopal"
+  ],
+  "title": "Occupational heat stress prevention interventions: a scoping review of evidence and gaps",
+  "publisher": "Venugopal et al., Journal of Occupational Health",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42799657/",
+  "kind": "Scoping review",
+  "where": "Global",
+  "expect": [
+   "scoping review",
+   "90 studies were included",
+   "controlled laboratory settings (68%)",
+   "engineering controls (4)"
+  ],
+  "claims": [
+   "c-venugopal"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-wiskel",
+  "type": "source",
+  "keys": [
+   "wiskel"
+  ],
+  "title": "Trends in occupational heat-health research in low- and middle-income countries: a mapping review",
+  "publisher": "Wiskel et al., Current Environmental Health Reports",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42905195/",
+  "kind": "Mapping review",
+  "where": "Low- and middle-income countries",
+  "expect": [
+   "mapping review",
+   "only 9% included some form of intervention",
+   "39% of reports not including any female participants"
+  ],
+  "claims": [
+   "c-wiskel"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261120170938/https://pubmed.ncbi.nlm.nih.gov/42905195/"
+ },
+ {
+  "id": "src-fh-sheth",
+  "type": "source",
+  "keys": [
+   "sheth"
+  ],
+  "title": "Occupational heat stress and the role of wearable cooling interventions: a systematic review and meta-analysis of physiological and perceptual outcomes",
+  "publisher": "Sheth et al., Scandinavian Journal of Work, Environment and Health",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42055079/",
+  "kind": "Systematic review and meta-analysis",
+  "where": "Global",
+  "expect": [
+   "wearable cooling",
+   "Sixty-nine studies",
+   "water/ice and PCM",
+   "low to very low"
+  ],
+  "claims": [
+   "c-sheth"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-sawmill",
+  "type": "source",
+  "keys": [
+   "sawmill"
+  ],
+  "title": "Characterizing heat health hazards and receptivity of cooling interventions among indoor lumber mill workers in southern Thailand",
+  "publisher": "Journal of Agromedicine",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42897938/",
+  "kind": "Pilot randomised crossover field trial in an operating workplace",
+  "where": "An indoor sawmill in southern Thailand",
+  "expect": [
+   "sawmill",
+   "pilot randomized crossover field trial",
+   "12 sawmill workers",
+   "most workers preferred VEST",
+   "effective but interruptive"
+  ],
+  "claims": [
+   "c-sawmill"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-foundry",
+  "type": "source",
+  "keys": [
+   "foundry"
+  ],
+  "title": "Improving heat stress prevention through targeted education in hot and humid workplaces: a study in a foundry industry",
+  "publisher": "BMC Public Health",
+  "year": 2025,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40751142/",
+  "kind": "Controlled before-and-after study in an operating workplace",
+  "where": "A foundry (country not stated in the abstract)",
+  "expect": [
+   "foundry",
+   "pre-posttest design",
+   "50 workers in a foundry industry",
+   "control group"
+  ],
+  "claims": [
+   "c-foundry"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-srilanka",
+  "type": "source",
+  "keys": [
+   "srilanka"
+  ],
+  "title": "Workplace health and safety under climate stress in Sri Lankan apparel SMEs",
+  "publisher": "Senadeera et al., BMC Public Health",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41559604/",
+  "kind": "Mixed-methods survey in operating factories",
+  "where": "Export processing zones, Sri Lanka",
+  "expect": [
+   "apparel",
+   "384 employees",
+   "81.25%",
+   "diminished concentration"
+  ],
+  "claims": [
+   "c-srilanka"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-ccohs-ctrl",
+  "type": "source",
+  "keys": [
+   "ccohs-ctrl"
+  ],
+  "title": "Hot environments: control measures (OSH Answers)",
+  "publisher": "Canadian Centre for Occupational Health and Safety (CCOHS)",
+  "year": 2026,
+  "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html",
+  "kind": "Occupational guidance",
+  "where": "Canada",
+  "expect": [
+   "Hot Environments",
+   "overall physiological response resulting from heat stress",
+   "Mechanical aids, such as carts and turn tables",
+   "low-emissivity material",
+   "Insulation reduces the heat exchange",
+   "Shields stop radiated heat from reaching work areas",
+   "leaky steam valves",
+   "dehumidification",
+   "cooled observation booths are commonly used",
+   "localized air conditioning",
+   "Fans do not cool the air",
+   "Establish rest areas in cooler environments",
+   "about one litre of water per hour",
+   "every 15 to 20 minutes",
+   "especially those that are strenuous, to cooler times of the day",
+   "Rotate workers throughout the day",
+   "Heat Stress Management Program",
+   "Emergency response planning"
+  ],
+  "claims": [
+   "c-cc-stress",
+   "c-cc-source",
+   "c-cc-steam",
+   "c-cc-booth",
+   "c-cc-fans",
+   "c-cc-rest",
+   "c-cc-water",
+   "c-cc-resched",
+   "c-cc-programme"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261004063044/https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+ },
+ {
+  "id": "src-fh-ccohs-health",
+  "type": "source",
+  "keys": [
+   "ccohs-health"
+  ],
+  "title": "Hot environments: health effects and first aid (OSH Answers)",
+  "publisher": "Canadian Centre for Occupational Health and Safety (CCOHS)",
+  "year": 2026,
+  "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html",
+  "kind": "Occupational guidance",
+  "where": "Canada",
+  "expect": [
+   "Hot Environments",
+   "combined contributions of metabolic heat, environmental factors, and clothing requirements",
+   "hot metal, furnaces or steam pipes",
+   "common example of a source of radiant heat",
+   "the air cannot accept more moisture",
+   "can hold in heat and moisture",
+   "Heavy PPE can also increase workers",
+   "women tend to have a lower sweat rate",
+   "cardiovascular fitness, body size, and acclimatization",
+   "no conclusive evidence of the teratogenic effects",
+   "first trimester"
+  ],
+  "claims": [
+   "c-cc-stress",
+   "c-cc-radiant",
+   "c-cc-humid",
+   "c-cc-ppe",
+   "c-cc-women",
+   "c-cc-pregnancy"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261020200917/https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
  }
 ]

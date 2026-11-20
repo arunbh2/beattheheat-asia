@@ -127,9 +127,9 @@
    "functional referral systems": true
   },
   "https://pubmed.ncbi.nlm.nih.gov/34419206/": {
-   "cooling": false,
-   "air conditioning is unsustainable": false,
-   "workplaces": false
+   "cooling": true,
+   "air conditioning is unsustainable": true,
+   "workplaces": true
   },
   "https://pubmed.ncbi.nlm.nih.gov/34119011/": {
    "fan": true,
@@ -150,6 +150,13 @@
   "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": {
    "heat stress": true,
    "workers": true
+  },
+  "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": {
+   "Heat Stress": true,
+   "wet bulb": true,
+   "globe temperature": true,
+   "WBGT": true,
+   "heat strain": true
   },
   "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": {
    "heat stress": true,
@@ -182,12 +189,118 @@
    "adequate for human beings": true,
    "check the national legislation": true
   },
-  "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": {
-   "Heat Stress": true,
-   "wet bulb": true,
-   "globe temperature": true,
-   "WBGT": true,
-   "heat strain": true
+  "https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf": {
+   "Heat at work": true,
+   "metabolic heat, clothing, and environmental factors": true,
+   "humidity and radiant heat": true,
+   "Mild or moderate heat stress can lead to discomfort": true,
+   "not harmful to health": true,
+   "hot metal, furnaces and steam pipes": true,
+   "common example of a source of radiant heat": true,
+   "Indoor workers are also at risk of heat stress": true,
+   "poorly cooled buildings": true,
+   "reducing heat release": true,
+   "heat-absorbing shielding": true,
+   "low-emissivity material": true,
+   "separating them from workers": true,
+   "leaky steam valves": true,
+   "removing heated air or steam from hot processes using local exhaust ventilation": true,
+   "reflective film on windows": true,
+   "positioning workstations away from direct sunlight": true,
+   "particularly in humid conditions": true,
+   "without compromising technical ventilation": true,
+   "as close as possible to the work site": true,
+   "cooled observation booths": true,
+   "revised regularly": true,
+   "do not increase the risk for workers": true,
+   "address risks to pregnant workers": true,
+   "core (internal body) temperature may rise": true,
+   "about one litre of water every hour": true,
+   "every 15 to 20 minutes": true,
+   "adequate for human beings": true,
+   "check the national legislation": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/40568029/": {
+   "garment": true,
+   "two RMG factories": true,
+   "headaches, dizziness, fatigue and nausea": true,
+   "quota pressures": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/37601430/": {
+   "garment": true,
+   "four rooftop retrofits": true,
+   "insulated white cool roof": true,
+   "reduce indoor air temperatures by around 2": true,
+   "603 h": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42799657/": {
+   "scoping review": true,
+   "90 studies were included": true,
+   "controlled laboratory settings (68%)": true,
+   "engineering controls (4)": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42905195/": {
+   "mapping review": true,
+   "only 9% included some form of intervention": true,
+   "39% of reports not including any female participants": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42055079/": {
+   "wearable cooling": true,
+   "Sixty-nine studies": true,
+   "water/ice and PCM": true,
+   "low to very low": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42897938/": {
+   "sawmill": true,
+   "pilot randomized crossover field trial": true,
+   "12 sawmill workers": true,
+   "most workers preferred VEST": true,
+   "effective but interruptive": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/40751142/": {
+   "foundry": true,
+   "pre-posttest design": true,
+   "50 workers in a foundry industry": true,
+   "control group": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/41559604/": {
+   "apparel": true,
+   "384 employees": true,
+   "81.25%": true,
+   "diminished concentration": true
+  },
+  "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html": {
+   "Hot Environments": true,
+   "overall physiological response resulting from heat stress": true,
+   "Mechanical aids, such as carts and turn tables": true,
+   "low-emissivity material": true,
+   "Insulation reduces the heat exchange": true,
+   "Shields stop radiated heat from reaching work areas": true,
+   "leaky steam valves": true,
+   "dehumidification": true,
+   "cooled observation booths are commonly used": true,
+   "localized air conditioning": true,
+   "Fans do not cool the air": true,
+   "Establish rest areas in cooler environments": true,
+   "about one litre of water per hour": true,
+   "every 15 to 20 minutes": true,
+   "especially those that are strenuous, to cooler times of the day": true,
+   "Rotate workers throughout the day": true,
+   "Heat Stress Management Program": true,
+   "Emergency response planning": true
+  },
+  "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html": {
+   "Hot Environments": true,
+   "combined contributions of metabolic heat, environmental factors, and clothing requirements": true,
+   "hot metal, furnaces or steam pipes": true,
+   "common example of a source of radiant heat": true,
+   "the air cannot accept more moisture": true,
+   "can hold in heat and moisture": true,
+   "Heavy PPE can also increase workers": true,
+   "women tend to have a lower sweat rate": true,
+   "cardiovascular fitness, body size, and acclimatization": true,
+   "no conclusive evidence of the teratogenic effects": true,
+   "first trimester": true
   }
  },
  "https://www.osha.gov/heat-exposure/controls": "OK",
@@ -208,6 +321,17 @@
  "https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf": "OK",
  "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0": "REDIRECT",
  "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": "OK",
+ "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": "OK",
  "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": "FAIL",
- "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": "OK"
+ "https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf": "FAIL",
+ "https://pubmed.ncbi.nlm.nih.gov/40568029/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/37601430/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42799657/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42905195/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42055079/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42897938/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/40751142/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/41559604/": "OK",
+ "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html": "OK",
+ "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html": "OK"
 }

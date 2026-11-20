@@ -422,6 +422,17 @@
   ]
  },
  {
+  "id": "c-jay",
+  "where": "Interventions: active cooling",
+  "text": "A 2021 Lancet review argues that reliance on air conditioning is unsustainable and further marginalises the communities most vulnerable to heat, and summarises the benefits and limits of cooling strategies for settings including workplaces.",
+  "sources": [
+   {
+    "label": "Jay et al., The Lancet: Reducing the health effects of hot weather and heat extremes: from personal cooling strategies to green cities, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34419206/"
+   }
+  ]
+ },
+ {
   "id": "c-fan",
   "where": "Interventions: fans",
   "text": "A biophysical modelling study across 108 cities found electric fans would not have worsened heat stress for healthy young adults on most hot days, and proposed humidity-dependent temperature thresholds above which fans worsen heat stress; it modelled population groups, not factory tasks.",
@@ -462,6 +473,252 @@
    {
     "label": "World Health Organization and World Meteorological Organization: WHO and WMO issue new report and guidance to protect workers from increasing heat stress, 2025",
     "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress"
+   }
+  ]
+ },
+ {
+  "id": "c-yeasmin",
+  "where": "Women's health and work; breaks and water",
+  "text": "In a qualitative study at two garment factories in Dhaka in 2022, workers and health professionals attributed headaches, dizziness, fatigue and nausea to heat, and quota pressures restricted workers' use of drinking water.",
+  "sources": [
+   {
+    "label": "Yeasmin et al., Environmental and Occupational Health Practice: Heat impacts on health and productivity: the case of two ready-made garment factories in tropical Bangladesh, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40568029/"
+   }
+  ]
+ },
+ {
+  "id": "c-bach-roof",
+  "where": "Interventions: roofs",
+  "text": "A building simulation of a typical non-air-conditioned garment factory in Dhaka found that each of four rooftop retrofits (green roof, rooftop shading, white cool roof, insulated white cool roof) lowered indoor air temperature by around 2 °C on average and cut annual work-hours above WBGT limits for moderate work by up to 603.",
+  "sources": [
+   {
+    "label": "Bach et al., Energy and Buildings: Retrofitting passive cooling strategies to combat heat stress in the face of climate change: a case study of a ready-made garment factory in Dhaka, Bangladesh, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37601430/"
+   }
+  ]
+ },
+ {
+  "id": "c-venugopal",
+  "where": "Evidence gaps",
+  "text": "A 2026 scoping review of 90 occupational heat-stress intervention studies found 68% were in controlled laboratory settings and 73% in developed countries, with only four testing engineering controls; field-based effectiveness data were limited.",
+  "sources": [
+   {
+    "label": "Venugopal et al., Journal of Occupational Health: Occupational heat stress prevention interventions: a scoping review of evidence and gaps, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42799657/"
+   }
+  ]
+ },
+ {
+  "id": "c-wiskel",
+  "where": "Evidence gaps",
+  "text": "A 2026 mapping review of 210 field reports on workers' heat in low- and middle-income countries found only 9% included any intervention to protect workers, and 39% included no female participants.",
+  "sources": [
+   {
+    "label": "Wiskel et al., Current Environmental Health Reports: Trends in occupational heat-health research in low- and middle-income countries: a mapping review, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42905195/"
+   }
+  ]
+ },
+ {
+  "id": "c-sheth",
+  "where": "Interventions: cooling garments",
+  "text": "A 2026 meta-analysis of 69 trials found wearable cooling reduced core temperature and heart rate, most consistently with water or ice and phase-change garments, at low to very low certainty.",
+  "sources": [
+   {
+    "label": "Sheth et al., Scandinavian Journal of Work, Environment and Health: Occupational heat stress and the role of wearable cooling interventions: a systematic review and meta-analysis of physiological and perceptual outcomes, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42055079/"
+   }
+  ]
+ },
+ {
+  "id": "c-sawmill",
+  "where": "Interventions: cooling garments and cool rest",
+  "text": "In a pilot randomised crossover field trial with 12 workers in an indoor sawmill in Thailand, a combined cooling station (water, fans, dousing and cooling towels) and a phase-change cooling vest each lowered core temperature and heart rate compared with no cooling; workers found the station effective but interruptive and most preferred the vest.",
+  "sources": [
+   {
+    "label": "Journal of Agromedicine: Characterizing heat health hazards and receptivity of cooling interventions among indoor lumber mill workers in southern Thailand, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42897938/"
+   }
+  ]
+ },
+ {
+  "id": "c-foundry",
+  "where": "Interventions: training",
+  "text": "In a controlled before-and-after study with 50 foundry workers, a two-session heat-stress education programme improved workers' perception, awareness, knowledge and practice scores compared with a control group; it did not measure heat exposure or illness.",
+  "sources": [
+   {
+    "label": "BMC Public Health: Improving heat stress prevention through targeted education in hot and humid workplaces: a study in a foundry industry, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40751142/"
+   }
+  ]
+ },
+ {
+  "id": "c-srilanka",
+  "where": "Health: injury pathway",
+  "text": "In a survey of 384 workers at small and medium apparel firms in Sri Lanka's export zones, 81% reported heat stress, and workers linked headaches, dehydration and diminished concentration to needle injuries, by their own accounts.",
+  "sources": [
+   {
+    "label": "Senadeera et al., BMC Public Health: Workplace health and safety under climate stress in Sri Lankan apparel SMEs, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41559604/"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-stress",
+  "where": "Understand the heat",
+  "text": "CCOHS, citing ACGIH, defines heat stress as the net heat load on a worker from metabolic heat, environmental factors and clothing, and heat strain as the overall physiological response to it.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   },
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-radiant",
+  "where": "Understand the heat",
+  "text": "The body gains radiant heat from hot objects such as hot metal, furnaces or steam pipes without touching them; the sun is a common source.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-humid",
+  "where": "Understand the heat",
+  "text": "In hot and humid workplaces, sweat evaporation cools the body less because the air cannot accept more moisture.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-ppe",
+  "where": "Understand the heat; clothing",
+  "text": "Protective equipment such as overalls, aprons, gowns, hoods and gloves can hold in heat and moisture, and heavy equipment adds physical effort.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-source",
+  "where": "Interventions: heat sources and workload",
+  "text": "CCOHS lists engineering controls including automation and mechanical aids such as carts to reduce body heat from heavy work, covering hot surfaces with low-emissivity material, insulating hot surfaces, and reflective or absorbent shields that stop radiated heat reaching work areas.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-steam",
+  "where": "Interventions: steam and humidity",
+  "text": "Air conditioning, dehumidification and eliminating open hot water baths, drains and leaky steam valves help reduce humidity.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-booth",
+  "where": "Interventions: cooled enclosures",
+  "text": "Ventilation, localised air conditioning and cooled observation booths are commonly used; booths let workers cool down after brief intense exposure while still monitoring equipment.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-fans",
+  "where": "Interventions: fans",
+  "text": "Fans do not cool the air; they move it, which can keep people cooler by increasing sweat evaporation.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-rest",
+  "where": "Interventions: rest",
+  "text": "CCOHS advises establishing rest areas in cooler environments, with break length set by the work and the temperature.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-water",
+  "where": "Interventions: water",
+  "text": "On average about one litre of water an hour may be needed to replace fluid loss, with drinking encouraged every 15 to 20 minutes: an average from guidance, not an individual prescription.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-resched",
+  "where": "Interventions: work organisation",
+  "text": "CCOHS lists moving strenuous work to cooler times of day and rotating workers through the day to reduce exposure to heat and exertion.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-programme",
+  "where": "Interventions: management",
+  "text": "Measurement and control measures form part of a heat stress management program with written plans for training, monitoring, control measures, recordkeeping and emergency response.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-women",
+  "where": "Women's health and work",
+  "text": "CCOHS notes that women tend to have a lower sweat rate than men of equal fitness, size and acclimatisation, and that differences in heat tolerance diminish when fitness, body size and acclimatisation are taken into account.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+   }
+  ]
+ },
+ {
+  "id": "c-cc-pregnancy",
+  "where": "Women's health and work",
+  "text": "CCOHS notes there is no conclusive evidence of birth defects from high temperatures in humans, while NIOSH recommends that a pregnant worker's body temperature not exceed 39 to 39.5 °C in the first trimester.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers), 2026",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
    }
   ]
  }

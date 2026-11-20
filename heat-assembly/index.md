@@ -1,7 +1,7 @@
 ---
 title: "The Heat Assembly"
 url: https://beattheheat.asia/heat-assembly/
-updated: 2026-11-19
+updated: 2026-11-20
 licence: CC BY 4.0
 ---
 

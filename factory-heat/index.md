@@ -1,7 +1,7 @@
 ---
 title: "Heat inside factories"
 url: https://beattheheat.asia/factory-heat/
-updated: 2026-11-19
+updated: 2026-11-20
 licence: CC BY 4.0
 ---
 
@@ -349,9 +349,11 @@ A fan, a cooling vest or a misting system can feel pleasant at once. Whether it 
 
 Where this page gives a number, it names its source and the conditions it applies to. A figure from a laboratory, another climate or another kind of work does not transfer to your factory without checking.
 
-Sources for this section (2)
+Sources for this section (4)
 
 - [US Occupational Safety and Health Administration (OSHA): OSHA Technical Manual, Section III, Chapter 4: Heat Stress (2017)](https://www.osha.gov/otm/section-3-health-hazards/chapter-4) Occupational guidance · United States
+- [Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers) (2026)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html) Occupational guidance · Canada
+- [Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers) (2026)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html) Occupational guidance · Canada
 - [Cornell Global Labor Institute: Warming to the Idea? Labor governance and extreme heat in apparel production (2025)](https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf) Policy brief with assessment data · Apparel-producing countries
 
 Health and equity
@@ -372,7 +374,7 @@ Measured outcomes
 
 What was measured on people under defined conditions. In a laboratory simulation of garment work, core temperature, heart rate and sweat loss were measured for each cooling option. That shows physiological strain under those conditions; it does not measure illness, injury or long-term health in a factory.
 
-- **Fatigue and attention.** Heat strain and dehydration make people tired and slower to react. Where needles, blades, presses and moving machinery are close at hand, that is a route from heat to injury; this page found no checked study measuring that route in garment factories.
+- **Fatigue and attention.** Heat strain and dehydration make people tired and slower to react. Where needles, blades, presses and moving machinery are close at hand, that is a route from heat to injury. In a survey at Sri Lankan apparel firms, workers linked headaches, dehydration and poorer concentration to needle injuries, by their own accounts; no checked study on this page measures that route directly.
 - **Dehydration.** Sweat losses build over a shift. Water helps only if it is close, safe, cool and people have time and permission to drink, and to use a toilet afterwards.
 - **Recovery.** The body recovers in cool rest, and overnight. Hot homes and short nights carry strain into the next shift.
 
@@ -384,13 +386,17 @@ From a laboratory study
 
 In the laboratory simulation, the cooling options lowered core temperature in men more often than in women: women's core temperature fell only with air conditioning. The tasks differed by design (men ironed, women sewed) and the participants were healthy volunteers, so the result points to a question for real factories, not a settled difference.
 
+- What the body brings
+
+Body size, fitness, acclimatisation, age and health all shape heat tolerance, and individuals differ widely. Occupational guidance notes that women tend to sweat less than men of the same fitness, size and acclimatisation, and that differences in heat tolerance narrow once those are taken into account. Physiology is one part; the arrangements below are often the larger one.
+
 - Tasks and authority
 
 Women are often concentrated in seated, target-paced sewing and finishing work, and less often in supervisory roles that decide when lines pause, who rests and where fans go. Ask who holds those decisions.
 
 - Targets, piece rates and attendance bonuses
 
-Where pay depends on pieces completed or on a perfect attendance record, a break or a sick day costs money. Protection that ignores this may exist on paper and go unused.
+Where pay depends on pieces completed or on a perfect attendance record, a break or a sick day costs money. In a study at two garment factories in Dhaka, quota pressures restricted workers' use of drinking water. Protection that ignores this may exist on paper and go unused.
 
 - Water and toilets
 
@@ -398,7 +404,7 @@ People drink less when toilets are far, dirty, unsafe or require permission. Wat
 
 - Pregnancy and breastfeeding
 
-Occupational health guidance links a pregnant worker's core temperature rising above 38 °C to risks for the fetus, and suggests doing tasks earlier in the day or in cooler places, with work-rest cycles. Pregnant and breastfeeding workers need reliable access to drinking water. The response is an individual assessment with the worker and her health provider, adjusted tasks, timing or location, and protected earnings, not exclusion from work by default.
+Occupational health guidance links a pregnant worker's core temperature rising above 38 °C to risks for the fetus, and suggests doing tasks earlier in the day or in cooler places, with work-rest cycles. Evidence in humans of harm to the developing baby is not conclusive, so this guidance is precautionary. Pregnant and breastfeeding workers need reliable access to drinking water. The response is an individual assessment with the worker and her health provider, adjusted tasks, timing or location, and protected earnings, not exclusion from work by default.
 
 - Lactation
 
@@ -426,13 +432,17 @@ Accommodation, not exclusion
 
 Protection keeps people in work. Moving a pregnant worker to a cooler task with the same pay, adding a relief operator so a line can pause, or shifting a heavy job to the cooler morning are accommodations. Sending people home without pay, or quietly not hiring them, is not protection.
 
-Sources for this section (8)
+Sources for this section (12)
 
 - [US Occupational Safety and Health Administration (OSHA): OSHA Technical Manual, Section III, Chapter 4: Heat Stress (2017)](https://www.osha.gov/otm/section-3-health-hazards/chapter-4) Occupational guidance · United States
+- [Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers) (2026)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html) Occupational guidance · Canada
+- [Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers) (2026)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html) Occupational guidance · Canada
 - [Chea et al., BMC Public Health: Heat stress among women garment workers in Cambodia in cool and hot months (2025)](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0) Survey in operating factories · Phnom Penh, Cambodia
 - [Cornell Global Labor Institute and IFC, with ILO Better Work: The Heat is On: how heat stress impacts the apparel industry, jobs, and worker health (2025)](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf) Research note with field reports · Apparel-producing countries
 - [Smallcombe et al., The Lancet Planetary Health: Sustainable cooling strategies for workers in the ready-made garment factory industry in Bangladesh under simulated extreme heat: a randomised crossover trial (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/) Controlled experimental study · Climate chamber in Australia, simulating a factory in Bangladesh
+- [Senadeera et al., BMC Public Health: Workplace health and safety under climate stress in Sri Lankan apparel SMEs (2026)](https://pubmed.ncbi.nlm.nih.gov/41559604/) Mixed-methods survey in operating factories · Export processing zones, Sri Lanka
 - [Cornell Global Labor Institute: Cooling before it got cool: case studies in heat adaptation in Southeast Asian factories (2026)](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf) Factory case studies · Cambodia and Viet Nam
+- [Yeasmin et al., Environmental and Occupational Health Practice: Heat impacts on health and productivity: the case of two ready-made garment factories in tropical Bangladesh (2025)](https://pubmed.ncbi.nlm.nih.gov/40568029/) Qualitative field study in operating factories · Two garment factories in Dhaka, Bangladesh
 - [Canadian Centre for Occupational Health and Safety (CCOHS): Reproductive health: pregnancy in the workplace (2024)](https://ccohs.gc.ca/oshanswers/psychosocial/wh/reproductive-health-pregnancy-in-the-workplace.html) Occupational guidance · Canada
 - [International Labour Organization (NORMLEX): C183: Maternity Protection Convention, 2000 (No. 183) (2000)](https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C183) International labour standard · Countries that ratify it
 - [GIZ FABRIC Cambodia, with Cornell Global Labor Institute: Mitigating heat stress in the garment, footwear, and travel goods sector (Sustainability Recommendation Paper) (2026)](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf) Recommendation paper from multi-stakeholder consultations · Cambodia
@@ -506,7 +516,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Benefits pressers and anyone working beside the pressing section.
 
 **Evidence**:
-- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls)
+- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Humidity and globe temperature at pressing tables before and after; count of open leak reports and days to fix.
 
@@ -539,7 +549,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Reduces both whole-body heat and burn risk for pressers, boiler operators and maintenance staff.
 
 **Evidence**:
-- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls)
+- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 
 **Measure before and after**: Surface temperatures of pipes; globe and air temperature at nearby workstations; fuel use.
@@ -614,7 +624,7 @@ How it works, when it fits, and its evidence
 
 #### Remote operation and cooled control booths
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** Workers whose job is to watch or control a very hot process from close by.
 
@@ -639,7 +649,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Protects the most exposed operators directly.
 
 **Evidence**:
-- **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Booth temperature and how long operators spend outside it.
 
@@ -684,7 +694,7 @@ Stop the sun's heat getting in through roofs, walls and glass.
 
 #### Reflective (cool) roof surfaces
 
-Controlled experimental study Field report from operating factories
+Controlled experimental study Field report from operating factories Modelling or engineering analysis
 
 **Addresses:** Sun heating the roof, which then radiates heat down onto workers.
 
@@ -711,6 +721,7 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Controlled experimental study.** The trial tested a modified rooftop that lowered the room to 37.5 °C from 40 °C in a climate chamber; it did not test a particular coating. [Smallcombe et al., The Lancet Planetary Health, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/)
 - **Field report from operating factories.** A roof heat shield was one of several measures; its separate effect was not reported. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+- **Modelling or engineering analysis.** A simulation of one Dhaka garment factory; a white cool roof was one of four retrofits tested. [Bach et al., Energy and Buildings, 2023](https://pubmed.ncbi.nlm.nih.gov/37601430/)
 
 **Measure before and after**: Globe temperature below the roof and at work height on comparable sunny afternoons, before and after.
 
@@ -718,7 +729,7 @@ How it works, when it fits, and its evidence
 
 #### Roof and wall insulation
 
-Field report from operating factories
+Field report from operating factories Modelling or engineering analysis
 
 **Addresses:** Heat passing through the roof and walls into the workspace.
 
@@ -744,6 +755,7 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
+- **Modelling or engineering analysis.** An insulated white cool roof was one of four retrofits simulated for a Dhaka garment factory. [Bach et al., Energy and Buildings, 2023](https://pubmed.ncbi.nlm.nih.gov/37601430/)
 
 **Measure before and after**: Ceiling surface and globe temperature at work height, afternoons before and after.
 
@@ -751,7 +763,7 @@ How it works, when it fits, and its evidence
 
 #### Shaded or ventilated roof layers
 
-Field report from operating factories
+Field report from operating factories Modelling or engineering analysis
 
 **Addresses:** The sun striking the roof directly.
 
@@ -777,6 +789,7 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** Rooftop solar panels with new insulation; management-reported, combined effect. [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
+- **Modelling or engineering analysis.** Rooftop shading was one of four retrofits simulated for a Dhaka garment factory. [Bach et al., Energy and Buildings, 2023](https://pubmed.ncbi.nlm.nih.gov/37601430/)
 
 **Measure before and after**: As for cool roofs.
 
@@ -978,7 +991,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Protects the workers nearest the hottest equipment.
 
 **Evidence**:
-- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls)
+- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Globe temperature at the worker's position before and after.
 
@@ -1188,7 +1201,7 @@ How it works, when it fits, and its evidence
 
 #### Workstation fans
 
-Controlled experimental study Modelling or engineering analysis Field report from operating factories
+Controlled experimental study Modelling or engineering analysis Authoritative occupational guidance Field report from operating factories
 
 **Addresses:** Still air at the workstation.
 
@@ -1215,6 +1228,7 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Controlled experimental study.** A fan alone lowered men's heart rate in the simulation; a fan with drinking water lowered men's core temperature. Women's core temperature did not fall with fans. [Smallcombe et al., The Lancet Planetary Health, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/)
 - **Modelling or engineering analysis.** The modelling covers population groups, not factory tasks. [Morris et al., The Lancet Planetary Health, 2021](https://pubmed.ncbi.nlm.nih.gov/34119011/)
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf); [Cornell Global Labor Institute, 2025](https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf)
 
 **Measure before and after**: Air speed and temperature at head height; workers' reports; check fans run during power cuts.
@@ -1223,7 +1237,7 @@ How it works, when it fits, and its evidence
 
 #### Ceiling and large-diameter fans
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** Still air across a whole floor.
 
@@ -1248,7 +1262,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Check coverage of corners and walls.
 
 **Evidence**:
-- **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Air speed across the floor.
 
@@ -1426,7 +1440,7 @@ How it works, when it fits, and its evidence
 
 #### Zoned or workstation cooling
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** A few very hot positions in an otherwise tolerable floor.
 
@@ -1451,7 +1465,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Targets the most exposed.
 
 **Evidence**:
-- **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Temperature at the cooled position and around it.
 
@@ -1459,7 +1473,7 @@ How it works, when it fits, and its evidence
 
 #### Dehumidification with heat removal
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** Humid air that stops sweat evaporating.
 
@@ -1484,7 +1498,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Whole-zone.
 
 **Evidence**:
-- **Proposal requiring validation.** No checked source on this page tests dehumidification in factories. The warning about standalone units follows from where their heat goes, not from a measured study.
+- **Authoritative occupational guidance.** Guidance lists dehumidification among ways to reduce humidity. The warning about standalone units follows from where their heat goes, not from a measured study. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Humidity and air temperature together; a heat stress index.
 
@@ -1492,7 +1506,7 @@ How it works, when it fits, and its evidence
 
 #### Cooled rest rooms
 
-Proposal requiring validation
+Authoritative occupational guidance Field report from operating factories
 
 **Addresses:** Breaks taken in the same heat as work.
 
@@ -1517,7 +1531,8 @@ How it works, when it fits, and its evidence
 **Equity and access**: Benefits those with least time to recover.
 
 **Evidence**:
-- **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
+- **Field report from operating factories.** A cooling station beside the work lowered heat strain in a pilot field trial, but workers found it interrupted work: placement and break time matter. [Journal of Agromedicine, 2026](https://pubmed.ncbi.nlm.nih.gov/42897938/)
 
 **Measure before and after**: Rest-room temperature; walking time from lines; how many people use it.
 
@@ -1554,7 +1569,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Helps handlers who are often outside indoor cooling plans.
 
 **Evidence**:
-- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls)
+- **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Weights and distances carried; workers' exertion reports.
 
@@ -1690,7 +1705,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Matters most for those on targets and piece rates.
 
 **Evidence**:
-- **Field report from operating factories.** [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf)
+- **Field report from operating factories.** [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf); [Yeasmin et al., Environmental and Occupational Health Practice, 2025](https://pubmed.ncbi.nlm.nih.gov/40568029/)
 
 **Measure before and after**: Breaks taken; where they are taken; pay records.
 
@@ -1731,7 +1746,7 @@ How it works, when it fits, and its evidence
 
 #### Protection from piece-rate and attendance penalties
 
-Field report from operating factories
+Field report from operating factories Field report from operating factories
 
 **Addresses:** Pay systems that punish breaks, slowing down or sick days in heat.
 
@@ -1757,6 +1772,7 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** Proposed by the research note; not evaluated. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+- **Field report from operating factories.** Quota pressure restricted drinking water in two Dhaka garment factories. [Yeasmin et al., Environmental and Occupational Health Practice, 2025](https://pubmed.ncbi.nlm.nih.gov/40568029/)
 
 **Measure before and after**: Pay in hot versus cool months; attendance bonus losses; symptom reports.
 
@@ -1797,7 +1813,7 @@ How it works, when it fits, and its evidence
 
 #### Reschedule hot processes and heavy tasks
 
-Authoritative occupational guidance
+Authoritative occupational guidance Authoritative occupational guidance
 
 **Addresses:** The heaviest or hottest work falling in the hottest hours.
 
@@ -1822,6 +1838,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Check effects on workers with care duties.
 
 **Evidence**:
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Authoritative occupational guidance.** Guidance on pregnant workers suggests completing tasks earlier in the day. [Canadian Centre for Occupational Health and Safety (CCOHS), 2024](https://ccohs.gc.ca/oshanswers/psychosocial/wh/reproductive-health-pregnancy-in-the-workplace.html)
 
 **Measure before and after**: Heat at the time tasks are done; workers' feedback.
@@ -1929,7 +1946,7 @@ How it works, when it fits, and its evidence
 
 #### Task rotation, where it truly reduces exposure
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** The same people in the hottest jobs all shift.
 
@@ -1954,7 +1971,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Watch that it does not put untrained people in hot jobs.
 
 **Evidence**:
-- **Proposal requiring validation.** No checked source on this page evaluates task rotation for factory heat.
+- **Authoritative occupational guidance.** Guidance lists job rotation; it spreads exposure rather than reducing the total, and no checked study here evaluates it in factories. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Time each person spends in hot tasks.
 
@@ -1966,7 +1983,7 @@ Make recovery possible: water, toilets and cool rest, close by and usable.
 
 #### Cool, safe drinking water close to every line
 
-Controlled experimental study Field report from operating factories
+Authoritative occupational guidance Controlled experimental study Field report from operating factories
 
 **Addresses:** Sweat losses not replaced.
 
@@ -1991,8 +2008,9 @@ How it works, when it fits, and its evidence
 **Equity and access**: Pregnant and breastfeeding workers especially need reliable access.
 
 **Evidence**:
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Controlled experimental study.** In the simulation, a fan with drinking water reduced sweat-loss fluid deficit for both men and women. [Smallcombe et al., The Lancet Planetary Health, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/)
-- **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+- **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf); [Yeasmin et al., Environmental and Occupational Health Practice, 2025](https://pubmed.ncbi.nlm.nih.gov/40568029/)
 
 **Measure before and after**: Walking time to water; water points running dry; workers' reports.
 
@@ -2033,7 +2051,7 @@ How it works, when it fits, and its evidence
 
 #### Seating and cooling during breaks
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** Breaks spent standing in heat.
 
@@ -2058,7 +2076,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Older and pregnant workers benefit most.
 
 **Evidence**:
-- **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
 **Measure before and after**: Seats per worker on break; rest-space temperature.
 
@@ -2070,7 +2088,7 @@ Cool the person directly, where the space cannot be cooled enough.
 
 #### Breathable workwear
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** Uniforms that trap heat.
 
@@ -2095,7 +2113,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Fit for all body sizes.
 
 **Evidence**:
-- **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+- **Authoritative occupational guidance.** Clothing is one part of the heat load. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html)
 
 **Measure before and after**: Wearers' reports.
 
@@ -2103,7 +2121,7 @@ How it works, when it fits, and its evidence
 
 #### Optimise necessary protective equipment and its fit
 
-Proposal requiring validation
+Authoritative occupational guidance
 
 **Addresses:** Protective equipment that adds heat.
 
@@ -2128,7 +2146,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Equipment sized for men may fit women badly.
 
 **Evidence**:
-- **Proposal requiring validation.** No checked study on this page measures protective equipment fit and heat in factories.
+- **Authoritative occupational guidance.** Guidance on how protective clothing holds heat; no checked study here measures fit for women in factory heat. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html)
 
 **Measure before and after**: Time in protection; wearers' symptoms.
 
@@ -2136,7 +2154,7 @@ How it works, when it fits, and its evidence
 
 #### Cooling garments: phase-change, ice, air- or liquid-cooled
 
-Proposal requiring validation
+Controlled experimental study Field report from operating factories
 
 **Addresses:** Heat that cannot be removed from the space, especially under protective clothing.
 
@@ -2161,9 +2179,10 @@ How it works, when it fits, and its evidence
 **Equity and access**: Fit for all bodies.
 
 **Evidence**:
-- **Proposal requiring validation.** No checked study on this page tests cooling garments in garment or textile work.
+- **Controlled experimental study.** A meta-analysis of trials among workers or acclimatised adults; certainty low to very low. [Sheth et al., Scandinavian Journal of Work, Environment and Health, 2026](https://pubmed.ncbi.nlm.nih.gov/42055079/)
+- **Field report from operating factories.** A pilot field trial with 12 workers in an indoor sawmill, not a garment factory. [Journal of Agromedicine, 2026](https://pubmed.ncbi.nlm.nih.gov/42897938/)
 
-**Measure before and after**: Duration of benefit; wearers' heat symptoms.
+**Measure before and after**: Duration of benefit; wearers' heat symptoms; whether people keep using it.
 
 **Pairs with**: [Optimise necessary protective equipment and its fit](#rec-ppe-optimise)
 
@@ -2264,7 +2283,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Central.
 
 **Evidence**:
-- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2024](https://ccohs.gc.ca/oshanswers/psychosocial/wh/reproductive-health-pregnancy-in-the-workplace.html); [Ministry of Health and Family Welfare and UNFPA India, 2026](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers)
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2024](https://ccohs.gc.ca/oshanswers/psychosocial/wh/reproductive-health-pregnancy-in-the-workplace.html); [Ministry of Health and Family Welfare and UNFPA India, 2026](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html)
 
 **Measure before and after**: Accommodations requested and given; pay kept.
 
@@ -2375,7 +2394,7 @@ Make protection someone's job, and make the response to illness fast.
 
 #### A written heat programme with accountable owners
 
-Field report from operating factories
+Authoritative occupational guidance Field report from operating factories
 
 **Addresses:** Protection that depends on goodwill.
 
@@ -2400,6 +2419,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Names who is most exposed.
 
 **Evidence**:
+- **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2025](https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf); [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf)
 
 **Measure before and after**: Plan reviewed; budget spent; actions done.
@@ -2441,7 +2461,7 @@ How it works, when it fits, and its evidence
 
 #### Supervisor training
 
-Proposal requiring validation
+Field report from operating factories
 
 **Addresses:** Supervisors who push through symptoms.
 
@@ -2466,7 +2486,7 @@ How it works, when it fits, and its evidence
 **Equity and access**: Supervisors decide who rests.
 
 **Evidence**:
-- **Proposal requiring validation.** No checked study on this page evaluates supervisor training for factory heat.
+- **Field report from operating factories.** Training for workers, not supervisors; it measured knowledge and practice scores, not exposure or illness. [BMC Public Health, 2025](https://pubmed.ncbi.nlm.nih.gov/40751142/)
 
 **Measure before and after**: Symptom reports handled; worker feedback.
 
@@ -2986,13 +3006,20 @@ What is not known
 
 ## Evidence gaps, stated plainly
 
-- No checked independent before-and-after evaluation of a heat intervention in an operating garment factory was found for this page; field evidence is from reports by management, programme staff and researchers.
+The wider evidence has the same shape. A 2026 scoping review of 90 intervention studies found 68% were in laboratories and 73% in developed countries, with only four testing engineering controls. A 2026 mapping review of field research on workers' heat in low- and middle-income countries found only 9% of reports included any intervention, and 39% included no women.
+
+- No checked independent before-and-after evaluation of a heat intervention in an operating garment factory was found for this page; garment field evidence is from reports by management, programme staff and researchers. The nearest field trial found is a pilot with 12 workers in an indoor sawmill in Thailand.
 - The one controlled garment study was a laboratory simulation with healthy volunteers; how its results transfer to factory floors, other climates and other tasks needs testing.
 - No checked occupational study was found on heat and menstruation or menopause in factory work, or on protective-equipment fit for women in heat.
 - No checked study was found linking toilet access to drinking and heat illness in garment factories, beyond summaries.
 - Many intervention records rest on guidance or principle; their effect sizes in factories in South and Southeast Asia are not established here.
 - No manufacturer claims are used; products are described by type only.
-- Injury pathways from heat in garment work were not found measured in a checked study.
+- Injury pathways from heat in garment work were not found measured in a checked study; the one link found is workers' own accounts in a Sri Lankan survey.
+
+Sources for the reviews (2)
+
+- [Venugopal et al., Journal of Occupational Health: Occupational heat stress prevention interventions: a scoping review of evidence and gaps (2026)](https://pubmed.ncbi.nlm.nih.gov/42799657/) Scoping review · Global
+- [Wiskel et al., Current Environmental Health Reports: Trends in occupational heat-health research in low- and middle-income countries: a mapping review (2026)](https://pubmed.ncbi.nlm.nih.gov/42905195/) Mapping review · Low- and middle-income countries
 
 ### The evidence behind this page
 
@@ -3016,6 +3043,16 @@ Source | Kind | Geography | Statements |
 [Morris et al., The Lancet Planetary Health: Electric fan use for cooling during hot weather: a biophysical modelling study (2021)](https://pubmed.ncbi.nlm.nih.gov/34119011/) | Modelling study | 108 cities worldwide | 1 |
 [Adhvaryu, Kala and Nyshadham, MIT CEEPR working paper: The light and the heat: productivity co-benefits of energy-saving technology (2017)](https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf) | Field study (working paper) | Garment factories near Bengaluru, India | 1 |
 [Chea et al., BMC Public Health: Heat stress among women garment workers in Cambodia in cool and hot months (2025)](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0) | Survey in operating factories | Phnom Penh, Cambodia | 1 |
+[Yeasmin et al., Environmental and Occupational Health Practice: Heat impacts on health and productivity: the case of two ready-made garment factories in tropical Bangladesh (2025)](https://pubmed.ncbi.nlm.nih.gov/40568029/) | Qualitative field study in operating factories | Two garment factories in Dhaka, Bangladesh | 1 |
+[Bach et al., Energy and Buildings: Retrofitting passive cooling strategies to combat heat stress in the face of climate change: a case study of a ready-made garment factory in Dhaka, Bangladesh (2023)](https://pubmed.ncbi.nlm.nih.gov/37601430/) | Building simulation (modelling) | A modelled garment factory in Dhaka, Bangladesh | 1 |
+[Venugopal et al., Journal of Occupational Health: Occupational heat stress prevention interventions: a scoping review of evidence and gaps (2026)](https://pubmed.ncbi.nlm.nih.gov/42799657/) | Scoping review | Global | 1 |
+[Wiskel et al., Current Environmental Health Reports: Trends in occupational heat-health research in low- and middle-income countries: a mapping review (2026)](https://pubmed.ncbi.nlm.nih.gov/42905195/) | Mapping review | Low- and middle-income countries | 1 |
+[Sheth et al., Scandinavian Journal of Work, Environment and Health: Occupational heat stress and the role of wearable cooling interventions: a systematic review and meta-analysis of physiological and perceptual outcomes (2026)](https://pubmed.ncbi.nlm.nih.gov/42055079/) | Systematic review and meta-analysis | Global | 1 |
+[Journal of Agromedicine: Characterizing heat health hazards and receptivity of cooling interventions among indoor lumber mill workers in southern Thailand (2026)](https://pubmed.ncbi.nlm.nih.gov/42897938/) | Pilot randomised crossover field trial in an operating workplace | An indoor sawmill in southern Thailand | 1 |
+[BMC Public Health: Improving heat stress prevention through targeted education in hot and humid workplaces: a study in a foundry industry (2025)](https://pubmed.ncbi.nlm.nih.gov/40751142/) | Controlled before-and-after study in an operating workplace | A foundry (country not stated in the abstract) | 1 |
+[Senadeera et al., BMC Public Health: Workplace health and safety under climate stress in Sri Lankan apparel SMEs (2026)](https://pubmed.ncbi.nlm.nih.gov/41559604/) | Mixed-methods survey in operating factories | Export processing zones, Sri Lanka | 1 |
+[Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: control measures (OSH Answers) (2026)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html) | Occupational guidance | Canada | 9 |
+[Canadian Centre for Occupational Health and Safety (CCOHS): Hot environments: health effects and first aid (OSH Answers) (2026)](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html) | Occupational guidance | Canada | 6 |
 
 This library will keep growing as new interventions and evidence are checked. Found something we missed, or used one of these measures? [Tell us through the join form](https://beattheheat.asia/join/).
 
