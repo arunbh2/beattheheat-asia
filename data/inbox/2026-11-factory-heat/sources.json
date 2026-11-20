@@ -644,8 +644,8 @@
    "c-eu-water",
    "c-eu-law"
   ],
-  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20250710224455/https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf"
+  "archive": "https://web.archive.org/web/20250710224455/https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf",
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-fh-yeasmin",
@@ -668,8 +668,8 @@
   "claims": [
    "c-yeasmin"
   ],
-  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260922025903/https://pubmed.ncbi.nlm.nih.gov/40568029/"
+  "archive": "https://web.archive.org/web/20260922025903/https://pubmed.ncbi.nlm.nih.gov/40568029/",
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-fh-bach-roof",
@@ -693,8 +693,8 @@
   "claims": [
    "c-bach-roof"
   ],
-  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20250205050703/https://pubmed.ncbi.nlm.nih.gov/37601430/"
+  "archive": "https://web.archive.org/web/20250205050703/https://pubmed.ncbi.nlm.nih.gov/37601430/",
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-fh-venugopal",
@@ -831,6 +831,86 @@
   ],
   "claims": [
    "c-srilanka"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-ccohs-ctrl",
+  "type": "source",
+  "keys": [
+   "ccohs-ctrl"
+  ],
+  "title": "Hot environments: control measures (OSH Answers)",
+  "publisher": "Canadian Centre for Occupational Health and Safety (CCOHS)",
+  "year": 2026,
+  "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html",
+  "kind": "Occupational guidance",
+  "where": "Canada",
+  "expect": [
+   "Hot Environments",
+   "overall physiological response resulting from heat stress",
+   "Mechanical aids, such as carts and turn tables",
+   "low-emissivity material",
+   "Insulation reduces the heat exchange",
+   "Shields stop radiated heat from reaching work areas",
+   "leaky steam valves",
+   "dehumidification",
+   "cooled observation booths are commonly used",
+   "localized air conditioning",
+   "Fans do not cool the air",
+   "Establish rest areas in cooler environments",
+   "about one litre of water per hour",
+   "every 15 to 20 minutes",
+   "especially those that are strenuous, to cooler times of the day",
+   "Rotate workers throughout the day",
+   "Heat Stress Management Program",
+   "Emergency response planning"
+  ],
+  "claims": [
+   "c-cc-stress",
+   "c-cc-source",
+   "c-cc-steam",
+   "c-cc-booth",
+   "c-cc-fans",
+   "c-cc-rest",
+   "c-cc-water",
+   "c-cc-resched",
+   "c-cc-programme"
+  ],
+  "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-ccohs-health",
+  "type": "source",
+  "keys": [
+   "ccohs-health"
+  ],
+  "title": "Hot environments: health effects and first aid (OSH Answers)",
+  "publisher": "Canadian Centre for Occupational Health and Safety (CCOHS)",
+  "year": 2026,
+  "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html",
+  "kind": "Occupational guidance",
+  "where": "Canada",
+  "expect": [
+   "Hot Environments",
+   "combined contributions of metabolic heat, environmental factors, and clothing requirements",
+   "hot metal, furnaces or steam pipes",
+   "common example of a source of radiant heat",
+   "the air cannot accept more moisture",
+   "can hold in heat and moisture",
+   "Heavy PPE can also increase workers",
+   "women tend to have a lower sweat rate",
+   "cardiovascular fitness, body size, and acclimatization",
+   "no conclusive evidence of the teratogenic effects",
+   "first trimester"
+  ],
+  "claims": [
+   "c-cc-stress",
+   "c-cc-radiant",
+   "c-cc-humid",
+   "c-cc-ppe",
+   "c-cc-women",
+   "c-cc-pregnancy"
   ],
   "note": "Staged from the factory heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  }

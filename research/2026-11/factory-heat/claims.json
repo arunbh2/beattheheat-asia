@@ -348,6 +348,30 @@
    "expect": [
     "apparel"
    ]
+  },
+  {
+   "key": "ccohs-ctrl",
+   "title": "Hot environments: control measures (OSH Answers)",
+   "publisher": "Canadian Centre for Occupational Health and Safety (CCOHS)",
+   "year": 2026,
+   "kind": "Occupational guidance",
+   "where": "Canada",
+   "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html",
+   "expect": [
+    "Hot Environments"
+   ]
+  },
+  {
+   "key": "ccohs-health",
+   "title": "Hot environments: health effects and first aid (OSH Answers)",
+   "publisher": "Canadian Centre for Occupational Health and Safety (CCOHS)",
+   "year": 2026,
+   "kind": "Occupational guidance",
+   "where": "Canada",
+   "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html",
+   "expect": [
+    "Hot Environments"
+   ]
   }
  ],
  "claims": [
@@ -1571,6 +1595,212 @@
     [
      "srilanka",
      "diminished concentration"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-stress",
+   "where": "Understand the heat",
+   "text": "CCOHS, citing ACGIH, defines heat stress as the net heat load on a worker from metabolic heat, environmental factors and clothing, and heat strain as the overall physiological response to it.",
+   "rests_on": [
+    [
+     "ccohs-health",
+     "combined contributions of metabolic heat, environmental factors, and clothing requirements"
+    ],
+    [
+     "ccohs-ctrl",
+     "overall physiological response resulting from heat stress"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-radiant",
+   "where": "Understand the heat",
+   "text": "The body gains radiant heat from hot objects such as hot metal, furnaces or steam pipes without touching them; the sun is a common source.",
+   "rests_on": [
+    [
+     "ccohs-health",
+     "hot metal, furnaces or steam pipes"
+    ],
+    [
+     "ccohs-health",
+     "common example of a source of radiant heat"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-humid",
+   "where": "Understand the heat",
+   "text": "In hot and humid workplaces, sweat evaporation cools the body less because the air cannot accept more moisture.",
+   "rests_on": [
+    [
+     "ccohs-health",
+     "the air cannot accept more moisture"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-ppe",
+   "where": "Understand the heat; clothing",
+   "text": "Protective equipment such as overalls, aprons, gowns, hoods and gloves can hold in heat and moisture, and heavy equipment adds physical effort.",
+   "rests_on": [
+    [
+     "ccohs-health",
+     "can hold in heat and moisture"
+    ],
+    [
+     "ccohs-health",
+     "Heavy PPE can also increase workers"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-source",
+   "where": "Interventions: heat sources and workload",
+   "text": "CCOHS lists engineering controls including automation and mechanical aids such as carts to reduce body heat from heavy work, covering hot surfaces with low-emissivity material, insulating hot surfaces, and reflective or absorbent shields that stop radiated heat reaching work areas.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "Mechanical aids, such as carts and turn tables"
+    ],
+    [
+     "ccohs-ctrl",
+     "low-emissivity material"
+    ],
+    [
+     "ccohs-ctrl",
+     "Insulation reduces the heat exchange"
+    ],
+    [
+     "ccohs-ctrl",
+     "Shields stop radiated heat from reaching work areas"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-steam",
+   "where": "Interventions: steam and humidity",
+   "text": "Air conditioning, dehumidification and eliminating open hot water baths, drains and leaky steam valves help reduce humidity.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "leaky steam valves"
+    ],
+    [
+     "ccohs-ctrl",
+     "dehumidification"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-booth",
+   "where": "Interventions: cooled enclosures",
+   "text": "Ventilation, localised air conditioning and cooled observation booths are commonly used; booths let workers cool down after brief intense exposure while still monitoring equipment.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "cooled observation booths are commonly used"
+    ],
+    [
+     "ccohs-ctrl",
+     "localized air conditioning"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-fans",
+   "where": "Interventions: fans",
+   "text": "Fans do not cool the air; they move it, which can keep people cooler by increasing sweat evaporation.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "Fans do not cool the air"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-rest",
+   "where": "Interventions: rest",
+   "text": "CCOHS advises establishing rest areas in cooler environments, with break length set by the work and the temperature.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "Establish rest areas in cooler environments"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-water",
+   "where": "Interventions: water",
+   "text": "On average about one litre of water an hour may be needed to replace fluid loss, with drinking encouraged every 15 to 20 minutes: an average from guidance, not an individual prescription.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "about one litre of water per hour"
+    ],
+    [
+     "ccohs-ctrl",
+     "every 15 to 20 minutes"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-resched",
+   "where": "Interventions: work organisation",
+   "text": "CCOHS lists moving strenuous work to cooler times of day and rotating workers through the day to reduce exposure to heat and exertion.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "especially those that are strenuous, to cooler times of the day"
+    ],
+    [
+     "ccohs-ctrl",
+     "Rotate workers throughout the day"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-programme",
+   "where": "Interventions: management",
+   "text": "Measurement and control measures form part of a heat stress management program with written plans for training, monitoring, control measures, recordkeeping and emergency response.",
+   "rests_on": [
+    [
+     "ccohs-ctrl",
+     "Heat Stress Management Program"
+    ],
+    [
+     "ccohs-ctrl",
+     "Emergency response planning"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-women",
+   "where": "Women's health and work",
+   "text": "CCOHS notes that women tend to have a lower sweat rate than men of equal fitness, size and acclimatisation, and that differences in heat tolerance diminish when fitness, body size and acclimatisation are taken into account.",
+   "rests_on": [
+    [
+     "ccohs-health",
+     "women tend to have a lower sweat rate"
+    ],
+    [
+     "ccohs-health",
+     "cardiovascular fitness, body size, and acclimatization"
+    ]
+   ]
+  },
+  {
+   "id": "c-cc-pregnancy",
+   "where": "Women's health and work",
+   "text": "CCOHS notes there is no conclusive evidence of birth defects from high temperatures in humans, while NIOSH recommends that a pregnant worker's body temperature not exceed 39 to 39.5 °C in the first trimester.",
+   "rests_on": [
+    [
+     "ccohs-health",
+     "no conclusive evidence of the teratogenic effects"
+    ],
+    [
+     "ccohs-health",
+     "first trimester"
     ]
    ]
   }
