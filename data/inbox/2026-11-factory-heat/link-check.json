@@ -188,6 +188,86 @@
    "every 15 to 20 minutes": true,
    "adequate for human beings": true,
    "check the national legislation": true
+  },
+  "https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf": {
+   "Heat at work": true,
+   "metabolic heat, clothing, and environmental factors": true,
+   "humidity and radiant heat": true,
+   "Mild or moderate heat stress can lead to discomfort": true,
+   "not harmful to health": true,
+   "hot metal, furnaces and steam pipes": true,
+   "common example of a source of radiant heat": true,
+   "Indoor workers are also at risk of heat stress": true,
+   "poorly cooled buildings": true,
+   "reducing heat release": true,
+   "heat-absorbing shielding": true,
+   "low-emissivity material": true,
+   "separating them from workers": true,
+   "leaky steam valves": true,
+   "removing heated air or steam from hot processes using local exhaust ventilation": true,
+   "reflective film on windows": true,
+   "positioning workstations away from direct sunlight": true,
+   "particularly in humid conditions": true,
+   "without compromising technical ventilation": true,
+   "as close as possible to the work site": true,
+   "cooled observation booths": true,
+   "revised regularly": true,
+   "do not increase the risk for workers": true,
+   "address risks to pregnant workers": true,
+   "core (internal body) temperature may rise": true,
+   "about one litre of water every hour": true,
+   "every 15 to 20 minutes": true,
+   "adequate for human beings": true,
+   "check the national legislation": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/40568029/": {
+   "garment": true,
+   "two RMG factories": true,
+   "headaches, dizziness, fatigue and nausea": true,
+   "quota pressures": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/37601430/": {
+   "garment": true,
+   "four rooftop retrofits": true,
+   "insulated white cool roof": true,
+   "reduce indoor air temperatures by around 2": true,
+   "603 h": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42799657/": {
+   "scoping review": true,
+   "90 studies were included": true,
+   "controlled laboratory settings (68%)": true,
+   "engineering controls (4)": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42905195/": {
+   "mapping review": true,
+   "only 9% included some form of intervention": true,
+   "39% of reports not including any female participants": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42055079/": {
+   "wearable cooling": true,
+   "Sixty-nine studies": true,
+   "water/ice and PCM": true,
+   "low to very low": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42897938/": {
+   "sawmill": true,
+   "pilot randomized crossover field trial": true,
+   "12 sawmill workers": true,
+   "most workers preferred VEST": true,
+   "effective but interruptive": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/40751142/": {
+   "foundry": true,
+   "pre-posttest design": true,
+   "50 workers in a foundry industry": true,
+   "control group": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/41559604/": {
+   "apparel": true,
+   "384 employees": true,
+   "81.25%": true,
+   "diminished concentration": true
   }
  },
  "https://www.osha.gov/heat-exposure/controls": "OK",
@@ -209,5 +289,14 @@
  "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0": "REDIRECT",
  "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": "OK",
  "https://www.osha.gov/otm/section-3-health-hazards/chapter-4": "OK",
- "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": "FAIL"
+ "https://oshwiki.osha.europa.eu/en/themes/heat-work-guidance-workplaces": "FAIL",
+ "https://osha.europa.eu/sites/default/files/Heat-at-work-Guidance-for-workplaces_EN.pdf": "FAIL",
+ "https://pubmed.ncbi.nlm.nih.gov/40568029/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/37601430/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42799657/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42905195/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42055079/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/42897938/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/40751142/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/41559604/": "OK"
 }
