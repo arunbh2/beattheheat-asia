@@ -107,7 +107,7 @@ ok(psg.every(r => r.kind === "content" && Object.keys(r.passages).every(t => r.t
   const az = names.slice(0, -1); ok(az.every((n, i) => !i || az[i - 1].localeCompare(n) <= 0), "coverage grid: places in alphabetical order");
   for (const f of fs.existsSync(path.join(ROOT, "data/signals-candidates")) ? fs.readdirSync(path.join(ROOT, "data/signals-candidates")).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)) : []) {
     const j = JSON.parse(read(`data/signals-candidates/${f}`));
-    ok(Array.isArray(j.candidates) && j.candidates.every(c => c.url && c.title && /^(pending|propose|skip)$/.test(c.decision)), `${f}: each lead has a title, a link and a decision of pending, propose or skip`); } }
+    ok(Array.isArray(j.candidates) && j.candidates.every(c => c.url && c.title && /^(pending|propose|context|skip)$/.test(c.decision)), `${f}: each lead has a title, a link and a decision of pending, propose, context or skip`); } }
 // the next step on a card restates the record's own fields
 ok((all.match(/class="sg-nextstep"/g) || []).length > 0, "cards: open deliverables show their next step");
 const feedX = read("signals/feed.xml"), cal = read("signals/calendar.ics");

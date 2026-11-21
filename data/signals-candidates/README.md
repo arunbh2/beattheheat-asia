@@ -12,7 +12,12 @@ other feeds as usual. The name is never written into these files.
 
 Leads are not evidence and are never published from here.
 
-- Review each lead in the weekly pull request: set `decision` to `propose` or `skip`.
+- Review each lead in the weekly pull request: set `decision` to `propose`, `context` or `skip`.
+- `context` keeps a lead as context on the heat season (alerts, closures, people affected, situation reports), which is
+  most of what ReliefWeb reports. It never becomes a Signals record. `node tools/sof-review.js new` or `ladder` lists the
+  context leads published in a briefing's month in the draft, for the editor only (removed at publication); a source
+  cited in an edition still passes the source check first. `use_hint` (`season context` or `signal lead`) is a guess
+  from words in the feed.
 - A proposed lead becomes a record only through a research batch, like the COP31 check-ins in `research/2026-11/signals-cop31-*`:
   stage its sources (`stage.js`), run `verify-sources.yml`, gate the claims (`gate.js`), then add the record to
   `data/site/signals.json` and run `node tools/signals-sync.js`. Its step on the ladder comes from the evidence, never

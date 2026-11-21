@@ -36,6 +36,10 @@ const PLACES = {
 const HEAT = /\b(heat ?waves?|extreme heat|heat stress|heat-health|heat health|heat action plan|heat illness|heatstroke|heat stroke|cooling cent(?:re|er)s?|sustainable cooling|wet[- ]bulb|high temperatures?)\b/i;
 const KIND = [["commitment", /\b(plan|policy|law|rule|regulation|guideline|advisory|fund(?:ing)?|grant|budget|launch(?:es|ed)?|adopt(?:s|ed)?|pledge|commit(?:s|ted|ment)?|programme|program|office|centre of excellence)\b/i],
   ["finding", /\b(study|report|research|survey|analysis|found|finds|record|attribution)\b/i], ["guidance", /\b(guidance|toolkit|framework|manual|protocol)\b/i]];
+// what a lead may be good for, a hint for the reviewer: a step in a commitment (a Signals lead), or how the heat season is
+// going where people live (season context: alerts, closures, people affected, situation reports). ReliefWeb mostly reports
+// the second. Season context is never a Signals record: marked "context", it goes to the editor of the monthly briefing.
+const SEASON = /\b(alert|warning|advisory|red alert|orange alert|situation report|sitrep|flash update|dref|appeal|affected|deaths?|died|casualt(?:y|ies)|hospitali[sz]|admitted|heatstroke cases|school(?:s)? (?:closed|closure)|closures?|water shortage|power cuts?|outages?|record (?:high|temperature)|°c|degrees)\b/i;
 const UA = { "User-Agent": "Mozilla/5.0 (compatible; Common Shade signals; +https://beattheheat.asia/signals/)", "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.5" };
 const clean = t => String(t || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&amp;/g, "&").replace(/&#(\d+);/g, (m, n) => String.fromCharCode(+n)).replace(/\s+/g, " ").trim();
 const tag = (x, t) => { const m = x.match(new RegExp(`<${t}(?:\\s[^>]*)?>([\\s\\S]*?)</${t}>`, "i")); return m ? clean(m[1]) : ""; };
@@ -102,6 +106,7 @@ async function main() {
       if (tracked.has(u) || proposed.has(u)) continue;
       kept++;
       candidates.push({ title, url: link, feed: name, published: date || "not stated in the feed", places, kind_hint: (KIND.find(([, rx]) => rx.test(text)) || ["unclear"])[0],
+        use_hint: SEASON.test(text) || kind === "reliefweb-api" ? "season context" : "signal lead",
         heat_terms: [...new Set((text.match(new RegExp(HEAT.source, "gi")) || []).map(t => t.toLowerCase()))], summary: text.slice(title.length + 2, title.length + 2 + 320), decision: "pending" });
     }
     feeds.push({ name, url, status: "OK", items: r.items.length, kept });
@@ -109,7 +114,7 @@ async function main() {
   candidates.sort((a, b) => String(b.published).localeCompare(String(a.published)));
   const file = path.join(OUT, `${today}.json`);
   fs.writeFileSync(file, JSON.stringify({
-    about: "Candidates for Signals from the weekly harvest (tools/signals-harvest.js). Not published and not evidence: each is a lead for a person to review. Set decision to 'propose' to take one into a research batch (its sources are then staged and checked like any other), or 'skip'. The kind is a hint from words in the feed, not a step on the ladder.",
+    about: "Candidates for Signals from the weekly harvest (tools/signals-harvest.js). Not published and not evidence: each is a lead for a person to review. Set decision to 'propose' to take one into a research batch (its sources are then staged and checked like any other), 'context' to keep it as context on the heat season for the monthly briefing's editor (never a Signals record), or 'skip'. The kind and use hints come from words in the feed, not from a step on the ladder.",
     run: { date: today, since, days: DAYS }, searched_places: Object.keys(PLACES), feeds, candidates
   }, null, 1) + "\n");
   console.log(`signals harvest: ${candidates.length} candidates since ${since}; feeds: ${feeds.map(f => `${f.name} ${f.status}${f.status === "OK" ? ` (${f.kept}/${f.items})` : ""}`).join("; ")}`);
