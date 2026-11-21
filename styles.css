@@ -3487,6 +3487,22 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .sof-why { margin: 0 0 var(--s-3); font-size: var(--fs-14); line-height: 1.5; }
 .sof-reading { margin: 0 0 var(--s-3); }
 .sof-rl { display: block; margin: 0 0 2px; }
+/* promised and lived, side by side (State of the field) */
+.sof-pairwrap { overflow-x: auto; margin: var(--s-3) 0; }
+.sof-pair { width: 100%; border-collapse: collapse; font-size: var(--fs-14); line-height: 1.5; }
+.sof-pair th, .sof-pair td { padding: var(--s-2) var(--s-3); border-top: 1px solid var(--line); text-align: left; vertical-align: top; overflow-wrap: break-word; }
+.sof-pair thead th { font-size: var(--fs-12); font-weight: 700; text-transform: uppercase; letter-spacing: var(--label-track); color: var(--grey-700); border-top: 0; }
+.sof-pair tbody th { font-weight: 700; white-space: normal; min-width: 6em; }
+.sof-pair td { min-width: 12em; }
+.sof-pair p { margin: 0 0 var(--s-1); }
+/* on a phone each row stacks: the place, then what was promised, then how the season went, each with its label */
+@media (max-width: 560px) {
+  .sof-pair thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .sof-pair tr, .sof-pair tbody th, .sof-pair td { display: block; min-width: 0; }
+  .sof-pair tbody th { padding-top: var(--s-3); }
+  .sof-pair td { border-top: 0; padding-top: var(--s-1); }
+  .sof-pair td::before { content: attr(data-k); display: block; font-size: var(--fs-12); font-weight: 700; text-transform: uppercase; letter-spacing: var(--label-track); color: var(--grey-700); margin-bottom: var(--s-1); }
+}
 .sof-ev { margin: var(--s-3) 0; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--white); }
 .sof-ev > summary { position: relative; min-height: 44px; display: flex; align-items: center; padding: var(--s-2) var(--s-4) var(--s-2) 36px; font-size: var(--fs-14); font-weight: 700; line-height: 1.4; cursor: pointer; list-style: none; }
 .sof-ev > summary::-webkit-details-marker { display: none; }

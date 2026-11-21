@@ -13,7 +13,7 @@ News and evidence
 
 A monthly briefing on heat resilience in South and Southeast Asia: one argument about what changed, what the evidence establishes, what it could mean for decisions, and what to watch next.
 
-Next edition planned for December 2026, covering 1 to 31 December 2026. It appears only once reviewed and published. Follow without an account[Editions feed (Atom)](https://beattheheat.asia/whats-new/feed.xml)[Calendar of scheduled dates](https://beattheheat.asia/signals/calendar.ics)[Signals feed](https://beattheheat.asia/signals/feed.xml)
+Next edition planned for December 2026, covering 1 to 31 December 2026. It plans to set what was promised beside how the heat season went, place by place, where checked sources allow it. It appears only once reviewed and published. Follow without an account[Editions feed (Atom)](https://beattheheat.asia/whats-new/feed.xml)[Calendar of scheduled dates](https://beattheheat.asia/signals/calendar.ics)[Signals feed](https://beattheheat.asia/signals/feed.xml)
 
 Latest published editionNovember 2026
 

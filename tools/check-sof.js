@@ -9,7 +9,7 @@
 // and every section; the downloadable briefing is the same text as tools/sof-text.js gives; internal links and anchors
 // resolve; the archive, the sitemap and the returning-reader notice name only published editions.
 // Fixtures (never published): the same rules refuse an out-of-period item with no reason, a "not found" claim without its
-// search, a link-only source not marked unverified, a step further than the Signals record, and a silent edit.
+// search, a link-only source not marked unverified, a step further than the Signals record, a silent edit, and a side-by-side row that breaks its rules.
 "use strict";
 const fs = require("fs"), path = require("path"), M = require("./sof-model.js"), T = require("./sof-text.js");
 const ROOT = M.ROOT, SITE = "https://beattheheat.asia", fails = [], ok = (c, m) => { if (!c) fails.push(m); };
@@ -87,6 +87,16 @@ const nav = read("tools/site-nav.js"); ok(/status !== "draft"/.test(nav), "the r
 // ---- fixtures: the rules refuse what they are for ----
 const base = JSON.parse(JSON.stringify(pub.find(e => e.id === "2026-10") || pub[0])); delete base._file;
 const refuse = (mut, re, what) => { const x = JSON.parse(JSON.stringify(base)); mut(x); ok(M.validate(x).some(b => re.test(b)), `fixture: the rules refuse ${what}`); };
+// promised and lived, side by side: a valid row passes; the rules refuse a lived report outside the period, a promise
+// resting on a non-record source, both sides on one source, a place Signals does not cover, and missing limits
+const pairFix = x => { x.side_by_side = { rows: [{ place: "bangladesh", promised: { says: "s", source: "ncc-plan", establishes: "e" }, lived: { says: "s", source: "prothomalo", establishes: "e", date: "2026-10-10" } }], limits: ["l"] }; return x; };
+ok(!M.validate(pairFix(JSON.parse(JSON.stringify(base)))).some(b => /side_by_side/.test(b)), "fixture: a valid side-by-side row passes the rules");
+refuse(x => { pairFix(x).side_by_side.rows[0].lived.date = "2026-09-30"; }, /lived: dated .* within the edition's period/, "a lived report outside the period");
+refuse(x => { pairFix(x).side_by_side.rows[0].promised.source = "evidence-map"; }, /promised: its source is a Signals or knowledge-base record/, "a promise not resting on a record");
+refuse(x => { pairFix(x).side_by_side.rows[0].lived.source = "ncc-plan"; }, /different sources/, "both sides on one source");
+refuse(x => { pairFix(x).side_by_side.rows[0].place = "atlantis"; }, /place is one Signals covers/, "a place Signals does not cover");
+refuse(x => { pairFix(x).side_by_side.limits = []; }, /side_by_side: limits/, "a side-by-side table without limits");
+{ const x = pairFix(JSON.parse(JSON.stringify(base))), md = T.md(x, SITE); ok(md.includes(T.PAIR.h) && md.includes(T.PAIR.note) && md.includes("### Bangladesh"), "fixture: the briefing carries the side-by-side section with its fixed note"); }
 refuse(x => { delete x.developments[1].why_here; }, /outside the reporting period/, "an item outside the period with no reason");
 refuse(x => { delete x.opportunity.claims[1].searched; }, /what was searched/, "a \"not found\" claim without its search");
 refuse(x => { x.sources.paa.check = { kind: "link", checked: "2026-11-07", batch: "research/2026-11/go-live", status: "OK" }; }, /not content-checked|matches a record/, "a source that only opened, presented as checked");

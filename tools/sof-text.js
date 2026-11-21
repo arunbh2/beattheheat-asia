@@ -18,9 +18,12 @@ const METHOD = [
   "An edition keeps what it said at publication. A later change to a record it cites is shown beside the edition, not written into it. A correction is dated, says what was wrong, and is also listed on the corrections page.",
   "Drafts are reviewed before publication, and a month passing does not create an edition. AI helps prepare drafts; a person approves every edition.",
 ];
-const SECTIONS = [["argument", "The argument"], ["developments", "Developments"], ["opportunity", "Opportunity"], ["question", "Open question"], ["watch", "What to watch"], ["readers", "For your work"], ["common-shade", "On Common Shade"], ["sources", "Sources"], ["revisions", "Revisions"]];
+const SECTIONS = [["argument", "The argument"], ["developments", "Developments"], ["side-by-side", "Promised and lived"], ["opportunity", "Opportunity"], ["question", "Open question"], ["watch", "What to watch"], ["readers", "For your work"], ["common-shade", "On Common Shade"], ["sources", "Sources"], ["revisions", "Revisions"]];
 const TYPE = { original: "Original source", secondary: "Secondary report", own: "Common Shade's own analysis" };
 const H = { developments: "Developments worth understanding", opportunity: "An opportunity the evidence supports", question: "A question that matters for action", watch: "What to watch", readers: "For your work", platform: "On Common Shade this month", sources: "Sources", revisions: "Revisions and corrections" };
+// promised and lived: the fixed words beside the table, on the page and in the briefing
+const PAIR = { h: "Promised and lived, side by side", promised: "What was promised", lived: "How the season went",
+  note: "Each row sets a step in a commitment beside reports of the heat season in the same place and period. Side by side is not cause and effect: a report of the season does not show whether a plan worked, and a plan does not explain what a season brought." };
 const OPP = [["problem", "The problem"], ["mechanism", "What to examine"]];
 const OPP2 = [["dependency", "The main unresolved dependency"], ["next_check", "A next question to check locally"]];
 const QF = [["why_now", "Why it matters now"], ["known", "What is known"], ["unknown", "What is not known"], ["decision", "Which decision depends on it"], ["would_help", "What could answer it"]];
@@ -53,6 +56,11 @@ function md(e, SITE) {
       L.push(`Common Shade's reading: ${d.reading}`, "", "What the sources establish:", "");
       d.claims.forEach(c => L.push(`- ${c.kind === "not-found" ? "Not found: " : ""}${c.says} ${ref(c.source)} Establishes: ${c.establishes}${c.searched ? ` Searched: ${c.searched}` : ""}${c.unverified ? " (Not verified.)" : ""}`));
       L.push("", "Limits:", "", ...d.limits.map(x => `- ${x}`), "", `What would strengthen or change this reading: ${d.would_change}`, ""); }); }
+  const P = e.side_by_side, PN = require("./signals-context.js").NAME;
+  if (P) { L.push(`## ${PAIR.h}`, "", ...(P.intro ? [P.intro, ""] : []), PAIR.note, "");
+    P.rows.forEach(r => { const c = x => `${x.says} ${ref(x.source)} Establishes: ${x.establishes}${x.unverified ? " (Not verified.)" : ""}`;
+      L.push(`### ${PN[r.place] || "Region-wide"}`, "", `- ${PAIR.promised}: ${c(r.promised)}`, `- ${PAIR.lived} (${M.date(r.lived.date)}): ${c(r.lived)}`, ""); });
+    L.push("Limits:", "", ...P.limits.map(x => `- ${x}`), ""); }
   const O = e.opportunity;
   if (O) { L.push(`## ${H.opportunity}`, "", `### ${O.h}`, "", O.gist, "");
     OPP.forEach(([k, t]) => L.push(`- ${t}: ${O[k]}`));
@@ -94,7 +102,7 @@ function depths(e) {
 function chatText(e, SITE) {
   return [`*${TITLE}: ${M.label(e)}*`, `_${e.argument.headline}_`, "", e.argument.claim, "", ...(e.developments || []).map(d => `• ${d.h}`), ...(e.question ? [`• Open question: ${e.question.q}`] : []), "", `Read it with its sources: ${abs(SITE, M.url(e))}`].join("\n");
 }
-const NEXT = n => `Next edition planned for ${M.date(n.month)}, covering ${M.range(n.period)}. It appears only once reviewed and published.`;
+const NEXT = n => `Next edition planned for ${M.date(n.month)}, covering ${M.range(n.period)}.${n.plan ? ` ${n.plan}` : ""} It appears only once reviewed and published.`;
 const FOLLOW = "Follow without an account";
 
 // read as: each reader group's question this month and where on the site to start (only pages that exist are kept)
@@ -117,4 +125,4 @@ function questions(P) {
 }
 const QH = "Questions so far";
 const QINTRO = "Every open question the briefing has asked, oldest first, with what later editions found. A question stays open until the evidence answers it.";
-module.exports = { ROLE_LINKS, LENS, questions, QH, QINTRO,  depths, chatText, NEXT, FOLLOW,  TITLE, LEDE, DISTINCT, ROLE, METHOD, SECTIONS, TYPE, H, OPP, OPP2, QF, ROLEW, srcNo, srcLine, dates, summaryText, md, llms };
+module.exports = { PAIR, ROLE_LINKS, LENS, questions, QH, QINTRO,  depths, chatText, NEXT, FOLLOW,  TITLE, LEDE, DISTINCT, ROLE, METHOD, SECTIONS, TYPE, H, OPP, OPP2, QF, ROLEW, srcNo, srcLine, dates, summaryText, md, llms };

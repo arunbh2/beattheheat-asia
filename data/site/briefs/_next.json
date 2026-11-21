@@ -1,5 +1,6 @@
 {
  "about": "The next planned edition of State of the field, shown on /whats-new/ until it is published. Set by the editor; a month passing never creates an edition. tools/build-sof.js hides this once an edition for the month (or a later one) is published.",
  "month": "2026-12",
- "period": { "from": "2026-12-01", "to": "2026-12-31" }
+ "period": { "from": "2026-12-01", "to": "2026-12-31" },
+ "plan": "It plans to set what was promised beside how the heat season went, place by place, where checked sources allow it."
 }
