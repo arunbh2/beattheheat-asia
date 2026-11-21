@@ -445,13 +445,13 @@ What we are watching for heat at COP31. Each item is added only after its source
 
 **Scope**: Heat in COP31's announcements and outcomes on adaptation, health, finance, cooling and early warnings, including launches shortly before the conference. Each item enters only after its source passes the site's check.
 
-**Review cut-off**: 19 November 2026. Developments after this date are not yet reflected.
+**Review cut-off**: 21 November 2026. Developments after this date are not yet reflected.
 
 **Following**: Adaptation indicators Health Adaptation finance Cooling Early warnings
 
 **A reading so far, after check-in 3 (18 November).** COP31's heat story is running through cooling, health and money, while we have so far found little on heat itself in the negotiating texts. The cooling roadmap and WHO's El Niño plan sit outside the negotiated decisions. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at the last check-in and when the conference closes.
 
-Dated check-ins (5), latest 19 November 2026
+Dated check-ins (6), latest 21 November 2026
 
 - **9 November 2026 · Opening** The conference, the year's climate findings and the adaptation indicators it builds on.
 
@@ -480,6 +480,8 @@ Dated check-ins (5), latest 19 November 2026
 - **19 November 2026 · Check-in 4** Health: a survey of maternity and newborn clinicians in five countries, India among them, presented at COP31.
 
 - [98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed](#sig-clinicians-heat-pregnancy-2026) Finding
+
+- **21 November 2026 · Check-in 5 (closing, interim)** COP31 was due to end on 20 November and went into overtime, extended to Saturday 21 November, as UN and news reports show (checked). Draft texts are not outcomes and are not recorded here; the negotiated decisions will be reviewed at a closing check-in once they are published.
 
 **Closing synthesis.** Not written yet. It will follow a review of the conference's final decisions and documents, not the closing date alone.
 
