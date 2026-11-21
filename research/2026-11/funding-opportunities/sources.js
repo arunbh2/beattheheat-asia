@@ -78,6 +78,8 @@ module.exports = [
   { key: "nus-datasci-rf", url: "https://careers.nus.edu.sg/job/Research-Fellow-%28Data-Science-HRPC%29/30161-en_GB", title: "Research Fellow (Data Science, HRPC)", publisher: "National University of Singapore", expect: ["Research Fellow", "heat", "Apply"] },
   { key: "climatecentre-jobs", url: "https://www.climatecentre.org/contact/open-positions/", title: "Open positions", publisher: "Red Cross Red Crescent Climate Centre", expect: ["heat", "intern", "application@climatecentre.org"] },
   { key: "ifrc-jobs", url: "https://www.ifrc.org/jobs", title: "Jobs", publisher: "IFRC", expect: ["heat", "consultant"] },
+  // ---- second round (21 November 2026) ----
+  { key: "cool-bth", url: "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities", title: "Beat the Heat in Cities", publisher: "Cool Coalition (UNEP)", expect: ["Beat the Heat", "expression of interest", "three cities", "Secretariat", "heat action", "cities"] },
   // ---- Legacy audit: programmes listed in the October 2026 research ----
   { key: "legacy-gcp", url: "https://globalcoolingprize.org/grand-winners-press-release/", title: "Global Cooling Prize: grand winners", publisher: "Global Cooling Prize", expect: ["Global Cooling Prize", "winners", "2021"] }
 ];
