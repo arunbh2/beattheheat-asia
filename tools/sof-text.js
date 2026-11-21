@@ -76,7 +76,7 @@ function md(e, SITE) {
 function llms(SITE) {
   const P = M.published(), last = P[0];
   if (!last) return `## ${TITLE}\n\n${LEDE}\n\nNo edition has been published yet.`;
-  return `## ${TITLE}\n\n${LEDE}\n\n${ROLE} ${DISTINCT.map(([u, t, d]) => `${t} (${SITE}${u}) ${d}.`).join(" ")}\n\nEditions: ${P.map(e => `${M.label(e)} (${SITE}${M.url(e)}, published ${M.date(e.published)}${M.revised(e) ? `, revised ${M.date(M.revised(e))}` : ""})`).join("; ")}.\n\nThe latest published edition follows.\n\n${md(last, SITE).replace(/^# /m, "### ").replace(/^## /gm, "#### ").replace(/^### (?!State)/gm, "##### ")}`;
+  return `## ${TITLE}\n\n${LEDE}\n\n${ROLE} ${DISTINCT.map(([u, t, d]) => `${t} (${SITE}${u}) ${d}.`).join(" ")}\n\nEditions: ${P.map(e => `${M.label(e)} (${SITE}${M.url(e)}, published ${M.date(e.published)}${M.revised(e) ? `, revised ${M.date(M.revised(e))}` : ""})`).join("; ")}.\n\n${QH}: ${questions(P).map(x => `${x.label}: ${x.q} (${x.state})`).join(" ")}\n\nThe latest published edition follows.\n\n${md(last, SITE).replace(/^# /m, "### ").replace(/^## /gm, "#### ").replace(/^### (?!State)/gm, "##### ")}`;
 }
 
 // reading depths: word counts from the edition itself, at about 200 words a minute
@@ -96,4 +96,25 @@ function chatText(e, SITE) {
 }
 const NEXT = n => `Next edition planned for ${M.date(n.month)}, covering ${M.range(n.period)}. It appears only once reviewed and published.`;
 const FOLLOW = "Follow without an account";
-module.exports = { depths, chatText, NEXT, FOLLOW,  TITLE, LEDE, DISTINCT, ROLE, METHOD, SECTIONS, TYPE, H, OPP, OPP2, QF, ROLEW, srcNo, srcLine, dates, summaryText, md, llms };
+
+// read as: each reader group's question this month and where on the site to start (only pages that exist are kept)
+const ROLE_LINKS = {
+  city: [["/plan/", "Plan a response"], ["/heat-tools/", "Find a heat tool"], ["/signals/?view=commitments", "Commitments and evidence on Signals"]],
+  workers: [["/practical-actions/#work", "Practical actions at work"], ["/social-protection/", "Who could help a household through a hot season"], ["/signals/?lever=heatrules", "Heat rules on Signals"]],
+  funders: [["/paying-for-protection/", "Paying for protection"], ["/heat-economy/flows/", "Funding traced"], ["/signals/?view=commitments", "Commitments and evidence on Signals"]],
+  researchers: [["/evidence-map/", "The evidence map"], ["/how-heat-is-reported/", "How heat is reported"], ["/signals/", "Signals"]]
+};
+const LENS = { k: "Read it as", q: "Your question this month", go: "Where to start", none: "Choose a role to see its question from this edition and where to start. The choice stays in this browser and the address." };
+// every question the briefing has asked, and what later editions found: the briefing builds on itself
+function questions(P) {
+  const asc = P.slice().sort((a, b) => a.id.localeCompare(b.id)), latest = asc[asc.length - 1];
+  return asc.filter(e => e.question).map(e => {
+    const later = asc.find(x => x.question && x.question.revisits && x.question.revisits.edition === e.id);
+    const R = later && later.question.revisits;
+    return { id: e.id, label: M.label(e), h: e.question.h, q: e.question.q, url: M.url(e) + "#question",
+      state: R ? `Revisited in ${M.label(later)}. New evidence: ${R.new_evidence} Did the reading change? ${R.changed} Still unresolved: ${R.unresolved}` : e === latest ? "Asked in the latest edition; the next edition can revisit it." : "Not yet revisited." };
+  });
+}
+const QH = "Questions so far";
+const QINTRO = "Every open question the briefing has asked, oldest first, with what later editions found. A question stays open until the evidence answers it.";
+module.exports = { ROLE_LINKS, LENS, questions, QH, QINTRO,  depths, chatText, NEXT, FOLLOW,  TITLE, LEDE, DISTINCT, ROLE, METHOD, SECTIONS, TYPE, H, OPP, OPP2, QF, ROLEW, srcNo, srcLine, dates, summaryText, md, llms };

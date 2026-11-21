@@ -1,7 +1,7 @@
 ---
 title: "Indonesia: heat country snapshot"
 url: https://beattheheat.asia/countries/indonesia/
-updated: 2026-11-19
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -520,6 +520,14 @@ Listing does not imply partnership, endorsement or ranking.
 Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Nepal](https://beattheheat.asia/countries/nepal/) · [Philippines](https://beattheheat.asia/countries/philippines/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Thailand](https://beattheheat.asia/countries/thailand/) · [Solutions library](https://beattheheat.asia/solutions/)
 
 **Who is already working here.** Organisations whose listed heat work is in Indonesia, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=ID)
+
+## What is moving here
+
+Developments in Indonesia tracked on Signals, newest first, with the furthest step each has evidence for.
+
+- [Support for the Southeast Asia Heat Health Hub's next stage](https://beattheheat.asia/signals/#sig-sea-heat-health-hub-2026) Funded, original checked · latest development 8 October 2026
+
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=indonesia) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/countries/indonesia/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

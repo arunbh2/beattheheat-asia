@@ -45,6 +45,8 @@ The first Global Heat Forum met in Bangkok from 6 to 9 October 2026 and released
 
 [Download the briefing (.md)](https://beattheheat.asia/whats-new/2026-10/briefing.md)[Open in WhatsApp](https://wa.me/?text=*State%20of%20the%20field%3A%20October%202026*%0A_Support%20announced%20for%20the%20work%20between%20institutions%2C%20with%20amounts%20and%20delivery%20still%20to%20show_%0A%0ATwo%20philanthropic%20announcements%20this%20year%20name%20support%20for%20shared%20evidence%20and%20coordination%20across%20institutions%2C%20the%20roles%20our%20funding%20trace%20found%20thinnest.%20Both%20are%20announcements%3A%20neither%20amount%20was%20disclosed%2C%20and%20no%20payment%20has%20been%20verified.%0A%0A%E2%80%A2%20Support%20announced%20for%20the%20Southeast%20Asia%20Heat%20Health%20Hub's%20next%20stage%0A%E2%80%A2%20A%20February%20announcement%20for%20South%20Asia%2C%20first%20reviewed%20this%20month%0A%E2%80%A2%20The%20Global%20Heat%20Forum%2C%20and%20a%20city%20heat%20plan%20reported%20for%20Bangladesh%0A%E2%80%A2%20Open%20question%3A%20How%20do%20heat-health%20pilots%20in%20Southeast%20Asia%20keep%20their%20institutional%20footing%20once%20their%20first%20funding%20ends%3F%0A%0ARead%20it%20with%20its%20sources%3A%20https%3A%2F%2Fbeattheheat.asia%2Fwhats-new%2F2026-10%2F)
 
+Choose a role to see its question from this edition and where to start. The choice stays in this browser and the address.
+
 ### Developments worth understanding [#](#developments)
 
 #### Support announced for the Southeast Asia Heat Health Hub's next stage

@@ -554,5 +554,11 @@ Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) ·
 
 **Who is already working here.** Organisations whose listed heat work is in Sri Lanka, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=LK)
 
+## What is moving here
+
+No development in Sri Lanka is tracked on Signals yet. This describes the records kept here, not what is happening in Sri Lanka.
+
+[20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+
 ---
 Human edition: https://beattheheat.asia/countries/sri-lanka/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

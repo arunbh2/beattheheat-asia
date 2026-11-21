@@ -12,19 +12,23 @@ const addDays = (iso, n) => { const d = new Date(iso + "T00:00:00Z"); d.setUTCDa
 const full = d => /^\d{4}-\d{2}-\d{2}$/.test(d);
 const fill = d => d.length === 4 ? `${d}-01-01` : d.length === 7 ? `${d}-01` : d;
 
-function moved(D, today, kindLabel) {
-  const from = addDays(today, -WINDOW), to = addDays(today, AHEAD), past = [], ahead = [];
+function moved(D, today, kindLabel) { return Object.assign(between(D, addDays(today, -WINDOW), today, addDays(today, AHEAD), kindLabel), { window: WINDOW }); }
+// steps dated from..until (inclusive), and scheduled steps after until up to aheadTo: used for What moved and for a
+// State of the field draft's "month on the ladder" (tools/sof-review.js new)
+function between(D, from, today, aheadTo, kindLabel) {
+  // a scheduled step still ahead of the real date stays scheduled, whatever the period asked for
+  const to = aheadTo, past = [], ahead = [], now = new Date().toISOString().slice(0, 10);
   for (const s of D.signals) {
     if (s.kind === "commitment") {
       for (const d of s.deliverables || []) for (const t of SM.timeline(d)) {
         if (!full(t.date)) continue;
-        if (t.kind === "milestone" && t.scheduled && t.date > today) { if (t.date <= to) ahead.push({ date: t.date, what: SM.STEPS[t.step].label, item: d.what, s, anchor: `${s.id}--${d.id}--${t.id}` }); continue; }
+        if (t.kind === "milestone" && t.scheduled && t.date > now) { if (t.date <= to && t.date >= from) ahead.push({ date: t.date, what: SM.STEPS[t.step].label, item: d.what, s, anchor: `${s.id}--${d.id}--${t.id}` }); continue; }
         if (t.date >= from && t.date <= today) past.push({ date: t.date, what: t.kind === "event" ? SM.EVENTS[t.step] : SM.STEPS[t.step].label, item: d.what, s, anchor: `${s.id}--${d.id}${t.id ? "--" + t.id : ""}` });
       }
     } else if (full(s.date || "") && s.date >= from && s.date <= today) past.push({ date: s.date, what: `New ${kindLabel(s).toLowerCase()}`, item: s.title, s, anchor: s.id });
   }
   const order = (a, b) => a.date.localeCompare(b.date) || a.anchor.localeCompare(b.anchor);
-  return { from, window: WINDOW, past: past.sort(order).reverse(), ahead: ahead.sort(order) };
+  return { from, until: today, past: past.sort(order).reverse(), ahead: ahead.sort(order) };
 }
 
 const x = s => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -79,4 +83,4 @@ function ics(D, today, enso) {
   return { text: L.map(fold).join("\r\n") + "\r\n", n: ev.length };
 }
 
-module.exports = { moved, atom, ics, WINDOW, AHEAD };
+module.exports = { moved, between, atom, ics, WINDOW, AHEAD };

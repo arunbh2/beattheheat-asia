@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Ahmedabad: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/ahmedabad/
-updated: 2026-11-17
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -112,6 +112,17 @@ Plans and law, warnings, rules for heat at work, cooling, money and other cities
 **Find tools for this decision.** Official warnings, heat risk and cooler places in India: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=IN)
 
 **Who is already working here.** Organisations whose listed heat work is in India, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=IN)
+
+## What is moving here
+
+Developments in India tracked on Signals, newest first, with the furthest step each has evidence for. They concern the country, not only this city.
+
+- [India adds heatwaves to its notified natural calamities](https://beattheheat.asia/signals/#sig-india-heatwave-calamity-2026) Adopted, not verified · latest development August 2026
+- [April's pre-monsoon heatwave was made three times more likely](https://beattheheat.asia/signals/#sig-south-asia-pre-monsoon-2026) Finding · latest development May 2026
+- [Maharashtra sets up a Centre of Excellence for heat resilience and sustainable cooling](https://beattheheat.asia/signals/#sig-maharashtra-heat-coe) Adopted, original checked · latest development 2026
+- [India's Heat Resilient Cities Framework](https://beattheheat.asia/signals/#sig-niua-heat-resilient-cities-2026) Guidance · latest development 2026
+
+[All 5 for India on Signals](https://beattheheat.asia/signals/?place=india) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/ahmedabad/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

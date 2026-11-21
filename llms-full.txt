@@ -7355,7 +7355,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 80 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 81 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -7370,6 +7370,8 @@ Dated by the publication date of the work Common Shade draws on (1123 of 1956 wo
 - 2026 so far: 246 works published (142 with a known month), 1123 in all by the end of the period. Financing: 230; Institutions and plans: 138; Practical measures: 248; Experience: 98; Evidence: 409.
 
 ### Changes, newest first
+
+- Tool improved: Signals shows each source's own words, and appears on every country, city and action page. Added 21 November 2026 · Tool improved 21 November 2026. Why it matters (our reading): Each checked piece of evidence on Signals now shows the sentence the source check found, and each commitment its dated path. Country, city and action pages show what is moving there, and State of the field lets each reader group read for its own question and keeps every open question in one running list. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: Built from existing records and source checks only: no new claims. Sentences come from the checked pages themselves and only for terms the check found; places with no tracked record say so without describing the place.. Next: See what is moving https://beattheheat.asia/signals/#moved. Connections: Heat action plans (from the site's records): Places and actions now show the heat plans and rules tracked for them.
 
 - Tool improved: Signals opens with what moved, and both briefings can be followed without visiting. Added 21 November 2026 · Tool improved 21 November 2026. Why it matters (our reading): Signals now opens with the steps dated in the last 45 days and the dates coming up, so a phone reader reaches the first development within the first screen rather than after more than seven, and the page stays light as records grow. Signals, its scheduled dates and State of the field each have a feed or calendar, and every edition has three reading depths, a chat version and its own share image. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: Built from the existing records only: no new claims or sources. Dates in What moved are when steps happened, never when they were added; a scheduled date is marked as not showing compliance. Published editions keep their text and ledger hashes.. Next: See what moved https://beattheheat.asia/signals/#moved. Connections: Heat action plans (from the site's records): Signals tracks heat plans and rules step by step; following their dates helps teams prepare.
 
@@ -7919,6 +7921,8 @@ A monthly briefing on heat resilience in South and Southeast Asia: one argument 
 State of the field brings a few selected developments together into one argument, with its limits stated. Signals (https://beattheheat.asia/signals/) follows each outside development on its own, with what the evidence confirms. Watch Common Shade grow (https://beattheheat.asia/growing/) records every change to Common Shade. The evidence map (https://beattheheat.asia/evidence-map/) examines the knowledge base: what is studied and what is not.
 
 Editions: November 2026 (https://beattheheat.asia/whats-new/2026-11/, published 16 November 2026); October 2026 (https://beattheheat.asia/whats-new/2026-10/, published 31 October 2026, revised 16 November 2026).
+
+Questions so far: October 2026: How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends? (Revisited in November 2026. New evidence: None was added to the knowledge base by the cut-off. Did the reading change? No: the reading in October stands. Still unresolved: Which parts of a pilot continue after the first grant, and who pays for them.) November 2026: When a heat rule for outdoor work takes effect, what public record would show whether it reaches subcontracted and migrant workers? (Asked in the latest edition; the next edition can revisit it.)
 
 The latest published edition follows.
 

@@ -13,6 +13,27 @@ const ROOT = path.join(__dirname, ".."), F = path.join(ROOT, "data/site/signals.
 const CHECK = process.argv.includes("--check"), today = new Date().toISOString().slice(0, 10);
 const gitDate = f => { try { return cp.execSync(`git log -1 --format=%cs -- "${f}"`, { cwd: ROOT, stdio: ["ignore", "pipe", "ignore"] }).toString().trim(); } catch (e) { return ""; } };
 
+// the sentence of the checked page that holds a term, so a reader sees the evidence itself: kept only when it reads as
+// prose (six words or more, not a run of menu labels) and cut to about 280 characters around the term
+// A sentence the site's voice check would flag (an instructing word, a word suggesting wrongdoing, an em dash) is passed
+// over for another holding the same term: quoted or not, it would read as the site's voice.
+const TONE = require("../data/schema/tone.json").voice, rx = a => new RegExp(`\\b(${a.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\b`, "i");
+const VOICE = [rx(TONE.hold), ...(TONE.suspicion ? [rx(TONE.suspicion.hold)] : [])];
+function passages(around, terms) {
+  const norm = x => String(x).toLowerCase().replace(/\s+/g, " "), out = {};
+  const sentences = around.join(" ").replace(/\s+/g, " ").split(/(?<=[.!?])\s+(?=[A-Z0-9"“(])/);
+  for (const t of terms) {
+    if (t.length < 5 || /^[\d.,%\s]+$/.test(t)) continue;   // a bare number or a short code finds menus and headlines, not the claim
+    const k = norm(t), hit = sentences.find(x => { const n = norm(x), w = x.split(" ").filter(Boolean); if (!n.includes(k) || w.length < 6 || w.slice(0, 5).every(y => /^[A-Z]/.test(y)) || /-->|sign in|log in|cookie|subscribe|accessible mode/i.test(x) || x.includes("\u2014") || VOICE.some(v => v.test(x))) return false;
+      const caps = w.filter(y => /^[A-Z]/.test(y)).length / w.length; return caps < 0.5 && /[a-z]{3,}\s[a-z]{2,}\s[a-z]{2,}/.test(x); });
+    if (!hit) continue;
+    // tidy page furniture only (link labels, stray spaces); the source's words are unchanged
+    let q = hit.replace(/\(link is external\)/gi, "").replace(/\s+([,.;:!?])/g, "$1").replace(/(\d) (st|nd|rd|th)\b/g, "$1$2").replace(/\s+/g, " ").trim();
+    if (q.length > 300) { const i = norm(q).indexOf(k), a = Math.max(0, i - 130), z = Math.min(q.length, i + k.length + 130); q = (a ? "…" : "") + q.slice(a, z).trim() + (z < q.length ? "…" : ""); }
+    out[t] = q;
+  }
+  return out;
+}
 function checks(D) {
   const want = new Set(D.signals.flatMap(s => (s.sources || []).map(x => x.url))), urls = {};
   const add = (u, r) => { if (want.has(u)) (urls[u] = urls[u] || []).push(r); };
@@ -20,7 +41,11 @@ function checks(D) {
   for (const b of fs.readdirSync(inbox).sort()) {
     const f = path.join(inbox, b, "link-check.json"); if (!fs.existsSync(f)) continue;
     const J = JSON.parse(fs.readFileSync(f, "utf8")), T = J._terms || {}, when = gitDate(path.relative(ROOT, f)) || b.slice(0, 7);
-    for (const [u, v] of Object.entries(J)) if (/^https?:/.test(u)) add(u, { kind: "content", batch: b, checked: when, status: typeof v === "string" ? v : v.status, terms: (typeof v === "string" ? T[u] : v.found) || {} });
+    const xf = path.join(inbox, b, "_excerpts.json"), X = fs.existsSync(xf) ? Object.values(JSON.parse(fs.readFileSync(xf, "utf8"))) : [];
+    for (const [u, v] of Object.entries(J)) if (/^https?:/.test(u)) { const terms = (typeof v === "string" ? T[u] : v.found) || {}, ex = X.find(x => x.url === u);
+      const rec = { kind: "content", batch: b, checked: when, status: typeof v === "string" ? v : v.status, terms };
+      const ps = ex ? passages(ex.around || [], Object.keys(terms).filter(t => terms[t])) : {}; if (Object.keys(ps).length) rec.passages = ps;
+      add(u, rec); }
   }
   const walk = d => fs.readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(d, e.name)) : e.name === "link-status.json" ? [path.join(d, e.name)] : []);
   for (const f of walk(path.join(ROOT, "research")).sort()) {

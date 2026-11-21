@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Dhaka: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/dhaka/
-updated: 2026-11-17
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -123,6 +123,15 @@ Plans and law, warnings, rules for heat at work, cooling, money and other cities
 **Find tools for this decision.** Official warnings, heat risk and cooler places in Bangladesh: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=BD)
 
 **Who is already working here.** Organisations whose listed heat work is in Bangladesh, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=BD)
+
+## What is moving here
+
+Developments in Bangladesh tracked on Signals, newest first, with the furthest step each has evidence for. They concern the country, not only this city.
+
+- [Bangladesh adopts its Health National Adaptation Plan](https://beattheheat.asia/signals/#sig-bangladesh-hnap-2026) Adopted, original checked · latest development 31 March 2026
+- [Bangladesh's first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/signals/#sig-narayanganj-hap) Adopted, original checked · latest development 22 September 2025
+
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=bangladesh) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/dhaka/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

@@ -254,7 +254,7 @@ if(rm){b.hidden=true;}else{b.textContent="Play again";b.focus();requestAnimation
       ${(v.watch || []).map(w => `<p><strong>Watch for:</strong> ${esc(w.text)}</p>${srcs(w.sources)}`).join("")}
       ${SCENE_AT[v.id] ? sceneFig(SCENE_AT[v.id]) : ""}
       ${(v.guides || []).length ? `<h3>Practical guides</h3><ul>${v.guides.map(g => `<li>${ext(g.url, g.title)} <span class="meta">${esc(g.by)}</span></li>`).join("")}</ul>` : ""}
-      <p class="meta"><a href="/#break-${v.id}">See it on the map</a>${D.ORGANISATIONS.some(o => (o.levers || []).includes(v.id)) ? ` · <a href="/heat-network/?action=${v.id}">Who works on this</a>` : ""}</p>`;
+      <p class="meta"><a href="/#break-${v.id}">See it on the map</a>${D.ORGANISATIONS.some(o => (o.levers || []).includes(v.id)) ? ` · <a href="/heat-network/?action=${v.id}">Who works on this</a>` : ""}</p>${require("./signals-context.js").leverLine(esc, v.id)}`;
     m.push(`### ${v.title}`, v.text, `Cuts the link: ${name(v.edge[0])} → ${name(v.edge[1])}. Who can act: ${who.join(", ")}.`, ls.length ? `Could help interrupt: ${ls.map(l => l.name).join(", ")}` : "",
       v.example ? `In practice: ${v.example}` : "", ...(v.watch || []).map(w => `Watch for: ${w.text} (${w.sources.map(x => `${x.label}, ${x.url}`).join("; ")})`), SCENE_AT[v.id] ? `On the page: ${SCENE_AT[v.id].caption}` : "", ...(v.guides || []).map(g => `- Guide: ${g.title} (${g.by}) ${g.url}`));
   });

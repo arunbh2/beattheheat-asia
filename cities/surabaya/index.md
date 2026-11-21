@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Surabaya: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/surabaya/
-updated: 2026-11-15
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -96,6 +96,14 @@ Plans and law, warnings, rules for heat at work, cooling, money and other cities
 **Find tools for this decision.** Official warnings, heat risk and cooler places in Indonesia: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=ID)
 
 **Who is already working here.** Organisations whose listed heat work is in Indonesia, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=ID)
+
+## What is moving here
+
+Developments in Indonesia tracked on Signals, newest first, with the furthest step each has evidence for. They concern the country, not only this city.
+
+- [Support for the Southeast Asia Heat Health Hub's next stage](https://beattheheat.asia/signals/#sig-sea-heat-health-hub-2026) Funded, original checked · latest development 8 October 2026
+
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=indonesia) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/surabaya/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

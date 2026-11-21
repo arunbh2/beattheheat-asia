@@ -32,6 +32,23 @@
       history.replaceState(null, "", a.getAttribute("href")); copy(u, tools, "Link to this section copied.");
     });
   });
+  // read it as: a role's question from this edition and where to start; kept in the address (?role=) and this browser
+  document.querySelectorAll("[data-sof-lens]").forEach(function (box) {
+    var data; try { data = JSON.parse(box.querySelector("[data-sof-lensdata]").textContent); } catch (e) { return; }
+    var out = box.querySelector(".sof-lens__out"), tpl = box.querySelector("[data-sof-lenst]"), btns = box.querySelectorAll("[data-role]");
+    var show = function (role, write) {
+      if (!data[role]) return;
+      btns.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-role") === role)); });
+      var f = tpl.content.cloneNode(true); f.querySelector("[data-q]").textContent = data[role].q;
+      var go = f.querySelector("[data-go]"); data[role].go.forEach(function (l) { var a = document.createElement("a"); a.href = l[0]; a.textContent = l[1]; go.appendChild(a); });
+      out.textContent = ""; out.appendChild(f);
+      if (write) { try { localStorage.setItem("cs-sof-role", role); } catch (e) {} var u = new URL(location.href); u.searchParams.set("role", role); history.replaceState(null, "", u.pathname + u.search + u.hash); }
+    };
+    btns.forEach(function (b) { b.addEventListener("click", function () { show(b.getAttribute("data-role"), true); }); });
+    box.hidden = false;
+    var start = new URLSearchParams(location.search).get("role"); if (!start) { try { start = localStorage.getItem("cs-sof-role"); } catch (e) {} }
+    if (start) show(start, false);
+  });
   // a link to a source or a claim inside a closed fold opens the fold
   var reveal = function () {
     var id = decodeURIComponent(location.hash.slice(1)); if (!id) return; var el = document.getElementById(id); if (!el) return;

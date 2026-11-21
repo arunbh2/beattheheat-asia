@@ -692,6 +692,16 @@
       "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
     },
     {
+      "id": "g-signals-sof-connected", "kind": "tool", "root": "practical", "added": "2026-11-21", "pr": null,
+      "title": "Signals shows each source's own words, and appears on every country, city and action page",
+      "why": "Each checked piece of evidence on Signals now shows the sentence the source check found, and each commitment its dated path. Country, city and action pages show what is moving there, and State of the field lets each reader group read for its own question and keeps every open question in one running list.",
+      "places": ["region"], "people": ["workers"], "topics": ["hap", "heatrules"],
+      "event": { "what": "Tool improved", "date": "2026-11-21" },
+      "review": "Built from existing records and source checks only: no new claims. Sentences come from the checked pages themselves and only for terms the check found; places with no tracked record say so without describing the place.",
+      "pages": [["/signals/", "Signals"], ["/whats-new/", "State of the field"], ["/actions/", "Practical actions"]], "action": ["See what is moving", "/signals/#moved"],
+      "links": [{ "to": "lever:hap", "why": "Places and actions now show the heat plans and rules tracked for them.", "basis": "record" }]
+    },
+    {
       "id": "g-signals-sof-reach", "kind": "tool", "root": "practical", "added": "2026-11-21", "pr": null,
       "title": "Signals opens with what moved, and both briefings can be followed without visiting",
       "why": "Signals now opens with the steps dated in the last 45 days and the dates coming up, so a phone reader reaches the first development within the first screen rather than after more than seven, and the page stays light as records grow. Signals, its scheduled dates and State of the field each have a feed or calendar, and every edition has three reading depths, a chat version and its own share image.",

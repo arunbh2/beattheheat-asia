@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Manila: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/manila/
-updated: 2026-11-16
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -170,6 +170,14 @@ Plans and law, warnings, rules for heat at work, cooling, money and other cities
 **Find tools for this decision.** Official warnings, heat risk and cooler places in Philippines: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=PH)
 
 **Who is already working here.** Organisations whose listed heat work is in Philippines, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=PH)
+
+## What is moving here
+
+Developments in the Philippines tracked on Signals, newest first, with the furthest step each has evidence for. They concern the country, not only this city.
+
+- [The Philippines issues guidelines on heat stress at work and on compensation for heat illness](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026) Adopted, reported · latest development 27 October 2026
+
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=philippines) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/manila/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

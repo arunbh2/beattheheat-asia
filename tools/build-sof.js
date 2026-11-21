@@ -71,7 +71,15 @@ function render(esc, ctx) {
         <p class="sof-src">${esc(d8(s.date))} · ${esc(T.TYPE[s.type])} · At this edition: ${esc(CHK(s))}${newer}${s.archive ? ` · <a href="${esc(s.archive)}" rel="noopener">Archived copy</a>` : ""}</p>${moved}</li>`; }).join("")}</ol>`);
     const revs = sec("revisions", T.H.revisions, `<ol class="sof-revs">${(e.revisions || []).map(r => `<li${r.id ? ` id="${esc(r.id)}"` : ""}><p class="sof-src">${esc(d8(r.date))} · ${r.kind === "correction" ? "Correction" : r.kind === "published" ? "Published" : "Revision"}</p><p>${esc(r.note)}${r.kind === "correction" ? ` <a href="/corrections/#log">Corrections page</a>` : ""}</p></li>`).join("") || "<li>Not yet published.</li>"}</ol>
       ${e.as_published ? `<details class="sof-ev sof-asp"><summary>The text as first published</summary><p class="sof-note">${esc(e.as_published.note)}</p><p><b>${esc(e.as_published.headline)}</b></p>${e.as_published.sections.map(s => `<p><b>${esc(s.k)}: ${esc(s.h)}.</b> ${esc(s.p)}</p>`).join("")}<p class="sof-note">${esc(e.as_published.closing)}</p></details>` : ""}`);
-    return `<article class="sof-ed" data-edition="${e.id}" aria-labelledby="sof-h-${e.id}">${head.replace('<h2 class="sof-h">', `<h2 class="sof-h" id="sof-h-${e.id}">`)}${arg}${e.opening ? `<p class="sof-open">${esc(e.opening)}</p>` : ""}${brief}${toc}${devs}${opp}${q}${watch}${aud}${plat}${srcs}${revs}</article>`;
+    const roles = (e.audiences || []).filter(a => T.ROLE_LINKS[a.who]);
+    const lens = roles.length ? `<div class="sof-lens cs-card" data-sof-lens hidden><p class="sof-k">${esc(T.LENS.k)}</p><div class="sof-lens__b" role="group" aria-label="${esc(T.LENS.k)}">${roles.map(a => `<button type="button" class="sof-btn" data-role="${esc(a.who)}" aria-pressed="false">${esc(M.AUD[a.who])}</button>`).join("")}</div>
+      <div class="sof-lens__out" aria-live="polite"><p class="sof-note">${esc(T.LENS.none)}</p></div>
+      <script type="application/json" data-sof-lensdata>${JSON.stringify(Object.fromEntries(roles.map(a => [a.who, { q: a.q, go: T.ROLE_LINKS[a.who].filter(([u]) => fs.existsSync(path.join(ROOT, u.replace(/[?#].*$/, ""), "index.html"))) }]))).replace(/</g, "\\u003c")}</script>
+      <template data-sof-lenst><p class="sof-k">${esc(T.LENS.q)}</p><p class="sof-q" data-q></p><p class="sof-k">${esc(T.LENS.go)}</p><p class="sof-links" data-go></p></template></div>` : "";
+    // a draft carries the month on the ladder from Signals, for the editor only (removed at publication)
+    const L = e.status === "draft" && e.from_signals;
+    const ladderBox = L ? `<div class="cs-note cs-note--watch"><span class="cs-note__label">For the editor: the month on the ladder (from Signals)</span><p class="sof-note">${esc(L.note)}</p><ul>${[...L.moved, ...L.scheduled].map(r => `<li>${esc(d8(r.date))} · ${esc(r.step)}: <a href="${esc(r.link)}">${esc(r.item)}</a> <span class="sof-note">(${esc(r.record)}; cite as ${esc(r.cite)})</span></li>`).join("") || "<li>No Signals step is dated in this period.</li>"}</ul></div>` : "";
+    return `<article class="sof-ed" data-edition="${e.id}" aria-labelledby="sof-h-${e.id}">${head.replace('<h2 class="sof-h">', `<h2 class="sof-h" id="sof-h-${e.id}">`)}${ladderBox}${arg}${e.opening ? `<p class="sof-open">${esc(e.opening)}</p>` : ""}${brief}${toc}${lens}${devs}${opp}${q}${watch}${aud}${plat}${srcs}${revs}</article>`;
   };
 }
 
@@ -122,6 +130,9 @@ module.exports = function sof({ page, write, esc, hero, V }) {
   const archive = `<section class="sof-archive" id="editions" aria-labelledby="editions-h"><h2 class="hub-h" id="editions-h">All editions</h2>
     ${P.length ? `<ol class="sof-arch">${P.map(e => `<li><a href="${M.url(e)}"><b>${esc(M.label(e))}</b><span>${esc(e.argument.headline)}</span></a><p class="sof-src">Reporting period ${esc(M.range(e.period))} · Evidence cut-off ${esc(M.date(e.cutoff))} · Published ${esc(M.date(e.published))}${M.revised(e) ? ` · Revised ${esc(M.date(M.revised(e)))}` : ""}${M.corrections(e).length ? ` · <span class="sof-flag">Corrected</span>` : ""}</p></li>`).join("")}</ol>` : `<p class="hub-p">No edition has been published yet.</p>`}
     <p class="hub-p">Editions appear here only once reviewed and published; a month passing does not create one.</p></section>`;
+  const QL = T.questions(P);
+  const ledger = QL.length ? `<section class="sof-qs" id="questions" aria-labelledby="questions-h"><h2 class="hub-h" id="questions-h">${esc(T.QH)}</h2><p class="hub-p">${esc(T.QINTRO)}</p>
+    <ol class="sof-qlist">${QL.map(x => `<li class="cs-card"><p class="sof-k">Asked in ${esc(x.label)}</p><p class="sof-q"><a href="${esc(x.url)}">${esc(x.q)}</a></p><p class="sof-note">${esc(x.state)}</p></li>`).join("")}</ol></section>` : "";
   const method = `<details class="sof-ev sof-method" id="method"><summary>How an edition is made</summary><ul>${T.METHOD.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>`;
   const changesF = path.join(ROOT, "data", "kb", "_changes.json"), changes = fs.existsSync(changesF) ? JSON.parse(fs.readFileSync(changesF, "utf8")) : [];
   const log = `<h2 class="hub-h" id="kb-log">What changed in the knowledge base</h2>${changes.length ? `<p class="hub-p">Monthly updates to the records behind the site, newest first. The latest covers ${esc(M.date(changes[0].month))}; each month's update follows its review.</p><ul class="sof-log">${changes.map(c => `<li><b>${esc(M.date(c.month))}</b>: ${c.published.length} new or updated ${c.published.length === 1 ? "record" : "records"}${c.held ? `, ${c.held} held back for checking` : ""}. ${c.published.slice(0, 6).map(r => esc(r.title)).join("; ")}${c.published.length > 6 ? "…" : ""}</li>`).join("")}</ul>` : `<p class="hub-p">No monthly updates yet.</p>`}`;
@@ -129,7 +140,7 @@ module.exports = function sof({ page, write, esc, hero, V }) {
     `${hero("News and evidence", T.TITLE, esc(T.LEDE))}
     <div class="container sof-wrap">
       ${next}${last ? ed(last, { latest: true, base: "", stale: staleNote(last, today) }) : `<div class="cs-card"><p>No edition has been published yet.</p></div>`}
-      ${archive}${distinct}${method}${log}</div>`, head), last));
+      ${archive}${ledger}${distinct}${method}${log}</div>`, head), last));
   for (const e of P) {
     const isLast = e === last;
     write(`whats-new/${e.id}`, withCard(page(`whats-new/${e.id}`, `${T.TITLE}: ${M.label(e)}`, `${e.argument.headline}. ${T.TITLE}, ${M.label(e)}: reporting period ${M.range(e.period)}, evidence cut-off ${M.date(e.cutoff)}.`,

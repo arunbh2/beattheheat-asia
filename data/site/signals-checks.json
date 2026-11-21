@@ -21,6 +21,13 @@
      "voluntary": true,
      "Dynamic and Resilient Health Systems": true,
      "early warning": true
+    },
+    "passages": {
+     "COP31": "…ta-analysis on the health effects of black carbon in ambient and household air pollution: full report in 2027, with a snapshot at COP31. • WHO estimates that global scale up of fiscal policies to efficiently price fossil fuels could save 1.2 million lives per year,…",
+     "Antalya Initiative": "Regional commitments and initiatives reinforce global commitments, and Antalya is an opportunity to activate plans into action, such as through the Antalya Initiative for Health Resilience (AIR).",
+     "voluntary": "…tegration of meteorological information into surveillance and response, and strengthened health information systems. • ATACH is a voluntary network of over 100 countries and partners sharing technical experience, expertise and strategies to build climate-resilient, low…",
+     "Dynamic and Resilient Health Systems": "Theme 8, Dynamic and Resilient Health Systems, prioritises climate-resilient and equitable health systems that can anticipate, respond to and recover from climate-related shocks, through preparedness, surveillance, resilient health infrastructure and equitable access to care.",
+     "early warning": "…are increasingly investing in climateinformed surveillance, air quality monitoring, climate services for health, forecasting and early warning systems and related digital capabilities."
     }
    }
   ],
@@ -33,6 +40,10 @@
     "terms": {
      "Antalya Compact": true,
      "buildings": true
+    },
+    "passages": {
+     "Antalya Compact": "Antalya, Türkiye, 29 October 2026: Today, the COP31 Presidency has launched the Antalya Compact for Energy Efficient Buildings, a new framework to advance two of COP31’s Global Targets for 2035: pursuing a 25% reduction in th…",
+     "buildings": "Antalya, Türkiye, 29 October 2026: Today, the COP31 Presidency has launched the Antalya Compact for Energy Efficient Buildings, a new framework to advance two of COP31’s Global Targets for 2035: pursuing a 25% reduction in the operational energy intensity…"
     }
    }
   ],
@@ -67,6 +78,9 @@
     "terms": {
      "Narayanganj": true,
      "heat": true
+    },
+    "passages": {
+     "Narayanganj": "The country’s first urban heatwave action plan has been developed for Narayanganj."
     }
    }
   ],
@@ -82,6 +96,11 @@
      "voluntary": true,
      "participation": true,
      "Dynamic and Resilient Health Systems": false
+    },
+    "passages": {
+     "COP31": "From the moment planes land to when buses and trams pull into the Expo Centre grounds, COP31-themed slogans blanket the city.",
+     "voluntary": "Resilient health systems are one of 10 priorities on Türkiye’s voluntary action agenda but, unlike electrification or waste, they have no numerical targets for 2035.",
+     "participation": "But no countries announced their participation in the initiative as of Monday night."
     }
    }
   ],
@@ -96,6 +115,11 @@
      "heat-risk checklist": true,
      "breastfeeding": true,
      "functional referral systems": true
+    },
+    "passages": {
+     "heat-risk checklist": "The document provides a heat-risk checklist for clinical assessment, along with guidance on identifying high-risk pregnancies, recognising warning signs, and ensuring timely referral and care.",
+     "breastfeeding": "The resource also includes counselling guidance on hydration, rest, cooling practices, breastfeeding, infant care, and highlights medications that may increase heat-related risks.",
+     "functional referral systems": "It also outlines key preparedness measures for health facilities, such as access to safe drinking water, cooling methods, essential supplies, functional referral systems, and adjusted service delivery during peak heat."
     }
    },
    {
@@ -107,6 +131,10 @@
      "Heat and Pregnancy": true,
      "heat-risk checklist": true,
      "functional referral systems": true
+    },
+    "passages": {
+     "heat-risk checklist": "The document provides a heat-risk checklist for clinical assessment, along with guidance on identifying high-risk pregnancies, recognising warning signs, and ensuring timely referral and care.",
+     "functional referral systems": "It also outlines key preparedness measures for health facilities, such as access to safe drinking water, cooling methods, essential supplies, functional referral systems, and adjusted service delivery during peak heat."
     }
    }
   ],
@@ -129,6 +157,12 @@
      "Antalya Initiative": true,
      "hospitals": true,
      "temperatures": true
+    },
+    "passages": {
+     "Antalya": "A new Antalya Initiative for Health Resilience is also being launched.",
+     "Antalya Initiative": "A new Antalya Initiative for Health Resilience is also being launched.",
+     "hospitals": "A forecast of dangerously high temperatures, for example, can help hospitals prepare for more patients, while rainfall and seasonal predictions can help health authorities anticipate outbreaks of diseases such as malaria.",
+     "temperatures": "A forecast of dangerously high temperatures, for example, can help hospitals prepare for more patients, while rainfall and seasonal predictions can help health authorities anticipate outbreaks of diseases such as malaria."
     }
    }
   ],
@@ -170,6 +204,13 @@
      "drinking water kiosks": true,
      "Natural Resources Defense Council": true,
      "Indian Institute of Public Health": true
+    },
+    "passages": {
+     "Extreme Heat in India": "Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape PAGE 7 Evolution of Heat Action Planning in India India’s journey toward…",
+     "Ahmedabad became the first city in South Asia": "…ha in 1999 following more than 2,000 heatwave-related deaths in 1998.13 This was followed by a landmark shift in April 2013, when Ahmedabad became the first city in South Asia to adopt a formal Heat Action Plan (HAP) - a coordinated framework combining early warning systems, healthsector preparedness, an…",
+     "none of the plans articulated a clear legal": "Critically, none of the plans articulated a clear legal mandate, undermining administrative accountability and weakening incentives for implementation, particularly within resource-constrained implementation agencies.",
+     "Natural Resources Defense Council": "…edness, and community outreach, developed in partnership with the Indian Institute of Public Health– Gandhinagar (IIPH-G) and the Natural Resources Defense Council (NRDC).14 A follow-up evaluation of the HAP in 2018 found the plan may have contributed to approximately 1,190 fewer deaths per y…",
+     "Indian Institute of Public Health": "…d framework combining early warning systems, healthsector preparedness, and community outreach, developed in partnership with the Indian Institute of Public Health– Gandhinagar (IIPH-G) and the Natural Resources Defense Council (NRDC).14 A follow-up evaluation of the HAP in 2018 found the pla…"
     }
    },
    {
@@ -184,6 +225,9 @@
      "Government of the United Kingdom": true,
      "Centre of Excellence for Heat Resilience and Sustainable Cooling": true,
      "State Institute of Disaster Management": true
+    },
+    "passages": {
+     "Extreme Heat in India": "Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape PAGE 7 Evolution of Heat Action Planning in India India’s journey toward…"
     }
    },
    {
@@ -211,6 +255,13 @@
      "1,190 fewer deaths per year": true,
      "extreme warm nights": true,
      "Thane HAP": true
+    },
+    "passages": {
+     "Extreme Heat in India": "Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape PAGE 7 Evolution of Heat Action Planning in India India’s journey toward…",
+     "between March and May": "IMD Seasonal Outlook for 2026 Each year, between March and May, the India Meteorological Department (IMD) releases seasonal outlooks that provide early indications of temperature trends and heatwave likelihood, increasingly serving as a key tool for anticipatory planning.",
+     "releases seasonal": "IMD Seasonal Outlook for 2026 Each year, between March and May, the India Meteorological Department (IMD) releases seasonal outlooks that provide early indications of temperature trends and heatwave likelihood, increasingly serving as a key tool for anticipatory planning.",
+     "may have contributed": "…Gandhinagar (IIPH-G) and the Natural Resources Defense Council (NRDC).14 A follow-up evaluation of the HAP in 2018 found the plan may have contributed to approximately 1,190 fewer deaths per year on hot days in the years following its full implementation, with mortality on the ho…",
+     "1,190 fewer deaths per year": "…esources Defense Council (NRDC).14 A follow-up evaluation of the HAP in 2018 found the plan may have contributed to approximately 1,190 fewer deaths per year on hot days in the years following its full implementation, with mortality on the hottest days (≥45°C) declining by around 27% re…"
     }
    }
   ],
@@ -225,6 +276,9 @@
      "budget": true,
      "recurring": false,
      "operational": true
+    },
+    "passages": {
+     "operational": "…e Ministry of Health and Family Welfare (MoHFW), has developed the Health National Adaptation Plan (HNAP) 2026 as a strategic and operational framework to build a low-carbon, sustainable, and climate-resilient health system."
     }
    },
    {
@@ -236,6 +290,10 @@
      "HNAP Financing Strategies": true,
      "Costing of HNAP": true,
      "total cost": false
+    },
+    "passages": {
+     "HNAP Financing Strategies": "…of trained workforces Early Response capacity Disease decreased (mortality, morbidity) Increased number of treated patients 5.7​ HNAP Financing Strategies The HNAP implementation process will strengthen the climate-inclusive public financial management (PFM) system through an updated…",
+     "Costing of HNAP": "…CDC, PHC, DPHE, HEU (Health Engineering Unit), MOEFCC, DDM, BUET and other relevant stakeholders 100 101 102 103 104 105 106 5.5​ Costing of HNAP Implementation plan The Costed Implementation Plan in Table-13 outlines key short, medium and long term health adaptation activit…"
     }
    },
    {
@@ -257,6 +315,12 @@
      "Heat": true,
      "Cooling": true,
      "Relief and Rehabilitation": true
+    },
+    "passages": {
+     "CEHSC": "The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC) is an initiative of the Government of Maharashtra, currently hosted within the Relief and Rehabilitation Department, Government…",
+     "Centre of Excellence": "The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC) is an initiative of the Government of Maharashtra, currently hosted within th…",
+     "Cooling": "The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC) is an initiative of the Government of Maharashtra, currently hosted within the Relief and Rehabilitation Department, Gove…",
+     "Relief and Rehabilitation": "…or Heat Resilience and Sustainable Cooling (CEHSC) is an initiative of the Government of Maharashtra, currently hosted within the Relief and Rehabilitation Department, Government of Maharashtra, and being developed with technical support from the Natural Resources Defense Council (NRD…"
     }
    }
   ],
@@ -271,6 +335,9 @@
      "recurring": true,
      "budget": true,
      "Narayanganj": true
+    },
+    "passages": {
+     "Narayanganj": "(WHO) Heat Action Plan (HAP), Narayanganj City Corporation 9 Term Definition Heat Alert/ Warning A heat warning, as defined by Environment Canada, means daytime and nighttime temperatures or humidex values are expected to be higher than the average high temperature for 2 or more days in a row."
     }
    },
    {
@@ -318,6 +385,9 @@
     "terms": {
      "38": true,
      "emergency": true
+    },
+    "passages": {
+     "emergency": "View all search results World Asia & Pacific South Korea issues first emergency heatwave warning under new rating system Kang Jin-kyu (AFP) Seoul Sun, July 12, 2026 Published on Jul."
     }
    }
   ],
@@ -336,6 +406,13 @@
      "September 2026": true,
      "World Resources Institute": true,
      "UNEP": true
+    },
+    "passages": {
+     "Heat Resilience": "Start Date: 2025 The Government of Tamil Nadu, in partnership with the UK Government, has launched a Heat Resilience Centre to strengthen the State’s capacity to address rising extreme heat risks.",
+     "nodal": "The Heat Resilience Centre will function as the nodal institution for coordinating heat-risk management across sectors in Tamil Nadu.",
+     "heat action": "…opment, disaster management and planning, generating climate data, evidence and policy tools, supporting city- and district-level heat action plans, and developing bankable projects to mobilize funding from development banks, philanthropies and climate finance institutio…",
+     "September 2026": "The programme will run until September 2026.",
+     "World Resources Institute": "The initiative is supported under the UK’s Climate Action for a Resilient Asia (CARA) programme and is implemented with technical partnership from the United Nations Environment Programme (UNEP) and the World Resources Institute (WRI)."
     }
    }
   ],
@@ -348,6 +425,9 @@
     "terms": {
      "heat": true,
      "compensation": true
+    },
+    "passages": {
+     "compensation": "19, Series of 2026, on October 23, outlining guidelines for the prevention, documentation and reporting of occupational heat-related illnesses, as well as the filing and evaluation of employees' compensation claims."
     }
    }
   ],
@@ -374,6 +454,11 @@
      "Antalya": true,
      "November 2026": true,
      "President of Negotiations": true
+    },
+    "passages": {
+     "COP31": "…ion to participants (A-Z) COP 31 Highlight COP 31 Host Country page Highlight Observer organizations at COP 31 Standard About the COP31 Conference Standard Get ready for COP 31 Highlight Quick links How to register for COP31 Standard Visa information Standard Trans…",
+     "Antalya": "UN Climate Change Conference - Antalya, November 2026 UN Climate Change Conference - Antalya, November 2026 9 Nov - 20 Nov 2026 Antalya Previous conference Previous Nex…",
+     "November 2026": "UN Climate Change Conference - Antalya, November 2026 UN Climate Change Conference - Antalya, November 2026 9 Nov - 20 Nov 2026 Antalya Previous conference Previous Next conference Ne…"
     }
    }
   ],
@@ -386,6 +471,10 @@
     "terms": {
      "Global Goal on Adaptation": true,
      "indicators": true
+    },
+    "passages": {
+     "Global Goal on Adaptation": "Topics Adaptation and resilience Workstreams Global goal on adaptation Overview Decisions and conclusions Workshops & Events Reports and publications Article 7 of the 2015 Paris Agreement established…",
+     "indicators": "Belém Adaptation Indicators CMA 5 also established the two-year UAE–Belém work programme on indicators for measuring progress towards the targets outlined in the framework."
     }
    }
   ],
@@ -405,6 +494,12 @@
      "73%": true,
      "76%": true,
      "92%": true
+    },
+    "passages": {
+     "Censuswide": "To address this, in September 2026, Censuswide conducted a survey of 1,000 currently practicing healthcare professionals - including 250 midwives - across the UK, India, Austra…",
+     "September 2026": "To address this, in September 2026, Censuswide conducted a survey of 1,000 currently practicing healthcare professionals - including 250 midwives - across the UK, I…",
+     "250 midwives": "…address this, in September 2026, Censuswide conducted a survey of 1,000 currently practicing healthcare professionals - including 250 midwives - across the UK, India, Australia, Brazil and Zimbabwe, involved in pregnancy, childbirth, postnatal or newborn care to understan…",
+     "Zimbabwe": "…vey of 1,000 currently practicing healthcare professionals - including 250 midwives - across the UK, India, Australia, Brazil and Zimbabwe, involved in pregnancy, childbirth, postnatal or newborn care to understand their perceptions of how extreme heat impacts pregnan…"
     }
    }
   ],
@@ -416,6 +511,9 @@
     "status": "OK",
     "terms": {
      "commissioned a survey": true
+    },
+    "passages": {
+     "commissioned a survey": "A 2026 survey of healthcare professionals To understand how extreme heat is affecting maternal and newborn health, Wellcome commissioned a survey of 1,000 healthcare professionals working in pregnancy, childbirth, postnatal and newborn care across Australia, Brazil, India, the UK and Zimbabwe."
     }
    }
   ],
@@ -430,6 +528,11 @@
      "Cambodia": true,
      "Barbados": true,
      "Senegal": true
+    },
+    "passages": {
+     "Cambodia": "Pilots in 2026: Barbados, Senegal, and Cambodia In 2026, the Framework and Toolkit will be piloted in Barbados, Senegal, and Cambodia, with financial support from the Climate Ri…",
+     "Barbados": "Pilots in 2026: Barbados, Senegal, and Cambodia In 2026, the Framework and Toolkit will be piloted in Barbados, Senegal, and Cambodia, with financial supp…",
+     "Senegal": "Pilots in 2026: Barbados, Senegal, and Cambodia In 2026, the Framework and Toolkit will be piloted in Barbados, Senegal, and Cambodia, with financial support from…"
     }
    }
   ],
@@ -442,6 +545,9 @@
     "terms": {
      "South Asia": true,
      "heat": true
+    },
+    "passages": {
+     "South Asia": "…Climate and Health Joint Programme, The Rockefeller Foundation, and Wellcome announced two new integrated initiatives to protect South Asians from extreme heat – a rapidly escalating threat to human health and economic stability in the subcontinent."
     }
    },
    {
@@ -464,6 +570,11 @@
      "1.47": true,
      "four warmest": true,
      "El Niño": true
+    },
+    "passages": {
+     "COP31": "The WMO State of the Climate 2026 Update was released on the first day of COP31 in Antalya, Türkiye, as an authoritative, science-based report.",
+     "four warmest": "Key messages 2026 will be one of four warmest years on record El Niño turns up the heat and multiplies risks Sea level and ocean heat are at record high levels Extreme weather…",
+     "El Niño": "The current El Niño is expected to act as a risk multiplier for health."
     }
    },
    {
@@ -480,6 +591,16 @@
      "for the first time": true,
      "health emergency": true,
      "risk multiplier for health": true
+    },
+    "passages": {
+     "State of the Climate Update 2026": "…asts and warnings, underpinned by sustained observations, are vital Share: WMO 2027 Calendar Competition - Gaël Handschin The WMO State of the Climate Update 2026 shows that the past 12 years have individually been the warmest on record, with the past four years being the top four.",
+     "146.5 million": "An estimated 146.5 million people in India were exposed to extreme heat in an April 2026 heatwave.",
+     "April 2026 heatwave": "An estimated 146.5 million people in India were exposed to extreme heat in an April 2026 heatwave.",
+     "multi-hazard early warning systems": "The good news is that the number of countries reporting the existence of multi-hazard early warning systems (MHEWSs) has increased from 56 in 2015 to 136 in 2025, according to the report.",
+     "from 56 in 2015 to 136 in 2025": "The good news is that the number of countries reporting the existence of multi-hazard early warning systems (MHEWSs) has increased from 56 in 2015 to 136 in 2025, according to the report.",
+     "for the first time": "The World Health Organization (WHO) has, for the first time, classified the anticipated health impacts as a health emergency.",
+     "health emergency": "The World Health Organization (WHO) has, for the first time, classified the anticipated health impacts as a health emergency.",
+     "risk multiplier for health": "The current El Niño is expected to act as a risk multiplier for health."
     }
    }
   ],
@@ -492,6 +613,9 @@
     "terms": {
      "El Niño": true,
      "firmly established": true
+    },
+    "passages": {
+     "El Niño": "The latest seasonal forecasts from WMO Global Producing Centres indicate an exceptionally high likelihood (nearly 100% probability) that El Niño will persist through September–November 2026 and December 2026–February 2027."
     }
    }
   ],
@@ -508,6 +632,9 @@
      "1.47": true,
      "four warmest": true,
      "El Niño": true
+    },
+    "passages": {
+     "El Niño": "El Niño has intensified since August and is expected to reach record strength by December."
     }
    }
   ],
@@ -520,6 +647,10 @@
     "terms": {
      "Global Heat Forum": true,
      "Bangkok": true
+    },
+    "passages": {
+     "Global Heat Forum": "Quotes from the Global Heat Forum “Extreme heat is already a health emergency, and an intensifying El Niño will push more people into crisis, overwhelm the clinics that treat them, and erode the safety nets they rely on,” said Dr.",
+     "Bangkok": "…s and civil society leaders for stronger climate adaptation, and we are proud to help drive solutions at the Global Heat Forum in Bangkok."
     }
    }
   ],
@@ -539,6 +670,17 @@
      "Antalya": true,
      "1 per cent of formal climate finance": true,
      "UN Climate Change": true
+    },
+    "passages": {
+     "COP31": "At COP31, a UN climate official warned that only about 1% of formal climate finance goes to health, calling for greater investment in climate-resilient healthcare systems.",
+     "200 respondents": "The Wellcome study surveyed 1,000 healthcare professionals across India, the UK, Australia, Brazil and Zimbabwe, with 200 respondents in each country.",
+     "62 per cent": "…ts reported an increase in heat-related cases or complications affecting foetal or newborn health over the past five years, while 62 per cent reported an increase in complications affecting pregnant women.",
+     "66 per cent": "India reports widespread heat-related health impacts According to the study, 66 per cent of Indian respondents reported an increase in heat-related cases or complications affecting foetal or newborn health over the pas…",
+     "26 per cent": "More than a quarter (26 per cent) said they had encountered pregnancy complications requiring additional monitoring or treatment.",
+     "November 13": "The study, presented by global health research organisation Wellcome on November 13 on the sidelines of COP31 in Antalya, Türkiye, surveyed 1,000 healthcare professionals across five countries.",
+     "Antalya": "The study, presented by global health research organisation Wellcome on November 13 on the sidelines of COP31 in Antalya, Türkiye, surveyed 1,000 healthcare professionals across five countries.",
+     "1 per cent of formal climate finance": "“Heat in particular has a severe impact on maternal health, on newborn babies,” he said, adding that approximately 1 per cent of formal climate finance goes to health.",
+     "UN Climate Change": "Health receives just 1 per cent of climate finance, says UN official Speaking at the launch, Youssef Nassef, director of the adaptation programme at UN Climate Change, acknowledged the limited funding available to address climate-related health risks."
     }
    }
   ],
@@ -559,6 +701,10 @@
     "terms": {
      "Philanthropy Asia Alliance": true,
      "Heat Health": true
+    },
+    "passages": {
+     "Philanthropy Asia Alliance": "8, 2026 Singapore, 8 October 2026 The Philanthropy Asia Alliance (PAA) today announced its support for the next stage of the Global Heat Health Information Network (GHHIN) Southeast Asia Hub at the Global Heat Forum in Bangkok.",
+     "Heat Health": "8, 2026 Singapore, 8 October 2026 The Philanthropy Asia Alliance (PAA) today announced its support for the next stage of the Global Heat Health Information Network (GHHIN) Southeast Asia Hub at the Global Heat Forum in Bangkok."
     }
    },
    {
@@ -571,6 +717,11 @@
      "Indonesia": true,
      "Thailand": true,
      "Hub": true
+    },
+    "passages": {
+     "Philanthropy Asia Alliance": "8, 2026 Singapore, 8 October 2026 The Philanthropy Asia Alliance (PAA) today announced its support for the next stage of the Global Heat Health Information Network (GHHIN) Southeast Asia Hub at the Global Heat Forum in Bangkok.",
+     "Indonesia": "This includes funding for targeted efforts in Indonesia and Thailand next year, alongside preparations for a second Southeast Asia Heat Health Forum.",
+     "Thailand": "This includes funding for targeted efforts in Indonesia and Thailand next year, alongside preparations for a second Southeast Asia Heat Health Forum."
     }
    },
    {
@@ -596,6 +747,12 @@
      "Cambodia": false,
      "Barbados": true,
      "Senegal": false
+    },
+    "passages": {
+     "COP31": "…Concepts, Methods and Policy Options | SpringerLink Early Warnings for All Dashboard GlobalCommission_Report_FINAL.pdf (gca.org) COP31 CALL TO ACTION IFRC, as the world’s largest humanitarian network sees the climate crisis as the top global challenge facing human…",
+     "early warning": "Early action makes early warning systems work!",
+     "anticipatory action": "…s now exceed over $2.3 trillion annually, taking into account cascading and ecosystem costs8 9.6 million people were supported by anticipatory action in 20259 International pre-arranged finance reached 9.4 billion USD an all-time high in 202410 pre-arranged finance protects comm…",
+     "Barbados": "…esponding to loss and tripling commitment aligned damage as part of country-led/ with wider climate financing owned action in the Barbados processes towards 1.3billion."
     }
    }
   ],
@@ -607,6 +764,9 @@
     "status": "OK",
     "terms": {
      "tropical night": true
+    },
+    "passages": {
+     "tropical night": "NEWS1 The greater Seoul area is sweltering under extreme heat nearing 40 degrees Celsius (104 degrees Fahrenheit) during the day, while tropical nights approaching 30 degrees Celsius persist after dark."
     }
    }
   ],
@@ -619,6 +779,10 @@
     "terms": {
      "Copernicus": true,
      "second-hottest": true
+    },
+    "passages": {
+     "Copernicus": "Copernicus said there is a 20 percent chance the year will tie or exceed 2024’s record and that global temperatures are virtually certain to exceed 1.5C above pre-industrial levels.",
+     "second-hottest": "2026 most likely to be second-hottest year on record: EU monitor - The Korea Times Go to Top my times The Korea Times open notice search World 2026 most likely to be s…"
     }
    }
   ],
@@ -651,6 +815,16 @@
      "20 million": true,
      "Cool Coalition": true,
      "Global Cooling Pledge": true
+    },
+    "passages": {
+     "COP31": "Anatalya, 17 November 2026 - Countries attending the UN Climate Change Conference (COP31) in Antalya, T rkiye, today backed an integrated global response to extreme heat and growing cooling needs, welcoming the Antalya…",
+     "Ministerial": "Meeting at the 3rd Cooling Pledge Ministerial, co-chaired by Singapore and the UN Environment Programme (UNEP), ministers and high-level representatives outlined priorities fo…",
+     "Singapore": "Singapore, Brazil, Japan, and the United Kingdom commit to addressing both extreme heat and sustainable cooling through the Global Heat Res…",
+     "voluntary": "The roadmap is a country-led and voluntary process, which will support countries in identifying the people, places and systems most exposed to extreme heat - assessing inst…",
+     "Roadmap": "…Kingdom commit to addressing both extreme heat and sustainable cooling through the Global Heat Resilience and Sustainable Cooling Roadmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Glob…",
+     "20 million": "…addressing both extreme heat and sustainable cooling through the Global Heat Resilience and Sustainable Cooling Roadmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge.",
+     "Cool Coalition": "This includes working with UNEP Cool Coalition and over 200 international partners to help shape the Global Heat Resilience & Sustainable Cooling Roadmap.\" At the ministerial,…",
+     "Global Cooling Pledge": "…dmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge."
     }
    }
   ],
@@ -664,6 +838,11 @@
      "1 December 2026": true,
      "28 August 2026": true,
      "training": true
+    },
+    "passages": {
+     "1 December 2026": "I encourage employers to use the next three months to review their workplace practices and put the necessary measures in place before the enhancements take effect on 1 December 2026.",
+     "28 August 2026": "ANNEX Share this page Share this page on facebook Tweet this page Email this page Print this page Last Updated: 28 August 2026 Information and Services Ministry of Manpower Social media About us Careers Contact us Feedback Share your views @ Reach Ministry…",
+     "training": "Employers will be required to: establish heat stress training programme for workers exposed to heat; provide cool drinking water supply near work areas; ensure cold water, ice packs or water…"
     }
    },
    {
@@ -674,6 +853,10 @@
     "terms": {
      "1 December 2026": true,
      "drinking water": true
+    },
+    "passages": {
+     "1 December 2026": "I encourage employers to use the next three months to review their workplace practices and put the necessary measures in place before the enhancements take effect on 1 December 2026.",
+     "drinking water": "Employers will be required to: establish heat stress training programme for workers exposed to heat; provide cool drinking water supply near work areas; ensure cold water, ice packs or water spray on standby for emergency response; and provide suitable cloth…"
     }
    },
    {
@@ -695,6 +878,13 @@
      "$40 million": true,
      "Heat Resilience Action Plan": true,
      "coordinate action, oversee research": true
+    },
+    "passages": {
+     "Heat Resilience Policy Office": "We are happy to announce that MSE has established a new “Heat Resilience Policy Office”.",
+     "Adapting to Heat Impacts": "As part of this programme, we will launch a $40 million “Adapting to Heat Impacts” Funding Initiative, which will step up research in emerging areas such as heat impact and community heat resilience.",
+     "$40 million": "As part of this programme, we will launch a $40 million “Adapting to Heat Impacts” Funding Initiative, which will step up research in emerging areas such as heat impact and community heat resilience.",
+     "Heat Resilience Action Plan": "The Office will develop a Heat Resilience Action Plan across the infrastructure, health, economic and social sectors.",
+     "coordinate action, oversee research": "We will do so in three main ways: coordinate action, oversee research, and represent us internationally."
     }
    }
   ],
@@ -708,6 +898,10 @@
      "52": true,
      "heat index": true,
      "flexible work": true
+    },
+    "passages": {
+     "heat index": "In addition, the Labor Department provided heat index-based guidelines for employers ranging from caution to extreme danger levels.",
+     "flexible work": "…–41°C) entails routine rest and the supply of appropriate protective gear; danger level (42°C–51°C) prompts the implementation of flexible work arrangements to limit heat exposure; and extreme danger levels (52°C and higher) necessitate re-evaluation of tasks and possible…"
     }
    }
   ],
@@ -722,6 +916,11 @@
      "overshoot": true,
      "Point of Return": true,
      "2.8": true
+    },
+    "passages": {
+     "Emissions Gap": "UNEP Emissions Gap report 2026 | PBL Netherlands Environmental Assessment Agency Skip to main content View the site in Dutch Nederlands PBL Netherla…",
+     "overshoot": "…ove pre-industrial levels, urgent and stringent cuts to greenhouse emissions are needed to minimize the magnitude and duration of overshoot and return to 1.5°C by the end of the century, a new UNEP report finds.",
+     "Point of Return": "The Emissions Gap Report 2026: The Point of Return looks at a ‘lowest possible’ 1.5°C overshoot scenario, in which peak warming by around the middle of the century is limited to 1.7-1.8°C and global temperature rise is returned to or below 1.5°C by 2100, with a 50 per cent chance."
     }
    }
   ],
@@ -734,6 +933,10 @@
     "terms": {
      "1 December 2026": true,
      "drinking water": true
+    },
+    "passages": {
+     "1 December 2026": "The enhanced Framework will take effect on 1 December 2026, giving employers time to review their workplace practices and put the necessary measures into place.",
+     "drinking water": "Employers will be required to: establish heat stress training programme for workers exposed to heat; provide cool drinking water supply near work areas; ensure cold water, ice packs or water spray on standby for emergency response; and provide suitable cloth…"
     }
    }
   ],
@@ -747,6 +950,10 @@
      "rhabdomyolysis": true,
      "syncope": true,
      "Employees' Compensation": true
+    },
+    "passages": {
+     "rhabdomyolysis": "Other heat-related illnesses may also qualify, including heat syncope (fainting and dizziness), heat rash (bungang araw), rhabdomyolysis (muscle damage), neurological disorders that affect normal nervous system function and dehydration that leads to kidney injury.",
+     "syncope": "Other heat-related illnesses may also qualify, including heat syncope (fainting and dizziness), heat rash (bungang araw), rhabdomyolysis (muscle damage), neurological disorders that affect normal nervous system function and dehydration that leads to kidney injury."
     }
    }
   ],
@@ -759,6 +966,9 @@
     "terms": {
      "break": true,
      "heat": true
+    },
+    "passages": {
+     "break": "Hyundai Engineering & Construction rewards workers for taking breaks in designated rest areas, while Lotte E&C uses an Internet of Things-based monitoring system at about 80 construction sites to measure perceived temperatures every five minutes and classify heat risks into five levels."
     }
    }
   ],
@@ -802,6 +1012,12 @@
      "concerns about electricity costs": true,
      "metal-roof housing": true,
      "unregistered residents": true
+    },
+    "passages": {
+     "Urban Heat Management Action Plan": "Bangkok’s Financing Strategy for Tackling Urban Heat Challenges 1-1 To inform the development of the strategy, the Bangkok Master Plan on Climate Change and the Urban Heat Management Action Plan were reviewed to assess BMA's current approach to planning and financing climate adaptation measures.",
+     "Bangkok": "Bangkok, Thailand's capital and economic center, is home to a population of approximately 5.4 million people,1 although its actual resident and daytime population is substantially higher due to commuters and unregistered residents.",
+     "pipeline of investment-ready adaptation projects": "The consultations further confirmed that BMA did not yet maintain a pipeline of investment-ready adaptation projects structured for external financing.",
+     "unregistered residents": "Bangkok, Thailand's capital and economic center, is home to a population of approximately 5.4 million people,1 although its actual resident and daytime population is substantially higher due to commuters and unregistered residents."
     }
    },
    {
@@ -812,6 +1028,9 @@
     "terms": {
      "Bangkok": true,
      "heat": true
+    },
+    "passages": {
+     "Bangkok": "Bangkok, Thailand's capital and economic center, is home to a population of approximately 5.4 million people,1 although its actual resident and daytime population is substantially higher due to commuters and unregistered residents."
     }
    },
    {
@@ -838,6 +1057,16 @@
      "20 million": true,
      "Cool Coalition": true,
      "Global Cooling Pledge": true
+    },
+    "passages": {
+     "COP31": "Anatalya, 17 November 2026 – Countries attending the UN Climate Change Conference (COP31) in Antalya, Türkiye, today backed an integrated global response to extreme heat and growing cooling needs, welcoming the Antalya…",
+     "Ministerial": "Meeting at the 3rd Cooling Pledge Ministerial, co-chaired by Singapore and the UN Environment Programme (UNEP), ministers and high-level representatives outlined priorities fo…",
+     "Singapore": "Singapore, Brazil, Japan, and the United Kingdom commit to addressing both extreme heat and sustainable cooling through the Global Heat Res…",
+     "voluntary": "The roadmap is a country-led and voluntary process, which will support countries in identifying the people, places and systems most exposed to extreme heat – assessing inst…",
+     "Roadmap": "…Kingdom commit to addressing both extreme heat and sustainable cooling through the Global Heat Resilience and Sustainable Cooling Roadmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Glob…",
+     "20 million": "…addressing both extreme heat and sustainable cooling through the Global Heat Resilience and Sustainable Cooling Roadmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge.",
+     "Cool Coalition": "This includes working with UNEP Cool Coalition and over 200 international partners to help shape the Global Heat Resilience & Sustainable Cooling Roadmap.” At the ministerial,…",
+     "Global Cooling Pledge": "…dmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge."
     }
    }
   ],
@@ -855,6 +1084,11 @@
      "31.7": true,
      "tripl": true,
      "20-29%": false
+    },
+    "passages": {
+     "Adaptation Gap Report": "…) Sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss Further Resources Adaptation Gap Report 2026 Key Messages Appendices Related content UNEP Event Image Image credit Photo Credit: NASA/Unsplash France 2 Dec 2026 2 Dec 20…",
+     "305 billion": "However, international public adaptation finance flows from developed to developing countries are far below estimated needs of US$305 billion annually by 2035.",
+     "tripl": "…rnational public adaptation finance flows are flattening, rising by just US$1 billion between 2023 and 2024 Even if aspiration to triple international public adaptation finance flows to developing countries by 2035 is met, only 20-29 per cent of needs will be cover…"
     }
    }
   ],
@@ -883,6 +1117,9 @@
      "October 2026": true,
      "September 2027": true,
      "heat": true
+    },
+    "passages": {
+     "Grade 3": "It translates WHO’s Grade 3 response into coordinated action across headquarters, Regional Offices and Country Offices, while supporting nationally led preparedness and response."
     }
    }
   ],
@@ -895,6 +1132,9 @@
     "terms": {
      "heat": true,
      "South Asia": true
+    },
+    "passages": {
+     "South Asia": "The report A Livable Future: Protecting Jobs and Growth from Extreme Heat in South Asia's Cities finds that extreme heat is already costing the region nearly the equivalent of 31 million full-time jobs each year and could reduce South Asia's economy by nearly 7 percent by 2050."
     }
    },
    {
