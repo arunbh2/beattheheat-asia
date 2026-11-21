@@ -1,11 +1,11 @@
 ---
 title: "Careers in heat resilience"
 url: https://beattheheat.asia/heat-economy/money/careers/
-updated: 2026-10-01
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
-> Heat resilience needs people working across health, engineering, labour rights, community organising, finance, research and public policy. 3 listings, 1 verified open.
+> Heat resilience needs people working across health, engineering, labour rights, community organising, finance, research and public policy. 9 listings, 6 verified open.
 
 The heat economy · Careers
 
@@ -17,9 +17,115 @@ Heat resilience needs people working across health, engineering, labour rights, 
 
 [Download all (CSV)](https://beattheheat.asia/heat-economy/data/careers.csv)
 
-| National University of Singapore | Singapore.Not stated | As stated in the listing. | Pay not statedNot published | No deadline published |
+| National University of Singapore | Kent Ridge Campus, Singapore.No | As stated in the listing. | Pay not statedNot published | No deadline published |
+[Postdoctoral Fellow in Urban and Regional Climate Modeling](#car-nus-urban-climate-postdoc)Research position | National University of Singapore | Kent Ridge Campus, Singapore.No | As stated in the listing. | Pay not statedNot published | No deadline published |
+[Programme Manager, Heat Resilience & Performance Centre (2-year contract)](#car-nus-hrpc-programme-manager)Job | National University of Singapore | Kent Ridge Campus, Singapore.No | Two-year contract. | Pay not statedNot published | No deadline published |
+[Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)](#car-nus-microclimate-ra-33562)Research position | National University of Singapore | Kent Ridge Campus, Singapore; field work in HDB precincts and test-bed sites.No | Research staff post; duration as stated in the listing. | Pay not statedNot published | No deadline published |
+[Research Engineer/Assistant (Environmental and Thermal Sensing)](#car-nus-thermal-sensing-engineer)Research position | National University of Singapore | Kent Ridge Campus, Singapore.No | As stated in the listing. | Pay not statedNot published | No deadline published |
+[Research Fellow (Urban Microclimate Modeling and Graph Neural Networks)](#car-nus-microclimate-rf)Research position | National University of Singapore | Singapore.Not stated | As stated in the listing. | Pay not statedNot published | No deadline published |
 [HGHI-Salata Burke Climate and Health Research Fellowship, 2027 to 2028 cohort](#car-hghi-burke-climate-2027)Fellowship | Harvard Global Health Institute | Harvard University; applicants need a Harvard faculty mentor whose department hosts the fellow.Not stated | Two-year fellowship. | Pay not statedNot published | 3 January 2027, 23:59 ET |
+[Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India](#car-unep-urban-heat-expert-287135)Individual consultancy | UN Environment Programme | Listed under the Paris duty station; the work covers 50 cities in India.Not confirmed | Consultancy, expected duration 12 months. | Pay not statedNot published | 15 November 2026, 23:59 ET |
 [Consultant: health sector capacity on heat, air quality and health](#car-who-heat-aq-consultant-2026)Individual consultancy | World Health Organization | As stated in the call.Not stated | Consultancy, as described in the call. | Pay not statedNot published | 2 October 2026 (cut-off time not published) |
+
+### Assistant Professor, Yong Loo Lin School of Medicine
+
+National University of Singapore
+
+OpenVerifiedJobPay not statedDirect heat role
+
+**Location**: Kent Ridge Campus, Singapore. · Remote: No
+
+**Contract**: As stated in the listing.
+
+**Pay**: Pay not stated. Not published
+
+**Deadline**: No deadline published
+
+**How it connects to heat**: Common Shade's reading.
+
+[View listing](https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/)
+
+**Source checked:** 21 November 2026 · [National University of Singapore: Assistant Professor, Yong Loo Lin School of Medicine](https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/)
+
+### Postdoctoral Fellow in Urban and Regional Climate Modeling
+
+National University of Singapore
+
+OpenVerifiedResearch positionPay not statedDirect heat role
+
+**Location**: Kent Ridge Campus, Singapore. · Remote: No
+
+**Contract**: As stated in the listing.
+
+**Pay**: Pay not stated. Not published
+
+**Deadline**: No deadline published
+
+**How it connects to heat**: Common Shade's reading.
+
+[View listing](https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/)
+
+**Source checked:** 21 November 2026 · [National University of Singapore: Postdoctoral Fellow in Urban and Regional Climate Modeling](https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/)
+
+### Programme Manager, Heat Resilience & Performance Centre (2-year contract)
+
+National University of Singapore
+
+OpenVerifiedJobPay not statedDirect heat role
+
+**Location**: Kent Ridge Campus, Singapore. · Remote: No
+
+**Contract**: Two-year contract.
+
+**Pay**: Pay not stated. Not published
+
+**Deadline**: No deadline published
+
+**How it connects to heat**: Common Shade's reading.
+
+[View listing](https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29-Kent/58818644/)
+
+**Source checked:** 21 November 2026 · [National University of Singapore: Programme Manager, Heat Resilience & Performance Centre (2-year contract)](https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29-Kent/58818644/)
+
+### Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)
+
+National University of Singapore · Ref. 33562
+
+OpenVerifiedResearch positionPay not statedDirect heat role
+
+**Location**: Kent Ridge Campus, Singapore; field work in HDB precincts and test-bed sites. · Remote: No
+
+**Contract**: Research staff post; duration as stated in the listing.
+
+**Pay**: Pay not stated. Not published
+
+**Deadline**: No deadline published
+
+**How it connects to heat**: Common Shade's reading.
+
+[View listing](https://careers.nus.edu.sg/job/Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33562-en_GB/)
+
+**Source checked:** 21 November 2026 · [National University of Singapore: Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)](https://careers.nus.edu.sg/job/Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33562-en_GB/)
+
+### Research Engineer/Assistant (Environmental and Thermal Sensing)
+
+National University of Singapore
+
+OpenVerifiedResearch positionPay not statedDirect heat role
+
+**Location**: Kent Ridge Campus, Singapore. · Remote: No
+
+**Contract**: As stated in the listing.
+
+**Pay**: Pay not stated. Not published
+
+**Deadline**: No deadline published
+
+**How it connects to heat**: Common Shade's reading.
+
+[View listing](https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/)
+
+**Source checked:** 21 November 2026 · [National University of Singapore: Research Engineer/Assistant (Environmental and Thermal Sensing)](https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/)
 
 ### Research Fellow (Urban Microclimate Modeling and Graph Neural Networks)
 
@@ -61,6 +167,26 @@ Status unknownVerifiedFellowshipPay not statedAdjacent to heat
 
 **Source checked:** 21 November 2026 · [Harvard Global Health Institute: HGHI Burke Fellowship](https://globalhealth.harvard.edu/fellowships/hghi-burke-fellowship/)
 
+### Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India
+
+UN Environment Programme · Ref. 287135
+
+ClosedVerifiedIndividual consultancyPay not statedDirect heat role
+
+**Location**: Listed under the Paris duty station; the work covers 50 cities in India. · Remote: Not confirmed
+
+**Contract**: Consultancy, expected duration 12 months.
+
+**Pay**: Pay not stated. Not published
+
+**Deadline**: 15 November 2026, 23:59 ETAs published: “Closes 16 November 2026, 04:59 UTC (15 November, 23:59 in New York)”
+
+**How it connects to heat**: Common Shade's reading.
+
+[View listing](https://careers.un.org/jobSearchDescription/287135?language=en)
+
+**Source checked:** 21 November 2026 · [United Nations Careers (UNEP): Project Scientist II (Urban Heat Expert), job opening data](https://careers.un.org/api/public/opening/jo/287135/en)
+
 ### Consultant: health sector capacity on heat, air quality and health
 
 World Health Organization
@@ -85,14 +211,23 @@ ClosedVerifiedIndividual consultancyPay not statedDirect heat role
 
 ### Understand risk and health
 
+- [Assistant Professor, Yong Loo Lin School of Medicine](#car-nus-ylls-assistant-professor), National University of Singapore
+- [Postdoctoral Fellow in Urban and Regional Climate Modeling](#car-nus-urban-climate-postdoc), National University of Singapore
 - [Consultant: health sector capacity on heat, air quality and health](#car-who-heat-aq-consultant-2026), World Health Organization
 
 ### Design safer places and workplaces
 
+- [Research Engineer/Assistant (Environmental and Thermal Sensing)](#car-nus-thermal-sensing-engineer), National University of Singapore
 - [Research Fellow (Urban Microclimate Modeling and Graph Neural Networks)](#car-nus-microclimate-rf), National University of Singapore
+- [Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India](#car-unep-urban-heat-expert-287135), UN Environment Programme
+
+### Finance and manage programmes
+
+- [Programme Manager, Heat Resilience & Performance Centre (2-year contract)](#car-nus-hrpc-programme-manager), National University of Singapore
 
 ### Build evidence, policy and accountability
 
+- [Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)](#car-nus-microclimate-ra-33562), National University of Singapore
 - [HGHI-Salata Burke Climate and Health Research Fellowship, 2027 to 2028 cohort](#car-hghi-burke-climate-2027), Harvard Global Health Institute
 
 ## How to read these
