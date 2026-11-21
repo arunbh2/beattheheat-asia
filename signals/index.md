@@ -55,11 +55,15 @@ What is tracked (2 deliverables)
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itThe roadmap's text, and countries in South and Southeast Asia taking part. Commitment made by UNEP and the Government of Singapore (co-chairs).
+
 #### More than US$20 million in new support for the Cool Coalition's work on the Global Cooling Pledge Funding
 
 - FundedFunding announced, 16 November 2026: original checked
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itGrants signed or paid out, and work funded in South and Southeast Asia. Commitment made by UNEP and the Government of Singapore (co-chairs).
 
 Evidence, history and what is not known
 
@@ -136,6 +140,8 @@ What is tracked (1 deliverable)
 - AnnouncedAnnounced, 9 November 2026: original checked
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itA country announcing that it will take part, or the platform's first published output. Commitment made by Türkiye, as COP31 host, and the World Health Organization.
 
 Evidence, history and what is not known
 
@@ -216,6 +222,8 @@ What is tracked (1 deliverable)
 
 Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itSupport under the plan reaching countries in South and Southeast Asia. Commitment made by World Health Organization.
+
 Evidence, history and what is not known
 
 #### WHO's Strategic Preparedness and Response Plan for El Niño, October 2026 to September 2027
@@ -256,6 +264,8 @@ What is tracked (1 deliverable)
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itEndorsements by countries in South and Southeast Asia, and building codes there that name cooling and indoor heat. Commitment made by COP31 Presidency.
+
 Evidence, history and what is not known
 
 #### The Antalya Compact for Energy Efficient Buildings, open for endorsement by Parties
@@ -294,11 +304,15 @@ What is tracked (2 deliverables)
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
 
+Next step, as the sources describe itThe advisory text, and workplaces applying it. Commitment made by Department of Labor and Employment, Philippines.
+
 #### Rules on compensation for heat stress and heat-related illness at work Rule or guideline
 
 - AdoptedAdopted, 24 October 2026: reported
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itThe technical review's recommendation, and compensation claims for heat illness being filed and paid. Commitment made by Department of Labor and Employment, Philippines.
 
 Evidence, history and what is not known
 
@@ -392,6 +406,27 @@ A count shows what this site has checked, not what has happened. Each deliverabl
 Checked against an original source Reported by secondary sources; original not checked Not verified: no source passed a content check Scheduled: a future date, not yet reached Not verified in the sources checked
 
 Commitment Something an institution has promised or started; it climbs the ladder.Gathering A conference or forum where the field meets; what it produces may become commitments.Finding New science that changes how heat is understood.Guidance A framework or guide published for others to use.
+
+### Where records are
+
+Records tracked here for each place, in alphabetical order, and when the weekly search of public feeds last looked for new developments. A low number describes the records kept here, not what a place is doing.
+
+- [2 Bangladesh](https://beattheheat.asia/signals/?place=bangladesh)Weekly search not yet run
+- [1 Cambodia](https://beattheheat.asia/signals/?place=cambodia)Weekly search not yet run
+- [5 India](https://beattheheat.asia/signals/?place=india)Weekly search not yet run
+- [1 Indonesia](https://beattheheat.asia/signals/?place=indonesia)Weekly search not yet run
+- [0 Lao PDR](https://beattheheat.asia/signals/?place=lao)Weekly search not yet run
+- [0 Malaysia](https://beattheheat.asia/signals/?place=malaysia)Weekly search not yet run
+- [0 Myanmar](https://beattheheat.asia/signals/?place=myanmar)Weekly search not yet run
+- [0 Nepal](https://beattheheat.asia/signals/?place=nepal)Weekly search not yet run
+- [0 Pakistan](https://beattheheat.asia/signals/?place=pakistan)Weekly search not yet run
+- [1 Philippines](https://beattheheat.asia/signals/?place=philippines)Weekly search not yet run
+- [2 Singapore](https://beattheheat.asia/signals/?place=singapore)Weekly search not yet run
+- [0 Sri Lanka](https://beattheheat.asia/signals/?place=sri-lanka)Weekly search not yet run
+- [3 Thailand](https://beattheheat.asia/signals/?place=thailand)Weekly search not yet run
+- [0 Viet Nam](https://beattheheat.asia/signals/?place=viet-nam)Weekly search not yet run
+
+- [20 Region-wide](https://beattheheat.asia/signals/?place=region)Weekly search not yet run
 
 Questions to bring to a commitmentAn announcement is a start, not protection. These questions help read one; the record shows only what its evidence shows.
 

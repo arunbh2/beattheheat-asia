@@ -1,0 +1,59 @@
+# The weekly Signals harvest (tools/signals-harvest.js). Every Monday, reads free public feeds (ReliefWeb, PreventionWeb,
+# UN News, WHO) for developments on extreme heat in South and Southeast Asia, and opens a pull request with the week's
+# candidates (data/signals-candidates/<date>.json). Candidates are leads, never evidence: a person marks each one
+# 'propose' or 'skip', and a proposed one becomes a record only through a research batch and the source check.
+# Merging the pull request records the review; nothing reaches the website from it. Free: no keys, no paid services.
+# Needs, once: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+name: Weekly Signals harvest
+on:
+  schedule:
+    - cron: "43 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: How many days back to look
+        default: "8"
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: signals-weekly
+  cancel-in-progress: false
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      - name: Harvest candidates
+        id: h
+        # inputs reach the shell as variables, never as script text, and are checked before use
+        run: |
+          [[ "$DAYS" =~ ^[0-9]{1,2}$ ]] || { echo "::error::days must be a whole number of days"; exit 1; }
+          node tools/signals-harvest.js --days "$DAYS"
+        env:
+          DAYS: ${{ inputs.days || '8' }}
+      - name: Open the review pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAY: ${{ steps.h.outputs.date }}
+          QUEUED: ${{ steps.h.outputs.queued }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BR="signals/$DAY"
+          git checkout -B "$BR"
+          git add data/signals-candidates
+          if git diff --cached --quiet; then echo "Nothing new this week."; exit 0; fi
+          git commit -m "Signals candidates for $DAY ($QUEUED leads)"
+          git push -f origin "$BR"
+          BODY=$(printf '%s\n' \
+            "**$QUEUED leads** for Signals this week, in \`data/signals-candidates/$DAY.json\`. The file also records which places were searched, for the coverage grid on /signals/." "" \
+            "For each lead: open the link, then set \`decision\` to \`propose\` (worth a record) or \`skip\`. A proposed lead becomes a record only through a research batch: stage its sources, run verify-sources.yml, gate the claims, and set its step from the evidence, never from the feed." "" \
+            "Merging records the review; nothing reaches the website from this pull request." "" \
+            "Guide: \`data/signals-candidates/README.md\`")
+          gh pr create --base "${{ github.event.repository.default_branch }}" --head "$BR" --title "Signals leads: $DAY ($QUEUED)" --body "$BODY" \
+            || echo "::warning::Could not open the pull request (allow Actions to create pull requests in the repository settings). The leads are on branch $BR."

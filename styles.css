@@ -4300,6 +4300,16 @@ button { -webkit-user-select: none; user-select: none; }
 .sg-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
 .sg-jump a { display: inline-block; padding: 6px 12px; border: 1px solid var(--line-strong); border-radius: 999px; font-size: var(--fs-14); text-decoration: none; }
 .sg-morelink { margin: 16px 0 0; font-size: var(--fs-16); }
+.sg-nextstep { font-size: var(--fs-14); line-height: 1.5; margin: 6px 0 0; }
+.sg-nextstep .sg-small { display: block; }
+/* where records are: the coverage grid on Signals (alphabetical, never ranked) */
+.sg-cov { margin: 20px 0; }
+.sg-cov__l { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); gap: 8px; }
+.sg-cov__l li { border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--white); padding: 8px 10px; font-size: var(--fs-14); line-height: 1.4; }
+.sg-cov__l li.is-zero { background: var(--sand-50); }
+.sg-cov__l a { display: block; color: var(--ink); font-weight: 600; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.sg-cov__l b { font-size: var(--fs-18); margin-right: 4px; }
+.sg-cov__l span { display: block; font-size: var(--fs-12); color: var(--grey-700); }
 /* proof sentences and dated paths inside Signals records (tools/build-signals.js) */
 .sg-ev__q { display: block; margin-top: 4px; font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
 .sg-ev__q q { font-family: var(--font-serif); font-style: italic; color: var(--ink); }

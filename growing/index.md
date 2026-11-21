@@ -5,7 +5,7 @@ updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 81 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 82 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,36 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-81 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+82 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### Signals shows the next step for each promise, and a weekly search looks for what it is missing
+
+Added 21 November 2026 · Tool improved 21 November 2026
+
+Why it matters our readingEach open commitment on Signals now shows the next step its sources describe and who made it. A weekly search of public feeds proposes developments the page has not yet tracked, for a person to review, and a grid shows the records kept for each place and when it was last searched.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat action plans
+- Heat-safe work
+
+ReviewNo new claims: the next step restates each record's own fields, and weekly leads become records only after the source check and a person's approval. Places are listed alphabetically and never ranked..
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+The grid shows where heat plans and rules are tracked and where none is yet.
+
+[See where records are](https://beattheheat.asia/signals/#coverage)
+[Signals](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Signals%20shows%20the%20next%20step%20for%20each%20promise%2C%20and%20a%20weekly%20search%20looks%20for%20what%20it%20is%20missing&ref=g-signals-wider#way-share)
 
 Tool improved · Practical measures
 

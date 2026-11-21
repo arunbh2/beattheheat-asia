@@ -8,6 +8,13 @@
   <updated>2026-11-21T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
   <entry>
+    <title>Signals shows the next step for each promise, and a weekly search looks for what it is missing</title>
+    <link href="https://beattheheat.asia/growing/#g-signals-wider" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-signals-wider</id>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <summary>Each open commitment on Signals now shows the next step its sources describe and who made it. A weekly search of public feeds proposes developments the page has not yet tracked, for a person to review, and a grid shows the records kept for each place and when it was last searched.</summary>
+  </entry>
+  <entry>
     <title>Signals shows each source's own words, and appears on every country, city and action page</title>
     <link href="https://beattheheat.asia/growing/#g-signals-sof-connected" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-signals-sof-connected</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-signals-cop31-checkin-2</id>
     <updated>2026-11-15T00:00:00Z</updated>
     <summary>The COP31 Presidency's Antalya Compact for Energy Efficient Buildings joins the COP31 watch at its first rung, announced, as it is open for countries to endorse. Its actions include the electrification of heating and cooling.</summary>
-  </entry>
-  <entry>
-    <title>Heat today and the next three days on every city page</title>
-    <link href="https://beattheheat.asia/growing/#g-city-heat-today" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-city-heat-today</id>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary>Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away.</summary>
   </entry>
 </feed>

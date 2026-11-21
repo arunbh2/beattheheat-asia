@@ -101,6 +101,15 @@ ok(/sg-ctx__lever/.test(read("actions/index.html")), "actions page: actions with
 // proof sentences come only from checked pages, never typed
 const CK = JSON.parse(read("data/site/signals-checks.json")), psg = Object.values(CK.urls).flat().filter(r => r.passages);
 ok(psg.every(r => r.kind === "content" && Object.keys(r.passages).every(t => r.terms[t])), "proof sentences: only from content checks, only for terms the check found");
+// where records are: every place the weekly harvest searches is in the grid, alphabetical (never ranked)
+{ const H = require("./signals-harvest.js"), m = main.match(/id="coverage"[\s\S]*?<\/ul>/), names = m ? [...m[0].matchAll(/<b>\d+<\/b> ([^<]+)<\/a>/g)].map(x => x[1]) : [];
+  ok(m && Object.keys(H.PLACES).length === names.length, "coverage grid: one entry per searched place, region included");
+  const az = names.slice(0, -1); ok(az.every((n, i) => !i || az[i - 1].localeCompare(n) <= 0), "coverage grid: places in alphabetical order");
+  for (const f of fs.existsSync(path.join(ROOT, "data/signals-candidates")) ? fs.readdirSync(path.join(ROOT, "data/signals-candidates")).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)) : []) {
+    const j = JSON.parse(read(`data/signals-candidates/${f}`));
+    ok(Array.isArray(j.candidates) && j.candidates.every(c => c.url && c.title && /^(pending|propose|skip)$/.test(c.decision)), `${f}: each lead has a title, a link and a decision of pending, propose or skip`); } }
+// the next step on a card restates the record's own fields
+ok((all.match(/class="sg-nextstep"/g) || []).length > 0, "cards: open deliverables show their next step");
 const feedX = read("signals/feed.xml"), cal = read("signals/calendar.ics");
 ok(R.signals.every(s => feedX.includes(`/signals/#${s.id}</id>`)), "feed.xml: one entry per record");
 ok(/^BEGIN:VCALENDAR\r\n/.test(cal) && /END:VCALENDAR\r\n$/.test(cal) && cal.split("\r\n").every(l => Buffer.byteLength(l) <= 75), "calendar.ics: a calendar with CRLF lines folded to 75 octets");

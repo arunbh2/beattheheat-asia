@@ -56,9 +56,12 @@ function render(esc, ctx) {
     return `<ol class="sg-check" aria-label="Steps with evidence for: ${e(d.what)}">${shown.map(c =>
       `<li class="is-${c.status}"><span class="sg-check__l"><span aria-hidden="true">${STATE_MARK[c.status]}</span> ${e(c.label)}</span><span class="sg-check__t">${e(c.text)}</span></li>`).join("")}</ol>${gaps ? `<p class="sg-gaps">${e(gaps)}</p>` : ""}`;
   };
+  // the next step, on the card itself: what the record says would show it, and who made the commitment, both from the
+  // record's own sourced fields. No one is named as late or responsible for a gap (a step not reached is "not verified").
+  const evaluated = (s, d) => SM.checklist(d, s, ctx.CHECKS, ctx.today).some(c => c.rung === "evaluated" && /confirmed|reported/.test(c.status));
   const deliverable = (s, d) => `<section class="sg-del" id="${e(s.id)}--${e(d.id)}" data-del="${e(d.id)}">
         <h4 class="sg-del__what">${e(d.what)} <span class="sg-tag">${e(SM.TYPES[d.type].label)}</span></h4>
-        ${checklist(s, d)}</section>`;
+        ${checklist(s, d)}${d.next && !evaluated(s, d) ? `<p class="sg-nextstep"><span class="sg-lab">${e(T.NEXT_STEP)}</span>${e(d.next)} <span class="sg-small">${e(T.MADE_BY(d.holder || s.who))}</span></p>` : ""}</section>`;
   // the folded record: milestones with evidence, world events, sourced facts, conflicts, unknowns, next evidence
   const record = (s, d) => {
     const tl = SM.timeline(d).map(t => {
@@ -141,9 +144,17 @@ module.exports = function signals({ page, write, esc, hero }) {
     <nav class="sg-jump" aria-label="On this page"><a href="#records">Every record</a><a href="#where">Where commitments stand</a><a href="#el-nino-watch">El Niño watch</a><a href="#cop31">COP31 watch</a><a href="#sg-method">How records are kept</a></nav>
   </div></section>`;
   const opt = (v, l) => `<option value="${e(v)}">${e(l)}</option>`;
-  const placesUsed = [...new Set(D.signals.flatMap(s => s.places || []))].sort((a, b) => a === "region" ? -1 : b === "region" ? 1 : (PLACE[a] || a).localeCompare(PLACE[b] || b));
+  const placesUsed = [...new Set([...D.signals.flatMap(s => s.places || []), ...Object.keys(require("./signals-harvest.js").PLACES)])].sort((a, b) => a === "region" ? -1 : b === "region" ? 1 : (PLACE[a] || a).localeCompare(PLACE[b] || b)).filter((p, i, a) => a.indexOf(p) === i);
   const leversUsed = [...new Set(D.signals.flatMap(s => s.levers || []))].sort((a, b) => (ctx.levers[a] || a).localeCompare(ctx.levers[b] || b));
   const popsUsed = [...new Set(D.signals.flatMap(s => s.populations || []))];
+  // where records are: every place the weekly harvest searches, alphabetical (never ranked), with its records here and
+  // when the harvest last searched it; a zero describes the records kept here, not the place (tools/signals-harvest.js)
+  const H = require("./signals-harvest.js"), LS = H.lastSearched(), CN = require("./signals-context.js").NAME;
+  const covRows = Object.keys(H.PLACES).filter(p => p !== "region").map(p => ({ p, name: (CN[p] || p).replace(/^the /, ""), n: D.signals.filter(s => (s.places || []).includes(p)).length }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const coverage = `<div class="sg-cov" id="coverage"><h3 class="sg-h3">${e(T.COV_H)}</h3><p class="sg-small">${e(T.COV_NOTE)}</p>
+      <ul class="sg-cov__l">${covRows.map(r => `<li class="${r.n ? "" : "is-zero"}"><a href="/signals/?place=${e(r.p)}"><b>${r.n}</b> ${e(r.name)}</a><span>${LS[r.p] ? `${e(T.COV_SEARCHED)} ${e(SM.date(LS[r.p]))}` : e(T.COV_NOT_YET)}</span></li>`).join("")}
+      <li><a href="/signals/?place=region"><b>${D.signals.filter(s => (s.places || []).includes("region")).length}</b> ${e(T.COV_REGION)}</a><span>${LS.region ? `${e(T.COV_SEARCHED)} ${e(SM.date(LS.region))}` : e(T.COV_NOT_YET)}</span></li></ul></div>`;
   const overview = `<ol class="sg-ov">${[...SM.RUNGS, "none"].filter(r => r !== "none" || B.none.n).map(r => `<li${B[r].n ? "" : ' class="is-empty"'}><span class="sg-ov__n">${B[r].n}</span>
         <span class="sg-ov__l"><b>${r === "none" ? "No step with evidence yet" : e(SM.RUNG_LABEL[r])}</b>${r === "none" ? "" : ` <span>${e(D.ladder.find(l => l.id === r).means)}</span>`}${B[r].reportedOnly ? ` <span class="sg-ov__f">${B[r].reportedOnly} of these rest${B[r].reportedOnly === 1 ? "s" : ""} on secondary reports only.</span>` : ""}${B[r].unverified ? ` <span class="sg-ov__f">${B[r].unverified} not verified by a content check.</span>` : ""}</span></li>`).join("")}</ol>`;
   const checkins = (cop.checkins || []).map(c => `<li><p><b>${time2(c.date)} · ${e(c.label)}</b> ${e(c.note)}</p><ul>${c.added.map(id => { const s = D.signals.find(x => x.id === id); return `<li><a href="#${e(id)}">${e(s.title)}</a> <span class="sg-tag">${e(T.kindOf(s).label)}</span></li>`; }).join("")}</ul></li>`).join("");
@@ -157,7 +168,7 @@ module.exports = function signals({ page, write, esc, hero }) {
       <div class="sg-views" role="group" aria-label="View"><button type="button" data-view="recent" aria-pressed="true">Recent developments</button><button type="button" data-view="commitments" aria-pressed="false">Commitments and evidence</button><button type="button" data-view="upcoming" aria-pressed="false">Coming up</button><button type="button" data-view="saved" aria-pressed="false">Saved</button></div>
       <label class="sg-f sg-f--q"><span>Search</span><input type="search" name="q" autocomplete="off" placeholder="A place, an institution, a word"></label>
       <details class="sg-more-f"><summary>More filters <span class="sg-nf"></span></summary><div class="sg-fields">
-        <label class="sg-f"><span>Place</span><select name="place">${opt("", "Any place")}${placesUsed.map(p => opt(p, PLACE[p] || p)).join("")}</select></label>
+        <label class="sg-f"><span>Place</span><select name="place">${opt("", "Any place")}${placesUsed.map(p => opt(p, PLACE[p] || (require("./signals-context.js").NAME[p] || p).replace(/^the /, ""))).join("")}</select></label>
         <label class="sg-f"><span>Kind</span><select name="kind">${opt("", "Any kind")}${D.kinds.map(k => opt(k.id, k.label)).join("")}</select></label>
         <label class="sg-f"><span>Action it touches</span><select name="lever">${opt("", "Any action")}${leversUsed.map(l => opt(l, ctx.levers[l] || l)).join("")}</select></label>
         ${popsUsed.length ? `<label class="sg-f"><span>People</span><select name="pop">${opt("", "Anyone")}${popsUsed.map(p => opt(p, ctx.people[p] || p)).join("")}</select></label>` : ""}
@@ -183,6 +194,7 @@ module.exports = function signals({ page, write, esc, hero }) {
     <p class="sg-note">${e(T.NOTE)}</p>
     <p class="sg-keys"><span><span aria-hidden="true">✓</span> ${e(SM.STATE.confirmed.label)}</span><span><span aria-hidden="true">◐</span> ${e(SM.STATE.reported.label)}</span><span><span aria-hidden="true">○</span> ${e(SM.STATE.unverified.label)}</span><span><span aria-hidden="true">◷</span> Scheduled: a future date, not yet reached</span><span><span aria-hidden="true">–</span> Not verified in the sources checked</span></p>
     <p class="sg-kinds">${D.kinds.map(k => `<span><span class="sg-kind sg-kind--${k.id}">${e(k.label)}</span> ${e(k.means)}</span>`).join("")}</p>
+    ${coverage}
     <div class="cs-note sg-cq" id="commitment-questions"><span class="cs-note__label">${e(SH.COMMITMENT.h)}</span><p>${e(SH.COMMITMENT.intro)}</p><ol>${SH.COMMITMENT.questions.map(q => `<li>${e(q)}</li>`).join("")}</ol></div>
   </div></section>
   <section class="sg-watch" id="el-nino-watch" aria-labelledby="enso-watch-h"><div class="container">

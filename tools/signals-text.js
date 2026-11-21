@@ -25,6 +25,13 @@ const AHEAD_NOTE = "A scheduled date is when a rule or plan is due to apply. Rea
 const SHOWING = (a, b) => `Showing the ${a} newest of ${b} records.`;
 const SEE_ALL = n => `See all ${n} records on one page`;
 const ALL_LEDE = "Every record on Signals, newest first, with its evidence. The main Signals page adds what moved, filters, saved records and the watches.";
+const NEXT_STEP = "Next step, as the sources describe it";
+const MADE_BY = who => `Commitment made by ${who}.`;
+const COV_H = "Where records are";
+const COV_NOTE = "Records tracked here for each place, in alphabetical order, and when the weekly search of public feeds last looked for new developments. A low number describes the records kept here, not what a place is doing.";
+const COV_SEARCHED = "Searched";
+const COV_NOT_YET = "Weekly search not yet run";
+const COV_REGION = "Region-wide";
 const PROOF = "From the checked page";
 const PATH = "Dated path, as far as the evidence shows";
 const OLDER = "Older records, newest first. Each opens here with its evidence; without JavaScript, on the page of every record.";
@@ -92,4 +99,4 @@ function record(s, C, today) {
   out.push(`  Sources: ${s.sources.map(x => `${x.label} (${x.type}) ${x.url}`).join("; ")}`);
   return out.join("\n");
 }
-module.exports = { PROOF, PATH, OLDER, MOVED_NOTE, MOVED_NONE, AHEAD_NOTE, SHOWING, SEE_ALL, ALL_LEDE, TITLE, LEDE, NOTE, USES, DISTINCT, NO_SYNTHESIS, WATCH_NOTE, SAVED_NOTE, EMPTY, METHOD, V, date, kindOf, load, checks, denominator, standing, md, record };
+module.exports = { NEXT_STEP, MADE_BY, COV_H, COV_NOTE, COV_SEARCHED, COV_NOT_YET, COV_REGION, PROOF, PATH, OLDER, MOVED_NOTE, MOVED_NONE, AHEAD_NOTE, SHOWING, SEE_ALL, ALL_LEDE, TITLE, LEDE, NOTE, USES, DISTINCT, NO_SYNTHESIS, WATCH_NOTE, SAVED_NOTE, EMPTY, METHOD, V, date, kindOf, load, checks, denominator, standing, md, record };
