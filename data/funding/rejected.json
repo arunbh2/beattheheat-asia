@@ -1,0 +1,137 @@
+{
+ "about": "Candidates examined in November 2026 and not published, each with the reason. Kept so they are not re-added without a change.",
+ "records": [
+  {
+   "title": "Nexa (Africa, Latin America and the Caribbean) 2026 call",
+   "org": "Grand Challenges Canada",
+   "reason": "Not open to work in Asia; closed 12 August 2026. Its Asia counterpart, Nexa Lighthouse, is listed.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Horizon Europe HORIZON-MISS-2025-01-CLIMA-04 (extreme heat)",
+   "org": "European Commission",
+   "reason": "Closed in 2025; aimed at regional and local authorities in Europe.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "NIEHS Health and Extreme Weather Research Hubs (U54)",
+   "org": "US National Institutes of Health",
+   "reason": "Forecast only (January 2027); applicant eligibility is US-focused and not established for Asia.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "World Bank procurement notices on district heating in Uzbekistan",
+   "org": "World Bank-financed projects",
+   "reason": "Heating and hot water, not protection from heat; matched only on the word 'cooling'.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "World Bank: milk cooling tanks, Eastern and Southern Africa",
+   "org": "World Bank-financed projects",
+   "reason": "Cold chain for milk in Africa; no heat-protection connection and outside Asia.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "World Bank: Environmental Junior Specialist, Indonesia National Urban Flood Resilience Project",
+   "org": "World Bank-financed project",
+   "reason": "Urban flood project; no credible connection to heat in the notice.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "World Bank: building extension for the Bangladesh disaster management office",
+   "org": "World Bank-financed project",
+   "reason": "Construction works; no heat connection.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "EU Funding and Tenders search results (FAQs, partner searches, project results)",
+   "org": "European Commission",
+   "reason": "Not calls; the harvest now keeps calls and tenders only.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Resilient Futures Call for Ideation Grants 2026",
+   "org": "Resilient Futures initiative",
+   "reason": "Closed 4 September 2026; about democratic leadership and climate, heat not named.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Elrha R2HC Responsive Research Mechanism",
+   "org": "Elrha",
+   "reason": "Not open; not heat-specific.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Formas climate and public health call (Sweden)",
+   "org": "Formas",
+   "reason": "Decided October 2026; Swedish applicants only.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Unitaid call on heat stability of health products",
+   "org": "Unitaid",
+   "reason": "Closed 23 January 2026.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Climate Smart Communities Grant Program (New York) and California Extreme Heat and Community Resilience Program",
+   "org": "US state agencies",
+   "reason": "US applicants only.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Wellcome Climate Impacts Awards 2026 round",
+   "org": "Wellcome",
+   "reason": "Closed in April 2026; the scheme is listed as a programme to monitor.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "UCL PhD studentship on urban heat risk in Indian cities",
+   "org": "University College London",
+   "reason": "Found only on aggregator sites; UCL's own listing was not found, so it is not published until the primary page is confirmed.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "IFRC consultancy: knowledge management and communications on extreme heat",
+   "org": "IFRC",
+   "reason": "Found on a job aggregator; the IFRC page could not be confirmed.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Red Cross Red Crescent Climate Centre heat communication postings",
+   "org": "Red Cross Red Crescent Climate Centre",
+   "reason": "Undated PDFs; status could not be established.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "WHO Western Pacific consultant on heat and health resilience",
+   "org": "World Health Organization",
+   "reason": "Closed 18 February 2026.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Imperial College and University of Tasmania heat research posts",
+   "org": "Universities",
+   "reason": "Closed in early 2026.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Clean Cooling Collaborative 2024 request for proposals on passive cooling in Southeast Asia",
+   "org": "Clean Cooling Collaborative",
+   "reason": "Closed 15 June 2024; the collaborative is listed as a programme.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Toyota Foundation programmes for Japan-based teams",
+   "org": "Toyota Foundation",
+   "reason": "Japan-based applicants only; its international programme is listed.",
+   "examined": "2026-11-21"
+  },
+  {
+   "title": "Global Cooling Prize",
+   "org": "Government of India, Mission Innovation and RMI-led coalition",
+   "reason": "Completed competition (2021); kept in the October 2026 programme list, marked as completed.",
+   "examined": "2026-11-21"
+  }
+ ]
+}

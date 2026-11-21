@@ -81,7 +81,7 @@ const SUITS = { both: "Works in dry and humid heat", "hot-dry": "Best in dry hea
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E";
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const NAV = `<nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>`;
-const PAGES = [["", "Start here"], ["businesses", "Businesses"], ["flows", "Follow the money"], ["money", "Funding and support"], ["opportunities", "Ideas"], ["conditions", "Questions to ask"]];
+const PAGES = [["", "Start here"], ["businesses", "Businesses"], ["flows", "Follow the money"], ["money", "Funding and support"], ["money/opportunities", "Open calls"], ["money/careers", "Careers"], ["opportunities", "Ideas"], ["conditions", "Questions to ask"]];
 const subnav = cur => `<nav class="he-sub" aria-label="The heat economy">${PAGES.map(([s, n]) => `<a href="/heat-economy/${s ? s + "/" : ""}"${s === cur ? ' aria-current="page"' : ""}>${esc(n)}</a>`).join("")}</nav>`;
 const ABOUT = `<p class="sol-caveat he-about"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>`;
 const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
@@ -115,14 +115,14 @@ const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
 ${script}</body>
 </html>
 `;
-const shell = (cur, eyebrow, h1, lede, inner) => `
+const shell = (cur, eyebrow, h1, lede, inner, about = ABOUT) => `
     <section class="sol-page he">
       <div class="container">
         ${subnav(cur)}
         <p class="eyebrow">${esc(eyebrow)}</p>
         <h1 class="h2 tool-h1">${h1}</h1>
         <p class="tool-lede">${lede}</p>
-        ${ABOUT}
+        ${about}
         ${inner}
       </div>
     </section>`;
@@ -287,15 +287,18 @@ const progCard = a => `<details class="sol he-card" id="prog-${esc(a.id)}" data-
         <p class="sol-go">Check the programme’s own page for current rules and deadlines.</p>
       </div>
     </details>`;
-const money = shell("money", "The heat economy · Funding and support", "Who funds protection from heat, <br>and who helps new ventures grow.",
-  `${N.inv} funders and investors, ${N.traced} pieces of funding we could trace, and ${N.prog} accelerators, prizes and challenges.`,
-  `<nav class="sol-jump" aria-label="On this page"><a href="#where">Funding we traced</a> · <a href="#investors">Funders and investors</a> · <a href="#programmes">Accelerators, prizes and challenges</a> · <a href="#deals">Every piece of funding</a></nav>
+const FUND = require("./build-funding.js");
+const money = shell("money", "The heat economy · Funding and support", "Who funds protection from heat, <br>how to reach them, and who is hiring.",
+  `The funding landscape and how each programme can be reached, open calls and careers, and the record of funding we could trace: ${N.inv} funders and investors, ${N.traced} pieces of funding and ${N.prog} accelerators, prizes and challenges.`,
+  `<nav class="sol-jump" aria-label="On this page"><a href="#landscape">The funding landscape</a> · <a href="#needs">What needs funding?</a> · <a href="/heat-economy/money/opportunities/">Open calls and tenders</a> · <a href="/heat-economy/money/careers/">Careers</a> · <a href="#where">Funding we traced</a> · <a href="#investors">Funders and investors</a> · <a href="#programmes">Accelerators, prizes and challenges</a> · <a href="#deals">Every piece of funding</a></nav>
+        ${FUND.landscape()}
         <section class="cty-s" id="where"><h2>Funding we traced</h2>
           <div class="he-askbox he-askbox--wide"><b>How to read funding news</b><ul><li><b>Announced</b> is not the same as <b>paid</b>. Money often arrives in stages, or later.</li><li>A company’s funding may pay for more than its heat work.</li><li>Shares, loans, grants and guarantees are different things, so we never add them together.</li></ul></div>
           ${flowTable}
           ${segTable}
           <p class="he-note">Most of the funding we could trace went to cooling equipment, cold storage, shared cooling networks and heat data, where there is a clear buyer for a product or a contract. Services such as paid rest, shared cool rooms and warnings for everyone are usually paid for from public budgets, which this list does not cover. It is a sample of public announcements, not the whole picture.</p></section>
         <section class="cty-s" id="investors"><h2>Funders and investors <span class="he-n">${N.inv}</span></h2>
+          <p class="he-intro">From the October 2026 research and the funding traced since, listed with the kind of money each provides. Venture capital, impact investors and company investment arms provide equity or loans, which are not grant funding; they are labelled by kind. For programmes with grants and their access routes, see <a href="#landscape">the funding landscape</a>.</p>
           <div class="sol-bar" role="search">${search("For example: cold storage, foundation, development bank")}${sel("type", "Kind of funder", ["Any kind", ...Object.entries(INVTYPE).filter(([k]) => INV.some(i => i.type === k))])}<p class="sol-count" id="he-count" role="status" aria-live="polite"></p></div>
           <div class="he-group">${INV.slice().sort((a, b) => a.name.localeCompare(b.name)).map(invCard).join("\n")}</div>
           <p class="sol-none" id="he-none" hidden>No funder matches. Try fewer filters.</p></section>
@@ -436,7 +439,7 @@ const write = (slug, title, desc, body, script = "") => { const dir = path.join(
 write("heat-economy", "The heat economy", "Businesses, funding and ideas that protect people from heat in Asia, and what to ask before you buy, fund or start something.", overview);
 write("heat-economy/businesses", "Businesses offering protection from heat", `${N.biz} businesses offering protection from extreme heat, ${N.bizAsia} working in South or Southeast Asia, with what to ask before buying.`, businesses, FILTER("he-count", "businesses"));
 write("heat-economy/flows", "Follow the money", `Where funding for heat protection comes from and where it reaches: ${FDATA.length} pieces of traced funding, followed from who gave them to the cycles they could help break.`, flows, FLOW_JS);
-write("heat-economy/money", "Funding and support for protection from heat", `${N.inv} funders and investors, ${N.traced} pieces of funding traced and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes"));
+write("heat-economy/money", "Funding and support for protection from heat", `The funding landscape and access routes, open calls and careers, plus ${N.inv} funders and investors, ${N.traced} pieces of funding traced and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes") + FUND.LAND_JS);
 write("heat-economy/opportunities", "Ideas for businesses and services that protect people from heat", `${N.opp} ideas for businesses and services, one or more for each vicious cycle of extreme heat: who could pay, who it helps, what needs to be in place.`, opportunities, FILTER("he-count", "ideas"));
 write("heat-economy/conditions", "Questions to ask before you buy, fund or start", `${PL.questions.reduce((n, q) => n + q[1].length, 0)} questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.`, conditions);
 
@@ -467,5 +470,7 @@ const ids = DEALS.map(d => d.investee).filter(x => /^[a-z0-9]+(-[a-z0-9]+)*$/.te
 miss.push(...ids.map(x => "funding recipient " + x));
 if (miss.length) throw new Error("tools/economy-plain.js has no plain wording for: " + miss.join(", "));
 module.exports = { loopsWithIdeas: [...new Set(OPP.map(o => o.loop))] };
-require("./site-counts.js")({ businesses: N.biz, funders: N.inv, programmes: N.prog, fundingTraced: N.traced, ideas: N.opp, conditionQuestions: PL.questions.reduce((n, q) => n + q[1].length, 0) });
+const FR = FUND.pages({ page, shell, write });
+console.log(`funding: ${FR.programmes} programmes, ${FR.opportunities} calls and tenders (${FR.vopen} verified open), ${FR.careers} careers (${FR.vcar} verified open)${FR.held.length ? `; held back until the source check confirms them: ${FR.held.join(", ")}` : ""}`);
+require("./site-counts.js")({ fundingProgrammes: FR.programmes, fundingOpen: FR.vopen, careers: FR.careers,  businesses: N.biz, funders: N.inv, programmes: N.prog, fundingTraced: N.traced, ideas: N.opp, conditionQuestions: PL.questions.reduce((n, q) => n + q[1].length, 0) });
 console.log(`heat economy: ${N.biz} businesses, ${N.inv} funders, ${N.traced} pieces of funding traced (${N.deals} in the directory, ${KBF.length} from monthly updates), ${N.prog} programmes, ${N.opp} ideas, ${SEG.length} kinds of protection`);

@@ -1,0 +1,917 @@
+{
+ "about": "Funders, administrators, intermediaries, buyers and employers in the funding, opportunities and careers views. Schema and rules: README.md. Facts carry src (a key in research/2026-11/funding-opportunities/sources.js) and term (words the source check must find).",
+ "records": [
+  {
+   "id": "org-gcc",
+   "name": "Grand Challenges Canada",
+   "aliases": [
+    "GCC"
+   ],
+   "type": "public-funder",
+   "website": "https://www.grandchallenges.ca/",
+   "remit": {
+    "text": "Funds innovations in global health, including climate and health through its Nexa programmes.",
+    "src": "gcc-climate",
+    "term": "Nexa"
+   },
+   "instruments": [
+    "grant",
+    "mixed"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "gcc-climate",
+     "Nexa"
+    ]
+   ]
+  },
+  {
+   "id": "org-avpn",
+   "name": "AVPN",
+   "aliases": [
+    "Asian Venture Philanthropy Network"
+   ],
+   "type": "network",
+   "website": "https://avpn.asia/",
+   "remit": {
+    "text": "Partner of Grand Challenges Canada in Nexa Lighthouse for Asia and the Pacific.",
+    "src": "gcc-lighthouse-portfolio",
+    "term": "AVPN"
+   },
+   "instruments": [],
+   "access": [
+    "none-found"
+   ],
+   "core": [
+    [
+     "gcc-lighthouse-portfolio",
+     "AVPN"
+    ]
+   ]
+  },
+  {
+   "id": "org-temasek-foundation",
+   "name": "Temasek Foundation",
+   "type": "foundation",
+   "website": "https://temasekfoundation.org.sg/",
+   "remit": {
+    "text": "Announced the launch of Nexa Lighthouse with Grand Challenges Canada and AVPN.",
+    "src": "tf-lighthouse",
+    "term": "Nexa Lighthouse"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "none-found"
+   ],
+   "core": [
+    [
+     "tf-lighthouse",
+     "Nexa Lighthouse"
+    ]
+   ]
+  },
+  {
+   "id": "org-iki",
+   "name": "International Climate Initiative (IKI)",
+   "aliases": [
+    "IKI",
+    "Internationale Klimaschutzinitiative"
+   ],
+   "type": "bilateral",
+   "website": "https://www.international-climate-initiative.com/",
+   "remit": {
+    "text": "Germany's international climate and biodiversity funding programme, with calls for medium and small grants.",
+    "src": "iki-medium",
+    "term": "Medium Grants"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "iki-medium",
+     "Medium Grants"
+    ]
+   ]
+  },
+  {
+   "id": "org-giz",
+   "name": "GIZ",
+   "aliases": [
+    "Deutsche Gesellschaft für Internationale Zusammenarbeit"
+   ],
+   "type": "bilateral",
+   "website": "https://iki-small-grants.de/",
+   "remit": {
+    "text": "Runs the IKI Small Grants programme for the International Climate Initiative.",
+    "src": "iki-small-site",
+    "term": "Small Grants"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "iki-small-site",
+     "Small Grants"
+    ]
+   ]
+  },
+  {
+   "id": "org-apn",
+   "name": "Asia-Pacific Network for Global Change Research",
+   "aliases": [
+    "APN"
+   ],
+   "type": "intergovernmental",
+   "website": "https://www.apn-gcr.org/",
+   "remit": {
+    "text": "Intergovernmental network that funds regional research (CRRP) and scientific capacity (CAPaBLE) on global change in Asia and the Pacific.",
+    "src": "apn-calls",
+    "term": "CAPaBLE"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "apn-calls",
+     "CRRP"
+    ]
+   ]
+  },
+  {
+   "id": "org-gcf",
+   "name": "Green Climate Fund",
+   "aliases": [
+    "GCF"
+   ],
+   "type": "multilateral-fund",
+   "website": "https://www.greenclimate.fund/",
+   "remit": {
+    "text": "Multilateral climate fund that works through accredited entities and readiness support requested through National Designated Authorities.",
+    "src": "gcf-readiness",
+    "term": "Readiness"
+   },
+   "instruments": [
+    "grant",
+    "debt",
+    "equity"
+   ],
+   "access": [
+    "accredited",
+    "government"
+   ],
+   "core": [
+    [
+     "gcf-readiness",
+     "Readiness"
+    ]
+   ]
+  },
+  {
+   "id": "org-gef-sgp",
+   "name": "GEF Small Grants Programme",
+   "aliases": [
+    "SGP"
+   ],
+   "type": "multilateral-fund",
+   "website": "https://sgp.undp.org/",
+   "remit": {
+    "text": "Grants to community-based organisations and NGOs, through national programmes with a National Coordinator.",
+    "src": "sgp-apply",
+    "term": "National Coordinator"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "sgp-apply",
+     "National Coordinator"
+    ]
+   ]
+  },
+  {
+   "id": "org-af",
+   "name": "Adaptation Fund",
+   "type": "multilateral-fund",
+   "website": "https://www.adaptation-fund.org/",
+   "remit": {
+    "text": "Multilateral adaptation fund with a locally led adaptation window, reached through accredited implementing entities.",
+    "src": "af-lla",
+    "term": "locally led"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "accredited"
+   ],
+   "core": [
+    [
+     "af-lla",
+     "locally led"
+    ]
+   ]
+  },
+  {
+   "id": "org-ctcn",
+   "name": "Climate Technology Centre and Network",
+   "aliases": [
+    "CTCN"
+   ],
+   "type": "un-body",
+   "website": "https://www.ctc-n.org/",
+   "remit": {
+    "text": "Runs innovation calls with the Adaptation Fund that offer technical assistance.",
+    "src": "ctcn-ap",
+    "term": "Adaptation Fund"
+   },
+   "instruments": [
+    "technical-assistance"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "ctcn-ap",
+     "Asia Pacific"
+    ]
+   ]
+  },
+  {
+   "id": "org-wellcome",
+   "name": "Wellcome",
+   "aliases": [
+    "Wellcome Trust"
+   ],
+   "type": "foundation",
+   "website": "https://wellcome.org/",
+   "remit": {
+    "text": "Charitable foundation funding health research, including climate and health.",
+    "src": "wellcome-cia",
+    "term": "Climate Impacts Awards"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "wellcome-cia",
+     "Climate Impacts Awards"
+    ]
+   ]
+  },
+  {
+   "id": "org-idrc",
+   "name": "International Development Research Centre",
+   "aliases": [
+    "IDRC"
+   ],
+   "type": "bilateral",
+   "website": "https://idrc-crdi.ca/",
+   "remit": {
+    "text": "Canadian research funder; runs climate adaptation and climate and health research programmes with the UK.",
+    "src": "idrc-clare",
+    "term": "CLARE"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "idrc-clare",
+     "CLARE"
+    ]
+   ]
+  },
+  {
+   "id": "org-fcdo",
+   "name": "UK Foreign, Commonwealth and Development Office",
+   "aliases": [
+    "FCDO"
+   ],
+   "type": "bilateral",
+   "website": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+   "remit": {
+    "text": "Co-funds the CLARE programme with IDRC.",
+    "src": "idrc-clare",
+    "term": "Foreign, Commonwealth"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "intermediary"
+   ],
+   "core": [
+    [
+     "idrc-clare",
+     "Foreign, Commonwealth"
+    ]
+   ]
+  },
+  {
+   "id": "org-climateworks",
+   "name": "ClimateWorks Foundation",
+   "type": "foundation",
+   "website": "https://www.climateworks.org/",
+   "remit": {
+    "text": "Runs the Adaptation and Resilience Fund, which ran a global call for extreme heat solutions, and hosts the Clean Cooling Collaborative.",
+    "src": "cw-heat-grantees",
+    "term": "extreme heat"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call",
+    "invitation"
+   ],
+   "core": [
+    [
+     "cw-arf",
+     "Adaptation and Resilience Fund"
+    ]
+   ]
+  },
+  {
+   "id": "org-cjrf",
+   "name": "Climate Justice Resilience Fund",
+   "aliases": [
+    "CJRF"
+   ],
+   "type": "foundation",
+   "website": "https://www.cjrfund.org/",
+   "remit": {
+    "text": "Grants for community-led, rights-based climate resilience.",
+    "src": "cjrf",
+    "term": "Climate Justice Resilience Fund"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "invitation"
+   ],
+   "core": [
+    [
+     "cjrf",
+     "Climate Justice Resilience Fund"
+    ]
+   ]
+  },
+  {
+   "id": "org-adb",
+   "name": "Asian Development Bank",
+   "aliases": [
+    "ADB"
+   ],
+   "type": "development-bank",
+   "website": "https://www.adb.org/",
+   "remit": {
+    "text": "Regional development bank; lends to and supports governments, and runs trust funds and technical assistance, including on extreme heat.",
+    "src": "adb-heat-ta",
+    "term": "Extreme Heat"
+   },
+   "instruments": [
+    "debt",
+    "grant",
+    "technical-assistance",
+    "contract"
+   ],
+   "access": [
+    "government",
+    "procurement"
+   ],
+   "core": [
+    [
+     "adb-heat-ta",
+     "Extreme Heat"
+    ]
+   ]
+  },
+  {
+   "id": "org-gapfund",
+   "name": "City Climate Finance Gap Fund",
+   "aliases": [
+    "Gap Fund"
+   ],
+   "type": "multilateral-fund",
+   "website": "https://www.citygapfund.org/",
+   "remit": {
+    "text": "Technical assistance for cities preparing climate-smart projects.",
+    "src": "gapfund",
+    "term": "Gap Fund"
+   },
+   "instruments": [
+    "technical-assistance"
+   ],
+   "access": [
+    "rolling"
+   ],
+   "core": [
+    [
+     "gapfund",
+     "Gap Fund"
+    ]
+   ]
+  },
+  {
+   "id": "org-worldbank",
+   "name": "World Bank",
+   "type": "development-bank",
+   "website": "https://www.worldbank.org/",
+   "remit": {
+    "text": "Lends to governments; its 2026 report on extreme heat in South Asia's cities recommends strengthening heat action plans.",
+    "src": "wb-heat-report",
+    "term": "extreme heat"
+   },
+   "instruments": [
+    "debt",
+    "contract"
+   ],
+   "access": [
+    "government",
+    "procurement"
+   ],
+   "core": [
+    [
+     "wb-heat-report",
+     "extreme heat"
+    ]
+   ]
+  },
+  {
+   "id": "org-cerf",
+   "name": "UN Central Emergency Response Fund",
+   "aliases": [
+    "CERF"
+   ],
+   "type": "humanitarian-fund",
+   "website": "https://cerf.un.org/",
+   "remit": {
+    "text": "UN pooled fund with an anticipatory action window.",
+    "src": "cerf-aa",
+    "term": "anticipatory"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "none-found"
+   ],
+   "core": [
+    [
+     "cerf-aa",
+     "anticipatory"
+    ]
+   ]
+  },
+  {
+   "id": "org-start",
+   "name": "Start Network",
+   "type": "humanitarian-fund",
+   "website": "https://startnetwork.org/",
+   "remit": {
+    "text": "Network of aid organisations running the Start Fund for rapid humanitarian response.",
+    "src": "start-fund",
+    "term": "Start Fund"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "none-found"
+   ],
+   "core": [
+    [
+     "start-fund",
+     "Start Fund"
+    ]
+   ]
+  },
+  {
+   "id": "org-ifrc",
+   "name": "IFRC",
+   "aliases": [
+    "International Federation of Red Cross and Red Crescent Societies"
+   ],
+   "type": "humanitarian-fund",
+   "website": "https://www.ifrc.org/",
+   "remit": {
+    "text": "Runs the Disaster Response Emergency Fund (DREF) for National Red Cross and Red Crescent Societies.",
+    "src": "ifrc-dref",
+    "term": "DREF"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "none-found"
+   ],
+   "core": [
+    [
+     "ifrc-dref",
+     "DREF"
+    ]
+   ]
+  },
+  {
+   "id": "org-unicef",
+   "name": "UNICEF Venture Fund",
+   "aliases": [
+    "UNICEF Innovation"
+   ],
+   "type": "un-body",
+   "website": "https://www.unicef.org/innovation/",
+   "remit": {
+    "text": "Equity-free funding for early-stage technology, including a 2026 call on climate and children's health.",
+    "src": "unicef-ch-2026",
+    "term": "100,000"
+   },
+   "instruments": [
+    "equity-free"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "unicef-ch-2026",
+     "climate"
+    ]
+   ]
+  },
+  {
+   "id": "org-grp",
+   "name": "Global Resilience Partnership",
+   "aliases": [
+    "GRP"
+   ],
+   "type": "partnership",
+   "website": "https://www.globalresiliencepartnership.org/",
+   "remit": {
+    "text": "Runs innovation challenges for resilience across the Global South.",
+    "src": "grp-2026",
+    "term": "Innovation Challenge"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "grp-2026",
+     "Innovation Challenge"
+    ]
+   ]
+  },
+  {
+   "id": "org-gates",
+   "name": "Gates Foundation",
+   "aliases": [
+    "Bill & Melinda Gates Foundation"
+   ],
+   "type": "foundation",
+   "website": "https://gcgh.grandchallenges.org/",
+   "remit": {
+    "text": "Runs Grand Challenges calls, including one on climate change's impact on health, agriculture and gender with a heat-stress focus.",
+    "src": "gcgh-climate",
+    "term": "heat stress"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "gcgh-climate",
+     "heat stress"
+    ]
+   ]
+  },
+  {
+   "id": "org-base",
+   "name": "BASE (Basel Agency for Sustainable Energy)",
+   "aliases": [
+    "BASE"
+   ],
+   "type": "foundation",
+   "website": "https://energy-base.org/",
+   "remit": {
+    "text": "Runs EPIC Deploy, a call on sustainable cooling.",
+    "src": "epic-deploy",
+    "term": "EPIC Deploy"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "epic-deploy",
+     "EPIC Deploy"
+    ]
+   ]
+  },
+  {
+   "id": "org-convergence",
+   "name": "Convergence",
+   "type": "network",
+   "website": "https://www.convergence.finance/",
+   "remit": {
+    "text": "Blended-finance network running the Asia Climate Solutions design grant for Southeast Asia.",
+    "src": "acs",
+    "term": "Asia Climate Solutions"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "acs",
+     "Asia Climate Solutions"
+    ]
+   ]
+  },
+  {
+   "id": "org-iucn",
+   "name": "IUCN",
+   "aliases": [
+    "International Union for Conservation of Nature"
+   ],
+   "type": "partnership",
+   "website": "https://iucn.org/",
+   "remit": {
+    "text": "Co-manages the Global EbA Fund with UNEP.",
+    "src": "eba-iucn",
+    "term": "Global EbA Fund"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "eba-iucn",
+     "Global EbA Fund"
+    ]
+   ]
+  },
+  {
+   "id": "org-cwf",
+   "name": "Commonwealth Foundation",
+   "type": "intergovernmental",
+   "website": "https://commonwealthfoundation.com/",
+   "remit": {
+    "text": "Grants to civil society in Commonwealth member countries; climate and environmental justice is a priority.",
+    "src": "cwf-grants",
+    "term": "Climate and environmental justice"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "cwf-grants",
+     "Collective Action"
+    ]
+   ]
+  },
+  {
+   "id": "org-toyota",
+   "name": "Toyota Foundation",
+   "type": "foundation",
+   "website": "https://www.toyotafound.or.jp/english/",
+   "remit": {
+    "text": "Runs an International Grant Program in Asia.",
+    "src": "toyota-intl",
+    "term": "International Grant Program"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "toyota-intl",
+     "International Grant Program"
+    ]
+   ]
+  },
+  {
+   "id": "org-zurich",
+   "name": "Z Zurich Foundation",
+   "type": "foundation",
+   "website": "https://www.zurich.foundation/",
+   "remit": {
+    "text": "Partner of the IFRC's Global Climate Resilience Platform, which works on extreme heat.",
+    "src": "ifrc-gcrp",
+    "term": "Z Zurich Foundation"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "none-found"
+   ],
+   "core": [
+    [
+     "ifrc-gcrp",
+     "Z Zurich Foundation"
+    ]
+   ]
+  },
+  {
+   "id": "org-ec",
+   "name": "European Commission",
+   "type": "multilateral-fund",
+   "website": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/",
+   "remit": {
+    "text": "Funds research through Horizon Europe, including on climate and the human exposome.",
+    "src": "he-envhlth-02",
+    "term": "exposome"
+   },
+   "instruments": [
+    "grant"
+   ],
+   "access": [
+    "consortium"
+   ],
+   "core": [
+    [
+     "he-envhlth-02",
+     "exposome"
+    ]
+   ]
+  },
+  {
+   "id": "org-undp",
+   "name": "UNDP",
+   "aliases": [
+    "United Nations Development Programme"
+   ],
+   "type": "un-body",
+   "website": "https://procurement-notices.undp.org/",
+   "remit": {
+    "text": "Buys services through public procurement notices, including on heat resilience.",
+    "src": "undp-ind-heatsmart",
+    "term": "Heat-smart"
+   },
+   "instruments": [
+    "contract"
+   ],
+   "access": [
+    "procurement"
+   ],
+   "core": [
+    [
+     "undp-ind-heatsmart",
+     "Heat-smart"
+    ]
+   ]
+  },
+  {
+   "id": "org-ilo",
+   "name": "International Labour Organization",
+   "aliases": [
+    "ILO"
+   ],
+   "type": "un-body",
+   "website": "https://www.ungm.org/",
+   "remit": {
+    "text": "Buys services through the UN Global Marketplace, including on occupational heat exposure.",
+    "src": "ungm-ilo-th",
+    "term": "Thailand"
+   },
+   "instruments": [
+    "contract"
+   ],
+   "access": [
+    "procurement"
+   ],
+   "core": [
+    [
+     "ungm-ilo-th",
+     "heat"
+    ]
+   ]
+  },
+  {
+   "id": "org-who",
+   "name": "World Health Organization",
+   "aliases": [
+    "WHO"
+   ],
+   "type": "un-body",
+   "website": "https://www.who.int/",
+   "remit": {
+    "text": "Recruits consultants for climate and health work, including on heat.",
+    "src": "who-heat-consultant",
+    "term": "consultant"
+   },
+   "instruments": [
+    "contract"
+   ],
+   "access": [
+    "procurement"
+   ],
+   "core": [
+    [
+     "who-heat-consultant",
+     "heat"
+    ]
+   ]
+  },
+  {
+   "id": "org-harvard-hghi",
+   "name": "Harvard Global Health Institute",
+   "aliases": [
+    "HGHI"
+   ],
+   "type": "university",
+   "website": "https://globalhealth.harvard.edu/",
+   "remit": {
+    "text": "Runs the Burke fellowships, including a climate and health track.",
+    "src": "hghi-burke",
+    "term": "Burke"
+   },
+   "instruments": [],
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "hghi-burke",
+     "Burke"
+    ]
+   ]
+  },
+  {
+   "id": "org-nus",
+   "name": "National University of Singapore",
+   "aliases": [
+    "NUS"
+   ],
+   "type": "university",
+   "website": "https://careers.nus.edu.sg/",
+   "remit": {
+    "text": "Employer; research posts on heat and human performance and urban microclimate.",
+    "src": "nus-hrpc-rf",
+    "term": "Research Fellow"
+   },
+   "instruments": [],
+   "access": [
+    "none-found"
+   ],
+   "core": [
+    [
+     "nus-hrpc-rf",
+     "Research Fellow"
+    ]
+   ]
+  }
+ ]
+}

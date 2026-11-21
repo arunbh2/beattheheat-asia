@@ -53,7 +53,9 @@
      ["/heat-economy/", "The heat economy", "Who offers protection, who funds it, and what could be built", 1],
      ["/paying-when-heat-strikes/", "Paying when heat strikes", "Insurance, pools, credit and forecast funds: did they pay, and when?", 1],
      ["/finance/", "Paying for protection", "What needs paying for, and when money is needed", 1],
-     ["/heat-economy/money/", "Funders and funding", "{funders} funders, {fundingTraced} pieces of funding traced", 1],
+     ["/heat-economy/money/", "Funders and funding", "Who funds heat work and how to reach them, open calls and careers; {fundingTraced} pieces of funding traced", 1],
+     ["/heat-economy/money/opportunities/", "Open calls and tenders", "Grants, calls and procurement notices, {fundingOpen} verified open, with the archive", 2],
+     ["/heat-economy/money/careers/", "Careers in heat resilience", "{careers} jobs, consultancies, research posts and fellowships", 2],
      ["/heat-economy/conditions/", "Questions to ask", "Before you buy, fund or start something", 1],
      ["/heat-economy/opportunities/", "Ideas to explore", "{ideas} ideas, one or more for every cycle", 1],
      ["/heat-economy/businesses/", "Businesses", "{businesses} businesses offering protection", 2],
@@ -85,7 +87,7 @@
  "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/privacy/", "Privacy and terms"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/resources/": "Resources", "/resources/heat-action-plans/": "Heat action plans", "/resources/heat-action-plans/india/": "India",
-  "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
+  "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/money/opportunities/": "Open calls and tenders", "/heat-economy/money/careers/": "Careers", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
   "/heat-assembly/": "The Heat Assembly", "/el-nino/": "El Niño and heat in Asia", "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/heat-tools/": "Heat Tool Finder", "/atlas/": "Atlas", "/live-through-a-heatwave/": "Live through a heatwave", "/intersections/": "Intersections", "/shared-heat/": "Who shares the heat", "/factory-heat/": "Heat inside factories", "/cotton-and-heat/": "Heat from field to factory", "/factory-heat/worksheet/": "Factory heat worksheet", "/paying-when-heat-strikes/": "Paying when heat strikes"
  }
 }

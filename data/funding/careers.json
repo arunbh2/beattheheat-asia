@@ -1,0 +1,236 @@
+{
+ "about": "Jobs, individual consultancies, research posts, funded PhDs, fellowships and internships, each linked to the employer's own listing. Pay, remote work and work authorisation only as published. Schema and rules: README.md.",
+ "records": [
+  {
+   "id": "car-who-heat-aq-consultant-2026",
+   "title": "Consultant: health sector capacity on heat, air quality and health",
+   "org": "org-who",
+   "employer": "World Health Organization",
+   "role": "consultancy-individual",
+   "discipline": "Public health",
+   "contribution": "risk",
+   "seniority": "Experienced",
+   "location": {
+    "text": "As stated in the call.",
+    "src": "who-heat-consultant",
+    "term": "consultant"
+   },
+   "remote": false,
+   "contract": {
+    "text": "Consultancy, as described in the call.",
+    "src": "who-heat-consultant",
+    "term": "consultant"
+   },
+   "pay": "not-stated",
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-10-02",
+     "wording": "2 October 2026",
+     "src": "who-heat-consultant",
+     "term": "2 October 2026"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://www.who.int/news-room/articles-detail/call-for-consultant-health-sector-capacity-on-heat-air-quality-and-health",
+   "relevance_strength": "direct",
+   "relevance_why": "Builds health sector capacity on heat and health.",
+   "asia": false,
+   "core": [
+    [
+     "who-heat-consultant",
+     "heat"
+    ],
+    [
+     "who-heat-consultant",
+     "air quality"
+    ]
+   ]
+  },
+  {
+   "id": "car-hghi-burke-climate-2027",
+   "title": "HGHI-Salata Burke Climate and Health Research Fellowship, 2027 to 2028 cohort",
+   "org": "org-harvard-hghi",
+   "employer": "Harvard Global Health Institute",
+   "role": "fellowship",
+   "discipline": "Climate and health research",
+   "contribution": "evidence",
+   "seniority": "Postdoctoral",
+   "location": {
+    "text": "Harvard University; fellows reside in the Boston area.",
+    "src": "hghi-burke",
+    "term": "Burke"
+   },
+   "remote": false,
+   "contract": {
+    "text": "Two-year fellowship.",
+    "src": "hghi-burke",
+    "term": "Burke"
+   },
+   "pay": "paid",
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-11-15",
+     "time": "23:59",
+     "tz": "ET",
+     "wording": "11:59 PM EST on Sunday, November 15, 2026",
+     "src": "hghi-burke",
+     "term": "November 15, 2026"
+    }
+   ],
+   "stated_status": "closed",
+   "conflict": "Harvard's page gives 15 November 2026; some listings elsewhere give 3 January 2027. The official page is followed here.",
+   "official_url": "https://globalhealth.harvard.edu/fellowships/hghi-burke-fellowship/",
+   "relevance_strength": "adjacent",
+   "relevance_why": "Climate and health research; heat-related health is within its scope, though the fellowship is not heat-specific.",
+   "asia": false,
+   "work_authorisation": null,
+   "core": [
+    [
+     "hghi-burke",
+     "Burke"
+    ],
+    [
+     "hghi-burke",
+     "Climate and Health"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-hrpc-rf",
+   "title": "Research Fellow (HRPC): heat and human performance",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "role": "research-position",
+   "discipline": "Physiology and public health",
+   "contribution": "risk",
+   "seniority": "Postdoctoral",
+   "location": {
+    "text": "Singapore.",
+    "src": "nus-hrpc-rf",
+    "term": "Singapore"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "contract": {
+    "text": "As stated in the listing.",
+    "src": "nus-hrpc-rf",
+    "term": "Research Fellow"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/job/Research-Fellow-%28HRPC%29/27881-en_GB",
+   "relevance_strength": "direct",
+   "relevance_why": "Research on heat and human health in Singapore.",
+   "asia": true,
+   "core": [
+    [
+     "nus-hrpc-rf",
+     "Research Fellow"
+    ],
+    [
+     "nus-hrpc-rf",
+     "heat"
+    ],
+    [
+     "nus-hrpc-rf",
+     "Apply"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-microclimate-rf",
+   "title": "Research Fellow (Urban Microclimate Modeling and Graph Neural Networks)",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "role": "research-position",
+   "discipline": "Urban climate and data science",
+   "contribution": "design",
+   "seniority": "Postdoctoral",
+   "location": {
+    "text": "Singapore.",
+    "src": "nus-microclimate-rf",
+    "term": "Research Fellow"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "contract": {
+    "text": "As stated in the listing.",
+    "src": "nus-microclimate-rf",
+    "term": "Research Fellow"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/job/Research-Fellow-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33563-en_GB",
+   "relevance_strength": "adjacent",
+   "relevance_why": "Urban microclimate modelling informs where and how cities cool streets and buildings.",
+   "asia": true,
+   "core": [
+    [
+     "nus-microclimate-rf",
+     "Research Fellow"
+    ],
+    [
+     "nus-microclimate-rf",
+     "microclimate"
+    ],
+    [
+     "nus-microclimate-rf",
+     "Apply"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-datasci-rf",
+   "title": "Research Fellow (Data Science, HRPC)",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "role": "research-position",
+   "discipline": "Data science",
+   "contribution": "evidence",
+   "seniority": "Postdoctoral",
+   "location": {
+    "text": "Singapore.",
+    "src": "nus-datasci-rf",
+    "term": "Research Fellow"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "contract": {
+    "text": "As stated in the listing.",
+    "src": "nus-datasci-rf",
+    "term": "Research Fellow"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/job/Research-Fellow-%28Data-Science-HRPC%29/30161-en_GB",
+   "relevance_strength": "direct",
+   "relevance_why": "Data science for research on heat and human performance.",
+   "asia": true,
+   "core": [
+    [
+     "nus-datasci-rf",
+     "Research Fellow"
+    ],
+    [
+     "nus-datasci-rf",
+     "heat"
+    ],
+    [
+     "nus-datasci-rf",
+     "Apply"
+    ]
+   ]
+  }
+ ]
+}

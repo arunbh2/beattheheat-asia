@@ -1,0 +1,1592 @@
+{
+ "about": "Programmes and funds, each with its access routes and its heat relevance (explicit, related or potential). A programme is not an open call. Schema and rules: README.md.",
+ "records": [
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health",
+    "warning"
+   ],
+   "activities": [
+    "scaling",
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-gcc-nexa-lighthouse",
+   "org": "org-gcc",
+   "donors": [
+    "org-avpn"
+   ],
+   "name": "Nexa Lighthouse (climate and health innovation, Asia and the Pacific)",
+   "url": "https://www.grandchallenges.ca/portfolio/nexa-lighthouse/",
+   "category": "research",
+   "remit": {
+    "text": "Funds proven climate and health innovations in Asia and the Pacific that help health actors act on climate-risk signals, with extreme heat one of its hazards.",
+    "src": "gcc-lighthouse",
+    "term": "Nexa Lighthouse"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Extreme heat is named as one of the hazards the call addresses."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "access_note": {
+    "text": "Applications go through Grand Challenges Canada's Fluxx portal during an open call.",
+    "src": "gcc-lighthouse",
+    "term": "Fluxx"
+   },
+   "recipients": {
+    "text": "Organisations; individuals cannot apply.",
+    "src": "gcc-lighthouse",
+    "term": "organizations"
+   },
+   "geography": {
+    "text": "Implementation in eligible countries in Asia and the Pacific listed in the call's Appendix B.",
+    "src": "gcc-lighthouse",
+    "term": "Appendix B"
+   },
+   "core": [
+    [
+     "gcc-lighthouse",
+     "Nexa Lighthouse"
+    ],
+    [
+     "gcc-lighthouse-portfolio",
+     "AVPN"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health"
+   ],
+   "activities": [
+    "pilots",
+    "scaling"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-gcc-nexa",
+   "org": "org-gcc",
+   "name": "Nexa (climate and health, Africa, Latin America and the Caribbean)",
+   "url": "https://www.grandchallenges.ca/funding-opportunity-nexa/",
+   "category": "research",
+   "remit": {
+    "text": "Climate and health innovation in Africa, Latin America and the Caribbean, including extreme heat.",
+    "src": "gcc-nexa",
+    "term": "Nexa"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Heat is one of the hazards the programme covers; its 2026 call was for Africa, Latin America and the Caribbean, not Asia."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Organisations; implementation in eligible countries outside Asia.",
+    "src": "gcc-nexa",
+    "term": "Africa"
+   },
+   "core": [
+    [
+     "gcc-nexa",
+     "Nexa"
+    ],
+    [
+     "gcc-nexa",
+     "Africa"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "nature",
+    "municipal"
+   ],
+   "activities": [
+    "pilots",
+    "policy"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-iki-medium",
+   "org": "org-iki",
+   "name": "IKI Medium Grants",
+   "url": "https://www.international-climate-initiative.com/en/find-funding/medium-grants/",
+   "category": "bilateral",
+   "remit": {
+    "text": "Grants for climate action and biodiversity projects in ODA-eligible countries, led by organisations based in Germany with local partners.",
+    "src": "iki-medium",
+    "term": "Medium Grants"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Adaptation has been one of the call's themes; whether a heat project fits a given year's priorities needs confirming in that year's funding announcement."
+   },
+   "access": [
+    "periodic-call",
+    "consortium"
+   ],
+   "access_note": {
+    "text": "Annual call; the lead must be established in Germany and partner with local organisations.",
+    "src": "iki-medium",
+    "term": "Germany"
+   },
+   "recipients": {
+    "text": "Non-profit organisations based in Germany, with one or two local implementing partners.",
+    "src": "iki-medium",
+    "term": "local"
+   },
+   "core": [
+    [
+     "iki-medium",
+     "Medium Grants"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "nature",
+    "municipal"
+   ],
+   "activities": [
+    "organising",
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-iki-small",
+   "org": "org-giz",
+   "donors": [
+    "org-iki"
+   ],
+   "name": "IKI Small Grants",
+   "url": "https://www.international-climate-initiative.com/en/find-funding/small-grants/",
+   "category": "lla",
+   "remit": {
+    "text": "Grants of 60,000 to 200,000 euros for local non-profit organisations in ODA-eligible countries working on climate and biodiversity.",
+    "src": "iki-small",
+    "term": "Small Grants"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "A local adaptation project could address heat; the call's themes are climate and biodiversity in general, so fit needs confirming."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "access_note": {
+    "text": "Annual call with an eligibility check first, then a full proposal for those invited.",
+    "src": "iki-small-site",
+    "term": "eligibility"
+   },
+   "recipients": {
+    "text": "Sub-national, national and regional non-profit organisations in ODA-eligible countries.",
+    "src": "iki-small",
+    "term": "non-profit"
+   },
+   "core": [
+    [
+     "iki-small",
+     "Small Grants"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health",
+    "warning"
+   ],
+   "activities": [
+    "research",
+    "policy"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-apn",
+   "org": "org-apn",
+   "name": "APN Collaborative Regional Research (CRRP) and Scientific Capacity Development (CAPaBLE)",
+   "url": "https://www.apn-gcr.org/opportunities/calls-for-proposals/",
+   "category": "research",
+   "remit": {
+    "text": "Annual calls for regional research and capacity development on global change in Asia and the Pacific.",
+    "src": "apn-calls",
+    "term": "CRRP"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Climate risk and health research in Asia can fit the programme's global change themes; heat is not a named priority."
+   },
+   "access": [
+    "periodic-call",
+    "consortium"
+   ],
+   "recipients": {
+    "text": "Researchers and institutions in APN member countries, usually in multi-country teams.",
+    "src": "apn-calls",
+    "term": "CAPaBLE"
+   },
+   "core": [
+    [
+     "apn-calls",
+     "CRRP"
+    ],
+    [
+     "apn-calls",
+     "CAPaBLE"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "municipal",
+    "warning",
+    "health"
+   ],
+   "activities": [
+    "policy"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-gcf-readiness",
+   "org": "org-gcf",
+   "name": "GCF Readiness and Preparatory Support",
+   "url": "https://www.greenclimate.fund/readiness",
+   "category": "multilateral",
+   "remit": {
+    "text": "Grants that strengthen national institutions, country programming and direct access entities, requested through the National Designated Authority.",
+    "src": "gcf-readiness",
+    "term": "Readiness"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Countries can use readiness support to plan adaptation, including heat-health and early-warning measures, where national priorities include them."
+   },
+   "access": [
+    "government",
+    "accredited"
+   ],
+   "access_note": {
+    "text": "Requests come from the National Designated Authority, or an entity it nominates.",
+    "src": "gcf-readiness",
+    "term": "National Designated Authorit"
+   },
+   "recipients": {
+    "text": "National Designated Authorities and direct access entities.",
+    "src": "gcf-readiness",
+    "term": "direct access"
+   },
+   "core": [
+    [
+     "gcf-readiness",
+     "Readiness"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant",
+    "debt",
+    "equity"
+   ],
+   "operational": "operational",
+   "topics": [
+    "municipal",
+    "warning",
+    "health",
+    "cooling"
+   ],
+   "activities": [
+    "infrastructure",
+    "scaling",
+    "policy"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-gcf-accredited",
+   "org": "org-gcf",
+   "name": "GCF funding through accredited entities",
+   "url": "https://www.greenclimate.fund/partners/accredited-entities",
+   "category": "multilateral",
+   "remit": {
+    "text": "Projects and programmes proposed by accredited entities, national or international.",
+    "src": "gcf-ae",
+    "term": "accredited"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Large adaptation programmes can include heat measures; heat is not a separate GCF window."
+   },
+   "access": [
+    "accredited",
+    "government"
+   ],
+   "access_note": {
+    "text": "Only accredited entities submit funding proposals; national entities seek accreditation with a nomination from their National Designated Authority.",
+    "src": "gcf-nomination",
+    "term": "nomination"
+   },
+   "recipients": {
+    "text": "Accredited entities, national (direct access) or international.",
+    "src": "gcf-ae",
+    "term": "direct access"
+   },
+   "core": [
+    [
+     "gcf-ae",
+     "accredited"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "nature",
+    "cooling"
+   ],
+   "activities": [
+    "organising",
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-gef-sgp",
+   "org": "org-gef-sgp",
+   "name": "GEF Small Grants Programme",
+   "url": "https://sgp.undp.org/about-us-157/how-to-apply.html",
+   "category": "lla",
+   "remit": {
+    "text": "Grants of up to US$50,000 a project, averaging about US$25,000, to national community-based organisations and NGOs, aligned with each country's programme strategy.",
+    "src": "sgp-apply",
+    "term": "50,000"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Community projects on greening, water or energy can reduce heat exposure where they fit the country programme strategy; heat is not a named priority."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "access_note": {
+    "text": "Applicants contact the National Coordinator in their country for guidelines and forms; the programme charges no fee.",
+    "src": "sgp-apply",
+    "term": "National Coordinator"
+   },
+   "recipients": {
+    "text": "National community-based organisations and NGOs.",
+    "src": "sgp-apply",
+    "term": "CBOs"
+   },
+   "core": [
+    [
+     "sgp-apply",
+     "National Coordinator"
+    ],
+    [
+     "sgp-apply",
+     "50,000"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "municipal",
+    "nature",
+    "inclusion"
+   ],
+   "activities": [
+    "organising",
+    "pilots",
+    "recurring"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-af-lla",
+   "org": "org-af",
+   "name": "Adaptation Fund locally led adaptation (single-country grants)",
+   "url": "https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/",
+   "category": "adaptation",
+   "remit": {
+    "text": "Grants for locally led adaptation projects, submitted through accredited implementing entities.",
+    "src": "af-lla",
+    "term": "locally led"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Locally led adaptation can include heat measures chosen by communities; the window is not heat-specific."
+   },
+   "access": [
+    "accredited",
+    "government"
+   ],
+   "access_note": {
+    "text": "Proposals are submitted by implementing entities accredited to the Fund.",
+    "src": "af-lla",
+    "term": "implementing entit"
+   },
+   "recipients": {
+    "text": "Accredited implementing entities, working with local actors.",
+    "src": "af-lla",
+    "term": "implementing entit"
+   },
+   "core": [
+    [
+     "af-lla",
+     "locally led"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "technical-assistance"
+   ],
+   "operational": "operational",
+   "topics": [
+    "cooling",
+    "warning"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-af-innovation",
+   "org": "org-ctcn",
+   "donors": [
+    "org-af"
+   ],
+   "name": "Adaptation Fund Climate Innovation Accelerator calls (via CTCN)",
+   "url": "https://www.ctc-n.org/whats-happening/news/call-proposals-climate-adaptation-innovation-asia-pacific",
+   "category": "innovation",
+   "remit": {
+    "text": "Technical assistance for climate adaptation innovations, by region.",
+    "src": "ctcn-ap",
+    "term": "Asia Pacific"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Adaptation innovations for heat could apply; the calls cover adaptation broadly."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Applicants in the call's region, as each call defines.",
+    "src": "ctcn-ap",
+    "term": "Asia Pacific"
+   },
+   "core": [
+    [
+     "ctcn-ap",
+     "Asia Pacific"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health"
+   ],
+   "activities": [
+    "research"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-wellcome-cia",
+   "org": "org-wellcome",
+   "name": "Wellcome Climate Impacts Awards",
+   "url": "https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2",
+   "category": "research",
+   "remit": {
+    "text": "Research awards that make the health effects of climate change visible, with stakeholders engaged.",
+    "src": "wellcome-cia",
+    "term": "health effects of climate change"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Heat-related health effects are within the scheme's scope of climate's effects on health."
+   },
+   "access": [
+    "periodic-call",
+    "consortium"
+   ],
+   "recipients": {
+    "text": "Research teams; see the scheme page for eligibility.",
+    "src": "wellcome-cia",
+    "term": "Climate Impacts Awards"
+   },
+   "core": [
+    [
+     "wellcome-cia",
+     "Climate Impacts Awards"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health",
+    "municipal"
+   ],
+   "activities": [
+    "research",
+    "policy"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-idrc-clare",
+   "org": "org-idrc",
+   "donors": [
+    "org-fcdo"
+   ],
+   "name": "Climate Adaptation and Resilience (CLARE)",
+   "url": "https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare",
+   "category": "research",
+   "remit": {
+    "text": "Research for climate adaptation and resilience, co-funded by IDRC and the UK.",
+    "src": "idrc-clare",
+    "term": "CLARE"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Adaptation research on heat risk fits the programme's adaptation and resilience remit."
+   },
+   "access": [
+    "periodic-call",
+    "consortium"
+   ],
+   "recipients": {
+    "text": "Research institutions, through competitive calls.",
+    "src": "idrc-clare",
+    "term": "CLARE"
+   },
+   "core": [
+    [
+     "idrc-clare",
+     "CLARE"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health"
+   ],
+   "activities": [
+    "research"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-idrc-arch",
+   "org": "org-idrc",
+   "donors": [
+    "org-fcdo"
+   ],
+   "name": "Advancing Research on Climate and Health",
+   "url": "https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health",
+   "category": "research",
+   "remit": {
+    "text": "Research on climate and health with the UK's FCDO.",
+    "src": "idrc-arch",
+    "term": "climate and health"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Climate and health research includes heat-related illness and health systems."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Research institutions, through calls.",
+    "src": "idrc-arch",
+    "term": "climate and health"
+   },
+   "core": [
+    [
+     "idrc-arch",
+     "climate and health"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "municipal",
+    "inclusion",
+    "cooling"
+   ],
+   "activities": [
+    "pilots",
+    "organising"
+   ],
+   "past_support": [
+    {
+     "text": "Grants from the global call for extreme heat solutions (2025), including grantees in South and Southeast Asia.",
+     "link": "https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/",
+     "link_label": "Grantees"
+    }
+   ],
+   "links": {},
+   "id": "prog-cw-arf",
+   "org": "org-climateworks",
+   "name": "ClimateWorks Adaptation and Resilience Fund",
+   "url": "https://www.climateworks.org/programs/adaptation-and-resilience/fund/",
+   "category": "philanthropy",
+   "remit": {
+    "text": "Pooled philanthropic fund for adaptation and resilience; it ran a global call for extreme heat solutions.",
+    "src": "cw-arf",
+    "term": "Adaptation and Resilience Fund"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Its global call funded extreme heat solutions, with grantees in South and Southeast Asia."
+   },
+   "access": [
+    "periodic-call",
+    "invitation"
+   ],
+   "recipients": {
+    "text": "Organisations selected through calls.",
+    "src": "cw-heat-grantees",
+    "term": "grantees"
+   },
+   "core": [
+    [
+     "cw-arf",
+     "Adaptation and Resilience Fund"
+    ],
+    [
+     "cw-heat-grantees",
+     "extreme heat"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "cooling",
+    "homes"
+   ],
+   "activities": [
+    "policy",
+    "scaling"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-ccc",
+   "org": "org-climateworks",
+   "name": "Clean Cooling Collaborative",
+   "url": "https://www.cleancoolingcollaborative.org/",
+   "category": "cooling",
+   "remit": {
+    "text": "Philanthropic initiative on efficient, climate-friendly cooling.",
+    "src": "ccc-home",
+    "term": "Clean Cooling Collaborative"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Sustainable cooling is its whole remit."
+   },
+   "access": [
+    "invitation",
+    "intermediary"
+   ],
+   "access_note": {
+    "text": "No open call is listed; funding reaches partners it selects.",
+    "src": "ccc-home",
+    "term": "cooling"
+   },
+   "recipients": {
+    "text": "Partners it selects.",
+    "src": "ccc-home",
+    "term": "Clean Cooling Collaborative"
+   },
+   "limits_note": {
+    "text": "Whether it accepts unsolicited proposals was not confirmed on its page.",
+    "src": "ccc-home",
+    "term": "Clean Cooling Collaborative"
+   },
+   "core": [
+    [
+     "ccc-home",
+     "Clean Cooling Collaborative"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "inclusion"
+   ],
+   "activities": [
+    "organising"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-cjrf",
+   "org": "org-cjrf",
+   "name": "Climate Justice Resilience Fund grants",
+   "url": "https://www.cjrfund.org/",
+   "category": "civil",
+   "remit": {
+    "text": "Grants for community-led, rights-based approaches to climate resilience.",
+    "src": "cjrf",
+    "term": "Climate Justice Resilience Fund"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Community-led resilience work could address heat; the fund's priorities are set by its own process."
+   },
+   "access": [
+    "invitation"
+   ],
+   "access_note": {
+    "text": "Grantmaking is by invitation.",
+    "src": "cjrf",
+    "term": "invitation"
+   },
+   "recipients": {
+    "text": "Organisations it invites.",
+    "src": "cjrf",
+    "term": "invitation"
+   },
+   "core": [
+    [
+     "cjrf",
+     "Climate Justice Resilience Fund"
+    ],
+    [
+     "cjrf",
+     "invitation"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant",
+    "technical-assistance"
+   ],
+   "operational": "operational",
+   "topics": [
+    "inclusion",
+    "municipal"
+   ],
+   "activities": [
+    "infrastructure",
+    "organising"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-adb-crpp",
+   "org": "org-adb",
+   "name": "Community Resilience Partnership Program Trust Fund",
+   "url": "https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund",
+   "category": "lla",
+   "remit": {
+    "text": "Technical assistance and grant resources to scale up community-level climate adaptation, with a climate-poverty focus.",
+    "src": "adb-crpp",
+    "term": "Community Resilience Partnership"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Community adaptation investments in ADB member countries can include heat measures."
+   },
+   "access": [
+    "government"
+   ],
+   "access_note": {
+    "text": "Resources flow through ADB operations with member governments; there is no open call for organisations.",
+    "src": "adb-crpp",
+    "term": "technical assistance"
+   },
+   "recipients": {
+    "text": "ADB developing member countries, through ADB projects.",
+    "src": "adb-crpp",
+    "term": "grant"
+   },
+   "core": [
+    [
+     "adb-crpp",
+     "Community Resilience Partnership"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "technical-assistance",
+    "contract"
+   ],
+   "operational": "operational",
+   "topics": [
+    "inclusion",
+    "municipal",
+    "work"
+   ],
+   "activities": [
+    "policy",
+    "research"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-adb-heat-ta",
+   "org": "org-adb",
+   "name": "ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)",
+   "url": "https://www.adb.org/projects/59391-001/main",
+   "category": "multilateral",
+   "remit": {
+    "text": "Regional technical assistance to integrate gender-responsive extreme heat adaptation into investments.",
+    "src": "adb-heat-ta",
+    "term": "Extreme Heat"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Extreme heat adaptation is the subject of the technical assistance."
+   },
+   "access": [
+    "procurement",
+    "government"
+   ],
+   "access_note": {
+    "text": "Consultants are recruited through ADB's consulting system; governments take part through ADB operations.",
+    "src": "adb-heat-ta",
+    "term": "Technical Assistance"
+   },
+   "recipients": {
+    "text": "ADB member countries, with consultants recruited for the work.",
+    "src": "adb-heat-ta",
+    "term": "Bangladesh"
+   },
+   "core": [
+    [
+     "adb-heat-ta",
+     "Extreme Heat"
+    ],
+    [
+     "adb-heat-ta",
+     "Gender"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "technical-assistance"
+   ],
+   "operational": "operational",
+   "topics": [
+    "municipal",
+    "nature"
+   ],
+   "activities": [
+    "policy",
+    "infrastructure"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-gapfund",
+   "org": "org-gapfund",
+   "name": "City Climate Finance Gap Fund",
+   "url": "https://www.citygapfund.org/",
+   "category": "urban",
+   "remit": {
+    "text": "Technical assistance that helps cities prepare climate-smart urban projects.",
+    "src": "gapfund",
+    "term": "technical assistance"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Cities can request help to prepare projects such as greening or heat-resilient infrastructure; heat is not a separate window."
+   },
+   "access": [
+    "rolling"
+   ],
+   "access_note": {
+    "text": "Cities and their partners submit an expression of interest.",
+    "src": "gapfund",
+    "term": "expression of interest"
+   },
+   "recipients": {
+    "text": "Cities and local governments, and organisations working with them.",
+    "src": "gapfund",
+    "term": "cities"
+   },
+   "core": [
+    [
+     "gapfund",
+     "Gap Fund"
+    ],
+    [
+     "gapfund",
+     "technical assistance"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "warning"
+   ],
+   "activities": [
+    "recurring"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-cerf-aa",
+   "org": "org-cerf",
+   "name": "CERF anticipatory action",
+   "url": "https://cerf.un.org/what-we-do/anticipatory-action",
+   "category": "humanitarian",
+   "remit": {
+    "text": "Funding released ahead of predicted shocks, through UN agencies.",
+    "src": "cerf-aa",
+    "term": "anticipatory"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Anticipatory frameworks can cover forecast heatwaves where agreed in advance."
+   },
+   "access": [
+    "none-found"
+   ],
+   "access_note": {
+    "text": "Allocations go to UN agencies; organisations reach it only as their partners.",
+    "src": "cerf-aa",
+    "term": "UN agencies"
+   },
+   "recipients": {
+    "text": "UN agencies.",
+    "src": "cerf-aa",
+    "term": "UN agencies"
+   },
+   "core": [
+    [
+     "cerf-aa",
+     "anticipatory"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "warning"
+   ],
+   "activities": [
+    "recurring"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-start-fund",
+   "org": "org-start",
+   "name": "Start Fund",
+   "url": "https://startnetwork.org/funds/start-fund",
+   "category": "humanitarian",
+   "remit": {
+    "text": "Rapid response funding for member organisations of the Start Network.",
+    "src": "start-fund",
+    "term": "Start Fund"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Members can raise alerts for heatwaves; heatwave responses have been funded."
+   },
+   "access": [
+    "none-found"
+   ],
+   "access_note": {
+    "text": "Only Start Network members can raise alerts and receive funding.",
+    "src": "start-fund",
+    "term": "members"
+   },
+   "recipients": {
+    "text": "Start Network member organisations.",
+    "src": "start-fund",
+    "term": "members"
+   },
+   "core": [
+    [
+     "start-fund",
+     "Start Fund"
+    ],
+    [
+     "start-fund",
+     "members"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "warning",
+    "health"
+   ],
+   "activities": [
+    "recurring"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-ifrc-dref",
+   "org": "org-ifrc",
+   "name": "IFRC Disaster Response Emergency Fund (DREF)",
+   "url": "https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref",
+   "category": "humanitarian",
+   "remit": {
+    "text": "Fast funding for National Red Cross and Red Crescent Societies, including anticipatory action.",
+    "src": "ifrc-dref",
+    "term": "DREF"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Anticipatory and response funding can be requested for heatwaves by National Societies."
+   },
+   "access": [
+    "none-found"
+   ],
+   "access_note": {
+    "text": "Only National Red Cross and Red Crescent Societies can request it.",
+    "src": "ifrc-dref",
+    "term": "National Societies"
+   },
+   "recipients": {
+    "text": "National Red Cross and Red Crescent Societies.",
+    "src": "ifrc-dref",
+    "term": "National Societies"
+   },
+   "core": [
+    [
+     "ifrc-dref",
+     "DREF"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "equity-free"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health",
+    "schools-care"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-unicef-venture",
+   "org": "org-unicef",
+   "name": "UNICEF Venture Fund: climate and health",
+   "url": "https://www.unicef.org/innovation/call-for-application-climate-and-health-2026",
+   "category": "innovation",
+   "remit": {
+    "text": "Equity-free funding of up to US$100,000 for early-stage climate and health technology.",
+    "src": "unicef-ch-2026",
+    "term": "100,000"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "The 2026 call cited children's exposure to extreme heat among its concerns."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Early-stage technology companies, as each call defines.",
+    "src": "unicef-ch-2026",
+    "term": "climate"
+   },
+   "core": [
+    [
+     "unicef-ch-2026",
+     "climate"
+    ],
+    [
+     "unicef-ch-2026",
+     "health"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "inclusion"
+   ],
+   "activities": [
+    "pilots",
+    "scaling"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-grp-challenge",
+   "org": "org-grp",
+   "name": "GRP Innovation Challenge",
+   "url": "https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/",
+   "category": "innovation",
+   "remit": {
+    "text": "Annual challenge for resilience innovations across the Global South.",
+    "src": "grp-2026",
+    "term": "Innovation Challenge"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Themes change each year; heat was not confirmed as a 2026 theme."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Innovators across the Global South.",
+    "src": "grp-2026",
+    "term": "Global South"
+   },
+   "core": [
+    [
+     "grp-2026",
+     "Innovation Challenge"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health",
+    "value-chain",
+    "inclusion"
+   ],
+   "activities": [
+    "research",
+    "pilots"
+   ],
+   "past_support": [
+    {
+     "text": "An earlier Grand Challenges call on climate, health, agriculture and gender (closed).",
+     "link": "https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender",
+     "link_label": "Call page"
+    }
+   ],
+   "links": {},
+   "id": "prog-gates-gc-climate",
+   "org": "org-gates",
+   "name": "Grand Challenges: climate change's impact on health, agriculture and gender",
+   "url": "https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender",
+   "category": "philanthropy",
+   "remit": {
+    "text": "A Grand Challenges call on solutions to climate change's impact on health, agriculture and gender, including heat stress in South Asia.",
+    "src": "gcgh-climate",
+    "term": "heat stress"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Heat stress, including in South Asia, was named in the call."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Applicants as each Grand Challenges call defines.",
+    "src": "gcgh-climate",
+    "term": "climate change"
+   },
+   "core": [
+    [
+     "gcgh-climate",
+     "heat stress"
+    ],
+    [
+     "gcgh-climate",
+     "South Asia"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "cooling",
+    "value-chain"
+   ],
+   "activities": [
+    "infrastructure",
+    "scaling"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-epic-deploy",
+   "org": "org-base",
+   "name": "EPIC Deploy (sustainable cooling)",
+   "url": "https://energy-base.org/?p=3408",
+   "category": "cooling",
+   "remit": {
+    "text": "A call for proposals on deploying sustainable cooling.",
+    "src": "epic-deploy",
+    "term": "EPIC Deploy"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Sustainable cooling is the call's subject."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "As defined by the call.",
+    "src": "epic-deploy",
+    "term": "Call for Proposals"
+   },
+   "core": [
+    [
+     "epic-deploy",
+     "EPIC Deploy"
+    ],
+    [
+     "epic-deploy",
+     "cooling"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "value-chain",
+    "nature"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-acs",
+   "org": "org-convergence",
+   "name": "Asia Climate Solutions design grant",
+   "url": "https://www.convergence.finance/accelerator/acs",
+   "category": "innovation",
+   "remit": {
+    "text": "Design grants that move blended-finance concepts for Southeast Asia towards investment.",
+    "src": "acs",
+    "term": "Asia Climate Solutions"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Its 2026 themes were climate-resilient agriculture and nature-based solutions; a heat-related design could fit where it matches them."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Proponents of blended-finance designs for Southeast Asia.",
+    "src": "acs",
+    "term": "Southeast Asia"
+   },
+   "core": [
+    [
+     "acs",
+     "Asia Climate Solutions"
+    ],
+    [
+     "acs",
+     "Southeast Asia"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "nature"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-global-eba",
+   "org": "org-iucn",
+   "name": "Global EbA Fund",
+   "url": "https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects",
+   "category": "nature",
+   "remit": {
+    "text": "Grants for ecosystem-based adaptation, in small-size and medium-size calls.",
+    "src": "eba-iucn",
+    "term": "Global EbA Fund"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Ecosystem-based measures such as urban greening can lower heat; the fund's priority countries and themes decide fit."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Organisations as each call defines.",
+    "src": "eba-iucn",
+    "term": "small-size"
+   },
+   "core": [
+    [
+     "eba-iucn",
+     "Global EbA Fund"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "inclusion",
+    "work"
+   ],
+   "activities": [
+    "organising",
+    "policy"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-cwf",
+   "org": "org-cwf",
+   "name": "Commonwealth Foundation grants",
+   "url": "https://commonwealthfoundation.com/grants/annual/",
+   "category": "civil",
+   "remit": {
+    "text": "Grants to civil society organisations and collectives in Commonwealth member countries; climate and environmental justice is one priority.",
+    "src": "cwf-grants",
+    "term": "Climate and environmental justice"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Civil society work on heat and climate justice could fit the climate and environmental justice priority."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Not-for-profit organisations and collectives in eligible Commonwealth countries.",
+    "src": "cwf-grants",
+    "term": "Individual Organisation"
+   },
+   "core": [
+    [
+     "cwf-grants",
+     "Collective Action"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "inclusion",
+    "municipal"
+   ],
+   "activities": [
+    "organising",
+    "policy"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-toyota-intl",
+   "org": "org-toyota",
+   "name": "Toyota Foundation International Grant Program",
+   "url": "https://www.toyotafound.or.jp/english/grant/international/",
+   "category": "philanthropy",
+   "remit": {
+    "text": "Grants for practitioners' exchange on common issues in Asia.",
+    "src": "toyota-intl",
+    "term": "International Grant Program"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Cross-border exchange on heat among practitioners could fit where heat is the common issue."
+   },
+   "access": [
+    "periodic-call"
+   ],
+   "recipients": {
+    "text": "Teams in East and Southeast Asia, as each call defines.",
+    "src": "toyota-intl",
+    "term": "Asia"
+   },
+   "core": [
+    [
+     "toyota-intl",
+     "International Grant Program"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "warning",
+    "municipal"
+   ],
+   "activities": [
+    "scaling"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-zurich-gcrp",
+   "org": "org-zurich",
+   "name": "Z Zurich Foundation partnership with the IFRC Global Climate Resilience Platform",
+   "url": "https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf",
+   "category": "humanitarian",
+   "remit": {
+    "text": "Partnership support for the IFRC's Global Climate Resilience Platform, which works on extreme heat.",
+    "src": "ifrc-gcrp",
+    "term": "Global Climate Resilience Platform"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "The platform's report names extreme heat among its work."
+   },
+   "access": [
+    "none-found"
+   ],
+   "access_note": {
+    "text": "No public application route was found; support flows through the IFRC partnership.",
+    "src": "ifrc-gcrp",
+    "term": "Z Zurich Foundation"
+   },
+   "recipients": {
+    "text": "Through the IFRC and National Societies.",
+    "src": "ifrc-gcrp",
+    "term": "extreme heat"
+   },
+   "core": [
+    [
+     "ifrc-gcrp",
+     "extreme heat"
+    ],
+    [
+     "ifrc-gcrp",
+     "Z Zurich Foundation"
+    ]
+   ]
+  },
+  {
+   "instruments": [
+    "grant"
+   ],
+   "operational": "operational",
+   "topics": [
+    "health"
+   ],
+   "activities": [
+    "research"
+   ],
+   "past_support": [],
+   "links": {},
+   "id": "prog-horizon-health",
+   "org": "org-ec",
+   "name": "Horizon Europe Cluster 1: Health (environment and health topics)",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-ENVHLTH-02",
+   "category": "research",
+   "remit": {
+    "text": "Research and innovation actions on environment and health, including climate-related exposures.",
+    "src": "he-envhlth-02",
+    "term": "exposome"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Climate-related exposures include heat; the topic encourages international cooperation."
+   },
+   "access": [
+    "consortium"
+   ],
+   "access_note": {
+    "text": "Consortia apply through the Funding and Tenders portal; whether a partner from a given Asian country receives EU funding depends on Horizon Europe's list of countries eligible for funding.",
+    "src": "he-envhlth-02",
+    "term": "international cooperation"
+   },
+   "recipients": {
+    "text": "Consortia; eligibility for funding of partners outside Europe depends on the programme's country list.",
+    "src": "he-envhlth-02",
+    "term": "international cooperation"
+   },
+   "core": [
+    [
+     "he-envhlth-02",
+     "exposome"
+    ]
+   ]
+  }
+ ]
+}
