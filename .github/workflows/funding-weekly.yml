@@ -1,0 +1,68 @@
+# The weekly funding, procurement and careers harvest (tools/funding-harvest.js). Every Wednesday, reads the public feeds
+# and APIs in data/funding/registry.json, and opens a pull request with the week's candidates
+# (data/funding/candidates/<date>.json) and the published records whose status their dates now change.
+# Candidates are leads, never records: a person finds each one's primary page, stages its facts, runs verify-sources.yml
+# (batch 2026-11-funding-opps) and adds it to data/funding/ only once the check confirms them. Merging records the review;
+# nothing reaches the website from this pull request. Free: no paid services. ReliefWeb jobs need the approved app name
+# in the RELIEFWEB_APPNAME secret; without it that source is skipped and says so.
+# Needs, once: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+name: Weekly funding and careers harvest
+on:
+  schedule:
+    - cron: "17 5 * * 3"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: How many days back to look for procurement and calls
+        default: "21"
+      dry_run:
+        description: Print the counts only (true or false)
+        default: "false"
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: funding-weekly
+  cancel-in-progress: false
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      - name: Harvest candidates
+        id: h
+        # inputs reach the shell as variables, never as script text, and are checked before use
+        run: |
+          [[ "$DAYS" =~ ^[0-9]{1,2}$ ]] || { echo "::error::days must be a whole number of days"; exit 1; }
+          if [ "$DRY" = "true" ]; then node tools/funding-harvest.js --days "$DAYS" --dry-run; else node tools/funding-harvest.js --days "$DAYS"; fi
+        env:
+          DAYS: ${{ inputs.days || '21' }}
+          DRY: ${{ inputs.dry_run || 'false' }}
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+      - name: Open the review pull request
+        if: ${{ inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAY: ${{ steps.h.outputs.date }}
+          QUEUED: ${{ steps.h.outputs.queued }}
+          CHANGED: ${{ steps.h.outputs.changed }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BR="funding/$DAY"
+          git checkout -B "$BR"
+          git add data/funding/candidates
+          if git diff --cached --quiet; then echo "Nothing new this week."; exit 0; fi
+          git commit -m "Funding and careers candidates for $DAY ($QUEUED leads, $CHANGED status changes)"
+          git push -f origin "$BR"
+          BODY=$(printf '%s\n' \
+            "**$QUEUED leads** and **$CHANGED status changes** in \`data/funding/candidates/$DAY.json\`." "" \
+            "For each lead: find the primary page (an aggregator is discovery only), then set \`decision\` to \`propose\` or \`reject\` with a note. A proposed lead becomes a record only once its facts pass the source check (verify-sources.yml, batch 2026-11-funding-opps)." "" \
+            "Status changes come from dates alone; confirm each against its source before editing the record." "" \
+            "Guide: \`data/funding/README.md\`")
+          gh pr create --base "${{ github.event.repository.default_branch }}" --head "$BR" --title "Funding and careers leads: $DAY ($QUEUED)" --body "$BODY" \
+            || echo "::warning::Could not open the pull request. The leads are on branch $BR."

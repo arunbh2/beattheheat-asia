@@ -1,0 +1,38 @@
+{
+ "about": "Sources the weekly funding and careers job may read (tools/funding-harvest.js, .github/workflows/funding-weekly.yml). Each is a public feed or API offered for reuse; nothing behind a login, CAPTCHA or paywall. 'kind' picks the importer. 'feeds' says which list a candidate goes to. A source that fails is noted in the run and the last-known records are kept. Candidates are leads for review, never published records.",
+ "checks": {
+  "open_and_near_deadline": "weekly: every published opportunity and career listing whose status is open, upcoming or rolling has its sources re-checked by verify-sources.yml (batch 2026-11-funding-opps), and its status recalculated from dates",
+  "programme_profiles": "quarterly: programme and organisation sources re-checked; a record past its review date shows 'review due'",
+  "historical_awards": "kept with their provenance; corrected through /corrections/ when wrong"
+ },
+ "sources": [
+  { "id": "wb-procurement", "name": "World Bank procurement notices (public API)", "kind": "worldbank", "feeds": "procurement", "url": "https://search.worldbank.org/api/v2/procnotices", "terms": ["heat", "cooling", "heatwave", "thermal comfort", "urban resilience", "early warning"] },
+  { "id": "undp-procurement-rss", "name": "UNDP procurement notices (RSS)", "kind": "rss", "feeds": "procurement", "url": "https://procurement-notices.undp.org/rss_feeds/notices.xml" },
+  { "id": "adb-tenders-rss", "name": "ADB project procurement notices (RSS)", "kind": "rss", "feeds": "procurement", "url": "https://www.adb.org/projects/tenders/rss" },
+  { "id": "eu-ft-calls", "name": "EU Funding and Tenders portal search (public SEDIA key)", "kind": "sedia", "feeds": "opportunities", "url": "https://api.tech.ec.europa.eu/search-api/prod/rest/search", "terms": ["heat", "heatwave", "extreme heat", "cooling", "climate and health"] },
+  { "id": "reliefweb-jobs", "name": "ReliefWeb jobs (API; needs the approved app name in RELIEFWEB_APPNAME)", "kind": "reliefweb-jobs", "feeds": "careers", "url": "https://api.reliefweb.int/v2/jobs" },
+  { "id": "gh-climateworks", "name": "ClimateWorks Foundation jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "climateworksfoundation" },
+  { "id": "gh-rmi", "name": "RMI jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "rmi" },
+  { "id": "gh-clasp", "name": "CLASP jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "clasp" },
+  { "id": "gh-ipa", "name": "Innovations for Poverty Action jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "innovationsforpovertyaction" },
+  { "id": "gh-idinsight", "name": "IDinsight jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "idinsight" },
+  { "id": "gh-cpi", "name": "Climate Policy Initiative jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "climatepolicyinitiative" },
+  { "id": "gh-givedirectly", "name": "GiveDirectly jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "givedirectly" },
+  { "id": "gh-evidenceaction", "name": "Evidence Action jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "evidenceaction" },
+  { "id": "gh-c40", "name": "C40 Cities jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "c40cities" },
+  { "id": "gh-wri", "name": "WRI jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "worldresourcesinstitute" },
+  { "id": "gh-cleanairfund", "name": "Clean Air Fund jobs (Greenhouse board)", "kind": "greenhouse", "feeds": "careers", "board": "cleanairfund" },
+  { "id": "lv-jpal", "name": "J-PAL jobs (Lever board)", "kind": "lever", "feeds": "careers", "board": "jpal" },
+  { "id": "lv-idinsight", "name": "IDinsight jobs (Lever board)", "kind": "lever", "feeds": "careers", "board": "idinsight" },
+  { "id": "ab-climatepolicylab", "name": "Climate jobs on Ashby (Arsht-Rock)", "kind": "ashby", "feeds": "careers", "board": "arshtrock" },
+  { "id": "ilo-jobs-rss", "name": "ILO jobs (career site RSS)", "kind": "rss", "feeds": "careers", "url": "https://jobs.ilo.org/services/rss/job/?locale=en_GB&keywords=" },
+  { "id": "unicef-jobs-rss", "name": "UNICEF jobs (RSS)", "kind": "rss", "feeds": "careers", "url": "https://jobs.unicef.org/en-us/listing/?format=rss" },
+  { "id": "who-jobs-rss", "name": "WHO vacancies (RSS)", "kind": "rss", "feeds": "careers", "url": "https://careers.who.int/careersection/ex/joblist.ftl?lang=en&rss=true" },
+  { "id": "preventionweb-vacancies", "name": "PreventionWeb vacancies (RSS)", "kind": "rss", "feeds": "careers", "url": "https://www.preventionweb.net/rss/vacancies.xml" },
+  { "id": "preventionweb-grants", "name": "PreventionWeb funding (RSS)", "kind": "rss", "feeds": "opportunities", "url": "https://www.preventionweb.net/rss/funding.xml" },
+  { "id": "undp-jobs-rss", "name": "UNDP jobs (RSS)", "kind": "rss", "feeds": "careers", "url": "https://jobs.undp.org/cj_view_jobs.cfm?rss=1" },
+  { "id": "uncareers-rss", "name": "UN Careers (RSS)", "kind": "rss", "feeds": "careers", "url": "https://careers.un.org/rss/jobopenings" },
+  { "id": "unhabitat-jobs-rss", "name": "UN-Habitat vacancies (RSS)", "kind": "rss", "feeds": "careers", "url": "https://unhabitat.org/rss/jobs.xml" },
+  { "id": "devnetjobs-rss", "name": "DevNetJobs India (RSS, discovery only)", "kind": "rss", "feeds": "careers", "url": "https://www.devnetjobsindia.org/rss.aspx", "discovery_only": true }
+ ]
+}
