@@ -161,6 +161,42 @@ async function probe() {
     out.push(`${kind}/${board}: OK, ${r.items.length} jobs, ${rel.length} relevant${rel.length ? ": " + rel.slice(0, 6).map(x => `${x.it.title} [${x.rel.strength}; ${x.it.location || "location not stated"}] ${x.it.url}`).join(" | ") : ""}`);
   }
   console.log(out.join("\n"));
+  await unProbe();
+}
+// --probe also studies the UN Careers search: reads the portal's own script for how it calls the job list, then tries
+// request shapes and reports, for each, the number of items, whether titles carry the keyword, and the keys returned.
+async function unProbe() {
+  const base = "https://careers.un.org", out = [];
+  const home = await get(base + "/jobopening?language=en");
+  if (!home.ok) out.push("uncareers home: " + home.why);
+  else {
+    const js = [...new Set((home.text.match(/src="([^"]+\.js)"/g) || []).map(m => m.slice(5, -1)))];
+    out.push("uncareers scripts: " + js.join(", "));
+    for (const src of js) {
+      const r = await get(src.startsWith("http") ? src : base + "/" + src.replace(/^\//, "")); if (!r.ok) continue;
+      for (const w of ["filteredV2", "filterConfig", "itemPerPage", "jobopening", "opening/jo"]) {
+        let i = -1, n = 0; while ((i = r.text.indexOf(w, i + 1)) > -1 && n < 4) { out.push(`  [${src} ${w}] ${r.text.slice(Math.max(0, i - 220), i + 260).replace(/\s+/g, " ")}`); n++; }
+      }
+    }
+  }
+  const url = base + "/api/public/opening/jo/list/filteredV2/en", P = { page: 0, itemPerPage: 20, sortBy: "startDate", sortDirection: -1 };
+  const shapes = {
+    a_keyword: { filterConfig: { keyword: "heat" }, pagination: P },
+    b_search: { filterConfig: { search: "heat" }, pagination: P },
+    c_keywords: { filterConfig: { keywords: ["heat"] }, pagination: P },
+    d_top_keyword: { keyword: "heat", filterConfig: {}, pagination: P },
+    e_empty: { filterConfig: {}, pagination: P },
+    f_jobTitle: { filterConfig: { jobTitle: "heat" }, pagination: P },
+    g_searchText: { filterConfig: { searchText: "heat" }, pagination: P }
+  };
+  for (const [k, body] of Object.entries(shapes)) {
+    const r = await get(url, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify(body) });
+    if (!r.ok) { out.push(`uncareers ${k}: ${r.why}`); continue; }
+    const j = J(r); if (!j) { out.push(`uncareers ${k}: not JSON: ${r.text.slice(0, 200)}`); continue; }
+    const d = j.data, list = Array.isArray(d) ? d : (d && (d.list || d.items || d.content)) || j.list || [];
+    out.push(`uncareers ${k}: top keys ${Object.keys(j).join(",")}; data keys ${d && !Array.isArray(d) ? Object.keys(d).join(",") : "array"}; items ${list.length}; heat in title ${list.filter(x => /heat/i.test(x.postingTitle || x.jobTitle || "")).length}; first: ${list.slice(0, 3).map(x => (x.postingTitle || x.jobTitle) + " #" + x.jobId).join(" | ")}; item keys: ${list[0] ? Object.keys(list[0]).slice(0, 40).join(",") : ""}; other: ${JSON.stringify(Object.assign({}, d && !Array.isArray(d) ? d : {}, { list: undefined, items: undefined, content: undefined })).slice(0, 300)}`);
+  }
+  console.log(out.join("\n"));
 }
 async function main() {
   const today = new Date().toISOString().slice(0, 10), since = new Date(Date.now() - DAYS * 864e5).toISOString().slice(0, 10);
