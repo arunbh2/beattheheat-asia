@@ -80,6 +80,12 @@ module.exports = [
   { key: "ifrc-jobs", url: "https://www.ifrc.org/jobs", title: "Jobs", publisher: "IFRC", expect: ["heat", "consultant"] },
   // ---- second round (21 November 2026) ----
   { key: "cool-bth", url: "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities", title: "Beat the Heat in Cities", publisher: "Cool Coalition (UNEP)", expect: ["Beat the Heat", "expression of interest", "three cities", "Secretariat", "heat action", "cities"] },
+  // ---- careers round (21 November 2026): can UN careers pages be checked, and employers' own listings ----
+  { key: "uncareers-287135", url: "https://careers.un.org/jobSearchDescription/287135?language=en", title: "Project Scientist II (Urban Heat Expert)", publisher: "United Nations Careers (UNEP)", expect: ["Urban Heat", "UNEP", "Consultant", "India", "Deadline"] },
+  { key: "uncareers-287135-api", url: "https://careers.un.org/api/public/opening/jo/287135/en", title: "Project Scientist II (Urban Heat Expert), job opening data", publisher: "United Nations Careers (UNEP)", expect: ["Urban Heat", "UNEP", "India"] },
+  { key: "nus-microclimate-ra", url: "https://careers.nus.edu.sg/job/Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33562-en_GB/", title: "Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)", publisher: "National University of Singapore", expect: ["Research Assistant", "microclimate", "Apply", "Req ID"] },
+  { key: "iiphg-jobs", url: "https://iiphg.edu.in/work-with-us/", title: "Work with us", publisher: "Indian Institute of Public Health Gandhinagar", expect: ["Project", "heat", "Last date", "2026"] },
+  { key: "unhabitat-joinus", url: "https://unhabitat.org/join-us", title: "Join us", publisher: "UN-Habitat", expect: ["Consultant", "deadline", "heat"] },
   // ---- Legacy audit: programmes listed in the October 2026 research ----
   { key: "legacy-gcp", url: "https://globalcoolingprize.org/grand-winners-press-release/", title: "Global Cooling Prize: grand winners", publisher: "Global Cooling Prize", expect: ["Global Cooling Prize", "winners", "2021"] }
 ];
