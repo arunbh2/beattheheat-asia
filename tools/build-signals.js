@@ -118,6 +118,24 @@ module.exports = function signals({ page, write, esc, hero }) {
   const O = SM.overview(D, ctx.CHECKS, today), B = O.buckets;
   const sorted = D.signals.slice().sort((a, b) => SM.key(SM.latest(b, today)).localeCompare(SM.key(SM.latest(a, today))) || a.id.localeCompare(b.id));
   const cop = D.groups.find(g => g.id === "cop31");
+  // what moved, and the feed and calendar for following it (tools/signals-feeds.js)
+  const F = require("./signals-feeds.js"), MV = F.moved(D, today, s => T.kindOf(s).label), ENSO = J("data/site/enso-outlook.json");
+  fs.writeFileSync(path.join(ROOT, "signals", "feed.xml"), F.atom(D, today, T.LEDE));
+  const CAL = F.ics(D, today, ENSO); fs.writeFileSync(path.join(ROOT, "signals", "calendar.ics"), CAL.text);
+  // the newest records render on the page; the rest load from cards.json when a reader asks for them (signals.js), and
+  // /signals/all/ lists every record for readers without JavaScript, so the page stays light however many records there are
+  const FIRST = 8, html = sorted.map(s => ({ id: s.id, html: card(s) })), shownFirst = html.slice(0, FIRST), rest = html.slice(FIRST);
+  fs.writeFileSync(path.join(ROOT, "signals", "cards.json"), JSON.stringify({ about: "Record cards for /signals/ beyond the newest " + FIRST + ", loaded on request by signals/signals.js. Built by tools/build-signals.js from data/site/signals.json; do not edit.", cards: rest }) + "\n");
+  const mvItem = m => `<li><time datetime="${e(m.date)}">${e(SM.date(m.date))}</time><span class="sg-mv__what">${e(m.what)}</span><a href="#${e(m.anchor)}">${e(m.item)}</a>${m.item !== m.s.title ? `<span class="sg-mv__in">${e(m.s.title)}</span>` : ""}</li>`;
+  const MAXMV = 6, enNext = ENSO.status && ENSO.status.next > today ? ENSO.status : null;
+  const movedHtml = `<section class="sg-moved" id="moved" aria-labelledby="moved-h"><div class="container">
+    <h2 class="sg-h2" id="moved-h">What moved</h2>
+    <p class="sg-small">${e(T.MOVED_NOTE(F.WINDOW))}</p>
+    ${MV.past.length ? `<ol class="sg-mv">${MV.past.slice(0, MAXMV).map(mvItem).join("")}</ol>${MV.past.length > MAXMV ? `<p class="sg-small">${MV.past.length - MAXMV} more dated in the same ${F.WINDOW} days are in the records below.</p>` : ""}` : `<p>${e(T.MOVED_NONE(F.WINDOW))}</p>`}
+    ${MV.ahead.length || enNext ? `<h3 class="sg-h3">Coming up</h3><ol class="sg-mv sg-mv--ahead">${MV.ahead.map(m => mvItem(Object.assign({}, m, { what: m.what + " (scheduled)" }))).join("")}${enNext ? `<li><time datetime="${e(enNext.next)}">${e(SM.date(enNext.next))}</time><span class="sg-mv__what">Next bulletin</span><a href="#el-nino-watch">${e(enNext.issuer)}, ${e(enNext.bulletin)}</a></li>` : ""}</ol><p class="sg-small">${e(T.AHEAD_NOTE)}</p>` : ""}
+    <p class="sg-follow"><span class="sg-lab">Follow without an account</span><a href="/signals/feed.xml" type="application/atom+xml">Feed of records (Atom)</a><a href="/signals/calendar.ics" type="text/calendar">Calendar of scheduled dates (${CAL.n})</a><a href="/whats-new/">The monthly briefing</a></p>
+    <nav class="sg-jump" aria-label="On this page"><a href="#records">Every record</a><a href="#where">Where commitments stand</a><a href="#el-nino-watch">El Niño watch</a><a href="#cop31">COP31 watch</a><a href="#sg-method">How records are kept</a></nav>
+  </div></section>`;
   const opt = (v, l) => `<option value="${e(v)}">${e(l)}</option>`;
   const placesUsed = [...new Set(D.signals.flatMap(s => s.places || []))].sort((a, b) => a === "region" ? -1 : b === "region" ? 1 : (PLACE[a] || a).localeCompare(PLACE[b] || b));
   const leversUsed = [...new Set(D.signals.flatMap(s => s.levers || []))].sort((a, b) => (ctx.levers[a] || a).localeCompare(ctx.levers[b] || b));
@@ -127,12 +145,33 @@ module.exports = function signals({ page, write, esc, hero }) {
   const checkins = (cop.checkins || []).map(c => `<li><p><b>${time2(c.date)} · ${e(c.label)}</b> ${e(c.note)}</p><ul>${c.added.map(id => { const s = D.signals.find(x => x.id === id); return `<li><a href="#${e(id)}">${e(s.title)}</a> <span class="sg-tag">${e(T.kindOf(s).label)}</span></li>`; }).join("")}</ul></li>`).join("");
   function time2(d) { return `<time datetime="${e(d)}">${e(SM.date(d))}</time>`; }
   const body = `${hero("News and evidence", T.TITLE, e(T.LEDE))}
-  <section class="sg-intro" aria-labelledby="sg-intro-h"><div class="container">
-    <h2 class="sg-h2" id="sg-intro-h">What this page is for</h2>
-    <ul class="sg-uses">${T.USES.map(u => `<li>${e(u)}</li>`).join("")}</ul>
-    <p class="sg-small">${e(T.DISTINCT)} <a href="/growing/">Watch Common Shade grow</a> · <a href="/evidence-map/">Evidence map</a> · <a href="/paying-for-protection/">Paying for protection</a> · <a href="/heat-economy/flows/">Funding traced</a></p>
+  ${movedHtml}
+  <section class="sg-year" id="records" aria-labelledby="records-h"><div class="container">
+    <p class="eyebrow eyebrow--break">Every record</p>
+    <h2 class="sg-h2" id="records-h">Developments, newest first</h2>
+    <form class="sg-find" id="sg-find" hidden role="search" aria-label="Find signals" onsubmit="return false">
+      <div class="sg-views" role="group" aria-label="View"><button type="button" data-view="recent" aria-pressed="true">Recent developments</button><button type="button" data-view="commitments" aria-pressed="false">Commitments and evidence</button><button type="button" data-view="upcoming" aria-pressed="false">Coming up</button><button type="button" data-view="saved" aria-pressed="false">Saved</button></div>
+      <label class="sg-f sg-f--q"><span>Search</span><input type="search" name="q" autocomplete="off" placeholder="A place, an institution, a word"></label>
+      <details class="sg-more-f"><summary>More filters <span class="sg-nf"></span></summary><div class="sg-fields">
+        <label class="sg-f"><span>Place</span><select name="place">${opt("", "Any place")}${placesUsed.map(p => opt(p, PLACE[p] || p)).join("")}</select></label>
+        <label class="sg-f"><span>Kind</span><select name="kind">${opt("", "Any kind")}${D.kinds.map(k => opt(k.id, k.label)).join("")}</select></label>
+        <label class="sg-f"><span>Action it touches</span><select name="lever">${opt("", "Any action")}${leversUsed.map(l => opt(l, ctx.levers[l] || l)).join("")}</select></label>
+        ${popsUsed.length ? `<label class="sg-f"><span>People</span><select name="pop">${opt("", "Anyone")}${popsUsed.map(p => opt(p, ctx.people[p] || p)).join("")}</select></label>` : ""}
+        <label class="sg-f"><span>Step with evidence</span><select name="rung">${opt("", "Any step")}${SM.RUNGS.map(r => opt(r, SM.RUNG_LABEL[r])).join("")}</select></label>
+        <label class="sg-f"><span>Evidence</span><select name="state">${opt("", "Any")}${["confirmed", "reported", "unverified"].map(s => opt(s, SM.STATE[s].label)).join("")}</select></label>
+        <label class="sg-f sg-f--c"><input type="checkbox" name="recent" value="1"> <span>A development in the last 90 days</span></label>
+        <label class="sg-f sg-f--c"><input type="checkbox" name="due" value="1"> <span>Due for review within 30 days</span></label>
+      </div></details>
+      <p class="sg-status" role="status" aria-live="polite"></p>
+      <div class="sg-actions"><button type="button" data-act="share">Copy link to this view</button><button type="button" data-act="print">Print a briefing</button><button type="button" data-act="download">Download as text</button><button type="button" data-act="reset">Clear filters</button></div>
+      <p class="sg-small sg-saved-note">${e(T.SAVED_NOTE)} <button type="button" data-act="clear-saved" class="sg-link">Forget saved records</button></p>
+    </form>
+    <div class="sg-list" id="sg-list" data-total="${sorted.length}" data-more="${rest.length ? "/signals/cards.json?v=" + T.V : ""}">${shownFirst.map(c => c.html).join("")}</div>
+    ${rest.length ? `<p class="sg-morelink" id="sg-morelink">${e(T.SHOWING(shownFirst.length, sorted.length))} <a href="/signals/all/">${e(T.SEE_ALL(sorted.length))}</a></p>
+    <div class="sg-older" id="sg-older"><p class="sg-lab">${e(T.OLDER)}</p><ol>${sorted.slice(FIRST).map(s => `<li id="${e(s.id)}"><a href="/signals/all/#${e(s.id)}">${e(s.title)}</a> <span class="sg-small">${e(T.kindOf(s).label)} · latest development ${e(SM.date(SM.latest(s, today)))}</span></li>`).join("")}</ol></div>` : ""}
+    <p class="sg-empty" id="sg-empty" hidden>${e(T.EMPTY)} <button type="button" data-act="reset" class="sg-link">Clear filters</button></p>
   </div></section>
-  <section class="sg-glance" aria-labelledby="sg-glance-h"><div class="container">
+  <section class="sg-glance" id="where" aria-labelledby="sg-glance-h"><div class="container">
     <p class="eyebrow eyebrow--break">Where the commitments stand</p>
     <h2 class="sg-h2" id="sg-glance-h">From promise to proof, deliverable by deliverable</h2>
     <p class="sg-denom">${e(T.denominator(O))}</p>
@@ -158,37 +197,23 @@ module.exports = function signals({ page, write, esc, hero }) {
     <p class="sg-cop__p"><b>Closing synthesis.</b> ${cop.synthesis ? `${e(cop.synthesis.text)} (reviewed ${time2(cop.synthesis.reviewed)})` : e(T.NO_SYNTHESIS)}</p>
     <p class="sg-cop__p sg-small">${e(T.WATCH_NOTE)}</p>
   </div></section>
-  <section class="sg-year" id="records" aria-labelledby="records-h"><div class="container">
-    <p class="eyebrow eyebrow--break">Every record</p>
-    <h2 class="sg-h2" id="records-h">Developments, newest first</h2>
-    <form class="sg-find" id="sg-find" hidden role="search" aria-label="Find signals" onsubmit="return false">
-      <div class="sg-views" role="group" aria-label="View"><button type="button" data-view="recent" aria-pressed="true">Recent developments</button><button type="button" data-view="commitments" aria-pressed="false">Commitments and evidence</button><button type="button" data-view="upcoming" aria-pressed="false">Coming up</button><button type="button" data-view="saved" aria-pressed="false">Saved</button></div>
-      <label class="sg-f sg-f--q"><span>Search</span><input type="search" name="q" autocomplete="off" placeholder="A place, an institution, a word"></label>
-      <details class="sg-more-f"><summary>More filters <span class="sg-nf"></span></summary><div class="sg-fields">
-        <label class="sg-f"><span>Place</span><select name="place">${opt("", "Any place")}${placesUsed.map(p => opt(p, PLACE[p] || p)).join("")}</select></label>
-        <label class="sg-f"><span>Kind</span><select name="kind">${opt("", "Any kind")}${D.kinds.map(k => opt(k.id, k.label)).join("")}</select></label>
-        <label class="sg-f"><span>Action it touches</span><select name="lever">${opt("", "Any action")}${leversUsed.map(l => opt(l, ctx.levers[l] || l)).join("")}</select></label>
-        ${popsUsed.length ? `<label class="sg-f"><span>People</span><select name="pop">${opt("", "Anyone")}${popsUsed.map(p => opt(p, ctx.people[p] || p)).join("")}</select></label>` : ""}
-        <label class="sg-f"><span>Step with evidence</span><select name="rung">${opt("", "Any step")}${SM.RUNGS.map(r => opt(r, SM.RUNG_LABEL[r])).join("")}</select></label>
-        <label class="sg-f"><span>Evidence</span><select name="state">${opt("", "Any")}${["confirmed", "reported", "unverified"].map(s => opt(s, SM.STATE[s].label)).join("")}</select></label>
-        <label class="sg-f sg-f--c"><input type="checkbox" name="recent" value="1"> <span>A development in the last 90 days</span></label>
-        <label class="sg-f sg-f--c"><input type="checkbox" name="due" value="1"> <span>Due for review within 30 days</span></label>
-      </div></details>
-      <p class="sg-status" role="status" aria-live="polite"></p>
-      <div class="sg-actions"><button type="button" data-act="share">Copy link to this view</button><button type="button" data-act="print">Print a briefing</button><button type="button" data-act="download">Download as text</button><button type="button" data-act="reset">Clear filters</button></div>
-      <p class="sg-small sg-saved-note">${e(T.SAVED_NOTE)} <button type="button" data-act="clear-saved" class="sg-link">Forget saved records</button></p>
-    </form>
-    <div class="sg-list" id="sg-list">${sorted.map(card).join("")}</div>
-    <p class="sg-empty" id="sg-empty" hidden>${e(T.EMPTY)} <button type="button" data-act="reset" class="sg-link">Clear filters</button></p>
-  </div></section>
   <section class="sg-method" id="sg-method" aria-labelledby="sg-method-h"><div class="container">
     <h2 class="sg-h2" id="sg-method-h">How records are kept</h2>
+    <h3 class="sg-h3">What this page is for</h3>
+    <ul class="sg-uses">${T.USES.map(u => `<li>${e(u)}</li>`).join("")}</ul>
+    <p class="sg-small">${e(T.DISTINCT)} <a href="/growing/">Watch Common Shade grow</a> · <a href="/evidence-map/">Evidence map</a> · <a href="/paying-for-protection/">Paying for protection</a> · <a href="/heat-economy/flows/">Funding traced</a></p>
+    <h3 class="sg-h3">Method</h3>
     <ul class="sg-uses">${T.METHOD.map(m => `<li>${e(m)}</li>`).join("")}</ul>
     <p class="sg-small">${e(SM.REVIEW_SCOPE)}</p>
     <p class="hub-p sg-more">Know of a development we have missed, or one that has moved? <a href="/join/?about=Signals#way-share">Tell us, with its source</a>. The whole record is open: <a href="/data/site/signals.json">signals.json</a>, with its <a href="/data/site/signals-checks.json">source-check records</a>, and a <a href="/signals/index.md">plain-text version</a>. See also <a href="/whats-new/">State of the field</a> and <a href="/news/">Heat in the news</a>.</p>
   </div></section>
   <script src="/signals/signals.js?v=${T.V}" defer></script>`;
-  write("signals", page("signals", "Signals: which way heat policy is moving", T.LEDE, body, `\n  <link rel="stylesheet" href="/el-nino/watch.css?v=${V}">`));
+  const feedLink = `\n  <link rel="alternate" type="application/atom+xml" title="Common Shade: Signals" href="/signals/feed.xml">`;
+  write("signals", page("signals", "Signals: which way heat policy is moving", T.LEDE, body, `\n  <link rel="stylesheet" href="/el-nino/watch.css?v=${V}">${feedLink}`));
+  // every record on one page, for readers without JavaScript and for printing the lot
+  write("signals/all", page("signals/all", "Signals: every record", `All ${sorted.length} records on Signals, newest first, on one page.`, `${hero("Signals", "Every record", e(T.ALL_LEDE))}
+  <section class="sg-year" aria-label="Every record"><div class="container"><div class="sg-list">${html.map(c => c.html.replace(/href="#/g, 'href="/signals/#')).join("")}</div>
+    <p class="hub-p"><a href="/signals/">Back to Signals</a>, with what moved, the filters and the watches.</p></div></section>`, feedLink));
   return D.signals.length;
 };
 module.exports.render = render;

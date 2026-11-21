@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-20
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-21
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -7355,7 +7355,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 79 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 80 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -7370,6 +7370,8 @@ Dated by the publication date of the work Common Shade draws on (1123 of 1956 wo
 - 2026 so far: 246 works published (142 with a known month), 1123 in all by the end of the period. Financing: 230; Institutions and plans: 138; Practical measures: 248; Experience: 98; Evidence: 409.
 
 ### Changes, newest first
+
+- Tool improved: Signals opens with what moved, and both briefings can be followed without visiting. Added 21 November 2026 · Tool improved 21 November 2026. Why it matters (our reading): Signals now opens with the steps dated in the last 45 days and the dates coming up, so a phone reader reaches the first development within the first screen rather than after more than seven, and the page stays light as records grow. Signals, its scheduled dates and State of the field each have a feed or calendar, and every edition has three reading depths, a chat version and its own share image. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: Built from the existing records only: no new claims or sources. Dates in What moved are when steps happened, never when they were added; a scheduled date is marked as not showing compliance. Published editions keep their text and ledger hashes.. Next: See what moved https://beattheheat.asia/signals/#moved. Connections: Heat action plans (from the site's records): Signals tracks heat plans and rules step by step; following their dates helps teams prepare.
 
 - Evidence added: Heat strain measured in Asian field work, beside the cotton page. Added 20 November 2026 · Evidence added 20 November 2026. Why it matters (our reading): No study has measured heat strain among cotton workers in Asia, so the cotton page now sets out what researchers found in neighbouring work: rice and sugarcane fields, farming villages and salt pans in India, Thailand, Viet Nam, Malaysia and Sri Lanka. It keeps strain, symptoms, kidneys, output and the gaps in the research apart, and names what a cotton study could measure. What the source says: "bundles collected fell by about 5% for each degree of WBGT above 26°C" (Sahu et al., Industrial Health: Heat exposure, cardiovascular stress and work productivity in rice harvesters in India, 2013 https://pubmed.ncbi.nlm.nih.gov/23685851/) Places: India, Thailand, Sri Lanka, South and Southeast Asia. People: Workers in heat-exposed jobs, Smallholder and rainfed farming households, Women whose livelihoods are held back by unequal access. Topics: Heat-safe work. Review: Eighteen studies found through Europe PMC, staged and checked on GitHub; all 18 claims passed (one source showed the checker a cookie wall on the first pass and was re-checked). None is about cotton, and the page says so. One study found no association, and is shown for that reason.. Next: Read the nearby evidence https://beattheheat.asia/cotton-and-heat/#nearby-evidence. Connections: Heat-safe work (from the site's records): The studies show heat at work exceeding occupational limits in rice, sugarcane and salt work, which is what heat-safe work rules address. What it took to add this: The question: What have field studies measured about heat strain among agricultural workers in South and Southeast Asia? 18 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 18 confirmed. 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Measured field studies from Pakistan and Bangladesh; any field trial of shade, water or rest in Asian agriculture; heat and pesticides measured together in cotton.
 

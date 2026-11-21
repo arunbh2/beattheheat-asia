@@ -1,7 +1,7 @@
 ---
 title: "State of the field: October 2026"
 url: https://beattheheat.asia/whats-new/2026-10/
-updated: 2026-11-16
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -43,7 +43,7 @@ The first Global Heat Forum met in Bangkok from 6 to 9 October 2026 and released
 - [Opportunity](#opportunity): Heat-safe work: solutions measured in studies, little funding traced.
 - [Open question](#question): How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?
 
-[Download the briefing (.md)](https://beattheheat.asia/whats-new/2026-10/briefing.md)
+[Download the briefing (.md)](https://beattheheat.asia/whats-new/2026-10/briefing.md)[Open in WhatsApp](https://wa.me/?text=*State%20of%20the%20field%3A%20October%202026*%0A_Support%20announced%20for%20the%20work%20between%20institutions%2C%20with%20amounts%20and%20delivery%20still%20to%20show_%0A%0ATwo%20philanthropic%20announcements%20this%20year%20name%20support%20for%20shared%20evidence%20and%20coordination%20across%20institutions%2C%20the%20roles%20our%20funding%20trace%20found%20thinnest.%20Both%20are%20announcements%3A%20neither%20amount%20was%20disclosed%2C%20and%20no%20payment%20has%20been%20verified.%0A%0A%E2%80%A2%20Support%20announced%20for%20the%20Southeast%20Asia%20Heat%20Health%20Hub's%20next%20stage%0A%E2%80%A2%20A%20February%20announcement%20for%20South%20Asia%2C%20first%20reviewed%20this%20month%0A%E2%80%A2%20The%20Global%20Heat%20Forum%2C%20and%20a%20city%20heat%20plan%20reported%20for%20Bangladesh%0A%E2%80%A2%20Open%20question%3A%20How%20do%20heat-health%20pilots%20in%20Southeast%20Asia%20keep%20their%20institutional%20footing%20once%20their%20first%20funding%20ends%3F%0A%0ARead%20it%20with%20its%20sources%3A%20https%3A%2F%2Fbeattheheat.asia%2Fwhats-new%2F2026-10%2F)
 
 ### Developments worth understanding [#](#developments)
 

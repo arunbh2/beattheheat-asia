@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-20
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 79 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 80 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,36 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-79 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+80 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### Signals opens with what moved, and both briefings can be followed without visiting
+
+Added 21 November 2026 · Tool improved 21 November 2026
+
+Why it matters our readingSignals now opens with the steps dated in the last 45 days and the dates coming up, so a phone reader reaches the first development within the first screen rather than after more than seven, and the page stays light as records grow. Signals, its scheduled dates and State of the field each have a feed or calendar, and every edition has three reading depths, a chat version and its own share image.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat action plans
+- Heat-safe work
+
+ReviewBuilt from the existing records only: no new claims or sources. Dates in What moved are when steps happened, never when they were added; a scheduled date is marked as not showing compliance. Published editions keep their text and ledger hashes..
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+Signals tracks heat plans and rules step by step; following their dates helps teams prepare.
+
+[See what moved](https://beattheheat.asia/signals/#moved)
+[Signals](https://beattheheat.asia/signals/)[State of the field](https://beattheheat.asia/whats-new/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Signals%20opens%20with%20what%20moved%2C%20and%20both%20briefings%20can%20be%20followed%20without%20visiting&ref=g-signals-sof-reach#way-share)
 
 Evidence added · Practical measures
 

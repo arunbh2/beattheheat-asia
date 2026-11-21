@@ -1,4 +1,6 @@
-/* Common Shade: the finder on /signals/. Every record is already on the page (built by tools/build-signals.js); this adds
+/* Common Shade: the finder on /signals/. The newest records are on the page (built by tools/build-signals.js) and the rest
+   load from cards.json the first time a reader filters, searches, opens a view, follows a link to an older record, prints,
+   downloads or asks for them all; /signals/all/ lists every record without a script. This adds
    search, filters and views kept in the URL (so a view survives refresh, sharing and Back/Forward), records saved in this
    browser only, a printable briefing and a plain-text download of what is shown. With no script the page reads in full. */
 (function () {
@@ -6,6 +8,7 @@
   var form = document.getElementById("sg-find"), list = document.getElementById("sg-list"), empty = document.getElementById("sg-empty");
   if (!form || !list || !window.URLSearchParams) return;
   var cards = [].slice.call(list.querySelectorAll(".sg-card")), status = form.querySelector(".sg-status");
+  var total = +list.getAttribute("data-total") || cards.length, moreUrl = list.getAttribute("data-more") || "", waiting = null, moreLink = document.getElementById("sg-morelink");
   var KEY = "cs-signals-saved", FIELDS = ["q", "place", "kind", "lever", "pop", "rung", "state", "recent", "due"];
   var today = new Date(), iso = function (d) { return d.toISOString().slice(0, 10); };
   var dayKey = function (s) { return String(s || "").padEnd(10, "-"); };
@@ -13,9 +16,32 @@
   var saved = function () { try { return JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { return []; } };
   var setSaved = function (a) { try { if (a.length) localStorage.setItem(KEY, JSON.stringify(a)); else localStorage.removeItem(KEY); return true; } catch (e) { return false; } };
   // search text: the title, who and where, summary and deliverables, read once from the card itself
-  cards.forEach(function (c) { c._text = [].map.call(c.querySelectorAll(".sg-h, .sg-who, .sg-sum, .sg-del__what"), function (el) { return el.textContent; }).join(" ").toLowerCase().replace(/\s+/g, " "); });
+  function prep(cs) { cs.forEach(function (c) { c._text = [].map.call(c.querySelectorAll(".sg-h, .sg-who, .sg-sum, .sg-del__what"), function (el) { return el.textContent; }).join(" ").toLowerCase().replace(/\s+/g, " "); var t = c.querySelector(".sg-tools"); if (t) t.hidden = false; }); }
+  prep(cards);
   form.hidden = false;
-  cards.forEach(function (c) { var t = c.querySelector(".sg-tools"); if (t) t.hidden = false; });
+  // the other records, fetched once; every caller waits for the same request
+  function loadAll(done) {
+    if (!moreUrl) { done(); return; }
+    if (waiting) { waiting.push(done); return; }
+    waiting = [done]; if (status) status.textContent = "Loading the other records…";
+    fetch(moreUrl).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+      var older = document.getElementById("sg-older"); if (older) older.parentNode.removeChild(older);   // its anchors move to the full cards
+      var have = {}; cards.forEach(function (c) { have[c.id] = 1; });
+      var box = document.createElement("div"); box.innerHTML = j.cards.filter(function (c) { return !have[c.id]; }).map(function (c) { return c.html; }).join("");
+      var added = [].slice.call(box.querySelectorAll(".sg-card")); added.forEach(function (c) { list.appendChild(c); });
+      prep(added); cards = cards.concat(added); moreUrl = ""; if (moreLink) moreLink.hidden = true;
+      var w = waiting; waiting = null; w.forEach(function (f) { f(); });
+    }).catch(function () {
+      var w = waiting; waiting = null; w.forEach(function (f) { f(); });   // filter what is here, then say what is missing
+      if (status) status.textContent += " The other records could not be loaded: check the connection and try again, or open every record on one page.";
+      if (moreLink) moreLink.hidden = false;
+    });
+  }
+  var olderList = document.getElementById("sg-older");
+  if (olderList) olderList.addEventListener("click", function (ev) { var a = ev.target.closest("a"); if (!a) return; ev.preventDefault();
+    var id = a.getAttribute("href").split("#")[1]; history.pushState(null, "", location.pathname + location.search + "#" + id); reveal(); });
+  if (moreLink) { var mb = document.createElement("button"); mb.type = "button"; mb.className = "sg-link"; mb.textContent = "Show all " + total + " records";
+    mb.addEventListener("click", function () { loadAll(function () { apply(read()); }); }); moreLink.appendChild(document.createTextNode(" or ")); moreLink.appendChild(mb); }
 
   function read() {
     var p = new URLSearchParams(location.search), s = { view: p.get("view") || "recent" };
@@ -69,11 +95,12 @@
     var active = FIELDS.filter(function (f) { return s[f]; }).length, more = FIELDS.filter(function (f) { return f !== "q" && s[f]; }).length;
     var nf = form.querySelector(".sg-nf"), det = form.querySelector(".sg-more-f");
     if (nf) nf.textContent = more ? "(" + more + " on)" : ""; if (det && more && !det.open) det.open = true;
-    status.textContent = shown.length + " of " + cards.length + " records shown" + (s.view !== "recent" ? ", " + form.querySelector('[data-view="' + s.view + '"]').textContent.toLowerCase() : "") + (active ? ", with " + active + " filter" + (active > 1 ? "s" : "") : "") + ".";
+    status.textContent = (moreUrl && !needsAll(s) ? "The " + shown.length + " newest of " + total + " records shown" : shown.length + " of " + total + " records shown") + (s.view !== "recent" ? ", " + form.querySelector('[data-view="' + s.view + '"]').textContent.toLowerCase() : "") + (active ? ", with " + active + " filter" + (active > 1 ? "s" : "") : "") + ".";
     cards.forEach(function (c) { var b = c.querySelector(".sg-save"); if (b) { var on = sv.indexOf(c.id) > -1; b.setAttribute("aria-pressed", String(on)); b.textContent = on ? "Saved" : "Save"; } });
     return shown;
   }
-  function go(push, view) { var s = fromForm(view); write(s, push); toForm(s); apply(s); }
+  var needsAll = function (s) { return s.view !== "recent" || FIELDS.some(function (f) { return s[f]; }); };
+  function go(push, view) { var s = fromForm(view); write(s, push); toForm(s); if (needsAll(s)) loadAll(function () { apply(s); }); else apply(s); }
   var t;
   form.addEventListener("input", function (ev) { clearTimeout(t); t = setTimeout(function () { go(false); }, ev.target.type === "search" ? 200 : 0); });
   form.addEventListener("change", function () { go(false); });
@@ -84,12 +111,12 @@
     var act = a.getAttribute("data-act");
     if (act === "reset") { form.reset(); go(true, "recent"); }
     if (act === "share") copy(location.href, a);
-    if (act === "print") briefing();
-    if (act === "download") download();
+    if (act === "print") loadAll(function () { apply(read()); briefing(); });
+    if (act === "download") loadAll(function () { apply(read()); download(); });
     if (act === "clear-saved") { setSaved([]); apply(read()); status.textContent = "Saved records forgotten in this browser."; }
   });
   empty.addEventListener("click", function (ev) { if (ev.target.closest("[data-act=reset]")) { form.reset(); go(true, "recent"); } });
-  window.addEventListener("popstate", function () { var s = read(); toForm(s); apply(s); });
+  window.addEventListener("popstate", function () { var s = read(); toForm(s); if (needsAll(s)) loadAll(function () { apply(s); }); else apply(s); });
   list.addEventListener("click", function (ev) {
     var b = ev.target.closest(".sg-save"), c = ev.target.closest(".sg-copy");
     if (b) { var id = b.getAttribute("data-save"), a = saved(), i = a.indexOf(id); if (i > -1) a.splice(i, 1); else a.push(id);
@@ -129,15 +156,18 @@
     setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
     status.textContent = "Downloaded " + visible().length + " records as text.";
   }
-  var start = read(); toForm(start); apply(start);
+  var start = read(); toForm(start); if (needsAll(start)) loadAll(function () { apply(start); }); else apply(start);
   // a link to a record or milestone opens its record, even if filters would hide it
   function reveal() {
     var id = decodeURIComponent(location.hash.slice(1)); if (!id) return;
-    var el = document.getElementById(id); if (!el) return;
+    var el = document.getElementById(id);
+    if (!el || (moreUrl && el.closest("#sg-older"))) { if (moreUrl) loadAll(function () { apply(read()); var t = document.getElementById(id); if (t && !t.closest("#sg-older")) reveal(); }); return; }
     var card = el.closest(".sg-card"); if (card && card.hidden) { form.reset(); go(false, "recent"); }
     var det = el.closest("details"); if (det) det.open = true;
     if (el !== card) { var r = card && card.querySelector(".sg-rec"); if (r) r.open = true; }
     el.scrollIntoView();
+    // cards above render lazily (content-visibility) and can change height: settle on the target once they have
+    setTimeout(function () { el.scrollIntoView(); }, 350);
   }
   window.addEventListener("hashchange", reveal); reveal();
 })();

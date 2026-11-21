@@ -51,6 +51,8 @@ if (cmd === "new") {
   const bad = M.validate(e); if (bad.length) die("Not published:\n" + bad.map(b => "  - " + b).join("\n"));
   save(path.join(M.DIR, id + ".json"), e); fs.unlinkSync(f);
   const L = led(); L[id] = [{ date, revisions: 0, hash: M.hash(e) }]; saveLed(L);
+  // the share image for the edition (tools/sof-card.js); the page falls back to the site's default image without it
+  try { require("child_process").execFileSync("node", [path.join(__dirname, "sof-card.js"), id], { stdio: "inherit" }); } catch (err) { console.log(`note: no share image yet; run node tools/sof-card.js ${id}`); }
   console.log(`published ${id} (${date}). Rebuild (node tools/build-static.js), run node tools/check-sof.js, and open a pull request: merging is the sign-off`);
 } else if (cmd === "seal") {
   const f = path.join(M.DIR, id + ".json"); if (!fs.existsSync(f)) die(`no published edition ${id}`);

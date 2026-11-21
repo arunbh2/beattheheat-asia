@@ -78,4 +78,22 @@ function llms(SITE) {
   if (!last) return `## ${TITLE}\n\n${LEDE}\n\nNo edition has been published yet.`;
   return `## ${TITLE}\n\n${LEDE}\n\n${ROLE} ${DISTINCT.map(([u, t, d]) => `${t} (${SITE}${u}) ${d}.`).join(" ")}\n\nEditions: ${P.map(e => `${M.label(e)} (${SITE}${M.url(e)}, published ${M.date(e.published)}${M.revised(e) ? `, revised ${M.date(M.revised(e))}` : ""})`).join("; ")}.\n\nThe latest published edition follows.\n\n${md(last, SITE).replace(/^# /m, "### ").replace(/^## /gm, "#### ").replace(/^### (?!State)/gm, "##### ")}`;
 }
-module.exports = { TITLE, LEDE, DISTINCT, ROLE, METHOD, SECTIONS, TYPE, H, OPP, OPP2, QF, ROLEW, srcNo, srcLine, dates, summaryText, md, llms };
+
+// reading depths: word counts from the edition itself, at about 200 words a minute
+const W = x => String(x || "").split(/\s+/).filter(Boolean).length;
+function depths(e) {
+  const brief = W(e.argument.claim) + W(e.argument.rests_on) + (e.developments || []).reduce((a, d) => a + W(d.h) + W(d.gist), 0) + (e.opportunity ? W(e.opportunity.h) : 0) + (e.question ? W(e.question.q) : 0);
+  const core = brief + W(e.opening) + (e.developments || []).reduce((a, d) => a + W(d.reading) + W(d.why_here), 0)
+    + (e.opportunity ? W(e.opportunity.gist) + W(e.opportunity.problem) + W(e.opportunity.mechanism) + W(e.opportunity.dependency) + W(e.opportunity.next_check) : 0)
+    + (e.question ? QF.reduce((a, [k]) => a + W(e.question[k]), 0) : 0) + (e.watch || []).reduce((a, w) => a + W(w.what) + W(w.evidence), 0) + (e.audiences || []).reduce((a, x) => a + W(x.q), 0);
+  const all = W(md(e, ""));
+  const t = n => { const m = Math.round(n / 200); return n < 150 ? "under a minute" : m <= 1 ? "about a minute" : `about ${m} minutes`; };
+  return [["argument", `${t(brief)}: the argument and In brief`], ["developments", `${t(core)}: with the developments, the opportunity and the question`], ["sources", `${t(all)}: with every claim's evidence, limits and sources`]];
+}
+// the version for a chat: WhatsApp reads *bold* and _italic_
+function chatText(e, SITE) {
+  return [`*${TITLE}: ${M.label(e)}*`, `_${e.argument.headline}_`, "", e.argument.claim, "", ...(e.developments || []).map(d => `• ${d.h}`), ...(e.question ? [`• Open question: ${e.question.q}`] : []), "", `Read it with its sources: ${abs(SITE, M.url(e))}`].join("\n");
+}
+const NEXT = n => `Next edition planned for ${M.date(n.month)}, covering ${M.range(n.period)}. It appears only once reviewed and published.`;
+const FOLLOW = "Follow without an account";
+module.exports = { depths, chatText, NEXT, FOLLOW,  TITLE, LEDE, DISTINCT, ROLE, METHOD, SECTIONS, TYPE, H, OPP, OPP2, QF, ROLEW, srcNo, srcLine, dates, summaryText, md, llms };

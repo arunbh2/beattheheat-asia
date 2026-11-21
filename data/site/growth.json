@@ -692,6 +692,16 @@
       "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
     },
     {
+      "id": "g-signals-sof-reach", "kind": "tool", "root": "practical", "added": "2026-11-21", "pr": null,
+      "title": "Signals opens with what moved, and both briefings can be followed without visiting",
+      "why": "Signals now opens with the steps dated in the last 45 days and the dates coming up, so a phone reader reaches the first development within the first screen rather than after more than seven, and the page stays light as records grow. Signals, its scheduled dates and State of the field each have a feed or calendar, and every edition has three reading depths, a chat version and its own share image.",
+      "places": ["region"], "people": ["workers"], "topics": ["hap", "heatrules"],
+      "event": { "what": "Tool improved", "date": "2026-11-21" },
+      "review": "Built from the existing records only: no new claims or sources. Dates in What moved are when steps happened, never when they were added; a scheduled date is marked as not showing compliance. Published editions keep their text and ledger hashes.",
+      "pages": [["/signals/", "Signals"], ["/whats-new/", "State of the field"]], "action": ["See what moved", "/signals/#moved"],
+      "links": [{ "to": "lever:hap", "why": "Signals tracks heat plans and rules step by step; following their dates helps teams prepare.", "basis": "record" }]
+    },
+    {
       "id": "g-agri-heat-strain", "kind": "evidence", "root": "practical", "added": "2026-11-20", "pr": null,
       "title": "Heat strain measured in Asian field work, beside the cotton page",
       "why": "No study has measured heat strain among cotton workers in Asia, so the cotton page now sets out what researchers found in neighbouring work: rice and sugarcane fields, farming villages and salt pans in India, Thailand, Viet Nam, Malaysia and Sri Lanka. It keeps strain, symptoms, kidneys, output and the gaps in the research apart, and names what a cotton study could measure.",

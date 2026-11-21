@@ -3460,6 +3460,12 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .sof-said:empty { display: none; }
 .sof-toc { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); align-items: baseline; margin: 0 0 var(--s-6); padding: var(--s-3) 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: var(--fs-14); line-height: 1.4; }
 .sof-toc a { display: inline-block; padding: 4px 0; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+/* reading depths and what comes next (tools/build-sof.js) */
+.sof-depth { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); align-items: baseline; margin: var(--s-4) 0 var(--s-4); font-size: var(--fs-14); line-height: 1.4; }
+.sof-depth a { display: inline-block; padding: 4px 0; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.sof-next { margin: 0 0 var(--s-5); padding: var(--s-3) var(--s-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--sand-50); font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.sof-follow { display: flex; flex-wrap: wrap; gap: 4px var(--s-4); align-items: baseline; margin-top: var(--s-2); }
+.sof-follow a { color: var(--ink); font-weight: 600; text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .sof-s { margin: 0 0 var(--s-6); scroll-margin-top: 96px; }
 .sof-sh { display: flex; align-items: baseline; gap: var(--s-2); margin: 0 0 var(--s-4); padding-top: var(--s-4); border-top: 1px solid var(--line-strong); font-family: var(--font-body); font-size: var(--fs-22); font-weight: 700; line-height: 1.15; text-transform: none; }
 .sof-anchor { position: relative; color: var(--grey-500) !important; font-size: var(--fs-16); text-decoration: none; }
@@ -4273,6 +4279,26 @@ button { -webkit-user-select: none; user-select: none; }
 .sg-small { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); max-width: 72ch; }
 .sg-small a, .sg-glance a, .sg-method a { color: var(--ink); font-weight: 600; text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .sg-glance { padding: clamp(28px, 5vw, 48px) 0; border-block: 1px solid var(--line); }
+/* What moved: the first thing on Signals (tools/build-signals.js, tools/signals-feeds.js) */
+.sg-moved { padding: clamp(20px, 4vw, 36px) 0 clamp(16px, 3vw, 28px); }
+.sg-moved a { color: var(--ink); font-weight: 600; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.sg-h3 { font-size: var(--fs-18); font-weight: 700; line-height: 1.15; margin: 20px 0 8px; }
+.sg-mv { list-style: none; margin: 12px 0 0; padding: 0; border-top: 1px solid var(--line); max-width: 860px; }
+.sg-mv li { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); column-gap: 14px; row-gap: 2px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: var(--fs-16); line-height: 1.4; }
+.sg-mv time { grid-row: span 3; font-size: var(--fs-14); color: var(--grey-700); font-variant-numeric: tabular-nums; }
+.sg-mv__what { font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--break); }
+.sg-mv--ahead .sg-mv__what { color: var(--grey-700); }
+.sg-mv__in { font-size: var(--fs-14); color: var(--grey-700); }
+.sg-follow { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; margin: 18px 0 0; font-size: var(--fs-14); }
+.sg-follow .sg-lab { width: 100%; margin: 0; }
+.sg-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.sg-jump a { display: inline-block; padding: 6px 12px; border: 1px solid var(--line-strong); border-radius: 999px; font-size: var(--fs-14); text-decoration: none; }
+.sg-morelink { margin: 16px 0 0; font-size: var(--fs-16); }
+.sg-older { margin-top: 16px; }
+.sg-older ol { margin: 6px 0 0; padding-left: 20px; }
+.sg-older li { margin-bottom: 8px; line-height: 1.4; }
+.sg-older a { color: var(--ink); font-weight: 600; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+@media (max-width: 560px) { .sg-mv li { grid-template-columns: 1fr; } .sg-mv time { grid-row: auto; } }
 .sg-h2 { font-family: var(--font-body); font-weight: 700; text-transform: none; line-height: 1.15; font-size: var(--fs-22); margin: 8px 0 12px; }
 .sg-h3 { font-size: var(--fs-18); margin: 28px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line-strong); }
 .sg-denom { max-width: 72ch; line-height: 1.55; margin: 0 0 14px; }

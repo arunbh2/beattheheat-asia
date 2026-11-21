@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Common Shade//Signals//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Common Shade: Signals, scheduled dates
+X-WR-CALDESC:Dates that commitments tracked on Common Shade's Signals are
+  scheduled to reach\, and the next El Niño bulletin. A date reached is 
+ not evidence of implementation.
+BEGIN:VEVENT
+UID:sig-singapore-mandatory-heat-measures-2026--d-rule--m-effective@beatt
+ heheat.asia
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Takes effect: Mandatory heat stress measures for outdoor work\, i
+ ncluding drinking water
+DESCRIPTION:Singapore makes heat stress measures mandatory for outdoor wo
+ rk from 1 December 2026. The measures become mandatory\; this date alone
+  does not show compliance. Record: https://beattheheat.asia/signals/#sig
+ -singapore-mandatory-heat-measures-2026--d-rule--m-effective
+URL:https://beattheheat.asia/signals/#sig-singapore-mandatory-heat-measur
+ es-2026--d-rule--m-effective
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:enso-next-2026-12-10@beattheheat.asia
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Next scheduled bulletin: NOAA Climate Prediction Center\, ENSO Di
+ agnostic Discussion
+DESCRIPTION:The El Niño watch on Signals is reviewed against each new bu
+ lletin. https://beattheheat.asia/signals/#el-nino-watch
+URL:https://beattheheat.asia/signals/#el-nino-watch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
