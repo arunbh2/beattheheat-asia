@@ -411,22 +411,22 @@ Commitment Something an institution has promised or started; it climbs the ladde
 
 Records tracked here for each place, in alphabetical order, and when the weekly search of public feeds last looked for new developments. A low number describes the records kept here, not what a place is doing.
 
-- [2 Bangladesh](https://beattheheat.asia/signals/?place=bangladesh)Weekly search not yet run
-- [1 Cambodia](https://beattheheat.asia/signals/?place=cambodia)Weekly search not yet run
-- [5 India](https://beattheheat.asia/signals/?place=india)Weekly search not yet run
-- [1 Indonesia](https://beattheheat.asia/signals/?place=indonesia)Weekly search not yet run
-- [0 Lao PDR](https://beattheheat.asia/signals/?place=lao)Weekly search not yet run
-- [0 Malaysia](https://beattheheat.asia/signals/?place=malaysia)Weekly search not yet run
-- [0 Myanmar](https://beattheheat.asia/signals/?place=myanmar)Weekly search not yet run
-- [0 Nepal](https://beattheheat.asia/signals/?place=nepal)Weekly search not yet run
-- [0 Pakistan](https://beattheheat.asia/signals/?place=pakistan)Weekly search not yet run
-- [1 Philippines](https://beattheheat.asia/signals/?place=philippines)Weekly search not yet run
-- [2 Singapore](https://beattheheat.asia/signals/?place=singapore)Weekly search not yet run
-- [0 Sri Lanka](https://beattheheat.asia/signals/?place=sri-lanka)Weekly search not yet run
-- [3 Thailand](https://beattheheat.asia/signals/?place=thailand)Weekly search not yet run
-- [0 Viet Nam](https://beattheheat.asia/signals/?place=viet-nam)Weekly search not yet run
+- [2 Bangladesh](https://beattheheat.asia/signals/?place=bangladesh)Searched 21 November 2026
+- [1 Cambodia](https://beattheheat.asia/signals/?place=cambodia)Searched 21 November 2026
+- [5 India](https://beattheheat.asia/signals/?place=india)Searched 21 November 2026
+- [1 Indonesia](https://beattheheat.asia/signals/?place=indonesia)Searched 21 November 2026
+- [0 Lao PDR](https://beattheheat.asia/signals/?place=lao)Searched 21 November 2026
+- [0 Malaysia](https://beattheheat.asia/signals/?place=malaysia)Searched 21 November 2026
+- [0 Myanmar](https://beattheheat.asia/signals/?place=myanmar)Searched 21 November 2026
+- [0 Nepal](https://beattheheat.asia/signals/?place=nepal)Searched 21 November 2026
+- [0 Pakistan](https://beattheheat.asia/signals/?place=pakistan)Searched 21 November 2026
+- [1 Philippines](https://beattheheat.asia/signals/?place=philippines)Searched 21 November 2026
+- [2 Singapore](https://beattheheat.asia/signals/?place=singapore)Searched 21 November 2026
+- [0 Sri Lanka](https://beattheheat.asia/signals/?place=sri-lanka)Searched 21 November 2026
+- [3 Thailand](https://beattheheat.asia/signals/?place=thailand)Searched 21 November 2026
+- [0 Viet Nam](https://beattheheat.asia/signals/?place=viet-nam)Searched 21 November 2026
 
-- [20 Region-wide](https://beattheheat.asia/signals/?place=region)Weekly search not yet run
+- [20 Region-wide](https://beattheheat.asia/signals/?place=region)Searched 21 November 2026
 
 Questions to bring to a commitmentAn announcement is a start, not protection. These questions help read one; the record shows only what its evidence shows.
 
