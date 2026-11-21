@@ -5,6 +5,11 @@ file per run here: `<YYYY-MM-DD>.json`. Each file lists leads from free public f
 WHO) that mention heat and a place Signals covers, and are not already tracked or proposed. It also records which places
 were searched and when, so the coverage grid on /signals/ can say "searched, nothing tracked yet" with a date.
 
+ReliefWeb is read through its free API (`api.reliefweb.int/v2/reports`), because its site turns away automated reads
+of the RSS feed from GitHub. The API needs an app name that ReliefWeb has approved, kept as the repository secret
+`RELIEFWEB_APPNAME`; until it is set, each run lists ReliefWeb as "waiting for an approved app name" and reads the
+other feeds as usual. The name is never written into these files.
+
 Leads are not evidence and are never published from here.
 
 - Review each lead in the weekly pull request: set `decision` to `propose` or `skip`.

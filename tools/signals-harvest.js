@@ -7,16 +7,19 @@
 // set by the evidence, never by the feed. The file also records which places were searched and when, so the Signals
 // coverage grid can say "searched, nothing tracked yet" with a date.
 //   node tools/signals-harvest.js [--days 8]
-// Runs on GitHub (.github/workflows/signals-weekly.yml), where the feeds can be reached. No keys, no cost.
-// Sources (each read only by this job, never from a reader's browser): ReliefWeb (heat wave search), PreventionWeb
-// news, UN News (climate change, and Asia Pacific), WHO news. A feed that does not answer is noted and the run carries on.
+// Runs on GitHub (.github/workflows/signals-weekly.yml), where the feeds can be reached. No paid keys, no cost.
+// Sources (each read only by this job, never from a reader's browser): ReliefWeb (its free API, reports on heat),
+// PreventionWeb news, UN News (climate change, and Asia Pacific), WHO news. A feed that does not answer is noted and
+// the run carries on. ReliefWeb's API needs an app name it has approved, given to the job as the RELIEFWEB_APPNAME
+// secret; without it ReliefWeb is skipped with "waiting for an approved app name". The name is never written to a file.
 "use strict";
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, ".."), OUT = path.join(ROOT, "data", "signals-candidates");
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > -1 ? process.argv[i + 1] : d; };
 const DAYS = Math.min(60, Math.max(1, +arg("--days", 8) || 8));
 const FEEDS = [
-  ["ReliefWeb: heat wave", "https://reliefweb.int/updates/rss.xml?search=heat%20wave"],
+  // ReliefWeb's site blocks automated reads of its RSS from GitHub (HTTP 406); its API is the route it offers instead
+  ["ReliefWeb: reports on heat (API)", "https://api.reliefweb.int/v2/reports", "reliefweb-api"],
   ["PreventionWeb: news", "https://www.preventionweb.net/rss.xml"],
   ["UN News: climate change", "https://news.un.org/feed/subscribe/en/news/topic/climate-change/feed/rss.xml"],
   ["UN News: Asia Pacific", "https://news.un.org/feed/subscribe/en/news/region/asia-pacific/feed/rss.xml"],
@@ -52,6 +55,33 @@ async function get(url) {
   return { ok: false, why: "no answer after three tries" };
 }
 
+// ReliefWeb API: reports created since the date that mention heat, newest first, as feed-shaped items
+const RW_QUERY = '"heat wave" OR heatwave OR "heat waves" OR heatwaves OR "extreme heat" OR "heat stress" OR heatstroke OR "heat stroke" OR "heat action plan"';
+async function reliefweb(url, since) {
+  const app = String(process.env.RELIEFWEB_APPNAME || "").trim();
+  if (!app) return { ok: false, why: "waiting for an approved app name (RELIEFWEB_APPNAME secret not set)" };
+  const body = { query: { value: RW_QUERY, fields: ["title", "body"] }, filter: { field: "date.created", value: { from: `${since}T00:00:00+00:00` } },
+    fields: { include: ["title", "url_alias", "date.created", "body", "country.name", "source.name"] }, sort: ["date.created:desc"], limit: 200 };
+  for (let i = 0; i < 3; i++) {
+    try { const r = await fetch(`${url}?appname=${encodeURIComponent(app)}`, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json", "User-Agent": UA["User-Agent"] }, body: JSON.stringify(body), signal: AbortSignal.timeout(30000) });
+      if (r.ok) { const j = await r.json();
+        return { ok: true, items: (j.data || []).map(d => { const f = d.fields || {};
+          return { title: clean(f.title), link: f.url_alias || (d.id ? `https://reliefweb.int/node/${d.id}` : ""), date: iso(f.date && f.date.created),
+            text: `${clean(f.title)}. ${(f.country || []).map(c => c.name).join(", ")}. ${clean(f.body).slice(0, 1500)}` }; }) }; }
+      if (r.status === 403 || r.status === 401) return { ok: false, why: `HTTP ${r.status}: the app name may not be approved yet` };
+      if (![429, 502, 503, 504].includes(r.status)) return { ok: false, why: `HTTP ${r.status}` }; } catch (e) { if (i === 2) return { ok: false, why: e.name === "TimeoutError" ? "timed out" : e.message }; }
+    await new Promise(r => setTimeout(r, 4000 * (i + 1)));
+  }
+  return { ok: false, why: "no answer after three tries" };
+}
+// RSS or Atom: items as { title, link, date, text }
+async function rss(url) {
+  const r = await get(url); if (!r.ok) return r;
+  return { ok: true, items: (r.text.match(/<item[\s>][\s\S]*?<\/item>|<entry[\s>][\s\S]*?<\/entry>/gi) || []).map(it => { const title = tag(it, "title");
+    return { title, link: linkOf(it), date: iso(tag(it, "pubDate") || tag(it, "published") || tag(it, "updated") || tag(it, "dc:date")),
+      text: `${title}. ${tag(it, "description") || tag(it, "summary") || tag(it, "content")}` }; }) };
+}
+
 async function main() {
   const today = new Date().toISOString().slice(0, 10), since = new Date(Date.now() - DAYS * 864e5).toISOString().slice(0, 10);
   const S = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "signals.json"), "utf8"));
@@ -59,14 +89,12 @@ async function main() {
   fs.mkdirSync(OUT, { recursive: true });
   const proposed = new Set(fs.readdirSync(OUT).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).flatMap(f => JSON.parse(fs.readFileSync(path.join(OUT, f), "utf8")).candidates.map(c => normUrl(c.url))));
   const feeds = [], seen = new Set(), candidates = [];
-  for (const [name, url] of FEEDS) {
-    const r = await get(url);
+  for (const [name, url, kind] of FEEDS) {
+    const r = kind === "reliefweb-api" ? await reliefweb(url, since) : await rss(url);
     if (!r.ok) { feeds.push({ name, url, status: r.why, items: 0 }); continue; }
-    const items = r.text.match(/<item[\s>][\s\S]*?<\/item>|<entry[\s>][\s\S]*?<\/entry>/gi) || [];
     let kept = 0;
-    for (const it of items) {
-      const title = tag(it, "title"), link = linkOf(it), date = iso(tag(it, "pubDate") || tag(it, "published") || tag(it, "updated") || tag(it, "dc:date"));
-      const text = `${title}. ${tag(it, "description") || tag(it, "summary") || tag(it, "content")}`, u = normUrl(link);
+    for (const { title, link, date, text } of r.items) {
+      const u = normUrl(link);
       if (!link || !u || seen.has(u) || (date && date < since) || !HEAT.test(text)) continue;
       const places = Object.entries(PLACES).filter(([, names]) => names.some(n => new RegExp(`\\b${n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(text))).map(([k]) => k);
       if (!places.length) continue;
@@ -76,7 +104,7 @@ async function main() {
       candidates.push({ title, url: link, feed: name, published: date || "not stated in the feed", places, kind_hint: (KIND.find(([, rx]) => rx.test(text)) || ["unclear"])[0],
         heat_terms: [...new Set((text.match(new RegExp(HEAT.source, "gi")) || []).map(t => t.toLowerCase()))], summary: text.slice(title.length + 2, title.length + 2 + 320), decision: "pending" });
     }
-    feeds.push({ name, url, status: "OK", items: items.length, kept });
+    feeds.push({ name, url, status: "OK", items: r.items.length, kept });
   }
   candidates.sort((a, b) => String(b.published).localeCompare(String(a.published)));
   const file = path.join(OUT, `${today}.json`);
