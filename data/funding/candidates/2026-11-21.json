@@ -1,0 +1,333 @@
+{
+ "about": "Candidates from the weekly funding and careers harvest (tools/funding-harvest.js). Not published and not evidence. For each: open the link, find the primary page (an aggregator is discovery only), and set decision to 'propose' (stage its facts for the source check), or 'reject' with a reason in 'note'. 'relevance' is a hint from words in the feed. 'status_changes' lists published records whose status the dates now change, for review.",
+ "run": {
+  "date": "2026-11-21",
+  "since": "2026-09-22",
+  "days": 60
+ },
+ "summary": {
+  "added": 8,
+  "changed": 0,
+  "expired": 0,
+  "review_due": 5,
+  "rejected": 312,
+  "rejected_detail": {
+   "off_topic": 185,
+   "old": 127,
+   "known": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "wb-procurement",
+   "name": "World Bank procurement notices (public API)",
+   "status": "OK",
+   "items": 211,
+   "kept": 3
+  },
+  {
+   "id": "eu-ft-calls",
+   "name": "EU Funding and Tenders portal search (public SEDIA key)",
+   "status": "OK",
+   "items": 62,
+   "kept": 0
+  },
+  {
+   "id": "reliefweb-jobs",
+   "name": "ReliefWeb jobs (API; needs the approved app name in RELIEFWEB_APPNAME)",
+   "status": "waiting for an approved app name (RELIEFWEB_APPNAME secret not set)",
+   "items": 0
+  },
+  {
+   "id": "ilo-jobs-rss",
+   "name": "ILO jobs (career site RSS)",
+   "status": "OK",
+   "items": 10,
+   "kept": 0
+  },
+  {
+   "id": "unicef-jobs-rss",
+   "name": "UNICEF jobs (RSS)",
+   "status": "OK",
+   "items": 0,
+   "kept": 0
+  },
+  {
+   "id": "nus-jobs-rss",
+   "name": "National University of Singapore jobs (career site RSS, 'heat')",
+   "status": "OK",
+   "items": 11,
+   "kept": 5
+  },
+  {
+   "id": "ilo-jobs-heat-rss",
+   "name": "ILO jobs (career site RSS, 'heat')",
+   "status": "OK",
+   "items": 1,
+   "kept": 0
+  },
+  {
+   "id": "who-jobs-rss",
+   "name": "WHO vacancies (RSS)",
+   "status": "OK",
+   "items": 0,
+   "kept": 0
+  },
+  {
+   "id": "undp-jobs-rss",
+   "name": "UNDP jobs (RSS)",
+   "status": "OK",
+   "items": 0,
+   "kept": 0
+  },
+  {
+   "id": "uncareers-rss",
+   "name": "UN Careers (RSS)",
+   "status": "OK",
+   "items": 0,
+   "kept": 0
+  },
+  {
+   "id": "devnetjobs-rss",
+   "name": "DevNetJobs India (RSS, discovery only)",
+   "status": "OK",
+   "items": 0,
+   "kept": 0
+  },
+  {
+   "id": "untalent-rss",
+   "name": "UN Talent (aggregator RSS, discovery only)",
+   "status": "HTTP 403",
+   "items": 0
+  },
+  {
+   "id": "unjobs-unep-rss",
+   "name": "UNjobs, UNEP vacancies (aggregator RSS, discovery only)",
+   "status": "HTTP 403",
+   "items": 0
+  },
+  {
+   "id": "iisd-jobs-rss",
+   "name": "IISD community job board (aggregator RSS, discovery only)",
+   "status": "OK",
+   "items": 25,
+   "kept": 0
+  }
+ ],
+ "status_changes": [
+  {
+   "id": "opp-iki-medium-2026",
+   "title": "IKI Medium Grants 2026",
+   "verification": "conflicting",
+   "why": "The IKI page lists Medium Grants 2026 as closed; secondary listings gave a deadline of 12 January 2027. The official page is followed here."
+  },
+  {
+   "id": "opp-apn-2026",
+   "title": "APN calls for proposals 2026: CRRP and CAPaBLE",
+   "verification": "unconfirmed",
+   "why": "Some key facts were not found on the official page."
+  },
+  {
+   "id": "opp-he-envhlth-02-2027",
+   "title": "Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)",
+   "verification": "conflicting",
+   "why": "Published deadlines for this topic differ between sources (17 February 2027 and 13 April 2027); check the Funding and Tenders portal."
+  },
+  {
+   "id": "opp-ctcn-ap-2026",
+   "title": "CTCN and Adaptation Fund: Climate Adaptation Innovation in Asia Pacific",
+   "verification": "unconfirmed",
+   "why": "Some key facts were not found on the official page."
+  },
+  {
+   "id": "opp-cool-bth-eoi",
+   "title": "Beat the Heat in Cities: expression of interest for countries and cities",
+   "verification": "unconfirmed",
+   "why": "Some key facts were not found on the official page."
+  }
+ ],
+ "candidates": [
+  {
+   "feed": "procurement",
+   "source": "wb-procurement",
+   "discovery_only": false,
+   "title": "Environmental Junior Specialist 2: Indonesia: National Urban Flood Resilience Project (NUFReP)",
+   "org": "Ministry of National Development Planning / National Development Planning Agency",
+   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482535",
+   "published": "2026-11-19",
+   "deadline_text": "2026-12-04T00:00:00Z",
+   "location": "Indonesia",
+   "relevance": {
+    "strength": "adjacent",
+    "terms": [
+     "nature-based solutions"
+    ],
+    "asia": true
+   },
+   "summary": "Environmental Junior Specialist 2. Request for Expression of Interest. Individual Consultant Selection. Indonesia: National Urban Flood Resilience Project (NUFReP). Indonesia. PENGUMUMAN Undangan untuk Memasukkan Pernyataan Berminat (Request for Expressions of Interest) INDIVIDUAL CONSULTANT Republi",
+   "extra": {
+    "notice_type": "Request for Expression of Interest",
+    "method": "Individual Consultant Selection",
+    "project": "P173671"
+   },
+   "decision": "pending"
+  },
+  {
+   "feed": "procurement",
+   "source": "wb-procurement",
+   "discovery_only": false,
+   "title": "Procurement of Audio-Visual Equipment and VR Headsets for Landslide and Early Warning Field Awareness of National Building Research Organization: Climate Resilience Multi-Phase Programmatic Approach",
+   "org": "World Bank-financed project",
+   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477673",
+   "published": "2026-10-28",
+   "deadline_text": "2026-10-28T00:00:00Z",
+   "location": "Sri Lanka",
+   "relevance": {
+    "strength": "adjacent",
+    "terms": [
+     "early warning"
+    ],
+    "asia": true
+   },
+   "summary": "Procurement of Audio-Visual Equipment and VR Headsets for Landslide and Early Warning Field Awareness of National Building Research Organization. Contract Award. Request for Quotations. Climate Resilience Multi-Phase Programmatic Approach. Sri Lanka. Contract Award Project: P160005-Climate Resilienc",
+   "extra": {
+    "notice_type": "Contract Award",
+    "method": "Request for Quotations",
+    "project": "P160005"
+   },
+   "decision": "pending"
+  },
+  {
+   "feed": "procurement",
+   "source": "wb-procurement",
+   "discovery_only": false,
+   "title": "Vertical Extension of DMCO’S two storied building at Lalbagh up to 2nd & 3rd floor and Establishment/Construction of (i) a Biological Lab, (ii) Insectarium (iii) Training Lab (iv) Conference Room (v) Server Room & (vi) Power Generator & Passenger Lift: Urban Health, Nutrition and Population Project",
+   "org": "Local Government Division",
+   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477499",
+   "published": "2026-10-27",
+   "deadline_text": "2026-10-27T00:00:00Z",
+   "location": "Bangladesh",
+   "relevance": {
+    "strength": "adjacent",
+    "terms": [
+     "public health",
+     "early warning"
+    ],
+    "asia": true
+   },
+   "summary": "Vertical Extension of DMCO’S two storied building at Lalbagh up to 2nd & 3rd floor and Establishment/Construction of (i) a Biological Lab, (ii) Insectarium (iii) Training Lab (iv) Conference Room (v) Server Room & (vi) Power Generator & Passenger Lift. Invitation for Bids. Request for Bids. Urban He",
+   "extra": {
+    "notice_type": "Invitation for Bids",
+    "method": "Request for Bids",
+    "project": "P171144"
+   },
+   "decision": "pending"
+  },
+  {
+   "feed": "careers",
+   "source": "nus-jobs-rss",
+   "discovery_only": false,
+   "title": "Postdoctoral Fellow in Urban and Regional Climate Modeling (ARTS & SOC SC, Kent Ridge Campus, SG)",
+   "org": "",
+   "url": "https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-11-12",
+   "deadline_text": "not stated in the feed",
+   "location": "not stated",
+   "relevance": {
+    "strength": "direct",
+    "terms": [
+     "heat-health"
+    ],
+    "asia": false
+   },
+   "summary": "Postdoctoral Fellow in Urban and Regional Climate Modeling (ARTS & SOC SC, Kent Ridge Campus, SG). Job Description Climate change, from local to regional to global scale, coupled with rapid urban development, is reshaping interactions between climatic processes, cities, and people. This position see",
+   "extra": {},
+   "decision": "pending"
+  },
+  {
+   "feed": "careers",
+   "source": "nus-jobs-rss",
+   "discovery_only": false,
+   "title": "Programme Manager, Heat Resilience & Performance Centre (2-year contract) (YONG LOO LIN SCH OF MEDICINE, Kent Ridge Campus, SG)",
+   "org": "",
+   "url": "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29-Kent/58818644/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-11-08",
+   "deadline_text": "not stated in the feed",
+   "location": "not stated",
+   "relevance": {
+    "strength": "direct",
+    "terms": [
+     "heat resilience"
+    ],
+    "asia": false
+   },
+   "summary": "Programme Manager, Heat Resilience & Performance Centre (2-year contract) (YONG LOO LIN SCH OF MEDICINE, Kent Ridge Campus, SG). Job Description The Programme Manager is responsible for overseeing and managing the Centre’s research and innovation programmes, ensuring delivery and success. As a recog",
+   "extra": {},
+   "decision": "pending"
+  },
+  {
+   "feed": "careers",
+   "source": "nus-jobs-rss",
+   "discovery_only": false,
+   "title": "Assistant Professor (YONG LOO LIN SCH OF MEDICINE, NUS, SG)",
+   "org": "",
+   "url": "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-10-28",
+   "deadline_text": "not stated in the feed",
+   "location": "not stated",
+   "relevance": {
+    "strength": "direct",
+    "terms": [
+     "heat resilience"
+    ],
+    "asia": true
+   },
+   "summary": "Assistant Professor (YONG LOO LIN SCH OF MEDICINE, NUS, SG). Assistant Professor at the Yong Loo Lin School of Medicine, National University of Singapore The Yong Loo Lin School of Medicine at the National University of Singapore invites applications for a faculty position in Heat Resilience & Perfo",
+   "extra": {},
+   "decision": "pending"
+  },
+  {
+   "feed": "careers",
+   "source": "nus-jobs-rss",
+   "discovery_only": false,
+   "title": "Research Engineer/Assistant (Environmental and Thermal Sensing) (COLLEGE OF DESIGN & ENG, Kent Ridge Campus, SG)",
+   "org": "",
+   "url": "https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-10-24",
+   "deadline_text": "not stated in the feed",
+   "location": "not stated",
+   "relevance": {
+    "strength": "direct",
+    "terms": [
+     "urban heat"
+    ],
+    "asia": false
+   },
+   "summary": "Research Engineer/Assistant (Environmental and Thermal Sensing) (COLLEGE OF DESIGN & ENG, Kent Ridge Campus, SG). Job Description For high-resolution urban thermal monitoring and early warning across test-bed sites. Working closely with the Principal Investigator and Research Fellows, the Research E",
+   "extra": {},
+   "decision": "pending"
+  },
+  {
+   "feed": "careers",
+   "source": "nus-jobs-rss",
+   "discovery_only": false,
+   "title": "Research Assistant (Urban Microclimate Modeling and Graph Neural Networks) (COLLEGE OF DESIGN & ENG, Kent Ridge Campus, SG)",
+   "org": "",
+   "url": "https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29-Kent/57408644/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "published": "2026-10-24",
+   "deadline_text": "not stated in the feed",
+   "location": "not stated",
+   "relevance": {
+    "strength": "direct",
+    "terms": [
+     "urban heat",
+     "thermal comfort"
+    ],
+    "asia": true
+   },
+   "summary": "Research Assistant (Urban Microclimate Modeling and Graph Neural Networks) (COLLEGE OF DESIGN & ENG, Kent Ridge Campus, SG). Job Description To support the UrbanHeatMap project, which aims to develop scalable, high-resolution ambient temperature mapping methods by integrating outdoor microclimate me",
+   "extra": {},
+   "decision": "pending"
+  }
+ ]
+}
