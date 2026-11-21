@@ -103,18 +103,25 @@ const IMPORT = {
     return { ok: true, items: ((J(r) || {}).content || []).map(x => item({ title: clean(x.name), org: s.name.replace(/ jobs.*$/, ""), url: `https://jobs.smartrecruiters.com/${s.board}/${x.id}`, published: iso(x.releasedDate),
       location: clean([((x.location || {}).city), ((x.location || {}).country)].filter(Boolean).join(", ")), text: `${clean(x.name)}. ${clean(JSON.stringify(x.location || {}))}. ${clean((x.department || {}).label || "")}`, extra: { remote: !!(x.location || {}).remote } })) };
   },
-  // UN Careers: the portal's public job-opening data (careers.un.org/api/public), one search per term
+  // UN Careers: the portal's public job-opening data (careers.un.org/api/public). The portal's keyword filter matches
+  // job titles only (a November 2026 probe: "heat" found one HVAC technician), and heat work is named in the description,
+  // so the whole list of active openings is read in pages of 100 (about 5 requests) and the relevance test runs here
+  // on the title and the description together.
   async uncareers(s) {
-    const out = [];
-    for (const q of s.terms || ["heat"]) {
-      const r = await get(`${s.url}`, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify({ filterConfig: { keyword: q }, pagination: { page: 0, itemPerPage: 50, sortBy: "startDate", sortDirection: -1 } }) });
-      if (!r.ok) return r;
-      const j = J(r) || {}, list = (j.data && (j.data.list || j.data)) || j.list || [];
-      (Array.isArray(list) ? list : []).forEach(x => out.push(item({ title: clean(x.postingTitle || x.jobTitle), org: clean(x.departmentDescr || x.dept || ""), url: `https://careers.un.org/jobSearchDescription/${x.jobId}?language=en`,
-        published: iso(x.startDate), deadline_text: x.endDate || "", location: clean(((x.dutyStation || [])[0] || {}).description || ""), text: `${clean(x.postingTitle || x.jobTitle)}. ${clean(x.departmentDescr || "")}. ${clean(x.jobDescription || "").slice(0, 1500)}`,
-        extra: { job_id: String(x.jobId || ""), data_url: `https://careers.un.org/api/public/opening/jo/${x.jobId}/en`, level: x.jobLevel || "" } })));
+    const out = [], per = 100;
+    for (let page = 0; page < 12; page++) {
+      const r = await get(s.url, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify({ filterConfig: {}, pagination: { page, itemPerPage: per, sortBy: "startDate", sortDirection: -1 } }) });
+      if (!r.ok) return page ? { ok: true, items: out, note: `stopped at page ${page + 1}: ${r.why}` } : r;
+      const d = (J(r) || {}).data || {}, list = Array.isArray(d.list) ? d.list : [];
+      list.forEach(x => x && x.jobId && out.push(item({ title: clean(x.postingTitle || x.jobTitle), org: clean(Array.isArray(x.dept) ? x.dept.map(v => v.name || v.code || v).join(", ") : (x.dept && (x.dept.name || x.dept.code)) || ""),
+        url: `https://careers.un.org/jobSearchDescription/${x.jobId}?language=en`, published: iso(x.startDate), deadline_text: x.endDate || "",
+        location: clean((Array.isArray(x.dutyStation) ? x.dutyStation : [x.dutyStation]).filter(Boolean).map(v => v.description || v.name || v.code || v).join(", ")),
+        text: `${clean(x.postingTitle || x.jobTitle)}. ${clean(x.jobDescription || "").slice(0, 1800)}`,
+        extra: { job_id: String(x.jobId), data_url: `https://careers.un.org/api/public/opening/jo/${x.jobId}/en`, level: x.jobLevel || "", category: x.jc || x.categoryCode || "" } })));
+      if (!list.length || (page + 1) * per >= (+d.count || 0)) break;
     }
-    return { ok: true, items: out };
+    // the same opening can appear once per language; keep one
+    const seen = new Set(); return { ok: true, items: out.filter(x => !seen.has(x.extra.job_id) && seen.add(x.extra.job_id)) };
   },
   async ashby(s) {
     const r = await get(`https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(s.board)}?includeCompensation=true`); if (!r.ok) return r;
@@ -161,42 +168,6 @@ async function probe() {
     out.push(`${kind}/${board}: OK, ${r.items.length} jobs, ${rel.length} relevant${rel.length ? ": " + rel.slice(0, 6).map(x => `${x.it.title} [${x.rel.strength}; ${x.it.location || "location not stated"}] ${x.it.url}`).join(" | ") : ""}`);
   }
   console.log(out.join("\n"));
-  await unProbe();
-}
-// --probe also studies the UN Careers search: reads the portal's own script for how it calls the job list, then tries
-// request shapes and reports, for each, the number of items, whether titles carry the keyword, and the keys returned.
-async function unProbe() {
-  const base = "https://careers.un.org", out = [];
-  const home = await get(base + "/jobopening?language=en");
-  if (!home.ok) out.push("uncareers home: " + home.why);
-  else {
-    const js = [...new Set((home.text.match(/src="([^"]+\.js)"/g) || []).map(m => m.slice(5, -1)))];
-    out.push("uncareers scripts: " + js.join(", "));
-    for (const src of js) {
-      const r = await get(src.startsWith("http") ? src : base + "/" + src.replace(/^\//, "")); if (!r.ok) continue;
-      for (const w of ["filteredV2", "filterConfig", "itemPerPage", "jobopening", "opening/jo"]) {
-        let i = -1, n = 0; while ((i = r.text.indexOf(w, i + 1)) > -1 && n < 4) { out.push(`  [${src} ${w}] ${r.text.slice(Math.max(0, i - 220), i + 260).replace(/\s+/g, " ")}`); n++; }
-      }
-    }
-  }
-  const url = base + "/api/public/opening/jo/list/filteredV2/en", P = { page: 0, itemPerPage: 20, sortBy: "startDate", sortDirection: -1 };
-  const shapes = {
-    a_keyword: { filterConfig: { keyword: "heat" }, pagination: P },
-    b_search: { filterConfig: { search: "heat" }, pagination: P },
-    c_keywords: { filterConfig: { keywords: ["heat"] }, pagination: P },
-    d_top_keyword: { keyword: "heat", filterConfig: {}, pagination: P },
-    e_empty: { filterConfig: {}, pagination: P },
-    f_jobTitle: { filterConfig: { jobTitle: "heat" }, pagination: P },
-    g_searchText: { filterConfig: { searchText: "heat" }, pagination: P }
-  };
-  for (const [k, body] of Object.entries(shapes)) {
-    const r = await get(url, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify(body) });
-    if (!r.ok) { out.push(`uncareers ${k}: ${r.why}`); continue; }
-    const j = J(r); if (!j) { out.push(`uncareers ${k}: not JSON: ${r.text.slice(0, 200)}`); continue; }
-    const d = j.data, list = Array.isArray(d) ? d : (d && (d.list || d.items || d.content)) || j.list || [];
-    out.push(`uncareers ${k}: top keys ${Object.keys(j).join(",")}; data keys ${d && !Array.isArray(d) ? Object.keys(d).join(",") : "array"}; items ${list.length}; heat in title ${list.filter(x => /heat/i.test(x.postingTitle || x.jobTitle || "")).length}; first: ${list.slice(0, 3).map(x => (x.postingTitle || x.jobTitle) + " #" + x.jobId).join(" | ")}; item keys: ${list[0] ? Object.keys(list[0]).slice(0, 40).join(",") : ""}; other: ${JSON.stringify(Object.assign({}, d && !Array.isArray(d) ? d : {}, { list: undefined, items: undefined, content: undefined })).slice(0, 300)}`);
-  }
-  console.log(out.join("\n"));
 }
 async function main() {
   const today = new Date().toISOString().slice(0, 10), since = new Date(Date.now() - DAYS * 864e5).toISOString().slice(0, 10);
@@ -223,7 +194,7 @@ async function main() {
   const summary = { added: candidates.length, changed: changes.filter(c => c.now).length, expired: changes.filter(c => c.now === "closed").length, review_due: changes.filter(c => c.verification).length, rejected: rejected.off_topic + rejected.old + rejected.known, rejected_detail: rejected };
   console.log(`funding harvest${DRY ? " (dry run)" : ""}: added ${summary.added}, changed ${summary.changed}, expired ${summary.expired}, review due ${summary.review_due}, rejected ${summary.rejected} (off topic ${rejected.off_topic}, older than ${since} ${rejected.old}, already known ${rejected.known})`);
   sources.forEach(s => console.log(`  ${s.id}: ${s.status}${s.status === "OK" ? ` (${s.kept}/${s.items})` : ""}`));
-  if (DRY) return;
+  if (DRY) { candidates.forEach(c => console.log(`  + [${c.source}; ${c.relevance.strength}: ${c.relevance.terms.slice(0, 3).join(", ")}] ${c.title} | ${c.org || "org not stated"} | ${c.location} | closes ${c.deadline_text} | ${c.url}`)); return; }
   fs.mkdirSync(OUT, { recursive: true });
   fs.writeFileSync(path.join(OUT, `${today}.json`), JSON.stringify({
     about: "Candidates from the weekly funding and careers harvest (tools/funding-harvest.js). Not published and not evidence. For each: open the link, find the primary page (an aggregator is discovery only), and set decision to 'propose' (stage its facts for the source check), or 'reject' with a reason in 'note'. 'relevance' is a hint from words in the feed. 'status_changes' lists published records whose status the dates now change, for review.",
