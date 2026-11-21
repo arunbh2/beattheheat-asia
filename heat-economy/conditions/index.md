@@ -1,7 +1,7 @@
 ---
 title: "Questions to ask before you buy, fund or start"
 url: https://beattheheat.asia/heat-economy/conditions/
-updated: 2026-11-17
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 

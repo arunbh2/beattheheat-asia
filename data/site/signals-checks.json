@@ -1138,6 +1138,22 @@
     }
    },
    {
+    "kind": "content",
+    "batch": "2026-11-funding-opps",
+    "checked": "2026-11-21",
+    "status": "OK",
+    "terms": {
+     "extreme heat": true,
+     "South Asia": true,
+     "Heat Action Plans": true
+    },
+    "passages": {
+     "extreme heat": "The report A Livable Future: Protecting Jobs and Growth from Extreme Heat in South Asia's Cities finds that extreme heat is already costing the region nearly the equivalent of 31 million full-time jobs each year and could reduce South Asia's economy by nearly 7 percent by 2050.",
+     "South Asia": "The report A Livable Future: Protecting Jobs and Growth from Extreme Heat in South Asia's Cities finds that extreme heat is already costing the region nearly the equivalent of 31 million full-time jobs each year and could reduce South Asia's economy by nearly 7 percent by 2050.",
+     "Heat Action Plans": "…take through existing institutions and financing mechanisms, including investing in heat-resilient infrastructure, strengthening Heat Action Plans and early warning systems, protecting vulnerable workers, expanding sustainable cooling, and mobilizing public and private invest…"
+    }
+   },
+   {
     "kind": "link",
     "batch": "research/2026-11/go-live",
     "checked": "2026-11-07",

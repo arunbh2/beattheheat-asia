@@ -5,7 +5,7 @@ updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 82 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 83 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-82 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+83 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -93,6 +93,48 @@ Signals tracks heat plans and rules step by step; following their dates helps te
 [Signals](https://beattheheat.asia/signals/)[State of the field](https://beattheheat.asia/whats-new/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Signals%20opens%20with%20what%20moved%2C%20and%20both%20briefings%20can%20be%20followed%20without%20visiting&ref=g-signals-sof-reach#way-share)
+
+Tool improved · Practical measures
+
+### Funding landscape, open calls and careers, checked against official pages
+
+Added 21 November 2026 · Feature published 21 November 2026
+
+Why it matters our readingFunding for heat work is easy to misread: a funder is not an open call, a programme budget is not an award, and a tender is not a grant. The money page now opens with programmes and how each can be reached, and two new pages list calls and careers with application status and verification kept apart, so a closed or unconfirmed record never reads as open.
+
+What the source says quoted“submissions may be made at any time”
+
+[Green Climate Fund: Guide to accessing readiness support, country support modality, 2026 ](https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf)
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Women whose livelihoods are held back by unequal access
+- Heat action plans
+- Anticipatory action
+
+ReviewFifty-seven sources staged and checked on GitHub, plus the 22 programme pages from the October research. Records whose key facts were not found stay held back; several secondary listings were corrected by the official pages, including a call listed as open that its funder shows as closed, and a tender deadline a week later than reported elsewhere.. 79 checked · 70 confirmed · 9 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Who funds work on extreme heat in South and Southeast Asia, which calls are open, who can apply, and where are the jobs?
+- **The search.** 79 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 70 confirmed, and 9 could not be (5 blocked automated reading, 3 did not respond, 1 did not show the expected text).
+- **What we set aside.** 117 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** More verified current calls and jobs, especially in national languages and from national schemes; funding for recurring delivery, worker organisations and locally led work; ReliefWeb jobs once its app name is approved.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-funding-opps/link-check.json) · [what was set aside, and why](https://beattheheat.asia/data/funding/rejected.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+Several programmes and calls fund heat action planning and the institutions that carry it out.
+
+[Find an open call](https://beattheheat.asia/heat-economy/money/opportunities/)
+[Funders and funding](https://beattheheat.asia/heat-economy/money/)[Careers](https://beattheheat.asia/heat-economy/money/careers/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Funding%20landscape%2C%20open%20calls%20and%20careers%2C%20checked%20against%20official%20pages&ref=g-funding-opportunities#way-share)
 
 Evidence added · Practical measures
 

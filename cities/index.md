@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in 22 Asian cities | Common Shade"
 url: https://beattheheat.asia/cities/
-updated: 2026-11-16
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -164,6 +164,16 @@ Heat plan: Parts in place, no full plan found. Cycles tied to it: The energy-pov
 A northern Thai city where the hottest weeks of the year arrive with the haze season.
 
 Heat plan: No published city heat plan found. Cycles tied to it: The wildfire loop.
+
+## Funding and opportunities
+
+Programmes and calls in the funding dataset whose published remit touches this topic. A programme is not an open call; each record says how it can be reached.
+
+- [IKI Small Grants: eighth call](https://beattheheat.asia/heat-economy/money/opportunities/#opp-iki-small-2026) Open · Grant call
+- [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcf-readiness-2027) Rolling · Readiness support window
+- [GCF Readiness and Preparatory Support](https://beattheheat.asia/heat-economy/money/#fund-prog-gcf-readiness) Related remit with a clear heat application · Government nomination or endorsement
+
+[All calls on this topic](https://beattheheat.asia/heat-economy/money/opportunities/?topic=municipal&status=all) · [The funding landscape](https://beattheheat.asia/heat-economy/money/#landscape) · [Careers](https://beattheheat.asia/heat-economy/money/careers/)
 
 ---
 Human edition: https://beattheheat.asia/cities/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

@@ -1,0 +1,85 @@
+// Common Shade: the source ledger for the funding, opportunities and careers rebuild (November 2026). Every official page
+// a record rests on, with the terms the source check must find on it. stage.js writes these to
+// data/inbox/2026-11-funding-opps/sources.json for verify-sources.yml; tools/funding-model.js reads the results back, and a
+// fact reaches a page only when its term was found on its source. Several date spellings are staged where the page's own
+// format is not known; only the one found is used. Discovery sources (newsletters, aggregators) are never listed here.
+"use strict";
+module.exports = [
+  // ---- Grand Challenges Canada, AVPN: Nexa and Nexa Lighthouse ----
+  { key: "gcc-lighthouse", url: "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/", title: "Funding Opportunity: Nexa Lighthouse", publisher: "Grand Challenges Canada", expect: ["Nexa Lighthouse", "December 8, 2026", "8 December 2026", "extended", "Fluxx", "Transition to Scale", "2:00 p.m. ET", "extreme heat", "Asia and the Pacific", "250,000", "2,000,000", "organizations", "Appendix B"] },
+  { key: "gcc-lighthouse-portfolio", url: "https://www.grandchallenges.ca/portfolio/nexa-lighthouse/", title: "Nexa Lighthouse", publisher: "Grand Challenges Canada", expect: ["Nexa Lighthouse", "AVPN", "heat", "December 8, 2026", "November 17"] },
+  { key: "tf-lighthouse", url: "https://temasekfoundation.org.sg/news/media-releases/grand-challenges-canada-and-avpn-launch-nexa-lighthouse-to-fund-climate-and-health-innovation-across-asia-and-the-pacific", title: "Grand Challenges Canada and AVPN launch Nexa Lighthouse", publisher: "Temasek Foundation", expect: ["Nexa Lighthouse", "AVPN", "Asia and the Pacific", "heat"] },
+  { key: "gcc-climate", url: "https://www.grandchallenges.ca/climate-and-health/", title: "Climate and health", publisher: "Grand Challenges Canada", expect: ["Nexa", "heat", "climate"] },
+  { key: "gcc-nexa", url: "https://www.grandchallenges.ca/funding-opportunity-nexa/", title: "Funding Opportunity: Nexa", publisher: "Grand Challenges Canada", expect: ["Nexa", "Africa", "Latin America", "Caribbean", "heat"] },
+  // ---- International Climate Initiative (IKI), Germany ----
+  { key: "iki-medium", url: "https://www.international-climate-initiative.com/en/find-funding/medium-grants/", title: "Medium Grants", publisher: "International Climate Initiative (IKI)", expect: ["Medium Grants", "2026", "12 January 2027", "300,000", "800,000", "Germany", "local", "adaptation"] },
+  { key: "iki-small", url: "https://www.international-climate-initiative.com/en/find-funding/small-grants/", title: "Small Grants", publisher: "International Climate Initiative (IKI)", expect: ["Small Grants", "60,000", "200,000", "non-profit", "8 January 2027", "2026"] },
+  { key: "iki-small-site", url: "https://iki-small-grants.de/", title: "IKI Small Grants", publisher: "GIZ for the International Climate Initiative", expect: ["Small Grants", "8 January 2027", "eligibility", "call"] },
+  // ---- APN ----
+  { key: "apn-calls", url: "https://www.apn-gcr.org/opportunities/calls-for-proposals/", title: "Calls for proposals", publisher: "Asia-Pacific Network for Global Change Research", expect: ["CRRP", "CAPaBLE", "30 November 2026", "2026", "summary proposal"] },
+  // ---- Green Climate Fund ----
+  { key: "gcf-readiness", url: "https://www.greenclimate.fund/readiness", title: "Readiness and Preparatory Support", publisher: "Green Climate Fund", expect: ["Readiness", "National Designated Authorit", "direct access"] },
+  { key: "gcf-readiness-guide", url: "https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf", title: "Guide to accessing readiness support: country support modality", publisher: "Green Climate Fund", expect: ["31 March 2027", "Partner Portal", "NDA", "readiness"] },
+  { key: "gcf-ae", url: "https://www.greenclimate.fund/partners/accredited-entities", title: "Accredited Entities", publisher: "Green Climate Fund", expect: ["accredited", "direct access"] },
+  { key: "gcf-nomination", url: "https://www.greenclimate.fund/access-funding/accreditation/process/1-nomination", title: "Accreditation process: nomination", publisher: "Green Climate Fund", expect: ["nomination", "National Designated Authorit", "direct access"] },
+  // ---- GEF Small Grants Programme ----
+  { key: "sgp-apply", url: "https://sgp.undp.org/about-us-157/how-to-apply.html", title: "How to Apply", publisher: "GEF Small Grants Programme (UNDP)", expect: ["National Coordinator", "50,000", "25,000", "CBOs", "NGOs", "Country Programme Strategy", "does not charge a fee"] },
+  // ---- Adaptation Fund and its innovation calls ----
+  { key: "af-lla", url: "https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/", title: "LLA Single Country Grants", publisher: "Adaptation Fund", expect: ["locally led", "implementing entit", "Locally Led Adaptation"] },
+  { key: "af-access", url: "https://www.adaptation-fund.org/apply-funding/implementing-entities/", title: "Implementing entities", publisher: "Adaptation Fund", expect: ["accredited", "National Implementing Entit", "direct access"] },
+  { key: "ctcn-ap", url: "https://www.ctc-n.org/whats-happening/news/call-proposals-climate-adaptation-innovation-asia-pacific", title: "Call for Proposals: Climate Adaptation Innovation in Asia Pacific", publisher: "Climate Technology Centre and Network (CTCN)", expect: ["Asia Pacific", "7 October 2026", "Adaptation Fund", "150,000", "technical assistance"] },
+  // ---- Wellcome ----
+  { key: "wellcome-cia", url: "https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2", title: "Climate Impacts Awards", publisher: "Wellcome", expect: ["Climate Impacts Awards", "2.5 million", "health effects of climate change", "closed"] },
+  { key: "wellcome-ch", url: "https://wellcome.org/our-priorities/climate-and-health", title: "Climate and Health", publisher: "Wellcome", expect: ["climate", "health", "heat"] },
+  // ---- IDRC and FCDO ----
+  { key: "idrc-clare", url: "https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare", title: "Climate Adaptation and Resilience (CLARE)", publisher: "International Development Research Centre (IDRC)", expect: ["CLARE", "Foreign, Commonwealth", "adaptation", "resilience"] },
+  { key: "idrc-arch", url: "https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health", title: "Advancing Research on Climate and Health", publisher: "International Development Research Centre (IDRC)", expect: ["climate and health", "heat", "FCDO"] },
+  { key: "idrc-funding", url: "https://idrc-crdi.ca/en/funding", title: "Funding", publisher: "International Development Research Centre (IDRC)", expect: ["funding", "calls"] },
+  // ---- ClimateWorks, Clean Cooling Collaborative ----
+  { key: "cw-arf", url: "https://www.climateworks.org/programs/adaptation-and-resilience/fund/", title: "Adaptation and Resilience Fund", publisher: "ClimateWorks Foundation", expect: ["Adaptation and Resilience Fund", "heat", "unsolicited"] },
+  { key: "cw-heat-grantees", url: "https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/", title: "Meet the grantees from our global call for extreme heat solutions", publisher: "ClimateWorks Foundation", expect: ["extreme heat", "grantees", "South Asia", "Southeast Asia"] },
+  { key: "ccc-home", url: "https://www.cleancoolingcollaborative.org/", title: "Clean Cooling Collaborative", publisher: "Clean Cooling Collaborative (ClimateWorks Foundation)", expect: ["Clean Cooling Collaborative", "cooling", "unsolicited", "proposals"] },
+  // ---- Climate Justice Resilience Fund ----
+  { key: "cjrf", url: "https://www.cjrfund.org/", title: "Climate Justice Resilience Fund", publisher: "Climate Justice Resilience Fund", expect: ["Climate Justice Resilience Fund", "invitation", "unsolicited"] },
+  // ---- ADB ----
+  { key: "adb-crpp", url: "https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund", title: "Community Resilience Partnership Program Trust Fund", publisher: "Asian Development Bank", expect: ["Community Resilience Partnership", "technical assistance", "grant", "climate-poverty"] },
+  { key: "adb-heat-ta", url: "https://www.adb.org/projects/59391-001/main", title: "59391-001: Investing in Resilience to Extreme Heat: Sector and Gender-Responsive Adaptation Solutions", publisher: "Asian Development Bank", expect: ["Extreme Heat", "Gender", "Technical Assistance", "Bangladesh", "Thailand"] },
+  { key: "adb-consulting", url: "https://www.adb.org/work-with-us/consultants", title: "Consultants: work with ADB", publisher: "Asian Development Bank", expect: ["consult", "CMS"] },
+  // ---- World Bank and City Climate Finance Gap Fund ----
+  { key: "gapfund", url: "https://www.citygapfund.org/", title: "City Climate Finance Gap Fund", publisher: "City Climate Finance Gap Fund", expect: ["Gap Fund", "cities", "technical assistance", "expression of interest"] },
+  { key: "wb-heat-report", url: "https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities", title: "A Livable Future: Protecting Jobs and Growth from Extreme Heat in South Asia's Cities", publisher: "World Bank", expect: ["extreme heat", "South Asia", "Heat Action Plans"] },
+  // ---- Humanitarian and anticipatory finance ----
+  { key: "cerf-aa", url: "https://cerf.un.org/what-we-do/anticipatory-action", title: "Anticipatory action", publisher: "UN Central Emergency Response Fund (CERF)", expect: ["anticipatory", "CERF", "UN agencies"] },
+  { key: "start-fund", url: "https://startnetwork.org/funds/start-fund", title: "Start Fund", publisher: "Start Network", expect: ["Start Fund", "members", "heatwave"] },
+  { key: "ifrc-dref", url: "https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref", title: "Disaster Response Emergency Fund (DREF)", publisher: "IFRC", expect: ["DREF", "National Societies", "anticipatory"] },
+  // ---- Innovation and venture-style grants ----
+  { key: "unicef-ch-2026", url: "https://www.unicef.org/innovation/call-for-application-climate-and-health-2026", title: "Funding frontier climate tech for children's health", publisher: "UNICEF Venture Fund", expect: ["climate", "health", "100,000", "equity-free", "heat", "17 May 2026", "May 17, 2026"] },
+  { key: "grp-2026", url: "https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/", title: "Call for proposals for innovations across the Global South now open", publisher: "Global Resilience Partnership", expect: ["Innovation Challenge", "Global South", "22 May 2026", "heat"] },
+  { key: "gcgh-climate", url: "https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender", title: "Accelerating and catalyzing solutions to climate change's impact on health, agriculture and gender", publisher: "Gates Foundation (Grand Challenges)", expect: ["heat stress", "South Asia", "climate change", "gender"] },
+  { key: "gcgh-apply", url: "https://gcgh.grandchallenges.org/challenges", title: "Grand Challenges: challenges", publisher: "Gates Foundation (Grand Challenges)", expect: ["Grand Challenges", "open", "closed"] },
+  { key: "epic-deploy", url: "https://energy-base.org/?p=3408", title: "A moment for sustainable cooling: EPIC Deploy opens first Call for Proposals", publisher: "BASE (Basel Agency for Sustainable Energy)", expect: ["EPIC Deploy", "cooling", "Call for Proposals", "31 October 2026"] },
+  { key: "acs", url: "https://www.convergence.finance/accelerator/acs", title: "Asia Climate Solutions Design Grant", publisher: "Convergence", expect: ["Asia Climate Solutions", "Southeast Asia", "design grant", "nature-based"] },
+  // ---- Nature-based and civil society grants ----
+  { key: "eba-iucn", url: "https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects", title: "IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects", publisher: "IUCN", expect: ["Global EbA Fund", "250,000", "26 October", "16 November", "small-size", "medium-size"] },
+  { key: "cwf-grants", url: "https://commonwealthfoundation.com/grants/annual/", title: "Open grants call", publisher: "Commonwealth Foundation", expect: ["26 October 2026", "Climate and environmental justice", "Collective Action", "Individual Organisation"] },
+  { key: "toyota-intl", url: "https://www.toyotafound.or.jp/english/grant/international/", title: "International Grant Program", publisher: "Toyota Foundation", expect: ["International Grant Program", "Asia", "practitioners"] },
+  { key: "zurich-fdn", url: "https://www.zurich.foundation/", title: "Z Zurich Foundation", publisher: "Z Zurich Foundation", expect: ["Z Zurich Foundation", "climate", "unsolicited"] },
+  { key: "ifrc-gcrp", url: "https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf", title: "Global Climate Resilience Platform: status update report, issue 2", publisher: "IFRC", expect: ["extreme heat", "Z Zurich Foundation", "Global Climate Resilience Platform"] },
+  // ---- EU research funding ----
+  { key: "he-envhlth-02", url: "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json", title: "HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome", publisher: "European Commission (Funding and Tenders portal)", expect: ["exposome", "climate", "international cooperation", "HORIZON-HLTH-2027-01-ENVHLTH-02"] },
+  // ---- Procurement and consultancy notices ----
+  { key: "undp-ind-heatsmart", url: "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250", title: "RFP-050-IND-2026: Developing a workplan for 'heat-smart' city and interactive digital heat-resilience toolkit", publisher: "UNDP India (procurement notice)", expect: ["Heat-smart", "RFP-050-IND-2026", "19-Jun-26", "toolkit"] },
+  { key: "ungm-ilo-th", url: "https://www.ungm.org/Public/Notice/317698", title: "ILO request for quotation: desk review of occupational heat exposure in Thailand", publisher: "ILO via UN Global Marketplace", expect: ["heat", "Thailand", "26-Oct-2026", "ILO"] },
+  { key: "who-heat-consultant", url: "https://www.who.int/news-room/articles-detail/call-for-consultant-health-sector-capacity-on-heat-air-quality-and-health", title: "Call for consultant: health sector capacity on heat, air quality and health", publisher: "World Health Organization", expect: ["heat", "air quality", "2 October 2026", "consultant"] },
+  // ---- Careers and fellowships ----
+  { key: "hghi-burke", url: "https://globalhealth.harvard.edu/fellowships/hghi-burke-fellowship/", title: "HGHI Burke Fellowship", publisher: "Harvard Global Health Institute", expect: ["Burke", "Climate and Health", "November 15, 2026", "January 3, 2027", "Harvard Faculty Mentor", "currently closed"] },
+  { key: "nus-hrpc-rf", url: "https://careers.nus.edu.sg/job/Research-Fellow-%28HRPC%29/27881-en_GB", title: "Research Fellow (HRPC)", publisher: "National University of Singapore", expect: ["Research Fellow", "heat", "Apply", "Singapore"] },
+  { key: "nus-microclimate-rf", url: "https://careers.nus.edu.sg/job/Research-Fellow-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33563-en_GB", title: "Research Fellow (Urban Microclimate Modeling and Graph Neural Networks)", publisher: "National University of Singapore", expect: ["Research Fellow", "microclimate", "thermal", "Apply"] },
+  { key: "nus-datasci-rf", url: "https://careers.nus.edu.sg/job/Research-Fellow-%28Data-Science-HRPC%29/30161-en_GB", title: "Research Fellow (Data Science, HRPC)", publisher: "National University of Singapore", expect: ["Research Fellow", "heat", "Apply"] },
+  { key: "climatecentre-jobs", url: "https://www.climatecentre.org/contact/open-positions/", title: "Open positions", publisher: "Red Cross Red Crescent Climate Centre", expect: ["heat", "intern", "application@climatecentre.org"] },
+  { key: "ifrc-jobs", url: "https://www.ifrc.org/jobs", title: "Jobs", publisher: "IFRC", expect: ["heat", "consultant"] },
+  // ---- second round (21 November 2026) ----
+  { key: "cool-bth", url: "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities", title: "Beat the Heat in Cities", publisher: "Cool Coalition (UNEP)", expect: ["Beat the Heat", "expression of interest", "three cities", "Secretariat", "heat action", "cities"] },
+  // ---- Legacy audit: programmes listed in the October 2026 research ----
+  { key: "legacy-gcp", url: "https://globalcoolingprize.org/grand-winners-press-release/", title: "Global Cooling Prize: grand winners", publisher: "Global Cooling Prize", expect: ["Global Cooling Prize", "winners", "2021"] }
+];

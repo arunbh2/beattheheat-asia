@@ -1,22 +1,998 @@
 ---
 title: "Funding and support for protection from heat"
 url: https://beattheheat.asia/heat-economy/money/
-updated: 2026-11-16
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
-> 77 funders and investors, 52 pieces of funding traced and 24 accelerators, prizes and challenges in protection from extreme heat.
+> The funding landscape and access routes, open calls and careers, plus 77 funders and investors, 52 pieces of funding traced and 24 accelerators, prizes and challenges in protection from extreme heat.
 
 The heat economy · Funding and support
 
 # Who funds protection from heat,
-and who helps new ventures grow.
+how to reach them, and who is hiring.
 
-77 funders and investors, 52 pieces of funding we could trace, and 24 accelerators, prizes and challenges.
+The funding landscape and how each programme can be reached, open calls and careers, and the record of funding we could trace: 77 funders and investors, 52 pieces of funding and 24 accelerators, prizes and challenges.
 
 **Watch: Money for heat protection** · 0:31 · narrated, captions in the picture
 
 **About this section.** We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, [tell us](https://beattheheat.asia/join/).
+
+## The funding landscape 27
+
+Who funds work relevant to extreme heat in South and Southeast Asia, through which programmes, and how each can be reached. A funder is not an open call: most of these programmes are not accepting applications today, and several are reached only through an accredited entity, a government nomination, a consortium or an invitation.
+
+[Open calls and tenders3 verified open now, with the archive of earlier rounds](https://beattheheat.asia/heat-economy/money/opportunities/)
+[Careers3 listings, 1 verified open](https://beattheheat.asia/heat-economy/money/careers/)
+[What needs funding?Where this dataset has verified support, and where it has little](#needs)
+
+Each programme shows its access route, who can receive money, what kind of money it is, and how its remit connects to heat. The connection is labelled by how direct it is.
+
+Adaptation Fund locally led adaptation (single-country grants)Related remit with a clear heat applicationThrough accredited entitiesGovernment nomination or endorsementAdaptation Fund
+
+#### What it funds
+
+Grants for locally led adaptation projects, submitted through accredited implementing entities.
+
+#### How it connects to heat
+
+Common Shade's reading. Locally led adaptation can include heat measures chosen by communities; the window is not heat-specific.
+
+#### How to reach it
+
+Through accredited entities; Government nomination or endorsement. Proposals are submitted by implementing entities accredited to the Fund.
+
+#### Who can receive money
+
+Accredited implementing entities, working with local actors.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Community organising and participation, Pilots and demonstrations, Recurring delivery and maintenance
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Check institutional eligibility](https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/)
+
+**Source checked:** 21 November 2026 · [Adaptation Fund: LLA Single Country Grants](https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/)
+
+IKI Medium GrantsPotential connection requiring confirmationPeriodic competitive callsConsortium or institutional leadInternational Climate Initiative (IKI)
+
+#### What it funds
+
+Grants for climate action and biodiversity projects in ODA-eligible countries, led by organisations based in Germany with local partners.
+
+#### How it connects to heat
+
+Common Shade's reading. Adaptation has been one of the call's themes; whether a heat project fits a given year's priorities needs confirming in that year's funding announcement.
+
+#### How to reach it
+
+Periodic competitive calls; Consortium or institutional lead. Annual call; the lead is an organisation established in Germany, working with local partner organisations.
+
+#### Who can receive money
+
+Non-profit organisations based in Germany, with one or two local implementing partners.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Pilots and demonstrations, Policy and institutional capacity
+
+#### Calls and rounds
+
+- [IKI Medium Grants 2026](https://beattheheat.asia/heat-economy/money/opportunities/#opp-iki-medium-2026) · Closed
+
+[Check institutional eligibility](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
+
+**Source checked:** 21 November 2026 · [International Climate Initiative (IKI): Medium Grants](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
+
+Climate Justice Resilience Fund grantsPotential connection requiring confirmationNo public application route foundClimate Justice Resilience Fund
+
+#### What it funds
+
+Grants for community-led, rights-based approaches to climate resilience.
+
+#### How it connects to heat
+
+Common Shade's reading. Community-led resilience work could address heat; the fund's priorities are set by its own process.
+
+#### How to reach it
+
+No public application route found. No open call was found on its site at the check (21 November 2026).
+
+#### Who can receive money
+
+Community-led organisations, as the fund selects.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Community organising and participation
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Monitor future calls](https://www.cjrfund.org/)
+
+**Source checked:** 21 November 2026 · [Climate Justice Resilience Fund: Climate Justice Resilience Fund](https://www.cjrfund.org/)
+
+Commonwealth Foundation grantsPotential connection requiring confirmationPeriodic competitive callsCommonwealth Foundation
+
+#### What it funds
+
+Grants to civil society organisations and collectives in Commonwealth member countries; climate and environmental justice is one priority.
+
+#### How it connects to heat
+
+Common Shade's reading. Civil society work on heat and climate justice could fit the climate and environmental justice priority.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Not-for-profit organisations and collectives in eligible Commonwealth countries.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Community organising and participation, Policy and institutional capacity
+
+#### Calls and rounds
+
+- [Commonwealth Foundation open grants call 2026 to 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-cwf-2026) · Closed
+
+[Monitor future calls](https://commonwealthfoundation.com/grants/annual/)
+
+**Source checked:** 21 November 2026 · [Commonwealth Foundation: Open grants call](https://commonwealthfoundation.com/grants/annual/)
+
+Advancing Research on Climate and HealthRelated remit with a clear heat applicationPeriodic competitive callsInternational Development Research Centre
+
+#### What it funds
+
+Research on climate and health with the UK's FCDO.
+
+#### How it connects to heat
+
+Common Shade's reading. Climate and health research includes heat-related illness and health systems.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Research institutions, through calls.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Research and evidence
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+[Monitor future calls](https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health)
+
+**Source checked:** 21 November 2026 · [International Development Research Centre (IDRC): Advancing Research on Climate and Health](https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health)
+
+Climate Adaptation and Resilience (CLARE)Related remit with a clear heat applicationPeriodic competitive callsConsortium or institutional leadInternational Development Research Centre, with UK Foreign, Commonwealth and Development Office
+
+#### What it funds
+
+Research for climate adaptation and resilience, co-funded by IDRC and the UK.
+
+#### How it connects to heat
+
+Common Shade's reading. Adaptation research on heat risk fits the programme's adaptation and resilience remit.
+
+#### How to reach it
+
+Periodic competitive calls; Consortium or institutional lead.
+
+#### Who can receive money
+
+Research institutions, through competitive calls.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Research and evidence, Policy and institutional capacity
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+[Check institutional eligibility](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)
+
+**Source checked:** 21 November 2026 · [International Development Research Centre (IDRC): Climate Adaptation and Resilience (CLARE)](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)
+
+Horizon Europe Cluster 1: Health (environment and health topics)Related remit with a clear heat applicationConsortium or institutional leadEuropean Commission
+
+#### What it funds
+
+Research and innovation actions on environment and health, including climate-related exposures.
+
+#### How it connects to heat
+
+Common Shade's reading. Climate-related exposures include heat; the topic encourages international cooperation.
+
+#### How to reach it
+
+Consortium or institutional lead. Consortia apply through the Funding and Tenders portal; whether a partner from a given Asian country receives EU funding depends on Horizon Europe's list of countries eligible for funding.
+
+#### Who can receive money
+
+Consortia; eligibility for funding of partners outside Europe depends on the programme's country list.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Research and evidence
+
+#### Calls and rounds
+
+- [Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)](https://beattheheat.asia/heat-economy/money/opportunities/#opp-he-envhlth-02-2027) · Upcoming
+
+[Check institutional eligibility](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-ENVHLTH-02)
+
+**Source checked:** 21 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
+
+Nexa (climate and health, Africa, Latin America and the Caribbean)Explicit heat focusPeriodic competitive callsGrand Challenges Canada
+
+#### What it funds
+
+Climate and health innovation in Africa, Latin America and the Caribbean, including extreme heat.
+
+#### How it connects to heat
+
+Common Shade's reading. Heat is one of the hazards the programme covers; its 2026 call was for Africa, Latin America and the Caribbean, not Asia.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Organisations; implementation in eligible countries outside Asia.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Pilots and demonstrations, Scaling and replication
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+[Monitor future calls](https://www.grandchallenges.ca/funding-opportunity-nexa/)
+
+**Source checked:** 21 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa](https://www.grandchallenges.ca/funding-opportunity-nexa/)
+
+Nexa Lighthouse (climate and health innovation, Asia and the Pacific)Explicit heat focusPeriodic competitive callsGrand Challenges Canada, with AVPN
+
+#### What it funds
+
+Funds proven climate and health innovations in Asia and the Pacific that help health actors act on climate-risk signals, with extreme heat one of its hazards.
+
+#### How it connects to heat
+
+Common Shade's reading. Extreme heat is named as one of the hazards the call addresses.
+
+#### How to reach it
+
+Periodic competitive calls. Applications go through Grand Challenges Canada's Fluxx portal during an open call.
+
+#### Who can receive money
+
+Applicants incorporated and implementing in countries across Asia and the Pacific.
+
+#### Kind of money
+
+Grant
+
+#### Where
+
+Implementation in eligible countries in Asia and the Pacific listed in the call's Appendix B.
+
+#### What it could support
+
+Scaling and replication, Pilots and demonstrations
+
+#### Calls and rounds
+
+- [Nexa Lighthouse: Transition to Scale funding for climate and health innovation in Asia and the Pacific](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcc-nexa-lighthouse-2026) · Open
+
+[Monitor future calls](https://www.grandchallenges.ca/portfolio/nexa-lighthouse/)
+
+**Source checked:** 21 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa Lighthouse](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/) · [Grand Challenges Canada: Nexa Lighthouse](https://www.grandchallenges.ca/portfolio/nexa-lighthouse/)
+
+Wellcome Climate Impacts AwardsRelated remit with a clear heat applicationPeriodic competitive callsConsortium or institutional leadWellcome
+
+#### What it funds
+
+Research awards that make the health effects of climate change visible, with stakeholders engaged.
+
+#### How it connects to heat
+
+Common Shade's reading. Heat-related health effects are within the scheme's scope of climate's effects on health.
+
+#### How to reach it
+
+Periodic competitive calls; Consortium or institutional lead.
+
+#### Who can receive money
+
+Research teams; see the scheme page for eligibility.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Research and evidence
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+#### On Signals
+
+- [A South Asia climate-health desk and a heat research consortium](https://beattheheat.asia/signals/#sig-south-asia-climate-health-desk-2026) Funded, reported
+- [98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed](https://beattheheat.asia/signals/#sig-clinicians-heat-pregnancy-2026) Finding
+
+[Check institutional eligibility](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
+
+**Source checked:** 21 November 2026 · [Wellcome: Climate Impacts Awards](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
+
+ClimateWorks Adaptation and Resilience FundExplicit heat focusPeriodic competitive callsInvitation onlyClimateWorks Foundation
+
+#### What it funds
+
+Pooled philanthropic fund for adaptation and resilience; it ran a global call for extreme heat solutions.
+
+#### How it connects to heat
+
+Common Shade's reading. Its global call funded extreme heat solutions, with grantees in South and Southeast Asia.
+
+#### How to reach it
+
+Periodic competitive calls; Invitation only.
+
+#### Who can receive money
+
+Organisations selected through calls.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Pilots and demonstrations, Community organising and participation
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+#### Past support (not money available now)
+
+- Grants from the global call for extreme heat solutions (2025), including grantees in South and Southeast Asia. [Grantees](https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/)
+
+[Monitor future calls](https://www.climateworks.org/programs/adaptation-and-resilience/fund/)
+
+**Source checked:** 21 November 2026 · [ClimateWorks Foundation: Adaptation and Resilience Fund](https://www.climateworks.org/programs/adaptation-and-resilience/fund/) · [ClimateWorks Foundation: Meet the grantees from our global call for extreme heat solutions](https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/)
+
+Grand Challenges: climate change's impact on health, agriculture and genderExplicit heat focusPeriodic competitive callsGates Foundation
+
+#### What it funds
+
+A Grand Challenges call on solutions to climate change's impact on health, agriculture and gender, including heat stress in South Asia.
+
+#### How it connects to heat
+
+Common Shade's reading. Heat stress, including in South Asia, was named in the call.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Applicants as each Grand Challenges call defines.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Research and evidence, Pilots and demonstrations
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+#### Past support (not money available now)
+
+- An earlier Grand Challenges call on climate, health, agriculture and gender (closed). [Call page](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
+
+[Monitor future calls](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
+
+**Source checked:** 21 November 2026 · [Gates Foundation (Grand Challenges): Accelerating and catalyzing solutions to climate change's impact on health, agriculture and gender](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
+
+Toyota Foundation International Grant ProgramPotential connection requiring confirmationPeriodic competitive callsToyota Foundation
+
+#### What it funds
+
+Grants for practitioners' exchange on common issues in Asia.
+
+#### How it connects to heat
+
+Common Shade's reading. Cross-border exchange on heat among practitioners could fit where heat is the common issue.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Teams in East and Southeast Asia, as each call defines.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Community organising and participation, Policy and institutional capacity
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+[Monitor future calls](https://www.toyotafound.or.jp/english/grant/international/)
+
+**Source checked:** 21 November 2026 · [Toyota Foundation: International Grant Program](https://www.toyotafound.or.jp/english/grant/international/)
+
+IFRC Disaster Response Emergency Fund (DREF)Related remit with a clear heat applicationNo public application route foundIFRC
+
+#### What it funds
+
+Fast funding for National Red Cross and Red Crescent Societies, including anticipatory action.
+
+#### How it connects to heat
+
+Common Shade's reading. Anticipatory and response funding can be requested for heatwaves by National Societies.
+
+#### How to reach it
+
+No public application route found. Only National Red Cross and Red Crescent Societies can request it.
+
+#### Who can receive money
+
+National Red Cross and Red Crescent Societies.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Recurring delivery and maintenance
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Monitor future calls](https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref)
+
+**Source checked:** 21 November 2026 · [IFRC: Disaster Response Emergency Fund (DREF)](https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref)
+
+Z Zurich Foundation partnership with the IFRC Global Climate Resilience PlatformExplicit heat focusNo public application route foundZ Zurich Foundation
+
+#### What it funds
+
+Partnership support for the IFRC's Global Climate Resilience Platform, which works on extreme heat.
+
+#### How it connects to heat
+
+Common Shade's reading. The platform's report names extreme heat among its work.
+
+#### How to reach it
+
+No public application route found. No public application route was found; support flows through the IFRC partnership.
+
+#### Who can receive money
+
+Through the IFRC and National Societies.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Scaling and replication
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Monitor future calls](https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf)
+
+**Source checked:** 21 November 2026 · [IFRC: Global Climate Resilience Platform: status update report, issue 2](https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf)
+
+Asia Climate Solutions design grantPotential connection requiring confirmationPeriodic competitive callsConvergence
+
+#### What it funds
+
+Design grants that move blended-finance concepts for Southeast Asia towards investment.
+
+#### How it connects to heat
+
+Common Shade's reading. Its 2026 themes were climate-resilient agriculture and nature-based solutions; a heat-related design could fit where it matches them.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Proponents of blended-finance designs for Southeast Asia.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Pilots and demonstrations
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+[Monitor future calls](https://www.convergence.finance/accelerator/acs)
+
+**Source checked:** 21 November 2026 · [Convergence: Asia Climate Solutions Design Grant](https://www.convergence.finance/accelerator/acs)
+
+GRP Innovation ChallengePotential connection requiring confirmationPeriodic competitive callsGlobal Resilience Partnership
+
+#### What it funds
+
+Annual challenge for resilience innovations across the Global South.
+
+#### How it connects to heat
+
+Common Shade's reading. Themes change each year; heat was not confirmed as a 2026 theme.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Innovators across the Global South.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Pilots and demonstrations, Scaling and replication
+
+#### Calls and rounds
+
+- [GRP Innovation Challenge 2026](https://beattheheat.asia/heat-economy/money/opportunities/#opp-grp-2026) · Closed
+
+[Monitor future calls](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
+
+**Source checked:** 21 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
+
+UNICEF Venture Fund: climate and healthExplicit heat focusPeriodic competitive callsUNICEF Venture Fund
+
+#### What it funds
+
+Equity-free funding of up to US$100,000 for early-stage climate and health technology.
+
+#### How it connects to heat
+
+Common Shade's reading. The 2026 call cited children's exposure to extreme heat among its concerns.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Early-stage technology companies, as each call defines.
+
+#### Kind of money
+
+Equity-free funding
+
+#### What it could support
+
+Pilots and demonstrations
+
+#### Calls and rounds
+
+- [UNICEF Venture Fund: funding frontier climate tech for children's health](https://beattheheat.asia/heat-economy/money/opportunities/#opp-unicef-climate-health-2026) · Closed
+
+[Monitor future calls](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
+
+**Source checked:** 21 November 2026 · [UNICEF Venture Fund: Funding frontier climate tech for children's health](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
+
+Community Resilience Partnership Program Trust FundRelated remit with a clear heat applicationGovernment nomination or endorsementAsian Development Bank
+
+#### What it funds
+
+Technical assistance and grant resources to scale up community-level climate adaptation.
+
+#### How it connects to heat
+
+Common Shade's reading. Community adaptation investments in ADB member countries can include heat measures.
+
+#### How to reach it
+
+Government nomination or endorsement. Resources flow through ADB operations with member governments; there is no open call for organisations.
+
+#### Who can receive money
+
+ADB developing member countries, through ADB projects.
+
+#### Kind of money
+
+Grant, Technical assistance (in kind)
+
+#### What it could support
+
+Infrastructure and equipment, Community organising and participation
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Check institutional eligibility](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)
+
+**Source checked:** 21 November 2026 · [Asian Development Bank: Community Resilience Partnership Program Trust Fund](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)
+
+GEF Small Grants ProgrammePotential connection requiring confirmationPeriodic competitive callsGEF Small Grants Programme
+
+#### What it funds
+
+Grants of up to US$50,000 a project, averaging about US$25,000, to national community-based organisations and NGOs, aligned with each country's programme strategy.
+
+#### How it connects to heat
+
+Common Shade's reading. Community projects on greening, water or energy can reduce heat exposure where they fit the country programme strategy; heat is not a named priority.
+
+#### How to reach it
+
+Periodic competitive calls. Applicants contact the National Coordinator in their country for guidelines and forms; the programme charges no fee.
+
+#### Who can receive money
+
+National community-based organisations and NGOs.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Community organising and participation, Pilots and demonstrations
+
+#### Calls and rounds
+
+No current call recorded here. Calls have been periodic; the next one is not announced.
+
+[Monitor future calls](https://sgp.undp.org/about-us-157/how-to-apply.html)
+
+**Source checked:** 21 November 2026 · [GEF Small Grants Programme (UNDP): How to Apply](https://sgp.undp.org/about-us-157/how-to-apply.html)
+
+IKI Small GrantsPotential connection requiring confirmationPeriodic competitive callsGIZ, with International Climate Initiative (IKI)
+
+#### What it funds
+
+Grants of 60,000 to 200,000 euros for local non-profit organisations in ODA-eligible countries working on climate and biodiversity.
+
+#### How it connects to heat
+
+Common Shade's reading. A local adaptation project could address heat; the call's themes are climate and biodiversity in general, so fit needs confirming.
+
+#### How to reach it
+
+Periodic competitive calls. Annual international calls for proposals; the 8th call was announced as open on 15 November 2026.
+
+#### Who can receive money
+
+Sub-national, national and regional non-profit organisations in ODA-eligible countries.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Community organising and participation, Pilots and demonstrations
+
+#### Calls and rounds
+
+- [IKI Small Grants: eighth call](https://beattheheat.asia/heat-economy/money/opportunities/#opp-iki-small-2026) · Open
+
+[Monitor future calls](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
+
+**Source checked:** 21 November 2026 · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
+
+ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)Explicit heat focusProcurement or vendor registrationGovernment nomination or endorsementAsian Development Bank
+
+#### What it funds
+
+Regional technical assistance to integrate gender-responsive extreme heat adaptation into investments.
+
+#### How it connects to heat
+
+Common Shade's reading. Extreme heat adaptation is the subject of the technical assistance.
+
+#### How to reach it
+
+Procurement or vendor registration; Government nomination or endorsement. Consultants are recruited through ADB's consulting system; governments take part through ADB operations.
+
+#### Who can receive money
+
+ADB member countries, with consultants recruited for the work.
+
+#### Kind of money
+
+Technical assistance (in kind), Contract (procurement, not a grant)
+
+#### What it could support
+
+Policy and institutional capacity, Research and evidence
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Check institutional eligibility](https://www.adb.org/projects/59391-001/main)
+
+**Source checked:** 21 November 2026 · [Asian Development Bank: 59391-001: Investing in Resilience to Extreme Heat: Sector and Gender-Responsive Adaptation Solutions](https://www.adb.org/projects/59391-001/main)
+
+GCF funding through accredited entitiesRelated remit with a clear heat applicationThrough accredited entitiesGovernment nomination or endorsementGreen Climate Fund
+
+#### What it funds
+
+Projects and programmes proposed by accredited entities, national or international.
+
+#### How it connects to heat
+
+Common Shade's reading. Large adaptation programmes can include heat measures; heat is not a separate GCF window.
+
+#### How to reach it
+
+Through accredited entities; Government nomination or endorsement. Only accredited entities submit funding proposals; national entities seek accreditation with a nomination from their National Designated Authority.
+
+#### Who can receive money
+
+Accredited entities, national (direct access) or international.
+
+#### Kind of money
+
+Grant, Loan or debt (not a grant), Equity (not a grant)
+
+#### What it could support
+
+Infrastructure and equipment, Scaling and replication, Policy and institutional capacity
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Check institutional eligibility](https://www.greenclimate.fund/partners/accredited-entities)
+
+**Source checked:** 21 November 2026 · [Green Climate Fund: Accredited Entities](https://www.greenclimate.fund/partners/accredited-entities)
+
+GCF Readiness and Preparatory SupportRelated remit with a clear heat applicationGovernment nomination or endorsementThrough accredited entitiesGreen Climate Fund
+
+#### What it funds
+
+Grants that strengthen national institutions, country programming and direct access entities, requested through the National Designated Authority.
+
+#### How it connects to heat
+
+Common Shade's reading. Countries can use readiness support to plan adaptation, including heat-health and early-warning measures, where national priorities include them.
+
+#### How to reach it
+
+Government nomination or endorsement; Through accredited entities. Requests come from the National Designated Authority, or an entity it nominates.
+
+#### Who can receive money
+
+National Designated Authorities and direct access entities.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Policy and institutional capacity
+
+#### Calls and rounds
+
+- [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcf-readiness-2027) · Rolling
+
+[Check institutional eligibility](https://www.greenclimate.fund/readiness)
+
+**Source checked:** 21 November 2026 · [Green Climate Fund: Readiness and Preparatory Support](https://www.greenclimate.fund/readiness)
+
+Global EbA FundPotential connection requiring confirmationPeriodic competitive callsIUCN
+
+#### What it funds
+
+Grants for ecosystem-based adaptation, in small-size and medium-size calls.
+
+#### How it connects to heat
+
+Common Shade's reading. Ecosystem-based measures such as urban greening can lower heat; the fund's priority countries and themes decide fit.
+
+#### How to reach it
+
+Periodic competitive calls.
+
+#### Who can receive money
+
+Organisations as each call defines.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Pilots and demonstrations
+
+#### Calls and rounds
+
+- [Global EbA Fund: small-size grants, eighth call](https://beattheheat.asia/heat-economy/money/opportunities/#opp-global-eba-small-2026) · Closed
+
+[Monitor future calls](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
+
+**Source checked:** 21 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
+
+Clean Cooling CollaborativeExplicit heat focusNo public application route foundClimateWorks Foundation
+
+#### What it funds
+
+Philanthropic initiative on efficient, climate-friendly cooling.
+
+#### How it connects to heat
+
+Common Shade's reading. Sustainable cooling is its whole remit.
+
+#### How to reach it
+
+No public application route found. No open call or application route was found on its site at the check (21 November 2026).
+
+#### Who can receive money
+
+Partners it selects.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Policy and institutional capacity, Scaling and replication
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Monitor future calls](https://www.cleancoolingcollaborative.org/)
+
+**Source checked:** 21 November 2026 · [Clean Cooling Collaborative (ClimateWorks Foundation): Clean Cooling Collaborative](https://www.cleancoolingcollaborative.org/)
+
+City Climate Finance Gap FundRelated remit with a clear heat applicationDirect open applicationsCity Climate Finance Gap Fund
+
+#### What it funds
+
+Helps cities in developing and emerging countries turn climate-resilient ideas into strategies and finance-ready projects.
+
+#### How it connects to heat
+
+Common Shade's reading. Cities can request help to prepare projects such as greening or heat-resilient infrastructure; heat is not a separate window.
+
+#### How to reach it
+
+Direct open applications. Cities and local governments apply for support through the Gap Fund's application page.
+
+#### Who can receive money
+
+Cities and local governments in developing and emerging countries.
+
+#### Kind of money
+
+Technical assistance (in kind)
+
+#### What it could support
+
+Policy and institutional capacity, Infrastructure and equipment
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Monitor future calls](https://www.citygapfund.org/)
+
+**Source checked:** 21 November 2026 · [City Climate Finance Gap Fund: City Climate Finance Gap Fund](https://www.citygapfund.org/)
+
+**The three relevance labels.** Explicit heat focus; Related remit with a clear heat application; Potential connection requiring confirmation. The third is never presented as confirmed eligibility.
+
+## What needs funding?
+
+The kinds of work heat protection needs, and how many records in this curated dataset explicitly support each. A low number is a gap in the dataset, not proof that no funding exists: the absence of a published call is not the absence of funding.
+
+- **Research and evidence**8 records[Wellcome Climate Impacts Awards](#fund-prog-wellcome-cia) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Advancing Research on Climate and Health](#fund-prog-idrc-arch) · [ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)](#fund-prog-adb-heat-ta) · [Grand Challenges: climate change's impact on health, agriculture and gender](#fund-prog-gates-gc-climate) · [Horizon Europe Cluster 1: Health (environment and health topics)](#fund-prog-horizon-health) and 2 more
+- **Community organising and participation**10 records[IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) · [ClimateWorks Adaptation and Resilience Fund](#fund-prog-cw-arf) · [Climate Justice Resilience Fund grants](#fund-prog-cjrf) · [Community Resilience Partnership Program Trust Fund](#fund-prog-adb-crpp) and 4 more
+- **Pilots and demonstrations**18 records[Nexa Lighthouse (climate and health innovation, Asia and the Pacific)](#fund-prog-gcc-nexa-lighthouse) · [Nexa (climate and health, Africa, Latin America and the Caribbean)](#fund-prog-gcc-nexa) · [IKI Medium Grants](#fund-prog-iki-medium) · [IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) and 12 more
+- **Infrastructure and equipment**3 records[GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Community Resilience Partnership Program Trust Fund](#fund-prog-adb-crpp) · [City Climate Finance Gap Fund](#fund-prog-gapfund)
+- **Recurring delivery and maintenance**2 records · Little verified coverage so far[Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) · [IFRC Disaster Response Emergency Fund (DREF)](#fund-prog-ifrc-dref)
+- **Policy and institutional capacity**13 records[IKI Medium Grants](#fund-prog-iki-medium) · [GCF Readiness and Preparatory Support](#fund-prog-gcf-readiness) · [GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Clean Cooling Collaborative](#fund-prog-ccc) · [ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)](#fund-prog-adb-heat-ta) and 7 more
+- **Scaling and replication**7 records[Nexa Lighthouse (climate and health innovation, Asia and the Pacific)](#fund-prog-gcc-nexa-lighthouse) · [Nexa (climate and health, Africa, Latin America and the Caribbean)](#fund-prog-gcc-nexa) · [GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Clean Cooling Collaborative](#fund-prog-ccc) · [GRP Innovation Challenge](#fund-prog-grp-challenge) · [Z Zurich Foundation partnership with the IFRC Global Climate Resilience Platform](#fund-prog-zurich-gcrp) and 1 more
+
+### By the heat problem it touches
+
+- **Occupational heat and informal workers** 4
+- **Factory and agricultural value chains** 2 · Little verified coverage so far
+- **Homes and night-time recovery** 1 · Little verified coverage so far
+- **Schools and care** 2 · Little verified coverage so far
+- **Health systems** 15
+- **Early warning and anticipatory action** 7
+- **Municipal governance** 16
+- **Water, nature and public space** 10
+- **Cooling and energy** 4
+- **Gender, disability and social protection** 11
+
+- Coverage is curated, not complete. Calls in national languages, national government schemes and private foundations without public calls are under-represented.
+- Few verified records fund recurring delivery and maintenance, worker organisations or locally led delivery. This is a gap in the dataset, not a finding about the whole funding landscape.
+- Automated discovery only creates candidates. A person checks each against its primary page before it is published.
 
 ## Funding we traced
 
@@ -48,6 +1024,8 @@ Heat warnings and data | US$72.0 million | none found |
 Most of the funding we could trace went to cooling equipment, cold storage, shared cooling networks and heat data, where there is a clear buyer for a product or a contract. Services such as paid rest, shared cool rooms and warnings for everyone are usually paid for from public budgets, which this list does not cover. It is a sample of public announcements, not the whole picture.
 
 ## Funders and investors 77
+
+From the October 2026 research and the funding traced since, listed with the kind of money each provides. Venture capital, impact investors and company investment arms provide equity or loans, which are not grant funding; they are labelled by kind. For programmes with grants and their access routes, see [the funding landscape](#landscape).
 
 SearchKind of funder
 
@@ -1250,7 +2228,7 @@ Check the funder’s own website for what it funds now and how to apply.
 
 Each helps at a different stage: finding new ideas, testing them, a place to try them, meeting buyers, or money to grow. Look for the ones that help you meet buyers: winning a prize does not by itself bring customers.
 
-Global Cooling PrizePrizePartly helps you meet buyersResidential AC prototypes with energy, refrigerant and cost criteria.
+Global Cooling PrizePrizePartly helps you meet buyersCompleted competition (winners announced in 2021)Residential AC prototypes with energy, refrigerant and cost criteria.
 
 #### Run by
 

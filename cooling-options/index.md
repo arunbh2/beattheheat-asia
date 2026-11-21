@@ -1,7 +1,7 @@
 ---
 title: "Cooling options by place, and what keeps them working | Common Shade"
 url: https://beattheheat.asia/cooling-options/
-updated: 2026-11-18
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -277,6 +277,16 @@ Street shade | Singapore | One extremely hot afternoon, 20 pairs of sunlit and s
 A park | Singapore | January to December 2022, sensors in a park and its surrounding urban area | Air temperature in the park against the surrounding area | The park was cooler through the day and night: about 2.21 °C by day and 1.69 °C at night on average. Source: [Scientific Reports, 2025](https://ink.library.smu.edu.sg/cis_research/430) |
 Reflective roofs | Hyderabad | Measured on individual commercial buildings | Air-conditioning energy use before and after whitening the roof | Whitening previously black roofs cut air-conditioning energy by 14 to 26%; white coating on bare concrete roofs, by 10 to 19% (an estimate from the same study). Source: [Lawrence Berkeley National Laboratory and IIIT Hyderabad, 2011](https://www.osti.gov/servlets/purl/1026804) |
 Cool roofs in low-income homes | Ahmedabad | 16 slum households, 4 to 10 October 2017, after the monsoon | Indoor temperature under four roof treatments (including reflective white paint and insulation) against tin, asbestos-cement and concrete roofs | The checked text describes the method, not the figures; see the study for its results. Source: [Indian Journal of Occupational and Environmental Medicine, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734) |
+
+## Funding and opportunities
+
+Programmes and calls in the funding dataset whose published remit touches this topic. A programme is not an open call; each record says how it can be reached.
+
+- [GCF funding through accredited entities](https://beattheheat.asia/heat-economy/money/#fund-prog-gcf-accredited) Related remit with a clear heat application · Through accredited entities
+- [ClimateWorks Adaptation and Resilience Fund](https://beattheheat.asia/heat-economy/money/#fund-prog-cw-arf) Explicit heat focus · Periodic competitive calls
+- [Clean Cooling Collaborative](https://beattheheat.asia/heat-economy/money/#fund-prog-ccc) Explicit heat focus · No public application route found
+
+[All calls on this topic](https://beattheheat.asia/heat-economy/money/opportunities/?topic=cooling&status=all) · [The funding landscape](https://beattheheat.asia/heat-economy/money/#landscape) · [Careers](https://beattheheat.asia/heat-economy/money/careers/)
 
 ---
 Human edition: https://beattheheat.asia/cooling-options/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

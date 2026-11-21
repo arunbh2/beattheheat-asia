@@ -1,7 +1,7 @@
 ---
 title: "Businesses offering protection from heat"
 url: https://beattheheat.asia/heat-economy/businesses/
-updated: 2026-11-16
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 

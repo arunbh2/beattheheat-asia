@@ -24,7 +24,7 @@
   "changed": "2026-11-20"
  },
  "/actions/": {
-  "hash": "10d2b962f8cca64c",
+  "hash": "664a80e3ab43103b",
   "changed": "2026-11-21"
  },
  "/approach/": {
@@ -56,8 +56,8 @@
   "changed": "2026-11-17"
  },
  "/cities/": {
-  "hash": "7eb46afa99671b5a",
-  "changed": "2026-11-16"
+  "hash": "c93f2b1e7158e734",
+  "changed": "2026-11-21"
  },
  "/cities/ahmedabad/": {
   "hash": "10105bec84463282",
@@ -148,8 +148,8 @@
   "changed": "2026-11-21"
  },
  "/cooling-options/": {
-  "hash": "6c36f53fa8ea72be",
-  "changed": "2026-11-18"
+  "hash": "2731eaa36bb7af6b",
+  "changed": "2026-11-21"
  },
  "/corrections/": {
   "hash": "74f87966858d838f",
@@ -220,19 +220,19 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "064aa9d4ec7119c5",
+  "hash": "0634ce1910573449",
   "changed": "2026-11-21"
  },
  "/fund/": {
-  "hash": "497c6061d47283dd",
-  "changed": "2026-11-18"
+  "hash": "c43858b262468799",
+  "changed": "2026-11-21"
  },
  "/glossary/": {
   "hash": "2d8c19f27a4d3421",
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "2c038b2a5cb8781c",
+  "hash": "bf377b626295ff54",
   "changed": "2026-11-21"
  },
  "/guide/": {
@@ -240,35 +240,43 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "b1654e06166c6db9",
+  "hash": "23887e524e78090a",
   "changed": "2026-11-21"
  },
  "/heat-economy/": {
-  "hash": "c18fccd1706bc155",
-  "changed": "2026-11-17"
+  "hash": "a84c70cf483dd687",
+  "changed": "2026-11-21"
  },
  "/heat-economy/businesses/": {
-  "hash": "553018e1dc64e26f",
-  "changed": "2026-11-16"
+  "hash": "895cc39aec527bb7",
+  "changed": "2026-11-21"
  },
  "/heat-economy/conditions/": {
-  "hash": "403ed0c70a724906",
-  "changed": "2026-11-17"
+  "hash": "8f1f7fd1706c72c6",
+  "changed": "2026-11-21"
  },
  "/heat-economy/flows/": {
-  "hash": "687bf616b682ba74",
-  "changed": "2026-11-01"
+  "hash": "0bdb01e2940dd510",
+  "changed": "2026-11-21"
  },
  "/heat-economy/money/": {
-  "hash": "c0465d559dd5b357",
-  "changed": "2026-11-16"
+  "hash": "91872fb2329c63aa",
+  "changed": "2026-11-21"
+ },
+ "/heat-economy/money/careers/": {
+  "hash": "f5b9cae7475e384b",
+  "changed": "2026-10-01"
+ },
+ "/heat-economy/money/opportunities/": {
+  "hash": "27a45e51bfb3bf8d",
+  "changed": "2026-10-01"
  },
  "/heat-economy/opportunities/": {
-  "hash": "a9c24ee6b230afcb",
-  "changed": "2026-11-16"
+  "hash": "944c28f7fef381a5",
+  "changed": "2026-11-21"
  },
  "/heat-network/": {
-  "hash": "d71fdaf06eed0b8e",
+  "hash": "c7f90a992911aaf8",
   "changed": "2026-11-21"
  },
  "/heat-tools/": {
@@ -384,7 +392,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "2f19845de9122104",
+  "hash": "00ce27830849b220",
   "changed": "2026-11-21"
  },
  "/loops/": {
@@ -652,11 +660,11 @@
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "6e034bb0332205cb",
+  "hash": "be59da4c2c8f9050",
   "changed": "2026-11-21"
  },
  "/signals/all/": {
-  "hash": "f45d73586f7f161c",
+  "hash": "62692d5d9c978c83",
   "changed": "2026-11-21"
  },
  "/social-protection/": {
@@ -668,7 +676,7 @@
   "changed": "2026-11-16"
  },
  "/sources/": {
-  "hash": "c1409724021ec18a",
+  "hash": "c400e4e8ce3cdccf",
   "changed": "2026-11-21"
  },
  "/the-web/": {
@@ -704,8 +712,8 @@
   "changed": "2026-11-19"
  },
  "/who-is-at-risk/": {
-  "hash": "9feae561217534c5",
-  "changed": "2026-11-20"
+  "hash": "5f1ad35e09e6bbb1",
+  "changed": "2026-11-21"
  },
  "/worked-plans/": {
   "hash": "7c579e3076b7ac2f",

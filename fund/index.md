@@ -1,7 +1,7 @@
 ---
 title: "Fund and build"
 url: https://beattheheat.asia/fund/
-updated: 2026-11-18
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -20,12 +20,14 @@ Where money for protection comes from, where it reaches, and what to ask before 
 - [The heat economyWho offers protection, who funds it, and what could be built](https://beattheheat.asia/heat-economy/)
 - [Paying when heat strikesInsurance, pools, credit and forecast funds: did they pay, and when?On the path for: National](https://beattheheat.asia/paying-when-heat-strikes/)
 - [Paying for protectionWhat needs paying for, and when money is neededOn the path for: City teams, National](https://beattheheat.asia/finance/)
-- [Funders and funding77 funders, 52 pieces of funding traced](https://beattheheat.asia/heat-economy/money/)
+- [Funders and fundingWho funds heat work and how to reach them, open calls and careers; 52 pieces of funding traced](https://beattheheat.asia/heat-economy/money/)
 - [Questions to askBefore you buy, fund or start something](https://beattheheat.asia/heat-economy/conditions/)
 - [Ideas to explore32 ideas, one or more for every cycle](https://beattheheat.asia/heat-economy/opportunities/)
 
 ## Also in Fund and build
 
+- [Open calls and tendersGrants, calls and procurement notices, 3 verified open, with the archive](https://beattheheat.asia/heat-economy/money/opportunities/)
+- [Careers in heat resilience3 jobs, consultancies, research posts and fellowships](https://beattheheat.asia/heat-economy/money/careers/)
 - [Businesses91 businesses offering protectionOn the path for: Employers](https://beattheheat.asia/heat-economy/businesses/)
 - [The heat network336 organisations already at workOn the path for: Communities](https://beattheheat.asia/heat-network/)
 - [Paying for protection, as textCases and instruments in plain text](https://beattheheat.asia/paying-for-protection/)

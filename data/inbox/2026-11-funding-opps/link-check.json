@@ -1,0 +1,583 @@
+{
+ "_terms": {
+  "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/": {
+   "Nexa Lighthouse": true,
+   "December 8, 2026": true,
+   "8 December 2026": false,
+   "extended": true,
+   "Fluxx": true,
+   "Transition to Scale": true,
+   "2:00 p.m. ET": true,
+   "extreme heat": true,
+   "Asia and the Pacific": true,
+   "250,000": true,
+   "2,000,000": true,
+   "organizations": false,
+   "Appendix B": true
+  },
+  "https://www.grandchallenges.ca/portfolio/nexa-lighthouse/": {
+   "Nexa Lighthouse": true,
+   "AVPN": true,
+   "heat": true,
+   "December 8, 2026": true,
+   "November 17": false
+  },
+  "https://temasekfoundation.org.sg/news/media-releases/grand-challenges-canada-and-avpn-launch-nexa-lighthouse-to-fund-climate-and-health-innovation-across-asia-and-the-pacific": {
+   "Nexa Lighthouse": true,
+   "AVPN": true,
+   "Asia and the Pacific": true,
+   "heat": true
+  },
+  "https://www.grandchallenges.ca/climate-and-health/": {
+   "Nexa": true,
+   "heat": true,
+   "climate": true
+  },
+  "https://www.grandchallenges.ca/funding-opportunity-nexa/": {
+   "Nexa": true,
+   "Africa": true,
+   "Latin America": true,
+   "Caribbean": true,
+   "heat": true
+  },
+  "https://www.international-climate-initiative.com/en/find-funding/medium-grants/": {
+   "2026": true,
+   "Medium Grants": true,
+   "12 January 2027": false,
+   "300,000": true,
+   "800,000": true,
+   "Germany": true,
+   "local": true,
+   "adaptation": true
+  },
+  "https://www.international-climate-initiative.com/en/find-funding/small-grants/": {
+   "2026": true,
+   "Small Grants": true,
+   "60,000": true,
+   "200,000": true,
+   "non-profit": true,
+   "8 January 2027": false
+  },
+  "https://iki-small-grants.de/": {
+   "Small Grants": true,
+   "8 January 2027": false,
+   "eligibility": false,
+   "call": true
+  },
+  "https://www.apn-gcr.org/opportunities/calls-for-proposals/": {
+   "2026": false,
+   "CRRP": false,
+   "CAPaBLE": false,
+   "30 November 2026": false,
+   "summary proposal": false
+  },
+  "https://www.greenclimate.fund/readiness": {
+   "Readiness": true,
+   "National Designated Authorit": true,
+   "direct access": true
+  },
+  "https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf": {
+   "31 March 2027": true,
+   "Partner Portal": true,
+   "NDA": true,
+   "readiness": true
+  },
+  "https://www.greenclimate.fund/partners/accredited-entities": {
+   "accredited": true,
+   "direct access": true
+  },
+  "https://www.greenclimate.fund/access-funding/accreditation/process/1-nomination": {
+   "nomination": true,
+   "National Designated Authorit": true,
+   "direct access": true
+  },
+  "https://sgp.undp.org/about-us-157/how-to-apply.html": {
+   "National Coordinator": true,
+   "50,000": true,
+   "25,000": true,
+   "CBOs": true,
+   "NGOs": true,
+   "Country Programme Strategy": true,
+   "does not charge a fee": true
+  },
+  "https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/": {
+   "locally led": true,
+   "implementing entit": true,
+   "Locally Led Adaptation": true
+  },
+  "https://www.adaptation-fund.org/apply-funding/implementing-entities/": {
+   "accredited": true,
+   "National Implementing Entit": true,
+   "direct access": true
+  },
+  "https://www.ctc-n.org/whats-happening/news/call-proposals-climate-adaptation-innovation-asia-pacific": {
+   "Asia Pacific": false,
+   "7 October 2026": false,
+   "Adaptation Fund": false,
+   "150,000": false,
+   "technical assistance": false
+  },
+  "https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2": {
+   "Climate Impacts Awards": true,
+   "2.5 million": true,
+   "health effects of climate change": true,
+   "closed": false
+  },
+  "https://wellcome.org/our-priorities/climate-and-health": {
+   "climate": true,
+   "health": true,
+   "heat": true
+  },
+  "https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare": {
+   "CLARE": true,
+   "Foreign, Commonwealth": true,
+   "adaptation": true,
+   "resilience": true
+  },
+  "https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health": {
+   "climate and health": true,
+   "heat": true,
+   "FCDO": false
+  },
+  "https://idrc-crdi.ca/en/funding": {
+   "funding": true,
+   "calls": true
+  },
+  "https://www.climateworks.org/programs/adaptation-and-resilience/fund/": {
+   "Adaptation and Resilience Fund": true,
+   "heat": true,
+   "unsolicited": false
+  },
+  "https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/": {
+   "extreme heat": true,
+   "grantees": true,
+   "South Asia": true,
+   "Southeast Asia": true
+  },
+  "https://www.cleancoolingcollaborative.org/": {
+   "Clean Cooling Collaborative": true,
+   "cooling": true,
+   "unsolicited": false,
+   "proposals": false
+  },
+  "https://www.cjrfund.org/": {
+   "Climate Justice Resilience Fund": true,
+   "invitation": false,
+   "unsolicited": false
+  },
+  "https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund": {
+   "Community Resilience Partnership": true,
+   "technical assistance": true,
+   "grant": true,
+   "climate-poverty": false
+  },
+  "https://www.adb.org/projects/59391-001/main": {
+   "Extreme Heat": true,
+   "Gender": true,
+   "Technical Assistance": true,
+   "Bangladesh": true,
+   "Thailand": true
+  },
+  "https://www.adb.org/work-with-us/consultants": {
+   "consult": false,
+   "CMS": false
+  },
+  "https://www.citygapfund.org/": {
+   "Gap Fund": true,
+   "cities": true,
+   "technical assistance": false,
+   "expression of interest": false
+  },
+  "https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities": {
+   "extreme heat": true,
+   "South Asia": true,
+   "Heat Action Plans": true
+  },
+  "https://cerf.un.org/what-we-do/anticipatory-action": {
+   "anticipatory": false,
+   "CERF": false,
+   "UN agencies": false
+  },
+  "https://startnetwork.org/funds/start-fund": {
+   "Start Fund": false,
+   "members": false,
+   "heatwave": false
+  },
+  "https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref": {
+   "DREF": true,
+   "National Societies": true,
+   "anticipatory": true
+  },
+  "https://www.unicef.org/innovation/call-for-application-climate-and-health-2026": {
+   "climate": true,
+   "health": true,
+   "100,000": true,
+   "equity-free": true,
+   "heat": true,
+   "17 May 2026": true,
+   "May 17, 2026": false
+  },
+  "https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/": {
+   "Innovation Challenge": true,
+   "Global South": true,
+   "22 May 2026": true,
+   "heat": false
+  },
+  "https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender": {
+   "heat stress": true,
+   "South Asia": true,
+   "climate change": true,
+   "gender": true
+  },
+  "https://gcgh.grandchallenges.org/challenges": {
+   "Grand Challenges": true,
+   "open": true,
+   "closed": false
+  },
+  "https://energy-base.org/?p=3408": {
+   "EPIC Deploy": true,
+   "cooling": true,
+   "Call for Proposals": true,
+   "31 October 2026": true
+  },
+  "https://www.convergence.finance/accelerator/acs": {
+   "Asia Climate Solutions": true,
+   "Southeast Asia": true,
+   "design grant": true,
+   "nature-based": true
+  },
+  "https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects": {
+   "Global EbA Fund": true,
+   "250,000": true,
+   "26 October": true,
+   "16 November": true,
+   "small-size": true,
+   "medium-size": true
+  },
+  "https://commonwealthfoundation.com/grants/annual/": {
+   "26 October 2026": true,
+   "Climate and environmental justice": true,
+   "Collective Action": true,
+   "Individual Organisation": true
+  },
+  "https://www.toyotafound.or.jp/english/grant/international/": {
+   "International Grant Program": true,
+   "Asia": true,
+   "practitioners": true
+  },
+  "https://www.zurich.foundation/": {
+   "Z Zurich Foundation": true,
+   "climate": true,
+   "unsolicited": false
+  },
+  "https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf": {
+   "extreme heat": true,
+   "Z Zurich Foundation": true,
+   "Global Climate Resilience Platform": true
+  },
+  "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json": {
+   "exposome": true,
+   "climate": true,
+   "international cooperation": true,
+   "HORIZON-HLTH-2027-01-ENVHLTH-02": true
+  },
+  "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250": {
+   "Heat-smart": true,
+   "RFP-050-IND-2026": true,
+   "19-Jun-26": true,
+   "toolkit": true
+  },
+  "https://www.ungm.org/Public/Notice/317698": {
+   "heat": true,
+   "Thailand": true,
+   "26-Oct-2026": false,
+   "ILO": true
+  },
+  "https://www.who.int/news-room/articles-detail/call-for-consultant-health-sector-capacity-on-heat-air-quality-and-health": {
+   "heat": true,
+   "air quality": true,
+   "2 October 2026": true,
+   "consultant": true
+  },
+  "https://globalhealth.harvard.edu/fellowships/hghi-burke-fellowship/": {
+   "Burke": true,
+   "Climate and Health": true,
+   "November 15, 2026": false,
+   "January 3, 2027": true,
+   "Harvard Faculty Mentor": true,
+   "currently closed": false
+  },
+  "https://careers.nus.edu.sg/job/Research-Fellow-%28HRPC%29/27881-en_GB": {
+   "Research Fellow": false,
+   "heat": false,
+   "Apply": false,
+   "Singapore": true
+  },
+  "https://careers.nus.edu.sg/job/Research-Fellow-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33563-en_GB": {
+   "Research Fellow": true,
+   "microclimate": true,
+   "thermal": true,
+   "Apply": true
+  },
+  "https://careers.nus.edu.sg/job/Research-Fellow-%28Data-Science-HRPC%29/30161-en_GB": {
+   "Research Fellow": false,
+   "heat": false,
+   "Apply": false
+  },
+  "https://www.climatecentre.org/contact/open-positions/": {
+   "heat": false,
+   "intern": true,
+   "application@climatecentre.org": false
+  },
+  "https://www.ifrc.org/jobs": {
+   "heat": false,
+   "consultant": false
+  },
+  "https://globalcoolingprize.org/grand-winners-press-release/": {
+   "2021": true,
+   "Global Cooling Prize": true,
+   "winners": true
+  },
+  "https://www.theliveabilitychallenge.org/": {
+   "2026": true,
+   "Liveability": true,
+   "apply": false,
+   "applications": true,
+   "closed": true
+  },
+  "https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/": {
+   "2026": true,
+   "Global": true,
+   "apply": false,
+   "applications": false,
+   "closed": false
+  },
+  "https://www.wri.org/initiatives/keep-cool-innovation-challenge-cool-solutions-warming-world": {
+   "2026": true,
+   "Keep": true,
+   "apply": true,
+   "applications": false,
+   "closed": false
+  },
+  "https://earthonfoundation.org/greenovation-urban-climate-resilience-challenge/": {
+   "2026": true,
+   "Greenovation": true,
+   "apply": true,
+   "applications": true,
+   "closed": false
+  },
+  "https://www.socialalpha.org/techtonic-innovations-in-clean-energy-2026/": {
+   "2026": true,
+   "Techtonic": true,
+   "apply": true,
+   "applications": true,
+   "closed": false
+  },
+  "https://www.socialalpha.org/basking-in-cold-comfort-with-tan90/": {
+   "2026": true,
+   "Social": true,
+   "apply": false,
+   "applications": false,
+   "closed": false
+  },
+  "https://villgro.org/programs/powering-livelihoods/": {
+   "2026": false,
+   "Powering": true,
+   "apply": true,
+   "applications": true,
+   "closed": true
+  },
+  "https://efficiencyforaccess.org/rd-fund/about-the-rd-fund/": {
+   "2026": true,
+   "Efficiency": true,
+   "apply": false,
+   "applications": false,
+   "closed": false
+  },
+  "https://challenges.adb.org/en/challenges/genderandheat": {
+   "2026": false,
+   "Rising": true,
+   "apply": true,
+   "applications": false,
+   "closed": false
+  },
+  "https://challenges.adb.org/en/challenges/tic-coldchain": {
+   "2026": true,
+   "Bridging": true,
+   "apply": false,
+   "applications": false,
+   "closed": false
+  },
+  "https://climatepitch.org/": {
+   "2026": true,
+   "Climate": true,
+   "apply": true,
+   "applications": false,
+   "closed": false
+  },
+  "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma-innovation-fund/": {
+   "2026": false,
+   "GSMA": false,
+   "apply": false,
+   "applications": false,
+   "closed": false
+  },
+  "https://www.globalinnovation.fund/what-we-do": {
+   "2026": true,
+   "Global": true,
+   "apply": true,
+   "applications": false,
+   "closed": false
+  },
+  "https://www.prosperglobalventures.com/climate-lab": {
+   "2026": true,
+   "Climate": true,
+   "apply": true,
+   "applications": true,
+   "closed": false
+  },
+  "https://www.techemerge.org/our-focus/sustainable-cooling/": {
+   "2026": true,
+   "TechEmerge": true,
+   "apply": true,
+   "applications": false,
+   "closed": true
+  },
+  "https://www.third-derivative.org/blog/d3-incoming-general-cohort-25-3-newsbrief": {
+   "2026": true,
+   "Third": true,
+   "apply": true,
+   "applications": true,
+   "closed": false
+  },
+  "https://earthshotprize.org/news/five-winners-of-the-2024-earthshot-prize-are-unveiled-in-cape-town/": {
+   "2026": true,
+   "Earthshot": true,
+   "apply": false,
+   "applications": false,
+   "closed": false
+  },
+  "https://india.un.org/en/200833-interview-soumalya-mukherjee": {
+   "2026": true,
+   "Facility": true,
+   "apply": false,
+   "applications": true,
+   "closed": false
+  },
+  "https://coolcoalition.org/projects/nature-cooling-challenge": {
+   "2026": false,
+   "Nature": true,
+   "apply": false,
+   "applications": false,
+   "closed": false
+  },
+  "https://open.innovation-challenge.sg/en/challenges/soic-6th-edition/pages/categories?lang=en": {
+   "2026": true,
+   "SOIC": true,
+   "apply": true,
+   "applications": true,
+   "closed": true
+  },
+  "https://10across.org/10xprize/": {
+   "2026": true,
+   "PRIZE": true,
+   "apply": true,
+   "applications": false,
+   "closed": false
+  },
+  "https://tomkat.stanford.edu/innovation-transfer": {
+   "2026": true,
+   "TomKat": true,
+   "apply": true,
+   "applications": false,
+   "closed": false
+  },
+  "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities": {
+   "Beat the Heat": false,
+   "expression of interest": false,
+   "three cities": false,
+   "Secretariat": false,
+   "heat action": false,
+   "cities": false
+  }
+ },
+ "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/": "OK",
+ "https://www.grandchallenges.ca/portfolio/nexa-lighthouse/": "OK",
+ "https://temasekfoundation.org.sg/news/media-releases/grand-challenges-canada-and-avpn-launch-nexa-lighthouse-to-fund-climate-and-health-innovation-across-asia-and-the-pacific": "OK",
+ "https://www.grandchallenges.ca/climate-and-health/": "OK",
+ "https://www.grandchallenges.ca/funding-opportunity-nexa/": "OK",
+ "https://www.international-climate-initiative.com/en/find-funding/medium-grants/": "OK",
+ "https://www.international-climate-initiative.com/en/find-funding/small-grants/": "OK",
+ "https://iki-small-grants.de/": "OK",
+ "https://www.apn-gcr.org/opportunities/calls-for-proposals/": "BLOCKED",
+ "https://www.greenclimate.fund/readiness": "OK",
+ "https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf": "OK",
+ "https://www.greenclimate.fund/partners/accredited-entities": "OK",
+ "https://www.greenclimate.fund/access-funding/accreditation/process/1-nomination": "OK",
+ "https://sgp.undp.org/about-us-157/how-to-apply.html": "OK",
+ "https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/": "OK",
+ "https://www.adaptation-fund.org/apply-funding/implementing-entities/": "OK",
+ "https://www.ctc-n.org/whats-happening/news/call-proposals-climate-adaptation-innovation-asia-pacific": "BLOCKED",
+ "https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2": "OK",
+ "https://wellcome.org/our-priorities/climate-and-health": "OK",
+ "https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare": "OK",
+ "https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health": "OK",
+ "https://idrc-crdi.ca/en/funding": "OK",
+ "https://www.climateworks.org/programs/adaptation-and-resilience/fund/": "OK",
+ "https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/": "OK",
+ "https://www.cleancoolingcollaborative.org/": "OK",
+ "https://www.cjrfund.org/": "REDIRECT",
+ "https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund": "OK",
+ "https://www.adb.org/projects/59391-001/main": "BLOCKED",
+ "https://www.adb.org/work-with-us/consultants": "FAIL",
+ "https://www.citygapfund.org/": "OK",
+ "https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities": "OK",
+ "https://cerf.un.org/what-we-do/anticipatory-action": "FAIL",
+ "https://startnetwork.org/funds/start-fund": "FAIL",
+ "https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref": "BLOCKED",
+ "https://www.unicef.org/innovation/call-for-application-climate-and-health-2026": "OK",
+ "https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/": "OK",
+ "https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender": "OK",
+ "https://gcgh.grandchallenges.org/challenges": "OK",
+ "https://energy-base.org/?p=3408": "OK",
+ "https://www.convergence.finance/accelerator/acs": "OK",
+ "https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects": "OK",
+ "https://commonwealthfoundation.com/grants/annual/": "OK",
+ "https://www.toyotafound.or.jp/english/grant/international/": "OK",
+ "https://www.zurich.foundation/": "OK",
+ "https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf": "OK",
+ "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json": "OK",
+ "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250": "OK",
+ "https://www.ungm.org/Public/Notice/317698": "OK",
+ "https://www.who.int/news-room/articles-detail/call-for-consultant-health-sector-capacity-on-heat-air-quality-and-health": "OK",
+ "https://globalhealth.harvard.edu/fellowships/hghi-burke-fellowship/": "OK",
+ "https://careers.nus.edu.sg/job/Research-Fellow-%28HRPC%29/27881-en_GB": "OK",
+ "https://careers.nus.edu.sg/job/Research-Fellow-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33563-en_GB": "OK",
+ "https://careers.nus.edu.sg/job/Research-Fellow-%28Data-Science-HRPC%29/30161-en_GB": "OK",
+ "https://www.climatecentre.org/contact/open-positions/": "OK",
+ "https://www.ifrc.org/jobs": "BLOCKED",
+ "https://globalcoolingprize.org/grand-winners-press-release/": "OK",
+ "https://www.theliveabilitychallenge.org/": "OK",
+ "https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/": "OK",
+ "https://www.wri.org/initiatives/keep-cool-innovation-challenge-cool-solutions-warming-world": "OK",
+ "https://earthonfoundation.org/greenovation-urban-climate-resilience-challenge/": "OK",
+ "https://www.socialalpha.org/techtonic-innovations-in-clean-energy-2026/": "OK",
+ "https://www.socialalpha.org/basking-in-cold-comfort-with-tan90/": "OK",
+ "https://villgro.org/programs/powering-livelihoods/": "OK",
+ "https://efficiencyforaccess.org/rd-fund/about-the-rd-fund/": "OK",
+ "https://challenges.adb.org/en/challenges/genderandheat": "OK",
+ "https://challenges.adb.org/en/challenges/tic-coldchain": "OK",
+ "https://climatepitch.org/": "OK",
+ "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma-innovation-fund/": "BLOCKED",
+ "https://www.globalinnovation.fund/what-we-do": "OK",
+ "https://www.prosperglobalventures.com/climate-lab": "OK",
+ "https://www.techemerge.org/our-focus/sustainable-cooling/": "OK",
+ "https://www.third-derivative.org/blog/d3-incoming-general-cohort-25-3-newsbrief": "OK",
+ "https://earthshotprize.org/news/five-winners-of-the-2024-earthshot-prize-are-unveiled-in-cape-town/": "OK",
+ "https://india.un.org/en/200833-interview-soumalya-mukherjee": "OK",
+ "https://coolcoalition.org/projects/nature-cooling-challenge": "BLOCKED",
+ "https://open.innovation-challenge.sg/en/challenges/soic-6th-edition/pages/categories?lang=en": "OK",
+ "https://10across.org/10xprize/": "OK",
+ "https://tomkat.stanford.edu/innovation-transfer": "OK",
+ "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities": "BLOCKED"
+}

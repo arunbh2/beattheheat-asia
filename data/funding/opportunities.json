@@ -1,0 +1,999 @@
+{
+ "about": "Calls, prizes, technical assistance, readiness windows and procurement notices: one record per round, never reopened by date. Closed rounds stay as the archive. Status is computed (heat-economy/funding-core.js), never typed, except the source's own word in stated_status. Schema and rules: README.md.",
+ "records": [
+  {
+   "asia": true,
+   "deadline_history": [
+    {
+     "date": "2026-11-17",
+     "note": "earlier deadline as given in listings elsewhere; the official page says the deadline was extended"
+    }
+   ],
+   "topics": [
+    "health",
+    "warning"
+   ],
+   "activities": [
+    "scaling",
+    "pilots"
+   ],
+   "id": "opp-gcc-nexa-lighthouse-2026",
+   "title": "Nexa Lighthouse: Transition to Scale funding for climate and health innovation in Asia and the Pacific",
+   "org": "org-gcc",
+   "co_orgs": [
+    "org-avpn"
+   ],
+   "programme": "prog-gcc-nexa-lighthouse",
+   "round": "2026 call",
+   "type": "grant-call",
+   "instrument": "mixed",
+   "purpose": {
+    "text": "Funds proven innovations that help local health actors turn climate-risk signals into timely action, for hazards including extreme heat.",
+    "src": "gcc-lighthouse",
+    "term": "extreme heat"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Extreme heat is one of the hazards named in the call."
+   },
+   "eligibility": {
+    "text": "Applicants incorporated and implementing in countries across Asia and the Pacific; the full list of eligible countries is in Appendix B of the funding opportunity.",
+    "src": "gcc-lighthouse",
+    "term": "Applicants incorporated and implementing",
+    "applicants": [],
+    "lead_countries": [
+     "ASIA"
+    ],
+    "requires": [],
+    "lead_text": "Incorporated in an eligible country in Asia or the Pacific."
+   },
+   "geography": {
+    "text": "Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity.",
+    "src": "gcc-lighthouse",
+    "term": "Appendix B",
+    "countries": [
+     "ASIA"
+    ]
+   },
+   "amount": {
+    "min": 250000,
+    "max": 2000000,
+    "currency": "USD",
+    "basis": "per-award",
+    "text": "USD 250,000 to 2,000,000 per innovation, at the partners' discretion depending on maturity",
+    "src": "gcc-lighthouse",
+    "term": "2,000,000"
+   },
+   "deadlines": [
+    {
+     "stage": "Proposal",
+     "date": "2026-12-08",
+     "time": "14:00",
+     "tz": "ET",
+     "wording": "December 8, 2026, 2:00 p.m. ET (extended)",
+     "src": "gcc-lighthouse",
+     "term": "December 8, 2026"
+    }
+   ],
+   "stated_status": "open",
+   "official_url": "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/",
+   "application_url": "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/",
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "gcc-lighthouse",
+     "Nexa Lighthouse"
+    ],
+    [
+     "gcc-lighthouse",
+     "Fluxx"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "nature",
+    "municipal"
+   ],
+   "activities": [
+    "pilots",
+    "policy"
+   ],
+   "id": "opp-iki-medium-2026",
+   "title": "IKI Medium Grants 2026",
+   "org": "org-iki",
+   "programme": "prog-iki-medium",
+   "round": "2026 call (seventh)",
+   "type": "grant-call",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Climate action and biodiversity projects in ODA-eligible countries, led by organisations based in Germany with local partners.",
+    "src": "iki-medium",
+    "term": "Medium Grants"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Adaptation has been a theme in past rounds; a heat project's fit depends on the 2026 funding announcement's priorities."
+   },
+   "eligibility": {
+    "text": "Organisations established in Germany, with one or two local implementing partners in the implementation country.",
+    "src": "iki-medium",
+    "term": "Germany",
+    "applicants": [
+     "ngo"
+    ],
+    "lead_countries": [
+     "DE"
+    ],
+    "requires": [
+     "germany-based-lead",
+     "local-partner"
+    ]
+   },
+   "geography": {
+    "text": "One or two ODA-eligible countries in the Global South.",
+    "src": "iki-medium",
+    "term": "local",
+    "countries": [
+     "ASIA"
+    ]
+   },
+   "amount": {
+    "min": 300000,
+    "max": 800000,
+    "currency": "EUR",
+    "basis": "per-award",
+    "text": "",
+    "src": "iki-medium",
+    "term": "800,000"
+   },
+   "deadlines": [],
+   "stated_status": "closed",
+   "official_url": "https://www.international-climate-initiative.com/en/find-funding/medium-grants/",
+   "access": [
+    "periodic-call",
+    "consortium"
+   ],
+   "core": [
+    [
+     "iki-medium",
+     "Medium Grants"
+    ],
+    [
+     "iki-medium",
+     "Medium Grants 2026 Closed"
+    ]
+   ],
+   "conflict": "The IKI page lists Medium Grants 2026 as closed; secondary listings gave a deadline of 12 January 2027. The official page is followed here."
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "nature",
+    "municipal"
+   ],
+   "activities": [
+    "organising",
+    "pilots"
+   ],
+   "id": "opp-iki-small-2026",
+   "title": "IKI Small Grants: eighth call",
+   "org": "org-giz",
+   "co_orgs": [
+    "org-iki"
+   ],
+   "programme": "prog-iki-small",
+   "round": "Eighth call (2026 to 2027)",
+   "type": "grant-call",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Local climate and biodiversity projects by non-profit organisations in ODA-eligible countries.",
+    "src": "iki-small",
+    "term": "Small Grants"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "A local adaptation project could address heat; fit with the call's themes needs confirming."
+   },
+   "eligibility": {
+    "text": "Sub-national, national and regional non-profit organisations in ODA-eligible countries.",
+    "src": "iki-small",
+    "term": "non-profit",
+    "applicants": [
+     "ngo",
+     "community"
+    ],
+    "lead_countries": [
+     "ANY"
+    ]
+   },
+   "geography": {
+    "text": "ODA-eligible countries.",
+    "src": "iki-small",
+    "term": "Small Grants",
+    "countries": [
+     "GLOBAL"
+    ]
+   },
+   "amount": {
+    "min": 60000,
+    "max": 200000,
+    "currency": "EUR",
+    "basis": "per-award",
+    "text": "",
+    "src": "iki-small",
+    "term": "200,000"
+   },
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://iki-small-grants.de/",
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "iki-small-site",
+     "Apply for the 8th International Call for Proposals"
+    ],
+    [
+     "iki-small",
+     "8th Call for Proposals open"
+    ]
+   ],
+   "note": "The registration deadline was not found on the official pages at the check; secondary listings give 8 January 2027. Check the call page."
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "health",
+    "warning"
+   ],
+   "activities": [
+    "research"
+   ],
+   "id": "opp-apn-2026",
+   "title": "APN calls for proposals 2026: CRRP and CAPaBLE",
+   "org": "org-apn",
+   "programme": "prog-apn",
+   "round": "2026 call",
+   "type": "grant-call",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Regional research and scientific capacity development on global change in Asia and the Pacific.",
+    "src": "apn-calls",
+    "term": "CRRP"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Heat and health research in Asia can fit global change themes; heat is not named as a priority."
+   },
+   "eligibility": {
+    "text": "Researchers and institutions in APN member countries, usually in multi-country teams.",
+    "src": "apn-calls",
+    "term": "CAPaBLE",
+    "applicants": [
+     "research"
+    ],
+    "requires": [
+     "consortium"
+    ]
+   },
+   "geography": {
+    "text": "Asia and the Pacific (APN member countries).",
+    "src": "apn-calls",
+    "term": "CRRP",
+    "countries": [
+     "ASIA"
+    ]
+   },
+   "deadlines": [
+    {
+     "stage": "Summary proposal",
+     "date": "2026-11-30",
+     "wording": "30 November 2026",
+     "src": "apn-calls",
+     "term": "30 November 2026"
+    }
+   ],
+   "stated_status": "open",
+   "official_url": "https://www.apn-gcr.org/opportunities/calls-for-proposals/",
+   "access": [
+    "periodic-call",
+    "consortium"
+   ],
+   "core": [
+    [
+     "apn-calls",
+     "CRRP"
+    ],
+    [
+     "apn-calls",
+     "CAPaBLE"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "municipal",
+    "warning",
+    "health"
+   ],
+   "activities": [
+    "policy"
+   ],
+   "id": "opp-gcf-readiness-2027",
+   "title": "GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027",
+   "org": "org-gcf",
+   "programme": "prog-gcf-readiness",
+   "round": "Readiness Strategy 2024 to 2027",
+   "type": "readiness-window",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Readiness support for national institutions, country programming and direct access entities; submissions may be made at any time during the Readiness Strategy 2024 to 2027.",
+    "src": "gcf-readiness-guide",
+    "term": "Submissions may be made at any time"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Readiness can support adaptation planning that covers heat, where national priorities include it."
+   },
+   "eligibility": {
+    "text": "National Designated Authorities, or entities they nominate; not open to other organisations directly.",
+    "src": "gcf-readiness-guide",
+    "term": "NDA",
+    "applicants": [
+     "national-gov",
+     "accredited"
+    ],
+    "requires": [
+     "government-endorsement"
+    ]
+   },
+   "geography": {
+    "text": "Developing countries that are Parties to the UNFCCC.",
+    "src": "gcf-readiness",
+    "term": "Readiness",
+    "countries": [
+     "GLOBAL"
+    ]
+   },
+   "deadlines": [
+    {
+     "stage": "Recommended latest submission",
+     "date": "2027-03-31",
+     "wording": "recommended proposal submission date of no later than 31 March 2027",
+     "src": "gcf-readiness-guide",
+     "term": "31 March 2027"
+    }
+   ],
+   "stated_status": "rolling",
+   "official_url": "https://www.greenclimate.fund/readiness",
+   "access": [
+    "government",
+    "accredited"
+   ],
+   "core": [
+    [
+     "gcf-readiness-guide",
+     "Submissions may be made at any time"
+    ],
+    [
+     "gcf-readiness-guide",
+     "31 March 2027"
+    ]
+   ],
+   "rolling": true,
+   "rolling_src": "gcf-readiness-guide"
+  },
+  {
+   "asia": false,
+   "deadline_history": [],
+   "topics": [
+    "health"
+   ],
+   "activities": [
+    "research"
+   ],
+   "id": "opp-he-envhlth-02-2027",
+   "title": "Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)",
+   "org": "org-ec",
+   "programme": "prog-horizon-health",
+   "round": "Cluster 1 Health, 2027 call",
+   "reference": "HORIZON-HLTH-2027-01-ENVHLTH-02",
+   "type": "grant-call",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Research on climate-related exposures and how the human exposome changes with climate change.",
+    "src": "he-envhlth-02",
+    "term": "exposome"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Heat is a climate-related exposure; the topic is about the exposome broadly."
+   },
+   "eligibility": {
+    "text": "Consortia; international cooperation is encouraged. Whether a partner from a given Asian country receives EU funding depends on Horizon Europe's country list.",
+    "src": "he-envhlth-02",
+    "term": "international cooperation",
+    "applicants": [
+     "research"
+    ],
+    "requires": [
+     "consortium"
+    ]
+   },
+   "geography": {
+    "text": "Not limited to Europe for participation; funding of non-European partners depends on the country list.",
+    "src": "he-envhlth-02",
+    "term": "international cooperation",
+    "countries": []
+   },
+   "deadlines": [],
+   "stated_status": "upcoming",
+   "conflict": "Published deadlines for this topic differ between sources (17 February 2027 and 13 April 2027); check the Funding and Tenders portal.",
+   "official_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-ENVHLTH-02",
+   "access": [
+    "consortium"
+   ],
+   "core": [
+    [
+     "he-envhlth-02",
+     "exposome"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "cooling",
+    "warning"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "id": "opp-ctcn-ap-2026",
+   "title": "CTCN and Adaptation Fund: Climate Adaptation Innovation in Asia Pacific",
+   "org": "org-ctcn",
+   "co_orgs": [
+    "org-af"
+   ],
+   "programme": "prog-af-innovation",
+   "round": "2026 Asia Pacific call",
+   "type": "ta-call",
+   "instrument": "technical-assistance",
+   "purpose": {
+    "text": "Technical assistance for climate adaptation innovations in Asia and the Pacific.",
+    "src": "ctcn-ap",
+    "term": "Asia Pacific"
+   },
+   "relevance": {
+    "label": "related",
+    "why": "Adaptation innovations for heat fall within the call's scope; it was not heat-specific."
+   },
+   "eligibility": {
+    "text": "Applicants in the Asia Pacific region, as the call defined.",
+    "src": "ctcn-ap",
+    "term": "Asia Pacific",
+    "applicants": []
+   },
+   "geography": {
+    "text": "Asia and the Pacific.",
+    "src": "ctcn-ap",
+    "term": "Asia Pacific",
+    "countries": [
+     "ASIA"
+    ]
+   },
+   "amount": {
+    "max": 150000,
+    "currency": "USD",
+    "basis": "per-award",
+    "text": "",
+    "src": "ctcn-ap",
+    "term": "150,000"
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-10-07",
+     "wording": "7 October 2026",
+     "src": "ctcn-ap",
+     "term": "7 October 2026"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://www.ctc-n.org/whats-happening/news/call-proposals-climate-adaptation-innovation-asia-pacific",
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "ctcn-ap",
+     "Asia Pacific"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "health",
+    "schools-care"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "id": "opp-unicef-climate-health-2026",
+   "title": "UNICEF Venture Fund: funding frontier climate tech for children's health",
+   "org": "org-unicef",
+   "programme": "prog-unicef-venture",
+   "round": "2026 call",
+   "type": "grant-call",
+   "instrument": "equity-free",
+   "purpose": {
+    "text": "Equity-free funding for early-stage climate and health technology for children.",
+    "src": "unicef-ch-2026",
+    "term": "climate"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "The call cited children's exposure to extreme heat."
+   },
+   "eligibility": {
+    "text": "Early-stage technology companies, as the call defined.",
+    "src": "unicef-ch-2026",
+    "term": "health",
+    "applicants": [
+     "company"
+    ]
+   },
+   "geography": {
+    "text": "Programme countries, as the call defined.",
+    "src": "unicef-ch-2026",
+    "term": "climate",
+    "countries": [
+     "GLOBAL"
+    ]
+   },
+   "amount": {
+    "max": 100000,
+    "currency": "USD",
+    "basis": "per-award",
+    "text": "",
+    "src": "unicef-ch-2026",
+    "term": "100,000"
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-05-17",
+     "wording": "17 May 2026",
+     "src": "unicef-ch-2026",
+     "term": "17 May 2026"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://www.unicef.org/innovation/call-for-application-climate-and-health-2026",
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "unicef-ch-2026",
+     "climate"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "inclusion",
+    "work"
+   ],
+   "activities": [
+    "organising",
+    "policy"
+   ],
+   "id": "opp-cwf-2026",
+   "title": "Commonwealth Foundation open grants call 2026 to 2027",
+   "org": "org-cwf",
+   "programme": "prog-cwf",
+   "round": "2026 to 2027 call",
+   "type": "grant-call",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Grants to civil society organisations and collectives; climate and environmental justice is one of three priorities.",
+    "src": "cwf-grants",
+    "term": "Climate and environmental justice"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Civil society work on heat could fit the climate and environmental justice priority."
+   },
+   "eligibility": {
+    "text": "Not-for-profit organisations and collectives registered in eligible Commonwealth member countries.",
+    "src": "cwf-grants",
+    "term": "Individual Organisation",
+    "applicants": [
+     "ngo",
+     "community",
+     "worker-org"
+    ]
+   },
+   "geography": {
+    "text": "Eligible Commonwealth member countries (see the Foundation's eligible countries list); a project is implemented at least in the applicant's country of registration.",
+    "src": "cwf-grants",
+    "term": "country of registration",
+    "countries": []
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-10-26",
+     "time": "13:00",
+     "tz": "GMT",
+     "wording": "1pm GMT on 26 October 2026",
+     "src": "cwf-grants",
+     "term": "26 October 2026"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://commonwealthfoundation.com/grants/annual/",
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "cwf-grants",
+     "Collective Action"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "nature"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "id": "opp-global-eba-small-2026",
+   "title": "Global EbA Fund: small-size grants, eighth call",
+   "org": "org-iucn",
+   "programme": "prog-global-eba",
+   "round": "Eighth small-size call",
+   "type": "grant-call",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Ecosystem-based adaptation projects.",
+    "src": "eba-iucn",
+    "term": "Global EbA Fund"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Ecosystem-based measures such as urban greening can lower heat; fit depends on the call's priorities."
+   },
+   "eligibility": {
+    "text": "Organisations as the call defined, with a focus on the least developed countries and small island states.",
+    "src": "eba-iucn",
+    "term": "small-size",
+    "applicants": [
+     "ngo",
+     "community",
+     "research"
+    ]
+   },
+   "geography": {
+    "text": "ODA-eligible countries, with priority for least developed countries and small island states.",
+    "src": "eba-iucn",
+    "term": "Global EbA Fund",
+    "countries": [
+     "GLOBAL"
+    ]
+   },
+   "amount": {
+    "max": 250000,
+    "currency": "USD",
+    "basis": "per-award",
+    "text": "",
+    "src": "eba-iucn",
+    "term": "250,000"
+   },
+   "deadlines": [
+    {
+     "stage": "Proposal",
+     "date": "2026-10-26",
+     "wording": "26 October 2026",
+     "src": "eba-iucn",
+     "term": "26 October"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects",
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "eba-iucn",
+     "Global EbA Fund"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "inclusion"
+   ],
+   "activities": [
+    "pilots"
+   ],
+   "id": "opp-grp-2026",
+   "title": "GRP Innovation Challenge 2026",
+   "org": "org-grp",
+   "programme": "prog-grp-challenge",
+   "round": "2026 challenge",
+   "type": "prize",
+   "instrument": "grant",
+   "purpose": {
+    "text": "Resilience innovations across the Global South.",
+    "src": "grp-2026",
+    "term": "Innovation Challenge"
+   },
+   "relevance": {
+    "label": "potential",
+    "why": "Themes are set each year; heat was not confirmed as a 2026 theme."
+   },
+   "eligibility": {
+    "text": "Innovators across the Global South.",
+    "src": "grp-2026",
+    "term": "Global South",
+    "applicants": [
+     "ngo",
+     "company",
+     "community"
+    ]
+   },
+   "geography": {
+    "text": "The Global South.",
+    "src": "grp-2026",
+    "term": "Global South",
+    "countries": [
+     "GLOBAL"
+    ]
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-05-22",
+     "wording": "22 May 2026",
+     "src": "grp-2026",
+     "term": "22 May 2026"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/",
+   "access": [
+    "periodic-call"
+   ],
+   "core": [
+    [
+     "grp-2026",
+     "Innovation Challenge"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "municipal"
+   ],
+   "activities": [
+    "policy"
+   ],
+   "id": "opp-undp-ind-heatsmart-2026",
+   "title": "UNDP India RFP-050-IND-2026: workplan for a 'heat-smart' city and a digital heat-resilience toolkit",
+   "org": "org-undp",
+   "round": "2026",
+   "reference": "RFP-050-IND-2026",
+   "type": "rfp",
+   "instrument": "contract",
+   "purpose": {
+    "text": "A firm to develop a workplan for a heat-smart city and an interactive digital heat-resilience toolkit.",
+    "src": "undp-ind-heatsmart",
+    "term": "toolkit"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Heat resilience in a city is the subject of the procurement."
+   },
+   "eligibility": {
+    "text": "Firms responding to the request for proposals (a procurement, not a grant).",
+    "src": "undp-ind-heatsmart",
+    "term": "RFP-050-IND-2026",
+    "applicants": [
+     "consultancy",
+     "company"
+    ]
+   },
+   "geography": {
+    "text": "India.",
+    "src": "undp-ind-heatsmart",
+    "term": "Heat-smart",
+    "countries": [
+     "IN"
+    ]
+   },
+   "deadlines": [
+    {
+     "stage": "Proposal",
+     "date": "2026-06-19",
+     "time": "08:00",
+     "tz": "ET",
+     "wording": "19-Jun-26 @ 08:00 AM (New York time)",
+     "src": "undp-ind-heatsmart",
+     "term": "19-Jun-26"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250",
+   "access": [
+    "procurement"
+   ],
+   "core": [
+    [
+     "undp-ind-heatsmart",
+     "Heat-smart"
+    ]
+   ]
+  },
+  {
+   "asia": true,
+   "deadline_history": [],
+   "topics": [
+    "work"
+   ],
+   "activities": [
+    "research"
+   ],
+   "id": "opp-ilo-th-heat-review-2026",
+   "title": "ILO request for quotation: desk review and evidence mapping of occupational exposure to excessive heat in Thailand",
+   "org": "org-ilo",
+   "round": "2026",
+   "type": "rfq",
+   "instrument": "contract",
+   "purpose": {
+    "text": "Desk review and evidence mapping of occupational exposure to excessive heat and its impacts on workers' safety and health in Thailand.",
+    "src": "ungm-ilo-th",
+    "term": "occupational exposure to excessive heat"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Occupational heat exposure is the subject."
+   },
+   "eligibility": {
+    "text": "Suppliers responding through the UN Global Marketplace.",
+    "src": "ungm-ilo-th",
+    "term": "ILO",
+    "applicants": [
+     "consultancy",
+     "research",
+     "company"
+    ]
+   },
+   "geography": {
+    "text": "Thailand.",
+    "src": "ungm-ilo-th",
+    "term": "Thailand",
+    "countries": [
+     "TH"
+    ]
+   },
+   "deadlines": [
+    {
+     "stage": "Quotation",
+     "date": "2026-11-02",
+     "time": "17:00",
+     "tz": "GMT+1",
+     "wording": "02-Nov-2026 17:00 (GMT 1.00)",
+     "src": "ungm-ilo-th",
+     "term": "02-Nov-2026"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://www.ungm.org/Public/Notice/317698",
+   "access": [
+    "procurement"
+   ],
+   "core": [
+    [
+     "ungm-ilo-th",
+     "occupational exposure to excessive heat"
+    ],
+    [
+     "ungm-ilo-th",
+     "Thailand"
+    ]
+   ],
+   "reference": "rfx_12201_ROAP"
+  },
+  {
+   "id": "opp-cool-bth-eoi",
+   "title": "Beat the Heat in Cities: expression of interest for countries and cities",
+   "org": "org-cool-coalition",
+   "programme": "prog-cool-bth",
+   "round": "Expressions of interest (no deadline published)",
+   "type": "ta-call",
+   "instrument": "technical-assistance",
+   "asia": true,
+   "purpose": {
+    "text": "Countries and cities propose up to three cities for support on heat action planning and urban cooling.",
+    "src": "cool-bth",
+    "term": "three cities"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Heat action planning and urban cooling are the subject."
+   },
+   "eligibility": {
+    "text": "National and city governments, proposing cities.",
+    "src": "cool-bth",
+    "term": "expression of interest",
+    "applicants": [
+     "municipality",
+     "national-gov"
+    ],
+    "requires": [
+     "government-endorsement"
+    ]
+   },
+   "geography": {
+    "text": "Cities worldwide, as proposed by countries and cities.",
+    "src": "cool-bth",
+    "term": "cities",
+    "countries": [
+     "GLOBAL"
+    ]
+   },
+   "deadlines": [],
+   "deadline_history": [],
+   "stated_status": "",
+   "note": "The page describes the expression of interest but does not say whether it is open now or give a deadline; contact the Secretariat through the page.",
+   "official_url": "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities",
+   "access": [
+    "government"
+   ],
+   "topics": [
+    "municipal",
+    "cooling"
+   ],
+   "activities": [
+    "policy",
+    "pilots"
+   ],
+   "core": [
+    [
+     "cool-bth",
+     "Beat the Heat"
+    ],
+    [
+     "cool-bth",
+     "expression of interest"
+    ]
+   ]
+  }
+ ]
+}

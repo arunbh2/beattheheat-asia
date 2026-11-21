@@ -17,7 +17,7 @@ const arg = (k, d) => { const i = process.argv.indexOf(k); return i > -1 ? proce
 const DRY = process.argv.includes("--dry-run"), ONLY = (arg("--only", "") || "").split(",").filter(Boolean), DAYS = Math.min(90, Math.max(1, +arg("--days", 21) || 21));
 const UA = { "User-Agent": "Mozilla/5.0 (compatible; Common Shade funding; +https://beattheheat.asia/heat-economy/money/)", "Accept": "application/json, application/rss+xml, application/xml;q=0.9, */*;q=0.5" };
 // heat relevance, a hint for the reviewer: direct words, or a related remit that may have a heat application
-const DIRECT = /\b(extreme heat|heat ?waves?|heat[- ]health|heat stress|heat illness|heatstroke|heat action plan|urban heat|heat resilien\w*|heat risk|cooling|thermal comfort|wet[- ]bulb|wbgt|passive cooling|cool roofs?)\b/i;
+const DIRECT = /\b(extreme heat|heat ?waves?|heat[- ]health|heat stress|heat illness|heatstroke|heat action plan|urban heat|heat resilien\w*|heat risk|(?:sustainable|passive|clean|space|urban|efficient|affordable) cooling|cooling (?:cent(?:re|er)s?|action plans?|shelters?|stations?)|cold[- ]chains?|thermal comfort|wet[- ]bulb|wbgt|passive cooling|cool roofs?)\b/i;
 const ADJ = /\b(climate (and|&) health|climate[- ]health|occupational (safety|health)|worker (health|safety)|early warning|anticipatory action|urban resilience|climate adaptation|adaptation|social protection|informal (workers?|sector|economy)|nature[- ]based solutions?|urban greening|disaster risk|resilien(ce|t) cities|public health)\b/i;
 const ASIA = /\b(asia|asian|asean|south[- ]east asia|southeast asia|south asia|india|bangladesh|pakistan|nepal|sri lanka|bhutan|maldives|indonesia|philippines|viet ?nam|thailand|cambodia|lao|laos|myanmar|malaysia|singapore|timor[- ]leste|delhi|dhaka|jakarta|manila|bangkok|hanoi|karachi|kathmandu|colombo|mumbai|ahmedabad|chennai|kolkata)\b/i;
 const clean = t => String(t || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&#(\d+);/g, (m, n) => String.fromCharCode(+n)).replace(/\s+/g, " ").trim();
@@ -62,7 +62,8 @@ const IMPORT = {
       const body = JSON.stringify({ bool: { must: [{ terms: { type: ["1", "2", "8"] } }, { terms: { status: ["31094501", "31094502"] } }] } });
       const r = await get(`${s.url}?apiKey=SEDIA&text=${encodeURIComponent(q)}&pageSize=50&pageNumber=1`, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: (() => { const f = new FormData(); f.append("query", new Blob([body], { type: "application/json" })); return f; })() });
       if (!r.ok) return r;
-      ((J(r) || {}).results || []).forEach(x => { const m = x.metadata || {}, one = k => (m[k] || [])[0] || "";
+      // keep calls and tenders only: the search also returns FAQs, partner searches and project results
+      ((J(r) || {}).results || []).filter(x => /topic-details|tender-details|competitive-calls/.test(x.url || "") || ((x.metadata || {}).identifier || []).length).forEach(x => { const m = x.metadata || {}, one = k => (m[k] || [])[0] || "";
         out.push(item({ title: clean(one("title") || x.summary || x.content), org: "European Commission", url: x.url || `https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/${one("identifier")}`, published: iso(one("startDate")),
           deadline_text: clean(one("deadlineDate")), text: clean(`${one("title")}. ${x.summary || ""} ${one("descriptionByte") || ""}`).slice(0, 2000), extra: { identifier: one("identifier"), call: one("callIdentifier") } })); });
     }
@@ -110,8 +111,11 @@ function relevance(text) {
 }
 // status changes of published records, from their dates alone (the reviewer confirms against the source)
 function recalc(today) {
+  // the dates now say something different from the source's own word (stated_status): an expiry, an opening, a deadline day.
+  // Verification needs the source check's date, which the model attaches; records past their review date are listed too.
   const C = require(path.join(ROOT, "heat-economy", "funding-core.js")), out = [];
-  for (const r of published()) { const before = r.status_at_review, s = C.applicationStatus(r, today), v = C.verificationStatus(r, today);
+  const M = require(path.join(ROOT, "tools", "funding-model.js")).load();
+  for (const r of [...M.all.OPP, ...M.all.CAR]) { const before = r.stated_status, s = C.applicationStatus(r, today), v = C.verificationStatus(r, today, r.kind);
     if (before && s.status !== before) out.push({ id: r.id, title: r.title, was: before, now: s.status, why: s.why });
     if (v.status !== "verified") out.push({ id: r.id, title: r.title, verification: v.status, why: v.why }); }
   return out;
