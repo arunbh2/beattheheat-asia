@@ -416,11 +416,11 @@
    "closed": false
   },
   "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma-innovation-fund/": {
-   "2026": true,
-   "GSMA": true,
-   "apply": true,
-   "applications": true,
-   "closed": true
+   "2026": false,
+   "GSMA": false,
+   "apply": false,
+   "applications": false,
+   "closed": false
   },
   "https://www.globalinnovation.fund/what-we-do": {
    "2026": true,
@@ -466,7 +466,7 @@
   },
   "https://coolcoalition.org/projects/nature-cooling-challenge": {
    "2026": false,
-   "Nature": true,
+   "Nature": false,
    "apply": false,
    "applications": false,
    "closed": false
@@ -526,8 +526,36 @@
   },
   "https://unhabitat.org/join-us": {
    "Consultant": false,
-   "deadline": true,
+   "deadline": false,
    "heat": false
+  },
+  "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29-Kent/58818644/": {
+   "Programme Manager": true,
+   "Heat Resilience": true,
+   "2-year contract": true,
+   "Apply": true,
+   "Req ID": true
+  },
+  "https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/": {
+   "Postdoctoral Fellow": true,
+   "Urban and Regional Climate": true,
+   "heat-health": true,
+   "Apply": true,
+   "Req ID": true
+  },
+  "https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/": {
+   "Research Engineer": true,
+   "Thermal Sensing": true,
+   "urban heat": true,
+   "early warning": true,
+   "Apply": true,
+   "Req ID": true
+  },
+  "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/": {
+   "Assistant Professor": true,
+   "heat resilience": true,
+   "Apply": true,
+   "Req ID": true
   }
  },
  "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/": "OK",
@@ -613,5 +641,9 @@
  "https://careers.un.org/api/public/opening/jo/287135/en": "OK",
  "https://careers.nus.edu.sg/job/Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33562-en_GB/": "OK",
  "https://iiphg.edu.in/work-with-us/": "OK",
- "https://unhabitat.org/join-us": "OK"
+ "https://unhabitat.org/join-us": "OK",
+ "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29-Kent/58818644/": "OK",
+ "https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/": "OK",
+ "https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/": "OK",
+ "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/": "OK"
 }
