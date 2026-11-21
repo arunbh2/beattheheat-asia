@@ -140,6 +140,109 @@
      "Apply"
     ]
    ]
+  },
+  {
+   "id": "car-unep-urban-heat-expert-287135",
+   "title": "Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India",
+   "org": "org-unep",
+   "employer": "UN Environment Programme",
+   "reference": "287135",
+   "role": "consultancy-individual",
+   "discipline": "Urban climate and planning",
+   "contribution": "design",
+   "seniority": "Experienced",
+   "location": {
+    "text": "Listed under the Paris duty station; the work covers 50 cities in India.",
+    "src": "uncareers-287135-api",
+    "term": "India"
+   },
+   "countries": [
+    "IN"
+   ],
+   "remote": false,
+   "remote_text": "Not confirmed",
+   "contract": {
+    "text": "Consultancy, expected duration 12 months.",
+    "src": "uncareers-287135-api",
+    "term": "Urban Heat"
+   },
+   "pay": "not-stated",
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-11-15",
+     "time": "23:59",
+     "tz": "ET",
+     "wording": "Closes 16 November 2026, 04:59 UTC (15 November, 23:59 in New York)",
+     "src": "uncareers-287135-api",
+     "term": "Urban Heat"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://careers.un.org/jobSearchDescription/287135?language=en",
+   "relevance_strength": "direct",
+   "relevance_why": "Carries out urban heat island assessments and adaptation strategies for 50 Indian cities, following the UNEP-CEPT methodology.",
+   "asia": true,
+   "sources": [
+    "uncareers-287135-api"
+   ],
+   "core": [
+    [
+     "uncareers-287135-api",
+     "Urban Heat"
+    ],
+    [
+     "uncareers-287135-api",
+     "India"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-microclimate-ra-33562",
+   "title": "Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "reference": "33562",
+   "role": "research-position",
+   "discipline": "Urban climate and environmental sensing",
+   "contribution": "evidence",
+   "seniority": "Early career",
+   "location": {
+    "text": "Kent Ridge Campus, Singapore; field work in HDB precincts and test-bed sites.",
+    "src": "nus-microclimate-ra",
+    "term": "microclimate"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "remote_text": "No",
+   "contract": {
+    "text": "Research staff post; duration as stated in the listing.",
+    "src": "nus-microclimate-ra",
+    "term": "Research Assistant"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/job/Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33562-en_GB/",
+   "relevance_strength": "direct",
+   "relevance_why": "Supports the UrbanHeatMap project: outdoor microclimate measurement and high-resolution temperature mapping for urban heat research in Singapore.",
+   "asia": true,
+   "core": [
+    [
+     "nus-microclimate-ra",
+     "Research Assistant"
+    ],
+    [
+     "nus-microclimate-ra",
+     "microclimate"
+    ],
+    [
+     "nus-microclimate-ra",
+     "Apply"
+    ]
+   ]
   }
  ]
 }

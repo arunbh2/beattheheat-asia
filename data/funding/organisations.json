@@ -909,6 +909,32 @@
      "Beat the Heat"
     ]
    ]
+  },
+  {
+   "id": "org-unep",
+   "name": "UN Environment Programme",
+   "aliases": [
+    "UNEP"
+   ],
+   "type": "un-body",
+   "website": "https://careers.un.org/",
+   "remit": {
+    "text": "Recruits consultants for its work on extreme heat and sustainable cooling, including urban heat assessments in India.",
+    "src": "uncareers-287135-api",
+    "term": "Urban Heat"
+   },
+   "instruments": [
+    "contract"
+   ],
+   "access": [
+    "procurement"
+   ],
+   "core": [
+    [
+     "uncareers-287135-api",
+     "UNEP"
+    ]
+   ]
   }
  ]
 }
