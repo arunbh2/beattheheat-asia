@@ -140,6 +140,293 @@
      "Apply"
     ]
    ]
+  },
+  {
+   "id": "car-unep-urban-heat-expert-287135",
+   "title": "Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India",
+   "org": "org-unep",
+   "employer": "UN Environment Programme",
+   "reference": "287135",
+   "role": "consultancy-individual",
+   "discipline": "Urban climate and planning",
+   "contribution": "design",
+   "seniority": "Experienced",
+   "location": {
+    "text": "Listed under the Paris duty station; the work covers 50 cities in India.",
+    "src": "uncareers-287135-api",
+    "term": "India"
+   },
+   "countries": [
+    "IN"
+   ],
+   "remote": false,
+   "remote_text": "Not confirmed",
+   "contract": {
+    "text": "Consultancy, expected duration 12 months.",
+    "src": "uncareers-287135-api",
+    "term": "Urban Heat"
+   },
+   "pay": "not-stated",
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-11-15",
+     "time": "23:59",
+     "tz": "ET",
+     "wording": "Closes 16 November 2026, 04:59 UTC (15 November, 23:59 in New York)",
+     "src": "uncareers-287135-api",
+     "term": "Urban Heat"
+    }
+   ],
+   "stated_status": "closed",
+   "official_url": "https://careers.un.org/jobSearchDescription/287135?language=en",
+   "relevance_strength": "direct",
+   "relevance_why": "Carries out urban heat island assessments and adaptation strategies for 50 Indian cities, following the UNEP-CEPT methodology.",
+   "asia": true,
+   "sources": [
+    "uncareers-287135-api"
+   ],
+   "core": [
+    [
+     "uncareers-287135-api",
+     "Urban Heat"
+    ],
+    [
+     "uncareers-287135-api",
+     "India"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-microclimate-ra-33562",
+   "title": "Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "reference": "33562",
+   "role": "research-position",
+   "discipline": "Urban climate and environmental sensing",
+   "contribution": "evidence",
+   "seniority": "Early career",
+   "location": {
+    "text": "Kent Ridge Campus, Singapore; field work in HDB precincts and test-bed sites.",
+    "src": "nus-microclimate-ra",
+    "term": "microclimate"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "remote_text": "No",
+   "contract": {
+    "text": "Research staff post; duration as stated in the listing.",
+    "src": "nus-microclimate-ra",
+    "term": "Research Assistant"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/job/Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33562-en_GB/",
+   "relevance_strength": "direct",
+   "relevance_why": "Supports the UrbanHeatMap project: outdoor microclimate measurement and high-resolution temperature mapping for urban heat research in Singapore.",
+   "asia": true,
+   "core": [
+    [
+     "nus-microclimate-ra",
+     "Research Assistant"
+    ],
+    [
+     "nus-microclimate-ra",
+     "microclimate"
+    ],
+    [
+     "nus-microclimate-ra",
+     "Apply"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-hrpc-programme-manager",
+   "title": "Programme Manager, Heat Resilience & Performance Centre (2-year contract)",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "role": "job",
+   "discipline": "Programme management",
+   "contribution": "finance",
+   "seniority": "Experienced",
+   "location": {
+    "text": "Kent Ridge Campus, Singapore.",
+    "src": "nus-hrpc-pm",
+    "term": "Apply"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "remote_text": "No",
+   "contract": {
+    "text": "Two-year contract.",
+    "src": "nus-hrpc-pm",
+    "term": "2-year contract"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29-Kent/58818644/",
+   "relevance_strength": "direct",
+   "relevance_why": "Manages programmes at a research centre on heat resilience and human performance.",
+   "asia": true,
+   "core": [
+    [
+     "nus-hrpc-pm",
+     "Programme Manager"
+    ],
+    [
+     "nus-hrpc-pm",
+     "Heat Resilience"
+    ],
+    [
+     "nus-hrpc-pm",
+     "Apply"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-urban-climate-postdoc",
+   "title": "Postdoctoral Fellow in Urban and Regional Climate Modeling",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "role": "research-position",
+   "discipline": "Urban and regional climate modelling",
+   "contribution": "risk",
+   "seniority": "Postdoctoral",
+   "location": {
+    "text": "Kent Ridge Campus, Singapore.",
+    "src": "nus-urban-climate-pdf",
+    "term": "Apply"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "remote_text": "No",
+   "contract": {
+    "text": "As stated in the listing.",
+    "src": "nus-urban-climate-pdf",
+    "term": "Req ID"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/",
+   "relevance_strength": "direct",
+   "relevance_why": "Urban and regional climate modelling; the listing names heat-health among its concerns.",
+   "asia": true,
+   "core": [
+    [
+     "nus-urban-climate-pdf",
+     "Postdoctoral Fellow"
+    ],
+    [
+     "nus-urban-climate-pdf",
+     "heat-health"
+    ],
+    [
+     "nus-urban-climate-pdf",
+     "Apply"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-thermal-sensing-engineer",
+   "title": "Research Engineer/Assistant (Environmental and Thermal Sensing)",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "role": "research-position",
+   "discipline": "Environmental sensing and engineering",
+   "contribution": "design",
+   "seniority": "Early career",
+   "location": {
+    "text": "Kent Ridge Campus, Singapore.",
+    "src": "nus-thermal-sensing",
+    "term": "Apply"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "remote_text": "No",
+   "contract": {
+    "text": "As stated in the listing.",
+    "src": "nus-thermal-sensing",
+    "term": "Req ID"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/",
+   "relevance_strength": "direct",
+   "relevance_why": "Builds high-resolution urban thermal monitoring and early warning.",
+   "asia": true,
+   "core": [
+    [
+     "nus-thermal-sensing",
+     "Research Engineer"
+    ],
+    [
+     "nus-thermal-sensing",
+     "urban heat"
+    ],
+    [
+     "nus-thermal-sensing",
+     "Apply"
+    ]
+   ]
+  },
+  {
+   "id": "car-nus-ylls-assistant-professor",
+   "title": "Assistant Professor, Yong Loo Lin School of Medicine",
+   "org": "org-nus",
+   "employer": "National University of Singapore",
+   "role": "job",
+   "discipline": "Medicine and public health",
+   "contribution": "risk",
+   "seniority": "Faculty",
+   "location": {
+    "text": "Kent Ridge Campus, Singapore.",
+    "src": "nus-ylls-ap",
+    "term": "Apply"
+   },
+   "countries": [
+    "SG"
+   ],
+   "remote": false,
+   "remote_text": "No",
+   "contract": {
+    "text": "As stated in the listing.",
+    "src": "nus-ylls-ap",
+    "term": "Req ID"
+   },
+   "pay": "not-stated",
+   "deadlines": [],
+   "stated_status": "open",
+   "official_url": "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/",
+   "relevance_strength": "direct",
+   "relevance_why": "Faculty post whose listing names heat resilience among its areas.",
+   "asia": true,
+   "core": [
+    [
+     "nus-ylls-ap",
+     "Assistant Professor"
+    ],
+    [
+     "nus-ylls-ap",
+     "heat resilience"
+    ],
+    [
+     "nus-ylls-ap",
+     "Apply"
+    ]
+   ]
   }
  ]
 }

@@ -88,6 +88,34 @@ const IMPORT = {
     return { ok: true, items: (J(r) || []).map(x => item({ title: clean(x.text), org: s.name.replace(/ jobs.*$/, ""), url: x.hostedUrl, published: x.createdAt ? new Date(x.createdAt).toISOString().slice(0, 10) : "",
       location: clean((x.categories || {}).location), text: `${clean(x.text)}. ${clean((x.categories || {}).location)}. ${clean(x.descriptionPlain || x.description).slice(0, 1500)}`, extra: { commitment: (x.categories || {}).commitment || "", workplace: x.workplaceType || "" } })) };
   },
+  async workable(s) {
+    const r = await get(`https://apply.workable.com/api/v1/widget/accounts/${encodeURIComponent(s.board)}`); if (!r.ok) return r;
+    return { ok: true, items: ((J(r) || {}).jobs || []).map(x => item({ title: clean(x.title), org: s.name.replace(/ jobs.*$/, ""), url: x.url || x.shortlink, published: iso(x.published_on || x.created_at),
+      location: clean([x.city, x.country].filter(Boolean).join(", ")), text: `${clean(x.title)}. ${clean([x.city, x.country].join(", "))}. ${clean(x.description || "").slice(0, 1500)}`, extra: { remote: !!x.telecommuting, employment: x.employment_type || "" } })) };
+  },
+  async personio(s) {
+    const r = await get(`https://${encodeURIComponent(s.board)}.jobs.personio.de/xml`); if (!r.ok) return r;
+    return { ok: true, items: (r.text.match(/<position>[\s\S]*?<\/position>/gi) || []).map(x => { const id = tag(x, "id"); return item({ title: tag(x, "name"), org: s.name.replace(/ jobs.*$/, ""), url: `https://${s.board}.jobs.personio.de/job/${id}`,
+      published: iso(tag(x, "createdAt")), location: tag(x, "office"), text: `${tag(x, "name")}. ${tag(x, "office")}. ${tag(x, "jobDescriptions").slice(0, 1500)}` }); }) };
+  },
+  async smartrecruiters(s) {
+    const r = await get(`https://api.smartrecruiters.com/v1/companies/${encodeURIComponent(s.board)}/postings?limit=100`); if (!r.ok) return r;
+    return { ok: true, items: ((J(r) || {}).content || []).map(x => item({ title: clean(x.name), org: s.name.replace(/ jobs.*$/, ""), url: `https://jobs.smartrecruiters.com/${s.board}/${x.id}`, published: iso(x.releasedDate),
+      location: clean([((x.location || {}).city), ((x.location || {}).country)].filter(Boolean).join(", ")), text: `${clean(x.name)}. ${clean(JSON.stringify(x.location || {}))}. ${clean((x.department || {}).label || "")}`, extra: { remote: !!(x.location || {}).remote } })) };
+  },
+  // UN Careers: the portal's public job-opening data (careers.un.org/api/public), one search per term
+  async uncareers(s) {
+    const out = [];
+    for (const q of s.terms || ["heat"]) {
+      const r = await get(`${s.url}`, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify({ filterConfig: { keyword: q }, pagination: { page: 0, itemPerPage: 50, sortBy: "startDate", sortDirection: -1 } }) });
+      if (!r.ok) return r;
+      const j = J(r) || {}, list = (j.data && (j.data.list || j.data)) || j.list || [];
+      (Array.isArray(list) ? list : []).forEach(x => out.push(item({ title: clean(x.postingTitle || x.jobTitle), org: clean(x.departmentDescr || x.dept || ""), url: `https://careers.un.org/jobSearchDescription/${x.jobId}?language=en`,
+        published: iso(x.startDate), deadline_text: x.endDate || "", location: clean(((x.dutyStation || [])[0] || {}).description || ""), text: `${clean(x.postingTitle || x.jobTitle)}. ${clean(x.departmentDescr || "")}. ${clean(x.jobDescription || "").slice(0, 1500)}`,
+        extra: { job_id: String(x.jobId || ""), data_url: `https://careers.un.org/api/public/opening/jo/${x.jobId}/en`, level: x.jobLevel || "" } })));
+    }
+    return { ok: true, items: out };
+  },
   async ashby(s) {
     const r = await get(`https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(s.board)}?includeCompensation=true`); if (!r.ok) return r;
     return { ok: true, items: ((J(r) || {}).jobs || []).map(x => item({ title: clean(x.title), org: s.name, url: x.jobUrl, published: iso(x.publishedAt), location: clean(x.location),
@@ -121,6 +149,19 @@ function recalc(today) {
   return out;
 }
 
+// --probe: try each candidate job board in registry.probe and report which exist, how many jobs each lists and how many
+// touch heat directly or a related remit in Asia. Writes nothing; used to grow registry.sources with boards that exist.
+async function probe() {
+  const R = JSON.parse(fs.readFileSync(path.join(DIR, "registry.json"), "utf8")), out = [];
+  for (const [kind, boards] of Object.entries(R.probe || {})) for (const board of boards) {
+    const s = { id: `${kind}-${board}`, kind, board, name: board, feeds: "careers" }; let r;
+    try { r = await IMPORT[kind](s); } catch (e) { r = { ok: false, why: e.message }; }
+    if (!r.ok) { out.push(`${kind}/${board}: ${r.why}`); continue; }
+    const rel = r.items.map(it => ({ it, rel: relevance(`${it.title}. ${it.location}. ${it.text}`) })).filter(x => x.rel);
+    out.push(`${kind}/${board}: OK, ${r.items.length} jobs, ${rel.length} relevant${rel.length ? ": " + rel.slice(0, 6).map(x => `${x.it.title} [${x.rel.strength}; ${x.it.location || "location not stated"}] ${x.it.url}`).join(" | ") : ""}`);
+  }
+  console.log(out.join("\n"));
+}
 async function main() {
   const today = new Date().toISOString().slice(0, 10), since = new Date(Date.now() - DAYS * 864e5).toISOString().slice(0, 10);
   const REG = JSON.parse(fs.readFileSync(path.join(DIR, "registry.json"), "utf8")).sources.filter(s => !ONLY.length || ONLY.includes(s.id));
@@ -154,4 +195,4 @@ async function main() {
   if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `date=${today}\nqueued=${candidates.length}\nchanged=${summary.changed}\n`);
 }
 module.exports = { relevance, IMPORT };
-if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });
+if (require.main === module) (process.argv.includes("--probe") ? probe() : main()).catch(e => { console.error(e); process.exit(1); });

@@ -181,7 +181,7 @@
    "call"
   ],
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261003032433/https://iki-small-grants.de/"
+  "archive": "https://web.archive.org/web/20261121132434/https://iki-small-grants.de/"
  },
  {
   "id": "src-fo-apn-calls",
@@ -490,7 +490,7 @@
    "unsolicited"
   ],
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260717151537/https://www.climateworks.org/programs/adaptation-and-resilience/fund/"
+  "archive": "https://web.archive.org/web/20261121133315/https://www.climateworks.org/programs/adaptation-and-resilience/fund/"
  },
  {
   "id": "src-fo-cw-heat-grantees",
@@ -1173,6 +1173,196 @@
   "archive": "https://web.archive.org/web/20251215012715/https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities/"
  },
  {
+  "id": "src-fo-uncareers-287135",
+  "type": "source",
+  "keys": [
+   "uncareers-287135"
+  ],
+  "title": "Project Scientist II (Urban Heat Expert)",
+  "publisher": "United Nations Careers (UNEP)",
+  "year": 2026,
+  "url": "https://careers.un.org/jobSearchDescription/287135?language=en",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Urban Heat",
+   "UNEP",
+   "Consultant",
+   "India",
+   "Deadline"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox."
+ },
+ {
+  "id": "src-fo-uncareers-287135-api",
+  "type": "source",
+  "keys": [
+   "uncareers-287135-api"
+  ],
+  "title": "Project Scientist II (Urban Heat Expert), job opening data",
+  "publisher": "United Nations Careers (UNEP)",
+  "year": 2026,
+  "url": "https://careers.un.org/api/public/opening/jo/287135/en",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Urban Heat",
+   "UNEP",
+   "India"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox."
+ },
+ {
+  "id": "src-fo-nus-microclimate-ra",
+  "type": "source",
+  "keys": [
+   "nus-microclimate-ra"
+  ],
+  "title": "Research Assistant (Urban Microclimate Modeling and Graph Neural Networks)",
+  "publisher": "National University of Singapore",
+  "year": 2026,
+  "url": "https://careers.nus.edu.sg/job/Research-Assistant-%28Urban-Microclimate-Modeling-and-Graph-Neural-Networks%29/33562-en_GB/",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Research Assistant",
+   "microclimate",
+   "Apply",
+   "Req ID"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261121132852/https://careers.nus.edu.sg/job/Research-Assistant-(Urban-Microclimate-Modeling-and-Graph-Neural-Networks)/33562-en_GB/"
+ },
+ {
+  "id": "src-fo-iiphg-jobs",
+  "type": "source",
+  "keys": [
+   "iiphg-jobs"
+  ],
+  "title": "Work with us",
+  "publisher": "Indian Institute of Public Health Gandhinagar",
+  "year": 2026,
+  "url": "https://iiphg.edu.in/work-with-us/",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Project",
+   "heat",
+   "Last date",
+   "2026"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260721132941/https://iiphg.edu.in/work-with-us/"
+ },
+ {
+  "id": "src-fo-unhabitat-joinus",
+  "type": "source",
+  "keys": [
+   "unhabitat-joinus"
+  ],
+  "title": "Join us",
+  "publisher": "UN-Habitat",
+  "year": 2026,
+  "url": "https://unhabitat.org/join-us",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Consultant",
+   "deadline",
+   "heat"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261003045525/https://unhabitat.org/join-us"
+ },
+ {
+  "id": "src-fo-nus-hrpc-pm",
+  "type": "source",
+  "keys": [
+   "nus-hrpc-pm"
+  ],
+  "title": "Programme Manager, Heat Resilience & Performance Centre (2-year contract)",
+  "publisher": "National University of Singapore",
+  "year": 2026,
+  "url": "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29-Kent/58818644/",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Programme Manager",
+   "Heat Resilience",
+   "2-year contract",
+   "Apply",
+   "Req ID"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261121133749/https://careers.nus.edu.sg/job/Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29/30485-en_GB/"
+ },
+ {
+  "id": "src-fo-nus-urban-climate-pdf",
+  "type": "source",
+  "keys": [
+   "nus-urban-climate-pdf"
+  ],
+  "title": "Postdoctoral Fellow in Urban and Regional Climate Modeling",
+  "publisher": "National University of Singapore",
+  "year": 2026,
+  "url": "https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Postdoctoral Fellow",
+   "Urban and Regional Climate",
+   "heat-health",
+   "Apply",
+   "Req ID"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261121133812/https://careers.nus.edu.sg/job/Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling/34983-en_GB/"
+ },
+ {
+  "id": "src-fo-nus-thermal-sensing",
+  "type": "source",
+  "keys": [
+   "nus-thermal-sensing"
+  ],
+  "title": "Research Engineer/Assistant (Environmental and Thermal Sensing)",
+  "publisher": "National University of Singapore",
+  "year": 2026,
+  "url": "https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Research Engineer",
+   "Thermal Sensing",
+   "urban heat",
+   "early warning",
+   "Apply",
+   "Req ID"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261121133838/https://careers.nus.edu.sg/job/Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29/33561-en_GB/"
+ },
+ {
+  "id": "src-fo-nus-ylls-ap",
+  "type": "source",
+  "keys": [
+   "nus-ylls-ap"
+  ],
+  "title": "Assistant Professor, Yong Loo Lin School of Medicine",
+  "publisher": "National University of Singapore",
+  "year": 2026,
+  "url": "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Assistant Professor",
+   "heat resilience",
+   "Apply",
+   "Req ID"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261121133903/https://careers.nus.edu.sg/job/Assistant-Professor/34266-en_GB/"
+ },
+ {
   "id": "src-fo-legacy-gcp",
   "type": "source",
   "keys": [
@@ -1211,7 +1401,8 @@
    "closed",
    "2026"
   ],
-  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?"
+  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?",
+  "archive": "https://web.archive.org/web/20261006005028/https://www.theliveabilitychallenge.org/"
  },
  {
   "id": "src-fo-legacy-global-leap-ogccc",
@@ -1298,7 +1489,8 @@
    "closed",
    "2026"
   ],
-  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?"
+  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?",
+  "archive": "https://web.archive.org/web/20261121132931/https://www.socialalpha.org/techtonic-innovations-in-clean-energy-2026/"
  },
  {
   "id": "src-fo-legacy-social-alpha-energy2019",
@@ -1341,8 +1533,7 @@
    "closed",
    "2026"
   ],
-  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?",
-  "archive": "https://web.archive.org/web/20260717235621/https://villgro.org/programs/powering-livelihoods/"
+  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?"
  },
  {
   "id": "src-fo-legacy-efa-rd",
