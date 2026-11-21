@@ -55,7 +55,7 @@ jobs:
           git push -f origin "$BR"
           BODY=$(printf '%s\n' \
             "**$QUEUED leads** for Signals this week, in \`data/signals-candidates/$DAY.json\`. The file also records which places were searched, for the coverage grid on /signals/." "" \
-            "For each lead: open the link, then set \`decision\` to \`propose\` (worth a record) or \`skip\`. A proposed lead becomes a record only through a research batch: stage its sources, run verify-sources.yml, gate the claims, and set its step from the evidence, never from the feed." "" \
+            "For each lead: open the link, then set \`decision\` to \`propose\` (worth a record), \`context\` (context on the heat season, for the monthly briefing's editor) or \`skip\`. A proposed lead becomes a record only through a research batch: stage its sources, run verify-sources.yml, gate the claims, and set its step from the evidence, never from the feed." "" \
             "Merging records the review; nothing reaches the website from this pull request." "" \
             "Guide: \`data/signals-candidates/README.md\`")
           gh pr create --base "${{ github.event.repository.default_branch }}" --head "$BR" --title "Signals leads: $DAY ($QUEUED)" --body "$BODY" \

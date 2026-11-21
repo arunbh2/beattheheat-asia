@@ -28,7 +28,17 @@ function ladder(id, last) {
   const [y, m] = id.split("-").map(Number), next = new Date(Date.UTC(y, m + 1, 0)).toISOString().slice(0, 10);
   const r = F.between(D, `${id}-01`, last, next, s => ST.kindOf(s).label);
   const row = (x, sched) => ({ date: x.date, step: x.what + (sched ? " (scheduled)" : ""), item: x.item, record: x.s.title, cite: `signals:${x.s.id}`, link: `/signals/#${x.anchor}` });
-  return { note: "Generated from Signals by tools/sof-review.js for the editor; not part of the edition and removed at publication. Dates are when steps happened. Re-run with: node tools/sof-review.js ladder " + id, moved: r.past.map(x => row(x)), scheduled: r.ahead.map(x => row(x, true)) };
+  return { note: "Generated from Signals by tools/sof-review.js for the editor; not part of the edition and removed at publication. Dates are when steps happened. Re-run with: node tools/sof-review.js ladder " + id, moved: r.past.map(x => row(x)), scheduled: r.ahead.map(x => row(x, true)), season: season(id, last) };
+}
+// season context: weekly leads a reviewer marked "context" (how the heat season went where people live), published in the
+// edition's period. Leads, not evidence: a source cited in an edition still goes through the source check first.
+function season(id, last) {
+  const dir = path.join(__dirname, "..", "data", "signals-candidates"); if (!fs.existsSync(dir)) return [];
+  const out = [], seen = new Set();
+  for (const f of fs.readdirSync(dir).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort())
+    for (const c of JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")).candidates || [])
+      if (c.decision === "context" && /^\d{4}-\d{2}-\d{2}$/.test(c.published) && c.published >= `${id}-01` && c.published <= last && !seen.has(c.url)) { seen.add(c.url); out.push({ date: c.published, title: c.title, url: c.url, feed: c.feed, places: c.places }); }
+  return out.sort((a, b) => a.date.localeCompare(b.date));
 }
 if (cmd === "new") {
   if (!/^\d{4}-\d{2}$/.test(id || "")) die("give the edition id, YYYY-MM");
@@ -43,7 +53,7 @@ if (cmd === "new") {
   const f = fileOf(id) || die(`no edition ${id}`), e = JSON.parse(fs.readFileSync(f, "utf8"));
   if (e.status === "published") die("the month on the ladder is a draft aid; a published edition does not carry it");
   e.from_signals = ladder(id, e.period.to); save(f, e);
-  console.log(`${id}: ${e.from_signals.moved.length} steps dated in the period, ${e.from_signals.scheduled.length} scheduled after it`);
+  console.log(`${id}: ${e.from_signals.moved.length} steps dated in the period, ${e.from_signals.scheduled.length} scheduled after it, ${e.from_signals.season.length} season context leads`);
 } else if (cmd === "snapshot") {
   const f = fileOf(id) || die(`no edition ${id}`), e = JSON.parse(fs.readFileSync(f, "utf8"));
   if (e.status === "published") console.log("note: a published edition changes only with a dated revision; run seal afterwards");
