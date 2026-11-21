@@ -27,8 +27,16 @@ function ladder(id, last) {
   const F = require("./signals-feeds.js"), ST = require("./signals-text.js"), D = ST.load();
   const [y, m] = id.split("-").map(Number), next = new Date(Date.UTC(y, m + 1, 0)).toISOString().slice(0, 10);
   const r = F.between(D, `${id}-01`, last, next, s => ST.kindOf(s).label);
-  const row = (x, sched) => ({ date: x.date, step: x.what + (sched ? " (scheduled)" : ""), item: x.item, record: x.s.title, cite: `signals:${x.s.id}`, link: `/signals/#${x.anchor}` });
+  const row = (x, sched) => ({ date: x.date, step: x.what + (sched ? " (scheduled)" : ""), item: x.item, record: x.s.title, cite: `signals:${x.s.id}`, link: `/signals/#${x.anchor}`, places: x.s.places || [] });
   return { note: "Generated from Signals by tools/sof-review.js for the editor; not part of the edition and removed at publication. Dates are when steps happened. Re-run with: node tools/sof-review.js ladder " + id, moved: r.past.map(x => row(x)), scheduled: r.ahead.map(x => row(x, true)), season: season(id, last) };
+}
+// promised and lived, place by place: the period's Signals steps beside the season context leads for the same place, for
+// the editor deciding whether a side_by_side row is possible (both sides still need a checked source before it is written)
+function pairs(L) {
+  const at = {}, put = (p, k, v) => ((at[p] = at[p] || { place: p, promised: [], lived: [] })[k].push(v));
+  L.moved.forEach(x => x.places.forEach(p => put(p, "promised", `${x.date} · ${x.step}: ${x.item} (${x.cite})`)));
+  L.season.forEach(x => x.places.forEach(p => put(p, "lived", `${x.date} · ${x.title} (${x.url})`)));
+  return Object.values(at).sort((a, b) => (b.promised.length && b.lived.length) - (a.promised.length && a.lived.length) || a.place.localeCompare(b.place));
 }
 // season context: weekly leads a reviewer marked "context" (how the heat season went where people live), published in the
 // edition's period. Leads, not evidence: a source cited in an edition still goes through the source check first.
@@ -40,6 +48,7 @@ function season(id, last) {
       if (c.decision === "context" && /^\d{4}-\d{2}-\d{2}$/.test(c.published) && c.published >= `${id}-01` && c.published <= last && !seen.has(c.url)) { seen.add(c.url); out.push({ date: c.published, title: c.title, url: c.url, feed: c.feed, places: c.places }); }
   return out.sort((a, b) => a.date.localeCompare(b.date));
 }
+function withPairs(L) { L.pairs = pairs(L); return L; }
 if (cmd === "new") {
   if (!/^\d{4}-\d{2}$/.test(id || "")) die("give the edition id, YYYY-MM");
   if (fileOf(id)) die(`${id} already exists`);
@@ -47,13 +56,13 @@ if (cmd === "new") {
   fs.mkdirSync(M.DRAFTS, { recursive: true });
   save(path.join(M.DRAFTS, id + ".json"), { schema: 2, id, status: "draft", period: { from: `${id}-01`, to: last }, cutoff: last,
     argument: { headline: "", claim: "", rests_on: "" }, opening: "", developments: [], opportunity: null, question: null, watch: [], audiences: [],
-    platform: { p: "", links: [] }, sources: {}, revisions: [], from_signals: ladder(id, last) });
+    platform: { p: "", links: [] }, sources: {}, revisions: [], from_signals: withPairs(ladder(id, last)) });
   console.log(`wrote data/site/briefs/drafts/${id}.json. Write from checked records only (data/kb, data/site/signals.json); cite each source by origin ("kb:<id>", "signals:<sig-id>/<source-id>" or "site:/path/#anchor"), then: node tools/sof-review.js snapshot ${id}`);
 } else if (cmd === "ladder") {
   const f = fileOf(id) || die(`no edition ${id}`), e = JSON.parse(fs.readFileSync(f, "utf8"));
   if (e.status === "published") die("the month on the ladder is a draft aid; a published edition does not carry it");
-  e.from_signals = ladder(id, e.period.to); save(f, e);
-  console.log(`${id}: ${e.from_signals.moved.length} steps dated in the period, ${e.from_signals.scheduled.length} scheduled after it, ${e.from_signals.season.length} season context leads`);
+  e.from_signals = withPairs(ladder(id, e.period.to)); save(f, e);
+  console.log(`${id}: ${e.from_signals.moved.length} steps dated in the period, ${e.from_signals.scheduled.length} scheduled after it, ${e.from_signals.season.length} season context leads, ${e.from_signals.pairs.filter(p => p.promised.length && p.lived.length).length} places with both`);
 } else if (cmd === "snapshot") {
   const f = fileOf(id) || die(`no edition ${id}`), e = JSON.parse(fs.readFileSync(f, "utf8"));
   if (e.status === "published") console.log("note: a published edition changes only with a dated revision; run seal afterwards");

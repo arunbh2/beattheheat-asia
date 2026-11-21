@@ -24,7 +24,7 @@
   "changed": "2026-11-20"
  },
  "/actions/": {
-  "hash": "ae6d53b7e35d0836",
+  "hash": "10d2b962f8cca64c",
   "changed": "2026-11-21"
  },
  "/approach/": {
@@ -240,7 +240,7 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "12fd5b0071970c62",
+  "hash": "b1654e06166c6db9",
   "changed": "2026-11-21"
  },
  "/heat-economy/": {
@@ -268,7 +268,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "07ac411f90f99aee",
+  "hash": "d71fdaf06eed0b8e",
   "changed": "2026-11-21"
  },
  "/heat-tools/": {
@@ -384,7 +384,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "80ba2031d2146460",
+  "hash": "2f19845de9122104",
   "changed": "2026-11-21"
  },
  "/loops/": {
@@ -652,7 +652,7 @@
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "4587ed3725211068",
+  "hash": "6e034bb0332205cb",
   "changed": "2026-11-21"
  },
  "/signals/all/": {
@@ -688,7 +688,7 @@
   "changed": "2026-11-17"
  },
  "/whats-new/": {
-  "hash": "99046c74b5548dc9",
+  "hash": "6ee7336145141810",
   "changed": "2026-11-21"
  },
  "/whats-new/2026-10/": {

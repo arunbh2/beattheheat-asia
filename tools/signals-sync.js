@@ -36,6 +36,9 @@ function passages(around, terms) {
 }
 function checks(D) {
   const want = new Set(D.signals.flatMap(s => (s.sources || []).map(x => x.url))), urls = {};
+  // sources staged in a season batch (data/inbox/<YYYY-MM>-season*/), which State of the field cites as "batch:<batch>/<id>"
+  for (const b of fs.readdirSync(path.join(ROOT, "data/inbox")).filter(b => /^\d{4}-\d{2}-season/.test(b))) { const f = path.join(ROOT, "data/inbox", b, "sources.json");
+    if (fs.existsSync(f)) JSON.parse(fs.readFileSync(f, "utf8")).forEach(x => x.url && want.add(x.url)); }
   const add = (u, r) => { if (want.has(u)) (urls[u] = urls[u] || []).push(r); };
   const inbox = path.join(ROOT, "data/inbox");
   for (const b of fs.readdirSync(inbox).sort()) {

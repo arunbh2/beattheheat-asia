@@ -58,12 +58,15 @@ function origin(o) {
   if (kind === "kb") { const r = kb().find(x => x.id === rest); return r ? { kind, id: rest, rec: r } : null; }
   if (kind === "site") { const [pth, anc] = rest.split("#"), f = path.join(ROOT, pth.replace(/^\//, ""), "index.html");
     const ok = fs.existsSync(f) && (!anc || fs.readFileSync(f, "utf8").includes(`id="${anc}"`)); return ok ? { kind, id: rest, rec: { path: rest } } : null; }
+  if (kind === "batch") { const [b, sid] = rest.split("/"), f = path.join(ROOT, "data", "inbox", b || "", "sources.json");
+    if (!/^\d{4}-\d{2}-season/.test(b || "") || !fs.existsSync(f)) return null; const so = JSON.parse(fs.readFileSync(f, "utf8")).find(x => x.id === sid); return so ? { kind, id: b, src: sid, source: so } : null; }
   if (kind === "signals") { const [sid, src] = rest.split("/"); const s = sig().signals.find(x => x.id === sid); const so = s && s.sources.find(x => x.id === src); return so ? { kind, id: sid, src, rec: s, source: so } : null; }
   return null;
 }
 // a fingerprint of what matters in the record a source came from: a re-serialised file or a review date does not change it
 function fingerprint(o) {
   const r = origin(o); if (!r || r.kind === "site") return null;
+  if (r.kind === "batch") return crypto.createHash("sha256").update(JSON.stringify([r.source.title, r.source.url])).digest("hex").slice(0, 12);
   if (r.kind === "kb") return crypto.createHash("sha256").update(JSON.stringify([r.rec.title, r.rec.summary, r.rec.status, r.rec.url || "", r.rec.as_of])).digest("hex").slice(0, 12);
   const C = checks(), s = r.rec;
   const steps = (s.deliverables || []).flatMap(d => [...d.milestones.map(m => [d.id, m.step, m.date, SM.milestoneState(m, s, C).state]), ...(d.events || []).map(ev => [d.id, ev.step, ev.date])]);
@@ -90,6 +93,8 @@ function snapshot(s, by) {
   if (r.kind === "kb") { const k = r.rec;
     out.title = out.title || k.title; out.publisher = out.publisher || k.publisher; out.url = out.url || k.url; out.archive = out.archive || k.archive || "";
     out.type = out.type || (k.kind === "news" ? "secondary" : "original"); out.date = out.date || k.as_of; }
+  else if (r.kind === "batch") { const so = r.source;
+    out.title = out.title || so.title; out.publisher = out.publisher || so.publisher; out.url = out.url || so.url; out.type = out.type || "secondary"; out.date = out.date || so.date || String(so.year || ""); out.archive = out.archive || so.archive || ""; }
   else { const so = r.source;
     out.title = out.title || so.label; out.url = out.url || so.url; out.type = out.type || so.type; out.date = out.date || r.rec.date; out.archive = out.archive || ""; }
   out.check = checkOn(out.url, by); out.fp = fingerprint(s.origin);
@@ -179,6 +184,17 @@ function validate(e, opts = {}) {
     if (Q.revisits) { const prev = load({ drafts: true }).find(x => x.id === Q.revisits.edition);
       need(prev && prev.status === "published" && prev.id < e.id, `question revisits ${Q.revisits.edition}: an earlier published edition`);
       need(Q.revisits.new_evidence && Q.revisits.changed && Q.revisits.unresolved, "question revisits: new_evidence, changed and unresolved"); } }
+  // promised and lived, side by side: a step in a commitment beside reports of the season in the same place and period
+  const P = e.side_by_side;
+  if (P) { const places = require("./signals-harvest.js").PLACES, rows = P.rows || [];
+    need(rows.length >= 1 && rows.length <= 6, "side_by_side: one to six rows");
+    need((P.limits || []).length, "side_by_side: limits (what setting the two side by side does not show)");
+    rows.forEach((r, i) => { const w = `side_by_side row ${i + 1}`;
+      need(places[r.place], `${w}: place is one Signals covers (${Object.keys(places).join(", ")})`);
+      need(r.promised && r.lived, `${w}: promised and lived, each a claim with its source`);
+      if (r.promised) { claimOk(r.promised, `${w}, promised`); need(/^(signals|kb):/.test((S[r.promised.source] || {}).origin || ""), `${w}, promised: its source is a Signals or knowledge-base record`); }
+      if (r.lived) { claimOk(r.lived, `${w}, lived`); need(r.lived.source !== (r.promised || {}).source, `${w}: lived and promised rest on different sources`);
+        need(r.lived.date && inPeriod(r.lived.date, e.period), `${w}, lived: dated (YYYY-MM-DD) within the edition's period`); } }); }
   (e.watch || []).forEach((w, i) => need(w.what && w.evidence, `watch ${i + 1}: what and the evidence that would matter`));
   (e.audiences || []).forEach(a => need(AUD[a.who] && a.q, `audience ${a.who}: one of ${Object.keys(AUD).join(", ")}, with a question`));
   (e.revisions || []).forEach((r, i) => { need(/^\d{4}-\d{2}-\d{2}$/.test(r.date || "") && ["published", "revision", "correction"].includes(r.kind) && r.note, `revision ${i + 1}: date, kind (published, revision or correction) and note`);
