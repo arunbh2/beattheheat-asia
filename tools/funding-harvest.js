@@ -24,7 +24,11 @@ const clean = t => String(t || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").
 const tag = (x, t) => { const m = x.match(new RegExp(`<${t}(?:\\s[^>]*)?>([\\s\\S]*?)</${t}>`, "i")); return m ? clean(m[1]) : ""; };
 const linkOf = x => { const a = x.match(/<link[^>]*href="([^"]+)"/i); return a ? a[1] : tag(x, "link"); };
 const iso = d => { const t = Date.parse(d); return isNaN(t) ? "" : new Date(t).toISOString().slice(0, 10); };
-const normUrl = u => String(u || "").trim().replace(/#.*$/, "").replace(/\/+$/, "").toLowerCase();
+// tracking parameters (utm_*, feedId) are dropped, so a feed's link matches the published record's
+const normUrl = u => String(u || "").trim().replace(/#.*$/, "").replace(/([?&])(utm_[a-z]+|feedid)=[^&]*/gi, "$1").replace(/[?&]+$/, "").replace(/\/+$/, "").toLowerCase();
+// a published title (letters and digits only, 25 or more) that a feed title starts with counts as already known:
+// a career site can list the same post under a second id
+const normTitle = t => String(t || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
 async function get(url, opt = {}) {
   for (let i = 0; i < 2; i++) {
@@ -173,6 +177,7 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10), since = new Date(Date.now() - DAYS * 864e5).toISOString().slice(0, 10);
   const REG = JSON.parse(fs.readFileSync(path.join(DIR, "registry.json"), "utf8")).sources.filter(s => !ONLY.length || ONLY.includes(s.id));
   const have = new Set(published().flatMap(r => [r.url, r.official_url, r.application_url].filter(Boolean).map(normUrl))), q = queued();
+  const titles = published().map(r => normTitle(r.title)).filter(t => t.length >= 25);
   const sources = [], candidates = [], rejected = { off_topic: 0, old: 0, known: 0 };
   for (const s of REG) {
     const imp = IMPORT[s.kind]; if (!imp) { sources.push({ id: s.id, status: `no importer for kind ${s.kind}`, items: 0 }); continue; }
@@ -183,7 +188,9 @@ async function main() {
       const u = normUrl(it.url); if (!u) continue;
       if (it.published && it.published < since && s.feeds !== "careers") { rejected.old++; continue; }
       const rel = relevance(`${it.title}. ${it.location}. ${it.text}`); if (!rel) { rejected.off_topic++; continue; }
-      if (have.has(u) || q.has(u)) { rejected.known++; continue; }
+      // a related remit counts only for work in Asia: where the feed names a place, the place (or the title or employer) says so
+      if (rel.strength === "adjacent" && it.location && !ASIA.test(`${it.title}. ${it.location}. ${it.org}`)) { rejected.off_topic++; continue; }
+      if (have.has(u) || q.has(u) || titles.some(t => normTitle(it.title).startsWith(t))) { rejected.known++; continue; }
       q.add(u); kept++;
       candidates.push({ feed: s.feeds, source: s.id, discovery_only: !!s.discovery_only, title: it.title, org: it.org, url: it.url, published: it.published || "not stated", deadline_text: it.deadline_text || "not stated in the feed",
         location: it.location || "not stated", relevance: rel, summary: it.text.slice(0, 300), extra: it.extra || {}, decision: "pending" });
