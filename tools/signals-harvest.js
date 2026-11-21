@@ -42,7 +42,10 @@ const normUrl = u => String(u || "").trim().replace(/[?#].*$/, "").replace(/\/+$
 
 async function get(url) {
   for (let i = 0; i < 3; i++) {
-    try { const r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(30000) }); if (r.ok) return { ok: true, text: await r.text() };
+    try { let r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(30000) });
+      // ReliefWeb answers a feed Accept header with 406; it serves the same feed to a plain one (as tools/fetch-news.js does)
+      if (r.status === 406) r = await fetch(url, { headers: Object.assign({}, UA, { Accept: "*/*" }), signal: AbortSignal.timeout(30000) });
+      if (r.ok) return { ok: true, text: await r.text() };
       if (![429, 502, 503, 504].includes(r.status)) return { ok: false, why: `HTTP ${r.status}` }; } catch (e) { if (i === 2) return { ok: false, why: e.name === "TimeoutError" ? "timed out" : e.message }; }
     await new Promise(r => setTimeout(r, 4000 * (i + 1)));
   }
