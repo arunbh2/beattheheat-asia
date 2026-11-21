@@ -33,7 +33,7 @@ const PLACES = {
 const HEAT = /\b(heat ?waves?|extreme heat|heat stress|heat-health|heat health|heat action plan|heat illness|heatstroke|heat stroke|cooling cent(?:re|er)s?|sustainable cooling|wet[- ]bulb|high temperatures?)\b/i;
 const KIND = [["commitment", /\b(plan|policy|law|rule|regulation|guideline|advisory|fund(?:ing)?|grant|budget|launch(?:es|ed)?|adopt(?:s|ed)?|pledge|commit(?:s|ted|ment)?|programme|program|office|centre of excellence)\b/i],
   ["finding", /\b(study|report|research|survey|analysis|found|finds|record|attribution)\b/i], ["guidance", /\b(guidance|toolkit|framework|manual|protocol)\b/i]];
-const UA = { "User-Agent": "CommonShade-Signals/1.0 (+https://beattheheat.asia/signals/)", "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.5" };
+const UA = { "User-Agent": "Mozilla/5.0 (compatible; Common Shade signals; +https://beattheheat.asia/signals/)", "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.5" };
 const clean = t => String(t || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&amp;/g, "&").replace(/&#(\d+);/g, (m, n) => String.fromCharCode(+n)).replace(/\s+/g, " ").trim();
 const tag = (x, t) => { const m = x.match(new RegExp(`<${t}(?:\\s[^>]*)?>([\\s\\S]*?)</${t}>`, "i")); return m ? clean(m[1]) : ""; };
 const linkOf = x => { const a = x.match(/<link[^>]*href="([^"]+)"/i); return a ? a[1] : tag(x, "link"); };
