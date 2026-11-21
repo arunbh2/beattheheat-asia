@@ -528,7 +528,12 @@
     "research"
    ],
    "past_support": [],
-   "links": {},
+   "links": {
+    "signals": [
+     "sig-south-asia-climate-health-desk-2026",
+     "sig-clinicians-heat-pregnancy-2026"
+    ]
+   },
    "id": "prog-wellcome-cia",
    "org": "org-wellcome",
    "name": "Wellcome Climate Impacts Awards",
@@ -1524,6 +1529,62 @@
     [
      "he-envhlth-02",
      "exposome"
+    ]
+   ]
+  },
+  {
+   "id": "prog-cool-bth",
+   "org": "org-cool-coalition",
+   "name": "Beat the Heat in Cities",
+   "url": "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities",
+   "category": "urban",
+   "remit": {
+    "text": "Support for cities on heat action and urban cooling, with countries and cities proposing cities through an expression of interest.",
+    "src": "cool-bth",
+    "term": "expression of interest"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Heat action and urban cooling in cities is the programme's subject."
+   },
+   "access": [
+    "government"
+   ],
+   "access_note": {
+    "text": "Countries and cities submit an expression of interest proposing up to three cities; the Secretariat replies with next steps.",
+    "src": "cool-bth",
+    "term": "three cities"
+   },
+   "recipients": {
+    "text": "Cities, proposed by their national or city governments.",
+    "src": "cool-bth",
+    "term": "cities"
+   },
+   "instruments": [],
+   "operational": "operational",
+   "topics": [
+    "municipal",
+    "cooling",
+    "nature"
+   ],
+   "activities": [
+    "policy",
+    "pilots"
+   ],
+   "past_support": [],
+   "links": {
+    "signals": [
+     "sig-cop31-cooling-ministerial-2026"
+    ]
+   },
+   "core": [
+    [
+     "cool-bth",
+     "Beat the Heat"
+    ],
+    [
+     "cool-bth",
+     "expression of interest"
     ]
    ]
   }

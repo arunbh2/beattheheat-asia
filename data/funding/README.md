@@ -104,6 +104,8 @@ Dry run: `node tools/funding-harvest.js --dry-run` prints added, changed, expire
 
 `node tools/check-funding.js` tests the rules, the data and the pages. It is part of `node tools/check-all.js`.
 
+The October 2026 programme list (24 accelerators, prizes and challenges) was audited with this batch. `research/2026-11/funding-opportunities/legacy-audit.json` says whether each page still opened and what words it showed, and it labels the Global Cooling Prize as a completed competition. The legacy records themselves are unchanged.
+
 Feeds that failed on the first run are listed under `removed` in `registry.json`. ReliefWeb jobs need the approved app name, stored as the `RELIEFWEB_APPNAME` secret.
 
 The site takes no submissions through these pages. Suggestions go through `/corrections/` and the join form, and a person reviews them.

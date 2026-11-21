@@ -277,8 +277,10 @@ const dealRow = d => `<tr id="deal-${esc(d.id)}"><td>${esc(d.date || "")}</td><t
       <td>${d.amount && d.amount.usd ? usd(d.amount.usd) : "<span class=\"he-dash\">not published</span>"}${d.amount && d.amount.currency && d.amount.currency !== "USD" && d.amount.local ? `<br><small>${esc(Number(d.amount.local).toLocaleString("en-GB"))} ${esc(d.amount.currency)}</small>` : ""}</td>
       <td>${esc(INSTR[d.instrument] || "Not stated")}</td><td>${esc(DSTATUS[d.status] || "")}</td><td>${esc(segName(d.segment))}</td><td>${esc((d.countries || []).map(cname).join(", "))}</td><td>${d.source && live(d.source.url) ? ext(d.source.url, "Source") : ""}</td></tr>`;
 const BUYERS = { yes: "Helps you meet buyers", partly: "Partly helps you meet buyers", no: "Does not focus on buyers", unclear: "" };
+// the November 2026 audit of these programme pages: a label where the evidence supports one (research/2026-11/funding-opportunities/legacy-audit.json)
+const AUDIT = (() => { const f = path.join(ROOT, "research", "2026-11", "funding-opportunities", "legacy-audit.json"); return fs.existsSync(f) ? Object.fromEntries(JSON.parse(fs.readFileSync(f, "utf8")).programmes.map(x => [x.id, x])) : {}; })();
 const progCard = a => `<details class="sol he-card" id="prog-${esc(a.id)}" data-type="${esc(a.type || "")}" data-q="${qtext(a.name, a.run_by, a.focus, a.geography)}">
-      <summary><span class="sol-h">${esc(a.name)}</span><span class="sol-tags"><span class="sol-clim">${esc(PROGTYPE[a.type] || "")}</span>${BUYERS[a.connects_to_buyers] ? `<span class="sol-clim">${esc(BUYERS[a.connects_to_buyers])}</span>` : ""}</span><span class="sol-sum">${esc(tidy(a.focus))}</span></summary>
+      <summary><span class="sol-h">${esc(a.name)}</span><span class="sol-tags"><span class="sol-clim">${esc(PROGTYPE[a.type] || "")}</span>${BUYERS[a.connects_to_buyers] ? `<span class="sol-clim">${esc(BUYERS[a.connects_to_buyers])}</span>` : ""}${(AUDIT[a.id] || {}).label ? `<span class="sol-clim">${esc(AUDIT[a.id].label)}</span>` : ""}</span><span class="sol-sum">${esc(tidy(a.focus))}</span></summary>
       <div class="sol-body">
         ${f("Run by", p(tidy(a.run_by)))}
         ${f("What it offers", ul((a.offers || []).map(tidy)))}

@@ -2155,7 +2155,7 @@ Check the funder’s own website for what it funds now and how to apply.
 
 Each helps at a different stage: finding new ideas, testing them, a place to try them, meeting buyers, or money to grow. Look for the ones that help you meet buyers: winning a prize does not by itself bring customers.
 
-Global Cooling PrizePrizePartly helps you meet buyersResidential AC prototypes with energy, refrigerant and cost criteria.
+Global Cooling PrizePrizePartly helps you meet buyersCompleted competition (winners announced in 2021)Residential AC prototypes with energy, refrigerant and cost criteria.
 
 #### Run by
 

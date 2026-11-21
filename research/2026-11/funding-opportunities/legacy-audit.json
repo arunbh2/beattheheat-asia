@@ -1,0 +1,260 @@
+{
+ "about": "Audit of the 24 accelerators, prizes and challenges in the October 2026 research (research/2026-10/economy/programmes.json), checked on 21 November 2026 with the funding batch (data/inbox/2026-11-funding-opps). 'page' says whether the programme's page opened for an automated reader; 'words_found' lists which of 'apply', 'applications', 'closed', '2026' and the programme's name appeared, which is not proof that applications are open or closed. 'label' is shown on the programme's card on /heat-economy/money/ where the evidence supports it. The records themselves are unchanged.",
+ "checked": "2026-11-21",
+ "programmes": [
+  {
+   "id": "global-cooling-prize",
+   "name": "Global Cooling Prize",
+   "page": "no link in the October research",
+   "label": "Completed competition (winners announced in 2021)"
+  },
+  {
+   "id": "liveability-challenge",
+   "name": "The Liveability Challenge - Cool Earth and cooling participants",
+   "url": "https://www.theliveabilitychallenge.org/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Liveability",
+    "applications",
+    "closed"
+   ]
+  },
+  {
+   "id": "global-leap-ogccc",
+   "name": "Global LEAP Awards Off-Grid Cold Chain Challenge",
+   "url": "https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Global"
+   ]
+  },
+  {
+   "id": "keep-cool",
+   "name": "Keep Cool Innovation Challenge",
+   "url": "https://www.wri.org/initiatives/keep-cool-innovation-challenge-cool-solutions-warming-world",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Keep",
+    "apply"
+   ]
+  },
+  {
+   "id": "greenovation",
+   "name": "Greenovation Urban Climate Resilience Challenge",
+   "url": "https://earthonfoundation.org/greenovation-urban-climate-resilience-challenge/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Greenovation",
+    "apply",
+    "applications"
+   ]
+  },
+  {
+   "id": "unicef-climate-health",
+   "name": "UNICEF Venture Fund - Climate and Health 2026 call",
+   "page": "no link in the October research"
+  },
+  {
+   "id": "techtonic-2026",
+   "name": "Techtonic: Innovations in Clean Energy 2026",
+   "url": "https://www.socialalpha.org/techtonic-innovations-in-clean-energy-2026/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Techtonic",
+    "apply",
+    "applications"
+   ]
+  },
+  {
+   "id": "social-alpha-energy2019",
+   "name": "Social Alpha Energy Challenge 2.0 - historical Tan90 pathway",
+   "url": "https://www.socialalpha.org/basking-in-cold-comfort-with-tan90/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Social"
+   ]
+  },
+  {
+   "id": "powering-livelihoods",
+   "name": "Powering Livelihoods",
+   "url": "https://villgro.org/programs/powering-livelihoods/",
+   "page": "opened",
+   "words_found": [
+    "Powering",
+    "apply",
+    "applications",
+    "closed"
+   ]
+  },
+  {
+   "id": "efa-rd",
+   "name": "Efficiency for Access Research and Development Fund",
+   "url": "https://efficiencyforaccess.org/rd-fund/about-the-rd-fund/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Efficiency"
+   ]
+  },
+  {
+   "id": "adb-rural-women",
+   "name": "Rising Above the Heat: Innovative Cooling Solutions for Rural Women in Asia",
+   "url": "https://challenges.adb.org/en/challenges/genderandheat",
+   "page": "opened",
+   "words_found": [
+    "Rising",
+    "apply"
+   ]
+  },
+  {
+   "id": "adb-streetvendors",
+   "name": "Bridging the Cold Chain Gap",
+   "url": "https://challenges.adb.org/en/challenges/tic-coldchain",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Bridging"
+   ]
+  },
+  {
+   "id": "climate-pitch",
+   "name": "Climate Pitch",
+   "url": "https://climatepitch.org/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Climate",
+    "apply"
+   ]
+  },
+  {
+   "id": "gsma-innovation",
+   "name": "GSMA Innovation Fund - relevant digital-urban and humanitarian windows",
+   "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma-innovation-fund/",
+   "page": "blocked automated reading",
+   "words_found": [
+    "2026",
+    "GSMA",
+    "apply",
+    "applications",
+    "closed"
+   ]
+  },
+  {
+   "id": "gif-support",
+   "name": "Global Innovation Fund - climate resilience and Thrive support routes",
+   "url": "https://www.globalinnovation.fund/what-we-do",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Global",
+    "apply"
+   ]
+  },
+  {
+   "id": "climate-venture-lab",
+   "name": "Climate Venture Lab / Climate Lab",
+   "url": "https://www.prosperglobalventures.com/climate-lab",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Climate",
+    "apply",
+    "applications"
+   ]
+  },
+  {
+   "id": "techemerge-cooling",
+   "name": "TechEmerge Sustainable Cooling Innovation Programme",
+   "url": "https://www.techemerge.org/our-focus/sustainable-cooling/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "TechEmerge",
+    "apply",
+    "closed"
+   ]
+  },
+  {
+   "id": "third-derivative",
+   "name": "Third Derivative - cooling innovators and PDRC pilot pathway",
+   "url": "https://www.third-derivative.org/blog/d3-incoming-general-cohort-25-3-newsbrief",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Third",
+    "apply",
+    "applications"
+   ]
+  },
+  {
+   "id": "earthshot-prize",
+   "name": "The Earthshot Prize",
+   "url": "https://earthshotprize.org/news/five-winners-of-the-2024-earthshot-prize-are-unveiled-in-cape-town/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Earthshot"
+   ]
+  },
+  {
+   "id": "flctd",
+   "name": "Facility for Low Carbon Technology Deployment - Innovation Challenge",
+   "url": "https://india.un.org/en/200833-interview-soumalya-mukherjee",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "Facility",
+    "applications"
+   ]
+  },
+  {
+   "id": "nature-for-cooling",
+   "name": "Nature for Cooling Challenge",
+   "url": "https://coolcoalition.org/projects/nature-cooling-challenge",
+   "page": "blocked automated reading",
+   "words_found": []
+  },
+  {
+   "id": "sentosa-soic",
+   "name": "SOIC sixth edition - Sentosa outdoor cooling challenge",
+   "url": "https://open.innovation-challenge.sg/en/challenges/soic-6th-edition/pages/categories?lang=en",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "SOIC",
+    "apply",
+    "applications",
+    "closed"
+   ]
+  },
+  {
+   "id": "ten-across",
+   "name": "10X PRIZE Clean Cooling Student Competition",
+   "url": "https://10across.org/10xprize/",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "PRIZE",
+    "apply"
+   ]
+  },
+  {
+   "id": "tomkat-transfer",
+   "name": "TomKat Center Innovation Transfer Program",
+   "url": "https://tomkat.stanford.edu/innovation-transfer",
+   "page": "opened",
+   "words_found": [
+    "2026",
+    "TomKat",
+    "apply"
+   ]
+  }
+ ]
+}

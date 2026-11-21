@@ -45,6 +45,11 @@ const statusChips = (r, kind) => { const C = M.load().C, a = C.applicationStatus
   return `${chip("app", a.label, ` data-app="${a.status}" title="${esc(a.why)}"`)}${chip("ver", v.label, ` data-ver="${v.status}" title="${esc(v.why)}"`)}`; };
 const sourcesBlock = r => `<p class="fo-src"><b>${esc(T.CHECKED)}:</b> ${r.check.checked ? esc(M.load().C.deadlineText ? new Date(r.check.checked + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : r.check.checked) : "not yet"} · ${r.sources.filter(s => s.url).map(s => ext(s.url, s.label)).join(" · ")}</p>`;
 
+// Signals records linked to a programme, each with the furthest step its own evidence shows: an announcement is not a call,
+// an award or money disbursed
+const sig = p => { const ids = ((p.links || {}).signals || []); if (!ids.length) return "";
+  const SC = require("./signals-context.js"), D = require("./signals-text.js").load(), rows = ids.map(id => D.signals.find(s => s.id === id)).filter(Boolean);
+  return rows.length ? `<div class="sol-f"><h4>On Signals</h4><ul class="sol-ul">${rows.map(s => `<li><a href="/signals/#${esc(s.id)}">${esc(s.title)}</a> <span class="fo-sub">${esc(SC.standing(s))}</span></li>`).join("")}</ul></div>` : ""; };
 // ---- the landscape, at the top of /heat-economy/money/ ----
 function landscape() {
   const m = M.load(), C = m.C, P = m.PROG.slice().sort((a, b) => (CATEGORY[a.category] || "").localeCompare(CATEGORY[b.category] || "") || a.name.localeCompare(b.name));
@@ -64,6 +69,7 @@ function landscape() {
         ${(p.activities || []).length ? `<div class="sol-f"><h4>What it could support</h4><p>${esc(p.activities.map(a => (C.ACTIVITIES.find(([k]) => k === a) || [, a])[1]).join(", "))}</p></div>` : ""}
         <div class="sol-f"><h4>Calls and rounds</h4>${opps.length ? `<ul class="sol-ul">${opps.map(o => `<li><a href="/heat-economy/money/opportunities/#${esc(o.id)}">${esc(o.title)}</a> · ${esc(C.applicationStatus(o, today()).label)}</li>`).join("")}</ul>` : `<p>No current call recorded here. ${p.access && p.access.includes("periodic-call") ? "Calls have been periodic; the next one is not announced." : ""}</p>`}</div>
         ${past ? `<div class="sol-f"><h4>Past support (not money available now)</h4><ul class="sol-ul">${past}</ul></div>` : ""}
+        ${sig(p)}
         ${p.limits_note ? `<div class="sol-f"><h4>Limits of what we know</h4><p>${esc(factText(p.limits_note))}</p></div>` : ""}
         <p class="sol-go"><a class="fo-next" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(next)}<span class="visually-hidden">: ${esc(p.name)} (opens in a new tab)</span></a></p>
         ${sourcesBlock(p)}
@@ -240,7 +246,7 @@ function llms() {
     "Status rules: application status (upcoming, open, deadline day, rolling, closed, withdrawn, unknown) and verification (verified, review due, source unavailable, conflicting information) are separate; 'verified open' needs both. A future deadline does not prove a call is open; no deadline does not mean rolling.", ""];
   lines.push("### Open calls and tenders (as of the build; check each official page)");
   m.OPP.slice().sort((a, b) => C.compare(a, b, now)).forEach(o => { const p = prep(o, "opportunities"), d = C.entryDeadline(o);
-    lines.push(`- ${o.title} (${p.org_name}; ${C.TYPE[o.type] || o.type}; ${p.instrument_text}). Status: ${C.applicationStatus(o, now).label}; ${C.verificationStatus(o, now, "opportunity").label}. Deadline: ${C.deadlineText(d)}. Funding: ${p.amount_text}. Who can apply: ${p.eligibility_text}. ${o.official_url}`); });
+    lines.push(`- ${o.title} (${p.org_name}; ${C.TYPE[o.type] || o.type}; ${p.instrument_text}). ${p.purpose_text} Status: ${C.applicationStatus(o, now).label}; ${C.verificationStatus(o, now, "opportunity").label}. Deadline: ${C.deadlineText(d)}. Funding: ${p.amount_text}. Who can apply: ${p.eligibility_text}. ${o.official_url}`); });
   lines.push("", "### Programmes");
   m.PROG.forEach(p => lines.push(`- ${p.name} (${(m.byId[p.org] || {}).name || ""}): ${C.RELEVANCE[(p.relevance || {}).label] || ""}. Access: ${(p.access || []).map(a => C.ACCESS_LABEL[a]).join("; ")}. ${p.url}`));
   lines.push("", "### Careers");

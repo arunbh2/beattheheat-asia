@@ -929,6 +929,71 @@
     ]
    ],
    "reference": "rfx_12201_ROAP"
+  },
+  {
+   "id": "opp-cool-bth-eoi",
+   "title": "Beat the Heat in Cities: expression of interest for countries and cities",
+   "org": "org-cool-coalition",
+   "programme": "prog-cool-bth",
+   "round": "Expressions of interest (no deadline published)",
+   "type": "ta-call",
+   "instrument": "technical-assistance",
+   "asia": true,
+   "purpose": {
+    "text": "Countries and cities propose up to three cities for support on heat action planning and urban cooling.",
+    "src": "cool-bth",
+    "term": "three cities"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Heat action planning and urban cooling are the subject."
+   },
+   "eligibility": {
+    "text": "National and city governments, proposing cities.",
+    "src": "cool-bth",
+    "term": "expression of interest",
+    "applicants": [
+     "municipality",
+     "national-gov"
+    ],
+    "requires": [
+     "government-endorsement"
+    ]
+   },
+   "geography": {
+    "text": "Cities worldwide, as proposed by countries and cities.",
+    "src": "cool-bth",
+    "term": "cities",
+    "countries": [
+     "GLOBAL"
+    ]
+   },
+   "deadlines": [],
+   "deadline_history": [],
+   "stated_status": "",
+   "note": "The page describes the expression of interest but does not say whether it is open now or give a deadline; contact the Secretariat through the page.",
+   "official_url": "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities",
+   "access": [
+    "government"
+   ],
+   "topics": [
+    "municipal",
+    "cooling"
+   ],
+   "activities": [
+    "policy",
+    "pilots"
+   ],
+   "core": [
+    [
+     "cool-bth",
+     "Beat the Heat"
+    ],
+    [
+     "cool-bth",
+     "expression of interest"
+    ]
+   ]
   }
  ]
 }

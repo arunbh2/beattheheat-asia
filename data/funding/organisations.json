@@ -885,6 +885,30 @@
      "Research Fellow"
     ]
    ]
+  },
+  {
+   "id": "org-cool-coalition",
+   "name": "Cool Coalition (UNEP)",
+   "aliases": [
+    "Cool Coalition"
+   ],
+   "type": "un-body",
+   "website": "https://coolcoalition.org/",
+   "remit": {
+    "text": "UNEP-led coalition on sustainable cooling; runs Beat the Heat in Cities.",
+    "src": "cool-bth",
+    "term": "Beat the Heat"
+   },
+   "instruments": [],
+   "access": [
+    "government"
+   ],
+   "core": [
+    [
+     "cool-bth",
+     "Beat the Heat"
+    ]
+   ]
   }
  ]
 }

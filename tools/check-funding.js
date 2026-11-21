@@ -98,6 +98,8 @@ M.all.PROG.forEach(p => {
   ok(/^https:\/\//.test(p.url || ""), `${p.id}: an https link`);
 });
 ok(M.REJ.every(r => r.title && r.reason), "rejected candidates each give a reason");
+{ const SIG = new Set(JSON.parse(read("data/site/signals.json")).signals.map(s => s.id));
+  M.all.PROG.forEach(p => ((p.links || {}).signals || []).forEach(id => ok(SIG.has(id), `${p.id}: linked Signals record ${id} exists`))); }
 // sources are canonical: no aggregator or social link as a record's source
 const AGG = /fundsforngos|developmentaid|linkedin|opportunitydesk|opportunitiesforyouth|propakistani|impactpool|substack|grantedai|leadersoftoday/;
 Object.values(M.SRC).forEach(s => ok(!AGG.test(s.url), `source ${s.key} is an aggregator or social post (${s.url}); use the primary page`));

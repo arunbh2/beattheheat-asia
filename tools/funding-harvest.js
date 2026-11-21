@@ -111,8 +111,11 @@ function relevance(text) {
 }
 // status changes of published records, from their dates alone (the reviewer confirms against the source)
 function recalc(today) {
+  // the dates now say something different from the source's own word (stated_status): an expiry, an opening, a deadline day.
+  // Verification needs the source check's date, which the model attaches; records past their review date are listed too.
   const C = require(path.join(ROOT, "heat-economy", "funding-core.js")), out = [];
-  for (const r of published()) { const before = r.status_at_review, s = C.applicationStatus(r, today), v = C.verificationStatus(r, today);
+  const M = require(path.join(ROOT, "tools", "funding-model.js")).load();
+  for (const r of [...M.all.OPP, ...M.all.CAR]) { const before = r.stated_status, s = C.applicationStatus(r, today), v = C.verificationStatus(r, today, r.kind);
     if (before && s.status !== before) out.push({ id: r.id, title: r.title, was: before, now: s.status, why: s.why });
     if (v.status !== "verified") out.push({ id: r.id, title: r.title, verification: v.status, why: v.why }); }
   return out;

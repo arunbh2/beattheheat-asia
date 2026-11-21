@@ -735,6 +735,19 @@
       "links": [{ "to": "lever:heatrules", "why": "The studies show heat at work exceeding occupational limits in rice, sugarcane and salt work, which is what heat-safe work rules address.", "basis": "record" }]
     },
     {
+      "id": "g-funding-opportunities", "kind": "tool", "root": "practical", "added": "2026-11-21", "pr": null,
+      "title": "Funding landscape, open calls and careers, checked against official pages",
+      "why": "Funding for heat work is easy to misread: a funder is not an open call, a programme budget is not an award, and a tender is not a grant. The money page now opens with programmes and how each can be reached, and two new pages list calls and careers with application status and verification kept apart, so a closed or unconfirmed record never reads as open.",
+      "places": ["region"], "people": ["workers", "women"], "topics": ["hap", "anticipatory"],
+      "event": { "what": "Feature published", "date": "2026-11-21" },
+      "finding": { "text": "submissions may be made at any time", "source": ["Green Climate Fund: Guide to accessing readiness support, country support modality, 2026", "https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf"] },
+      "review": "Fifty-seven sources staged and checked on GitHub, plus the 22 programme pages from the October research. Records whose key facts were not found stay held back; several secondary listings were corrected by the official pages, including a call listed as open that its funder shows as closed, and a tender deadline a week later than reported elsewhere.",
+      "effort": { "asked": "Who funds work on extreme heat in South and Southeast Asia, which calls are open, who can apply, and where are the jobs?", "inbox": "data/inbox/2026-11-funding-opps", "dropped": "data/funding/rejected.json",
+                  "open": "More verified current calls and jobs, especially in national languages and from national schemes; funding for recurring delivery, worker organisations and locally led work; ReliefWeb jobs once its app name is approved." },
+      "pages": [["/heat-economy/money/", "Funders and funding"], ["/heat-economy/money/opportunities/", "Open calls and tenders"], ["/heat-economy/money/careers/", "Careers"]], "action": ["Find an open call", "/heat-economy/money/opportunities/"],
+      "links": [{ "to": "lever:hap", "why": "Several programmes and calls fund heat action planning and the institutions that carry it out.", "basis": "record" }]
+    },
+    {
       "id": "g-cotton-heat", "kind": "tool", "root": "practical", "added": "2026-11-20", "pr": null,
       "title": "Heat from field to factory: cotton, informal work and who can stop",
       "why": "A new page follows cotton from field preparation and hand-picking through yards and ginning to the factory, keeping heat on people, heat on the crop and harm to livelihoods apart. It asks who can actually stop work in the heat, lists measures with who acts and who pays, and links both ways with Heat inside factories.",
