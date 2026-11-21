@@ -2,7 +2,9 @@
 # UN News, WHO) for developments on extreme heat in South and Southeast Asia, and opens a pull request with the week's
 # candidates (data/signals-candidates/<date>.json). Candidates are leads, never evidence: a person marks each one
 # 'propose' or 'skip', and a proposed one becomes a record only through a research batch and the source check.
-# Merging the pull request records the review; nothing reaches the website from it. Free: no keys, no paid services.
+# Merging the pull request records the review; nothing reaches the website from it. Free: no paid services.
+# ReliefWeb is read through its free API, which needs an app name ReliefWeb has approved, stored as the repository
+# secret RELIEFWEB_APPNAME (Settings > Secrets and variables > Actions). Without it the run skips ReliefWeb and says so.
 # Needs, once: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
 name: Weekly Signals harvest
 on:
@@ -36,6 +38,7 @@ jobs:
           node tools/signals-harvest.js --days "$DAYS"
         env:
           DAYS: ${{ inputs.days || '8' }}
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
       - name: Open the review pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
