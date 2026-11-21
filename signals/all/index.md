@@ -29,11 +29,15 @@ What is tracked (2 deliverables)
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itThe roadmap's text, and countries in South and Southeast Asia taking part. Commitment made by UNEP and the Government of Singapore (co-chairs).
+
 #### More than US$20 million in new support for the Cool Coalition's work on the Global Cooling Pledge Funding
 
 - FundedFunding announced, 16 November 2026: original checked
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itGrants signed or paid out, and work funded in South and Southeast Asia. Commitment made by UNEP and the Government of Singapore (co-chairs).
 
 Evidence, history and what is not known
 
@@ -110,6 +114,8 @@ What is tracked (1 deliverable)
 - AnnouncedAnnounced, 9 November 2026: original checked
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itA country announcing that it will take part, or the platform's first published output. Commitment made by Türkiye, as COP31 host, and the World Health Organization.
 
 Evidence, history and what is not known
 
@@ -190,6 +196,8 @@ What is tracked (1 deliverable)
 
 Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itSupport under the plan reaching countries in South and Southeast Asia. Commitment made by World Health Organization.
+
 Evidence, history and what is not known
 
 #### WHO's Strategic Preparedness and Response Plan for El Niño, October 2026 to September 2027
@@ -230,6 +238,8 @@ What is tracked (1 deliverable)
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itEndorsements by countries in South and Southeast Asia, and building codes there that name cooling and indoor heat. Commitment made by COP31 Presidency.
+
 Evidence, history and what is not known
 
 #### The Antalya Compact for Energy Efficient Buildings, open for endorsement by Parties
@@ -268,11 +278,15 @@ What is tracked (2 deliverables)
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
 
+Next step, as the sources describe itThe advisory text, and workplaces applying it. Commitment made by Department of Labor and Employment, Philippines.
+
 #### Rules on compensation for heat stress and heat-related illness at work Rule or guideline
 
 - AdoptedAdopted, 24 October 2026: reported
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itThe technical review's recommendation, and compensation claims for heat illness being filed and paid. Commitment made by Department of Labor and Employment, Philippines.
 
 Evidence, history and what is not known
 
@@ -331,6 +345,8 @@ What is tracked (1 deliverable)
 - FundedFunding announced, 8 October 2026: original checked
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itHeat-health work under way in Indonesia and Thailand in 2027. Commitment made by Philanthropy Asia Alliance.
 
 Evidence, history and what is not known
 
@@ -442,6 +458,8 @@ What is tracked (1 deliverable)
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
 
+Next step, as the sources describe itInspection or enforcement reports after 1 December 2026. Commitment made by Ministry of Manpower, Singapore.
+
 Evidence, history and what is not known
 
 #### Mandatory heat stress measures for outdoor work, including drinking water
@@ -500,6 +518,8 @@ What is tracked (1 deliverable)
 - AdoptedAdopted, August 2026: not verified
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itThe official notification or order, and a state reporting heatwave relief paid from its response fund. Commitment made by Government of India.
 
 Evidence, history and what is not known
 
@@ -568,6 +588,8 @@ What is tracked (1 deliverable)
 - DeliveredDelivered, 12 July 2026: reported
 
 Announced, Adopted and Funded: no separate evidence recorded. No evaluation found.
+
+Next step, as the sources describe itA published review of whether the new warning level changed what people, employers and services did. Commitment made by Korea Meteorological Administration.
 
 Evidence, history and what is not known
 
@@ -648,6 +670,8 @@ What is tracked (1 deliverable)
 
 Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itMoney committed against its five-year costing. Commitment made by Government of Bangladesh.
+
 Evidence, history and what is not known
 
 #### Bangladesh's Health National Adaptation Plan 2026
@@ -685,17 +709,23 @@ What is tracked (3 deliverables)
 
 Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itThe office's first published work. Commitment made by Ministry of Sustainability and the Environment, Singapore.
+
 #### S$40 million 'Adapting to Heat Impacts' research funding initiative Funding
 
 - FundedFunding announced, March 2026: original checked
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
 
+Next step, as the sources describe itAwards made under the initiative. Commitment made by Ministry of Sustainability and the Environment, Singapore.
+
 #### A heat resilience action plan, to be drafted by the office Plan
 
 - AnnouncedAnnounced, March 2026: original checked
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itThe published action plan. Commitment made by Ministry of Sustainability and the Environment, Singapore.
 
 Evidence, history and what is not known
 
@@ -773,11 +803,15 @@ What is tracked (2 deliverables)
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
 
+Next step, as the sources describe itTailored heat-risk thresholds published for use in warnings. Commitment made by The Rockefeller Foundation and Wellcome.
+
 #### A South Asia Scientific Research Consortium Funding
 
 - FundedFunding announced, 20 February 2026: reported
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itThe consortium's first published research. Commitment made by The Rockefeller Foundation and Wellcome.
 
 Evidence, history and what is not known
 
@@ -849,17 +883,23 @@ What is tracked (3 deliverables)
 
 Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itA budget line for the plan's running costs. Commitment made by Bangkok Metropolitan Administration.
+
 #### 304 cooling centres for the 2026 hot season Service
 
 - DeliveredDelivered, 2026: original checked
 
 Announced, Adopted and Funded: no separate evidence recorded. No evaluation found.
 
+Next step, as the sources describe itWho used the cooling centres, and with what result. Commitment made by Bangkok Metropolitan Administration.
+
 #### The plan's targets, including cooling rooms in 80% of schools and public health service centres Plan
 
 - AnnouncedAnnounced, 2026: original checked
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itA progress report against the plan's 22 indicators. Commitment made by Bangkok Metropolitan Administration.
 
 Evidence, history and what is not known
 
@@ -949,6 +989,8 @@ What is tracked (1 deliverable)
 
 Adopted and Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
 
+Next step, as the sources describe itA target or a reporting route for the theme, with heat named in it. Commitment made by COP31 presidency.
+
 Evidence, history and what is not known
 
 #### A theme on Dynamic and Resilient Health Systems in the COP31 presidency's action agenda
@@ -1006,6 +1048,8 @@ What is tracked (1 deliverable)
 
 Announced and Adopted: no separate evidence recorded. No evaluation found.
 
+Next step, as the sources describe itThe pilots' results published, and what Cambodia's pilot shows for Southeast Asia. Commitment made by World Meteorological Organization and partners.
+
 Evidence, history and what is not known
 
 #### Pilots of the Extreme Heat Risk Governance Framework and Toolkit in Barbados, Senegal and Cambodia
@@ -1049,6 +1093,8 @@ What is tracked (1 deliverable)
 - AdoptedAdopted, 2026: original checked
 
 Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itThe centre's first published guidance or training, and its move into the State Institute of Disaster Management. Commitment made by Government of Maharashtra (Relief and Rehabilitation Department; Maharashtra State Disaster Management Authority).
 
 Evidence, history and what is not known
 
@@ -1111,6 +1157,8 @@ What is tracked (1 deliverable)
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itPublished heat maps or plans the centre supported, and its status after September 2026. Commitment made by Government of Tamil Nadu (Tamil Nadu Green Climate Company), with the UK Government.
+
 Evidence, history and what is not known
 
 #### A Heat Resilience Centre for Tamil Nadu, to coordinate heat-risk management and support heat action planning
@@ -1149,11 +1197,15 @@ What is tracked (2 deliverables)
 
 Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
 
+Next step, as the sources describe itBudget lines for its actions, from the city or its partners. Commitment made by Narayanganj City Corporation.
+
 #### Cooling centres in accessible public buildings, proposed in the plan Service
 
 - AnnouncedAnnounced, 22 September 2025: original checked
 
 Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itA cooling centre named in the plan opening, with where and when. Commitment made by Narayanganj City Corporation.
 
 Evidence, history and what is not known
 
@@ -1206,6 +1258,8 @@ What is tracked (1 deliverable)
 - AdoptedAdopted, 2025: original checked
 
 Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itCountries in South and Southeast Asia reporting on the indicators, including any that touch heat and health. Commitment made by Parties to the Paris Agreement (CMA 7).
 
 Evidence, history and what is not known
 

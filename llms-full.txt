@@ -7355,7 +7355,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 81 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 82 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -7370,6 +7370,8 @@ Dated by the publication date of the work Common Shade draws on (1123 of 1956 wo
 - 2026 so far: 246 works published (142 with a known month), 1123 in all by the end of the period. Financing: 230; Institutions and plans: 138; Practical measures: 248; Experience: 98; Evidence: 409.
 
 ### Changes, newest first
+
+- Tool improved: Signals shows the next step for each promise, and a weekly search looks for what it is missing. Added 21 November 2026 · Tool improved 21 November 2026. Why it matters (our reading): Each open commitment on Signals now shows the next step its sources describe and who made it. A weekly search of public feeds proposes developments the page has not yet tracked, for a person to review, and a grid shows the records kept for each place and when it was last searched. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: No new claims: the next step restates each record's own fields, and weekly leads become records only after the source check and a person's approval. Places are listed alphabetically and never ranked.. Next: See where records are https://beattheheat.asia/signals/#coverage. Connections: Heat action plans (from the site's records): The grid shows where heat plans and rules are tracked and where none is yet.
 
 - Tool improved: Signals shows each source's own words, and appears on every country, city and action page. Added 21 November 2026 · Tool improved 21 November 2026. Why it matters (our reading): Each checked piece of evidence on Signals now shows the sentence the source check found, and each commitment its dated path. Country, city and action pages show what is moving there, and State of the field lets each reader group read for its own question and keeps every open question in one running list. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: Built from existing records and source checks only: no new claims. Sentences come from the checked pages themselves and only for terms the check found; places with no tracked record say so without describing the place.. Next: See what is moving https://beattheheat.asia/signals/#moved. Connections: Heat action plans (from the site's records): Places and actions now show the heat plans and rules tracked for them.
 

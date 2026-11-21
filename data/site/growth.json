@@ -692,6 +692,16 @@
       "links": [{ "to": "lever:cleancool", "why": "The roadmap and its support are for sustainable cooling and heat resilience.", "basis": "record" }]
     },
     {
+      "id": "g-signals-wider", "kind": "tool", "root": "practical", "added": "2026-11-21", "pr": null,
+      "title": "Signals shows the next step for each promise, and a weekly search looks for what it is missing",
+      "why": "Each open commitment on Signals now shows the next step its sources describe and who made it. A weekly search of public feeds proposes developments the page has not yet tracked, for a person to review, and a grid shows the records kept for each place and when it was last searched.",
+      "places": ["region"], "people": ["workers"], "topics": ["hap", "heatrules"],
+      "event": { "what": "Tool improved", "date": "2026-11-21" },
+      "review": "No new claims: the next step restates each record's own fields, and weekly leads become records only after the source check and a person's approval. Places are listed alphabetically and never ranked.",
+      "pages": [["/signals/", "Signals"]], "action": ["See where records are", "/signals/#coverage"],
+      "links": [{ "to": "lever:hap", "why": "The grid shows where heat plans and rules are tracked and where none is yet.", "basis": "record" }]
+    },
+    {
       "id": "g-signals-sof-connected", "kind": "tool", "root": "practical", "added": "2026-11-21", "pr": null,
       "title": "Signals shows each source's own words, and appears on every country, city and action page",
       "why": "Each checked piece of evidence on Signals now shows the sentence the source check found, and each commitment its dated path. Country, city and action pages show what is moving there, and State of the field lets each reader group read for its own question and keeps every open question in one running list.",

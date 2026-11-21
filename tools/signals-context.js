@@ -8,7 +8,7 @@
 "use strict";
 const fs = require("fs"), path = require("path"), SM = require("./signals-model.js"), T = require("./signals-text.js");
 const ROOT = path.join(__dirname, "..");
-const NAME = { bangladesh: "Bangladesh", india: "India", indonesia: "Indonesia", nepal: "Nepal", philippines: "the Philippines", "sri-lanka": "Sri Lanka", thailand: "Thailand", singapore: "Singapore", cambodia: "Cambodia", "viet-nam": "Viet Nam", malaysia: "Malaysia", pakistan: "Pakistan", myanmar: "Myanmar" };
+const NAME = { lao: "Lao PDR", bangladesh: "Bangladesh", india: "India", indonesia: "Indonesia", nepal: "Nepal", philippines: "the Philippines", "sri-lanka": "Sri Lanka", thailand: "Thailand", singapore: "Singapore", cambodia: "Cambodia", "viet-nam": "Viet Nam", malaysia: "Malaysia", pakistan: "Pakistan", myanmar: "Myanmar" };
 const slugOf = country => ({ vietnam: "viet-nam" }[String(country).toLowerCase().replace(/\s+/g, "-")] || String(country).toLowerCase().replace(/\s+/g, "-"));
 const MAX = 4;
 
@@ -60,4 +60,4 @@ function leverLine(esc, lever) {
   return `<p class="meta sg-ctx__lever"><span class="sg-ctx__k">Moving now</span> ${mine.slice(0, 2).map(r => `<a href="/signals/#${esc(r.s.id)}">${esc(r.s.title)}</a> <span>(${esc(standing(r.s))}, ${esc(SM.date(r.latest))})</span>`).join("; ")}${mine.length > 2 ? ` · <a href="/signals/?lever=${esc(lever)}">All ${mine.length} on Signals</a>` : ""}</p>`;
 }
 
-module.exports = { inject, leverLine, placeBlock, standing };
+module.exports = { inject, leverLine, placeBlock, standing, NAME };
