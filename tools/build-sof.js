@@ -35,8 +35,9 @@ function render(esc, ctx) {
     </header>`;
     const arg = `<section class="sof-arg" id="argument" aria-labelledby="argument-h"><h3 class="sof-k" id="argument-h">The argument</h3><p class="sof-claim-lede">${esc(e.argument.claim)}</p><p class="sof-rests"><b>What this rests on.</b> ${esc(e.argument.rests_on)}</p></section>`;
     const brief = `<section class="sof-brief" aria-labelledby="brief-${e.id}"><h3 class="sof-k" id="brief-${e.id}">In brief</h3><ul>${(e.developments || []).map(d => `<li><a href="${base}#dev-${esc(d.id)}">${esc(d.h)}</a>: ${esc(d.gist)}</li>`).join("")}${e.opportunity ? `<li><a href="${base}#opportunity">Opportunity</a>: ${esc(e.opportunity.h)}.</li>` : ""}${e.question ? `<li><a href="${base}#question">Open question</a>: ${esc(e.question.q)}</li>` : ""}</ul>
-      <div class="sof-tools" data-sof-tools><a class="sof-btn" href="${M.url(e)}briefing.md" download="common-shade-state-of-the-field-${e.id}.md">Download the briefing (.md)</a><button type="button" class="sof-btn" data-sof-copy hidden>Copy the summary</button><button type="button" class="sof-btn" data-sof-print hidden>Print</button><button type="button" class="sof-btn" data-sof-link="${SITE}${M.url(e)}" hidden>Copy link to this edition</button><span class="sof-said" role="status" aria-live="polite"></span></div>
-      <script type="text/plain" data-sof-summary>${esc(T.summaryText(e, SITE))}</script></section>`;
+      <div class="sof-tools" data-sof-tools><a class="sof-btn" href="${M.url(e)}briefing.md" download="common-shade-state-of-the-field-${e.id}.md">Download the briefing (.md)</a><button type="button" class="sof-btn" data-sof-copy hidden>Copy the summary</button><button type="button" class="sof-btn" data-sof-print hidden>Print</button><button type="button" class="sof-btn" data-sof-link="${SITE}${M.url(e)}" hidden>Copy link to this edition</button><button type="button" class="sof-btn" data-sof-chat hidden>Copy for WhatsApp</button><a class="sof-btn" href="https://wa.me/?text=${encodeURIComponent(T.chatText(e, SITE))}" target="_blank" rel="noopener">Open in WhatsApp<span class="visually-hidden"> (opens in a new tab)</span></a><span class="sof-said" role="status" aria-live="polite"></span></div>
+      <script type="text/plain" data-sof-summary>${esc(T.summaryText(e, SITE))}</script><script type="text/plain" data-sof-chattext>${esc(T.chatText(e, SITE))}</script></section>
+    <nav class="sof-depth" aria-label="Ways to read this edition"><span class="sof-k">Read it in</span>${T.depths(e).filter(([id]) => id !== "developments" || (e.developments || []).length).map(([id, t]) => `<a href="${base}#${id}">${esc(t)}</a>`).join("")}</nav>`;
     const toc = `<nav class="sof-toc" aria-label="In this edition"><span class="sof-k">In this edition</span>${T.SECTIONS.filter(([id]) => id === "argument" || id === "sources" || id === "revisions" || (id === "developments" ? (e.developments || []).length : id === "opportunity" ? e.opportunity : id === "question" ? e.question : id === "watch" ? (e.watch || []).length : id === "readers" ? (e.audiences || []).length : id === "common-shade" ? e.platform && e.platform.p : true)).map(([id, t]) => `<a href="${base}#${id}">${esc(t)}</a>`).join("")}</nav>`;
     const devs = (e.developments || []).length ? sec("developments", T.H.developments, e.developments.map(d => { const inP = M.inPeriod(d.occurred.date, e.period);
       return `<article class="sof-dev" id="dev-${esc(d.id)}" aria-labelledby="dev-${esc(d.id)}-h"><h4 id="dev-${esc(d.id)}-h">${esc(d.h)}</h4>
@@ -80,27 +81,61 @@ function staleNote(e, today) {
   return today > next ? `This edition covers ${M.range(e.period)}, and no newer edition has been published since. For developments after its cut-off, see Signals.` : "";
 }
 
+// the edition's share image (tools/sof-card.js) in place of the site's default, when it exists
+function withCard(html, e) {
+  if (!e || !fs.existsSync(path.join(ROOT, "whats-new", e.id, "card.png"))) return html;
+  return html.replace(/<meta property="og:image" content="[^"]*">/, `<meta property="og:image" content="${SITE}${M.url(e)}card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="State of the field, ${M.label(e)}: ${e.argument.headline.replace(/"/g, "&quot;")}">`);
+}
+// the editions feed: one entry per published edition, updated at its latest revision
+function feed(P) {
+  const x = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const up = e => M.revised(e) || e.published;
+  return `<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Common Shade: State of the field</title>
+  <subtitle>${x(T.LEDE)}</subtitle>
+  <link rel="alternate" type="text/html" href="${SITE}/whats-new/"/>
+  <link rel="self" type="application/atom+xml" href="${SITE}/whats-new/feed.xml"/>
+  <id>${SITE}/whats-new/</id>
+  <updated>${P.length ? P.map(up).sort().pop() : "2026-10-31"}T00:00:00Z</updated>
+  <author><name>Common Shade</name><uri>${SITE}/</uri></author>
+  <rights>CC BY 4.0</rights>
+${P.map(e => `  <entry>
+    <title>${x(`${T.TITLE}, ${M.label(e)}: ${e.argument.headline}`)}</title>
+    <link rel="alternate" type="text/html" href="${SITE}${M.url(e)}"/>
+    <id>${SITE}${M.url(e)}</id>
+    <published>${e.published}T00:00:00Z</published>
+    <updated>${up(e)}T00:00:00Z</updated>
+    <summary>${x(e.argument.claim)} Reporting period ${x(M.range(e.period))}; evidence cut-off ${x(M.date(e.cutoff))}.${M.corrections(e).length ? " This edition has been corrected; see its revisions." : ""}</summary>
+  </entry>`).join("\n")}
+</feed>
+`;
+}
+
 module.exports = function sof({ page, write, esc, hero, V }) {
   const today = new Date().toISOString().slice(0, 10), ed = render(esc), P = M.published(), last = P[0];
-  const head = `<script src="/whats-new/sof.js?v=${V}" defer></script>`;
+  const head = `<script src="/whats-new/sof.js?v=${V}" defer></script>\n  <link rel="alternate" type="application/atom+xml" title="Common Shade: State of the field" href="/whats-new/feed.xml">`;
+  fs.writeFileSync(path.join(ROOT, "whats-new", "feed.xml"), feed(P));
+  const nextF = path.join(M.DIR, "_next.json"), N = fs.existsSync(nextF) ? JSON.parse(fs.readFileSync(nextF, "utf8")) : null;
+  const next = N && (!last || N.month > last.id) ? `<p class="sof-next">${esc(T.NEXT(N))} <span class="sof-follow"><span class="sof-k">${esc(T.FOLLOW)}</span><a href="/whats-new/feed.xml" type="application/atom+xml">Editions feed (Atom)</a><a href="/signals/calendar.ics" type="text/calendar">Calendar of scheduled dates</a><a href="/signals/feed.xml" type="application/atom+xml">Signals feed</a></span></p>` : "";
   const distinct = `<p class="sof-role">${esc(T.ROLE)} ${T.DISTINCT.map(([u, t, d]) => `<a href="${u}">${esc(t)}</a> ${esc(d)}.`).join(" ")}</p>`;
   const archive = `<section class="sof-archive" id="editions" aria-labelledby="editions-h"><h2 class="hub-h" id="editions-h">All editions</h2>
     ${P.length ? `<ol class="sof-arch">${P.map(e => `<li><a href="${M.url(e)}"><b>${esc(M.label(e))}</b><span>${esc(e.argument.headline)}</span></a><p class="sof-src">Reporting period ${esc(M.range(e.period))} · Evidence cut-off ${esc(M.date(e.cutoff))} · Published ${esc(M.date(e.published))}${M.revised(e) ? ` · Revised ${esc(M.date(M.revised(e)))}` : ""}${M.corrections(e).length ? ` · <span class="sof-flag">Corrected</span>` : ""}</p></li>`).join("")}</ol>` : `<p class="hub-p">No edition has been published yet.</p>`}
     <p class="hub-p">Editions appear here only once reviewed and published; a month passing does not create one.</p></section>`;
   const method = `<details class="sof-ev sof-method" id="method"><summary>How an edition is made</summary><ul>${T.METHOD.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>`;
   const changesF = path.join(ROOT, "data", "kb", "_changes.json"), changes = fs.existsSync(changesF) ? JSON.parse(fs.readFileSync(changesF, "utf8")) : [];
-  const log = `<h2 class="hub-h" id="kb-log">What changed in the knowledge base</h2>${changes.length ? `<ul class="sof-log">${changes.map(c => `<li><b>${esc(c.month)}</b>: ${c.published.length} new or updated ${c.published.length === 1 ? "record" : "records"}${c.held ? `, ${c.held} held back for checking` : ""}. ${c.published.slice(0, 6).map(r => esc(r.title)).join("; ")}${c.published.length > 6 ? "…" : ""}</li>`).join("")}</ul>` : `<p class="hub-p">No monthly updates yet.</p>`}`;
-  write("whats-new", page("whats-new", T.TITLE, last ? `${T.TITLE}, ${M.label(last)}: ${last.argument.headline}. A monthly briefing on extreme heat in South and Southeast Asia, with its sources and dates.` : T.LEDE,
+  const log = `<h2 class="hub-h" id="kb-log">What changed in the knowledge base</h2>${changes.length ? `<p class="hub-p">Monthly updates to the records behind the site, newest first. The latest covers ${esc(M.date(changes[0].month))}; each month's update follows its review.</p><ul class="sof-log">${changes.map(c => `<li><b>${esc(M.date(c.month))}</b>: ${c.published.length} new or updated ${c.published.length === 1 ? "record" : "records"}${c.held ? `, ${c.held} held back for checking` : ""}. ${c.published.slice(0, 6).map(r => esc(r.title)).join("; ")}${c.published.length > 6 ? "…" : ""}</li>`).join("")}</ul>` : `<p class="hub-p">No monthly updates yet.</p>`}`;
+  write("whats-new", withCard(page("whats-new", T.TITLE, last ? `${T.TITLE}, ${M.label(last)}: ${last.argument.headline}. A monthly briefing on extreme heat in South and Southeast Asia, with its sources and dates.` : T.LEDE,
     `${hero("News and evidence", T.TITLE, esc(T.LEDE))}
     <div class="container sof-wrap">
-      ${last ? ed(last, { latest: true, base: "", stale: staleNote(last, today) }) : `<div class="cs-card"><p>No edition has been published yet.</p></div>`}
-      ${archive}${distinct}${method}${log}</div>`, head));
+      ${next}${last ? ed(last, { latest: true, base: "", stale: staleNote(last, today) }) : `<div class="cs-card"><p>No edition has been published yet.</p></div>`}
+      ${archive}${distinct}${method}${log}</div>`, head), last));
   for (const e of P) {
     const isLast = e === last;
-    write(`whats-new/${e.id}`, page(`whats-new/${e.id}`, `${T.TITLE}: ${M.label(e)}`, `${e.argument.headline}. ${T.TITLE}, ${M.label(e)}: reporting period ${M.range(e.period)}, evidence cut-off ${M.date(e.cutoff)}.`,
+    write(`whats-new/${e.id}`, withCard(page(`whats-new/${e.id}`, `${T.TITLE}: ${M.label(e)}`, `${e.argument.headline}. ${T.TITLE}, ${M.label(e)}: reporting period ${M.range(e.period)}, evidence cut-off ${M.date(e.cutoff)}.`,
       `${hero("State of the field", `${esc(T.TITLE)}: ${esc(M.label(e))}`, isLast ? "The latest published edition. Its stable link stays the same when newer editions appear." : `An earlier edition, kept as published. <a href="/whats-new/">The latest edition</a>`)}
       <div class="container sof-wrap">${ed(e, { latest: isLast, base: "", stale: isLast ? staleNote(e, today) : "" })}
-        <nav class="sof-pager" aria-label="Other editions">${P.map(x => x === e ? `<span aria-current="page">${esc(M.label(x))}</span>` : `<a href="${M.url(x)}">${esc(M.label(x))}</a>`).join("")}<a href="/whats-new/#editions">All editions</a></nav>${method}</div>`, head));
+        <nav class="sof-pager" aria-label="Other editions">${P.map(x => x === e ? `<span aria-current="page">${esc(M.label(x))}</span>` : `<a href="${M.url(x)}">${esc(M.label(x))}</a>`).join("")}<a href="/whats-new/#editions">All editions</a></nav>${method}</div>`, head), e));
     fs.writeFileSync(path.join(ROOT, "whats-new", e.id, "briefing.md"), T.md(e, SITE));
   }
   // drafts: a preview for review only, never in the tracked site (research/sof-preview/ is git-ignored)

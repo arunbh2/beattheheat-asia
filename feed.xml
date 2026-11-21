@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-20T00:00:00Z</updated>
+  <updated>2026-11-21T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>Signals opens with what moved, and both briefings can be followed without visiting</title>
+    <link href="https://beattheheat.asia/growing/#g-signals-sof-reach" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-signals-sof-reach</id>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <summary>Signals now opens with the steps dated in the last 45 days and the dates coming up, so a phone reader reaches the first development within the first screen rather than after more than seven, and the page stays light as records grow. Signals, its scheduled dates and State of the field each have a feed or calendar, and every edition has three reading depths, a chat version and its own share image.</summary>
+  </entry>
   <entry>
     <title>Heat strain measured in Asian field work, beside the cotton page</title>
     <link href="https://beattheheat.asia/growing/#g-agri-heat-strain" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-cities-batch-a</id>
     <updated>2026-11-15T00:00:00Z</updated>
     <summary>Kolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar now have city pages: each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it, today's heat-stress estimate and, where the city has no plan of its own, a link to its state's plans.</summary>
-  </entry>
-  <entry>
-    <title>Five more cities across Southeast Asia and Bangladesh, Ho Chi Minh City first</title>
-    <link href="https://beattheheat.asia/growing/#g-cities-batch-b" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-cities-batch-b</id>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary>Ho Chi Minh City, Chattogram, Surabaya, Quezon City and Chiang Mai now have city pages, each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it and today's heat-stress estimate.</summary>
   </entry>
 </feed>

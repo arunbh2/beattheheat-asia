@@ -19,6 +19,13 @@ const DISTINCT = "Signals follows developments outside Common Shade. Watch Commo
 const NO_SYNTHESIS = "Not written yet. It will follow a review of the conference's final decisions and documents, not the closing date alone.";
 const WATCH_NOTE = "Conference activity is not implementation: an announcement at a conference enters at the announced step, and later developments are added to the same record rather than as new cards.";
 const SAVED_NOTE = "Saved records are kept only in this browser (localStorage key cs-signals-saved): no account, nothing sent anywhere.";
+const MOVED_NOTE = n => `Steps dated in the last ${n} days, newest first: when each happened, not when Common Shade added it. Each links to its record, with the evidence behind it.`;
+const MOVED_NONE = n => `No step in the records here is dated in the last ${n} days. The records below show where each one stands.`;
+const AHEAD_NOTE = "A scheduled date is when a rule or plan is due to apply. Reaching it does not, by itself, show that it is applied.";
+const SHOWING = (a, b) => `Showing the ${a} newest of ${b} records.`;
+const SEE_ALL = n => `See all ${n} records on one page`;
+const ALL_LEDE = "Every record on Signals, newest first, with its evidence. The main Signals page adds what moved, filters, saved records and the watches.";
+const OLDER = "Older records, newest first. Each opens here with its evidence; without JavaScript, on the page of every record.";
 const EMPTY = "No record matches these filters. This describes the records tracked here, not what has happened in the world.";
 const METHOD = [
   "One canonical record per initiative, with stable identifiers for each record, deliverable and milestone; later developments are added to the same record, and nothing inconvenient is deleted.",
@@ -83,4 +90,4 @@ function record(s, C, today) {
   out.push(`  Sources: ${s.sources.map(x => `${x.label} (${x.type}) ${x.url}`).join("; ")}`);
   return out.join("\n");
 }
-module.exports = { TITLE, LEDE, NOTE, USES, DISTINCT, NO_SYNTHESIS, WATCH_NOTE, SAVED_NOTE, EMPTY, METHOD, V, date, kindOf, load, checks, denominator, standing, md, record };
+module.exports = { OLDER, MOVED_NOTE, MOVED_NONE, AHEAD_NOTE, SHOWING, SEE_ALL, ALL_LEDE, TITLE, LEDE, NOTE, USES, DISTINCT, NO_SYNTHESIS, WATCH_NOTE, SAVED_NOTE, EMPTY, METHOD, V, date, kindOf, load, checks, denominator, standing, md, record };

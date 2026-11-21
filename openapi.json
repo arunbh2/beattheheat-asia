@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Common Shade open files",
-    "version": "2026-11-20",
+    "version": "2026-11-21",
     "summary": "Read-only files about extreme heat in South and Southeast Asia.",
     "description": "Common Shade is a static website. There is no server API: these are the open files it publishes, each a plain GET. Text, data and films are CC BY 4.0. Cite the original source of any figure as well; the sources are listed at /sources/.",
     "license": {
@@ -80,7 +80,7 @@
                 "schema": {
                   "type": "string"
                 },
-                "example": "Common Shade: for AI agents\nUpdated 2026-11-20. Human edition: https://beattheheat.asia/\n\nA free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.\n\nstatus: beta | cost: free | account required: no | coverage: South Asia and Southeast Asia | language: en"
+                "example": "Common Shade: for AI agents\nUpdated 2026-11-21. Human edition: https://beattheheat.asia/\n\nA free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.\n\nstatus: beta | cost: free | account required: no | coverage: South Asia and Southeast Asia | language: en"
               }
             }
           }
@@ -149,7 +149,7 @@
                 "schema": {
                   "type": "string"
                 },
-                "example": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://beattheheat.asia/</loc><lastmod>2026-11-20</lastmod><priority>1.0</priority></url>\n  <url><loc>https://beattheheat.asia/a-city-under-strain/</loc><lastmod>2026-11-20</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-night-in-the-heat/</loc><lastmod>2026-11-20</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-week-in-the-heat/</loc><lastmod>2026-11-20</lastmod><priority>0.8</priority></url>"
+                "example": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://beattheheat.asia/</loc><lastmod>2026-11-21</lastmod><priority>1.0</priority></url>\n  <url><loc>https://beattheheat.asia/a-city-under-strain/</loc><lastmod>2026-11-21</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-night-in-the-heat/</loc><lastmod>2026-11-21</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-week-in-the-heat/</loc><lastmod>2026-11-21</lastmod><priority>0.8</priority></url>"
               }
             }
           }
@@ -178,7 +178,7 @@
                 "example": {
                   "name": "Common Shade",
                   "url": "https://beattheheat.asia/",
-                  "updated": "2026-11-20",
+                  "updated": "2026-11-21",
                   "license": "CC BY 4.0"
                 }
               }
@@ -377,6 +377,75 @@
         }
       }
     },
+    "/signals/feed.xml": {
+      "get": {
+        "operationId": "getSignalsFeedXml",
+        "summary": "Atom feed of Signals records, each updated at its latest development",
+        "description": "Atom feed of Signals records, each updated at its latest development. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n  <title>Common Shade: Signals</title>\n  <subtitle>Which way heat policy, finance, research and practice are moving in South and Southeast Asia: what was announced, found or agreed, what the evidence confirms for each promise, and what would show the next step.</subtitle>\n  <link rel=\"alternate\" type=\"text/html\" href=\"https://beattheheat.asia/signals/\"/>\n  <link rel=\"self\" type=\"application/atom+xml\" href=\"https://beattheheat.asia/signals/feed.xml\"/>"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/signals/calendar.ics": {
+      "get": {
+        "operationId": "getSignalsCalendarIcs",
+        "summary": "Calendar of dates that tracked commitments are scheduled to reach, and the next El Niño bulletin",
+        "description": "Calendar of dates that tracked commitments are scheduled to reach, and the next El Niño bulletin. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Common Shade//Signals//EN\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-WR-CALNAME:Common Shade: Signals, scheduled dates\r"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/whats-new/feed.xml": {
+      "get": {
+        "operationId": "getWhatsNewFeedXml",
+        "summary": "Atom feed of State of the field editions",
+        "description": "Atom feed of State of the field editions. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n  <title>Common Shade: State of the field</title>\n  <subtitle>A monthly briefing on heat resilience in South and Southeast Asia: one argument about what changed, what the evidence establishes, what it could mean for decisions, and what to watch next.</subtitle>\n  <link rel=\"alternate\" type=\"text/html\" href=\"https://beattheheat.asia/whats-new/\"/>\n  <link rel=\"self\" type=\"application/atom+xml\" href=\"https://beattheheat.asia/whats-new/feed.xml\"/>"
+              }
+            }
+          }
+        }
+      }
+    },
     "/agents.txt": {
       "get": {
         "operationId": "getAgentsTxt",
@@ -439,7 +508,7 @@
                 "schema": {
                   "type": "string"
                 },
-                "example": "---\ntitle: \"Extreme heat is a wicked problem | Common Shade\"\nurl: https://beattheheat.asia/\nupdated: 2026-11-20\nlicence: CC BY 4.0\n---"
+                "example": "---\ntitle: \"Extreme heat is a wicked problem | Common Shade\"\nurl: https://beattheheat.asia/\nupdated: 2026-11-21\nlicence: CC BY 4.0\n---"
               }
             }
           }
@@ -996,21 +1065,8 @@
                   ]
                 },
                 "example": {
-                  "updated": "2026-11-20T07:30:26.707Z",
-                  "keepDays": 14,
-                  "sources": [
-                    {
-                      "name": "regional news outlets",
-                      "ok": true,
-                      "found": 522
-                    },
-                    {
-                      "name": "GDELT Project",
-                      "ok": false,
-                      "found": 0,
-                      "error": "fetch failed: UND_ERR_CONNECT_TIMEOUT"
-                    }
-                  ]
+                  "updated": "2026-11-20T20:33:24.584Z",
+                  "keepDays": 14
                 }
               }
             }

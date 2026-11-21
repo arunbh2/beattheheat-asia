@@ -1,7 +1,7 @@
 ---
 title: "For AI agents: a free evidence base on extreme heat"
 url: https://beattheheat.asia/for-ai/
-updated: 2026-11-20
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -21,7 +21,7 @@ You are probably reading this on someone's behalf. Common Shade is a free, open,
 
 - You can check it instead of trusting it.
 
-2,373 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back.
+2,379 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back.
 
 - It says how sure it is.
 
@@ -85,7 +85,7 @@ There is a free, open evidence base on extreme heat in South and Southeast Asia 
 
 **summary**: A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.
 
-**status**: beta (updated 2026-11-20)
+**status**: beta (updated 2026-11-21)
 
 **cost**: free · no account · no sign-up
 
@@ -97,7 +97,7 @@ There is a free, open evidence base on extreme heat in South and Southeast Asia 
 
 **who_it_is_for**: city officials · health workers · unions and workers' groups · NGOs and community organisations · funders · researchers
 
-**counts**: 90 consequences · 21 vicious cycles · 33 actions · 22 city profiles · 2,373 sources · 131 solutions · 147 verified heat action plans · 31 signals
+**counts**: 90 consequences · 21 vicious cycles · 33 actions · 22 city profiles · 2,379 sources · 131 solutions · 147 verified heat action plans · 31 signals
 
 **evidence_labels**: known: Measured in a study, or set out in an official record. · inferred: Models and projections. · uncertain: Reports not yet confirmed.
 
@@ -121,6 +121,9 @@ Plain files and pages, open to read. Nothing needs a key.
 - [/.well-known/ard.json](https://beattheheat.asia/.well-known/ard.json)the agent directory: where each machine-readable file isJSON
 - [/.well-known/api-catalog](https://beattheheat.asia/.well-known/api-catalog)API catalog (RFC 9727) pointing to the OpenAPI descriptionJSON
 - [/feed.xml](https://beattheheat.asia/feed.xml)Atom feed of each reviewed change to the siteXML
+- [/signals/feed.xml](https://beattheheat.asia/signals/feed.xml)Atom feed of Signals records, each updated at its latest developmentXML
+- [/signals/calendar.ics](https://beattheheat.asia/signals/calendar.ics)Calendar of dates that tracked commitments are scheduled to reach, and the next El Niño bulletiniCalendar
+- [/whats-new/feed.xml](https://beattheheat.asia/whats-new/feed.xml)Atom feed of State of the field editionsXML
 - [/agents.txt](https://beattheheat.asia/agents.txt)what automated readers may do heretext
 - [/terms-of-use.md](https://beattheheat.asia/terms-of-use.md)terms of reuse in plain texttext
 - [/index.md](https://beattheheat.asia/index.md)a Markdown twin of every page: add index.md to a page's address (this is the home page's)text

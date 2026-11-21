@@ -1,4 +1,4 @@
-// Common Shade: State of the field. Adds copy, print and share buttons to an edition (tools/build-sof.js builds the page).
+// Common Shade: State of the field. Adds copy (summary, chat version, link), print and share buttons to an edition (tools/build-sof.js builds the page).
 // Without this script, the page reads whole, the Markdown briefing downloads from a plain link, and the browser prints.
 (function () {
   "use strict";
@@ -18,6 +18,8 @@
     var ed = box.closest(".sof-ed"), sum = ed && ed.querySelector("[data-sof-summary]");
     box.querySelectorAll("[hidden]").forEach(function (b) { b.hidden = false; });
     var c = box.querySelector("[data-sof-copy]"); if (c && sum) c.addEventListener("click", function () { copy(sum.textContent, box, "Summary copied, with its dates and link."); });
+    var ch = box.querySelector("[data-sof-chat]"), chT = ed && ed.querySelector("[data-sof-chattext]");
+    if (ch && chT) ch.addEventListener("click", function () { copy(chT.textContent, box, "Copied, ready to paste into WhatsApp or any chat."); });
     var p = box.querySelector("[data-sof-print]"); if (p) p.addEventListener("click", function () { expand(); window.print(); });
     var l = box.querySelector("[data-sof-link]"); if (l) l.addEventListener("click", function () { copy(l.getAttribute("data-sof-link"), box, "Link copied."); });
   });

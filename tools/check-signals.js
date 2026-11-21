@@ -85,8 +85,18 @@ const R = JSON.parse(fs.readFileSync(path.join(ROOT, "data/site/signals.json"), 
 const today = new Date().toISOString().slice(0, 10), RO = SM.overview(R, RC, today);
 ok(Object.values(RO.buckets).reduce((a, b) => a + b.n, 0) === RO.deliverables, "real records: overview buckets add up");
 for (const s of R.signals.filter(s => s.kind === "commitment")) { const g = SM.legacy(s, RC, today); ok(s.stage === g.stage && JSON.stringify(s.history) === JSON.stringify(g.history), `${s.id}: stage and history are derived (run node tools/signals-sync.js)`); }
-const page = fs.existsSync(path.join(ROOT, "signals/index.html")) ? fs.readFileSync(path.join(ROOT, "signals/index.html"), "utf8") : "";
-ok(page, "signals/index.html is built (node tools/build-static.js)");
+const read = f => fs.existsSync(path.join(ROOT, f)) ? fs.readFileSync(path.join(ROOT, f), "utf8") : "";
+const main = read("signals/index.html"), all = read("signals/all/index.html"), more = read("signals/cards.json");
+ok(main, "signals/index.html is built (node tools/build-static.js)");
+// the newest records are on the page, the rest in cards.json (loaded by signals.js); /signals/all/ holds every one
+const page = main + (more ? JSON.parse(more).cards.map(c => c.html).join("") : "");
+ok(all, "signals/all/index.html is built: every record for readers without JavaScript");
+for (const s of R.signals) ok(all.includes(`id="${s.id}"`), `all records page: ${s.id} is listed`);
+ok(!more || /data-more="\/signals\/cards\.json\?v=\d+"/.test(main), "page: points the script at cards.json with a cache version");
+ok(/id="moved"/.test(main) && main.indexOf('id="moved"') < main.indexOf('id="records"'), "page: what moved comes before the records");
+const feedX = read("signals/feed.xml"), cal = read("signals/calendar.ics");
+ok(R.signals.every(s => feedX.includes(`/signals/#${s.id}</id>`)), "feed.xml: one entry per record");
+ok(/^BEGIN:VCALENDAR\r\n/.test(cal) && /END:VCALENDAR\r\n$/.test(cal) && cal.split("\r\n").every(l => Buffer.byteLength(l) <= 75), "calendar.ics: a calendar with CRLF lines folded to 75 octets");
 for (const s of R.signals) { ok(page.includes(`id="${s.id}"`), `page: record ${s.id} has an anchor`);
   for (const d of s.deliverables || []) { ok(page.includes(`id="${s.id}--${d.id}"`), `page: deliverable ${s.id}--${d.id} has an anchor`);
     for (const m of d.milestones) ok(page.includes(`id="${s.id}--${d.id}--${m.id}"`), `page: milestone ${s.id}--${d.id}--${m.id} has an anchor`); } }
