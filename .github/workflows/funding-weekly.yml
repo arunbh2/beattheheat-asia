@@ -18,6 +18,9 @@ on:
       dry_run:
         description: Print the counts only (true or false)
         default: "false"
+      probe:
+        description: Test the candidate job boards in registry.probe and print which exist (true or false); writes nothing
+        default: "false"
 permissions:
   contents: write
   pull-requests: write
@@ -38,13 +41,15 @@ jobs:
         # inputs reach the shell as variables, never as script text, and are checked before use
         run: |
           [[ "$DAYS" =~ ^[0-9]{1,2}$ ]] || { echo "::error::days must be a whole number of days"; exit 1; }
+          if [ "$PROBE" = "true" ]; then node tools/funding-harvest.js --probe; exit 0; fi
           if [ "$DRY" = "true" ]; then node tools/funding-harvest.js --days "$DAYS" --dry-run; else node tools/funding-harvest.js --days "$DAYS"; fi
         env:
           DAYS: ${{ inputs.days || '21' }}
           DRY: ${{ inputs.dry_run || 'false' }}
+          PROBE: ${{ inputs.probe || 'false' }}
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
       - name: Open the review pull request
-        if: ${{ inputs.dry_run != 'true' }}
+        if: ${{ inputs.dry_run != 'true' && inputs.probe != 'true' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DAY: ${{ steps.h.outputs.date }}
