@@ -1,0 +1,17 @@
+[
+ {
+  "id": "c-overtime",
+  "where": "COP31 watch: closing check-in",
+  "text": "COP31 was due to end on 20 November 2026 and went into overtime, extended to Saturday 21 November.",
+  "sources": [
+   {
+    "label": "United Nations Regional Information Centre for Western Europe: COP31: World Climate Conference Set to Officially End Today, 2026",
+    "url": "https://unric.org/en/cop31-world-climate-conference-set-to-officially-end-today/"
+   },
+   {
+    "label": "Business Recorder: Nations row over fossil fuels as COP31 goes into overtime, 2026",
+    "url": "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime"
+   }
+  ]
+ }
+]
