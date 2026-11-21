@@ -3512,7 +3512,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .fo-f--check input { width: 20px; height: 20px; }
 .fo-f--q { grid-column: 1 / -1; }
 .fo-tools { display: flex; flex-wrap: wrap; gap: var(--s-2); align-items: flex-end; margin: 0 0 var(--s-3); }
-.fo-tools .fo-f--sort { flex-direction: row; align-items: center; gap: 8px; }
+.fo-tools .fo-f--sort { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 8px; max-width: 100%; }
+.fo-tools .fo-f--sort select { min-width: 0; max-width: 100%; }
 .fo-savenote, .fo-hidden { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
 .fo-tablewrap { overflow-x: auto; margin: var(--s-3) 0; }
 .fo-table, .fo-cmp__t { width: 100%; border-collapse: collapse; font-size: var(--fs-14); line-height: 1.5; }

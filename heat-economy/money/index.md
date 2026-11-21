@@ -18,7 +18,7 @@ The funding landscape and how each programme can be reached, open calls and care
 
 **About this section.** We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, [tell us](https://beattheheat.asia/join/).
 
-## The funding landscape 25
+## The funding landscape 27
 
 Who funds work relevant to extreme heat in South and Southeast Asia, through which programmes, and how each can be reached. A funder is not an open call: most of these programmes are not accepting applications today, and several are reached only through an accredited entity, a government nomination, a consortium or an invitation.
 
@@ -368,6 +368,11 @@ Research and evidence
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
 
+#### On Signals
+
+- [A South Asia climate-health desk and a heat research consortium](https://beattheheat.asia/signals/#sig-south-asia-climate-health-desk-2026) Funded, reported
+- [98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed](https://beattheheat.asia/signals/#sig-clinicians-heat-pregnancy-2026) Finding
+
 [Check institutional eligibility](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
 
 **Source checked:** 21 November 2026 · [Wellcome: Climate Impacts Awards](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
@@ -481,6 +486,40 @@ No current call recorded here. Calls have been periodic; the next one is not ann
 [Monitor future calls](https://www.toyotafound.or.jp/english/grant/international/)
 
 **Source checked:** 21 November 2026 · [Toyota Foundation: International Grant Program](https://www.toyotafound.or.jp/english/grant/international/)
+
+IFRC Disaster Response Emergency Fund (DREF)Related remit with a clear heat applicationNo public application route foundIFRC
+
+#### What it funds
+
+Fast funding for National Red Cross and Red Crescent Societies, including anticipatory action.
+
+#### How it connects to heat
+
+Common Shade's reading. Anticipatory and response funding can be requested for heatwaves by National Societies.
+
+#### How to reach it
+
+No public application route found. Only National Red Cross and Red Crescent Societies can request it.
+
+#### Who can receive money
+
+National Red Cross and Red Crescent Societies.
+
+#### Kind of money
+
+Grant
+
+#### What it could support
+
+Recurring delivery and maintenance
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Monitor future calls](https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref)
+
+**Source checked:** 21 November 2026 · [IFRC: Disaster Response Emergency Fund (DREF)](https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref)
 
 Z Zurich Foundation partnership with the IFRC Global Climate Resilience PlatformExplicit heat focusNo public application route foundZ Zurich Foundation
 
@@ -720,6 +759,40 @@ Community organising and participation, Pilots and demonstrations
 
 **Source checked:** 21 November 2026 · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
 
+ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)Explicit heat focusProcurement or vendor registrationGovernment nomination or endorsementAsian Development Bank
+
+#### What it funds
+
+Regional technical assistance to integrate gender-responsive extreme heat adaptation into investments.
+
+#### How it connects to heat
+
+Common Shade's reading. Extreme heat adaptation is the subject of the technical assistance.
+
+#### How to reach it
+
+Procurement or vendor registration; Government nomination or endorsement. Consultants are recruited through ADB's consulting system; governments take part through ADB operations.
+
+#### Who can receive money
+
+ADB member countries, with consultants recruited for the work.
+
+#### Kind of money
+
+Technical assistance (in kind), Contract (procurement, not a grant)
+
+#### What it could support
+
+Policy and institutional capacity, Research and evidence
+
+#### Calls and rounds
+
+No current call recorded here.
+
+[Check institutional eligibility](https://www.adb.org/projects/59391-001/main)
+
+**Source checked:** 21 November 2026 · [Asian Development Bank: 59391-001: Investing in Resilience to Extreme Heat: Sector and Gender-Responsive Adaptation Solutions](https://www.adb.org/projects/59391-001/main)
+
 GCF funding through accredited entitiesRelated remit with a clear heat applicationThrough accredited entitiesGovernment nomination or endorsementGreen Climate Fund
 
 #### What it funds
@@ -896,26 +969,26 @@ No current call recorded here.
 
 The kinds of work heat protection needs, and how many records in this curated dataset explicitly support each. A low number is a gap in the dataset, not proof that no funding exists: the absence of a published call is not the absence of funding.
 
-- **Research and evidence**7 records[Wellcome Climate Impacts Awards](#fund-prog-wellcome-cia) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Advancing Research on Climate and Health](#fund-prog-idrc-arch) · [Grand Challenges: climate change's impact on health, agriculture and gender](#fund-prog-gates-gc-climate) · [Horizon Europe Cluster 1: Health (environment and health topics)](#fund-prog-horizon-health) · [Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)](https://beattheheat.asia/heat-economy/money/opportunities/#opp-he-envhlth-02-2027) and 1 more
+- **Research and evidence**8 records[Wellcome Climate Impacts Awards](#fund-prog-wellcome-cia) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Advancing Research on Climate and Health](#fund-prog-idrc-arch) · [ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)](#fund-prog-adb-heat-ta) · [Grand Challenges: climate change's impact on health, agriculture and gender](#fund-prog-gates-gc-climate) · [Horizon Europe Cluster 1: Health (environment and health topics)](#fund-prog-horizon-health) and 2 more
 - **Community organising and participation**10 records[IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) · [ClimateWorks Adaptation and Resilience Fund](#fund-prog-cw-arf) · [Climate Justice Resilience Fund grants](#fund-prog-cjrf) · [Community Resilience Partnership Program Trust Fund](#fund-prog-adb-crpp) and 4 more
 - **Pilots and demonstrations**18 records[Nexa Lighthouse (climate and health innovation, Asia and the Pacific)](#fund-prog-gcc-nexa-lighthouse) · [Nexa (climate and health, Africa, Latin America and the Caribbean)](#fund-prog-gcc-nexa) · [IKI Medium Grants](#fund-prog-iki-medium) · [IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) and 12 more
 - **Infrastructure and equipment**3 records[GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Community Resilience Partnership Program Trust Fund](#fund-prog-adb-crpp) · [City Climate Finance Gap Fund](#fund-prog-gapfund)
-- **Recurring delivery and maintenance**1 record · Little verified coverage so far[Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla)
-- **Policy and institutional capacity**12 records[IKI Medium Grants](#fund-prog-iki-medium) · [GCF Readiness and Preparatory Support](#fund-prog-gcf-readiness) · [GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Clean Cooling Collaborative](#fund-prog-ccc) · [City Climate Finance Gap Fund](#fund-prog-gapfund) and 6 more
+- **Recurring delivery and maintenance**2 records · Little verified coverage so far[Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) · [IFRC Disaster Response Emergency Fund (DREF)](#fund-prog-ifrc-dref)
+- **Policy and institutional capacity**13 records[IKI Medium Grants](#fund-prog-iki-medium) · [GCF Readiness and Preparatory Support](#fund-prog-gcf-readiness) · [GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Clean Cooling Collaborative](#fund-prog-ccc) · [ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)](#fund-prog-adb-heat-ta) and 7 more
 - **Scaling and replication**7 records[Nexa Lighthouse (climate and health innovation, Asia and the Pacific)](#fund-prog-gcc-nexa-lighthouse) · [Nexa (climate and health, Africa, Latin America and the Caribbean)](#fund-prog-gcc-nexa) · [GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Clean Cooling Collaborative](#fund-prog-ccc) · [GRP Innovation Challenge](#fund-prog-grp-challenge) · [Z Zurich Foundation partnership with the IFRC Global Climate Resilience Platform](#fund-prog-zurich-gcrp) and 1 more
 
 ### By the heat problem it touches
 
-- **Occupational heat and informal workers** 3
+- **Occupational heat and informal workers** 4
 - **Factory and agricultural value chains** 2 · Little verified coverage so far
 - **Homes and night-time recovery** 1 · Little verified coverage so far
 - **Schools and care** 2 · Little verified coverage so far
-- **Health systems** 14
-- **Early warning and anticipatory action** 6
-- **Municipal governance** 15
+- **Health systems** 15
+- **Early warning and anticipatory action** 7
+- **Municipal governance** 16
 - **Water, nature and public space** 10
 - **Cooling and energy** 4
-- **Gender, disability and social protection** 10
+- **Gender, disability and social protection** 11
 
 - Coverage is curated, not complete. Calls in national languages, national government schemes and private foundations without public calls are under-represented.
 - Few verified records fund recurring delivery and maintenance, worker organisations or locally led delivery. This is a gap in the dataset, not a finding about the whole funding landscape.
