@@ -1,0 +1,47 @@
+{
+ "week": "2026-W46",
+ "harvested": "2026-11-09T11:38:40.614Z",
+ "window": {
+  "from": "2026-11-01",
+  "to": "2026-11-09"
+ },
+ "sources": {
+  "europepmc": {
+   "ok": false,
+   "error": "HTTP 503: {\"errCode\":503,\"errMsg\":\"Search service is temporarily unavailable. Please retry later.\"}"
+  },
+  "crossref": {
+   "ok": true,
+   "found": 101
+  },
+  "arxiv": {
+   "ok": true,
+   "found": 0
+  },
+  "openalex": {
+   "ok": true,
+   "found": 100
+  },
+  "worldbank": {
+   "ok": true,
+   "found": 0
+  },
+  "newsfeed": {
+   "ok": true,
+   "found": 128
+  },
+  "who": {
+   "ok": true,
+   "found": 49
+  }
+ },
+ "counts": {
+  "found": 378,
+  "distinct": 320,
+  "new": 73,
+  "kept": 0,
+  "set_aside": 73,
+  "news_page_no_abstract": 60
+ },
+ "candidates": []
+}
