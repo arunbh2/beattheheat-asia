@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:27:00.054Z",
+ "updated": "2026-11-21T19:30:16.222Z",
  "keepDays": 14,
  "sources": [
   {
@@ -109,14 +109,6 @@
    "url": "https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan",
    "domain": "newsinfo.inquirer.net",
    "date": "2026-11-08T14:16:00Z",
-   "place": "Philippines",
-   "via": "Inquirer"
-  },
-  {
-   "title": "Heatwave fuels 54% fire surge in Northern Mindanao",
-   "url": "https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao",
-   "domain": "newsinfo.inquirer.net",
-   "date": "2026-11-07T09:28:28Z",
    "place": "Philippines",
    "via": "Inquirer"
   }
