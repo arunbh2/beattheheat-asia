@@ -1,7 +1,7 @@
 ---
 title: "Who extreme heat hits hardest | Common Shade"
 url: https://beattheheat.asia/who-is-at-risk/
-updated: 2026-11-20
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -263,6 +263,16 @@ Effects depend on exposure, task and the person. That is why a single heat alert
 **Workers in hot factories and sheds.** Heat is not only an outdoor problem. In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, as the factory heat index rose from about 25 °C to 29 °C. More said heat slowed their work and cut their motivation. These are workers’ own reports, not measured output. Plans can count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks. [Chea et al., BMC Public Health, 2025](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0)
 
 **For heat plans:** Ask three questions for every group in a heat plan: how hot is it where they are, what are they doing and wearing, and what do they bring to it, such as age, illness, medicines and a night without sleep. [Print the one-pager](https://beattheheat.asia/print/weather-work-person/) · [Watch the film (1:30)](https://beattheheat.asia/media/films/weather-work-and-the-person.mp4)
+
+## Funding and opportunities
+
+Programmes and calls in the funding dataset whose published remit touches this topic. A programme is not an open call; each record says how it can be reached.
+
+- [Nexa Lighthouse: Transition to Scale funding for climate and health innovation in Asia and the Pacific](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcc-nexa-lighthouse-2026) Open · Grant call
+- [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcf-readiness-2027) Rolling · Readiness support window
+- [Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)](https://beattheheat.asia/heat-economy/money/opportunities/#opp-he-envhlth-02-2027) Upcoming · Grant call
+
+[All calls on this topic](https://beattheheat.asia/heat-economy/money/opportunities/?topic=inclusion&status=all) · [The funding landscape](https://beattheheat.asia/heat-economy/money/#landscape) · [Careers](https://beattheheat.asia/heat-economy/money/careers/)
 
 ---
 Human edition: https://beattheheat.asia/who-is-at-risk/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

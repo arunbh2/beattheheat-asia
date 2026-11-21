@@ -77,12 +77,12 @@
     var n = shown.length, noun = mode === "careers" ? (n === 1 ? "listing" : "listings") : (n === 1 ? "record" : "records");
     if (out) out.textContent = n + " " + noun + " shown" + (s.status === "verified-open" ? ", verified open" : "") + ".";
     if (none) none.hidden = n > 0;
-    if (hiddenNote) { hiddenNote.hidden = !excluded; hiddenNote.querySelector("span").textContent = excluded + (excluded === 1 ? " record is" : " records are") + " hidden because its published eligibility excludes your selection."; }
+    if (hiddenNote) { hiddenNote.hidden = !excluded; hiddenNote.querySelector("span").textContent = excluded === 1 ? "1 record is hidden because its published eligibility excludes your selection." : excluded + " records are hidden because their published eligibility excludes your selection."; }
     if (savedBtn) { savedBtn.setAttribute("aria-pressed", showSaved ? "true" : "false"); savedBtn.textContent = (showSaved ? "Show all" : "Show my shortlist") + " (" + saved.length + ")"; }
-    var url = C.writeState(s, keys); if (push !== false && location.search !== url) history.replaceState(null, "", url || location.pathname);
+    var clean = {}; Object.keys(s).forEach(function (k) { if (s[k] !== dflt[k]) clean[k] = s[k]; }); Object.keys(dflt).forEach(function (k) { if (dflt[k] && !s[k]) clean[k] = "none"; }); var url = C.writeState(clean, keys); if (push !== false && location.search !== url) history.replaceState(null, "", url || location.pathname);
     return shown;
   }
-  apply(Object.keys(C.readState(location.search, keys)).length ? C.readState(location.search, keys) : dflt);
+  var fromUrl = C.readState(location.search, keys), start = {}; Object.keys(dflt).forEach(function (k) { start[k] = dflt[k]; }); Object.keys(fromUrl).forEach(function (k) { start[k] = fromUrl[k] === "none" ? "" : fromUrl[k]; }); apply(start);
   ctl.forEach(function (c) { c.addEventListener(c.tagName === "INPUT" && c.type !== "checkbox" ? "input" : "change", function () { run(); }); });
   if (sortSel) sortSel.addEventListener("change", function () { run(); });
   var reset = root.querySelector("[data-reset]");

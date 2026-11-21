@@ -1,10 +1,13 @@
 {
  "atRisk": 10,
  "businesses": 91,
+ "careers": 3,
  "cities": 22,
  "conditionQuestions": 24,
  "countries": 7,
  "funders": 77,
+ "fundingOpen": 3,
+ "fundingProgrammes": 25,
  "fundingTraced": 52,
  "glossaryFilms": 85,
  "glossaryTerms": 91,
@@ -28,7 +31,7 @@
  "programmes": 24,
  "schemes": 98,
  "solutions": 131,
- "sources": 2379,
+ "sources": 2404,
  "spCountries": 6,
  "spSchemes": 55,
  "studies": 71

@@ -6,9 +6,7 @@
    "deadline_history": [
     {
      "date": "2026-11-17",
-     "note": "earlier deadline, extended",
-     "src": "gcc-lighthouse-portfolio",
-     "term": "November 17"
+     "note": "earlier deadline as given in listings elsewhere; the official page says the deadline was extended"
     }
    ],
    "topics": [
@@ -39,19 +37,15 @@
     "why": "Extreme heat is one of the hazards named in the call."
    },
    "eligibility": {
-    "text": "Organisations; individuals, sole proprietorships and unincorporated partnerships cannot apply.",
+    "text": "Applicants incorporated and implementing in countries across Asia and the Pacific; the full list of eligible countries is in Appendix B of the funding opportunity.",
     "src": "gcc-lighthouse",
-    "term": "organizations",
-    "applicants": [
-     "ngo",
-     "company",
-     "research",
-     "community"
+    "term": "Applicants incorporated and implementing",
+    "applicants": [],
+    "lead_countries": [
+     "ASIA"
     ],
-    "requires": [
-     "registered-org"
-    ],
-    "lead_text": "See the funding opportunity for where applicants may be incorporated."
+    "requires": [],
+    "lead_text": "Incorporated in an eligible country in Asia or the Pacific."
    },
    "geography": {
     "text": "Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity.",
@@ -66,7 +60,7 @@
     "max": 2000000,
     "currency": "USD",
     "basis": "per-award",
-    "text": "",
+    "text": "USD 250,000 to 2,000,000 per innovation, at the partners' discretion depending on maturity",
     "src": "gcc-lighthouse",
     "term": "2,000,000"
    },
@@ -157,18 +151,8 @@
     "src": "iki-medium",
     "term": "800,000"
    },
-   "deadlines": [
-    {
-     "stage": "Project outline",
-     "date": "2027-01-12",
-     "time": "11:59",
-     "tz": "CET",
-     "wording": "12 January 2027",
-     "src": "iki-medium",
-     "term": "12 January 2027"
-    }
-   ],
-   "stated_status": "open",
+   "deadlines": [],
+   "stated_status": "closed",
    "official_url": "https://www.international-climate-initiative.com/en/find-funding/medium-grants/",
    "access": [
     "periodic-call",
@@ -181,9 +165,10 @@
     ],
     [
      "iki-medium",
-     "2026"
+     "Medium Grants 2026 Closed"
     ]
-   ]
+   ],
+   "conflict": "The IKI page lists Medium Grants 2026 as closed; secondary listings gave a deadline of 12 January 2027. The official page is followed here."
   },
   {
    "asia": true,
@@ -244,15 +229,7 @@
     "src": "iki-small",
     "term": "200,000"
    },
-   "deadlines": [
-    {
-     "stage": "Eligibility check",
-     "date": "2027-01-08",
-     "wording": "8 January 2027",
-     "src": "iki-small-site",
-     "term": "8 January 2027"
-    }
-   ],
+   "deadlines": [],
    "stated_status": "open",
    "official_url": "https://iki-small-grants.de/",
    "access": [
@@ -261,9 +238,14 @@
    "core": [
     [
      "iki-small-site",
-     "Small Grants"
+     "Apply for the 8th International Call for Proposals"
+    ],
+    [
+     "iki-small",
+     "8th Call for Proposals open"
     ]
-   ]
+   ],
+   "note": "The registration deadline was not found on the official pages at the check; secondary listings give 8 January 2027. Check the call page."
   },
   {
    "asia": true,
@@ -348,16 +330,16 @@
     "policy"
    ],
    "id": "opp-gcf-readiness-2027",
-   "title": "GCF Readiness support: proposals through the Partner Portal",
+   "title": "GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027",
    "org": "org-gcf",
    "programme": "prog-gcf-readiness",
-   "round": "Submissions encouraged by 31 March 2027",
+   "round": "Readiness Strategy 2024 to 2027",
    "type": "readiness-window",
    "instrument": "grant",
    "purpose": {
-    "text": "Readiness support for national institutions, country programming and direct access entities.",
+    "text": "Readiness support for national institutions, country programming and direct access entities; submissions may be made at any time during the Readiness Strategy 2024 to 2027.",
     "src": "gcf-readiness-guide",
-    "term": "readiness"
+    "term": "Submissions may be made at any time"
    },
    "relevance": {
     "label": "related",
@@ -385,14 +367,14 @@
    },
    "deadlines": [
     {
-     "stage": "Readiness proposal",
+     "stage": "Recommended latest submission",
      "date": "2027-03-31",
-     "wording": "31 March 2027",
+     "wording": "recommended proposal submission date of no later than 31 March 2027",
      "src": "gcf-readiness-guide",
      "term": "31 March 2027"
     }
    ],
-   "stated_status": "open",
+   "stated_status": "rolling",
    "official_url": "https://www.greenclimate.fund/readiness",
    "access": [
     "government",
@@ -401,13 +383,15 @@
    "core": [
     [
      "gcf-readiness-guide",
-     "31 March 2027"
+     "Submissions may be made at any time"
     ],
     [
      "gcf-readiness-guide",
-     "Partner Portal"
+     "31 March 2027"
     ]
-   ]
+   ],
+   "rolling": true,
+   "rolling_src": "gcf-readiness-guide"
   },
   {
    "asia": false,
@@ -610,65 +594,6 @@
    ]
   },
   {
-   "asia": false,
-   "deadline_history": [],
-   "topics": [
-    "cooling"
-   ],
-   "activities": [
-    "infrastructure",
-    "scaling"
-   ],
-   "id": "opp-epic-deploy-2026",
-   "title": "EPIC Deploy: first call for proposals on sustainable cooling",
-   "org": "org-base",
-   "programme": "prog-epic-deploy",
-   "round": "First call",
-   "type": "grant-call",
-   "instrument": "grant",
-   "purpose": {
-    "text": "Deploying sustainable cooling.",
-    "src": "epic-deploy",
-    "term": "cooling"
-   },
-   "relevance": {
-    "label": "explicit",
-    "why": "Sustainable cooling is the call's subject."
-   },
-   "eligibility": {
-    "text": "As defined in the call documents.",
-    "src": "epic-deploy",
-    "term": "Call for Proposals",
-    "applicants": []
-   },
-   "geography": {
-    "text": "As defined in the call documents.",
-    "src": "epic-deploy",
-    "term": "EPIC Deploy",
-    "countries": []
-   },
-   "deadlines": [
-    {
-     "stage": "Proposal",
-     "date": "2026-10-31",
-     "wording": "31 October 2026",
-     "src": "epic-deploy",
-     "term": "31 October 2026"
-    }
-   ],
-   "stated_status": "closed",
-   "official_url": "https://energy-base.org/?p=3408",
-   "access": [
-    "periodic-call"
-   ],
-   "core": [
-    [
-     "epic-deploy",
-     "EPIC Deploy"
-    ]
-   ]
-  },
-  {
    "asia": true,
    "deadline_history": [],
    "topics": [
@@ -706,18 +631,10 @@
     ]
    },
    "geography": {
-    "text": "Eligible Commonwealth member countries.",
+    "text": "Eligible Commonwealth member countries (see the Foundation's eligible countries list); a project is implemented at least in the applicant's country of registration.",
     "src": "cwf-grants",
-    "term": "Collective Action",
-    "countries": [
-     "BD",
-     "IN",
-     "PK",
-     "LK",
-     "MY",
-     "SG",
-     "MV"
-    ]
+    "term": "country of registration",
+    "countries": []
    },
    "deadlines": [
     {
@@ -953,15 +870,15 @@
     "research"
    ],
    "id": "opp-ilo-th-heat-review-2026",
-   "title": "ILO request for quotation: desk review of occupational heat exposure in Thailand",
+   "title": "ILO request for quotation: desk review and evidence mapping of occupational exposure to excessive heat in Thailand",
    "org": "org-ilo",
    "round": "2026",
    "type": "rfq",
    "instrument": "contract",
    "purpose": {
-    "text": "A desk review of occupational heat exposure in Thailand.",
+    "text": "Desk review and evidence mapping of occupational exposure to excessive heat and its impacts on workers' safety and health in Thailand.",
     "src": "ungm-ilo-th",
-    "term": "Thailand"
+    "term": "occupational exposure to excessive heat"
    },
    "relevance": {
     "label": "explicit",
@@ -988,10 +905,12 @@
    "deadlines": [
     {
      "stage": "Quotation",
-     "date": "2026-10-26",
-     "wording": "26-Oct-2026",
+     "date": "2026-11-02",
+     "time": "17:00",
+     "tz": "GMT+1",
+     "wording": "02-Nov-2026 17:00 (GMT 1.00)",
      "src": "ungm-ilo-th",
-     "term": "26-Oct-2026"
+     "term": "02-Nov-2026"
     }
    ],
    "stated_status": "closed",
@@ -1002,13 +921,14 @@
    "core": [
     [
      "ungm-ilo-th",
-     "heat"
+     "occupational exposure to excessive heat"
     ],
     [
      "ungm-ilo-th",
      "Thailand"
     ]
-   ]
+   ],
+   "reference": "rfx_12201_ROAP"
   }
  ]
 }

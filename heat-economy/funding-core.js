@@ -26,7 +26,7 @@
   const APP = { upcoming: "Upcoming", open: "Open", closing: "Deadline day", rolling: "Rolling", closed: "Closed", withdrawn: "Withdrawn", unknown: "Status unknown" };
   const VER = { verified: "Verified", "review-due": "Review due", unavailable: "Source unavailable", conflicting: "Conflicting information", unconfirmed: "Not confirmed by the source check" };
   // offsets in minutes for the time zones sources use; anything else is treated as unknown
-  const TZ = { UTC: 0, GMT: 0, CET: 60, CEST: 120, ET: -300, EST: -300, EDT: -240, PT: -480, PST: -480, PDT: -420, JST: 540, IST: 330, SGT: 480, ICT: 420, WIB: 420, PHT: 480, BST: 60, AEST: 600 };
+  const TZ = { UTC: 0, GMT: 0, "GMT+1": 60, CET: 60, CEST: 120, ET: -300, EST: -300, EDT: -240, PT: -480, PST: -480, PDT: -420, JST: 540, IST: 330, SGT: 480, ICT: 420, WIB: 420, PHT: 480, BST: 60, AEST: 600 };
   const pad = n => String(n).padStart(2, "0");
   const isDate = s => /^\d{4}-\d{2}-\d{2}$/.test(String(s || ""));
   const toMs = now => typeof now === "number" ? now : isDate(now) ? Date.parse(now + "T12:00:00Z") : Date.parse(now);
@@ -108,13 +108,13 @@
     if (P.work) { const g = G.countries || [];
       out.push(g.includes(P.work) || g.includes("ASIA") || g.includes("GLOBAL") ? ["yes", "Matches selected work country"] : g.length ? ["no", "Work country not in the published list"] : ["unknown", "Implementation countries not established"]); }
     if (P.country) { const l = E.lead_countries || [];
-      out.push(l.includes(P.country) || l.includes("ANY") ? ["yes", "Lead applicant may be based in the selected country"] : l.length ? ["no", `Lead applicant must be based in ${l.join(", ")}`] : ["unknown", "Lead applicant location not established"]); }
+      out.push(l.includes(P.country) || l.includes("ANY") ? ["yes", "Lead applicant may be based in the selected country"] : l.length ? ["no", `Only for lead applicants based in ${l.join(", ")}`] : ["unknown", "Lead applicant location not established"]); }
     if (P.applicant) { const a = E.applicants || [];
       out.push(a.includes(P.applicant) ? ["yes", "Applicant type is listed as eligible"] : a.length ? ["no", "Applicant type is not listed as eligible"] : ["unknown", "Applicant eligibility not established"]); }
     (E.requires || []).forEach(req => out.push(["note", REQUIRES[req] || req]));
     return out;
   }
-  const REQUIRES = { "university-lead": "Requires a university or research institution lead", consortium: "Requires a consortium", "local-partner": "Requires a local partner in the implementation country", "accredited-entity": "Only accredited entities can submit", "government-endorsement": "Needs government nomination or endorsement", membership: "Open to members only", "germany-based-lead": "Lead must be based in Germany", "national-society": "National Red Cross or Red Crescent Societies only", "un-agency": "UN agencies only", "harvard-mentor": "Needs a Harvard faculty mentor; based in Boston", "registered-org": "Applicant must be a registered organisation", invitation: "By invitation only" };
+  const REQUIRES = { "university-lead": "Requires a university or research institution lead", consortium: "Requires a consortium", "local-partner": "Requires a local partner in the implementation country", "accredited-entity": "Only accredited entities can submit", "government-endorsement": "Needs government nomination or endorsement", membership: "Open to members only", "germany-based-lead": "Only for lead applicants based in Germany", "national-society": "National Red Cross or Red Crescent Societies only", "un-agency": "UN agencies only", "harvard-mentor": "Needs a Harvard faculty mentor; based in Boston", "registered-org": "Applicant must be a registered organisation", invitation: "By invitation only" };
 
   // access routes and the one next step each allows (never "Apply now" on a funder profile)
   const ACCESS = [

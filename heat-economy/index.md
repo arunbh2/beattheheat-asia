@@ -1,7 +1,7 @@
 ---
 title: "The heat economy"
 url: https://beattheheat.asia/heat-economy/
-updated: 2026-11-17
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 

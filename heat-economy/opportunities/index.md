@@ -1,7 +1,7 @@
 ---
 title: "Ideas for businesses and services that protect people from heat"
 url: https://beattheheat.asia/heat-economy/opportunities/
-updated: 2026-11-16
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 

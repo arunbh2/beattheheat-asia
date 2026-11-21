@@ -350,8 +350,7 @@
     "grant"
    ],
    "access": [
-    "periodic-call",
-    "invitation"
+    "periodic-call"
    ],
    "core": [
     [
@@ -377,7 +376,7 @@
     "grant"
    ],
    "access": [
-    "invitation"
+    "none-found"
    ],
    "core": [
     [
@@ -395,9 +394,9 @@
    "type": "development-bank",
    "website": "https://www.adb.org/",
    "remit": {
-    "text": "Regional development bank; lends to and supports governments, and runs trust funds and technical assistance, including on extreme heat.",
-    "src": "adb-heat-ta",
-    "term": "Extreme Heat"
+    "text": "Regional development bank; lends to and supports member governments, and runs trust funds and technical assistance for community-level adaptation.",
+    "src": "adb-crpp",
+    "term": "Community Resilience Partnership"
    },
    "instruments": [
     "debt",
@@ -411,8 +410,8 @@
    ],
    "core": [
     [
-     "adb-heat-ta",
-     "Extreme Heat"
+     "adb-crpp",
+     "Community Resilience Partnership"
     ]
    ]
   },
@@ -433,7 +432,7 @@
     "technical-assistance"
    ],
    "access": [
-    "rolling"
+    "open-call"
    ],
    "core": [
     [
@@ -617,32 +616,6 @@
     [
      "gcgh-climate",
      "heat stress"
-    ]
-   ]
-  },
-  {
-   "id": "org-base",
-   "name": "BASE (Basel Agency for Sustainable Energy)",
-   "aliases": [
-    "BASE"
-   ],
-   "type": "foundation",
-   "website": "https://energy-base.org/",
-   "remit": {
-    "text": "Runs EPIC Deploy, a call on sustainable cooling.",
-    "src": "epic-deploy",
-    "term": "EPIC Deploy"
-   },
-   "instruments": [
-    "grant"
-   ],
-   "access": [
-    "periodic-call"
-   ],
-   "core": [
-    [
-     "epic-deploy",
-     "EPIC Deploy"
     ]
    ]
   },
@@ -898,8 +871,8 @@
    "type": "university",
    "website": "https://careers.nus.edu.sg/",
    "remit": {
-    "text": "Employer; research posts on heat and human performance and urban microclimate.",
-    "src": "nus-hrpc-rf",
+    "text": "Employer; research posts on urban microclimate.",
+    "src": "nus-microclimate-rf",
     "term": "Research Fellow"
    },
    "instruments": [],
@@ -908,7 +881,7 @@
    ],
    "core": [
     [
-     "nus-hrpc-rf",
+     "nus-microclimate-rf",
      "Research Fellow"
     ]
    ]

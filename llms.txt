@@ -68,6 +68,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 - [Solutions library](https://beattheheat.asia/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on
 - [The heat economy](https://beattheheat.asia/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads
+- [Funding landscape](https://beattheheat.asia/heat-economy/money/#landscape), [open calls and tenders](https://beattheheat.asia/heat-economy/money/opportunities/) and [careers](https://beattheheat.asia/heat-economy/money/careers/): programmes with their access routes, calls and procurement notices with application status and verification kept apart, and jobs and fellowships, each checked against its official page; CSV downloads (also in llms-full.txt)
 - [Country snapshots](https://beattheheat.asia/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand
 - [The Lancet Countdown 2026, for extreme heat in Asia](https://beattheheat.asia/lancet-countdown-2026/): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references
 - [How heat is reported](https://beattheheat.asia/how-heat-is-reported/): how 101 news articles on extreme heat in South and Southeast Asia (2018–2026), in two collections, follow protection: an explorer with each reviewed article's reporting trail, examples, comparisons and a question kit; records as CSV and JSON
@@ -141,7 +142,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 ### The evidence
 
-- [2,379 sources](https://beattheheat.asia/sources/) cited, every one listed
+- [2,404 sources](https://beattheheat.asia/sources/) cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/) cycle by cycle, on the evidence map
 - [44 learning questions](https://beattheheat.asia/evidence-map/#questions) nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/) the Lancet Countdown 2026, in plain language

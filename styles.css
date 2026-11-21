@@ -3507,7 +3507,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .fo-btn[aria-pressed="true"] { background: var(--ink); color: var(--white); border-color: var(--ink); }
 .fo-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: var(--s-3); margin: var(--s-4) 0 var(--s-3); padding: var(--pad-std); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); }
 .fo-f { display: flex; flex-direction: column; gap: 4px; font-size: var(--fs-14); font-weight: 600; min-width: 0; }
-.fo-f select, .fo-f input[type="search"] { min-height: 44px; max-width: 100%; padding: 8px 10px; border: 1px solid var(--line-strong); border-radius: var(--r-sm); background: var(--white); font: inherit; font-size: 16px; color: var(--ink); }
+.fo-f select, .fo-f input[type="search"] { min-height: 44px; max-width: 100%; padding: 8px 10px; border: 1px solid var(--line-strong); border-radius: var(--r-sm); background: var(--white); font: inherit; font-size: var(--fs-16); color: var(--ink); }
 .fo-f--check { flex-direction: row; align-items: center; gap: 8px; min-height: 44px; }
 .fo-f--check input { width: 20px; height: 20px; }
 .fo-f--q { grid-column: 1 / -1; }
@@ -3521,7 +3521,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .fo-table tbody th { min-width: 14em; }
 .fo-table td { min-width: 9em; }
 .fo-sub { display: block; font-size: var(--fs-14); font-weight: 400; line-height: 1.5; color: var(--grey-700); }
-.fo-cards { display: grid; gap: var(--s-3); }
+.fo-cards { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-3); }
+.fo, .fo-rec, .fo-dl div, .fo-dl dd { min-width: 0; }
 .fo-rec { padding: var(--pad-std); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); scroll-margin-top: 90px; content-visibility: auto; contain-intrinsic-size: auto 520px; }
 .fo-rec__h { margin: 0 0 4px; font-size: var(--fs-18); line-height: 1.15; overflow-wrap: anywhere; }
 .fo-chips { margin: var(--s-2) 0 0; }

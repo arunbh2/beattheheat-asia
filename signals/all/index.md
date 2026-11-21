@@ -567,9 +567,9 @@ What to watchA finding, not a commitment: watch whether city budgets in South As
 
 Sources and review
 
-- [World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities) Originalchecked 15 November 2026
+- [World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities) Originalchecked 21 November 2026
 
-ReviewRecord last reviewed 16 November 2026. Sources last checked 15 November 2026. Next review due 16 May 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+ReviewRecord last reviewed 16 November 2026. Sources last checked 21 November 2026. Next review due 16 May 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
 Explore on Common Shade[Green, cool cities](https://beattheheat.asia/actions/#greencity)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)
 

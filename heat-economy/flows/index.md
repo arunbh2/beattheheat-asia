@@ -1,7 +1,7 @@
 ---
 title: "Follow the money"
 url: https://beattheheat.asia/heat-economy/flows/
-updated: 2026-11-01
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 

@@ -42,9 +42,9 @@
     "term": "Fluxx"
    },
    "recipients": {
-    "text": "Organisations; individuals cannot apply.",
+    "text": "Applicants incorporated and implementing in countries across Asia and the Pacific.",
     "src": "gcc-lighthouse",
-    "term": "organizations"
+    "term": "Applicants incorporated and implementing"
    },
    "geography": {
     "text": "Implementation in eligible countries in Asia and the Pacific listed in the call's Appendix B.",
@@ -143,7 +143,7 @@
     "consortium"
    ],
    "access_note": {
-    "text": "Annual call; the lead must be established in Germany and partner with local organisations.",
+    "text": "Annual call; the lead is an organisation established in Germany, working with local partner organisations.",
     "src": "iki-medium",
     "term": "Germany"
    },
@@ -195,9 +195,9 @@
     "periodic-call"
    ],
    "access_note": {
-    "text": "Annual call with an eligibility check first, then a full proposal for those invited.",
-    "src": "iki-small-site",
-    "term": "eligibility"
+    "text": "Annual international calls for proposals; the 8th call was announced as open on 15 November 2026.",
+    "src": "iki-small",
+    "term": "8th Call for Proposals open"
    },
    "recipients": {
     "text": "Sub-national, national and regional non-profit organisations in ODA-eligible countries.",
@@ -622,9 +622,6 @@
    "links": {},
    "id": "prog-idrc-arch",
    "org": "org-idrc",
-   "donors": [
-    "org-fcdo"
-   ],
    "name": "Advancing Research on Climate and Health",
    "url": "https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health",
    "category": "research",
@@ -738,21 +735,15 @@
     "why": "Sustainable cooling is its whole remit."
    },
    "access": [
-    "invitation",
-    "intermediary"
+    "none-found"
    ],
    "access_note": {
-    "text": "No open call is listed; funding reaches partners it selects.",
-    "src": "ccc-home",
-    "term": "cooling"
+    "text": "No open call or application route was found on its site at the check (21 November 2026).",
+    "src": null,
+    "term": null
    },
    "recipients": {
     "text": "Partners it selects.",
-    "src": "ccc-home",
-    "term": "Clean Cooling Collaborative"
-   },
-   "limits_note": {
-    "text": "Whether it accepts unsolicited proposals was not confirmed on its page.",
     "src": "ccc-home",
     "term": "Clean Cooling Collaborative"
    },
@@ -791,26 +782,22 @@
     "why": "Community-led resilience work could address heat; the fund's priorities are set by its own process."
    },
    "access": [
-    "invitation"
+    "none-found"
    ],
    "access_note": {
-    "text": "Grantmaking is by invitation.",
-    "src": "cjrf",
-    "term": "invitation"
+    "text": "No open call was found on its site at the check (21 November 2026).",
+    "src": null,
+    "term": null
    },
    "recipients": {
-    "text": "Organisations it invites.",
+    "text": "Community-led organisations, as the fund selects.",
     "src": "cjrf",
-    "term": "invitation"
+    "term": "Climate Justice Resilience Fund"
    },
    "core": [
     [
      "cjrf",
      "Climate Justice Resilience Fund"
-    ],
-    [
-     "cjrf",
-     "invitation"
     ]
    ]
   },
@@ -836,7 +823,7 @@
    "url": "https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund",
    "category": "lla",
    "remit": {
-    "text": "Technical assistance and grant resources to scale up community-level climate adaptation, with a climate-poverty focus.",
+    "text": "Technical assistance and grant resources to scale up community-level climate adaptation.",
     "src": "adb-crpp",
     "term": "Community Resilience Partnership"
    },
@@ -941,26 +928,26 @@
    "url": "https://www.citygapfund.org/",
    "category": "urban",
    "remit": {
-    "text": "Technical assistance that helps cities prepare climate-smart urban projects.",
+    "text": "Helps cities in developing and emerging countries turn climate-resilient ideas into strategies and finance-ready projects.",
     "src": "gapfund",
-    "term": "technical assistance"
+    "term": "finance-ready projects"
    },
    "relevance": {
     "label": "related",
     "why": "Cities can request help to prepare projects such as greening or heat-resilient infrastructure; heat is not a separate window."
    },
    "access": [
-    "rolling"
+    "open-call"
    ],
    "access_note": {
-    "text": "Cities and their partners submit an expression of interest.",
+    "text": "Cities and local governments apply for support through the Gap Fund's application page.",
     "src": "gapfund",
-    "term": "expression of interest"
+    "term": "Apply for Support"
    },
    "recipients": {
-    "text": "Cities and local governments, and organisations working with them.",
+    "text": "Cities and local governments in developing and emerging countries.",
     "src": "gapfund",
-    "term": "cities"
+    "term": "cities and local governments"
    },
    "core": [
     [
@@ -969,7 +956,7 @@
     ],
     [
      "gapfund",
-     "technical assistance"
+     "Apply for Support"
     ]
    ]
   },
@@ -1261,54 +1248,6 @@
     [
      "gcgh-climate",
      "South Asia"
-    ]
-   ]
-  },
-  {
-   "instruments": [
-    "grant"
-   ],
-   "operational": "operational",
-   "topics": [
-    "cooling",
-    "value-chain"
-   ],
-   "activities": [
-    "infrastructure",
-    "scaling"
-   ],
-   "past_support": [],
-   "links": {},
-   "id": "prog-epic-deploy",
-   "org": "org-base",
-   "name": "EPIC Deploy (sustainable cooling)",
-   "url": "https://energy-base.org/?p=3408",
-   "category": "cooling",
-   "remit": {
-    "text": "A call for proposals on deploying sustainable cooling.",
-    "src": "epic-deploy",
-    "term": "EPIC Deploy"
-   },
-   "relevance": {
-    "label": "explicit",
-    "why": "Sustainable cooling is the call's subject."
-   },
-   "access": [
-    "periodic-call"
-   ],
-   "recipients": {
-    "text": "As defined by the call.",
-    "src": "epic-deploy",
-    "term": "Call for Proposals"
-   },
-   "core": [
-    [
-     "epic-deploy",
-     "EPIC Deploy"
-    ],
-    [
-     "epic-deploy",
-     "cooling"
     ]
    ]
   },
