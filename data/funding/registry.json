@@ -7,6 +7,18 @@
  },
  "sources": [
   {
+   "id": "uncareers",
+   "name": "UN Careers job openings (the portal's public data)",
+   "kind": "uncareers",
+   "feeds": "careers",
+   "url": "https://careers.un.org/api/public/opening/jo/list/filteredV2/en",
+   "terms": [
+    "heat",
+    "cooling",
+    "heatwave"
+   ]
+  },
+  {
    "id": "wb-procurement",
    "name": "World Bank procurement notices (public API)",
    "kind": "worldbank",
@@ -100,22 +112,6 @@
    "discovery_only": true
   },
   {
-   "id": "untalent-rss",
-   "name": "UN Talent (aggregator RSS, discovery only)",
-   "kind": "rss",
-   "feeds": "careers",
-   "url": "https://untalent.org/jobs/feed",
-   "discovery_only": true
-  },
-  {
-   "id": "unjobs-unep-rss",
-   "name": "UNjobs, UNEP vacancies (aggregator RSS, discovery only)",
-   "kind": "rss",
-   "feeds": "careers",
-   "url": "https://unjobs.org/organizations/unep/rss",
-   "discovery_only": true
-  },
-  {
    "id": "iisd-jobs-rss",
    "name": "IISD community job board (aggregator RSS, discovery only)",
    "kind": "rss",
@@ -146,7 +142,9 @@
    "preventionweb-grants",
    "preventionweb-vacancies",
    "undp-procurement-rss",
-   "unhabitat-jobs-rss"
+   "unhabitat-jobs-rss",
+   "untalent-rss",
+   "unjobs-unep-rss"
   ]
  },
  "probe": {

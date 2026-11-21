@@ -103,6 +103,19 @@ const IMPORT = {
     return { ok: true, items: ((J(r) || {}).content || []).map(x => item({ title: clean(x.name), org: s.name.replace(/ jobs.*$/, ""), url: `https://jobs.smartrecruiters.com/${s.board}/${x.id}`, published: iso(x.releasedDate),
       location: clean([((x.location || {}).city), ((x.location || {}).country)].filter(Boolean).join(", ")), text: `${clean(x.name)}. ${clean(JSON.stringify(x.location || {}))}. ${clean((x.department || {}).label || "")}`, extra: { remote: !!(x.location || {}).remote } })) };
   },
+  // UN Careers: the portal's public job-opening data (careers.un.org/api/public), one search per term
+  async uncareers(s) {
+    const out = [];
+    for (const q of s.terms || ["heat"]) {
+      const r = await get(`${s.url}`, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify({ filterConfig: { keyword: q }, pagination: { page: 0, itemPerPage: 50, sortBy: "startDate", sortDirection: -1 } }) });
+      if (!r.ok) return r;
+      const j = J(r) || {}, list = (j.data && (j.data.list || j.data)) || j.list || [];
+      (Array.isArray(list) ? list : []).forEach(x => out.push(item({ title: clean(x.postingTitle || x.jobTitle), org: clean(x.departmentDescr || x.dept || ""), url: `https://careers.un.org/jobSearchDescription/${x.jobId}?language=en`,
+        published: iso(x.startDate), deadline_text: x.endDate || "", location: clean(((x.dutyStation || [])[0] || {}).description || ""), text: `${clean(x.postingTitle || x.jobTitle)}. ${clean(x.departmentDescr || "")}. ${clean(x.jobDescription || "").slice(0, 1500)}`,
+        extra: { job_id: String(x.jobId || ""), data_url: `https://careers.un.org/api/public/opening/jo/${x.jobId}/en`, level: x.jobLevel || "" } })));
+    }
+    return { ok: true, items: out };
+  },
   async ashby(s) {
     const r = await get(`https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(s.board)}?includeCompensation=true`); if (!r.ok) return r;
     return { ok: true, items: ((J(r) || {}).jobs || []).map(x => item({ title: clean(x.title), org: s.name, url: x.jobUrl, published: iso(x.publishedAt), location: clean(x.location),
