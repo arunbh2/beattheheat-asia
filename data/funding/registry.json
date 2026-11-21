@@ -8,15 +8,10 @@
  "sources": [
   {
    "id": "uncareers",
-   "name": "UN Careers job openings (the portal's public data)",
+   "name": "UN Careers job openings (the portal's public data: every active opening, read in pages of 100; the portal's keyword filter matches titles only, so relevance is tested here on title and description)",
    "kind": "uncareers",
    "feeds": "careers",
-   "url": "https://careers.un.org/api/public/opening/jo/list/filteredV2/en",
-   "terms": [
-    "heat",
-    "cooling",
-    "heatwave"
-   ]
+   "url": "https://careers.un.org/api/public/opening/jo/list/filteredV2/en"
   },
   {
    "id": "wb-procurement",

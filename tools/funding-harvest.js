@@ -24,7 +24,11 @@ const clean = t => String(t || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").
 const tag = (x, t) => { const m = x.match(new RegExp(`<${t}(?:\\s[^>]*)?>([\\s\\S]*?)</${t}>`, "i")); return m ? clean(m[1]) : ""; };
 const linkOf = x => { const a = x.match(/<link[^>]*href="([^"]+)"/i); return a ? a[1] : tag(x, "link"); };
 const iso = d => { const t = Date.parse(d); return isNaN(t) ? "" : new Date(t).toISOString().slice(0, 10); };
-const normUrl = u => String(u || "").trim().replace(/#.*$/, "").replace(/\/+$/, "").toLowerCase();
+// tracking parameters (utm_*, feedId) are dropped, so a feed's link matches the published record's
+const normUrl = u => String(u || "").trim().replace(/#.*$/, "").replace(/([?&])(utm_[a-z]+|feedid)=[^&]*/gi, "$1").replace(/[?&]+$/, "").replace(/\/+$/, "").toLowerCase();
+// a published title (letters and digits only, 25 or more) that a feed title starts with counts as already known:
+// a career site can list the same post under a second id
+const normTitle = t => String(t || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
 async function get(url, opt = {}) {
   for (let i = 0; i < 2; i++) {
@@ -103,18 +107,25 @@ const IMPORT = {
     return { ok: true, items: ((J(r) || {}).content || []).map(x => item({ title: clean(x.name), org: s.name.replace(/ jobs.*$/, ""), url: `https://jobs.smartrecruiters.com/${s.board}/${x.id}`, published: iso(x.releasedDate),
       location: clean([((x.location || {}).city), ((x.location || {}).country)].filter(Boolean).join(", ")), text: `${clean(x.name)}. ${clean(JSON.stringify(x.location || {}))}. ${clean((x.department || {}).label || "")}`, extra: { remote: !!(x.location || {}).remote } })) };
   },
-  // UN Careers: the portal's public job-opening data (careers.un.org/api/public), one search per term
+  // UN Careers: the portal's public job-opening data (careers.un.org/api/public). The portal's keyword filter matches
+  // job titles only (a November 2026 probe: "heat" found one HVAC technician), and heat work is named in the description,
+  // so the whole list of active openings is read in pages of 100 (about 5 requests) and the relevance test runs here
+  // on the title and the description together.
   async uncareers(s) {
-    const out = [];
-    for (const q of s.terms || ["heat"]) {
-      const r = await get(`${s.url}`, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify({ filterConfig: { keyword: q }, pagination: { page: 0, itemPerPage: 50, sortBy: "startDate", sortDirection: -1 } }) });
-      if (!r.ok) return r;
-      const j = J(r) || {}, list = (j.data && (j.data.list || j.data)) || j.list || [];
-      (Array.isArray(list) ? list : []).forEach(x => out.push(item({ title: clean(x.postingTitle || x.jobTitle), org: clean(x.departmentDescr || x.dept || ""), url: `https://careers.un.org/jobSearchDescription/${x.jobId}?language=en`,
-        published: iso(x.startDate), deadline_text: x.endDate || "", location: clean(((x.dutyStation || [])[0] || {}).description || ""), text: `${clean(x.postingTitle || x.jobTitle)}. ${clean(x.departmentDescr || "")}. ${clean(x.jobDescription || "").slice(0, 1500)}`,
-        extra: { job_id: String(x.jobId || ""), data_url: `https://careers.un.org/api/public/opening/jo/${x.jobId}/en`, level: x.jobLevel || "" } })));
+    const out = [], per = 100;
+    for (let page = 0; page < 12; page++) {
+      const r = await get(s.url, { method: "POST", headers: Object.assign({}, UA, { "Content-Type": "application/json" }), body: JSON.stringify({ filterConfig: {}, pagination: { page, itemPerPage: per, sortBy: "startDate", sortDirection: -1 } }) });
+      if (!r.ok) return page ? { ok: true, items: out, note: `stopped at page ${page + 1}: ${r.why}` } : r;
+      const d = (J(r) || {}).data || {}, list = Array.isArray(d.list) ? d.list : [];
+      list.forEach(x => x && x.jobId && out.push(item({ title: clean(x.postingTitle || x.jobTitle), org: clean(Array.isArray(x.dept) ? x.dept.map(v => v.name || v.code || v).join(", ") : (x.dept && (x.dept.name || x.dept.code)) || ""),
+        url: `https://careers.un.org/jobSearchDescription/${x.jobId}?language=en`, published: iso(x.startDate), deadline_text: x.endDate || "",
+        location: clean((Array.isArray(x.dutyStation) ? x.dutyStation : [x.dutyStation]).filter(Boolean).map(v => v.description || v.name || v.code || v).join(", ")),
+        text: `${clean(x.postingTitle || x.jobTitle)}. ${clean(x.jobDescription || "").slice(0, 1800)}`,
+        extra: { job_id: String(x.jobId), data_url: `https://careers.un.org/api/public/opening/jo/${x.jobId}/en`, level: x.jobLevel || "", category: x.jc || x.categoryCode || "" } })));
+      if (!list.length || (page + 1) * per >= (+d.count || 0)) break;
     }
-    return { ok: true, items: out };
+    // the same opening can appear once per language; keep one
+    const seen = new Set(); return { ok: true, items: out.filter(x => !seen.has(x.extra.job_id) && seen.add(x.extra.job_id)) };
   },
   async ashby(s) {
     const r = await get(`https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(s.board)}?includeCompensation=true`); if (!r.ok) return r;
@@ -166,6 +177,7 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10), since = new Date(Date.now() - DAYS * 864e5).toISOString().slice(0, 10);
   const REG = JSON.parse(fs.readFileSync(path.join(DIR, "registry.json"), "utf8")).sources.filter(s => !ONLY.length || ONLY.includes(s.id));
   const have = new Set(published().flatMap(r => [r.url, r.official_url, r.application_url].filter(Boolean).map(normUrl))), q = queued();
+  const titles = published().map(r => normTitle(r.title)).filter(t => t.length >= 25);
   const sources = [], candidates = [], rejected = { off_topic: 0, old: 0, known: 0 };
   for (const s of REG) {
     const imp = IMPORT[s.kind]; if (!imp) { sources.push({ id: s.id, status: `no importer for kind ${s.kind}`, items: 0 }); continue; }
@@ -176,7 +188,9 @@ async function main() {
       const u = normUrl(it.url); if (!u) continue;
       if (it.published && it.published < since && s.feeds !== "careers") { rejected.old++; continue; }
       const rel = relevance(`${it.title}. ${it.location}. ${it.text}`); if (!rel) { rejected.off_topic++; continue; }
-      if (have.has(u) || q.has(u)) { rejected.known++; continue; }
+      // a related remit counts only for work in Asia: where the feed names a place, the place (or the title or employer) says so
+      if (rel.strength === "adjacent" && it.location && !ASIA.test(`${it.title}. ${it.location}. ${it.org}`)) { rejected.off_topic++; continue; }
+      if (have.has(u) || q.has(u) || titles.some(t => normTitle(it.title).startsWith(t))) { rejected.known++; continue; }
       q.add(u); kept++;
       candidates.push({ feed: s.feeds, source: s.id, discovery_only: !!s.discovery_only, title: it.title, org: it.org, url: it.url, published: it.published || "not stated", deadline_text: it.deadline_text || "not stated in the feed",
         location: it.location || "not stated", relevance: rel, summary: it.text.slice(0, 300), extra: it.extra || {}, decision: "pending" });
@@ -187,7 +201,7 @@ async function main() {
   const summary = { added: candidates.length, changed: changes.filter(c => c.now).length, expired: changes.filter(c => c.now === "closed").length, review_due: changes.filter(c => c.verification).length, rejected: rejected.off_topic + rejected.old + rejected.known, rejected_detail: rejected };
   console.log(`funding harvest${DRY ? " (dry run)" : ""}: added ${summary.added}, changed ${summary.changed}, expired ${summary.expired}, review due ${summary.review_due}, rejected ${summary.rejected} (off topic ${rejected.off_topic}, older than ${since} ${rejected.old}, already known ${rejected.known})`);
   sources.forEach(s => console.log(`  ${s.id}: ${s.status}${s.status === "OK" ? ` (${s.kept}/${s.items})` : ""}`));
-  if (DRY) return;
+  if (DRY) { candidates.forEach(c => console.log(`  + [${c.source}; ${c.relevance.strength}: ${c.relevance.terms.slice(0, 3).join(", ")}] ${c.title} | ${c.org || "org not stated"} | ${c.location} | closes ${c.deadline_text} | ${c.url}`)); return; }
   fs.mkdirSync(OUT, { recursive: true });
   fs.writeFileSync(path.join(OUT, `${today}.json`), JSON.stringify({
     about: "Candidates from the weekly funding and careers harvest (tools/funding-harvest.js). Not published and not evidence. For each: open the link, find the primary page (an aggregator is discovery only), and set decision to 'propose' (stage its facts for the source check), or 'reject' with a reason in 'note'. 'relevance' is a hint from words in the feed. 'status_changes' lists published records whose status the dates now change, for review.",
