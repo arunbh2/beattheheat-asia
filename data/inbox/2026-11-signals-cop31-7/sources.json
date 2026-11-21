@@ -1,0 +1,65 @@
+[
+ {
+  "id": "src-cop31g-unric",
+  "type": "source",
+  "keys": [
+   "unric"
+  ],
+  "title": "COP31: World Climate Conference Set to Officially End Today",
+  "publisher": "United Nations Regional Information Centre for Western Europe",
+  "year": 2026,
+  "url": "https://unric.org/en/cop31-world-climate-conference-set-to-officially-end-today/",
+  "kind": "UN news page",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "officially end today"
+  ],
+  "claims": [
+   "c-overtime"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-brecorder",
+  "type": "source",
+  "keys": [
+   "brecorder"
+  ],
+  "title": "Nations row over fossil fuels as COP31 goes into overtime",
+  "publisher": "Business Recorder",
+  "year": 2026,
+  "url": "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime",
+  "kind": "News report",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "goes into overtime"
+  ],
+  "claims": [
+   "c-overtime"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-ansa",
+  "type": "source",
+  "keys": [
+   "ansa"
+  ],
+  "title": "Cop31 non chiude ancora, prorogata a sabato",
+  "publisher": "ANSA",
+  "year": 2026,
+  "url": "https://ansa.it/sito/notizie/topnews/2026/11/20/-cop31-non-chiude-ancora-prorogata-a-sabato-_3f9e5682-66bf-41ad-aa47-db24560e87ec.html",
+  "kind": "News report (Italian)",
+  "where": "COP31",
+  "expect": [
+   "Cop31",
+   "prorogata a sabato"
+  ],
+  "claims": [
+   "c-overtime"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "about": "COP31 closing check-in (21 November 2026): the conference ran past its scheduled close. Terms are taken only from each report's own headline, because the pages could not be read from the build session; a claim reaches the page only if the source check finds them. Draft texts (including a reported adaptation finance figure dropped from a later draft) are not outcomes and are not staged. The negotiated decisions will be checked at a later check-in, once published.",
+ "sources": [
+  { "key": "unric", "title": "COP31: World Climate Conference Set to Officially End Today", "publisher": "United Nations Regional Information Centre for Western Europe", "year": 2026, "kind": "UN news page", "url": "https://unric.org/en/cop31-world-climate-conference-set-to-officially-end-today/", "expect": ["COP31"] },
+  { "key": "brecorder", "title": "Nations row over fossil fuels as COP31 goes into overtime", "publisher": "Business Recorder", "year": 2026, "kind": "News report", "url": "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime", "expect": ["COP31"] },
+  { "key": "ansa", "title": "Cop31 non chiude ancora, prorogata a sabato", "publisher": "ANSA", "year": 2026, "kind": "News report (Italian)", "url": "https://ansa.it/sito/notizie/topnews/2026/11/20/-cop31-non-chiude-ancora-prorogata-a-sabato-_3f9e5682-66bf-41ad-aa47-db24560e87ec.html", "expect": ["Cop31"] }
+ ],
+ "claims": [
+  { "id": "c-overtime", "where": "COP31 watch: closing check-in", "text": "COP31 was due to end on 20 November 2026 and went into overtime, extended to Saturday 21 November.",
+    "rests_on": [["unric", "officially end today"], ["brecorder", "goes into overtime"]],
+    "alt": [["unric", "officially end today"], ["ansa", "prorogata a sabato"]] }
+ ]
+}
