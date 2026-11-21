@@ -1,0 +1,19 @@
+{
+ "_terms": {
+  "https://unric.org/en/cop31-world-climate-conference-set-to-officially-end-today/": {
+   "COP31": true,
+   "officially end today": true
+  },
+  "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime": {
+   "COP31": true,
+   "goes into overtime": true
+  },
+  "https://ansa.it/sito/notizie/topnews/2026/11/20/-cop31-non-chiude-ancora-prorogata-a-sabato-_3f9e5682-66bf-41ad-aa47-db24560e87ec.html": {
+   "Cop31": true,
+   "prorogata a sabato": true
+  }
+ },
+ "https://unric.org/en/cop31-world-climate-conference-set-to-officially-end-today/": "OK",
+ "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime": "OK",
+ "https://ansa.it/sito/notizie/topnews/2026/11/20/-cop31-non-chiude-ancora-prorogata-a-sabato-_3f9e5682-66bf-41ad-aa47-db24560e87ec.html": "REDIRECT"
+}
