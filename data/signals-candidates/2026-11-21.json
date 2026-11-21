@@ -1,0 +1,101 @@
+{
+ "about": "Candidates for Signals from the weekly harvest (tools/signals-harvest.js). Not published and not evidence: each is a lead for a person to review. Set decision to 'propose' to take one into a research batch (its sources are then staged and checked like any other), or 'skip'. The kind is a hint from words in the feed, not a step on the ladder.",
+ "run": {
+  "date": "2026-11-21",
+  "since": "2026-10-22",
+  "days": 30
+ },
+ "searched_places": [
+  "bangladesh",
+  "cambodia",
+  "india",
+  "indonesia",
+  "lao",
+  "malaysia",
+  "myanmar",
+  "nepal",
+  "pakistan",
+  "philippines",
+  "singapore",
+  "sri-lanka",
+  "thailand",
+  "viet-nam",
+  "region"
+ ],
+ "feeds": [
+  {
+   "name": "ReliefWeb: heat wave",
+   "url": "https://reliefweb.int/updates/rss.xml?search=heat%20wave",
+   "status": "OK",
+   "items": 20,
+   "kept": 2
+  },
+  {
+   "name": "PreventionWeb: news",
+   "url": "https://www.preventionweb.net/rss.xml",
+   "status": "OK",
+   "items": 40,
+   "kept": 0
+  },
+  {
+   "name": "UN News: climate change",
+   "url": "https://news.un.org/feed/subscribe/en/news/topic/climate-change/feed/rss.xml",
+   "status": "OK",
+   "items": 30,
+   "kept": 0
+  },
+  {
+   "name": "UN News: Asia Pacific",
+   "url": "https://news.un.org/feed/subscribe/en/news/region/asia-pacific/feed/rss.xml",
+   "status": "OK",
+   "items": 30,
+   "kept": 0
+  },
+  {
+   "name": "WHO: news",
+   "url": "https://www.who.int/rss-feeds/news-english.xml",
+   "status": "OK",
+   "items": 83,
+   "kept": 0
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Vanuatu: Five Schools Designed to Keep Children Learning When Climate Disasters Strike",
+   "url": "https://reliefweb.int/report/vanuatu/five-schools-designed-keep-children-learning-when-climate-disasters-strike",
+   "feed": "ReliefWeb: heat wave",
+   "published": "2026-11-17",
+   "places": [
+    "bangladesh",
+    "myanmar",
+    "nepal",
+    "pakistan"
+   ],
+   "kind_hint": "commitment",
+   "heat_terms": [
+    "extreme heat"
+   ],
+   "summary": "<div class=\"tag country\">Countries: Vanuatu, Bangladesh, Haiti, Myanmar, Nepal, Pakistan</div> <div class=\"tag source\">Source: Save the Children</div> <p><strong>As extreme weather threatens children’s access to education, these projects highlight different ways to make school buildings more resilient and help keep chi",
+   "decision": "pending"
+  },
+  {
+   "title": "World: Crop Monitor for Early Warning | No. 121 – November 5th 2026",
+   "url": "https://reliefweb.int/report/world/crop-monitor-early-warning-no-121-november-5th-2026",
+   "feed": "ReliefWeb: heat wave",
+   "published": "2026-11-06",
+   "places": [
+    "cambodia",
+    "philippines",
+    "thailand",
+    "viet-nam",
+    "region"
+   ],
+   "kind_hint": "unclear",
+   "heat_terms": [
+    "high temperatures"
+   ],
+   "summary": "<div class=\"tag country\">Country: World</div> <div class=\"tag source\">Source: GEOGLAM Crop Monitor</div> <p><img src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png\" alt></p> <p>Please refer to the attached file.</p> <h2>Overview</h2> <p>In nort",
+   "decision": "pending"
+  }
+ ]
+}
