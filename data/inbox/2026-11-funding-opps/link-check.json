@@ -172,11 +172,11 @@
    "climate-poverty": false
   },
   "https://www.adb.org/projects/59391-001/main": {
-   "Extreme Heat": false,
-   "Gender": false,
-   "Technical Assistance": false,
-   "Bangladesh": false,
-   "Thailand": false
+   "Extreme Heat": true,
+   "Gender": true,
+   "Technical Assistance": true,
+   "Bangladesh": true,
+   "Thailand": true
   },
   "https://www.adb.org/work-with-us/consultants": {
    "consult": false,
@@ -204,9 +204,9 @@
    "heatwave": false
   },
   "https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref": {
-   "DREF": false,
-   "National Societies": false,
-   "anticipatory": false
+   "DREF": true,
+   "National Societies": true,
+   "anticipatory": true
   },
   "https://www.unicef.org/innovation/call-for-application-climate-and-health-2026": {
    "climate": true,
@@ -416,11 +416,11 @@
    "closed": false
   },
   "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma-innovation-fund/": {
-   "2026": true,
-   "GSMA": true,
-   "apply": true,
-   "applications": true,
-   "closed": true
+   "2026": false,
+   "GSMA": false,
+   "apply": false,
+   "applications": false,
+   "closed": false
   },
   "https://www.globalinnovation.fund/what-we-do": {
    "2026": true,
@@ -466,7 +466,7 @@
   },
   "https://coolcoalition.org/projects/nature-cooling-challenge": {
    "2026": false,
-   "Nature": false,
+   "Nature": true,
    "apply": false,
    "applications": false,
    "closed": false
@@ -491,6 +491,14 @@
    "apply": true,
    "applications": false,
    "closed": false
+  },
+  "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities": {
+   "Beat the Heat": false,
+   "expression of interest": false,
+   "three cities": false,
+   "Secretariat": false,
+   "heat action": false,
+   "cities": false
   }
  },
  "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/": "OK",
@@ -570,5 +578,6 @@
  "https://coolcoalition.org/projects/nature-cooling-challenge": "BLOCKED",
  "https://open.innovation-challenge.sg/en/challenges/soic-6th-edition/pages/categories?lang=en": "OK",
  "https://10across.org/10xprize/": "OK",
- "https://tomkat.stanford.edu/innovation-transfer": "OK"
+ "https://tomkat.stanford.edu/innovation-transfer": "OK",
+ "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities": "BLOCKED"
 }
