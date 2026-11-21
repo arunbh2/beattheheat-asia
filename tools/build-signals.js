@@ -36,8 +36,11 @@ function render(esc, ctx) {
   const evidence = (s, ev) => {
     const r = SM.evidenceState(ev, s, ctx.CHECKS), x = r.src || {};
     const chk = r.check ? `checked ${e(SM.date(r.check.checked))}${ev.terms ? ` for “${ev.terms.map(e).join("”, “")}”` : ""}` : e(r.why || "");
+    // the checked page's own sentence holding the longest term this evidence rests on (tools/signals-sync.js keeps only prose)
+    const recs = x.url ? SM.sourceCheck(x.url, ctx.CHECKS).content.filter(c => c.passages) : [];
+    const q = (ev.terms || []).slice().sort((a, b) => b.length - a.length).map(t => recs.map(c => c.passages[t]).find(Boolean)).find(Boolean);
     return `<li class="sg-ev sg-ev--${r.state}"><span class="sg-ev__src">${x.url ? ext(x.url, x.label) : e(ev.source)} <span class="sg-tag">${x.type === "original" ? "Original" : "Secondary"}</span></span>
-          <span class="sg-ev__est">${e(ev.establishes)}</span><span class="sg-ev__chk"><span aria-hidden="true">${STATE_MARK[r.state]}</span> ${e(SM.STATE[r.state].short)}: ${chk}</span></li>`;
+          <span class="sg-ev__est">${e(ev.establishes)}</span><span class="sg-ev__chk"><span aria-hidden="true">${STATE_MARK[r.state]}</span> ${e(SM.STATE[r.state].short)}: ${chk}</span>${q ? `<span class="sg-ev__q"><span class="sg-lab">${e(T.PROOF)}</span><q>${e(q)}</q></span>` : ""}</li>`;
   };
   // the steps with evidence (or a scheduled date) as rows; every other step in one plain sentence, so nothing is implied
   const checklist = (s, d) => {
@@ -63,7 +66,8 @@ function render(esc, ctx) {
       const amt = t.amount ? ` <span class="sg-tag">${t.amount.disclosed === false ? "Amount not disclosed" : e(`${t.amount.currency || ""} ${t.amount.value || ""}`.trim())}</span>` : "";
       return `<li id="${e(s.id)}--${e(d.id)}--${e(t.id || t.step + "-" + t.date)}"><p class="sg-ms">${time(t.date)} ${head}${amt}. ${e(t.note)}</p><ul class="sg-evs">${(t.evidence || []).map(x => evidence(s, x)).join("")}</ul></li>`;
     }).join("");
-    return `<div class="sg-rec__d"><h4>${e(d.what)}</h4><ol class="sg-tl">${tl}</ol>
+    const path = SM.timeline(d).filter(t => t.kind === "milestone" && /^\d{4}/.test(t.date || "")).map(t => `${e(SM.STEPS[t.step].label)} ${time(t.date)}${t.scheduled && SM.key(t.date) > SM.key(ctx.today) ? " (scheduled)" : ""}`);
+    return `<div class="sg-rec__d"><h4>${e(d.what)}</h4>${path.length > 1 ? `<p class="sg-path"><span class="sg-lab">${e(T.PATH)}</span>${path.join(' <span aria-hidden="true">→</span> ')}</p>` : ""}<ol class="sg-tl">${tl}</ol>
         ${(d.facts || []).length ? `<p class="sg-lab">Also in the sources</p><ul class="sg-facts">${d.facts.map(f => `<li>${e(f.text)}<ul class="sg-evs">${f.evidence.map(x => evidence(s, x)).join("")}</ul></li>`).join("")}</ul>` : ""}
         ${(d.conflicts || []).length ? `<p class="sg-lab">Sources differ</p><ul>${d.conflicts.map(c => `<li>${e(c.note)} (${c.sources.map(id => e((srcOf(s, id) || {}).label || id)).join("; ")})</li>`).join("")}</ul>` : ""}
         ${d.unknown.length ? `<p class="sg-lab">Not known yet</p><ul class="sg-unk">${d.unknown.map(u => `<li>${e(u)}</li>`).join("")}</ul>` : ""}

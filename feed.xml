@@ -8,6 +8,13 @@
   <updated>2026-11-21T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
   <entry>
+    <title>Signals shows each source's own words, and appears on every country, city and action page</title>
+    <link href="https://beattheheat.asia/growing/#g-signals-sof-connected" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-signals-sof-connected</id>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <summary>Each checked piece of evidence on Signals now shows the sentence the source check found, and each commitment its dated path. Country, city and action pages show what is moving there, and State of the field lets each reader group read for its own question and keeps every open question in one running list.</summary>
+  </entry>
+  <entry>
     <title>Signals opens with what moved, and both briefings can be followed without visiting</title>
     <link href="https://beattheheat.asia/growing/#g-signals-sof-reach" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-signals-sof-reach</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-city-heat-today</id>
     <updated>2026-11-15T00:00:00Z</updated>
     <summary>Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away.</summary>
-  </entry>
-  <entry>
-    <title>Five more Indian cities, Kolkata first</title>
-    <link href="https://beattheheat.asia/growing/#g-cities-batch-a" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-cities-batch-a</id>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary>Kolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar now have city pages: each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it, today's heat-stress estimate and, where the city has no plan of its own, a link to its state's plans.</summary>
   </entry>
 </feed>

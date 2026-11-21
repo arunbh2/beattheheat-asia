@@ -68,9 +68,9 @@ Evidence, history and what is not known
 - 16 November 2026 **Announced**. Backed by governments at the third Cooling Pledge Ministerial, co-chaired by Singapore and UNEP
 
 - [UNEP, 2026: At COP31, governments back action on extreme heat and sustainable cooling](https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling) Original
-UNEP's own account of the ministerial and the roadmap governments backed. original checked: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”
+UNEP's own account of the ministerial and the roadmap governments backed. original checked: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”From the checked pageMeeting at the 3rd Cooling Pledge Ministerial, co-chaired by Singapore and the UN Environment Programme (UNEP), ministers and high-level representatives outlined priorities fo…
 - [Mirage News, 2026: COP31 Governments Back Action on Extreme Heat, Cooling (UNEP release, republished)](https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/) Secondary
-The same UNEP release, republished. reported: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”
+The same UNEP release, republished. reported: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”From the checked pageMeeting at the 3rd Cooling Pledge Ministerial, co-chaired by Singapore and the UN Environment Programme (UNEP), ministers and high-level representatives outlined priorities fo…
 
 Not known yet
 
@@ -84,9 +84,9 @@ What would change this recordThe roadmap's text, and countries in South and Sout
 - 16 November 2026 **Funding announced**. Announced at the ministerial
 
 - [UNEP, 2026: At COP31, governments back action on extreme heat and sustainable cooling](https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling) Original
-UNEP reports the new support and what it is for. original checked: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”
+UNEP reports the new support and what it is for. original checked: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”From the checked page…dmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge.
 - [Mirage News, 2026: COP31 Governments Back Action on Extreme Heat, Cooling (UNEP release, republished)](https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/) Secondary
-The same UNEP release, republished. reported: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”
+The same UNEP release, republished. reported: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”From the checked page…dmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge.
 
 Not known yet
 
@@ -144,9 +144,9 @@ Evidence, history and what is not known
 - 9 November 2026 **Announced**. Launched on Health Day, the first day of COP31
 
 - [World Health Organization: WHO COP31 climate change and health brief, 2026](https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf) Original
-WHO's COP31 brief describes the Antalya Initiative as a voluntary platform launched at COP31. original checked: checked 12 November 2026 for “Antalya Initiative”, “voluntary”
+WHO's COP31 brief describes the Antalya Initiative as a voluntary platform launched at COP31. original checked: checked 12 November 2026 for “Antalya Initiative”, “voluntary”From the checked pageRegional commitments and initiatives reinforce global commitments, and Antalya is an opportunity to activate plans into action, such as through the Antalya Initiative for Health Resilience (AIR).
 - [Health Policy Watch, 2026: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words](https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/) Secondary
-Reports that on the launch day no country had yet announced that it would take part. reported: checked 12 November 2026 for “Antalya Initiative”, “participation”
+Reports that on the launch day no country had yet announced that it would take part. reported: checked 12 November 2026 for “Antalya Initiative”, “participation”From the checked pageBut no countries announced their participation in the initiative as of Monday night.
 
 Not known yet
 
@@ -223,7 +223,7 @@ Evidence, history and what is not known
 - November 2026 **Adopted**. Published by WHO, with the response at Grade 3
 
 - [WHO, 2026: Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies - Strategic Preparedness and Response Plan](https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan) Original
-WHO's plan, its Grade 3 response and its period. original checked: checked 18 November 2026 for “Strategic Preparedness and Response Plan”, “Grade 3”, “October 2026”, “September 2027”
+WHO's plan, its Grade 3 response and its period. original checked: checked 18 November 2026 for “Strategic Preparedness and Response Plan”, “Grade 3”, “October 2026”, “September 2027”From the checked pageIt translates WHO’s Grade 3 response into coordinated action across headquarters, Regional Offices and Country Offices, while supporting nationally led preparedness and response.
 - [WHO: El Niño (emergency situation page)](https://www.who.int/emergencies/situations/el-nino) Original
 WHO names heat among El Niño's health risks. original checked: checked 18 November 2026 for “El Niño”, “heat”
 
@@ -263,7 +263,7 @@ Evidence, history and what is not known
 - 29 October 2026 **Announced**. Launched by the COP31 Presidency ahead of the conference and opened for endorsement
 
 - [COP31 Presidency, 2026: COP31 launches Antalya Compact for Energy Efficient Buildings](https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings) Original
-The COP31 Presidency's own announcement of the Compact for buildings. original checked: checked 15 November 2026 for “Antalya Compact”, “buildings”
+The COP31 Presidency's own announcement of the Compact for buildings. original checked: checked 15 November 2026 for “Antalya Compact”, “buildings”From the checked pageAntalya, Türkiye, 29 October 2026: Today, the COP31 Presidency has launched the Antalya Compact for Energy Efficient Buildings, a new framework to advance two of COP31’s Global Targets for 2035: pursuing a 25% reduction in th…
 - [LexisNexis, 2026: COP31 Presidency launches Antalya Compact for energy efficient buildings](https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings) Secondary
 Reports the Compact and its 2035 aim. reported: checked 15 November 2026 for “Antalya Compact”, “2035”
 
@@ -309,7 +309,7 @@ Evidence, history and what is not known
 - [Daily Tribune, 2026: DOLE issues workplace heat stress guidelines](https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines) Secondary
 Reports the Department of Labor and Employment issuing a labour advisory on heat stress. reported: checked 15 November 2026 for “heat”, “Labor Advisory”
 - [NewsWatch Plus, 2026: DOLE releases advisory on safety protocols during El Niño](https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/) Secondary
-Reports Labor Advisory No. 20, released on 27 October: employers document hazard and risk assessments, follow heat index forecasts, and take steps that rise with four heat index levels, with flexible work arrangements at the danger level and a re-evaluation of tasks at extreme danger. reported: checked 16 November 2026 for “heat index”, “flexible work”, “52”
+Reports Labor Advisory No. 20, released on 27 October: employers document hazard and risk assessments, follow heat index forecasts, and take steps that rise with four heat index levels, with flexible work arrangements at the danger level and a re-evaluation of tasks at extreme danger. reported: checked 16 November 2026 for “heat index”, “flexible work”, “52”From the checked page…–41°C) entails routine rest and the supply of appropriate protective gear; danger level (42°C–51°C) prompts the implementation of flexible work arrangements to limit heat exposure; and extreme danger levels (52°C and higher) necessitate re-evaluation of tasks and possible…
 
 Not known yet
 
@@ -325,9 +325,9 @@ What would change this recordThe advisory text, and workplaces applying it.
 - 24 October 2026 **Adopted**. Guidelines on compensation for heat-related illness issued; the copy read is stamped 23 October 2026
 
 - [Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses](https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses) Secondary
-Reports the Department setting compensation rules for heat-related illness. reported: checked 15 November 2026 for “heat”, “compensation”
+Reports the Department setting compensation rules for heat-related illness. reported: checked 15 November 2026 for “heat”, “compensation”From the checked page19, Series of 2026, on October 23, outlining guidelines for the prevention, documentation and reporting of occupational heat-related illnesses, as well as the filing and evaluation of employees' compensation claims.
 - [SunStar Cebu, 2026: workers who fall ill from heat amid El Niño may qualify for benefits](https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits) Secondary
-Reports that heat stroke, heat cramps and heat exhaustion remain compensable under the Employees’ Compensation Program, and that other heat-related illnesses, including heat syncope and rhabdomyolysis, may also qualify where the link to work is shown. reported: checked 16 November 2026 for “rhabdomyolysis”, “syncope”, “Employees' Compensation”
+Reports that heat stroke, heat cramps and heat exhaustion remain compensable under the Employees’ Compensation Program, and that other heat-related illnesses, including heat syncope and rhabdomyolysis, may also qualify where the link to work is shown. reported: checked 16 November 2026 for “rhabdomyolysis”, “syncope”, “Employees' Compensation”From the checked pageOther heat-related illnesses may also qualify, including heat syncope (fainting and dizziness), heat rash (bungang araw), rhabdomyolysis (muscle damage), neurological disorders that affect normal nervous system function and dehydration that leads to kidney injury.
 
 Not known yet
 

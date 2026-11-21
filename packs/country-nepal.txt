@@ -542,5 +542,11 @@ Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) ·
 
 **Who is already working here.** Organisations whose listed heat work is in Nepal, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=NP)
 
+## What is moving here
+
+No development in Nepal is tracked on Signals yet. This describes the records kept here, not what is happening in Nepal.
+
+[20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+
 ---
 Human edition: https://beattheheat.asia/countries/nepal/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

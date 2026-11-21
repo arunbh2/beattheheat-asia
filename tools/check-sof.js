@@ -98,5 +98,11 @@ refuse(x => { x.developments.push(x.developments[0], x.developments[0]); }, /at 
 { const x = JSON.parse(JSON.stringify(base)); x.revisions.push({ date: "2027-01-01", kind: "revision", note: "n" }); ok(M.hash(x) === M.hash(base), "fixture: the revision log alone does not change the hash"); }
 ok(require("./build-sof.js").staleNote({ period: { from: "2026-10-01", to: "2026-10-31" } }, "2027-01-02") !== "" && require("./build-sof.js").staleNote({ period: { from: "2026-10-01", to: "2026-10-31" } }, "2026-11-20") === "", "fixture: an edition reads as not this month's news once the following month has ended");
 
+// reach and continuity: the question ledger lists every question asked; the role lens carries valid data; no published
+// edition carries the editor's month on the ladder
+{ const W = fs.readFileSync(path.join(ROOT, "whats-new/index.html"), "utf8"), PUB = require("./sof-model.js").published();
+  PUB.filter(e => e.question).forEach(e => ok(W.includes(e.question.q.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").slice(0, 40)), `questions so far: lists the ${e.id} question`));
+  const m = W.match(/<script type="application\/json" data-sof-lensdata>([\s\S]*?)<\/script>/); ok(m && (() => { try { return Object.values(JSON.parse(m[1])).every(r => r.q && r.go.length); } catch (x) { return false; } })(), "read it as: lens data parses, each role has a question and links");
+  PUB.forEach(e => ok(!e.from_signals, `${e.id}: a published edition does not carry the editor's month on the ladder`)); }
 if (fails.length) { console.log(fails.map(f => "  FAIL " + f).join("\n")); process.exit(1); }
 console.log(`State of the field check passed: ${pub.length} published, ${drafts.length} draft; ledger, corrections, dates, sources, briefing, links and draft separation; fixtures refuse what the rules forbid`);

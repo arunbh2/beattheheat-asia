@@ -42,9 +42,9 @@ Evidence, history and what is not known
 - 16 November 2026 **Announced**. Backed by governments at the third Cooling Pledge Ministerial, co-chaired by Singapore and UNEP
 
 - [UNEP, 2026: At COP31, governments back action on extreme heat and sustainable cooling](https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling) Original
-UNEP's own account of the ministerial and the roadmap governments backed. original checked: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”
+UNEP's own account of the ministerial and the roadmap governments backed. original checked: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”From the checked pageMeeting at the 3rd Cooling Pledge Ministerial, co-chaired by Singapore and the UN Environment Programme (UNEP), ministers and high-level representatives outlined priorities fo…
 - [Mirage News, 2026: COP31 Governments Back Action on Extreme Heat, Cooling (UNEP release, republished)](https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/) Secondary
-The same UNEP release, republished. reported: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”
+The same UNEP release, republished. reported: checked 18 November 2026 for “Ministerial”, “Singapore”, “voluntary”, “Roadmap”From the checked pageMeeting at the 3rd Cooling Pledge Ministerial, co-chaired by Singapore and the UN Environment Programme (UNEP), ministers and high-level representatives outlined priorities fo…
 
 Not known yet
 
@@ -58,9 +58,9 @@ What would change this recordThe roadmap's text, and countries in South and Sout
 - 16 November 2026 **Funding announced**. Announced at the ministerial
 
 - [UNEP, 2026: At COP31, governments back action on extreme heat and sustainable cooling](https://www.unep.org/en/news-and-stories/press-release/cop31-governments-back-action-extreme-heat-and-sustainable-cooling) Original
-UNEP reports the new support and what it is for. original checked: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”
+UNEP reports the new support and what it is for. original checked: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”From the checked page…dmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge.
 - [Mirage News, 2026: COP31 Governments Back Action on Extreme Heat, Cooling (UNEP release, republished)](https://www.miragenews.com/cop31-governments-back-action-on-extreme-heat-1778856/) Secondary
-The same UNEP release, republished. reported: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”
+The same UNEP release, republished. reported: checked 18 November 2026 for “20 million”, “Cool Coalition”, “Global Cooling Pledge”From the checked page…dmap Over US$ 20 million in new support announced to accelerate sustainable cooling, strengthen heat resilience and implement the Global Cooling Pledge.
 
 Not known yet
 
@@ -118,9 +118,9 @@ Evidence, history and what is not known
 - 9 November 2026 **Announced**. Launched on Health Day, the first day of COP31
 
 - [World Health Organization: WHO COP31 climate change and health brief, 2026](https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf) Original
-WHO's COP31 brief describes the Antalya Initiative as a voluntary platform launched at COP31. original checked: checked 12 November 2026 for “Antalya Initiative”, “voluntary”
+WHO's COP31 brief describes the Antalya Initiative as a voluntary platform launched at COP31. original checked: checked 12 November 2026 for “Antalya Initiative”, “voluntary”From the checked pageRegional commitments and initiatives reinforce global commitments, and Antalya is an opportunity to activate plans into action, such as through the Antalya Initiative for Health Resilience (AIR).
 - [Health Policy Watch, 2026: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words](https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/) Secondary
-Reports that on the launch day no country had yet announced that it would take part. reported: checked 12 November 2026 for “Antalya Initiative”, “participation”
+Reports that on the launch day no country had yet announced that it would take part. reported: checked 12 November 2026 for “Antalya Initiative”, “participation”From the checked pageBut no countries announced their participation in the initiative as of Monday night.
 
 Not known yet
 
@@ -197,7 +197,7 @@ Evidence, history and what is not known
 - November 2026 **Adopted**. Published by WHO, with the response at Grade 3
 
 - [WHO, 2026: Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies - Strategic Preparedness and Response Plan](https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan) Original
-WHO's plan, its Grade 3 response and its period. original checked: checked 18 November 2026 for “Strategic Preparedness and Response Plan”, “Grade 3”, “October 2026”, “September 2027”
+WHO's plan, its Grade 3 response and its period. original checked: checked 18 November 2026 for “Strategic Preparedness and Response Plan”, “Grade 3”, “October 2026”, “September 2027”From the checked pageIt translates WHO’s Grade 3 response into coordinated action across headquarters, Regional Offices and Country Offices, while supporting nationally led preparedness and response.
 - [WHO: El Niño (emergency situation page)](https://www.who.int/emergencies/situations/el-nino) Original
 WHO names heat among El Niño's health risks. original checked: checked 18 November 2026 for “El Niño”, “heat”
 
@@ -237,7 +237,7 @@ Evidence, history and what is not known
 - 29 October 2026 **Announced**. Launched by the COP31 Presidency ahead of the conference and opened for endorsement
 
 - [COP31 Presidency, 2026: COP31 launches Antalya Compact for Energy Efficient Buildings](https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings) Original
-The COP31 Presidency's own announcement of the Compact for buildings. original checked: checked 15 November 2026 for “Antalya Compact”, “buildings”
+The COP31 Presidency's own announcement of the Compact for buildings. original checked: checked 15 November 2026 for “Antalya Compact”, “buildings”From the checked pageAntalya, Türkiye, 29 October 2026: Today, the COP31 Presidency has launched the Antalya Compact for Energy Efficient Buildings, a new framework to advance two of COP31’s Global Targets for 2035: pursuing a 25% reduction in th…
 - [LexisNexis, 2026: COP31 Presidency launches Antalya Compact for energy efficient buildings](https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings) Secondary
 Reports the Compact and its 2035 aim. reported: checked 15 November 2026 for “Antalya Compact”, “2035”
 
@@ -283,7 +283,7 @@ Evidence, history and what is not known
 - [Daily Tribune, 2026: DOLE issues workplace heat stress guidelines](https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines) Secondary
 Reports the Department of Labor and Employment issuing a labour advisory on heat stress. reported: checked 15 November 2026 for “heat”, “Labor Advisory”
 - [NewsWatch Plus, 2026: DOLE releases advisory on safety protocols during El Niño](https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/) Secondary
-Reports Labor Advisory No. 20, released on 27 October: employers document hazard and risk assessments, follow heat index forecasts, and take steps that rise with four heat index levels, with flexible work arrangements at the danger level and a re-evaluation of tasks at extreme danger. reported: checked 16 November 2026 for “heat index”, “flexible work”, “52”
+Reports Labor Advisory No. 20, released on 27 October: employers document hazard and risk assessments, follow heat index forecasts, and take steps that rise with four heat index levels, with flexible work arrangements at the danger level and a re-evaluation of tasks at extreme danger. reported: checked 16 November 2026 for “heat index”, “flexible work”, “52”From the checked page…–41°C) entails routine rest and the supply of appropriate protective gear; danger level (42°C–51°C) prompts the implementation of flexible work arrangements to limit heat exposure; and extreme danger levels (52°C and higher) necessitate re-evaluation of tasks and possible…
 
 Not known yet
 
@@ -299,9 +299,9 @@ What would change this recordThe advisory text, and workplaces applying it.
 - 24 October 2026 **Adopted**. Guidelines on compensation for heat-related illness issued; the copy read is stamped 23 October 2026
 
 - [Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses](https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses) Secondary
-Reports the Department setting compensation rules for heat-related illness. reported: checked 15 November 2026 for “heat”, “compensation”
+Reports the Department setting compensation rules for heat-related illness. reported: checked 15 November 2026 for “heat”, “compensation”From the checked page19, Series of 2026, on October 23, outlining guidelines for the prevention, documentation and reporting of occupational heat-related illnesses, as well as the filing and evaluation of employees' compensation claims.
 - [SunStar Cebu, 2026: workers who fall ill from heat amid El Niño may qualify for benefits](https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits) Secondary
-Reports that heat stroke, heat cramps and heat exhaustion remain compensable under the Employees’ Compensation Program, and that other heat-related illnesses, including heat syncope and rhabdomyolysis, may also qualify where the link to work is shown. reported: checked 16 November 2026 for “rhabdomyolysis”, “syncope”, “Employees' Compensation”
+Reports that heat stroke, heat cramps and heat exhaustion remain compensable under the Employees’ Compensation Program, and that other heat-related illnesses, including heat syncope and rhabdomyolysis, may also qualify where the link to work is shown. reported: checked 16 November 2026 for “rhabdomyolysis”, “syncope”, “Employees' Compensation”From the checked pageOther heat-related illnesses may also qualify, including heat syncope (fainting and dizziness), heat rash (bungang araw), rhabdomyolysis (muscle damage), neurological disorders that affect normal nervous system function and dehydration that leads to kidney injury.
 
 Not known yet
 
@@ -339,7 +339,7 @@ Evidence, history and what is not known
 - 8 October 2026 **Funding announced** Amount not disclosed. Funding announced; amount not disclosed
 
 - [Philanthropy Asia Alliance, via Eco-Business, 2026](https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/) Original
-The Philanthropy Asia Alliance announcement names support for the Hub, with work in Indonesia and Thailand. original checked: checked 7 November 2026 for “Philanthropy Asia Alliance”, “Hub”, “Indonesia”, “Thailand”
+The Philanthropy Asia Alliance announcement names support for the Hub, with work in Indonesia and Thailand. original checked: checked 7 November 2026 for “Philanthropy Asia Alliance”, “Hub”, “Indonesia”, “Thailand”From the checked page8, 2026 Singapore, 8 October 2026 The Philanthropy Asia Alliance (PAA) today announced its support for the next stage of the Global Heat Health Information Network (GHHIN) Southeast Asia Hub at the Global Heat Forum in Bangkok.
 
 Not known yet
 
@@ -446,17 +446,19 @@ Evidence, history and what is not known
 
 #### Mandatory heat stress measures for outdoor work, including drinking water
 
+Dated path, as far as the evidence showsAdopted 28 August 2026 Takes effect 1 December 2026 (scheduled)
+
 - 28 August 2026 **Adopted**. Enhancements to the heat stress framework announced
 
 - [Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)](https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework) Original
-The Ministry of Manpower announced the enhancements on 28 August 2026. original checked: checked 7 November 2026 for “28 August 2026”
+The Ministry of Manpower announced the enhancements on 28 August 2026. original checked: checked 7 November 2026 for “28 August 2026”From the checked pageANNEX Share this page Share this page on facebook Tweet this page Email this page Print this page Last Updated: 28 August 2026 Information and Services Ministry of Manpower Social media About us Careers Contact us Feedback Share your views @ Reach Ministry…
 - [Rajah & Tann Asia, 2026: Heat stress management framework to be enhanced from 1 December 2026](https://www.rajahtannasia.com/viewpoints/heat-stress-management-framework-to-be-enhanced-from-1-december-2026/) Secondary
-A legal update describing the measures, including drinking water, from 1 December 2026. reported: checked 15 November 2026 for “1 December 2026”, “drinking water”
+A legal update describing the measures, including drinking water, from 1 December 2026. reported: checked 15 November 2026 for “1 December 2026”, “drinking water”From the checked pageThe enhanced Framework will take effect on 1 December 2026, giving employers time to review their workplace practices and put the necessary measures into place.
 
 - 1 December 2026 **Takes effect** Scheduled, not yet reached. The measures become mandatory; this date alone does not show compliance
 
 - [Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)](https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework) Original
-States that the measures take effect on 1 December 2026. original checked: checked 15 November 2026 for “1 December 2026”
+States that the measures take effect on 1 December 2026. original checked: checked 15 November 2026 for “1 December 2026”From the checked pageI encourage employers to use the next three months to review their workplace practices and put the necessary measures in place before the enhancements take effect on 1 December 2026.
 
 Not known yet
 
@@ -574,13 +576,13 @@ Evidence, history and what is not known
 - 12 July 2026 **Delivered**. First emergency heatwave warning issued under the new system
 
 - [The Jakarta Post, 2026: South Korea issues first emergency heatwave warning under new rating system](https://thejakartapost.com/world/2026/07/12/south-korea-issues-first-emergency-heatwave-warning-under-new-rating-system) Secondary
-Reports the first emergency heatwave warning. reported: checked 15 November 2026 for “emergency”, “38”
+Reports the first emergency heatwave warning. reported: checked 15 November 2026 for “emergency”, “38”From the checked pageView all search results World Asia & Pacific South Korea issues first emergency heatwave warning under new rating system Kang Jin-kyu (AFP) Seoul Sun, July 12, 2026 Published on Jul.
 
 Also in the sources
 
 - Workplaces added longer lunches and more breaks.
 - [The Star, 2026: Longer lunches, more breaks as Korea's workplaces battle heat](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/07/longer-lunches-more-breaks-as-koreas-workplaces-battle-heat) Secondary
-Reports longer lunches and more breaks at work. reported: checked 15 November 2026 for “break”, “heat”
+Reports longer lunches and more breaks at work. reported: checked 15 November 2026 for “break”, “heat”From the checked pageHyundai Engineering & Construction rewards workers for taking breaks in designated rest areas, while Lotte E&C uses an Internet of Things-based monitoring system at about 80 construction sites to measure perceived temperatures every five minutes and classify heat risks into five levels.
 
 Not known yet
 
@@ -655,7 +657,7 @@ Evidence, history and what is not known
 - [UNFPA Bangladesh, 2026: adoption of the Health National Adaptation Plan](https://bangladesh.un.org/en/313192-unfpa-welcomes-bangladesh%E2%80%99s-adoption-health-national-adaptation-plan-safeguard-health) Secondary
 Reports the plan's adoption. not verified: the page opened in a link check; its content was not checked for this
 - [Government of Bangladesh: Health National Adaptation Plan 2026](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf) Original
-The published plan document from the Government of Bangladesh, with its costing and financing strategies. original checked: checked 9 November 2026 for “HNAP Financing Strategies”, “Costing of HNAP”
+The published plan document from the Government of Bangladesh, with its costing and financing strategies. original checked: checked 9 November 2026 for “HNAP Financing Strategies”, “Costing of HNAP”From the checked page…of trained workforces Early Response capacity Disease decreased (mortality, morbidity) Increased number of treated patients 5.7​ HNAP Financing Strategies The HNAP implementation process will strengthen the climate-inclusive public financial management (PFM) system through an updated…
 
 Not known yet
 
@@ -702,7 +704,7 @@ Evidence, history and what is not known
 - March 2026 **Adopted**. The office is set up
 
 - [Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026](https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/) Original
-The Ministry's speech announces the office and its role. original checked: checked 7 November 2026 for “Heat Resilience Policy Office”, “coordinate action, oversee research”
+The Ministry's speech announces the office and its role. original checked: checked 7 November 2026 for “Heat Resilience Policy Office”, “coordinate action, oversee research”From the checked pageWe will do so in three main ways: coordinate action, oversee research, and represent us internationally.
 
 Not known yet
 
@@ -715,7 +717,7 @@ What would change this recordThe office's first published work.
 - March 2026 **Funding announced**. S$40 million research initiative announced
 
 - [Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026](https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/) Original
-The Ministry's speech announces the initiative and its amount. original checked: checked 7 November 2026 for “Adapting to Heat Impacts”, “$40 million”
+The Ministry's speech announces the initiative and its amount. original checked: checked 7 November 2026 for “Adapting to Heat Impacts”, “$40 million”From the checked pageAs part of this programme, we will launch a $40 million “Adapting to Heat Impacts” Funding Initiative, which will step up research in emerging areas such as heat impact and community heat resilience.
 
 Not known yet
 
@@ -729,7 +731,7 @@ What would change this recordAwards made under the initiative.
 - March 2026 **Announced**. Named as work for the new office
 
 - [Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026](https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/) Original
-The speech names the Heat Resilience Action Plan as work for the office. original checked: checked 7 November 2026 for “Heat Resilience Action Plan”
+The speech names the Heat Resilience Action Plan as work for the office. original checked: checked 7 November 2026 for “Heat Resilience Action Plan”From the checked pageThe Office will develop a Heat Resilience Action Plan across the infrastructure, health, economic and social sectors.
 
 Not known yet
 
@@ -784,7 +786,7 @@ Evidence, history and what is not known
 - 20 February 2026 **Funding announced** Amount not disclosed. Funding announced; amounts not disclosed
 
 - [WMO, 2026: new initiatives launched to address extreme heat in South Asia](https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia) Secondary
-WMO reports the desk among new initiatives on extreme heat in South Asia. reported: checked 31 October 2026 for “South Asia”, “heat”
+WMO reports the desk among new initiatives on extreme heat in South Asia. reported: checked 31 October 2026 for “South Asia”, “heat”From the checked page…Climate and Health Joint Programme, The Rockefeller Foundation, and Wellcome announced two new integrated initiatives to protect South Asians from extreme heat – a rapidly escalating threat to human health and economic stability in the subcontinent.
 
 Not known yet
 
@@ -798,7 +800,7 @@ What would change this recordTailored heat-risk thresholds published for use in 
 - 20 February 2026 **Funding announced** Amount not disclosed. Funding announced; amounts not disclosed
 
 - [WMO, 2026: new initiatives launched to address extreme heat in South Asia](https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia) Secondary
-WMO reports the consortium among the same initiatives. reported: checked 31 October 2026 for “South Asia”, “heat”
+WMO reports the consortium among the same initiatives. reported: checked 31 October 2026 for “South Asia”, “heat”From the checked page…Climate and Health Joint Programme, The Rockefeller Foundation, and Wellcome announced two new integrated initiatives to protect South Asians from extreme heat – a rapidly escalating threat to human health and economic stability in the subcontinent.
 
 Not known yet
 
@@ -954,7 +956,7 @@ Evidence, history and what is not known
 - 2026 **Announced**. Set out in the presidency's action agenda, without a numerical target
 
 - [World Health Organization: WHO COP31 climate change and health brief, 2026](https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf) Original
-WHO's COP31 brief names the theme in the presidency's action agenda. original checked: checked 12 November 2026 for “Dynamic and Resilient Health Systems”
+WHO's COP31 brief names the theme in the presidency's action agenda. original checked: checked 12 November 2026 for “Dynamic and Resilient Health Systems”From the checked pageTheme 8, Dynamic and Resilient Health Systems, prioritises climate-resilient and equitable health systems that can anticipate, respond to and recover from climate-related shocks, through preparedness, surveillance, resilient health infrastructure and equitable access to care.
 
 Not known yet
 
@@ -1008,6 +1010,8 @@ Evidence, history and what is not known
 
 #### Pilots of the Extreme Heat Risk Governance Framework and Toolkit in Barbados, Senegal and Cambodia
 
+Dated path, as far as the evidence showsFunding announced 2026 Partly delivered 2026
+
 - 2026 **Funding announced**. Pilots supported by the CREWS initiative
 
 - [World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance](https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance) Original
@@ -1016,7 +1020,7 @@ The record states support from the Climate Risk and Early Warning Systems (CREWS
 - 2026 **Partly delivered**. Being piloted in 2026 in three countries
 
 - [World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance](https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance) Original
-WMO reports the framework being piloted in 2026 in Barbados, Senegal and Cambodia. original checked: checked 12 November 2026 for “Cambodia”, “Barbados”, “Senegal”
+WMO reports the framework being piloted in 2026 in Barbados, Senegal and Cambodia. original checked: checked 12 November 2026 for “Cambodia”, “Barbados”, “Senegal”From the checked pagePilots in 2026: Barbados, Senegal, and Cambodia In 2026, the Framework and Toolkit will be piloted in Barbados, Senegal, and Cambodia, with financial support from the Climate Ri…
 
 Not known yet
 
@@ -1050,6 +1054,8 @@ Evidence, history and what is not known
 
 #### The Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)
 
+Dated path, as far as the evidence showsAnnounced 2026 Adopted 2026
+
 - 2026 **Announced**. Reported as being established within the planned State Institute of Disaster Management
 
 - [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf) Secondary
@@ -1058,7 +1064,7 @@ Reports the centre and where it is to sit. reported: checked 18 November 2026 fo
 - 2026 **Adopted**. Described on the state disaster management authority's site, hosted within the Relief and Rehabilitation Department
 
 - [Maharashtra State Disaster Management Authority: About CEHSC](https://sdma.maharashtra.gov.in/en/about/) Original
-The authority's own page for the centre and its host department. original checked: checked 18 November 2026 for “CEHSC”, “Centre of Excellence”, “Relief and Rehabilitation”, “Cooling”
+The authority's own page for the centre and its host department. original checked: checked 18 November 2026 for “CEHSC”, “Centre of Excellence”, “Relief and Rehabilitation”, “Cooling”From the checked page…or Heat Resilience and Sustainable Cooling (CEHSC) is an initiative of the Government of Maharashtra, currently hosted within the Relief and Rehabilitation Department, Government of Maharashtra, and being developed with technical support from the Natural Resources Defense Council (NRD…
 
 Not known yet
 
@@ -1112,7 +1118,7 @@ Evidence, history and what is not known
 - November 2025 **Announced**. Announced by the Government of Tamil Nadu with the UK Government
 
 - [Tamil Nadu Green Climate Company: Center for Heat Resilience](https://tngcc.tn.gov.in/project/center-for-heat-resillence/) Original
-The state climate company's own page for the centre, its partners, its role and its programme dates. original checked: checked 18 November 2026 for “Heat Resilience”, “British High Commission”, “nodal”, “heat action”, “September 2026”
+The state climate company's own page for the centre, its partners, its role and its programme dates. original checked: checked 18 November 2026 for “Heat Resilience”, “British High Commission”, “nodal”, “heat action”, “September 2026”From the checked pageStart Date: 2025 The Government of Tamil Nadu, in partnership with the UK Government, has launched a Heat Resilience Centre to strengthen the State’s capacity to address rising extreme heat risks.
 - [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and practice landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf) Secondary
 Dates the announcement to November 2025, with the UK Government. reported: checked 18 November 2026 for “In November 2025”, “Heat Resilience Centre”, “Government of the United Kingdom”
 
@@ -1156,9 +1162,9 @@ Evidence, history and what is not known
 - 22 September 2025 **Adopted**. Approved by the city corporation; published in 2026
 
 - [Narayanganj City Corporation: Heat Action Plan, 2025](https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf) Original
-The plan itself, which gives each short-term action a tentative cost and names potential funding sources. original checked: checked 9 November 2026 for “Narayanganj”, “budget”
+The plan itself, which gives each short-term action a tentative cost and names potential funding sources. original checked: checked 9 November 2026 for “Narayanganj”, “budget”From the checked page(WHO) Heat Action Plan (HAP), Narayanganj City Corporation 9 Term Definition Heat Alert/ Warning A heat warning, as defined by Environment Canada, means daytime and nighttime temperatures or humidex values are expected to be higher than the average high temperature for 2 or more days in a row.
 - [Prothom Alo, 2026: Bangladesh's first urban heatwave action plan](https://en.prothomalo.com/environment/climate-change/qq8g2g85o8) Secondary
-Reports it as Bangladesh's first urban heatwave action plan. reported: checked 31 October 2026 for “Narayanganj”, “heat”
+Reports it as Bangladesh's first urban heatwave action plan. reported: checked 31 October 2026 for “Narayanganj”, “heat”From the checked pageThe country’s first urban heatwave action plan has been developed for Narayanganj.
 
 Not known yet
 
@@ -1171,7 +1177,7 @@ What would change this recordBudget lines for its actions, from the city or its 
 - 22 September 2025 **Announced**. Proposed in the approved plan
 
 - [Narayanganj City Corporation: Heat Action Plan, 2025](https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf) Original
-The plan proposes cooling centres in accessible public buildings. original checked: checked 9 November 2026 for “Narayanganj”
+The plan proposes cooling centres in accessible public buildings. original checked: checked 9 November 2026 for “Narayanganj”From the checked page(WHO) Heat Action Plan (HAP), Narayanganj City Corporation 9 Term Definition Heat Alert/ Warning A heat warning, as defined by Environment Canada, means daytime and nighttime temperatures or humidex values are expected to be higher than the average high temperature for 2 or more days in a row.
 
 Not known yet
 
@@ -1208,7 +1214,7 @@ Evidence, history and what is not known
 - 2025 **Adopted**. Adopted at CMA 7, under the Global Goal on Adaptation
 
 - [UNFCCC: Global Goal on Adaptation](https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga) Original
-UNFCCC's Global Goal on Adaptation page describes the indicators adopted at CMA 7. original checked: checked 9 November 2026 for “Global Goal on Adaptation”, “indicators”
+UNFCCC's Global Goal on Adaptation page describes the indicators adopted at CMA 7. original checked: checked 9 November 2026 for “Global Goal on Adaptation”, “indicators”From the checked pageTopics Adaptation and resilience Workstreams Global goal on adaptation Overview Decisions and conclusions Workshops & Events Reports and publications Article 7 of the 2015 Paris Agreement established…
 
 Not known yet
 

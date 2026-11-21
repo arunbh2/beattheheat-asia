@@ -52,6 +52,8 @@ Sources: [UNEP, reported by IISD: Kigali Amendment enters into force](https://sd
 
 [See it on the map](https://beattheheat.asia/#break-cleancool) · [Who works on this](https://beattheheat.asia/heat-network/?action=cleancool)
 
+Moving now [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026) (Funded, original checked, 16 November 2026); [The Antalya Compact for Energy Efficient Buildings opens for endorsement](https://beattheheat.asia/signals/#sig-cop31-antalya-compact-2026) (Announced, original checked, 29 October 2026) · [All 3 on Signals](https://beattheheat.asia/signals/?lever=cleancool)
+
 ## Keep water in the soil
 
 Mulching, agroforestry, water harvesting and restoring degraded land help soils hold moisture and stay cooler.
@@ -112,6 +114,8 @@ Sources: [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and
 
 [See it on the map](https://beattheheat.asia/#break-coolbydesign) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolbydesign)
 
+Moving now [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026) (Funded, original checked, 16 November 2026); [The Antalya Compact for Energy Efficient Buildings opens for endorsement](https://beattheheat.asia/signals/#sig-cop31-antalya-compact-2026) (Announced, original checked, 29 October 2026) · [All 3 on Signals](https://beattheheat.asia/signals/?lever=coolbydesign)
+
 ## Green, cool cities
 
 Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.
@@ -133,6 +137,8 @@ Sources: [Cooling Singapore: digital urban climate twin](https://www.thegpsc.org
 - [Climate Considerations in City Plans, a study of 20 master plans: green cover is widely planned, but heat islands are seldom studied through microclimate analysis, and vulnerability mapping often does not directly inform the plans](https://niua.in/publication-details/Climate_Considerations_in_City_Plans:_A_Study_of_20_Global_and_Indian_Cities) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2024
 
 [See it on the map](https://beattheheat.asia/#break-greencity) · [Who works on this](https://beattheheat.asia/heat-network/?action=greencity)
+
+Moving now [World Bank: extreme heat already costs jobs and growth in South Asia's cities](https://beattheheat.asia/signals/#sig-world-bank-livable-future-2026) (Finding, 29 July 2026)
 
 ## Keep city trees alive
 
@@ -260,6 +266,8 @@ Sources: [Scientific Reports, 2025: widespread heat stress will become the norm 
 
 [See it on the map](https://beattheheat.asia/#break-hap) · [Who works on this](https://beattheheat.asia/heat-network/?action=hap)
 
+Moving now [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026) (Funded, original checked, 16 November 2026); [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026) · [All 20 on Signals](https://beattheheat.asia/signals/?lever=hap)
+
 ## Heat-ready health services
 
 Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.
@@ -279,6 +287,8 @@ Sources: [Thomson Reuters Foundation, via Eco-Business: Brahmaputra boat clinic 
 - [India in a Warming World: Strengthening Heat-Health Action](https://www.ceew.in/publications/india-heat-health-action) Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026
 
 [See it on the map](https://beattheheat.asia/#break-readyclinics) · [Who works on this](https://beattheheat.asia/heat-network/?action=readyclinics)
+
+Moving now [The Antalya Initiative for Health Resilience (AIR) launches on Health Day](https://beattheheat.asia/signals/#sig-cop31-air-2026) (Announced, original checked, 9 November 2026); [WHO responds to El Niño's health risks at Grade 3](https://beattheheat.asia/signals/#sig-who-el-nino-response-2026) (Adopted, original checked, November 2026) · [All 6 on Signals](https://beattheheat.asia/signals/?lever=readyclinics)
 
 ## Heat-safe work
 
@@ -305,6 +315,8 @@ Illustrative drawing of the watch-out above: an outdoor cleaner sweeping in the 
 - [Code of practice on safety and health in textiles, clothing, leather and footwear](https://www.ilo.org/resource/other/code-practice-safety-and-health-textiles-clothing-leather-and-footwear) International Labour Organization, 2022
 
 [See it on the map](https://beattheheat.asia/#break-heatrules) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatrules)
+
+Moving now [The Philippines issues guidelines on heat stress at work and on compensation for heat illness](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026) (Adopted, reported, 27 October 2026); [Singapore makes heat stress measures mandatory for outdoor work from 1 December 2026](https://beattheheat.asia/signals/#sig-singapore-mandatory-heat-measures-2026) (Adopted, original checked, 28 August 2026) · [All 4 on Signals](https://beattheheat.asia/signals/?lever=heatrules)
 
 ## Income protection in heatwaves
 
@@ -334,6 +346,8 @@ Sources: [CGAP, 2026: Confronting the climate and health nexus: lessons from SEW
 
 [See it on the map](https://beattheheat.asia/#break-heatcash) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatcash)
 
+Moving now [The Philippines issues guidelines on heat stress at work and on compensation for heat illness](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026) (Adopted, reported, 27 October 2026); [Nearly all outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems](https://beattheheat.asia/signals/#sig-viet-nam-outdoor-workers-2026) (Finding, June 2026)
+
 ## Social protection floors
 
 Basic income security that keeps households above the line between one hot season and the next.
@@ -351,6 +365,8 @@ Sources: [Anticipation Hub: shock-responsive social protection simulation for an
 - [Addressing the impacts of extreme heat through social protection](https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection) International Labour Organization
 
 [See it on the map](https://beattheheat.asia/#break-socialprotection) · [Who works on this](https://beattheheat.asia/heat-network/?action=socialprotection)
+
+Moving now [Only 35% of countries report health early warning systems for heat-related illness](https://beattheheat.asia/signals/#sig-ifrc-heat-warnings-2026) (Finding, October 2026); [Nearly all outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems](https://beattheheat.asia/signals/#sig-viet-nam-outdoor-workers-2026) (Finding, June 2026)
 
 ## Free care for heat illness
 
@@ -447,6 +463,8 @@ Cuts the link: Sleepless hot nights → Mental health suffers. How soon it works
 
 [See it on the map](https://beattheheat.asia/#break-coolnights) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolnights)
 
+Moving now [South Korea issues its first emergency heatwave warning under a new rating system](https://beattheheat.asia/signals/#sig-korea-heat-emergency-warning-2026) (Delivered, reported, 12 July 2026)
+
 ## Count every heat death
 
 Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible.
@@ -466,6 +484,8 @@ Sources: [WHO, 2026: climate change country profile, Timor-Leste](https://cdn.wh
 - [Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
 [See it on the map](https://beattheheat.asia/#break-countdeaths) · [Who works on this](https://beattheheat.asia/heat-network/?action=countdeaths)
+
+Moving now [The presidency's health theme: Dynamic and Resilient Health Systems](https://beattheheat.asia/signals/#sig-cop31-health-theme-2026) (Announced, original checked, 2026); [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025) (Adopted, original checked, 2025)
 
 ## Cooling centres and check-ins
 
@@ -496,6 +516,8 @@ Sources: [UNDP and Bangkok Metropolitan Administration: Bangkok's financing stra
 
 [See it on the map](https://beattheheat.asia/#break-coolingcentres) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolingcentres)
 
+Moving now [Bangkok's heat plan opens 304 cooling centres](https://beattheheat.asia/signals/#sig-bangkok-heat-plan-2026) (Delivered, original checked, 2026); [Bangladesh's first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/signals/#sig-narayanganj-hap) (Adopted, original checked, 22 September 2025)
+
 ## Dedicated heat budgets
 
 Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.
@@ -516,6 +538,8 @@ Sources: [CEEW, Nepal in a Warming World, 2025](https://www.ceew.in/publications
 
 [See it on the map](https://beattheheat.asia/#break-heatbudget) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatbudget)
 
+Moving now [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026); [India adds heatwaves to its notified natural calamities](https://beattheheat.asia/signals/#sig-india-heatwave-calamity-2026) (Adopted, not verified, August 2026) · [All 7 on Signals](https://beattheheat.asia/signals/?lever=heatbudget)
+
 ## Anticipatory action
 
 Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.
@@ -535,6 +559,8 @@ Sources: [Red Cross Red Crescent Climate Centre, 2024](https://www.climatecentre
 - [Thriving in a Warming World: climate intelligence for extreme heat](https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf) Council on Energy, Environment and Water (CEEW), 2026
 
 [See it on the map](https://beattheheat.asia/#break-anticipatory) · [Who works on this](https://beattheheat.asia/heat-network/?action=anticipatory)
+
+Moving now [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026); [El Niño set to bring more heat into 2027](https://beattheheat.asia/signals/#sig-el-nino-2026-2027) (Finding, 9 November 2026) · [All 11 on Signals](https://beattheheat.asia/signals/?lever=anticipatory)
 
 ## Heat-smart lending
 
@@ -592,6 +618,8 @@ Sources: [Tamil Nadu Heat Mitigation Strategy, 2024](https://spc.tn.gov.in/wp-co
 - [Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers) Ministry of Health and Family Welfare and UNFPA India, 2026
 
 [See it on the map](https://beattheheat.asia/#break-maternalheat)
+
+Moving now [98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed](https://beattheheat.asia/signals/#sig-clinicians-heat-pregnancy-2026) (Finding, September 2026)
 
 ## Mental health in heat plans
 

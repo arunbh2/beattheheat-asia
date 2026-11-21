@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Phnom Penh: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/phnompenh/
-updated: 2026-11-17
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -118,6 +118,14 @@ Listing does not imply partnership, affiliation or endorsement.
 **Find tools for this decision.** Official warnings, heat risk and cooler places in Cambodia: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=KH)
 
 **Who is already working here.** Organisations whose listed heat work is in Cambodia, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=KH)
+
+## What is moving here
+
+Developments in Cambodia tracked on Signals, newest first, with the furthest step each has evidence for. They concern the country, not only this city.
+
+- [The Extreme Heat Risk Governance Framework is piloted in Cambodia, Barbados and Senegal](https://beattheheat.asia/signals/#sig-heat-governance-pilots-2026) Delivered, original checked · latest development 2026
+
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=cambodia) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/phnompenh/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

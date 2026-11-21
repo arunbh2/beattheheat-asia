@@ -24,7 +24,7 @@
   "changed": "2026-11-20"
  },
  "/actions/": {
-  "hash": "3a07f0d40cdd49b3",
+  "hash": "c4b01d9eafd22500",
   "changed": "2026-11-21"
  },
  "/approach/": {
@@ -60,92 +60,92 @@
   "changed": "2026-11-16"
  },
  "/cities/ahmedabad/": {
-  "hash": "481b51eb40bfaffc",
-  "changed": "2026-11-17"
+  "hash": "10105bec84463282",
+  "changed": "2026-11-21"
  },
  "/cities/bangkok/": {
-  "hash": "977709b96bc0dba3",
-  "changed": "2026-11-17"
+  "hash": "7c040e6241548b11",
+  "changed": "2026-11-21"
  },
  "/cities/bengaluru/": {
-  "hash": "ca58d889e0247041",
-  "changed": "2026-11-17"
+  "hash": "1accb91e89b2fdfa",
+  "changed": "2026-11-21"
  },
  "/cities/bhubaneswar/": {
-  "hash": "8f479901f05e1b22",
-  "changed": "2026-11-17"
+  "hash": "69e906dd2973baf2",
+  "changed": "2026-11-21"
  },
  "/cities/chattogram/": {
-  "hash": "ae4f91bf23b29e45",
-  "changed": "2026-11-16"
+  "hash": "fd5fc764eb48f922",
+  "changed": "2026-11-21"
  },
  "/cities/chennai/": {
-  "hash": "141aafb9738137ae",
-  "changed": "2026-11-17"
+  "hash": "0093d5b7e04e81f7",
+  "changed": "2026-11-21"
  },
  "/cities/chiangmai/": {
-  "hash": "35129756b893290a",
-  "changed": "2026-11-15"
+  "hash": "8189a9ae93c1e73d",
+  "changed": "2026-11-21"
  },
  "/cities/colombo/": {
-  "hash": "c743286879ed7f16",
-  "changed": "2026-11-17"
+  "hash": "4cbc667ee062b623",
+  "changed": "2026-11-21"
  },
  "/cities/delhi/": {
-  "hash": "658e076fd78afdc1",
-  "changed": "2026-11-16"
+  "hash": "c6069664cd462a52",
+  "changed": "2026-11-21"
  },
  "/cities/dhaka/": {
-  "hash": "cf7867163ba83f31",
-  "changed": "2026-11-17"
+  "hash": "3ec93eeca7d3036a",
+  "changed": "2026-11-21"
  },
  "/cities/hanoi/": {
-  "hash": "2c7b8960bbfc027f",
-  "changed": "2026-11-16"
+  "hash": "a74a07f3c19984f1",
+  "changed": "2026-11-21"
  },
  "/cities/hochiminh/": {
-  "hash": "71efcb2107b316ab",
-  "changed": "2026-11-17"
+  "hash": "c05b70ee72294917",
+  "changed": "2026-11-21"
  },
  "/cities/hyderabad/": {
-  "hash": "c8004cddc0285df8",
-  "changed": "2026-11-17"
+  "hash": "e5c55ec1fe33509a",
+  "changed": "2026-11-21"
  },
  "/cities/jakarta/": {
-  "hash": "ef6bbb39e1ef4ddb",
-  "changed": "2026-11-16"
+  "hash": "7313a39a98614790",
+  "changed": "2026-11-21"
  },
  "/cities/kathmandu/": {
-  "hash": "4ed062d1a5e5b35c",
-  "changed": "2026-11-17"
+  "hash": "d80715f1177daf69",
+  "changed": "2026-11-21"
  },
  "/cities/kolkata/": {
-  "hash": "cd6ec2dacb6f4abe",
-  "changed": "2026-11-17"
+  "hash": "7175f849b9ec6ec1",
+  "changed": "2026-11-21"
  },
  "/cities/manila/": {
-  "hash": "d42ada6c3061176e",
-  "changed": "2026-11-16"
+  "hash": "33fadaf52e5ddd89",
+  "changed": "2026-11-21"
  },
  "/cities/mumbai/": {
-  "hash": "4eb4cb1dfcde6c87",
-  "changed": "2026-11-16"
+  "hash": "70302e8322a482ee",
+  "changed": "2026-11-21"
  },
  "/cities/phnompenh/": {
-  "hash": "6c6a507be0350960",
-  "changed": "2026-11-17"
+  "hash": "12404c389ba21f00",
+  "changed": "2026-11-21"
  },
  "/cities/quezoncity/": {
-  "hash": "0df4c299e142ed7b",
-  "changed": "2026-11-15"
+  "hash": "cbe7749697ddb37d",
+  "changed": "2026-11-21"
  },
  "/cities/singapore/": {
-  "hash": "2ae4f9c23c622ebc",
-  "changed": "2026-11-16"
+  "hash": "f357c901abb65c0f",
+  "changed": "2026-11-21"
  },
  "/cities/surabaya/": {
-  "hash": "60462723ebe86ea2",
-  "changed": "2026-11-15"
+  "hash": "c1f3f8fc8b24cd17",
+  "changed": "2026-11-21"
  },
  "/cooling-options/": {
   "hash": "6c36f53fa8ea72be",
@@ -164,32 +164,32 @@
   "changed": "2026-11-16"
  },
  "/countries/bangladesh/": {
-  "hash": "73e44c183ed96f79",
-  "changed": "2026-11-19"
+  "hash": "b3dfa99fccdf7943",
+  "changed": "2026-11-21"
  },
  "/countries/india/": {
-  "hash": "1cb85e20cf832f39",
-  "changed": "2026-11-19"
+  "hash": "fbc2240023d4c4cd",
+  "changed": "2026-11-21"
  },
  "/countries/indonesia/": {
-  "hash": "28ed361ed9dda5af",
-  "changed": "2026-11-19"
+  "hash": "8ac337c9ee1a8579",
+  "changed": "2026-11-21"
  },
  "/countries/nepal/": {
-  "hash": "c535fc1bfd10a657",
-  "changed": "2026-11-19"
+  "hash": "aeb9f2e552857ca5",
+  "changed": "2026-11-21"
  },
  "/countries/philippines/": {
-  "hash": "b6cc38d7a5287cbc",
-  "changed": "2026-11-19"
+  "hash": "151af58c6abde2d7",
+  "changed": "2026-11-21"
  },
  "/countries/sri-lanka/": {
-  "hash": "93589046836573a6",
-  "changed": "2026-11-16"
+  "hash": "db449d0e6270cbe1",
+  "changed": "2026-11-21"
  },
  "/countries/thailand/": {
-  "hash": "865012bf656a1b3d",
-  "changed": "2026-11-19"
+  "hash": "5b15697e9d202ff9",
+  "changed": "2026-11-21"
  },
  "/el-nino-and-cities/": {
   "hash": "ab87fe4cc55e7a5b",
@@ -232,7 +232,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "e8fa7bda21dbd5e1",
+  "hash": "7177d31a5a0401d0",
   "changed": "2026-11-21"
  },
  "/guide/": {
@@ -240,7 +240,7 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "a751c0d987e02c39",
+  "hash": "1d1ae5d4156ba9d7",
   "changed": "2026-11-21"
  },
  "/heat-economy/": {
@@ -268,7 +268,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "f8dd998fc83c041f",
+  "hash": "aa0170d2b7516b21",
   "changed": "2026-11-21"
  },
  "/heat-tools/": {
@@ -384,7 +384,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "2231ed6afcee5666",
+  "hash": "8f76d7aa9cd50180",
   "changed": "2026-11-21"
  },
  "/loops/": {
@@ -652,11 +652,11 @@
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "f1a7f511884e36c6",
+  "hash": "9614e0917947246d",
   "changed": "2026-11-21"
  },
  "/signals/all/": {
-  "hash": "3b0e8d13ec768d17",
+  "hash": "4cd55b30e054f086",
   "changed": "2026-11-21"
  },
  "/social-protection/": {
@@ -688,15 +688,15 @@
   "changed": "2026-11-17"
  },
  "/whats-new/": {
-  "hash": "095cbf1c92c46f3e",
+  "hash": "99046c74b5548dc9",
   "changed": "2026-11-21"
  },
  "/whats-new/2026-10/": {
-  "hash": "85a7691cdb57119d",
+  "hash": "07177ea8d4c3e2d1",
   "changed": "2026-11-21"
  },
  "/whats-new/2026-11/": {
-  "hash": "dfe99faef69de4b4",
+  "hash": "7f36c1197d16c3fd",
   "changed": "2026-11-21"
  },
  "/who-holds-it/": {

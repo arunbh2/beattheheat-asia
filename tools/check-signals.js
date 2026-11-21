@@ -94,6 +94,13 @@ ok(all, "signals/all/index.html is built: every record for readers without JavaS
 for (const s of R.signals) ok(all.includes(`id="${s.id}"`), `all records page: ${s.id} is listed`);
 ok(!more || /data-more="\/signals\/cards\.json\?v=\d+"/.test(main), "page: points the script at cards.json with a cache version");
 ok(/id="moved"/.test(main) && main.indexOf('id="moved"') < main.indexOf('id="records"'), "page: what moved comes before the records");
+// what is moving here: every country page carries the block (records, or a plain "not tracked yet")
+for (const c of fs.readdirSync(path.join(ROOT, "countries"), { withFileTypes: true }).filter(e => e.isDirectory()).map(e => e.name))
+  ok(/<!--sg-ctx-->[\s\S]*What is moving here[\s\S]*<!--\/sg-ctx-->/.test(read(`countries/${c}/index.html`)), `countries/${c}: shows What is moving here`);
+ok(/sg-ctx__lever/.test(read("actions/index.html")), "actions page: actions with records show what is moving");
+// proof sentences come only from checked pages, never typed
+const CK = JSON.parse(read("data/site/signals-checks.json")), psg = Object.values(CK.urls).flat().filter(r => r.passages);
+ok(psg.every(r => r.kind === "content" && Object.keys(r.passages).every(t => r.terms[t])), "proof sentences: only from content checks, only for terms the check found");
 const feedX = read("signals/feed.xml"), cal = read("signals/calendar.ics");
 ok(R.signals.every(s => feedX.includes(`/signals/#${s.id}</id>`)), "feed.xml: one entry per record");
 ok(/^BEGIN:VCALENDAR\r\n/.test(cal) && /END:VCALENDAR\r\n$/.test(cal) && cal.split("\r\n").every(l => Buffer.byteLength(l) <= 75), "calendar.ics: a calendar with CRLF lines folded to 75 octets");

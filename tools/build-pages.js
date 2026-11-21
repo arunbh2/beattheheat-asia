@@ -657,6 +657,7 @@ require("./build-growing.js")({ page, write, esc, hero, V });
 require("./build-signals.js")({ page, write, esc, hero, V });
 require("./build-heat-tools.js")({ page, write, esc, hero, V, D });   // before build-for-ai, which lists /heat-tools/
 require("./build-heat-network.js").context({ D, esc });   // "Who is already working here" on country and city pages
+require("./signals-context.js").inject({ D, esc });   // "What is moving here": Signals records on country and city pages
 require("./build-use-with-ai.js").page({ page, write, esc, hero, D });
 require("./build-for-ai.js")({ page, write, esc, hero, V, D, ROOT });
 require("./build-privacy.js")({ page, write, esc, hero });

@@ -41,6 +41,8 @@ This month's most consequential date falls just after the cut-off: on 1 December
 
 [Download the briefing (.md)](https://beattheheat.asia/whats-new/2026-11/briefing.md)[Open in WhatsApp](https://wa.me/?text=*State%20of%20the%20field%3A%20November%202026*%0A_A%20heat%20rule%20for%20outdoor%20work%20is%20scheduled%20to%20take%20effect%3B%20whether%20rules%20reach%20workers%20is%20not%20yet%20visible_%0A%0ASingapore's%20heat%20stress%20measures%20for%20outdoor%20work%2C%20announced%20on%2028%20August%202026%2C%20are%20scheduled%20to%20become%20mandatory%20on%201%20December%202026.%20Two%20further%20developments%20on%20heat%20at%20work%20were%20reviewed%20this%20month%2C%20but%20rest%20on%20secondary%20reports.%20None%20of%20this%20yet%20shows%20whether%20rules%20are%20applied%20on%20worksites%2C%20or%20whom%20they%20reach.%0A%0A%E2%80%A2%20Singapore's%20heat%20stress%20measures%20for%20outdoor%20work%20become%20mandatory%20on%201%20December%0A%E2%80%A2%20The%20Philippines%20issues%20heat%20stress%20guidelines%20and%20compensation%20rules%2C%20as%20reported%0A%E2%80%A2%20A%20survey%20of%20outdoor%20workers%20in%20Viet%20Nam%20shows%20why%20the%20question%20matters%0A%E2%80%A2%20Open%20question%3A%20When%20a%20heat%20rule%20for%20outdoor%20work%20takes%20effect%2C%20what%20public%20record%20would%20show%20whether%20it%20reaches%20subcontracted%20and%20migrant%20workers%3F%0A%0ARead%20it%20with%20its%20sources%3A%20https%3A%2F%2Fbeattheheat.asia%2Fwhats-new%2F2026-11%2F)
 
+Choose a role to see its question from this edition and where to start. The choice stays in this browser and the address.
+
 ### Developments worth understanding [#](#developments)
 
 #### Singapore's heat stress measures for outdoor work become mandatory on 1 December

@@ -5,7 +5,7 @@ updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 80 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 81 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,36 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-80 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+81 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### Signals shows each source's own words, and appears on every country, city and action page
+
+Added 21 November 2026 · Tool improved 21 November 2026
+
+Why it matters our readingEach checked piece of evidence on Signals now shows the sentence the source check found, and each commitment its dated path. Country, city and action pages show what is moving there, and State of the field lets each reader group read for its own question and keeps every open question in one running list.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat action plans
+- Heat-safe work
+
+ReviewBuilt from existing records and source checks only: no new claims. Sentences come from the checked pages themselves and only for terms the check found; places with no tracked record say so without describing the place..
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+Places and actions now show the heat plans and rules tracked for them.
+
+[See what is moving](https://beattheheat.asia/signals/#moved)
+[Signals](https://beattheheat.asia/signals/)[State of the field](https://beattheheat.asia/whats-new/)[Practical actions](https://beattheheat.asia/actions/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Signals%20shows%20each%20source's%20own%20words%2C%20and%20appears%20on%20every%20country%2C%20city%20and%20action%20page&ref=g-signals-sof-connected#way-share)
 
 Tool improved · Practical measures
 

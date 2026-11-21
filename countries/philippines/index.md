@@ -1,7 +1,7 @@
 ---
 title: "Philippines: heat country snapshot"
 url: https://beattheheat.asia/countries/philippines/
-updated: 2026-11-19
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -614,6 +614,14 @@ Listing does not imply partnership, endorsement or ranking.
 Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Nepal](https://beattheheat.asia/countries/nepal/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Thailand](https://beattheheat.asia/countries/thailand/) · [Solutions library](https://beattheheat.asia/solutions/)
 
 **Who is already working here.** Organisations whose listed heat work is in Philippines, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=PH)
+
+## What is moving here
+
+Developments in the Philippines tracked on Signals, newest first, with the furthest step each has evidence for.
+
+- [The Philippines issues guidelines on heat stress at work and on compensation for heat illness](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026) Adopted, reported · latest development 27 October 2026
+
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=philippines) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/countries/philippines/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

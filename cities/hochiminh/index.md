@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Ho Chi Minh City: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/hochiminh/
-updated: 2026-11-17
+updated: 2026-11-21
 licence: CC BY 4.0
 ---
 
@@ -173,6 +173,12 @@ Listing does not imply partnership, affiliation or endorsement.
 **Find tools for this decision.** Official warnings, heat risk and cooler places in Vietnam: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=VN)
 
 **Who is already working here.** Organisations whose listed heat work is in Viet Nam, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=VN)
+
+## What is moving here
+
+No development in Viet Nam is tracked on Signals yet. This describes the records kept here, not what is happening in Viet Nam.
+
+[20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/hochiminh/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt
