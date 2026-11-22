@@ -153,8 +153,9 @@ const JS = `/* Common Shade: "Everything Common Shade covers", the card shown wh
 
 module.exports = function buildEverything({ llms = false } = {}) {
   fs.writeFileSync(path.join(ROOT, "everything.js"), JS);
-  if (llms) fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Everything the site covers\n\n${GROUPS.map(g => `### ${g.name}\n\n${g.items.map(([num, what, rest, href]) =>
-    `- [${n(num)} ${what}](${SITE}${href}) ${rest}`).join("\n")}`).join("\n\n")}\n`);
+  // llms.txt allows no subheadings inside a section, so each group is its own section, and each line is a link then ": note"
+  if (llms) fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n${GROUPS.map(g => `## Everything the site covers: ${g.name.toLowerCase()}\n\n${g.items.map(([num, what, rest, href]) =>
+    `- [${n(num)} ${what}](${SITE}${href}): ${rest}`).join("\n")}`).join("\n\n")}\n`);
   console.log(`everything.js: ${GROUPS.reduce((s, g) => s + g.items.length, 0)} doors in ${GROUPS.length} groups (${(Buffer.byteLength(JS) / 1024).toFixed(1)} KB)`);
 };
 if (require.main === module) module.exports();

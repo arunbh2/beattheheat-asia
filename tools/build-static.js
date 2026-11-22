@@ -622,13 +622,13 @@ fs.writeFileSync(path.join(ROOT, "llms.txt"), `# Common Shade
 
 ${about}
 
-Common Shade's beta platform is at beattheheat.asia and is moving to commonshade.asia; it was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
+It is moving from beattheheat.asia to commonshade.asia, and was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
 
 ${DISCLAIMER}
 
 ${LICENCE}
 
-The interactive map is at ${SITE}/ and needs JavaScript. The pages below carry the same content as plain HTML.
+The interactive map is at ${SITE}/ and needs JavaScript. The links below lead to each page's Markdown copy (index.md), with the same content as the page; the same address without index.md is the HTML page.
 
 ## The map as text
 
@@ -648,10 +648,7 @@ ${(D.SOCIAL_PROTECTION || []).length ? `## Social protection and heat
 
 - [${SPT.TITLE}](${SITE}/${SPT.SLUG}/): public schemes that could cushion a household through a hot season in ${SPT.counts(D.SOCIAL_PROTECTION).countries} countries (${D.SOCIAL_PROTECTION.map(f => f.country.name).join(", ")}): who runs each, who is eligible, what it gives, how it is delivered, the steps of access with what is measured, delivery routes and organisations, and where no public system responds (also in llms-full.txt)
 
-` : ""}## Optional
-
-- [The whole map in one file](${SITE}/llms-full.txt): every page above as plain text, for reading in one go
-`);
+` : ""}`);
 fs.writeFileSync(path.join(ROOT, "llms-full.txt"), `# Common Shade: the whole map as text\n\n${about}\n\n${DISCLAIMER}\n\n${LICENCE}\n\nInteractive map: ${SITE}/ · Generated ${TODAY}\n\n${md.join("\n\n")}\n`);
 
 // ---- sitemap.xml and robots.txt ----
@@ -722,7 +719,7 @@ require("./build-media.js");
   const extra = ["solutions", "countries", "countries/bangladesh", "countries/nepal", "countries/sri-lanka", "countries/thailand", "countries/indonesia", "countries/india", "countries/philippines", "heat-economy", "heat-economy/businesses", "heat-economy/money", "heat-economy/opportunities", "heat-economy/conditions", "lancet-countdown-2026", "how-heat-is-reported"];
   const sm = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8");
   if (!sm.includes(`${SITE}/solutions/`)) fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sm.replace("</urlset>", extra.map(x => `  <url><loc>${SITE}/${x}/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>`).join("\n") + "\n</urlset>"));
-  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [The heat economy](${SITE}/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads\n- [Funding landscape](${SITE}/heat-economy/money/#landscape), [open calls and tenders](${SITE}/heat-economy/money/opportunities/) and [careers](${SITE}/heat-economy/money/careers/): programmes with their access routes, calls and procurement notices with application status and verification kept apart, and jobs and fellowships, each checked against its official page; CSV downloads (also in llms-full.txt)\n- [Country snapshots](${SITE}/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand\n- [The Lancet Countdown 2026, for extreme heat in Asia](${SITE}/lancet-countdown-2026/): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references\n- [How heat is reported](${SITE}/how-heat-is-reported/): how ${require("./media-model.js").stats().unique} news articles on extreme heat in South and Southeast Asia (2018–2026), in two collections, follow protection: an explorer with each reviewed article's reporting trail, examples, comparisons and a question kit; records as CSV and JSON\n- [Sources and references](${SITE}/sources/): every source the site cites, including every headline from Heat in the news\n`);
+  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [The heat economy](${SITE}/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads\n- [Funding landscape](${SITE}/heat-economy/money/#landscape): funders and programmes relevant to extreme heat, with their access routes, each checked against its official page (also in llms-full.txt)\n- [Open calls and tenders](${SITE}/heat-economy/money/opportunities/): calls, tenders and procurement notices with application status and verification kept apart; CSV download\n- [Careers](${SITE}/heat-economy/money/careers/): jobs, consultancies, research posts and fellowships on extreme heat, each checked against the employer's own page; CSV download\n- [Country snapshots](${SITE}/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand\n- [The Lancet Countdown 2026, for extreme heat in Asia](${SITE}/lancet-countdown-2026/): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references\n- [How heat is reported](${SITE}/how-heat-is-reported/): how ${require("./media-model.js").stats().unique} news articles on extreme heat in South and Southeast Asia (2018–2026), in two collections, follow protection: an explorer with each reviewed article's reporting trail, examples, comparisons and a question kit; records as CSV and JSON\n- [Sources and references](${SITE}/sources/): every source the site cites, including every headline from Heat in the news\n`);
 }
 
 // ---- /sources/: every source the site cites ----
