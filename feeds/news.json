@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T07:07:55.737Z",
+ "updated": "2026-11-22T19:51:33.555Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 522
+   "found": 510
   },
   {
    "name": "GDELT Project",
@@ -16,6 +16,14 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Coron, Cuyo forecast to have ‘dangerous’ heat index on Nov. 22",
+   "url": "https://newsinfo.inquirer.net/2345114/cuyo-curon-in-palawan-heat-index-to-hit-dangerous-level-on-nov-22",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-22T09:38:44Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Quezon town schools to shift to online learning during extreme heat",
    "url": "https://newsinfo.inquirer.net/2344414/quezon-town-schools-to-shift-to-online-learning-during-extreme-heat",
@@ -101,14 +109,6 @@
    "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
    "domain": "newsinfo.inquirer.net",
    "date": "2026-11-09T20:11:00Z",
-   "place": "Philippines",
-   "via": "Inquirer"
-  },
-  {
-   "title": "High daytime heat index, chilly nights logged in Pangasinan",
-   "url": "https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan",
-   "domain": "newsinfo.inquirer.net",
-   "date": "2026-11-08T14:16:00Z",
    "place": "Philippines",
    "via": "Inquirer"
   }

@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Coron, Cuyo forecast to have ‘dangerous’ heat index on Nov. 22",
+   "url": "https://newsinfo.inquirer.net/2345114/cuyo-curon-in-palawan-heat-index-to-hit-dangerous-level-on-nov-22",
+   "via": "Inquirer",
+   "date": "2026-11-22T09:38:44Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Quezon town schools to shift to online learning during extreme heat",
    "url": "https://newsinfo.inquirer.net/2344414/quezon-town-schools-to-shift-to-online-learning-during-extreme-heat",
    "via": "Inquirer",
@@ -1380,5 +1387,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-20T20:33:26.358Z"
+ "updated": "2026-11-22T19:51:35.721Z"
 }
