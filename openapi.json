@@ -103,7 +103,7 @@
                 "schema": {
                   "type": "string"
                 },
-                "example": "# Common Shade\n\n> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 90 consequences, the 21 vicious cycles that make it worse, the 33 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.\n\nCommon Shade's beta platform is at beattheheat.asia and is moving to commonshade.asia; it was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.\n"
+                "example": "# Common Shade\n\n> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 90 consequences, the 21 vicious cycles that make it worse, the 33 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.\n\nIt is moving from beattheheat.asia to commonshade.asia, and was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.\n"
               }
             }
           }
@@ -178,7 +178,7 @@
                 "example": {
                   "name": "Common Shade",
                   "url": "https://beattheheat.asia/",
-                  "updated": "2026-11-21",
+                  "updated": "2026-11-22",
                   "license": "CC BY 4.0"
                 }
               }
@@ -1065,7 +1065,7 @@
                   ]
                 },
                 "example": {
-                  "updated": "2026-11-21T07:27:00.054Z",
+                  "updated": "2026-11-22T07:07:55.737Z",
                   "keepDays": 14,
                   "sources": [
                     {

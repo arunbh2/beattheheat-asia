@@ -46,7 +46,7 @@ const HEAVY = pages.filter(u => u !== "/" && fs.statSync(fileOf(u)).size > 1e6).
 const PREFETCH = `<script type="speculationrules">${JSON.stringify({ prefetch: [{ where: { and: [{ href_matches: "/*" }, { not: { href_matches: ["/*.*", ...HEAVY] } }, { not: { selector_matches: "[download],[target=_blank],[rel~=nofollow]" } }] }, eagerness: "conservative" }] })}</script>`;
 const head = (u, html) => {
   const ver = VERS[u] ? VERS[u].changed : TODAY;
-  return `<!--agent--><link rel="alternate" type="text/markdown" href="${u}index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml">${u === "/" ? `<link rel="api-catalog" href="/.well-known/api-catalog">` : ""}<meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="${ver}">${PREFETCH}<!--/agent-->`;
+  return `<!--agent--><link rel="alternate" type="text/markdown" href="${u}index.md"><link rel="describedby" type="text/markdown" href="/llms.txt"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml">${u === "/" ? `<link rel="api-catalog" href="/.well-known/api-catalog">` : ""}<meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="${ver}">${PREFETCH}<!--/agent-->`;
 };
 for (const u of pages) {
   const f = fileOf(u); let html = fs.readFileSync(f, "utf8");
@@ -107,5 +107,17 @@ w("feed.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w
 
 // ---- robots.txt, llms.txt and the sitemap point to them ----
 const add = (file, marker, text) => { const f = path.join(ROOT, file); let s = fs.readFileSync(f, "utf8"); const i = s.indexOf(marker); if (i >= 0) { const j = s.indexOf("\n## ", i + marker.length); s = s.slice(0, i) + (j >= 0 ? s.slice(j + 1) : ""); } fs.writeFileSync(f, s.replace(/\n*$/, "\n\n") + text + "\n"); };
-add("llms.txt", "## Machine-readable files", `## Machine-readable files\n\n- [OpenAPI description of the open files](${SITE}/openapi.json)\n- [Agent directory](${SITE}/.well-known/ard.json) and [API catalog](${SITE}/.well-known/api-catalog)\n- [Atom feed of changes](${feed}), [JSON sitemap](${SITE}/sitemap.json), [agents.txt](${SITE}/agents.txt)\n- A Markdown twin of every page: add index.md to its address, for example ${SITE}/for-ai/index.md\n- [Privacy and terms](${SITE}/privacy/), [terms-of-use.md](${SITE}/terms-of-use.md), [auth.md](${SITE}/auth.md)`);
+add("llms.txt", "## Machine-readable files", `## Machine-readable files\n\n- [OpenAPI description of the open files](${SITE}/openapi.json)\n- [Agent directory](${SITE}/.well-known/ard.json)\n- [API catalog](${SITE}/.well-known/api-catalog)\n- [Atom feed of changes](${feed})\n- [JSON sitemap](${SITE}/sitemap.json): every page with its Markdown copy (add index.md to any page's address)\n- [agents.txt](${SITE}/agents.txt)\n- [Terms of use](${SITE}/terms-of-use.md)\n- [Authentication](${SITE}/auth.md): none needed\n- [Privacy](${SITE}/privacy/index.md)`);
+llmsTidy();
 console.log(`agent files: ${twins} Markdown twins, openapi.json (${Object.keys(paths).length} paths), ard.json, api-catalog, security.txt, tdmrep.json, sitemap.json, agents.txt, auth.md, terms-of-use.md, feed.xml`);
+
+// ---- llms.txt, as the llms.txt proposal (v2) asks: once every builder has added its section, links to pages point to
+// their Markdown copies, and the "Optional" section (what an agent can skip) comes last. tools/check-agent-files.js checks
+// the format.
+function llmsTidy() {
+  const f = path.join(ROOT, "llms.txt"); let s = fs.readFileSync(f, "utf8");
+  s = s.replace(/\]\(https:\/\/beattheheat\.asia(\/(?:[^)\s#]*\/)?)(#[^)\s]*)?\)/g, (m, p) => fs.existsSync(path.join(ROOT, p, "index.md")) ? `](${SITE}${p}index.md)` : m);
+  s = s.replace(/\n## Optional\n[\s\S]*?(?=\n## |$)/, "").replace(/\n*$/, "\n\n");
+  s += `## Optional\n\n- [The whole site in one file](${SITE}/llms-full.txt): every page above as plain text, for reading in one go (about ${Math.round(fs.statSync(path.join(ROOT, "llms-full.txt")).size / 1048576 * 10) / 10} MB)\n`;
+  fs.writeFileSync(f, s);
+}

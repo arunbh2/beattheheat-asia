@@ -41,5 +41,29 @@ imgs.length ? no(`${imgs.length} home-page image(s) have no alt attribute`) : ok
   noSrc.length ? no(`cycle or action packs with no sources: ${noSrc.slice(0, 5).map(p => p.file).join(", ")}`) : ok("every cycle and action pack lists its sources");
   dash.length ? no(`evidence packs with an em dash: ${dash.slice(0, 5).map(p => p.file).join(", ")}`) : ok("no pack uses an em dash");
 }
+// llms.txt, in the format of the llms.txt proposal (v2, llmstxt.org): one H1, a blockquote summary, plain text, then H2
+// sections that are lists of "- [name](url): note"; no other headings; links to pages lead to their Markdown copies, every
+// link on this site exists, and "Optional" comes last. Every page names it with rel="describedby".
+{
+  const L = read("llms.txt").replace(/^\uFEFF/, "").split("\n"), probs = [];
+  if (!/^# \S/.test(L[0])) probs.push("the first line is not the H1 title");
+  const firstText = L.slice(1).find(l => l.trim());
+  if (!/^> \S/.test(firstText || "")) probs.push("the H1 is not followed by a blockquote summary");
+  let sect = null; const heads = [];
+  L.forEach((l, i) => {
+    if (/^#{3,} /.test(l)) probs.push(`line ${i + 1}: a subheading ("${l.slice(0, 40)}"); llms.txt allows H2 sections only`);
+    else if (/^# /.test(l) && i) probs.push(`line ${i + 1}: a second H1`);
+    else if (/^## /.test(l)) { sect = l.slice(3); heads.push(sect); }
+    else if (sect && l.trim() && !/^- \[[^\]]+\]\([^)\s]+\)(: \S.*)?$/.test(l)) probs.push(`line ${i + 1} in "${sect}" is not "- [name](url): note" ("${l.slice(0, 60)}")`);
+  });
+  if (heads[heads.length - 1] !== "Optional") probs.push(`"Optional" is not the last section (last is "${heads[heads.length - 1]}")`);
+  const links = [...read("llms.txt").matchAll(/\]\((https:\/\/beattheheat\.asia[^)\s]*)\)/g)].map(m => m[1]);
+  const html = links.filter(u => /\/(#.*)?$/.test(u)), gone = links.filter(u => !has(u.slice(SITE.length).replace(/^\//, "").split("#")[0] || "index.md"));
+  if (html.length) probs.push(`${html.length} link(s) to HTML pages rather than their Markdown copies, e.g. ${html[0]} (llmsTidy in build-agent-files.js rewrites them when the twin exists)`);
+  if (gone.length) probs.push(`${gone.length} link(s) to files that do not exist, e.g. ${gone[0]}`);
+  probs.length ? probs.slice(0, 8).forEach(p => no(`llms.txt: ${p}`)) : ok(`llms.txt follows the llms.txt format: ${heads.length} sections, ${links.length} links, Markdown copies, Optional last`);
+  const noDesc = ["index.html", "the-web/index.html", "heat-economy/money/careers/index.html", "for-ai/index.html"].filter(f => has(f) && !/<link rel="describedby"[^>]*href="\/llms\.txt"/.test(read(f)));
+  noDesc.length ? no(`pages without rel="describedby" to /llms.txt: ${noDesc.join(", ")}. Run node tools/build-static.js.`) : ok('pages name /llms.txt with rel="describedby"');
+}
 console.log(bad ? `agent files check: ${bad} failing` : "agent files check passed");
 process.exit(bad ? 1 : 0);

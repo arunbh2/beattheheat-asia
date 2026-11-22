@@ -2,168 +2,173 @@
 
 > An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 90 consequences, the 21 vicious cycles that make it worse, the 33 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
 
-Common Shade's beta platform is at beattheheat.asia and is moving to commonshade.asia; it was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
+It is moving from beattheheat.asia to commonshade.asia, and was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
 
 Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pages below carry the same content as plain HTML.
+The interactive map is at https://beattheheat.asia/ and needs JavaScript. The links below lead to each page's Markdown copy (index.md), with the same content as the page; the same address without index.md is the HTML page.
 
 ## The map as text
 
-- [The web](https://beattheheat.asia/the-web/): The web of extreme heat: every consequence, system by system
-- [Vicious cycles](https://beattheheat.asia/loops/): Vicious cycles of extreme heat, and where they can be broken
-- [Actions](https://beattheheat.asia/actions/): Actions that break the vicious cycles of extreme heat
-- [Who is at risk](https://beattheheat.asia/who-is-at-risk/): Who extreme heat hits hardest
-- [Cooling options](https://beattheheat.asia/cooling-options/): Cooling options by place, and what keeps them working
-- [Worked plans](https://beattheheat.asia/worked-plans/): Worked heat action plans from Asia
-- [Glossary](https://beattheheat.asia/glossary/): Plain-language glossary of extreme heat
-- [Heat network](https://beattheheat.asia/heat-network/): Organisations working on extreme heat
-- [Cities](https://beattheheat.asia/cities/): Extreme heat in 22 Asian cities
-- [Heatwaves](https://beattheheat.asia/heatwaves/): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
-- [Practical actions](https://beattheheat.asia/practical-actions/): Practical actions against extreme heat, by setting
-- [Paying for protection](https://beattheheat.asia/paying-for-protection/): Paying for heat protection: who pays, how money arrives, and whether it lasts
+- [The web](https://beattheheat.asia/the-web/index.md): The web of extreme heat: every consequence, system by system
+- [Vicious cycles](https://beattheheat.asia/loops/index.md): Vicious cycles of extreme heat, and where they can be broken
+- [Actions](https://beattheheat.asia/actions/index.md): Actions that break the vicious cycles of extreme heat
+- [Who is at risk](https://beattheheat.asia/who-is-at-risk/index.md): Who extreme heat hits hardest
+- [Cooling options](https://beattheheat.asia/cooling-options/index.md): Cooling options by place, and what keeps them working
+- [Worked plans](https://beattheheat.asia/worked-plans/index.md): Worked heat action plans from Asia
+- [Glossary](https://beattheheat.asia/glossary/index.md): Plain-language glossary of extreme heat
+- [Heat network](https://beattheheat.asia/heat-network/index.md): Organisations working on extreme heat
+- [Cities](https://beattheheat.asia/cities/index.md): Extreme heat in 22 Asian cities
+- [Heatwaves](https://beattheheat.asia/heatwaves/index.md): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
+- [Practical actions](https://beattheheat.asia/practical-actions/index.md): Practical actions against extreme heat, by setting
+- [Paying for protection](https://beattheheat.asia/paying-for-protection/index.md): Paying for heat protection: who pays, how money arrives, and whether it lasts
 
 ## Cities
 
-- [Singapore](https://beattheheat.asia/cities/singapore/): Extreme heat in Singapore: plans, cycles and who is at work
-- [Bangkok](https://beattheheat.asia/cities/bangkok/): Extreme heat in Bangkok: plans, cycles and who is at work
-- [Hanoi](https://beattheheat.asia/cities/hanoi/): Extreme heat in Hanoi: plans, cycles and who is at work
-- [Manila](https://beattheheat.asia/cities/manila/): Extreme heat in Manila: plans, cycles and who is at work
-- [Jakarta](https://beattheheat.asia/cities/jakarta/): Extreme heat in Jakarta: plans, cycles and who is at work
-- [Delhi](https://beattheheat.asia/cities/delhi/): Extreme heat in Delhi: plans, cycles and who is at work
-- [Dhaka](https://beattheheat.asia/cities/dhaka/): Extreme heat in Dhaka: plans, cycles and who is at work
-- [Kathmandu](https://beattheheat.asia/cities/kathmandu/): Extreme heat in Kathmandu: plans, cycles and who is at work
-- [Mumbai](https://beattheheat.asia/cities/mumbai/): Extreme heat in Mumbai: plans, cycles and who is at work
-- [Ahmedabad](https://beattheheat.asia/cities/ahmedabad/): Extreme heat in Ahmedabad: plans, cycles and who is at work
-- [Colombo](https://beattheheat.asia/cities/colombo/): Extreme heat in Colombo: plans, cycles and who is at work
-- [Phnom Penh](https://beattheheat.asia/cities/phnompenh/): Extreme heat in Phnom Penh: plans, cycles and who is at work
-- [Kolkata](https://beattheheat.asia/cities/kolkata/): Extreme heat in Kolkata: plans, cycles and who is at work
-- [Chennai](https://beattheheat.asia/cities/chennai/): Extreme heat in Chennai: plans, cycles and who is at work
-- [Hyderabad](https://beattheheat.asia/cities/hyderabad/): Extreme heat in Hyderabad: plans, cycles and who is at work
-- [Bengaluru](https://beattheheat.asia/cities/bengaluru/): Extreme heat in Bengaluru: plans, cycles and who is at work
-- [Bhubaneswar](https://beattheheat.asia/cities/bhubaneswar/): Extreme heat in Bhubaneswar: plans, cycles and who is at work
-- [Ho Chi Minh City](https://beattheheat.asia/cities/hochiminh/): Extreme heat in Ho Chi Minh City: plans, cycles and who is at work
-- [Chattogram](https://beattheheat.asia/cities/chattogram/): Extreme heat in Chattogram: plans, cycles and who is at work
-- [Surabaya](https://beattheheat.asia/cities/surabaya/): Extreme heat in Surabaya: plans, cycles and who is at work
-- [Quezon City](https://beattheheat.asia/cities/quezoncity/): Extreme heat in Quezon City: plans, cycles and who is at work
-- [Chiang Mai](https://beattheheat.asia/cities/chiangmai/): Extreme heat in Chiang Mai: plans, cycles and who is at work
+- [Singapore](https://beattheheat.asia/cities/singapore/index.md): Extreme heat in Singapore: plans, cycles and who is at work
+- [Bangkok](https://beattheheat.asia/cities/bangkok/index.md): Extreme heat in Bangkok: plans, cycles and who is at work
+- [Hanoi](https://beattheheat.asia/cities/hanoi/index.md): Extreme heat in Hanoi: plans, cycles and who is at work
+- [Manila](https://beattheheat.asia/cities/manila/index.md): Extreme heat in Manila: plans, cycles and who is at work
+- [Jakarta](https://beattheheat.asia/cities/jakarta/index.md): Extreme heat in Jakarta: plans, cycles and who is at work
+- [Delhi](https://beattheheat.asia/cities/delhi/index.md): Extreme heat in Delhi: plans, cycles and who is at work
+- [Dhaka](https://beattheheat.asia/cities/dhaka/index.md): Extreme heat in Dhaka: plans, cycles and who is at work
+- [Kathmandu](https://beattheheat.asia/cities/kathmandu/index.md): Extreme heat in Kathmandu: plans, cycles and who is at work
+- [Mumbai](https://beattheheat.asia/cities/mumbai/index.md): Extreme heat in Mumbai: plans, cycles and who is at work
+- [Ahmedabad](https://beattheheat.asia/cities/ahmedabad/index.md): Extreme heat in Ahmedabad: plans, cycles and who is at work
+- [Colombo](https://beattheheat.asia/cities/colombo/index.md): Extreme heat in Colombo: plans, cycles and who is at work
+- [Phnom Penh](https://beattheheat.asia/cities/phnompenh/index.md): Extreme heat in Phnom Penh: plans, cycles and who is at work
+- [Kolkata](https://beattheheat.asia/cities/kolkata/index.md): Extreme heat in Kolkata: plans, cycles and who is at work
+- [Chennai](https://beattheheat.asia/cities/chennai/index.md): Extreme heat in Chennai: plans, cycles and who is at work
+- [Hyderabad](https://beattheheat.asia/cities/hyderabad/index.md): Extreme heat in Hyderabad: plans, cycles and who is at work
+- [Bengaluru](https://beattheheat.asia/cities/bengaluru/index.md): Extreme heat in Bengaluru: plans, cycles and who is at work
+- [Bhubaneswar](https://beattheheat.asia/cities/bhubaneswar/index.md): Extreme heat in Bhubaneswar: plans, cycles and who is at work
+- [Ho Chi Minh City](https://beattheheat.asia/cities/hochiminh/index.md): Extreme heat in Ho Chi Minh City: plans, cycles and who is at work
+- [Chattogram](https://beattheheat.asia/cities/chattogram/index.md): Extreme heat in Chattogram: plans, cycles and who is at work
+- [Surabaya](https://beattheheat.asia/cities/surabaya/index.md): Extreme heat in Surabaya: plans, cycles and who is at work
+- [Quezon City](https://beattheheat.asia/cities/quezoncity/index.md): Extreme heat in Quezon City: plans, cycles and who is at work
+- [Chiang Mai](https://beattheheat.asia/cities/chiangmai/index.md): Extreme heat in Chiang Mai: plans, cycles and who is at work
 
 ## How heat became visible
 
-- [How heat became visible](https://beattheheat.asia/how-heat-became-visible/): when science, health, labour, finance and the UN began to notice extreme heat, and who was still missing; a graded timeline, the turning points and how heat appears in IPCC reports (also in llms-full.txt)
+- [How heat became visible](https://beattheheat.asia/how-heat-became-visible/index.md): when science, health, labour, finance and the UN began to notice extreme heat, and who was still missing; a graded timeline, the turning points and how heat appears in IPCC reports (also in llms-full.txt)
 
-- [Watch Common Shade grow](https://beattheheat.asia/growing/): how the knowledge on Common Shade is changing: each change with why it matters, its sources, what it connects to and what it took to add, the corrections, and the work it draws on dated by year of publication (also in llms-full.txt)
+- [Watch Common Shade grow](https://beattheheat.asia/growing/index.md): how the knowledge on Common Shade is changing: each change with why it matters, its sources, what it connects to and what it took to add, the corrections, and the work it draws on dated by year of publication (also in llms-full.txt)
 
 ## Social protection and heat
 
-- [Who could help a household through a hot season](https://beattheheat.asia/social-protection/): public schemes that could cushion a household through a hot season in 6 countries (Bangladesh, India, Indonesia, Nepal, Singapore, Thailand): who runs each, who is eligible, what it gives, how it is delivered, the steps of access with what is measured, delivery routes and organisations, and where no public system responds (also in llms-full.txt)
+- [Who could help a household through a hot season](https://beattheheat.asia/social-protection/index.md): public schemes that could cushion a household through a hot season in 6 countries (Bangladesh, India, Indonesia, Nepal, Singapore, Thailand): who runs each, who is eligible, what it gives, how it is delivered, the steps of access with what is measured, delivery routes and organisations, and where no public system responds (also in llms-full.txt)
 
-## Optional
-
-- [The whole map in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go
 
 ## Solutions library and country snapshots
 
-- [Solutions library](https://beattheheat.asia/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on
-- [The heat economy](https://beattheheat.asia/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads
-- [Funding landscape](https://beattheheat.asia/heat-economy/money/#landscape), [open calls and tenders](https://beattheheat.asia/heat-economy/money/opportunities/) and [careers](https://beattheheat.asia/heat-economy/money/careers/): programmes with their access routes, calls and procurement notices with application status and verification kept apart, and jobs and fellowships, each checked against its official page; CSV downloads (also in llms-full.txt)
-- [Country snapshots](https://beattheheat.asia/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand
-- [The Lancet Countdown 2026, for extreme heat in Asia](https://beattheheat.asia/lancet-countdown-2026/): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references
-- [How heat is reported](https://beattheheat.asia/how-heat-is-reported/): how 101 news articles on extreme heat in South and Southeast Asia (2018–2026), in two collections, follow protection: an explorer with each reviewed article's reporting trail, examples, comparisons and a question kit; records as CSV and JSON
-- [Sources and references](https://beattheheat.asia/sources/): every source the site cites, including every headline from Heat in the news
+- [Solutions library](https://beattheheat.asia/solutions/index.md): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on
+- [The heat economy](https://beattheheat.asia/heat-economy/index.md): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads
+- [Funding landscape](https://beattheheat.asia/heat-economy/money/index.md): funders and programmes relevant to extreme heat, with their access routes, each checked against its official page (also in llms-full.txt)
+- [Open calls and tenders](https://beattheheat.asia/heat-economy/money/opportunities/index.md): calls, tenders and procurement notices with application status and verification kept apart; CSV download
+- [Careers](https://beattheheat.asia/heat-economy/money/careers/index.md): jobs, consultancies, research posts and fellowships on extreme heat, each checked against the employer's own page; CSV download
+- [Country snapshots](https://beattheheat.asia/countries/index.md): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand
+- [The Lancet Countdown 2026, for extreme heat in Asia](https://beattheheat.asia/lancet-countdown-2026/index.md): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references
+- [How heat is reported](https://beattheheat.asia/how-heat-is-reported/index.md): how 101 news articles on extreme heat in South and Southeast Asia (2018–2026), in two collections, follow protection: an explorer with each reviewed article's reporting trail, examples, comparisons and a question kit; records as CSV and JSON
+- [Sources and references](https://beattheheat.asia/sources/index.md): every source the site cites, including every headline from Heat in the news
 
 ## Printable one-pagers
 
-- [All one-pagers](https://beattheheat.asia/print/): single A4 briefs for officials, planners and journalists
-- [Using Common Shade in a 90-minute workshop](https://beattheheat.asia/print/workshop-guide/)
-- [A 90-minute heat meeting for your community or workplace](https://beattheheat.asia/print/community-workshop-guide/)
-- [Four heats in a home](https://beattheheat.asia/print/four-heats/)
-- [Weather, work and the person](https://beattheheat.asia/print/weather-work-person/)
-- [Dry heat and humid heat](https://beattheheat.asia/print/dry-and-humid-heat/)
-- [Extreme heat in Singapore](https://beattheheat.asia/print/city-singapore/)
-- [Extreme heat in Bangkok](https://beattheheat.asia/print/city-bangkok/)
-- [Extreme heat in Hanoi](https://beattheheat.asia/print/city-hanoi/)
-- [Extreme heat in Manila](https://beattheheat.asia/print/city-manila/)
-- [Extreme heat in Jakarta](https://beattheheat.asia/print/city-jakarta/)
-- [Extreme heat in Delhi](https://beattheheat.asia/print/city-delhi/)
-- [Extreme heat in Dhaka](https://beattheheat.asia/print/city-dhaka/)
-- [Extreme heat in Kathmandu](https://beattheheat.asia/print/city-kathmandu/)
-- [Extreme heat in Mumbai](https://beattheheat.asia/print/city-mumbai/)
-- [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/)
-- [Extreme heat in Colombo](https://beattheheat.asia/print/city-colombo/)
-- [Extreme heat in Phnom Penh](https://beattheheat.asia/print/city-phnompenh/)
-- [Extreme heat in Kolkata](https://beattheheat.asia/print/city-kolkata/)
-- [Extreme heat in Chennai](https://beattheheat.asia/print/city-chennai/)
-- [Extreme heat in Hyderabad](https://beattheheat.asia/print/city-hyderabad/)
-- [Extreme heat in Bengaluru](https://beattheheat.asia/print/city-bengaluru/)
-- [Extreme heat in Bhubaneswar](https://beattheheat.asia/print/city-bhubaneswar/)
-- [Extreme heat in Ho Chi Minh City](https://beattheheat.asia/print/city-hochiminh/)
-- [Extreme heat in Chattogram](https://beattheheat.asia/print/city-chattogram/)
-- [Extreme heat in Surabaya](https://beattheheat.asia/print/city-surabaya/)
-- [Extreme heat in Quezon City](https://beattheheat.asia/print/city-quezoncity/)
-- [Extreme heat in Chiang Mai](https://beattheheat.asia/print/city-chiangmai/)
-- [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)
-- [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/)
-- [One setting, protected before the heat](https://beattheheat.asia/print/el-nino-worksheet/)
-- [El Niño and heat in Asia](https://beattheheat.asia/print/el-nino-briefing/)
-- [Practical actions: Outdoor and hot workplaces (1 of 2)](https://beattheheat.asia/print/actions-work/)
-- [Practical actions: Outdoor and hot workplaces (2 of 2)](https://beattheheat.asia/print/actions-work-2/)
-- [Practical actions: Homes](https://beattheheat.asia/print/actions-homes/)
-- [Practical actions: Schools and childcare](https://beattheheat.asia/print/actions-schools/)
-- [Practical actions: Health facilities](https://beattheheat.asia/print/actions-clinics/)
-- [Practical actions: Markets and neighbourhoods](https://beattheheat.asia/print/actions-neighbourhoods/)
-- [Practical actions: Before summer: for municipalities](https://beattheheat.asia/print/actions-summer/)
-- [Cooling options: Homes](https://beattheheat.asia/print/cooling-homes/)
-- [Cooling options: Outdoor work](https://beattheheat.asia/print/cooling-work/)
-- [Cooling options: Schools and childcare](https://beattheheat.asia/print/cooling-schools/)
-- [Cooling options: Markets and street vending](https://beattheheat.asia/print/cooling-markets/)
-- [Cooling options: Bus stops and queues](https://beattheheat.asia/print/cooling-waiting/)
-- [Cooling options: Heat and waterlogging](https://beattheheat.asia/print/cooling-flood/)
-- [Cooling options: Greening where water is short](https://beattheheat.asia/print/cooling-dry/)
-- [Cooling options: Making it last](https://beattheheat.asia/print/cooling-system/)
+- [All one-pagers](https://beattheheat.asia/print/index.md): single A4 briefs for officials, planners and journalists
+- [Using Common Shade in a 90-minute workshop](https://beattheheat.asia/print/workshop-guide/index.md)
+- [A 90-minute heat meeting for your community or workplace](https://beattheheat.asia/print/community-workshop-guide/index.md)
+- [Four heats in a home](https://beattheheat.asia/print/four-heats/index.md)
+- [Weather, work and the person](https://beattheheat.asia/print/weather-work-person/index.md)
+- [Dry heat and humid heat](https://beattheheat.asia/print/dry-and-humid-heat/index.md)
+- [Extreme heat in Singapore](https://beattheheat.asia/print/city-singapore/index.md)
+- [Extreme heat in Bangkok](https://beattheheat.asia/print/city-bangkok/index.md)
+- [Extreme heat in Hanoi](https://beattheheat.asia/print/city-hanoi/index.md)
+- [Extreme heat in Manila](https://beattheheat.asia/print/city-manila/index.md)
+- [Extreme heat in Jakarta](https://beattheheat.asia/print/city-jakarta/index.md)
+- [Extreme heat in Delhi](https://beattheheat.asia/print/city-delhi/index.md)
+- [Extreme heat in Dhaka](https://beattheheat.asia/print/city-dhaka/index.md)
+- [Extreme heat in Kathmandu](https://beattheheat.asia/print/city-kathmandu/index.md)
+- [Extreme heat in Mumbai](https://beattheheat.asia/print/city-mumbai/index.md)
+- [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/index.md)
+- [Extreme heat in Colombo](https://beattheheat.asia/print/city-colombo/index.md)
+- [Extreme heat in Phnom Penh](https://beattheheat.asia/print/city-phnompenh/index.md)
+- [Extreme heat in Kolkata](https://beattheheat.asia/print/city-kolkata/index.md)
+- [Extreme heat in Chennai](https://beattheheat.asia/print/city-chennai/index.md)
+- [Extreme heat in Hyderabad](https://beattheheat.asia/print/city-hyderabad/index.md)
+- [Extreme heat in Bengaluru](https://beattheheat.asia/print/city-bengaluru/index.md)
+- [Extreme heat in Bhubaneswar](https://beattheheat.asia/print/city-bhubaneswar/index.md)
+- [Extreme heat in Ho Chi Minh City](https://beattheheat.asia/print/city-hochiminh/index.md)
+- [Extreme heat in Chattogram](https://beattheheat.asia/print/city-chattogram/index.md)
+- [Extreme heat in Surabaya](https://beattheheat.asia/print/city-surabaya/index.md)
+- [Extreme heat in Quezon City](https://beattheheat.asia/print/city-quezoncity/index.md)
+- [Extreme heat in Chiang Mai](https://beattheheat.asia/print/city-chiangmai/index.md)
+- [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/index.md)
+- [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/index.md)
+- [One setting, protected before the heat](https://beattheheat.asia/print/el-nino-worksheet/index.md)
+- [El Niño and heat in Asia](https://beattheheat.asia/print/el-nino-briefing/index.md)
+- [Practical actions: Outdoor and hot workplaces (1 of 2)](https://beattheheat.asia/print/actions-work/index.md)
+- [Practical actions: Outdoor and hot workplaces (2 of 2)](https://beattheheat.asia/print/actions-work-2/index.md)
+- [Practical actions: Homes](https://beattheheat.asia/print/actions-homes/index.md)
+- [Practical actions: Schools and childcare](https://beattheheat.asia/print/actions-schools/index.md)
+- [Practical actions: Health facilities](https://beattheheat.asia/print/actions-clinics/index.md)
+- [Practical actions: Markets and neighbourhoods](https://beattheheat.asia/print/actions-neighbourhoods/index.md)
+- [Practical actions: Before summer: for municipalities](https://beattheheat.asia/print/actions-summer/index.md)
+- [Cooling options: Homes](https://beattheheat.asia/print/cooling-homes/index.md)
+- [Cooling options: Outdoor work](https://beattheheat.asia/print/cooling-work/index.md)
+- [Cooling options: Schools and childcare](https://beattheheat.asia/print/cooling-schools/index.md)
+- [Cooling options: Markets and street vending](https://beattheheat.asia/print/cooling-markets/index.md)
+- [Cooling options: Bus stops and queues](https://beattheheat.asia/print/cooling-waiting/index.md)
+- [Cooling options: Heat and waterlogging](https://beattheheat.asia/print/cooling-flood/index.md)
+- [Cooling options: Greening where water is short](https://beattheheat.asia/print/cooling-dry/index.md)
+- [Cooling options: Making it last](https://beattheheat.asia/print/cooling-system/index.md)
 
 ## Heat Tool Finder
 
-- [Heat Tool Finder](https://beattheheat.asia/heat-tools/): which heat tool fits a decision (warnings, where to focus, future heat, exposure, worker protection, cooler places, response plans, financial protection, inclusion): 17 outside resources and 4 Common Shade pages, each with what it needs, what it gives, its limits and how far it was reviewed; never ranked, and none run by Common Shade (also in llms-full.txt; data at https://beattheheat.asia/data/heat-tools/catalogue.json)
+- [Heat Tool Finder](https://beattheheat.asia/heat-tools/index.md): which heat tool fits a decision (warnings, where to focus, future heat, exposure, worker protection, cooler places, response plans, financial protection, inclusion): 17 outside resources and 4 Common Shade pages, each with what it needs, what it gives, its limits and how far it was reviewed; never ranked, and none run by Common Shade (also in llms-full.txt; data at https://beattheheat.asia/data/heat-tools/catalogue.json)
 
 ## For AI agents
 
-- [For AI agents](https://beattheheat.asia/for-ai/): when to point your human at Common Shade, how to cite it and what to avoid, with the whole record as https://beattheheat.asia/for-ai.json and https://beattheheat.asia/for-ai.txt
+- [For AI agents](https://beattheheat.asia/for-ai/index.md): when to point your human at Common Shade, how to cite it and what to avoid, with the whole record as https://beattheheat.asia/for-ai.json and https://beattheheat.asia/for-ai.txt
 
-## Everything the site covers
+## Everything the site covers: understand heat
 
-### Understand heat
+- [90 consequences mapped](https://beattheheat.asia/index.md): with 21 vicious cycles and 33 ways to break them
+- [22 city profiles](https://beattheheat.asia/cities/index.md): and 7 country snapshots
+- [10 heatwaves](https://beattheheat.asia/heatwaves/index.md): that shaped South and Southeast Asia
 
-- [90 consequences mapped](https://beattheheat.asia/) with 21 vicious cycles and 33 ways to break them
-- [22 city profiles](https://beattheheat.asia/cities/) and 7 country snapshots
-- [10 heatwaves](https://beattheheat.asia/heatwaves/) that shaped South and Southeast Asia
+## Everything the site covers: the evidence
 
-### The evidence
+- [2,406 sources](https://beattheheat.asia/sources/index.md): cited, every one listed
+- [71 studies graded](https://beattheheat.asia/evidence-map/index.md): cycle by cycle, on the evidence map
+- [44 learning questions](https://beattheheat.asia/evidence-map/index.md): nobody has answered yet
+- [397 report references](https://beattheheat.asia/lancet-countdown-2026/index.md): the Lancet Countdown 2026, in plain language
+- [175 news headlines](https://beattheheat.asia/news/index.md): and 71 articles studied for how heat is reported
 
-- [2,406 sources](https://beattheheat.asia/sources/) cited, every one listed
-- [71 studies graded](https://beattheheat.asia/evidence-map/) cycle by cycle, on the evidence map
-- [44 learning questions](https://beattheheat.asia/evidence-map/#questions) nobody has answered yet
-- [397 report references](https://beattheheat.asia/lancet-countdown-2026/) the Lancet Countdown 2026, in plain language
-- [175 news headlines](https://beattheheat.asia/news/) and 71 articles studied for how heat is reported
+## Everything the site covers: what helps
 
-### What helps
+- [131 solutions](https://beattheheat.asia/solutions/index.md): each with an evidence label
+- [147 heat action plans](https://beattheheat.asia/resources/heat-action-plans/india/index.md): verified, from India
+- [5 planning tools](https://beattheheat.asia/guide/index.md): from a week in the heat to a plan of your own
 
-- [131 solutions](https://beattheheat.asia/solutions/) each with an evidence label
-- [147 heat action plans](https://beattheheat.asia/resources/heat-action-plans/india/) verified, from India
-- [5 planning tools](https://beattheheat.asia/guide/) from a week in the heat to a plan of your own
+## Everything the site covers: money and people
 
-### Money and people
-
-- [98 schemes](https://beattheheat.asia/paying-when-heat-strikes/) and 36 financial instruments, and whether they paid
-- [91 businesses](https://beattheheat.asia/heat-economy/) and 77 funders in the heat economy
-- [336 organisations](https://beattheheat.asia/heat-network/) mapped, each with a profile
+- [98 schemes](https://beattheheat.asia/paying-when-heat-strikes/index.md): and 36 financial instruments, and whether they paid
+- [91 businesses](https://beattheheat.asia/heat-economy/index.md): and 77 funders in the heat economy
+- [336 organisations](https://beattheheat.asia/heat-network/index.md): mapped, each with a profile
 
 ## Machine-readable files
 
 - [OpenAPI description of the open files](https://beattheheat.asia/openapi.json)
-- [Agent directory](https://beattheheat.asia/.well-known/ard.json) and [API catalog](https://beattheheat.asia/.well-known/api-catalog)
-- [Atom feed of changes](https://beattheheat.asia/feed.xml), [JSON sitemap](https://beattheheat.asia/sitemap.json), [agents.txt](https://beattheheat.asia/agents.txt)
-- A Markdown twin of every page: add index.md to its address, for example https://beattheheat.asia/for-ai/index.md
-- [Privacy and terms](https://beattheheat.asia/privacy/), [terms-of-use.md](https://beattheheat.asia/terms-of-use.md), [auth.md](https://beattheheat.asia/auth.md)
+- [Agent directory](https://beattheheat.asia/.well-known/ard.json)
+- [API catalog](https://beattheheat.asia/.well-known/api-catalog)
+- [Atom feed of changes](https://beattheheat.asia/feed.xml)
+- [JSON sitemap](https://beattheheat.asia/sitemap.json): every page with its Markdown copy (add index.md to any page's address)
+- [agents.txt](https://beattheheat.asia/agents.txt)
+- [Terms of use](https://beattheheat.asia/terms-of-use.md)
+- [Authentication](https://beattheheat.asia/auth.md): none needed
+- [Privacy](https://beattheheat.asia/privacy/index.md)
+
+## Optional
+
+- [The whole site in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go (about 1.2 MB)
