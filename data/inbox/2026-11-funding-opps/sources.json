@@ -90,7 +90,7 @@
    "climate"
   ],
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261121121040/https://www.grandchallenges.ca/what-we-do/our-portfolio/climate-and-health/"
+  "archive": "https://web.archive.org/web/20261122115115/https://www.grandchallenges.ca/what-we-do/our-portfolio/climate-and-health/"
  },
  {
   "id": "src-fo-gcc-nexa",
@@ -203,7 +203,7 @@
    "summary proposal"
   ],
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261109075801/https://www.apn-gcr.org/opportunities/calls-for-proposals/"
+  "archive": "https://web.archive.org/web/20261122115152/https://www.apn-gcr.org/opportunities/calls-for-proposals/"
  },
  {
   "id": "src-fo-gcf-readiness",
@@ -490,7 +490,7 @@
    "unsolicited"
   ],
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261121133315/https://www.climateworks.org/programs/adaptation-and-resilience/fund/"
+  "archive": "https://web.archive.org/web/20260717151537/https://www.climateworks.org/programs/adaptation-and-resilience/fund/"
  },
  {
   "id": "src-fo-cw-heat-grantees",
@@ -922,8 +922,7 @@
    "climate",
    "unsolicited"
   ],
-  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261008065538/https://www.zurich.foundation/"
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox."
  },
  {
   "id": "src-fo-ifrc-gcrp",
@@ -1213,6 +1212,40 @@
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox."
  },
  {
+  "id": "src-fo-uncareers-287469-api",
+  "type": "source",
+  "keys": [
+   "uncareers-287469-api"
+  ],
+  "title": "Programme support and MEL expert, job opening data",
+  "publisher": "United Nations Careers (UNEP)",
+  "year": 2026,
+  "url": "https://careers.un.org/api/public/opening/jo/287469/en",
+  "kind": "official page",
+  "where": "funding, opportunities and careers",
+  "expect": [
+   "Programme support and MEL expert",
+   "United Nations Environment Programme",
+   "sustainable cooling",
+   "cold chain",
+   "Asia",
+   "India",
+   "Africa",
+   "Cool Coalition",
+   "OzonAction",
+   "Kigali",
+   "duration",
+   "home-based",
+   "remote",
+   "Paris",
+   "endDate",
+   "Monitoring, Evaluation",
+   "CON"
+  ],
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261122115720/https://careers.un.org/api/public/opening/jo/287469/en"
+ },
+ {
   "id": "src-fo-nus-microclimate-ra",
   "type": "source",
   "keys": [
@@ -1294,7 +1327,7 @@
    "Req ID"
   ],
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261121133749/https://careers.nus.edu.sg/job/Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29/30485-en_GB/"
+  "archive": "https://web.archive.org/web/20261122115741/https://careers.nus.edu.sg/job/Programme-Manager%2C-Heat-Resilience-&-Performance-Centre-%282-year-contract%29/30485-en_GB/"
  },
  {
   "id": "src-fo-nus-urban-climate-pdf",
@@ -1316,7 +1349,7 @@
    "Req ID"
   ],
   "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261121133812/https://careers.nus.edu.sg/job/Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling/34983-en_GB/"
+  "archive": "https://web.archive.org/web/20261122115806/https://careers.nus.edu.sg/job/Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling/34983-en_GB/"
  },
  {
   "id": "src-fo-nus-thermal-sensing",
@@ -1338,8 +1371,7 @@
    "Apply",
    "Req ID"
   ],
-  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261121133838/https://careers.nus.edu.sg/job/Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29/33561-en_GB/"
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox."
  },
  {
   "id": "src-fo-nus-ylls-ap",
@@ -1359,8 +1391,7 @@
    "Apply",
    "Req ID"
   ],
-  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261121133903/https://careers.nus.edu.sg/job/Assistant-Professor/34266-en_GB/"
+  "note": "Staged for the funding, opportunities and careers rebuild: a fact is published only when its term is found on this page. Not published from the inbox."
  },
  {
   "id": "src-fo-legacy-gcp",
@@ -1533,7 +1564,8 @@
    "closed",
    "2026"
   ],
-  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?"
+  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?",
+  "archive": "https://web.archive.org/web/20261121134017/https://villgro.org/programs/powering-livelihoods/"
  },
  {
   "id": "src-fo-legacy-efa-rd",
@@ -1598,8 +1630,7 @@
    "closed",
    "2026"
   ],
-  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?",
-  "archive": "https://web.archive.org/web/20261121123306/https://challenges.adb.org/en/challenges/tic-coldchain"
+  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?"
  },
  {
   "id": "src-fo-legacy-climate-pitch",
@@ -1774,8 +1805,7 @@
    "closed",
    "2026"
   ],
-  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?",
-  "archive": "https://web.archive.org/web/20240702072135/https://india.un.org/en/200833-interview-soumalya-mukherjee"
+  "note": "Legacy audit of the October 2026 programme research: does the page still open, and what does it say about applications?"
  },
  {
   "id": "src-fo-legacy-nature-for-cooling",

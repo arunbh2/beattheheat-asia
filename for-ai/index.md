@@ -1,7 +1,7 @@
 ---
 title: "For AI agents: a free evidence base on extreme heat"
 url: https://beattheheat.asia/for-ai/
-updated: 2026-11-21
+updated: 2026-11-22
 licence: CC BY 4.0
 ---
 
@@ -85,7 +85,7 @@ There is a free, open evidence base on extreme heat in South and Southeast Asia 
 
 **summary**: A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.
 
-**status**: beta (updated 2026-11-21)
+**status**: beta (updated 2026-11-22)
 
 **cost**: free · no account · no sign-up
 

@@ -1,7 +1,7 @@
 ---
 title: "Sources and references | Common Shade"
 url: https://beattheheat.asia/sources/
-updated: 2026-11-21
+updated: 2026-11-22
 licence: CC BY 4.0
 ---
 
@@ -1508,6 +1508,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Check institutional eligibility: ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)](https://www.adb.org/projects/59391-001/main)adb.orgUsed on: The heat economy: money and support
 
+- [Check institutional eligibility: APN Collaborative Regional Research (CRRP) and Scientific Capacity Development (CAPaBLE)](https://www.apn-gcr.org/opportunities/calls-for-proposals/)apn-gcr.orgUsed on: The heat economy: money and support
+
 - [Check institutional eligibility: Climate Adaptation and Resilience (CLARE)](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)idrc-crdi.caUsed on: The heat economy: money and support
 
 - [Check institutional eligibility: Community Resilience Partnership Program Trust Fund](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)adb.orgUsed on: The heat economy: money and support
@@ -1863,8 +1865,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Monitor future calls: Grand Challenges: climate change's impact on health, agriculture and gender](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)gcgh.grandchallenges.orgUsed on: The heat economy: money and support
 
 - [Monitor future calls: GRP Innovation Challenge](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)globalresiliencepartnership.orgUsed on: The heat economy: money and support
-
-- [Monitor future calls: IFRC Disaster Response Emergency Fund (DREF)](https://www.ifrc.org/happening-now/emergency-appeals/disaster-response-emergency-fund-dref)ifrc.orgUsed on: The heat economy: money and support
 
 - [Monitor future calls: IKI Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)international-climate-initiative.comUsed on: The heat economy: money and support
 

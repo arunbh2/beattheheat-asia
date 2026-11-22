@@ -1,7 +1,7 @@
 ---
 title: "Open calls and tenders"
 url: https://beattheheat.asia/heat-economy/money/opportunities/
-updated: 2026-10-01
+updated: 2026-11-22
 licence: CC BY 4.0
 ---
 
@@ -19,7 +19,7 @@ Grants, calls, prizes, technical assistance, readiness windows and procurement n
 
 Show them anyway
 
-| USD 250,000 to USD 2,000,000 per awardGrant, debt or equity | Applicants incorporated and implementing in countries across Asia and the Pacific; the full list of eligible countries is in Appendix B of the funding opportunity. | Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity. | 8 December 2026, 14:00 ET · 17 days left | OpenVerified |
+| USD 250,000 to USD 2,000,000 per awardGrant, debt or equity | Applicants incorporated and implementing in countries across Asia and the Pacific; the full list of eligible countries is in Appendix B of the funding opportunity. | Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity. | 8 December 2026, 14:00 ET · 16 days left | OpenVerified |
 [IKI Small Grants: eighth call](#opp-iki-small-2026)GIZ · Grant call | EUR 60,000 to EUR 200,000 per awardGrant | Sub-national, national and regional non-profit organisations in ODA-eligible countries. | ODA-eligible countries. | No deadline published | OpenVerified |
 [Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)](#opp-he-envhlth-02-2027)European Commission · Grant call | Not publishedGrant | Consortia; international cooperation is encouraged. Whether a partner from a given Asian country receives EU funding depends on Horizon Europe's country list. | Not limited to Europe for participation; funding of non-European partners depends on the country list. | No deadline published | UpcomingConflicting information |
 [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](#opp-gcf-readiness-2027)Green Climate Fund · Readiness support window | Not publishedGrant | National Designated Authorities, or entities they nominate; not open to other organisations directly. | Developing countries that are Parties to the UNFCCC. | 31 March 2027 (cut-off time not published) | RollingVerified |
@@ -45,13 +45,13 @@ OpenVerifiedGrant callExplicit heat focus
 
 **Where the work can happen**: Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity.
 
-**Deadline**: 8 December 2026, 14:00 ET · 17 days leftAs published: “December 8, 2026, 2:00 p.m. ET (extended)”Extended; earlier deadline 2026-11-17 (earlier deadline as given in listings elsewhere; the official page says the deadline was extended)
+**Deadline**: 8 December 2026, 14:00 ET · 16 days leftAs published: “December 8, 2026, 2:00 p.m. ET (extended)”Extended; earlier deadline 2026-11-17 (earlier deadline as given in listings elsewhere; the official page says the deadline was extended)
 
 **How it connects to heat**: Common Shade's reading. Extreme heat is one of the hazards named in the call.
 
 **Access route**: Periodic competitive calls
 
-**Source checked:** 21 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa Lighthouse](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/)
+**Source checked:** 22 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa Lighthouse](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/)
 
 ### IKI Small Grants: eighth call
 
@@ -73,7 +73,7 @@ OpenVerifiedGrant callPotential connection requiring confirmation
 
 **Access route**: Periodic competitive calls
 
-**Source checked:** 21 November 2026 · [GIZ for the International Climate Initiative: IKI Small Grants](https://iki-small-grants.de/) · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
+**Source checked:** 22 November 2026 · [GIZ for the International Climate Initiative: IKI Small Grants](https://iki-small-grants.de/) · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
 
 ### Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)
 
@@ -99,7 +99,7 @@ Published deadlines for this topic differ between sources (17 February 2027 and 
 
 [View open call](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-ENVHLTH-02)
 
-**Source checked:** 21 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
+**Source checked:** 22 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
 
 ### GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027
 
@@ -121,7 +121,7 @@ RollingVerifiedReadiness support windowRelated remit with a clear heat applicati
 
 **Access route**: Government nomination or endorsement; Through accredited entities
 
-**Source checked:** 21 November 2026 · [Green Climate Fund: Guide to accessing readiness support: country support modality](https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf)
+**Source checked:** 22 November 2026 · [Green Climate Fund: Guide to accessing readiness support: country support modality](https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf)
 
 ### ILO request for quotation: desk review and evidence mapping of occupational exposure to excessive heat in Thailand
 
@@ -143,7 +143,7 @@ ClosedVerifiedRequest for quotationExplicit heat focus
 
 **Access route**: Procurement or vendor registration
 
-**Source checked:** 21 November 2026 · [ILO via UN Global Marketplace: ILO request for quotation: desk review of occupational heat exposure in Thailand](https://www.ungm.org/Public/Notice/317698)
+**Source checked:** 22 November 2026 · [ILO via UN Global Marketplace: ILO request for quotation: desk review of occupational heat exposure in Thailand](https://www.ungm.org/Public/Notice/317698)
 
 ### Commonwealth Foundation open grants call 2026 to 2027
 
@@ -165,7 +165,7 @@ ClosedVerifiedGrant callPotential connection requiring confirmation
 
 **Access route**: Periodic competitive calls
 
-**Source checked:** 21 November 2026 · [Commonwealth Foundation: Open grants call](https://commonwealthfoundation.com/grants/annual/)
+**Source checked:** 22 November 2026 · [Commonwealth Foundation: Open grants call](https://commonwealthfoundation.com/grants/annual/)
 
 ### Global EbA Fund: small-size grants, eighth call
 
@@ -187,7 +187,7 @@ ClosedVerifiedGrant callPotential connection requiring confirmation
 
 **Access route**: Periodic competitive calls
 
-**Source checked:** 21 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
+**Source checked:** 22 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
 
 ### UNDP India RFP-050-IND-2026: workplan for a 'heat-smart' city and a digital heat-resilience toolkit
 
@@ -209,7 +209,7 @@ ClosedVerifiedRequest for proposals (firms)Explicit heat focus
 
 **Access route**: Procurement or vendor registration
 
-**Source checked:** 21 November 2026 · [UNDP India (procurement notice): RFP-050-IND-2026: Developing a workplan for 'heat-smart' city and interactive digital heat-resilience toolkit](https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250)
+**Source checked:** 22 November 2026 · [UNDP India (procurement notice): RFP-050-IND-2026: Developing a workplan for 'heat-smart' city and interactive digital heat-resilience toolkit](https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250)
 
 ### GRP Innovation Challenge 2026
 
@@ -231,7 +231,7 @@ ClosedVerifiedPrize or challengePotential connection requiring confirmation
 
 **Access route**: Periodic competitive calls
 
-**Source checked:** 21 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
+**Source checked:** 22 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
 
 ### UNICEF Venture Fund: funding frontier climate tech for children's health
 
@@ -253,7 +253,7 @@ ClosedVerifiedGrant callExplicit heat focus
 
 **Access route**: Periodic competitive calls
 
-**Source checked:** 21 November 2026 · [UNICEF Venture Fund: Funding frontier climate tech for children's health](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
+**Source checked:** 22 November 2026 · [UNICEF Venture Fund: Funding frontier climate tech for children's health](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
 
 ### IKI Medium Grants 2026
 
@@ -279,7 +279,7 @@ The IKI page lists Medium Grants 2026 as closed; secondary listings gave a deadl
 
 [Monitor future calls](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
 
-**Source checked:** 21 November 2026 · [International Climate Initiative (IKI): Medium Grants](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
+**Source checked:** 22 November 2026 · [International Climate Initiative (IKI): Medium Grants](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
 
 ## How to read these
 

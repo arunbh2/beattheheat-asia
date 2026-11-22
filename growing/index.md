@@ -1,7 +1,7 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-21
+updated: 2026-11-22
 licence: CC BY 4.0
 ---
 
@@ -112,14 +112,14 @@ What the source says quoted“submissions may be made at any time”
 - Heat action plans
 - Anticipatory action
 
-ReviewFifty-seven sources staged and checked on GitHub, plus the 22 programme pages from the October research. Records whose key facts were not found stay held back; several secondary listings were corrected by the official pages, including a call listed as open that its funder shows as closed, and a tender deadline a week later than reported elsewhere.. 88 checked · 75 confirmed · 13 not confirmed, each recorded.
+ReviewFifty-seven sources staged and checked on GitHub, plus the 22 programme pages from the October research. Records whose key facts were not found stay held back; several secondary listings were corrected by the official pages, including a call listed as open that its funder shows as closed, and a tender deadline a week later than reported elsewhere.. 89 checked · 78 confirmed · 11 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** Who funds work on extreme heat in South and Southeast Asia, which calls are open, who can apply, and where are the jobs?
-- **The search.** 88 sources were gathered for checking.
+- **The search.** 89 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 75 confirmed, and 13 could not be (6 blocked automated reading, 4 did not respond, 3 did not show the expected text).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 78 confirmed, and 11 could not be (6 blocked automated reading, 3 did not respond, 2 did not show the expected text).
 - **What we set aside.** 117 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** More verified current calls and jobs, especially in national languages and from national schemes; funding for recurring delivery, worker organisations and locally led work; ReliefWeb jobs once its app name is approved.

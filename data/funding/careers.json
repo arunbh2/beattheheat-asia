@@ -427,6 +427,60 @@
      "Apply"
     ]
    ]
+  },
+  {
+   "id": "car-unep-scccs-mel-287469",
+   "title": "Programme support and MEL expert: Sustainable Cooling and Cold Chain Solutions programme",
+   "org": "org-unep",
+   "employer": "UN Environment Programme",
+   "reference": "287469",
+   "role": "consultancy-individual",
+   "discipline": "Monitoring, evaluation and learning",
+   "contribution": "evidence",
+   "seniority": "Experienced",
+   "location": {
+    "text": "Listed under the Paris duty station; the posting names ACES, the programme's first Regional Centre of Excellence, among delivery partners, and does not name a country in Asia.",
+    "src": "uncareers-287469-api",
+    "term": "Paris"
+   },
+   "countries": [],
+   "remote": false,
+   "remote_text": "Not confirmed",
+   "contract": {
+    "text": "Individual consultancy: strengthening and maintaining the programme-wide Monitoring, Evaluation and Learning system of the Sustainable Cooling and Cold Chain Solutions (SCCCS) programme.",
+    "src": "uncareers-287469-api",
+    "term": "Monitoring, Evaluation"
+   },
+   "pay": "not-stated",
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-11-22",
+     "time": "23:59",
+     "tz": "ET",
+     "wording": "Closes 23 November 2026, 04:59 UTC (22 November, 23:59 in New York)",
+     "src": "uncareers-287469-api",
+     "term": "endDate"
+    }
+   ],
+   "stated_status": "open",
+   "official_url": "https://careers.un.org/jobSearchDescription/287469?language=en",
+   "relevance_strength": "adjacent",
+   "relevance_why": "Sustainable cooling and cold chains are part of how people and supply chains are protected from heat, but this role builds monitoring and learning for the programme as a whole and the posting does not mention extreme heat or Asia.",
+   "asia": false,
+   "sources": [
+    "uncareers-287469-api"
+   ],
+   "core": [
+    [
+     "uncareers-287469-api",
+     "Programme support and MEL expert"
+    ],
+    [
+     "uncareers-287469-api",
+     "sustainable cooling"
+    ]
+   ]
   }
  ]
 }
