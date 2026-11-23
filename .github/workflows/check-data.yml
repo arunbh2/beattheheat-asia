@@ -1,9 +1,10 @@
 name: Check the knowledge base
+# every push and pull request: the run takes about half a minute, and with no path filter a required check is never
+# left pending by a change the filter skipped. Commits the bots push with GITHUB_TOKEN start no workflow, so the news,
+# source-check and harvest commits add no runs.
 on:
   push:
-    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html", "**/*.css", "script.js", "tools/site-nav.js", "tools/check-stripes.js", "tools/stripe-rules.js", "tools/check-cards.js", "tools/card-rules.js", "tools/check-type.js", "tools/type-rules.js", "tools/check-colours.js", "tools/colour-rules.js", "tools/checks.js", "tools/check-*.js", "tools/signals-sync.js", "package.json", ".github/workflows/check-data.yml"]
   pull_request:
-    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html", "**/*.css", "script.js", "tools/site-nav.js", "tools/check-stripes.js", "tools/stripe-rules.js", "tools/check-cards.js", "tools/card-rules.js", "tools/check-type.js", "tools/type-rules.js", "tools/check-colours.js", "tools/colour-rules.js", "tools/checks.js", "tools/check-*.js", "tools/signals-sync.js", "package.json", ".github/workflows/check-data.yml"]
 # the check only reads: pull requests and pushes get a read-only token, not written into the checkout
 permissions:
   contents: read
@@ -16,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with: { persist-credentials: false }
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with: { node-version: 22 }
       # every check in tools/checks.js except the three browser checks (contrast, targets, site), which run locally;
       # each check gets its own folded log group, failures and notes become annotations, and the run summary has a table
