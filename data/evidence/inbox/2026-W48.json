@@ -1,0 +1,252 @@
+{
+ "week": "2026-W48",
+ "harvested": "2026-11-23T12:52:13.317Z",
+ "window": {
+  "from": "2026-11-15",
+  "to": "2026-11-23"
+ },
+ "sources": {
+  "europepmc": {
+   "ok": true,
+   "found": 5
+  },
+  "crossref": {
+   "ok": true,
+   "found": 106
+  },
+  "arxiv": {
+   "ok": true,
+   "found": 0
+  },
+  "openalex": {
+   "ok": true,
+   "found": 100
+  },
+  "worldbank": {
+   "ok": true,
+   "found": 0
+  },
+  "newsfeed": {
+   "ok": true,
+   "found": 151
+  },
+  "who": {
+   "ok": true,
+   "found": 50
+  }
+ },
+ "counts": {
+  "found": 412,
+  "distinct": 345,
+  "new": 233,
+  "kept": 4,
+  "set_aside": 229,
+  "news_page_no_abstract": 59
+ },
+ "candidates": [
+  {
+   "key": "doi:10.21203/rs.3.rs-10514260/v1",
+   "title": "Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan",
+   "url": "https://doi.org/10.21203/rs.3.rs-10514260/v1",
+   "doi": "10.21203/rs.3.rs-10514260/v1",
+   "date": "2026-11-18",
+   "venue": "Research Square",
+   "kind": "preprint",
+   "first_author": "Haroon MH",
+   "found_in": [
+    "Preprint via Europe PMC",
+    "Crossref",
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "30 districts",
+     "quote": "We combine three decades of satellite-derived wet bulb globe temperature (WBGT) with Pakistan Labour Force Survey microdata collapsed to a district-quarter panel covering 30 districts from 2001 to 2021 (2,269 cells), alongside roughly thirty interviews across five districts."
+    },
+    "geography": {
+     "value": "Pakistan",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "1°C",
+     "quote": "A 1°C peak anomaly reduces average weekly hours by 0.33 (wild-cluster bootstrap p = 0.003), and by 1.21 hours in summer, close to 2.5 percent of mean hours, while raising underemployment."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "cross-sectional survey",
+     "qualitative"
+    ],
+    "cycles": [
+     "poverty"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.1007/s44475-026-00083-8",
+   "title": "Mapping heat health risk in Madhya Pradesh and Odisha using a hazard exposure and vulnerability framework",
+   "url": "https://doi.org/10.1007/s44475-026-00083-8",
+   "doi": "10.1007/s44475-026-00083-8",
+   "date": "2026-11-20",
+   "venue": "Discover Hazards",
+   "kind": "article",
+   "first_author": "Das",
+   "found_in": [
+    "OpenAlex"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "India",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": null,
+    "cycles": [
+     "clinic"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.64898/2026.11.08.26367540",
+   "title": "Data-driven estimation of the onset of heat-related mortality in five Indian cities",
+   "url": "https://doi.org/10.64898/2026.11.08.26367540",
+   "doi": "10.64898/2026.11.08.26367540",
+   "date": "2026-11-10",
+   "venue": "Preprint",
+   "kind": "preprint",
+   "first_author": "Robles",
+   "found_in": [
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "South Asia; Ahmedabad; Chennai; Delhi; Kolkata; Mumbai",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "time-series",
+     "modelling"
+    ],
+    "cycles": [
+     "invisible"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.1016/j.joclim.2026.100768",
+   "title": "Ambient temperature and non-communicable disease presentations and mortality in a Pakistani ED.",
+   "url": "https://doi.org/10.1016/j.joclim.2026.100768",
+   "doi": "10.1016/j.joclim.2026.100768",
+   "date": "2026-10-28",
+   "venue": "The journal of climate change and health",
+   "kind": "article",
+   "first_author": "Saleem",
+   "found_in": [
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "Pakistan; Karachi",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "31 °C",
+     "quote": "Autoregressive Distributed Lag (ARDL) models evaluated the delayed effect of extreme heat (≥31 °C) on daily mortality rates."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "time-series",
+     "review"
+    ],
+    "cycles": [
+     "clinic"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  }
+ ]
+}
