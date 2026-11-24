@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:54:36.612Z",
+ "updated": "2026-11-24T00:05:23.301Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -364,16 +364,6 @@
    "firstAuthor": "Sabut A"
   },
   {
-   "title": "Estimating excess mortality during heat waves using a causal inference framework and non-randomized time series",
-   "journal": "medRxiv",
-   "date": "2026-10-14",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13742708",
-   "firstAuthor": ""
-  },
-  {
    "title": "Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya.",
    "journal": "Frontiers in global women's health",
    "date": "2026-10-12",
@@ -602,6 +592,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1073/pnas.2607273123",
    "firstAuthor": "Sabut A"
+  },
+  {
+   "title": "Changing patterns of heat waves and population exposure in India, 1980-2024",
+   "journal": "Preprint",
+   "date": "2026-09-21",
+   "doi": "10.21203/rs.3.rs-10806998/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-10806998/v1",
+   "firstAuthor": "Talukdar S"
   }
  ]
 }

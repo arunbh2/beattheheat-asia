@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "3 areas hit ‘dangerous’ heat index level on Monday - Pagasa",
+   "url": "https://newsinfo.inquirer.net/2345879/3-areas-hit-dangerous-heat-index-level-on-monday-pagasa",
+   "via": "Inquirer",
+   "date": "2026-11-23T20:48:09Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Coron, Cuyo forecast to have ‘dangerous’ heat index on Nov. 22",
    "url": "https://newsinfo.inquirer.net/2345114/cuyo-curon-in-palawan-heat-index-to-hit-dangerous-level-on-nov-22",
    "via": "Inquirer",
@@ -1387,5 +1394,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-22T19:51:35.721Z"
+ "updated": "2026-11-24T00:05:23.451Z"
 }
