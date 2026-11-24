@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-24T00:05:23.301Z",
+ "updated": "2026-11-24T10:07:33.539Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Health and occupational implications of heatwave exposure in Southern India",
+   "journal": "Preprint",
+   "date": "2026-11-23",
+   "doi": "10.21203/rs.3.rs-11611210/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-11611210/v1",
+   "firstAuthor": "Mariaselvam MA"
+  },
   {
    "title": "Heatwaves spell to consequent heavy rainfall in a changing climate over Bangladesh.",
    "journal": "PloS one",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1073/pnas.2607273123",
    "firstAuthor": "Sabut A"
-  },
-  {
-   "title": "Changing patterns of heat waves and population exposure in India, 1980-2024",
-   "journal": "Preprint",
-   "date": "2026-09-21",
-   "doi": "10.21203/rs.3.rs-10806998/v1",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.21203/rs.3.rs-10806998/v1",
-   "firstAuthor": "Talukdar S"
   }
  ]
 }

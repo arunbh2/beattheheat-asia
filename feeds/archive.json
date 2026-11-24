@@ -193,6 +193,14 @@
  ],
  "research": [
   {
+   "title": "Health and occupational implications of heatwave exposure in Southern India",
+   "url": "https://doi.org/10.21203/rs.3.rs-11611210/v1",
+   "journal": "Preprint",
+   "date": "2026-11-23",
+   "firstAuthor": "Mariaselvam MA",
+   "preprint": true
+  },
+  {
    "title": "White-backed chalky grains of japonica rice caused by heat stress during maturation is associated with morphological and epigenetic regulation.",
    "url": "https://doi.org/10.1093/aob/mcag367",
    "journal": "Annals of botany",
@@ -1394,5 +1402,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-24T00:05:23.451Z"
+ "updated": "2026-11-24T10:07:33.841Z"
 }
