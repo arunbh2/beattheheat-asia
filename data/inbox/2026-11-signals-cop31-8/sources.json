@@ -1,0 +1,196 @@
+[
+ {
+  "id": "src-cop31g-unfccc",
+  "type": "source",
+  "keys": [
+   "unfccc"
+  ],
+  "title": "COP31 delivers important progress across negotiations and Action Agenda, advancing implementation, but fails to agree Presidency-Led Decision",
+  "publisher": "UNFCCC",
+  "year": 2026,
+  "url": "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of",
+  "kind": "UN news release",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "fails to agree Presidency-Led Decision",
+   "adaptation",
+   "task force",
+   "indicator"
+  ],
+  "claims": [
+   "c-separate",
+   "c-gga"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-unnews",
+  "type": "source",
+  "keys": [
+   "unnews"
+  ],
+  "title": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'",
+  "publisher": "UN News",
+  "year": 2026,
+  "url": "https://news.un.org/en/story/2026/11/1168855",
+  "kind": "UN news page",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "without climate pact"
+  ],
+  "claims": [
+   "c-close",
+   "c-health"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-carbonbrief",
+  "type": "source",
+  "keys": [
+   "carbonbrief"
+  ],
+  "title": "COP31: Key outcomes agreed at the UN climate talks in Antalya",
+  "publisher": "Carbon Brief",
+  "year": 2026,
+  "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya",
+  "kind": "Outcomes summary",
+  "where": "COP31",
+  "expect": [
+   "Antalya",
+   "Antalya pact",
+   "adaptation",
+   "task force",
+   "October 2027",
+   "indicators",
+   "120bn",
+   "tripl",
+   "Adaptation Fund",
+   "share of proceeds",
+   "carbon-market",
+   "carbon market",
+   "136",
+   "national adaptation plan",
+   "NAP"
+  ],
+  "claims": [
+   "c-close",
+   "c-separate",
+   "c-gga",
+   "c-finance",
+   "c-af",
+   "c-naps"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-cnn",
+  "type": "source",
+  "keys": [
+   "cnn"
+  ],
+  "title": "Global climate summit collapses as countries fail to agree on moving away from fossil fuels",
+  "publisher": "CNN",
+  "year": 2026,
+  "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure",
+  "kind": "News report",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Sunday"
+  ],
+  "claims": [
+   "c-close"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-unep",
+  "type": "source",
+  "keys": [
+   "unep"
+  ],
+  "title": "Eight key takeaways from the UN climate talks",
+  "publisher": "UNEP",
+  "year": 2026,
+  "url": "https://www.unep.org/en/news-and-stories/technical-highlight/eight-key-takeaways-un-climate-talks",
+  "kind": "UN technical highlight",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "roadmap",
+   "Ethiopia"
+  ],
+  "claims": [
+   "c-roadmap"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-hpw-final",
+  "type": "source",
+  "keys": [
+   "hpw-final"
+  ],
+  "title": "COP31 Climate Summit That Could Not Say 'Fossil Fuels' Ends With No Deal",
+  "publisher": "Health Policy Watch",
+  "year": 2026,
+  "url": "https://healthpolicy-watch.news/cop31-consensus-collapse-at-climate-summit/",
+  "kind": "News report",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya Pact",
+   "Ends With No Deal"
+  ],
+  "claims": [
+   "c-close",
+   "c-health"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-hpw-draft",
+  "type": "source",
+  "keys": [
+   "hpw-draft"
+  ],
+  "title": "Health Wins Key Mention In First COP31 Draft Decision Text",
+  "publisher": "Health Policy Watch",
+  "year": 2026,
+  "url": "https://healthpolicy-watch.news/health-wins-key-mention-in-draft-cop31-decision-document/",
+  "kind": "News report",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Health Wins Key Mention"
+  ],
+  "claims": [
+   "c-health"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31g-iisd",
+  "type": "source",
+  "keys": [
+   "iisd"
+  ],
+  "title": "COP 31 Ends Without Antalya Pact - Time to rebuild trust",
+  "publisher": "IISD",
+  "year": 2026,
+  "url": "https://www.iisd.org/articles/statement/cop31-ends-without-antalya-pact-time-rebuild-trust",
+  "kind": "Statement",
+  "where": "COP31",
+  "expect": [
+   "Antalya",
+   "Without Antalya Pact"
+  ],
+  "claims": [
+   "c-close"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
