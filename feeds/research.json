@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-25T08:53:04.380Z",
+ "updated": "2026-11-25T21:51:37.305Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Developing a Personalized Occupational Heat Exposure Index",
+   "journal": "Environment & Health",
+   "date": "2026-11-25",
+   "doi": "",
+   "pmid": "",
+   "preprint": false,
+   "url": "https://europepmc.org/article/PMC/PMC13794220",
+   "firstAuthor": "Wiskel T"
+  },
   {
    "title": "Health and occupational implications of heatwave exposure in Southern India",
    "journal": "Preprint",
@@ -324,26 +334,6 @@
    "firstAuthor": "Papatsiros VG"
   },
   {
-   "title": "Seasonal ambient temperature and particulate matter as discriminators of hyperemesis gravidarum severity: a retrospective comparative observational study",
-   "journal": "Frontiers in public health",
-   "date": "2026-10-16",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13658146",
-   "firstAuthor": "Akbulut Ş"
-  },
-  {
-   "title": "Rising global population coexposure to heatwaves and landscape fire-sourced air pollution",
-   "journal": "Science advances",
-   "date": "2026-10-16",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13666011",
-   "firstAuthor": "Wu Y"
-  },
-  {
    "title": "The association between extreme heat and sperm quality in a chronically heat-exposed population: An observational study in Singapore.",
    "journal": "Environmental epidemiology (Philadelphia, Pa.)",
    "date": "2026-10-15",
@@ -372,6 +362,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1038/s41467-026-78045-3",
    "firstAuthor": "Sabut A"
+  },
+  {
+   "title": "Rising global population coexposure to heatwaves and landscape fire-sourced air pollution.",
+   "journal": "Science advances",
+   "date": "2026-10-14",
+   "doi": "10.1126/sciadv.aea9749",
+   "pmid": "42873846",
+   "preprint": false,
+   "url": "https://doi.org/10.1126/sciadv.aea9749",
+   "firstAuthor": "Wu Y"
   },
   {
    "title": "Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya.",
@@ -554,6 +554,16 @@
    "firstAuthor": "HASSAN WU"
   },
   {
+   "title": "Seasonal ambient temperature and particulate matter as discriminators of hyperemesis gravidarum severity: a retrospective comparative observational study.",
+   "journal": "Frontiers in public health",
+   "date": "2026-09-29",
+   "doi": "10.3389/fpubh.2026.1957434",
+   "pmid": "42871158",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fpubh.2026.1957434",
+   "firstAuthor": "Akbulut Ş"
+  },
+  {
    "title": "Occupational Heat Stress Prevention Interventions: A Scoping Review of Evidence and Gaps.",
    "journal": "Journal of occupational health",
    "date": "2026-09-26",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1186/s12883-026-05370-x",
    "firstAuthor": "Zhang Y"
-  },
-  {
-   "title": "Compound drought-heat wave hazards are concentrated in US regions with multiple social vulnerabilities and agricultural dependence.",
-   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-   "date": "2026-09-21",
-   "doi": "10.1073/pnas.2607273123",
-   "pmid": "42766787",
-   "preprint": false,
-   "url": "https://doi.org/10.1073/pnas.2607273123",
-   "firstAuthor": "Sabut A"
   }
  ]
 }

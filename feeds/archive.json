@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "5 areas reach danger-level heat index amid El Niño on Nov. 25",
+   "url": "https://newsinfo.inquirer.net/2347145/5-areas-reach-danger-level-heat-index-amid-el-nino-on-nov-25",
+   "via": "Inquirer",
+   "date": "2026-11-25T21:50:25Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Study reveals rising ‘double threat’ of wildfire smoke and heatwaves in Indonesia",
    "url": "https://news.mongabay.com/2026/11/study-reveals-rising-double-threat-of-wildfire-smoke-and-heatwaves-in-indonesia/",
    "via": "Mongabay",
@@ -199,6 +206,14 @@
   }
  ],
  "research": [
+  {
+   "title": "Developing a Personalized Occupational Heat Exposure Index",
+   "url": "https://europepmc.org/article/PMC/PMC13794220",
+   "journal": "Environment & Health",
+   "date": "2026-11-25",
+   "firstAuthor": "Wiskel T",
+   "preprint": false
+  },
   {
    "title": "Health and occupational implications of heatwave exposure in Southern India",
    "url": "https://doi.org/10.21203/rs.3.rs-11611210/v1",
@@ -1104,6 +1119,14 @@
    "preprint": false
   },
   {
+   "title": "Seasonal ambient temperature and particulate matter as discriminators of hyperemesis gravidarum severity: a retrospective comparative observational study.",
+   "url": "https://doi.org/10.3389/fpubh.2026.1957434",
+   "journal": "Frontiers in public health",
+   "date": "2026-09-29",
+   "firstAuthor": "Akbulut Ş",
+   "preprint": false
+  },
+  {
    "title": "Occupational Heat Stress Prevention Interventions: A Scoping Review of Evidence and Gaps.",
    "url": "https://doi.org/10.1093/joccuh/uiag057",
    "journal": "Journal of occupational health",
@@ -1409,5 +1432,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-25T08:53:04.477Z"
+ "updated": "2026-11-25T21:51:37.508Z"
 }
