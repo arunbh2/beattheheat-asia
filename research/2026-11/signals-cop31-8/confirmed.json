@@ -1,0 +1,91 @@
+[
+ {
+  "id": "c-close",
+  "where": "COP31 watch: closing check-in",
+  "text": "COP31 closed on Sunday 22 November 2026 without adopting the presidency's proposed cover decision, the Antalya Pact.",
+  "sources": [
+   {
+    "label": "CNN: Global climate summit collapses as countries fail to agree on moving away from fossil fuels, 2026",
+    "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure"
+   },
+   {
+    "label": "UN News: COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science', 2026",
+    "url": "https://news.un.org/en/story/2026/11/1168855"
+   },
+   {
+    "label": "Carbon Brief: COP31: Key outcomes agreed at the UN climate talks in Antalya, 2026",
+    "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
+   }
+  ]
+ },
+ {
+  "id": "c-separate",
+  "where": "COP31 watch: closing check-in",
+  "text": "Negotiated decisions on separate agenda items, including adaptation, were adopted even though the cover decision was not.",
+  "sources": [
+   {
+    "label": "UNFCCC: COP31 delivers important progress across negotiations and Action Agenda, advancing implementation, but fails to agree Presidency-Led Decision, 2026",
+    "url": "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of"
+   }
+  ]
+ },
+ {
+  "id": "c-gga",
+  "where": "Global goal on adaptation: indicators",
+  "text": "Parties agreed to set up a task force to refine the adaptation indicators agreed at COP30. The source check did not confirm the date by which its guidance is due, so none is given.",
+  "sources": [
+   {
+    "label": "UNFCCC: COP31 delivers important progress across negotiations and Action Agenda, advancing implementation, but fails to agree Presidency-Led Decision, 2026",
+    "url": "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of"
+   }
+  ]
+ },
+ {
+  "id": "c-finance",
+  "where": "Adaptation finance",
+  "text": "The final text set no figure for tripling adaptation finance: a proposed US$120 billion figure for 2035 was dropped, and countries agreed only to discuss how to triple it.",
+  "sources": [
+   {
+    "label": "Carbon Brief: COP31: Key outcomes agreed at the UN climate talks in Antalya, 2026",
+    "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
+   }
+  ]
+ },
+ {
+  "id": "c-af",
+  "where": "Adaptation finance: Adaptation Fund",
+  "text": "Decisions at COP31 enable the Adaptation Fund to receive a share of the proceeds of carbon trading under the Paris Agreement's crediting mechanism.",
+  "sources": [
+   {
+    "label": "Carbon Brief: COP31: Key outcomes agreed at the UN climate talks in Antalya, 2026",
+    "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
+   }
+  ]
+ },
+ {
+  "id": "c-health",
+  "where": "Health",
+  "text": "The first draft of the cover decision carried a paragraph on climate change and health; with the cover decision not adopted, no health text was agreed in it.",
+  "sources": [
+   {
+    "label": "Health Policy Watch: Health Wins Key Mention In First COP31 Draft Decision Text, 2026",
+    "url": "https://healthpolicy-watch.news/health-wins-key-mention-in-draft-cop31-decision-document/"
+   },
+   {
+    "label": "Health Policy Watch: COP31 Climate Summit That Could Not Say 'Fossil Fuels' Ends With No Deal, 2026",
+    "url": "https://healthpolicy-watch.news/cop31-consensus-collapse-at-climate-summit/"
+   }
+  ]
+ },
+ {
+  "id": "c-naps",
+  "where": "Adaptation: national adaptation plans",
+  "text": "By the end of COP31, 136 national adaptation plans had been submitted.",
+  "sources": [
+   {
+    "label": "Carbon Brief: COP31: Key outcomes agreed at the UN climate talks in Antalya, 2026",
+    "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
+   }
+  ]
+ }
+]

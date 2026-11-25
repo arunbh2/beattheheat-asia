@@ -1,37 +1,303 @@
 {
- "about": "COP31 closing check-in, decisions (25 November 2026). The conference ended on Sunday 22 November without the presidency's proposed cover decision; separate negotiated decisions were adopted. Sources were found by web search from the build session and could not be read here, so each term is taken from the report's headline or from the wording search results quoted from it; a claim reaches a page only if the source check finds every term on the page. Readings of how good or bad the outcome was are left out: the site describes what was adopted, what was not, and what each step does not yet show.",
+ "about": "COP31 closing check-in, decisions (25 November 2026). The conference ended on Sunday 22 November without the presidency's proposed cover decision; separate negotiated decisions were adopted. Sources were found by web search from the build session and could not be read here, so each term is taken from the report's headline or from the wording search results quoted from it; a claim reaches a page only if the source check finds every term on the page. Readings of how good or bad the outcome was are left out: the site describes what was adopted, what was not, and what each step does not yet show. After the first check (25 November): the indicators claim was narrowed to the task force (the guidance date was not found on the pages), and the heat resilience roadmap launch place was not found on UNEP's summary, so that claim stays dropped.",
  "sources": [
-  { "key": "unfccc", "title": "COP31 delivers important progress across negotiations and Action Agenda, advancing implementation, but fails to agree Presidency-Led Decision", "publisher": "UNFCCC", "year": 2026, "kind": "UN news release", "url": "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of", "expect": ["COP31"] },
-  { "key": "unnews", "title": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'", "publisher": "UN News", "year": 2026, "kind": "UN news page", "url": "https://news.un.org/en/story/2026/11/1168855", "expect": ["COP31"] },
-  { "key": "carbonbrief", "title": "COP31: Key outcomes agreed at the UN climate talks in Antalya", "publisher": "Carbon Brief", "year": 2026, "kind": "Outcomes summary", "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya", "expect": ["Antalya"] },
-  { "key": "cnn", "title": "Global climate summit collapses as countries fail to agree on moving away from fossil fuels", "publisher": "CNN", "year": 2026, "kind": "News report", "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure", "expect": ["COP31"] },
-  { "key": "unep", "title": "Eight key takeaways from the UN climate talks", "publisher": "UNEP", "year": 2026, "kind": "UN technical highlight", "url": "https://www.unep.org/en/news-and-stories/technical-highlight/eight-key-takeaways-un-climate-talks", "expect": ["COP31"] },
-  { "key": "hpw-final", "title": "COP31 Climate Summit That Could Not Say 'Fossil Fuels' Ends With No Deal", "publisher": "Health Policy Watch", "year": 2026, "kind": "News report", "url": "https://healthpolicy-watch.news/cop31-consensus-collapse-at-climate-summit/", "expect": ["COP31"] },
-  { "key": "hpw-draft", "title": "Health Wins Key Mention In First COP31 Draft Decision Text", "publisher": "Health Policy Watch", "year": 2026, "kind": "News report", "url": "https://healthpolicy-watch.news/health-wins-key-mention-in-draft-cop31-decision-document/", "expect": ["COP31"] },
-  { "key": "iisd", "title": "COP 31 Ends Without Antalya Pact - Time to rebuild trust", "publisher": "IISD", "year": 2026, "kind": "Statement", "url": "https://www.iisd.org/articles/statement/cop31-ends-without-antalya-pact-time-rebuild-trust", "expect": ["Antalya"] }
+  {
+   "key": "unfccc",
+   "title": "COP31 delivers important progress across negotiations and Action Agenda, advancing implementation, but fails to agree Presidency-Led Decision",
+   "publisher": "UNFCCC",
+   "year": 2026,
+   "kind": "UN news release",
+   "url": "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "unnews",
+   "title": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'",
+   "publisher": "UN News",
+   "year": 2026,
+   "kind": "UN news page",
+   "url": "https://news.un.org/en/story/2026/11/1168855",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "carbonbrief",
+   "title": "COP31: Key outcomes agreed at the UN climate talks in Antalya",
+   "publisher": "Carbon Brief",
+   "year": 2026,
+   "kind": "Outcomes summary",
+   "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya",
+   "expect": [
+    "Antalya"
+   ]
+  },
+  {
+   "key": "cnn",
+   "title": "Global climate summit collapses as countries fail to agree on moving away from fossil fuels",
+   "publisher": "CNN",
+   "year": 2026,
+   "kind": "News report",
+   "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "unep",
+   "title": "Eight key takeaways from the UN climate talks",
+   "publisher": "UNEP",
+   "year": 2026,
+   "kind": "UN technical highlight",
+   "url": "https://www.unep.org/en/news-and-stories/technical-highlight/eight-key-takeaways-un-climate-talks",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "hpw-final",
+   "title": "COP31 Climate Summit That Could Not Say 'Fossil Fuels' Ends With No Deal",
+   "publisher": "Health Policy Watch",
+   "year": 2026,
+   "kind": "News report",
+   "url": "https://healthpolicy-watch.news/cop31-consensus-collapse-at-climate-summit/",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "hpw-draft",
+   "title": "Health Wins Key Mention In First COP31 Draft Decision Text",
+   "publisher": "Health Policy Watch",
+   "year": 2026,
+   "kind": "News report",
+   "url": "https://healthpolicy-watch.news/health-wins-key-mention-in-draft-cop31-decision-document/",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "iisd",
+   "title": "COP 31 Ends Without Antalya Pact - Time to rebuild trust",
+   "publisher": "IISD",
+   "year": 2026,
+   "kind": "Statement",
+   "url": "https://www.iisd.org/articles/statement/cop31-ends-without-antalya-pact-time-rebuild-trust",
+   "expect": [
+    "Antalya"
+   ]
+  }
  ],
  "claims": [
-  { "id": "c-close", "where": "COP31 watch: closing check-in", "text": "COP31 closed on Sunday 22 November 2026 without adopting the presidency's proposed cover decision, the Antalya Pact.",
-    "rests_on": [["cnn", "Sunday"], ["unnews", "without climate pact"], ["carbonbrief", "Antalya pact"]],
-    "alts": [[["cnn", "Sunday"], ["iisd", "Without Antalya Pact"]], [["cnn", "Sunday"], ["hpw-final", "Antalya Pact"]]] },
-  { "id": "c-separate", "where": "COP31 watch: closing check-in", "text": "Negotiated decisions on separate agenda items, including adaptation, were adopted even though the cover decision was not.",
-    "rests_on": [["unfccc", "fails to agree Presidency-Led Decision"], ["unfccc", "adaptation"]],
-    "alt": [["carbonbrief", "Antalya pact"], ["carbonbrief", "adaptation"]] },
-  { "id": "c-gga", "where": "Global goal on adaptation: indicators", "text": "Parties agreed to set up a task force of national experts to refine the adaptation indicators agreed at COP30 and to develop guidance for their use by October 2027.",
-    "rests_on": [["carbonbrief", "task force"], ["carbonbrief", "October 2027"], ["carbonbrief", "indicators"]],
-    "alt": [["unfccc", "task force"], ["unfccc", "indicator"], ["carbonbrief", "October 2027"]] },
-  { "id": "c-finance", "where": "Adaptation finance", "text": "The final text set no figure for tripling adaptation finance: a proposed US$120 billion figure for 2035 was dropped, and countries agreed only to discuss how to triple it.",
-    "rests_on": [["carbonbrief", "120bn"], ["carbonbrief", "tripl"]] },
-  { "id": "c-af", "where": "Adaptation finance: Adaptation Fund", "text": "Decisions at COP31 enable the Adaptation Fund to receive a share of the proceeds of carbon trading under the Paris Agreement's crediting mechanism.",
-    "rests_on": [["carbonbrief", "Adaptation Fund"], ["carbonbrief", "share of proceeds"]],
-    "alts": [[["carbonbrief", "Adaptation Fund"], ["carbonbrief", "carbon-market"]], [["carbonbrief", "Adaptation Fund"], ["carbonbrief", "carbon market"]]] },
-  { "id": "c-health", "where": "Health", "text": "The first draft of the cover decision carried a paragraph on climate change and health; with the cover decision not adopted, no health text was agreed in it.",
-    "rests_on": [["hpw-draft", "Health Wins Key Mention"], ["hpw-final", "Ends With No Deal"]],
-    "alt": [["hpw-draft", "Health Wins Key Mention"], ["unnews", "without climate pact"]] },
-  { "id": "c-roadmap", "where": "Cooling: heat resilience roadmap", "text": "UNEP reports that work began at COP31 on a heat resilience roadmap, to be launched next year in Ethiopia.",
-    "rests_on": [["unep", "roadmap"], ["unep", "Ethiopia"]] },
-  { "id": "c-naps", "where": "Adaptation: national adaptation plans", "text": "By the end of COP31, 136 national adaptation plans had been submitted.",
-    "rests_on": [["carbonbrief", "136"], ["carbonbrief", "national adaptation plan"]],
-    "alt": [["carbonbrief", "136"], ["carbonbrief", "NAP"]] }
+  {
+   "id": "c-close",
+   "where": "COP31 watch: closing check-in",
+   "text": "COP31 closed on Sunday 22 November 2026 without adopting the presidency's proposed cover decision, the Antalya Pact.",
+   "rests_on": [
+    [
+     "cnn",
+     "Sunday"
+    ],
+    [
+     "unnews",
+     "without climate pact"
+    ],
+    [
+     "carbonbrief",
+     "Antalya pact"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "cnn",
+      "Sunday"
+     ],
+     [
+      "iisd",
+      "Without Antalya Pact"
+     ]
+    ],
+    [
+     [
+      "cnn",
+      "Sunday"
+     ],
+     [
+      "hpw-final",
+      "Antalya Pact"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "c-separate",
+   "where": "COP31 watch: closing check-in",
+   "text": "Negotiated decisions on separate agenda items, including adaptation, were adopted even though the cover decision was not.",
+   "rests_on": [
+    [
+     "unfccc",
+     "fails to agree Presidency-Led Decision"
+    ],
+    [
+     "unfccc",
+     "adaptation"
+    ]
+   ],
+   "alt": [
+    [
+     "carbonbrief",
+     "Antalya pact"
+    ],
+    [
+     "carbonbrief",
+     "adaptation"
+    ]
+   ]
+  },
+  {
+   "id": "c-gga",
+   "where": "Global goal on adaptation: indicators",
+   "text": "Parties agreed to set up a task force to refine the adaptation indicators agreed at COP30. The source check did not confirm the date by which its guidance is due, so none is given.",
+   "rests_on": [
+    [
+     "unfccc",
+     "task force"
+    ],
+    [
+     "unfccc",
+     "indicator"
+    ]
+   ],
+   "alt": [
+    [
+     "carbonbrief",
+     "task force"
+    ],
+    [
+     "carbonbrief",
+     "indicators"
+    ]
+   ]
+  },
+  {
+   "id": "c-finance",
+   "where": "Adaptation finance",
+   "text": "The final text set no figure for tripling adaptation finance: a proposed US$120 billion figure for 2035 was dropped, and countries agreed only to discuss how to triple it.",
+   "rests_on": [
+    [
+     "carbonbrief",
+     "120bn"
+    ],
+    [
+     "carbonbrief",
+     "tripl"
+    ]
+   ]
+  },
+  {
+   "id": "c-af",
+   "where": "Adaptation finance: Adaptation Fund",
+   "text": "Decisions at COP31 enable the Adaptation Fund to receive a share of the proceeds of carbon trading under the Paris Agreement's crediting mechanism.",
+   "rests_on": [
+    [
+     "carbonbrief",
+     "Adaptation Fund"
+    ],
+    [
+     "carbonbrief",
+     "share of proceeds"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "carbonbrief",
+      "Adaptation Fund"
+     ],
+     [
+      "carbonbrief",
+      "carbon-market"
+     ]
+    ],
+    [
+     [
+      "carbonbrief",
+      "Adaptation Fund"
+     ],
+     [
+      "carbonbrief",
+      "carbon market"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "c-health",
+   "where": "Health",
+   "text": "The first draft of the cover decision carried a paragraph on climate change and health; with the cover decision not adopted, no health text was agreed in it.",
+   "rests_on": [
+    [
+     "hpw-draft",
+     "Health Wins Key Mention"
+    ],
+    [
+     "hpw-final",
+     "Ends With No Deal"
+    ]
+   ],
+   "alt": [
+    [
+     "hpw-draft",
+     "Health Wins Key Mention"
+    ],
+    [
+     "unnews",
+     "without climate pact"
+    ]
+   ]
+  },
+  {
+   "id": "c-roadmap",
+   "where": "Cooling: heat resilience roadmap",
+   "text": "UNEP reports that work began at COP31 on a heat resilience roadmap, to be launched next year in Ethiopia.",
+   "rests_on": [
+    [
+     "unep",
+     "roadmap"
+    ],
+    [
+     "unep",
+     "Ethiopia"
+    ]
+   ]
+  },
+  {
+   "id": "c-naps",
+   "where": "Adaptation: national adaptation plans",
+   "text": "By the end of COP31, 136 national adaptation plans had been submitted.",
+   "rests_on": [
+    [
+     "carbonbrief",
+     "136"
+    ],
+    [
+     "carbonbrief",
+     "national adaptation plan"
+    ]
+   ],
+   "alt": [
+    [
+     "carbonbrief",
+     "136"
+    ],
+    [
+     "carbonbrief",
+     "NAP"
+    ]
+   ]
+  }
  ]
 }
