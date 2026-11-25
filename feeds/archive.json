@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Study reveals rising ‘double threat’ of wildfire smoke and heatwaves in Indonesia",
+   "url": "https://news.mongabay.com/2026/11/study-reveals-rising-double-threat-of-wildfire-smoke-and-heatwaves-in-indonesia/",
+   "via": "Mongabay",
+   "date": "2026-11-25T02:15:02Z",
+   "place": "Indonesia"
+  },
+  {
    "title": "3 areas hit ‘dangerous’ heat index level on Monday - Pagasa",
    "url": "https://newsinfo.inquirer.net/2345879/3-areas-hit-dangerous-heat-index-level-on-monday-pagasa",
    "via": "Inquirer",
@@ -1402,5 +1409,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-24T10:07:33.841Z"
+ "updated": "2026-11-25T08:53:04.477Z"
 }
