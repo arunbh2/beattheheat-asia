@@ -1,0 +1,427 @@
+[
+ {
+  "id": "src-ensu-noaa-nov-pdf",
+  "type": "source",
+  "keys": [
+   "noaa-nov-pdf"
+  ],
+  "title": "El Niño/Southern Oscillation (ENSO) Diagnostic Discussion, 12 November 2026 (archived copy)",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf",
+  "kind": "Official ENSO bulletin (monthly), archive",
+  "where": "El Niño pages update",
+  "expect": [
+   "DIAGNOSTIC DISCUSSION",
+   "Advisory",
+   "January-March 2027"
+  ],
+  "claims": [
+   "u-noaa-archive"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-noaa-weekly",
+  "type": "source",
+  "keys": [
+   "noaa-weekly"
+  ],
+  "title": "ENSO: Recent Evolution, Current Status and Predictions (weekly update)",
+  "publisher": "NOAA Climate Prediction Center",
+  "year": 2026,
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+  "kind": "Weekly ENSO update (slides)",
+  "where": "El Niño pages update",
+  "expect": [
+   "ENSO",
+   "El Niño Advisory",
+   "weekly",
+   "Advisory",
+   "Weekly"
+  ],
+  "claims": [
+   "u-noaa-weekly"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-bom-enso",
+  "type": "source",
+  "keys": [
+   "bom-enso"
+  ],
+  "title": "Climate driver update: ENSO and the Indian Ocean",
+  "publisher": "Australian Bureau of Meteorology",
+  "year": 2026,
+  "url": "https://www.bom.gov.au/climate/enso/",
+  "kind": "ENSO and Indian Ocean monitoring",
+  "where": "El Niño pages update",
+  "expect": [
+   "El Niño",
+   "2.67",
+   "22 November",
+   "2.88",
+   "December",
+   "January",
+   "autumn",
+   "necessarily",
+   "0.53",
+   "Indian Ocean Dipole",
+   "neutral"
+  ],
+  "claims": [
+   "u-bom-now",
+   "u-bom-fc",
+   "u-bom-impact",
+   "u-bom-iod"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-asmc-enso-now",
+  "type": "source",
+  "keys": [
+   "asmc-enso-now"
+  ],
+  "title": "Regional Climate: El Niño / La Niña",
+  "publisher": "ASEAN Specialised Meteorological Centre",
+  "year": 2026,
+  "url": "https://asmc.asean.org/asmc-el-nino/",
+  "kind": "Regional ENSO and IOD status",
+  "where": "El Niño pages update",
+  "expect": [
+   "El Niño",
+   "peak",
+   "weaken",
+   "2027",
+   "persist",
+   "IOD",
+   "neutral",
+   "January 2027"
+  ],
+  "claims": [
+   "u-asmc-peak",
+   "u-asmc-iod"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-imd-enso-bull",
+  "type": "source",
+  "keys": [
+   "imd-enso-bull"
+  ],
+  "title": "ENSO and IOD Update Bulletin",
+  "publisher": "India Meteorological Department (Ministry of Earth Sciences)",
+  "year": 2026,
+  "url": "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf",
+  "kind": "National ENSO and IOD bulletin",
+  "where": "El Niño pages update",
+  "expect": [
+   "ENSO",
+   "IOD",
+   "neutral",
+   "El Nino",
+   "El Niño"
+  ],
+  "claims": [
+   "u-imd-bull"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-wmo-proj",
+  "type": "source",
+  "keys": [
+   "wmo-proj"
+  ],
+  "title": "WMO projects strengthening El Niño preparedness and early action worldwide",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/media/project-update/wmo-projects-strengthening-el-nino-preparedness-and-early-action-worldwide",
+  "kind": "Project update (not a forecast)",
+  "where": "El Niño pages update",
+  "expect": [
+   "El Niño",
+   "preparedness",
+   "early action"
+  ],
+  "claims": [
+   "u-wmo-proj"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-wmo-soc",
+  "type": "source",
+  "keys": [
+   "wmo-soc"
+  ],
+  "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+  "kind": "Press release",
+  "where": "El Niño pages update",
+  "expect": [
+   "El Niño",
+   "strongest",
+   "WHO",
+   "health"
+  ],
+  "claims": [
+   "u-wmo-soc-strongest",
+   "u-wmo-soc-who"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-who-sprp",
+  "type": "source",
+  "keys": [
+   "who-sprp"
+  ],
+  "title": "WHO Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies: Strategic Preparedness and Response Plan",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan",
+  "kind": "Strategic plan",
+  "where": "El Niño pages update",
+  "expect": [
+   "Strategic Preparedness and Response Plan",
+   "Grade 3"
+  ],
+  "claims": [
+   "u-who-grade"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-who-sitan",
+  "type": "source",
+  "keys": [
+   "who-sitan"
+  ],
+  "title": "Global Public Health Situation Analysis: El Niño 2026",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://www.who.int/publications/m/item/global-public-health-situation-analysis-el-nino-2026",
+  "kind": "Situation analysis",
+  "where": "El Niño pages update",
+  "expect": [
+   "Situation Analysis",
+   "heat",
+   "Heat"
+  ],
+  "claims": [
+   "u-who-sitan"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-imd-erf",
+  "type": "source",
+  "keys": [
+   "imd-erf"
+  ],
+  "title": "Extended Range Forecast",
+  "publisher": "India Meteorological Department",
+  "year": 2026,
+  "url": "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf",
+  "kind": "Extended range forecast (weekly)",
+  "where": "El Niño pages update",
+  "expect": [
+   "Extended Range",
+   "week",
+   "Week"
+  ],
+  "claims": [
+   "u-imd-erf"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-ndma-hw",
+  "type": "source",
+  "keys": [
+   "ndma-hw"
+  ],
+  "title": "Guidelines for Preparation of Action Plan: Prevention and Management of Heat Wave (2019)",
+  "publisher": "National Disaster Management Authority",
+  "year": 2019,
+  "url": "https://ndma.gov.in/sites/default/files/PDF/Guidelines/heatwaveguidelines.pdf",
+  "kind": "National guidelines",
+  "where": "El Niño pages update",
+  "expect": [
+   "Heat Wave",
+   "working hours",
+   "drinking water",
+   "school"
+  ],
+  "claims": [
+   "u-ndma-work",
+   "u-ndma-school"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-mole-a",
+  "type": "source",
+  "keys": [
+   "mole-a"
+  ],
+  "title": "Ministry of Labour and Employment: heat wave advisory to States and Union Territories (PIB release)",
+  "publisher": "Ministry of Labour and Employment",
+  "year": 2025,
+  "url": "https://labour.gov.in/sites/default/files/pib2123477.pdf",
+  "kind": "Government release",
+  "where": "El Niño pages update",
+  "expect": [
+   "Labour",
+   "employers",
+   "heat",
+   "Heat"
+  ],
+  "claims": [
+   "u-mole"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-mole-b",
+  "type": "source",
+  "keys": [
+   "mole-b"
+  ],
+  "title": "Ministry of Labour and Employment: heat wave advisory (PIB release)",
+  "publisher": "Ministry of Labour and Employment",
+  "year": 2024,
+  "url": "https://labour.gov.in/sites/default/files/pib2035277.pdf",
+  "kind": "Government release",
+  "where": "El Niño pages update",
+  "expect": [
+   "Labour",
+   "employers",
+   "heat"
+  ],
+  "claims": [
+   "u-mole"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-air-2026",
+  "type": "source",
+  "keys": [
+   "air-2026"
+  ],
+  "title": "Government issues nationwide heatwave advisory to safeguard workers from rising temperatures",
+  "publisher": "All India Radio News",
+  "year": 2026,
+  "url": "https://www.newsonair.gov.in/government-issues-nationwide-heatwave-advisory-to-safeguard-workers-from-rising-temperatures/",
+  "kind": "Public broadcaster report",
+  "where": "El Niño pages update",
+  "expect": [
+   "heatwave",
+   "working hours",
+   "drinking water",
+   "shade"
+  ],
+  "claims": [
+   "u-mole-2026"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-ncdc-nap",
+  "type": "source",
+  "keys": [
+   "ncdc-nap"
+  ],
+  "title": "National Action Plan on Heat Related Illnesses",
+  "publisher": "National Centre for Disease Control (MoHFW)",
+  "year": 2021,
+  "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/1.Nation-Action-plan-on-Heat-Related-llnesses.pdf",
+  "kind": "National action plan",
+  "where": "El Niño pages update",
+  "expect": [
+   "Heat",
+   "preparedness",
+   "facility",
+   "Preparedness",
+   "Facility"
+  ],
+  "claims": [
+   "u-ncdc-facility"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-ncdc-preg",
+  "type": "source",
+  "keys": [
+   "ncdc-preg"
+  ],
+  "title": "Heat and Pregnancy",
+  "publisher": "National Centre for Disease Control (MoHFW)",
+  "year": 2025,
+  "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf",
+  "kind": "Guidance",
+  "where": "El Niño pages update",
+  "expect": [
+   "Pregnan",
+   "pregnan",
+   "referral"
+  ],
+  "claims": [
+   "u-ncdc-preg"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-moe-schools",
+  "type": "source",
+  "keys": [
+   "moe-schools"
+  ],
+  "title": "Guidelines regarding precautions to be observed by schools to combat the ill-effects of the heat-wave (Ministry of Education, 2022, as published by Vikaspedia)",
+  "publisher": "Vikaspedia (Government of India portal)",
+  "year": 2022,
+  "url": "https://vikaspedia.in/education/teachers-corner/guidelines-regarding-precautions-to-be-observed-by-schools-to-combat-the-ill-effects-of-the-heat-wave",
+  "kind": "Government guidelines, republished",
+  "where": "El Niño pages update",
+  "expect": [
+   "heat",
+   "before noon",
+   "covered",
+   "ORS"
+  ],
+  "claims": [
+   "u-moe"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-ensu-mht-roof",
+  "type": "source",
+  "keys": [
+   "mht-roof"
+  ],
+  "title": "Hot Take: Cool Roof Research Study Report 2024",
+  "publisher": "Mahila Housing Trust",
+  "year": 2024,
+  "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf",
+  "kind": "Research report",
+  "where": "El Niño pages update",
+  "expect": [
+   "Cool Roof",
+   "cool roof",
+   "Ahmedabad"
+  ],
+  "claims": [
+   "u-mht"
+  ],
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
