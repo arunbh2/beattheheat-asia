@@ -47,6 +47,10 @@
         "label": "Check official warnings"
       },
       {
+        "id": "prepare_seasonal",
+        "label": "Prepare for El Niño and seasonal risk"
+      },
+      {
         "id": "prioritise_places",
         "label": "Decide where to focus"
       },
@@ -408,6 +412,52 @@
           "purpose": "Ask who pays recurrent costs and how delivery will be checked."
         }
       ]
+    },
+    {
+      "id": "enso-season",
+      "title": "I need to prepare for El Niño-related seasonal risk",
+      "kind": "Illustrative workflow, by decision horizon; not an official procedure",
+      "steps": [
+        {
+          "resource_ids": [
+            "noaa_enso",
+            "bom_enso",
+            "asmc_enso",
+            "imd_enso"
+          ],
+          "purpose": "A. ENSO monitoring: what is happening in the Pacific, as each agency reports it, with its own date and index."
+        },
+        {
+          "resource_ids": [
+            "wmo_gscu",
+            "asmc_so"
+          ],
+          "purpose": "B. Seasonal outlooks: how temperature and rainfall odds may shift by region over the next three months."
+        },
+        {
+          "resource_ids": [
+            "imd_erf"
+          ],
+          "purpose": "C. Extended range and local forecasts: what local services prepare for in the coming weeks."
+        },
+        {
+          "resource_ids": [
+            "imd",
+            "bmd",
+            "dhm",
+            "sg"
+          ],
+          "purpose": "D. Official warning services: the local warning that sets agreed arrangements in motion."
+        },
+        {
+          "resource_ids": [
+            "cs_enso_worksheet",
+            "cs_plan",
+            "who_hhap"
+          ],
+          "purpose": "E. Readiness and planning: who acts, with what resources and permissions, before the season."
+        }
+      ]
     }
   ],
   "sources": [
@@ -599,6 +649,87 @@
       "review_depth": "source_page_reviewed",
       "accessed_on": "2026-11-10",
       "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "noaa_disc",
+      "title": "ENSO Diagnostic Discussion",
+      "publisher": "NOAA Climate Prediction Center",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "noaa_prob",
+      "title": "Official ENSO probabilities (RONI)",
+      "publisher": "NOAA Climate Prediction Center",
+      "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "bom_enso",
+      "title": "Climate driver update: ENSO and the Indian Ocean",
+      "publisher": "Australian Bureau of Meteorology",
+      "url": "https://www.bom.gov.au/climate/enso/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "asmc_enso",
+      "title": "Regional Climate: El Niño / La Niña",
+      "publisher": "ASEAN Specialised Meteorological Centre",
+      "url": "https://asmc.asean.org/asmc-el-nino/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "imd_enso",
+      "title": "ENSO and IOD Update Bulletin",
+      "publisher": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "wmo_gscu",
+      "title": "Global Seasonal Climate Update",
+      "publisher": "World Meteorological Organization",
+      "url": "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "asmc_so",
+      "title": "Regional Climate: Seasonal Outlook",
+      "publisher": "ASEAN Specialised Meteorological Centre",
+      "url": "https://asmc.asean.org/asmc-seasonal-outlook/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "imd_erf",
+      "title": "Extended Range Forecast",
+      "publisher": "India Meteorological Department",
+      "url": "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Public page or document checked by Common Shade's source check (batch 2026-11-enso-update or 2026-11-enso-asia); no live tool execution or independent validation."
+    },
+    {
+      "id": "cs_enso_worksheet",
+      "title": "El Niño preparedness worksheet",
+      "publisher": "Common Shade",
+      "url": "https://beattheheat.asia/print/el-nino-worksheet/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-26",
+      "scope": "Common Shade's own page; not an external source."
     }
   ],
   "records": [
@@ -1266,7 +1397,14 @@
       "follow_up_checks": [
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
-      ]
+      ],
+      "seasonal": {
+        "route": "D",
+        "product": "warning service",
+        "decision": "When do locally agreed arrangements activate?",
+        "lead_time": "Days ahead and during an event",
+        "update_frequency": "Daily bulletins; check issue and validity times"
+      }
     },
     {
       "id": "sg",
@@ -1363,7 +1501,14 @@
       "follow_up_checks": [
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
-      ]
+      ],
+      "seasonal": {
+        "route": "D",
+        "product": "warning service",
+        "decision": "When do locally agreed arrangements activate?",
+        "lead_time": "Current conditions and the coming hours",
+        "update_frequency": "Check issue time at source"
+      }
     },
     {
       "id": "bmd",
@@ -1460,7 +1605,14 @@
       "follow_up_checks": [
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
-      ]
+      ],
+      "seasonal": {
+        "route": "D",
+        "product": "warning service",
+        "decision": "When do locally agreed arrangements activate?",
+        "lead_time": "Days ahead and during an event",
+        "update_frequency": "Check issue and validity times at source"
+      }
     },
     {
       "id": "dhm",
@@ -1557,7 +1709,14 @@
       "follow_up_checks": [
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
-      ]
+      ],
+      "seasonal": {
+        "route": "D",
+        "product": "warning service",
+        "decision": "When do locally agreed arrangements activate?",
+        "lead_time": "Days ahead and during an event",
+        "update_frequency": "Check issue and validity times at source"
+      }
     },
     {
       "id": "cbe",
@@ -1932,7 +2091,14 @@
       "follow_up_checks": [
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
-      ]
+      ],
+      "seasonal": {
+        "route": "E",
+        "product": "guidance",
+        "decision": "Plan heat-health responsibilities and services",
+        "lead_time": "Months ahead",
+        "update_frequency": "Published guidance; check the edition"
+      }
     },
     {
       "id": "ghhin",
@@ -2408,7 +2574,14 @@
       "follow_up_checks": [
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
-      ]
+      ],
+      "seasonal": {
+        "route": "E",
+        "product": "workbook",
+        "decision": "Record agreed actions, payers, triggers and follow-up",
+        "lead_time": "Months ahead",
+        "update_frequency": "Kept in your browser; you update it"
+      }
     },
     {
       "id": "cs_finance",
@@ -2598,6 +2771,831 @@
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
       ]
+    },
+    {
+      "id": "noaa_enso",
+      "name": "NOAA ENSO Diagnostic Discussion and probabilities",
+      "provider": "NOAA Climate Prediction Center",
+      "origin": "external",
+      "resource_type": "warning_service",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "funder"
+      ],
+      "summary": "The official US monthly ENSO status, with phase and strength probabilities for the coming three-month seasons.",
+      "inputs": [
+        "Read the current discussion and its issue date.",
+        "Read the probability table for the season you plan for."
+      ],
+      "outputs": [
+        "Alert status (for example El Niño Advisory), observed Pacific conditions, phase odds and strength odds by season."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Tropical Pacific (Niño-3.4 region)"
+      },
+      "time_horizons": [
+        "seasonal"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "Official bulletin; outlooks verified with the Relative Oceanic Niño Index (RONI), 1991-2020 base.",
+      "limitations": [
+        "Describes the Pacific, not any town's heat, rain or water supply.",
+        "Strength odds describe the Pacific index, not the strength of local impacts."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "noaa_disc",
+          "noaa_prob"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+        "common_shade_next_step": "/el-nino/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "noaa_disc",
+          "noaa_prob"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "A",
+        "product": "bulletin",
+        "decision": "What is happening in the Pacific, and how long is it expected to last?",
+        "lead_time": "Current status, and phase odds for the coming three-month seasons",
+        "update_frequency": "Monthly; each discussion names the date of the next"
+      }
+    },
+    {
+      "id": "bom_enso",
+      "name": "Bureau of Meteorology climate driver update",
+      "provider": "Australian Bureau of Meteorology",
+      "origin": "external",
+      "resource_type": "data_portal",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "funder"
+      ],
+      "summary": "ENSO and Indian Ocean Dipole monitoring with recent weekly index values and the Bureau's model outlook.",
+      "inputs": [
+        "Read the latest weekly values and the stated week."
+      ],
+      "outputs": [
+        "Weekly relative Niño3.4 and Indian Ocean Dipole values; a short outlook for both drivers."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Tropical Pacific and Indian Ocean"
+      },
+      "time_horizons": [
+        "seasonal"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "National service monitoring page; weekly values are not three-month indices.",
+      "limitations": [
+        "Weekly values move from week to week; they are not the three-month index used to declare an event.",
+        "Written for Australia; its impact notes do not transfer to Asia."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "bom_enso"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.bom.gov.au/climate/enso/",
+        "common_shade_next_step": "/el-nino/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "bom_enso"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "A",
+        "product": "dashboard",
+        "decision": "Is the Pacific signal still strengthening or easing, week by week, and what is the Indian Ocean doing?",
+        "lead_time": "Recent weeks, with an outlook for the coming months",
+        "update_frequency": "Weekly values; check the date given on the page"
+      }
+    },
+    {
+      "id": "asmc_enso",
+      "name": "ASMC El Niño / La Niña status",
+      "provider": "ASEAN Specialised Meteorological Centre",
+      "origin": "external",
+      "resource_type": "data_portal",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "funder"
+      ],
+      "summary": "Southeast Asia's regional centre's reading of ENSO and the Indian Ocean Dipole, with typical regional effects.",
+      "inputs": [
+        "Read the update date and the regional notes."
+      ],
+      "outputs": [
+        "ENSO and IOD status and outlook; typical effects on Southeast Asian rainfall."
+      ],
+      "geography": {
+        "country_codes": [
+          "KH",
+          "ID",
+          "PH",
+          "SG",
+          "TH",
+          "VN"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "ASEAN region"
+      },
+      "time_horizons": [
+        "seasonal"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "Regional centre summary of model outlooks.",
+      "limitations": [
+        "Typical effects are historical tendencies, not this season's forecast for any province."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "asmc_enso"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://asmc.asean.org/asmc-el-nino/",
+        "common_shade_next_step": "/el-nino/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "asmc_enso"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "A",
+        "product": "bulletin",
+        "decision": "What does the Pacific state mean for Southeast Asia in broad terms?",
+        "lead_time": "Current status and the coming months",
+        "update_frequency": "Check the update date on the page"
+      }
+    },
+    {
+      "id": "imd_enso",
+      "name": "IMD ENSO and IOD update bulletin",
+      "provider": "India Meteorological Department",
+      "origin": "external",
+      "resource_type": "warning_service",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "employer"
+      ],
+      "summary": "India's national reading of ENSO and the Indian Ocean Dipole.",
+      "inputs": [
+        "Open the bulletin and read its issue date."
+      ],
+      "outputs": [
+        "ENSO and IOD status and outlook from India's national service."
+      ],
+      "geography": {
+        "country_codes": [
+          "IN"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "Tropical Pacific and Indian Ocean, read for India"
+      },
+      "time_horizons": [
+        "seasonal"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "National bulletin; thresholds and indices as stated in the bulletin.",
+      "limitations": [
+        "May differ from other agencies' readings of the Indian Ocean Dipole, which use their own indices and thresholds."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "imd_enso"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf",
+        "common_shade_next_step": "/el-nino/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "imd_enso"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "A",
+        "product": "bulletin",
+        "decision": "What does India's national service say about ENSO and the Indian Ocean?",
+        "lead_time": "Current status and the coming months",
+        "update_frequency": "Check the issue date in the bulletin"
+      }
+    },
+    {
+      "id": "wmo_gscu",
+      "name": "WMO Global Seasonal Climate Update",
+      "provider": "World Meteorological Organization",
+      "origin": "external",
+      "resource_type": "guidance",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "funder"
+      ],
+      "summary": "Multi-model global probabilities for temperature and rainfall over the next three months, with the state of the main ocean drivers.",
+      "inputs": [
+        "Read the edition for the three months you plan for."
+      ],
+      "outputs": [
+        "Global maps of likely above- or below-normal temperature and rainfall; ENSO and Indian Ocean summaries."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Global, coarse regional scale"
+      },
+      "time_horizons": [
+        "seasonal"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "Multi-model ensemble from WMO's global producing centres; the Niño 3.4 figures are a plain anomaly, not RONI.",
+      "limitations": [
+        "Global maps are too coarse for a district; read with the national service's outlook.",
+        "Each edition covers its own three months; compare like with like."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "wmo_gscu"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026",
+        "common_shade_next_step": "/el-nino/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "wmo_gscu"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "B",
+        "product": "bulletin",
+        "decision": "How might temperature and rainfall odds shift by region over the next three months?",
+        "lead_time": "The next three months",
+        "update_frequency": "A new edition for each three-month period; check the latest in the series"
+      }
+    },
+    {
+      "id": "asmc_so",
+      "name": "ASMC seasonal outlook",
+      "provider": "ASEAN Specialised Meteorological Centre",
+      "origin": "external",
+      "resource_type": "guidance",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "funder"
+      ],
+      "summary": "Regional rainfall and temperature terciles for Southeast Asia over the coming season.",
+      "inputs": [
+        "Read the forecast period and the regional maps."
+      ],
+      "outputs": [
+        "Likely below-, near- or above-normal rainfall and temperature by sub-region."
+      ],
+      "geography": {
+        "country_codes": [
+          "KH",
+          "ID",
+          "PH",
+          "SG",
+          "TH",
+          "VN"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "ASEAN sub-regions"
+      },
+      "time_horizons": [
+        "seasonal"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "Multi-model terciles; national services hold the national-scale outlook.",
+      "limitations": [
+        "A regional tercile does not give a province's rainfall or temperature."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "asmc_so"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://asmc.asean.org/asmc-seasonal-outlook/",
+        "common_shade_next_step": "/el-nino/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "asmc_so"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "B",
+        "product": "forecast service",
+        "decision": "Which parts of Southeast Asia lean drier, wetter or hotter this season?",
+        "lead_time": "The coming three months",
+        "update_frequency": "Check the update date on the page"
+      }
+    },
+    {
+      "id": "imd_erf",
+      "name": "IMD extended range forecast",
+      "provider": "India Meteorological Department",
+      "origin": "external",
+      "resource_type": "warning_service",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "employer"
+      ],
+      "summary": "India's forecast for the coming weeks, between the seasonal outlook and the daily warning.",
+      "inputs": [
+        "Open the latest forecast and read its issue date and weeks."
+      ],
+      "outputs": [
+        "Week-by-week outlook for India."
+      ],
+      "geography": {
+        "country_codes": [
+          "IN"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "India, sub-national"
+      },
+      "time_horizons": [
+        "seasonal",
+        "operational"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "Official extended range forecast.",
+      "limitations": [
+        "Weeks ahead are less certain than days ahead; local action follows the district warning."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "imd_erf"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf",
+        "common_shade_next_step": "/el-nino/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "imd_erf"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "C",
+        "product": "forecast service",
+        "decision": "What do local services need to get ready for in the coming weeks?",
+        "lead_time": "The coming weeks",
+        "update_frequency": "Check the issue date on the forecast"
+      }
+    },
+    {
+      "id": "cs_enso_worksheet",
+      "name": "El Niño preparedness worksheet (one A4 page)",
+      "provider": "Common Shade",
+      "origin": "common_shade",
+      "resource_type": "planning_tool",
+      "decision_tags": [
+        "prepare_seasonal"
+      ],
+      "user_roles": [
+        "city",
+        "ngo"
+      ],
+      "summary": "A one-page worksheet for a municipal team and a local organisation to agree what will be working before the hot season, and who keeps it working.",
+      "inputs": [
+        "Your setting, the people who use it, and who authorises, operates and pays."
+      ],
+      "outputs": [
+        "An agreed list of measures, owners, activation and checks."
+      ],
+      "geography": {
+        "country_codes": [
+          "IN"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "A city or ward"
+      },
+      "time_horizons": [
+        "planning"
+      ],
+      "heat_metrics": [
+        "not_applicable"
+      ],
+      "method_summary": "A structured planning prompt; it generates no risk number.",
+      "limitations": [
+        "It does not forecast anything; local warnings set the timing."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-26",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "cs_enso_worksheet"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://beattheheat.asia/print/el-nino-worksheet/",
+        "common_shade_next_step": "/el-nino-and-cities/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "cs_enso_worksheet"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "limitations",
+          "seasonal",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the current product page and its issue date at source.",
+        "Check local applicability before using it to set any local action."
+      ],
+      "seasonal": {
+        "route": "E",
+        "product": "workbook",
+        "decision": "Who will act, with what resources and permissions?",
+        "lead_time": "Months ahead of the hot season",
+        "update_frequency": "Fixed worksheet"
+      }
     }
   ],
   "maintenance": {
@@ -2618,6 +3616,7 @@
   "provenance": {
     "seed": "research/2026-11/heat-tools/common_shade_heat_tools.json",
     "wording_edits": "research/2026-11/heat-tools/edits.json",
+    "additions": "research/2026-11/heat-tools/additions-*.json",
     "link_check": "research/2026-11/heat-tools/url-check.json"
   }
 }

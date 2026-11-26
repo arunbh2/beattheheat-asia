@@ -35,3 +35,8 @@
   .ew-table td::before { content: attr(data-label); display: block; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); margin-bottom: 2px; }
 }
 @media print { .ew { border-color: var(--ink); } .ew a[href^="http"]::after { content: " (" attr(href) ")"; font-size: var(--fs-12); overflow-wrap: anywhere; } }
+/* what changed since the last bulletin; how an observed figure was measured; both kinds in one bulletin; the Indian Ocean note */
+.ew-change { margin: var(--s-3) 0 0; padding: var(--pad-compact); background: var(--white); border: 1px solid var(--line); border-radius: var(--r-sm); font-size: var(--fs-14); line-height: 1.5; max-width: 72ch; }
+.ew-basis { margin-top: 8px; font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.ew-tag--both { border-color: var(--ink); border-style: double; }
+.ew-iod { margin: var(--s-3) 0 0; font-size: var(--fs-14); line-height: 1.5; max-width: 72ch; }

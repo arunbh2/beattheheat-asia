@@ -623,6 +623,23 @@
      "health emergency": "The World Health Organization (WHO) has, for the first time, classified the anticipated health impacts as a health emergency.",
      "risk multiplier for health": "The current El Niño is expected to act as a risk multiplier for health."
     }
+   },
+   {
+    "kind": "content",
+    "batch": "2026-11-enso-update",
+    "checked": "2026-11-26",
+    "status": "OK",
+    "terms": {
+     "El Niño": true,
+     "strongest": true,
+     "WHO": true,
+     "health": true
+    },
+    "passages": {
+     "El Niño": "The current El Niño is expected to act as a risk multiplier for health.",
+     "strongest": "This figure is likely to rise through the end of the year because of the warming effect of El Niño, which has been intensifying since August and is expected to be the strongest on record by December.",
+     "health": "The current El Niño is expected to act as a risk multiplier for health."
+    }
    }
   ],
   "https://wmo.int/node/38928": [
@@ -703,6 +720,48 @@
     "passages": {
      "Global Heat Forum": "Quotes from the Global Heat Forum “Extreme heat is already a health emergency, and an intensifying El Niño will push more people into crisis, overwhelm the clinics that treat them, and erode the safety nets they rely on,” said Dr.",
      "Bangkok": "…s and civil society leaders for stronger climate adaptation, and we are proud to help drive solutions at the Global Heat Forum in Bangkok."
+    }
+   }
+  ],
+  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": [
+   {
+    "kind": "content",
+    "batch": "2026-11-el-nino-cities",
+    "checked": "2026-11-19",
+    "status": "OK",
+    "terms": {
+     "DIAGNOSTIC": true,
+     "12 November 2026": true,
+     "El Niño Advisory": true,
+     "likely through January-March 2027": true,
+     "greater than a 79% chance": true,
+     "beginning to weaken in early 2027": true,
+     "10 December": true
+    },
+    "passages": {
+     "DIAGNOSTIC": "…tion image/table: https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/ EL NIÑO/SOUTHERN OSCILLATION (ENSO) DIAGNOSTIC DISCUSSION issued by CLIMATE PREDICTION CENTER/NCEP/NWS 12 November 2026 ENSO Alert System Status: El Niño Advisory Synopsis: El…",
+     "12 November 2026": "…oring/enso/roni/strengths/ EL NIÑO/SOUTHERN OSCILLATION (ENSO) DIAGNOSTIC DISCUSSION issued by CLIMATE PREDICTION CENTER/NCEP/NWS 12 November 2026 ENSO Alert System Status: El Niño Advisory Synopsis: El Niño continues to strengthen, with a strong-to-very strong El Niño likely…",
+     "El Niño Advisory": "…OSCILLATION (ENSO) DIAGNOSTIC DISCUSSION issued by CLIMATE PREDICTION CENTER/NCEP/NWS 12 November 2026 ENSO Alert System Status: El Niño Advisory Synopsis: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January-March 2027 (remaining grea…",
+     "likely through January-March 2027": "…r 2026 ENSO Alert System Status: El Niño Advisory Synopsis: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January-March 2027 (remaining greater than a 79% chance).",
+     "greater than a 79% chance": "…sory Synopsis: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January-March 2027 (remaining greater than a 79% chance).",
+     "beginning to weaken in early 2027": "The CPC Official ENSO outlook, which synthesizes multiple models from North America and abroad, indicates El Niño will continue to strengthen before beginning to weaken in early 2027 (Figs.",
+     "10 December": "The next ENSO Diagnostics Discussion is scheduled for 10 December 2026."
+    }
+   },
+   {
+    "kind": "content",
+    "batch": "2026-11-enso-update",
+    "checked": "2026-11-26",
+    "status": "OK",
+    "terms": {
+     "DIAGNOSTIC DISCUSSION": true,
+     "Advisory": true,
+     "January-March 2027": true
+    },
+    "passages": {
+     "DIAGNOSTIC DISCUSSION": "To receive an e-mail notification when the monthly ENSO Diagnostic Discussions are released, please send an e-mail message to: ncep.list.enso-update@noaa.gov.",
+     "Advisory": "…TION (ENSO) DIAGNOSTIC DISCUSSION issued by CLIMATE PREDICTION CENTER/NCEP/NWS 12 November 2026 ENSO Alert System Status: El Niño Advisory Synopsis: El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January-March 2027 (remaining grea…",
+     "January-March 2027": "In summary, El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January-March 2027 (remaining greater than a 79% chance)."
     }
    }
   ],
@@ -1169,6 +1228,19 @@
      "October 2026": true,
      "September 2027": true,
      "heat": true
+    },
+    "passages": {
+     "Grade 3": "It translates WHO’s Grade 3 response into coordinated action across headquarters, Regional Offices and Country Offices, while supporting nationally led preparedness and response."
+    }
+   },
+   {
+    "kind": "content",
+    "batch": "2026-11-enso-update",
+    "checked": "2026-11-26",
+    "status": "OK",
+    "terms": {
+     "Strategic Preparedness and Response Plan": true,
+     "Grade 3": true
     },
     "passages": {
      "Grade 3": "It translates WHO’s Grade 3 response into coordinated action across headquarters, Regional Offices and Country Offices, while supporting nationally led preparedness and response."

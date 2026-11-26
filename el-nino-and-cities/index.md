@@ -1,7 +1,7 @@
 ---
 title: "El Niño and India's smaller cities: preparing for summer 2027"
 url: https://beattheheat.asia/el-nino-and-cities/
-updated: 2026-11-19
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -46,6 +46,8 @@ The evidence
 
 ## Where the outlook stands
 
+**A planning horizon, not a forecast.** For March to May 2027, NOAA Climate Prediction Center puts the chance of El Niño at 80%, most likely weak (53%) or moderate (25%); for April to June 2027, ENSO-neutral becomes more likely (61%) than El Niño (38%). A hot season can be dangerous with or without El Niño, so what follows is preparation that pays off in either case.
+
 - Forecast
 
 ### NOAA Climate Prediction Center
@@ -64,7 +66,7 @@ Newer issue? [NOAA's latest ENSO discussion](https://www.cpc.ncep.noaa.gov/produ
 
 Issued 21 October 2026 · covers November 2026 to January 2027 · Tropical Pacific Ocean
 
-The seasonal average anomaly is forecast at about +3.8 °C, peaking around December 2026; a positive Indian Ocean Dipole is forecast to decline to +0.3 °C. WMO's quarterly El Niño Update of 3 September 2026 gave a nearly 100% likelihood that El Niño persists through February 2027.
+The seasonal average anomaly is forecast at about +3.8 °C, peaking around December 2026; a positive Indian Ocean Dipole is forecast to decline to +0.3 °C. WMO's latest quarterly El Niño Update, of 3 September 2026, gave a nearly 100% likelihood that El Niño persists through February 2027.
 
 Strength in the Pacific does not decide how severe impacts are in any one country.
 
@@ -107,6 +109,133 @@ Long-term warming raises the baseline; the local heat island and failing infrast
 Sources for this section (1)
 
 - [Rohini, Rajeevan and Srivastava (open access, PMC): On the Variability and Increasing Trends of Heat Waves over India (Scientific Reports, 2016)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/)
+
+Four protections
+
+## Four protections that keep working
+
+Four protections decide much of the harm in a hot season. For each, the same nine questions show whether an arrangement can keep working. The answers below are prompts for a local agreement, not national rules; confirm each role with the body that holds the mandate.
+
+**The question:** What has to be working before the hot season, and who keeps it working?
+
+### Workplace protection without income loss
+
+**Who is exposed**: Outdoor and semi-outdoor workers paid by the day or the piece: construction, loading, vending, sanitation, delivery. They lose money if they stop.
+
+**Where they spend the hottest hours**: Worksites, labour chowks where day workers wait for hire, markets and delivery routes, from late morning to late afternoon.
+
+**What can be ready before the season**: Water and shade at worksites and labour chowks; agreed shifted hours for the heaviest work; rest breaks that do not cut pay; someone on each site who knows the signs of heat illness and who to call.
+
+**What activates more action**: The official district heat warning under the state or district heat plan. The seasonal El Niño outlook sets the timetable for preparation, not the day-to-day trigger.
+
+**Who authorises it**: The labour department and the district administration, under the heat plan; each employer or contractor on its own site. In April 2026 the Government issued a nationwide heatwave advisory to safeguard workers, as reported by All India Radio; whether it binds an employer depends on the directions each state issues.
+
+**Who operates it**: Employers and contractors on their sites; the municipal body at labour chowks and public worksites.
+
+**Who pays the recurring costs**: The employer for its own workforce. For own-account and informal workers there is no employer to pay: options include a municipal or state budget line and welfare or insurance schemes that replace lost earnings, which need an agreed payer before the season.
+
+**How workers and communities shape it**: Unions, workers' associations and vendors' committees agree the hours, breaks and water points with employers and the municipality, and report when they fail.
+
+**How to check it is usable**: Is there water at the site at 2 p.m.? Did anyone lose a day's pay for resting? Count breaks actually taken and complaints received, not posters put up.
+
+On Common Shade: [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Paying when heat strikes](https://beattheheat.asia/paying-when-heat-strikes/)
+
+Sources for this section (1)
+
+- [All India Radio News: Government issues nationwide heatwave advisory to safeguard workers from rising temperatures](https://www.newsonair.gov.in/government-issues-nationwide-heatwave-advisory-to-safeguard-workers-from-rising-temperatures/)
+
+### Heat-safe homes, including homes used for paid work
+
+**Who is exposed**: Households under tin or asbestos roofs in informal settlements; women who do paid work at home (stitching, food processing, piece-rate work); older people and people who are ill.
+
+**Where they spend the hottest hours**: Inside the home, often a single room or a top floor that stays hot into the night; for a home-based worker, the home is also the workplace.
+
+**What can be ready before the season**: Roof coatings or shading, ventilation and water storage; a list, made with residents, of households that cannot cool their homes; agreed check-in visits for people living alone.
+
+**What activates more action**: The district warning starts check-in visits and longer water-supply hours in the settlement.
+
+**Who authorises it**: The municipal body or housing department for work on roofs and settlement services, with the consent of owners and tenants.
+
+**Who operates it**: Community organisations and municipal staff; local fabricators and painters.
+
+**Who pays the recurring costs**: A coating or shade is a one-off cost; repainting, repairs and water supply recur. Agree who pays them, or the protection fades after one season.
+
+**How workers and communities shape it**: Residents choose which measures suit their homes; women who work at home say which hours and rooms they need to keep working.
+
+**How to check it is usable**: Indoor temperatures in a sample of homes before and after; whether coatings still reflect after a season; whether home-based workers kept their working hours.
+
+**What the evidence says:** Mahila Housing Trust's 2024 study in an Ahmedabad informal settlement attributes almost 75% of women's heat-related productivity losses to unpaid labour, including care for others made ill by heat. NIUA notes that informal settlements face higher exposure to heat, flooding and water scarcity.
+
+On Common Shade: [Cooling options](https://beattheheat.asia/cooling-options/) · [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
+
+Sources for this section (2)
+
+- [Mahila Housing Trust: Hot Take: Cool Roof Research Study Report 2024](https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf)
+- [National Institute of Urban Affairs, Climate Centre for Cities: Cities and Climate Fundamentals Primer: Learning Note 1](https://niua.in/publication-details/Cities_and_Climate_Fundamentals_Primer)
+
+### Continuity of care, including childcare and maternal services
+
+**Who is exposed**: Pregnant women and newborns, young children, older people and anyone who depends on regular care; and the carers, usually women, who lose earnings when care moves home.
+
+**Where they spend the hottest hours**: Clinic queues and waiting areas, labour rooms, anganwadi and childcare centres, and homes.
+
+**What can be ready before the season**: Shaded, ventilated waiting space and drinking water at clinics; heat checks during antenatal visits; referral routes agreed for warning signs; a plan for childcare when schools or centres change hours.
+
+**What activates more action**: The district warning brings extended or shifted clinic hours, queues moved indoors and calls to people at highest risk.
+
+**Who authorises it**: The district health department, under the state health department's guidance; the department that runs anganwadi and childcare centres.
+
+**Who operates it**: Clinic staff, community health workers and anganwadi workers.
+
+**Who pays the recurring costs**: Health department budgets for clinic measures; staff time, water and cooling recur and need a line in the annual budget.
+
+**How workers and communities shape it**: Women and carers say which hours and places they can actually reach; community health workers report gaps.
+
+**How to check it is usable**: Waiting times in the heat; whether pregnant women received heat checks; appointments missed on hot days; families left without childcare.
+
+**What the evidence says:** NCDC's advisory for summer 2026 asked state health departments to report heatstroke cases and deaths daily from 1 March 2026 and to consider public cooling and drinking water facilities. NCDC's guidance on heat and pregnancy notes higher risks for pregnant women and the fetus, and lists checks such as temperature, blood pressure, hydration and fetal heart rate, with timely referral.
+
+On Common Shade: [Heat-safe pregnancy and newborn care](https://beattheheat.asia/actions/#maternalheat) · [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
+
+Sources for this section (3)
+
+- [National Centre for Disease Control, Ministry of Health and Family Welfare: Advisory for State Health Departments for Summer 2026](https://ncdc.mohfw.gov.in/uploads/pdf/4.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf)
+- [National Centre for Disease Control (MoHFW): Heat and Pregnancy](https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf)
+- [Mahila Housing Trust: Hot Take: Cool Roof Research Study Report 2024](https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf)
+
+### School-based protection and appropriately governed respite
+
+**Who is exposed**: Pupils, especially at assembly and in the midday meal queue; teachers and cooks; parents waiting at the gate.
+
+**Where they spend the hottest hours**: Classrooms under tin roofs, open assembly grounds, the midday meal queue and school transport.
+
+**What can be ready before the season**: Shade and drinking water at assembly and meal points; timetable options agreed in advance; first aid and a named person for heat illness. If a school is also to offer respite to the public, decide it explicitly beforehand.
+
+**What activates more action**: The district warning, through an instruction from the education authority, shifts the timetable or moves activities indoors.
+
+**Who authorises it**: The education authority and school management committee. A school does not automatically become a public shelter: respite for the public needs written permission from the education authority, agreed with the district administration.
+
+**Who operates it**: The head teacher and staff during school hours; for public respite outside school hours, a named operator who is not the teaching staff by default.
+
+**Who pays the recurring costs**: The education budget for school measures; respite operations (staffing, cleaning, water, toilets) need their own budget line.
+
+**How workers and communities shape it**: Parents and pupils, through the school management committee, and neighbours if the school will open to them.
+
+**How to check it is usable**: Water available at lunchtime; pupils taken ill; whether a timetable change reached families in time. For respite: whether it opened when needed, who used it, and whether children stayed safe.
+
+Before a school offers respite to the publicBefore a school offers respite to the public, settle: permission and liability; safeguarding, with children and adults from outside kept apart; drinking water and toilets for the extra numbers; staff or volunteers on duty and their hours; access for people with disabilities; and what happens if the site floods or loses power. NDMA's guidelines for cooling centres cover site selection in high-risk areas, retrofitting, and operations and maintenance.
+
+**What the evidence says:** The Ministry of Education has issued guidelines on precautions schools take against heat waves (as published on Vikaspedia).
+
+On Common Shade: [Worked example: a school at lunchtime](#school) · [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
+
+Sources for this section (3)
+
+- [Vikaspedia (Government of India portal): Guidelines regarding precautions to be observed by schools to combat the ill-effects of the heat-wave (Ministry of Education, 2022, as published by Vikaspedia)](https://vikaspedia.in/education/teachers-corner/guidelines-regarding-precautions-to-be-observed-by-schools-to-combat-the-ill-effects-of-the-heat-wave)
+- [National Disaster Management Authority, India (in the GHHIN library): Guidelines for Cooling Centers](https://heathealth.info/wp-content/uploads/NDMA-Cooling-centre-guidelines.pdf)
+- [Natural Resources Defense Council (NRDC): Extreme Heat in India: A Review of the Evolving Policy and Practice Landscape](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+
+Roles are prompts to confirm with whoever holds the mandate locally; the answers that are not cited are Common Shade's planning guidance, not national rules. Choose tools for each horizon in the [Heat Tool Finder's El Niño route](https://beattheheat.asia/heat-tools/#el-nino).
 
 Your city
 
@@ -178,16 +307,18 @@ Sources for this section (2)
 
 Calendar
 
-## Before, during and after: a local calendar
+## By lead time: months, weeks, days, during, afterwards
 
-Read each window against your city's own season, not a national date.
+Read each window against your city's own season, not a national date. El Niño is context for the months-ahead work; local forecasts and official warnings set the days-ahead action.
 
-Three decision windows
+Five decision windows, by lead time
 Window | What happens | Who decides |
 
-Before the locally expected heat season | Select the service and sites, confirm permissions and operators, agree costs, put the measures in place and test them. Work backwards from when heat usually arrives in your city, how long procurement takes, and official guidance. | The body that manages each site (municipal body, education authority or school management, market committee, health department or transport authority), the operator and the local organisation. |
-When an official local warning is issued | The core protection is already working. Agree in advance who receives the warning and what is added under the applicable plan: an operator extends water hours, brings a refill forward, or moves a clinic queue indoors. | IMD issues district warnings; departments act under the state and district heat plans. |
-During and just after the event | Check that each site works at the hours people rely on it, fix failures, and record who was left without access. After heavy rain, check covers and drains before reopening. | Each site's operator and the named repair officer, with the local organisation reporting what users see. |
+Months ahead | Select the service and sites, confirm permissions, budgets and recurring costs, procure what has to be bought, and sign service agreements with whoever will operate and repair. Work backwards from when heat usually arrives in your city and how long procurement takes. The seasonal El Niño outlook is a reason to start early; it is not the trigger. | The body that manages each site (municipal body, education authority or school management, market committee, health department or transport authority), the operator and the local organisation. |
+Weeks ahead | Check that each measure works: water flows, shade is up, keys are with the right person, staff know their hours. Read the national seasonal and extended-range outlooks for your region, and confirm who receives the official warning. | Each site's operator, with the local organisation checking from the user's side. |
+Days ahead: an official local warning | The core protection is already working. Agree in advance who receives the warning and what is added under the applicable plan: an operator extends water hours, brings a refill forward, moves a clinic queue indoors or shifts a school timetable. | IMD issues district warnings; departments act under the state and district heat plans. |
+During an event | Keep each service running at the hours people rely on it: refill water, staff the site, keep cooling and care open during power cuts. Check on people who cannot come to a site. | Each site's operator and the named repair officer, with the local organisation reporting what users see. |
+Afterwards | Review who could not get water, shade, cooling or care, which measures failed and how fast they were fixed, and what it cost. After heavy rain, check covers and drains before reopening. Change next season's arrangements using what happened. | The municipal body with operators and the local organisation; workers and residents say what did not work. |
 
 Before opening a site, check how people will get drinking water during a power cut. If the supply depends on a pump, agree who can release stored water or order a refill, how long it will take, and where people can go in the meantime. If a site floods, the agreed alternative site takes over. Clinical care follows official guidance such as NCDC's.
 

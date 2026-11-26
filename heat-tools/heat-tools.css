@@ -148,3 +148,24 @@
   .ht-print section { break-inside: avoid; margin-bottom: 12pt; }
   body { padding: 0 !important; }
 }
+
+/* the El Niño route (#el-nino): tools by decision horizon, in scrolling tables that become stacked rows on phones */
+.ht-route { margin: 0 0 var(--s-4, 16px); }
+.ht-route a { font-weight: 700; }
+.ht-enso { scroll-margin-top: calc(var(--header-h) + 16px); }
+.ht-enso .ht-h3 { margin: 22px 0 8px; scroll-margin-top: calc(var(--header-h) + 16px); }
+.ht-enso__q { font-weight: 400; }
+.ht-enso__note { padding: var(--pad-compact); background: var(--sand-50); border: 1px solid var(--line); border-radius: var(--r-sm); }
+.ht-enso__wrap { overflow-x: auto; max-width: 100%; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--white); }
+.ht-enso__wrap:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.ht-enso__t { border-collapse: collapse; width: 100%; min-width: 1080px; font-size: var(--fs-14); line-height: 1.5; }
+.ht-enso__t th, .ht-enso__t td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); overflow-wrap: break-word; }
+.ht-enso__t thead th { font-size: var(--fs-12); text-transform: uppercase; letter-spacing: var(--label-track); color: var(--grey-700); }
+.ht-enso__t tbody th span { color: var(--grey-700); font-weight: 400; }
+@media (max-width: 760px) {
+  .ht-enso__t { min-width: 0; }
+  .ht-enso__t thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .ht-enso__t tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--line-strong); }
+  .ht-enso__t th, .ht-enso__t td { display: block; border: 0; padding: 4px 10px; }
+  .ht-enso__t td::before { content: attr(data-label); display: block; font-size: var(--fs-12); font-weight: 700; text-transform: uppercase; letter-spacing: var(--label-track); color: var(--grey-700); }
+}

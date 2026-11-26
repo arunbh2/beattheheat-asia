@@ -1,0 +1,62 @@
+[
+ {
+  "id": "u-ndma-work",
+  "where": "Cities: workplace protection",
+  "text": "NDMA's national heat wave guidelines include rescheduling working hours and providing drinking water for workers.",
+  "missing": [
+   "ndma-hw: \"working hours\"",
+   "ndma-hw: \"drinking water\""
+  ]
+ },
+ {
+  "id": "u-ndma-school",
+  "where": "Cities: schools",
+  "text": "NDMA's national heat wave guidelines include measures for schools.",
+  "missing": [
+   "ndma-hw: \"school\""
+  ]
+ },
+ {
+  "id": "u-mole",
+  "where": "Cities: workplace protection",
+  "text": "The Ministry of Labour and Employment has written to the States and Union Territories asking them to issue directions to employers and to spread information on protecting workers from extreme heat.",
+  "missing": [
+   "mole-a: \"employers\"",
+   "mole-a: \"heat\"",
+   "mole-b: \"employers\"",
+   "mole-b: \"heat\"",
+   "mole-a: \"employers\"",
+   "mole-a: \"Heat\""
+  ]
+ },
+ {
+  "id": "u-mole-2026",
+  "where": "Cities: workplace protection",
+  "text": "Its advisory of April 2026, as reported by All India Radio, urged rescheduling working hours away from peak heat, adequate drinking water and shaded rest areas.",
+  "missing": [
+   "air-2026: \"working hours\"",
+   "air-2026: \"shade\""
+  ]
+ },
+ {
+  "id": "u-ncdc-facility",
+  "where": "Cities: continuity of care",
+  "text": "India's National Action Plan on Heat Related Illnesses sets out health facility preparedness before, during and after the heat season.",
+  "missing": [
+   "ncdc-nap: \"preparedness\"",
+   "ncdc-nap: \"facility\"",
+   "ncdc-nap: \"Preparedness\"",
+   "ncdc-nap: \"Facility\""
+  ]
+ },
+ {
+  "id": "u-moe",
+  "where": "Cities: schools",
+  "text": "The Ministry of Education's 2022 guidelines for schools in a heat wave include starting early and finishing before noon, holding assemblies in covered areas or classrooms, reminding pupils to drink water, and keeping ORS available.",
+  "missing": [
+   "moe-schools: \"before noon\"",
+   "moe-schools: \"covered\"",
+   "moe-schools: \"ORS\""
+  ]
+ }
+]

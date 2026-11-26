@@ -1,7 +1,7 @@
 ---
 title: "WHO Heat–Health Action Plans Guidance (2026): Heat Tool Finder"
 url: https://beattheheat.asia/heat-tools/who_hhap/
-updated: 2026-10-01
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -92,6 +92,7 @@ From the provider's sources: the description, inputs, outputs and access. Common
 ## Illustrative workflows it appears in
 
 - [An Indian city preparing its heat plan](https://beattheheat.asia/heat-tools/#path-india-city)
+- [I need to prepare for El Niño-related seasonal risk](https://beattheheat.asia/heat-tools/#path-enso-season)
 
 ## What to do next
 

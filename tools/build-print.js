@@ -357,29 +357,44 @@ async function build() {
     add(W.slug, meta, await sheet({ slug: W.slug, kind: W.kind, title: W.title, lede: W.lede, body, live: `/${T.SLUG}/`, sources: [], undated: true }));
   }
 
-  // 4a3. The El Niño briefing: the current bulletin (from the shared outlook record), regional caveats, preparation
-  // questions and every source with its URL. Bulletin dates are printed; no print date (the owner's rule for the El Niño pages).
+  // 4a3. The El Niño briefing: one A4 page that follows the online journey. What El Niño is; the current verified status and
+  // its forecast period (from the shared record, in the same sentences as every El Niño page); what it may mean for Asia; what
+  // it cannot tell any place; a short checklist; the key official sources with their issue dates. Bulletin dates are printed;
+  // no print date (the owner's rule for the El Niño pages), and the build date is never shown as a verification date.
   {
-    const X = require("./el-nino-explainer-text.js"), EO = require("./enso-outlook.js"), { O, C } = EO.load(), S = O.status, P = O.phase;
+    const X = require("./el-nino-explainer-text.js"), EO = require("./enso-outlook.js"), { O } = EO.load(), S = O.status, P = O.phase, F = EO.facts();
+    const latest = r => `${esc(r.issuer)}, ${esc(EO.date(r.issued))}`;
+    const KEY = [["NOAA ENSO Diagnostic Discussion, " + EO.date(S.issued), S.url], ["NOAA, archived copy of that discussion", S.archive.url], ["NOAA ENSO probabilities (RONI), " + EO.date(P.issued), P.url],
+      ...O.others.filter(x => x.link && !/Seasonal forecast/.test(x.title)).map(x => { const t = x.title.replace(/ \(.*\)$/, ""); return [`${x.link.replace(/'s .*/, "")}: ${t}${t.includes(EO.date(x.issued)) ? "" : ", " + EO.date(x.issued)}`, x.url]; })];
     const body = `<style>
-      .eb-now { margin-top: 6px; background: #fff; border: 1px solid #E2DACE; border-radius: 6px; padding: 6px 9px; }
-      .eb-now b.big { display: block; font-size: 12pt; } .eb-small { font-size: 7.8pt; color: #5E6570; }
-      .eb-reg li { margin: 1px 0; } .eb-q li { margin: 2px 0; } .sheet .srcs { columns: 2; column-gap: 6mm; } .sheet .srcs li { break-inside: avoid; }
+      .eb-now { margin-top: 4px; background: #fff; border: 1px solid #E2DACE; border-radius: 6px; padding: 5px 8px; }
+      .eb-now b.big { display: block; font-size: 11pt; line-height: 1.3; } .eb-small { font-size: 8pt; color: #4A515B; line-height: 1.4; }
+      .eb-tag { display: inline-block; font-size: 7pt; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; border: 1px solid #16202B; border-radius: 3px; padding: 0 4px; margin-right: 4px; }
+      .eb-q li { margin: 1.5px 0; } .eb-p { font-size: 8.8pt; line-height: 1.42; margin: 2px 0 4px; }
+      .sheet table td, .sheet table th { font-size: 8pt; padding: 1.5px 4px; }
+      .sheet .srcs { columns: 2; column-gap: 6mm; } .sheet .srcs li { break-inside: avoid; }
+      @media print { .eb-block { break-inside: avoid; } }
       @media screen and (max-width: 820px) { .eb-cols { grid-template-columns: 1fr !important; } }
     </style>
-    <div class="eb-now"><b class="big">${esc(S.label)}: ${esc(S.forecast)}</b>
-            <p class="eb-small">${esc(S.issuer)}, ${esc(S.bulletin)}, issued ${esc(EO.date(S.issued))}; next scheduled ${esc(EO.date(S.next))}. A Pacific probability is not any town's chance of a heatwave, water shortage or flood.</p></div>
+    <div class="cols eb-cols"><div class="eb-block"><h2>What El Niño is</h2><p class="eb-p">${esc(X.SUMMARY[0])} ${esc(X.SUMMARY[1])}</p></div>
+      <div class="eb-block"><h2>What it may mean for Asia</h2><p class="eb-p">Effects differ by region and season. Over Southeast Asia it typically brings drier conditions, mainly from June to November; in India, most years with above-normal April to June heatwave activity in 1961 to 2013 followed El Niño events: a pattern, not a forecast.</p></div></div>
+    <div class="eb-now eb-block"><b class="big">${esc(F.status)}</b>
+      <p class="eb-small"><span class="eb-tag">Bulletin</span>${esc(F.bulletin)}. <span class="eb-tag">Forecast period</span>strength: ${esc(S.forecast_period)}; phase odds: ${esc(P.rows[0].season)} to ${esc(P.rows[P.rows.length - 1].season)}.</p>
+      <p class="eb-small"><span class="eb-tag">Observed</span>${esc(S.observed)} ${esc(S.observed_basis)}</p>
+      <p class="eb-small"><span class="eb-tag">What changed</span>${esc(F.unchanged.split(": ")[0])}; the next discussion is due ${esc(EO.date(S.next))}.</p></div>
     <div class="cols eb-cols" style="margin-top:2px">
-      <div><h2>ENSO phase odds (${esc(P.issuer)}, ${esc(EO.date(P.issued))})</h2>
+      <div class="eb-block"><h2>ENSO phase odds (${esc(P.issuer)}, ${esc(EO.date(P.issued))})</h2>
         <table><thead><tr><th>Season</th><th>El Niño</th><th>Neutral</th><th>La Niña</th></tr></thead><tbody>${P.rows.map(r => `<tr><td>${esc(r.season)}</td><td>${r.elnino}%</td><td>${r.neutral}%</td><td>${r.lanina}%</td></tr>`).join("")}</tbody></table>
-        <p class="eb-small">Strength, ${esc(P.strength.season)}: weak ${P.strength.weak}%, moderate ${P.strength.moderate}%, strong ${P.strength.strong}%, very strong ${P.strength.verystrong}%. RONI, 1991–2020 base. Strength in the Pacific does not necessarily match the strength of local impacts.</p></div>
-      <div><h2>Other current bulletins</h2>
-        <table><thead><tr><th>Issuer, date</th><th>Covers</th></tr></thead><tbody>${O.others.map(x => `<tr><td>${esc(x.issuer)}, ${esc(EO.date(x.issued))}</td><td>${esc(x.period)}</td></tr>`).join("")}</tbody></table><p class="eb-small">Each uses its own index and period; they are not combined.</p></div></div>
-    <div class="cols eb-cols"><div><h2>Your national or regional service</h2><p class="eb-small">A regional pattern does not give one district's outlook.</p><p style="font-size:8.6pt">${X.REGIONS.map(r => `<b>${esc(r.name)}:</b> ${esc(r.service[0])}${r.service2 ? `; ${esc(r.service2[0])}` : ""}`).join(". ")}.</p></div>
-      <div><h2>Questions for the first meeting</h2><ul class="check eb-q">${X.PRINT_QUESTIONS.map(q => `<li>${esc(q)}</li>`).join("")}</ul></div></div>`;
+        <p class="eb-small">Strength, ${esc(F.strength)} RONI, 1991–2020 base.</p></div>
+      <div class="eb-block"><h2>What it cannot tell any place</h2><p class="eb-p"><span class="eb-tag">Uncertain</span>${esc(F.limit)} Strength odds describe the Pacific index, not local impacts; season, geography, the Indian Ocean and long-term warming all matter, and national outlooks and local warnings carry that detail.</p>
+        <p class="eb-p"><span class="eb-tag">Our reading</span>${esc(F.reading)}</p></div></div>
+    <div class="cols eb-cols">
+      <div class="eb-block"><h2>Before the hot season: a short checklist</h2><ul class="check eb-q">${X.PRINT_QUESTIONS.map(q => `<li>${esc(q)}</li>`).join("")}<li>Which national service's seasonal outlook and district warnings will we follow, and who receives them?</li></ul></div>
+      <div class="eb-block"><h2>Your national or regional service</h2><p style="font-size:8.4pt;line-height:1.4">${X.REGIONS.map(r => `<b>${esc(r.name)}:</b> ${esc(r.service[0])}${r.service2 ? `; ${esc(r.service2[0])}` : ""}`).join(". ")}.</p></div></div>
+`;
     const meta = { kind: "Briefing · For municipal teams, employers, community organisations and funders", title: "El Niño and heat in Asia", for: "Municipal teams, employers, community organisations and funders" };
     add("el-nino-briefing", meta, await sheet({ slug: "el-nino-briefing", kind: meta.kind, title: meta.title, lede: X.SUB, body, live: "/el-nino/",
-      sources: C.sources.map(x => ({ label: `${x.publisher}${x.issued ? `, ${EO.date(x.issued)}` : `, ${x.year}`}`, url: x.url })), undated: true }));
+      sources: KEY.map(([label, url]) => ({ label, url })), undated: true }));
   }
 
   // 4b. Practical action cards, one sheet per setting

@@ -1,7 +1,7 @@
 ---
 title: "Nepal DHM Weather and Heat-Wave Bulletins: Heat Tool Finder"
 url: https://beattheheat.asia/heat-tools/dhm/
-updated: 2026-10-01
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -88,6 +88,10 @@ Public description or selected documentation only; no complete scientific valida
 Provider description plus editorial categorisation; not independent certification. Reviewed on 2026-11-10; next review due 2026-12-10.
 
 From the provider's sources: the description, inputs, outputs and access. Common Shade's editorial reading: what it helps decide, who it suits, how it applies in Asia, its limits, the next step on Common Shade. Not yet known: reuse licence, price, where it has been validated locally.
+
+## Illustrative workflows it appears in
+
+- [I need to prepare for El Niño-related seasonal risk](https://beattheheat.asia/heat-tools/#path-enso-season)
 
 ## What to do next
 

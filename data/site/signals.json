@@ -85,18 +85,23 @@
    "kind": "finding",
    "date": "2026-11-09",
    "title": "El Niño set to bring more heat into 2027",
-   "summary": "By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027. WMO calls it a risk multiplier for health, and reports that WHO has, for the first time, classified the anticipated health impacts as a health emergency.",
+   "summary": "By mid-August 2026 El Niño had become firmly established. WMO's State of the Climate release says it has been intensifying since August and is expected to be the strongest on record by December. That is a forecast, not an observed record: NOAA's discussion of 12 November 2026 put the chance of a historic event (a three-month RONI of +2.5 °C or more) at about 60% for October to December 2026 and for November 2026 to January 2027. WMO calls El Niño a risk multiplier for health and writes that WHO has, for the first time, classified the anticipated health impacts as a health emergency. WHO's own plan describes a Grade 3 response, its internal grading of its operational response; no declaration of a public health emergency under the International Health Regulations was found.",
    "who": "World Meteorological Organization",
    "places": ["region"],
    "levers": ["anticipatory","hap"],
    "next": "Early warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016.",
    "sources": [
     {"id":"wmo-press","type":"original","label":"WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'","url":"https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"},
-    {"id":"wmo-enso","type":"original","label":"WMO: El Niño/La Niña Update, August 2026","url":"https://wmo.int/node/38928"}
+    {"id":"wmo-enso","type":"original","label":"WMO: El Niño/La Niña Update, August 2026","url":"https://wmo.int/node/38928"},
+    {"id":"noaa-disc","type":"original","label":"NOAA Climate Prediction Center, 12 November 2026: ENSO Diagnostic Discussion (archived copy)","url":"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf"},
+    {"id":"who-sprp","type":"original","label":"WHO, 2026: Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies, Strategic Preparedness and Response Plan","url":"https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan"}
    ],
    "where": "Global",
    "relevance": {"basis":"explicit"},
-   "review": {"reviewed":"2026-11-17","due":"2026-11-27"}
+   "review": {"reviewed":"2026-11-26","due":"2026-12-11"},
+   "corrections": [
+    {"date":"2026-11-26","note":"An earlier summary said, without qualification, that El Niño was expected to be the strongest on record by December and that WHO had classified its anticipated health impacts as a health emergency. Both are WMO's words. The first is a forecast, now shown beside NOAA's estimate of a historic event; the second is now set beside WHO's own description of a Grade 3 response, an internal operational grading rather than a declaration under the International Health Regulations."}
+   ]
   },
   {
    "id": "sig-emissions-gap-2026",

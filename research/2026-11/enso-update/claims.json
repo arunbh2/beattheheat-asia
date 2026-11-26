@@ -1,0 +1,859 @@
+{
+ "about": "El Niño pages update (26 November 2026): the latest official ENSO bulletins after the batch in research/2026-11/enso-asia, WHO's own El Niño documents, forecast products for the Heat Tool Finder, and Indian national guidance for the four protections on /el-nino-and-cities/. Sources were found by web search from the build session, which cannot open them, so every term is taken from the document's title or from wording search results quoted from it; a claim reaches a page only if the GitHub source check finds every term. This batch never replaces a claim confirmed in enso-asia: a page that does not open here leaves earlier verified content as it was. After the first check (26 November 2026), further claims were added whose terms the checker's stored passages of the same pages already hold (the gate accepts a term found on the page or in its excerpts); claims resting on pages that did not open (NDMA's guidelines, two Labour Ministry releases, NCDC's national action plan) stay dropped.",
+ "sources": [
+  {
+   "key": "noaa-nov-pdf",
+   "title": "El Niño/Southern Oscillation (ENSO) Diagnostic Discussion, 12 November 2026 (archived copy)",
+   "publisher": "NOAA Climate Prediction Center",
+   "year": 2026,
+   "issued": "2026-11-12",
+   "kind": "Official ENSO bulletin (monthly), archive",
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf",
+   "expect": [
+    "DIAGNOSTIC DISCUSSION"
+   ]
+  },
+  {
+   "key": "noaa-weekly",
+   "title": "ENSO: Recent Evolution, Current Status and Predictions (weekly update)",
+   "publisher": "NOAA Climate Prediction Center",
+   "year": 2026,
+   "kind": "Weekly ENSO update (slides)",
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+   "expect": [
+    "ENSO"
+   ]
+  },
+  {
+   "key": "bom-enso",
+   "title": "Climate driver update: ENSO and the Indian Ocean",
+   "publisher": "Australian Bureau of Meteorology",
+   "year": 2026,
+   "kind": "ENSO and Indian Ocean monitoring",
+   "url": "https://www.bom.gov.au/climate/enso/",
+   "expect": [
+    "El Niño"
+   ]
+  },
+  {
+   "key": "asmc-enso-now",
+   "title": "Regional Climate: El Niño / La Niña",
+   "publisher": "ASEAN Specialised Meteorological Centre",
+   "year": 2026,
+   "kind": "Regional ENSO and IOD status",
+   "url": "https://asmc.asean.org/asmc-el-nino/",
+   "expect": [
+    "El Niño"
+   ]
+  },
+  {
+   "key": "imd-enso-bull",
+   "title": "ENSO and IOD Update Bulletin",
+   "publisher": "India Meteorological Department (Ministry of Earth Sciences)",
+   "year": 2026,
+   "kind": "National ENSO and IOD bulletin",
+   "url": "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf",
+   "expect": [
+    "ENSO"
+   ]
+  },
+  {
+   "key": "wmo-proj",
+   "title": "WMO projects strengthening El Niño preparedness and early action worldwide",
+   "publisher": "World Meteorological Organization",
+   "year": 2026,
+   "kind": "Project update (not a forecast)",
+   "url": "https://wmo.int/media/project-update/wmo-projects-strengthening-el-nino-preparedness-and-early-action-worldwide",
+   "expect": [
+    "El Niño"
+   ]
+  },
+  {
+   "key": "wmo-soc",
+   "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+   "publisher": "World Meteorological Organization",
+   "year": 2026,
+   "kind": "Press release",
+   "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+   "expect": [
+    "El Niño"
+   ]
+  },
+  {
+   "key": "who-sprp",
+   "title": "WHO Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies: Strategic Preparedness and Response Plan",
+   "publisher": "World Health Organization",
+   "year": 2026,
+   "kind": "Strategic plan",
+   "url": "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan",
+   "expect": [
+    "Strategic Preparedness and Response Plan"
+   ]
+  },
+  {
+   "key": "who-sitan",
+   "title": "Global Public Health Situation Analysis: El Niño 2026",
+   "publisher": "World Health Organization",
+   "year": 2026,
+   "kind": "Situation analysis",
+   "url": "https://www.who.int/publications/m/item/global-public-health-situation-analysis-el-nino-2026",
+   "expect": [
+    "Situation Analysis"
+   ]
+  },
+  {
+   "key": "imd-erf",
+   "title": "Extended Range Forecast",
+   "publisher": "India Meteorological Department",
+   "year": 2026,
+   "kind": "Extended range forecast (weekly)",
+   "url": "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf",
+   "expect": [
+    "Extended Range"
+   ]
+  },
+  {
+   "key": "ndma-hw",
+   "title": "Guidelines for Preparation of Action Plan: Prevention and Management of Heat Wave (2019)",
+   "publisher": "National Disaster Management Authority",
+   "year": 2019,
+   "kind": "National guidelines",
+   "url": "https://ndma.gov.in/sites/default/files/PDF/Guidelines/heatwaveguidelines.pdf",
+   "expect": [
+    "Heat Wave"
+   ]
+  },
+  {
+   "key": "mole-a",
+   "title": "Ministry of Labour and Employment: heat wave advisory to States and Union Territories (PIB release)",
+   "publisher": "Ministry of Labour and Employment",
+   "year": 2025,
+   "kind": "Government release",
+   "url": "https://labour.gov.in/sites/default/files/pib2123477.pdf",
+   "expect": [
+    "Labour"
+   ]
+  },
+  {
+   "key": "mole-b",
+   "title": "Ministry of Labour and Employment: heat wave advisory (PIB release)",
+   "publisher": "Ministry of Labour and Employment",
+   "year": 2024,
+   "kind": "Government release",
+   "url": "https://labour.gov.in/sites/default/files/pib2035277.pdf",
+   "expect": [
+    "Labour"
+   ]
+  },
+  {
+   "key": "air-2026",
+   "title": "Government issues nationwide heatwave advisory to safeguard workers from rising temperatures",
+   "publisher": "All India Radio News",
+   "year": 2026,
+   "kind": "Public broadcaster report",
+   "url": "https://www.newsonair.gov.in/government-issues-nationwide-heatwave-advisory-to-safeguard-workers-from-rising-temperatures/",
+   "expect": [
+    "heatwave"
+   ]
+  },
+  {
+   "key": "ncdc-nap",
+   "title": "National Action Plan on Heat Related Illnesses",
+   "publisher": "National Centre for Disease Control (MoHFW)",
+   "year": 2021,
+   "kind": "National action plan",
+   "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/1.Nation-Action-plan-on-Heat-Related-llnesses.pdf",
+   "expect": [
+    "Heat"
+   ]
+  },
+  {
+   "key": "ncdc-preg",
+   "title": "Heat and Pregnancy",
+   "publisher": "National Centre for Disease Control (MoHFW)",
+   "year": 2025,
+   "kind": "Guidance",
+   "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf",
+   "expect": [
+    "Pregnan"
+   ]
+  },
+  {
+   "key": "moe-schools",
+   "title": "Guidelines regarding precautions to be observed by schools to combat the ill-effects of the heat-wave (Ministry of Education, 2022, as published by Vikaspedia)",
+   "publisher": "Vikaspedia (Government of India portal)",
+   "year": 2022,
+   "kind": "Government guidelines, republished",
+   "url": "https://vikaspedia.in/education/teachers-corner/guidelines-regarding-precautions-to-be-observed-by-schools-to-combat-the-ill-effects-of-the-heat-wave",
+   "expect": [
+    "heat"
+   ]
+  },
+  {
+   "key": "mht-roof",
+   "title": "Hot Take: Cool Roof Research Study Report 2024",
+   "publisher": "Mahila Housing Trust",
+   "year": 2024,
+   "kind": "Research report",
+   "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf",
+   "expect": [
+    "Cool Roof"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "u-noaa-archive",
+   "where": "Shared outlook: history",
+   "text": "NOAA's archived copy of its 12 November 2026 discussion keeps the El Niño Advisory and the outlook of a strong-to-very strong El Niño likely through January-March 2027.",
+   "rests_on": [
+    [
+     "noaa-nov-pdf",
+     "Advisory"
+    ],
+    [
+     "noaa-nov-pdf",
+     "January-March 2027"
+    ]
+   ]
+  },
+  {
+   "id": "u-noaa-weekly",
+   "where": "Shared outlook: weekly monitoring",
+   "text": "NOAA's weekly ENSO update, published between monthly discussions, keeps the El Niño Advisory; it is a weekly monitoring summary, not a new monthly outlook.",
+   "rests_on": [
+    [
+     "noaa-weekly",
+     "El Niño Advisory"
+    ],
+    [
+     "noaa-weekly",
+     "weekly"
+    ]
+   ],
+   "alt": [
+    [
+     "noaa-weekly",
+     "Advisory"
+    ],
+    [
+     "noaa-weekly",
+     "Weekly"
+    ]
+   ]
+  },
+  {
+   "id": "u-bom-now",
+   "where": "Shared outlook: BoM",
+   "text": "The Bureau of Meteorology reports a weekly relative Niño3.4 value of +2.67 °C for the week ending 22 November 2026, below the event's peak so far of +2.88 °C.",
+   "rests_on": [
+    [
+     "bom-enso",
+     "2.67"
+    ],
+    [
+     "bom-enso",
+     "22 November"
+    ],
+    [
+     "bom-enso",
+     "2.88"
+    ]
+   ]
+  },
+  {
+   "id": "u-bom-fc",
+   "where": "Shared outlook: BoM",
+   "text": "The Bureau says most models expect warming in the tropical Pacific to peak in December or January and to stay above El Niño thresholds into the southern autumn of 2027 (March to May 2027).",
+   "rests_on": [
+    [
+     "bom-enso",
+     "December"
+    ],
+    [
+     "bom-enso",
+     "January"
+    ],
+    [
+     "bom-enso",
+     "autumn"
+    ]
+   ]
+  },
+  {
+   "id": "u-bom-impact",
+   "where": "Explainer; watch",
+   "text": "The Bureau notes that a strong Niño3.4 signal does not necessarily mean strong impacts.",
+   "rests_on": [
+    [
+     "bom-enso",
+     "necessarily"
+    ]
+   ]
+  },
+  {
+   "id": "u-bom-iod",
+   "where": "Shared outlook: Indian Ocean",
+   "text": "The Bureau reports a weekly Indian Ocean Dipole index of +0.53 °C for the week ending 22 November 2026, and expects the positive Indian Ocean Dipole to weaken and return to neutral in early southern summer.",
+   "rests_on": [
+    [
+     "bom-enso",
+     "0.53"
+    ],
+    [
+     "bom-enso",
+     "Indian Ocean Dipole"
+    ],
+    [
+     "bom-enso",
+     "neutral"
+    ]
+   ]
+  },
+  {
+   "id": "u-asmc-peak",
+   "where": "Shared outlook: ASMC",
+   "text": "ASMC's El Niño page predicts the Relative Niño3.4 index to peak during November to December 2026, with most models predicting El Niño to begin weakening in January to February 2027 and strong El Niño conditions persisting until February to March 2027.",
+   "rests_on": [
+    [
+     "asmc-enso-now",
+     "peak"
+    ],
+    [
+     "asmc-enso-now",
+     "weaken"
+    ],
+    [
+     "asmc-enso-now",
+     "2027"
+    ],
+    [
+     "asmc-enso-now",
+     "persist"
+    ]
+   ]
+  },
+  {
+   "id": "u-asmc-iod",
+   "where": "Shared outlook: Indian Ocean",
+   "text": "ASMC expects positive Indian Ocean Dipole conditions to weaken and return to neutral in January 2027.",
+   "rests_on": [
+    [
+     "asmc-enso-now",
+     "IOD"
+    ],
+    [
+     "asmc-enso-now",
+     "neutral"
+    ],
+    [
+     "asmc-enso-now",
+     "January 2027"
+    ]
+   ]
+  },
+  {
+   "id": "u-imd-bull",
+   "where": "Shared outlook: IMD",
+   "text": "IMD's latest ENSO and IOD update bulletin reports neutral Indian Ocean Dipole conditions and expects El Niño conditions to continue.",
+   "rests_on": [
+    [
+     "imd-enso-bull",
+     "IOD"
+    ],
+    [
+     "imd-enso-bull",
+     "neutral"
+    ],
+    [
+     "imd-enso-bull",
+     "El Nino"
+    ]
+   ],
+   "alt": [
+    [
+     "imd-enso-bull",
+     "IOD"
+    ],
+    [
+     "imd-enso-bull",
+     "neutral"
+    ],
+    [
+     "imd-enso-bull",
+     "El Niño"
+    ]
+   ]
+  },
+  {
+   "id": "u-wmo-proj",
+   "where": "Signals; change log",
+   "text": "WMO's update of 20 November 2026 describes stepped-up support for El Niño preparedness and early action; it is a project update, not a new climate forecast.",
+   "rests_on": [
+    [
+     "wmo-proj",
+     "preparedness"
+    ],
+    [
+     "wmo-proj",
+     "early action"
+    ]
+   ]
+  },
+  {
+   "id": "u-wmo-soc-strongest",
+   "where": "Signals: El Niño finding (correction)",
+   "text": "WMO's State of the Climate press release describes El Niño as expected to become very strong, with the possibility of being among the strongest on record.",
+   "rests_on": [
+    [
+     "wmo-soc",
+     "strongest"
+    ],
+    [
+     "wmo-soc",
+     "El Niño"
+    ]
+   ]
+  },
+  {
+   "id": "u-wmo-soc-who",
+   "where": "Signals: El Niño finding (correction)",
+   "text": "WMO's State of the Climate press release refers to WHO's response to El Niño's anticipated health impacts.",
+   "rests_on": [
+    [
+     "wmo-soc",
+     "WHO"
+    ],
+    [
+     "wmo-soc",
+     "health"
+    ]
+   ]
+  },
+  {
+   "id": "u-who-grade",
+   "where": "Signals; explainer",
+   "text": "WHO's Strategic Preparedness and Response Plan for El Niño-related public health risks covers October 2026 to September 2027 and describes WHO's Grade 3 response.",
+   "rests_on": [
+    [
+     "who-sprp",
+     "Grade 3"
+    ],
+    [
+     "who-sprp",
+     "Strategic Preparedness and Response Plan"
+    ]
+   ]
+  },
+  {
+   "id": "u-who-sitan",
+   "where": "Explainer; cities",
+   "text": "WHO's Global Public Health Situation Analysis for El Niño 2026 sets out expected public health risks, including heat.",
+   "rests_on": [
+    [
+     "who-sitan",
+     "Situation Analysis"
+    ],
+    [
+     "who-sitan",
+     "heat"
+    ]
+   ],
+   "alt": [
+    [
+     "who-sitan",
+     "Situation Analysis"
+    ],
+    [
+     "who-sitan",
+     "Heat"
+    ]
+   ]
+  },
+  {
+   "id": "u-imd-erf",
+   "where": "Heat Tool Finder",
+   "text": "IMD publishes an extended range forecast covering the coming weeks.",
+   "rests_on": [
+    [
+     "imd-erf",
+     "Extended Range"
+    ],
+    [
+     "imd-erf",
+     "week"
+    ]
+   ],
+   "alt": [
+    [
+     "imd-erf",
+     "Extended Range"
+    ],
+    [
+     "imd-erf",
+     "Week"
+    ]
+   ]
+  },
+  {
+   "id": "u-ndma-work",
+   "where": "Cities: workplace protection",
+   "text": "NDMA's national heat wave guidelines include rescheduling working hours and providing drinking water for workers.",
+   "rests_on": [
+    [
+     "ndma-hw",
+     "working hours"
+    ],
+    [
+     "ndma-hw",
+     "drinking water"
+    ]
+   ]
+  },
+  {
+   "id": "u-ndma-school",
+   "where": "Cities: schools",
+   "text": "NDMA's national heat wave guidelines include measures for schools.",
+   "rests_on": [
+    [
+     "ndma-hw",
+     "school"
+    ]
+   ]
+  },
+  {
+   "id": "u-mole",
+   "where": "Cities: workplace protection",
+   "text": "The Ministry of Labour and Employment has written to the States and Union Territories asking them to issue directions to employers and to spread information on protecting workers from extreme heat.",
+   "rests_on": [
+    [
+     "mole-a",
+     "employers"
+    ],
+    [
+     "mole-a",
+     "heat"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "mole-b",
+      "employers"
+     ],
+     [
+      "mole-b",
+      "heat"
+     ]
+    ],
+    [
+     [
+      "mole-a",
+      "employers"
+     ],
+     [
+      "mole-a",
+      "Heat"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "u-mole-2026",
+   "where": "Cities: workplace protection",
+   "text": "Its advisory of April 2026, as reported by All India Radio, urged rescheduling working hours away from peak heat, adequate drinking water and shaded rest areas.",
+   "rests_on": [
+    [
+     "air-2026",
+     "working hours"
+    ],
+    [
+     "air-2026",
+     "drinking water"
+    ],
+    [
+     "air-2026",
+     "shade"
+    ]
+   ]
+  },
+  {
+   "id": "u-ncdc-facility",
+   "where": "Cities: continuity of care",
+   "text": "India's National Action Plan on Heat Related Illnesses sets out health facility preparedness before, during and after the heat season.",
+   "rests_on": [
+    [
+     "ncdc-nap",
+     "preparedness"
+    ],
+    [
+     "ncdc-nap",
+     "facility"
+    ]
+   ],
+   "alt": [
+    [
+     "ncdc-nap",
+     "Preparedness"
+    ],
+    [
+     "ncdc-nap",
+     "Facility"
+    ]
+   ]
+  },
+  {
+   "id": "u-ncdc-preg",
+   "where": "Cities: continuity of care",
+   "text": "NCDC's guidance on heat and pregnancy notes higher health risks from extreme heat for pregnant women and the fetus, and covers assessment and timely referral in health facilities.",
+   "rests_on": [
+    [
+     "ncdc-preg",
+     "pregnan"
+    ],
+    [
+     "ncdc-preg",
+     "referral"
+    ]
+   ],
+   "alt": [
+    [
+     "ncdc-preg",
+     "Pregnan"
+    ],
+    [
+     "ncdc-preg",
+     "referral"
+    ]
+   ]
+  },
+  {
+   "id": "u-moe",
+   "where": "Cities: schools",
+   "text": "The Ministry of Education's 2022 guidelines for schools in a heat wave include starting early and finishing before noon, holding assemblies in covered areas or classrooms, reminding pupils to drink water, and keeping ORS available.",
+   "rests_on": [
+    [
+     "moe-schools",
+     "before noon"
+    ],
+    [
+     "moe-schools",
+     "covered"
+    ],
+    [
+     "moe-schools",
+     "ORS"
+    ]
+   ]
+  },
+  {
+   "id": "u-mht",
+   "where": "Cities: heat-safe homes",
+   "text": "Mahila Housing Trust's 2024 cool roof study looks at heat in homes in an informal settlement in Ahmedabad, including homes where women do paid work.",
+   "rests_on": [
+    [
+     "mht-roof",
+     "cool roof"
+    ],
+    [
+     "mht-roof",
+     "Ahmedabad"
+    ]
+   ],
+   "alt": [
+    [
+     "mht-roof",
+     "Cool Roof"
+    ],
+    [
+     "mht-roof",
+     "Ahmedabad"
+    ]
+   ]
+  },
+  {
+   "id": "u-noaa-weekly-date",
+   "where": "Shared outlook: weekly monitoring",
+   "text": "NOAA's weekly ENSO update was prepared on 23 November 2026.",
+   "rests_on": [
+    [
+     "noaa-weekly",
+     "23 November 2026"
+    ]
+   ]
+  },
+  {
+   "id": "u-noaa-indonesia",
+   "where": "Shared outlook: observed",
+   "text": "NOAA's weekly update notes that suppressed convection and rainfall has persisted over Indonesia since June 2026.",
+   "rests_on": [
+    [
+     "noaa-weekly",
+     "persisted over Indonesia"
+    ],
+    [
+     "noaa-weekly",
+     "Since June 2026"
+    ]
+   ]
+  },
+  {
+   "id": "u-asmc-oct",
+   "where": "Shared outlook: ASMC",
+   "text": "ASMC reports the Relative Niño3.4 index at 2.3 °C for October 2026 and 2.0 °C for August to October 2026, based on the Relative Oceanic Niño Index.",
+   "rests_on": [
+    [
+     "asmc-enso-now",
+     "2.3°C for October 2026"
+    ],
+    [
+     "asmc-enso-now",
+     "2.0°C for the three-month average August"
+    ]
+   ]
+  },
+  {
+   "id": "u-asmc-apr",
+   "where": "Shared outlook: ASMC",
+   "text": "ASMC says strong El Niño conditions are predicted to persist until February to March 2027, with El Niño conditions continuing until at least March to April 2027; most models (more than 70%) predict El Niño will still be present in April 2027.",
+   "rests_on": [
+    [
+     "asmc-enso-now",
+     "Strong El Niño conditions are predicted to persist until February"
+    ],
+    [
+     "asmc-enso-now",
+     "at least March"
+    ],
+    [
+     "asmc-enso-now",
+     "still be present in April 2027"
+    ]
+   ]
+  },
+  {
+   "id": "u-asmc-thresh",
+   "where": "Explainer: reading the outlook",
+   "text": "ASMC classifies historical events with a three-month Niño3.4 threshold of ±0.65 °C and calls events above 1.5 °C strong; NOAA uses ±0.5 °C on RONI. Agencies keep their own thresholds.",
+   "rests_on": [
+    [
+     "asmc-enso-now",
+     "0.65"
+    ],
+    [
+     "asmc-enso-now",
+     "considered strong"
+    ]
+   ]
+  },
+  {
+   "id": "u-imd-oct",
+   "where": "Shared outlook: IMD",
+   "text": "IMD's ENSO and IOD bulletin for October 2026, from its Monsoon Mission Coupled Forecast System, indicates a high likelihood of strong-to-very strong El Niño conditions persisting through January to March 2027, and reports neutral IOD conditions, with neutral most likely to continue; it notes that some international centres expect the positive IOD phase to continue in the near term.",
+   "rests_on": [
+    [
+     "imd-enso-bull",
+     "OCTOBER 2026"
+    ],
+    [
+     "imd-enso-bull",
+     "persisting through January"
+    ],
+    [
+     "imd-enso-bull",
+     "neutral IOD conditions prevail"
+    ],
+    [
+     "imd-enso-bull",
+     "some international centres expect the positive IOD phase"
+    ]
+   ]
+  },
+  {
+   "id": "u-imd-thresh",
+   "where": "Explainer: reading the outlook",
+   "text": "IMD's bulletin defines IOD categories with a ±0.4 °C threshold on the Dipole Mode Index and ENSO categories with ±0.5 °C, and says IMD issues monthly updates.",
+   "rests_on": [
+    [
+     "imd-enso-bull",
+     "DMI (IOD) categories"
+    ],
+    [
+     "imd-enso-bull",
+     "issue monthly updates"
+    ]
+   ]
+  },
+  {
+   "id": "u-wmo-soc-quote",
+   "where": "Signals: El Niño finding (correction)",
+   "text": "WMO's State of the Climate press release says El Niño has been intensifying since August and is expected to be the strongest on record by December, and that WHO has, for the first time, classified the anticipated health impacts as a health emergency.",
+   "rests_on": [
+    [
+     "wmo-soc",
+     "expected to be the strongest on record by December"
+    ],
+    [
+     "wmo-soc",
+     "classified the anticipated health impacts as a health emergency"
+    ]
+   ]
+  },
+  {
+   "id": "u-air",
+   "where": "Cities: workplace protection",
+   "text": "In April 2026 the Government issued a nationwide heatwave advisory to safeguard workers from rising temperatures, as reported by All India Radio (Akashvani); the report mentions drinking water.",
+   "rests_on": [
+    [
+     "air-2026",
+     "Nationwide Heatwave Advisory to Safeguard Workers"
+    ],
+    [
+     "air-2026",
+     "drinking water"
+    ]
+   ]
+  },
+  {
+   "id": "u-moe-title",
+   "where": "Cities: schools",
+   "text": "The Ministry of Education's guidelines set out precautions for schools to combat the ill-effects of heat waves (as published on Vikaspedia).",
+   "rests_on": [
+    [
+     "moe-schools",
+     "precautions to be observed by schools"
+    ]
+   ]
+  },
+  {
+   "id": "u-mht-care",
+   "where": "Cities: heat-safe homes; continuity of care",
+   "text": "Mahila Housing Trust's 2024 study in an Ahmedabad informal settlement attributes almost 75% of women's heat-related productivity losses to unpaid labour, including care for others made ill by heat.",
+   "rests_on": [
+    [
+     "mht-roof",
+     "almost 75% of women"
+    ],
+    [
+     "mht-roof",
+     "unpaid"
+    ]
+   ]
+  },
+  {
+   "id": "u-ncdc-preg-check",
+   "where": "Cities: continuity of care",
+   "text": "NCDC's guidance for health professionals and community health workers lists checks for a pregnant woman exposed to heat, including temperature, blood pressure, hydration and fetal heart rate.",
+   "rests_on": [
+    [
+     "ncdc-preg",
+     "Community Health Workers"
+    ],
+    [
+     "ncdc-preg",
+     "fetal heart rate"
+    ]
+   ]
+  }
+ ]
+}

@@ -125,7 +125,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 ## Heat Tool Finder
 
-- [Heat Tool Finder](https://beattheheat.asia/heat-tools/index.md): which heat tool fits a decision (warnings, where to focus, future heat, exposure, worker protection, cooler places, response plans, financial protection, inclusion): 17 outside resources and 4 Common Shade pages, each with what it needs, what it gives, its limits and how far it was reviewed; never ranked, and none run by Common Shade (also in llms-full.txt; data at https://beattheheat.asia/data/heat-tools/catalogue.json)
+- [Heat Tool Finder](https://beattheheat.asia/heat-tools/index.md): which heat tool fits a decision (warnings, where to focus, future heat, exposure, worker protection, cooler places, response plans, financial protection, inclusion): 24 outside resources and 5 Common Shade pages, each with what it needs, what it gives, its limits and how far it was reviewed; never ranked, and none run by Common Shade (also in llms-full.txt; data at https://beattheheat.asia/data/heat-tools/catalogue.json)
 
 ## For AI agents
 
@@ -139,11 +139,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 ## Everything the site covers: the evidence
 
-- [2,413 sources](https://beattheheat.asia/sources/index.md): cited, every one listed
+- [2,414 sources](https://beattheheat.asia/sources/index.md): cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/index.md): cycle by cycle, on the evidence map
 - [44 learning questions](https://beattheheat.asia/evidence-map/index.md): nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/index.md): the Lancet Countdown 2026, in plain language
-- [182 news headlines](https://beattheheat.asia/news/index.md): and 71 articles studied for how heat is reported
+- [183 news headlines](https://beattheheat.asia/news/index.md): and 71 articles studied for how heat is reported
 
 ## Everything the site covers: what helps
 

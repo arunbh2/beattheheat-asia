@@ -5,6 +5,8 @@
 // (tools/enso-outlook.js), so this page and the El Niño watch on /signals/ always show the same bulletin.
 // Voice: no "should" or "must", no em dashes, no individuals named; probabilities always carry their outcome and period.
 "use strict";
+// the sentences that repeat across the El Niño pages come from the shared record, in one wording (tools/enso-outlook.js)
+const EO = require("./enso-outlook.js"), F = EO.facts();
 const SLUG = "el-nino";
 const TITLE = "El Niño and heat in Asia";
 const SUB = "How a change in the Pacific affects rainfall, heat and the choices available to people.";
@@ -23,7 +25,7 @@ const OPENING = {
 const SUMMARY = [
   "El Niño is a warming of the central and eastern tropical Pacific, coupled with a shift in winds and rainfall. It is one phase of ENSO, which swings every three to seven years on average.",
   "It can tilt the odds towards drier or hotter conditions in parts of Asia. It does not decide whether a heatwave, drought or flood happens in any one place.",
-  "The current bulletin expects El Niño to persist into early 2027 and then weaken. For March to May 2027, NOAA's odds favour El Niño, most likely weak or moderate.",
+  "The current bulletin expects El Niño to persist into early 2027 and then weaken. " + F.phase,
   "Effects differ by region and season. India, Bangladesh, Nepal, mainland Southeast Asia, Indonesia and the Philippines each have their own pattern and their own national service.",
   "The useful response is early, ordinary preparation, tied to the official local warning when it comes."
 ];
@@ -58,8 +60,8 @@ const REGIONS = [
   { id: "india", name: "India and the South Asian monsoon",
     typical: "El Niño has historically been associated with weaker summer monsoon rainfall over parts of India, but it is not the only influence: the Indian Ocean Dipole and the Madden-Julian Oscillation matter too. In India's records for 1961 to 2013, most years with above-normal heatwave activity in April to June followed El Niño events.",
     typicalClaims: ["e-india", "c-rohini"],
-    now: "India's Ministry of Earth Sciences reported in August 2026 that INCOIS assessed El Niño as likely to persist from June 2026 to February 2027, with probabilities of 70 to 90 per cent. IMD releases its seasonal outlooks for the hot season between March and May.",
-    nowClaims: ["e-india", "c-imd-outlooks"],
+    now: "India's Ministry of Earth Sciences reported in August 2026 that INCOIS assessed El Niño as likely to persist from June 2026 to February 2027, with probabilities of 70 to 90 per cent. IMD's ENSO and IOD bulletin for October 2026 indicates a high likelihood of strong-to-very strong El Niño conditions persisting through January to March 2027, with neutral Indian Ocean Dipole conditions. IMD releases its seasonal outlooks for the hot season between March and May.",
+    nowClaims: ["e-india", "u-imd-oct", "c-imd-outlooks"],
     cannot: "An India-wide pattern does not give the outlook for one district or city, and the monsoon relationship does not carry over to all of South Asia.",
     service: ["India Meteorological Department", "https://mausam.imd.gov.in/"],
     question: "Which wards and services had the most heat-related problems in the last hot season, and are their repairs funded before March?" },
@@ -82,8 +84,8 @@ const REGIONS = [
   { id: "maritime", name: "Indonesia and the maritime region",
     typical: "El Niño typically brings drier-than-average rainfall to most of the Maritime Continent from September to November, raising the risk of forest fires and smoke haze. In El Niño, sinking air over Indonesia brings higher pressure and dryness.",
     typicalClaims: ["e-asmc-typical", "e-mech-nino"],
-    now: "NOAA's November discussion notes suppressed rainfall persisting over Indonesia. ASMC's forecast predicts below-normal rainfall over parts of the southeastern and northeastern Maritime Continent through January 2027; hotspots with local smoke plumes may still occur where rain stays below normal.",
-    nowClaims: ["e-noaa-change", "e-asmc-outlook", "e-asmc-haze"],
+    now: "NOAA's November discussion, and its weekly update of 23 November, note suppressed rainfall persisting over Indonesia. ASMC's forecast predicts below-normal rainfall over parts of the southeastern and northeastern Maritime Continent through January 2027; hotspots with local smoke plumes may still occur where rain stays below normal.",
+    nowClaims: ["e-noaa-change", "u-noaa-indonesia", "e-asmc-outlook", "e-asmc-haze"],
     cannot: "Rainfall varies sharply between islands; a regional forecast does not show one island's water supply or fire risk.",
     service: ["BMKG, Indonesia", "https://www.bmkg.go.id/"], service2: ["Meteorological Service Singapore", "https://www.weather.gov.sg/climate-el-la/"],
     question: "Where do smoke and heat arrive together, and do clinics and schools there have a plan for both?" },
@@ -110,15 +112,15 @@ const HOUSEHOLD = { label: "Illustrative", text: "Picture a household in a dense
 
 // reading the outlook: four kinds of probability that are easily confused
 const READ = [
-  { h: "Phase", d: "The chance that ENSO is in El Niño, neutral or La Niña in a given three-month season.", ex: "NOAA (November 2026): El Niño 80% for March to May 2027." },
-  { h: "Strength", d: "The chance that the Pacific index falls in a strength band. A stronger Pacific event does not necessarily mean stronger local impacts.", ex: "NOAA (November 2026), March to May 2027: weak 53%, moderate 25%, strong 2%, very strong 0%." },
+  { h: "Phase", d: "The chance that ENSO is in El Niño, neutral or La Niña in a given three-month season.", ex: `NOAA (${EO.date(EO.load().O.phase.issued)}): ` + F.phase },
+  { h: "Strength", d: "The chance that the Pacific index falls in a strength band. A stronger Pacific event does not necessarily mean stronger local impacts.", ex: `NOAA (${EO.date(EO.load().O.phase.issued)}), ` + F.strength },
   { h: "Seasonal climate", d: "The chance of above- or below-normal rainfall or temperature in a region over a season, from a regional or national service.", ex: "ASMC (5 November 2026): above-normal temperature over the ASEAN region, November 2026 to January 2027." },
   { h: "Local warning", d: "An official warning of heat, rain or storms for a district over the coming days. This is what sets local action moving.", ex: "Issued by the national weather service for your district, as the event approaches." }
 ];
-const READ_CLAIMS = ["e-noaa-prob", "e-noaa-strength", "e-asmc-outlook"];
-const UNCERTAINTY = { p: ["Forecasts made in the northern spring are less reliable than at other times of year. Forecasters call this the spring predictability barrier, though it is more a dip in accuracy than a wall. It matters here because the odds for April to June 2027 rest partly on that season: NOAA's chance of El Niño falls from 80% for March to May to 38% for April to June, when neutral becomes more likely.",
+const READ_CLAIMS = ["e-noaa-prob", "e-noaa-strength", "e-asmc-outlook", "u-asmc-thresh", "u-imd-thresh"];
+const UNCERTAINTY = { p: ["Forecasts made in the northern spring are less reliable than at other times of year. Forecasters call this the spring predictability barrier, though it is more a dip in accuracy than a wall. It matters here because the odds for April to June 2027 rest partly on that season: " + F.transition,
   "El Niño sits on top of long-term warming rather than replacing it. Scientists have low confidence in predicting exactly how a warmer world will change ENSO itself. Attributing any single heatwave or flood solely to El Niño needs a study of that event."], claims: ["e-spb", "e-noaa-prob", "e-mech-cycle", "e-noaa-impacts"] };
-const DISAGREE = "Bulletins can seem to disagree because they measure different things. NOAA's strength odds use RONI over three-month seasons; WMO's seasonal update forecasts the plain Niño 3.4 anomaly from many models. Read each with its own date, index and period, and never average them.";
+const DISAGREE = "Bulletins can seem to disagree because they measure different things. NOAA's strength odds use RONI over three-month seasons; WMO's seasonal update forecasts the plain Niño 3.4 anomaly from many models; a weekly value is not a three-month index. Thresholds differ too: NOAA and IMD use ±0.5 °C for El Niño and La Niña, ASMC classifies events at ±0.65 °C and calls those above 1.5 °C strong, and IMD reads the Indian Ocean Dipole on a ±0.4 °C threshold. Read each with its own date, index and period, and never average them.";
 
 // from outlook to preparation, by decision timescale; roles are illustrative unless a local mandate says otherwise
 const STEPS = [
@@ -147,8 +149,8 @@ const FAQ = [
   { q: "Does a strong El Niño mean severe local impact?", a: "Not necessarily. NOAA states that the strength of El Niño does not necessarily correspond with the strength of its influence or expected impact. Even a very strong event makes typical impacts more likely, not certain.", claims: ["e-noaa-strength", "e-noaa-impacts"] },
   { q: "Does El Niño guarantee drought or a failed monsoon?", a: "No. In India, El Niño has historically been associated with weaker monsoon rain over parts of the country, but other drivers also shape the monsoon. In Nepal, one of nine El Niño years in its national records brought above-average rain.", claims: ["e-india", "e-np"] },
   { q: "Can floods happen during an El Niño?", a: "Yes. An ENSO forecast shifts the odds; it does not rule out heavy rain. In the Philippines, PAGASA notes that above-normal rainfall may still occur over the western part of the country during the southwest monsoon in an El Niño year.", claims: ["e-wmo-limits", "e-ph"] },
-  { q: "Does an ENSO-neutral period remove heat risk?", a: "No. Heat depends on the local climate, the season, long-term warming and other drivers such as the Indian Ocean Dipole. NOAA's odds favour neutral conditions by April to June 2027, which is much of India's heatwave season.", claims: ["e-india", "e-noaa-prob", "e-wmo-limits", "c-rohini"] },
-  { q: "What does \"super El Niño\" mean?", a: "It is not an official category. NOAA's strength table uses bands in 0.5 °C steps of the RONI index, the highest being 2.0 °C or more (very strong). NOAA calls an event historic if its three-month RONI reaches +2.5 °C or more, and gave that about a 60% chance for October to December and November to January. Use the issuing agency's own terms, with their index and period.", claims: ["e-noaa-strength", "e-noaa-historic"] },
+  { q: "Does an ENSO-neutral period remove heat risk?", a: "No. Heat depends on the local climate, the season, long-term warming and other drivers such as the Indian Ocean Dipole. NOAA's odds favour neutral conditions by " + EO.load().O.phase.rows.slice(-1)[0].season + ", which is much of India's heatwave season.", claims: ["e-india", "e-noaa-prob", "e-wmo-limits", "c-rohini"] },
+  { q: "What does \"super El Niño\" mean?", a: "It is not an official category. NOAA's strength table uses bands in 0.5 °C steps of the RONI index, the highest being 2.0 °C or more (very strong). " + F.historic + " A forecast chance of a historic event is not an observed record. Use the issuing agency's own terms, with their index and period.", claims: ["e-noaa-strength", "e-noaa-historic"] },
   { q: "What local information is worth checking next?", a: "Your national weather service's seasonal outlook for your region, its heat and rainfall warnings for your district, and your own records of what failed in the last hot season. Regional centres such as ASMC add the regional picture.", claims: ["e-asmc-outlook", "e-wmo-use"] }
 ];
 
@@ -174,6 +176,6 @@ module.exports = { SLUG, TITLE, SUB, DESC, TOC, OPENING, SUMMARY, SUMMARY_CLAIMS
   claimsUsed() {
     const all = [...OPENING.claims, ...SUMMARY_CLAIMS, ...WHAT.flatMap(x => x.claims), ...SCHEMATIC.claims, ...ASIA.flatMap(x => x.claims), ...REGIONS.flatMap(r => [...r.typicalClaims, ...r.nowClaims]),
       ...PATHWAYS.flatMap(p => p.claims || []), ...READ_CLAIMS, ...UNCERTAINTY.claims, ...FAQ.flatMap(f => f.claims)];
-    return { enso: [...new Set(all.filter(c => c.startsWith("e-")))], cities: [...new Set(all.filter(c => c.startsWith("c-")))] };
+    return { enso: [...new Set(all.filter(c => /^[eu]-/.test(c)))], cities: [...new Set(all.filter(c => c.startsWith("c-")))] };
   }
 };

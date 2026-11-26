@@ -46,10 +46,24 @@ module.exports = function heatTools({ page, write, esc, hero, V, D }) {
         <button type="button" class="ht-copy" data-copy="${SITE}/${SLUG}/#path-${esc(p.id)}" hidden>Copy a link to this workflow</button></p>
     </article>`;
   };
+  // the El Niño route: tools grouped by decision horizon, each with what it decides, where, how far ahead and how often
+  const seasonal = R.filter(r => r.seasonal && r.seasonal.route);
+  const ensoRoute = () => `<section class="ht-sec ht-enso" id="el-nino" aria-labelledby="ht-enso-h"><h2 class="ht-h2" id="ht-enso-h">I need to prepare for El Niño-related seasonal risk</h2>
+      <p class="ht-p">Tools sorted by the question each answers, from the Pacific to a local warning. A bulletin, a monitoring dashboard, a forecast service, a warning service and a workbook do different jobs; read each with its own issue date. The current outlook, explained: <a href="/el-nino/#outlook">El Niño and heat in Asia</a>; preparing a city: <a href="/el-nino-and-cities/">El Niño and India's smaller cities</a>.</p>
+      <p class="ht-p ht-enso__note">${esc(H.ROUTE_NOTE)}</p>
+      ${H.ROUTES.map(([k, name, q]) => { const rs = seasonal.filter(r => r.seasonal.route === k); if (!rs.length) return "";
+        return `<h3 class="ht-h3" id="el-nino-${k.toLowerCase()}">${esc(k)}. ${esc(name)}: <span class="ht-enso__q">${esc(q)}</span></h3>
+        <div class="ht-enso__wrap" role="region" aria-label="${esc(name)}: tools" tabindex="0"><table class="ht-enso__t"><thead><tr><th scope="col">Tool and provider</th><th scope="col">Kind</th><th scope="col">Decision it supports</th><th scope="col">Geography</th><th scope="col">Lead time</th><th scope="col">Updated</th><th scope="col">Inputs</th><th scope="col">Outputs</th><th scope="col">Limits</th><th scope="col">Access</th></tr></thead>
+        <tbody>${rs.map(r => `<tr><th scope="row"><a href="/${SLUG}/${esc(r.id)}/">${esc(r.name)}</a><br><span>${esc(r.provider)}</span><br><a href="${esc(r.links.primary_url)}"${r.origin === "common_shade" ? "" : ' target="_blank" rel="noopener"'}>Official page${r.origin === "common_shade" ? "" : '<span class="visually-hidden"> (opens in a new tab)</span>'}</a></th>
+          <td data-label="Kind">${esc(H.PRODUCTS[r.seasonal.product] || r.seasonal.product)}</td><td data-label="Decision it supports">${esc(r.seasonal.decision)}</td><td data-label="Geography">${esc(r.geography.spatial_scale)}</td>
+          <td data-label="Lead time">${esc(r.seasonal.lead_time)}</td><td data-label="Updated">${esc(r.seasonal.update_frequency)}</td><td data-label="Inputs">${esc(r.inputs.join(" "))}</td><td data-label="Outputs">${esc(r.outputs.join(" "))}</td>
+          <td data-label="Limits">${esc(r.limitations.join(" "))}</td><td data-label="Access">${esc((H.ACCESS.find(a => a[0] === r.access.mode) || [0, "Check at source"])[1])}${r.access.registration_required ? "; registration needed" : ""}</td></tr>`).join("")}</tbody></table></div>`; }).join("")}
+      <p class="ht-p ht-small">Listed for the decisions they support; none is a Common Shade partner, and none has been run or validated locally by Common Shade.</p></section>`;
   const body = `<div class="ht">
   ${hero("Heat Tool Finder", "Which heat tool fits the decision in front of you?", esc(CAT.design.subhead))}
   <div class="container ht-wrap">
     <p class="ht-note">${esc(CAT.design.disclaimer)} It is not a weather feed, a risk score or a complete list, and Common Shade has not run any of these tools itself.</p>
+    <p class="ht-route"><a href="#el-nino">I need to prepare for El Niño-related seasonal risk</a>: tools from Pacific monitoring to local warnings, by decision horizon.</p>
     <p class="ht-note">Reading a seasonal El Niño signal? A probability for the Pacific is not a heatwave forecast for a city: <a href="/el-nino-and-cities/#outlook">El Niño and India's smaller cities</a> explains what it can and cannot tell a municipality, with the latest dated outlooks and a route to your own district's warning. How El Niño reaches Asia, region by region: <a href="/el-nino/">El Niño and heat in Asia</a>.</p>
     <form class="ht-form" id="ht-form" role="search" aria-label="Find a heat tool" hidden>
       <fieldset class="ht-fs ht-decide"><legend class="ht-legend">What do you need to do?</legend><div class="ht-opts ht-opts--chips">${opt(CAT.design.decisions.map(d => [d.id, d.label]), "decision")}</div></fieldset>
@@ -79,7 +93,8 @@ module.exports = function heatTools({ page, write, esc, hero, V, D }) {
 
     <section class="ht-sec" id="compare" aria-labelledby="ht-cmp-h" hidden><h2 class="ht-h2" id="ht-cmp-h" tabindex="-1">Compare your shortlist</h2><div id="ht-compare"></div></section>
 
-    <section class="ht-sec" id="pathways" aria-labelledby="ht-paths-h"><h2 class="ht-h2" id="ht-paths-h">Three illustrative workflows</h2>
+    ${ensoRoute()}
+    <section class="ht-sec" id="pathways" aria-labelledby="ht-paths-h"><h2 class="ht-h2" id="ht-paths-h">${["None", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"][CAT.curated_pathways.length] || CAT.curated_pathways.length} illustrative workflows</h2>
       <p class="ht-p">For a practitioner, the useful answer is often a combination: regional context, an official warning or local measurement, then institutional action. These are illustrative workflows, not validated protocols, automated recommendations or endorsed procedures, and no partnership with any provider is implied.</p>
       <div class="ht-paths">${CAT.curated_pathways.map(pathway).join("")}</div></section>
 
@@ -175,6 +190,8 @@ module.exports = function heatTools({ page, write, esc, hero, V, D }) {
   // ---- llms-full.txt: the catalogue in plain text ----
   const md = ["## Heat Tool Finder", `${SITE}/${SLUG}/`, CAT.design.headline + " " + CAT.design.subhead, CAT.design.disclaimer + " Common Shade has not run any of these tools; reviewed never means validated or certified.",
     ...H.GROUPS.map(([gid, title, note]) => { const items = R.filter(r => H.groupOf(r) === gid).sort((x, y) => x.name.localeCompare(y.name, "en")); return items.length ? [`### ${title}`, note, ...items.map(r => `- ${r.name} (${r.provider}; ${H.typeLabel(r.resource_type)}; ${H.label(H.STATUS, r.publication.status)}): ${r.summary} Important limit: ${r.limitations[0]} Coverage: ${H.coverage(r)}. Access: ${H.label(H.ACCESS, r.access.mode)}; ${H.licenceLabel(r.access)}. ${H.REVIEW[r.evidence.review_depth]}, ${r.evidence.reviewed_on}. Source: ${r.links.primary_url} Profile: ${SITE}/${SLUG}/${r.id}/`)].join("\n") : ""; }).filter(Boolean),
+    "### I need to prepare for El Niño-related seasonal risk", H.ROUTE_NOTE,
+    ...H.ROUTES.flatMap(([k, name, q]) => { const rs = R.filter(r => r.seasonal && r.seasonal.route === k); return rs.length ? [`${k}. ${name} (${q})`, ...rs.map(r => `- ${r.name} (${r.provider}; ${H.PRODUCTS[r.seasonal.product] || r.seasonal.product}): decides ${r.seasonal.decision} Geography: ${r.geography.spatial_scale}. Lead time: ${r.seasonal.lead_time}. Updated: ${r.seasonal.update_frequency}. Outputs: ${r.outputs.join(" ")} Limits: ${r.limitations.join(" ")} ${r.links.primary_url.startsWith("/") ? SITE + r.links.primary_url : r.links.primary_url}`)] : []; }),
     "### Illustrative workflows", "Not validated protocols or endorsed procedures.", ...CAT.curated_pathways.map(p => `- ${p.title}: ${p.steps.map(s => `${s.resource_ids.map(i => BY[i].name).join(" + ")} (${s.purpose})`).join(" then ")}`),
     `The catalogue as JSON: ${SITE}/data/heat-tools/catalogue.json`].join("\n\n");
   const f = path.join(ROOT, "llms-full.txt"); let s = fs.readFileSync(f, "utf8"); const i = s.indexOf("## Heat Tool Finder");

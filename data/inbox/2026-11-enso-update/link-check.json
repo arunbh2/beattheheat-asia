@@ -1,0 +1,135 @@
+{
+ "_terms": {
+  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": {
+   "DIAGNOSTIC DISCUSSION": true,
+   "Advisory": true,
+   "January-March 2027": true
+  },
+  "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf": {
+   "ENSO": true,
+   "El Niño Advisory": true,
+   "weekly": true,
+   "Advisory": true,
+   "Weekly": true
+  },
+  "https://www.bom.gov.au/climate/enso/": {
+   "El Niño": true,
+   "2.67": true,
+   "22 November": true,
+   "2.88": true,
+   "December": true,
+   "January": true,
+   "autumn": true,
+   "necessarily": true,
+   "0.53": true,
+   "Indian Ocean Dipole": true,
+   "neutral": true
+  },
+  "https://asmc.asean.org/asmc-el-nino/": {
+   "2027": true,
+   "El Niño": true,
+   "peak": true,
+   "weaken": true,
+   "persist": true,
+   "IOD": true,
+   "neutral": true,
+   "January 2027": true
+  },
+  "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf": {
+   "ENSO": true,
+   "IOD": true,
+   "neutral": true,
+   "El Nino": false,
+   "El Niño": true
+  },
+  "https://wmo.int/media/project-update/wmo-projects-strengthening-el-nino-preparedness-and-early-action-worldwide": {
+   "El Niño": true,
+   "preparedness": true,
+   "early action": true
+  },
+  "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts": {
+   "El Niño": true,
+   "strongest": true,
+   "WHO": true,
+   "health": true
+  },
+  "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan": {
+   "Strategic Preparedness and Response Plan": true,
+   "Grade 3": true
+  },
+  "https://www.who.int/publications/m/item/global-public-health-situation-analysis-el-nino-2026": {
+   "Situation Analysis": true,
+   "heat": true,
+   "Heat": true
+  },
+  "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf": {
+   "Extended Range": true,
+   "week": true,
+   "Week": true
+  },
+  "https://ndma.gov.in/sites/default/files/PDF/Guidelines/heatwaveguidelines.pdf": {
+   "Heat Wave": false,
+   "working hours": false,
+   "drinking water": false,
+   "school": false
+  },
+  "https://labour.gov.in/sites/default/files/pib2123477.pdf": {
+   "Labour": true,
+   "employers": true,
+   "heat": true,
+   "Heat": true
+  },
+  "https://labour.gov.in/sites/default/files/pib2035277.pdf": {
+   "Labour": true,
+   "employers": true,
+   "heat": true
+  },
+  "https://www.newsonair.gov.in/government-issues-nationwide-heatwave-advisory-to-safeguard-workers-from-rising-temperatures/": {
+   "heatwave": true,
+   "working hours": false,
+   "drinking water": true,
+   "shade": false
+  },
+  "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/1.Nation-Action-plan-on-Heat-Related-llnesses.pdf": {
+   "Heat": false,
+   "preparedness": false,
+   "facility": false,
+   "Preparedness": false,
+   "Facility": false
+  },
+  "https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf": {
+   "Pregnan": true,
+   "pregnan": true,
+   "referral": true
+  },
+  "https://vikaspedia.in/education/teachers-corner/guidelines-regarding-precautions-to-be-observed-by-schools-to-combat-the-ill-effects-of-the-heat-wave": {
+   "heat": true,
+   "before noon": false,
+   "covered": false,
+   "ORS": false
+  },
+  "https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf": {
+   "Cool Roof": true,
+   "cool roof": true,
+   "Ahmedabad": true
+  }
+ },
+ "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf": "OK",
+ "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf": "OK",
+ "https://www.bom.gov.au/climate/enso/": "OK",
+ "https://asmc.asean.org/asmc-el-nino/": "OK",
+ "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf": "OK",
+ "https://wmo.int/media/project-update/wmo-projects-strengthening-el-nino-preparedness-and-early-action-worldwide": "OK",
+ "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts": "OK",
+ "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan": "OK",
+ "https://www.who.int/publications/m/item/global-public-health-situation-analysis-el-nino-2026": "OK",
+ "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf": "OK",
+ "https://ndma.gov.in/sites/default/files/PDF/Guidelines/heatwaveguidelines.pdf": "FAIL",
+ "https://labour.gov.in/sites/default/files/pib2123477.pdf": "FAIL",
+ "https://labour.gov.in/sites/default/files/pib2035277.pdf": "FAIL",
+ "https://www.newsonair.gov.in/government-issues-nationwide-heatwave-advisory-to-safeguard-workers-from-rising-temperatures/": "REDIRECT",
+ "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/1.Nation-Action-plan-on-Heat-Related-llnesses.pdf": "FAIL",
+ "https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf": "OK",
+ "https://vikaspedia.in/education/teachers-corner/guidelines-regarding-precautions-to-be-observed-by-schools-to-combat-the-ill-effects-of-the-heat-wave": "REDIRECT",
+ "https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf": "OK"
+}

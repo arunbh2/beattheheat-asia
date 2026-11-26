@@ -5,7 +5,7 @@ updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 84 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 85 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-84 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+85 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -54,6 +54,47 @@ The Adaptation Fund decision concerns money that could pay for heat measures; no
 [See the COP31 watch](https://beattheheat.asia/signals/#cop31)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=What%20COP31%20adopted%20for%20heat%2C%20and%20what%20it%20did%20not&ref=g-cop31-closing#way-share)
+
+Evidence added · Evidence
+
+### The El Niño pages now read from one checked outlook, from the Pacific to a local warning
+
+Added 26 November 2026 · El Niño outlook checked against the latest bulletins 26 November 2026
+
+Why it matters our readingThe explainer, the printable briefing, the cities guide, the El Niño watch and a new El Niño route in the Heat Tool Finder now draw every repeated outlook fact from one record checked against the latest bulletins, which showed no substantive change since NOAA's discussion of 12 November 2026. The cities guide adds four protections that keep working (work without lost pay, homes, care and schools), and the El Niño record on Signals now attributes and qualifies WMO's 'strongest on record' and 'health emergency' wording.
+
+- South and Southeast Asia
+- India
+- Workers in heat-exposed jobs
+- Women whose livelihoods are held back by unequal access
+- Heat action plans
+- Anticipatory action
+- Heat-safe work
+- Heat-safe pregnancy and newborn care
+
+Review29 of 35 claims confirmed by the source check; national guidance on pages that did not open (NDMA's guidelines, two Labour Ministry releases, NCDC's national action plan) is left out; a correction logged on /corrections/. 18 checked · 14 confirmed · 4 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Does each El Niño page show the latest verified outlook, keep what the Pacific is doing apart from what a place prepares for, and lead to the right tools?
+- **The search.** 18 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 14 confirmed, and 4 could not be (4 did not respond).
+- **What we set aside.** 36 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** NOAA's next discussion (due 10 December 2026), IMD's November bulletin, WMO's December to February update, and the national guidance documents the checker could not open.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-enso-update/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/enso-update/dropped-after-check.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+The four protections are what a heat plan has working before the season; El Niño sets the lead time, not the trigger.
+
+[Read the outlook](https://beattheheat.asia/el-nino/#outlook)
+[El Niño and heat in Asia](https://beattheheat.asia/el-nino/)[Four protections](https://beattheheat.asia/el-nino-and-cities/#protections)[El Niño route](https://beattheheat.asia/heat-tools/#el-nino)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20El%20Ni%C3%B1o%20pages%20now%20read%20from%20one%20checked%20outlook%2C%20from%20the%20Pacific%20to%20a%20local%20warning&ref=g-el-nino-pages-update#way-share)
 
 Tool improved · Practical measures
 
@@ -646,7 +687,7 @@ Evidence added · Evidence
 
 Added 17 November 2026 · WMO State of the Climate Update 2026, released as COP31 opened November 2026
 
-Why it matters our readingTwo Signals records now carry more from WMO's State of the Climate Update 2026, checked against its press release: an estimated 146.5 million people in India exposed to extreme heat in an April 2026 heatwave, countries reporting multi-hazard early warning systems up from 56 in 2015 to 136 in 2025, and WHO's first classification of El Niño's anticipated health impacts as a health emergency.
+Why it matters our readingTwo Signals records now carry more from WMO's State of the Climate Update 2026, checked against its press release: an estimated 146.5 million people in India exposed to extreme heat in an April 2026 heatwave, countries reporting multi-hazard early warning systems up from 56 in 2015 to 136 in 2025, and El Niño's health risks, which WMO describes as WHO's first classification of the anticipated health impacts as a health emergency (WHO's own plan describes a Grade 3 response, an internal operational grading).
 
 - India
 - South and Southeast Asia

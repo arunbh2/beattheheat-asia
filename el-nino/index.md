@@ -1,7 +1,7 @@
 ---
 title: "El Niño and heat in Asia"
 url: https://beattheheat.asia/el-nino/
-updated: 2026-11-19
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -17,11 +17,11 @@ How a change in the Pacific affects rainfall, heat and the choices available to 
 
 - El Niño is a warming of the central and eastern tropical Pacific, coupled with a shift in winds and rainfall. It is one phase of ENSO, which swings every three to seven years on average.
 - It can tilt the odds towards drier or hotter conditions in parts of Asia. It does not decide whether a heatwave, drought or flood happens in any one place.
-- The current bulletin expects El Niño to persist into early 2027 and then weaken. For March to May 2027, NOAA's odds favour El Niño, most likely weak or moderate.
+- The current bulletin expects El Niño to persist into early 2027 and then weaken. For March to May 2027, NOAA Climate Prediction Center puts the chance of El Niño at 80%, most likely weak (53%) or moderate (25%); for April to June 2027, ENSO-neutral becomes more likely (61%) than El Niño (38%).
 - Effects differ by region and season. India, Bangladesh, Nepal, mainland Southeast Asia, Indonesia and the Philippines each have their own pattern and their own national service.
 - The useful response is early, ordinary preparation, tied to the official local warning when it comes.
 
-**Current bulletin:** NOAA Climate Prediction Center, issued 12 November 2026: El Niño Advisory. A strong-to-very strong El Niño is likely through January to March 2027 (a greater than 79% chance), before it begins to weaken in early 2027. [How to read it](#outlook)
+**Current bulletin** (NOAA Climate Prediction Center, issued 12 November 2026): El Niño Advisory: A strong-to-very strong El Niño is likely through January to March 2027 (a greater than 79% chance), before it begins to weaken in early 2027. [How to read it](#outlook)
 
 Sources: [NOAA Climate.gov, 2026](https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions) · [WMO Bulletin, vol. 75(2), 2026](https://wmo.int/resources/wmo-bulletin/vol-75-2/how-ocean-observations-help-us-understand-and-forecast-el-nino) · [NOAA Climate Prediction Center, 12 November 2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [NOAA Climate Prediction Center, November 2026](https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/)
 
@@ -131,7 +131,7 @@ Each region keeps to what its own sources show. Historical patterns are kept apa
 
 **Historical pattern**: El Niño has historically been associated with weaker summer monsoon rainfall over parts of India, but it is not the only influence: the Indian Ocean Dipole and the Madden-Julian Oscillation matter too. In India's records for 1961 to 2013, most years with above-normal heatwave activity in April to June followed El Niño events.Sources: [Press Information Bureau, Ministry of Earth Sciences, India, 5 August 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3) · [Rohini, Rajeevan and Srivastava (open access, PMC), 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4872222/)
 
-**This season**: India's Ministry of Earth Sciences reported in August 2026 that INCOIS assessed El Niño as likely to persist from June 2026 to February 2027, with probabilities of 70 to 90 per cent. IMD releases its seasonal outlooks for the hot season between March and May.Sources: [Press Information Bureau, Ministry of Earth Sciences, India, 5 August 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3) · [Natural Resources Defense Council (NRDC), 2026](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
+**This season**: India's Ministry of Earth Sciences reported in August 2026 that INCOIS assessed El Niño as likely to persist from June 2026 to February 2027, with probabilities of 70 to 90 per cent. IMD's ENSO and IOD bulletin for October 2026 indicates a high likelihood of strong-to-very strong El Niño conditions persisting through January to March 2027, with neutral Indian Ocean Dipole conditions. IMD releases its seasonal outlooks for the hot season between March and May.Sources: [Press Information Bureau, Ministry of Earth Sciences, India, 5 August 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294888&lang=1&reg=3) · [Natural Resources Defense Council (NRDC), 2026](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf)
 
 **Cannot be inferred**: An India-wide pattern does not give the outlook for one district or city, and the monsoon relationship does not carry over to all of South Asia.
 
@@ -167,7 +167,7 @@ Each region keeps to what its own sources show. Historical patterns are kept apa
 
 **Historical pattern**: El Niño typically brings drier-than-average rainfall to most of the Maritime Continent from September to November, raising the risk of forest fires and smoke haze. In El Niño, sinking air over Indonesia brings higher pressure and dryness.Sources: [ASEAN Specialised Meteorological Centre, 16 October 2026](https://asmc.asean.org/asmc-el-nino/) · [NOAA Climate.gov, 2026](https://www.climate.gov/news-features/understanding-climate/el-nino-and-la-nina-frequently-asked-questions)
 
-**This season**: NOAA's November discussion notes suppressed rainfall persisting over Indonesia. ASMC's forecast predicts below-normal rainfall over parts of the southeastern and northeastern Maritime Continent through January 2027; hotspots with local smoke plumes may still occur where rain stays below normal.Sources: [NOAA Climate Prediction Center, 12 November 2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [ASEAN Specialised Meteorological Centre, 5 November 2026](https://asmc.asean.org/asmc-seasonal-outlook/)
+**This season**: NOAA's November discussion, and its weekly update of 23 November, note suppressed rainfall persisting over Indonesia. ASMC's forecast predicts below-normal rainfall over parts of the southeastern and northeastern Maritime Continent through January 2027; hotspots with local smoke plumes may still occur where rain stays below normal.Sources: [NOAA Climate Prediction Center, 12 November 2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [ASEAN Specialised Meteorological Centre, 5 November 2026](https://asmc.asean.org/asmc-seasonal-outlook/)
 
 **Cannot be inferred**: Rainfall varies sharply between islands; a regional forecast does not show one island's water supply or fire risk.
 
@@ -243,29 +243,35 @@ El Niño watch
 
 **Official status**: **El Niño Advisory** NOAA's alert status when El Niño conditions are observed and expected to continue.
 
-**Bulletin**: NOAA Climate Prediction Center, ENSO Diagnostic Discussion, issued 12 November 2026
+**Issuing agency and bulletin**: NOAA Climate Prediction Center, ENSO Diagnostic Discussion, issued 12 November 2026
 
-**Forecast period**: January to March 2027 for strength; ENSO phase odds to April to June 2027
+**Forecast period**: Strength: January to March 2027. Phase odds: January to March 2027 to April to June 2027.
 
-### Observed What changed
+**Next scheduled bulletin**: 10 December 2026
+
+**What changed?** No substantive change since NOAA's discussion of 12 November 2026: no newer monthly discussion has been issued (the next is due 10 December 2026). NOAA's weekly update of 23 November, the Bureau of Meteorology's weekly values to 22 November and ASMC's status page are consistent with it. WMO's update of 20 November 2026 is a project update on preparedness, not a new forecast.
+
+### Observed What the measurements show
 
 El Niño strengthened compared with the previous month: sea surface temperature anomalies exceeded 4.0 °C and extended farther west across the eastern equatorial Pacific. The weekly Niño-3.4 index reached +2.5 °C, and rainfall stayed suppressed over Indonesia.
+
+NOAA's monthly review of conditions in the tropical Pacific. The +2.5 °C Niño-3.4 figure is the latest weekly value it reports, not the three-month RONI used to classify events.
 
 ### Forecast What the bulletin expects
 
 A strong-to-very strong El Niño is likely through January to March 2027 (a greater than 79% chance), before it begins to weaken in early 2027.
 
-For March to May 2027, NOAA puts the chance of El Niño at 80%, most likely weak (53%) or moderate (25%); for April to June 2027, ENSO-neutral becomes more likely (61%) than El Niño (38%).
+For March to May 2027, NOAA Climate Prediction Center puts the chance of El Niño at 80%, most likely weak (53%) or moderate (25%); for April to June 2027, ENSO-neutral becomes more likely (61%) than El Niño (38%).
 
 ### Our reading What it means for preparation
 
-The odds favour El Niño persisting into the start of the hot season in much of South and Southeast Asia, and ASMC expects above-normal temperature over the ASEAN region through January 2027. That is a reason to get ordinary heat protection ready early. It is not a forecast of a heatwave anywhere.
+The odds favour El Niño persisting into the start of the hot season in much of South and Southeast Asia, then easing. That is a reason to get ordinary heat protection working early, in the places where people already spend the hottest hours. It is not a forecast of a heatwave anywhere.
 
 ### Uncertain What remains uncertain locally
 
-A Pacific probability does not give any town's chance of a heatwave, a water shortage or a flood. NOAA's strength odds describe the Pacific, not the strength of local impacts. Local outcomes depend on the season, geography, other ocean drivers and local warnings.
+A Pacific probability is not any town's chance of a heatwave, a water shortage or a flood. NOAA's strength odds describe the Pacific index, not the strength of local impacts. Local outcomes depend on the season, geography, other drivers such as the Indian Ocean Dipole, long-term warming and local conditions; national seasonal outlooks and official local warnings carry that detail.
 
-This panel reflects NOAA's discussion of 12 November 2026. NOAA's next discussion is scheduled for 10 December 2026.
+This panel reflects NOAA Climate Prediction Center's discussion of 12 November 2026. The next discussion is scheduled for 10 December 2026.
 
 ### Four probabilities that are easy to confuse
 
@@ -273,13 +279,13 @@ This panel reflects NOAA's discussion of 12 November 2026. NOAA's next discussio
 
 The chance that ENSO is in El Niño, neutral or La Niña in a given three-month season.
 
-NOAA (November 2026): El Niño 80% for March to May 2027.
+NOAA (November 2026): For March to May 2027, NOAA Climate Prediction Center puts the chance of El Niño at 80%, most likely weak (53%) or moderate (25%); for April to June 2027, ENSO-neutral becomes more likely (61%) than El Niño (38%).
 
 #### Strength
 
 The chance that the Pacific index falls in a strength band. A stronger Pacific event does not necessarily mean stronger local impacts.
 
-NOAA (November 2026), March to May 2027: weak 53%, moderate 25%, strong 2%, very strong 0%.
+NOAA (November 2026), March to May 2027: weak 53%, moderate 25%, strong 2%, very strong 0% (these share out the 80% chance of El Niño; they are not added to it).
 
 #### Seasonal climate
 
@@ -297,7 +303,7 @@ Sources: [NOAA Climate Prediction Center, November 2026](https://cpc.ncep.noaa.g
 
 ### Uncertainty, and long-term warming
 
-Forecasts made in the northern spring are less reliable than at other times of year. Forecasters call this the spring predictability barrier, though it is more a dip in accuracy than a wall. It matters here because the odds for April to June 2027 rest partly on that season: NOAA's chance of El Niño falls from 80% for March to May to 38% for April to June, when neutral becomes more likely.
+Forecasts made in the northern spring are less reliable than at other times of year. Forecasters call this the spring predictability barrier, though it is more a dip in accuracy than a wall. It matters here because the odds for April to June 2027 rest partly on that season: NOAA Climate Prediction Center's chance of El Niño falls from 80% for March to May 2027 to 38% for April to June 2027, when neutral becomes more likely.
 
 El Niño sits on top of long-term warming rather than replacing it. Scientists have low confidence in predicting exactly how a warmer world will change ENSO itself. Attributing any single heatwave or flood solely to El Niño needs a study of that event.
 
@@ -305,23 +311,31 @@ Sources: [NOAA Climate.gov ENSO blog, 2015](https://www.climate.gov/news-feature
 
 ### When bulletins seem to disagree
 
-Bulletins can seem to disagree because they measure different things. NOAA's strength odds use RONI over three-month seasons; WMO's seasonal update forecasts the plain Niño 3.4 anomaly from many models. Read each with its own date, index and period, and never average them.
+Bulletins can seem to disagree because they measure different things. NOAA's strength odds use RONI over three-month seasons; WMO's seasonal update forecasts the plain Niño 3.4 anomaly from many models; a weekly value is not a three-month index. Thresholds differ too: NOAA and IMD use ±0.5 °C for El Niño and La Niña, ASMC classifies events at ±0.65 °C and calls those above 1.5 °C strong, and IMD reads the Indian Ocean Dipole on a ±0.4 °C threshold. Read each with its own date, index and period, and never average them.
 
 Current bulletins, each with its own date, period and index
 Issuer and bulletin | Issued | Covers | Index or variable | What it says |
 
 [NOAA Climate Prediction Center](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml)
 ENSO Diagnostic Discussion | 12 November 2026 | through January to March 2027 · Tropical Pacific | Relative Oceanic Niño Index (RONI), Niño-3.4 region, 1991–2020 base, ±0.5 °C thresholds | Observed and forecast A strong-to-very strong El Niño is likely through January to March 2027 (a greater than 79% chance), before it begins to weaken in early 2027. |
+[NOAA Climate Prediction Center](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf)
+ENSO: Recent Evolution, Current Status and Predictions (weekly update) | 23 November 2026 | recent weeks to 23 November 2026 · Tropical Pacific | Weekly Niño indices and RONI (weekly values are not three-month indices) | Observed A weekly monitoring summary between monthly discussions, not a new outlook. Suppressed convection and rainfall has persisted over Indonesia since June 2026. |
+[Australian Bureau of Meteorology](https://www.bom.gov.au/climate/enso/)
+Climate driver update: ENSO and the Indian Ocean | November 2026 | week ending 22 November 2026; outlook to March to May 2027 (southern autumn) · Tropical Pacific and Indian Ocean | Weekly relative Niño3.4 (not RONI); weekly Indian Ocean Dipole index | Observed and forecast Weekly relative Niño3.4 of +2.67 °C for the week ending 22 November 2026, below the event's peak so far of +2.88 °C. Most models expect warming to peak in December or January and to stay above El Niño thresholds into the southern autumn of 2027 (March to May 2027). The Bureau notes that a strong Niño3.4 signal does not necessarily mean strong impacts. |
+[ASEAN Specialised Meteorological Centre](https://asmc.asean.org/asmc-el-nino/)
+Regional Climate: El Niño / La Niña (status with October 2026 values) | November 2026 | October 2026, and August to October 2026; outlook to April 2027 · Niño3.4 region, read for Southeast Asia | Relative Niño3.4; RONI (three-month); events classified at ±0.65 °C | Observed and forecast Relative Niño3.4 of 2.3 °C for October 2026 and 2.0 °C for August to October 2026. The index is predicted to peak during November to December 2026; strong El Niño conditions are predicted to persist until February to March 2027, with El Niño continuing until at least March to April 2027; most models (more than 70%) predict El Niño will still be present in April 2027. |
+[India Meteorological Department](https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf)
+ENSO and IOD Bulletin, October 2026 | October 2026 | September 2026; outlook through January to March 2027 · Tropical Pacific and Indian Ocean, read for India | Niño 3.4 SST anomaly, ±0.5 °C (Monsoon Mission Coupled Forecast System, September 2026 start); Dipole Mode Index, ±0.4 °C | Observed and forecast A high likelihood of strong-to-very strong El Niño conditions persisting through January to March 2027. Neutral Indian Ocean Dipole conditions prevail and are most likely to continue; IMD notes some international centres expect the positive phase to continue in the near term. This was IMD's latest bulletin online on 26 November 2026. |
 [World Meteorological Organization](https://wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-ndj2026)
 Global Seasonal Climate Update for November 2026 to January 2027 | 21 October 2026 | November 2026 to January 2027 · Niño 3.4 region and the Indian Ocean | Niño 3.4 sea surface temperature anomaly, multi-model ensemble mean (not RONI) | Forecast The seasonal average anomaly is forecast at about +3.8 °C, peaking around December 2026; a positive Indian Ocean Dipole is forecast to decline to +0.3 °C. |
 [World Meteorological Organization](https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027)
-El Niño/La Niña Update | 3 September 2026 | through February 2027 · Tropical Pacific | Consensus of WMO Global Producing Centres | Forecast An exceptionally high likelihood, nearly 100%, that El Niño persists through February 2027. |
+El Niño/La Niña Update (WMO's latest quarterly update; no newer one was found by 26 November 2026) | 3 September 2026 | through February 2027 · Tropical Pacific | Consensus of WMO Global Producing Centres | Forecast An exceptionally high likelihood, nearly 100%, that El Niño persists through February 2027. |
 [ASEAN Specialised Meteorological Centre](https://asmc.asean.org/asmc-seasonal-outlook/)
 Seasonal forecast for November 2026 to January 2027 | 5 November 2026 | November 2026 to January 2027 · ASEAN region | Multi-model rainfall and temperature terciles | Forecast Below-normal rainfall over parts of the southeastern and northeastern Maritime Continent and southeastern mainland Southeast Asia, and above-normal temperature over the ASEAN region. National services hold the national-scale outlook. |
-[Meteorological Service Singapore](https://www.weather.gov.sg/climate-el-la/)
-El Niño/La Niña status | 16 October 2026 | September 2026, and July to September 2026 · Niño 3.4 region | Relative Niño3.4 index; RONI (three-month) | Observed The relative Niño3.4 index was 2.1 °C for September and 1.7 °C for July to September, and was predicted to peak during October to December 2026. |
 
-The El Niño watch on [Signals](https://beattheheat.asia/signals/#el-nino-watch) shows the same bulletin.
+**The Indian Ocean.** Agencies read the Indian Ocean Dipole differently, because each uses its own index and threshold. The Bureau of Meteorology reports a weekly index of +0.53 °C for the week ending 22 November 2026 and expects the positive event to weaken and return to neutral in early southern summer; ASMC expects positive conditions to return to neutral in January 2027; IMD's October bulletin reports neutral conditions on its ±0.4 °C threshold. Read each with its own date; they are not averaged.
+
+The El Niño watch on [Signals](https://beattheheat.asia/signals/#el-nino-watch) shows the same bulletin. NOAA's own page for the current discussion is [its ENSO Diagnostic Discussion](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml), and this one stays available as [its archived copy](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf).
 
 Preparation
 
@@ -413,7 +427,7 @@ Sources: [Press Information Bureau, Ministry of Earth Sciences, India, 5 August 
 
 What does "super El Niño" mean?
 
-It is not an official category. NOAA's strength table uses bands in 0.5 °C steps of the RONI index, the highest being 2.0 °C or more (very strong). NOAA calls an event historic if its three-month RONI reaches +2.5 °C or more, and gave that about a 60% chance for October to December and November to January. Use the issuing agency's own terms, with their index and period.
+It is not an official category. NOAA's strength table uses bands in 0.5 °C steps of the RONI index, the highest being 2.0 °C or more (very strong). NOAA Climate Prediction Center calls an event historic if its three-month RONI reaches +2.5 °C or more, and gave that about a 60% chance for October to December 2026 and for November 2026 to January 2027. A forecast chance of a historic event is not an observed record. Use the issuing agency's own terms, with their index and period.
 
 Sources: [NOAA Climate Prediction Center, November 2026](https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/) · [NOAA Climate Prediction Center, 12 November 2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml)
 
@@ -425,7 +439,7 @@ Sources: [ASEAN Specialised Meteorological Centre, 5 November 2026](https://asmc
 
 ## Sources and how they were checked
 
-Each source below was opened by the GitHub source check, and a claim reaches this page only when every term it rests on was found. A page that only opened is not evidence. Sources were last checked on 19 November 2026.
+Each source below was opened by the GitHub source check, and a claim reaches this page only when every term it rests on was found. A page that only opened is not evidence. Sources were last checked on 26 November 2026.
 
 - [NOAA Climate Prediction Center: ENSO Diagnostic Discussion](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml)issued 12 November 2026 · Tropical Pacific · ENSO status and outlook · Relative Oceanic Niño Index (RONI), 1991–2020 base
 - [NOAA Climate Prediction Center: Official NOAA CPC ENSO Probabilities](https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/)issued November 2026 · Niño-3.4 region (170–120W, 5S–5N) · Chance of El Niño, neutral, La Niña by 3-month season · RONI, ±0.5 °C, 1991–2020 base
