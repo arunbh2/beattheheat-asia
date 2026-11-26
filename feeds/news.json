@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T08:52:31.934Z",
+ "updated": "2026-11-25T21:51:30.259Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 522
+   "found": 502
   },
   {
    "name": "GDELT Project",
@@ -16,6 +16,14 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "5 areas reach danger-level heat index amid El Niño on Nov. 25",
+   "url": "https://newsinfo.inquirer.net/2347145/5-areas-reach-danger-level-heat-index-amid-el-nino-on-nov-25",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-25T21:50:25Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Study reveals rising ‘double threat’ of wildfire smoke and heatwaves in Indonesia",
    "url": "https://news.mongabay.com/2026/11/study-reveals-rising-double-threat-of-wildfire-smoke-and-heatwaves-in-indonesia/",
