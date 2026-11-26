@@ -19,7 +19,8 @@
   "claims": [
    "u-noaa-archive"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261126103547/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf"
  },
  {
   "id": "src-ensu-noaa-weekly",
@@ -43,7 +44,8 @@
   "claims": [
    "u-noaa-weekly"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261118061311/https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf"
  },
  {
   "id": "src-ensu-bom-enso",
@@ -76,7 +78,8 @@
    "u-bom-impact",
    "u-bom-iod"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261126060308/https://www.bom.gov.au/climate/enso/"
  },
  {
   "id": "src-ensu-asmc-enso-now",
@@ -104,7 +107,8 @@
    "u-asmc-peak",
    "u-asmc-iod"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261031052623/https://asmc.asean.org/asmc-el-nino/"
  },
  {
   "id": "src-ensu-imd-enso-bull",
@@ -128,7 +132,8 @@
   "claims": [
    "u-imd-bull"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20240623024748/https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf"
  },
  {
   "id": "src-ensu-wmo-proj",
@@ -150,7 +155,8 @@
   "claims": [
    "u-wmo-proj"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261126103715/https://wmo.int/media/project-update/wmo-projects-strengthening-el-nino-preparedness-and-early-action-worldwide"
  },
  {
   "id": "src-ensu-wmo-soc",
@@ -174,7 +180,8 @@
    "u-wmo-soc-strongest",
    "u-wmo-soc-who"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261117164454/https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
  },
  {
   "id": "src-ensu-who-sprp",
@@ -195,7 +202,8 @@
   "claims": [
    "u-who-grade"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115025923/https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan"
  },
  {
   "id": "src-ensu-who-sitan",
@@ -217,7 +225,8 @@
   "claims": [
    "u-who-sitan"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261110231206/https://www.who.int/publications/m/item/global-public-health-situation-analysis-el-nino-2026"
  },
  {
   "id": "src-ensu-imd-erf",
@@ -239,7 +248,8 @@
   "claims": [
    "u-imd-erf"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261021141034/https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf"
  },
  {
   "id": "src-ensu-ndma-hw",
@@ -263,7 +273,8 @@
    "u-ndma-work",
    "u-ndma-school"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250303111425/https://ndma.gov.in/sites/default/files/PDF/Guidelines/heatwaveguidelines.pdf"
  },
  {
   "id": "src-ensu-mole-a",
@@ -286,7 +297,8 @@
   "claims": [
    "u-mole"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250508092421/https://labour.gov.in/sites/default/files/pib2123477.pdf"
  },
  {
   "id": "src-ensu-mole-b",
@@ -308,7 +320,8 @@
   "claims": [
    "u-mole"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250418140946/https://labour.gov.in/sites/default/files/pib2035277.pdf"
  },
  {
   "id": "src-ensu-air-2026",
@@ -331,7 +344,8 @@
   "claims": [
    "u-mole-2026"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260428104910/https://www.newsonair.gov.in/government-issues-nationwide-heatwave-advisory-to-safeguard-workers-from-rising-temperatures/"
  },
  {
   "id": "src-ensu-ncdc-nap",
@@ -355,7 +369,8 @@
   "claims": [
    "u-ncdc-facility"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260305133504/https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/1.Nation-Action-plan-on-Heat-Related-llnesses.pdf"
  },
  {
   "id": "src-ensu-ncdc-preg",
@@ -377,7 +392,8 @@
   "claims": [
    "u-ncdc-preg"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109075359/https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf"
  },
  {
   "id": "src-ensu-moe-schools",
@@ -400,7 +416,8 @@
   "claims": [
    "u-moe"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20241012225249/https://vikaspedia.in/education/teachers-corner/guidelines-regarding-precautions-to-be-observed-by-schools-to-combat-the-ill-effects-of-the-heat-wave"
  },
  {
   "id": "src-ensu-mht-roof",
@@ -422,6 +439,7 @@
   "claims": [
    "u-mht"
   ],
-  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the El Niño update batch (26 November 2026) to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20241125171159/https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf"
  }
 ]
