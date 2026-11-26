@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Dangerous heat index hits 5 areas on Thursday",
+   "url": "https://newsinfo.inquirer.net/2347779/dangerous-heat-index-hits-5-areas-on-thursday",
+   "via": "Inquirer",
+   "date": "2026-11-26T21:09:00Z",
+   "place": "Philippines"
+  },
+  {
    "title": "5 areas reach danger-level heat index amid El Niño on Nov. 25",
    "url": "https://newsinfo.inquirer.net/2347145/5-areas-reach-danger-level-heat-index-amid-el-nino-on-nov-25",
    "via": "Inquirer",
@@ -364,6 +371,14 @@
    "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
    "date": "2026-11-01",
    "firstAuthor": "Dassah C",
+   "preprint": false
+  },
+  {
+   "title": "Effects of Probiotic and Vitamin C Supplementation, Alone or Combined, on Nutrient Digestibility, Serum Biochemistry, Fatty Acid Profile, and Fecal Bacterial Counts in Adult Rabbits Under Naturally Occurring Heat-Stress Conditions",
+   "url": "https://europepmc.org/article/PMC/PMC13808118",
+   "journal": "Veterinary sciences",
+   "date": "2026-11-01",
+   "firstAuthor": "Sayedahmed M",
    "preprint": false
   },
   {
@@ -1440,5 +1455,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-26T08:38:54.131Z"
+ "updated": "2026-11-26T21:44:40.289Z"
 }

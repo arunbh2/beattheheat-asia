@@ -1,18 +1,8 @@
 {
- "updated": "2026-11-26T08:38:54.030Z",
+ "updated": "2026-11-26T21:44:40.202Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
-  {
-   "title": "Developing a Personalized Occupational Heat Exposure Index",
-   "journal": "Environment & Health",
-   "date": "2026-11-25",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13794220",
-   "firstAuthor": "Wiskel T"
-  },
   {
    "title": "Uncertainty-aware heatwave hazard zoning for India from two gridded temperature records",
    "journal": "Preprint",
@@ -172,6 +162,16 @@
    "preprint": true,
    "url": "https://doi.org/10.21203/rs.3.rs-10746072/v1",
    "firstAuthor": "Majeed M"
+  },
+  {
+   "title": "Effects of Probiotic and Vitamin C Supplementation, Alone or Combined, on Nutrient Digestibility, Serum Biochemistry, Fatty Acid Profile, and Fecal Bacterial Counts in Adult Rabbits Under Naturally Occurring Heat-Stress Conditions",
+   "journal": "Veterinary sciences",
+   "date": "2026-11-01",
+   "doi": "",
+   "pmid": "",
+   "preprint": false,
+   "url": "https://europepmc.org/article/PMC/PMC13808118",
+   "firstAuthor": "Sayedahmed M"
   },
   {
    "title": "Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women.",
