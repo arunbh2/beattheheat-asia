@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:51:37.305Z",
+ "updated": "2026-11-26T08:38:54.030Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -12,6 +12,16 @@
    "preprint": false,
    "url": "https://europepmc.org/article/PMC/PMC13794220",
    "firstAuthor": "Wiskel T"
+  },
+  {
+   "title": "Uncertainty-aware heatwave hazard zoning for India from two gridded temperature records",
+   "journal": "Preprint",
+   "date": "2026-11-25",
+   "doi": "10.21203/rs.3.rs-11616642/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-11616642/v1",
+   "firstAuthor": "Sharma A"
   },
   {
    "title": "Health and occupational implications of heatwave exposure in Southern India",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1007/s10534-026-00887-7",
    "firstAuthor": "Olatomide OD"
-  },
-  {
-   "title": "Multiple organ failure following severe heat stroke complicated by AMSAN-type Guillain-Barré syndrome: a case report and literature review.",
-   "journal": "BMC neurology",
-   "date": "2026-09-22",
-   "doi": "10.1186/s12883-026-05370-x",
-   "pmid": "42773424",
-   "preprint": false,
-   "url": "https://doi.org/10.1186/s12883-026-05370-x",
-   "firstAuthor": "Zhang Y"
   }
  ]
 }

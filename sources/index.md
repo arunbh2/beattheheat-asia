@@ -1,11 +1,11 @@
 ---
 title: "Sources and references | Common Shade"
 url: https://beattheheat.asia/sources/
-updated: 2026-11-25
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
-> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2413 sources, each with where it is used on the site.
+> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2414 sources, each with where it is used on the site.
 
 Where does every claim come from?
 
@@ -24,7 +24,7 @@ Every claim on Common Shade links to its source. Each entry below shows who publ
 
 **Watch: Every claim, linked** · 0:26 · narrated, captions in the picture
 
-## Heat in the news 182
+## Heat in the news 183
 
 Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
 
@@ -34,77 +34,29 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Developing a Personalized Occupational Heat Exposure Index](https://europepmc.org/article/PMC/PMC13794220)Wiskel T et al. · Environment & Health · 25 Nov 2026 · europepmc.orgUsed on: Heat in the news: new research
 
-- [Health and occupational implications of heatwave exposure in Southern India](https://doi.org/10.21203/rs.3.rs-11611210/v1)Mariaselvam MA et al. · Preprint · preprint · 23 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
 - [Coron, Cuyo forecast to have ‘dangerous’ heat index on Nov. 22](https://newsinfo.inquirer.net/2345114/cuyo-curon-in-palawan-heat-index-to-hit-dangerous-level-on-nov-22)Inquirer · Philippines · 22 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [White-backed chalky grains of japonica rice caused by heat stress during maturation is associated with morphological and epigenetic regulation](https://doi.org/10.1093/aob/mcag367)Kobayashi T et al. · Annals of botany · 19 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Heatwaves spell to consequent heavy rainfall in a changing climate over Bangladesh](https://doi.org/10.1371/journal.pone.0362951)Hossain A et al. · PloS one · 19 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Heat stress drives contrasting redox shifts in temperate and tropical Drosophila melanogaster embryos](https://doi.org/10.1242/jeb.252622)O'Leary TS et al. · The Journal of experimental biology · 19 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan](https://doi.org/10.21203/rs.3.rs-10514260/v1)Haroon MH et al. · Preprint · preprint · 18 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Effects of early and late heat stress during in vitro maturation on selected transcripts and embryo development in cattle](https://doi.org/10.1016/j.theriogenology.2026.118346)Kunkitti P et al. · Theriogenology · 18 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Dangerous heat index forecast in 3 PH areas on Nov. 17](https://newsinfo.inquirer.net/2342516/dangerous-heat-index-forecast-in-3-ph-areas-on-nov-17)Inquirer · Philippines · 17 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [3 areas recorded ‘dangerous’ heat index on Monday, Nov. 16](https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16)Inquirer · Philippines · 16 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh](https://doi.org/10.21203/rs.3.rs-11397313/v1)Pranto FS et al. · Preprint · preprint · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon](https://doi.org/10.1039/d6ra08327g)Ngo HL et al. · RSC advances · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
 - [Dangerous heat index grips 9 areas on Thursday](https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday)Inquirer · Philippines · 12 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Managing Chronic Conditions During Extreme Heat Among Older Women in China: An Interpretative Phenomenological Study to Inform Heat-Health Intervention Design](https://doi.org/10.2147/cia.s645450)Zhou H et al. · Clinical interventions in aging · 12 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [3 areas under dangerous level heat index on Saturday - Pagasa](https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa)Inquirer · Philippines · 6 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves](https://doi.org/10.1126/sciadv.aeh9111)Tian Y et al. · Science advances · 6 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
 - [Dangerous heat index expected in 3 areas on Friday – Pagasa](https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Recent extreme heatwaves are no match for future events](https://doi.org/10.1038/s41467-026-76809-5)Aglas-Leitner P et al. · Nature communications · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Evaluating nursing performance during heatwave simulations: Protocol for a repeated measures cross-over study](https://doi.org/10.1371/journal.pone.0359681)Blount H et al. · PloS one · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Butuan experiences scorching 42-45°C heat index for second straight day](https://newsinfo.inquirer.net/2336102/butuan-experiences-scorching-42-45c-heat-index-for-second-straight-day)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [44°C heat index recorded in 3 areas on Monday, Nov. 2](https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2)Inquirer · Philippines · 2 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest](https://doi.org/10.21203/rs.3.rs-10746072/v1)Majeed M et al. · Preprint · preprint · 2 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+- [Climate-linked heat deaths rise 36% since Paris Agreement](https://www.hindustantimes.com/india-news/climatelinked-heat-deaths-rise-36-since-paris-agreement-india-also-affected-lancet-101793153952423.html)Hindustan Times · India · 28 Oct 2026 · hindustantimes.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
 
 - [Heat index in parts of Eastern Visayas expected to increase](https://newsinfo.inquirer.net/2341684/heat-index-in-parts-of-eastern-visayas-expected-to-increase)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [High daytime heat index, chilly nights logged in Pangasinan](https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan)Inquirer · Philippines · 8 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Occupational heat stress in nurses working in hot environments and wearing personal protective equipment: mechanisms, health and safety implications, and prevention](https://doi.org/10.3389/fpubh.2026.1986823)Xu X et al. · Frontiers in public health · 2 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management](https://europepmc.org/article/PMC/PMC13722842)Kalra S et al. · Cureus · 1 Nov 2026 · europepmc.orgUsed on: Heat in the news: new research
-
-- [Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women](https://doi.org/10.1002/ajhb.70375)Hussain S et al. · American journal of human biology : the official journal of the Human Biology Council · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Heat stress and coping strategies among older adults in 3 Sunbelt cities in the United States](https://doi.org/10.1093/gerona/glag239)Dassah C et al. · The journals of gerontology. Series A, Biological sciences and medical sciences · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Identification of QTLs and candidate genes associated with seed germination capacity under heat stress in watermelon](https://doi.org/10.3389/fpls.2026.1932864)Song J et al. · Frontiers in plant science · 30 Oct 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines](https://doi.org/10.1007/s13353-026-01126-y)Iqbal S et al. · Journal of applied genetics · 29 Oct 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Heat exposure and perceived academic functioning among nursing students in a tropical higher education setting: a qualitative study](https://doi.org/10.1177/17449871261486792)Costales KR et al. · Journal of research in nursing : JRN · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Ambient temperature and non-communicable disease presentations and mortality in a Pakistani ED](https://doi.org/10.1016/j.joclim.2026.100768)Saleem SG et al. · The journal of climate change and health · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Fractional restoration of heat stress induced mitochondrial dysfunction in thermotolerant HepG2 cells](https://doi.org/10.1016/j.crphys.2026.100193)Gupta A et al. · Current research in physiology · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya](https://europepmc.org/article/PMC/PMC13696479)Lusambili A et al. · Frontiers in global women's health · 27 Oct 2026 · europepmc.orgUsed on: Heat in the news: new research
-
-- [Intraspecific competition modulates heatwave effects on male reproduction in Drosophila prolongata](https://doi.org/10.1007/s00442-026-06006-0)Gupta S et al. · Oecologia · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Integrating heat stress tolerance indices based on grain yield for the selection of resilient wheat genotypes](https://doi.org/10.3389/fpls.2026.1949670)Dhar N et al. · Frontiers in plant science · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+- [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
 
 - [Study reveals rising ‘double threat’ of wildfire smoke and heatwaves in Indonesia](https://news.mongabay.com/2026/11/study-reveals-rising-double-threat-of-wildfire-smoke-and-heatwaves-in-indonesia/)Mongabay · Indonesia · 25 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
 
@@ -132,11 +84,61 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Climate-linked heat deaths rise 36% since Paris Agreement](https://www.hindustantimes.com/india-news/climatelinked-heat-deaths-rise-36-since-paris-agreement-india-also-affected-lancet-101793153952423.html)Hindustan Times · India · 28 Oct 2026 · hindustantimes.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
-
-- [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
-
 - [Rising heat takes toll on Bangladesh’s garment workers](https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/)Eco-Business · Bangladesh · 25 Oct 2026 · eco-business.comUsed on: Heat in the news: headlines
+
+- [Uncertainty-aware heatwave hazard zoning for India from two gridded temperature records](https://doi.org/10.21203/rs.3.rs-11616642/v1)Sharma A et al. · Preprint · preprint · 25 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Health and occupational implications of heatwave exposure in Southern India](https://doi.org/10.21203/rs.3.rs-11611210/v1)Mariaselvam MA et al. · Preprint · preprint · 23 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [White-backed chalky grains of japonica rice caused by heat stress during maturation is associated with morphological and epigenetic regulation](https://doi.org/10.1093/aob/mcag367)Kobayashi T et al. · Annals of botany · 19 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Heatwaves spell to consequent heavy rainfall in a changing climate over Bangladesh](https://doi.org/10.1371/journal.pone.0362951)Hossain A et al. · PloS one · 19 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Heat stress drives contrasting redox shifts in temperate and tropical Drosophila melanogaster embryos](https://doi.org/10.1242/jeb.252622)O'Leary TS et al. · The Journal of experimental biology · 19 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Too Hot to Slow Down: Extreme Heat, Working Hours, and Constrained Adaptation in Punjab, Pakistan](https://doi.org/10.21203/rs.3.rs-10514260/v1)Haroon MH et al. · Preprint · preprint · 18 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Effects of early and late heat stress during in vitro maturation on selected transcripts and embryo development in cattle](https://doi.org/10.1016/j.theriogenology.2026.118346)Kunkitti P et al. · Theriogenology · 18 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh](https://doi.org/10.21203/rs.3.rs-11397313/v1)Pranto FS et al. · Preprint · preprint · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon](https://doi.org/10.1039/d6ra08327g)Ngo HL et al. · RSC advances · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Managing Chronic Conditions During Extreme Heat Among Older Women in China: An Interpretative Phenomenological Study to Inform Heat-Health Intervention Design](https://doi.org/10.2147/cia.s645450)Zhou H et al. · Clinical interventions in aging · 12 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves](https://doi.org/10.1126/sciadv.aeh9111)Tian Y et al. · Science advances · 6 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Recent extreme heatwaves are no match for future events](https://doi.org/10.1038/s41467-026-76809-5)Aglas-Leitner P et al. · Nature communications · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Evaluating nursing performance during heatwave simulations: Protocol for a repeated measures cross-over study](https://doi.org/10.1371/journal.pone.0359681)Blount H et al. · PloS one · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest](https://doi.org/10.21203/rs.3.rs-10746072/v1)Majeed M et al. · Preprint · preprint · 2 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Occupational heat stress in nurses working in hot environments and wearing personal protective equipment: mechanisms, health and safety implications, and prevention](https://doi.org/10.3389/fpubh.2026.1986823)Xu X et al. · Frontiers in public health · 2 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management](https://europepmc.org/article/PMC/PMC13722842)Kalra S et al. · Cureus · 1 Nov 2026 · europepmc.orgUsed on: Heat in the news: new research
+
+- [Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women](https://doi.org/10.1002/ajhb.70375)Hussain S et al. · American journal of human biology : the official journal of the Human Biology Council · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Heat stress and coping strategies among older adults in 3 Sunbelt cities in the United States](https://doi.org/10.1093/gerona/glag239)Dassah C et al. · The journals of gerontology. Series A, Biological sciences and medical sciences · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Identification of QTLs and candidate genes associated with seed germination capacity under heat stress in watermelon](https://doi.org/10.3389/fpls.2026.1932864)Song J et al. · Frontiers in plant science · 30 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines](https://doi.org/10.1007/s13353-026-01126-y)Iqbal S et al. · Journal of applied genetics · 29 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Heat exposure and perceived academic functioning among nursing students in a tropical higher education setting: a qualitative study](https://doi.org/10.1177/17449871261486792)Costales KR et al. · Journal of research in nursing : JRN · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Ambient temperature and non-communicable disease presentations and mortality in a Pakistani ED](https://doi.org/10.1016/j.joclim.2026.100768)Saleem SG et al. · The journal of climate change and health · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Fractional restoration of heat stress induced mitochondrial dysfunction in thermotolerant HepG2 cells](https://doi.org/10.1016/j.crphys.2026.100193)Gupta A et al. · Current research in physiology · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya](https://europepmc.org/article/PMC/PMC13696479)Lusambili A et al. · Frontiers in global women's health · 27 Oct 2026 · europepmc.orgUsed on: Heat in the news: new research
+
+- [Intraspecific competition modulates heatwave effects on male reproduction in Drosophila prolongata](https://doi.org/10.1007/s00442-026-06006-0)Gupta S et al. · Oecologia · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Integrating heat stress tolerance indices based on grain yield for the selection of resilient wheat genotypes](https://doi.org/10.3389/fpls.2026.1949670)Dhar N et al. · Frontiers in plant science · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Thermophysiological responses to occupational heat stress during simulated wildland firefighting in females and males: influence of fitness and body composition](https://doi.org/10.3389/fphys.2026.1936332)Gutiérrez-Arroyo J et al. · Frontiers in physiology · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
@@ -1536,44 +1538,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Climate Investment &nbsp;](https://www.climateinvestment.com/)climateinvestment.comUsed on: The heat economy: money and support
 
-- [Das and Somanathan, Environmental Research Letters, 2024](https://heathealth.info/resources/heat-causes-large-earnings-losses-for-informal-sector-workers-in-india/)heathealth.infoUsed on: How heat is reported
-
-- [IIED’s 2026 study](https://www.iied.org/22755iied)iied.orgUsed on: How heat is reported
-
-- [nearly 80% of surveyed workers](https://www.wiego.org/advocacy-worker-education-resources/too-hot-to-work-home-based-workers-street-vendors-bangkok/)wiego.orgUsed on: How heat is reported
-
-- [OECD Development Centre](https://www.oecd.org/en/publications/securing-the-livelihoods-of-informal-economy-workers-in-times-of-global-changes_7b0d17a9-en/full-report/informal-workers-and-emerging-risks-in-the-era-of-environmental-degradation-and-climate-change_3e3c5b34.html)oecd.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20251006142458/https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20250725074841/https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20250724153217/https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20250726224902/https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20240620095842/https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20240822121446/https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20250724120835/https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20250505102021/https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20260722064045/https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20260719140856/https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20250723232351/https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20240825084518/https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20240423054409/https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20240528073813/https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/)web.archive.orgUsed on: How heat is reported
-
-- [Archived copy](https://web.archive.org/web/20240610171553/https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)web.archive.orgUsed on: How heat is reported
-
 - [Climate Pitch &nbsp;](https://climatepitch.org/)climatepitch.orgUsed on: The heat economy: money and support
 
 - [Climate Resilient City Action Plan: Nagpur &nbsp;](https://www.mahascac.in/uploads/reports/ClimateResilientCityActionPlanNagpur.pdf)mahascac.inUsed on: India snapshot
@@ -1603,6 +1567,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Cool Roofs Indonesia university implementation account &nbsp;](https://dia.upi.edu/upi-lecturer-wins-2-million-dollar-international-competition/)dia.upi.eduUsed on: Indonesia snapshot
 
 - [Coral-reef insurance prototype &nbsp;](https://www.undp.org/indonesia/press-releases/indonesia-launches-practical-toolkit-coral-reef-insurance-strengthen-resilience-usd-550-million-coastal-economy)undp.orgUsed on: Indonesia snapshot
+
+- [Das and Somanathan, Environmental Research Letters, 2024](https://heathealth.info/resources/heat-causes-large-earnings-losses-for-informal-sector-workers-in-india/)heathealth.infoUsed on: How heat is reported
 
 - [Delhi Heat Action Plan 2025 &nbsp;](https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_delhi_21.4.25_3.pdf)ddma.delhi.gov.inUsed on: India snapshot
 
@@ -1676,6 +1642,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [IFC/UNEP Cooler Finance original report &nbsp;](https://www.ifc.org/content/dam/ifc/doc/2024/cooler-finance-report.pdf)ifc.orgUsed on: The heat economy: what makes markets work
 
+- [IIED’s 2026 study](https://www.iied.org/22755iied)iied.orgUsed on: How heat is reported
+
 - [ILO heat and occupational safety policy brief 2024 &nbsp;](https://www.ilo.org/publications/heat-and-osh-policy-brief-best-practices-gcc-region-and-beyond)ilo.orgUsed on: The heat economy: what could come up
 
 - [Impact Fund Denmark Smart Joules climate finance &nbsp;](https://impactfund.dk/news/smart-joules-receives-the-first-investment-made-under-a-new-danish-climate-finance-initiative-for-india/)impactfund.dkUsed on: The heat economy: what could come up
@@ -1688,7 +1656,11 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [MIT/BRAC Bangladesh climate shelter &nbsp;](https://climate.mit.edu/posts/mit-led-project-opens-first-climate-shelter-bangladesh)climate.mit.eduUsed on: The heat economy: what could come up
 
+- [nearly 80% of surveyed workers](https://www.wiego.org/advocacy-worker-education-resources/too-hot-to-work-home-based-workers-street-vendors-bangkok/)wiego.orgUsed on: How heat is reported
+
 - [NParks annual and sustainability report 2025–2026 &nbsp;](https://www.nparks.gov.sg/portals/annualreport/chapters/transforming-singapore-into-a-city-in-nature/)nparks.gov.sgUsed on: The heat economy: what could come up
+
+- [OECD Development Centre](https://www.oecd.org/en/publications/securing-the-livelihoods-of-informal-economy-workers-in-times-of-global-changes_7b0d17a9-en/full-report/informal-workers-and-emerging-risks-in-the-era-of-environmental-degradation-and-climate-change_3e3c5b34.html)oecd.orgUsed on: How heat is reported
 
 - [PNNL evaporative cooling suitability &nbsp;](https://basc.pnnl.gov/resource-guides/evaporative-cooling-systems?existing_homes=602)basc.pnnl.govUsed on: The heat economy: what makes markets work
 
@@ -1725,6 +1697,36 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Source &nbsp;](https://efficiencyforaccess.org/publications/promethean-power-transforming-indias-rural-dairy-sector-through-smart-decentralised-cooling/)efficiencyforaccess.orgUsed on: The heat economy: money and support
 
 - [State Bank Pakistan fan programme circular &nbsp;](https://www.sbp.org.pk/circulars/shsfd-circular-no-01-of-2026)sbp.org.pkUsed on: The heat economy: what makes markets work
+
+- [Archived copy](https://web.archive.org/web/20251006142458/https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250725074841/https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250724153217/https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250726224902/https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240620095842/https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240822121446/https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250724120835/https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250505102021/https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20260722064045/https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20260719140856/https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250723232351/https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240825084518/https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240423054409/https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240528073813/https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240610171553/https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)web.archive.orgUsed on: How heat is reported
 
 - [Swiss Re SEWA parametric income protection India &nbsp;](https://www.swissre.com/our-business/public-sector-solutions/insights/financial-solutions-for-women-workers-india.html)swissre.comUsed on: The heat economy: what could come up
 
@@ -2425,16 +2427,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Website &nbsp;](https://www.swissre.com/our-business/public-sector-solutions/case-studies/india-extreme-heat-cover.html)swissre.comUsed on: The heat economy: businesses
 
 - [West Bengal State Action Plan on Climate Change and Human Health &nbsp;](https://ncdc.mohfw.gov.in/uploads/pdf/state32.pdf)ncdc.mohfw.gov.inUsed on: India snapshot
-
-- [WHO Thailand climate-and-health country profile &nbsp;](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&amp;sfvrsn=1cc6f20a_3)cdn.who.intUsed on: Thailand snapshot
-
-- [WHO Thailand &nbsp;](https://www.who.int/thailand)who.intUsed on: Thailand snapshot
-
-- [WIND Ventures &nbsp;](https://www.wind.vc/)wind.vcUsed on: The heat economy: money and support
-
-- [Women in Informal Employment: Globalizing and Organizing (WIEGO) &nbsp;](https://www.wiego.org/)wiego.orgUsed on: Thailand snapshot
-
-- [Worker-facing Bangkok heat guide &nbsp;](https://www.wiego.org/advocacy-worker-education-resources/working-under-heat/)wiego.orgUsed on: Thailand snapshot
 
 - [Abdullah et al., Abu Dhabi window shutter simulation &nbsp;](https://research.uaeu.ac.ae/en/publications/thermal-performance-evaluation-of-window-shutters-for-residential/)research.uaeu.ac.aeUsed on: Solutions library
 
@@ -4194,6 +4186,10 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [WHO PQS E 003 refrigerator/freezer technology guidance &nbsp;](https://extranet.who.int/prequal/immunization-devices/e003-refrigerators-and-freezers)extranet.who.intUsed on: Solutions library
 
+- [WHO Thailand climate-and-health country profile &nbsp;](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&amp;sfvrsn=1cc6f20a_3)cdn.who.intUsed on: Thailand snapshot
+
+- [WHO Thailand &nbsp;](https://www.who.int/thailand)who.intUsed on: Thailand snapshot
+
 - [WHO, UNICEF and PATH freeze-preventive carrier guidance &nbsp;](https://www.who.int/publications/i/item/WHO-IVB-2021.02Rev.1)who.intUsed on: Solutions library
 
 - [WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change](https://www.who.int/publications/i/item/9789240085350)who.intUsed on: Actions · The web
@@ -4204,7 +4200,13 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [WIEGO and HomeNet Thailand, 2025](https://www.wiego.org/wp-content/uploads/2025/11/Too-Hot-to-Work-Heat-Impacts-on-Home-Based-Workers-and-Street-Vendors-in-Bangkok.pdf)wiego.orgUsed on: A week in the heat
 
+- [WIND Ventures &nbsp;](https://www.wind.vc/)wind.vcUsed on: The heat economy: money and support
+
 - [Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough”](https://doi.org/10.1016/j.landurbplan.2014.01.017)doi.orgUsed on: Actions · Glossary · The web
+
+- [Women in Informal Employment: Globalizing and Organizing (WIEGO) &nbsp;](https://www.wiego.org/)wiego.orgUsed on: Thailand snapshot
+
+- [Worker-facing Bangkok heat guide &nbsp;](https://www.wiego.org/advocacy-worker-education-resources/working-under-heat/)wiego.orgUsed on: Thailand snapshot
 
 - [Workplace health and safety under climate stress in Sri Lankan apparel SMEs &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC12903649/)pmc.ncbi.nlm.nih.govUsed on: Sri Lanka snapshot
 

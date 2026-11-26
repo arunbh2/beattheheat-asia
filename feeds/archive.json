@@ -215,6 +215,14 @@
    "preprint": false
   },
   {
+   "title": "Uncertainty-aware heatwave hazard zoning for India from two gridded temperature records",
+   "url": "https://doi.org/10.21203/rs.3.rs-11616642/v1",
+   "journal": "Preprint",
+   "date": "2026-11-25",
+   "firstAuthor": "Sharma A",
+   "preprint": true
+  },
+  {
    "title": "Health and occupational implications of heatwave exposure in Southern India",
    "url": "https://doi.org/10.21203/rs.3.rs-11611210/v1",
    "journal": "Preprint",
@@ -1432,5 +1440,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-25T21:51:37.508Z"
+ "updated": "2026-11-26T08:38:54.131Z"
 }
