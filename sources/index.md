@@ -1,7 +1,7 @@
 ---
 title: "Sources and references | Common Shade"
 url: https://beattheheat.asia/sources/
-updated: 2026-11-25
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 

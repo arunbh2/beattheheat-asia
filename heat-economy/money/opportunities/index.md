@@ -1,7 +1,7 @@
 ---
 title: "Open calls and tenders"
 url: https://beattheheat.asia/heat-economy/money/opportunities/
-updated: 2026-11-22
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -19,7 +19,7 @@ Grants, calls, prizes, technical assistance, readiness windows and procurement n
 
 Show them anyway
 
-| USD 250,000 to USD 2,000,000 per awardGrant, debt or equity | Applicants incorporated and implementing in countries across Asia and the Pacific; the full list of eligible countries is in Appendix B of the funding opportunity. | Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity. | 8 December 2026, 14:00 ET · 16 days left | OpenVerified |
+| USD 250,000 to USD 2,000,000 per awardGrant, debt or equity | Applicants incorporated and implementing in countries across Asia and the Pacific; the full list of eligible countries is in Appendix B of the funding opportunity. | Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity. | 8 December 2026, 14:00 ET · 12 days left | OpenVerified |
 [IKI Small Grants: eighth call](#opp-iki-small-2026)GIZ · Grant call | EUR 60,000 to EUR 200,000 per awardGrant | Sub-national, national and regional non-profit organisations in ODA-eligible countries. | ODA-eligible countries. | No deadline published | OpenVerified |
 [Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)](#opp-he-envhlth-02-2027)European Commission · Grant call | Not publishedGrant | Consortia; international cooperation is encouraged. Whether a partner from a given Asian country receives EU funding depends on Horizon Europe's country list. | Not limited to Europe for participation; funding of non-European partners depends on the country list. | No deadline published | UpcomingConflicting information |
 [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](#opp-gcf-readiness-2027)Green Climate Fund · Readiness support window | Not publishedGrant | National Designated Authorities, or entities they nominate; not open to other organisations directly. | Developing countries that are Parties to the UNFCCC. | 31 March 2027 (cut-off time not published) | RollingVerified |
@@ -45,7 +45,7 @@ OpenVerifiedGrant callExplicit heat focus
 
 **Where the work can happen**: Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity.
 
-**Deadline**: 8 December 2026, 14:00 ET · 16 days leftAs published: “December 8, 2026, 2:00 p.m. ET (extended)”Extended; earlier deadline 2026-11-17 (earlier deadline as given in listings elsewhere; the official page says the deadline was extended)
+**Deadline**: 8 December 2026, 14:00 ET · 12 days leftAs published: “December 8, 2026, 2:00 p.m. ET (extended)”Extended; earlier deadline 2026-11-17 (earlier deadline as given in listings elsewhere; the official page says the deadline was extended)
 
 **How it connects to heat**: Common Shade's reading. Extreme heat is one of the hazards named in the call.
 

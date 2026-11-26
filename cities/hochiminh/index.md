@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Ho Chi Minh City: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/hochiminh/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -178,7 +178,7 @@ Listing does not imply partnership, affiliation or endorsement.
 
 No development in Viet Nam is tracked on Signals yet. This describes the records kept here, not what is happening in Viet Nam.
 
-[20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/hochiminh/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

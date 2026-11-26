@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Manila: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/manila/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -177,7 +177,7 @@ Developments in the Philippines tracked on Signals, newest first, with the furth
 
 - [The Philippines issues guidelines on heat stress at work and on compensation for heat illness](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026) Adopted, reported · latest development 27 October 2026
 
-[On Signals, with the evidence](https://beattheheat.asia/signals/?place=philippines) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=philippines) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/manila/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

@@ -1,7 +1,7 @@
 ---
 title: "Nepal: heat country snapshot"
 url: https://beattheheat.asia/countries/nepal/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -535,7 +535,7 @@ Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) ·
 
 No development in Nepal is tracked on Signals yet. This describes the records kept here, not what is happening in Nepal.
 
-[20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/countries/nepal/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

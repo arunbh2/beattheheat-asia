@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Singapore: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/singapore/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -190,7 +190,7 @@ Developments in Singapore tracked on Signals, newest first, with the furthest st
 - [Singapore makes heat stress measures mandatory for outdoor work from 1 December 2026](https://beattheheat.asia/signals/#sig-singapore-mandatory-heat-measures-2026) Adopted, original checked · latest development 28 August 2026
 - [Singapore sets up a Heat Resilience Policy Office and funds heat research](https://beattheheat.asia/signals/#sig-singapore-heat-office-2026) Funded, original checked · latest development March 2026
 
-[On Signals, with the evidence](https://beattheheat.asia/signals/?place=singapore) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=singapore) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/singapore/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

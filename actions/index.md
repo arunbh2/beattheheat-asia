@@ -1,7 +1,7 @@
 ---
 title: "Actions that break the vicious cycles of extreme heat | Common Shade"
 url: https://beattheheat.asia/actions/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -266,7 +266,7 @@ Sources: [Scientific Reports, 2025: widespread heat stress will become the norm 
 
 [See it on the map](https://beattheheat.asia/#break-hap) · [Who works on this](https://beattheheat.asia/heat-network/?action=hap)
 
-Moving now [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026) (Funded, original checked, 16 November 2026); [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026) · [All 20 on Signals](https://beattheheat.asia/signals/?lever=hap)
+Moving now [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025) (Adopted, original checked, 22 November 2026); [COP31 lets the Adaptation Fund receive a share of carbon-market proceeds](https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026) (Adopted, reported, 22 November 2026) · [All 21 on Signals](https://beattheheat.asia/signals/?lever=hap)
 
 ## Heat-ready health services
 
@@ -485,7 +485,7 @@ Sources: [WHO, 2026: climate change country profile, Timor-Leste](https://cdn.wh
 
 [See it on the map](https://beattheheat.asia/#break-countdeaths) · [Who works on this](https://beattheheat.asia/heat-network/?action=countdeaths)
 
-Moving now [The presidency's health theme: Dynamic and Resilient Health Systems](https://beattheheat.asia/signals/#sig-cop31-health-theme-2026) (Announced, original checked, 2026); [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025) (Adopted, original checked, 2025)
+Moving now [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025) (Adopted, original checked, 22 November 2026); [The presidency's health theme: Dynamic and Resilient Health Systems](https://beattheheat.asia/signals/#sig-cop31-health-theme-2026) (Announced, original checked, 2026)
 
 ## Cooling centres and check-ins
 
@@ -538,7 +538,7 @@ Sources: [CEEW, Nepal in a Warming World, 2025](https://www.ceew.in/publications
 
 [See it on the map](https://beattheheat.asia/#break-heatbudget) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatbudget)
 
-Moving now [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026); [India adds heatwaves to its notified natural calamities](https://beattheheat.asia/signals/#sig-india-heatwave-calamity-2026) (Adopted, not verified, August 2026) · [All 7 on Signals](https://beattheheat.asia/signals/?lever=heatbudget)
+Moving now [COP31 lets the Adaptation Fund receive a share of carbon-market proceeds](https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026) (Adopted, reported, 22 November 2026); [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026) · [All 8 on Signals](https://beattheheat.asia/signals/?lever=heatbudget)
 
 ## Anticipatory action
 

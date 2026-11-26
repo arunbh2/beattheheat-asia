@@ -322,7 +322,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 /* the calm ending, the "changed since" note, the one-minute check, a composite person, where this happens */
 .cse{padding:clamp(40px,7vw,80px) clamp(16px,4vw,32px);background:linear-gradient(180deg,rgba(250,247,242,0),#F3EEE7 40%);text-align:center;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:#16202B}
 .cse__in{max-width:640px;margin:0 auto}.cse__mark{width:96px;height:32px;color:#16202B;margin:0 auto 10px;display:block}
-.cse__k{font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#5E6570;margin:14px 0 4px}
+.cse__k{font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3F4650;margin:14px 0 4px}
 .cse__t{font-family:Anton,Impact,"Arial Narrow",sans-serif;text-transform:uppercase;font-size:clamp(1.3rem,1rem + 1.4vw,1.9rem);line-height:1.1;margin:0 0 6px}
 .cse__q{margin:0 auto;font-family:Newsreader,Georgia,serif;font-size:clamp(1.05rem,.95rem + .5vw,1.3rem);line-height:1.5;color:#39424D;max-width:56ch}
 .cse__acts{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin:22px 0 6px;align-items:center}

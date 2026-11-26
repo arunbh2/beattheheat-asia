@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Phnom Penh: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/phnompenh/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -125,7 +125,7 @@ Developments in Cambodia tracked on Signals, newest first, with the furthest ste
 
 - [The Extreme Heat Risk Governance Framework is piloted in Cambodia, Barbados and Senegal](https://beattheheat.asia/signals/#sig-heat-governance-pilots-2026) Delivered, original checked · latest development 2026
 
-[On Signals, with the evidence](https://beattheheat.asia/signals/?place=cambodia) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=cambodia) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/phnompenh/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

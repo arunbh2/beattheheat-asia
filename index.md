@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat is a wicked problem | Common Shade"
 url: https://beattheheat.asia/
-updated: 2026-11-22
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 

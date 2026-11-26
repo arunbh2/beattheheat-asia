@@ -108,6 +108,17 @@ ok(psg.every(r => r.kind === "content" && Object.keys(r.passages).every(t => r.t
   for (const f of fs.existsSync(path.join(ROOT, "data/signals-candidates")) ? fs.readdirSync(path.join(ROOT, "data/signals-candidates")).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)) : []) {
     const j = JSON.parse(read(`data/signals-candidates/${f}`));
     ok(Array.isArray(j.candidates) && j.candidates.every(c => c.url && c.title && /^(pending|propose|context|skip)$/.test(c.decision)), `${f}: each lead has a title, a link and a decision of pending, propose, context or skip`); } }
+// a watch with a closing synthesis folds below the El Niño watch, keeps its anchor, and its text stays readable to agents
+{ const cop = R.groups.find(g => g.id === "cop31");
+  if (cop && cop.synthesis) {
+    const fold = main.match(/<section class="sg-cop" id="cop31"[\s\S]*?<details class="sg-cop__fold" id="cop31-fold">[\s\S]*?<\/details>\s*<\/div><\/section>/);
+    ok(fold, "COP31 watch: closed, so folded in a details block inside #cop31 (tools/build-signals.js)");
+    ok(fold && fold[0].replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&").includes(cop.synthesis.text.slice(0, 120)), "COP31 watch: the fold holds the closing synthesis");
+    ok(main.indexOf('id="el-nino-watch"') > -1 && main.indexOf('id="el-nino-watch"') < main.indexOf('id="cop31"'), "COP31 watch: sits below the El Niño watch");
+    ok(/id === "cop31"[^\n]*cop31-fold/.test(read("signals/signals.js")), "COP31 watch: signals.js opens the fold for links to #cop31");
+    ok(read("llms-full.txt").includes(cop.synthesis.text.slice(0, 80)), "COP31 watch: llms-full.txt carries the closing synthesis");
+  }
+}
 // the next step on a card restates the record's own fields
 ok((all.match(/class="sg-nextstep"/g) || []).length > 0, "cards: open deliverables show their next step");
 const feedX = read("signals/feed.xml"), cal = read("signals/calendar.ics");

@@ -4497,6 +4497,14 @@ a.sg-tag--watch { color: var(--ink); display: inline-flex; align-items: center; 
 .sg-cop__ci { margin: 0 0 16px; max-width: 860px; }
 .sg-cop__ci > summary { color: var(--canvas); }
 .sg-cop__ci .sg-checkins { margin-top: 10px; }
+/* a closed watch folds; the summary keeps the date, the heading and what opening it shows */
+.sg-cop__fold > summary { cursor: pointer; display: grid; justify-items: start; gap: 8px; padding: 4px 0; list-style: none; }
+.sg-cop__fold > summary::-webkit-details-marker { display: none; }
+.sg-cop__fold > summary::after { content: "Show the watch \25BE"; color: var(--canvas); font-weight: 700; text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; min-height: 24px; display: inline-flex; align-items: center; }
+.sg-cop__fold[open] > summary::after { content: "Hide the watch \25B4"; }
+.sg-cop__fold > summary .sg-h2 { margin: 0; }
+.sg-cop__fold > summary .sg-cop__hint { color: #D9D3C8; max-width: 68ch; line-height: 1.5; font-size: var(--fs-14); }
+.sg-cop__fold[open] > summary { margin-bottom: 14px; }
 .sg-next { padding: var(--pad-compact); background: var(--sand-50); border-radius: var(--r-sm); line-height: 1.55; border: 1px solid var(--line); }
 .sg-rec, .sg-read { border-top: 1px solid var(--line); padding-top: 8px; }
 .sg-rec > summary, .sg-read > summary { cursor: pointer; font-weight: 700; font-size: var(--fs-16); min-height: 32px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }

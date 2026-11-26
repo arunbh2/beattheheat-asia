@@ -10,7 +10,7 @@ X-WR-CALDESC:Dates that commitments tracked on Common Shade's Signals are
 BEGIN:VEVENT
 UID:sig-singapore-mandatory-heat-measures-2026--d-rule--m-effective@beatt
  heheat.asia
-DTSTAMP:20261122T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Takes effect: Mandatory heat stress measures for outdoor work\, i
@@ -25,7 +25,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:enso-next-2026-12-10@beattheheat.asia
-DTSTAMP:20261122T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Next scheduled bulletin: NOAA Climate Prediction Center\, ENSO Di

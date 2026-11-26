@@ -141,7 +141,7 @@ module.exports = function signals({ page, write, esc, hero }) {
     ${MV.past.length ? `<ol class="sg-mv">${MV.past.slice(0, MAXMV).map(mvItem).join("")}</ol>${MV.past.length > MAXMV ? `<p class="sg-small">${MV.past.length - MAXMV} more dated in the same ${F.WINDOW} days are in the records below.</p>` : ""}` : `<p>${e(T.MOVED_NONE(F.WINDOW))}</p>`}
     ${MV.ahead.length || enNext ? `<h3 class="sg-h3">Coming up</h3><ol class="sg-mv sg-mv--ahead">${MV.ahead.map(m => mvItem(Object.assign({}, m, { what: m.what + " (scheduled)" }))).join("")}${enNext ? `<li><time datetime="${e(enNext.next)}">${e(SM.date(enNext.next))}</time><span class="sg-mv__what">Next bulletin</span><a href="#el-nino-watch">${e(enNext.issuer)}, ${e(enNext.bulletin)}</a></li>` : ""}</ol><p class="sg-small">${e(T.AHEAD_NOTE)}</p>` : ""}
     <p class="sg-follow"><span class="sg-lab">Follow without an account</span><a href="/signals/feed.xml" type="application/atom+xml">Feed of records (Atom)</a><a href="/signals/calendar.ics" type="text/calendar">Calendar of scheduled dates (${CAL.n})</a><a href="/whats-new/">The monthly briefing</a></p>
-    <nav class="sg-jump" aria-label="On this page"><a href="#records">Every record</a><a href="#where">Where commitments stand</a><a href="#el-nino-watch">El Niño watch</a><a href="#cop31">COP31 watch</a><a href="#sg-method">How records are kept</a></nav>
+    <nav class="sg-jump" aria-label="On this page"><a href="#records">Every record</a><a href="#where">Where commitments stand</a><a href="#el-nino-watch">El Niño watch</a><a href="#cop31">${cop.synthesis ? "COP31 watch (closed)" : "COP31 watch"}</a><a href="#sg-method">How records are kept</a></nav>
   </div></section>`;
   const opt = (v, l) => `<option value="${e(v)}">${e(l)}</option>`;
   const placesUsed = [...new Set([...D.signals.flatMap(s => s.places || []), ...Object.keys(require("./signals-harvest.js").PLACES)])].sort((a, b) => a === "region" ? -1 : b === "region" ? 1 : (PLACE[a] || a).localeCompare(PLACE[b] || b)).filter((p, i, a) => a.indexOf(p) === i);
@@ -203,8 +203,8 @@ module.exports = function signals({ page, write, esc, hero }) {
     <p class="sg-small">An outlook is a finding, not a commitment, so it stays outside the commitments above. The finding is tracked as <a href="#${e(EOD.finding)}">${e((D.signals.find(x => x.id === EOD.finding) || {}).title || "the El Niño record")}</a>; preparedness commitments made in response are tracked as their own records: ${EOD.commitments.map(id => { const x = D.signals.find(r => r.id === id); return x ? `<a href="#${e(id)}">${e(x.title)}</a>` : ""; }).filter(Boolean).join(" · ")}.</p>
   </div></section>
   <section class="sg-cop" id="cop31" aria-labelledby="cop31-h"><div class="container">
-    <p class="sg-cop__when">${e(cop.when || "")}</p>
-    <h2 class="sg-h2" id="cop31-h">${e(cop.label)}</h2>
+    ${cop.synthesis ? `<details class="sg-cop__fold" id="cop31-fold"><summary><span class="sg-cop__when">${e(cop.when || "")}</span><h2 class="sg-h2" id="cop31-h">${e(cop.label)} (closed)</h2><span class="sg-cop__hint">${e(T.FOLD_HINT((cop.checkins || []).length))}</span></summary>` : `<p class="sg-cop__when">${e(cop.when || "")}</p>
+    <h2 class="sg-h2" id="cop31-h">${e(cop.label)}</h2>`}
     <p class="sg-cop__p">${e(cop.intro)}</p>
     <dl class="sg-cop__dl"><dt>Scope</dt><dd>${e(cop.scope)}</dd><dt>Review cut-off</dt><dd>${time2(cop.cutoff)}. Developments after this date are not yet reflected.</dd>
       <dt>Following</dt><dd>${cop.watching.map(w => `<span class="sg-chip">${e(w)}</span>`).join(" ")}</dd></dl>
@@ -212,6 +212,7 @@ module.exports = function signals({ page, write, esc, hero }) {
     <details class="sg-cop__ci"><summary>Dated check-ins (${(cop.checkins || []).length}), latest ${time2((cop.checkins || []).slice(-1)[0].date)}</summary><ol class="sg-checkins">${checkins}</ol></details>
     <p class="sg-cop__p"><b>Closing synthesis.</b> ${cop.synthesis ? `${e(cop.synthesis.text)} (reviewed ${time2(cop.synthesis.reviewed)})` : e(T.NO_SYNTHESIS)}</p>
     <p class="sg-cop__p sg-small">${e(T.WATCH_NOTE)}</p>
+    ${cop.synthesis ? "</details>" : ""}
   </div></section>
   <section class="sg-method" id="sg-method" aria-labelledby="sg-method-h"><div class="container">
     <h2 class="sg-h2" id="sg-method-h">How records are kept</h2>
