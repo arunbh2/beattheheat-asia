@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Dhaka: plans, cycles and who is at work
 
-One of the world’s densest cities, where heat costs workdays and fills tin-roofed homes. Heat plan: parts in place, no full plan found.
-
 **Watch: Heat in Dhaka, in 25 seconds** · 0:21 · narrated, with captions
+
+One of the world’s densest cities, where heat costs workdays and fills tin-roofed homes. Heat plan: parts in place, no full plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Dhaka on the Atlas](https://beattheheat.asia/atlas/#city-dhaka)**Heat type:** Mostly humid heat. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

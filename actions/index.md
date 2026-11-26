@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Actions that break the vicious cycles of extreme heat
 
-33 actions that cut a link in one or more vicious cycles of extreme heat: who can take each one, how soon it works, examples from Asia and practical guides.
-
 **Watch: Cut one link, ease many cycles** · 0:22 · narrated, with captions
+
+33 actions that cut a link in one or more vicious cycles of extreme heat: who can take each one, how soon it works, examples from Asia and practical guides.
 
 [See the actions on the interactive map](https://beattheheat.asia/#package-all)
 

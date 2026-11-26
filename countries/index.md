@@ -1,7 +1,7 @@
 ---
 title: "Country snapshots"
 url: https://beattheheat.asia/countries/
-updated: 2026-11-16
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -19,9 +19,9 @@ Country snapshots
 
 # Heat, country by country.
 
-Plans and law, warnings, rules at work, cooling, money, cities, programmes and who is working on it. Researched in October 2026.
-
 **Watch: Seven countries, one hot season** · 0:18 · narrated, with captions
+
+Plans and law, warnings, rules at work, cooling, money, cities, programmes and who is working on it. Researched in October 2026.
 
 - [BangladeshDhaka, Narayanganj, Rajshahi, Khulna, Jashore, Chuadanga, Ishurdi, Chattogram](https://beattheheat.asia/countries/bangladesh/)
 - [IndiaAhmedabad, Delhi, Nagpur, Hyderabad, Chennai, Mumbai, Kolkata, Bhubaneswar](https://beattheheat.asia/countries/india/)

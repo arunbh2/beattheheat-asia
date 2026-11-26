@@ -11,9 +11,9 @@ Country snapshot
 
 # Sri Lanka
 
-Heat, the plans and rules that shape protection, the organisations at work, and where a shared effort could help. Researched in October 2026.
-
 **Watch: Sri Lanka and heat** · 0:39 · narrated, captions in the picture
+
+Heat, the plans and rules that shape protection, the organisations at work, and where a shared effort could help. Researched in October 2026.
 
 **How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
 

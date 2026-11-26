@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Ahmedabad: plans, cycles and who is at work
 
-Where South Asia’s first heat action plan began, and where its results were measured. Heat plan: heat plan in force.
-
 **Watch: Heat in Ahmedabad, in 25 seconds** · 0:23 · narrated, with captions
+
+Where South Asia’s first heat action plan began, and where its results were measured. Heat plan: heat plan in force.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Ahmedabad on the Atlas](https://beattheheat.asia/atlas/#city-ahmedabad)**Heat type:** Dry heat before the monsoon, then humid heat during it. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

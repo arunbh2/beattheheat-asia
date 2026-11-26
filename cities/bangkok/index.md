@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Bangkok: plans, cycles and who is at work
 
-A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy. Heat plan: heat plan in force.
-
 **Watch: Heat in Bangkok, in 25 seconds** · 0:21 · narrated, with captions
+
+A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy. Heat plan: heat plan in force.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Bangkok on the Atlas](https://beattheheat.asia/atlas/#city-bangkok)**Heat type:** Mostly humid heat. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

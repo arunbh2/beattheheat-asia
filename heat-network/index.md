@@ -19,9 +19,9 @@ Organisations already at work, by the part they play.
 
 # Organisations working on extreme heat
 
-336 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
-
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
+
+336 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 [Open the interactive network](https://beattheheat.asia/#network)
 

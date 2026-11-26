@@ -1,7 +1,7 @@
 ---
 title: "Solutions library"
 url: https://beattheheat.asia/solutions/
-updated: 2026-11-16
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -22,9 +22,9 @@ Solutions library
 # 131 ways to protect people
 from heat, and what each needs.
 
-Passive cooling, active cooling, and the plans, rules and money that make protection last, gathered from around the world with a focus on South and Southeast Asia. Each one says how it works, whether it suits dry or humid heat, what it has done, what it costs, who acts and what could stop it.
-
 **Watch: Not all cooling is equal** · 0:21 · narrated, with captions
+
+Passive cooling, active cooling, and the plans, rules and money that make protection last, gathered from around the world with a focus on South and Southeast Asia. Each one says how it works, whether it suits dry or humid heat, what it has done, what it costs, who acts and what could stop it.
 
 **How to read this.** It is a rapid evidence map, not a ranking. The label on each solution is the strongest kind of evidence we found for it, not a score. A label describes the evidence, not how good the solution is. Most solutions have not been independently evaluated for health or income effects; each one says what is known, what is inferred and what is uncertain.
 

@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Phnom Penh: plans, cycles and who is at work
 
-A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains. Heat plan: no published city heat plan found.
-
 **Watch: Heat in Phnom Penh, in 25 seconds** · 0:20 · narrated, with captions
+
+A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains. Heat plan: no published city heat plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Phnom Penh on the Atlas](https://beattheheat.asia/atlas/#city-phnompenh)**Heat type:** Humid heat, hottest from March to May. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

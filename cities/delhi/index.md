@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Delhi: plans, cycles and who is at work
 
-A capital of extreme pre-monsoon heat, street trade and falling groundwater. Heat plan: heat plan in force.
-
 **Watch: Heat in Delhi, in 25 seconds** · 0:23 · narrated, with captions
+
+A capital of extreme pre-monsoon heat, street trade and falling groundwater. Heat plan: heat plan in force.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Delhi on the Atlas](https://beattheheat.asia/atlas/#city-delhi)**Heat type:** Dry heat before the monsoon, then humid heat during it. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

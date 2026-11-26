@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in 22 Asian cities | Common Shade"
 url: https://beattheheat.asia/cities/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -27,9 +27,9 @@ What is heat doing in our city?
 
 # Extreme heat in 22 Asian cities
 
-What extreme heat is doing in 22 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
-
 **Watch: The first twelve cities** · 0:33 · narrated, captions in the picture
+
+What extreme heat is doing in 22 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 [Open the interactive city view](https://beattheheat.asia/#city)
 

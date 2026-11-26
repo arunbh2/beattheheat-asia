@@ -16,8 +16,8 @@
   "changed": "2026-11-07"
  },
  "/a-week-in-the-heat/": {
-  "hash": "a5b568058583ff6b",
-  "changed": "2026-10-01"
+  "hash": "9baf836a18286243",
+  "changed": "2026-11-26"
  },
  "/act/": {
   "hash": "abbd38a6b0ee1277",
@@ -57,7 +57,7 @@
  },
  "/cities/": {
   "hash": "c93f2b1e7158e734",
-  "changed": "2026-11-21"
+  "changed": "2026-11-26"
  },
  "/cities/ahmedabad/": {
   "hash": "b0a940a2b91a82f0",
@@ -161,7 +161,7 @@
  },
  "/countries/": {
   "hash": "b3ffff3feb63ee0e",
-  "changed": "2026-11-16"
+  "changed": "2026-11-26"
  },
  "/countries/bangladesh/": {
   "hash": "378f330ef21bd65e",
@@ -217,7 +217,7 @@
  },
  "/finance/": {
   "hash": "2efdcb132fa3ae81",
-  "changed": "2026-11-13"
+  "changed": "2026-11-26"
  },
  "/for-ai/": {
   "hash": "f7e14266dfe116ac",
@@ -232,12 +232,12 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "efd328177681fc22",
+  "hash": "ce28c43a10b8d05e",
   "changed": "2026-11-26"
  },
  "/guide/": {
-  "hash": "9adf4ff3b71be871",
-  "changed": "2026-11-15"
+  "hash": "2c7d2aacf77f240a",
+  "changed": "2026-11-26"
  },
  "/heat-assembly/": {
   "hash": "0858f2a668753efa",
@@ -245,15 +245,15 @@
  },
  "/heat-economy/": {
   "hash": "a84c70cf483dd687",
-  "changed": "2026-11-21"
+  "changed": "2026-11-26"
  },
  "/heat-economy/businesses/": {
   "hash": "895cc39aec527bb7",
-  "changed": "2026-11-21"
+  "changed": "2026-11-26"
  },
  "/heat-economy/conditions/": {
   "hash": "8f1f7fd1706c72c6",
-  "changed": "2026-11-21"
+  "changed": "2026-11-26"
  },
  "/heat-economy/flows/": {
   "hash": "0bdb01e2940dd510",
@@ -273,7 +273,7 @@
  },
  "/heat-economy/opportunities/": {
   "hash": "944c28f7fef381a5",
-  "changed": "2026-11-21"
+  "changed": "2026-11-26"
  },
  "/heat-network/": {
   "hash": "d6f78f73dd098ecf",
@@ -401,7 +401,7 @@
  },
  "/heatwaves/": {
   "hash": "a0b2e4a97acb5add",
-  "changed": "2026-11-16"
+  "changed": "2026-11-26"
  },
  "/how-heat-became-visible/": {
   "hash": "416b6b10abc6ea04",
@@ -421,7 +421,7 @@
  },
  "/lancet-countdown-2026/": {
   "hash": "8e9c2566a71637dc",
-  "changed": "2026-11-16"
+  "changed": "2026-11-26"
  },
  "/live-through-a-heatwave/": {
   "hash": "22f2eb21a8772f21",
@@ -429,11 +429,11 @@
  },
  "/loops/": {
   "hash": "56613217d5f39a88",
-  "changed": "2026-11-19"
+  "changed": "2026-11-26"
  },
  "/news/": {
-  "hash": "4112bba5dabb0344",
-  "changed": "2026-11-14"
+  "hash": "09af98243a415b6c",
+  "changed": "2026-11-26"
  },
  "/paths/": {
   "hash": "df19ea438bbf729f",
@@ -463,6 +463,10 @@
   "hash": "379ba510621de57d",
   "changed": "2026-10-31"
  },
+ "/paths/research/": {
+  "hash": "865a68e9a478e87e",
+  "changed": "2026-10-01"
+ },
  "/paying-for-protection/": {
   "hash": "c6379610056b2947",
   "changed": "2026-11-19"
@@ -472,16 +476,16 @@
   "changed": "2026-11-13"
  },
  "/plan/": {
-  "hash": "bd89a4fb859bd5af",
-  "changed": "2026-11-19"
+  "hash": "0efdea18f89ee8ed",
+  "changed": "2026-11-26"
  },
  "/practical-actions/": {
   "hash": "6843a027c1b8bf00",
-  "changed": "2026-11-19"
+  "changed": "2026-11-26"
  },
  "/practical/": {
-  "hash": "d9cafe8219c84b09",
-  "changed": "2026-11-14"
+  "hash": "bdaf4b15c026df38",
+  "changed": "2026-11-26"
  },
  "/print/": {
   "hash": "e1073b0464625890",
@@ -672,8 +676,8 @@
   "changed": "2026-11-26"
  },
  "/privacy/": {
-  "hash": "48cdbdaeda4d8277",
-  "changed": "2026-11-16"
+  "hash": "f7876cb419d62ca5",
+  "changed": "2026-11-26"
  },
  "/resources/": {
   "hash": "a08671d2bf20c1da",
@@ -705,7 +709,7 @@
  },
  "/solutions/": {
   "hash": "b0d424ff93ae02f1",
-  "changed": "2026-11-16"
+  "changed": "2026-11-26"
  },
  "/sources/": {
   "hash": "ce7712ac1ef99778",
@@ -713,11 +717,11 @@
  },
  "/the-web/": {
   "hash": "c17a51f439075de3",
-  "changed": "2026-11-18"
+  "changed": "2026-11-26"
  },
  "/together/": {
-  "hash": "2419965cdab15e35",
-  "changed": "2026-11-14"
+  "hash": "75f693b786ade955",
+  "changed": "2026-11-26"
  },
  "/understand/": {
   "hash": "46bb55b87c6d4ca0",
@@ -749,6 +753,6 @@
  },
  "/worked-plans/": {
   "hash": "7c579e3076b7ac2f",
-  "changed": "2026-11-19"
+  "changed": "2026-11-26"
  }
 }

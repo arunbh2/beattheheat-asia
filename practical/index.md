@@ -1,7 +1,7 @@
 ---
 title: "Find practical actions against extreme heat | Common Shade"
 url: https://beattheheat.asia/practical/
-updated: 2026-11-14
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -32,9 +32,9 @@ Find practical actions
 # What works, who does it,
 and what keeps it working.
 
-Pick a setting, or start from a question. Each card answers eight things: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.
-
 **Watch: A heat-resilient market** · 0:25 · narrated, captions in the picture
+
+Pick a setting, or start from a question. Each card answers eight things: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.
 
 Prefer to start with a place?
 

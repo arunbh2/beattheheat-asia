@@ -1,7 +1,7 @@
 ---
 title: "Businesses offering protection from heat"
 url: https://beattheheat.asia/heat-economy/businesses/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -20,9 +20,9 @@ The heat economy · Businesses
 # 91 businesses offering
 protection from heat.
 
-Start-ups, small businesses, social enterprises and established companies, from cool roofs and efficient fans to cold storage, heat sensors and insurance. 57 of them work in South or Southeast Asia.
-
 **Watch: Businesses that protect from heat** · 0:36 · narrated, captions in the picture
+
+Start-ups, small businesses, social enterprises and established companies, from cool roofs and efficient fans to cold storage, heat sensors and insurance. 57 of them work in South or Southeast Asia.
 
 **About this section.** We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, [tell us](https://beattheheat.asia/join/).
 

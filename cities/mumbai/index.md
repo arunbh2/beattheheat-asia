@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Mumbai: plans, cycles and who is at work
 
-A coastal megacity where the nights are heating faster than the days. Heat plan: parts in place, no full plan found.
-
 **Watch: Heat in Mumbai, in 25 seconds** · 0:19 · narrated, with captions
+
+A coastal megacity where the nights are heating faster than the days. Heat plan: parts in place, no full plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Mumbai on the Atlas](https://beattheheat.asia/atlas/#city-mumbai)**Heat type:** Mostly humid coastal heat. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

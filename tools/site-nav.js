@@ -118,6 +118,9 @@ function nextOf(pathname) {
   const n = i > -1 && i + 1 < list.length ? list[i + 1] : i === list.length - 1 ? [g.hub, "Everything in " + g.h] : [g.hub, "Everything in " + g.h];
   return [n[0], n[1]];
 }
+// "Share this page": the same button near the title and at the end of every page; hidden until the menu script runs,
+// which loads the panel (share.js) on the first press. Words and tags: tools/share-text.js.
+const SHARE_BUTTON = where => `<button type="button" class="cs-sh cs-sh--${where}" data-cs-share hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3m0 0L7.5 7.5M12 3l4.5 4.5M5 11v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Share this page</button>`;
 // a calm ending: what you have read, one thing worth passing on, and one place to go next
 function ending(pathname, title, line) {
   const [nu, nt] = nextOf(pathname);
@@ -125,7 +128,7 @@ function ending(pathname, title, line) {
     <svg class="cse__mark" viewBox="0 0 120 40" aria-hidden="true"><path d="M8 22 Q60 2 112 22" fill="none" stroke="#F26430" stroke-width="5" stroke-linecap="round"/><path d="M26 18 V38 M94 18 V38" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
     <p class="cse__k">You have read</p><p class="cse__t">${esc(title)}</p>
     ${line ? `<p class="cse__k">One thing worth sharing with a colleague</p><blockquote class="cse__q">${esc(line)}</blockquote>` : ""}
-    <p class="cse__acts"><button type="button" class="cse__btn" data-cse-share>Share this page</button><a class="cse__next" href="${nu}">Next: ${esc(nt)} <span aria-hidden="true">→</span></a></p>
+    <p class="cse__acts">${SHARE_BUTTON("end")}<a class="cse__next" href="${nu}">Next: ${esc(nt)} <span aria-hidden="true">→</span></a></p>
     <p class="cse__rest">Or take a moment. It will all be here when you come back.</p>
   </div></section>`;
 }
@@ -326,7 +329,13 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 .cse__t{font-family:Anton,Impact,"Arial Narrow",sans-serif;text-transform:uppercase;font-size:clamp(1.3rem,1rem + 1.4vw,1.9rem);line-height:1.1;margin:0 0 6px}
 .cse__q{margin:0 auto;font-family:Newsreader,Georgia,serif;font-size:clamp(1.05rem,.95rem + .5vw,1.3rem);line-height:1.5;color:#39424D;max-width:56ch}
 .cse__acts{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin:22px 0 6px;align-items:center}
-.cse__btn{font:inherit;font-weight:700;cursor:pointer;background:#16202B;color:#FAF7F2;border:0;border-radius:999px;padding:10px 18px}
+.cs-sh{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:0 16px;font:inherit;font-weight:700;font-size:.875rem;line-height:1.2;cursor:pointer;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;-webkit-tap-highlight-color:transparent;touch-action:manipulation}.cs-sh[hidden]{display:none}.cs-sh svg{width:18px;height:18px;flex:none}.cs-sh:focus-visible{outline:3px solid #F26430;outline-offset:2px}
+.cs-sh--end{font-size:1rem;background:#16202B;color:#FAF7F2;border-color:#16202B;min-height:44px}
+@media (hover:hover) and (pointer:fine){.cs-sh--top:hover{background:rgba(127,127,127,.12)}.cs-sh--end:hover{background:#2A3644}}
+.cs-sh-top{margin:12px 0 14px!important;padding:0!important;max-width:none!important;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;font-size:1rem;line-height:1.4}.cs-sh-top:has(.cs-sh[hidden]){display:none}
+nav.tools .cs-sh{background:#fff;color:#16202B;border:2px solid #16202B}
+.cs-sh-off{display:block;flex:1 0 100%;margin-top:6px;font-size:.875rem}
+.cs-sh-home{display:flex;justify-content:center;padding:32px 16px;background:#FAF7F2;color:#16202B;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif}
 .cse__next{font-weight:700;color:#16202B;text-decoration-line:underline;text-decoration-thickness:2px;text-decoration-color:#F26430;text-underline-offset:4px}
 .cse__rest{font-size:.88rem;color:#5E6570;margin:12px 0 0}
 .csn-new{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;max-width:1240px;margin:8px auto 0;padding:0 clamp(16px,3.5vw,40px);font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;font-size:.86rem}
@@ -349,7 +358,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 .cs-person svg{width:56px;height:56px;color:#16202B}
 .cs-person b{display:block;font-size:.95rem;margin-bottom:2px}.cs-person p{margin:0;line-height:1.55}.cs-person small{display:block;margin-top:6px;font-size:.78rem;color:#7A6F63}
 @media (prefers-reduced-motion:reduce){.csn__canopy,.cs-tip{transition:none}}
-@media print{.csn,.csf,.csn-skip,.ticker,.csp,.csn-d,.cse,.csn-new,.cs-check{display:none!important}}`;
+@media print{.csn,.csf,.csn-skip,.ticker,.csp,.csn-d,.cse,.csn-new,.cs-check,.cs-sh,.cs-sh-top,.cs-sh-home{display:none!important}}`;
 
 // The behaviour: menu panels, phone menu, search, paths and the citation copy. Plain ES5, no libraries.
 function js() {
@@ -461,9 +470,11 @@ var today=new Date().toISOString().slice(0,10);
  requestAnimationFrame(function(){c.style.transform="scaleX("+(0.82+0.3*f).toFixed(3)+")"});
  var home=$(".csn__home");if(home)home.setAttribute("title",p.short+" path: "+done+" of "+p.stops.length+" stops seen");
  var bar=$("[data-csn-pathbar]");if(bar&&f===1&&!load("cs-path-done-"+p.id,false)){save("cs-path-done-"+p.id,true);var t=document.createElement("span");t.className="csn__thanks";t.textContent=" You have walked the whole path. Thank you.";bar.appendChild(t)}})();
-/* share this page */
-$$("[data-cse-share]").forEach(function(b){b.addEventListener("click",function(){var d={title:document.title,url:location.href.split("#")[0]};
- if(navigator.share)navigator.share(d).catch(function(){});else(navigator.clipboard?navigator.clipboard.writeText(d.url):Promise.reject()).then(function(){b.textContent="Link copied"},function(){b.textContent="Copy the address bar to share"})})});
+/* share this page: show the buttons, and load the panel (share.js) on the first press */
+var shWait=null;function shOpen(b){if(window.CS_SHARE)return CS_SHARE.open(b);if(shWait)return;var d={};try{d=JSON.parse(document.getElementById("cs-share-data").textContent)}catch(e){}
+ shWait=b;var s=document.createElement("script");s.src=d.js||"/share.js";s.onload=function(){shWait=null;if(window.CS_SHARE)CS_SHARE.open(b)};
+ s.onerror=function(){shWait=null;if(!document.getElementById("cs-sh-off")){var m=document.createElement("span");m.id="cs-sh-off";m.className="cs-sh-off";m.setAttribute("role","status");b.parentNode.insertBefore(m,b.nextSibling);m.textContent="Sharing could not load. Copy the address from your browser to share this page."}};document.head.appendChild(s)}
+$$("[data-cs-share]").forEach(function(b){b.hidden=false;b.addEventListener("click",function(){shOpen(b)})});
 /* hover or focus a city: its heat right now, from the readings the live ticker already keeps */
 (function(){var live=load("bth-live-v1",null);if(!live||!live.cities)return;var tip=null;
  function show(a){var m=(a.getAttribute("href")||"").match(new RegExp("(?:/cities/([a-z]+))|(?:#city-([a-z]+))"));if(!m)return;var id=m[1]||m[2],c=live.cities[id];if(!c||Date.now()-live.at>3*36e5)return;
@@ -497,4 +508,4 @@ $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){
 })();`;
 }
 
-module.exports = { GROUPS, PATHS, NAMES, TEXT, header, footer, ending, pathCards, CSS, JS: js(), esc, groupOf };
+module.exports = { SHARE_BUTTON, GROUPS, PATHS, NAMES, TEXT, header, footer, ending, pathCards, CSS, JS: js(), esc, groupOf };

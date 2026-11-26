@@ -1,7 +1,7 @@
 ---
 title: "The heat economy"
 url: https://beattheheat.asia/heat-economy/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -12,9 +12,9 @@ The heat economy
 # Businesses, funding and ideas
 that protect people from heat.
 
-Who already offers protection from heat, who funds it, which new businesses and services could help, and what to ask before you buy, fund or start something.
-
 **Watch: Who pays for protection?** · 0:20 · narrated, with captions
+
+Who already offers protection from heat, who funds it, which new businesses and services could help, and what to ask before you buy, fund or start something.
 
 **About this section.** We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, [tell us](https://beattheheat.asia/join/).
 

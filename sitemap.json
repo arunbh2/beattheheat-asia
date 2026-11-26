@@ -22,7 +22,7 @@
     {
       "url": "https://beattheheat.asia/a-week-in-the-heat/",
       "markdown": "https://beattheheat.asia/a-week-in-the-heat/index.md",
-      "updated": "2026-10-01"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/act/",
@@ -72,7 +72,7 @@
     {
       "url": "https://beattheheat.asia/cities/",
       "markdown": "https://beattheheat.asia/cities/index.md",
-      "updated": "2026-11-21"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/cities/ahmedabad/",
@@ -202,7 +202,7 @@
     {
       "url": "https://beattheheat.asia/countries/",
       "markdown": "https://beattheheat.asia/countries/index.md",
-      "updated": "2026-11-16"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/countries/bangladesh/",
@@ -272,7 +272,7 @@
     {
       "url": "https://beattheheat.asia/finance/",
       "markdown": "https://beattheheat.asia/finance/index.md",
-      "updated": "2026-11-13"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/for-ai/",
@@ -297,7 +297,7 @@
     {
       "url": "https://beattheheat.asia/guide/",
       "markdown": "https://beattheheat.asia/guide/index.md",
-      "updated": "2026-11-15"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-assembly/",
@@ -307,17 +307,17 @@
     {
       "url": "https://beattheheat.asia/heat-economy/",
       "markdown": "https://beattheheat.asia/heat-economy/index.md",
-      "updated": "2026-11-21"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-economy/businesses/",
       "markdown": "https://beattheheat.asia/heat-economy/businesses/index.md",
-      "updated": "2026-11-21"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-economy/conditions/",
       "markdown": "https://beattheheat.asia/heat-economy/conditions/index.md",
-      "updated": "2026-11-21"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-economy/flows/",
@@ -342,7 +342,7 @@
     {
       "url": "https://beattheheat.asia/heat-economy/opportunities/",
       "markdown": "https://beattheheat.asia/heat-economy/opportunities/index.md",
-      "updated": "2026-11-21"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-network/",
@@ -502,7 +502,7 @@
     {
       "url": "https://beattheheat.asia/heatwaves/",
       "markdown": "https://beattheheat.asia/heatwaves/index.md",
-      "updated": "2026-11-16"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/how-heat-became-visible/",
@@ -527,7 +527,7 @@
     {
       "url": "https://beattheheat.asia/lancet-countdown-2026/",
       "markdown": "https://beattheheat.asia/lancet-countdown-2026/index.md",
-      "updated": "2026-11-16"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/live-through-a-heatwave/",
@@ -537,12 +537,12 @@
     {
       "url": "https://beattheheat.asia/loops/",
       "markdown": "https://beattheheat.asia/loops/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/news/",
       "markdown": "https://beattheheat.asia/news/index.md",
-      "updated": "2026-11-14"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/paths/",
@@ -580,6 +580,11 @@
       "updated": "2026-10-31"
     },
     {
+      "url": "https://beattheheat.asia/paths/research/",
+      "markdown": "https://beattheheat.asia/paths/research/index.md",
+      "updated": "2026-10-01"
+    },
+    {
       "url": "https://beattheheat.asia/paying-for-protection/",
       "markdown": "https://beattheheat.asia/paying-for-protection/index.md",
       "updated": "2026-11-19"
@@ -592,17 +597,17 @@
     {
       "url": "https://beattheheat.asia/plan/",
       "markdown": "https://beattheheat.asia/plan/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/practical-actions/",
       "markdown": "https://beattheheat.asia/practical-actions/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/practical/",
       "markdown": "https://beattheheat.asia/practical/index.md",
-      "updated": "2026-11-14"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/print/",
@@ -842,7 +847,7 @@
     {
       "url": "https://beattheheat.asia/privacy/",
       "markdown": "https://beattheheat.asia/privacy/index.md",
-      "updated": "2026-11-16"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/resources/",
@@ -882,7 +887,7 @@
     {
       "url": "https://beattheheat.asia/solutions/",
       "markdown": "https://beattheheat.asia/solutions/index.md",
-      "updated": "2026-11-16"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/sources/",
@@ -892,12 +897,12 @@
     {
       "url": "https://beattheheat.asia/the-web/",
       "markdown": "https://beattheheat.asia/the-web/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/together/",
       "markdown": "https://beattheheat.asia/together/index.md",
-      "updated": "2026-11-14"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/understand/",
@@ -937,7 +942,7 @@
     {
       "url": "https://beattheheat.asia/worked-plans/",
       "markdown": "https://beattheheat.asia/worked-plans/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-26"
     }
   ],
   "also": {

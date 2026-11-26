@@ -20,9 +20,9 @@ Sources and references
 # Everything we cite,
 in one place.
 
-Every claim on Common Shade links to its source. Each entry below shows who published it and where on the site it is used.
-
 **Watch: Every claim, linked** · 0:26 · narrated, captions in the picture
+
+Every claim on Common Shade links to its source. Each entry below shows who published it and where on the site it is used.
 
 ## Heat in the news 183
 

@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Hanoi: plans, cycles and who is at work
 
-A fast-growing northern capital whose power and water strain together in the heat. Heat plan: no published city heat plan found.
-
 **Watch: Heat in Hanoi, in 25 seconds** · 0:24 · narrated, with captions
+
+A fast-growing northern capital whose power and water strain together in the heat. Heat plan: no published city heat plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Hanoi on the Atlas](https://beattheheat.asia/atlas/#city-hanoi)**Heat type:** Mostly humid heat, in a hot, wet summer. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

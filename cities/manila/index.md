@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Manila: plans, cycles and who is at work
 
-A dense, humid metropolis where heat closes schools and pushes the heat index into danger. Heat plan: parts in place, no full plan found.
-
 **Watch: Heat in Manila, in 25 seconds** · 0:22 · narrated, with captions
+
+A dense, humid metropolis where heat closes schools and pushes the heat index into danger. Heat plan: parts in place, no full plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Manila on the Atlas](https://beattheheat.asia/atlas/#city-manila)**Heat type:** Mostly humid heat. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

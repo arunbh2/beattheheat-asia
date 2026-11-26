@@ -1,7 +1,7 @@
 ---
 title: "A week in the heat: a worker protection exercise | Common Shade"
 url: https://beattheheat.asia/a-week-in-the-heat/
-updated: 2026-10-01
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -20,9 +20,9 @@ A week in the heat
 # Can they stay safe
 and still eat?
 
-Choose one of ten countries and follow one worker’s money through a heatwave. Build them a package of protection, then try to break it. Protection only counts when the person can actually use it.
-
 **Watch: A week in the heat** · 0:16 · narrated, with captions
+
+Choose one of ten countries and follow one worker’s money through a heatwave. Build them a package of protection, then try to break it. Protection only counts when the person can actually use it.
 
 [Start the exercise ](#wk)
 Every worker is a composite, not a real person, and every fact links to its source. What you enter stays in this browser.

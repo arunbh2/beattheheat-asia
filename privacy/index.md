@@ -1,7 +1,7 @@
 ---
 title: "Privacy and terms"
 url: https://beattheheat.asia/privacy/
-updated: 2026-11-16
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -26,6 +26,8 @@ There are no accounts and no sign-up. What you choose on the site, such as a map
 **Fonts**: Fonts load from Google Fonts. Google sees the request for them.
 
 **Recent research**: Heat in the news asks Europe PMC, an open archive of research papers, for papers on heat in Asia from the last few months. The search is set by the page, so nothing you type is sent. Europe PMC sees the request, as any website does. The answer is kept in your browser for six hours, and if Europe PMC does not reply, the page shows a copy saved on the site.
+
+**Sharing a page**: The Share this page panel loads no WhatsApp, LinkedIn or other social-media code. Only when you press WhatsApp or Open LinkedIn does your browser open that service, with the page link (and, for WhatsApp, your message) for you to send yourself; nothing is posted for you. Copying uses your own clipboard. The message is not stored or sent to Common Shade; if the cookieless counter is on, it records only which share button was pressed and on which page.
 
 **The join form**: The form on the Help build Common Shade page is a Microsoft Forms embed. Anything typed into it goes to Microsoft Forms under its own terms, and nowhere else.
 
