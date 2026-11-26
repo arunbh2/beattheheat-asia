@@ -1005,7 +1005,7 @@
     {
       "id": "g-wmo-soc-heat", "kind": "evidence", "root": "evidence", "added": "2026-11-17", "pr": null,
       "title": "The year's climate findings: India's April heat, early warnings and El Niño's health risks",
-      "why": "Two Signals records now carry more from WMO's State of the Climate Update 2026, checked against its press release: an estimated 146.5 million people in India exposed to extreme heat in an April 2026 heatwave, countries reporting multi-hazard early warning systems up from 56 in 2015 to 136 in 2025, and WHO's first classification of El Niño's anticipated health impacts as a health emergency.",
+      "why": "Two Signals records now carry more from WMO's State of the Climate Update 2026, checked against its press release: an estimated 146.5 million people in India exposed to extreme heat in an April 2026 heatwave, countries reporting multi-hazard early warning systems up from 56 in 2015 to 136 in 2025, and El Niño's health risks, which WMO describes as WHO's first classification of the anticipated health impacts as a health emergency (WHO's own plan describes a Grade 3 response, an internal operational grading).",
       "places": ["india", "region"], "people": [], "topics": ["anticipatory"],
       "event": { "what": "WMO State of the Climate Update 2026, released as COP31 opened", "date": "2026-11" },
       "review": "Eight terms found on WMO's press release; three claims confirmed; the Nepal glacier collapse, quotations and figures outside the heat focus are held back in the batch ledger",
@@ -1058,6 +1058,19 @@
                   "open": "The decision texts themselves, the task force's guidance date, and any proceeds the Adaptation Fund receives." },
       "pages": [["/signals/#cop31", "COP31 watch"]], "action": ["See the COP31 watch", "/signals/#cop31"],
       "links": [{ "to": "lever:heatbudget", "why": "The Adaptation Fund decision concerns money that could pay for heat measures; none received or spent on heat has been found yet.", "basis": "record" }]
+    },
+    {
+      "id": "g-el-nino-pages-update", "kind": "evidence", "root": "evidence", "added": "2026-11-26", "pr": null,
+      "title": "The El Niño pages now read from one checked outlook, from the Pacific to a local warning",
+      "why": "The explainer, the printable briefing, the cities guide, the El Niño watch and a new El Niño route in the Heat Tool Finder now draw every repeated outlook fact from one record checked against the latest bulletins, which showed no substantive change since NOAA's discussion of 12 November 2026. The cities guide adds four protections that keep working (work without lost pay, homes, care and schools), and the El Niño record on Signals now attributes and qualifies WMO's 'strongest on record' and 'health emergency' wording.",
+      "places": ["region", "india"], "people": ["workers", "women"], "topics": ["hap", "anticipatory", "heatrules", "maternalheat"],
+      "event": { "what": "El Niño outlook checked against the latest bulletins", "date": "2026-11-26" },
+      "review": "29 of 35 claims confirmed by the source check; national guidance on pages that did not open (NDMA's guidelines, two Labour Ministry releases, NCDC's national action plan) is left out; a correction logged on /corrections/",
+      "effort": { "asked": "Does each El Niño page show the latest verified outlook, keep what the Pacific is doing apart from what a place prepares for, and lead to the right tools?", "inbox": "data/inbox/2026-11-enso-update",
+                  "dropped": "research/2026-11/enso-update/dropped-after-check.json",
+                  "open": "NOAA's next discussion (due 10 December 2026), IMD's November bulletin, WMO's December to February update, and the national guidance documents the checker could not open." },
+      "pages": [["/el-nino/", "El Niño and heat in Asia"], ["/el-nino-and-cities/#protections", "Four protections"], ["/heat-tools/#el-nino", "El Niño route"]], "action": ["Read the outlook", "/el-nino/#outlook"],
+      "links": [{ "to": "lever:hap", "why": "The four protections are what a heat plan has working before the season; El Niño sets the lead time, not the trigger.", "basis": "record" }]
     }
   ]
 }

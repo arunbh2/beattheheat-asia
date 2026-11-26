@@ -1,7 +1,7 @@
 ---
 title: "Common Shade: Plan a response: Heat Tool Finder"
 url: https://beattheheat.asia/heat-tools/cs_plan/
-updated: 2026-10-01
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -96,6 +96,7 @@ From the provider's sources: the description, inputs, outputs and access. Common
 - [An Indian city preparing its heat plan](https://beattheheat.asia/heat-tools/#path-india-city)
 - [A team considering shade for a market](https://beattheheat.asia/heat-tools/#path-cooler-market)
 - [A funder assessing a heat proposal](https://beattheheat.asia/heat-tools/#path-funding-diligence)
+- [I need to prepare for El Niño-related seasonal risk](https://beattheheat.asia/heat-tools/#path-enso-season)
 
 ## What to do next
 

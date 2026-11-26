@@ -1,0 +1,321 @@
+[
+ {
+  "id": "u-noaa-archive",
+  "where": "Shared outlook: history",
+  "text": "NOAA's archived copy of its 12 November 2026 discussion keeps the El Niño Advisory and the outlook of a strong-to-very strong El Niño likely through January-March 2027.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: El Niño/Southern Oscillation (ENSO) Diagnostic Discussion, 12 November 2026 (archived copy), 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-noaa-weekly",
+  "where": "Shared outlook: weekly monitoring",
+  "text": "NOAA's weekly ENSO update, published between monthly discussions, keeps the El Niño Advisory; it is a weekly monitoring summary, not a new monthly outlook.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO: Recent Evolution, Current Status and Predictions (weekly update), 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-bom-now",
+  "where": "Shared outlook: BoM",
+  "text": "The Bureau of Meteorology reports a weekly relative Niño3.4 value of +2.67 °C for the week ending 22 November 2026, below the event's peak so far of +2.88 °C.",
+  "sources": [
+   {
+    "label": "Australian Bureau of Meteorology: Climate driver update: ENSO and the Indian Ocean, 2026",
+    "url": "https://www.bom.gov.au/climate/enso/"
+   }
+  ]
+ },
+ {
+  "id": "u-bom-fc",
+  "where": "Shared outlook: BoM",
+  "text": "The Bureau says most models expect warming in the tropical Pacific to peak in December or January and to stay above El Niño thresholds into the southern autumn of 2027 (March to May 2027).",
+  "sources": [
+   {
+    "label": "Australian Bureau of Meteorology: Climate driver update: ENSO and the Indian Ocean, 2026",
+    "url": "https://www.bom.gov.au/climate/enso/"
+   }
+  ]
+ },
+ {
+  "id": "u-bom-impact",
+  "where": "Explainer; watch",
+  "text": "The Bureau notes that a strong Niño3.4 signal does not necessarily mean strong impacts.",
+  "sources": [
+   {
+    "label": "Australian Bureau of Meteorology: Climate driver update: ENSO and the Indian Ocean, 2026",
+    "url": "https://www.bom.gov.au/climate/enso/"
+   }
+  ]
+ },
+ {
+  "id": "u-bom-iod",
+  "where": "Shared outlook: Indian Ocean",
+  "text": "The Bureau reports a weekly Indian Ocean Dipole index of +0.53 °C for the week ending 22 November 2026, and expects the positive Indian Ocean Dipole to weaken and return to neutral in early southern summer.",
+  "sources": [
+   {
+    "label": "Australian Bureau of Meteorology: Climate driver update: ENSO and the Indian Ocean, 2026",
+    "url": "https://www.bom.gov.au/climate/enso/"
+   }
+  ]
+ },
+ {
+  "id": "u-asmc-peak",
+  "where": "Shared outlook: ASMC",
+  "text": "ASMC's El Niño page predicts the Relative Niño3.4 index to peak during November to December 2026, with most models predicting El Niño to begin weakening in January to February 2027 and strong El Niño conditions persisting until February to March 2027.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: Regional Climate: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
+  "id": "u-asmc-iod",
+  "where": "Shared outlook: Indian Ocean",
+  "text": "ASMC expects positive Indian Ocean Dipole conditions to weaken and return to neutral in January 2027.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: Regional Climate: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
+  "id": "u-imd-bull",
+  "where": "Shared outlook: IMD",
+  "text": "IMD's latest ENSO and IOD update bulletin reports neutral Indian Ocean Dipole conditions and expects El Niño conditions to continue.",
+  "sources": [
+   {
+    "label": "India Meteorological Department (Ministry of Earth Sciences): ENSO and IOD Update Bulletin, 2026",
+    "url": "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-wmo-proj",
+  "where": "Signals; change log",
+  "text": "WMO's update of 20 November 2026 describes stepped-up support for El Niño preparedness and early action; it is a project update, not a new climate forecast.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: WMO projects strengthening El Niño preparedness and early action worldwide, 2026",
+    "url": "https://wmo.int/media/project-update/wmo-projects-strengthening-el-nino-preparedness-and-early-action-worldwide"
+   }
+  ]
+ },
+ {
+  "id": "u-wmo-soc-strongest",
+  "where": "Signals: El Niño finding (correction)",
+  "text": "WMO's State of the Climate press release describes El Niño as expected to become very strong, with the possibility of being among the strongest on record.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "u-wmo-soc-who",
+  "where": "Signals: El Niño finding (correction)",
+  "text": "WMO's State of the Climate press release refers to WHO's response to El Niño's anticipated health impacts.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "u-who-grade",
+  "where": "Signals; explainer",
+  "text": "WHO's Strategic Preparedness and Response Plan for El Niño-related public health risks covers October 2026 to September 2027 and describes WHO's Grade 3 response.",
+  "sources": [
+   {
+    "label": "World Health Organization: WHO Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies: Strategic Preparedness and Response Plan, 2026",
+    "url": "https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan"
+   }
+  ]
+ },
+ {
+  "id": "u-who-sitan",
+  "where": "Explainer; cities",
+  "text": "WHO's Global Public Health Situation Analysis for El Niño 2026 sets out expected public health risks, including heat.",
+  "sources": [
+   {
+    "label": "World Health Organization: Global Public Health Situation Analysis: El Niño 2026, 2026",
+    "url": "https://www.who.int/publications/m/item/global-public-health-situation-analysis-el-nino-2026"
+   }
+  ]
+ },
+ {
+  "id": "u-imd-erf",
+  "where": "Heat Tool Finder",
+  "text": "IMD publishes an extended range forecast covering the coming weeks.",
+  "sources": [
+   {
+    "label": "India Meteorological Department: Extended Range Forecast, 2026",
+    "url": "https://internal.imd.gov.in/section/nhac/dynamic/extended.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-ncdc-preg",
+  "where": "Cities: continuity of care",
+  "text": "NCDC's guidance on heat and pregnancy notes higher health risks from extreme heat for pregnant women and the fetus, and covers assessment and timely referral in health facilities.",
+  "sources": [
+   {
+    "label": "National Centre for Disease Control (MoHFW): Heat and Pregnancy, 2025",
+    "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-mht",
+  "where": "Cities: heat-safe homes",
+  "text": "Mahila Housing Trust's 2024 cool roof study looks at heat in homes in an informal settlement in Ahmedabad, including homes where women do paid work.",
+  "sources": [
+   {
+    "label": "Mahila Housing Trust: Hot Take: Cool Roof Research Study Report 2024, 2024",
+    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-noaa-weekly-date",
+  "where": "Shared outlook: weekly monitoring",
+  "text": "NOAA's weekly ENSO update was prepared on 23 November 2026.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO: Recent Evolution, Current Status and Predictions (weekly update), 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-noaa-indonesia",
+  "where": "Shared outlook: observed",
+  "text": "NOAA's weekly update notes that suppressed convection and rainfall has persisted over Indonesia since June 2026.",
+  "sources": [
+   {
+    "label": "NOAA Climate Prediction Center: ENSO: Recent Evolution, Current Status and Predictions (weekly update), 2026",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-asmc-oct",
+  "where": "Shared outlook: ASMC",
+  "text": "ASMC reports the Relative Niño3.4 index at 2.3 °C for October 2026 and 2.0 °C for August to October 2026, based on the Relative Oceanic Niño Index.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: Regional Climate: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
+  "id": "u-asmc-apr",
+  "where": "Shared outlook: ASMC",
+  "text": "ASMC says strong El Niño conditions are predicted to persist until February to March 2027, with El Niño conditions continuing until at least March to April 2027; most models (more than 70%) predict El Niño will still be present in April 2027.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: Regional Climate: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
+  "id": "u-asmc-thresh",
+  "where": "Explainer: reading the outlook",
+  "text": "ASMC classifies historical events with a three-month Niño3.4 threshold of ±0.65 °C and calls events above 1.5 °C strong; NOAA uses ±0.5 °C on RONI. Agencies keep their own thresholds.",
+  "sources": [
+   {
+    "label": "ASEAN Specialised Meteorological Centre: Regional Climate: El Niño / La Niña, 2026",
+    "url": "https://asmc.asean.org/asmc-el-nino/"
+   }
+  ]
+ },
+ {
+  "id": "u-imd-oct",
+  "where": "Shared outlook: IMD",
+  "text": "IMD's ENSO and IOD bulletin for October 2026, from its Monsoon Mission Coupled Forecast System, indicates a high likelihood of strong-to-very strong El Niño conditions persisting through January to March 2027, and reports neutral IOD conditions, with neutral most likely to continue; it notes that some international centres expect the positive IOD phase to continue in the near term.",
+  "sources": [
+   {
+    "label": "India Meteorological Department (Ministry of Earth Sciences): ENSO and IOD Update Bulletin, 2026",
+    "url": "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-imd-thresh",
+  "where": "Explainer: reading the outlook",
+  "text": "IMD's bulletin defines IOD categories with a ±0.4 °C threshold on the Dipole Mode Index and ENSO categories with ±0.5 °C, and says IMD issues monthly updates.",
+  "sources": [
+   {
+    "label": "India Meteorological Department (Ministry of Earth Sciences): ENSO and IOD Update Bulletin, 2026",
+    "url": "https://mausam.imd.gov.in/ClimateInformation/imdweb/CLIMATE_FCST/Bulletin/ENSO_IOD_Update_Bulletin.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-wmo-soc-quote",
+  "where": "Signals: El Niño finding (correction)",
+  "text": "WMO's State of the Climate press release says El Niño has been intensifying since August and is expected to be the strongest on record by December, and that WHO has, for the first time, classified the anticipated health impacts as a health emergency.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "u-air",
+  "where": "Cities: workplace protection",
+  "text": "In April 2026 the Government issued a nationwide heatwave advisory to safeguard workers from rising temperatures, as reported by All India Radio (Akashvani); the report mentions drinking water.",
+  "sources": [
+   {
+    "label": "All India Radio News: Government issues nationwide heatwave advisory to safeguard workers from rising temperatures, 2026",
+    "url": "https://www.newsonair.gov.in/government-issues-nationwide-heatwave-advisory-to-safeguard-workers-from-rising-temperatures/"
+   }
+  ]
+ },
+ {
+  "id": "u-moe-title",
+  "where": "Cities: schools",
+  "text": "The Ministry of Education's guidelines set out precautions for schools to combat the ill-effects of heat waves (as published on Vikaspedia).",
+  "sources": [
+   {
+    "label": "Vikaspedia (Government of India portal): Guidelines regarding precautions to be observed by schools to combat the ill-effects of the heat-wave (Ministry of Education, 2022, as published by Vikaspedia), 2022",
+    "url": "https://vikaspedia.in/education/teachers-corner/guidelines-regarding-precautions-to-be-observed-by-schools-to-combat-the-ill-effects-of-the-heat-wave"
+   }
+  ]
+ },
+ {
+  "id": "u-mht-care",
+  "where": "Cities: heat-safe homes; continuity of care",
+  "text": "Mahila Housing Trust's 2024 study in an Ahmedabad informal settlement attributes almost 75% of women's heat-related productivity losses to unpaid labour, including care for others made ill by heat.",
+  "sources": [
+   {
+    "label": "Mahila Housing Trust: Hot Take: Cool Roof Research Study Report 2024, 2024",
+    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf"
+   }
+  ]
+ },
+ {
+  "id": "u-ncdc-preg-check",
+  "where": "Cities: continuity of care",
+  "text": "NCDC's guidance for health professionals and community health workers lists checks for a pregnant woman exposed to heat, including temperature, blood pressure, hydration and fetal heart rate.",
+  "sources": [
+   {
+    "label": "National Centre for Disease Control (MoHFW): Heat and Pregnancy, 2025",
+    "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat25.pdf"
+   }
+  ]
+ }
+]

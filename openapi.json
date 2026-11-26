@@ -1065,21 +1065,8 @@
                   ]
                 },
                 "example": {
-                  "updated": "2026-11-25T21:51:30.259Z",
-                  "keepDays": 14,
-                  "sources": [
-                    {
-                      "name": "regional news outlets",
-                      "ok": true,
-                      "found": 502
-                    },
-                    {
-                      "name": "GDELT Project",
-                      "ok": false,
-                      "found": 0,
-                      "error": "GDELT replied: Your query was too short or too long. "
-                    }
-                  ]
+                  "updated": "2026-11-26T08:38:15.026Z",
+                  "keepDays": 14
                 }
               }
             }

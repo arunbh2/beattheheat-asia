@@ -10,8 +10,9 @@ const SLUG = "el-nino-and-cities";
 const TITLE = "El Niño and India's smaller cities: preparing for summer 2027";
 const SHORT = "El Niño and India's smaller cities";
 const DESC = "A practical guide for municipal teams and community organisations in India's Tier 2 and Tier 3 cities. Choose where people already have to be in the hottest hours (a school, a market, a clinic or a waiting space), agree who will keep protection working, and decide what changes when a local warning arrives.";
-const REVIEWED = "18 November 2026";
-const NEXT_REVIEW = "after NOAA's next ENSO discussion (due 10 December 2026), and again when IMD issues its outlook for the March to May hot season";
+const EO0 = require("./enso-outlook.js"), O0 = EO0.load().O;
+const REVIEWED = EO0.date(O0.checked);
+const NEXT_REVIEW = `after NOAA's next ENSO discussion (due ${EO0.date(O0.status.next)}), and again when IMD issues its outlook for the March to May hot season`;
 
 // the opening: what a seasonal outlook is for, then the one decision, then a short illustration
 const OPENING = {
@@ -83,11 +84,11 @@ const OUTLOOK = (() => {
   return {
     asOf: EO.date(O.checked),
     items: [
-      { who: S.issuer, kind: "Forecast", issued: EO.date(S.issued), period: "through January to March 2027", where: "Tropical Pacific Ocean",
+      { who: S.issuer, kind: "Forecast", issued: EO.date(S.issued), period: `through ${S.forecast_period}`, where: "Tropical Pacific Ocean",
         says: `${S.label} in effect. ${S.forecast}`, means: `A forecast for the Pacific Ocean, not for an Indian city. Next issue: ${EO.date(S.next)}.`,
         claims: [], latest: ["noaa-latest", "NOAA's latest ENSO discussion"] },
       { who: G.issuer, kind: "Forecast", issued: EO.date(G.issued), period: G.period, where: "Tropical Pacific Ocean",
-        says: `${G.says} WMO's quarterly El Niño Update of ${EO.date(W.issued)} gave a nearly 100% likelihood that El Niño persists through February 2027.`,
+        says: `${G.says} WMO's latest quarterly El Niño Update, of ${EO.date(W.issued)}, gave a nearly 100% likelihood that El Niño persists through February 2027.`,
         means: "Strength in the Pacific does not decide how severe impacts are in any one country.",
         claims: ["c-wmo"], latest: ["wmo-oct", "WMO's latest seasonal update"] },
       { who: "India Meteorological Department", kind: "Observed", issued: "1 October 2026", period: "June to September 2026", where: "India as a whole",
@@ -95,6 +96,7 @@ const OUTLOOK = (() => {
         means: "A national total. It does not show how much water your city's own supply holds.",
         claims: ["c-imd-season"], latest: ["imd-dw", "IMD's district warnings"] }
     ],
+    horizon: `"Summer 2027" in this guide's title is a planning horizon, not a forecast. ${EO.facts().phase} A hot season can be dangerous with or without El Niño, so what follows is preparation that pays off in either case.`,
     none: "IMD releases its seasonal outlook for the hot season between March and May. Until it is out, use your district's warnings, and read the outlook for your own region when it is issued.",
     noneClaims: ["c-imd-outlooks"]
   };
@@ -177,16 +179,80 @@ const ROUTE = {
 
 // three decision windows, read against the city's own season
 const WINDOWS = [
-  { id: "before", when: "Before the locally expected heat season",
-    what: "Select the service and sites, confirm permissions and operators, agree costs, put the measures in place and test them. Work backwards from when heat usually arrives in your city, how long procurement takes, and official guidance.",
+  { id: "before", when: "Months ahead",
+    what: "Select the service and sites, confirm permissions, budgets and recurring costs, procure what has to be bought, and sign service agreements with whoever will operate and repair. Work backwards from when heat usually arrives in your city and how long procurement takes. The seasonal El Niño outlook is a reason to start early; it is not the trigger.",
     who: "The body that manages each site (municipal body, education authority or school management, market committee, health department or transport authority), the operator and the local organisation.", claims: [] },
-  { id: "warning", when: "When an official local warning is issued",
-    what: "The core protection is already working. Agree in advance who receives the warning and what is added under the applicable plan: an operator extends water hours, brings a refill forward, or moves a clinic queue indoors.",
+  { id: "weeks", when: "Weeks ahead",
+    what: "Check that each measure works: water flows, shade is up, keys are with the right person, staff know their hours. Read the national seasonal and extended-range outlooks for your region, and confirm who receives the official warning.",
+    who: "Each site's operator, with the local organisation checking from the user's side.", claims: [] },
+  { id: "warning", when: "Days ahead: an official local warning",
+    what: "The core protection is already working. Agree in advance who receives the warning and what is added under the applicable plan: an operator extends water hours, brings a refill forward, moves a clinic queue indoors or shifts a school timetable.",
     who: "IMD issues district warnings; departments act under the state and district heat plans.", claims: ["c-imd-centres"] },
-  { id: "after", when: "During and just after the event",
-    what: "Check that each site works at the hours people rely on it, fix failures, and record who was left without access. After heavy rain, check covers and drains before reopening.",
-    who: "Each site's operator and the named repair officer, with the local organisation reporting what users see.", claims: [] }
+  { id: "during", when: "During an event",
+    what: "Keep each service running at the hours people rely on it: refill water, staff the site, keep cooling and care open during power cuts. Check on people who cannot come to a site.",
+    who: "Each site's operator and the named repair officer, with the local organisation reporting what users see.", claims: [] },
+  { id: "after", when: "Afterwards",
+    what: "Review who could not get water, shade, cooling or care, which measures failed and how fast they were fixed, and what it cost. After heavy rain, check covers and drains before reopening. Change next season's arrangements using what happened.",
+    who: "The municipal body with operators and the local organisation; workers and residents say what did not work.", claims: [] }
 ];
+// four protections that keep working: each answers the same nine questions, so a team can see where an arrangement has a gap.
+// Facts carry their claims; the rest is Common Shade's planning guidance, labelled so, with roles to confirm locally.
+const PROTECT_Q = [["who", "Who is exposed"], ["where", "Where they spend the hottest hours"], ["before", "What can be ready before the season"], ["activates", "What activates more action"],
+  ["authorises", "Who authorises it"], ["operates", "Who operates it"], ["pays", "Who pays the recurring costs"], ["voice", "How workers and communities shape it"], ["check", "How to check it is usable"]];
+const PROTECT = {
+  intro: "Four protections decide much of the harm in a hot season. For each, the same nine questions show whether an arrangement can keep working. The answers below are prompts for a local agreement, not national rules; confirm each role with the body that holds the mandate.",
+  question: "What has to be working before the hot season, and who keeps it working?",
+  items: [
+    { id: "work", t: "Workplace protection without income loss",
+      who: "Outdoor and semi-outdoor workers paid by the day or the piece: construction, loading, vending, sanitation, delivery. They lose money if they stop.",
+      where: "Worksites, labour chowks where day workers wait for hire, markets and delivery routes, from late morning to late afternoon.",
+      before: "Water and shade at worksites and labour chowks; agreed shifted hours for the heaviest work; rest breaks that do not cut pay; someone on each site who knows the signs of heat illness and who to call.",
+      activates: "The official district heat warning under the state or district heat plan. The seasonal El Niño outlook sets the timetable for preparation, not the day-to-day trigger.",
+      authorises: "The labour department and the district administration, under the heat plan; each employer or contractor on its own site. In April 2026 the Government issued a nationwide heatwave advisory to safeguard workers, as reported by All India Radio; whether it binds an employer depends on the directions each state issues.",
+      operates: "Employers and contractors on their sites; the municipal body at labour chowks and public worksites.",
+      pays: "The employer for its own workforce. For own-account and informal workers there is no employer to pay: options include a municipal or state budget line and welfare or insurance schemes that replace lost earnings, which need an agreed payer before the season.",
+      voice: "Unions, workers' associations and vendors' committees agree the hours, breaks and water points with employers and the municipality, and report when they fail.",
+      check: "Is there water at the site at 2 p.m.? Did anyone lose a day's pay for resting? Count breaks actually taken and complaints received, not posters put up.",
+      claims: ["u-air"], links: [["/actions/#heatrules", "Heat-safe work"], ["/paying-when-heat-strikes/", "Paying when heat strikes"]] },
+    { id: "home", t: "Heat-safe homes, including homes used for paid work",
+      who: "Households under tin or asbestos roofs in informal settlements; women who do paid work at home (stitching, food processing, piece-rate work); older people and people who are ill.",
+      where: "Inside the home, often a single room or a top floor that stays hot into the night; for a home-based worker, the home is also the workplace.",
+      before: "Roof coatings or shading, ventilation and water storage; a list, made with residents, of households that cannot cool their homes; agreed check-in visits for people living alone.",
+      activates: "The district warning starts check-in visits and longer water-supply hours in the settlement.",
+      authorises: "The municipal body or housing department for work on roofs and settlement services, with the consent of owners and tenants.",
+      operates: "Community organisations and municipal staff; local fabricators and painters.",
+      pays: "A coating or shade is a one-off cost; repainting, repairs and water supply recur. Agree who pays them, or the protection fades after one season.",
+      voice: "Residents choose which measures suit their homes; women who work at home say which hours and rooms they need to keep working.",
+      check: "Indoor temperatures in a sample of homes before and after; whether coatings still reflect after a season; whether home-based workers kept their working hours.",
+      evidence: "Mahila Housing Trust's 2024 study in an Ahmedabad informal settlement attributes almost 75% of women's heat-related productivity losses to unpaid labour, including care for others made ill by heat. NIUA notes that informal settlements face higher exposure to heat, flooding and water scarcity.",
+      claims: ["u-mht", "u-mht-care", "c-niua-m1-eq"], links: [["/cooling-options/", "Cooling options"], ["/actions/#coolhousing", "Cool, affordable housing"]] },
+    { id: "care", t: "Continuity of care, including childcare and maternal services",
+      who: "Pregnant women and newborns, young children, older people and anyone who depends on regular care; and the carers, usually women, who lose earnings when care moves home.",
+      where: "Clinic queues and waiting areas, labour rooms, anganwadi and childcare centres, and homes.",
+      before: "Shaded, ventilated waiting space and drinking water at clinics; heat checks during antenatal visits; referral routes agreed for warning signs; a plan for childcare when schools or centres change hours.",
+      activates: "The district warning brings extended or shifted clinic hours, queues moved indoors and calls to people at highest risk.",
+      authorises: "The district health department, under the state health department's guidance; the department that runs anganwadi and childcare centres.",
+      operates: "Clinic staff, community health workers and anganwadi workers.",
+      pays: "Health department budgets for clinic measures; staff time, water and cooling recur and need a line in the annual budget.",
+      voice: "Women and carers say which hours and places they can actually reach; community health workers report gaps.",
+      check: "Waiting times in the heat; whether pregnant women received heat checks; appointments missed on hot days; families left without childcare.",
+      evidence: "NCDC's advisory for summer 2026 asked state health departments to report heatstroke cases and deaths daily from 1 March 2026 and to consider public cooling and drinking water facilities. NCDC's guidance on heat and pregnancy notes higher risks for pregnant women and the fetus, and lists checks such as temperature, blood pressure, hydration and fetal heart rate, with timely referral.",
+      claims: ["c-ncdc", "u-ncdc-preg", "u-ncdc-preg-check", "u-mht-care"], links: [["/actions/#maternalheat", "Heat-safe pregnancy and newborn care"], ["/actions/#readyclinics", "Heat-ready health services"]] },
+    { id: "school", t: "School-based protection and appropriately governed respite",
+      who: "Pupils, especially at assembly and in the midday meal queue; teachers and cooks; parents waiting at the gate.",
+      where: "Classrooms under tin roofs, open assembly grounds, the midday meal queue and school transport.",
+      before: "Shade and drinking water at assembly and meal points; timetable options agreed in advance; first aid and a named person for heat illness. If a school is also to offer respite to the public, decide it explicitly beforehand.",
+      activates: "The district warning, through an instruction from the education authority, shifts the timetable or moves activities indoors.",
+      authorises: "The education authority and school management committee. A school does not automatically become a public shelter: respite for the public needs written permission from the education authority, agreed with the district administration.",
+      operates: "The head teacher and staff during school hours; for public respite outside school hours, a named operator who is not the teaching staff by default.",
+      pays: "The education budget for school measures; respite operations (staffing, cleaning, water, toilets) need their own budget line.",
+      voice: "Parents and pupils, through the school management committee, and neighbours if the school will open to them.",
+      check: "Water available at lunchtime; pupils taken ill; whether a timetable change reached families in time. For respite: whether it opened when needed, who used it, and whether children stayed safe.",
+      respite: "Before a school offers respite to the public, settle: permission and liability; safeguarding, with children and adults from outside kept apart; drinking water and toilets for the extra numbers; staff or volunteers on duty and their hours; access for people with disabilities; and what happens if the site floods or loses power. NDMA's guidelines for cooling centres cover site selection in high-risk areas, retrofitting, and operations and maintenance.",
+      evidence: "The Ministry of Education has issued guidelines on precautions schools take against heat waves (as published on Vikaspedia).",
+      claims: ["u-moe-title", "c-ndma-cc"], links: [["#school", "Worked example: a school at lunchtime"], ["/actions/#keepinschool", "Keep children in school"]] }
+  ]
+};
 const CONTINUITY = "Before opening a site, check how people will get drinking water during a power cut. If the supply depends on a pump, agree who can release stored water or order a refill, how long it will take, and where people can go in the meantime. If a site floods, the agreed alternative site takes over. Clinical care follows official guidance such as NCDC's.";
 
 // the worked example: a market at 2 p.m. (illustrative design), with a clinic queue as a short alternative
@@ -316,25 +382,27 @@ const promo = (esc, id, tag = "h2") => `<aside class="cs-card en-promo" aria-lab
   <p><a class="btn btn--cta" href="/${SLUG}/">${esc(PROMO.button)} <span aria-hidden="true">→</span></a></p></aside>`;
 const promoMd = () => `**${PROMO.label}: ${PROMO.title}.** ${PROMO.text} ${PROMO.button}: /${SLUG}/`;
 
-module.exports = { PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NEXT_REVIEW, OPENING, SETTINGS, SCHOOL, SETTINGS_MORE, OUTLOOK, SIGNAL, ADAPT, RISKS, SCENARIOS, ROUTE, WINDOWS, CONTINUITY,
+module.exports = { PROTECT, PROTECT_Q, PROMO, promo, promoMd, SLUG, TITLE, SHORT, DESC, REVIEWED, NEXT_REVIEW, OPENING, SETTINGS, SCHOOL, SETTINGS_MORE, OUTLOOK, SIGNAL, ADAPT, RISKS, SCENARIOS, ROUTE, WINDOWS, CONTINUITY,
   MARKET, REACH, WORKSHEET, worksheetLines, EXAMPLES, LARGE, EXAMPLES_NOTE, CLOSE, PRINT, GLANCE,
   // every claim the page uses, so the build can refuse an unconfirmed one
   claimsUsed() { return [...new Set([...OUTLOOK.items.flatMap(i => i.claims), ...OUTLOOK.noneClaims, ...SIGNAL.can.claims, ...ADAPT.rows.flatMap(r => r.claims || []),
     ...RISKS.flatMap(r => r.claims), ...SCENARIOS.flatMap(s => s.claims), ...ROUTE.claims, ...ROUTE.healthClaims, ...WINDOWS.flatMap(w => w.claims),
-    ...REACH.claims, ...SETTINGS.claims, ...SCHOOL.claims, ...EXAMPLES.flatMap(e => e.claims), ...LARGE.claims])]; },
+    ...REACH.claims, ...SETTINGS.claims, ...SCHOOL.claims, ...EXAMPLES.flatMap(e => e.claims), ...LARGE.claims, ...PROTECT.items.flatMap(x => x.claims)])]; },
   // the same guide as Markdown, for llms-full.txt
   md(SITE, SRC) {
     const s = k => SRC[k] ? ` (${SRC[k].publisher}: ${SRC[k].url})` : "";
     return [`## ${TITLE}`, `${SITE}/${SLUG}/`, DESC,
       OPENING.text, `The first decision: ${OPENING.decision} ${OPENING.decisionNote}`,
       "### Where people already have to be", SETTINGS.line, SETTINGS.intro, ...SETTINGS.items.map(x => `- ${x.t}: ${x.d}`), SETTINGS.choose,
-      "### Where the outlook stands", ...OUTLOOK.items.map(i => `- ${i.kind}, ${i.who}, issued ${i.issued}, ${i.period}, ${i.where}: ${i.says} ${i.means}`), OUTLOOK.none,
+      "### Where the outlook stands", OUTLOOK.horizon, ...OUTLOOK.items.map(i => `- ${i.kind}, ${i.who}, issued ${i.issued}, ${i.period}, ${i.where}: ${i.says} ${i.means}`), OUTLOOK.none,
+      "### Four protections that keep working", PROTECT.intro, `The question: ${PROTECT.question}`,
+      ...PROTECT.items.flatMap(x => [`#### ${x.t}`, ...PROTECT_Q.map(([k, q]) => `- ${q}: ${x[k]}`), ...(x.respite ? [`- Respite for the public: ${x.respite}`] : []), ...(x.evidence ? [`- Evidence: ${x.evidence}`] : [])]),
       "### What a seasonal signal can and cannot tell a city", `Can: ${SIGNAL.can.text}`, `Cannot: ${SIGNAL.cannot}`, SIGNAL.apart,
       "### Adapt this to your city", ADAPT.intro, ...ADAPT.rows.map(r => `- If ${r.if.charAt(0).toLowerCase() + r.if.slice(1)}: ${r.decide} Information you may already hold: ${r.know}`), ADAPT.close,
       "### Six linked risks", ...RISKS.map(r => `- ${r.risk} (${r.label}). Evidence and its limit: ${r.evidence} How it becomes harm: ${r.harm} What to check locally: ${r.check}`),
       ...SCENARIOS.map(x => `- ${x.label}: ${x.title}. ${x.text}`),
       "### Your warning route", ROUTE.intro, ...ROUTE.steps.map((x, i) => `${i + 1}. ${x.t}: ${x.d}${x.link ? s(x.link) : x.href ? ` (${SITE}${x.href})` : ""}`), ROUTE.health,
-      "### Before, during and after", ...WINDOWS.map(w => `- ${w.when}: ${w.what} Who decides: ${w.who}`), CONTINUITY,
+      "### By lead time: months, weeks, days, during, afterwards", ...WINDOWS.map(w => `- ${w.when}: ${w.what} Who decides: ${w.who}`), CONTINUITY,
       "### Worked example: a school at lunchtime (illustrative)", SCHOOL.scene, SCHOOL.insight,
       ...SCHOOL.steps.map(x => `- ${x.h}: ${x.text || x.roles.map(([w, r]) => `${w} ${r}`).join(" ")}`), `The question for the education team: ${SCHOOL.question}`,
       "### Markets, clinics and waiting spaces", ...SETTINGS_MORE.map(x => `- ${x.setting}. The decision: ${x.decision} Who runs it: ${x.runs} What to check: ${x.check}${x.voice ? ` ${x.voice}` : ""}`),

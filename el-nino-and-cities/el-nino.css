@@ -171,3 +171,16 @@
 }
 .en-h3 { font-size: var(--fs-18); line-height: 1.4; margin: 22px 0 6px; }
 .en-exfold { color: var(--ink); font-size: var(--fs-16); }
+
+/* the planning-horizon note and the four protections (#protections) */
+.en-horizon { padding: var(--pad-compact); background: var(--sand-50); border: 1px solid var(--line); border-radius: var(--r-sm); max-width: 72ch; }
+.en-q { font-family: Newsreader, Georgia, serif; font-size: var(--fs-18); line-height: 1.4; max-width: 60ch; }
+.en-prot { margin: var(--s-5, 24px) 0 0; padding: var(--pad-std); background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); scroll-margin-top: calc(var(--header-h, 64px) + 16px); }
+.en-prot .en-h3 { margin-top: 0; }
+.en-prot__dl { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; margin: 0; }
+.en-prot__dl > div { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.en-prot__dl dt { font-size: var(--fs-12); font-weight: 700; text-transform: uppercase; letter-spacing: var(--label-track); color: var(--grey-700); }
+.en-prot__dl dd { margin: 0; line-height: 1.55; }
+@media (min-width: 900px) { .en-prot__dl > div { grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 16px; } }
+.en-prot__respite { margin-top: 12px; }
+.en-prot__ev, .en-prot__links { margin: 12px 0 0; font-size: var(--fs-14); line-height: 1.5; }

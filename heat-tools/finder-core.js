@@ -21,7 +21,7 @@
   const TYPE_GROUPS = [["tool", "Tool"], ["dataset", "Dataset"], ["warning", "Warning service"], ["assessment", "Assessment"], ["guidance", "Guidance"], ["directory", "Directory"], ["learning", "Learning exercise"]];
   const ROLES = [["city", "City and district teams"], ["health", "Health workers and agencies"], ["employer", "Employers and workplaces"], ["ngo", "NGOs and community groups"], ["funder", "Funders"], ["designer", "Designers and engineers"], ["researcher", "Researchers"]];
   const ACCESS = [["public_read", "Free to read"], ["free_tool", "Free to use, as the provider describes it"], ["registration_for_data", "Registration needed for data"], ["unknown", "Access terms not verified"], ["freemium", "Free with paid options"], ["paid", "Paid"]];
-  const HORIZONS = [["operational", "Current warnings and observations"], ["historical", "Past conditions"], ["historical_and_future", "Past and future climates"], ["design_scenario", "Design scenarios"], ["planning", "Planning"], ["multiple", "Several horizons"]];
+  const HORIZONS = [["operational", "Current warnings and observations"], ["seasonal", "Seasonal and extended-range outlooks"], ["historical", "Past conditions"], ["historical_and_future", "Past and future climates"], ["design_scenario", "Design scenarios"], ["planning", "Planning"], ["multiple", "Several horizons"]];
   const METRICS = [["air_temperature", "Air temperature"], ["heat_index", "Heat index"], ["wbgt", "WBGT (wet-bulb globe temperature)"], ["utci", "UTCI (universal thermal climate index)"], ["mean_radiant_temperature", "Mean radiant temperature"], ["thermal_comfort", "Thermal-comfort indices"], ["composite_risk", "Composite risk index"], ["provider_defined", "Defined by the provider"], ["multiple_not_interchangeable", "Several metrics, not interchangeable"], ["energy_resource_use", "Energy and resource use (not a heat measure)"], ["not_applicable", "No heat measure (planning)"]];
   const STATUS = [["documented_listing", "Public documentation reviewed"], ["provisional_listing", "Source description found; further checks needed"], ["caution_listing", "Maintenance or coverage caution"]];
   const REVIEW = {
@@ -44,8 +44,14 @@
   const INTEGRATION = { link_out: "Link out only: nothing embedded, no API calls", api: "API", embedded: "Embedded" };
   const MAINT = { not_verified: "Maintenance not verified", provider_reports_updates_paused: "The provider reports updates are paused" };
   const LOCAL = { not_assessed: "Local validation not assessed" };
-  const DECISIONS = [["check_warnings", "Check official warnings"], ["prioritise_places", "Decide where to focus"], ["understand_future_heat", "Understand future heat"], ["analyse_exposure", "Analyse heat exposure"], ["protect_workers", "Plan worker protection"], ["design_cooling", "Design cooler places"], ["plan_response", "Build a heat response"], ["assess_finance", "Explore financial protection"], ["check_inclusion", "Check who protection misses"], ["find_resources", "Browse other directories"]];
+  const DECISIONS = [["check_warnings", "Check official warnings"], ["prepare_seasonal", "Prepare for El Niño and seasonal risk"], ["prioritise_places", "Decide where to focus"], ["understand_future_heat", "Understand future heat"], ["analyse_exposure", "Analyse heat exposure"], ["protect_workers", "Plan worker protection"], ["design_cooling", "Design cooler places"], ["plan_response", "Build a heat response"], ["assess_finance", "Explore financial protection"], ["check_inclusion", "Check who protection misses"], ["find_resources", "Browse other directories"]];
 
+  // the El Niño route: tools by decision horizon (records carry a 'seasonal' block); never a local heatwave predictor
+  const ROUTES = [["A", "ENSO monitoring", "What is happening in the Pacific?"], ["B", "Seasonal outlooks", "How might temperature and rainfall odds shift regionally?"],
+    ["C", "Extended-range and local forecasts", "What do local services need to prepare for in the coming weeks or days?"], ["D", "Official warning services", "When do locally agreed arrangements activate?"],
+    ["E", "Readiness and planning tools", "Who will act, with what resources and permissions?"]];
+  const PRODUCTS = { bulletin: "Bulletin", dashboard: "Monitoring dashboard", dataset: "Dataset", "forecast service": "Forecast service", "warning service": "Warning service", workbook: "Workbook", guidance: "Guidance" };
+  const ROUTE_NOTE = "None of these turns El Niño odds into a local heatwave forecast, and Common Shade does not build one. Pacific monitoring and seasonal outlooks give context and lead time; the official local warning sets agreed arrangements in motion.";
   // applicability groups, in the order they show; Common Shade's own pages always sit apart
   const GROUPS = [
     ["country", "Country services and assessments", "Named coverage of one country. Coverage is not local validation."],
@@ -205,6 +211,6 @@
       <p class="ht-group__note">${esc(g.note)}</p><div class="ht-cards">${g.items.map(r => card(r, o)).join("")}</div></section>`).join("");
   }
 
-  return { esc, badge, card, groupsHTML, COUNTRIES, COUNTRY, TYPE, TYPE_GROUPS, ROLES, ACCESS, HORIZONS, METRICS, STATUS, REVIEW, SCOPE, APPLIC, API, INTEGRATION, MAINT, LOCAL, DECISIONS, GROUPS, FACETS, ROWS,
+  return { ROUTES, PRODUCTS, ROUTE_NOTE, esc, badge, card, groupsHTML, COUNTRIES, COUNTRY, TYPE, TYPE_GROUPS, ROLES, ACCESS, HORIZONS, METRICS, STATUS, REVIEW, SCOPE, APPLIC, API, INTEGRATION, MAINT, LOCAL, DECISIONS, GROUPS, FACETS, ROWS,
     label, typeLabel, typeGroup, regLabel, licenceLabel, priceLabel, decisionLabel, coverage, groupOf, emptyState, parseState, toQuery, test, filter, chips, rows, cell, csv, safeUrl };
 }));

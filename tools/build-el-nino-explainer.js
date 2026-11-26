@@ -72,7 +72,7 @@ module.exports = function elNinoExplainer({ page, write, esc, hero, V }) {
   <section class="container enx-sec enx-first" aria-labelledby="enx-two-h">
     <div class="enx-two"><h2 class="enx-two__h" id="enx-two-h">In two minutes</h2>
       <ul>${T.SUMMARY.map(x => `<li>${e(x)}</li>`).join("")}</ul>
-      <p class="enx-two__now"><b>Current bulletin:</b> ${e(O.status.issuer)}, issued ${e(EO.date(O.status.issued))}: ${e(O.status.label)}. ${e(O.status.forecast)} <a href="#outlook">How to read it</a></p>
+      <p class="enx-two__now"><b>Current bulletin</b> (${e(O.status.issuer)}, issued ${e(EO.date(O.status.issued))}): ${e(EO.facts().status)} <a href="#outlook">How to read it</a></p>
       ${cite(T.SUMMARY_CLAIMS)}</div>
     <nav class="enx-toc" aria-label="On this page"><ol>${T.TOC.map(([id, t], i) => `<li><a href="#${id}"><span aria-hidden="true">${String(i + 1).padStart(2, "0")}</span>${e(t)}</a></li>`).join("")}</ol></nav>
     <p class="enx-print"><a class="btn btn--sm" href="/print/el-nino-briefing/">Printable briefing (A4)</a></p>
@@ -135,7 +135,7 @@ module.exports = function elNinoExplainer({ page, write, esc, hero, V }) {
     <h3 class="enx-h3">Uncertainty, and long-term warming</h3>${T.UNCERTAINTY.p.map(p => `<p>${e(p)}</p>`).join("")}${cite(T.UNCERTAINTY.claims)}
     <h3 class="enx-h3">When bulletins seem to disagree</h3><p>${e(T.DISAGREE)}</p>
     ${EO.table(e)}
-    <p class="enx-small">The El Niño watch on <a href="/signals/#el-nino-watch">Signals</a> shows the same bulletin.</p>
+    <p class="enx-small">The El Niño watch on <a href="/signals/#el-nino-watch">Signals</a> shows the same bulletin. NOAA's own page for the current discussion is <a href="${e(O.status.url)}" target="_blank" rel="noopener">its ENSO Diagnostic Discussion<span class="visually-hidden"> (opens in a new tab)</span></a>, and this one stays available as <a href="${e(O.status.archive.url)}" target="_blank" rel="noopener">its archived copy<span class="visually-hidden"> (opens in a new tab)</span></a>.</p>
   </section>
 
   <section class="container enx-sec" id="prepare" aria-labelledby="enx-prep-h">${kicker("07", "Preparation")}
@@ -149,6 +149,10 @@ module.exports = function elNinoExplainer({ page, write, esc, hero, V }) {
     ${T.ROLES.map(r => `<section class="enx-role" data-role="${r.id}" aria-labelledby="enx-role-${r.id}"><h4 id="enx-role-${r.id}">${e(r.label)}</h4><ul class="enx-check">${r.items.map(x => `<li>${e(x)}</li>`).join("")}</ul>
       <p class="enx-small">On Common Shade: ${r.links.map(([u, t]) => `<a href="${e(u)}">${e(t)}</a>`).join(" · ")}</p></section>`).join("")}
     <p class="enx-small">Check your own service: ${T.ROLE_SERVICES.map(([n, u]) => ext(u, n)).join(" · ")}. The list organises guidance; it does not calculate any local risk.</p>
+    <nav class="enx-next" aria-label="Next steps"><p class="enx-next__h">Next steps</p><ol>
+      <li><a href="/el-nino-and-cities/">Prepare a city</a>: what has to be working before the hot season, and who keeps it working (India's smaller cities).</li>
+      <li><a href="/heat-tools/#el-nino">Choose the tools</a>: from Pacific monitoring to the official local warning, by decision horizon.</li>
+      <li><a href="/print/el-nino-briefing/">Print or share the briefing</a>: one A4 page with the current bulletin and its date.</li></ol></nav>
   </section>
 
   <section class="container enx-sec" id="faq" aria-labelledby="enx-faq-h">${kicker("08", "Questions")}

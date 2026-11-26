@@ -1,7 +1,7 @@
 ---
 title: "Corrections"
 url: https://beattheheat.asia/corrections/
-updated: 2026-11-16
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -34,6 +34,14 @@ The page changes, the change is listed below, and older figures are kept as supe
 [Suggest a correction](https://beattheheat.asia/join/#join-form)
 
 ## What we have corrected
+
+- 26 November 2026 · Signals: El Niño set to bring more heat into 2027, Watch Common Shade grow
+
+**What was wrong.** The El Niño record said, without qualification, that El Niño was expected to be the strongest on record by December and that WHO had, for the first time, classified its anticipated health impacts as a health emergency. Both phrases are WMO's, from its State of the Climate release.
+
+**What changed.** The record now attributes both to WMO and qualifies them. The first is a forecast: NOAA's November discussion put the chance of a historic event at about 60%. On the second, WHO's own plan describes a Grade 3 response, its internal grading of its operational response, and no declaration of a public health emergency under the International Health Regulations was found. The growth entry that repeated the phrase was reworded the same way.
+
+We are sorry. A forecast possibility read as a settled record, and another agency's description of WHO's response read as WHO's own declaration.
 
 - 16 November 2026 · Privacy and terms
 

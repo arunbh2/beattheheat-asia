@@ -192,7 +192,7 @@
     {
       "url": "https://beattheheat.asia/corrections/",
       "markdown": "https://beattheheat.asia/corrections/index.md",
-      "updated": "2026-11-16"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/cotton-and-heat/",
@@ -242,12 +242,12 @@
     {
       "url": "https://beattheheat.asia/el-nino-and-cities/",
       "markdown": "https://beattheheat.asia/el-nino-and-cities/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/el-nino/",
       "markdown": "https://beattheheat.asia/el-nino/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/evidence-map/",
@@ -352,11 +352,26 @@
     {
       "url": "https://beattheheat.asia/heat-tools/",
       "markdown": "https://beattheheat.asia/heat-tools/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-26"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/asmc_enso/",
+      "markdown": "https://beattheheat.asia/heat-tools/asmc_enso/index.md",
+      "updated": "2026-11-26"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/asmc_so/",
+      "markdown": "https://beattheheat.asia/heat-tools/asmc_so/index.md",
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/bmd/",
       "markdown": "https://beattheheat.asia/heat-tools/bmd/index.md",
+      "updated": "2026-11-26"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/bom_enso/",
+      "markdown": "https://beattheheat.asia/heat-tools/bom_enso/index.md",
       "updated": "2026-10-01"
     },
     {
@@ -385,6 +400,11 @@
       "updated": "2026-10-01"
     },
     {
+      "url": "https://beattheheat.asia/heat-tools/cs_enso_worksheet/",
+      "markdown": "https://beattheheat.asia/heat-tools/cs_enso_worksheet/index.md",
+      "updated": "2026-11-26"
+    },
+    {
       "url": "https://beattheheat.asia/heat-tools/cs_finance/",
       "markdown": "https://beattheheat.asia/heat-tools/cs_finance/index.md",
       "updated": "2026-10-01"
@@ -397,12 +417,12 @@
     {
       "url": "https://beattheheat.asia/heat-tools/cs_plan/",
       "markdown": "https://beattheheat.asia/heat-tools/cs_plan/index.md",
-      "updated": "2026-10-01"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/dhm/",
       "markdown": "https://beattheheat.asia/heat-tools/dhm/index.md",
-      "updated": "2026-10-01"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/edge/",
@@ -422,6 +442,16 @@
     {
       "url": "https://beattheheat.asia/heat-tools/imd/",
       "markdown": "https://beattheheat.asia/heat-tools/imd/index.md",
+      "updated": "2026-11-26"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/imd_enso/",
+      "markdown": "https://beattheheat.asia/heat-tools/imd_enso/index.md",
+      "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/imd_erf/",
+      "markdown": "https://beattheheat.asia/heat-tools/imd_erf/index.md",
       "updated": "2026-10-01"
     },
     {
@@ -430,9 +460,14 @@
       "updated": "2026-10-01"
     },
     {
+      "url": "https://beattheheat.asia/heat-tools/noaa_enso/",
+      "markdown": "https://beattheheat.asia/heat-tools/noaa_enso/index.md",
+      "updated": "2026-10-01"
+    },
+    {
       "url": "https://beattheheat.asia/heat-tools/sg/",
       "markdown": "https://beattheheat.asia/heat-tools/sg/index.md",
-      "updated": "2026-10-01"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/solweig/",
@@ -447,11 +482,16 @@
     {
       "url": "https://beattheheat.asia/heat-tools/who_hhap/",
       "markdown": "https://beattheheat.asia/heat-tools/who_hhap/index.md",
-      "updated": "2026-10-01"
+      "updated": "2026-11-26"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/who_work/",
       "markdown": "https://beattheheat.asia/heat-tools/who_work/index.md",
+      "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/wmo_gscu/",
+      "markdown": "https://beattheheat.asia/heat-tools/wmo_gscu/index.md",
       "updated": "2026-10-01"
     },
     {

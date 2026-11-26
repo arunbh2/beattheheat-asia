@@ -24,7 +24,7 @@
   "changed": "2026-11-20"
  },
  "/actions/": {
-  "hash": "27fbd4419992cbc0",
+  "hash": "e0ee4e47fa746a82",
   "changed": "2026-11-26"
  },
  "/approach/": {
@@ -152,8 +152,8 @@
   "changed": "2026-11-21"
  },
  "/corrections/": {
-  "hash": "74f87966858d838f",
-  "changed": "2026-11-16"
+  "hash": "d65cc0c273912c1c",
+  "changed": "2026-11-26"
  },
  "/cotton-and-heat/": {
   "hash": "750fa5d42b332098",
@@ -192,12 +192,12 @@
   "changed": "2026-11-26"
  },
  "/el-nino-and-cities/": {
-  "hash": "ab87fe4cc55e7a5b",
-  "changed": "2026-11-19"
+  "hash": "5ad221fddcac42cd",
+  "changed": "2026-11-26"
  },
  "/el-nino/": {
-  "hash": "75d9063f84f3661d",
-  "changed": "2026-11-19"
+  "hash": "6e13ed4a95198eb4",
+  "changed": "2026-11-26"
  },
  "/evidence-map/": {
   "hash": "414069663018d1f7",
@@ -220,7 +220,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "27f729c03f6ec6c5",
+  "hash": "f7e14266dfe116ac",
   "changed": "2026-11-26"
  },
  "/fund/": {
@@ -232,7 +232,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "108ae8efbad24782",
+  "hash": "efd328177681fc22",
   "changed": "2026-11-26"
  },
  "/guide/": {
@@ -240,7 +240,7 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "d9c9166a82652e24",
+  "hash": "0858f2a668753efa",
   "changed": "2026-11-26"
  },
  "/heat-economy/": {
@@ -276,15 +276,27 @@
   "changed": "2026-11-21"
  },
  "/heat-network/": {
-  "hash": "dfac728e61d94b31",
+  "hash": "d6f78f73dd098ecf",
   "changed": "2026-11-26"
  },
  "/heat-tools/": {
-  "hash": "729946b6d7201a44",
-  "changed": "2026-11-19"
+  "hash": "7ea4ffc50b0fc53c",
+  "changed": "2026-11-26"
+ },
+ "/heat-tools/asmc_enso/": {
+  "hash": "b943b753b0db2074",
+  "changed": "2026-11-26"
+ },
+ "/heat-tools/asmc_so/": {
+  "hash": "d06baf9a2ddd4c94",
+  "changed": "2026-11-26"
  },
  "/heat-tools/bmd/": {
-  "hash": "21db7d1f60659ee9",
+  "hash": "c68a37a836632ce4",
+  "changed": "2026-11-26"
+ },
+ "/heat-tools/bom_enso/": {
+  "hash": "7569c7fb354e7570",
   "changed": "2026-10-01"
  },
  "/heat-tools/cbe/": {
@@ -307,6 +319,10 @@
   "hash": "ea02ee431a18510c",
   "changed": "2026-10-01"
  },
+ "/heat-tools/cs_enso_worksheet/": {
+  "hash": "ce71ce16cd31db22",
+  "changed": "2026-11-26"
+ },
  "/heat-tools/cs_finance/": {
   "hash": "c9619800f2f60d48",
   "changed": "2026-10-01"
@@ -316,12 +332,12 @@
   "changed": "2026-10-01"
  },
  "/heat-tools/cs_plan/": {
-  "hash": "e599c525b4505f38",
-  "changed": "2026-10-01"
+  "hash": "f9cf0de6d559a7f7",
+  "changed": "2026-11-26"
  },
  "/heat-tools/dhm/": {
-  "hash": "01fd96a306f444a2",
-  "changed": "2026-10-01"
+  "hash": "09859bf44c7f5f43",
+  "changed": "2026-11-26"
  },
  "/heat-tools/edge/": {
   "hash": "69f4dbcf0e36abae",
@@ -336,16 +352,28 @@
   "changed": "2026-10-01"
  },
  "/heat-tools/imd/": {
-  "hash": "ebdf68ab6e00fb01",
+  "hash": "62b829a131994446",
+  "changed": "2026-11-26"
+ },
+ "/heat-tools/imd_enso/": {
+  "hash": "840ac1844aedfc7a",
+  "changed": "2026-10-01"
+ },
+ "/heat-tools/imd_erf/": {
+  "hash": "61519e5a9cb53e5b",
   "changed": "2026-10-01"
  },
  "/heat-tools/niosh/": {
   "hash": "b513fd4643bda32e",
   "changed": "2026-10-01"
  },
- "/heat-tools/sg/": {
-  "hash": "059925cf0d44ad18",
+ "/heat-tools/noaa_enso/": {
+  "hash": "9b4ea35c52d9f23f",
   "changed": "2026-10-01"
+ },
+ "/heat-tools/sg/": {
+  "hash": "b627333cd8485a64",
+  "changed": "2026-11-26"
  },
  "/heat-tools/solweig/": {
   "hash": "1be8edd92ae3cef8",
@@ -356,11 +384,15 @@
   "changed": "2026-10-01"
  },
  "/heat-tools/who_hhap/": {
-  "hash": "4f1f8fe3a2b80a73",
-  "changed": "2026-10-01"
+  "hash": "0f2675cf4000ac75",
+  "changed": "2026-11-26"
  },
  "/heat-tools/who_work/": {
   "hash": "01e64d6cdcff2686",
+  "changed": "2026-10-01"
+ },
+ "/heat-tools/wmo_gscu/": {
+  "hash": "5b8166a31030f820",
   "changed": "2026-10-01"
  },
  "/heat-tools/workheat/": {
@@ -392,7 +424,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "5de9b4586523e460",
+  "hash": "22f2eb21a8772f21",
   "changed": "2026-11-26"
  },
  "/loops/": {
@@ -612,7 +644,7 @@
   "changed": "2026-11-26"
  },
  "/print/el-nino-briefing/": {
-  "hash": "4acab933e6d5fe76",
+  "hash": "c57afd0fbfdccb22",
   "changed": "2026-11-26"
  },
  "/print/el-nino-worksheet/": {
@@ -660,11 +692,11 @@
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "40b8b75051b74a01",
+  "hash": "1bdade3bfde9249b",
   "changed": "2026-11-26"
  },
  "/signals/all/": {
-  "hash": "9bd30b7c0f9c8e55",
+  "hash": "224bf76562670ecb",
   "changed": "2026-11-26"
  },
  "/social-protection/": {
@@ -676,7 +708,7 @@
   "changed": "2026-11-16"
  },
  "/sources/": {
-  "hash": "7b6602692136e5cf",
+  "hash": "ce7712ac1ef99778",
   "changed": "2026-11-26"
  },
  "/the-web/": {

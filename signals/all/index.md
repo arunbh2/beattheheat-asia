@@ -249,16 +249,22 @@ Finding[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 
 
 World Meteorological Organization Global
 
-By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027. WMO calls it a risk multiplier for health, and reports that WHO has, for the first time, classified the anticipated health impacts as a health emergency.
+By mid-August 2026 El Niño had become firmly established. WMO's State of the Climate release says it has been intensifying since August and is expected to be the strongest on record by December. That is a forecast, not an observed record: NOAA's discussion of 12 November 2026 put the chance of a historic event (a three-month RONI of +2.5 °C or more) at about 60% for October to December 2026 and for November 2026 to January 2027. WMO calls El Niño a risk multiplier for health and writes that WHO has, for the first time, classified the anticipated health impacts as a health emergency. WHO's own plan describes a Grade 3 response, its internal grading of its operational response; no declaration of a public health emergency under the International Health Regulations was found.
 
 What to watchEarly warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016.
 
 Sources and review
 
-- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 17 November 2026
+- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 26 November 2026
 - [WMO: El Niño/La Niña Update, August 2026](https://wmo.int/node/38928) Originalchecked 9 November 2026
+- [NOAA Climate Prediction Center, 12 November 2026: ENSO Diagnostic Discussion (archived copy)](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_nov2026/ensodisc.pdf) Originalchecked 26 November 2026
+- [WHO, 2026: Global Preparedness and Response to El Niño-Related Public Health Risks and Emergencies, Strategic Preparedness and Response Plan](https://www.who.int/publications/m/item/who-global-preparedness-and-response-to-el-nino-related-public-health-risks-and-emergencies-strategic-preparedness-and-response-plan) Originalchecked 26 November 2026
 
-ReviewRecord last reviewed 17 November 2026. Sources last checked 17 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+Corrected by Common Shade
+
+- 26 November 2026 An earlier summary said, without qualification, that El Niño was expected to be the strongest on record by December and that WHO had classified its anticipated health impacts as a health emergency. Both are WMO's words. The first is a forecast, now shown beside NOAA's estimate of a historic event; the second is now set beside WHO's own description of a Grade 3 response, an internal operational grading rather than a declaration under the International Health Regulations. [Corrections](https://beattheheat.asia/corrections/)
+
+ReviewRecord last reviewed 26 November 2026. Sources last checked 26 November 2026. Next review due 11 December 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
 Read with the [El Niño watch](https://beattheheat.asia/signals/#el-nino-watch) above, which shows the latest official bulletin, and the explainer [El Niño and heat in Asia](https://beattheheat.asia/el-nino/).
 
@@ -276,11 +282,11 @@ What to watchA finding, not a commitment: watch whether heat plans and budgets a
 
 Sources and review
 
-- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 17 November 2026
+- [WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts) Originalchecked 26 November 2026
 - [WMO: State of the Climate Update for COP31](https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31) Originalchecked 9 November 2026
 - [AFP via The Korea Times, 2026: 2026 most likely to be second-hottest year on record](https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor) Secondarychecked 9 November 2026
 
-ReviewRecord last reviewed 17 November 2026. Sources last checked 17 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+ReviewRecord last reviewed 17 November 2026. Sources last checked 26 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 
@@ -320,7 +326,7 @@ Not known yet
 
 What would change this recordSupport under the plan reaching countries in South and Southeast Asia.
 
-ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+ReviewRecord last reviewed 18 November 2026. Sources last checked 26 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
 Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
