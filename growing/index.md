@@ -5,7 +5,7 @@ updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 85 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 86 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-85 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+86 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -54,6 +54,31 @@ The Adaptation Fund decision concerns money that could pay for heat measures; no
 [See the COP31 watch](https://beattheheat.asia/signals/#cop31)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=What%20COP31%20adopted%20for%20heat%2C%20and%20what%20it%20did%20not&ref=g-cop31-closing#way-share)
+
+Tool improved · Practical measures
+
+### Every page can now be passed on through WhatsApp or LinkedIn, with its own message
+
+Added 26 November 2026 · Share this page added to every page 26 November 2026
+
+Why it matters our readingA Share this page panel near each title and at the end of each page offers a short message written for that page, which a reader can edit, then send through WhatsApp, open in LinkedIn, copy or hand to the phone's own share sheet; nothing is posted for them. Every page now previews with a capture of the systems map while keeping its own title, description and link.
+
+- South and Southeast Asia
+
+ReviewMessages checked against each page's own sections; link building, tags and the panel tested by tools/check-share.js and tools/check-share-ui.js; previews on WhatsApp and LinkedIn are checked only after publication.
+
+What it took to add this
+
+- **The question.** Can a reader pass any page to a colleague with a message that says what the page helps with, the right link and a preview that shows how heat connects?
+
+- **What is still open.** How WhatsApp and LinkedIn show the preview once the pages are live, and how long their caches keep the earlier picture.
+
+See for yourself:
+
+[Share the map](https://beattheheat.asia/)
+[El Niño and India's smaller cities](https://beattheheat.asia/el-nino-and-cities/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Every%20page%20can%20now%20be%20passed%20on%20through%20WhatsApp%20or%20LinkedIn%2C%20with%20its%20own%20message&ref=g-share-this-page#way-share)
 
 Evidence added · Evidence
 

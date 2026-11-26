@@ -1,7 +1,7 @@
 ---
 title: "Plan a response to extreme heat | Common Shade"
 url: https://beattheheat.asia/plan/
-updated: 2026-11-19
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -28,9 +28,9 @@ Plan a response
 # Turn the map
 into a plan.
 
-Six steps take you from who you are protecting to a plan you can run: actions with owners and money, the alert levels that switch them on, how warnings reach people, what could stop it, and a check against WHO’s eight core elements of a heat-health action plan.
-
 **Watch: Plan a heat response in six steps** · 0:20 · narrated, with captions
+
+Six steps take you from who you are protecting to a plan you can run: actions with owners and money, the alert levels that switch them on, how warnings reach people, what could stop it, and a check against WHO’s eight core elements of a heat-health action plan.
 
 [Start your plan ](#plan-step-1)
 For a workshop or a team meeting. Free, no sign up, and what you type stays in this browser.

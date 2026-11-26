@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Singapore: plans, cycles and who is at work
 
-A city-state with hot nights, dense towers and an early national heat stress advisory. Heat plan: heat plan in force.
-
 **Watch: Heat in Singapore, in 25 seconds** · 0:21 · narrated, with captions
+
+A city-state with hot nights, dense towers and an early national heat stress advisory. Heat plan: heat plan in force.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Singapore on the Atlas](https://beattheheat.asia/atlas/#city-singapore)**Heat type:** Humid heat, all year round. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

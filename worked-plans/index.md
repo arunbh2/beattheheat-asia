@@ -1,7 +1,7 @@
 ---
 title: "Worked heat action plans from Asia | Common Shade"
 url: https://beattheheat.asia/worked-plans/
-updated: 2026-11-19
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -29,9 +29,9 @@ Worked plans, from a city to a whole state.
 
 # Worked heat action plans from Asia
 
-How places in Asia have turned heat risk into a plan: what happened, what they decided, what changed, and who leads each action.
-
 **Watch: Heat plans that worked** · 0:21 · narrated, with captions
+
+How places in Asia have turned heat risk into a plan: what happened, what they decided, what changed, and who leads each action.
 
 [Open the interactive planner](https://beattheheat.asia/#plan)
 Looking for the documents themselves? The [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) lists 147 verified plans and guidance documents from across India, with a link to each PDF.

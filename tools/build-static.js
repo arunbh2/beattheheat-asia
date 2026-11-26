@@ -696,7 +696,7 @@ require("./build-print")().then(list => {
   {
     const urls = [], skip = /^(tools|media|node_modules|research|data|images|feeds|\.git|\.github|\.claude|\.agents)$/;
     const walk = (dir, rel) => fs.readdirSync(dir, { withFileTypes: true }).forEach(e => {
-      if (e.isDirectory()) { if (!skip.test(e.name)) walk(path.join(dir, e.name), rel + e.name + "/"); }
+      if (e.isDirectory()) { if (!(rel === "" ? skip : /^(\.|node_modules$)/).test(e.name)) walk(path.join(dir, e.name), rel + e.name + "/"); }   // the build folders are skipped at the top only, so /paths/research/ is listed
       else if (e.name === "index.html") urls.push(rel); });
     walk(ROOT, "");
     const pri = u => u === "" ? "1.0" : /^print\//.test(u) ? "0.5" : u.split("/").length <= 2 ? "0.8" : "0.7";

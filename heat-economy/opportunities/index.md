@@ -1,7 +1,7 @@
 ---
 title: "Ideas for businesses and services that protect people from heat"
 url: https://beattheheat.asia/heat-economy/opportunities/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -12,9 +12,9 @@ The heat economy · Ideas
 # Ideas for businesses and services,
 cycle by cycle.
 
-32 ideas for new businesses and services, one or more for each of the 21 vicious cycles on the map. Each says who could pay, who it helps and what needs to be in place. They are ideas to explore and test, not proven models.
-
 **Watch: Business ideas for heat** · 0:30 · narrated, captions in the picture
+
+32 ideas for new businesses and services, one or more for each of the 21 vicious cycles on the map. Each says who could pay, who it helps and what needs to be in place. They are ideas to explore and test, not proven models.
 
 **About this section.** We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, [tell us](https://beattheheat.asia/join/).
 

@@ -1,7 +1,7 @@
 ---
 title: "How to use this site | Common Shade"
 url: https://beattheheat.asia/guide/
-updated: 2026-11-15
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -12,9 +12,9 @@ How to use this site
 # Find your
 way in.
 
-Common Shade maps how extreme heat harms health, income and homes across Asia, and what can be done about it. It is large on purpose. You do not need all of it: answer two questions and follow a short path.
-
 **Watch: How to use Common Shade** · 0:37 · narrated, captions in the picture
+
+Common Shade maps how extreme heat harms health, income and homes across Asia, and what can be done about it. It is large on purpose. You do not need all of it: answer two questions and follow a short path.
 
 ## The site in four parts
 

@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Jakarta: plans, cycles and who is at work
 
-A sinking, sprawling capital in the country where half of Southeast Asia’s air conditioners could be. Heat plan: parts in place, no full plan found.
-
 **Watch: Heat in Jakarta, in 25 seconds** · 0:22 · narrated, with captions
+
+A sinking, sprawling capital in the country where half of Southeast Asia’s air conditioners could be. Heat plan: parts in place, no full plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Jakarta on the Atlas](https://beattheheat.asia/atlas/#city-jakarta)**Heat type:** Humid heat, all year round. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

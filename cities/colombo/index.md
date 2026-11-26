@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Colombo: plans, cycles and who is at work
 
-A coastal capital where humid heat meets crowded markets, harbours and fish landing sites. Heat plan: parts in place, no full plan found.
-
 **Watch: Heat in Colombo, in 25 seconds** · 0:21 · narrated, with captions
+
+A coastal capital where humid heat meets crowded markets, harbours and fish landing sites. Heat plan: parts in place, no full plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Colombo on the Atlas](https://beattheheat.asia/atlas/#city-colombo)**Heat type:** Humid heat, all year round. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

@@ -1,7 +1,7 @@
 ---
 title: "Practical actions against extreme heat, by setting | Common Shade"
 url: https://beattheheat.asia/practical-actions/
-updated: 2026-11-19
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -29,9 +29,9 @@ Water, shade, rest and cooler hours, with what each depends on.
 
 # Practical actions against extreme heat, by setting
 
-34 practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.
-
 **Watch: What you can do this season** · 0:19 · narrated, with captions
+
+34 practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.
 
 [Open the interactive practical actions](https://beattheheat.asia/practical/)
 Before summer 2027

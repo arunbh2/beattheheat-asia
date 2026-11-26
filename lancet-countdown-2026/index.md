@@ -1,7 +1,7 @@
 ---
 title: "The Lancet Countdown 2026, for extreme heat in Asia"
 url: https://beattheheat.asia/lancet-countdown-2026/
-updated: 2026-11-16
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -42,9 +42,9 @@ New evidence · October 2026
 # Ten years of health evidence on heat,
 and what to do with it.
 
-The **Lancet Countdown on health and climate change** is a yearly report by more than 300 researchers in over 100 institutions, working with the World Health Organization. Its tenth report, published in October 2026, tracks 54 measures of how climate change affects health. Here is what it says about extreme heat, read for South and Southeast Asia and organised by what you can do about it.
-
 **Watch: The Lancet Countdown 2026, in 25 seconds** · 0:23 · narrated, with captions
+
+The **Lancet Countdown on health and climate change** is a yearly report by more than 300 researchers in over 100 institutions, working with the World Health Organization. Its tenth report, published in October 2026, tracks 54 measures of how climate change affects health. Here is what it says about extreme heat, read for South and Southeast Asia and organised by what you can do about it.
 
 **About this summary.** Every number here is the report’s own, with the measure it comes from (“indicator 1.1.5”), so you can check it in the [full report](https://doi.org/10.1016/S0140-6736(26)01779-4) or its [technical appendix](https://www.thelancet.com/cms/10.1016/S0140-6736(26)01779-4/attachment/f1638b7e-8037-4f1d-a407-81e006e8bd17/mmc6.pdf). The words and the choice of what matters for heat are ours. Most figures are global; we say when they are about Asia. The report also covers energy, food, finance and politics in depth; we cover those only where they bear on heat. We do not take positions on the policies of particular countries.
 

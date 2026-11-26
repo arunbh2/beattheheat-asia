@@ -1,7 +1,7 @@
 ---
 title: "Heat in the news, and new research | Common Shade"
 url: https://beattheheat.asia/news/
-updated: 2026-11-14
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -12,9 +12,9 @@ Heat in the news, and new research
 # What is being reported,
 and studied, now.
 
-Headlines about extreme heat in South and Southeast Asia from the last two weeks, and new research with an Asian setting. Both refresh automatically from open sources.
-
 **Watch: Reading a heat headline** · 0:33 · narrated, captions in the picture
+
+Headlines about extreme heat in South and Southeast Asia from the last two weeks, and new research with an Asian setting. Both refresh automatically from open sources.
 
 [The big report this month: the Lancet Countdown 2026 on health and climate change, read for heat in Asia, with what each reader can do](https://beattheheat.asia/lancet-countdown-2026/)
 

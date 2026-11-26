@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Extreme heat in Kathmandu: plans, cycles and who is at work
 
-A valley city warming fast, below the Himalayan ice that feeds South Asia’s rivers. Heat plan: no published city heat plan found.
-
 **Watch: Heat in Kathmandu, in 25 seconds** · 0:21 · narrated, with captions
+
+A valley city warming fast, below the Himalayan ice that feeds South Asia’s rivers. Heat plan: no published city heat plan found.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 [Where this happens: Kathmandu on the Atlas](https://beattheheat.asia/atlas/#city-kathmandu)**Heat type:** Milder heat at altitude, hottest before the monsoon. [Dry heat and humid heat, explained](https://beattheheat.asia/glossary/#dryhumid).

@@ -1,7 +1,7 @@
 ---
 title: "Paying for heat protection | Common Shade"
 url: https://beattheheat.asia/finance/
-updated: 2026-11-13
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Vicious cycles of extreme heat, and where they can be broken | Common Shade"
 url: https://beattheheat.asia/loops/
-updated: 2026-11-19
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 

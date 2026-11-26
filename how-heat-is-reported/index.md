@@ -21,9 +21,9 @@ Heat in the news · a reading of the coverage
 
 # Heat’s damage is well reported. Does reporting follow protection all the way?
 
-A first reading of 71 English-language articles suggested that how protection is organised, paid for and kept going was rarely reported. A pilot that read 32 articles in full, in 10 languages, found more of it than expected. Together they point to a more precise question: does coverage follow protection from a named responsibility, through money and delivery, to results?
-
 **Watch: Follow the protection** · 0:20 · narrated, with captions
+
+A first reading of 71 English-language articles suggested that how protection is organised, paid for and kept going was rarely reported. A pilot that read 32 articles in full, in 10 languages, found more of it than expected. Together they point to a more precise question: does coverage follow protection from a named responsibility, through money and delivery, to results?
 
 For journalists, researchers, practitioners and funders: find reporting across countries and languages, see what each article contains, and follow how protection is authorised, financed, delivered and examined.
 

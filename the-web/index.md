@@ -1,7 +1,7 @@
 ---
 title: "The web of extreme heat: every consequence, system by system | Common Shade"
 url: https://beattheheat.asia/the-web/
-updated: 2026-11-18
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -17,9 +17,9 @@ Every consequence of heat and every link between them, each with its evidence.
 
 # The web of extreme heat: every consequence, system by system
 
-How extreme heat ripples through 10 systems: 90 consequences and the links between them, each with its evidence.
-
 **Watch: Heat is never one problem** · 0:18 · narrated, with captions
+
+How extreme heat ripples through 10 systems: 90 consequences and the links between them, each with its evidence.
 
 [Open the interactive map](https://beattheheat.asia/#explore)
 

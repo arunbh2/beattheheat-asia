@@ -12,9 +12,9 @@ The heat economy · Funding and support
 # Who funds protection from heat,
 how to reach them, and who is hiring.
 
-The funding landscape and how each programme can be reached, open calls and careers, and the record of funding we could trace: 77 funders and investors, 52 pieces of funding and 24 accelerators, prizes and challenges.
-
 **Watch: Money for heat protection** · 0:31 · narrated, captions in the picture
+
+The funding landscape and how each programme can be reached, open calls and careers, and the record of funding we could trace: 77 funders and investors, 52 pieces of funding and 24 accelerators, prizes and challenges.
 
 **About this section.** We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, [tell us](https://beattheheat.asia/join/).
 

@@ -1,7 +1,7 @@
 ---
 title: "Heatwaves that shaped South and Southeast Asia, 1998 to 2026 | Common Shade"
 url: https://beattheheat.asia/heatwaves/
-updated: 2026-11-16
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -9,9 +9,9 @@ licence: CC BY 4.0
 
 # Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 
-10 major heatwaves across South and Southeast Asia, from Odisha in 1998 to 2026: what happened, what it cost and what changed afterwards. Recorded deaths are a floor, not a total: many heat deaths are never counted as heat deaths. Where no solid count exists, the timeline says so.
-
 **Watch: What makes heat deadly** · 0:20 · narrated, with captions
+
+10 major heatwaves across South and Southeast Asia, from Odisha in 1998 to 2026: what happened, what it cost and what changed afterwards. Recorded deaths are a floor, not a total: many heat deaths are never counted as heat deaths. Where no solid count exists, the timeline says so.
 
 [Open the Atlas of Asia’s heat](https://beattheheat.asia/atlas/)
 
