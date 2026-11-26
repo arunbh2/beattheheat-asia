@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Surabaya: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/surabaya/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -103,7 +103,7 @@ Developments in Indonesia tracked on Signals, newest first, with the furthest st
 
 - [Support for the Southeast Asia Heat Health Hub's next stage](https://beattheheat.asia/signals/#sig-sea-heat-health-hub-2026) Funded, original checked · latest development 8 October 2026
 
-[On Signals, with the evidence](https://beattheheat.asia/signals/?place=indonesia) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=indonesia) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/surabaya/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

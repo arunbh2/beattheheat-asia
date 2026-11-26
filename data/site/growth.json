@@ -1045,6 +1045,19 @@
                   "open": "The organisations still linked to a homepage, many of them sites that turn away automated checks." },
       "pages": [["/heat-network/", "Organisations working on extreme heat"]], "action": ["Browse the network", "/heat-network/"],
       "links": []
+    },
+    {
+      "id": "g-cop31-closing", "kind": "evidence", "root": "evidence", "added": "2026-11-26", "pr": null,
+      "title": "What COP31 adopted for heat, and what it did not",
+      "why": "COP31 ended without its cover decision; separate decisions set up a task force to refine the adaptation indicators and let the Adaptation Fund receive a share of carbon-market proceeds, each recorded at the adopted step only. No figure was set for tripling adaptation finance and no negotiated decision specific to heat was found, and the watch now sits folded below the El Niño watch on Signals.",
+      "places": ["region"], "people": ["workers"], "topics": ["hap", "heatbudget"],
+      "event": { "what": "COP31 closed", "date": "2026-11-22" },
+      "review": "Seven of eight claims confirmed by the source check; the guidance date and the roadmap launch place were not found and are left out; the owner approved the rungs, the synthesis and the archive",
+      "effort": { "asked": "What did COP31 adopt that bears on heat, and what does each step not yet show?", "inbox": "data/inbox/2026-11-signals-cop31-8",
+                  "dropped": "research/2026-11/signals-cop31-8/dropped-after-check.json",
+                  "open": "The decision texts themselves, the task force's guidance date, and any proceeds the Adaptation Fund receives." },
+      "pages": [["/signals/#cop31", "COP31 watch"]], "action": ["See the COP31 watch", "/signals/#cop31"],
+      "links": [{ "to": "lever:heatbudget", "why": "The Adaptation Fund decision concerns money that could pay for heat measures; none received or spent on heat has been found yet.", "basis": "record" }]
     }
   ]
 }

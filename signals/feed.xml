@@ -5,9 +5,25 @@
   <link rel="alternate" type="text/html" href="https://beattheheat.asia/signals/"/>
   <link rel="self" type="application/atom+xml" href="https://beattheheat.asia/signals/feed.xml"/>
   <id>https://beattheheat.asia/signals/</id>
-  <updated>2026-11-16T00:00:00Z</updated>
+  <updated>2026-11-22T00:00:00Z</updated>
   <author><name>Common Shade</name><uri>https://beattheheat.asia/</uri></author>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>59 Belém Adaptation Indicators to measure progress on adaptation</title>
+    <link rel="alternate" type="text/html" href="https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025"/>
+    <id>https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <category term="commitment"/>
+    <summary>At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake. Who: Parties to the Paris Agreement (CMA 7). Where: Global (UN climate process). Latest development: 22 November 2026. Evidence states, sources and what is not known are on the record.</summary>
+  </entry>
+  <entry>
+    <title>COP31 lets the Adaptation Fund receive a share of carbon-market proceeds</title>
+    <link rel="alternate" type="text/html" href="https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026"/>
+    <id>https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <category term="commitment"/>
+    <summary>Decisions at COP31 enable the Adaptation Fund to receive a share of the proceeds of carbon trading under the Paris Agreement's crediting mechanism. The decision is adopted; no money received under it, and none spent on heat, has been found yet. Who: Parties to the Paris Agreement (CMA 8). Where: Global (UN climate process). Latest development: 22 November 2026. Evidence states, sources and what is not known are on the record.</summary>
+  </entry>
   <entry>
     <title>Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial</title>
     <link rel="alternate" type="text/html" href="https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026"/>
@@ -247,13 +263,5 @@
     <updated>2025-09-22T00:00:00Z</updated>
     <category term="commitment"/>
     <summary>Narayanganj City Corporation's heat action plan was approved on 22 September 2025 and published in 2026. It gives each short-term action a tentative cost in taka and names potential funding sources, often development partners and NGOs. Who: Narayanganj City Corporation. Where: Narayanganj, Bangladesh. Latest development: 22 September 2025. Evidence states, sources and what is not known are on the record.</summary>
-  </entry>
-  <entry>
-    <title>59 Belém Adaptation Indicators to measure progress on adaptation</title>
-    <link rel="alternate" type="text/html" href="https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025"/>
-    <id>https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025</id>
-    <updated>2025-01-01T00:00:00Z</updated>
-    <category term="commitment"/>
-    <summary>At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake. Who: Parties to the Paris Agreement (CMA 7). Where: Global (UN climate process). Latest development: 2025. Evidence states, sources and what is not known are on the record.</summary>
   </entry>
 </feed>

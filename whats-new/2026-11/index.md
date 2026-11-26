@@ -1,7 +1,7 @@
 ---
 title: "State of the field: November 2026"
 url: https://beattheheat.asia/whats-new/2026-11/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 

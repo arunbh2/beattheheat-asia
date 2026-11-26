@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Hyderabad: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/hyderabad/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -173,7 +173,7 @@ Developments in India tracked on Signals, newest first, with the furthest step e
 - [Maharashtra sets up a Centre of Excellence for heat resilience and sustainable cooling](https://beattheheat.asia/signals/#sig-maharashtra-heat-coe) Adopted, original checked · latest development 2026
 - [India's Heat Resilient Cities Framework](https://beattheheat.asia/signals/#sig-niua-heat-resilient-cities-2026) Guidance · latest development 2026
 
-[All 5 for India on Signals](https://beattheheat.asia/signals/?place=india) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[All 5 for India on Signals](https://beattheheat.asia/signals/?place=india) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/hyderabad/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

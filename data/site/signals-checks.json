@@ -462,6 +462,27 @@
     }
    }
   ],
+  "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of": [
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-cop31-8",
+    "checked": "2026-11-25",
+    "status": "OK",
+    "terms": {
+     "COP31": true,
+     "fails to agree Presidency-Led Decision": true,
+     "adaptation": true,
+     "task force": true,
+     "indicator": true
+    },
+    "passages": {
+     "COP31": "In a speech on 19 November 2026, UN Climate Change Executive Secretary, Simon Stiell, said: \"Year on year, the Action Agenda is a power station of progress, and COP31 has already supercharged real-world results.",
+     "adaptation": "Axis 6: Enablers and accelerators Around 20 countries building investor-ready climate projects through the Country Platforms Hub EUR 30 billion+ targeted by the European Investment Bank for climate adaptation (2026–2030) ~USD 376 billion in net-zero government export finance, up 58% year on year.",
+     "task force": "Adaptation COP31 advanced the operationalization of the 59 Belém Adaptation Indicators by creating a channel for countries to share experience, challenges, gaps and needs arising from voluntary country testing, and establishing a dedicated task force to improve indicator methodologies and metadata.",
+     "indicator": "Adaptation COP31 advanced the operationalization of the 59 Belém Adaptation Indicators by creating a channel for countries to share experience, challenges, gaps and needs arising from voluntary country testing, and establishing a dedicated task force to improve indicator methodologies and metadata."
+    }
+   }
+  ],
   "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga": [
    {
     "kind": "content",
@@ -635,6 +656,37 @@
     },
     "passages": {
      "El Niño": "El Niño has intensified since August and is expected to reach record strength by December."
+    }
+   }
+  ],
+  "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya": [
+   {
+    "kind": "content",
+    "batch": "2026-11-signals-cop31-8",
+    "checked": "2026-11-25",
+    "status": "OK",
+    "terms": {
+     "136": true,
+     "Antalya": true,
+     "Antalya pact": true,
+     "adaptation": true,
+     "task force": true,
+     "October 2027": false,
+     "indicators": true,
+     "120bn": true,
+     "tripl": true,
+     "Adaptation Fund": true,
+     "share of proceeds": true,
+     "carbon-market": true,
+     "carbon market": true,
+     "national adaptation plan": true,
+     "NAP": true
+    },
+    "passages": {
+     "Antalya": "Moments ago in Antalya, Turkey, COP31 president Murat Kurum outlined how an “agenda fight” has been averted, despite various proposals for additions to proceedings.",
+     "Antalya pact": "(This was later amended in the last formal draft to be the “Antalya pact”.) But, in the closing plenary, the EU told the assembled delegates: “We will not endorse a cover decision, or an Antalya pact, t…",
+     "adaptation": "These issues were mitigation, adaptation, finance, just transition and oceans.",
+     "carbon market": "(See: Cover decision.) While countries rejected the cover decision, they did find consensus on other texts, including for the just transition work programme, the global goal on adaptation, the climate finance work programme, carbon markets, long-term finance and “Article 2.1c”."
     }
    }
   ],
@@ -1140,7 +1192,7 @@
    {
     "kind": "content",
     "batch": "2026-11-funding-opps",
-    "checked": "2026-11-21",
+    "checked": "2026-11-22",
     "status": "OK",
     "terms": {
      "extreme heat": true,

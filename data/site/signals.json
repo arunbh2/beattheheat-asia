@@ -17,21 +17,22 @@
   {
    "id": "cop31",
    "label": "COP31 watch",
-   "when": "Antalya, 9 to 20 November 2026",
+   "when": "Antalya, 9 to 22 November 2026",
    "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.",
    "watching": ["Adaptation indicators","Health","Adaptation finance","Cooling","Early warnings"],
    "reading": {"label":"A reading so far, after check-in 3 (18 November)","text":"COP31's heat story is running through cooling, health and money, while we have so far found little on heat itself in the negotiating texts. The cooling roadmap and WHO's El Niño plan sit outside the negotiated decisions. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at the last check-in and when the conference closes."},
    "scope": "Heat in COP31's announcements and outcomes on adaptation, health, finance, cooling and early warnings, including launches shortly before the conference. Each item enters only after its source passes the site's check.",
-   "cutoff": "2026-11-21",
+   "cutoff": "2026-11-25",
    "checkins": [
     {"date":"2026-11-09","label":"Opening","added":["sig-cop31-2026","sig-wmo-state-of-climate-2026","sig-el-nino-2026-2027","sig-emissions-gap-2026","sig-belem-adaptation-indicators-2025"],"note":"The conference, the year's climate findings and the adaptation indicators it builds on."},
     {"date":"2026-11-13","label":"Check-in 1","added":["sig-cop31-air-2026","sig-cop31-health-theme-2026","sig-ifrc-heat-warnings-2026","sig-adaptation-gap-2026"],"note":"Health and finance: the health platform launched on Health Day, the presidency's health theme, and two calls for money and warnings."},
     {"date":"2026-11-15","label":"Check-in 2","added":["sig-cop31-antalya-compact-2026"],"note":"A buildings compact launched before the conference, added at the announced step."},
     {"date":"2026-11-18","label":"Check-in 3","added":["sig-cop31-cooling-ministerial-2026","sig-who-el-nino-response-2026"],"note":"Cooling and health: a heat resilience and cooling roadmap backed at the Cooling Ministerial, with new support announced, and WHO's El Niño response plan."},
     {"date":"2026-11-19","label":"Check-in 4","added":["sig-clinicians-heat-pregnancy-2026"],"note":"Health: a survey of maternity and newborn clinicians in five countries, India among them, presented at COP31."},
-    {"date":"2026-11-21","label":"Check-in 5 (closing, interim)","added":[],"note":"COP31 was due to end on 20 November and went into overtime, extended to Saturday 21 November, as UN and news reports show (checked). Draft texts are not outcomes and are not recorded here; the negotiated decisions will be reviewed at a closing check-in once they are published."}
+    {"date":"2026-11-21","label":"Check-in 5 (closing, interim)","added":[],"note":"COP31 was due to end on 20 November and went into overtime, extended to Saturday 21 November, as UN and news reports show (checked). Draft texts are not outcomes and are not recorded here; the negotiated decisions will be reviewed at a closing check-in once they are published."},
+    {"date":"2026-11-25","label":"Check-in 6 (closing)","added":["sig-belem-adaptation-indicators-2025","sig-cop31-adaptation-fund-2026"],"note":"COP31 closed on Sunday 22 November without its cover decision, the Antalya Pact; separate negotiated decisions were adopted (checked). They set up a task force to refine the adaptation indicators and let the Adaptation Fund receive a share of carbon-market proceeds. No figure was set for tripling adaptation finance, and the health paragraph in the draft cover decision was not agreed. No negotiated decision specific to heat was found."}
    ],
-   "synthesis": null
+   "synthesis": {"reviewed":"2026-11-26","text":"COP31 closed on 22 November without the presidency's cover decision, the Antalya Pact, though separate negotiated decisions were adopted. For heat, the clearest steps came beside the negotiations rather than in them: governments backed a voluntary roadmap on heat resilience and sustainable cooling, with new support announced for it, and a health platform was launched on Health Day. In the negotiations, parties set up a task force to refine the adaptation indicators and let the Adaptation Fund receive a share of carbon-market proceeds. No figure was set for tripling adaptation finance, and the health paragraph in the draft cover decision was not agreed. We found no negotiated decision specific to heat, and no new heat commitment by India, Bangladesh, the Philippines or Thailand in the coverage we reviewed. Each step is recorded at the rung its source shows: backed is not adopted, a decision is not money received, and announced support is not yet committed or paid. This is a reading of what the watch found."}
   },
   {
    "id": "year",
@@ -268,11 +269,13 @@
    "levers": ["hap","countdeaths"],
    "stage": "adopted",
    "history": [
-    {"date":"2025","stage":"adopted","note":"Adopted at CMA 7, under the Global Goal on Adaptation"}
+    {"date":"2025","stage":"adopted","note":"Adopted at CMA 7, under the Global Goal on Adaptation"},
+    {"date":"2026-11-22","stage":"adopted","note":"Set up by a decision at COP31 (CMA 8), adopted at the closing plenary"}
    ],
    "next": "Delivered: countries in South and Southeast Asia reporting on the indicators, including those that touch heat and health.",
    "sources": [
-    {"id":"unfccc","type":"original","label":"UNFCCC: Global Goal on Adaptation","url":"https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga"}
+    {"id":"unfccc","type":"original","label":"UNFCCC: Global Goal on Adaptation","url":"https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga"},
+    {"id":"unfccc-cop31","type":"original","label":"UNFCCC, 2026: COP31 delivers important progress across negotiations and Action Agenda, advancing implementation, but fails to agree Presidency-Led Decision","url":"https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of"}
    ],
    "where": "Global (UN climate process)",
    "relevance": {"basis":"interpreted","note":"The indicators measure adaptation in general; which of them bear on heat was not assessed."},
@@ -286,9 +289,53 @@
      ],
      "unknown": ["Which indicators bear on heat: not assessed","Reporting against them by countries in South and Southeast Asia: not verified"],
      "next": "Countries in South and Southeast Asia reporting on the indicators, including any that touch heat and health."
+    },
+    {
+     "id": "d-taskforce",
+     "what": "A task force to refine the adaptation indicators",
+     "type": "office",
+     "milestones": [
+      {"id":"m-tf-adopted","step":"adopted","date":"2026-11-22","note":"Set up by a decision at COP31 (CMA 8), adopted at the closing plenary","evidence":[{"source":"unfccc-cop31","establishes":"UNFCCC's account of COP31 names a task force on the adaptation indicators among the outcomes.","terms":["task force","indicator"]}]}
+     ],
+     "unknown": ["Who sits on the task force: not verified","When its guidance is due: reported, but not confirmed by the source check","Any change in how countries measure heat adaptation: not assessed"],
+     "next": "The task force's guidance on the indicators, published."
     }
    ],
-   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
+   "review": {"reviewed":"2026-11-26","due":"2027-02-26"}
+  },
+  {
+   "id": "sig-cop31-adaptation-fund-2026",
+   "group": "cop31",
+   "kind": "commitment",
+   "date": "2026-11-22",
+   "title": "COP31 lets the Adaptation Fund receive a share of carbon-market proceeds",
+   "summary": "Decisions at COP31 enable the Adaptation Fund to receive a share of the proceeds of carbon trading under the Paris Agreement's crediting mechanism. The decision is adopted; no money received under it, and none spent on heat, has been found yet.",
+   "who": "Parties to the Paris Agreement (CMA 8)",
+   "places": ["region"],
+   "levers": ["heatbudget","hap"],
+   "next": "Funded: the first carbon-market proceeds received by the Adaptation Fund, and how much.",
+   "sources": [
+    {"id":"carbonbrief","type":"secondary","label":"Carbon Brief, 2026: COP31: Key outcomes agreed at the UN climate talks in Antalya","url":"https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"}
+   ],
+   "where": "Global (UN climate process)",
+   "relevance": {"basis":"interpreted","note":"Adaptation finance that could pay for heat measures; the decision does not name heat."},
+   "deliverables": [
+    {
+     "id": "d-proceeds",
+     "what": "A rule letting the Adaptation Fund receive a share of carbon-market proceeds",
+     "type": "rule",
+     "milestones": [
+      {"id":"m-adopted","step":"adopted","date":"2026-11-22","note":"Agreed in decisions at COP31, adopted at the closing plenary","evidence":[{"source":"carbonbrief","establishes":"Carbon Brief's summary of COP31's outcomes reports that the Adaptation Fund can receive a share of proceeds from carbon trading.","terms":["Adaptation Fund","share of proceeds"]}]}
+     ],
+     "unknown": ["Money received under the decision: not verified","Any of it spent on heat: not verified","The decision text itself: not read; the adoption date is the closing plenary's"],
+     "next": "The first carbon-market proceeds received by the Adaptation Fund."
+    }
+   ],
+   "review": {"reviewed":"2026-11-26","due":"2027-02-26"},
+   "stage": "adopted",
+   "history": [
+    {"date":"2026-11-22","stage":"adopted","note":"Agreed in decisions at COP31, adopted at the closing plenary"}
+   ]
   },
   {
    "id": "sig-cop31-cooling-ministerial-2026",

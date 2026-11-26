@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Colombo: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/colombo/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -103,7 +103,7 @@ Plans and law, warnings, rules for heat at work, cooling, money and other cities
 
 No development in Sri Lanka is tracked on Signals yet. This describes the records kept here, not what is happening in Sri Lanka.
 
-[20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/colombo/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

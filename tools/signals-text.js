@@ -17,6 +17,7 @@ const USES = [
 ];
 const DISTINCT = "Signals follows developments outside Common Shade. Watch Common Shade grow records changes to this site; the evidence map appraises what is known; the funding pages explain financial arrangements and the money traced.";
 const NO_SYNTHESIS = "Not written yet. It will follow a review of the conference's final decisions and documents, not the closing date alone.";
+const FOLD_HINT = n => `The conference has closed. Open for the closing synthesis, the scope and the ${n} dated check-ins; every record stays in the list above.`;
 const WATCH_NOTE = "Conference activity is not implementation: an announcement at a conference enters at the announced step, and later developments are added to the same record rather than as new cards.";
 const SAVED_NOTE = "Saved records are kept only in this browser (localStorage key cs-signals-saved): no account, nothing sent anywhere.";
 const MOVED_NOTE = n => `Steps dated in the last ${n} days, newest first: when each happened, not when Common Shade added it. Each links to its record, with the evidence behind it.`;
@@ -99,4 +100,4 @@ function record(s, C, today) {
   out.push(`  Sources: ${s.sources.map(x => `${x.label} (${x.type}) ${x.url}`).join("; ")}`);
   return out.join("\n");
 }
-module.exports = { NEXT_STEP, MADE_BY, COV_H, COV_NOTE, COV_SEARCHED, COV_NOT_YET, COV_REGION, PROOF, PATH, OLDER, MOVED_NOTE, MOVED_NONE, AHEAD_NOTE, SHOWING, SEE_ALL, ALL_LEDE, TITLE, LEDE, NOTE, USES, DISTINCT, NO_SYNTHESIS, WATCH_NOTE, SAVED_NOTE, EMPTY, METHOD, V, date, kindOf, load, checks, denominator, standing, md, record };
+module.exports = { NEXT_STEP, MADE_BY, COV_H, COV_NOTE, COV_SEARCHED, COV_NOT_YET, COV_REGION, PROOF, PATH, OLDER, MOVED_NOTE, MOVED_NONE, AHEAD_NOTE, SHOWING, SEE_ALL, ALL_LEDE, TITLE, LEDE, NOTE, USES, DISTINCT, NO_SYNTHESIS, FOLD_HINT, WATCH_NOTE, SAVED_NOTE, EMPTY, METHOD, V, date, kindOf, load, checks, denominator, standing, md, record };

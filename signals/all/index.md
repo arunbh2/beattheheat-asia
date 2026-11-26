@@ -1,17 +1,121 @@
 ---
 title: "Signals: every record"
 url: https://beattheheat.asia/signals/all/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
-> All 31 records on Signals, newest first, on one page.
+> All 32 records on Signals, newest first, on one page.
 
 Signals
 
 # Every record
 
 Every record on Signals, newest first, with its evidence. The main Signals page adds what moved, filters, saved records and the watches.
+
+Commitment[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 22 November 2026
+
+### [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025)
+
+Parties to the Paris Agreement (CMA 7) Global (UN climate process)
+
+At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake.
+
+Heat link: Common Shade's reading The indicators measure adaptation in general; which of them bear on heat was not assessed.
+
+What is tracked (2 deliverables)
+
+#### 59 Belém Adaptation Indicators to measure progress on adaptation Framework or indicators
+
+- AdoptedAdopted, 2025: original checked
+
+Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itCountries in South and Southeast Asia reporting on the indicators, including any that touch heat and health. Commitment made by Parties to the Paris Agreement (CMA 7).
+
+#### A task force to refine the adaptation indicators Office or body
+
+- AdoptedAdopted, 22 November 2026: original checked
+
+Announced: no separate evidence recorded. Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itThe task force's guidance on the indicators, published. Commitment made by Parties to the Paris Agreement (CMA 7).
+
+Evidence, history and what is not known
+
+#### 59 Belém Adaptation Indicators to measure progress on adaptation
+
+- 2025 **Adopted**. Adopted at CMA 7, under the Global Goal on Adaptation
+
+- [UNFCCC: Global Goal on Adaptation](https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga) Original
+UNFCCC's Global Goal on Adaptation page describes the indicators adopted at CMA 7. original checked: checked 9 November 2026 for “Global Goal on Adaptation”, “indicators”From the checked pageTopics Adaptation and resilience Workstreams Global goal on adaptation Overview Decisions and conclusions Workshops & Events Reports and publications Article 7 of the 2015 Paris Agreement established…
+
+Not known yet
+
+- Which indicators bear on heat: not assessed
+- Reporting against them by countries in South and Southeast Asia: not verified
+
+What would change this recordCountries in South and Southeast Asia reporting on the indicators, including any that touch heat and health.
+
+#### A task force to refine the adaptation indicators
+
+- 22 November 2026 **Adopted**. Set up by a decision at COP31 (CMA 8), adopted at the closing plenary
+
+- [UNFCCC, 2026: COP31 delivers important progress across negotiations and Action Agenda, advancing implementation, but fails to agree Presidency-Led Decision](https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of) Original
+UNFCCC's account of COP31 names a task force on the adaptation indicators among the outcomes. original checked: checked 25 November 2026 for “task force”, “indicator”From the checked pageAdaptation COP31 advanced the operationalization of the 59 Belém Adaptation Indicators by creating a channel for countries to share experience, challenges, gaps and needs arising from voluntary country testing, and establishing a dedicated task force to improve indicator methodologies and metadata.
+
+Not known yet
+
+- Who sits on the task force: not verified
+- When its guidance is due: reported, but not confirmed by the source check
+- Any change in how countries measure heat adaptation: not assessed
+
+What would change this recordThe task force's guidance on the indicators, published.
+
+ReviewRecord last reviewed 26 November 2026. Sources last checked 25 November 2026. Next review due 26 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Count every heat death](https://beattheheat.asia/actions/#countdeaths)
+
+Commitment[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 22 November 2026
+
+### [COP31 lets the Adaptation Fund receive a share of carbon-market proceeds](https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026)
+
+Parties to the Paris Agreement (CMA 8) Global (UN climate process)
+
+Decisions at COP31 enable the Adaptation Fund to receive a share of the proceeds of carbon trading under the Paris Agreement's crediting mechanism. The decision is adopted; no money received under it, and none spent on heat, has been found yet.
+
+Heat link: Common Shade's reading Adaptation finance that could pay for heat measures; the decision does not name heat.
+
+What is tracked (1 deliverable)
+
+#### A rule letting the Adaptation Fund receive a share of carbon-market proceeds Rule or guideline
+
+- AdoptedAdopted, 22 November 2026: reported
+
+Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itThe first carbon-market proceeds received by the Adaptation Fund. Commitment made by Parties to the Paris Agreement (CMA 8).
+
+Evidence, history and what is not known
+
+#### A rule letting the Adaptation Fund receive a share of carbon-market proceeds
+
+- 22 November 2026 **Adopted**. Agreed in decisions at COP31, adopted at the closing plenary
+
+- [Carbon Brief, 2026: COP31: Key outcomes agreed at the UN climate talks in Antalya](https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya) Secondary
+Carbon Brief's summary of COP31's outcomes reports that the Adaptation Fund can receive a share of proceeds from carbon trading. reported: checked 25 November 2026 for “Adaptation Fund”, “share of proceeds”
+
+Not known yet
+
+- Money received under the decision: not verified
+- Any of it spent on heat: not verified
+- The decision text itself: not read; the adoption date is the closing plenary's
+
+What would change this recordThe first carbon-market proceeds received by the Adaptation Fund.
+
+ReviewRecord last reviewed 26 November 2026. Sources last checked 25 November 2026. Next review due 26 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Explore on Common Shade[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
 Commitment[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 16 November 2026
 
@@ -567,9 +671,9 @@ What to watchA finding, not a commitment: watch whether city budgets in South As
 
 Sources and review
 
-- [World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities) Originalchecked 21 November 2026
+- [World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities) Originalchecked 22 November 2026
 
-ReviewRecord last reviewed 16 November 2026. Sources last checked 21 November 2026. Next review due 16 May 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+ReviewRecord last reviewed 16 November 2026. Sources last checked 22 November 2026. Next review due 16 May 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
 Explore on Common Shade[Green, cool cities](https://beattheheat.asia/actions/#greencity)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)
 
@@ -1240,46 +1344,6 @@ What would change this recordA cooling centre named in the plan opening, with wh
 ReviewRecord last reviewed 16 November 2026. Sources last checked 9 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
 Explore on Common Shade[Bangladesh](https://beattheheat.asia/countries/bangladesh/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
-
-Commitment[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 2025
-
-### [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025)
-
-Parties to the Paris Agreement (CMA 7) Global (UN climate process)
-
-At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake.
-
-Heat link: Common Shade's reading The indicators measure adaptation in general; which of them bear on heat was not assessed.
-
-What is tracked (1 deliverable)
-
-#### 59 Belém Adaptation Indicators to measure progress on adaptation Framework or indicators
-
-- AdoptedAdopted, 2025: original checked
-
-Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Funded: not tracked for this kind of deliverable.
-
-Next step, as the sources describe itCountries in South and Southeast Asia reporting on the indicators, including any that touch heat and health. Commitment made by Parties to the Paris Agreement (CMA 7).
-
-Evidence, history and what is not known
-
-#### 59 Belém Adaptation Indicators to measure progress on adaptation
-
-- 2025 **Adopted**. Adopted at CMA 7, under the Global Goal on Adaptation
-
-- [UNFCCC: Global Goal on Adaptation](https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga) Original
-UNFCCC's Global Goal on Adaptation page describes the indicators adopted at CMA 7. original checked: checked 9 November 2026 for “Global Goal on Adaptation”, “indicators”From the checked pageTopics Adaptation and resilience Workstreams Global goal on adaptation Overview Decisions and conclusions Workshops & Events Reports and publications Article 7 of the 2015 Paris Agreement established…
-
-Not known yet
-
-- Which indicators bear on heat: not assessed
-- Reporting against them by countries in South and Southeast Asia: not verified
-
-What would change this recordCountries in South and Southeast Asia reporting on the indicators, including any that touch heat and health.
-
-ReviewRecord last reviewed 16 November 2026. Sources last checked 9 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
-
-Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 
 [Back to Signals](https://beattheheat.asia/signals/), with what moved, the filters and the watches.
 

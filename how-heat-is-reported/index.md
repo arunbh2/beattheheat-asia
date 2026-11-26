@@ -1,7 +1,7 @@
 ---
 title: "How extreme heat is reported in South and Southeast Asia"
 url: https://beattheheat.asia/how-heat-is-reported/
-updated: 2026-11-17
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "El Niño and heat in Asia | Common Shade one-pager"
 url: https://beattheheat.asia/print/el-nino-briefing/
-updated: 2026-11-19
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -76,7 +76,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 **Licence:** © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Check the live page for updates.
 
-Scan for the live page
+beattheheat.asia/el-nino
 
 ---
 Human edition: https://beattheheat.asia/print/el-nino-briefing/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

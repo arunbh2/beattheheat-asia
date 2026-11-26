@@ -1,0 +1,62 @@
+{
+ "_terms": {
+  "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of": {
+   "COP31": true,
+   "fails to agree Presidency-Led Decision": true,
+   "adaptation": true,
+   "task force": true,
+   "indicator": true
+  },
+  "https://news.un.org/en/story/2026/11/1168855": {
+   "COP31": true,
+   "without climate pact": true
+  },
+  "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya": {
+   "136": true,
+   "Antalya": true,
+   "Antalya pact": true,
+   "adaptation": true,
+   "task force": true,
+   "October 2027": false,
+   "indicators": true,
+   "120bn": true,
+   "tripl": true,
+   "Adaptation Fund": true,
+   "share of proceeds": true,
+   "carbon-market": true,
+   "carbon market": true,
+   "national adaptation plan": true,
+   "NAP": true
+  },
+  "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure": {
+   "COP31": true,
+   "Sunday": true
+  },
+  "https://www.unep.org/en/news-and-stories/technical-highlight/eight-key-takeaways-un-climate-talks": {
+   "COP31": true,
+   "roadmap": true,
+   "Ethiopia": false
+  },
+  "https://healthpolicy-watch.news/cop31-consensus-collapse-at-climate-summit/": {
+   "COP31": true,
+   "Antalya Pact": true,
+   "Ends With No Deal": true
+  },
+  "https://healthpolicy-watch.news/health-wins-key-mention-in-draft-cop31-decision-document/": {
+   "COP31": true,
+   "Health Wins Key Mention": true
+  },
+  "https://www.iisd.org/articles/statement/cop31-ends-without-antalya-pact-time-rebuild-trust": {
+   "Antalya": false,
+   "Without Antalya Pact": false
+  }
+ },
+ "https://unfccc.int/news/cop31-delivers-progress-that-advances-implementation-of-the-paris-agreement-but-stalls-on-range-of": "OK",
+ "https://news.un.org/en/story/2026/11/1168855": "OK",
+ "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya": "OK",
+ "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure": "OK",
+ "https://www.unep.org/en/news-and-stories/technical-highlight/eight-key-takeaways-un-climate-talks": "OK",
+ "https://healthpolicy-watch.news/cop31-consensus-collapse-at-climate-summit/": "OK",
+ "https://healthpolicy-watch.news/health-wins-key-mention-in-draft-cop31-decision-document/": "OK",
+ "https://www.iisd.org/articles/statement/cop31-ends-without-antalya-pact-time-rebuild-trust": "BLOCKED"
+}

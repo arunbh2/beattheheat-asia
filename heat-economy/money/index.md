@@ -1,7 +1,7 @@
 ---
 title: "Funding and support for protection from heat"
 url: https://beattheheat.asia/heat-economy/money/
-updated: 2026-11-22
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -23,7 +23,7 @@ The funding landscape and how each programme can be reached, open calls and care
 Who funds work relevant to extreme heat in South and Southeast Asia, through which programmes, and how each can be reached. A funder is not an open call: most of these programmes are not accepting applications today, and several are reached only through an accredited entity, a government nomination, a consortium or an invitation.
 
 [Open calls and tenders3 verified open now, with the archive of earlier rounds](https://beattheheat.asia/heat-economy/money/opportunities/)
-[Careers10 listings, 7 verified open](https://beattheheat.asia/heat-economy/money/careers/)
+[Careers10 listings, 6 verified open](https://beattheheat.asia/heat-economy/money/careers/)
 [What needs funding?Where this dataset has verified support, and where it has little](#needs)
 
 Each programme shows its access route, who can receive money, what kind of money it is, and how its remit connects to heat. The connection is labelled by how direct it is.

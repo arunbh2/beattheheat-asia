@@ -164,6 +164,8 @@
     if (!el || (moreUrl && el.closest("#sg-older"))) { if (moreUrl) loadAll(function () { apply(read()); var t = document.getElementById(id); if (t && !t.closest("#sg-older")) reveal(); }); return; }
     var card = el.closest(".sg-card"); if (card && card.hidden) { form.reset(); go(false, "recent"); }
     var det = el.closest("details"); if (det) det.open = true;
+    // the closed COP31 watch is folded: a link to it (the cards' "COP31 watch" tag, older links) opens the fold
+    if (id === "cop31") { var fold = document.getElementById("cop31-fold"); if (fold) fold.open = true; }
     if (el !== card) { var r = card && card.querySelector(".sg-rec"); if (r) r.open = true; }
     el.scrollIntoView();
     // cards above render lazily (content-visibility) and can change height: settle on the target once they have

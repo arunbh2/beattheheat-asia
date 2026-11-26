@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-22
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 83 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 84 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,47 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-83 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+84 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Evidence
+
+### What COP31 adopted for heat, and what it did not
+
+Added 26 November 2026 · COP31 closed 22 November 2026
+
+Why it matters our readingCOP31 ended without its cover decision; separate decisions set up a task force to refine the adaptation indicators and let the Adaptation Fund receive a share of carbon-market proceeds, each recorded at the adopted step only. No figure was set for tripling adaptation finance and no negotiated decision specific to heat was found, and the watch now sits folded below the El Niño watch on Signals.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat action plans
+- Dedicated heat budgets
+
+ReviewSeven of eight claims confirmed by the source check; the guidance date and the roadmap launch place were not found and are left out; the owner approved the rungs, the synthesis and the archive. 8 checked · 7 confirmed · 1 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** What did COP31 adopt that bears on heat, and what does each step not yet show?
+- **The search.** 8 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 7 confirmed, and 1 could not be (1 blocked automated reading).
+- **What we set aside.** 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** The decision texts themselves, the task force's guidance date, and any proceeds the Adaptation Fund receives.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-signals-cop31-8/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/signals-cop31-8/dropped-after-check.json)
+
+How it connects
+
+- [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget) Action · from the site's records
+The Adaptation Fund decision concerns money that could pay for heat measures; none received or spent on heat has been found yet.
+
+[See the COP31 watch](https://beattheheat.asia/signals/#cop31)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=What%20COP31%20adopted%20for%20heat%2C%20and%20what%20it%20did%20not&ref=g-cop31-closing#way-share)
 
 Tool improved · Practical measures
 

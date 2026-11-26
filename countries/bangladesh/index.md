@@ -1,7 +1,7 @@
 ---
 title: "Bangladesh: heat country snapshot"
 url: https://beattheheat.asia/countries/bangladesh/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -439,7 +439,7 @@ Developments in Bangladesh tracked on Signals, newest first, with the furthest s
 - [Bangladesh adopts its Health National Adaptation Plan](https://beattheheat.asia/signals/#sig-bangladesh-hnap-2026) Adopted, original checked · latest development 31 March 2026
 - [Bangladesh's first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/signals/#sig-narayanganj-hap) Adopted, original checked · latest development 22 September 2025
 
-[On Signals, with the evidence](https://beattheheat.asia/signals/?place=bangladesh) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=bangladesh) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/countries/bangladesh/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

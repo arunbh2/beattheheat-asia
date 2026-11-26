@@ -1,7 +1,7 @@
 ---
 title: "Thailand: heat country snapshot"
 url: https://beattheheat.asia/countries/thailand/
-updated: 2026-11-21
+updated: 2026-11-26
 licence: CC BY 4.0
 ---
 
@@ -506,7 +506,7 @@ Developments in Thailand tracked on Signals, newest first, with the furthest ste
 - [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/signals/#sig-global-heat-forum-2026) Gathering · latest development 6 October 2026
 - [Bangkok's heat plan opens 304 cooling centres](https://beattheheat.asia/signals/#sig-bangkok-heat-plan-2026) Delivered, original checked · latest development 2026
 
-[On Signals, with the evidence](https://beattheheat.asia/signals/?place=thailand) · [20 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[On Signals, with the evidence](https://beattheheat.asia/signals/?place=thailand) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/countries/thailand/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

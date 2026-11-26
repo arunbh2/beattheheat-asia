@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-21T00:00:00Z</updated>
+  <updated>2026-11-26T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>What COP31 adopted for heat, and what it did not</title>
+    <link href="https://beattheheat.asia/growing/#g-cop31-closing" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-cop31-closing</id>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <summary>COP31 ended without its cover decision; separate decisions set up a task force to refine the adaptation indicators and let the Adaptation Fund receive a share of carbon-market proceeds, each recorded at the adopted step only. No figure was set for tripling adaptation finance and no negotiated decision specific to heat was found, and the watch now sits folded below the El Niño watch on Signals.</summary>
+  </entry>
   <entry>
     <title>Signals shows the next step for each promise, and a weekly search looks for what it is missing</title>
     <link href="https://beattheheat.asia/growing/#g-signals-wider" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-ph-labor-advisories-reports</id>
     <updated>2026-11-16T00:00:00Z</updated>
     <summary>Two news reports, checked word for word, add detail to the Philippines' October 2026 labour advisories on heat: duties that step up with the same four heat index levels the site already shows, and compensation for heat stroke, cramps and exhaustion, with other heat illnesses that may also qualify where the link to work is shown. The advisory texts themselves were not read, because the department's pages turn away automated checks, so the record still says so.</summary>
-  </entry>
-  <entry>
-    <title>A policy brief on heat-ready social security, with examples from across Asia</title>
-    <link href="https://beattheheat.asia/growing/#g-heat-ready-social-security" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-heat-ready-social-security</id>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary>When heat stops work, a day off can mean a day without pay. The brief sets out five ways social security could cushion that choice, with examples from China, Singapore, Japan, South Korea, Hong Kong, the Philippines, the United Arab Emirates, India, Thailand and Viet Nam, examples from elsewhere labelled as such, the traps to avoid and options step by step.</summary>
   </entry>
 </feed>
