@@ -1,0 +1,196 @@
+[
+ {
+  "id": "src-hi-vecellio2022",
+  "type": "source",
+  "keys": [
+   "vecellio2022"
+  ],
+  "title": "Evaluating the 35°C wet-bulb temperature adaptability threshold for young, healthy subjects (PSU HEAT Project)",
+  "publisher": "Vecellio DJ, Wolf ST, Cottle RM, Kenney WL; Journal of Applied Physiology",
+  "year": 2022,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34913738/",
+  "kind": "Peer-reviewed experimental study (abstract via Europe PMC)",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "30.55 ± 0.98°C",
+   "young, healthy adults",
+   "modest metabolic rates",
+   "cannot be applied to human adaptability across all climatic conditions"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-vecellio2022-full",
+  "type": "source",
+  "keys": [
+   "vecellio2022-full"
+  ],
+  "title": "Evaluating the 35°C wet-bulb temperature adaptability threshold (author manuscript)",
+  "publisher": "Vecellio DJ, Wolf ST, Cottle RM, Kenney WL; PubMed Central",
+  "year": 2022,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/",
+  "kind": "Author manuscript, full text",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "24 subjects",
+   "psychrometric chart",
+   "radiative heat"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-wolf2023",
+  "type": "source",
+  "keys": [
+   "wolf2023"
+  ],
+  "title": "Heat stress vulnerability and critical environmental limits for older adults",
+  "publisher": "Wolf ST, Cottle RM, Fisher KG, Vecellio DJ, Kenney WL; Communications Earth & Environment",
+  "year": 2023,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10826365/",
+  "kind": "Peer-reviewed experimental study, open access (CC BY 4.0)",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "fifty-one young",
+   "49 older",
+   "Minimal Activity",
+   "critical environmental limits were lower in older compared to young adults"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-wolf2023-full",
+  "type": "source",
+  "keys": [
+   "wolf2023-full"
+  ],
+  "title": "Heat stress vulnerability and critical environmental limits for older adults (full text)",
+  "publisher": "Communications Earth & Environment",
+  "year": 2023,
+  "url": "https://www.nature.com/articles/s43247-023-01159-9",
+  "kind": "Peer-reviewed article, full text (CC BY 4.0)",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "no source of radiative heat transfer",
+   "central Pennsylvania",
+   "Table 3"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-wang2026",
+  "type": "source",
+  "keys": [
+   "wang2026"
+  ],
+  "title": "Human heat tolerance limits under prolonged exposure to extreme heat",
+  "publisher": "Wang F, Xu Y, Wang H and others; Environment International",
+  "year": 2026,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42025020/",
+  "kind": "Peer-reviewed experimental study (abstract via Europe PMC)",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "36 unacclimatized healthy young adults",
+   "up to 8 h",
+   "seated light office work",
+   "unrestricted hydration"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-sherwood2010",
+  "type": "source",
+  "keys": [
+   "sherwood2010"
+  ],
+  "title": "An adaptability limit to climate change due to heat stress",
+  "publisher": "Sherwood SC, Huber M; PNAS",
+  "year": 2010,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/20439769/",
+  "kind": "Peer-reviewed modelling and theory paper (abstract via Europe PMC)",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "for extended periods",
+   "dissipation of metabolic heat becomes impossible"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-psychrolib",
+  "type": "source",
+  "keys": [
+   "psychrolib"
+  ],
+  "title": "PsychroLib: a library of psychrometric functions to calculate thermodynamic properties of air",
+  "publisher": "Meyer DGD, Thevenard D; Journal of Open Source Software",
+  "year": 2019,
+  "url": "https://joss.theoj.org/papers/10.21105/joss.01137",
+  "kind": "Peer-reviewed software paper",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "PsychroLib",
+   "ASHRAE"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-openmeteo",
+  "type": "source",
+  "keys": [
+   "openmeteo"
+  ],
+  "title": "Weather Forecast API documentation",
+  "publisher": "Open-Meteo",
+  "year": 2026,
+  "url": "https://open-meteo.com/en/docs",
+  "kind": "Provider documentation",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "relative_humidity_2m",
+   "surface_pressure",
+   "15-minutely"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-cckp",
+  "type": "source",
+  "keys": [
+   "cckp"
+  ],
+  "title": "CMIP6 0.25-degree collection (cmip6-x0.25)",
+  "publisher": "World Bank Climate Change Knowledge Portal",
+  "year": 2026,
+  "url": "https://github.com/worldbank/climateknowledgeportal/blob/main/docs/collections/cmip6-x0.25.md",
+  "kind": "Provider documentation",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "downscaled and bias corrected at 0.25-degree",
+   "Number of Hot Days",
+   "Number of Tropical Nights",
+   "Maximum of Daily Max-Temperature",
+   "90th Percentile of the Multi-Model Ensemble"
+  ],
+  "claims": []
+ },
+ {
+  "id": "src-hi-ipcc-spm",
+  "type": "source",
+  "keys": [
+   "ipcc-spm"
+  ],
+  "title": "Climate Change 2021: The Physical Science Basis, Summary for Policymakers",
+  "publisher": "IPCC Working Group I",
+  "year": 2021,
+  "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+  "kind": "Assessment report",
+  "where": "The wet-bulb wall and Heat futures",
+  "expect": [
+   "SSP1-2.6",
+   "SSP2-4.5",
+   "SSP3-7.0",
+   "intermediate GHG emissions"
+  ],
+  "claims": []
+ }
+]
