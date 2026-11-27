@@ -17,7 +17,8 @@
    "modest metabolic rates",
    "cannot be applied to human adaptability across all climatic conditions"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261029184132/https://pubmed.ncbi.nlm.nih.gov/34913738"
  },
  {
   "id": "src-hi-vecellio2022-full",
@@ -36,7 +37,8 @@
    "psychrometric chart",
    "radiative heat"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261030100645/https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385"
  },
  {
   "id": "src-hi-wolf2023",
@@ -56,7 +58,8 @@
    "Minimal Activity",
    "critical environmental limits were lower in older compared to young adults"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261114085325/https://pmc.ncbi.nlm.nih.gov/articles/PMC10826365/"
  },
  {
   "id": "src-hi-wolf2023-full",
@@ -75,7 +78,8 @@
    "central Pennsylvania",
    "Table 3"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20240904111831/https://www.nature.com/articles/s43247-023-01159-9"
  },
  {
   "id": "src-hi-wang2026",
@@ -95,7 +99,8 @@
    "seated light office work",
    "unrestricted hydration"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261127173758/https://pubmed.ncbi.nlm.nih.gov/42025020/"
  },
  {
   "id": "src-hi-sherwood2010",
@@ -113,7 +118,8 @@
    "for extended periods",
    "dissipation of metabolic heat becomes impossible"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261030222452/https://pubmed.ncbi.nlm.nih.gov/20439769"
  },
  {
   "id": "src-hi-psychrolib",
@@ -131,7 +137,8 @@
    "PsychroLib",
    "ASHRAE"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261108155628/https://joss.theoj.org/papers/10.21105/joss.01137"
  },
  {
   "id": "src-hi-openmeteo",
@@ -150,7 +157,8 @@
    "surface_pressure",
    "15-minutely"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261125203812/https://open-meteo.com/en/docs"
  },
  {
   "id": "src-hi-cckp",
@@ -191,6 +199,7 @@
    "SSP3-7.0",
    "intermediate GHG emissions"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261122021950/https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf"
  }
 ]
