@@ -5,7 +5,7 @@ updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 87 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 89 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,59 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-87 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+89 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### The wet-bulb wall shows how heat and humidity together limit cooling
+
+Added 27 November 2026 · The wet-bulb wall shows how heat and humidity together limit cooling 27 November 2026
+
+Why it matters our readingReaders can drag temperature and humidity across a chart shaded by calculated wet-bulb temperature, compare six cities’ latest modelled weather, switch on measured limits from chamber studies, and see why the same weather leaves people with different ways to protect themselves.
+
+- South and Southeast Asia
+
+ReviewSources checked with verify-sources.yml (batch 2026-11-heat-interactives); calculations and data tested by the page's own checks and in a browser at 360 and 1280 px.
+
+What it took to add this
+
+- **The question.** Can a reader see how humidity tightens the body’s ability to cool, without a number being mistaken for a safety line?
+
+- **What is still open.** How the six cities’ weather reads through a whole hot season, and whether readers want a station-observed comparison.
+
+See for yourself:
+
+[Explore the wet-bulb wall](https://beattheheat.asia/wet-bulb-wall/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20wet-bulb%20wall%20shows%20how%20heat%20and%20humidity%20together%20limit%20cooling&ref=g-wet-bulb-wall#way-share)
+
+Tool improved · Practical measures
+
+### Heat futures sets projected heat near six cities beside who could be protected
+
+Added 27 November 2026 · Heat futures sets projected heat near six cities beside who could be protected 27 November 2026
+
+Why it matters our readingProjected hot days, hot nights and hottest days around 2030 and 2050 for the grid cell near each of six cities under three emissions paths sit beside a separate, illustrative panel showing how the start, pace and reach of protection change who is covered, and what a later start costs in years without protection.
+
+- South and Southeast Asia
+
+ReviewSources checked with verify-sources.yml (batch 2026-11-heat-interactives); calculations and data tested by the page's own checks and in a browser at 360 and 1280 px.
+
+What it took to add this
+
+- **The question.** Can a reader see both that delay has consequences and that those consequences depend on decisions still open?
+
+- **What is still open.** City-boundary projections and a humid-heat measure computed from daily values, which the current data source does not provide.
+
+See for yourself:
+
+[Open Heat futures](https://beattheheat.asia/heat-futures/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20futures%20sets%20projected%20heat%20near%20six%20cities%20beside%20who%20could%20be%20protected&ref=g-heat-futures#way-share)
 
 Tool improved · Practical measures
 

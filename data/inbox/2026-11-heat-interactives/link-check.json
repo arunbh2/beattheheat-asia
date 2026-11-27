@@ -1,0 +1,68 @@
+{
+ "_terms": {
+  "https://pubmed.ncbi.nlm.nih.gov/34913738/": {
+   "30.55 ± 0.98°C": true,
+   "young, healthy adults": true,
+   "modest metabolic rates": true,
+   "cannot be applied to human adaptability across all climatic conditions": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/": {
+   "24 subjects": true,
+   "psychrometric chart": true,
+   "radiative heat": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10826365/": {
+   "fifty-one young": true,
+   "49 older": true,
+   "Minimal Activity": true,
+   "critical environmental limits were lower in older compared to young adults": true
+  },
+  "https://www.nature.com/articles/s43247-023-01159-9": {
+   "no source of radiative heat transfer": true,
+   "central Pennsylvania": true,
+   "Table 3": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42025020/": {
+   "36 unacclimatized healthy young adults": true,
+   "up to 8 h": true,
+   "seated light office work": true,
+   "unrestricted hydration": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/20439769/": {
+   "for extended periods": true,
+   "dissipation of metabolic heat becomes impossible": true
+  },
+  "https://joss.theoj.org/papers/10.21105/joss.01137": {
+   "PsychroLib": true,
+   "ASHRAE": false
+  },
+  "https://open-meteo.com/en/docs": {
+   "relative_humidity_2m": true,
+   "surface_pressure": true,
+   "15-minutely": true
+  },
+  "https://github.com/worldbank/climateknowledgeportal/blob/main/docs/collections/cmip6-x0.25.md": {
+   "downscaled and bias corrected at 0.25-degree": true,
+   "Number of Hot Days": true,
+   "Number of Tropical Nights": true,
+   "Maximum of Daily Max-Temperature": true,
+   "90th Percentile of the Multi-Model Ensemble": true
+  },
+  "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf": {
+   "SSP1-2.6": true,
+   "SSP2-4.5": true,
+   "SSP3-7.0": true,
+   "intermediate GHG emissions": true
+  }
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/34913738/": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC10826365/": "OK",
+ "https://www.nature.com/articles/s43247-023-01159-9": "REDIRECT",
+ "https://pubmed.ncbi.nlm.nih.gov/42025020/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/20439769/": "OK",
+ "https://joss.theoj.org/papers/10.21105/joss.01137": "OK",
+ "https://open-meteo.com/en/docs": "OK",
+ "https://github.com/worldbank/climateknowledgeportal/blob/main/docs/collections/cmip6-x0.25.md": "OK",
+ "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf": "OK"
+}
