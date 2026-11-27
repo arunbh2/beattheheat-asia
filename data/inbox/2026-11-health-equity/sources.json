@@ -17,7 +17,8 @@
    "low quality housing and lack of access to cooling",
    "loss of health service delivery capacity"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261115144415/https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
  },
  {
   "id": "src-he-who-work",
@@ -36,7 +37,8 @@
    "pregnant women",
    "older workers"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261111223507/https://www.who.int/news-room/questions-and-answers/item/workplace-heat-stress"
  },
  {
   "id": "src-he-ccohs-heat",
@@ -55,6 +57,7 @@
    "less likely to notice their own symptoms of heat stress",
    "emergency response plan"
   ],
-  "claims": []
+  "claims": [],
+  "archive": "https://web.archive.org/web/20230218104956/https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html"
  }
 ]
