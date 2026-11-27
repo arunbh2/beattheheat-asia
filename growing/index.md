@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-26
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 86 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 87 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,35 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-86 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+87 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### Common Shade’s logo, colours, films and channels now sit together on one Brand & Media page
+
+Added 27 November 2026 · Brand & Media page added 27 November 2026
+
+Why it matters our readingPartners, journalists and teachers asked to use the logo or show a film can now download the current logo files and pack, copy the colours, find any narrated film on the site with its captions and related page, and reach the official channels, which also join the footer of every page.
+
+- South and Southeast Asia
+
+ReviewLogo files written from the logo's own code and rendered with the site's own font; sizes, colours and film durations read from the files and style sheet; page, pack and footer checked by tools/check-brand.js and in a browser at 360 and 1280 px.
+
+What it took to add this
+
+- **The question.** Can someone who wants to credit or show Common Shade find the right logo, colour, film and channel without asking?
+
+- **What is still open.** Whether the Instagram and Facebook links reach their permanent addresses, which the platforms would not show to an automated check, and whether a formal licence for the name and logo is wanted.
+
+See for yourself:
+
+[Open Brand & Media](https://beattheheat.asia/brand/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Common%20Shade%E2%80%99s%20logo%2C%20colours%2C%20films%20and%20channels%20now%20sit%20together%20on%20one%20Brand%20%26%20Media%20page&ref=g-brand-media#way-share)
 
 Evidence added · Evidence
 
