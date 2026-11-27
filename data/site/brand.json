@@ -1,0 +1,94 @@
+{
+  "_about": "The Brand & Media page (/brand/), built by tools/build-brand.js. Hand-kept: names, uses, roles, channels and rights wording. Never typed here: file sizes, dimensions, durations and the video list, which the build reads from the files and from the records that place each film on the site. To add or replace an asset, see the 'Brand & Media' section of CLAUDE.md.",
+  "title": "Brand & Media",
+  "intro": "Find Common Shade’s logos, visual assets, videos and official channels in one place.",
+  "description": "Common Shade’s logo files, colours and fonts, shareable images, every film on the site with its captions, and the official social channels, with notes on using them.",
+  "logos": [
+    { "id": "symbol-light", "title": "Symbol, for light backgrounds", "use": "The canopy and two posts, as in the site header. For avatars, favicons and small spaces on white or cream.", "background": "light", "transparent": true,
+      "svg": "brand/files/common-shade-symbol-light-bg.svg", "png": "brand/files/common-shade-symbol-light-bg.png", "source": "the header mark, MARK in tools/site-nav.js, with the posts in ink (#16202B)" },
+    { "id": "symbol-dark", "title": "Symbol, for dark backgrounds", "use": "The same mark with cream posts, as on the dark scenes of the site’s films. For dark slides and dark photographs with calm areas.", "background": "dark", "transparent": true,
+      "svg": "brand/files/common-shade-symbol-dark-bg.svg", "png": "brand/files/common-shade-symbol-dark-bg.png", "source": "the logo on the films’ dark scenes (tools/explainers), posts in cream (#F6E7D7)" },
+    { "id": "app-icon", "title": "App icon", "use": "The mark on its dark rounded tile, as in the browser tab. For profile pictures and app-style tiles.", "background": "any", "transparent": false,
+      "svg": "brand/files/common-shade-app-icon.svg", "png": "brand/files/common-shade-app-icon.png", "source": "the site favicon (link rel=icon on every page)" },
+    { "id": "wordmark-light", "title": "Logo with name, for light backgrounds", "use": "The mark and COMMON SHADE in Anton, as in the site header. For documents, slides and partner pages on white or cream.", "background": "light", "transparent": true,
+      "png": "brand/files/common-shade-logo-light-bg.png", "source": "the header lockup (.csn__home in tools/site-nav.js), rendered with the site’s own copy of Anton" },
+    { "id": "wordmark-dark", "title": "Logo with name, for dark backgrounds", "use": "The mark and name in cream, as on the films’ dark scenes. For dark slides and video end cards.", "background": "dark", "transparent": true,
+      "png": "brand/files/common-shade-logo-dark-bg.png", "source": "the films’ dark-scene lockup (tools/explainers), rendered with the site’s own copy of Anton" }
+  ],
+  "logo_gaps": [
+    "A vector (SVG) file of the logo with its name: on the site the name is live text in Anton, so no outlined vector exists. The logo-with-name files are PNG only.",
+    "A one-colour (monochrome) version: none is used on the site."
+  ],
+  "colours": {
+    "logo": [
+      { "token": "--orange", "name": "Common Shade orange", "role": "The canopy in every version of the logo." },
+      { "token": "--ink", "name": "Ink", "role": "The posts and the name on light backgrounds, and the app icon’s tile." },
+      { "token": "--sand", "name": "Cream", "role": "The posts and the name on dark backgrounds." }
+    ],
+    "interface": [
+      { "token": "--canvas", "name": "Canvas", "role": "Page background." },
+      { "token": "--ink", "name": "Ink", "role": "Body text and headings." },
+      { "token": "--grey-700", "name": "Grey 700", "role": "Secondary text." },
+      { "token": "--grey-500", "name": "Grey 500", "role": "Quiet text, captions and dates." },
+      { "token": "--line", "name": "Line", "role": "Hairline borders and dividers." },
+      { "token": "--orange", "name": "Orange", "role": "Brand and action: buttons, link underlines and highlights." },
+      { "token": "--ember", "name": "Ember", "role": "Heat and harm: what drives a vicious cycle, and limits." },
+      { "token": "--break", "name": "Break green", "role": "A fix: what breaks a cycle, and examples." },
+      { "token": "--amber", "name": "Amber", "role": "Caution: “watch for” notes and provisional items." }
+    ]
+  },
+  "fonts": [
+    { "token": "--font-display", "name": "Anton", "role": "Display: page titles, the homepage’s story headings and the name in the logo, in capitals.", "url": "https://fonts.google.com/specimen/Anton" },
+    { "token": "--font-body", "name": "Hanken Grotesk", "role": "Body and interface: text, headings, buttons and labels.", "url": "https://fonts.google.com/specimen/Hanken+Grotesk" },
+    { "token": "--font-serif", "name": "Newsreader", "role": "Editorial: ledes and quotes, not headings.", "url": "https://fonts.google.com/specimen/Newsreader" }
+  ],
+  "font_licence": { "name": "SIL Open Font License 1.1", "url": "https://openfontlicense.org/" },
+  "assets": [
+    { "id": "share-systems-map", "file": "images/share-systems-map.jpg", "title": "Systems-map link preview", "description": "The image every page shows when its link is shared: a capture of the real systems map with the line “How heat connects our lives”. It carries the Common Shade logo.", "rights": "cc-by" },
+    { "id": "banner", "file": "images/common-shade-banner.svg", "title": "Dusk banner illustration", "description": "A wide drawn skyline at dusk, used at the top of the “Everything Common Shade covers” card.", "rights": "cc-by" },
+    { "id": "map-preview", "file": "images/map-preview.jpg", "title": "Map preview", "description": "A small square view of the systems map, used as the “Open the map” thumbnail.", "rights": "cc-by" }
+  ],
+  "destinations": [
+    { "id": "sof-cards", "title": "State of the field share cards", "description": "Each monthly briefing has its own preview card, shown when the edition’s link is shared.", "url": "/whats-new/", "label": "See the editions" },
+    { "id": "print", "title": "Printable one-pagers", "description": "Single A4 briefs for officials, planners, partners and journalists, ready to print or save as PDF.", "url": "/print/", "label": "Browse the one-pagers" },
+    { "id": "data", "title": "Open data and citations", "description": "The map’s data as plain JSON files, and ready citations for the site and each page.", "url": "/cite/", "label": "Cite and reuse" }
+  ],
+  "social": [
+    { "id": "instagram", "name": "Instagram", "label": "Common Shade on Instagram", "url": "https://www.instagram.com/common_shade?avpt=enlmajhkOTY4bmho", "verified": "blocked: Instagram answered automated requests with a login page and a rate limit (27 November 2026), so the clean address could not be confirmed and the link is kept as supplied" },
+    { "id": "facebook", "name": "Facebook", "label": "Common Shade on Facebook", "url": "https://www.facebook.com/share/1ER1YBxHZv/", "verified": "partial: the share link answered with the page name “Common Shade” (27 November 2026) but not its permanent address, so the share link is kept as supplied" },
+    { "id": "linkedin", "name": "LinkedIn", "label": "Common Shade on LinkedIn", "url": "https://www.linkedin.com/company/commonshade-asia/", "verified": "blocked: LinkedIn refused automated requests (27 November 2026); the link is kept as supplied" }
+  ],
+  "rights": {
+    "content": "The site’s text, data, films and illustrations are shared under CC BY 4.0: credit “Common Shade” with a link to https://beattheheat.asia, and say if you made changes.",
+    "logo": "No licence for the Common Shade name and logo has been published, and the site’s licence file lists names, logos and trademarks among what CC BY 4.0 does not cover. Use the logo to refer or link to Common Shade.",
+    "voice": "The narration voice in the films is LibriTTS (CC BY 4.0), via Piper.",
+    "formal": "These are practical notes, not formal brand guidelines. No minimum size, clear space or other formal rule has been set."
+  },
+  "usage": [
+    "Use the files on this page, as they are, rather than copying the logo from a screenshot.",
+    "Keep the logo’s proportions: scale it evenly, without stretching or squashing.",
+    "Do not crop, recolour, outline, rotate or add effects to the logo.",
+    "Choose the version that stays legible: the light-background files on white or cream, the dark-background files on dark colours.",
+    "Do not use the logo in a way that suggests Common Shade endorses, funds or partners with an organisation, product or event, unless that has been agreed.",
+    "When you show a film or an image, credit Common Shade and link to beattheheat.asia."
+  ],
+  "contact": { "url": "/join/", "label": "Help build Common Shade", "note": "For questions about using the logo or a film, write to Common Shade through the form on" },
+  "videos": {
+    "collections": [
+      { "id": "films", "name": "Films about the map", "about": "Longer narrated films on how the map works and who heat hits." },
+      { "id": "page-explainers", "name": "Page explainers", "about": "A narrated explainer at the top of a page." },
+      { "id": "page-shorts", "name": "Page shorts", "about": "A drawn short of about 20 seconds at the top of a page." },
+      { "id": "glossary", "name": "Glossary explainers", "about": "One heat term, explained in under a minute." },
+      { "id": "cycles", "name": "Vicious cycles", "about": "How one harm of heat feeds the next, and where the loop can be broken." },
+      { "id": "day", "name": "A heatwave day", "about": "One day of a heatwave, hour by hour." },
+      { "id": "stalls", "name": "Why protection stalls", "about": "What holds heat protection back." }
+    ],
+    "excluded": [
+      { "files": "media/hero/web.mp4 and .webm", "why": "a silent background animation on the homepage, not a film" },
+      { "files": "media/launch/ (six cuts and a poster)", "why": "the launch film; the owner removed its homepage card, and no page shows it" },
+      { "files": "media/reels/ (five reels) and media/social/commonshade-reel-20s.mp4", "why": "no page shows them" },
+      { "files": "media/atrisk, closing, network, wicked, loops-break, day/scene and stalls/office", "why": "background footage no page shows" },
+      { "files": "media/mapguide/ 9:16 cut", "why": "the site shows the 16:9 cut; the 9:16 version is for social posts and no page shows it" }
+    ]
+  }
+}

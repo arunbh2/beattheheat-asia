@@ -65,7 +65,7 @@ const PAGES_HTML = { "index.html": "Home page", "news/index.html": "Heat in the 
   "lancet-countdown-2026/index.html": "Lancet Countdown 2026, in plain language", "how-heat-is-reported/index.html": "How heat is reported" };
 for (const [f, where] of Object.entries(PAGES_HTML)) {
   if (!fs.existsSync(path.join(ROOT, f))) continue;
-  const t = fs.readFileSync(path.join(ROOT, f), "utf8");
+  const t = fs.readFileSync(path.join(ROOT, f), "utf8").replace(/<!--csn-->[\s\S]*?<!--\/csn-->/g, "");   // the shared header and footer (official channels) are not citations
   for (const m of t.matchAll(/<a [^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/g)) add(m[1], m[2].replace(/<[^>]+>/g, "").replace(/\(opens in a new tab\)|↗/g, ""), "ref", where);
 }
 const DATA_TOOLS = [
