@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-26
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-27
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -7464,7 +7464,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 86 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 87 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -7479,6 +7479,8 @@ Dated by the publication date of the work Common Shade draws on (1123 of 1956 wo
 - 2026 so far: 246 works published (142 with a known month), 1123 in all by the end of the period. Financing: 230; Institutions and plans: 138; Practical measures: 248; Experience: 98; Evidence: 409.
 
 ### Changes, newest first
+
+- Tool improved: Common Shade’s logo, colours, films and channels now sit together on one Brand & Media page. Added 27 November 2026 · Brand & Media page added 27 November 2026. Why it matters (our reading): Partners, journalists and teachers asked to use the logo or show a film can now download the current logo files and pack, copy the colours, find any narrated film on the site with its captions and related page, and reach the official channels, which also join the footer of every page. Places: South and Southeast Asia. Review: Logo files written from the logo's own code and rendered with the site's own font; sizes, colours and film durations read from the files and style sheet; page, pack and footer checked by tools/check-brand.js and in a browser at 360 and 1280 px. Next: Open Brand & Media https://beattheheat.asia/brand/. What it took to add this: The question: Can someone who wants to credit or show Common Shade find the right logo, colour, film and channel without asking? Still open: Whether the Instagram and Facebook links reach their permanent addresses, which the platforms would not show to an automated check, and whether a formal licence for the name and logo is wanted.
 
 - Evidence added: What COP31 adopted for heat, and what it did not. Added 26 November 2026 · COP31 closed 22 November 2026. Why it matters (our reading): COP31 ended without its cover decision; separate decisions set up a task force to refine the adaptation indicators and let the Adaptation Fund receive a share of carbon-market proceeds, each recorded at the adopted step only. No figure was set for tripling adaptation finance and no negotiated decision specific to heat was found, and the watch now sits folded below the El Niño watch on Signals. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Dedicated heat budgets. Review: Seven of eight claims confirmed by the source check; the guidance date and the roadmap launch place were not found and are left out; the owner approved the rungs, the synthesis and the archive. Next: See the COP31 watch https://beattheheat.asia/signals/#cop31. Connections: Dedicated heat budgets (from the site's records): The Adaptation Fund decision concerns money that could pay for heat measures; none received or spent on heat has been found yet. What it took to add this: The question: What did COP31 adopt that bears on heat, and what does each step not yet show? 8 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 7 confirmed, and 1 could not be (1 blocked automated reading). 4 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The decision texts themselves, the task force's guidance date, and any proceeds the Adaptation Fund receives.
 

@@ -35,6 +35,10 @@
   "hash": "4de8675d65ddeb61",
   "changed": "2026-11-15"
  },
+ "/brand/": {
+  "hash": "3c3a1e9879105d67",
+  "changed": "2026-11-27"
+ },
  "/briefs/": {
   "hash": "bda291fed3d1631c",
   "changed": "2026-11-15"
@@ -220,8 +224,8 @@
   "changed": "2026-11-26"
  },
  "/for-ai/": {
-  "hash": "f7e14266dfe116ac",
-  "changed": "2026-11-26"
+  "hash": "2762db3f52af4e44",
+  "changed": "2026-11-27"
  },
  "/fund/": {
   "hash": "5e1cadfb849dccc5",
@@ -232,8 +236,8 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "ce28c43a10b8d05e",
-  "changed": "2026-11-26"
+  "hash": "4d63c5e3a887c5cc",
+  "changed": "2026-11-27"
  },
  "/guide/": {
   "hash": "2c7d2aacf77f240a",
@@ -268,8 +272,8 @@
   "changed": "2026-11-26"
  },
  "/heat-economy/money/opportunities/": {
-  "hash": "3934849ca9414724",
-  "changed": "2026-11-26"
+  "hash": "cd2bddad743c00f4",
+  "changed": "2026-11-27"
  },
  "/heat-economy/opportunities/": {
   "hash": "944c28f7fef381a5",
@@ -488,164 +492,164 @@
   "changed": "2026-11-26"
  },
  "/print/": {
-  "hash": "e1073b0464625890",
-  "changed": "2026-11-26"
+  "hash": "002d9464aa0aecd7",
+  "changed": "2026-11-27"
  },
  "/print/actions-clinics/": {
-  "hash": "4f8e992ccdfa0726",
-  "changed": "2026-11-26"
+  "hash": "4c2b47f7f1f73e76",
+  "changed": "2026-11-27"
  },
  "/print/actions-homes/": {
-  "hash": "40754f170dbfa9de",
-  "changed": "2026-11-26"
+  "hash": "af4c026626e888c9",
+  "changed": "2026-11-27"
  },
  "/print/actions-neighbourhoods/": {
-  "hash": "28de76fdcce3eb9c",
-  "changed": "2026-11-26"
+  "hash": "d53e72b5cebccf3a",
+  "changed": "2026-11-27"
  },
  "/print/actions-schools/": {
-  "hash": "e9e102931b9452f3",
-  "changed": "2026-11-26"
+  "hash": "8dc94ee2504da9a6",
+  "changed": "2026-11-27"
  },
  "/print/actions-summer/": {
-  "hash": "f450109feca3d97b",
-  "changed": "2026-11-26"
+  "hash": "b4ac0f766e64038c",
+  "changed": "2026-11-27"
  },
  "/print/actions-work-2/": {
-  "hash": "80b61d5d1414bfd0",
-  "changed": "2026-11-26"
+  "hash": "86e874f90c9d83cc",
+  "changed": "2026-11-27"
  },
  "/print/actions-work/": {
-  "hash": "7a21589ef95c1fe0",
-  "changed": "2026-11-26"
+  "hash": "6f8bf462b41c07ea",
+  "changed": "2026-11-27"
  },
  "/print/city-ahmedabad/": {
-  "hash": "8312b64f6f07f530",
-  "changed": "2026-11-26"
+  "hash": "9361c12b74dc03e8",
+  "changed": "2026-11-27"
  },
  "/print/city-bangkok/": {
-  "hash": "03fabd3fa35bfd86",
-  "changed": "2026-11-26"
+  "hash": "3f711d59002bc8ef",
+  "changed": "2026-11-27"
  },
  "/print/city-bengaluru/": {
-  "hash": "be5573534b52d796",
-  "changed": "2026-11-26"
+  "hash": "75a8bd0d7aaae6fa",
+  "changed": "2026-11-27"
  },
  "/print/city-bhubaneswar/": {
-  "hash": "743084a299d65802",
-  "changed": "2026-11-26"
+  "hash": "d74af3b89e5bcf84",
+  "changed": "2026-11-27"
  },
  "/print/city-chattogram/": {
-  "hash": "3a5041861cc4b4c6",
-  "changed": "2026-11-26"
+  "hash": "f3e205040caf629c",
+  "changed": "2026-11-27"
  },
  "/print/city-chennai/": {
-  "hash": "5aa2275556f1fd1c",
-  "changed": "2026-11-26"
+  "hash": "3e412f06330d1419",
+  "changed": "2026-11-27"
  },
  "/print/city-chiangmai/": {
-  "hash": "16328c52010d965b",
-  "changed": "2026-11-26"
+  "hash": "c9ba1917e31af497",
+  "changed": "2026-11-27"
  },
  "/print/city-colombo/": {
-  "hash": "fb204eab31c5c499",
-  "changed": "2026-11-26"
+  "hash": "e64ab5f2bdb93b05",
+  "changed": "2026-11-27"
  },
  "/print/city-delhi/": {
-  "hash": "bb36da703b034186",
-  "changed": "2026-11-26"
+  "hash": "fc26016935adeb6a",
+  "changed": "2026-11-27"
  },
  "/print/city-dhaka/": {
-  "hash": "10ce6b2f1cf16dcc",
-  "changed": "2026-11-26"
+  "hash": "86dbf23673fae40d",
+  "changed": "2026-11-27"
  },
  "/print/city-hanoi/": {
-  "hash": "0bffa26e8c630a10",
-  "changed": "2026-11-26"
+  "hash": "c1a935bc9200a672",
+  "changed": "2026-11-27"
  },
  "/print/city-hochiminh/": {
-  "hash": "f5829eb526785ac5",
-  "changed": "2026-11-26"
+  "hash": "5d1cddb6a2b8ccf8",
+  "changed": "2026-11-27"
  },
  "/print/city-hyderabad/": {
-  "hash": "6d93a41854d25a60",
-  "changed": "2026-11-26"
+  "hash": "aa64cf35651f71e5",
+  "changed": "2026-11-27"
  },
  "/print/city-jakarta/": {
-  "hash": "4ceb29edbd69bd4a",
-  "changed": "2026-11-26"
+  "hash": "b9fa61a79a6519d8",
+  "changed": "2026-11-27"
  },
  "/print/city-kathmandu/": {
-  "hash": "b0b21dc23ac7c5f2",
-  "changed": "2026-11-26"
+  "hash": "28a783f8d97a97ba",
+  "changed": "2026-11-27"
  },
  "/print/city-kolkata/": {
-  "hash": "2294845a152a2439",
-  "changed": "2026-11-26"
+  "hash": "37902e7d647c04ef",
+  "changed": "2026-11-27"
  },
  "/print/city-manila/": {
-  "hash": "6265479a30ad1521",
-  "changed": "2026-11-26"
+  "hash": "d529cb2dd47c450f",
+  "changed": "2026-11-27"
  },
  "/print/city-mumbai/": {
-  "hash": "8aec2992993d0c6d",
-  "changed": "2026-11-26"
+  "hash": "bd637c044d838a67",
+  "changed": "2026-11-27"
  },
  "/print/city-phnompenh/": {
-  "hash": "21a870d82d265f18",
-  "changed": "2026-11-26"
+  "hash": "7141af6d7c51fb1a",
+  "changed": "2026-11-27"
  },
  "/print/city-quezoncity/": {
-  "hash": "bdf70210f8041d9e",
-  "changed": "2026-11-26"
+  "hash": "7b371f42e59951dd",
+  "changed": "2026-11-27"
  },
  "/print/city-singapore/": {
-  "hash": "35ad46deef659545",
-  "changed": "2026-11-26"
+  "hash": "a368fdbb6b1c8f2d",
+  "changed": "2026-11-27"
  },
  "/print/city-surabaya/": {
-  "hash": "bc82ed613ffc26d5",
-  "changed": "2026-11-26"
+  "hash": "166ebe04e10ba6a5",
+  "changed": "2026-11-27"
  },
  "/print/community-workshop-guide/": {
-  "hash": "7aadd9688339a386",
-  "changed": "2026-11-26"
+  "hash": "95e5daf183ca40c2",
+  "changed": "2026-11-27"
  },
  "/print/cooling-dry/": {
-  "hash": "6db83de6626e7597",
-  "changed": "2026-11-26"
+  "hash": "7d3a0610d518fcf9",
+  "changed": "2026-11-27"
  },
  "/print/cooling-flood/": {
-  "hash": "d41e9c316e0dc7b6",
-  "changed": "2026-11-26"
+  "hash": "f3f825e62b04cad5",
+  "changed": "2026-11-27"
  },
  "/print/cooling-homes/": {
-  "hash": "f7650f5fc3328311",
-  "changed": "2026-11-26"
+  "hash": "e5aa1461b7f8d7fd",
+  "changed": "2026-11-27"
  },
  "/print/cooling-markets/": {
-  "hash": "2f054877ce7b19e9",
-  "changed": "2026-11-26"
+  "hash": "c1fce2c8c5587fe3",
+  "changed": "2026-11-27"
  },
  "/print/cooling-schools/": {
-  "hash": "fc5775eb404ef4a6",
-  "changed": "2026-11-26"
+  "hash": "d8ab425fa799b6e7",
+  "changed": "2026-11-27"
  },
  "/print/cooling-system/": {
-  "hash": "420784e478f89e27",
-  "changed": "2026-11-26"
+  "hash": "a11993176e76eb72",
+  "changed": "2026-11-27"
  },
  "/print/cooling-waiting/": {
-  "hash": "6b26f3f9a93372e7",
-  "changed": "2026-11-26"
+  "hash": "3c79042af13d69f5",
+  "changed": "2026-11-27"
  },
  "/print/cooling-work/": {
-  "hash": "425c74a927c42e2c",
-  "changed": "2026-11-26"
+  "hash": "d75cdd54018c72d0",
+  "changed": "2026-11-27"
  },
  "/print/dry-and-humid-heat/": {
-  "hash": "a4146cad8eb36627",
-  "changed": "2026-11-26"
+  "hash": "3512296343a9b19f",
+  "changed": "2026-11-27"
  },
  "/print/el-nino-briefing/": {
   "hash": "c57afd0fbfdccb22",
@@ -656,24 +660,24 @@
   "changed": "2026-11-26"
  },
  "/print/four-heats/": {
-  "hash": "b968174332ed6feb",
-  "changed": "2026-11-26"
+  "hash": "f9c663a7ee5a6b1b",
+  "changed": "2026-11-27"
  },
  "/print/heatwaves/": {
-  "hash": "a141f3204e0a1829",
-  "changed": "2026-11-26"
+  "hash": "b703163b0ee7dd3e",
+  "changed": "2026-11-27"
  },
  "/print/paying-for-protection/": {
-  "hash": "88def3ef4f5ee2db",
-  "changed": "2026-11-26"
+  "hash": "6e5f19ad585ea132",
+  "changed": "2026-11-27"
  },
  "/print/weather-work-person/": {
-  "hash": "c1759e6ec3a18e3b",
-  "changed": "2026-11-26"
+  "hash": "18af46c69d901bc4",
+  "changed": "2026-11-27"
  },
  "/print/workshop-guide/": {
-  "hash": "5a6e7b8843488795",
-  "changed": "2026-11-26"
+  "hash": "e229155a65e50187",
+  "changed": "2026-11-27"
  },
  "/privacy/": {
   "hash": "f7876cb419d62ca5",
@@ -712,8 +716,8 @@
   "changed": "2026-11-26"
  },
  "/sources/": {
-  "hash": "ce7712ac1ef99778",
-  "changed": "2026-11-26"
+  "hash": "bd892bad2cd156b7",
+  "changed": "2026-11-27"
  },
  "/the-web/": {
   "hash": "c17a51f439075de3",

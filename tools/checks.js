@@ -21,6 +21,7 @@ const CHECKS = [
   { name: "city-history", cmd: "node tools/check-city-history.js", guards: "heat over time: statistics and station rules" },
   { name: "signals", cmd: "node tools/check-signals.js", guards: "the Signals tracking model, cards and anchors" },
   { name: "enso", cmd: "node tools/check-enso.js", guards: "the El Niño pages: one outlook record, the same status sentences on every page, forecast periods, probabilities, anchors and the tools route" },
+  { name: "brand", cmd: "node tools/check-brand.js", guards: "Brand & Media (/brand/): logo files match the logo's code, the logo pack holds only them, every film and file linked exists, copy links are public, the official channels appear once in every footer" },
   { name: "share", cmd: "node tools/check-share.js", guards: "Share this page: WhatsApp and LinkedIn links and their encoding, one page-specific set of social tags on every page, share messages, the systems-map preview image" },
   { name: "funding", cmd: "node tools/check-funding.js", guards: "funding landscape, open calls and careers: status and freshness rules, matching, CSV safety, data and pages" },
   { name: "signals-sync", cmd: "node tools/signals-sync.js --check", guards: "Signals' derived fields and check records are up to date" },

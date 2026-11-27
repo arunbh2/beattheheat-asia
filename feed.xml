@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-26T00:00:00Z</updated>
+  <updated>2026-11-27T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>Common Shade’s logo, colours, films and channels now sit together on one Brand &amp; Media page</title>
+    <link href="https://beattheheat.asia/growing/#g-brand-media" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-brand-media</id>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary>Partners, journalists and teachers asked to use the logo or show a film can now download the current logo files and pack, copy the colours, find any narrated film on the site with its captions and related page, and reach the official channels, which also join the footer of every page.</summary>
+  </entry>
   <entry>
     <title>What COP31 adopted for heat, and what it did not</title>
     <link href="https://beattheheat.asia/growing/#g-cop31-closing" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-sea-humid-heat</id>
     <updated>2026-11-16T00:00:00Z</updated>
     <summary>A 2025 study measuring humid heat stress across Southeast Asia, checked against its open full text, projects that far more people could face a week or more of extreme humid heat, with 6 to 9 hours of severe heat stress a day in Myanmar, Thailand and Cambodia in peak months. It sits beside the study of longer heatwaves, which covers daily maximum temperature in India and Pakistan only.</summary>
-  </entry>
-  <entry>
-    <title>Actions chosen in Build protection now carry into a plan</title>
-    <link href="https://beattheheat.asia/growing/#g-build-to-plan" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-build-to-plan</id>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <summary>A reader chose paid rest breaks in Build protection, followed the link to Plan a response and found an empty plan. The actions now carry across and join whatever the plan already holds, without replacing any notes, and each line says which actions it came from.</summary>
   </entry>
 </feed>

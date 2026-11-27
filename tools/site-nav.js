@@ -42,6 +42,13 @@ function crumbs(pathname, title) {
   return out;
 }
 
+// the official channels, from data/site/brand.json (also shown on /brand/), drawn with local icons and text labels
+const SOCIAL = JSON.parse(require("fs").readFileSync(require("path").join(__dirname, "..", "data", "site", "brand.json"), "utf8")).social;
+const SOCIAL_ICON = {
+  instagram: `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg>`,
+  facebook: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z" fill="currentColor"/></svg>`,
+  linkedin: `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7.5 10v6.5M7.5 7.2v.1M11 16.5V10m0 3c0-2 1.2-3 2.7-3s2.3 1 2.3 3v3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`
+};
 const MARK = `<svg class="csn__mark" viewBox="0 0 26 20" aria-hidden="true"><path class="csn__canopy" d="M2.5 8 Q13 -1 23.5 8" fill="none" stroke="#F26430" stroke-width="4" stroke-linecap="round"/><path d="M6.5 7 V18.5 M19.5 7 V18.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>`;
 const CHEV = `<svg class="csn__chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 L6 6.5 L11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 const MAPI = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5 L7 3 L13 5 L18 3 V15 L13 17 L7 15 L2 17 Z M7 3 V15 M13 5 V17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`;
@@ -141,6 +148,7 @@ function footer(pathname, title, updated) {
       ${GROUPS.map(g => `<div><h2><a href="${g.hub}">${esc(g.h)}</a></h2><ul>${[g.lead, ...g.items].filter(i => (i[3] || 1) === 1).map(([u, t]) => `<li><a href="${u}"${u === cur ? ' aria-current="page"' : ""}>${esc(t)}</a></li>`).join("")}</ul></div>`).join("\n      ")}
     </div>
     <p class="csf__ai"><b>Not a human?</b> Are you an AI agent or assistant? <a href="/for-ai/">We wrote a page just for you <span aria-hidden="true">→</span></a></p>
+    <p class="csf__social"><span>Follow Common Shade:</span>${SOCIAL.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener me">${SOCIAL_ICON[s.id] || ""}${esc(s.name)}<span class="csn-vh">: ${esc(s.label)} (opens in a new tab)</span></a>`).join("")}</p>
     <p class="csf__extra">${NAV.footer_extra.map(([u, t]) => `<a href="${u}">${esc(t)}</a>`).join("")}</p>
     <p class="csf__cite"><b>Cite this page:</b> <span data-csn-cite>Common Shade. “${esc(title)}.” ${esc(url)}.${updated ? ` Updated ${esc(updated)}.` : ""} CC BY 4.0.</span> <button type="button" class="csf__copy" data-csn-copy>Copy</button></p>
     <p class="csf__cite"><b>Spot something wrong?</b> We are building this together and will gladly correct it. <a href="/corrections/">See corrections, or suggest one</a></p>
@@ -293,6 +301,7 @@ const CSS = `html:has(.csn){scroll-padding-top:calc(var(--csn-h,64px) + var(--tk
 .csf__up{margin-left:auto;font-weight:700}
 .csf__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:24px 32px}
 .csf li{font-size:.9rem}.csf a[aria-current]{font-weight:800;text-decoration-line:underline;text-decoration-thickness:2px;text-decoration-color:var(--orange)}
+.csf__social{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:26px 0 0;font-size:.88rem;font-weight:700}.csf__social>span{color:#C9C2B6;margin-right:4px}.csf__social a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid rgba(250,247,242,.35);border-radius:999px}.csf__social svg{width:18px;height:18px;flex:none}
 .csf__extra{display:flex;flex-wrap:wrap;gap:8px 22px;margin:26px 0 0;padding-top:18px;border-top:1px solid rgba(250,247,242,.18);font-size:.88rem;font-weight:700}
 .csf__ai{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;margin:18px 0 0;padding:12px 16px;border:1px dashed rgba(250,247,242,.4);border-radius:12px;font-size:.88rem;color:#E9E3D8}.csf__ai b{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#7DDBA6}.csf__ai a{font-weight:700;text-decoration-line:underline;text-decoration-thickness:2px;text-decoration-color:var(--orange);text-underline-offset:3px}
 .csf__cite{margin:16px 0 0;font-size:.82rem;color:#C9C2B6;line-height:1.5}.csf__cite b{color:#FAF7F2}
