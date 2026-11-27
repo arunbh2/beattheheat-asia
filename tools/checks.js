@@ -21,6 +21,8 @@ const CHECKS = [
   { name: "city-history", cmd: "node tools/check-city-history.js", guards: "heat over time: statistics and station rules" },
   { name: "signals", cmd: "node tools/check-signals.js", guards: "the Signals tracking model, cards and anchors" },
   { name: "enso", cmd: "node tools/check-enso.js", guards: "the El Niño pages: one outlook record, the same status sentences on every page, forecast periods, probabilities, anchors and the tools route" },
+  { name: "wet-bulb", cmd: "node tools/check-wet-bulb.js", guards: "The wet-bulb wall: the calculation against CoolProp, its physics, the weather adapter on synthetic records, page wording and its sources" },
+  { name: "heat-futures", cmd: "node tools/check-heat-futures.js", guards: "Heat futures: projected data and its re-read, the protection model, climate and protection kept apart, shared links, wording and sources" },
   { name: "brand", cmd: "node tools/check-brand.js", guards: "Brand & Media (/brand/): logo files match the logo's code, the logo pack holds only them, every film and file linked exists, copy links are public, the official channels appear once in every footer" },
   { name: "share", cmd: "node tools/check-share.js", guards: "Share this page: WhatsApp and LinkedIn links and their encoding, one page-specific set of social tags on every page, share messages, the systems-map preview image" },
   { name: "funding", cmd: "node tools/check-funding.js", guards: "funding landscape, open calls and careers: status and freshness rules, matching, CSV safety, data and pages" },
@@ -36,6 +38,7 @@ const CHECKS = [
   { name: "plan-file", cmd: "node tools/check-plan-file.js", server: true, slow: true, guards: "/plan/ saves the whole plan to a file and opens it back unchanged; a stranger's file is refused" },
   { name: "contrast", cmd: "node tools/check-contrast.js", server: true, slow: true, guards: "WCAG AA contrast on every rendered page" },
   { name: "targets", cmd: "node tools/check-targets.js", server: true, slow: true, guards: "WCAG 2.2 touch target size on every rendered page at 390px" },
+  { name: "interactives-ui", cmd: "node tools/check-interactives-ui.js", server: true, slow: true, guards: "the wet-bulb wall and heat futures in a browser: controls, keyboard, synthetic city weather and its failure states, links, export and print" },
   { name: "share-ui", cmd: "node tools/check-share-ui.js", server: true, slow: true, guards: "the share panel in a browser: message, links, copying when allowed and refused, cancelling, keyboard, sections, printable sheets, 360 and 390px" },
   { name: "site", cmd: "node tools/check-site.js", slow: true, tracked: true, guards: "every tracked page loads at 375px and 1280px without errors or sideways scroll, and reflows at 320px with text at 200%" },
 ];

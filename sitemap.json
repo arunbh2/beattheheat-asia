@@ -350,6 +350,11 @@
       "updated": "2026-11-26"
     },
     {
+      "url": "https://beattheheat.asia/heat-futures/",
+      "markdown": "https://beattheheat.asia/heat-futures/index.md",
+      "updated": "2026-11-27"
+    },
+    {
       "url": "https://beattheheat.asia/heat-network/",
       "markdown": "https://beattheheat.asia/heat-network/index.md",
       "updated": "2026-11-26"
@@ -357,7 +362,7 @@
     {
       "url": "https://beattheheat.asia/heat-tools/",
       "markdown": "https://beattheheat.asia/heat-tools/index.md",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/asmc_enso/",
@@ -852,7 +857,7 @@
     {
       "url": "https://beattheheat.asia/privacy/",
       "markdown": "https://beattheheat.asia/privacy/index.md",
-      "updated": "2026-11-26"
+      "updated": "2026-11-27"
     },
     {
       "url": "https://beattheheat.asia/resources/",
@@ -912,12 +917,17 @@
     {
       "url": "https://beattheheat.asia/understand/",
       "markdown": "https://beattheheat.asia/understand/index.md",
-      "updated": "2026-11-19"
+      "updated": "2026-11-27"
     },
     {
       "url": "https://beattheheat.asia/use-with-ai/",
       "markdown": "https://beattheheat.asia/use-with-ai/index.md",
       "updated": "2026-11-17"
+    },
+    {
+      "url": "https://beattheheat.asia/wet-bulb-wall/",
+      "markdown": "https://beattheheat.asia/wet-bulb-wall/index.md",
+      "updated": "2026-11-27"
     },
     {
       "url": "https://beattheheat.asia/whats-new/",

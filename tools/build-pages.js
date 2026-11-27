@@ -661,6 +661,8 @@ require("./signals-context.js").inject({ D, esc });   // "What is moving here": 
 require("./build-use-with-ai.js").page({ page, write, esc, hero, D });
 require("./build-for-ai.js")({ page, write, esc, hero, V, D, ROOT });
 require("./build-privacy.js")({ page, write, esc, hero });
+require("./build-wet-bulb-wall.js")({ page, write, esc, hero, V });   // /wet-bulb-wall/: heat, humidity and cooling
+require("./build-heat-futures.js")({ page, write, esc, hero, V });   // /heat-futures/: projections beside illustrative protection
 require("./build-brand.js")({ page, write, esc, hero, V });   // /brand/: logos, colours, films and channels
 require("./build-hap-archive.js")({ page, write, esc, V, ROOT });
 

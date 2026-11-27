@@ -1,7 +1,7 @@
 ---
 title: "Heat Tool Finder: which heat tool fits your decision"
 url: https://beattheheat.asia/heat-tools/
-updated: 2026-11-26
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
@@ -14,6 +14,8 @@ Heat Tool Finder
 Find tools for warnings, risk assessment, cooling and protection planning. Compare what they need, what they produce, and where their limits matter.
 
 A navigation and comparison service. Inclusion is not endorsement or certification. Check local applicability, current source information and professional requirements before relying on a tool. It is not a weather feed, a risk score or a complete list, and Common Shade has not run any of these tools itself.
+
+**New interactives:** [The wet-bulb wall](https://beattheheat.asia/wet-bulb-wall/): how heat and humidity together limit cooling, with six cities’ latest weather. [Heat futures: 2035–2050](https://beattheheat.asia/heat-futures/): projected hot days and nights near six cities, beside who could be protected.
 
 [I need to prepare for El Niño-related seasonal risk](#el-nino): tools from Pacific monitoring to local warnings, by decision horizon.
 

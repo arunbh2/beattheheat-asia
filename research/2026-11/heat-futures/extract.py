@@ -13,8 +13,8 @@ Values are the files' own numbers, rounded only for display (one decimal). Nothi
 Run once by a maintainer; the result, data/site/heat-futures.json, is committed and is all the page reads.
 Needs the netCDF4 Python package for this one-off step only (pip install netCDF4); it is not a site dependency.
   python3 research/2026-11/heat-futures/extract.py [cache-folder]
-tools/check-heat-futures.js re-reads nothing from AWS; research/2026-11/heat-futures/reproduce.py re-extracts a sample
-with h5py-free raw reads to confirm the committed numbers.
+research/2026-11/heat-futures/reproduce.py re-reads a sample by direct coordinate lookup, a separate code path, and
+tools/check-heat-futures.js compares the two.
 """
 import json, math, os, sys, urllib.request, datetime
 import netCDF4

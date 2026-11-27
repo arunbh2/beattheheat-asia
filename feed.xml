@@ -8,6 +8,20 @@
   <updated>2026-11-27T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
   <entry>
+    <title>The wet-bulb wall shows how heat and humidity together limit cooling</title>
+    <link href="https://beattheheat.asia/growing/#g-wet-bulb-wall" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-wet-bulb-wall</id>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary>Readers can drag temperature and humidity across a chart shaded by calculated wet-bulb temperature, compare six cities’ latest modelled weather, switch on measured limits from chamber studies, and see why the same weather leaves people with different ways to protect themselves.</summary>
+  </entry>
+  <entry>
+    <title>Heat futures sets projected heat near six cities beside who could be protected</title>
+    <link href="https://beattheheat.asia/growing/#g-heat-futures" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-heat-futures</id>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary>Projected hot days, hot nights and hottest days around 2030 and 2050 for the grid cell near each of six cities under three emissions paths sit beside a separate, illustrative panel showing how the start, pace and reach of protection change who is covered, and what a later start costs in years without protection.</summary>
+  </entry>
+  <entry>
     <title>Common Shade’s logo, colours, films and channels now sit together on one Brand &amp; Media page</title>
     <link href="https://beattheheat.asia/growing/#g-brand-media" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-brand-media</id>
@@ -202,19 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-how-heat-is-reported-explorer</id>
     <updated>2026-11-16T00:00:00Z</updated>
     <summary>The page now explains how a multilingual pilot complicated its first reading, and lets readers find every article across countries, languages and collections, see what the review found in each, compare stories on the same protection and build a source-linked reporting question. Missing information reads not recorded or not assessed, never as a failure.</summary>
-  </entry>
-  <entry>
-    <title>Heat plans and the heatwave longer than any on record</title>
-    <link href="https://beattheheat.asia/growing/#g-future-heatwaves" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-future-heatwaves</id>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <summary>A 2026 modelling study, checked against its open full text, finds that some future heatwaves in India and Pakistan could outlast the region's recent record even with low emissions. The heat action plan action now carries that as something to watch for, and the learning agenda asks whether plans, budgets and cooling spaces could keep running through one.</summary>
-  </entry>
-  <entry>
-    <title>Humid heat in Southeast Asia, beside the longer heatwaves</title>
-    <link href="https://beattheheat.asia/growing/#g-sea-humid-heat" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-sea-humid-heat</id>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <summary>A 2025 study measuring humid heat stress across Southeast Asia, checked against its open full text, projects that far more people could face a week or more of extreme humid heat, with 6 to 9 hours of severe heat stress a day in Myanmar, Thailand and Cambodia in peak months. It sits beside the study of longer heatwaves, which covers daily maximum temperature in India and Pakistan only.</summary>
   </entry>
 </feed>

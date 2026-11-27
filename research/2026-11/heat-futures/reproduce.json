@@ -1,0 +1,77 @@
+{
+ "about": "Independent re-read of a sample of heat-futures.json values from the source files (reproduce.py).",
+ "samples": [
+  {
+   "city": "delhi",
+   "ind": "hd35",
+   "scen": "ssp370",
+   "period": "2040-2059",
+   "pct": "median",
+   "value": 122.1,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-ssp370/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-ssp370_climatology_median_2040-2059.nc"
+  },
+  {
+   "city": "bangkok",
+   "ind": "tr26",
+   "scen": "ssp126",
+   "period": "2020-2039",
+   "pct": "p90",
+   "value": 253.0,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/tr26/ensemble-all-ssp126/climatology-tr26-annual-mean_cmip6-x0.25_ensemble-all-ssp126_climatology_p90_2020-2039.nc"
+  },
+  {
+   "city": "manila",
+   "ind": "txx",
+   "scen": "ssp245",
+   "period": "2040-2059",
+   "pct": "p10",
+   "value": 35.9,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/txx/ensemble-all-ssp245/climatology-txx-annual-mean_cmip6-x0.25_ensemble-all-ssp245_climatology_p10_2040-2059.nc"
+  },
+  {
+   "city": "dhaka",
+   "ind": "hd35",
+   "scen": "historical",
+   "period": "1995-2014",
+   "pct": "median",
+   "value": 15.85,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-historical/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-historical_climatology_median_1995-2014.nc"
+  },
+  {
+   "city": "jakarta",
+   "ind": "tr26",
+   "scen": "ssp370",
+   "period": "2040-2059",
+   "pct": "median",
+   "value": 16.2,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/tr26/ensemble-all-ssp370/climatology-tr26-annual-mean_cmip6-x0.25_ensemble-all-ssp370_climatology_median_2040-2059.nc"
+  },
+  {
+   "city": "mumbai",
+   "ind": "txx",
+   "scen": "ssp126",
+   "period": "2020-2039",
+   "pct": "median",
+   "value": 36.39,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/txx/ensemble-all-ssp126/climatology-txx-annual-mean_cmip6-x0.25_ensemble-all-ssp126_climatology_median_2020-2039.nc"
+  },
+  {
+   "city": "delhi",
+   "ind": "tr26",
+   "scen": "historical",
+   "period": "1995-2014",
+   "pct": "p90",
+   "value": 111.8,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/tr26/ensemble-all-historical/climatology-tr26-annual-mean_cmip6-x0.25_ensemble-all-historical_climatology_p90_1995-2014.nc"
+  },
+  {
+   "city": "bangkok",
+   "ind": "hd35",
+   "scen": "ssp245",
+   "period": "2040-2059",
+   "pct": "p90",
+   "value": 164.9,
+   "file": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-ssp245/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-ssp245_climatology_p90_2040-2059.nc"
+  }
+ ]
+}

@@ -236,7 +236,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "4d63c5e3a887c5cc",
+  "hash": "9f494ac331ae3695",
   "changed": "2026-11-27"
  },
  "/guide/": {
@@ -279,13 +279,17 @@
   "hash": "944c28f7fef381a5",
   "changed": "2026-11-26"
  },
+ "/heat-futures/": {
+  "hash": "b3f8d1f357b60d04",
+  "changed": "2026-11-27"
+ },
  "/heat-network/": {
   "hash": "d6f78f73dd098ecf",
   "changed": "2026-11-26"
  },
  "/heat-tools/": {
-  "hash": "7ea4ffc50b0fc53c",
-  "changed": "2026-11-26"
+  "hash": "7a72282940db0c59",
+  "changed": "2026-11-27"
  },
  "/heat-tools/asmc_enso/": {
   "hash": "b943b753b0db2074",
@@ -680,8 +684,8 @@
   "changed": "2026-11-27"
  },
  "/privacy/": {
-  "hash": "f7876cb419d62ca5",
-  "changed": "2026-11-26"
+  "hash": "891301fe21fbfc07",
+  "changed": "2026-11-27"
  },
  "/resources/": {
   "hash": "a08671d2bf20c1da",
@@ -728,12 +732,16 @@
   "changed": "2026-11-26"
  },
  "/understand/": {
-  "hash": "46bb55b87c6d4ca0",
-  "changed": "2026-11-19"
+  "hash": "9a0f36367907673e",
+  "changed": "2026-11-27"
  },
  "/use-with-ai/": {
   "hash": "b1b604513cefb53b",
   "changed": "2026-11-17"
+ },
+ "/wet-bulb-wall/": {
+  "hash": "b6276487eac2f821",
+  "changed": "2026-11-27"
  },
  "/whats-new/": {
   "hash": "6ee7336145141810",
