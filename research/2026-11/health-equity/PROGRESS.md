@@ -61,8 +61,9 @@ basis; AI suggestions are not evidence.
 - Connect all four through taxonomy ids; editor documentation; tests listed in brief B section 14.
 
 ## Status
-- [ ] Audit (both briefs)
-- [ ] Shared taxonomy
-- [ ] Brief A wave 1 · [ ] wave 2 · [ ] wave 3
-- [ ] Brief B (1) plan · [ ] (2) solutions · [ ] (3) HAP review · [ ] (4) money and Signals
-- [ ] Checks, browser review, PR, merge
+- [x] Audit (both briefs): AUDIT.md
+- [x] Shared taxonomy: data/site/equity-taxonomy.json, tools/equity-taxonomy.js (sources batch 2026-11-health-equity staged, verify run triggered)
+- [x] Brief A wave 1 (three flagships with interactions) · [x] wave 2 (connected settings as sections in the flagships) · [x] wave 3 (factory card module and buddy fix, route page, map pathways, gaps, nav, share, print)
+- [x] Brief B (1) plan (script.js EQC + cleanEquity; plan/index.html #plan-equity-check; text and printable brief; check-plan-file extended) · [x] (2) solutions (build-solutions.js: filter, reason line, "Can people actually use this?"; styles.css appended, cache bump to ?v=255 still to do) · [x] (3) HAP review (research/2026-11/health-equity/hap-review.js, hap-set.json, research/hap-text/, data/site/hap-equity-review.json, tools/hap-review-section.js; 7 of 147, Maharashtra Marathi -> not assessed) · [x] (4) money and Signals (tools/equity-reach.js in build-funding and build-signals; summary #equity-reach on money page)
+- Still to do for brief B: tests (check-equity.js), browser check, editor docs in CLAUDE.md, cache bump ?v=255
+- [x] Checks (equity, equity-ui; check-all 33 pass), browser review at 360px; PR and merge next

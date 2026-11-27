@@ -110,6 +110,7 @@ function render(esc, ctx) {
         ${(s.corrections || []).length ? `<p class="sg-lab">Corrected by Common Shade</p><ul>${s.corrections.map(c => `<li>${time(c.date)} ${e(c.note)} <a href="/corrections/">Corrections</a></li>`).join("")}</ul>` : ""}
         <p class="sg-review"><span class="sg-lab">Review</span>Record last reviewed ${time(s.review.reviewed)}. Sources last checked ${checked ? time(checked) : "never"}. Next review due ${time(s.review.due)}. <a href="#sg-method">What a review covers</a></p>
       </details>
+      ${isC ? require("./equity-reach.js").signal(s, { esc: e }) : ""}
       ${reading(s)}
       ${s.id === ENSO_FINDING ? `<p class="sg-small">Read with the <a href="#el-nino-watch">El Niño watch</a> above, which shows the latest official bulletin, and the explainer <a href="/el-nino/">El Niño and heat in Asia</a>.</p>` : ""}
       ${related(s)}

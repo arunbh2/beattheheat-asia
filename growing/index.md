@@ -5,7 +5,7 @@ updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 89 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 91 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,61 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-89 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+91 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### Heat, health and the ability to act: who can use protection, and what makes it possible
+
+Added 27 November 2026 · Heat, health and the ability to act: who can use protection, and what makes it possible 27 November 2026
+
+Why it matters our readingThree new pages follow protection from a cooler room or a paid break to whether people can actually use it: a home that is also a workplace, care that continues through heat, and rest without losing income, each with an interaction, connected settings and what remains unknown.
+
+- South and Southeast Asia
+
+ReviewClaims rest on sources that passed verify-sources.yml; labels and plan findings are script-matched from published wording and shown with their passages, not yet reviewed by a person; checked by tools/check-equity.js and in a browser at 360 px.
+
+What it took to add this
+
+- **The question.** Can a reader follow one protection from what it does to who can use it, who decides and what is still unknown?
+
+- **What is still open.** Specialist review of the pregnancy and care sections, and a person's check of each script-matched label.
+
+See for yourself:
+
+[Start the route](https://beattheheat.asia/heat-health-and-equity/)
+[Rest without losing income](https://beattheheat.asia/rest-without-losing-income/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%2C%20health%20and%20the%20ability%20to%20act%3A%20who%20can%20use%20protection%2C%20and%20what%20makes%20it%20possible&ref=g-heat-health-equity#way-share)
+
+Tool improved · Practical measures
+
+### Equity questions now run through planning, solutions, heat plans and funding
+
+Added 27 November 2026 · Equity questions now run through planning, solutions, heat plans and funding 27 November 2026
+
+Why it matters our readingThe plan workbook gains an equity and accommodation check; the Solutions library an Equity and access filter with a usability panel on every card; the India archive a first review of documented health and equity provisions in seven plans; and funding and Signals records a health and equity reach panel.
+
+- South and Southeast Asia
+
+ReviewClaims rest on sources that passed verify-sources.yml; labels and plan findings are script-matched from published wording and shown with their passages, not yet reviewed by a person; checked by tools/check-equity.js and in a browser at 360 px.
+
+What it took to add this
+
+- **The question.** Can someone tell a protection that exists on paper from one people can use, with someone accountable and resources in place?
+
+- **What is still open.** Hand review of the seven plan reviews, a Marathi reading of Maharashtra's plan, and amounts for funding components.
+
+See for yourself:
+
+[Try the equity filter](https://beattheheat.asia/plan/#plan-step-6)
+[Solutions library](https://beattheheat.asia/solutions/)[Documented provisions in heat plans](https://beattheheat.asia/resources/heat-action-plans/india/#provisions)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Equity%20questions%20now%20run%20through%20planning%2C%20solutions%2C%20heat%20plans%20and%20funding&ref=g-equity-across-tools#way-share)
 
 Tool improved · Practical measures
 

@@ -24,8 +24,8 @@
   "changed": "2026-11-20"
  },
  "/actions/": {
-  "hash": "e0ee4e47fa746a82",
-  "changed": "2026-11-26"
+  "hash": "05574e28c78efba4",
+  "changed": "2026-11-27"
  },
  "/approach/": {
   "hash": "e89e4d4a4230d3af",
@@ -54,6 +54,10 @@
  "/build/": {
   "hash": "01880e0755477fe1",
   "changed": "2026-11-16"
+ },
+ "/care-through-heat/": {
+  "hash": "aac92709fcfea294",
+  "changed": "2026-10-01"
  },
  "/cite/": {
   "hash": "fa1f831229497194",
@@ -212,8 +216,8 @@
   "changed": "2026-11-19"
  },
  "/factory-heat/": {
-  "hash": "bb90575c90a34532",
-  "changed": "2026-11-20"
+  "hash": "6fe1691bd0ad423d",
+  "changed": "2026-11-27"
  },
  "/factory-heat/worksheet/": {
   "hash": "0b6d8f6faa6b8005",
@@ -236,7 +240,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "9f494ac331ae3695",
+  "hash": "9b055607464f562f",
   "changed": "2026-11-27"
  },
  "/guide/": {
@@ -244,8 +248,8 @@
   "changed": "2026-11-26"
  },
  "/heat-assembly/": {
-  "hash": "0858f2a668753efa",
-  "changed": "2026-11-26"
+  "hash": "c8792c30a7dc94c3",
+  "changed": "2026-11-27"
  },
  "/heat-economy/": {
   "hash": "a84c70cf483dd687",
@@ -264,8 +268,8 @@
   "changed": "2026-11-21"
  },
  "/heat-economy/money/": {
-  "hash": "df12750ce896b49d",
-  "changed": "2026-11-26"
+  "hash": "cb2ae2a350668077",
+  "changed": "2026-11-27"
  },
  "/heat-economy/money/careers/": {
   "hash": "4fe1f9bc8c5fe164",
@@ -283,9 +287,13 @@
   "hash": "b3f8d1f357b60d04",
   "changed": "2026-11-27"
  },
+ "/heat-health-and-equity/": {
+  "hash": "d35cee442d70dec7",
+  "changed": "2026-10-01"
+ },
  "/heat-network/": {
-  "hash": "d6f78f73dd098ecf",
-  "changed": "2026-11-26"
+  "hash": "00316f7e4f13566f",
+  "changed": "2026-11-27"
  },
  "/heat-tools/": {
   "hash": "7a72282940db0c59",
@@ -411,6 +419,10 @@
   "hash": "a0b2e4a97acb5add",
   "changed": "2026-11-26"
  },
+ "/home-is-also-the-workplace/": {
+  "hash": "8a2bf3c9b7946c00",
+  "changed": "2026-10-01"
+ },
  "/how-heat-became-visible/": {
   "hash": "416b6b10abc6ea04",
   "changed": "2026-11-06"
@@ -432,8 +444,8 @@
   "changed": "2026-11-26"
  },
  "/live-through-a-heatwave/": {
-  "hash": "22f2eb21a8772f21",
-  "changed": "2026-11-26"
+  "hash": "f03746ca90808429",
+  "changed": "2026-11-27"
  },
  "/loops/": {
   "hash": "56613217d5f39a88",
@@ -484,8 +496,8 @@
   "changed": "2026-11-13"
  },
  "/plan/": {
-  "hash": "0efdea18f89ee8ed",
-  "changed": "2026-11-26"
+  "hash": "cf476adc38191f50",
+  "changed": "2026-11-27"
  },
  "/practical-actions/": {
   "hash": "6843a027c1b8bf00",
@@ -696,28 +708,32 @@
   "changed": "2026-11-19"
  },
  "/resources/heat-action-plans/india/": {
-  "hash": "e826fde106a18bce",
-  "changed": "2026-11-19"
+  "hash": "a174ccee6d73a533",
+  "changed": "2026-11-27"
+ },
+ "/rest-without-losing-income/": {
+  "hash": "3a56ed2671257af1",
+  "changed": "2026-11-27"
  },
  "/shared-heat/": {
   "hash": "26b9450abb59d932",
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "1bdade3bfde9249b",
-  "changed": "2026-11-26"
+  "hash": "9543eebec7b674f5",
+  "changed": "2026-11-27"
  },
  "/signals/all/": {
-  "hash": "224bf76562670ecb",
-  "changed": "2026-11-26"
+  "hash": "394a546998fbc6ae",
+  "changed": "2026-11-27"
  },
  "/social-protection/": {
   "hash": "e98f3467dfa14b44",
   "changed": "2026-11-15"
  },
  "/solutions/": {
-  "hash": "b0d424ff93ae02f1",
-  "changed": "2026-11-26"
+  "hash": "59ae7e65d33fe761",
+  "changed": "2026-11-27"
  },
  "/sources/": {
   "hash": "bd892bad2cd156b7",
@@ -732,7 +748,7 @@
   "changed": "2026-11-26"
  },
  "/understand/": {
-  "hash": "9a0f36367907673e",
+  "hash": "649660ad2e4889b7",
   "changed": "2026-11-27"
  },
  "/use-with-ai/": {

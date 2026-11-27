@@ -1,7 +1,7 @@
 ---
 title: "Solutions library"
 url: https://beattheheat.asia/solutions/
-updated: 2026-11-26
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
@@ -33,6 +33,11 @@ Search
 Setting
 Heat
 Evidence
+Equity and access
+Provision
+Shown as
+One provision at a time. Read from each record’s own wording by script, not yet reviewed by a person. “Not yet assessed” lists records that do not mention the provision: silence is not a finding that it is missing. [What each provision means](https://beattheheat.asia/heat-health-and-equity/#taxonomy)
+
 131 solutions
 
 **Watch: 131 ways to protect people** · 0:35 · narrated, captions in the picture
@@ -84,6 +89,31 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 #### Fairness and risks
 
 Screen who can access the roof and who bears work-at-height risk. Include tenants and women doing home-based work; avoid treating coating as proof a home is safe.
+
+Can people actually use this?
+
+**Access requirements**: Compatible, sound roof; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “maintenance and access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen who can access the roof and who bears work-at-height risk. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Agree who checks condition, cleans safely and renews the coating; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Include tenants and women doing home-based work;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -159,6 +189,31 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 
 Screen affordability, landlord consent, wind/fire compliance and plastic waste. No water-based cooling or operational refrigerant is inherent to the membrane.
 
+Can people actually use this?
+
+**Access requirements**: Compatible roof substrate, skilled seam/attachment design, drainage and reliable material specification. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “repairability evidence is product-specific.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen affordability, landlord consent, wind/fire compliance and plastic waste. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Roof owner/contractor checks seams, drainage, punctures and surface condition; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen affordability, landlord consent, wind/fire compliance and plastic waste.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Hyderabad, India, May 2017; account July 2019.** HDPE membrane cool-roof pilot in a low-income neighbourhood. 25 city roofs [NRDC: Keeping It Cool, July 2019 programme factsheet ](https://www.nrdc.org/sites/default/files/keeping-it-cool-roofs-india-fs.pdf)
@@ -229,6 +284,31 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 
 Screen foam blowing-agent/emissions information, fire behaviour, installation exposure, waste and moisture. Check affordability and permission rather than assuming tenants can modify a roof.
 
+Can people actually use this?
+
+**Access requirements**: Continuous insulation, suitable material, structural/fire/electrical checks and a way to remove accumulated internal heat. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Building owner maintains weatherproofing and has wet/damaged sections checked;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen foam blowing-agent/emissions information, fire behaviour, installation exposure, waste and moisture. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Building owner maintains weatherproofing and has wet/damaged sections checked; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Check affordability and permission rather than assuming tenants can modify a roof.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Moratuwa, Sri Lanka, 2018 trial; published 2019.** Experimental low-conductivity roof layer. Small roof-slab physical models [Chandra et al., roof insulation experiment, Sri Lanka ](https://link.springer.com/article/10.1007/s40095-019-0308-x)
@@ -295,6 +375,32 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 
 Screen fire safety and avoid presenting exposed Thermocol as a universal DIY recommendation. Consider renters, home-based workers and accessibility during installation.
 
+Can people actually use this?
+
+**Access requirements**: Safe ceiling support, sufficient room height and a roof/ceiling detail that does not create condensation or restrict necessary ventilation. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Combustible exposed foam, low room height, leaks, maintenance access and unsafe wiring require review.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen fire safety and avoid presenting exposed Thermocol as a universal DIY recommendation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Owner or public-facility manager checks suspension, dampness, pests and wiring; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Consider renters, home-based workers and accessibility during installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Consider renters, home-based workers and accessibility during installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Ahmedabad, India, 2017; published 2020.** Secondary Thermocol ceiling was installed and monitored. One household intervention [Ahmedabad informal-settlement roof study, Vellingiri et al. ](https://www.mahilahousingtrust.org/wp-content/uploads/2022/06/MHT_Combating-Climate-Change%E2%80%90induced-Heat-Stress.pdf)
@@ -359,6 +465,30 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 #### Fairness and risks
 
 Conductive foil is an electrical hazard if badly installed. Screen access and retrofit affordability; this is not a safe-working-temperature guarantee.
+
+Can people actually use this?
+
+**Access requirements**: Specified reflective surface and air space, correct orientation/detailing, safe separation from electrical equipment. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: Not assessed
+
+**Who may be left out**: Conductive foil is an electrical hazard if badly installed. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Owner/installer preserves the air gap and checks damage, dust and moisture when safely accessible; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -425,6 +555,30 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 
 Check cyclone exposure, pests, birds, fire breaks and access. Do not transfer model-cell temperature changes to occupied housing.
 
+Can people actually use this?
+
+**Access requirements**: Continuous inlet/outlet path, suitable roof pitch and wind/rain/structural design; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Owner/roofer maintains inlet/outlet clearance, screens, fixings and rain details;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check cyclone exposure, pests, birds, fire breaks and access. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Owner/roofer maintains inlet/outlet clearance, screens, fixings and rain details; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Parit Raja, Johor, Malaysia, 2024 publication.** Ventilated double-roof configuration tested against control. Small-scale university field models [Lawin and Zakaria, small-scale roof field study ](https://periodical.uthm.edu.my/index.php/rtcebe/article/view/5894)
@@ -489,6 +643,31 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 #### Fairness and risks
 
 Ask who owns roof space and who receives electricity/thermal benefits. Consider maintenance access, waste and possible hot upper surfaces; no zero-impact claim.
+
+Can people actually use this?
+
+**Access requirements**: Engineered attachment, spacing and roof access; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Consider maintenance access, waste and possible hot upper surfaces;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Ask who owns roof space and who receives electricity/thermal benefits. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Roof owner/canopy operator maintains fixings, clearances, drainage and safe access. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Wind uplift, extra load, conflicts with roof uses, tenure, fire access and heat trapped under a poorly ventilated cover.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -556,6 +735,31 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 #### Fairness and risks
 
 Screen water competition, roof access, mosquito/pest management, safe drainage and who benefits. Roof greening does not justify tenant displacement or rent increases.
+
+Can people actually use this?
+
+**Access requirements**: Structural capacity, waterproofing, drainage, suitable plants, reliable care and a water source compatible with local scarcity. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Bangkok experiment watered daily, not a universal maintenance rule.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen water competition, roof access, mosquito/pest management, safe drainage and who benefits. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Named building/landscape operator manages plants, water and drains; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Roof greening does not justify tenant displacement or rent increases.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -629,6 +833,30 @@ Proposed: building owner or public-facility budget; grants/subsidies where occup
 
 Screen slip/glare/maintenance issues and whether structural upgrading excludes the poorest roofs; do not disturb asbestos or promise equivalent benefit on every roof.
 
+Can people actually use this?
+
+**Access requirements**: Roof load and waterproofing checked, suitable tile/mortar system, safe installation and roof access. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Screen slip/glare/maintenance issues and whether structural upgrading excludes the poorest roofs;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen slip/glare/maintenance issues and whether structural upgrading excludes the poorest roofs; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public-facility budget; More under “Who pays”.
+
+Roof owner checks joints, cracks, loose pieces and drainage; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Kompally, Hyderabad, India, Programme described around January 2023.** China-mosaic and coating installed on terraces. Complex of over fifteen buildings; treated roof area not disclosed [AKAH/IIIT-H Garden Housing Society project ](https://www.akahindia.org/case_studies_all/urban-heat-island-mitigation-with-cool-roof-at-garden-housing-society-hyderabad/)
@@ -697,6 +925,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment. Check glare and reflected solar exposure to neighbours or pedestrians before whitening walls.
 
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Berkeley, California, USA, 2016 onward.** Wall-material weathering test, not a household programme. Material-exposure racks; specimen count not reported on page [LBNL Cool Walls research programme ](https://heatisland.lbl.gov/index.php/projects/cool-walls)
@@ -761,6 +1015,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 #### Fairness and risks
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
+
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -834,6 +1114,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
 
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Yogyakarta, Indonesia, 2024 publication.** Experimental mini-louver comparison. Four model boxes [Suryandono et al., aluminium mini-louvers experiment ](https://jurnal.ubl.ac.id/index.php/ja/article/view/3389)
@@ -901,6 +1207,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 #### Fairness and risks
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
+
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -971,6 +1303,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
 
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Jaipur, India, 2026.** Jaali configurations tested computationally. 12-storey office model; 84 configurations [Chaudhary and Sharmin: Jaipur Jaali simulations ](https://orca.cardiff.ac.uk/id/eprint/186594/1/sustainability-18-03876.pdf)
@@ -1037,6 +1395,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 #### Fairness and risks
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
+
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -1108,6 +1492,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
 
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Abu Dhabi, UAE, 2022.** Thermal shutter configurations studied computationally. One residential case model [Abdullah et al., Abu Dhabi window shutter simulation ](https://research.uaeu.ac.ae/en/publications/thermal-performance-evaluation-of-window-shutters-for-residential/)
@@ -1173,6 +1583,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 #### Fairness and risks
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
+
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -1240,6 +1676,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
 
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Singapore, 2020 publication.** Hard-coat low-e secondary panes installed and monitored. One office testbed with three facade orientations [Somasundaram et al., tropical low-e secondary-glazing test and model (article mirror) ](https://psecommunity.org/wp-content/plugins/wpor/includes/file/2303/LAPSE-2023.22785-1v1.pdf)
@@ -1301,6 +1763,32 @@ Proposed options: property owner, public housing/education budget, employer or g
 
 Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. No refrigerant is needed for the passive component; embodied impacts and disposal still require assessment.
 
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No transferable service life or maintenance interval verified.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+No transferable service life or maintenance interval verified. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess affordability, tenant rights, gendered use of rooms and controls, disability access, privacy, fire escape and safe installation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Evidence
 
 - Official guidance or data Residential code addresses envelope heat gain, daylight and ventilation potential. [BEE: Eco-Niwas Samhita building-envelope guidance ](https://udit.beeindia.gov.in/eco-niwas-samhita/)
@@ -1361,6 +1849,31 @@ Proposed options: property owner, public housing/education budget, employer or g
 #### Fairness and risks
 
 Check water demand, drought mortality, wet-wall detailing, species suitability, pests, safe pruning and public/tenant access. Ask whether improvements could increase rents or displace users; displacement was not measured in the cited facade studies.
+
+Can people actually use this?
+
+**Access requirements**: Design is checked against sun exposure, construction and use; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Agree who irrigates, prunes, replaces failed plants, checks trellis anchorage and maintains access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check water demand, drought mortality, wet-wall detailing, species suitability, pests, safe pruning and public/tenant access. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed options: property owner, public housing/education budget, employer or grant support; More under “Who pays”.
+
+Agree who irrigates, prunes, replaces failed plants, checks trellis anchorage and maintains access. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Check water demand, drought mortality, wet-wall detailing, species suitability, pests, safe pruning and public/tenant access.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -1433,6 +1946,33 @@ Proposed: building owner or public facility budget, with grant support where nee
 
 Check privacy, security and accessible controls; opening a door would ideally not be a condition of protection for women or vulnerable residents. No direct water or refrigerant requirement for manual openings; later fan assistance uses electricity. Displacement and rent effects were not evaluated.
 
+Can people actually use this?
+
+**Access requirements**: An unobstructed airflow path, operable openings and suitable external conditions are available. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check privacy, security and accessible controls; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Check privacy, security and accessible controls;” Fairness and risks
+- **Accessible services and cooling:** Names it as needed. “Check privacy, security and accessible controls;” Fairness and risks
+- **Tenant protections:** Names it as needed. “Displacement and rent effects were not evaluated.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Cairns, Queensland, Australia, Construction date not reported.** Openings on multiple sides and a breezeway form part of a multi-measure tropical design; isolated cooling contribution not evaluated. One house [Your Home: Cairns Queensland built-house case ](https://www.yourhome.gov.au/case-studies/hot-humid/cairns-queensland)
@@ -1504,6 +2044,32 @@ Proposed: building owner or public facility budget, with grant support where nee
 
 Check who can reach high controls, insect protection and privacy. A shaft reading is not an occupied-zone cooling guarantee. No deliberate water use or refrigerant, but embodied material and possible later fan use remain. Rent/displacement impacts not studied.
 
+Can people actually use this?
+
+**Access requirements**: Low inlet and high outlet are connected without excessive resistance and fire compartmentation is maintained. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check who can reach high controls, insect protection and privacy. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Check who can reach high controls, insect protection and privacy.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Rent/displacement impacts not studied.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Kuching, Sarawak, Malaysia, 2019 publication; five-day measurement campaign.** Air-well measurements examined vertical natural airflow; no controlled no-well house was reported in abstract. One single-storey terraced house [Leng et al.: Field Investigation of Indoor Thermal Performance in Malaysia Air-Welled Terraced House ](https://ijbes.utm.my/index.php/ijbes/article/view/388)
@@ -1573,6 +2139,33 @@ Proposed: building owner or public facility budget, with grant support where nee
 #### Fairness and risks
 
 Check dust/smoke ingress, insects, noise, accessible controls and maintenance access. Gender/privacy and landlord permission need local consultation. No direct water/refrigerant in dry operation; wet variants add water and hygiene obligations.
+
+Can people actually use this?
+
+**Access requirements**: Tower location, height, orientation, flow path and controllable outlet suit local wind conditions. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Check dust/smoke ingress, insects, noise, accessible controls and maintenance access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check dust/smoke ingress, insects, noise, accessible controls and maintenance access. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Gender/privacy and landlord permission need local consultation.” Fairness and risks
+- **Accessible services and cooling:** Names it as needed. “Check dust/smoke ingress, insects, noise, accessible controls and maintenance access.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Gender/privacy and landlord permission need local consultation.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -1644,6 +2237,31 @@ Proposed: building owner or public facility budget, with grant support where nee
 
 Check step-free access, usable shared space, safety and who controls it. Vegetation or water features add maintenance/water costs and would ideally avoid displacing residents. Integrated high-cost institutional landscaping is not an affordability example.
 
+Can people actually use this?
+
+**Access requirements**: Shade, geometry, sky exposure, room openings and air path are designed together. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Vegetation or water features add maintenance/water costs and would ideally avoid displacing residents.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check step-free access, usable shared space, safety and who controls it. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Check step-free access, usable shared space, safety and who controls it.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Kuching, Sarawak, Malaysia, 2019 publication.** Existing air well tested in a tropical terraced house. This is a small vertical court, not proof for all open courtyards. One house; five measurement days [Leng et al.: Field Investigation of Indoor Thermal Performance in Malaysia Air-Welled Terraced House ](https://ijbes.utm.my/index.php/ijbes/article/view/388)
@@ -1714,6 +2332,31 @@ Proposed: building owner or public facility budget, with grant support where nee
 
 Assess mould/condensation, cleanability, flood contamination and electricity affordability. Proposed household access requires land/tenure permission. No refrigerant; dry exchange needs no evaporative water, but wet-soil hybrids may add irrigation demand.
 
+Can people actually use this?
+
+**Access requirements**: Ground thermal properties, drainage, duct hygiene, intake quality and actual fan energy are assessed. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess mould/condensation, cleanability, flood contamination and electricity affordability. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Proposed household access requires land/tenure permission.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Biskra University, Biskra, Algeria, May–September 2013 measurements; 2018 publication.** Field measurements of inlet/outlet and soil temperatures; significant supply-air cooling does not establish whole-building or health benefits. One 56 m PVC buried-duct system [Hamdi et al.: Experimental study of earth-to-air heat exchanger in arid zone ](https://www.iieta.org/download/file/fid/4326)
@@ -1778,6 +2421,31 @@ Proposed: building owner or public facility budget, with grant support where nee
 #### Fairness and risks
 
 Night opening would ideally avoid trading cooling for privacy or safety. Check people who cannot operate controls independently and whether care work increases. No deliberate water/refrigerant for manual purge; powered variants add energy and noise.
+
+Can people actually use this?
+
+**Access requirements**: Night air offers a useful heat sink and openings can remain safely operable. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Night opening would ideally avoid trading cooling for privacy or safety. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Night opening would ideally avoid trading cooling for privacy or safety.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -1847,6 +2515,32 @@ Proposed: building owner or public facility budget, with grant support where nee
 #### Fairness and risks
 
 Do not recommend costly heavy reconstruction as a low-cost retrofit. Check night heat burden, displacement during works, accessible space and who bears embodied-carbon/capital costs. No intrinsic refrigerant/water, but coupled systems may use both.
+
+Can people actually use this?
+
+**Access requirements**: Mass is shaded/insulated appropriately and can discharge heat to cooler air or another assessed sink. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Do not recommend costly heavy reconstruction as a low-cost retrofit. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Check night heat burden, displacement during works, accessible space and who bears embodied-carbon/capital costs.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Check night heat burden, displacement during works, accessible space and who bears embodied-carbon/capital costs.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -1919,6 +2613,32 @@ Proposed: building owner or public facility budget, with grant support where nee
 
 Check step-free access, fall risk, disability access, safe underfloor use and rent/displacement during rebuilding. Elevation is not a flood-safe certification. No intrinsic refrigerant or water; supplementary fans/AC remain powered.
 
+Can people actually use this?
+
+**Access requirements**: Wind exposure and internal circulation are kept clear; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check step-free access, fall risk, disability access, safe underfloor use and rent/displacement during rebuilding. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: building owner or public facility budget, with grant support where needed for low-income users. More under “Who pays”.
+
+Proposed maintenance arrangement: owner/facility manager and users keep air paths and operable elements functional; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Check step-free access, fall risk, disability access, safe underfloor use and rent/displacement during rebuilding.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Check step-free access, fall risk, disability access, safe underfloor use and rent/displacement during rebuilding.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Cairns, Queensland, Australia, Construction date not reported.** Elevated lightweight structure and covered breezeway described in official built case. One house, two connected pavilions [Your Home: Cairns Queensland built-house case ](https://www.yourhome.gov.au/case-studies/hot-humid/cairns-queensland)
@@ -1988,6 +2708,31 @@ Proposed, not committed: household or building owner for private installation; e
 #### Fairness and risks
 
 Check water-fetching and cleaning labour, often borne unequally; provide accessible height and lids; do not call it a vaccine, meat or dairy refrigerator. No refrigerant or direct electrical load in the simple device; firing and replacement still have embodied impacts.
+
+Can people actually use this?
+
+**Access requirements**: Water, porous unglazed vessels, shaded ventilated siting and suitable vegetables are available. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Check water-fetching and cleaning labour, often borne unequally;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check water-fetching and cleaning labour, often borne unequally; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Users replenish water and clean/inspect vessels; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “provide accessible height and lids;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -2059,6 +2804,30 @@ Proposed, not committed: household or building owner for private installation; e
 
 Assess who controls communal storage, vendor fees, access for women farmers, reachable loading height and hygiene; allocate replenishment labour. No refrigerant in passive construction; water and material burdens remain.
 
+Can people actually use this?
+
+**Access requirements**: Design matches crate size and storage needs; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: Not assessed
+
+**Who may be left out**: Assess who controls communal storage, vendor fees, access for women farmers, reachable loading height and hygiene; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Named operators wet sand/brick, keep the cover shaded and clean produce contact areas; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Mandavav, Goriya and Santrampur, Gujarat, India, October 2019.** Pilot construction with CInI and farmer participation. Three chambers; design capacity about 400 kg produce each [MIT D-Lab: piloting in western India ](https://d-lab.mit.edu/news-blog/blog/piloting-evaporative-cooling-technologies-western-india)
@@ -2123,6 +2892,31 @@ Proposed, not committed: household or building owner for private installation; e
 #### Fairness and risks
 
 Treat water quality, standing-water control, slipping, ceramic breakage and cleaning access as design checks. Identify who performs upkeep, including gendered labour; check renters’ permissions. Vendor statements about air purification or cooling magnitude are not verified.
+
+Can people actually use this?
+
+**Access requirements**: Air can pass the wetted surface, replenishment and drainage are designed, and seasonal humidity is checked. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Treat water quality, standing-water control, slipping, ceramic breakage and cleaning access as design checks.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Treat water quality, standing-water control, slipping, ceramic breakage and cleaning access as design checks. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Operator would ideally maintain wetted surfaces, water circuit and safe drainage; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “check renters’ permissions.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -2194,6 +2988,31 @@ Proposed, not committed: household or building owner for private installation; e
 
 Assess rain/flood erosion, structural approval, transport and binder impacts, indoor space lost to wall thickness and labour safety. Do not market all earth housing as cool or low-cost; confirm women/disabled users can control ventilation safely.
 
+Can people actually use this?
+
+**Access requirements**: Wall thickness, rain protection, insulation, roof and ventilation are designed together for occupancy hours. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: Not assessed
+
+**Who may be left out**: Assess rain/flood erosion, structural approval, transport and binder impacts, indoor space lost to wall thickness and labour safety. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Owner and trained mason inspect moisture entry, erosion and finish integrity; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Insecure tenure/new-build permissions, soil quality, poor detailing, lack of artisans, unsuitable foundations or no nighttime heat sink.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Ouagadougou, Burkina Faso, 2021 publication.** Compressed-earth/insulation layer arrangements tested. One approximately 10 m² pilot building [Hema et al. accepted manuscript ](https://research.dial.uclouvain.be/bitstreams/831fbd10-e3bc-4823-bd97-361b400aacca/download)
@@ -2258,6 +3077,32 @@ Proposed, not committed: household or building owner for private installation; e
 #### Fairness and risks
 
 Check preservative exposure, fire egress, moisture damage and repair labour; do not assign lower cost or carbon without an assembly-specific assessment. Address tenure, disability-accessible layout and owner responsibility.
+
+Can people actually use this?
+
+**Access requirements**: Assembly is specified for moisture protection, structure, pests, fire safety and local craft capacity. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Check preservative exposure, fire egress, moisture damage and repair labour;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check preservative exposure, fire egress, moisture damage and repair labour; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Owner/competent builder checks weather protection and joint/pest damage; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Address tenure, disability-accessible layout and owner responsibility.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Address tenure, disability-accessible layout and owner responsibility.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -2325,6 +3170,31 @@ Proposed, not committed: household or building owner for private installation; e
 
 Assess fire performance, leakage, hygiene/pests, replacement cost and evening heat release; it is fairer when poor households do not pay for unproven gains. Disability/gender access and tenure are installation screening questions, not measured study outcomes.
 
+Can people actually use this?
+
+**Access requirements**: Phase-change range matches local temperatures and nighttime conditions regenerate storage. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: Not assessed
+
+**Who may be left out**: Assess fire performance, leakage, hygiene/pests, replacement cost and evening heat release; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Panel owner and supplier inspect containment and replace damaged encapsulation; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Disability/gender access and tenure are installation screening questions, not measured study outcomes.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Ciawi, Indonesia, 2025 online publication.** Experimental PCM-filled versus air-filled bamboo wall panels. Two rooms; total 57.6 m² [Universitas Indonesia: coconut-oil PCM bamboo wall experiment ](https://scholar.ui.ac.id/en/publications/thermal-performance-of-bio-based-phase-change-material-encapsulat/)
@@ -2388,6 +3258,31 @@ Proposed, not committed: household or building owner for private installation; e
 #### Fairness and risks
 
 Check glare, installation exposure, chemical/material lifecycle and disposal; no direct refrigerant/water use in the coating itself. Assess whether landlords pass costs to tenants without access to benefits. Do not treat laboratory scalability as proven affordability.
+
+Can people actually use this?
+
+**Access requirements**: Substrate, weathering, sky view, optical properties and actual indoor benefit are tested for the intended building. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Owner follows formulation-specific surface cleaning, adhesion and recoat specifications;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check glare, installation exposure, chemical/material lifecycle and disposal; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Owner follows formulation-specific surface cleaning, adhesion and recoat specifications; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Assess whether landlords pass costs to tenants without access to benefits.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -2459,6 +3354,31 @@ Proposed, not committed: household or building owner for private installation; e
 
 Assess glare, product toxicity/disposal, worker access and tenant cost recovery. Direct coating operation needs no refrigerant, pump or water; manufacturing burdens still require assessment.
 
+Can people actually use this?
+
+**Access requirements**: Actual substrate, waterproofing, adhesion, cleaning and procurement have been verified; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Actual substrate, waterproofing, adhesion, cleaning and procurement have been verified;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess glare, product toxicity/disposal, worker access and tenant cost recovery. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Owner and supplier inspect adhesion and optical condition and clean as product-tested; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Assess glare, product toxicity/disposal, worker access and tenant cost recovery.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Shanghai, China, December 2024; paper 2025.** Outdoor film and building-model tests. 5 × 5 cm specimens and model buildings [Microsphere-polymer radiative-cooling film experiment ](https://link.springer.com/article/10.1186/s43074-025-00198-z)
@@ -2527,6 +3447,30 @@ Proposed, not committed: household or building owner for private installation; e
 
 Reported engineering calculation uses 342 L evaporation and 0.735 kWh pumping per day; substantial water burden makes this unsuitable as a default poorest-household option. Check child safety, roof access, gendered water labour and rents. No refrigerant, but pump electricity and water supply carry impacts.
 
+Can people actually use this?
+
+**Access requirements**: Engineer verifies wet load, waterproofing, tank, drainage, mosquito control and reliable low-temperature water source. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Building owner maintains waterproofing, water tank, pump and sand filter;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Reported engineering calculation uses 342 L evaporation and 0.735 kWh pumping per day; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed, not committed: household or building owner for private installation; More under “Who pays”.
+
+Building owner maintains waterproofing, water tank, pump and sand filter; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Kolhapur, Maharashtra, India, 2019 monitoring; 2021 publication.** Intermittently refreshed roof pond with underground storage. One residence; 57 m² roof [Lipare et al.: intermittent-pumping roof pond ](https://eudl.eu/pdf/10.4108/eai.16-5-2020.2304098)
@@ -2590,6 +3534,32 @@ Proposed route: responsible local authority, site owner or employer funds capita
 #### Fairness and risks
 
 Screen whether shade reaches women traders and wheelchair users; protect trading/tenure rights; test wind obstruction and water demand rather than assuming all greenery cools equally.
+
+Can people actually use this?
+
+**Access requirements**: Keep existing mature trees where safe; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen whether shade reaches women traders and wheelchair users; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Assign arboricultural inspection, establishment watering and replacement to an accountable owner; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Screen whether shade reaches women traders and wheelchair users;” Fairness and risks
+- **Tenant protections:** Names it as needed. “protect trading/tenure rights;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -2660,6 +3630,32 @@ Proposed route: responsible local authority, site owner or employer funds capita
 
 Screen fees, opening hours, mobility access, gendered safety and displacement around improvements. Do not assume an attractive park reaches the most exposed people.
 
+Can people actually use this?
+
+**Access requirements**: Design accessible shaded space close to users, with a funded landscape and access-management plan. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Park authority would ideally maintain paths, trees, irrigation and amenities;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen fees, opening hours, mobility access, gendered safety and displacement around improvements. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Park authority would ideally maintain paths, trees, irrigation and amenities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Screen fees, opening hours, mobility access, gendered safety and displacement around improvements.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Screen fees, opening hours, mobility access, gendered safety and displacement around improvements.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **Bishan-Ang Mo Kio Park, Singapore, Operating site checked 2026; restoration 2012 is historical background.** Official park page verifies a naturalised river and public park; no thermal effect attributed to this listing. 62hectares [NParks, Bishan-Ang Mo Kio Park ](https://www.nparks.gov.sg/visit/parks/park-detail/bishan-ang-mo-kio-park/)
@@ -2727,6 +3723,31 @@ Proposed route: responsible local authority, site owner or employer funds capita
 
 Do not frame added humidity as harmless; check flood safety, accessible edges, land rights and water allocation before creating new water features.
 
+Can people actually use this?
+
+**Access requirements**: Evaluate daytime and nighttime air, humidity and access; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Water authority/site manager needs water-quality, vegetation and safety maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Do not frame added humidity as harmless; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Water authority/site manager needs water-quality, vegetation and safety maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “check flood safety, accessible edges, land rights and water allocation before creating new water features.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Nanjing, China, One-year study; published 2023.** Existing urban lake thermal behaviour measured; not proof every new lake cools. Lake/residential/rural site network; count not in abstract [Yao et al., urban lakes in Nanjing and Guangzhou ](https://asu.elsevierpure.com/en/publications/are-water-bodies-effective-for-urban-heat-mitigation-evidence-fro/)
@@ -2791,6 +3812,31 @@ Proposed route: responsible local authority, site owner or employer funds capita
 #### Fairness and risks
 
 Screen displacement and loss of informal livelihoods; do not infer anti-displacement protection from a landscaping project.
+
+Can people actually use this?
+
+**Access requirements**: Coordinate water and parks teams, preserve drainage function and maintain public access and vegetation. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Assign channel, bank, litter and vegetation maintenance jointly;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen displacement and loss of informal livelihoods; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Assign channel, bank, litter and vegetation maintenance jointly; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen displacement and loss of informal livelihoods;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -2862,6 +3908,34 @@ Proposed route: responsible local authority, site owner or employer funds capita
 
 Provide usable wheelchair space and seating; ask who can rest or retain a stall. Physical shade does not replace rest rights or income protection.
 
+Can people actually use this?
+
+**Access requirements**: Shade the user rather than only a roof plan; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+On earnings: “Physical shade does not replace rest rights or income protection.”
+
+**Who does the additional work**: “Check permissions, storm anchorage, fire behaviour, maintenance ownership and obstruction of vendor operations.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Provide usable wheelchair space and seating; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Named asset owner would ideally inspect fabric/fixings after damage and according to local structural guidance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Earnings protection:** Names it as needed. “Physical shade does not replace rest rights or income protection.” Fairness and risks
+- **Accessible services and cooling:** Names it as needed. “Provide usable wheelchair space and seating;” Fairness and risks
+- **Not assessed** (not mentioned in this record): work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Pathum Thani university test site, Thailand, 2019–2020.** Market-style shade tested experimentally. Three2m×2m canopy-material configurations [Jareemit and Srivanit, market shade and tree canopy field trial ](https://www.mdpi.com/2071-1050/14/8/4653)
@@ -2931,6 +4005,30 @@ Proposed route: responsible local authority, site owner or employer funds capita
 
 A cooler road surface can coexist with higher pedestrian radiation. Do not sell surface-temperature reductions as heat-health protection. Screen exposure for vendors and people waiting.
 
+Can people actually use this?
+
+**Access requirements**: Assess air, surface and MRT separately; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Road authority maintains surface integrity and reflectance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: A cooler road surface can coexist with higher pedestrian radiation. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Road authority maintains surface integrity and reflectance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Garfield/Van Buren–Roosevelt, Phoenix, USA, 2020pilot; study 2023.** Treated streets listed by the programme and assessed in field study. Residential deployment; pilot total58km, not this neighbourhood alone [City of Phoenix, Cool Pavement Program ](https://www.cityofphoenix.org/administration/departments/streets/initiatives/pavement-maintenance/cool-pavement-program.html)
@@ -2996,6 +4094,31 @@ Proposed route: responsible local authority, site owner or employer funds capita
 #### Fairness and risks
 
 Screen wheelchair rolling resistance, slip/trip hazards and water demand; do not assume drainage benefits prove useful cooling at the hottest hours.
+
+Can people actually use this?
+
+**Access requirements**: Retain moisture without undermining drainage, structural performance or safe accessible walking. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Pavement owner would ideally monitor clogging and specify suitable cleaning;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen wheelchair rolling resistance, slip/trip hazards and water demand; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Pavement owner would ideally monitor clogging and specify suitable cleaning; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Screen wheelchair rolling resistance, slip/trip hazards and water demand;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -3063,6 +4186,31 @@ Proposed route: responsible local authority, site owner or employer funds capita
 
 Screen demolition/displacement, density/access trade-offs and pollutant trapping; local recommendations need resident and trader input.
 
+Can people actually use this?
+
+**Access requirements**: Evaluate local shade, ventilation, nighttime conditions and air quality before design approval. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “planning/design owners would ideally preserve ventilation routes and maintain shaded walking access;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen demolition/displacement, density/access trade-offs and pollutant trapping; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+Built geometry is long-lived; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen demolition/displacement, density/access trade-offs and pollutant trapping;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Daan EW4 street site, Taipei, 2019 fieldwork; published 2024.** Existing built street form measured; not a newly installed intervention. One east–west site among six [Lin et al., Street spatial structure, Taipei ](https://www.mdpi.com/1999-4907/15/12/2221)
@@ -3128,6 +4276,33 @@ Proposed route: responsible local authority, site owner or employer funds capita
 #### Fairness and risks
 
 Study observed more boys among users. Screen age/gender differences and disability access; opening gates alone does not ensure equitable use.
+
+Can people actually use this?
+
+**Access requirements**: Co-design with children/staff, retain accessible play and toilets, define responsibility for watering and public opening. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “School/city teams need planted-space, cleaning and access-management arrangements;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Study observed more boys among users. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed route: responsible local authority, site owner or employer funds capital and recurring maintenance; More under “Who pays”.
+
+School/city teams need planted-space, cleaning and access-management arrangements; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Co-design with children/staff, retain accessible play and toilets, define responsibility for watering and public opening.” What makes it work
+- **Accessible services and cooling:** Names it as needed. “Co-design with children/staff, retain accessible play and toilets, define responsibility for watering and public opening.” What makes it work
+- **Participation in decisions:** Names it as needed. “Co-design with children/staff, retain accessible play and toilets, define responsibility for watering and public opening.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, care-service continuity, tenant protections, confidential, non-punitive reporting, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -3198,6 +4373,31 @@ Proposed responsibility: landowner or employer, with grant/public support where 
 
 Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. Do not infer gender or disability outcomes from these thermal studies.
 
+Can people actually use this?
+
+**Access requirements**: Crop light requirements and canopy arrangement are matched; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: landowner or employer, with grant/public support where needed. More under “Who pays”.
+
+Establish responsibility for tree survival, pruning and replacement; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen tenure, delayed canopy establishment, competition for light/water and lack of tree-care capacity.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Plandu/Churu, Ranchi, India, Established 2016; measurements 2021.** Teak/Karanj with pigeon pea or chickpea. Five treatments, four replications [Khanna et al., multitier agroforestry, Indian Journal of Agroforestry 2026 ](https://epubs.icar.org.in/index.php/IJA/article/download/174495/66469/531438)
@@ -3267,6 +4467,31 @@ Proposed responsibility: landowner or employer, with grant/public support where 
 
 Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. Do not infer gender or disability outcomes from these thermal studies. Screen whether smallholders can finance establishment and whether communal grazing users retain access; tree planting is not an immediate replacement for existing shade.
 
+Can people actually use this?
+
+**Access requirements**: Animals can actually access sufficient shade during hot periods; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: landowner or employer, with grant/public support where needed. More under “Who pays”.
+
+Assign tree and grazing management to the land/herd operator; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen land tenure, tree establishment, fodder/light trade-offs and tree-care responsibilities.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Brazilian Cerrado, Brazil, Published 2026; monitored for two years.** Eucalyptus urograndis shade versus full sun. 48 lactating cattle [McManus et al., Shade matters, 2026 ](https://link.springer.com/article/10.1007/s00484-025-03063-7)
@@ -3334,6 +4559,30 @@ Proposed responsibility: landowner or employer, with grant/public support where 
 
 Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. Do not infer gender or disability outcomes from these thermal studies.
 
+Can people actually use this?
+
+**Access requirements**: Material, geometry and access are assessed for the animals and local conditions; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: landowner or employer, with grant/public support where needed. More under “Who pays”.
+
+Assign anchorage and fabric/roof inspection and replacement; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Brazil, tropical pasture, Published 2026.** Artificial double-net shade compared with natural shade. Eight cows, two paddocks [Barcelos et al., natural and artificial shade, 2026 ](https://pubmed.ncbi.nlm.nih.gov/41510615/)
@@ -3400,6 +4649,32 @@ Verified example: El Ángel mill funded the interventions; research funding came
 
 Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. Do not infer gender or disability outcomes from these thermal studies. Examine paid-rest arrangements and equitable access for women, migrants and workers with disabilities; the bundle study does not establish outcomes for every subgroup.
 
+Can people actually use this?
+
+**Access requirements**: Shade stays near moving work and workers can use scheduled breaks; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Verified example: El Ángel mill funded the interventions; More under “Who pays”.
+
+Employer or operator would ideally move, inspect and keep the shelter usable alongside work-rest arrangements; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Includes it. “It is the physical shade component of a broader work-rest-water arrangement.” How it works
+- **Accessible services and cooling:** Names it as needed. “Screen piece-rate income and supervisors’ ability to maintain accessible rest.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **El Ángel mill work areas, El Salvador, 2014–2015 harvest; published 2018.** Mobile shade moved with cutters; rest and water provided alongside work changes. 80 end-harvest participants across intervention/comparison groups [Wegman et al., WRS intervention, El Salvador, 2018 ](https://www.sjweh.fi/article/3659)
@@ -3465,6 +4740,31 @@ Proposed responsibility: landowner or employer, with grant/public support where 
 #### Fairness and risks
 
 Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. Do not infer gender or disability outcomes from these thermal studies.
+
+Can people actually use this?
+
+**Access requirements**: Shading density, crop light needs and ventilation are matched; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: landowner or employer, with grant/public support where needed. More under “Who pays”.
+
+Grower/operator would ideally inspect nets, anchorage and crop ventilation and budget replacement; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen wind safety, replacement fabric, crop shading penalties, poor ventilation and finance/tenure constraints.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -3534,6 +4834,30 @@ Proposed responsibility: landowner or employer, with grant/public support where 
 #### Fairness and risks
 
 Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. Do not infer gender or disability outcomes from these thermal studies. Do not treat residues as free where they have other livelihood uses. Assign labour and access to residues fairly. Plastic cover is not interchangeable with organic cooling mulch.
+
+Can people actually use this?
+
+**Access requirements**: Select mulch for the season and crop; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen who can access the cooling, who controls land and finance, and who carries unpaid maintenance. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: landowner or employer, with grant/public support where needed. More under “Who pays”.
+
+Grower would ideally maintain intended cover and assess decomposition and seasonal replacement; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -3632,6 +4956,35 @@ Possible owner, employer, public-building operator or subsidy programme; no comm
 
 Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space. Do not substitute comfort for physiological protection or use a fan to justify higher workloads. Account for noise, guards and repair access.
 
+Can people actually use this?
+
+**Access requirements**: Air reaches the intended user, controls are accessible, and the heat-response plan provides another cooling route when fans are insufficient. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase/running cost shares of income not verified.
+
+**Who does the additional work**: “Account for noise, guards and repair access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Possible owner, employer, public-building operator or subsidy programme; More under “Who pays”.
+
+Owner/operator maintains safe mounting, guards/wiring and functional controls; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Names it as needed. “Do not substitute comfort for physiological protection or use a fan to justify higher workloads.” Fairness and risks
+- **Accessible services and cooling:** Names it as needed. “Air reaches the intended user, controls are accessible, and the heat-response plan provides another cooling route when fans are insufficient.” What makes it work
+- **Tenant protections:** Names it as needed. “Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Singapore office, building identity not supplied in guidebook case, May–July 2016; paper 2018.** DC motor ceiling fans installed with altered AC operation; no isolated motor effect. One six-week office study [UC Berkeley CBE author-research guidebook ](https://cbe-berkeley.gitbook.io/fans-guidebook/full-guidebook/case-studies-for-researchers)
@@ -3728,6 +5081,35 @@ Possible owner, employer, public-building operator or subsidy programme; no comm
 
 Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space. Do not substitute comfort for physiological protection or use a fan to justify higher workloads. Account for noise, guards and repair access.
 
+Can people actually use this?
+
+**Access requirements**: Air reaches the intended user, controls are accessible, and the heat-response plan provides another cooling route when fans are insufficient. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase/running cost shares of income not verified.
+
+**Who does the additional work**: “Account for noise, guards and repair access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Possible owner, employer, public-building operator or subsidy programme; More under “Who pays”.
+
+Owner/operator maintains safe mounting, guards/wiring and functional controls; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Names it as needed. “Do not substitute comfort for physiological protection or use a fan to justify higher workloads.” Fairness and risks
+- **Accessible services and cooling:** Names it as needed. “Air reaches the intended user, controls are accessible, and the heat-response plan provides another cooling route when fans are insufficient.” What makes it work
+- **Tenant protections:** Names it as needed. “Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Bangladesh off-grid fan customer programme, 2020 report.** Observed customer use across off-grid fan programme; product types not separated in overview. Over1,600 telephone surveys [CLASP off-grid fan customer survey, Bangladesh 2020 ](https://www.clasp.ngo/research/all/the-socio-economic-impact-of-super-efficient-fans-in-bangladesh/)
@@ -3820,6 +5202,35 @@ Possible owner, employer, public-building operator or subsidy programme; no comm
 #### Fairness and risks
 
 Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space. Do not substitute comfort for physiological protection or use a fan to justify higher workloads. Account for noise, guards and repair access.
+
+Can people actually use this?
+
+**Access requirements**: Air reaches the intended user, controls are accessible, and the heat-response plan provides another cooling route when fans are insufficient. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase/running cost shares of income not verified.
+
+**Who does the additional work**: “Account for noise, guards and repair access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Possible owner, employer, public-building operator or subsidy programme; More under “Who pays”.
+
+Owner/operator maintains safe mounting, guards/wiring and functional controls; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Names it as needed. “Do not substitute comfort for physiological protection or use a fan to justify higher workloads.” Fairness and risks
+- **Accessible services and cooling:** Names it as needed. “Air reaches the intended user, controls are accessible, and the heat-response plan provides another cooling route when fans are insufficient.” What makes it work
+- **Tenant protections:** Names it as needed. “Check whether women, older people, people with disabilities and tenants can control airflow and access a cooler space.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -3916,6 +5327,33 @@ Proposed: owner/employer/public-facility budget; targeted public support or gran
 
 Screen water competition, tank hygiene, noise and accessibility. Do not assume comfort findings establish safety for heavy work, illness or vulnerable users.
 
+Can people actually use this?
+
+**Access requirements**: Adequate relief airflow, reliable safe water, clean pads/tank and climate-appropriate sizing. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Do not infer affordability from efficiency;
+
+**Who does the additional work**: “Operator cleans tank/media and maintains water/pump/fan access;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen water competition, tank hygiene, noise and accessibility. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: owner/employer/public-facility budget; More under “Who pays”.
+
+Operator cleans tank/media and maintains water/pump/fan access; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Screen water competition, tank hygiene, noise and accessibility.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Jaipur, India, 2019 publication.** Installed direct evaporative cooling observed during field surveys. Ten office buildings overall; direct systems in all except one surveyed space [Tewari et al., evaporatively cooled Jaipur offices ](https://www.academia.edu/117778626/Advancing_building_bioclimatic_design_charts_for_the_use_of_evaporative_cooling_in_the_composite_climate_of_India)
@@ -4000,6 +5438,32 @@ Proposed: owner/employer/public-facility budget; targeted public support or gran
 #### Fairness and risks
 
 Screen water quality/availability, separation of air streams and maintenance burden. Do not label two-stage indirect/direct output as humidity-free.
+
+Can people actually use this?
+
+**Access requirements**: Suitable hourly psychrometrics, maintained exchanger/pads, water supply and separate exhaust paths. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Do not infer affordability from efficiency;
+
+**Who does the additional work**: “Screen water quality/availability, separation of air streams and maintenance burden.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen water quality/availability, separation of air streams and maintenance burden. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: owner/employer/public-facility budget; More under “Who pays”.
+
+Assign a qualified operator/service provider; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -4093,6 +5557,33 @@ Proposed: owner/employer/public-facility budget; targeted public support or gran
 
 Screen landlord permission, inability to pay operating bills, noise, outdoor heat rejection and unequal access. Cooling capacity in kW is not electric demand.
 
+Can people actually use this?
+
+**Access requirements**: Correct load/sizing, verified seasonal rating, sound installation, maintained filters/coils and reliable power. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Do not infer affordability from efficiency;
+
+**Who does the additional work**: “Correct load/sizing, verified seasonal rating, sound installation, maintained filters/coils and reliable power.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen landlord permission, inability to pay operating bills, noise, outdoor heat rejection and unequal access. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: owner/employer/public-facility budget; More under “Who pays”.
+
+Assign a qualified operator/service provider; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen landlord permission, inability to pay operating bills, noise, outdoor heat rejection and unequal access.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Bahadurgarh, India, October 2020 field testing;2021 report.** Variable-speed-containing winning designs field tested. Prototype apartments and two baseline units [RMI Global Cooling Prize testing report ](https://rmi.org/wp-content/uploads/dlm_uploads/2021/04/GlobalCoolingPrize_SolvingtheCoolingDilemma.pdf)
@@ -4185,6 +5676,33 @@ Proposed: owner/employer/public-facility budget; targeted public support or gran
 
 Screen whether control changes restrict access or overrule vulnerable users. Maintain ventilation and electrical/refrigerant safety; no blanket temperature setpoint prescribed.
 
+Can people actually use this?
+
+**Access requirements**: Qualified technician/facility operator, documented target conditions, functioning sensors and authority/budget to correct faults. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Do not infer affordability from efficiency;
+
+**Who does the additional work**: “Maintain ventilation and electrical/refrigerant safety;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen whether control changes restrict access or overrule vulnerable users. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: owner/employer/public-facility budget; More under “Who pays”.
+
+Assign a qualified operator/service provider; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Oversizing, mismatched components, poor records, inaccessible equipment, split landlord/tenant incentives and no follow-up repair budget.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Chesterfield, Missouri, United States, Date not reported.** Recommissioning and building improvements reported; transferable process lesson. Parkway West High School [US DOE HVAC commissioning ](https://www.energy.gov/cmei/buildings/hvac-commissioning)
@@ -4270,6 +5788,32 @@ Proposed: owner/employer/public-facility budget; targeted public support or gran
 #### Fairness and risks
 
 R290 is flammable; do not offer DIY conversions or charging instructions. Screen access to safe installation, maintenance and affordable electricity.
+
+Can people actually use this?
+
+**Access requirements**: Compliant purpose-designed equipment, trained installers, flammability safety assessment and service network. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Do not infer affordability from efficiency;
+
+**Who does the additional work**: “Screen access to safe installation, maintenance and affordable electricity.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: R290 is flammable; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: owner/employer/public-facility budget; More under “Who pays”.
+
+Assign a qualified operator/service provider; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -4360,6 +5904,32 @@ Proposed: owner/employer/public-facility budget; targeted public support or gran
 
 Protect informal technicians and users from hazardous/flammable gas handling. Do not exclude small service businesses through unaffordable compliance; no legal eligibility assumed.
 
+Can people actually use this?
+
+**Access requirements**: Qualified technicians, correct tools/cylinders, finance for collection, traceability and permitted downstream treatment. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Do not infer affordability from efficiency;
+
+**Who does the additional work**: Not assessed
+
+**Who may be left out**: Protect informal technicians and users from hazardous/flammable gas handling. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: owner/employer/public-facility budget; More under “Who pays”.
+
+Assign a qualified operator/service provider; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **New Delhi, India, October 2024.** Practical service/leak prevention training. 24 master trainers/12 ITIs [GIZ India good service practice training ](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/12/04/giz-proklima-drives-sustainable-practices-in-indias-rac-sector)
@@ -4447,6 +6017,32 @@ Proposed: owner/employer/public-facility budget; targeted public support or gran
 
 Screen moisture/mould risks, access to skilled operators and high upfront cost. A portable dehumidifier in a closed room is not free cooling and may warm the air.
 
+Can people actually use this?
+
+**Access requirements**: Measuredlatent/sensible loads, condensationcontrol, ventilation, condensatedrainage and coordinatedsystem operation. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Do not infer affordability from efficiency;
+
+**Who does the additional work**: “Poorcontrol, leakyenvelopes, undersizedmoistureremoval, maintenanceburden, highcapitalcost and inadequate drainage.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen moisture/mould risks, access to skilled operators and high upfront cost. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: owner/employer/public-facility budget; More under “Who pays”.
+
+Assign a qualified operator/service provider; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **United World College, Singapore, 2014–2018 project.** Dedicated ventilation/dehumidification combined with sensible cooling. One built 3for2 demonstrator [ETH/Singapore 3for2 demonstrator ](https://systems.arch.ethz.ch/3for2-beyond-efficiency)
@@ -4533,6 +6129,34 @@ Proposed: contracted building owners/public institutions pay capital or service 
 #### Fairness and risks
 
 Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure. Building-level cooling does not automatically protect outdoor workers or neighbouring households. Check cooling-tower water demand and treatment, construction disruption, connection charges, monopoly/service-contract terms and access for unconnected settlements.
+
+Can people actually use this?
+
+**Access requirements**: Building loads and connection timing justify pipes; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+No verified purchase/running-cost share of poor-household income.
+
+**Who does the additional work**: “Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces… More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: contracted building owners/public institutions pay capital or service charges; More under “Who pays”.
+
+Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -4626,6 +6250,34 @@ Published cases describe building customers paying for cooling service while the
 
 Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure. Building-level cooling does not automatically protect outdoor workers or neighbouring households.
 
+Can people actually use this?
+
+**Access requirements**: Service levels, metering, data access, escalation, performance verification, minimum payments and failure/exit arrangements are enforceable. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Cases are institutional/commercial.
+
+**Who does the additional work**: “The published Kaer model assigns equipment operation, maintenance and repair to the provider;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces… More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Published cases describe building customers paying for cooling service while the provider finances/operates equipment. More under “Who pays”.
+
+The published Kaer model assigns equipment operation, maintenance and repair to the provider; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **7000 AMK, Singapore, 2020 case upload; retrofit decision described from 2014.** Cooling-service retrofit; historical initiation, reported as operating in case. One data-centre/manufacturing complex; contract scale reported in case [CaaS initiative case: 7000 AMK Singapore ](https://www.caas-initiative.org/wp-content/uploads/2020/12/CaseStudy_Kaer-1.pdf)
@@ -4712,6 +6364,34 @@ Proposed: contracted building owners/public institutions pay capital or service 
 
 Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure. Building-level cooling does not automatically protect outdoor workers or neighbouring households. Screen roof rights, structure, shading, battery replacement/waste if used, trained propane servicing and fire-safety compliance. Do not treat solar as free cooling for low-income users.
 
+Can people actually use this?
+
+**Access requirements**: Demand, load profiles, operating capability and payment responsibilities are established before procurement. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+No verified purchase/running-cost share of poor-household income.
+
+**Who does the additional work**: “Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces… More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: contracted building owners/public institutions pay capital or service charges; More under “Who pays”.
+
+Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Energy Commission nZEB, Accra, Ghana, 2024.** PV supplies much of the building/chiller electricity; actual backup autonomy not verified. One 115 kW-cooling chiller [GIZ project report: PV-powered R290 chiller, Accra ](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/10/29/first-r290-air-conditioning-chiller-in-africa)
@@ -4797,6 +6477,34 @@ Proposed: contracted building owners/public institutions pay capital or service 
 #### Fairness and risks
 
 Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure. Building-level cooling does not automatically protect outdoor workers or neighbouring households. Tanks need space and capital; check who receives the cooling and who receives demand-response revenue. Charging on a carbon-intensive grid can offset emissions benefits.
+
+Can people actually use this?
+
+**Access requirements**: Demand, load profiles, operating capability and payment responsibilities are established before procurement. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+No verified purchase/running-cost share of poor-household income.
+
+**Who does the additional work**: “Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces… More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: contracted building owners/public institutions pay capital or service charges; More under “Who pays”.
+
+Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -4890,6 +6598,34 @@ Proposed: contracted building owners/public institutions pay capital or service 
 
 Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure. Building-level cooling does not automatically protect outdoor workers or neighbouring households. Tank space, insulation, water quality and pipe condensation need design. Distinguish closed-loop storage water from cooling-tower water consumption.
 
+Can people actually use this?
+
+**Access requirements**: Demand, load profiles, operating capability and payment responsibilities are established before procurement. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+No verified purchase/running-cost share of poor-household income.
+
+**Who does the additional work**: “Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces… More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: contracted building owners/public institutions pay capital or service charges; More under “Who pays”.
+
+Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **GIFT City, Gujarat, India, Phase1 operational 2015; engineering report2017/reprint2018.** Constructed stratified-water storage; planned whole-city savings are not measured. 10,000 TR-hour tank reported [GIFT City engineer: district cooling and stratified water tank ](https://www.rehva.eu/rehva-journal/chapter/indias-first-district-cooling-system-at-gift-city)
@@ -4980,6 +6716,34 @@ Proposed: contracted building owners/public institutions pay capital or service 
 #### Fairness and risks
 
 Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure. Building-level cooling does not automatically protect outdoor workers or neighbouring households. Collector area, specialist maintenance, safe hot-water operation and heat-rejection water can limit transfer. Institutional examples do not establish affordability for poor households.
+
+Can people actually use this?
+
+**Access requirements**: Demand, load profiles, operating capability and payment responsibilities are established before procurement. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+No verified purchase/running-cost share of poor-household income.
+
+**Who does the additional work**: “Collector area, specialist maintenance, safe hot-water operation and heat-rejection water can limit transfer.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces… More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: contracted building owners/public institutions pay capital or service charges; More under “Who pays”.
+
+Assign qualified operators, water/refrigerant checks, controls maintenance and funded renewal. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess who can connect, who pays, tariff transparency, continuity for essential services, tenant protections, disability-accessible cooled spaces and gendered exposure.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -5075,6 +6839,32 @@ Proposed responsibility: service owner, public budget or grant-supported capital
 
 Check access for women, low-income and disabled users; assign maintenance labour and affordable access. Do not infer inclusion from installed equipment.
 
+Can people actually use this?
+
+**Access requirements**: Procurement, installation, solar siting, temperature monitoring, staff training and service support fit the immunization programme. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Not established.
+
+**Who does the additional work**: “assign maintenance labour and affordable access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check access for women, low-income and disabled users; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: service owner, public budget or grant-supported capital plus an identified operating payer. More under “Who pays”.
+
+Assign commissioning, monitoring, maintenance, spares and replacement responsibilities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Bongaigaon/Brahmaputra boat-clinic setting, Assam, India, Reported 17 October 2024.** Solar-direct-drive refrigeration supports immunization outreach. Solar unit aboard boat clinic; individual unit capacity not reported [UNICEF Akha boat clinic solar direct-drive refrigeration ](https://www.unicef.org/india/stories/akha-boat-hope)
@@ -5166,6 +6956,32 @@ Proposed responsibility: service owner, public budget or grant-supported capital
 
 Check access for women, low-income and disabled users; assign maintenance labour and affordable access. Do not infer inclusion from installed equipment.
 
+Can people actually use this?
+
+**Access requirements**: Crop-compatible temperatures, loading, hygiene, market links and utilization support continued service; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Daily pay-per-crate access is documented;
+
+**Who does the additional work**: “assign maintenance labour and affordable access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check access for women, low-income and disabled users; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: service owner, public budget or grant-supported capital plus an identified operating payer. More under “Who pays”.
+
+Assign commissioning, monitoring, maintenance, spares and replacement responsibilities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Mile 12 International Market, Lagos, Nigeria, Announcement April 2021 for April 22 launch.** Provider account of shared solar cold-storage deployment; launch announcement is not independent follow-up. Double hub [ColdHubs Mile 12 International Market project announcement ](https://coldhubs.com/2021/04/19/2021-4-19-coldhubs-limited-unveils-in-mile-12-international-market/)
@@ -5253,6 +7069,33 @@ Proposed responsibility: service owner, public budget or grant-supported capital
 
 Study users requested smaller/lighter carriers; transport burden matters for outreach workers. Screen access, carrying burden and routes for women and disabled staff rather than assuming a heavier box improves delivery.
 
+Can people actually use this?
+
+**Access requirements**: Carrier, pack preparation, route duration, ambient envelope and training are validated together under current guidance. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Not established.
+
+**Who does the additional work**: “Assign commissioning, monitoring, maintenance, spares and replacement responsibilities;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Study users requested smaller/lighter carriers; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: service owner, public budget or grant-supported capital plus an identified operating payer. More under “Who pays”.
+
+Assign commissioning, monitoring, maintenance, spares and replacement responsibilities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Care-service continuity:** Names it as needed. “transport burden matters for outreach workers.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Sunsari district plains, eastern Nepal, Simulated 2018/2019; actual-useNovember–December 2019.** Freeze-preventive carriers carried to outreach sessions. Part of 24 healthposts across two districts; district allocation not extracted [PATH field evaluation of freeze-preventive vaccine carriers ](https://media.path.org/documents/Phase_2_Report._FPVC_Project._Nepal.pdf)
@@ -5335,6 +7178,32 @@ Proposed responsibility: service owner, public budget or grant-supported capital
 #### Fairness and risks
 
 Check access for women, low-income and disabled users; assign maintenance labour and affordable access. Do not infer inclusion from installed equipment.
+
+Can people actually use this?
+
+**Access requirements**: Facility management identifies critical loads, efficient equipment and accountable maintenance before sizing power/storage. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Not established.
+
+**Who does the additional work**: “assign maintenance labour and affordable access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check access for women, low-income and disabled users; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: service owner, public budget or grant-supported capital plus an identified operating payer. More under “Who pays”.
+
+Assign commissioning, monitoring, maintenance, spares and replacement responsibilities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -5424,6 +7293,32 @@ Proposed responsibility: service owner, public budget or grant-supported capital
 #### Fairness and risks
 
 Programme accounts describe women’s water-collection burdens; do not turn individual testimony into a measured average. Screen water tariffs, source sustainability, disabled access and responsibility for upkeep.
+
+Can people actually use this?
+
+**Access requirements**: Design matches actual service loads, users and local conditions. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Not established.
+
+**Who does the additional work**: “Screen water tariffs, source sustainability, disabled access and responsibility for upkeep.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Programme accounts describe women’s water-collection burdens; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: service owner, public budget or grant-supported capital plus an identified operating payer. More under “Who pays”.
+
+Assign commissioning, monitoring, maintenance, spares and replacement responsibilities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -5515,6 +7410,32 @@ Proposed responsibility: service owner, public budget or grant-supported capital
 
 Check access for women, low-income and disabled users; assign maintenance labour and affordable access. Do not infer inclusion from installed equipment.
 
+Can people actually use this?
+
+**Access requirements**: Design matches actual service loads, users and local conditions. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Not established.
+
+**Who does the additional work**: “assign maintenance labour and affordable access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check access for women, low-income and disabled users; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: service owner, public budget or grant-supported capital plus an identified operating payer. More under “Who pays”.
+
+Assign commissioning, monitoring, maintenance, spares and replacement responsibilities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Bhandup municipal water pumping, Mumbai, India, February 2024.** Pumping moved towards solar/off-peak times. One 23-daypilot [Tata Power/MCGM pumping demand flexibility pilot ](https://www.tatapower.com/news-and-media/media-releases/tata-power-joins-hands-with-mcgm-for-a-unique-demand-flexibility-program-powered-by-solar-energy)
@@ -5602,6 +7523,32 @@ Proposed responsibility: service owner, public budget or grant-supported capital
 #### Fairness and risks
 
 Check access for women, low-income and disabled users; assign maintenance labour and affordable access. Do not infer inclusion from installed equipment.
+
+Can people actually use this?
+
+**Access requirements**: Design matches actual service loads, users and local conditions. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Not established.
+
+**Who does the additional work**: “assign maintenance labour and affordable access.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check access for women, low-income and disabled users; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: service owner, public budget or grant-supported capital plus an identified operating payer. More under “Who pays”.
+
+Assign commissioning, monitoring, maintenance, spares and replacement responsibilities; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -5692,6 +7639,33 @@ Proposed responsibility: employer for required occupational protection; facility
 #### Fairness and risks
 
 Assess weight, skin discomfort/cold injury, cleaning and shared-vest hygiene. Fit would ideally include women and different body sizes; it is fairer when workers do not pay for employer protection. Wearing the vest does not by itself justify longer exposure.
+
+Can people actually use this?
+
+**Access requirements**: Appropriate pack temperatures, safe skin contact, fit, recharge logistics and replacement packs are provided with rest and hydration. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase and recurrent costs as a share of income were not published in reviewed sources.
+
+**Who does the additional work**: “Assess weight, skin discomfort/cold injury, cleaning and shared-vest hygiene.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess weight, skin discomfort/cold injury, cleaning and shared-vest hygiene. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: employer for required occupational protection; More under “Who pays”.
+
+Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Melted/warm packs, insufficient freezer capacity, mobility restriction, unsuitable PPE integration or work intensification that offsets benefit.” What could stop it
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -5785,6 +7759,34 @@ Proposed responsibility: employer for required occupational protection; facility
 
 Assess weight, restricted movement, skin tolerance, cleaning and electrical/hose safety. Device failure is not the worker’s fault; inclusive fit and subsidised replenishment matter.
 
+Can people actually use this?
+
+**Access requirements**: Battery/pump and chilled reservoir are maintained, tubing stays intact, and mobility/PPE compatibility are demonstrated. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase and recurrent costs as a share of income were not published in reviewed sources.
+
+**Who does the additional work**: “Assess weight, restricted movement, skin tolerance, cleaning and electrical/hose safety.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess weight, restricted movement, skin tolerance, cleaning and electrical/hose safety. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: employer for required occupational protection; More under “Who pays”.
+
+Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Names it as needed. “Empty ice supply, battery loss, leaks, hose entanglement, unsuitable water temperatures or inadequate work-rest rights.” What could stop it
+- **Accessible services and cooling:** Names it as needed. “Battery/pump and chilled reservoir are maintained, tubing stays intact, and mobility/PPE compatibility are demonstrated.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Japan; exact chamber location not stated on reviewed abstract page, 2020 publication.** Controlled protective-clothing liquid-cooling test. Eight male participants [Tokizawa et al.: liquid vest under protective clothing ](https://www.jstage.jst.go.jp/article/indhealth/58/1/58_2018-0182/_article)
@@ -5876,6 +7878,33 @@ Proposed responsibility: employer for required occupational protection; facility
 
 Assess wet-clothing acceptability and privacy, including women’s needs, chafing, hygiene, disability/dexterity and safety around electrical tasks. Singapore participants reported weight/neck strain and rewetting disruption; avoid interpreting cool skin as proof of safety.
 
+Can people actually use this?
+
+**Access requirements**: Water, safe hygienic wetting, clothing compatibility and air movement are available; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase and recurrent costs as a share of income were not published in reviewed sources.
+
+**Who does the additional work**: “Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess wet-clothing acceptability and privacy, including women’s needs, chafing, hygiene, disability/dexterity and safety around electrical tasks. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: employer for required occupational protection; More under “Who pays”.
+
+Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess wet-clothing acceptability and privacy, including women’s needs, chafing, hygiene, disability/dexterity and safety around electrical tasks.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Japan; exact laboratory city not established in methods inspected, 2023 publication.** Water-soaked inner shirt with fan-assisted garment. 16 male volunteers [Tokizawa: wetted inner clothing with ventilation garment ](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1122504/full)
@@ -5962,6 +7991,36 @@ Proposed responsibility: employer for required occupational protection; facility
 
 Ensure subcontracted/informal workers, women and disabled people can enter safely. Cooling infrastructure cannot compensate for withheld rest or wages. Assess hot travel, infection-control/ventilation, nighttime crowding, condenser exhaust and displacement of public trading space.
 
+Can people actually use this?
+
+**Access requirements**: Breaks are permitted and paid/usable, shelter is reachable, capacity is sufficient, maintenance and cooling power are reliable. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase and recurrent costs as a share of income were not published in reviewed sources.
+
+On earnings: “Cooling infrastructure cannot compensate for withheld rest or wages.”
+
+**Who does the additional work**: “Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Ensure subcontracted/informal workers, women and disabled people can enter safely. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: employer for required occupational protection; More under “Who pays”.
+
+Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Earnings protection:** Names it as needed. “Cooling infrastructure cannot compensate for withheld rest or wages.” Fairness and risks
+- **Tenant protections:** Names it as needed. “Assess hot travel, infection-control/ventilation, nighttime crowding, condenser exhaust and displacement of public trading space.” Fairness and risks
+- **Not assessed** (not mentioned in this record): work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Qatar construction site, Summer 2019.** Air-conditioned rest spaces within a multi-measure programme. Site workforce reported above 4,000; study sampling not reproduced here [ILO/University of Thessaly: occupational heat-strain study Qatar ](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@arabstates/@ro-beirut/documents/publication/wcms_723545.pdf)
@@ -6046,6 +8105,35 @@ Proposed responsibility: employer for required occupational protection; facility
 #### Fairness and risks
 
 Assess language, documentation, women’s safety, disability access, toilets, seating, accompaniment and income lost while attending. Public listing does not establish actual uptake; cooling-centre access cannot replace safe homes or overnight protection.
+
+Can people actually use this?
+
+**Access requirements**: Known opening times, free/affordable practical access, transport/outreach, accessibility, staffing, electricity and escalation arrangements are… More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Purchase and recurrent costs as a share of income were not published in reviewed sources.
+
+**Who does the additional work**: “Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess language, documentation, women’s safety, disability access, toilets, seating, accompaniment and income lost while attending. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed responsibility: employer for required occupational protection; More under “Who pays”.
+
+Operator would ideally inspect, clean and maintain the cooling equipment and its energy/coolant supply. More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Assess language, documentation, women’s safety, disability access, toilets, seating, accompaniment and income lost while attending.” Fairness and risks
+- **Accessible services and cooling:** Names it as needed. “Known opening times, free/affordable practical access, transport/outreach, accessibility, staffing, electricity and escalation arrangements are funded.” What makes it work
+- **Care-service continuity:** Includes it. “The intervention includes access, operating hours, outreach and onward support, not just an air conditioner.” How it works
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -6136,6 +8224,32 @@ Public authorities and implementing institutions fund administration; the alloca
 
 Ask whether affordable cooling and vulnerable people are represented in implementation budgets, not only national equipment demand projections.
 
+Can people actually use this?
+
+**Access requirements**: Assign deliverables, budgets, accountable agencies and monitoring; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Check actual access, recurring bills and exclusion of tenants, informal workers or households without a qualifying connection.
+
+**Who does the additional work**: “Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Ask whether affordable cooling and vulnerable people are represented in implementation budgets, not only national equipment demand projections. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Public authorities and implementing institutions fund administration; More under “Who pays”.
+
+Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **India, Launched 2019-03-08.** ICAP launched with long-term demand/efficiency/refrigerant objectives; targets are not achieved savings. Cross-sector national plan [Government of India, ICAP launch ](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1568328&lang=2&reg=48)
@@ -6224,6 +8338,33 @@ Public authorities and implementing institutions fund administration; the alloca
 
 Screen whether tenants and informal housing can access support; avoid fines or compliance costs that shift burdens without assistance.
 
+Can people actually use this?
+
+**Access requirements**: Use verified product performance, clear scope/exemptions, building-permission integration and funded low-income implementation. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Check actual access, recurring bills and exclusion of tenants, informal workers or households without a qualifying connection.
+
+**Who does the additional work**: “Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Screen whether tenants and informal housing can access support; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Public authorities and implementing institutions fund administration; More under “Who pays”.
+
+Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Screen whether tenants and informal housing can access support;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **Telangana, India, Order 2023-03-31; policy 2023–2028.** Official register verifies issuance of Telangana Cool Roof Policy; no coverage achievement inferred. State government orderG.O.Ms.No.50 [Government of Telangana, issued orders register ](https://buildnow.telangana.gov.in/go-and-act/)
@@ -6310,6 +8451,33 @@ Public authorities and implementing institutions fund administration; the alloca
 
 Assess affordability, rental pass-through, informal tenure and access to technical assistance; code compliance is not heat-health certification.
 
+Can people actually use this?
+
+**Access requirements**: Translate adopted requirements into designs, inspections, commissioning and ongoing operation; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Check actual access, recurring bills and exclusion of tenants, informal workers or households without a qualifying connection.
+
+**Who does the additional work**: “Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Assess affordability, rental pass-through, informal tenure and access to technical assistance; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Public authorities and implementing institutions fund administration; More under “Who pays”.
+
+Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Tenant protections:** Names it as needed. “Assess affordability, rental pass-through, informal tenure and access to technical assistance;” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **India, Official response 2025-04-03; codes 2024.** Government confirms codes published for state adoption. Do not describe central publication as automatic nationwide enforcement. Commercial ECSBC and residential ENS [Government of India, building codes published for state adoption ](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2118327&lang=2&reg=48)
@@ -6395,6 +8563,32 @@ Public authorities and implementing institutions fund administration; the alloca
 #### Fairness and risks
 
 Check low-income access to compliant replacement equipment and disposal of old units, rather than only the market-average standard.
+
+Can people actually use this?
+
+**Access requirements**: Maintain test laboratories, product registration, market surveillance and an update process consistent with local climate/use. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Check actual access, recurring bills and exclusion of tenants, informal workers or households without a qualifying connection.
+
+**Who does the additional work**: “Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check low-income access to compliant replacement equipment and disposal of old units, rather than only the market-average standard. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Public authorities and implementing institutions fund administration; More under “Who pays”.
+
+Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -6484,6 +8678,32 @@ Public authorities and implementing institutions fund administration; the alloca
 
 A high label rating does not establish lowest lifetime bill, suitable capacity, affordability or suitability for a medically vulnerable person.
 
+Can people actually use this?
+
+**Access requirements**: Keep labels understandable, test-backed, genuine and comparable within rating period; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Check actual access, recurring bills and exclusion of tenants, informal workers or households without a qualifying connection.
+
+**Who does the additional work**: “Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: A high label rating does not establish lowest lifetime bill, suitable capacity, affordability or suitability for a medically vulnerable person. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Public authorities and implementing institutions fund administration; More under “Who pays”.
+
+Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **Singapore, Scheme current 2026; import change effective 2026-07-01.** Energy labels and registered-goods database support comparison; own-use import requirements are separately specified. NEA MELS regulated goods [NEA, mandatory energy labelling and MEPS ](https://www.nea.gov.sg/our-services/climate-change-energy-efficiency/energy-efficiency/household-sector/about-mandatory-energy-labelling-and-minimum-energy-performance-standards)
@@ -6571,6 +8791,32 @@ Public authorities and implementing institutions fund administration; the alloca
 
 Aggregation does not remove upfront-payment or electricity-bill barriers; specifically assess households outside utility/customer eligibility.
 
+Can people actually use this?
+
+**Access requirements**: Use demand estimates, independent specifications, competitive procurement and funded post-sale service; More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Check actual access, recurring bills and exclusion of tenants, informal workers or households without a qualifying connection.
+
+**Who does the additional work**: “Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Aggregation does not remove upfront-payment or electricity-bill barriers; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Public authorities and implementing institutions fund administration; More under “Who pays”.
+
+Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **South and West Delhi BSES service area, India, Launch 2019-02-22.** EESL and BSES agreement combined demand aggregation, procurement and customer outreach; this is one programme, not two independently evaluated places. Residential/institutional12-month pilot [Government of India, EESL super-efficient AC launch ](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1566015&lang=2&reg=48)
@@ -6656,6 +8902,34 @@ Public authorities and implementing institutions fund administration; the alloca
 #### Fairness and risks
 
 Check disconnection risk, tenants, informal connections, irregular incomes and who bears underperformance. Ghana ECOFRIDGES is on-wage, not an interchangeable on-bill example.
+
+Can people actually use this?
+
+**Access requirements**: Agree billing fees, repayment liability, savings assumptions, repairs, move-out treatment and consumer safeguards before launch. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Check actual access, recurring bills and exclusion of tenants, informal workers or households without a qualifying connection.
+
+**Who does the additional work**: “Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check disconnection risk, tenants, informal connections, irregular incomes and who bears underperformance. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Public authorities and implementing institutions fund administration; More under “Who pays”.
+
+Responsible institutions would ideally fund periodic review, compliance, staff capacity and information maintenance; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Names it as needed. “Senegal evaluation identifies misaligned utility workload/incentives and end-of-life arrangements;” What could stop it
+- **Tenant protections:** Names it as needed. “Check disconnection risk, tenants, informal connections, irregular incomes and who bears underperformance.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, accessible services and cooling, care-service continuity, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -6745,6 +9019,33 @@ Proposed: responsible employer or facility/public-service budget with support fo
 #### Fairness and risks
 
 Check who is measured, who sees the readings, accessible language/displays, consent for identifiable household data and who can access protection. Do not make assistance conditional on a sensor score or transfer unpaid monitoring duties to women without agreement.
+
+Can people actually use this?
+
+**Access requirements**: Instrument placement represents actual occupancy, readings are understood, and someone has the authority/resources to act. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Proposed shared/public provision rather than requiring vulnerable households or workers to buy and maintain instruments.
+
+**Who does the additional work**: “Do not make assistance conditional on a sensor score or transfer unpaid monitoring duties to women without agreement.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Check who is measured, who sees the readings, accessible language/displays, consent for identifiable household data and who can access protection. More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: responsible employer or facility/public-service budget with support for resource-constrained settings. More under “Who pays”.
+
+Proposed implementation arrangement: named facility/safety staff maintain instruments and logs, check batteries and calibration against the… More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Check who is measured, who sees the readings, accessible language/displays, consent for identifiable household data and who can access protection.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -6836,6 +9137,34 @@ Proposed: responsible employer or facility/public-service budget with support fo
 #### Fairness and risks
 
 Include subcontracted, migrant and informal workers; ensure accessible warnings and a non-punitive route to rest or stop. Do not use a reading to override symptoms or force work. Worker control, pay consequences and data handling require local agreement.
+
+Can people actually use this?
+
+**Access requirements**: Measurements represent actual tasks/locations, staff interpret them competently, and work-rest, hydration, shade, acclimatisation and emergency… More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+Proposed shared/public provision rather than requiring vulnerable households or workers to buy and maintain instruments.
+
+**Who does the additional work**: “Proposed implementation arrangement: named facility/safety staff maintain instruments and logs, check batteries and calibration against the relevant instrument/standard, and review the response protocol.” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Include subcontracted, migrant and informal workers; More under “Fairness and risks”.
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Proposed: responsible employer or facility/public-service budget with support for resource-constrained settings. More under “Who pays”.
+
+Proposed implementation arrangement: named facility/safety staff maintain instruments and logs, check batteries and calibration against the… More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Includes it. “Measure worksite heat load with a wet-bulb globe temperature assessment and use it with workload, clothing/PPE, acclimatisation and worker condition to select protective actions.” How it works
+- **Accessible services and cooling:** Names it as needed. “ensure accessible warnings and a non-punitive route to rest or stop.” Fairness and risks
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -6930,6 +9259,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 City and local governments, National governments, Health authorities, Weather and climate services, Community and civil society groups. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Named lead, departmental acceptance and usable operating budgets. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Do not equate adoption or document completion with protection.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Operational funding:** Names it as needed. “Named lead, departmental acceptance and usable operating budgets.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Ahmedabad, India, 2018-11-01.** Mortality associations were analysed before and after the city heat-action package. [Hess et al., Ahmedabad HAP mortality study ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6236972/)
@@ -7018,6 +9370,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 City and local governments, National governments, Health authorities, Community and civil society groups. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Written mandate, budget, continuity and authority to convene/escalate. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Do not infer current officeholders or legal powers from an old CHO announcement.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Ahmedabad, India, 2018-11-01.** Study describes a municipal health nodal officer coordinating alert action. [Hess et al., Ahmedabad HAP mortality study ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6236972/)
@@ -7100,6 +9474,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Weather and climate services, Health authorities, City and local governments, Employers and businesses. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Forecast skill, local impact data and agreed action owners. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Avoid a district risk score or temperature-only message being treated as individual safety clearance.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -7186,6 +9582,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Community and civil society groups, Weather and climate services, City and local governments, Health authorities. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Accessible language, trusted messengers, redundancy and receipt feedback. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “reaching someone is not evidence they can stop work.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Accessible language, trusted messengers, redundancy and receipt feedback.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Gaur, Siraha and Jaleshwar, Nepal, 2025-07-30.** RAIN reports door-to-door visits and local-language FM heat messages. [People in Need: Nepal RAIN heat early action ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp)
@@ -7268,6 +9687,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 City and local governments, Health authorities, Weather and climate services, Community and civil society groups, National governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Ground-truthing, consent, updated lists and accessible appeals. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Avoid public release of named health or poverty registers.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Ground-truthing, consent, updated lists and accessible appeals.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -7354,6 +9796,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 City and local governments, Health authorities, Community and civil society groups, National governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Test real bottlenecks, document failures and assign corrections. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Simulation success does not validate heat thresholds or prove lives saved.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Simulation or test **Rajshahi, Bangladesh, Cover December 2025; recommended citation 2026.** Cash-delivery simulation tested use of social-protection systems. [Rajshahi shock-responsive social-protection simulation brief ](https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf)
@@ -7436,6 +9900,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 City and local governments, Health authorities, Community and civil society groups, Development banks, donors and climate funds. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Access to records, community testimony and funded corrections. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “do not rank organisations.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -7520,6 +10006,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 National governments, Employers and businesses, Worker organisations and unions, Health authorities. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Clear scope, employer responsibility and worker-accessible information. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “pay and protection details need the actual rule.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Clear scope, employer responsibility and worker-accessible information.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **Qatar, 2021 enactment; translated PDF closing date has 2020 inconsistency.** Decision17/2021 establishes outdoor heat-protection duties and stop-work provisions. [Qatar Ministerial Decision17/2021, English text hosted by ILO ](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@arabstates/@ro-beirut/documents/legaldocument/wcms_794551.pdf)
@@ -7602,6 +10111,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 National governments, Employers and businesses, Worker organisations and unions. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Inspector capacity, records, proportionate remedies and follow-up. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Protect workers from retaliation and avoid displacement of violations to uninspected sites.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -7688,6 +10219,31 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Employers and businesses, Worker organisations and unions, Health authorities, National governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Pay rules, suitable space/water and supervisor compliance. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+On earnings: “Paid rest, shade and drinking-water protocols”
+
+**Who does the additional work**: “Nicaragua provides transferable field implementation evidence, not a universal effect size or proof of pay status.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Earnings protection:** Includes it. “Paid rest, shade and drinking-water protocols” Name
+- **Not assessed** (not mentioned in this record): work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -7776,6 +10332,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Employers and businesses, Worker organisations and unions, National governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Revised workload, pay, transport and sleep assessment. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"A cooler clock time is not necessarily a safe WBGT or adequate sleep opportunity.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Names it as needed. “Revised workload, pay, transport and sleep assessment.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **India national-highway construction/toll work, 2026-04-28.** Directive calls for staggered shifts and moving heat-intensive tasks. [NHAI heatwave workforce protocols ](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=288341)
@@ -7861,6 +10440,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Employers and businesses, Worker organisations and unions, Health authorities. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Paid time, qualified supervision and workload/health assessment. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “different official schedules cannot fairly be blended.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Work-rest coverage:** Names it as needed. “Paid time, qualified supervision and workload/health assessment.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **Singapore, Current page; distinguishes1December2026changes.** Framework requires acclimatisation for new or returning outdoor workers. [MOM Singapore heat-stress framework ](https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work)
@@ -7943,6 +10545,31 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Employers and businesses, Worker organisations and unions, Health authorities. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Training in usable languages, paid attendance and real response authority. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+On earnings: “Training substitutes for engineering controls or lost-income protection.”
+
+**Who does the additional work**: “{"specific":"Assess behaviour and permission to act, not attendance alone.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Earnings protection:** Names it as needed. “Training substitutes for engineering controls or lost-income protection.” What could stop it
+- **Not assessed** (not mentioned in this record): work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -8027,6 +10654,30 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Worker organisations and unions, Employers and businesses, National governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Confidential, multilingual, non-punitive escalation and timely response. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Do not equate a complaint channel with an enforceable universal right to paid stoppage.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Includes it. “Provide an accessible route to pause unsafe work and seek remedy without retaliation.” How it works
+- **Confidential, non-punitive reporting:** Includes it. “Worker stop-work rights and heat grievance channels” Name
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **Qatar, 2021 enactment; translated PDF closing date has 2020 inconsistency.** Article6provides a heat-related stop-work and complaint right with protections. [Qatar Ministerial Decision17/2021, English text hosted by ILO ](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@arabstates/@ro-beirut/documents/legaldocument/wcms_794551.pdf)
@@ -8109,6 +10760,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Banks, insurers and financial regulators, Worker organisations and unions, Employers and businesses, Community and civil society groups, Development banks, donors and climate funds. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Transparent terms, basis-risk assessment, premium support and prompt beneficiary payment. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"A payout does not establish income replacement adequacy, permission to rest or clinical protection.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -8195,6 +10868,32 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Community and civil society groups, Worker organisations and unions, City and local governments, Development banks, donors and climate funds. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Pre-arranged grant funds, accessible enrolment and cash-out routes. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+On earnings: “Payments arrive after lost income or exclude those without IDs/accounts.”
+
+**Who does the additional work**: “never assume cash alone provides a cooler place.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Earnings protection:** Names it as needed. “Payments arrive after lost income or exclude those without IDs/accounts.” What could stop it
+- **Accessible services and cooling:** Names it as needed. “Pre-arranged grant funds, accessible enrolment and cash-out routes.” What makes it work
+- **Not assessed** (not mentioned in this record): work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **SEWA, India, 2026-05.** Programme added donor-funded cash separate from insurance payouts. [CGAP: SEWA climate and health case study ](https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association)
@@ -8279,6 +10978,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 National governments, City and local governments, Community and civil society groups, Development banks, donors and climate funds. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Legal route, scalable payments, contingency funding and grievance handling. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Do not present the Nepal objective or Bangladesh rehearsal as nationally operational heat-linked benefits.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Confidential, non-punitive reporting:** Names it as needed. “Legal route, scalable payments, contingency funding and grievance handling.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -8369,6 +11091,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Weather and climate services, City and local governments, Health authorities, Community and civil society groups, Development banks, donors and climate funds. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Enough lead time, readiness finance, staffed delivery and fallback for misses. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Preventive actions work best when they stay useful even when the forecast event is milder than expected.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Dhaka, Bangladesh, 2024-04-25.** BDRCS activated its heat early-action protocol inApril 2024. [Climate Centre: first Bangladesh heat EAP activation ](https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/)
@@ -8456,6 +11200,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 City and local governments, National governments, Development banks, donors and climate funds. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Named budget holder, recurring provision and transparent expenditure reporting. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"High-income budget scales are not Asian unit-cost benchmarks.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Operational funding:** Includes it. “Dedicated and traceable heat operating budgets” Name
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Phoenix, United States, 2025-04-10.** Council report distinguishes actual heat-response spending from the next season’s estimate. [Phoenix council heat response operating-cost report ](https://phoenix.legistar.com/LegislationDetail.aspx?From=RSS&GUID=EB9878D2-9C1B-4661-B8A4-B79A432A0A75&ID=7298650)
@@ -8540,6 +11307,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 National governments, City and local governments, Development banks, donors and climate funds. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Current dated legal/fund documents, application route and implementation capacity. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “legacy 2021–26web summaries do not establish current heat eligibility.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -8629,6 +11418,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Banks, insurers and financial regulators, Community and civil society groups, Development banks, donors and climate funds, City and local governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Technical advice, full loan terms, affordability checks and consumer protection. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “No Asian heat-loan access or thermal benefit is inferred from African cases.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Vadodara and Surat, India, Not stated.** MHT reports women-led housing credit cooperatives. [MHT microlending for habitat improvement ](https://www.mahilahousingtrust.org/practice-areas/microlending-for-habitat-improvement/)
@@ -8716,6 +11527,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Development banks, donors and climate funds, Community and civil society groups, Weather and climate services, International bodies. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Risk model, liquidity, local decision process and last-mile funds transfer. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Reported portfolio reach is not heat-only reach or an independent impact estimate.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Pakistan, May 2025, 2026-10; programme May 2025–April 2026.** RiskPool4reports heatwave activations with member delivery. [Start Ready Risk Pool4 report ](https://startnetwork.org/sites/default/files/2026-10/Start%20Ready%20Risk%20Pool%204%20Summary%20Report%20-%20Oct%202026.pdf)
@@ -8800,6 +11633,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Development banks, donors and climate funds, Banks, insurers and financial regulators, Community and civil society groups, Weather and climate services. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Transparent exception rules, sufficient capital and independent grievance route. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"The cyclone example transfers reserve governance, not evidence of verified heat-specific reserve payout.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Confidential, non-punitive reporting:** Names it as needed. “Transparent exception rules, sufficient capital and independent grievance route.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -8886,6 +11742,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Development banks, donors and climate funds, Banks, insurers and financial regulators, Worker organisations and unions, Community and civil society groups. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Clear subsidy duration, informed consent and sustainable renewal plan. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Premium support is not proof of adequate benefits, fair claims or poorest-user affordability.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **SEWA, India, 2026-05.** Programme case identifies donor-financed premium support in its early phase. [CGAP: SEWA climate and health case study ](https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association)
@@ -8970,6 +11848,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Health authorities, National governments, City and local governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Trained staff, referral routes and replenished supplies. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “this library does not reproduce treatment prescriptions.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -9056,6 +11956,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Health authorities, City and local governments, National governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Staff coverage, dispatch coordination and receiving-facility acceptance. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “a surge response can displace other essential services.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **India, 2023-04-18.** Preparedness guidance includes surge beds, rapid response and ambulance readiness. [India health-facility heat preparedness guidance ](https://ncdc.mohfw.gov.in/uploads/resource/1769333208_4_Strengthening-Health-Systems-Preparedness-for-Heat-Related-Illnesses-HRI-in-India_180423.pdf)
@@ -9140,6 +12062,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Health authorities, National governments, Banks, insurers and financial regulators, Community and civil society groups. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Published entitlements, supplies, trained enrolment/referral support and grievance handling. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “do not advertise one.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Confidential, non-punitive reporting:** Names it as needed. “Published entitlements, supplies, trained enrolment/referral support and grievance handling.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -9226,6 +12171,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Health authorities, National governments, Weather and climate services. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Clear definitions, trained staff and usable data feedback. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “zero reports may mean missing detection.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **India, 2026-08-04.** 2026official answer describes national heat-related illness/death reporting units. [MHA parliamentary answer on heat notification and funding ](https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2541_Ql0SOe.pdf?source=lsapps)
@@ -9310,6 +12277,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Health authorities, National governments, City and local governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Timely mortality/weather data, appropriate models and uncertainty reporting. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “do not add overlapping estimates.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -9396,6 +12385,31 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Health authorities, National governments, Worker organisations and unions. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Trained certifiers and compatible clinical/civil-registration records. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+On earnings: “No autopsy assumed to mean no heat contribution, or payout criteria drive scientific definitions.”
+
+**Who does the additional work**: “Preserve clinical/civil registration context.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Earnings protection:** Names it as needed. “No autopsy assumed to mean no heat contribution, or payout criteria drive scientific definitions.” What could stop it
+- **Not assessed** (not mentioned in this record): work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **India, 2024-03.** Guidance distinguishes heat-related mortality and standardises investigation/classification. [NCDC heat-death/autopsy guidance ](https://ncdc.mohfw.gov.in/uploads/resource/1769333120_Autopsy-Findings-in-Heat-Related-Deaths_March24_NPCCHH.pdf)
@@ -9480,6 +12494,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Schools and education authorities, Health authorities, City and local governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Transport, meals, childcare and learning needs considered. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Do not copy foreign timetables or a single temperature threshold.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Care-service continuity:** Names it as needed. “Transport, meals, childcare and learning needs considered.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -9566,6 +12603,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Schools and education authorities, City and local governments, National governments, Community and civil society groups. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Offline materials, teacher follow-up, safeguarding and return-to-school planning. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Closure can transfer heat exposure and unpaid care to households;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Includes it. “When in-person learning cannot safely continue, provide an accessible alternative and a return plan.” How it works
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **Philippines, 2025-03-05.** Official notice distinguishes discretionary suspension from automatic heat closure and calls for self-learning resources. [Philippines DepEd heat measures and learning continuity ](https://www.deped.gov.ph/2025/03/05/malacanang-deped-ramp-up-safety-measures-in-schools-amid-extreme-heat-calamities/)
@@ -9650,6 +12710,31 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Schools and education authorities, Health authorities, Water authorities, City and local governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Named staff, accessible water/toilets, referral and maintenance budget. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “adult office comfort evidence is not a child safety threshold.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Water, sanitation and privacy:** Names it as needed. “Named staff, accessible water/toilets, referral and maintenance budget.” What makes it work
+- **Accessible services and cooling:** Names it as needed. “Named staff, accessible water/toilets, referral and maintenance budget.” What makes it work
+- **Operational funding:** Names it as needed. “Named staff, accessible water/toilets, referral and maintenance budget.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -9736,6 +12821,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Community and civil society groups, Health authorities, City and local governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Training, safe travel, paid/supported time and referral services. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Do not infer mortality reduction from improved knowledge or fewer visits.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Measured in a study **Low-income Karachi communities, Pakistan, 2022-01-31.** Cluster trial measured aCHW-led heat education intervention. [Razzak et al., Karachi community education cRCT ](https://scholars.aku.edu/en/publications/impact-of-community-education-on-heat-related-health-outcomes-and/)
@@ -9820,6 +12927,30 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 City and local governments, Community and civil society groups, Health authorities. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Overnight staffing, transport, consent and reachable spaces. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “transfer the hours/access function, not budgets or policing practices.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Includes it. “Extend outreach beyond daytime openings and connect people to an accessible overnight protection route.” How it works
+- **Care-service continuity:** Includes it. “Night-time and round-the-clock outreach with heat escalation” Name
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -9906,6 +13037,33 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Worker organisations and unions, Community and civil society groups, City and local governments, Development banks, donors and climate funds. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Accessible participation, compensation for time and clear decision rights. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+On earnings: “Accessible participation, compensation for time and clear decision rights.”
+
+**Who does the additional work**: “{"specific":"Protect against unpaid care/volunteer burdens and elite capture;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Earnings protection:** Names it as needed. “Accessible participation, compensation for time and clear decision rights.” What makes it work
+- **Accessible services and cooling:** Names it as needed. “Accessible participation, compensation for time and clear decision rights.” What makes it work
+- **Participation in decisions:** Includes it. “Women-led co-design and worker governance” Name
+- **Not assessed** (not mentioned in this record): work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, confidential, non-punitive reporting, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Gujarat, India, Not stated;2025 logo on page.** Funder account describes women cooperative members shaping heat cover. [Humanity Insured: MHT heat coverage support ](https://humanityinsured.org/stories/mahila-housing-trust/)
@@ -9990,6 +13148,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Community and civil society groups, City and local governments, Water authorities, Development banks, donors and climate funds. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Repair finance, spare parts, safe water testing and accountable service support. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “respect water-source sustainability.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -10076,6 +13256,31 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Community and civil society groups, Health authorities, City and local governments, National governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Co-design with disabled people, accessible formats and non-digital alternatives. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “avoid sharing identifiable health/disability data.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Co-design with disabled people, accessible formats and non-digital alternatives.” What makes it work
+- **Care-service continuity:** Includes it. “Disability-inclusive outreach, communication and referral” Name
+- **Participation in decisions:** Names it as needed. “Co-design with disabled people, accessible formats and non-digital alternatives.” What makes it work
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, tenant protections, confidential, non-punitive reporting, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Reported, not evaluated **Dhaka, Bangladesh, Publication date not stated; live 2026.** Heat case account identifies targeted cash support for people with disabilities. [ATACH Bangladesh heat EAP case ](https://www.atachcommunity.com/our-impact/case-studies/case-study/bangladesh-early-action-protocol-for-heat-events/)
@@ -10158,6 +13363,30 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Worker organisations and unions, Community and civil society groups, Employers and businesses, City and local governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Trusted translators, accessible complaints and offline contact routes. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “{"specific":"Local-language communication is not proof that migrants have equal eligibility or protection.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Accessible services and cooling:** Names it as needed. “Trusted translators, accessible complaints and offline contact routes.” What makes it work
+- **Confidential, non-punitive reporting:** Includes it. “Deliver actionable information in usable languages with access to services and complaints independent of smartphone literacy.” How it works
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, care-service continuity, tenant protections, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -10244,6 +13473,29 @@ Institutional arrangements require continued staffing, records, operating funds 
 
 Community and civil society groups, Health authorities, City and local governments. Suggested, not commitments.
 
+Can people actually use this?
+
+**Access requirements**: Consent, secure updating, alternative contacts and actual response capacity. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “both examples transfer process rather than Asian eligibility rules.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Care-service continuity:** Includes it. “Consent-based registers and check-ins for isolated people” Name
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
+
 #### Where it has been tried
 
 - Official guidance or data **French communes, 2026-05-26.** Official guidance describes voluntary confidential registration and municipal contacts during heat alerts. [France voluntary communal heat-vulnerability register ](https://www.service-public.gouv.fr/particuliers/actualites/A14978)
@@ -10326,6 +13578,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 Utilities and energy regulators, Water authorities, National governments, City and local governments. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Legally defined scope, prompt reconnection and affordable arrears handling. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “avoid disconnection immediately afterwards without support.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 
@@ -10411,6 +13685,28 @@ Institutional arrangements require continued staffing, records, operating funds 
 #### Who acts
 
 City and local governments, Employers and businesses, Development banks, donors and climate funds, Community and civil society groups. Suggested, not commitments.
+
+Can people actually use this?
+
+**Access requirements**: Clear service levels, paid upkeep and a public route to report failures. More under “What makes it work”.
+
+**Costs in time, money or lost earnings**: See “Rough cost”.
+
+**Who does the additional work**: “avoid counting pilot assets as durable services.","cross_cutting_review":["gendered access and unpaid care/volunteer burden","disability access and reasonable accommodation","migrant language, documentation and employment barriers","tenant permissions, rent increases and displacement","water quality/availability, hygiene and maintenance","electricity demand, peak load, emissions and refrigerant management for dependent cooling assets","affordability, debt, benefit adequacy and grievance access"],"basis":"Researcher due-diligence questions;” Whether that work is paid is not recorded here.
+
+**Who may be left out**: Evidence on equitable access is limited
+
+**Who decides**: See “Who acts” (suggested, not commitments).
+
+**Who pays and maintains it**: Institutional arrangements require continued staffing, records, operating funds and review; More under “Upkeep”.
+
+**Evidence and uncertainties**: See “Known, inferred, uncertain”.
+
+##### Equity and access, from this record’s own wording
+
+- **Not assessed** (not mentioned in this record): earnings protection, work-rest coverage, water, sanitation and privacy, accessible services and cooling, care-service continuity, tenant protections, confidential, non-punitive reporting, participation in decisions, operational funding, maternal and newborn provisions
+
+Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.
 
 #### Where it has been tried
 

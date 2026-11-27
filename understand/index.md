@@ -26,6 +26,7 @@ What extreme heat does, where, to whom, and how one harm leads to the next.
 
 ## Also in Understand heat
 
+- [Heat, health and the ability to actWho can use protection, what makes it possible, and who is left out](https://beattheheat.asia/heat-health-and-equity/)
 - [The wet-bulb wallHow heat and humidity together limit the body’s ability to cool, with six cities’ latest weather](https://beattheheat.asia/wet-bulb-wall/)
 - [Heat futures: 2035–2050Projected hot days and nights near six cities, beside who could be protected](https://beattheheat.asia/heat-futures/)
 - [Heatwaves that shaped Asia10 heatwaves, 1998 to 2026, and what changed after](https://beattheheat.asia/heatwaves/)

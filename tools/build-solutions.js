@@ -14,6 +14,7 @@ const live = u => !!u && STATUS[u] !== "FAIL" && !/^https?:\/\/(www\.)?beatthehe
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const T = x => x == null ? "" : typeof x === "string" ? x : x.text || x.result || x.risk || x.logic || "";
 const ext = (u, l) => live(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l || u)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>` : "";
+const EQ = require("./equity-taxonomy.js");
 const RANK = ["evaluated", "measured", "guidance", "reported", "test", "concept"];
 const tag = s => D.EVIDENCE_STATUS[s] ? `<span class="ev-tag ev-tag--${s}" title="${esc(D.EVIDENCE_STATUS[s].text)}">${esc(D.EVIDENCE_STATUS[s].name)}</span>` : "";
 const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
@@ -135,7 +136,27 @@ function card(rec, lib) {
   const settings = (rec.settings || []).filter(s => D.ACTION_SETTINGS.some(x => x.id === s));
   const q = [rec.name, famName(rec.family), mech, ...settings.map(setting), ...(rec.levers || []).map(lever)].join(" ").toLowerCase();
   const u = rec.uncertainty || {};
-  return { id: rec.id, best, html: `<details class="sol" id="${esc(rec.id)}" data-type="${lib.type}" data-settings="${esc(settings.join(" "))}" data-clim="${esc(cl.join(" "))}" data-best="${best}" data-q="${esc(q)}">
+  const em = EQ.matchSolution(rec), eqIds = st => EQ.T.provisions.filter(v => em[v.id].status === st).map(v => v.id).join(" ");
+  const first = x => { const s = String(T(x) || "").split(/(?<=[.;])\s+/)[0] || ""; return s.length > 150 ? s.slice(0, 147).replace(/\s+\S*$/, "") + "…" : s; };
+  const brief = (x, where) => first(x) ? `<p>${esc(first(x))} <span class="sol-note">More under “${where}”.</span></p>` : "";
+  const NA = `<span class="sol-na">Not assessed</span>`;
+  const passOf = re => { for (const f of ["equity_and_risks", "lifespan_and_upkeep", "works_if", "stops_it", "who_pays"]) { const t = T(rec[f]) || (typeof rec[f] === "object" ? JSON.stringify(rec[f]) : ""); const s = String(t).split(/(?<=[.;])\s+/).find(x => re.test(x)); if (s) return s; } return ""; };
+  const extra = passOf(/unpaid|volunteer|maintenance|maintain|upkeep|cleaning|refill|repair/i);
+  const unc = rec.uncertainty || {};
+  const useRows = [
+    ["Access requirements", brief(rec.works_if, "What makes it work") || NA],
+    ["Costs in time, money or lost earnings", (costHTML(rec.cost) ? `<p class="sol-note">See “Rough cost”.</p>` : "") + (T(rec.affordability_for_poorest) ? `<p>${esc(first(rec.affordability_for_poorest))}</p>` : "") + (em["v-earnings"].status !== "notassessed" ? `<p>On earnings: “${esc(em["v-earnings"].passage)}”</p>` : "") || `<span class="sol-na">Local costing needed</span>`],
+    ["Who does the additional work", extra ? `<p>“${esc(extra)}” <span class="sol-note">Whether that work is paid is not recorded here.</span></p>` : NA],
+    ["Who may be left out", brief(rec.equity_and_risks, "Fairness and risks") || `<span class="sol-na">Evidence on equitable access is limited</span>`],
+    ["Who decides", (rec.who_acts || []).length ? `<p class="sol-note">See “Who acts” (suggested, not commitments).</p>` : NA],
+    ["Who pays and maintains it", [brief(rec.who_pays, "Who pays"), brief(rec.lifespan_and_upkeep, "Upkeep")].filter(Boolean).join("") || NA],
+    ["Evidence and uncertainties", unc.uncertain || unc.known ? `<p class="sol-note">See “Known, inferred, uncertain”.</p>` : NA]
+  ];
+  const na = EQ.T.provisions.filter(v => em[v.id].status === "notassessed");
+  const eqList = EQ.T.provisions.filter(v => em[v.id].status !== "notassessed").map(v => { const x = em[v.id]; return `<li data-v="${v.id}"><b>${esc(v.label)}:</b> ${x.status === "includes" ? "Includes it" : "Names it as needed"}. “${esc(x.passage)}” <span class="sol-note">${esc(x.field)}</span></li>`; }).join("") + (na.length ? `<li><b>Not assessed</b> <span class="sol-note">(not mentioned in this record)</span>: ${esc(na.map(v => v.label.toLowerCase()).join(", "))}</li>` : "");
+  const usePanel = `<details class="sol-use" id="${esc(rec.id)}-use"><summary>Can people actually use this?</summary><dl class="sol-usedl">${useRows.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
+        <h5>Equity and access, from this record’s own wording</h5><ul class="sol-eq">${eqList}</ul><p class="sol-note">Matched by script from the record’s published wording; not yet reviewed by a person. “Includes it” means the solution’s own description names the provision; “names it as needed” means its fairness notes, conditions or barriers do; “not assessed” is not a finding that the provision is missing in practice.</p></details>`;
+  return { id: rec.id, best, html: `<details class="sol" id="${esc(rec.id)}" data-type="${lib.type}" data-eqi="${eqIds("includes")}" data-eqr="${eqIds("requires")}" data-settings="${esc(settings.join(" "))}" data-clim="${esc(cl.join(" "))}" data-best="${best}" data-q="${esc(q)}">
       <summary><span class="sol-h">${esc(rec.name)}</span><span class="sol-tags"><span class="sol-type sol-type--${lib.type}">${esc(lib.label)}</span>${climLabel(cl) ? `<span class="sol-clim">${esc(climLabel(cl))}</span>` : ""}${tag(best)}</span><span class="sol-sum">${esc(mech.split(/(?<=\.)\s/)[0])}</span></summary>
       <div class="sol-body">
         ${field("How it works", para(rec, rec.mechanism))}
@@ -149,6 +170,7 @@ function card(rec, lib) {
         ${field("Who acts", (rec.who_acts || []).length ? `<p>${esc(rec.who_acts.map(inst).join(", "))}. <span class="sol-note">Suggested, not commitments.</span></p>` : "")}
         ${field("Who pays", para(rec, rec.who_pays))}
         ${field("Fairness and risks", para(rec, rec.equity_and_risks))}
+        ${usePanel}
         ${field("Where it has been tried", ex ? `<ul class="sol-ul">${ex}</ul>` : "")}
         ${field("Evidence", ev ? `<ul class="sol-ul">${ev}</ul>` : "")}
         ${field("Moving it elsewhere", para(rec, rec.transferability))}
@@ -190,6 +212,12 @@ const body = `
           <label><span>Setting</span><select id="sol-set"><option value="">Any setting</option>${settingOpts}</select></label>
           <label><span>Heat</span><select id="sol-clim"><option value="">Dry or humid</option><option value="hot-dry">Suits dry heat</option><option value="hot-humid">Suits humid heat</option></select></label>
           <label><span>Evidence</span><select id="sol-ev"><option value="">Any evidence</option><option value="strong">Measured or independently evaluated</option></select></label>
+          <fieldset class="sol-eqf"><legend>Equity and access</legend>
+            <label><span>Provision</span><select id="sol-eq"><option value="">Any</option>${EQ.T.provisions.map(v => `<option value="${v.id}">${esc(v.label)}</option>`).join("")}</select></label>
+            <label><span>Shown as</span><select id="sol-eqs"><option value="inc">Includes it</option><option value="any">Includes it, or names it as needed</option><option value="na">Not yet assessed for it</option></select></label>
+            <p class="sol-note">One provision at a time. Read from each record’s own wording by script, not yet reviewed by a person. “Not yet assessed” lists records that do not mention the provision: silence is not a finding that it is missing. <a href="/heat-health-and-equity/#taxonomy">What each provision means</a></p>
+          </fieldset>
+          <button type="button" class="sol-reset" id="sol-reset">Clear all filters</button>
           <p class="sol-count" id="sol-count" role="status" aria-live="polite">${total} solutions</p>
         </div>
 ${libs.map(l => `        <section class="sol-group" id="${l.type}" aria-labelledby="${l.type}-h">
@@ -219,7 +247,10 @@ ${libs.map(l => `        <section class="sol-group" id="${l.type}" aria-labelled
 function COUNTRIES_LINKS() { return SNAPS.map(s => `<a href="/countries/${s.slug}/">${esc(s.name)}</a>`).join(" · "); }
 const script = `  <script>
   (function () {
-    var q = document.getElementById("sol-q"), set = document.getElementById("sol-set"), clim = document.getElementById("sol-clim"), ev = document.getElementById("sol-ev");
+    var q = document.getElementById("sol-q"), set = document.getElementById("sol-set"), clim = document.getElementById("sol-clim"), ev = document.getElementById("sol-ev"), eq = document.getElementById("sol-eq"), eqs = document.getElementById("sol-eqs");
+    var EQS = ["inc", "any", "na"], P = new URLSearchParams(location.search);
+    if (P.get("eq") && [].some.call(eq.options, function (o) { return o.value === P.get("eq"); })) eq.value = P.get("eq");
+    if (EQS.indexOf(P.get("eqs")) >= 0) eqs.value = P.get("eqs");
     var cards = [].slice.call(document.querySelectorAll(".sol")), groups = [].slice.call(document.querySelectorAll(".sol-group[id='passive'],.sol-group[id='active'],.sol-group[id='policy']"));
     var types = [].slice.call(document.querySelectorAll(".sol-types button")), type = "", count = document.getElementById("sol-count"), none = document.getElementById("sol-none"), total = cards.length;
     function run() {
@@ -227,12 +258,18 @@ const script = `  <script>
       cards.forEach(function (c) { var d = c.dataset;
         var ok = (!type || d.type === type) && (!set.value || (" " + d.settings + " ").indexOf(" " + set.value + " ") >= 0) && (!clim.value || d.clim.indexOf(clim.value) >= 0) &&
           (!ev.value || d.best === "measured" || d.best === "evaluated") && words.every(function (w) { return d.q.indexOf(w) >= 0; });
+        var inc = (" " + d.eqi + " ").indexOf(" " + eq.value + " ") >= 0, req = (" " + d.eqr + " ").indexOf(" " + eq.value + " ") >= 0;
+        if (eq.value) ok = ok && (eqs.value === "inc" ? inc : eqs.value === "any" ? inc || req : !inc && !req);
+        var why = c.querySelector(".sol-why"); if (why) why.parentNode.removeChild(why);
+        if (ok && eq.value) { var w = document.createElement("p"); w.className = "sol-why"; var li = c.querySelector('.sol-eq li[data-v="' + eq.value + '"]'); w.textContent = li ? "Why it is listed: " + li.textContent : "Not assessed: this record does not mention it."; c.querySelector("summary").insertAdjacentElement("afterend", w); }
         c.hidden = !ok; if (ok) shown++; });
       groups.forEach(function (g) { g.hidden = !g.querySelector(".sol:not([hidden])"); });
       count.textContent = shown === total ? total + " solutions" : shown + " of " + total + " solutions"; none.hidden = shown > 0;
     }
     types.forEach(function (b) { b.addEventListener("click", function () { type = b.dataset.type; types.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); }); run(); }); });
-    [q, set, clim, ev].forEach(function (el) { el.addEventListener("input", run); el.addEventListener("change", run); });
+    [q, set, clim, ev, eq, eqs].forEach(function (el) { el.addEventListener("input", run); el.addEventListener("change", run); });
+    document.getElementById("sol-reset").addEventListener("click", function () { q.value = ""; set.value = ""; clim.value = ""; ev.value = ""; eq.value = ""; eqs.value = "inc"; type = ""; types.forEach(function (x, i) { x.setAttribute("aria-pressed", String(i === 0)); }); run(); });
+    if (eq.value) run();
     function openHash() { var id = decodeURIComponent(location.hash.slice(1)), el = id && document.getElementById(id); if (el && el.tagName === "DETAILS") { el.open = true; el.scrollIntoView({ block: "start" }); } }
     document.addEventListener("click", function (e) { var a = e.target.closest && e.target.closest("a[data-open]"); if (a) setTimeout(openHash, 0); });
     window.addEventListener("hashchange", openHash); openHash();

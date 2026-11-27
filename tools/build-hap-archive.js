@@ -134,6 +134,7 @@ module.exports = function hapArchive({ page, write, esc, V, ROOT }) {
       <p class="hap-p"><small>Source: National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026, <i>Heat Resilient Cities Framework</i>, pp. 1-10, on <a href="https://niua.in/publication-details/Heat_Resilient_Cities_Framework">the publisher’s page</a>. Shared under CC BY-SA 4.0; <a href="${NIUA}">an unchanged copy (PDF, ${NIUA_MB} MB)</a> is also kept here, with credit to its publishers, in case the original moves. More of their work is at <a href="https://niua.in/c-cube">niua.in/c-cube</a>. The framework is guidance, not a heat action plan, so it is not counted in the archive above.</small></p>
     </div></section>
 
+    ${require("./hap-review-section.js")(esc)}
     <section class="container hap-sec" id="method" aria-labelledby="method-h">
       <h2 class="hub-h" id="method-h">How it was checked</h2>
       <ul class="hap-method">

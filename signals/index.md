@@ -1,7 +1,7 @@
 ---
 title: "Signals: which way heat policy is moving"
 url: https://beattheheat.asia/signals/
-updated: 2026-11-26
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
@@ -100,6 +100,28 @@ What would change this recordThe task force's guidance on the indicators, publis
 
 ReviewRecord last reviewed 26 November 2026. Sources last checked 25 November 2026. Next review due 26 February 2027. [What a review covers](#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Parties to the Paris Agreement (CMA 7)
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 
 Commitment[COP31 watch](#cop31)Latest development 22 November 2026
@@ -140,6 +162,28 @@ Not known yet
 What would change this recordThe first carbon-market proceeds received by the Adaptation Fund.
 
 ReviewRecord last reviewed 26 November 2026. Sources last checked 25 November 2026. Next review due 26 February 2027. [What a review covers](#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Parties to the Paris Agreement (CMA 8)
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
@@ -205,6 +249,28 @@ What would change this recordGrants signed or paid out, and work funded in South
 
 ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: UNEP and the Government of Singapore (co-chairs)
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: Announced
+
+**Implementation stage**: Not assessed
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)[Cool by design](https://beattheheat.asia/actions/#coolbydesign)[Heat action plans](https://beattheheat.asia/actions/#hap)[Paying for protection](https://beattheheat.asia/paying-for-protection/)
 
 Gathering[COP31 watch](#cop31)Latest development 9 November 2026
@@ -266,6 +332,28 @@ Not known yet
 What would change this recordA country announcing that it will take part, or the platform's first published output.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 12 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Healthcare and maternal services; Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Türkiye, as COP31 host, and the World Health Organization
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Announced (proposed)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
@@ -353,6 +441,28 @@ Not known yet
 What would change this recordSupport under the plan reaching countries in South and Southeast Asia.
 
 ReviewRecord last reviewed 18 November 2026. Sources last checked 26 November 2026. Next review due 27 November 2026. [What a review covers](#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global
+
+**Type of protection**: Warning and response systems; Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: World Health Organization
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
 

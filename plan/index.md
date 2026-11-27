@@ -1,7 +1,7 @@
 ---
 title: "Plan a response to extreme heat | Common Shade"
 url: https://beattheheat.asia/plan/
-updated: 2026-11-26
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
@@ -63,6 +63,17 @@ Tick what you expect to get in the way. Each one adds what has moved it elsewher
 
 6 Check it against WHO’s eight core elements
 WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above. To assess how ready your institutions are to deliver, run the self-assessment in the [Extreme Heat Risk Governance Framework and Toolkit ](https://heathealth.info/resources/heat-gov-framework/) (GHHIN, UNDRR and WMO, 2025) as a facilitated workshop; it is a first edition, written mainly for national governments.
+
+### Equity and accommodation check
+
+A Common Shade supplementary planning check. It is not part of WHO’s guidance, and WHO has not reviewed it.
+
+Four questions about whether the people the plan protects can actually use what it offers. Answer for the group and setting, never for a named person: nothing here asks about anyone’s health or pregnancy, and your answers stay in this browser and in your saved plan. Unanswered questions are listed, not blocked, and they print with the plan. A planning aid, not legal or clinical certification. What each idea means: [the shared provisions](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
+- Can people use the proposed protection without losing earnings, employment or access to work?
+- Can the intended users reach and use the cooling or support provided?
+- Do the work-rest and protection arrangements cover everyone exposed in this setting?
+- Can people report symptoms or barriers confidentially and without punishment, and will someone respond?
 
 ## Before the plan is finished: four questions
 

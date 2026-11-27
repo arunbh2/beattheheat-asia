@@ -1,43 +1,385 @@
 {
   "about": "Common Shade's shared health and equity taxonomy, used by the plan workbook (/plan/), the Solutions library, the heat action plan provision review, Follow the money and Signals, and the health and equity pages. Three dimensions kept apart: who and where (people), what is provided (provisions) and how far it is shown (status). A record that mentions a group does not thereby provide anything for it; a provision on paper is not delivery; a service open to all is not equitable access. Labels describe; none certifies anything as safe or equitable. tools/equity-taxonomy.js loads and checks this file.",
   "people": [
-    { "id": "p-pregnancy", "label": "Pregnant and postpartum people", "definition": "People who are pregnant or have recently given birth.", "include": "The record names pregnancy, the postpartum period or maternal health.", "exclude": "General references to women or families.", "examples": ["Heat and pregnancy guidance for health workers"], "evidence": "The record's own words name the group." },
-    { "id": "p-children", "label": "Newborns and children", "definition": "Babies, children and young people, at home, in school or in care.", "include": "The record names newborns, infants, children, students or schools.", "exclude": "Households in general.", "examples": ["School timetables in heat"], "evidence": "The record's own words name the group." },
-    { "id": "p-older", "label": "Older people", "definition": "People in later life, including those living alone.", "include": "The record names older people or the elderly.", "exclude": "Age in general.", "examples": ["Check-ins for people living alone"], "evidence": "The record's own words name the group." },
-    { "id": "p-disability", "label": "Disabled people", "definition": "People with physical, sensory, intellectual or psychosocial disabilities.", "include": "The record names disability or accessibility for disabled people.", "exclude": "Health conditions not described as disability.", "examples": ["Step-free cooling spaces"], "evidence": "The record's own words name the group." },
-    { "id": "p-informal", "label": "Informal, contract and piece-rate workers", "definition": "People paid by the day, by the piece or without a formal contract.", "include": "The record names informal, casual, day-wage, contract, gig or piece-rate work, or street vending.", "exclude": "Workers in general.", "examples": ["Street vendors", "Construction day labour"], "evidence": "The record's own words name the group." },
-    { "id": "p-homebased", "label": "Home-based workers", "definition": "People who earn from work done in their own home.", "include": "The record names home-based work, homeworkers or work done at home for pay.", "exclude": "Unpaid housework alone.", "examples": ["Garment piecework at home"], "evidence": "The record's own words name the group." },
-    { "id": "p-tenants", "label": "Tenants", "definition": "People renting their home, who may not be able to change the building.", "include": "The record names tenants, renters or landlords.", "exclude": "Housing in general.", "examples": ["A renter who cannot add roof insulation"], "evidence": "The record's own words name the group." },
-    { "id": "p-migrant", "label": "Migrant workers", "definition": "People working away from where they are from, within or across borders.", "include": "The record names migrant or seasonal migrant workers.", "exclude": "Displacement unrelated to work.", "examples": ["Seasonal harvest labour"], "evidence": "The record's own words name the group." },
-    { "id": "p-carers", "label": "Paid and unpaid caregivers", "definition": "People who care for children, older or disabled people, paid or unpaid.", "include": "The record names care work, caregivers, carers or care responsibilities.", "exclude": "Health services in general.", "examples": ["A parent when childcare closes"], "evidence": "The record's own words name the group." },
-    { "id": "p-gender", "label": "People facing gender-related exclusion", "definition": "Women, transgender and gender-diverse people where gender shapes access, safety or control.", "include": "The record names gender, women or gendered access, safety or control.", "exclude": "A mention of households, which does not show who in the household benefits.", "examples": ["Who controls a household's cooling spending"], "evidence": "The record's own words name the group." }
+    {
+      "id": "p-pregnancy",
+      "label": "Pregnant and postpartum people",
+      "definition": "People who are pregnant or have recently given birth.",
+      "include": "The record names pregnancy, the postpartum period or maternal health.",
+      "exclude": "General references to women or families.",
+      "examples": [
+        "Heat and pregnancy guidance for health workers"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-children",
+      "label": "Newborns and children",
+      "definition": "Babies, children and young people, at home, in school or in care.",
+      "include": "The record names newborns, infants, children, students or schools.",
+      "exclude": "Households in general.",
+      "examples": [
+        "School timetables in heat"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-older",
+      "label": "Older people",
+      "definition": "People in later life, including those living alone.",
+      "include": "The record names older people or the elderly.",
+      "exclude": "Age in general.",
+      "examples": [
+        "Check-ins for people living alone"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-disability",
+      "label": "Disabled people",
+      "definition": "People with physical, sensory, intellectual or psychosocial disabilities.",
+      "include": "The record names disability or accessibility for disabled people.",
+      "exclude": "Health conditions not described as disability.",
+      "examples": [
+        "Step-free cooling spaces"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-informal",
+      "label": "Informal, contract and piece-rate workers",
+      "definition": "People paid by the day, by the piece or without a formal contract.",
+      "include": "The record names informal, casual, day-wage, contract, gig or piece-rate work, or street vending.",
+      "exclude": "Workers in general.",
+      "examples": [
+        "Street vendors",
+        "Construction day labour"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-homebased",
+      "label": "Home-based workers",
+      "definition": "People who earn from work done in their own home.",
+      "include": "The record names home-based work, homeworkers or work done at home for pay.",
+      "exclude": "Unpaid housework alone.",
+      "examples": [
+        "Garment piecework at home"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-tenants",
+      "label": "Tenants",
+      "definition": "People renting their home, who may not be able to change the building.",
+      "include": "The record names tenants, renters or landlords.",
+      "exclude": "Housing in general.",
+      "examples": [
+        "A renter who cannot add roof insulation"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-migrant",
+      "label": "Migrant workers",
+      "definition": "People working away from where they are from, within or across borders.",
+      "include": "The record names migrant or seasonal migrant workers.",
+      "exclude": "Displacement unrelated to work.",
+      "examples": [
+        "Seasonal harvest labour"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-carers",
+      "label": "Paid and unpaid caregivers",
+      "definition": "People who care for children, older or disabled people, paid or unpaid.",
+      "include": "The record names care work, caregivers, carers or care responsibilities.",
+      "exclude": "Health services in general.",
+      "examples": [
+        "A parent when childcare closes"
+      ],
+      "evidence": "The record's own words name the group."
+    },
+    {
+      "id": "p-gender",
+      "label": "People facing gender-related exclusion",
+      "definition": "Women, transgender and gender-diverse people where gender shapes access, safety or control.",
+      "include": "The record names gender, women or gendered access, safety or control.",
+      "exclude": "A mention of households, which does not show who in the household benefits.",
+      "examples": [
+        "Who controls a household's cooling spending"
+      ],
+      "evidence": "The record's own words name the group."
+    }
   ],
   "provisions": [
-    { "id": "v-earnings", "label": "Earnings protection", "definition": "People do not lose pay or work by using the protection: paid breaks, income support or cash in heat.", "include": "The arrangement itself pays, compensates or protects earnings.", "exclude": "Saying earnings matter, or that income loss is a risk.", "examples": ["Paid rest breaks", "Heat-triggered cash transfers"], "evidence": "A passage in the record or a checked source that describes the payment or guarantee.", "match": ["paid break", "paid rest", "without losing pay", "wage", "income support", "cash transfer", "compensat", "income protection", "insurance pay", "payout", "lost income"] },
-    { "id": "v-workrest", "label": "Work-rest coverage", "definition": "Rest, changed hours or lighter loads in heat, and who they cover.", "include": "The arrangement sets rest, schedules or workload in heat.", "exclude": "General advice to rest.", "examples": ["Midday work bans", "Work-rest cycles"], "evidence": "A passage describing the rule or arrangement.", "match": ["rest break", "work-rest", "work hours", "working hours", "midday", "schedule", "workload", "shift"] },
-    { "id": "v-sanitation", "label": "Water, sanitation and privacy", "definition": "Drinking water, toilets and private, safe facilities people can actually use.", "include": "The arrangement provides water, toilets, washing or privacy.", "exclude": "Advice to drink water without provision.", "examples": ["Worksite toilets and water points"], "evidence": "A passage describing the provision.", "match": ["toilet", "sanitation", "privacy", "drinking water", "water point", "washroom", "latrine"] },
-    { "id": "v-access", "label": "Accessible services and cooling", "definition": "Cooling or support that disabled, older and other intended users can reach and use: step-free, nearby, open when needed, with dependants welcome.", "include": "The arrangement addresses physical access, distance, opening hours or transport.", "exclude": "A service existing somewhere.", "examples": ["Step-free cooling centre open in the evening"], "evidence": "A passage describing the access arrangement.", "match": ["accessib", "step-free", "wheelchair", "opening hours", "open late", "transport", "mobility", "within walking"] },
-    { "id": "v-care", "label": "Care-service continuity", "definition": "Childcare, eldercare, disability support and health services keep running through heat, without moving the work onto unpaid carers.", "include": "The arrangement keeps a care or health service running in heat.", "exclude": "A health service that exists.", "examples": ["Clinics with backup power", "Home-visit check-ins"], "evidence": "A passage describing continuity arrangements.", "match": ["childcare", "care service", "check-in", "home visit", "continuity", "backup power", "outreach", "caregiver"] },
-    { "id": "v-tenure", "label": "Tenant protections", "definition": "People who rent can benefit without rent rises, eviction or needing a landlord's permission they cannot get.", "include": "The arrangement addresses rent, tenure or landlord permission.", "exclude": "Housing improvements with no word on tenure.", "examples": ["Rent controls after retrofits"], "evidence": "A passage describing the protection.", "match": ["tenant", "renter", "landlord", "rent ", "rent-", "eviction", "tenure", "displacement"] },
-    { "id": "v-reporting", "label": "Confidential, non-punitive reporting", "definition": "People can report symptoms or barriers privately, without losing pay or work, and someone responds.", "include": "The arrangement sets a reporting channel with protection from retaliation or a named responder.", "exclude": "Encouraging people to speak up.", "examples": ["Anonymous heat complaints with a named inspector"], "evidence": "A passage describing the channel and its protection.", "match": ["report", "complaint", "grievance", "retaliat", "anonymous", "confidential", "without penalty"] },
-    { "id": "v-participation", "label": "Participation in decisions", "definition": "Intended users can shape or challenge how the protection works: committees with real say, worker or community voice in budgets and rules.", "include": "The arrangement gives users a role in decisions.", "exclude": "Consultation alone, or a seat without a say.", "examples": ["Worker-management heat committees"], "evidence": "A passage describing the role and what it can change.", "match": ["committee", "participat", "co-design", "worker voice", "community-led", "consult", "collective"] },
-    { "id": "v-funding", "label": "Operational funding", "definition": "Money for running, staffing and maintaining the protection, not only for building it.", "include": "The arrangement names recurring or operating funds.", "exclude": "Capital costs alone.", "examples": ["A recurring heat budget line"], "evidence": "A passage or source naming the funding.", "match": ["budget", "recurring", "operating cost", "maintenance fund", "upkeep", "o&m"] },
-    { "id": "v-maternal", "label": "Maternal and newborn provisions", "definition": "Arrangements that address pregnancy, postpartum and newborn needs: accommodation at work, antenatal care access, facility readiness.", "include": "The arrangement provides something for pregnant or postpartum people or newborns.", "exclude": "Naming pregnant people as at risk.", "examples": ["Lighter duties without pay loss", "Cool waiting areas in antenatal clinics"], "evidence": "A passage describing the provision.", "match": ["pregnan", "antenatal", "maternal", "newborn", "postpartum", "breastfeed"] }
+    {
+      "id": "v-earnings",
+      "label": "Earnings protection",
+      "definition": "People do not lose pay or work by using the protection: paid breaks, income support or cash in heat.",
+      "include": "The arrangement itself pays, compensates or protects earnings.",
+      "exclude": "Saying earnings matter, or that income loss is a risk.",
+      "examples": [
+        "Paid rest breaks",
+        "Heat-triggered cash transfers"
+      ],
+      "evidence": "A passage in the record or a checked source that describes the payment or guarantee.",
+      "match": [
+        "paid (rest|break)",
+        "without (losing|loss of) (pay|wages|income)",
+        "income support",
+        "cash transfer",
+        "compensat",
+        "income protection",
+        "lost (income|wages|earnings)",
+        "wage (loss|support|protection)",
+        "payout"
+      ]
+    },
+    {
+      "id": "v-workrest",
+      "label": "Work-rest coverage",
+      "definition": "Rest, changed hours or lighter loads in heat, and who they cover.",
+      "include": "The arrangement sets rest, schedules or workload in heat.",
+      "exclude": "General advice to rest.",
+      "examples": [
+        "Midday work bans",
+        "Work-rest cycles"
+      ],
+      "evidence": "A passage describing the rule or arrangement.",
+      "match": [
+        "rest breaks?",
+        "work-rest",
+        "working hours",
+        "work hours",
+        "midday",
+        "work schedule",
+        "workload",
+        "shift (work|times|length)"
+      ]
+    },
+    {
+      "id": "v-sanitation",
+      "label": "Water, sanitation and privacy",
+      "definition": "Drinking water, toilets and private, safe facilities people can actually use.",
+      "include": "The arrangement provides water, toilets, washing or privacy.",
+      "exclude": "Advice to drink water without provision.",
+      "examples": [
+        "Worksite toilets and water points"
+      ],
+      "evidence": "A passage describing the provision.",
+      "match": [
+        "toilets?",
+        "sanitation",
+        "privacy",
+        "drinking water",
+        "water points?",
+        "washrooms?",
+        "latrines?"
+      ]
+    },
+    {
+      "id": "v-access",
+      "label": "Accessible services and cooling",
+      "definition": "Cooling or support that disabled, older and other intended users can reach and use: step-free, nearby, open when needed, with dependants welcome.",
+      "include": "The arrangement addresses physical access, distance, opening hours or transport.",
+      "exclude": "A service existing somewhere.",
+      "examples": [
+        "Step-free cooling centre open in the evening"
+      ],
+      "evidence": "A passage describing the access arrangement.",
+      "match": [
+        "accessib",
+        "step-free",
+        "wheelchair",
+        "opening hours",
+        "open (late|at night|in the evening)",
+        "public transport",
+        "mobility",
+        "walking distance"
+      ]
+    },
+    {
+      "id": "v-care",
+      "label": "Care-service continuity",
+      "definition": "Childcare, eldercare, disability support and health services keep running through heat, without moving the work onto unpaid carers.",
+      "include": "The arrangement keeps a care or health service running in heat.",
+      "exclude": "A health service that exists.",
+      "examples": [
+        "Clinics with backup power",
+        "Home-visit check-ins"
+      ],
+      "evidence": "A passage describing continuity arrangements.",
+      "match": [
+        "childcare",
+        "child care",
+        "care services?",
+        "check-ins?",
+        "home visits?",
+        "service continuity",
+        "backup power",
+        "outreach",
+        "caregivers?",
+        "carers?"
+      ]
+    },
+    {
+      "id": "v-tenure",
+      "label": "Tenant protections",
+      "definition": "People who rent can benefit without rent rises, eviction or needing a landlord's permission they cannot get.",
+      "include": "The arrangement addresses rent, tenure or landlord permission.",
+      "exclude": "Housing improvements with no word on tenure.",
+      "examples": [
+        "Rent controls after retrofits"
+      ],
+      "evidence": "A passage describing the protection.",
+      "match": [
+        "tenants?",
+        "renters?",
+        "landlords?",
+        "rent (rise|increase|control)",
+        "evictions?",
+        "tenure",
+        "displacement"
+      ]
+    },
+    {
+      "id": "v-reporting",
+      "label": "Confidential, non-punitive reporting",
+      "definition": "People can report symptoms or barriers privately, without losing pay or work, and someone responds.",
+      "include": "The arrangement sets a reporting channel with protection from retaliation or a named responder.",
+      "exclude": "Encouraging people to speak up.",
+      "examples": [
+        "Anonymous heat complaints with a named inspector"
+      ],
+      "evidence": "A passage describing the channel and its protection.",
+      "match": [
+        "report(ing)? (symptoms|channel|line|heat)",
+        "complaints?",
+        "grievance",
+        "retaliat",
+        "anonymous",
+        "confidential",
+        "without penalty"
+      ]
+    },
+    {
+      "id": "v-participation",
+      "label": "Participation in decisions",
+      "definition": "Intended users can shape or challenge how the protection works: committees with real say, worker or community voice in budgets and rules.",
+      "include": "The arrangement gives users a role in decisions.",
+      "exclude": "Consultation alone, or a seat without a say.",
+      "examples": [
+        "Worker-management heat committees"
+      ],
+      "evidence": "A passage describing the role and what it can change.",
+      "match": [
+        "committees?",
+        "participat",
+        "co-design",
+        "worker voice",
+        "community-led",
+        "collective bargaining"
+      ]
+    },
+    {
+      "id": "v-funding",
+      "label": "Operational funding",
+      "definition": "Money for running, staffing and maintaining the protection, not only for building it.",
+      "include": "The arrangement names recurring or operating funds.",
+      "exclude": "Capital costs alone.",
+      "examples": [
+        "A recurring heat budget line"
+      ],
+      "evidence": "A passage or source naming the funding.",
+      "match": [
+        "recurring (cost|budget|funding)",
+        "operating (cost|budget|funds?)",
+        "budget line",
+        "dedicated budget",
+        "maintenance (fund|budget)",
+        "running costs"
+      ]
+    },
+    {
+      "id": "v-maternal",
+      "label": "Maternal and newborn provisions",
+      "definition": "Arrangements that address pregnancy, postpartum and newborn needs: accommodation at work, antenatal care access, facility readiness.",
+      "include": "The arrangement provides something for pregnant or postpartum people or newborns.",
+      "exclude": "Naming pregnant people as at risk.",
+      "examples": [
+        "Lighter duties without pay loss",
+        "Cool waiting areas in antenatal clinics"
+      ],
+      "evidence": "A passage describing the provision.",
+      "match": [
+        "pregnan",
+        "antenatal",
+        "maternal",
+        "newborns?",
+        "postpartum",
+        "breastfe"
+      ]
+    }
   ],
   "status": [
-    { "id": "s-explicit", "label": "Explicitly documented", "definition": "The record or document states the provision as part of the arrangement, with a quoted passage." },
-    { "id": "s-partial", "label": "Partly documented or general mention", "definition": "The issue is named, but without a concrete action, a responsible body or resources." },
-    { "id": "s-notfound", "label": "Not found in reviewed material", "definition": "The material reviewed was read for this and did not contain it. Says nothing about practice or other documents." },
-    { "id": "s-notassessed", "label": "Not assessed", "definition": "Nobody has reviewed this yet. Not a negative finding." },
-    { "id": "s-inaccessible", "label": "Document inaccessible or unreadable", "definition": "The document could not be opened or its text could not be read reliably." },
-    { "id": "s-reported", "label": "Reported implemented", "definition": "The implementer or a news source reports delivery; not independently evaluated." },
-    { "id": "s-evaluated", "label": "Outcome evaluated", "definition": "An independent evaluation reports effects; see its scope and limits." }
+    {
+      "id": "s-explicit",
+      "label": "Explicitly documented",
+      "definition": "The record or document states the provision as part of the arrangement, with a quoted passage."
+    },
+    {
+      "id": "s-partial",
+      "label": "Partly documented or general mention",
+      "definition": "The issue is named, but without a concrete action, a responsible body or resources."
+    },
+    {
+      "id": "s-notfound",
+      "label": "Not found in reviewed material",
+      "definition": "The material reviewed was read for this and did not contain it. Says nothing about practice or other documents."
+    },
+    {
+      "id": "s-notassessed",
+      "label": "Not assessed",
+      "definition": "Nobody has reviewed this yet. Not a negative finding."
+    },
+    {
+      "id": "s-inaccessible",
+      "label": "Document inaccessible or unreadable",
+      "definition": "The document could not be opened or its text could not be read reliably."
+    },
+    {
+      "id": "s-reported",
+      "label": "Reported implemented",
+      "definition": "The implementer or a news source reports delivery; not independently evaluated."
+    },
+    {
+      "id": "s-evaluated",
+      "label": "Outcome evaluated",
+      "definition": "An independent evaluation reports effects; see its scope and limits."
+    }
   ],
   "claims": [
-    { "id": "documented", "label": "Documented provision or design feature" },
-    { "id": "intended", "label": "Intended benefit" },
-    { "id": "reported", "label": "Reported delivery" },
-    { "id": "evaluated", "label": "Independently evaluated outcome" },
-    { "id": "unknown", "label": "Unknown or not assessed" }
+    {
+      "id": "documented",
+      "label": "Documented provision or design feature"
+    },
+    {
+      "id": "intended",
+      "label": "Intended benefit"
+    },
+    {
+      "id": "reported",
+      "label": "Reported delivery"
+    },
+    {
+      "id": "evaluated",
+      "label": "Independently evaluated outcome"
+    },
+    {
+      "id": "unknown",
+      "label": "Unknown or not assessed"
+    }
   ]
 }

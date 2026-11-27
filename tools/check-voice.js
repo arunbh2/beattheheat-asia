@@ -1,6 +1,7 @@
 // Humility check: no page speaks in an instructing voice. Reads every built page's visible text and fails on any
 // phrase in data/schema/tone.json voice.hold, unless the sentence contains a voice.allow phrase (a law, a physical
-// limit or a quoted headline). Link text is skipped: it carries other people's headlines in their own words.
+// limit or a quoted headline). Link text and <q> quotations are skipped: they carry other people's words (headlines, or
+// excerpts from the documents a page reviews, such as heat action plans).
 //   node tools/check-voice.js
 "use strict";
 const fs = require("fs"), path = require("path"), { execFileSync } = require("child_process");
@@ -13,7 +14,7 @@ const pages = execFileSync("git", ["ls-files", "--cached", "--others", "--exclud
 const found = [];
 for (const f of pages) {
   const text = fs.readFileSync(path.join(ROOT, f), "utf8")
-    .replace(/<(script|style|template|noscript)[\s\S]*?<\/\1>/gi, " ").replace(/<a\b[\s\S]*?<\/a>/gi, " ")
+    .replace(/<(script|style|template|noscript)[\s\S]*?<\/\1>/gi, " ").replace(/<a\b[\s\S]*?<\/a>/gi, " ").replace(/<q\b[\s\S]*?<\/q>/gi, " ")
     .replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ").replace(/&[a-z#0-9]+;/gi, "'").replace(/\s+/g, " ");
   for (const s of text.split(/(?<=[.?!;])\s+/)) {
     const m = s.match(hold);
