@@ -4742,3 +4742,78 @@ h1, h2, h3, h4, .pg-h1 { overflow-wrap: anywhere; }
 .sh-plan ol { margin: var(--s-3) 0 0; padding-left: 1.25rem; display: grid; gap: 6px; }
 .sh-plan p { margin: var(--s-2) 0 0; }
 .sg-cq { margin-top: var(--s-4); max-width: 46rem; } .sg-cq ol { margin: 6px 0 0; padding-left: 1.25rem; } .sg-cq p { margin: 0; }
+/* Solutions library: equity and access (tools/equity-taxonomy.js) */
+.sol-eqf { display: grid; gap: 6px; margin: 0; padding: var(--pad-compact); border: 1px solid var(--line); border-radius: var(--r-sm); min-width: 0; }
+.sol-eqf legend { padding: 0 4px; font-weight: 700; font-size: var(--fs-14); }
+.sol-reset { min-height: 44px; padding: 0 var(--sp-4); border: 1px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink); font: inherit; font-size: var(--fs-14); font-weight: 700; cursor: pointer; }
+.sol-why { margin: 0 0 var(--sp-2); padding: var(--pad-compact); background: var(--sand-50); border: 1px solid var(--line); border-radius: var(--r-sm); font-size: var(--fs-14); line-height: 1.5; }
+.sol-use { margin-top: 14px; padding: var(--pad-compact); border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--white); }
+.sol-use > summary { min-height: 44px; display: flex; align-items: center; font-weight: 700; cursor: pointer; }
+.sol-usedl { display: grid; gap: var(--sp-2); margin: var(--sp-2) 0; }
+.sol-usedl dt { font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+.sol-usedl dd { margin: 0; font-size: var(--fs-14); line-height: 1.5; }
+.sol-usedl dd p { margin: 0 0 4px; }
+.sol-use h5 { margin: var(--sp-3) 0 var(--sp-2); font-size: var(--fs-14); font-weight: 700; }
+.sol-eq { margin: 0; padding-left: 1.1em; font-size: var(--fs-14); line-height: 1.5; }
+.sol-eq li { margin: 4px 0; }
+.sol-na { font-weight: 700; color: var(--grey-700); }
+/* Plan a response: equity and accommodation check (script.js, Common Shade supplementary check) */
+.eq-check { margin-top: var(--sp-5); padding: var(--pad-std); background: var(--white); border: 1px solid var(--line-strong); border-radius: var(--r-md); }
+.eq-check__h { margin: 0 0 4px; font-size: var(--fs-18); font-weight: 700; line-height: 1.15; }
+.eq-check__k { margin: 0 0 var(--sp-2); font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+.eq-qs { display: grid; gap: var(--sp-3); }
+.eq-q { margin: 0; padding: var(--pad-compact); border: 1px solid var(--line); border-radius: var(--r-sm); min-width: 0; }
+.eq-q legend { display: block; float: left; width: 100%; max-width: 100%; padding: 0 0 var(--sp-2); font-weight: 700; font-size: var(--fs-16); line-height: 1.4; overflow-wrap: anywhere; }
+.eq-q legend + * { clear: both; }
+.eq-q__n { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; margin-right: 4px; border-radius: 50%; background: var(--ink); color: var(--canvas); font-size: var(--fs-12); }
+.eq-q details { margin: var(--sp-2) 0; }
+.eq-q summary { min-height: 44px; display: flex; align-items: center; font-weight: 700; font-size: var(--fs-14); cursor: pointer; }
+.eq-q ul { margin: 0 0 var(--sp-2); padding-left: 1.2em; font-size: var(--fs-14); line-height: 1.5; }
+.eq-q details p { margin: 0; font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.eq-q__st { display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+.eq-q__st label { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 var(--sp-3); border: 1px solid var(--line-strong); border-radius: 999px; font-size: var(--fs-14); cursor: pointer; }
+.eq-q__st label:has(input:checked) { background: var(--ink); border-color: var(--ink); color: var(--canvas); font-weight: 700; }
+.eq-q__st input { accent-color: var(--orange); }
+.eq-q label[hidden] { display: none !important; }
+.eq-q__reason, .eq-q__notes label { display: grid; gap: 4px; margin-top: var(--sp-2); font-size: var(--fs-14); font-weight: 700; }
+.eq-q input[type=text] { min-height: 44px; padding: 0 var(--sp-2); border: 1px solid var(--line-strong); border-radius: var(--r-sm); font: inherit; font-size: var(--fs-16); font-weight: 400; width: 100%; box-sizing: border-box; }
+.eq-sum { padding: var(--pad-compact); background: var(--sand-50); border: 1px solid var(--line); border-radius: var(--r-sm); font-size: var(--fs-14); line-height: 1.5; }
+.eq-sum p { margin: 0 0 4px; }
+.eq-sum ul { margin: 0; padding-left: 1.2em; }
+.eq-static { margin: 0; padding-left: 1.2em; line-height: 1.55; }
+/* India HAP archive: documented health and equity provisions (tools/hap-review-section.js) */
+.hr-filter { display: flex; flex-wrap: wrap; gap: var(--sp-3); align-items: flex-end; margin: var(--sp-4) 0; padding: var(--pad-std); background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); }
+.hr-filter[hidden] { display: none; }
+.hr-filter label { display: grid; gap: 4px; font-size: var(--fs-14); font-weight: 700; flex: 1 1 220px; min-width: 0; max-width: 100%; }
+.hr-filter select { min-height: 44px; width: 100%; max-width: 100%; }
+.hr-filter fieldset { display: flex; flex-wrap: wrap; gap: 4px var(--sp-3); margin: 0; padding: 0; border: 0; min-width: 0; }
+.hr-filter fieldset legend { font-size: var(--fs-14); font-weight: 700; padding: 0 0 4px; }
+.hr-filter fieldset label { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-weight: 400; }
+.hr-filter button { min-height: 44px; padding: 0 var(--sp-4); border: 1px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink); font: inherit; font-size: var(--fs-14); font-weight: 700; cursor: pointer; }
+.hr-count { margin: 0; flex-basis: 100%; font-weight: 700; font-size: var(--fs-14); }
+.hr-wrap { overflow-x: auto; margin: var(--sp-3) 0; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); }
+.hr-table { border-collapse: collapse; font-size: var(--fs-14); min-width: 640px; width: 100%; }
+.hr-table caption { text-align: left; padding: var(--sp-2) var(--sp-3); font-weight: 700; }
+.hr-table th, .hr-table td { padding: 6px 8px; border-top: 1px solid var(--line); text-align: left; vertical-align: top; }
+.hr-table th small, .hr-table td small { display: block; font-size: var(--fs-12); font-weight: 400; color: var(--grey-700); }
+.hr-table [hidden] { display: none; }
+.hr-st--explicit { font-weight: 700; }
+.hr-st--notfound, .hr-st--notassessed, .hr-st--unreadable { color: var(--grey-700); }
+.hr-table td.hr-st--notassessed, .hr-table td.hr-st--unreadable { background: var(--sand-50); font-style: italic; }
+.hr-table td.is-match { outline: 2px solid var(--ink); outline-offset: -2px; }
+.hr-plan { margin: var(--sp-2) 0; padding: var(--pad-compact); background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); }
+.hr-plan > summary { min-height: 44px; display: flex; flex-wrap: wrap; gap: 4px var(--sp-2); align-items: center; cursor: pointer; }
+.hr-plan > summary span { font-size: var(--fs-14); color: var(--grey-700); }
+.hr-meta { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.hr-dims { margin: 0; padding-left: 1.1em; font-size: var(--fs-14); line-height: 1.5; }
+.hr-dims li { margin: var(--sp-2) 0; }
+.hr-dims q { display: block; margin: 4px 0; font-family: var(--font-serif); }
+.hr-flags { display: flex; flex-wrap: wrap; gap: 4px 10px; margin: 2px 0; font-size: var(--fs-12); color: var(--grey-700); }
+.hr-flag.is-on { color: var(--ink); font-weight: 700; }
+/* Health and equity reach on funding programmes and Signals commitments (tools/equity-reach.js) */
+.eq-reach { margin-top: 14px; padding: var(--pad-compact); border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--white); }
+.eq-reach > summary { min-height: 44px; display: flex; align-items: center; font-weight: 700; cursor: pointer; }
+.eq-reach dl { display: grid; gap: var(--sp-2); margin: var(--sp-2) 0; }
+.eq-reach dt { font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+.eq-reach dd { margin: 0; font-size: var(--fs-14); line-height: 1.5; }
+.eq-sum-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); }

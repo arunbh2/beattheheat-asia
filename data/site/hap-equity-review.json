@@ -1,0 +1,1684 @@
+{
+ "about": "Documented health and equity provisions in a defined set of heat action plans. A preliminary automated review of what each document says; not a measure of any city's or state's performance, not a legal compliance finding, and not yet checked by a person. Written by research/2026-11/health-equity/hap-review.js.",
+ "reviewed": "2026-11-27",
+ "method": "Keyword search of the extracted text page by page; within each matching paragraph, separate flags for a mention, a concrete action, a named responsible body, a resource and a monitoring arrangement; status explicit (mention, action and named body together), partial, not found in reviewed material, or unreadable.",
+ "selection": "For each Indian city with a Common Shade city page, the most recent plan in the archive covering it: the city's own plan where catalogued, otherwise its state's.",
+ "dims": [
+  {
+   "id": "maternal",
+   "label": "Maternal, postpartum and newborn needs",
+   "tax": "v-maternal"
+  },
+  {
+   "id": "children-older",
+   "label": "Children and older people",
+   "tax": null
+  },
+  {
+   "id": "disability",
+   "label": "Disability access",
+   "tax": "v-access"
+  },
+  {
+   "id": "indoor-home",
+   "label": "Indoor and home-based workers",
+   "tax": null
+  },
+  {
+   "id": "informal",
+   "label": "Informal, contract and piece-rate workers",
+   "tax": null
+  },
+  {
+   "id": "sanitation",
+   "label": "Worksite water, toilets and sanitation",
+   "tax": "v-sanitation"
+  },
+  {
+   "id": "earnings-rest",
+   "label": "Earnings protection and work-rest arrangements",
+   "tax": "v-earnings"
+  },
+  {
+   "id": "care",
+   "label": "Care-service continuity",
+   "tax": "v-care"
+  },
+  {
+   "id": "reporting",
+   "label": "Confidential reporting and referral",
+   "tax": "v-reporting"
+  },
+  {
+   "id": "surveillance",
+   "label": "Heat-health surveillance beyond certified heatstroke deaths",
+   "tax": null
+  },
+  {
+   "id": "participation",
+   "label": "Community participation and decision-making",
+   "tax": "v-participation"
+  },
+  {
+   "id": "institutions",
+   "label": "Named implementing institutions",
+   "tax": null
+  },
+  {
+   "id": "budget",
+   "label": "Budget or financing provisions",
+   "tax": "v-funding"
+  },
+  {
+   "id": "monitoring",
+   "label": "Monitoring and accountability",
+   "tax": null
+  }
+ ],
+ "plans": [
+  {
+   "id": "IN-DL-STATE-DL-2025",
+   "city": "Delhi",
+   "title": "Heat Wave Action Plan for Delhi",
+   "jurisdiction": "Delhi",
+   "level": "state",
+   "year": "2025",
+   "publisher": "Delhi Disaster Management Authority",
+   "url": "https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_delhi_21.4.25_3.pdf",
+   "landing": "https://ddma.delhi.gov.in/ddma/ddma-plan-home",
+   "file": "research/hap-text/IN-DL-STATE-DL-2025.txt",
+   "sha256": "cf932eea21b0274ad4d8dec4052ce2605d9ea530da07c882780e789fbb5520b1",
+   "pages": 164,
+   "readable": true,
+   "limits": "Text extracted with pdftotext; tables, maps and images may be missed, and layout can split sentences.",
+   "reviewer": "automated-preliminary",
+   "dims": {
+    "maternal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      16,
+      29,
+      37,
+      76,
+      120,
+      139,
+      147,
+      152
+     ],
+     "excerpt": "cooling stress for patients, population, centres at ensuring focus on SHGs community Ob/Gyn wards (UN level Women) and Neonatal/Pediatric Wards. If located on the top floors, these can be shifted …",
+     "excerptPage": 139,
+     "term": "Neonat"
+    },
+    "children-older": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      2,
+      14,
+      15,
+      16,
+      29,
+      32,
+      36,
+      37
+     ],
+     "excerpt": "4. To organize training for Health Workers, School Children and the local community with the Health Department in prevention measures and treatment protocol.",
+     "excerptPage": 46,
+     "term": "School"
+    },
+    "disability": {
+     "status": "partial",
+     "mention": true,
+     "action": true,
+     "body": false,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      15,
+      17,
+      31,
+      65,
+      147
+     ],
+     "excerpt": "• Assess competency of airway, breathing, circulation, disability, and exposure before treatment initiation and monitor them throughout the procedure, particularly in CHS patients. • A temperature gradient must be created …",
+     "excerptPage": 31,
+     "term": "disab"
+    },
+    "indoor-home": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": false,
+     "pages": [
+      14,
+      52,
+      71,
+      75,
+      78,
+      79,
+      112,
+      125
+     ],
+     "excerpt": "11 Communiti Community -Conduct training es and groups, programmes, individuals Self-help workshops and groups, outreach sessions with ward level community / Self- help committees, groups and mobilizes NGOs such as …",
+     "excerptPage": 52,
+     "term": "workshop"
+    },
+    "informal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      14,
+      15,
+      56,
+      69,
+      71,
+      81,
+      89,
+      114
+     ],
+     "excerpt": "s (1pm-5pm) , 4:00pm to during Heat alert. 6:00pm ● Provide emergency ice packs and heat illness prevention material to construction worker as pilot project. ● Ensure provision of shelters/ …",
+     "excerptPage": 56,
+     "term": "construction worker"
+    },
+    "sanitation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      14,
+      17,
+      22,
+      49,
+      54,
+      56,
+      57,
+      59
+     ],
+     "excerpt": "12-4pm) when - to conduct Training heat wave is declared. of school teachers -Identify the shelter to equip them space, drinking water, with ORS facilities with knowledge of heat signs. …",
+     "excerptPage": 49,
+     "term": "drinking water"
+    },
+    "earnings-rest": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      26,
+      32,
+      56,
+      58,
+      63,
+      67,
+      69,
+      76
+     ],
+     "excerpt": "5. Labour & ● Encourage employers to Working Hours Employment shift outdoor workers will be from Department ‘schedules away from peak 7:00am to 1:00pm afternoon hours (1pm-5pm) , 4:00pm to …",
+     "excerptPage": 56,
+     "term": "Working Hours"
+    },
+    "care": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      5,
+      39,
+      52,
+      53,
+      59,
+      69,
+      79,
+      80
+     ],
+     "excerpt": "Improvement Board DJB Delhi Jal Board IT Information Technology DFS Delhi Fire Service RWA Resident Welfare Association ASHA Accredited Social Health Activist DDA Delhi Developmental Authority PWD Public Works NTPC …",
+     "excerptPage": 5,
+     "term": "ASHA"
+    },
+    "reporting": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      40,
+      50,
+      62,
+      107,
+      141,
+      152
+     ],
+     "excerpt": "• Referral of patients to the • Prepare weekly reports • Prepare weekly reports of higher facility only after of health impact for nodal health impact for nodal ensuring adequate …",
+     "excerptPage": 40,
+     "term": "Referral"
+    },
+    "surveillance": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      4,
+      5,
+      14,
+      15,
+      16,
+      17,
+      24,
+      25
+     ],
+     "excerpt": "elines. This plan aims to facilitate the stakeholders in preparing a Heat Management plan by providing insight into the heat related illness and the necessary mitigative and response actions to …",
+     "excerptPage": 4,
+     "term": "heat related illness"
+    },
+    "participation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      4,
+      5,
+      45,
+      46,
+      52,
+      59,
+      63,
+      68
+     ],
+     "excerpt": "ion and Communication TVCs Television commercials MCD Municipal Corporation Department NDMC New Delhi Municipal Council NGOs Non-Governmental Organisation PWD Public Works Department I&FC Irrigation and Flood Control DUSIB Delhi Urban …",
+     "excerptPage": 5,
+     "term": "NGOs"
+    },
+    "institutions": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      3,
+      23,
+      46,
+      47,
+      53,
+      54,
+      61,
+      68
+     ],
+     "excerpt": "MD, Health and other sectors and disseminate warnings by using SMSs, Whatsapp and CAP Platform. ● States must appoint a Nodal Officer at each level (State, District and Block levels) …",
+     "excerptPage": 68,
+     "term": "Nodal Officer"
+    },
+    "budget": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": false,
+     "pages": [
+      33,
+      126,
+      138
+     ],
+     "excerpt": "34 Health care Vulnerable SDRF, facilities during populations in Apda Mitra Volunteers, heat waves hotspot areas to be Health Department, identified, with Animal Welfare Board, readiness to Concerned KP, DDMA …",
+     "excerptPage": 138,
+     "term": "SDRF"
+    },
+    "monitoring": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      21,
+      24,
+      26,
+      27,
+      31,
+      32,
+      35,
+      41
+     ],
+     "excerpt": "o 39°C. Following successful cooling, the patient should be transported to the nearest emergency department for further monitoring and evaluation. Continue cooling in the best possible way if temperatures are …",
+     "excerptPage": 32,
+     "term": "monitor"
+    }
+   }
+  },
+  {
+   "id": "IN-MH-STATE-MH-2024",
+   "city": "Mumbai",
+   "title": "Maharashtra State Heat Wave Action Plan",
+   "jurisdiction": "Maharashtra",
+   "level": "state",
+   "year": "2024",
+   "publisher": "Disaster Management Department, Government of Maharashtra",
+   "url": "https://cdnbbsr.s3waas.gov.in/s36143cc48107351648de16d8367dc5db4/uploads/2025/03/20250313742462885.pdf",
+   "landing": "",
+   "file": "research/hap-text/IN-MH-STATE-MH-2024.txt",
+   "sha256": "67bd114e2c96c6d4e603d30837cfc9182cc82948817fbd7caa17479b07a436ea",
+   "pages": 93,
+   "readable": true,
+   "limits": "Most of the text is in an Indian language (Marathi for Maharashtra); this first pass searched English terms only, so every dimension is Not assessed until a reader of that language reviews it.",
+   "reviewer": "automated-preliminary",
+   "dims": {
+    "maternal": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "children-older": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "disability": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "indoor-home": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "informal": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "sanitation": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "earnings-rest": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "care": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "reporting": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "surveillance": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "participation": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "institutions": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "budget": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    },
+    "monitoring": {
+     "status": "notassessed",
+     "why": "Mainly in an Indian language; this review searched English terms only"
+    }
+   }
+  },
+  {
+   "id": "IN-GJ-CITY-AHMEDABAD-2019",
+   "city": "Ahmedabad",
+   "title": "Ahmedabad Heat Action Plan: Easy Read Version",
+   "jurisdiction": "Ahmedabad, Gujarat",
+   "level": "city",
+   "year": "2019",
+   "publisher": "Ahmedabad Municipal Corporation; NRDC; partners",
+   "url": "https://heathealth.info/wp-content/uploads/ahmedabad-heat-action-plan-2018.pdf",
+   "landing": "https://heathealth.info/heat-action-plans-and-case-studies/",
+   "file": "research/hap-text/IN-GJ-CITY-AHMEDABAD-2019.txt",
+   "sha256": "8f613131ea053d8f854e3bdb9553ec24616202fdd171d2adff97668e28f0d76a",
+   "pages": 27,
+   "readable": true,
+   "limits": "Text extracted with pdftotext; tables, maps and images may be missed, and layout can split sentences.",
+   "reviewer": "automated-preliminary",
+   "dims": {
+    "maternal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": false,
+     "pages": [
+      21
+     ],
+     "excerpt": "e (ICDS) workers to disseminate Heat Wave related information with special focus on infants, children below five years, pregnant and lactating mothers, and geriatric population to protect them from dehydration. …",
+     "excerptPage": 21,
+     "term": "pregnan"
+    },
+    "children-older": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      5,
+      9,
+      10,
+      11,
+      14,
+      18,
+      19,
+      20
+     ],
+     "excerpt": "itate internal communications. ▪ Organizes preventative training and outreach efforts for health workers, link workers, school children, and the local community with the Health Department.",
+     "excerptPage": 5,
+     "term": "school"
+    },
+    "disability": {
+     "status": "partial",
+     "mention": true,
+     "action": false,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      9
+     ],
+     "excerpt": "1. Initial patient assessment – primary survey (airway, breathing, circulation, disability, exposure), vital signs, including temperature",
+     "excerptPage": 9,
+     "term": "disab"
+    },
+    "indoor-home": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      12,
+      14,
+      15,
+      17,
+      18
+     ],
+     "excerpt": "ncements Pre-Summer ✓ Identify areas to post warnings and information during heat season ✓ Heat illness orientation for factory medical officers and general ✓ Organize training for health workers and …",
+     "excerptPage": 12,
+     "term": "factory"
+    },
+    "informal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      12,
+      14,
+      17
+     ],
+     "excerpt": "project to provide emergency ice packs and heat-illness prevention materials to traffic police, BRTS transit staff and construction workers",
+     "excerptPage": 12,
+     "term": "construction worker"
+    },
+    "sanitation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      5,
+      6,
+      10,
+      14,
+      17,
+      18,
+      19,
+      20
+     ],
+     "excerpt": "ool) via the AMC Water Project’s protocol procedures during any water shortage. ▪ Increases efforts to distribute fresh drinking water to the public. For example, expands potable water access during …",
+     "excerptPage": 5,
+     "term": "drinking water"
+    },
+    "earnings-rest": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      12,
+      17
+     ],
+     "excerpt": "✓ Extended hours at Occupational Health Centers Post-Summer Evaluation ✓ Consider extended afternoon break or alternate working hours for ✓ Evaluate reach of advertising to target groups and other means …",
+     "excerptPage": 12,
+     "term": "working hours"
+    },
+    "care": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": false,
+     "pages": [
+      18,
+      21
+     ],
+     "excerpt": "h sessions with community groups and mobilizers such as Mahila Arogya Samiti, Self-Employed Women's Association (SEWA), ASHA workers, aanganwadis, and municipal councils to help inform and get vulnerable communities more …",
+     "excerptPage": 18,
+     "term": "ASHA"
+    },
+    "reporting": {
+     "status": "notfound"
+    },
+    "surveillance": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      2,
+      5,
+      10,
+      14,
+      16
+     ],
+     "excerpt": "ar wards to extreme heat. ▪ Require hospital admissions and emergency case records to be updated and track heat-related morbidity and mortality and update existing databases of heat-related morbidity and …",
+     "excerptPage": 5,
+     "term": "morbidity"
+    },
+    "participation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      14
+     ],
+     "excerpt": "risk areas of the city vulnerable to heat waves for more focused activities on heat prevention. • Regular meetings with NGOs and slum leaders on weekly basis for preparation for …",
+     "excerptPage": 14,
+     "term": "NGOs"
+    },
+    "institutions": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      12,
+      14,
+      15
+     ],
+     "excerpt": "The AMC has appointed an AMC Nodal Officer to head the coordination of stakeholders and ensure implementation of the Heat Action Plan. The appointed nodal officer is responsible for coordinating …",
+     "excerptPage": 4,
+     "term": "Nodal Officer"
+    },
+    "budget": {
+     "status": "notfound"
+    },
+    "monitoring": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      2,
+      5,
+      6,
+      10,
+      11,
+      12,
+      13
+     ],
+     "excerpt": ", AMC Deputy Municipal Commissioners, and the Gujarat state agencies in accordance with the Communication Plan above. ▪ Monitors and increases the heat alert level when necessary to match the …",
+     "excerptPage": 5,
+     "term": "Monitor"
+    }
+   }
+  },
+  {
+   "id": "IN-WB-STATE-WB-2023",
+   "city": "Kolkata",
+   "title": "Action Plan on Heat Wave: West Bengal",
+   "jurisdiction": "West Bengal",
+   "level": "state",
+   "year": "2023",
+   "publisher": "WBSDMA; Disaster Management and Civil Defence Department",
+   "url": "https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf",
+   "landing": "https://heathealth.info/heat-action-plans-and-case-studies/",
+   "file": "research/hap-text/IN-WB-STATE-WB-2023.txt",
+   "sha256": "b5d49f3bef4cca982ad28234925fdb18fc8d3f59d44abaf9a6439cc4b211831f",
+   "pages": 14,
+   "readable": true,
+   "limits": "Text extracted with pdftotext; tables, maps and images may be missed, and layout can split sentences.",
+   "reviewer": "automated-preliminary",
+   "dims": {
+    "maternal": {
+     "status": "partial",
+     "mention": true,
+     "action": true,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      9
+     ],
+     "excerpt": " Pregnant workers and worker workers s with a medical condition should be given additional attention.",
+     "excerptPage": 9,
+     "term": "Pregnan"
+    },
+    "children-older": {
+     "status": "partial",
+     "mention": true,
+     "action": false,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      9
+     ],
+     "excerpt": " Do not leave children or pets in parked vehicles.",
+     "excerptPage": 9,
+     "term": "child"
+    },
+    "disability": {
+     "status": "notfound"
+    },
+    "indoor-home": {
+     "status": "notfound"
+    },
+    "informal": {
+     "status": "notfound"
+    },
+    "sanitation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      7,
+      8
+     ],
+     "excerpt": "To construct shelters/ sheds, Public Health and bus stands and provides 3. Engineering drinking water points in cities, worksites. Mitigating Heat Wave Stockpiling of ORS , creating Department of Health …",
+     "excerptPage": 7,
+     "term": "drinking water"
+    },
+    "earnings-rest": {
+     "status": "partial",
+     "mention": true,
+     "action": false,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      9
+     ],
+     "excerpt": " Increasing the frequency and length of rest breaks for outdoor activities.",
+     "excerptPage": 9,
+     "term": "rest break"
+    },
+    "care": {
+     "status": "notfound"
+    },
+    "reporting": {
+     "status": "partial",
+     "mention": true,
+     "action": false,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      7
+     ],
+     "excerpt": "State Control No.: 033-2214-3526, Toll Free No.:1070",
+     "excerptPage": 7,
+     "term": "Toll Free"
+    },
+    "surveillance": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      7
+     ],
+     "excerpt": " Surveillance  deployment of Rapid Monitoring and Department of Health & 4. Response Teams Response Family Welfare  specific care for vulnerable groups Department of Information and Extensive IEC …",
+     "excerptPage": 7,
+     "term": "Surveillance"
+    },
+    "participation": {
+     "status": "notfound"
+    },
+    "institutions": {
+     "status": "notfound"
+    },
+    "budget": {
+     "status": "notfound"
+    },
+    "monitoring": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      7
+     ],
+     "excerpt": " Surveillance  deployment of Rapid Monitoring and Department of Health & 4. Response Teams Response Family Welfare  specific care for vulnerable groups Department of Information and Extensive IEC …",
+     "excerptPage": 7,
+     "term": "Monitor"
+    }
+   }
+  },
+  {
+   "id": "IN-TG-STATE-TG-2021",
+   "city": "Hyderabad",
+   "title": "Telangana State Heatwave Action Plan",
+   "jurisdiction": "Telangana",
+   "level": "state",
+   "year": "2021",
+   "publisher": "Revenue (Disaster Management) Department",
+   "url": "https://heathealth.info/wp-content/uploads/ts-heatwave-action-plan-2021-signed-compressed.pdf",
+   "landing": "https://heathealth.info/heat-action-plans-and-case-studies/",
+   "file": "research/hap-text/IN-TG-STATE-TG-2021.txt",
+   "sha256": "b666cfc74f25bc7393421936085f87068dcbe96e400c140f1dcd549a1a5c3380",
+   "pages": 112,
+   "readable": true,
+   "limits": "Text extracted with pdftotext; tables, maps and images may be missed, and layout can split sentences.",
+   "reviewer": "automated-preliminary",
+   "dims": {
+    "maternal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      29,
+      54,
+      55,
+      61,
+      67,
+      100
+     ],
+     "excerpt": "ance as the heatwave extends for about 17- 45 days in Telangana. 4. Create surveillance mechanism on tracking children, lactating mothers and women through ICDS and Anganwadi centres in the …",
+     "excerptPage": 54,
+     "term": "lactating"
+    },
+    "children-older": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      5,
+      8,
+      9,
+      15,
+      20,
+      21,
+      29,
+      32
+     ],
+     "excerpt": "etc. • The state Health and Family Welfare departments must ensure stock of ORS packets at health centres, anganwadis, schools and other important locations. • Education department must re-schedule school …",
+     "excerptPage": 32,
+     "term": "school"
+    },
+    "disability": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      44,
+      93
+     ],
+     "excerpt": "vernment and civil Society - Provide occupational support and advisories - Special care for vulnerable groups children, disabled, women and old aged. State Govt./SDMA/ Dist. - Develop monitoring mechanism for …",
+     "excerptPage": 44,
+     "term": "disab"
+    },
+    "indoor-home": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      19,
+      34,
+      48,
+      50,
+      51,
+      52,
+      53,
+      55
+     ],
+     "excerpt": "ment Planning Society, Indian Meteorological Department, MCR HRD Institute and UNICEF, Hyderabad Field Office conducted workshops/conferences with State and District Officials on extreme weather evets. Capacity building and orientation programmes …",
+     "excerptPage": 19,
+     "term": "workshop"
+    },
+    "informal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      5,
+      8,
+      32,
+      35,
+      45,
+      52,
+      77,
+      94
+     ],
+     "excerpt": "le drinking water stations (kiosks) at public places. • The Panchayati Raj Department shall set up special shelters for MGNREGA/construction workers and rescheduling their working hours. Ensure COVID-19 protocols in …",
+     "excerptPage": 32,
+     "term": "MGNREGA"
+    },
+    "sanitation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      29,
+      32,
+      33,
+      35,
+      36,
+      37,
+      39,
+      40
+     ],
+     "excerpt": "ose before noon or as per the local climatic conditions. • MAUD and Panchayati Raj institutions must setup large- scale drinking water stations (kiosks) at public places. • The Panchayati …",
+     "excerptPage": 32,
+     "term": "drinking water"
+    },
+    "earnings-rest": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      32,
+      35,
+      37,
+      45,
+      46,
+      60,
+      65,
+      68
+     ],
+     "excerpt": "s) at public places. • The Panchayati Raj Department shall set up special shelters for MGNREGA/construction workers and rescheduling their working hours. Ensure COVID-19 protocols in all drinking water stations. …",
+     "excerptPage": 32,
+     "term": "reschedul"
+    },
+    "care": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      8,
+      29,
+      32,
+      37,
+      46,
+      51,
+      54,
+      55
+     ],
+     "excerpt": "ook, Twitter etc. • The state Health and Family Welfare departments must ensure stock of ORS packets at health centres, anganwadis, schools and other important locations. • Education department must …",
+     "excerptPage": 32,
+     "term": "anganwadi"
+    },
+    "reporting": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      36,
+      51
+     ],
+     "excerpt": "connected with weather related updates/warnings (in local language). • Department shall ensure suitable monitoring and grievance redressal mechanism established at Mandal, District and state levels. • The department shall ensure …",
+     "excerptPage": 36,
+     "term": "grievance"
+    },
+    "surveillance": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      8,
+      9,
+      10,
+      19,
+      33,
+      34,
+      35,
+      39
+     ],
+     "excerpt": "ion plans at the district level. • District Collectors shall hold regular Press conferences on the risks and dangers of heat related illness, activated “cooling centres” at important locations – …",
+     "excerptPage": 33,
+     "term": "heat related illness"
+    },
+    "participation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      5,
+      7,
+      8,
+      20,
+      33,
+      44,
+      50,
+      55
+     ],
+     "excerpt": "– Religions places, Community and Public buildings, Malls and bus stands. • District administrations also shall support NGO’s, Community Groups and Individuals to open “Chalivendrams” at public congregation places for …",
+     "excerptPage": 33,
+     "term": "NGO"
+    },
+    "institutions": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      9,
+      32,
+      44,
+      48,
+      49,
+      50,
+      52,
+      57
+     ],
+     "excerpt": "tion Plan to all Collectors & HoDs of concerned line departments with instructions for its implementation and appoint a Nodal Officer at State, District and Block levels for communicating early …",
+     "excerptPage": 32,
+     "term": "Nodal Officer"
+    },
+    "budget": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      14,
+      15,
+      32,
+      84,
+      85,
+      86,
+      87,
+      90
+     ],
+     "excerpt": "nue department shall undertake local thresholds assessment with the partnership of expert institutions • The SDMA shall allocate funds from SDRF for the plan implementation including preparedness, capacity building mitigation …",
+     "excerptPage": 32,
+     "term": "allocat"
+    },
+    "monitoring": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      17,
+      19,
+      32,
+      33,
+      34,
+      36,
+      37,
+      39
+     ],
+     "excerpt": "he availability of soap, water and sanitising stations. • Telangana State Disaster Management Authority must review and monitor the heat wave situation through video conferencing with concerned line departments/districts/ blocks. …",
+     "excerptPage": 32,
+     "term": "monitor"
+    }
+   }
+  },
+  {
+   "id": "IN-KA-STATE-KA-2024-25",
+   "city": "Bengaluru",
+   "title": "Karnataka State Heat Wave Action Plan",
+   "jurisdiction": "Karnataka",
+   "level": "state",
+   "year": "2024-25",
+   "publisher": "KSDMA; Revenue Department",
+   "url": "https://heathealth.info/wp-content/uploads/Karnataka-heat-action-plan-.pdf",
+   "landing": "https://heathealth.info/heat-action-plans-and-case-studies/",
+   "file": "research/hap-text/IN-KA-STATE-KA-2024-25.txt",
+   "sha256": "583081fc17c112f5b333824d437fda37eeb5420347857bde259e973b6e6f5a4b",
+   "pages": 161,
+   "readable": true,
+   "limits": "Text extracted with pdftotext; tables, maps and images may be missed, and layout can split sentences.",
+   "reviewer": "automated-preliminary",
+   "dims": {
+    "maternal": {
+     "status": "partial",
+     "mention": true,
+     "action": false,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      14,
+      73
+     ],
+     "excerpt": "pregnancy, chronic disease, type of housing, occupation etc. Each city or town should",
+     "excerptPage": 14,
+     "term": "pregnan"
+    },
+    "children-older": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      14,
+      43,
+      44,
+      47,
+      49,
+      50,
+      62,
+      66
+     ],
+     "excerpt": "istance facilities at places of mass gathering. • Implement a system of heat alerts to trigger early morning shifts for schools and offices/ Rescheduling school and office timings during heat- …",
+     "excerptPage": 98,
+     "term": "school"
+    },
+    "disability": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      14,
+      76,
+      104,
+      108
+     ],
+     "excerpt": "ndry occupational support and advisories special Department support and care for vulnerable groups- advisories children disabled, women and old aged. Develop a monitoring mechanism provision of Develop monitoring mechanism Health …",
+     "excerptPage": 108,
+     "term": "disab"
+    },
+    "indoor-home": {
+     "status": "notfound"
+    },
+    "informal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      42,
+      49,
+      62,
+      66,
+      67,
+      72,
+      113,
+      122
+     ],
+     "excerpt": "workers arrangement to and provide emergency ice packs regulate piece and heat illness prevention rate and materials to construction workers. requirement /urgency for undertaking physical work during summer • Advisory …",
+     "excerptPage": 113,
+     "term": "construction worker"
+    },
+    "sanitation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      43,
+      49,
+      57,
+      61,
+      62,
+      63,
+      65,
+      66
+     ],
+     "excerpt": "lishing First Aid/ Medical Aid facilities in key locations. Collaboration • Identify vulnerable places and provide safe drinking water points at with those places and worksites; also, provide ORS. RDPR- …",
+     "excerptPage": 98,
+     "term": "drinking water"
+    },
+    "earnings-rest": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      49,
+      62,
+      66,
+      67,
+      73,
+      98,
+      111,
+      112
+     ],
+     "excerpt": "industrial and other labour. Direct employers to reschedule working hours for outdoor workers to avoid peak hours (12 Noon to 3 PM). a) Coordinate with the health department and ensure …",
+     "excerptPage": 66,
+     "term": "reschedul"
+    },
+    "care": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      62,
+      67,
+      115,
+      154
+     ],
+     "excerpt": "ration, transmission, distribution and DDMAs, • Ensure repair & maintenance Energy supply through consultation work for uninterrupted power Department/ DISCOM with supply before and during the DISCOMS including repair concerned …",
+     "excerptPage": 115,
+     "term": "uninterrupted"
+    },
+    "reporting": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      154,
+      156
+     ],
+     "excerpt": "ealth workers should be trained on public awareness measures, personal cooling measures, HRI identification, first aid, referral, and reporting. Training manuals for Nodal Officer, Medical Officers, Community Health Workers and …",
+     "excerptPage": 154,
+     "term": "referral"
+    },
+    "surveillance": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      3,
+      42,
+      49,
+      50,
+      51,
+      52,
+      54,
+      61
+     ],
+     "excerpt": "which is available with Health Department. All Health Facilities to be on boarded to IHIP",
+     "excerptPage": 52,
+     "term": "IHIP"
+    },
+    "participation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      42,
+      45,
+      61,
+      63,
+      97,
+      103
+     ],
+     "excerpt": "on mechanisms. • Technical inputs for implementation based on experience from different locations. • Collaboration with NGOs/CSOs. • Ensure the Local Administration (City/District) can understand and KSDMA in meaningfully use …",
+     "excerptPage": 97,
+     "term": "NGOs"
+    },
+    "institutions": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      3,
+      4,
+      36,
+      54,
+      59,
+      61,
+      95,
+      96
+     ],
+     "excerpt": "State Responsibility Recurring/ Regular (RR) • Creating/ strengthening the institutional framework including assigning nodal agency and nodal officials at different levels. • Preparing state/region-specific Heat Action Plan. • Team preparation …",
+     "excerptPage": 97,
+     "term": "nodal agency"
+    },
+    "budget": {
+     "status": "partial",
+     "mention": true,
+     "action": true,
+     "body": false,
+     "resource": true,
+     "monitoring": false,
+     "pages": [
+      24,
+      32,
+      57,
+      62,
+      102
+     ],
+     "excerpt": "takeholders. CDM - ATI. • Training support for youth through NCC, NYKS, Scouts State Universities & and Guides and NSS, SDRF, CDEF, community, and Technical Institutions volunteers. 1 Training • …",
+     "excerptPage": 102,
+     "term": "SDRF"
+    },
+    "monitoring": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": true,
+     "monitoring": true,
+     "pages": [
+      3,
+      11,
+      17,
+      21,
+      28,
+      29,
+      32,
+      42
+     ],
+     "excerpt": "a) District Disaster Management Authorities (DDMA) organizes review meetings with",
+     "excerptPage": 63,
+     "term": "review meeting"
+    }
+   }
+  },
+  {
+   "id": "IN-OD-CITY-BHUBANESWAR-2020",
+   "city": "Bhubaneswar",
+   "title": "Heat Wave Action Plan: Bhubaneswar City",
+   "jurisdiction": "Bhubaneswar, Odisha",
+   "level": "city",
+   "year": "2020",
+   "publisher": "IRADe",
+   "url": "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf",
+   "landing": "https://heathealth.info/heat-action-plans-and-case-studies/",
+   "file": "research/hap-text/IN-OD-CITY-BHUBANESWAR-2020.txt",
+   "sha256": "c0dc963d88e090883da7c320b72a33fa9406a372d16e0af23782e57afc8d1e4b",
+   "pages": 125,
+   "readable": true,
+   "limits": "Text extracted with pdftotext; tables, maps and images may be missed, and layout can split sentences.",
+   "reviewer": "automated-preliminary",
+   "dims": {
+    "maternal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      21,
+      27,
+      29,
+      33,
+      34,
+      38
+     ],
+     "excerpt": "d offer tips to prevent heat stress 2. Identify and relocate the most vulnerable hospital wards (e.g., the maternity or neonatal ward) from the top floor of hospitals, where the …",
+     "excerptPage": 33,
+     "term": "neonat"
+    },
+    "children-older": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      27,
+      28,
+      29,
+      36,
+      38,
+      41,
+      42,
+      47
+     ],
+     "excerpt": "s.  Awareness workshops for occupationally exposed - traffic police, hawkers, street vendors, construction workers and school children. Mitigation measures",
+     "excerptPage": 36,
+     "term": "school"
+    },
+    "disability": {
+     "status": "partial",
+     "mention": true,
+     "action": false,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      26,
+      28
+     ],
+     "excerpt": "igher floors, with poor ventilation and bad housing material compounds the impacts of heat related impacts. People with disabilities and chronic diseases are worst suffers and women in",
+     "excerptPage": 26,
+     "term": "disab"
+    },
+    "indoor-home": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      33,
+      36,
+      42,
+      50,
+      76,
+      77,
+      78,
+      96
+     ],
+     "excerpt": "well as specific heat case management and diagnosis, especially during heat waves 10. Organizing a training of trainers workshops for primary medical officers so they can offer heat-specific advice (symptoms, …",
+     "excerptPage": 33,
+     "term": "workshop"
+    },
+    "informal": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      21,
+      27,
+      29,
+      36,
+      42,
+      44,
+      50,
+      73
+     ],
+     "excerpt": "TVs at various locations, distribution of pamphlets.  Awareness workshops for occupationally exposed - traffic police, hawkers, street vendors, construction workers and school children. Mitigation measures",
+     "excerptPage": 36,
+     "term": "hawker"
+    },
+    "sanitation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      18,
+      20,
+      21,
+      28,
+      32,
+      36,
+      38,
+      41
+     ],
+     "excerpt": "ite colour - cool roof and or distribution of gunny bags for putting on the tin roofs/asbestos in slums.  Provision of water points and ORS at Construction sites, Bus …",
+     "excerptPage": 36,
+     "term": "water point"
+    },
+    "earnings-rest": {
+     "status": "partial",
+     "mention": true,
+     "action": true,
+     "body": false,
+     "resource": false,
+     "monitoring": false,
+     "pages": [
+      21,
+      38,
+      73,
+      123,
+      124
+     ],
+     "excerpt": "to avoid direct sunlight.  Schedule strenuous jobs to cooler times of the day.  Increase the frequency and length of rest breaks for outdoor activities.  Pregnant women and …",
+     "excerptPage": 38,
+     "term": "rest break"
+    },
+    "care": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      33,
+      34,
+      42,
+      43
+     ],
+     "excerpt": "ng self- monitoring hydration) to their medical staff 11. Conduct workshops for link workers/front line health workers (ASHA;Anganwadi worker; community health workers) to increase gender sensitive outreach and community-based surveillance …",
+     "excerptPage": 33,
+     "term": "ASHA"
+    },
+    "reporting": {
+     "status": "notfound"
+    },
+    "surveillance": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      14,
+      17,
+      27,
+      28,
+      30,
+      32,
+      33,
+      34
+     ],
+     "excerpt": "nes on the diagnosis and treatment of heat stress, heat exhaustion, and heat stroke to reduce and prevent mortality and morbidity. Use materials extensively for training and communication, including posters …",
+     "excerptPage": 33,
+     "term": "morbidity"
+    },
+    "participation": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      31,
+      36,
+      42
+     ],
+     "excerpt": "BMC, Civil Society and Individuals  Conduct training workshops and outreach sessions with community groups and mobilizers such as Mahila Arogya Samiti, Self-Employed Women's Association (SEWA), ASHA workers, aanganwadis, municipal …",
+     "excerptPage": 42,
+     "term": "Civil Society"
+    },
+    "institutions": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      4,
+      5,
+      30,
+      32,
+      41,
+      42,
+      43,
+      45
+     ],
+     "excerpt": "8.1 Roles and Responsibilities in Phase 1 (Pre-Heat Season January through March) BMC Nodal Officer  Convenes a meeting of key stakeholders (Odisha State Disaster Management Authority, local non-government organizations, …",
+     "excerptPage": 41,
+     "term": "Roles and Responsibilities"
+    },
+    "budget": {
+     "status": "partial",
+     "mention": true,
+     "action": true,
+     "body": false,
+     "resource": true,
+     "monitoring": false,
+     "pages": [
+      7,
+      8,
+      54,
+      62,
+      108,
+      115,
+      120,
+      121
+     ],
+     "excerpt": "The average (77%) electricity bill in the sample survey is observed to be ranging from Rs. 100 to Rs. 500.",
+     "excerptPage": 108,
+     "term": "Rs. 1"
+    },
+    "monitoring": {
+     "status": "explicit",
+     "mention": true,
+     "action": true,
+     "body": true,
+     "resource": false,
+     "monitoring": true,
+     "pages": [
+      14,
+      30,
+      33,
+      34,
+      35,
+      37,
+      40,
+      43
+     ],
+     "excerpt": "by giving adequate and emergency medical care. This would require continuous planning, coordination, capacity building, monitoring, appraising, and acting in accordance with the laid down procedures along with collaborative efforts …",
+     "excerptPage": 33,
+     "term": "monitor"
+    }
+   }
+  }
+ ],
+ "none": [
+  {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "why": "No plan covering it is catalogued in the archive"
+  }
+ ],
+ "archive": {
+  "total": 147,
+  "reviewed": 7
+ }
+}

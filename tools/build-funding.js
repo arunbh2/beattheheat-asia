@@ -70,6 +70,7 @@ function landscape() {
         <div class="sol-f"><h4>Calls and rounds</h4>${opps.length ? `<ul class="sol-ul">${opps.map(o => `<li><a href="/heat-economy/money/opportunities/#${esc(o.id)}">${esc(o.title)}</a> · ${esc(C.applicationStatus(o, today()).label)}</li>`).join("")}</ul>` : `<p>No current call recorded here. ${p.access && p.access.includes("periodic-call") ? "Calls have been periodic; the next one is not announced." : ""}</p>`}</div>
         ${past ? `<div class="sol-f"><h4>Past support (not money available now)</h4><ul class="sol-ul">${past}</ul></div>` : ""}
         ${sig(p)}
+        ${require("./equity-reach.js").programme(p, { esc, text: factText, orgName: org.name || "the funder" })}
         ${p.limits_note ? `<div class="sol-f"><h4>Limits of what we know</h4><p>${esc(factText(p.limits_note))}</p></div>` : ""}
         <p class="sol-go"><a class="fo-next" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(next)}<span class="visually-hidden">: ${esc(p.name)} (opens in a new tab)</span></a></p>
         ${sourcesBlock(p)}
@@ -96,7 +97,8 @@ function landscape() {
           <p class="sol-none" id="fo-land-none" hidden>No programme matches. Try fewer filters.</p>
           <p class="he-note"><b>The three relevance labels.</b> ${Object.values(C.RELEVANCE).map(esc).join("; ")}. The third is never presented as confirmed eligibility.</p>
         </section>
-        ${needs()}`;
+        ${needs()}
+        ${require("./equity-reach.js").summary(M.load().PROG, require("./signals-text.js").load().signals, esc)}`;
   return html;
 }
 function needs() {

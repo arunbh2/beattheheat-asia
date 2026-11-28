@@ -1,0 +1,918 @@
+                    2019 UPDATE
+
+
+
+
+    AHMEDABAD
+  HEAT ACTION PLAN
+GUIDE TO EXTREME HEAT PLANNING IN AHMEDABAD, INDIA
+
+
+
+
+       EASY READ VERSION
+                 AHMEDABAD HEAT ACTION PLAN 2019: EASY READ VERSION
+
+Extreme heat can lead to dangerous, even deadly, health consequences, including heat stress and heatstroke.
+Climate change drives temperatures higher, increasing the frequency and severity of heat waves. After the
+devastating 2010 heat wave with 1,344 additional deaths, the Ahmedabad Municipal Corporation (AMC)
+and partners prepared the first Heat Action Plan (HAP or Plan) in 2013.1 The Heat Action Plan is guide to
+extreme heat planning in Ahmedabad and includes an early warning system for extreme heat. The AMC
+releases an updated version of the HAP periodically.
+
+The HAP aims to provide a framework for the implementation, coordination, and evaluation of extreme
+heat response activities in Ahmedabad. The Plan’s primary objective is to alert those populations most at
+risk of heat-related illness that extreme heat conditions either exist or are imminent, and to take appropriate
+precautions. The HAP also includes longer term measures, such as the Ahmedabad Cool Roofs Program.
+
+A 2018 study evaluated the effectiveness of the Ahmedabad HAP before and after implementation. The
+study found that an estimated 2,380 deaths were avoided in the post-HAP period.2 The findings suggest that
+the Ahmedabad HAP protected health against mortality associated with extreme heat. The study evaluated
+the HAP’s impact on all-cause mortality in 2014–2015 relative to a 2007–2010 baseline and found a
+decrease in all-cause mortality in the first two years (2014–2015) the HAP was implemented.
+
+    I.   KEY STRATEGIES
+
+Building Public Awareness and Community Outreach to communicate the risks of heat waves and
+implement practices to prevent heat-related deaths and illnesses. Disseminating public messages on how to
+protect people against extreme heat through media outlets and orientation materials, such as pamphlets and
+advertisements on heat stress prevention. Use text messages, email, radio and social media, such as
+WhatsApp. Special efforts will be made to reach vulnerable populations through inter-personal
+communication from March to June annually.
+
+Initiating an Early Warning System and Inter-Agency Coordination to alert residents of predicted
+extreme temperatures. The AMC has created formal communication channels to alert government
+agencies, health officials and hospitals, emergency responders, local community groups, and media
+outlets of extreme temperatures forecasted by the Indian Meteorological Department’s (IMD)
+Meteorological Centre located in Ahmedabad.
+
+Capacity Building Among Health Care Professionals to recognize and respond to heat-related illnesses,
+particularly during extreme heat events. Such trainings focus on primary medical officers, paramedical
+staff, and community health staff so that these experts can effectively prevent and manage heat-related
+cases and reduce mortality and morbidity.
+
+Reducing Heat Exposure and Promoting Adaptive Measures by launching new efforts, including a draft
+city-wide Cool Roofs Program. The citywide Cool Roof Program includes mandatory, voluntary, and low-
+income housing focused measures.
+
+
+
+
+1
+  Azhar, G.S., et al., 2014. Heat-related mortality in India: excess all-cause mortality associated with the 2010
+Ahmedabad heat wave. PLoS One, 9(3), p.e91831.
+2
+  Hess, J.J., et al., 2018. Building Resilience to Climate Change: Pilot Evaluation of the Impact of India’s First Heat
+Action Plan on All-Cause Mortality. Journal of Environmental and Public Health.
+                                                           1
+    IV. HEAT ACTION PLAN (HAP) IMPLEMENTATION
+
+
+Implementation of the Heat Action Plan involves three main strategies. The first is the heat alert system
+and inter-agency communication efforts led by the AMC Nodal Officer. The second is key action taken
+under the Heat Action Plan by key stakeholders. The third is an effort to reduce ambient temperatures,
+focused on vulnerable communities, though cool roof strategies.
+
+
+    A. Activating the Heat Action Plan
+
+Successful implementation of the Heat Action Plan in Ahmedabad requires coordinated action amongst
+diverse stakeholders, including government departments, health care professionals and emergency medical
+personnel, health center and hospital staff, and community groups. Following the forecast of an extreme
+heat event, immediate communication to the public and all those addressed the response is critical to ensure
+the plan is activated.
+
+
+                                      Color Signals for Heat Alert
+
+The AMC will issue heat alerts, based on temperature thresholds determined by the AMC, as an additional
+means of communication by using the following color signal system:
+
+
+             Alert Category                       Alert Name                   Temperature
+                                                                              Threshold (C)
+               Red Alert                   Extreme Heat Alert Day                 ≥ 45C
+              Orange Alert                     Heat Alert Day                 43.1C – 44.9C
+              Yellow Alert                    Hot Day Advisory                 41.1C- 43C
+                 White                            No Alert                         ≤41C
+
+
+
+
+                                                     2
+                            Nodal Officer and Interagency Coordination
+
+
+The AMC has appointed an AMC Nodal Officer to head the coordination of stakeholders and ensure
+implementation of the Heat Action Plan. The appointed nodal officer is responsible for coordinating and
+communicating actions ahead of, and during, extreme heat events, and provides support staff for HAP
+functions through the Nodal Office as necessary.
+
+
+
+              Communication Plan for AMC Nodal Officer Activation of a Heat Alert
+
+
+
+
+   B. Key Actions Under the Heat Action Plan
+
+Phase 1: Pre-Heat Season (Annually from January through March)
+
+
+                                                  3
+AMC Nodal Officer:
+  ▪ Convenes key agency leaders to respond to extreme heat events.
+  ▪ Engage state and local agencies to facilitate internal communications.
+  ▪ Organizes preventative training and outreach efforts for health workers, link workers, school
+      children, and the local community with the Health Department.
+
+AMC Health Department and Medical Professionals:
+  ▪ Enhance targeted training programs, capacity building efforts, and communication on heat illness
+     for medical staff at local hospitals and Urban Health Centres (UHCs). The trainings should include
+     nursing staff, paramedics, field staff and line workers, and consider the susceptibility of particular
+     wards to extreme heat.
+  ▪ Require hospital admissions and emergency case records to be updated and track heat-related
+     morbidity and mortality and update existing databases of heat-related morbidity and mortality.
+  ▪ Train hospital staffs to improve expedience of recording of cause of death certificates. The training
+     could also include recording information education & communication (IEC) efforts.
+  ▪ Update simple means to track daily heat-related data and behavioral change impacts.
+
+   108 Emergency Service:
+    ▪ Create displays on ambulances during local extreme heat events to build public awareness
+    ▪ Identify areas of vulnerable populations, in part by utilizing the list of high-risk areas.
+
+Phase 2: During the Heat Season (Annually from March through July)
+
+AMC Nodal Officer:
+  ▪ Activates a heat alert and the local response citywide when extreme heat events are forecast by
+      notifying the key agency leaders, AMC Deputy Municipal Commissioners, and the Gujarat state
+      agencies in accordance with the Communication Plan above.
+  ▪ Monitors and increases the heat alert level when necessary to match the severity of the forecast
+      and threshold established and alerts the Municipal Commissioner to convene a special meeting with
+      key agency leaders.
+  ▪ Activates “cooling centers,” such as temples, public buildings, malls, during a heat alert and/or
+      AMC-run temporary night shelters for those without access to water and/or electricity.
+  ▪ Expands access to shaded areas for outdoor workers, slum communities, and other vulnerable
+      populations. For example, confirms that night shelters stay open all day for migratory populations
+      during a heat alert.
+  ▪ Holds a frequent, possibly daily, conference call to discuss reports and breaking developments
+      during a heat alert, and ensures that communication channels remain operational.
+  ▪ Identifies and set up public displays of temperature and forecasts, such as LED electronic scrolling
+      boards.
+  ▪ Continues surveillance of temperature data and forecasts from IMD’s Meteorological Centre in
+      Ahmedabad.
+  ▪ Communicates the suspension of all non-essential uses of water (other than drinking, keeping cool)
+      via the AMC Water Project’s protocol procedures during any water shortage.
+  ▪ Increases efforts to distribute fresh drinking water to the public. For example, expands potable
+      water access during a heat alert at religious spaces including temples and mosques, BRTS transit
+      stations, pouch handouts to the poor, and high-risk areas (identified by the mapping of high-risk
+      areas).
+
+
+
+                                                    4
+   ▪   Communicates the local utility protocol to prioritize maintaining power to critical facilities (such
+       as hospitals and UHCs).
+   ▪   Notifies the Steering Committee and relevant agencies when the heat alert is over.
+
+
+Community Groups and Individuals:
+   ▪ Keep cool and hydrated during the heat season by drinking water, staying out of the sun, and
+     wearing light clothing.
+   ▪ Check on vulnerable neighbors, particularly during a heat alert.
+   ▪ Limit heavy work in direct sun or indoors if poorly ventilated, especially during a heat alert.
+
+
+Phase 3: Post-Heat Season (Annually in July through September)
+
+AMC Nodal Officer:
+  ▪ Organizes an annual Heat Action Plan evaluation meeting with key agency leaders and relevant
+      stakeholders.
+  ▪ Evaluates the Heat Action Plan process based on performance and revises accordingly.
+  ▪ Evaluates the reach and impact of the Plan and revise accordingly.
+  ▪ Posts the revised Plan to the AMC website ahead of the heat season for stakeholders.
+  ▪ Builds on the “Green Cover” activity to establish tree-plantation campaign in hotspot areas such as
+      roadsides and during plantation festival in June. Incorporates student volunteers or incentivize
+      builders to plant trees to help effect this effort.
+  ▪ Explores establishing cooling center facilities in high-risk areas around city.
+
+
+
+
+   C. Draft Ahmedabad Cool Roofs Program
+
+
+
+
+                                                    5
+Cool roofs offer a simple and cost-effective solution to
+urbanization challenges. Cool roofs save energy, increase
+thermal comfort and reduce cooling demand. Cool roofs
+reflect sunlight and absorb less heat. Depending on the
+setting, cool roofs can help keep indoor temperatures lower
+by 2 to 5°C (3.6 - 9°F) as compared to traditional roofs.3
+
+The AMC and knowledge partners have conducted several
+cool roof pilot programs, including pilots in 2017 and 2018,
+applying white lime wash to 3,000 low-income homes in the
+city, with 500 in each city zone, covering almost 2% of the city’s low-income households.4
+
+The city is developing a city-wide cool roof program with a focus on the wellbeing of its most vulnerable
+residents. The Ahmedabad Cool Roofs Program is a target-based program to increase the percentage of
+cool roofs in the city. Using three main strategies for different building types, the Cool Roofs Program
+focuses on yearly targets and implementation plans to increase installation of cool roofs across the city. The
+Ahmedabad Cool Roofs Program is a unique initiative building on the inclusion of cool roofs into the
+Ahmedabad Heat Action Plan, and pioneering pilot initiatives by the AMC and other organizations.
+
+The Ahmedabad Cool Roofs Program aims to meet the following specific objectives:
+     a. Drive rapid city-wide adoption of cool roofs to save energy, strengthen heat resilience and
+        increase thermal comfort.
+     b. Support inter-agency coordination to implement the city-wide cool roof program.
+     c. Identify financing frameworks and outreach and awareness building tools for implementing cool
+        roofs
+     d. Support workforce development and training programs for cool roof application
+
+Three main strategies can help achieve these objectives:
+
+         Strategy 1: Mandatory cool roofs for all municipal, commercial and government buildings.
+         With government spearheading the Cool Roofs Program, it is important for all government office
+         buildings, new and existing, to adopt cool roofs. The key driver for this building sector is to
+         showcase leadership in adoption of the cool roof technique with the benefits of thermal comfort,
+         energy savings, and reduction of urban heat island affect. The commercial sector includes all
+         offices, retail complexes/shops, malls, hotel, industrial buildings etc. The key driver for adoption
+         of cool roofs for these types of buildings is the cooling load reduction and resulting energy savings.
+         Thus, a pay-back period of cool roofing material installations is important for these types of
+         buildings, which would have an impact on the overall energy bill of the building.
+
+         Strategy 2: Voluntary cool roofing for residential buildings.
+         The residential segment includes all multi-level apartment complexes as well as individual
+         houses. The key driver for this segment of the population staying in these buildings in addition to
+
+
+3
+  V. Garg, et al. 2016, Assessment of the impact of cool roofs in rural buildings in India, Energy and Buildings, 114,
+156-163 (available at http://dx.doi.org/doi:10.1016/j.enbuild.2015.06.043)
+4
+  Ahmedabad’s Slum Free City Plan lists 691 notified slum settlements in the Ahmedabad Municipal Corporation
+area, containing 162,749 houses and a population of 727,934. Ahmedabad Municipal Corporation, “Ahmedabad
+Slum Free City Action Plan”, 2014
+http://pas.org.in/Portal/document/PIP%20Application/Ahmedabad%20Slum%20Free%20City%20Action%20Plan%
+20RAY.pdf (accessed on 10 January 2019)
+                                                          6
+        the thermal comfort would be the cooling load reduction and resulting energy savings. Thus, a
+        pay-back period of cool roofing material installations is important for these types of buildings.
+
+        Strategy 3: Cool roofing for low income housing under HAPs and through CSR initiatives
+        In low-income communities, cool roofs keep temperatures lower and increase thermal comfort. In
+        the long run, cool roofs for vulnerable communities also introduce the concept of cool roofs for
+        existing buildings and potentially new buildings in the future, thus locking in energy savings and
+        reducing the demand for cooling conditions indoors. The driver for this segment of the population
+        for cool roofs is increased thermal comfort and lower indoor temperatures. Also, since for a large
+        proportion of these households, their homes are also their place of work, increased thermal
+        comfort due to cool roofs, would also lead to enhanced productivity.
+
+The city-wide program with the above three main strategies also defines the regulatory, outreach and
+awareness, and financial mechanisms, along with the implementation plan for the program.
+
+Cool Roofing Material
+
+The choice of an appropriate cool roof material in a particular context depends on a range of factors, from
+existing roof material, life and maintenance, availability, cost, time needed for installation and availability
+of skilled labor. To help cater to a range of contexts, cool roofs techniques can be broadly divided into
+four categories and building owners can choose from these techniques as appropriate for implementing
+cool roofs.
+    • Coated cool roofs: these roofs involve the coating of a material or paint with high reflectivity on
+         top of a conventional roof material to increase the roof surface’s solar reflectance index. These
+         are liquid applied coatings made of simple materials such as lime wash or an acrylic polymer or
+         plastic technology and are usually white in color.
+    • Membrane cool roofs: these roofs involve using pre-fabricated materials such as membranes or
+         sheeting to cover an existing roof in order to increase the roof surface’s SRI. These types of roofs
+         can be polyvinyl chloride (PVC) or bitumen-based.
+    • Tiled cool roofs: these roofs involve the application of high albedo, china mosaic tiles or shingles
+         on top of an existing roof or to a new roof.
+    • Special cool roof materials such as ModRoof: these roofs, made of coconut husk and paper waste,
+         have been installed in households around Gujarat and
+         Delhi and can serve as an alternative to reinforced cement
+         concrete roofs.
+    • Green roofs: green roofs make use of vegetation to help
+         the roof absorb less solar energy by providing a thermal
+         mass layer to reduce flow of heat into a building.
+         Vegetation is especially useful in reflecting infrared
+         radiation. Green roofs are also considered cool roofs, but
+         due to higher costs and need for water, they are likely not
+         a cost-effective solution for heat reduction in low-income
+         communities in India.
+The cost implications vary by the type of material used for cool roofing. However, most of these materials
+have been applied locally in India and are available through local vendors.
+APPENDIX
+
+Heat Illness – Treatment Protocol
+
+
+
+                                                      7
+Recognizing that treatment protocols may vary slightly according to the setting (EMS, health center,
+clinic, hospital emergency department, etc.), the following protocol should apply generally to any setting
+and to all patients where there is a potential concern for heat illness. Special thanks to Drs. Arthur
+Yancey and Nee-Kofi Mould-Millman of Grady Emergency Medical Services, Emory University
+Department of Emergency Medicine, Atlanta, GA USA
+
+    1. Initial patient assessment – primary survey (airway, breathing, circulation, disability, exposure),
+       vital signs, including temperature
+
+    2. Consider heat illness in differential diagnosis if:
+          a. Presenting with suggestive symptoms and signs (see table)
+          b. Patient has one or more of the following risk factors:
+                    i. Extremes of age (infants, elderly)
+                   ii. Debilitation/physical deconditioning, overweight or obese
+                  iii. Lack of acclimatization to environmental heat (recent arrival, early in summer
+                        season)
+                  iv. Any significant underlying chronic disease, including psychiatric, cardiovascular,
+                        neurologic, hematologic, obesity, pulmonary, renal, and respiratory disease
+                   v. Taking one or more of the following:
+                            1. Sympathomimetic drugs
+                            2. Anticholinergic drugs
+                            3. Barbiturates
+                            4. Diuretics
+                            5. Alcohol
+                            6. Beta blockers
+
+    3. Remove from environmental heat exposure and stop physical activity
+
+    4. Initiate passive cooling procedures
+            a. Cool wet towels or ice packs to axillae, groin, and around neck; if patient is stable, may
+                take a cool shower, but evaluate risk of such activity against gain and availability of other
+                cooling measures
+            b. Spray cool water or blot cool water onto skin
+            c. Use fan to blow cool air onto moist skin
+
+    5. If temperature lower than 40°C, repeat assessment every 5 minutes; if improving, attempt to
+       orally hydrate (clear liquids, oral rehydration salts can be used but not necessary; cool liquids
+       better than cold) and observe
+
+    6. If temperature 40°C or above, initiate IVrehydration and immediately transport to emergency
+       department for stabilization
+
+
+
+
+                                                     8
+                                                                 Agency Action Checklists
+
+
+Checklist for AMC Nodal Officer                                              Checklist for Medical Colleges and Hospitals
+Pre-Summer                                                                   Pre-summer
+    ✓ Designate heat-health point-of-contact for each department                 ✓ Adopt heat-focused examination materials
+    ✓ Reengage key agencies to facilitate communications and schedule            ✓ Get additional hospitals and ambulances ready
+       monthly meetings                                                          ✓ Update surveillance protocols and programs, including to track
+    ✓ Establish heat mortality tracking system and update datasets                  daily heat-related data
+    ✓ Establish Heat Action webpage on AMC website                               ✓ Establish more clinician education
+    ✓ Educate school children and send home age-appropriate pamphlets            ✓ Continue to train medical officers and paramedics
+       about the heat season
+    ✓ Create list of high-risk areas for extreme heat in the city            During Heat Event
+                                                                                ✓ Adopt heat-illness related treatment and prevention protocols
+During Heat Event                                                               ✓ Equip hospitals with additional materials
+   ✓ Contact point-person in each department announcing heat event at           ✓ Deploy all medical staff to be on duty
+       least seven days in advance                                              ✓ Keep emergency ward ready
+   ✓ Maintain contact with department points-of-contact for updates on          ✓ Monitor water-borne diseases, malaria and dengue
+       conditions                                                               ✓ Keep stock of small reusable ice packs
+   ✓ Ensure staff presence and availability of supplies with each               ✓ Report heat stroke patients to AMC daily
+       department – including distributing fresh drinking water                 ✓ Expedite recording of cause of death certificates
+   ✓ Communicate locations of emergency facilities and cooling
+       centers/shaded areas with each department                             Post-summer Evaluation
+   ✓ Monitor heat alert and increase level when severe forecast                 ✓ Participate in annual evaluation of heat action plan
+                                                                                ✓ Review revised heat action plan
+Post-Summer Evaluation
+   ✓ Review quantitative and qualitative data for process evaluation
+       and improvements
+   ✓ Call meeting for annual evaluation of heat plan with key agency
+       leaders and community partners
+   ✓ Post revised heat action plan online for stakeholders
+
+
+
+
+                                                                         9
+Checklist for Public Health Managers                                         Checklist for Urban Health Centres and Link Workers
+Pre-summer
+    ✓ Identify areas that are vulnerable                                     Pre-summer
+    ✓ Check inventories of medical supplies in health centers                    ✓ Distribute pamphlet and other materials to community
+    ✓ Identify cooling centers and barriers to access cooling centers            ✓ Sensitize link workers and community leaders
+    ✓ Community involvement for workers’ and trainers’ education                 ✓ Develop and execute school health program
+                                                                                 ✓ Dissemination of materials in slum communities
+During Heat Event                                                                ✓ Coordinate outreach efforts with other community groups, non-
+   ✓ Prepare rapid response team                                                    profits, and higher education
+   ✓ Distribute “Dos and Don’ts” to community
+   ✓ Effectively send a “Don’t Panic!” message to community                  During Heat Event
+   ✓ Ensure access to Medical Mobile Van in the Red Zone                        ✓ Recheck management stock
+   ✓ Ensure additional medical vans available                                   ✓ Modify worker hours to avoid heat of day
+                                                                                ✓ Visit at-risk populations for monitoring and prevention
+Post-summer Evaluation                                                          ✓ Communicate information on tertiary care and 108 service
+   ✓ Participate in annual evaluation of heat action plan
+   ✓ Review revised heat action plan                                         Post-summer Evaluation
+                                                                                ✓ Participate in annual evaluation of heat action plan
+                                                                                ✓ Review revised heat action plan
+
+
+
+
+                                                                        10
+Checklist for AMC Press Officer                                                 Checklist for Labour Department
+Pre-Summer
+    ✓ Secure commercial airtime slots for public service announcements          Pre-Summer
+    ✓ Identify areas to post warnings and information during heat season            ✓ Heat illness orientation for factory medical officers and general
+    ✓ Organize training for health workers and medical professionals                   practitioners
+    ✓ Activate telephone heat hotline                                               ✓ Generate list of factory medical officers and contractors to include
+    ✓ Begin placing temperature forecasts in newspapers                                in heat action communications from Nodal Officer
+    ✓ Increase installed LED screens with scrolling temperature data                ✓ Communicate directly about heat season with non-factory workers
+                                                                                    ✓ Utilize maps of construction sites to identify more high-risk
+During Heat Event                                                                      outdoor workers.
+   ✓ Issue heat warnings in heat and electronic media                               ✓ Conduct publicity campaigns during high-risk days in identified
+   ✓ Contact local FM radio and TV stations for announcements                          high-risk areas
+   ✓ Use SMS, text and WhatsApp mobile messaging and centralized
+       mobile databases to send warnings                                        During the Heat Season
+   ✓ Contact BRTS and transport department to place warnings on                    ✓ Provide water at work sites
+       buses                                                                       ✓ Request use of A/C at factory facilities
+                                                                                   ✓ Extended hours at Occupational Health Centers
+Post-Summer Evaluation                                                             ✓ Consider extended afternoon break or alternate working hours for
+   ✓ Evaluate reach of advertising to target groups and other means of                 workers
+       communication such as social media
+   ✓ Participate in annual evaluation of heat action plan                       Post-Summer Evaluation
+   ✓ Review revised heat action plan                                               ✓ Participate in annual evaluation of heat action plan
+                                                                                   ✓ Review revised heat action plan
+                                                                                   ✓ Pilot project to provide emergency ice packs and heat-illness
+                                                                                       prevention materials to traffic police, BRTS transit staff and
+                                                                                       construction workers
+
+
+
+
+                                                                           11
+Checklist for 108 Emergency Service
+
+Pre-Summer
+    ✓ Prepare handouts for paramedics about heat illness
+    ✓ Create displays on ambulances to build public awareness during
+       major Spring events
+    ✓ Establish Dynamic Strategic Deployment Plan for ambulances
+    ✓ Ensure adequate supply of IV fluids
+    ✓ Identify at-risk areas
+    ✓ Prepare SMS messages to disseminate during emergencies
+    ✓ Identify media point of contact
+
+During the Heat Season
+   ✓ Ready medicine stocks
+   ✓ Keep accurate records of pre-hospital care
+   ✓ Send messages to all employees alerting them of heat action plan
+   ✓ Activate Dynamic Strategic Deployment Plan
+   ✓ Staff surplus employees and restrict leave
+
+Post-Summer Evaluation
+   ✓ Provide data to key agency leaders
+   ✓ Participate in annual evaluation of heat action plan
+   ✓ Review revised heat action plan
+
+
+
+
+                                                                        12
+Ahmedabad Heat Action Plan (HAP) departmental wise suggested activities during heatwave days:
+
+ S.No Department            Agency responsibilities
+ 1    AMC Nodal Officer                  Yellow Alert—Hot Day Advisory (41.1C- 43C)
+                               • Organize preventative training and outreach efforts for health workers,
+                                  link workers, school children, and the local community with the Health
+                                  Department.
+                               • Distribute multilingual pamphlets and posters with tips to prevent heat
+                                  stress to hospitals, schools, and professional associations (see
+                                  pamphlets attached).
+                               • Create a list of the high-risk areas of the city vulnerable to heat waves
+                                  for more focused activities on heat prevention.
+                               • Regular meetings with NGOs and slum leaders on weekly basis for
+                                  preparation for next week and review of previous week activities for
+                                  heat resilience.
+
+
+                                            Orange Alert—Heat Alert Day (43.1C-43C)
+                                •   Reengage state and local agencies to facilitate internal communications.
+                                •   Follow-up meetings with stakeholders, NGOs and slum leaders
+                                    regarding activities on heat prevention and heat alerts
+                                •   Organise workshop with doctors and health professionals for
+                                    identification of heat illness.
+                                •   Organise meeting to take special measures for the elderly and infants.
+                                •   All cause deaths should be daily reported by SMS to AMC and totalled
+                                    and declared to press every day.
+
+
+
+                                              Red Alert—Extreme Heat Alert Day ≥ 45C
+                                •   Convene key agency leaders to respond to extreme heat events.
+                                •   Announcement should be made in all areas like slums, semi slum areas
+                                    about the red alert.
+                                •   Inform to all ward councillors, NGO and representative of Ward.
+                                •   Publicity using Auto rickshaw should be done for Red alert
+                                •   Activate “cooling centers,” such as temples, public buildings, malls,
+                                    during a heat alert.
+                                •   Expand access to shaded areas for outdoor workers, slum communities,
+                                    and other vulnerable populations.
+                                •   Hold a frequent, possibly daily, conference call to discuss reports and
+                                    breaking developments during a heat alert, and ensure that
+                                    communication channels remain operational.
+                                •   Identify and set up public displays of temperature and forecasts.
+                                •   Continue surveillance of temperature data and forecasts.
+                                •   Communicate the suspension of all non-essential uses of water (other
+                                    than drinking, keeping cool)
+                                •   Increase efforts to distribute fresh drinking water to the public.
+                                •   Communicate the local utility protocol to prioritize maintaining power
+                                    to critical facilities (such as hospitals and UHCs).
+                                               13
+                    •   Notify the Steering Committee and relevant agencies when the heat
+                        alert is over.
+
+
+
+
+2   Media and AMC             Yellow Alert—Hot Day Advisory (41.1C- 43C)
+    Press Officer   •   Media training workshop on heat wave prevention and heat alert.
+                    •   Provide information and heat communication materials developed by
+                        the AMC to the public.
+                    •   Increase the number of installed LED screens with rolling updated
+                        temperature forecasts available to the public.
+
+                                Orange Alert—Heat Alert Day (43.1C-43C)
+                    •   Increase public communication including distributing the multilingual
+                        pamphlet and advertisements on heat stress prevention and tips for
+                        health protection during extreme heat events.
+                    •   Commence public messaging to the public about the dangers of heat-
+                        related illness with the AMC Nodal Officer via AMC press
+                        conferences.
+
+
+                                 Red Alert—Extreme Heat Alert Day (≥ 45C)
+                    •   Using Electronic and Print Media, publicity should be done on large
+                        scale.
+                    •   Publish heat IEC materials provided by the AMC to the public.
+                    •   Circulate warnings via text alerts or WhatsApp mobile messages, in
+                        collaboration with private sector telecom companies utilizing
+                        centralized mobile databases, in addition to traditional media during a
+                        heat alert.
+                    •   Inform all citizens about RED alert by using bulk SMS.
+                    •   Develop an SMS alert system to send direct messages to private
+                        practitioners in addition to the medical professionals at public hospitals
+                        and UHCs.
+                    •   Utilize local radio FM broadcasts to disseminate heat protection tips
+                        and high temperature warnings to the city’s at-risk populations during a
+                        heat alert.
+                    •   Explore other means of communications, such as broader use of social
+                        media, for example, Facebook and the WhatsApp mobile application.
+
+
+
+
+3                             Yellow Alert—Hot Day Advisory (41.1C- 43C)
+
+
+                                   14
+    AMC Health       •   Enhance targeted training programs, capacity building efforts and
+    Department and       communication on heat illness for medical staff at local hospitals and
+    Medical              Urban Health Centres (UHCs), based on the Framework of AMC
+    Professionals        Medical Professionals and Health Workers (see attachment). These
+                         efforts should include nursing staff, paramedics, field staff and link
+                         workers, and consider the susceptibility of particular wards.
+                     •   Hospitals should be instructed to update their admissions and
+                         emergency case records to track heat-related morbidity and mortality.
+                     •   Train hospitals to improve expedience of recording of cause of death
+                         certificates.
+                     •   Create simple, user-friendly means to track daily heat-related data and
+                         behavioural change impacts.
+                     •   Organize training on recording information education &
+                         communication (IEC) efforts.
+
+
+
+
+                                 Orange Alert—Heat Alert Day (43.1C-43C)
+                     •   Adopt heat-focused examination procedures at local hospitals and urban
+                         health centres.
+                     •   Purchase and distribute reusable soft plastic ice packs for the citywide
+                         UHCs, 108 emergency centres, ambulances and hospitals.
+                     •   Produce weekly reports of the public health impact for AMC Nodal
+                         Officer during a heat alert.
+
+
+                                 Red Alert—Extreme Heat Alert Day (≥ 45C)
+                     •   Keep all UHCs functional till 7 PM.
+                     •   Keep sufficient stocks of reusable soft plastic ice packs for the citywide
+                         UHCs, 108 emergency centres, ambulances and hospitals.
+                     •   Explore creation of ice pack dispensaries to increase access to
+                         vulnerable communities.
+                     •   Post heat-related illness prevention tips and how to stay cool around
+                         hospitals and UHCs.
+                     •   Ensure adequate medical supplies available.
+                     •   Produce weekly reports of the public health impact for AMC Nodal
+                         Officer during a heat alert.
+                     •   Increase staffing at hospitals and UHCs to attend to the influx of
+                         patients during a heat alert, if feasible.
+                     •   Increase link worker and community health worker outreach in at-risk
+                         neighbourhoods during a heat alert, if feasible.
+                     •   Have zonal health officer visit UHCs to confirm proper preparation has
+                         been made for heat related illness and conduct case audits during heat
+                         season.
+                     •   Provisions should be made to treat Heat stroke patient in emergency.
+
+4                              Yellow Alert—Hot Day Advisory (41.1C- 43C)
+
+
+                                    15
+    AMC Labour &    •   Sensitization workshop for employers, outdoor laborers and workers
+    Employment          regarding health impacts of extreme heat and recommendations to
+    Department          protect themselves during high temperatures.
+                    •   Utilize maps of construction sites to identify more high-risk outdoor
+                        workers. Potentially overlay with irradiation map from IMD or heat
+                        island map.
+
+                                Orange Alert—Heat Alert Day (43.1C-43C)
+                    •   Organize training for employers, outdoor laborers and workers
+                        regarding health impacts of extreme heat and recommendations to
+                        protect themselves during high temperatures.
+
+                                 Red Alert—Extreme Heat Alert Day ≥ 45C
+                    •   Conduct publicity campaigns during high-risk days to these specific
+                        areas.
+                    •   Provide sufficient portable drinking water.
+                    •   Change working hours of labourers. Encourage employers to shift
+                        outdoor workers’ schedules away from peak afternoon hours (1pm –
+                        5pm) during a heat alert.
+                    •   Pilot project to provide emergency ice packs and heat-illness prevention
+                        materials to traffic police, BRTS transit staff and construction workers.
+
+
+5   108 Emergency               Yellow Alert—Hot Day Advisory (41.1C- 43C)
+    Service         •   Create displays on ambulances during local events to build public
+                        awareness (see ad attached)
+                    •   Identify at-risk areas of vulnerable populations, in part by utilizing the
+                        list of high-risk areas.
+                    •   Enhance targeted training programs and communication on heat illness
+                        for paramedics and field staff.
+                                 Orange Alert—Heat Alert Day (43.1C-43C)
+                    •   Keep sufficient stocks of reusable soft plastic ice packs for the 108
+                        citywide emergency ambulances.
+                    •   Organize training on recording information education &
+                        communication (IEC) efforts.
+
+                               Red Alert—Extreme Heat Alert Day (≥ 45C)
+                    •   Keep sufficient stocks of reusable soft plastic ice packs for the citywide
+                        108 emergency ambulances.
+                    •   Ensure adequate supply of ice packs and IV fluids.
+                    •   Disseminate SMS text messages to warn local residents during a heat
+                        alert.
+
+
+
+
+6                             Yellow Alert—Hot Day Advisory (41.1C- 43C)
+
+
+
+                                   16
+    Community Groups    •   Lead child-friendly educational preventative trainings and distribute
+    and Individuals:        heat protection materials at local schools. For example, potentially
+                            design a “Teach the Teachers” workshop designed to equip teachers
+                            with knowledge with heat protection tips and materials that they can
+                            disseminate in classrooms on heat protection, and activities that can
+                            engage students on health dangers of extreme heat.
+
+
+
+                                    Orange Alert—Heat Alert Day (43.1C-43C)
+                        •   Conduct training workshops and outreach sessions with community
+                            groups and mobilizers such as Mahila Arogya Samiti, Self-Employed
+                            Women's Association (SEWA), ASHA workers, aanganwadis, and
+                            municipal councils to help inform and get vulnerable communities more
+                            actively involved.
+                        •   Incorporate other sectors such as higher education, non-profits, and
+                            community leaders to increase reach to communities.
+                        •   Encourage individuals to discussion of the early signs of heat
+                            exhaustion with their local doctor or Urban Health Centre.
+                        •   Inform fellow community members about how to keep cool and protect
+                            oneself from heat
+                        •   Limit heavy work in direct sun or indoors if poorly ventilated,
+                            especially during a heat alert.
+
+
+                                        Red Alert—Extreme Heat Alert Day (≥ 45C)
+                        •   Regular meetings with community groups and inform them about red
+                            heat alert.
+                        •   Communicate to keep cool and hydrated during the heat season by
+                            drinking water, staying out of the sun, and wearing light clothing.
+                        •   Check on vulnerable neighbours, particularly during a heat alert.
+                        •   Limit heavy work in direct sun or indoors if poorly ventilated,
+                            especially during a heat alert.
+7   Electricity Board              Yellow Alert—Hot Day Advisory (41.1C- 43C)
+                        •   Create awareness among people on energy conservation.
+                        •   Develop a policy for power cuts depending on vulnerable areas and
+                            population. Power shedding should be cut down/reduced during severe
+                            heat (frequency and timing). The timing should be announced before
+                            one day.
+                        •   Issue guideline for workers of the department.
+                        •   Provision of funds for Heat Wave management.
+
+                                   Orange Alert—Heat Alert Day (43.1C-43C)
+                        •   Ensuring efficient electricity supply.
+
+
+
+                                   Red Alert—Extreme Heat Alert Day (≥ 45C)
+
+
+                                       17
+                        •   No power cuts during red alert.
+8   Transport                      Yellow Alert—Hot Day Advisory (41.1C- 43C)
+    Department/ AMTS    •   Obtaining lists of risk areas and review of bus timings and available
+    / BRTS department       shelters in the high-risk areas.
+                        •   Planning for shade / shelter, drinking water and fans in the waiting
+                            areas of passengers.
+                        •   Display of precautionary measures ( Do’s and don’ts) on busses, autos,
+                            in bus stations & auto stands and distribution of pamphlets to
+                            passengers.
+
+                                     Orange Alert—Heat Alert Day (43.1C-43C)
+                        •   Review measures of HAP with cab operator / auto / transport
+                            associations and also Highway patrol.
+                        •   Provide ORS, ice packets etc. and medical services in bus stations.
+                        •   Pilot project to provide emergency ice packs and heat-illness prevention
+                            materials to BRTS transit staff and all transport departments.
+                        •   Display posters & distribute pamphlets on prevention of heat related
+                            illness in bus stands, auto stands etc.
+
+
+
+                                     Red Alert—Extreme Heat Alert Day (≥ 45C)
+                        •   Establish health teams at major bus stands / terminals and other public
+                            places.
+                        •   Ensure availability of shade / shelters, drinking water, ORS packets
+                            etc., in bus stands, auto stands etc.
+                        •   Inform all the contractors and officers to keep road site jobs closed
+                            during 12 to 4 pm.
+                        •   Make provision of water and buttermilk for all labourer staff.
+                        •   Display of messages inside the bus on TV screen about RED alert.
+9   School Board and                Yellow Alert—Hot Day Advisory (41.1C- 43C)
+    Education           •   Design child-friendly educational preventative trainings and distribute
+    Department              heat protection materials at local schools.
+                        •   Training of school teachers to equip them with knowledge of heat
+                            protection tips and activities which they can disseminate in classrooms.
+                        •   IEC activities on heat wave prevention and management in schools.
+                        •   Promote School Safety Plan.
+                        •   Encourage plantation of trees and promote green campus.
+                        •   Provision of funds for heat wave management.
+
+
+
+
+                                   Orange Alert—Heat Alert Day (43.1C-43C)
+
+
+
+
+                                       18
+                        •   Scheduling of examinations before starting of heat period normally.
+                        •   Ensure supply of water for students and teachers if school is
+                            functioning.
+                        •   Communicate to keep cool and hydrated during the heat season by
+                            drinking water, staying out of the sun, and wearing light clothing.
+                        •   Restrict the school timings, if necessary
+                        •   Ensure avoidance of physical activities during school hours.
+
+
+
+                                     Red Alert—Extreme Heat Alert Day ≥ 45C
+                        •   Ensure that all school and colleges should be closed during heatwave
+                            days.
+                        •   If school is not functioning, permit use of school premises as shelter
+                            during day time.
+                        •   AMC schools and Private schools should get alert messages and also
+                            send messages to parents through Bulk messages.
+                        •   Sensitize school teachers about RED alert.
+
+10   Water Department             Yellow Alert—Hot Day Advisory (41.1C- 43C)
+                        •   Release water in canals during summer.
+                        •   Promote sprinkler irrigation.
+                                   Orange Alert—Heat Alert Day (43.1C-43C)
+                        •   Ensuring efficient portable water supply.
+                                    Red Alert—Extreme Heat Alert Day ≥ 45C
+                        •   Supply drinking water at various locations of the city.
+11   Fire Department              Yellow Alert—Hot Day Advisory (41.1C- 43C)
+                        •   Train staff regarding health impacts of extreme heat and
+                            recommendations to protect themselves during high temperatures.
+
+                                   Orange Alert—Heat Alert Day (43.1C-43C)
+                        •   Ensure adequate numbers of vehicles and firefighting equipment.
+                                      Red Alert—Extreme Heat Alert Day ≥ 45C
+                        •   Ensure presence of staff during heat alert period, if necessary by
+                            restricting leaves.
+                        •   Ensure functioning of communication equipment to receive messages /
+                            alerts of occurrence of fire.
+                        •   Ensure adequate supply of water and foam to fight fire.
+
+
+
+
+12                                Yellow Alert—Hot Day Advisory (41.1C- 43C)
+
+
+
+                                       19
+     Garden, Parks, Zoo   •   Directive for making water available for animals in reserved/ protected
+     Departments              forests and make necessary provisions, where necessary.
+                          •   Issue directives to the zoo authorities for special arrangements for the
+                              animals in zoo to protect them from the effect of Heat Wave.
+                          •   Provision of drinking water like ponds/water bodies for wild life.
+                          •   Directive for provision of water to human habitations facing water
+                              scarcity inside reserved forests.
+
+
+                                     Orange Alert—Heat Alert Day (43.1C-43C)
+                          •   Ensure drinking water for wild life.
+
+                                      Red Alert—Extreme Heat Alert Day ≥ 45C
+                          •   Keep gardens and park open during heat alert.
+                          •   Provide drinking water, shelters and ORS for public
+13   Women and Child                Yellow Alert—Hot Day Advisory (41.1C- 43C)
+     Development/ ICDS    •   Create awareness and educate young girls and mothers regarding the
+     Department               dangers of Heat Waves, its related health impacts and the precautionary
+                              measures to be taken.
+                          •   Display IEC materials at Anganwadis and encourage integrated child
+                              development scheme (ICDS) workers to disseminate Heat Wave related
+                              information with special focus on infants, children below five years,
+                              pregnant and lactating mothers, and geriatric population to protect them
+                              from dehydration.
+                          •   Ensure provision of drinking water and first aid at all the Anganwadi
+                              Centers, old age homes, orphanages.
+                          •   Ensure provision of funds for Heat Wave management
+                                      Orange Alert—Heat Alert Day (43.1C-43C)
+                          •   Ensure that they receive heat alert daily.
+                          •   Distribution of ORS at AWC.
+                                       Red Alert—Extreme Heat Alert Day ≥ 45C
+                          •   Special cooling measures for old people and infants.
+                          •   Inform about RED alert to parents of children coming in Anaganwadi.
+14   Solid waste                    Yellow Alert—Hot Day Advisory (41.1C- 43C)
+     Management           •   Training and awareness regarding heat health impacts and the
+     Department               precautionary measures to be taken.
+                          •   Ensure provision of drinking water.
+
+                                      Orange Alert—Heat Alert Day (43.1C-43C)
+                          •   All the Public Facility Cleaners work timing should be made from
+                              4:30PM onwards, instead of 3 PM.
+                                       Red Alert—Extreme Heat Alert Day ≥ 45C
+                          •   If temperature is raised by more than 46 degree temperature than work
+                              should be stopped.
+
+15                                  Yellow Alert—Hot Day Advisory (41.1C- 43C)
+
+
+                                         20
+Real estate   •   Distribute IEC materials regarding heat wave precautionary measures.
+department    •   Create awareness regarding heat wave measures.
+
+
+                          Orange Alert—Heat Alert Day (43.1C-43C)
+              •   Distribution of buttermilk/water should be mandatorily done for all
+                  workers at construction site.
+
+                           Red Alert—Extreme Heat Alert Day ≥ 45C
+              •   Stop work from 12 to 4 PM in afternoon.
+              •   Announcements using Microphones should be made on street wards for
+                  Publicity of Red alert and its preventive measures.
+
+
+
+
+                             21
+Cool Roof- Posters
+
+
+
+
+Public Awareness Pamphlet (Gujarati and English)
+
+                                             22
+How to Protect Yourself” Poster (English and Gujarati)
+
+
+
+
+Heat Awareness Advertisement for Newspapers (English and Gujarati)
+
+
+
+
+                                               23
+Medical Heat Awareness Pamphlet
+
+
+
+
+                                  24
+25
+

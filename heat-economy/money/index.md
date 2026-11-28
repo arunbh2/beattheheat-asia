@@ -1,7 +1,7 @@
 ---
 title: "Funding and support for protection from heat"
 url: https://beattheheat.asia/heat-economy/money/
-updated: 2026-11-26
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
@@ -58,6 +58,28 @@ Community organising and participation, Pilots and demonstrations, Recurring del
 
 No current call recorded here.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure; Earnings or social protection
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Adaptation Fund; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Check institutional eligibility](https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/)
 
 **Source checked:** 22 November 2026 · [Adaptation Fund: LLA Single Country Grants](https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/)
@@ -91,6 +113,28 @@ Pilots and demonstrations, Policy and institutional capacity
 #### Calls and rounds
 
 - [IKI Medium Grants 2026](https://beattheheat.asia/heat-economy/money/opportunities/#opp-iki-medium-2026) · Closed
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by International Climate Initiative (IKI); no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Check institutional eligibility](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
 
@@ -126,6 +170,28 @@ Community organising and participation
 
 No current call recorded here.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Earnings or social protection
+
+**Equity provisions**: Named in the remit: Participation in decisions
+
+**Who delivers**: Grantees or partners chosen by Climate Justice Resilience Fund; no delivery organisation is named for specific work
+
+**Participation or governance**: Named in the remit
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://www.cjrfund.org/)
 
 **Source checked:** 22 November 2026 · [Climate Justice Resilience Fund: Climate Justice Resilience Fund](https://www.cjrfund.org/)
@@ -159,6 +225,28 @@ Community organising and participation, Policy and institutional capacity
 #### Calls and rounds
 
 - [Commonwealth Foundation open grants call 2026 to 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-cwf-2026) · Closed
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Earnings or social protection; Workplace heat protection
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Commonwealth Foundation; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://commonwealthfoundation.com/grants/annual/)
 
@@ -194,6 +282,28 @@ Research and evidence
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by International Development Research Centre; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health)
 
 **Source checked:** 22 November 2026 · [International Development Research Centre (IDRC): Advancing Research on Climate and Health](https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health)
@@ -227,6 +337,28 @@ Research and evidence, Policy and institutional capacity
 #### Calls and rounds
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services; Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Asia-Pacific Network for Global Change Research; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Check institutional eligibility](https://www.apn-gcr.org/opportunities/calls-for-proposals/)
 
@@ -262,6 +394,28 @@ Research and evidence, Policy and institutional capacity
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services; Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by International Development Research Centre; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Check institutional eligibility](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)
 
 **Source checked:** 22 November 2026 · [International Development Research Centre (IDRC): Climate Adaptation and Resilience (CLARE)](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)
@@ -296,6 +450,28 @@ Research and evidence
 
 - [Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)](https://beattheheat.asia/heat-economy/money/opportunities/#opp-he-envhlth-02-2027) · Upcoming
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by European Commission; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Check institutional eligibility](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-ENVHLTH-02)
 
 **Source checked:** 22 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
@@ -329,6 +505,28 @@ Pilots and demonstrations, Scaling and replication
 #### Calls and rounds
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Grand Challenges Canada; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://www.grandchallenges.ca/funding-opportunity-nexa/)
 
@@ -367,6 +565,28 @@ Scaling and replication, Pilots and demonstrations
 #### Calls and rounds
 
 - [Nexa Lighthouse: Transition to Scale funding for climate and health innovation in Asia and the Pacific](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcc-nexa-lighthouse-2026) · Open
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Implementation in eligible countries in Asia and the Pacific listed in the call's Appendix B.
+
+**Type of protection**: Healthcare and maternal services; Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Grand Challenges Canada; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://www.grandchallenges.ca/portfolio/nexa-lighthouse/)
 
@@ -407,6 +627,28 @@ No current call recorded here. Calls have been periodic; the next one is not ann
 - [A South Asia climate-health desk and a heat research consortium](https://beattheheat.asia/signals/#sig-south-asia-climate-health-desk-2026) Funded, reported
 - [98% of surveyed maternity and newborn clinicians say they have cared for a pregnant woman they believe heat harmed](https://beattheheat.asia/signals/#sig-clinicians-heat-pregnancy-2026) Finding
 
+Health and equity reach
+
+**Intended beneficiaries**: Named in the remit: Older people
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Wellcome; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Check institutional eligibility](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
 
 **Source checked:** 22 November 2026 · [Wellcome: Climate Impacts Awards](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
@@ -444,6 +686,28 @@ No current call recorded here. Calls have been periodic; the next one is not ann
 #### Past support (not money available now)
 
 - Grants from the global call for extreme heat solutions (2025), including grantees in South and Southeast Asia. [Grantees](https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure; Earnings or social protection; Household or public cooling
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by ClimateWorks Foundation; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://www.climateworks.org/programs/adaptation-and-resilience/fund/)
 
@@ -483,6 +747,28 @@ No current call recorded here. Calls have been periodic; the next one is not ann
 
 - An earlier Grand Challenges call on climate, health, agriculture and gender (closed). [Call page](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
 
+Health and equity reach
+
+**Intended beneficiaries**: Named in the remit: People facing gender-related exclusion
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services; Workplace heat protection; Earnings or social protection
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Gates Foundation; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
 
 **Source checked:** 22 November 2026 · [Gates Foundation (Grand Challenges): Accelerating and catalyzing solutions to climate change's impact on health, agriculture and gender](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
@@ -516,6 +802,28 @@ Community organising and participation, Policy and institutional capacity
 #### Calls and rounds
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Earnings or social protection; Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Toyota Foundation; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://www.toyotafound.or.jp/english/grant/international/)
 
@@ -551,6 +859,28 @@ Scaling and replication
 
 No current call recorded here.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Warning and response systems; Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Z Zurich Foundation; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf)
 
 **Source checked:** 22 November 2026 · [IFRC: Global Climate Resilience Platform: status update report, issue 2](https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf)
@@ -584,6 +914,28 @@ Pilots and demonstrations
 #### Calls and rounds
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Workplace heat protection; Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Convergence; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://www.convergence.finance/accelerator/acs)
 
@@ -619,6 +971,28 @@ Pilots and demonstrations, Scaling and replication
 
 - [GRP Innovation Challenge 2026](https://beattheheat.asia/heat-economy/money/opportunities/#opp-grp-2026) · Closed
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Earnings or social protection
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Global Resilience Partnership; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
 
 **Source checked:** 22 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
@@ -652,6 +1026,28 @@ Pilots and demonstrations
 #### Calls and rounds
 
 - [UNICEF Venture Fund: funding frontier climate tech for children's health](https://beattheheat.asia/heat-economy/money/opportunities/#opp-unicef-climate-health-2026) · Closed
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Healthcare and maternal services; Care-service continuity
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by UNICEF Venture Fund; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
 
@@ -687,6 +1083,28 @@ Infrastructure and equipment, Community organising and participation
 
 No current call recorded here.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Earnings or social protection; Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Asian Development Bank; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Check institutional eligibility](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)
 
 **Source checked:** 22 November 2026 · [Asian Development Bank: Community Resilience Partnership Program Trust Fund](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)
@@ -720,6 +1138,28 @@ Community organising and participation, Pilots and demonstrations
 #### Calls and rounds
 
 No current call recorded here. Calls have been periodic; the next one is not announced.
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure; Household or public cooling
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by GEF Small Grants Programme; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://sgp.undp.org/about-us-157/how-to-apply.html)
 
@@ -755,6 +1195,28 @@ Community organising and participation, Pilots and demonstrations
 
 - [IKI Small Grants: eighth call](https://beattheheat.asia/heat-economy/money/opportunities/#opp-iki-small-2026) · Open
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by GIZ; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
 
 **Source checked:** 22 November 2026 · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
@@ -788,6 +1250,28 @@ Policy and institutional capacity, Research and evidence
 #### Calls and rounds
 
 No current call recorded here.
+
+Health and equity reach
+
+**Intended beneficiaries**: Named in the remit: People facing gender-related exclusion
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Earnings or social protection; Public cooling and accessible infrastructure; Workplace heat protection
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Asian Development Bank; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Check institutional eligibility](https://www.adb.org/projects/59391-001/main)
 
@@ -823,6 +1307,28 @@ Infrastructure and equipment, Scaling and replication, Policy and institutional 
 
 No current call recorded here.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure; Warning and response systems; Healthcare and maternal services; Household or public cooling
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Green Climate Fund; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Check institutional eligibility](https://www.greenclimate.fund/partners/accredited-entities)
 
 **Source checked:** 22 November 2026 · [Green Climate Fund: Accredited Entities](https://www.greenclimate.fund/partners/accredited-entities)
@@ -856,6 +1362,28 @@ Policy and institutional capacity
 #### Calls and rounds
 
 - [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcf-readiness-2027) · Rolling
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure; Warning and response systems; Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Green Climate Fund; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Check institutional eligibility](https://www.greenclimate.fund/readiness)
 
@@ -891,6 +1419,28 @@ Pilots and demonstrations
 
 - [Global EbA Fund: small-size grants, eighth call](https://beattheheat.asia/heat-economy/money/opportunities/#opp-global-eba-small-2026) · Closed
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by IUCN; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
 
 **Source checked:** 22 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
@@ -924,6 +1474,28 @@ Policy and institutional capacity, Scaling and replication
 #### Calls and rounds
 
 No current call recorded here.
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Household or public cooling; Household cooling
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by ClimateWorks Foundation; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
 
 [Monitor future calls](https://www.cleancoolingcollaborative.org/)
 
@@ -959,6 +1531,28 @@ Policy and institutional capacity, Infrastructure and equipment
 
 No current call recorded here.
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by City Climate Finance Gap Fund; no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
 [Monitor future calls](https://www.citygapfund.org/)
 
 **Source checked:** 22 November 2026 · [City Climate Finance Gap Fund: City Climate Finance Gap Fund](https://www.citygapfund.org/)
@@ -993,6 +1587,22 @@ The kinds of work heat protection needs, and how many records in this curated da
 - Coverage is curated, not complete. Calls in national languages, national government schemes and private foundations without public calls are under-represented.
 - Few verified records fund recurring delivery and maintenance, worker organisations or locally led delivery. This is a gap in the dataset, not a finding about the whole funding landscape.
 - Automated discovery only creates candidates. A person checks each against its primary page before it is published.
+
+## Health and equity reach
+
+Within the records tracked by Common Shade: 27 funding programmes and 20 policy commitments on Signals. A record can sit under more than one kind of protection, so the counts do not add up to a total, and no money is summed: the records do not track amounts in a way that can be compared. Being absent here does not mean no funding exists.
+
+Records by the kind of protection they name (a record can count more than once)Kind of protection | Funding programmes | Policy commitments |
+Care-service continuity | 1 | 0 |
+Earnings or social protection | 9 | 1 |
+Healthcare and maternal services | 11 | 5 |
+Household cooling | 1 | 0 |
+Household or public cooling | 4 | 0 |
+Public cooling and accessible infrastructure | 15 | 2 |
+Warning and response systems | 5 | 14 |
+Workplace heat protection | 4 | 3 |
+
+What remains unknown across these records: who actually benefits, how money is split between components, and evidence of reach. Each card's "Health and equity reach" panel says which of these it documents. Little funding identified, an undisclosed amount, funding not yet researched and an evidenced financing gap are different things; these records establish none of the last.
 
 ## Funding we traced
 

@@ -6,6 +6,7 @@
 // The page reads in full without JavaScript; factory.js adds the floor plan selection, the finder, comparison and the
 // printable shortlist. Called by tools/build-pages.js; md() by tools/build-static.js.
 "use strict";
+const GATE = require("./source-gate.js");
 const fs = require("fs"), path = require("path");
 const T = require("./factory-heat-text.js");
 const BATCH = path.join(__dirname, "..", "research", "2026-11", "factory-heat");
@@ -128,13 +129,14 @@ module.exports = function factoryHeat({ page, write, esc, hero, V }) {
           <div><dt>How it works</dt><dd data-f="how">${esc(r.how)}</dd></div>
           <div><dt>Factory types and tasks</dt><dd data-f="where">${esc(r.where)}</dd></div>
           <div><dt>Works if</dt><dd data-f="works">${r.works.map(esc).join("; ")}</dd></div>
-          <div><dt>Take care</dt><dd data-f="caution">${r.caution.length ? r.caution.map(esc).join("; ") : "None noted."}</dd></div>
-          <div><dt>Upfront</dt><dd data-f="upfront">${esc(r.upfront)}</dd></div>
-          <div><dt>Running</dt><dd data-f="recurrent">${esc(r.recurrent)}</dd></div>
+          <div><dt>Take care</dt><dd data-f="caution">${r.caution.length ? r.caution.map(esc).join("; ") : "Not assessed yet."}</dd></div>
+          <div><dt>Upfront</dt><dd data-f="upfront">${/^none\.?$/i.test(r.upfront) ? "No equipment to buy. Time, pay and management costs: local costing needed." : esc(r.upfront)}</dd></div>
+          <div><dt>Running</dt><dd data-f="recurrent">${/^none\.?$/i.test(r.recurrent) ? "Not assessed: local costing needed." : esc(r.recurrent)}</dd></div>
           <div><dt>Who installs, runs and maintains it</dt><dd data-f="owners">${esc(r.owners)}</dd></div>
           ${r.voice ? `<div><dt>Workers' part</dt><dd data-f="voice">${esc(r.voice)}</dd></div>` : ""}
           ${r.equity ? `<div><dt>Equity and access</dt><dd data-f="equity">${esc(r.equity)}</dd></div>` : ""}
-          <div><dt>Evidence</dt><dd data-f="ev"><ul>${ev.map(e => `<li><b>${esc(T.EV[e.type])}.</b> ${e.note ? esc(e.note) + " " : ""}${e.claims.length ? srcLinks(e.claims) : ""}</li>`).join("")}</ul></dd></div>
+          <div><dt>Evidence</dt><dd data-f="ev"><ul>${(r.guide || []).filter(id => GATE.passed(id)).map(id => { const s = GATE.get(id); return `<li><b>Guidance.</b> ${esc(s.publisher)}: <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}<span class="visually-hidden"> (opens in a new tab)</span></a></li>`; }).join("")}${ev.map(e => `<li><b>${esc(T.EV[e.type])}.</b> ${e.note ? esc(e.note) + " " : ""}${e.claims.length ? srcLinks(e.claims) : ""}</li>`).join("")}</ul></dd></div>
+          ${r.use ? `<div class="fh-use"><dt>Can people actually use this?</dt><dd><dl>${[["access", "Who controls access"], ["cost", "What using it costs in money, time or earnings"], ["work", "Who does the additional work"], ["paid", "Is that work paid and supported"], ["excluded", "Who might be left out"], ["info", "What personal information it needs"], ["shape", "Can the people it serves shape it"], ["accountable", "Who is accountable if it fails"], ["check", "What to check locally"]].map(([k, l]) => `<div><dt>${l}</dt><dd>${esc(r.use[k] || "Not assessed")}</dd></div>`).join("")}</dl></dd></div>` : `<div><dt>Can people actually use this?</dt><dd>Not assessed yet for this measure. The questions are on <a href="/heat-health-and-equity/#taxonomy">Heat, health and the ability to act</a>.</dd></div>`}
           <div><dt>Measure before and after</dt><dd data-f="measure">${esc(r.measure)}</dd></div>
           <div><dt>Pairs with</dt><dd>${(r.pair || []).map(recLink).join(" · ") || "None listed."}</dd></div>
         </dl>

@@ -1,0 +1,63 @@
+[
+ {
+  "id": "src-he-who-heat",
+  "type": "source",
+  "keys": [
+   "who-heat"
+  ],
+  "title": "Climate change, heat and health (fact sheet)",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+  "kind": "International guidance (fact sheet)",
+  "where": "Health and gender equity pages",
+  "expect": [
+   "Gender can play an important role in determining heat exposure",
+   "women are primarily responsible for cooking indoors during hot weather",
+   "low quality housing and lack of access to cooling",
+   "loss of health service delivery capacity"
+  ],
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261115144415/https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
+ },
+ {
+  "id": "src-he-who-work",
+  "type": "source",
+  "keys": [
+   "who-work"
+  ],
+  "title": "Workplace heat stress (questions and answers)",
+  "publisher": "World Health Organization",
+  "year": 2025,
+  "url": "https://www.who.int/news-room/questions-and-answers/item/workplace-heat-stress",
+  "kind": "International guidance (Q&A)",
+  "where": "Health and gender equity pages",
+  "expect": [
+   "Occupational Heat Action Programmes",
+   "pregnant women",
+   "older workers"
+  ],
+  "claims": [],
+  "archive": "https://web.archive.org/web/20261111223507/https://www.who.int/news-room/questions-and-answers/item/workplace-heat-stress"
+ },
+ {
+  "id": "src-he-ccohs-heat",
+  "type": "source",
+  "keys": [
+   "ccohs-heat"
+  ],
+  "title": "Hot environments: control measures",
+  "publisher": "Canadian Centre for Occupational Health and Safety",
+  "year": 2024,
+  "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html",
+  "kind": "National occupational guidance",
+  "where": "Health and gender equity pages",
+  "expect": [
+   "Establishing a buddy system",
+   "less likely to notice their own symptoms of heat stress",
+   "emergency response plan"
+  ],
+  "claims": [],
+  "archive": "https://web.archive.org/web/20230218104956/https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html"
+ }
+]

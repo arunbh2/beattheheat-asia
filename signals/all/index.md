@@ -1,7 +1,7 @@
 ---
 title: "Signals: every record"
 url: https://beattheheat.asia/signals/all/
-updated: 2026-11-26
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
@@ -74,6 +74,28 @@ What would change this recordThe task force's guidance on the indicators, publis
 
 ReviewRecord last reviewed 26 November 2026. Sources last checked 25 November 2026. Next review due 26 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Parties to the Paris Agreement (CMA 7)
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 
 Commitment[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 22 November 2026
@@ -114,6 +136,28 @@ Not known yet
 What would change this recordThe first carbon-market proceeds received by the Adaptation Fund.
 
 ReviewRecord last reviewed 26 November 2026. Sources last checked 25 November 2026. Next review due 26 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Parties to the Paris Agreement (CMA 8)
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
@@ -179,6 +223,28 @@ What would change this recordGrants signed or paid out, and work funded in South
 
 ReviewRecord last reviewed 18 November 2026. Sources last checked 18 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: UNEP and the Government of Singapore (co-chairs)
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: Announced
+
+**Implementation stage**: Not assessed
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)[Cool by design](https://beattheheat.asia/actions/#coolbydesign)[Heat action plans](https://beattheheat.asia/actions/#hap)[Paying for protection](https://beattheheat.asia/paying-for-protection/)
 
 Gathering[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 9 November 2026
@@ -240,6 +306,28 @@ Not known yet
 What would change this recordA country announcing that it will take part, or the platform's first published output.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 12 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Healthcare and maternal services; Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Türkiye, as COP31 host, and the World Health Organization
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Announced (proposed)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
@@ -328,6 +416,28 @@ What would change this recordSupport under the plan reaching countries in South 
 
 ReviewRecord last reviewed 18 November 2026. Sources last checked 26 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global
+
+**Type of protection**: Warning and response systems; Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: World Health Organization
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
 Commitment[COP31 watch](https://beattheheat.asia/signals/#cop31)Latest development 29 October 2026
@@ -369,6 +479,28 @@ Not known yet
 What would change this recordEndorsements by countries in South and Southeast Asia, and building codes there that name cooling and indoor heat.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 15 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Other or unclear
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: COP31 Presidency
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Announced (proposed)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Cool by design](https://beattheheat.asia/actions/#coolbydesign)[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 
@@ -438,6 +570,28 @@ What would change this recordThe technical review's recommendation, and compensa
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 16 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Philippines
+
+**Type of protection**: Workplace heat protection; Earnings or social protection
+
+**Equity provisions**: Named in the record: Earnings protection
+
+**Who delivers**: Department of Labor and Employment, Philippines
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Philippines](https://beattheheat.asia/countries/philippines/)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)
 
 CommitmentLatest development 8 October 2026
@@ -476,6 +630,28 @@ Not known yet
 What would change this recordHeat-health work under way in Indonesia and Thailand in 2027.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 7 November 2026. Next review due 16 January 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Indonesia and Thailand
+
+**Type of protection**: Warning and response systems; Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Philanthropy Asia Alliance
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: Announced
+
+**Implementation stage**: Not assessed
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Common Shade's reading Interpretation
 
@@ -597,6 +773,28 @@ What would change this recordInspection or enforcement reports after 1 December 
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 15 November 2026. Next review due 2 December 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Singapore
+
+**Type of protection**: Workplace heat protection
+
+**Equity provisions**: Named in the record: Water, sanitation and privacy
+
+**Who delivers**: Ministry of Manpower, Singapore
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Common Shade's reading Interpretation
 
 **What has changed**: Heat stress measures for outdoor work, including drinking water, move from advice to requirements, announced on 28 August 2026 to apply from 1 December 2026.
@@ -648,6 +846,28 @@ Not known yet
 What would change this recordThe official notification or order, and a state reporting heatwave relief paid from its response fund.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 7 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: India
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Government of India
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Common Shade's reading Interpretation
 
@@ -725,6 +945,28 @@ What would change this recordA published review of whether the new warning level
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 15 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: South Korea
+
+**Type of protection**: Workplace heat protection
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Korea Meteorological Administration
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Reported delivered
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Cool nights and support](https://beattheheat.asia/actions/#coolnights)[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)
 
 FindingLatest development June 2026
@@ -800,6 +1042,28 @@ Not known yet
 What would change this recordMoney committed against its five-year costing.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 9 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Bangladesh
+
+**Type of protection**: Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Government of Bangladesh
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Bangladesh](https://beattheheat.asia/countries/bangladesh/)[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 
@@ -881,6 +1145,28 @@ What would change this recordThe published action plan.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 7 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Singapore
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Ministry of Sustainability and the Environment, Singapore
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: Announced
+
+**Implementation stage**: Not assessed
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Common Shade's reading Interpretation
 
 **What has changed**: Three separate things: a policy office set up in March 2026, a S$40 million research funding initiative, and an action plan the office is to draft.
@@ -954,6 +1240,28 @@ Not known yet
 What would change this recordThe consortium's first published research.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 31 October 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: South Asia
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: The Rockefeller Foundation and Wellcome
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: Announced
+
+**Implementation stage**: Not assessed
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Paying for protection](https://beattheheat.asia/paying-for-protection/)
 
@@ -1065,6 +1373,28 @@ What would change this recordA progress report against the plan's 22 indicators.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 15 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Named in the record: Newborns and children
+
+**Setting and geography**: Bangkok, Thailand
+
+**Type of protection**: Public cooling and accessible infrastructure; Warning and response systems
+
+**Equity provisions**: Named in the record: Operational funding
+
+**Who delivers**: Bangkok Metropolitan Administration
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Reported delivered
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Common Shade's reading Interpretation
 
 **What has changed**: Bangkok has its own heat plan for 2026, costed to set up and to run, and opened 304 cooling centres for the hot season.
@@ -1118,6 +1448,28 @@ Not known yet
 What would change this recordA target or a reporting route for the theme, with heat named in it.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 12 November 2026. Next review due 27 November 2026. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Global (UN climate process)
+
+**Type of protection**: Healthcare and maternal services
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: COP31 presidency
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Announced (proposed)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 
@@ -1185,6 +1537,28 @@ What would change this recordThe pilots' results published, and what Cambodia's 
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 12 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Barbados, Senegal and Cambodia
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: World Meteorological Organization and partners
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: Announced
+
+**Implementation stage**: Reported delivered
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
 Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 
 CommitmentLatest development 2026
@@ -1230,6 +1604,28 @@ Not known yet
 What would change this recordThe centre's first published guidance or training, and its move into the State Institute of Disaster Management.
 
 ReviewRecord last reviewed 18 November 2026. Sources last checked 19 November 2026. Next review due 18 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Maharashtra, India
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Government of Maharashtra (Relief and Rehabilitation Department; Maharashtra State Disaster Management Authority)
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 
@@ -1288,6 +1684,28 @@ Not known yet
 What would change this recordPublished heat maps or plans the centre supported, and its status after September 2026.
 
 ReviewRecord last reviewed 18 November 2026. Sources last checked 19 November 2026. Next review due 18 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Tamil Nadu, India
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Government of Tamil Nadu (Tamil Nadu Green Climate Company), with the UK Government
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Announced (proposed)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 
@@ -1348,6 +1766,28 @@ Not known yet
 What would change this recordA cooling centre named in the plan opening, with where and when.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 9 November 2026. Next review due 16 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Narayanganj, Bangladesh
+
+**Type of protection**: Warning and response systems; Public cooling and accessible infrastructure
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Narayanganj City Corporation
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: No funding milestone recorded: a policy step is not funded action
+
+**Implementation stage**: Approved or adopted
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
 
 Explore on Common Shade[Bangladesh](https://beattheheat.asia/countries/bangladesh/)[Heat action plans](https://beattheheat.asia/actions/#hap)[Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 

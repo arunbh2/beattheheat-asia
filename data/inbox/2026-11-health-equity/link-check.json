@@ -1,0 +1,23 @@
+{
+ "_terms": {
+  "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health": {
+   "Gender can play an important role in determining heat exposure": true,
+   "women are primarily responsible for cooking indoors during hot weather": true,
+   "low quality housing and lack of access to cooling": true,
+   "loss of health service delivery capacity": true
+  },
+  "https://www.who.int/news-room/questions-and-answers/item/workplace-heat-stress": {
+   "Occupational Heat Action Programmes": true,
+   "pregnant women": true,
+   "older workers": true
+  },
+  "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html": {
+   "Establishing a buddy system": true,
+   "less likely to notice their own symptoms of heat stress": true,
+   "emergency response plan": true
+  }
+ },
+ "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health": "OK",
+ "https://www.who.int/news-room/questions-and-answers/item/workplace-heat-stress": "OK",
+ "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html": "OK"
+}

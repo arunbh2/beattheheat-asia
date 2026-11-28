@@ -1,7 +1,7 @@
 ---
 title: "Heat inside factories"
 url: https://beattheheat.asia/factory-heat/
-updated: 2026-11-20
+updated: 2026-11-27
 licence: CC BY 4.0
 ---
 
@@ -518,6 +518,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Humidity and globe temperature at pressing tables before and after; count of open leak reports and days to fix.
 
 **Pairs with**: [Insulate hot pipes, boilers and vessels](#rec-insulate-hot) · [Local extraction of heat and moisture at the source](#rec-local-exhaust)
@@ -552,6 +554,8 @@ How it works, when it fits, and its evidence
 - **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Surface temperatures of pipes; globe and air temperature at nearby workstations; fuel use.
 
 **Pairs with**: [Repair steam leaks and maintain the steam system](#rec-steam-repair) · [Recover or safely remove waste heat](#rec-waste-heat)
@@ -584,6 +588,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** [Adhvaryu, Kala and Nyshadham, MIT CEEPR working paper, 2017](https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf); [Cornell Global Labor Institute, 2025](https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Light levels at work surfaces; air and globe temperature at head height; electricity use.
 
@@ -618,6 +624,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Temperatures at neighbouring lines and inside the separated area, before and after.
 
 **Pairs with**: [Local extraction of heat and moisture at the source](#rec-local-exhaust) · [Remote operation and cooled control booths](#rec-enclose-hot)
@@ -651,6 +659,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Booth temperature and how long operators spend outside it.
 
 **Pairs with**: [Reflective shields and screens](#rec-radiant-shield) · [Optimise necessary protective equipment and its fit](#rec-ppe-optimise)
@@ -683,6 +693,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Temperatures near plant rooms and exhaust points; energy use.
 
@@ -723,6 +735,8 @@ How it works, when it fits, and its evidence
 - **Field report from operating factories.** A roof heat shield was one of several measures; its separate effect was not reported. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 - **Modelling or engineering analysis.** A simulation of one Dhaka garment factory; a white cool roof was one of four retrofits tested. [Bach et al., Energy and Buildings, 2023](https://pubmed.ncbi.nlm.nih.gov/37601430/)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Globe temperature below the roof and at work height on comparable sunny afternoons, before and after.
 
 **Pairs with**: [Roof and wall insulation](#rec-roof-insul) · [Ceiling and large-diameter fans](#rec-ceiling-fans)
@@ -756,6 +770,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
 - **Modelling or engineering analysis.** An insulated white cool roof was one of four retrofits simulated for a Dhaka garment factory. [Bach et al., Energy and Buildings, 2023](https://pubmed.ncbi.nlm.nih.gov/37601430/)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Ceiling surface and globe temperature at work height, afternoons before and after.
 
@@ -791,6 +807,8 @@ How it works, when it fits, and its evidence
 - **Field report from operating factories.** Rooftop solar panels with new insulation; management-reported, combined effect. [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
 - **Modelling or engineering analysis.** Rooftop shading was one of four retrofits simulated for a Dhaka garment factory. [Bach et al., Energy and Buildings, 2023](https://pubmed.ncbi.nlm.nih.gov/37601430/)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: As for cool roofs.
 
 **Pairs with**: [Roof and wall insulation](#rec-roof-insul)
@@ -823,6 +841,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Globe temperature at sunlit workstations at the time the sun falls on them.
 
@@ -857,6 +877,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Globe temperature at the dock in sun and in the new shade.
 
 **Pairs with**: [Mechanical handling aids: trolleys, conveyors, lifts](#rec-handling-aids) · [Reschedule hot processes and heavy tasks](#rec-reschedule)
@@ -890,6 +912,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page measures trees around factories. Common Shade's city pages cover urban greening evidence.
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Shade at walls and paths; wall surface temperatures.
 
 **Pairs with**: [Shaded loading bays and waiting areas](#rec-shade-dock)
@@ -912,7 +936,7 @@ How it works, when it fits, and its evidence
 
 **Upfront**: Low if planned from the start; high as a retrofit.
 
-**Running**: None.
+**Running**: Not assessed: local costing needed.
 
 **Who installs, runs and maintains it**: Owner, architect and engineers.
 
@@ -922,6 +946,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** High ceilings were one of several measures; their separate effect was not reported. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Compare the new building with the old one at the same time of year.
 
@@ -955,6 +981,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page tests night ventilation in factories.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Morning indoor temperatures with and without night flushing.
 
@@ -993,6 +1021,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Globe temperature at the worker's position before and after.
 
 **Pairs with**: [Insulate hot pipes, boilers and vessels](#rec-insulate-hot) · [Distance and repositioning workstations](#rec-reposition)
@@ -1015,7 +1045,7 @@ How it works, when it fits, and its evidence
 
 **Upfront**: Low.
 
-**Running**: None.
+**Running**: Not assessed: local costing needed.
 
 **Who installs, runs and maintains it**: Production manager.
 
@@ -1025,6 +1055,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Globe temperature at old and new positions.
 
@@ -1058,6 +1090,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page appraises reflective protective clothing; follow the safety rules that apply to the process.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Duration of use; wearers' heat symptoms.
 
@@ -1096,6 +1130,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Air speed and temperature at lines near and far from openings.
 
 **Pairs with**: [Remove obstructions to airflow](#rec-remove-obstruction) · [Ceiling and large-diameter fans](#rec-ceiling-fans)
@@ -1128,6 +1164,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page measures stack ventilation in factories.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Temperature just under the roof and at work height.
 
@@ -1162,6 +1200,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Air speed and temperature across the floor; airflow through exhaust fans.
 
 **Pairs with**: [Local extraction of heat and moisture at the source](#rec-local-exhaust) · [Maintenance, balancing and commissioning of ventilation](#rec-commissioning)
@@ -1194,6 +1234,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Humidity and temperature at the pressing position before and after; capture visible in steam plumes.
 
@@ -1231,6 +1273,8 @@ How it works, when it fits, and its evidence
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf); [Cornell Global Labor Institute, 2025](https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Air speed and temperature at head height; workers' reports; check fans run during power cuts.
 
 **Pairs with**: [Cool, safe drinking water close to every line](#rec-water-access) · [Ceiling and large-diameter fans](#rec-ceiling-fans)
@@ -1263,6 +1307,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Air speed across the floor.
 
@@ -1297,6 +1343,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Air speed before and after at the affected positions.
 
 **Pairs with**: [Natural cross-ventilation](#rec-cross-vent)
@@ -1329,6 +1377,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** Occupational guidance describes this measure, but its source has not yet passed Common Shade's automated check, so this page does not cite it.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Measured airflow against design; maintenance log.
 
@@ -1367,6 +1417,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf); [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Air temperature and humidity near and far from the pads, across seasons; a heat stress index, not air temperature alone.
 
 **Pairs with**: [Mechanical supply and exhaust ventilation](#rec-exhaust-supply) · [Maintenance, balancing and commissioning of ventilation](#rec-commissioning)
@@ -1399,6 +1451,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page tests indirect evaporative cooling in factories.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Supply air temperature and humidity; heat stress index at work positions.
 
@@ -1434,6 +1488,8 @@ How it works, when it fits, and its evidence
 - **Controlled experimental study.** [Smallcombe et al., The Lancet Planetary Health, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/)
 - **Field report from operating factories.** Refrigerant air-cooling combined with evaporative units and exhaust fans. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Temperature and humidity across the floor; energy use; what happens in a power cut.
 
 **Pairs with**: [Roof and wall insulation](#rec-roof-insul) · [Continuity plans for power or water failure](#rec-continuity)
@@ -1466,6 +1522,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Temperature at the cooled position and around it.
 
@@ -1500,6 +1558,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** Guidance lists dehumidification among ways to reduce humidity. The warning about standalone units follows from where their heat goes, not from a measured study. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Humidity and air temperature together; a heat stress index.
 
 **Pairs with**: [Whole-space air conditioning](#rec-air-con) · [Local extraction of heat and moisture at the source](#rec-local-exhaust)
@@ -1533,6 +1593,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Field report from operating factories.** A cooling station beside the work lowered heat strain in a pilot field trial, but workers found it interrupted work: placement and break time matter. [Journal of Agromedicine, 2026](https://pubmed.ncbi.nlm.nih.gov/42897938/)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Rest-room temperature; walking time from lines; how many people use it.
 
@@ -1571,6 +1633,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2024](https://www.osha.gov/heat-exposure/controls); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Weights and distances carried; workers' exertion reports.
 
 **Pairs with**: [Deliver materials to the point of use](#rec-point-of-use) · [Relief operators and extra staffing in hot periods](#rec-relief)
@@ -1593,7 +1657,7 @@ How it works, when it fits, and its evidence
 
 **Upfront**: Low.
 
-**Running**: None.
+**Running**: Not assessed: local costing needed.
 
 **Who installs, runs and maintains it**: Industrial engineering.
 
@@ -1603,6 +1667,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page measures this for heat; it rests on the principle that less effort makes less body heat.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Steps and carries per hour.
 
@@ -1624,7 +1690,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Costs money; needs budget in the order price
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Wages.
 
@@ -1636,6 +1702,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page evaluates relief staffing for heat.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Breaks actually taken per person, per shift.
 
@@ -1657,7 +1725,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Without pay protection, workers lose money and may refuse it
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Lower output in hot periods.
 
@@ -1669,6 +1737,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** Adjusted breaks are listed among measures that can be put in place quickly. [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Targets in hot versus cool periods; pay; breaks taken.
 
@@ -1694,7 +1764,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Breaks in a hot corridor do little
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Paid time.
 
@@ -1706,6 +1776,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf); [Yeasmin et al., Environmental and Occupational Health Practice, 2025](https://pubmed.ncbi.nlm.nih.gov/40568029/)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Breaks taken; where they are taken; pay records.
 
@@ -1740,6 +1812,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [US National Institute for Occupational Safety and Health (NIOSH), 2016](https://stacks.cdc.gov/view/cdc/37911); [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Index readings and rest taken.
 
 **Pairs with**: [Paid recovery breaks](#rec-paid-breaks) · [Measure heat where people work, and log it](#rec-measure-wbgt)
@@ -1760,7 +1834,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Informal pressure from supervisors can undo a written rule
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Cost of guaranteed pay.
 
@@ -1773,6 +1847,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** Proposed by the research note; not evaluated. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 - **Field report from operating factories.** Quota pressure restricted drinking water in two Dhaka garment factories. [Yeasmin et al., Environmental and Occupational Health Practice, 2025](https://pubmed.ncbi.nlm.nih.gov/40568029/)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Pay in hot versus cool months; attendance bonus losses; symptom reports.
 
@@ -1794,7 +1870,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Lost overtime pay matters to workers
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Lost output or extra staff.
 
@@ -1806,6 +1882,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page evaluates overtime limits for heat.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Hours worked; symptoms; sleep reports.
 
@@ -1827,7 +1905,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Earlier or later hours affect transport, care and sleep
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Coordination.
 
@@ -1840,6 +1918,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Authoritative occupational guidance.** Guidance on pregnant workers suggests completing tasks earlier in the day. [Canadian Centre for Occupational Health and Safety (CCOHS), 2024](https://ccohs.gc.ca/oshanswers/psychosocial/wh/reproductive-health-pregnancy-in-the-workplace.html)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Heat at the time tasks are done; workers' feedback.
 
@@ -1874,6 +1954,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page evaluates shift changes for factory heat.
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Exposure by shift; who works which shift; transport and care effects.
 
 **Pairs with**: [Reschedule hot processes and heavy tasks](#rec-reschedule)
@@ -1894,7 +1976,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Production pressure on new hires
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Lower output from new staff for the first days.
 
@@ -1906,6 +1988,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** [US National Institute for Occupational Safety and Health (NIOSH), 2024](https://www.cdc.gov/niosh/heat-stress/recommendations/index.html)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Symptom reports among new workers.
 
@@ -1940,6 +2024,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** A right to stop work without penalty or loss of income is proposed, not evaluated. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Trigger readings; actions taken; time to act.
 
 **Pairs with**: [Protection from piece-rate and attendance penalties](#rec-no-penalty) · [Measure heat where people work, and log it](#rec-measure-wbgt)
@@ -1972,6 +2058,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** Guidance lists job rotation; it spreads exposure rather than reducing the total, and no checked study here evaluates it in factories. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Time each person spends in hot tasks.
 
@@ -2012,6 +2100,8 @@ How it works, when it fits, and its evidence
 - **Controlled experimental study.** In the simulation, a fan with drinking water reduced sweat-loss fluid deficit for both men and women. [Smallcombe et al., The Lancet Planetary Health, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC7618560/)
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf); [Yeasmin et al., Environmental and Occupational Health Practice, 2025](https://pubmed.ncbi.nlm.nih.gov/40568029/)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Walking time to water; water points running dry; workers' reports.
 
 **Pairs with**: [Unrestricted, clean, safe toilets](#rec-toilet-access) · [Paid recovery breaks](#rec-paid-breaks)
@@ -2045,6 +2135,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Proposal requiring validation.** No checked study on this page links toilet access to drinking in factories; the site's actions page carries one funder-commissioned summary.
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Walking time; cleaning; whether permission is needed.
 
 **Pairs with**: [Cool, safe drinking water close to every line](#rec-water-access) · [Accessible menstrual hygiene facilities](#rec-menstrual)
@@ -2063,7 +2155,7 @@ How it works, when it fits, and its evidence
 
 **Works if**: Enough seats for everyone on break
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
 **Upfront**: Low.
 
@@ -2077,6 +2169,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Seats per worker on break; rest-space temperature.
 
@@ -2115,6 +2209,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** Clothing is one part of the heat load. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Wearers' reports.
 
 **Pairs with**: [Optimise necessary protective equipment and its fit](#rec-ppe-optimise)
@@ -2147,6 +2243,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** Guidance on how protective clothing holds heat; no checked study here measures fit for women in factory heat. [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Time in protection; wearers' symptoms.
 
@@ -2182,6 +2280,8 @@ How it works, when it fits, and its evidence
 - **Controlled experimental study.** A meta-analysis of trials among workers or acclimatised adults; certainty low to very low. [Sheth et al., Scandinavian Journal of Work, Environment and Health, 2026](https://pubmed.ncbi.nlm.nih.gov/42055079/)
 - **Field report from operating factories.** A pilot field trial with 12 workers in an indoor sawmill, not a garment factory. [Journal of Agromedicine, 2026](https://pubmed.ncbi.nlm.nih.gov/42897938/)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Duration of benefit; wearers' heat symptoms; whether people keep using it.
 
 **Pairs with**: [Optimise necessary protective equipment and its fit](#rec-ppe-optimise)
@@ -2214,6 +2314,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked study on this page tests misting in factories; review literature supports skin wetting in some settings.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Humidity effects; product quality.
 
@@ -2252,6 +2354,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf); [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Issues raised and fixed; workers' trust in the process.
 
 **Pairs with**: [Non-punitive, confidential symptom reporting](#rec-no-retaliation) · [Joint worker-management oversight](#rec-committee)
@@ -2285,6 +2389,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2024](https://ccohs.gc.ca/oshanswers/psychosocial/wh/reproductive-health-pregnancy-in-the-workplace.html); [Ministry of Health and Family Welfare and UNFPA India, 2026](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers); [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Accommodations requested and given; pay kept.
 
 **Pairs with**: [Lactation breaks and facilities](#rec-lactation) · [Confidential occupational health support](#rec-confidential-health)
@@ -2303,7 +2409,7 @@ How it works, when it fits, and its evidence
 
 **Works if**: Close to work; usable in break time
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
 **Upfront**: Low to moderate.
 
@@ -2317,6 +2423,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** [International Labour Organization (NORMLEX), 2000](https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C183)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Use of the facility; breaks taken.
 
@@ -2336,7 +2444,7 @@ How it works, when it fits, and its evidence
 
 **Works if**: Cleaned through the day
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
 **Upfront**: Low.
 
@@ -2350,6 +2458,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked study on this page links menstrual facilities to heat outcomes; it is presented as access and dignity.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Facilities available and used.
 
@@ -2369,9 +2479,9 @@ How it works, when it fits, and its evidence
 
 **Works if**: Seats for each category; meetings in paid time
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Paid time.
 
@@ -2383,6 +2493,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Who sits on the committee.
 
@@ -2422,6 +2534,8 @@ How it works, when it fits, and its evidence
 - **Authoritative occupational guidance.** [Canadian Centre for Occupational Health and Safety (CCOHS), 2026](https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_control.html)
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2025](https://archive.ilr.cornell.edu/sites/default/files-d8/2025-11/gli-brief-warming-to-the-idea-nov-2025.pdf); [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Plan reviewed; budget spent; actions done.
 
 **Pairs with**: [Joint worker-management oversight](#rec-committee) · [Continuity plans for power or water failure](#rec-continuity)
@@ -2440,9 +2554,9 @@ How it works, when it fits, and its evidence
 
 **Works if**: Meets regularly, including before the hot season
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Paid time.
 
@@ -2454,6 +2568,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Meetings held; issues closed.
 
@@ -2473,7 +2589,7 @@ How it works, when it fits, and its evidence
 
 **Works if**: Supervisors are judged on safety as well as output
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
 **Upfront**: Low.
 
@@ -2487,6 +2603,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** Training for workers, not supervisors; it measured knowledge and practice scores, not exposure or illness. [BMC Public Health, 2025](https://pubmed.ncbi.nlm.nih.gov/40751142/)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Symptom reports handled; worker feedback.
 
@@ -2506,9 +2624,9 @@ How it works, when it fits, and its evidence
 
 **Works if**: Reports are answered and visible changes follow
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Handling time.
 
@@ -2521,6 +2639,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Reports received and answered.
 
 **Pairs with**: [Confidential occupational health support](#rec-confidential-health)
@@ -2529,32 +2649,54 @@ How it works, when it fits, and its evidence
 
 Proposal requiring validation
 
-**Addresses:** People working alone in heat.
+**Addresses:** People working alone in heat, and symptoms people miss in themselves.
 
 How it works, when it fits, and its evidence
 
-**How it works**: Pairs check on each other for signs of heat illness.
+**How it works**: Two people agree to check on each other for signs of heat illness during hot shifts, and know what to do and whom to call when one of them shows symptoms. It adds to, and never replaces, heat controls, rest arrangements and a tested emergency procedure.
 
-**Factory types and tasks**: Utility rooms, maintenance, new workers.
+**Factory types and tasks**: Utility rooms, maintenance, night shifts, new and returning workers.
 
-**Works if**: Both know the signs and the response
+**Works if**: Paid time for both people to learn the signs, the response and the escalation route, and for the checks themselves; Pairs that both people accept, in a language both understand, with arrangements for workers with hearing, speech or literacy needs; A named supervisor or responder who answers every call, and a rule that raising the alarm never costs pay or work; Privacy: a buddy notices symptoms, not medical details, and nothing is recorded about a person's health without consent
 
-**Take care**: None noted.
+**Take care**: Checking on others is work: if it falls repeatedly on the same people, often women, without time or pay, it becomes unpaid caring work; A buddy cannot cool a workplace or stop production; responsibility stays with supervisors and the employer; Pairs break down when shifts, overtime or staffing change; review them each hot season; Not a substitute for trained first responders or medical care
 
-**Upfront**: None.
+**Upfront**: Training time for both people and their supervisor, during paid hours; local costing needed.
 
-**Running**: None.
+**Running**: Paid time for checks and refresher training before each hot season; supervision of the arrangement.
 
-**Who installs, runs and maintains it**: Supervisors.
+**Who installs, runs and maintains it**: The employer, through supervisors, with the safety committee or worker representatives agreeing how pairs are formed.
 
-**Equity and access**: Protects lone and new workers.
+**Workers' part**: Workers choose or agree their pairing and can change it; they help set the escalation route.
+
+**Equity and access**: Protects lone, new, migrant and night-shift workers when pairs are fair, paid and in a language both understand; can add an unpaid load if the same people always do the checking.
 
 **Evidence**:
-- **Proposal requiring validation.** No checked source on this page evaluates buddy systems for factory heat.
+- **Guidance.** Canadian Centre for Occupational Health and Safety: [Hot environments: control measures](https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html)
+- **Proposal requiring validation.** Recommended practice in national occupational guidance; no evaluation of buddy systems in factories was found in the sources checked for this page.
 
-**Measure before and after**: Lone working in heat.
+**Can people actually use this?**:
+**Who controls access**: Every worker on a hot shift, including contract, temporary and migrant workers.
 
-**Pairs with**: [Trained first responders and a tested emergency procedure](#rec-first-response)
+**What using it costs in money, time or earnings**: Paid time for training and checks; no equipment.
+
+**Who does the additional work**: The checks themselves, done by co-workers; supervisors respond.
+
+**Is that work paid and supported**: Paid when done in working hours and counted in workload; unpaid if added on top.
+
+**Who might be left out**: Workers without a shared language, workers with hearing or speech impairments if no adapted method exists, and people working alone with no one assigned.
+
+**What personal information it needs**: None about health: a buddy reports symptoms seen, not medical history.
+
+**Can the people it serves shape it**: Through the safety committee or worker representatives.
+
+**Who is accountable if it fails**: The employer and the named responder on each shift.
+
+**What to check locally**: Who is paired, whether every call was answered, and whether the same people always carry the load.
+
+**Measure before and after**: Lone working in heat; calls raised and how fast someone responded; whether checking time is paid.
+
+**Pairs with**: [Trained first responders and a tested emergency procedure](#rec-first-response) · [Non-punitive, confidential symptom reporting](#rec-no-retaliation) · [Work-rest arrangements based on assessment](#rec-work-rest)
 
 #### Trained first responders and a tested emergency procedure
 
@@ -2570,7 +2712,7 @@ How it works, when it fits, and its evidence
 
 **Works if**: Drilled before the hot season; Transport to care arranged
 
-**Take care**: None noted.
+**Take care**: A first-aid procedure follows local medical guidance and the occupational rules that apply where you work; this page does not set one
 
 **Upfront**: Low.
 
@@ -2583,7 +2725,10 @@ How it works, when it fits, and its evidence
 **Equity and access**: Communication accessible to all, including workers with hearing or literacy needs.
 
 **Evidence**:
+- **Guidance.** Canadian Centre for Occupational Health and Safety: [Hot environments: control measures](https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html)
 - **Proposal requiring validation.** This page has not checked a first-aid protocol; follow local medical guidance and the occupational guidance that applies where you work.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Drill time to cooling and transfer.
 
@@ -2603,9 +2748,9 @@ How it works, when it fits, and its evidence
 
 **Works if**: No blame for reporting
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Review time.
 
@@ -2615,6 +2760,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked study on this page evaluates incident review for factory heat.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Incidents recorded and reviewed.
 
@@ -2634,7 +2781,7 @@ How it works, when it fits, and its evidence
 
 **Works if**: Access to a health provider
 
-**Take care**: None noted.
+**Take care**: Not assessed yet.
 
 **Upfront**: Low.
 
@@ -2646,6 +2793,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Authoritative occupational guidance.** Health guidance in India includes a heat-risk checklist for pregnancy. [Ministry of Health and Family Welfare and UNFPA India, 2026](https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Consultations; accommodations.
 
@@ -2675,6 +2824,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Proposal requiring validation.** No checked source on this page evaluates continuity plans for factory heat.
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: What runs during an outage.
 
@@ -2710,6 +2861,8 @@ How it works, when it fits, and its evidence
 - **Field report from operating factories.** [Cornell Global Labor Institute, 2026](https://archive.ilr.cornell.edu/sites/default/files-d8/2026-01/gli-cooling-before-it-got-cool-jan-2026.pdf)
 - **Authoritative occupational guidance.** [US Occupational Safety and Health Administration (OSHA), 2017](https://www.osha.gov/otm/section-3-health-hazards/chapter-4)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: This is the measure.
 
 **Pairs with**: [Work-rest arrangements based on assessment](#rec-work-rest) · [Joint worker-management oversight](#rec-committee)
@@ -2734,7 +2887,7 @@ How it works, when it fits, and its evidence
 
 **Take care**: Institutional: effects are rarely evaluated
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
 **Running**: Cost borne in pricing.
 
@@ -2746,6 +2899,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** Proposed; not evaluated. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Lead times; overtime in hot months.
 
@@ -2767,14 +2922,16 @@ How it works, when it fits, and its evidence
 
 **Take care**: Proposal; no evaluation found
 
-**Upfront**: None.
+**Upfront**: No equipment to buy. Time, pay and management costs: local costing needed.
 
-**Running**: None.
+**Running**: Not assessed: local costing needed.
 
 **Who installs, runs and maintains it**: Buyers, suppliers, unions.
 
 **Evidence**:
 - **Field report from operating factories.** A recommendation in the research note. [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Contracts with the clause; penalties waived.
 
@@ -2809,6 +2966,8 @@ How it works, when it fits, and its evidence
 **Evidence**:
 - **Field report from operating factories.** [GIZ FABRIC Cambodia, with Cornell Global Labor Institute, 2026](https://www.giz.de/sites/default/files/media/els-document/2026-06/5-heat-stress-srp-final_2.pdf)
 
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
+
 **Measure before and after**: Funds committed and spent; systems still running a year later.
 
 **Pairs with**: [A written heat programme with accountable owners](#rec-heat-programme)
@@ -2839,6 +2998,8 @@ How it works, when it fits, and its evidence
 
 **Evidence**:
 - **Field report from operating factories.** [Cornell Global Labor Institute and IFC, with ILO Better Work, 2025](https://betterwork.org/wp-content/uploads/Heat_Stress-Report_Oct-31_2025.pdf)
+
+**Can people actually use this?**: Not assessed yet for this measure. The questions are on [Heat, health and the ability to act](https://beattheheat.asia/heat-health-and-equity/#taxonomy).
 
 **Measure before and after**: Heat included in audits; findings fixed.
 

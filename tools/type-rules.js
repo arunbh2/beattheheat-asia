@@ -23,7 +23,7 @@ function step(px, isLabel) {
 }
 // line-height (unitless) -> three values; below 1 is display type and stays
 function leading(v) { if (v < 1) return null; if (v < 1.3) return "1.15"; if (v < 1.45) return "1.4"; return "1.55"; }
-const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "el-nino-and-cities/el-nino.css", "el-nino/el-nino.css", "brand/brand.css", "wet-bulb-wall/wbw.css", "heat-futures/hf.css", "el-nino/watch.css", "shared-heat/shared.css", "factory-heat/factory.css", "cotton-and-heat/cotton.css", "heat-network/network.css", "how-heat-is-reported/media.css", "heat-assembly/game.css"];
+const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "el-nino-and-cities/el-nino.css", "el-nino/el-nino.css", "brand/brand.css", "wet-bulb-wall/wbw.css", "heat-futures/hf.css", "health-equity/he.css", "el-nino/watch.css", "shared-heat/shared.css", "factory-heat/factory.css", "cotton-and-heat/cotton.css", "heat-network/network.css", "how-heat-is-reported/media.css", "heat-assembly/game.css"];
 // never touched: the map and its drawn labels, the site menu, the pop-ups, print and films
 const SKIP = /(^|[\s,.#>-])(svg|text|tspan|node|edge|map|zoom|key__|legend|tick|axis|chart|csn|csx|csp|invite|cs-tip|site-menu|visually-hidden|sr-only|ticker|brand|wordmark)\b|@font-face|^:root|^@/i;
 const skip = sel => SKIP.test(sel) || sel.includes(":root");

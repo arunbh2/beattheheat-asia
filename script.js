@@ -1457,9 +1457,11 @@
   // an action no longer in the data is set aside (its notes stay in storage, under plan.retired) rather than breaking the plan
   function retireUnknown() { const gone = plan.levers.filter(id => !leverById[id]); if (!gone.length) return;
     plan.retired = [...new Set([...(Array.isArray(plan.retired) ? plan.retired : []), ...gone])]; plan.levers = plan.levers.filter(id => leverById[id]); }
-  const emptyPlan = () => ({ place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} });
+  const emptyPlan = () => ({ place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {}, equity: {} });
   // the same clean-up for a plan read from this browser or from a saved file
-  function normalisePlan(saved) { let plan = emptyPlan(); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; if (!plan.origins || typeof plan.origins !== "object" || Array.isArray(plan.origins)) plan.origins = {}; return plan; }
+  function normalisePlan(saved) { let plan = emptyPlan(); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; if (!plan.origins || typeof plan.origins !== "object" || Array.isArray(plan.origins)) plan.origins = {}; plan.equity = cleanEquity(plan.equity); return plan; }
+  // the equity check: only the four known questions, known answers and short text survive a load
+  function cleanEquity(e) { const out = {}, ok = ["yes", "part", "no", "na", "nap"]; if (!e || typeof e !== "object" || Array.isArray(e)) return out; ["income", "access", "coverage", "reporting"].forEach(id => { const a = e[id]; if (!a || typeof a !== "object") return; const r = {}; if (ok.indexOf(a.st) >= 0) r.st = a.st; ["reason", "support", "change", "who", "when", "res"].forEach(k => { if (typeof a[k] === "string" && a[k].trim()) r[k] = a[k].slice(0, 300); }); out[id] = r; }); return out; }
   let plan = emptyPlan();
   try { plan = normalisePlan(JSON.parse(localStorage.getItem(PLAN_KEY) || "null")); retireUnknown(); } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} if (!PLAN_PAGE) renderPlanLaunch(); };
@@ -1669,6 +1671,43 @@
       <p class="plan-checklist__src">Sources: ${WHO_ELEMENTS_SOURCES.map(x => extLink(x.url, x.label)).join(" · ")}</p>`;
   }
 
+  // ---- Equity and accommodation check: a Common Shade supplementary planning check (not WHO's), four questions that
+  // share ids with data/site/equity-taxonomy.json. Answers stay in this browser and in the saved plan; nothing about any
+  // person is asked or stored. No score, and an incomplete check never blocks saving or printing.
+  const EQC = [
+    { id: "income", tax: ["v-earnings", "v-maternal"], q: "Can people use the proposed protection without losing earnings, employment or access to work?", prompts: ["Could pregnancy-related or health-related adjustments lead to unpaid exclusion?", "Are breaks paid where relevant?", "Do output targets remain achievable?", "Are contract, informal and piece-rate workers covered?", "Is confidential accommodation possible without unnecessary disclosure?"] },
+    { id: "access", tax: ["v-access", "v-sanitation", "v-care"], q: "Can the intended users reach and use the cooling or support provided?", prompts: ["Suitable opening hours", "Physical accessibility", "Safe and accessible toilets", "Privacy", "Suitable transport", "Ability to attend with dependants", "Childcare or another workable care arrangement where needed", "Barriers faced by women and by transgender or gender-diverse residents", "Fees, identity documents or other entry requirements"], note: "Not every cooling space needs onsite childcare or night opening: ask what the intended users need, and whether another arrangement meets it." },
+    { id: "coverage", tax: ["v-workrest"], q: "Do the work-rest and protection arrangements cover everyone exposed in this setting?", prompts: ["Permanent workers", "Contract workers", "Piece-rate workers", "Informal workers", "Home-based workers", "New and migrant workers"], note: "Use “Not applicable” only where the setting genuinely does not involve this, and say why." },
+    { id: "reporting", tax: ["v-reporting", "v-participation"], q: "Can people report symptoms or barriers confidentially and without punishment, and will someone respond?", prompts: ["No retaliation", "No automatic loss of pay or work", "Languages and reporting channels people can use", "A named person or body responsible for responding", "Escalation arrangements", "Protection of sensitive information"] }
+  ];
+  const EQ_ST = { yes: "Yes", part: "Partly", no: "No", na: "Not assessed", nap: "Not applicable" };
+  const EQ_F = [["support", "What supports this answer?"], ["change", "What needs changing?"], ["who", "Who is responsible?"], ["when", "By when?"], ["res", "What resources are needed?"]];
+  const eqOf = id => { const e = plan.equity || (plan.equity = {}); return e[id] || (e[id] = {}); };
+  function eqOpen() {   // questions still to resolve: unanswered, No, Partly, Not assessed, or Not applicable without a reason
+    return EQC.map(c => { const a = (plan.equity || {})[c.id] || {}; const why = !a.st ? "Not answered" : a.st === "no" ? "No" : a.st === "part" ? "Partly" : a.st === "na" ? "Not assessed" : a.st === "nap" && !(a.reason || "").trim() ? "Not applicable, with no reason given" : ""; return why ? { c, a, why } : null; }).filter(Boolean);
+  }
+  function renderPlanEquity() {
+    const box = document.getElementById("plan-equity"); if (!box) return;
+    if (!box.dataset.wired) {
+      box.dataset.wired = "1";
+      box.innerHTML = EQC.map((c, i) => { const a = eqOf(c.id); return `<fieldset class="eq-q" data-eq="${c.id}"><legend><span class="eq-q__n">${i + 1}</span> ${esc(c.q)}</legend>
+        <details class="eq-q__more"><summary>What to consider</summary><ul>${c.prompts.map(p => `<li>${esc(p)}</li>`).join("")}</ul>${c.note ? `<p>${esc(c.note)}</p>` : ""}</details>
+        <div class="eq-q__st" role="radiogroup" aria-label="Answer">${Object.entries(EQ_ST).map(([k, v]) => `<label><input type="radio" name="eq-${c.id}" value="${k}"${a.st === k ? " checked" : ""}> ${v}</label>`).join("")}</div>
+        <label class="eq-q__reason"${a.st === "nap" ? "" : " hidden"}><span>Why it does not apply here</span><input type="text" data-f="reason" value="${esc(a.reason || "")}" maxlength="300"></label>
+        <details class="eq-q__notes"><summary>Planning notes (optional)</summary>${EQ_F.map(([k, l]) => `<label><span>${l}</span><input type="text" data-f="${k}" value="${esc(a[k] || "")}" maxlength="300"></label>`).join("")}</details>
+      </fieldset>`; }).join("") + `<div class="eq-sum" id="plan-equity-sum" aria-live="polite"></div>`;
+      box.addEventListener("change", e => { const fs = e.target.closest("[data-eq]"); if (!fs || e.target.type !== "radio") return; const a = eqOf(fs.dataset.eq); a.st = e.target.value; fs.querySelector(".eq-q__reason").hidden = a.st !== "nap"; savePlan(); eqSummary(); renderPlanSummary(); });
+      box.addEventListener("input", e => { const fs = e.target.closest("[data-eq]"), f = e.target.dataset.f; if (!fs || !f) return; eqOf(fs.dataset.eq)[f] = e.target.value.slice(0, 300); savePlan(); eqSummary(); });
+    }
+    eqSummary();
+  }
+  function eqSummary() {
+    const s = document.getElementById("plan-equity-sum"); if (!s) return; const open = eqOpen();
+    s.innerHTML = open.length ? `<p><strong>${open.length} of ${EQC.length} questions still open.</strong> They stay in your plan, the saved file and the printed brief, so you can come back to them.</p><ul>${open.map(o => `<li>${esc(o.c.q)} <em>${esc(o.why)}</em></li>`).join("")}</ul>` : `<p><strong>All four questions answered.</strong> This records your team’s own judgement; it is not a certification that the plan is safe or equitable.</p>`;
+  }
+  const eqText = () => ["", "EQUITY AND ACCOMMODATION CHECK (Common Shade supplementary check, not part of WHO's guidance; a planning aid, not legal or clinical certification)"].concat(EQC.map(c => { const a = (plan.equity || {})[c.id] || {}; return `[${a.st ? EQ_ST[a.st] : "Not answered"}] ${c.q}${a.reason ? " Reason: " + a.reason : ""}${EQ_F.filter(([k]) => a[k]).map(([k, l]) => ` ${l} ${a[k]}`).join("")}`; }));
+  const eqHtml = h => `<h2>Equity and accommodation check</h2><p class="note">A Common Shade supplementary planning check, not part of WHO’s guidance. A planning aid, not legal or clinical certification.</p><table><thead><tr><th>Question</th><th>Answer</th><th>Notes</th></tr></thead><tbody>${EQC.map(c => { const a = (plan.equity || {})[c.id] || {}; const open = eqOpen().some(o => o.c.id === c.id); return `<tr><td>${h(c.q)}</td><td${open ? ' class="gap"' : ""}>${h(a.st ? EQ_ST[a.st] : "Not answered")}${a.reason ? `<br><span class="note">${h(a.reason)}</span>` : ""}</td><td>${EQ_F.filter(([k]) => a[k]).map(([k, l]) => `<span class="note">${h(l)}</span> ${h(a[k])}`).join("<br>") || "<span class=\"note\">None written</span>"}</td></tr>`; }).join("")}</tbody></table>${eqOpen().length ? `<p class="gap">Still open: ${eqOpen().length} of ${EQC.length}.</p>` : ""}`;
+
   function renderPlanWorkshop() {
     const box = document.getElementById("plan-workshop-body"); if (!box || typeof PLAN_WORKSHOP === "undefined") return;
     box.innerHTML = `<p class="plan-workshop__invite"><b>Who to invite.</b> ${esc(PLAN_WORKSHOP.invite)}</p>
@@ -1836,7 +1875,7 @@
     place.value = plan.place;
     const rv = document.getElementById("plan-review"); if (rv) rv.value = plan.review || "";
     renderPlanMech(); renderPlanPoints(); renderPlanStanding(); renderPlanCapacity(); renderPlanCoupling(); renderPlanContinuity();
-    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanFin(); renderPlanReviewLog(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
+    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanFin(); renderPlanReviewLog(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanEquity(); renderPlanSummary();
   }
 
   // the practical guides for the chosen actions, each listed once, under the first action that needs it
@@ -1874,6 +1913,7 @@
       L.push(`Payout trigger: ${f.payout || "(none)"}`, `If it does not pay: ${f.nopay || "(not set)"}`, "Will it survive the next season?", ...FIN.survive.map(q => `   - ${q}`)); }
     if (expoOn().length) { L.push("", "EXPOSURE: TO DISCUSS (prompts, not a risk score)"); expoOn().forEach(x => L.push(`   - ${x.q} ${x.prompt}`)); }
     L.push("", "WHO CORE ELEMENTS CHECK"); whoCheck().forEach(({ e, st, note }) => L.push(`[${ST[st]}] ${e.name}: ${note}`));
+    eqText().forEach(x => L.push(x));
     if (typeof PLAN_REVIEW !== "undefined") { L.push("", `AFTER-SEASON REVIEW${plan.review ? ": " + plan.review : ""}`); PLAN_REVIEW.forEach(q => L.push(`   - ${q}`)); }
     if (RLOG.some(f => rlog()[f.id])) { L.push("", "WHAT CHANGED AFTER THE SEASON"); RLOG.forEach(f => L.push(`   ${f.name}: ${rlog()[f.id] || "(not set)"}`)); }
     L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`);
@@ -1926,6 +1966,7 @@
       ${expoOn().length ? `<h2>Exposure: to discuss</h2><p class="note">Prompts from the exposure questions, not a risk score.</p><ul>${expoOn().map(x => `<li><strong>${h(x.q)}</strong> ${h(x.prompt)}</li>`).join("")}</ul>` : ""}
       ${(() => { const c = whoCheck(); return c.length ? `<h2>Check against WHO’s eight core elements</h2><p class="note">${c.filter(x => x.st === "yes").length} of ${c.length} in place. From WHO/Europe, Heat–health action plans: guidance, second edition (2026).</p>
         <table><tbody>${c.map(({ e, st, note }) => `<tr><td><strong>${h(e.name)}</strong></td><td class="${st === "yes" ? "" : "gap"}">${h(ST[st])}</td><td>${h(note)}</td></tr>`).join("")}</tbody></table>` : ""; })()}
+      ${eqHtml(h)}
       ${typeof PLAN_REVIEW !== "undefined" ? `<h2>After the season: review${plan.review ? " · " + h(plan.review) : ""}</h2><ul>${PLAN_REVIEW.map(q => `<li>${h(q)}</li>`).join("")}</ul>` : ""}
       ${RLOG.some(f => rlog()[f.id]) ? `<h2>What changed after the season</h2><table><tbody>${RLOG.map(f => `<tr><td><strong>${h(f.name)}</strong></td><td>${h(rlog()[f.id] || "")}</td></tr>`).join("")}</tbody></table>` : ""}
       <h2>Cycles these actions could help interrupt</h2><p>${h(planLoops().map(l => l.name).join(", ") || "None yet")}</p>
@@ -2981,7 +3022,7 @@
   // so they add nothing to the first view of the homepage
   let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
   function loadProfiles() {
-    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=254").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=255").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
       .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
       .catch(e => { profilesPromise = null; throw e; });
     return profilesPromise;

@@ -11,7 +11,7 @@ const { chromium } = require("playwright");
 const a = process.argv.slice(2), BASE = a.includes("--base") ? a[a.indexOf("--base") + 1] : "http://localhost:8765";
 const KEY = "bth-plan-v1";
 const SEED = { place: "Check town", group: "", levers: ["heatrules"], rows: { heatrules: { lead: "Labour office", measure: "Rest breaks kept at the market" } },
-  example: null, stalls: [], triggers: {}, review: "2027-03-01", exposure: [], finance: { payout: "District maximum above 42 degrees", nopay: "The city's relief fund" }, reviewLog: {}, origins: {} };
+  example: null, stalls: [], triggers: {}, review: "2027-03-01", exposure: [], finance: { payout: "District maximum above 42 degrees", nopay: "The city's relief fund" }, reviewLog: {}, origins: {}, equity: { income: { st: "part", change: "Pay for rest breaks", who: "Labour office" }, coverage: { st: "nap", reason: "No home-based work in this market" } } };
 const fails = [], ok = (c, m) => { if (!c) fails.push(m); };
 // every value in the seed is still there (the page may add defaults of its own, such as a phase, which is not a loss)
 const has = (got, want) => want && typeof want === "object" ? !!got && typeof got === "object" && Object.keys(want).every(k => has(got[k], want[k])) : JSON.stringify(got) === JSON.stringify(want);
@@ -25,6 +25,9 @@ const has = (got, want) => want && typeof want === "object" ? !!got && typeof go
   catch (e) { console.log(`plan file check: could not open ${BASE}/plan/ (is the server running?)`); process.exit(1); }
   await p.evaluate(([k, v]) => localStorage.setItem(k, JSON.stringify(v)), [KEY, SEED]);
   await p.reload({ waitUntil: "load" });
+  // the equity check shows the seeded answers, lists what is still open, and never blocks saving
+  ok(await p.locator('input[name="eq-income"][value="part"]').isChecked(), "the equity check does not show a saved answer");
+  ok(/3 of 4 questions still open/.test(await p.locator("#plan-equity-sum").textContent()), "the equity check summary does not list the open questions");
   const save = p.locator('[data-pl-act="save"]').first(), open = p.locator('[data-pl-act="open"]').first();
   ok(await save.count() && await open.count(), "the plan page has no save or open button");
   if (!fails.length) {
@@ -34,7 +37,7 @@ const has = (got, want) => want && typeof want === "object" ? !!got && typeof go
     let d = null; try { d = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) {}
     ok(d && d.format === "common-shade-plan" && d.version === 1, "the saved file is not marked as a Common Shade plan");
     ok(/^heat-plan-check-town\.json$/.test(dl.suggestedFilename()), `the file is named ${dl.suggestedFilename()}, not after the place`);
-    for (const k of ["place", "levers", "rows", "review", "finance"]) ok(d && has(d.plan[k], SEED[k]), `the saved file loses the plan's ${k}`);
+    for (const k of ["place", "levers", "rows", "review", "finance", "equity"]) ok(d && has(d.plan[k], SEED[k]), `the saved file loses the plan's ${k}`);
     // start again, then open the file
     await p.locator('[data-pl-act="clear"]').first().click();
     const cleared = await p.evaluate(k => JSON.parse(localStorage.getItem(k) || "{}"), KEY);
@@ -42,7 +45,7 @@ const has = (got, want) => want && typeof want === "object" ? !!got && typeof go
     const [fc] = await Promise.all([p.waitForEvent("filechooser", { timeout: 10000 }), p.locator('[data-pl-act="open"]').first().click()]);
     await fc.setFiles(file); await p.waitForTimeout(500);
     const back = await p.evaluate(k => JSON.parse(localStorage.getItem(k) || "{}"), KEY);
-    for (const k of ["place", "levers", "rows", "review", "finance"]) ok(has(back[k], SEED[k]), `opening the file did not bring back the plan's ${k}`);
+    for (const k of ["place", "levers", "rows", "review", "finance", "equity"]) ok(has(back[k], SEED[k]), `opening the file did not bring back the plan's ${k}`);
     const st = await p.locator("[data-pl-status]").first().textContent();
     ok(/Plan opened for Check town: 1 action/.test(st || ""), `the status after opening reads "${st}"`);
     // a JSON file that is not a plan is refused, and the plan stays as it was
