@@ -1,0 +1,250 @@
+[
+ {
+  "id": "src-mh-venugopal",
+  "type": "source",
+  "keys": [
+   "venugopal"
+  ],
+  "title": "Heat stress and inadequate sanitary facilities at workplaces: an occupational health concern for women?",
+  "publisher": "Global Health Action",
+  "year": 2016,
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/",
+  "kind": "study",
+  "where": "India",
+  "expect": [
+   "sanitary facilities",
+   "87%",
+   "genitourinary",
+   "dehydration",
+   "toilet"
+  ],
+  "claims": [
+   "c-mh-toilets",
+   "c-mh-toilets-plain"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-gp-vendors",
+  "type": "source",
+  "keys": [
+   "gp-vendors"
+  ],
+  "title": "Report by Greenpeace India and National Hawkers Federation on the heatwave toll on street vendors",
+  "publisher": "Greenpeace India and National Hawkers Federation",
+  "year": 2024,
+  "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+  "kind": "survey report",
+  "where": "India",
+  "expect": [
+   "street vendors",
+   "721",
+   "49%",
+   "80%"
+  ],
+  "claims": [
+   "c-mh-delhi-vendors"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-wiego-bkk",
+  "type": "source",
+  "keys": [
+   "wiego-bkk"
+  ],
+  "title": "Climate change and heat stress: impacts on informal workers in Bangkok, Thailand (Policy Brief 33)",
+  "publisher": "WIEGO and HomeNet Thailand",
+  "year": 2025,
+  "url": "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf",
+  "kind": "survey report",
+  "where": "Thailand",
+  "expect": [
+   "Bangkok",
+   "80%",
+   "reduced their hours"
+  ],
+  "claims": [
+   "c-mh-bkk-hours"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-jareemit",
+  "type": "source",
+  "keys": [
+   "jareemit"
+  ],
+  "title": "A comparative study of cooling performance and thermal comfort under street market shades and tree canopies in tropical savanna climate",
+  "publisher": "Sustainability (MDPI)",
+  "year": 2022,
+  "url": "https://www.mdpi.com/2071-1050/14/8/4653",
+  "kind": "field trial",
+  "where": "Thailand",
+  "expect": [
+   "canopy",
+   "Pathum Thani",
+   "street market",
+   "tree canopies"
+  ],
+  "claims": [
+   "c-mh-canopy"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-xu-shade",
+  "type": "source",
+  "keys": [
+   "xu-shade"
+  ],
+  "title": "Harnessing street shade to mitigate heat stress: an in-situ parallel measurement",
+  "publisher": "City University of Hong Kong (research output)",
+  "year": 2025,
+  "url": "https://scholars.cityu.edu.hk/en/publications/harnessing-street-shade-to-mitigate-heat-stress-an-in-situ-parall/",
+  "kind": "field measurement",
+  "where": "Singapore",
+  "expect": [
+   "shade",
+   "mean radiant temperature",
+   "Singapore"
+  ],
+  "claims": [
+   "c-mh-sg-shade"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-asu-pavement",
+  "type": "source",
+  "keys": [
+   "asu-pavement"
+  ],
+  "title": "Street smarts required in heat mitigation",
+  "publisher": "Arizona State University",
+  "year": 2020,
+  "url": "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation",
+  "kind": "news release on a field study",
+  "where": "United States",
+  "expect": [
+   "heat",
+   "reflective",
+   "pedestrian",
+   "Los Angeles"
+  ],
+  "claims": [
+   "c-mh-la-pavement"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-unicef",
+  "type": "source",
+  "keys": [
+   "unicef"
+  ],
+  "title": "Learning interrupted: global snapshot of climate-related school disruptions in 2024",
+  "publisher": "UNICEF",
+  "year": 2025,
+  "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
+  "kind": "report",
+  "where": "Global",
+  "expect": [
+   "school",
+   "171 million",
+   "South Asia"
+  ],
+  "claims": [
+   "c-mh-schools"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-aidmi",
+  "type": "source",
+  "keys": [
+   "aidmi"
+  ],
+  "title": "Small heat resilience measures, big impact in small towns and on small businesses in India (southasiadisasters.net Issue 228)",
+  "publisher": "All India Disaster Mitigation Institute",
+  "year": 2026,
+  "url": "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and",
+  "kind": "practice report",
+  "where": "India",
+  "expect": [
+   "heat",
+   "Rewa",
+   "umbrella"
+  ],
+  "claims": [
+   "c-mh-rewa"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-gp-boards",
+  "type": "source",
+  "keys": [
+   "gp-boards"
+  ],
+  "title": "Beyond the forecast: inside India's first community-led early warning system for extreme weather for informal workers",
+  "publisher": "Greenpeace India",
+  "year": 2025,
+  "url": "https://www.greenpeace.org/india/en/story/18953/beyond-the-forecast-inside-indias-first-community-led-early-warning-system-for-extreme-weather-for-informal-workers/",
+  "kind": "practice account",
+  "where": "India",
+  "expect": [
+   "informal workers",
+   "WhatsApp",
+   "street vendors",
+   "IMD"
+  ],
+  "claims": [
+   "c-mh-delhi-boards"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-hitavada",
+  "type": "source",
+  "keys": [
+   "hitavada"
+  ],
+  "title": "Green nets at city squares: relief measure or another half-planned civic experiment?",
+  "publisher": "The Hitavada",
+  "year": 2026,
+  "url": "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html",
+  "kind": "news report",
+  "where": "India",
+  "expect": [
+   "green nets",
+   "wind",
+   "March"
+  ],
+  "claims": [
+   "c-mh-nagpur"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-mh-ccohs",
+  "type": "source",
+  "keys": [
+   "ccohs"
+  ],
+  "title": "Hot environments: control measures",
+  "publisher": "Canadian Centre for Occupational Health and Safety",
+  "year": 2024,
+  "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html",
+  "kind": "guidance",
+  "where": "Canada",
+  "expect": [
+   "heat",
+   "buddy"
+  ],
+  "claims": [
+   "c-mh-buddy-guide"
+  ],
+  "note": "Staged from the market heat batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
