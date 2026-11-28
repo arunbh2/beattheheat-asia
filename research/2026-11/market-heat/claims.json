@@ -1,30 +1,301 @@
 {
- "about": "Heat in markets and street vending (/market-heat/), November 2026. Each claim is tied to the exact words its source has to hold; stage.js stages the sources in data/inbox/2026-11-market-heat/, verify-sources.yml checks them, and gate.js writes confirmed.json. Figures come from wording already on Common Shade, rechecked here against each source's own text. The Peliyagoda ice-price agreement (Ministry of Fisheries, 2023) is held back: the site's source records that the original notice is no longer online, so it cannot be content-checked.",
+ "about": "Heat in markets and street vending (/market-heat/), November 2026. Each claim is tied to the exact words its source has to hold; stage.js stages the sources in data/inbox/2026-11-market-heat/, verify-sources.yml checks them, and gate.js writes confirmed.json. Figures come from wording already on Common Shade, rechecked here against each source's own text. The Peliyagoda ice-price agreement (Ministry of Fisheries, 2023) is held back: the site's source records that the original notice is no longer online, so it cannot be content-checked. After the first check (28 November 2026): the Bangkok hours figure was dropped (the PDF's text could not be read), the Rewa grant was dropped (PreventionWeb blocked the checker), the Delhi survey claim now cites what the press release holds (over 700 vendors; the exact 721, 80% and 49% are in the full report, not on this page), and the Nagpur claim matches the article's own words.",
  "sources": [
-  { "key": "venugopal", "title": "Heat stress and inadequate sanitary facilities at workplaces: an occupational health concern for women?", "publisher": "Global Health Action", "year": 2016, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/", "kind": "study", "where": "India", "expect": ["sanitary facilities"] },
-  { "key": "gp-vendors", "title": "Report by Greenpeace India and National Hawkers Federation on the heatwave toll on street vendors", "publisher": "Greenpeace India and National Hawkers Federation", "year": 2024, "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/", "kind": "survey report", "where": "India", "expect": ["street vendors"] },
-  { "key": "wiego-bkk", "title": "Climate change and heat stress: impacts on informal workers in Bangkok, Thailand (Policy Brief 33)", "publisher": "WIEGO and HomeNet Thailand", "year": 2025, "url": "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf", "kind": "survey report", "where": "Thailand", "expect": ["Bangkok"] },
-  { "key": "jareemit", "title": "A comparative study of cooling performance and thermal comfort under street market shades and tree canopies in tropical savanna climate", "publisher": "Sustainability (MDPI)", "year": 2022, "url": "https://www.mdpi.com/2071-1050/14/8/4653", "kind": "field trial", "where": "Thailand", "expect": ["canopy"] },
-  { "key": "xu-shade", "title": "Harnessing street shade to mitigate heat stress: an in-situ parallel measurement", "publisher": "City University of Hong Kong (research output)", "year": 2025, "url": "https://scholars.cityu.edu.hk/en/publications/harnessing-street-shade-to-mitigate-heat-stress-an-in-situ-parall/", "kind": "field measurement", "where": "Singapore", "expect": ["shade"] },
-  { "key": "asu-pavement", "title": "Street smarts required in heat mitigation", "publisher": "Arizona State University", "year": 2020, "url": "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation", "kind": "news release on a field study", "where": "United States", "expect": ["heat"] },
-  { "key": "unicef", "title": "Learning interrupted: global snapshot of climate-related school disruptions in 2024", "publisher": "UNICEF", "year": 2025, "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024", "kind": "report", "where": "Global", "expect": ["school"] },
-  { "key": "aidmi", "title": "Small heat resilience measures, big impact in small towns and on small businesses in India (southasiadisasters.net Issue 228)", "publisher": "All India Disaster Mitigation Institute", "year": 2026, "url": "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and", "kind": "practice report", "where": "India", "expect": ["heat"] },
-  { "key": "gp-boards", "title": "Beyond the forecast: inside India's first community-led early warning system for extreme weather for informal workers", "publisher": "Greenpeace India", "year": 2025, "url": "https://www.greenpeace.org/india/en/story/18953/beyond-the-forecast-inside-indias-first-community-led-early-warning-system-for-extreme-weather-for-informal-workers/", "kind": "practice account", "where": "India", "expect": ["informal workers"] },
-  { "key": "hitavada", "title": "Green nets at city squares: relief measure or another half-planned civic experiment?", "publisher": "The Hitavada", "year": 2026, "url": "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html", "kind": "news report", "where": "India", "expect": ["green nets"] },
-  { "key": "ccohs", "title": "Hot environments: control measures", "publisher": "Canadian Centre for Occupational Health and Safety", "year": 2024, "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html", "kind": "guidance", "where": "Canada", "expect": ["heat"] }
+  {
+   "key": "venugopal",
+   "title": "Heat stress and inadequate sanitary facilities at workplaces: an occupational health concern for women?",
+   "publisher": "Global Health Action",
+   "year": 2016,
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/",
+   "kind": "study",
+   "where": "India",
+   "expect": [
+    "sanitary facilities"
+   ]
+  },
+  {
+   "key": "gp-vendors",
+   "title": "Report by Greenpeace India and National Hawkers Federation on the heatwave toll on street vendors",
+   "publisher": "Greenpeace India and National Hawkers Federation",
+   "year": 2024,
+   "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+   "kind": "survey report",
+   "where": "India",
+   "expect": [
+    "street vendors"
+   ]
+  },
+  {
+   "key": "wiego-bkk",
+   "title": "Climate change and heat stress: impacts on informal workers in Bangkok, Thailand (Policy Brief 33)",
+   "publisher": "WIEGO and HomeNet Thailand",
+   "year": 2025,
+   "url": "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf",
+   "kind": "survey report",
+   "where": "Thailand",
+   "expect": [
+    "Bangkok"
+   ]
+  },
+  {
+   "key": "jareemit",
+   "title": "A comparative study of cooling performance and thermal comfort under street market shades and tree canopies in tropical savanna climate",
+   "publisher": "Sustainability (MDPI)",
+   "year": 2022,
+   "url": "https://www.mdpi.com/2071-1050/14/8/4653",
+   "kind": "field trial",
+   "where": "Thailand",
+   "expect": [
+    "canopy"
+   ]
+  },
+  {
+   "key": "xu-shade",
+   "title": "Harnessing street shade to mitigate heat stress: an in-situ parallel measurement",
+   "publisher": "City University of Hong Kong (research output)",
+   "year": 2025,
+   "url": "https://scholars.cityu.edu.hk/en/publications/harnessing-street-shade-to-mitigate-heat-stress-an-in-situ-parall/",
+   "kind": "field measurement",
+   "where": "Singapore",
+   "expect": [
+    "shade"
+   ]
+  },
+  {
+   "key": "asu-pavement",
+   "title": "Street smarts required in heat mitigation",
+   "publisher": "Arizona State University",
+   "year": 2020,
+   "url": "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation",
+   "kind": "news release on a field study",
+   "where": "United States",
+   "expect": [
+    "heat"
+   ]
+  },
+  {
+   "key": "unicef",
+   "title": "Learning interrupted: global snapshot of climate-related school disruptions in 2024",
+   "publisher": "UNICEF",
+   "year": 2025,
+   "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
+   "kind": "report",
+   "where": "Global",
+   "expect": [
+    "school"
+   ]
+  },
+  {
+   "key": "gp-boards",
+   "title": "Beyond the forecast: inside India's first community-led early warning system for extreme weather for informal workers",
+   "publisher": "Greenpeace India",
+   "year": 2025,
+   "url": "https://www.greenpeace.org/india/en/story/18953/beyond-the-forecast-inside-indias-first-community-led-early-warning-system-for-extreme-weather-for-informal-workers/",
+   "kind": "practice account",
+   "where": "India",
+   "expect": [
+    "informal workers"
+   ]
+  },
+  {
+   "key": "hitavada",
+   "title": "Green nets at city squares: relief measure or another half-planned civic experiment?",
+   "publisher": "The Hitavada",
+   "year": 2026,
+   "url": "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html",
+   "kind": "news report",
+   "where": "India",
+   "expect": [
+    "green nets"
+   ]
+  },
+  {
+   "key": "ccohs",
+   "title": "Hot environments: control measures",
+   "publisher": "Canadian Centre for Occupational Health and Safety",
+   "year": 2024,
+   "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html",
+   "kind": "guidance",
+   "where": "Canada",
+   "expect": [
+    "heat"
+   ]
+  }
  ],
  "claims": [
-  { "id": "c-mh-toilets", "where": "Health and equity; women-safe toilets", "text": "In a study of Indian women workers across several kinds of work, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.", "rests_on": [["venugopal", "87%"], ["venugopal", "genitourinary"], ["venugopal", "dehydration"]] },
-  { "id": "c-mh-toilets-plain", "where": "Health and equity; women-safe toilets (fallback without the figure)", "text": "A study of Indian women workers linked poor or missing toilets at work to genitourinary problems, alongside heat strain and dehydration.", "rests_on": [["venugopal", "genitourinary"], ["venugopal", "toilet"], ["venugopal", "dehydration"]] },
-  { "id": "c-mh-delhi-vendors", "where": "Understand market heat; spoilage and income", "text": "Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income.", "rests_on": [["gp-vendors", "721"], ["gp-vendors", "49%"], ["gp-vendors", "80%"]] },
-  { "id": "c-mh-bkk-hours", "where": "Understand market heat; stall security", "text": "In a survey of informal workers in Bangkok, nearly 80% had cut their hours because of heat.", "rests_on": [["wiego-bkk", "80%"], ["wiego-bkk", "reduced their hours"]] },
-  { "id": "c-mh-canopy", "where": "Shade; vendor-co-designed canopies", "text": "In a small trial in a university car park in Pathum Thani, Thailand, artificial canopy materials of the kind used over market stalls lowered air temperature by 1.6-2.3 °C, and dense tree clusters by up to 2.3-3 °C. It measured air temperature, not a working market or anyone's health.", "rests_on": [["jareemit", "Pathum Thani"], ["jareemit", "street market"], ["jareemit", "tree canopies"]] },
-  { "id": "c-mh-sg-shade", "where": "Shade; radiant heat", "text": "Across 20 shaded and sunlit street sites in Singapore on one very hot afternoon, shade lowered mean radiant temperature by about 10 °C on average, far more than air temperature.", "rests_on": [["xu-shade", "mean radiant temperature"], ["xu-shade", "Singapore"]] },
-  { "id": "c-mh-la-pavement", "where": "Shade; the reflective-pavement trap", "text": "In Los Angeles, reflective-coated roads were cooler on the surface, but people walking above them received more radiant heat; the study's authors paired reflective surfaces with shade.", "rests_on": [["asu-pavement", "reflective"], ["asu-pavement", "pedestrian"], ["asu-pavement", "Los Angeles"]] },
-  { "id": "c-mh-schools", "where": "Childcare and school closures", "text": "Heatwaves disrupted schooling for an estimated 171 million students in 2024; South Asia was the most affected region.", "rests_on": [["unicef", "171 million"], ["unicef", "South Asia"]] },
-  { "id": "c-mh-rewa", "where": "Shade; small grants", "text": "In Rewa, Madhya Pradesh, a ₹5,000 grant let a fruit and vegetable seller buy a large umbrella for himself and his produce, and a way to keep drinking water on his cart, so he no longer had to leave it to find water.", "rests_on": [["aidmi", "Rewa"], ["aidmi", "umbrella"]] },
-  { "id": "c-mh-delhi-boards", "where": "Two-way alerts", "text": "In Delhi in 2025, the India Meteorological Department, worker organisations and Greenpeace India set up colour-coded heat boards at vending carts and sent bilingual audio and text alerts on WhatsApp to worker leaders, who passed them on.", "rests_on": [["gp-boards", "WhatsApp"], ["gp-boards", "street vendors"], ["gp-boards", "IMD"]] },
-  { "id": "c-mh-nagpur", "where": "Shade; timing and storms", "text": "Nagpur strung shade nets over busy junctions in May 2026; several tore or collapsed in strong winds, and residents pointed out that the heat had begun at the end of March.", "rests_on": [["hitavada", "green nets"], ["hitavada", "wind"], ["hitavada", "March"]] },
-  { "id": "c-mh-buddy-guide", "where": "Stall-minding and rest", "text": "Occupational heat guidance describes workers watching one another for signs of heat illness as part of protection in hot work; it was written for workplaces, not markets.", "rests_on": [["ccohs", "buddy"], ["ccohs", "heat"]] }
+  {
+   "id": "c-mh-toilets",
+   "where": "Health and equity; women-safe toilets",
+   "text": "In a study of Indian women workers across several kinds of work, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
+   "rests_on": [
+    [
+     "venugopal",
+     "87%"
+    ],
+    [
+     "venugopal",
+     "genitourinary"
+    ],
+    [
+     "venugopal",
+     "dehydration"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-toilets-plain",
+   "where": "Health and equity; women-safe toilets (fallback without the figure)",
+   "text": "A study of Indian women workers linked poor or missing toilets at work to genitourinary problems, alongside heat strain and dehydration.",
+   "rests_on": [
+    [
+     "venugopal",
+     "genitourinary"
+    ],
+    [
+     "venugopal",
+     "toilet"
+    ],
+    [
+     "venugopal",
+     "dehydration"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-delhi-vendors",
+   "where": "Understand market heat; spoilage and income",
+   "text": "A 2024 report by Greenpeace India and the National Hawkers Federation recorded the experiences of over 700 street vendors through one of India's worst heat waves, and the toll it took on their livelihoods.",
+   "rests_on": [
+    [
+     "gp-vendors",
+     "over 700 street vendors"
+    ],
+    [
+     "gp-vendors",
+     "livelihoods"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-canopy",
+   "where": "Shade; vendor-co-designed canopies",
+   "text": "In a small trial in a university car park in Pathum Thani, Thailand, artificial canopy materials of the kind used over market stalls lowered air temperature by 1.6-2.3 °C, and dense tree clusters by up to 2.3-3 °C. It measured air temperature, not a working market or anyone's health.",
+   "rests_on": [
+    [
+     "jareemit",
+     "Pathum Thani"
+    ],
+    [
+     "jareemit",
+     "street market"
+    ],
+    [
+     "jareemit",
+     "tree canopies"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-sg-shade",
+   "where": "Shade; radiant heat",
+   "text": "Across 20 shaded and sunlit street sites in Singapore on one very hot afternoon, shade lowered mean radiant temperature by about 10 °C on average, far more than air temperature.",
+   "rests_on": [
+    [
+     "xu-shade",
+     "mean radiant temperature"
+    ],
+    [
+     "xu-shade",
+     "Singapore"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-la-pavement",
+   "where": "Shade; the reflective-pavement trap",
+   "text": "In Los Angeles, reflective-coated roads were cooler on the surface, but people walking above them received more radiant heat; the study's authors paired reflective surfaces with shade.",
+   "rests_on": [
+    [
+     "asu-pavement",
+     "reflective"
+    ],
+    [
+     "asu-pavement",
+     "pedestrian"
+    ],
+    [
+     "asu-pavement",
+     "Los Angeles"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-schools",
+   "where": "Childcare and school closures",
+   "text": "Heatwaves disrupted schooling for an estimated 171 million students in 2024; South Asia was the most affected region.",
+   "rests_on": [
+    [
+     "unicef",
+     "171 million"
+    ],
+    [
+     "unicef",
+     "South Asia"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-delhi-boards",
+   "where": "Two-way alerts",
+   "text": "In Delhi in 2025, the India Meteorological Department, worker organisations and Greenpeace India set up colour-coded heat boards at vending carts and sent bilingual audio and text alerts on WhatsApp to worker leaders, who passed them on.",
+   "rests_on": [
+    [
+     "gp-boards",
+     "WhatsApp"
+    ],
+    [
+     "gp-boards",
+     "street vendors"
+    ],
+    [
+     "gp-boards",
+     "IMD"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-nagpur",
+   "where": "Shade; timing and storms",
+   "text": "In Nagpur in May 2026, temporary green nets over busy junctions kept collapsing in strong winds; commuters and officials asked for durable structures and a long-term heat action plan instead of seasonal fixes.",
+   "rests_on": [
+    [
+     "hitavada",
+     "green nets"
+    ],
+    [
+     "hitavada",
+     "strong winds"
+    ],
+    [
+     "hitavada",
+     "long-term heat action plan"
+    ]
+   ]
+  },
+  {
+   "id": "c-mh-buddy-guide",
+   "where": "Stall-minding and rest",
+   "text": "Occupational heat guidance describes workers watching one another for signs of heat illness as part of protection in hot work; it was written for workplaces, not markets.",
+   "rests_on": [
+    [
+     "ccohs",
+     "buddy"
+    ],
+    [
+     "ccohs",
+     "heat"
+    ]
+   ]
+  }
  ]
 }
