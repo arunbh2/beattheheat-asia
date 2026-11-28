@@ -57,3 +57,13 @@ Do not create a profile without researched activities: an empty profile is not a
 - **Conflicting sources:** keep both in `contradictions`, each with its claim; do not pick the convenient one.
 - **Corrections from readers** arrive through `/corrections/` and are checked before anything changes. No automated
   harvest publishes claims here; any future one writes to a review queue only.
+
+## Profiles without a coalition, tools or money (November 2026)
+Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu share one research batch,
+`research/2026-11/city-ecosystems/` (`claims.json`, `stage.js`, `gate.js`, `matrix.md`), checked with
+`verify-sources.yml` (`month: 2026-11-city-ecosystems`). Each sets `"coalition": null`; the page then leaves out the
+coalition section and the membership tags. An empty `tools` list leaves out the tools section; an empty `money` list
+says no announced money was found, describing the sources, not the city. A money record may carry `label` for an
+amount in another currency or written as the source gives it (`"CHF 499,930"`, `"₹700,000"`). `method_note` adds a
+line to "How this was made"; `city_use` on a tool replaces `bengaluru_use`. The India heat action plan archive link
+shows only when `country` is India.
