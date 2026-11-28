@@ -231,21 +231,54 @@
    "Bengaluru": false
   },
   "https://ksndmc.org/Content/Documents/General/Karnataka_HAP_2026.pdf": {
-   "Heat": false,
-   "Greater Bengaluru": false,
-   "Heat Action Plan": false
+   "Heat": true,
+   "Greater Bengaluru": true,
+   "Heat Action Plan": true
   },
   "https://www.theweek.in/wire-updates/national/2025/09/02/srg2-ka-new-corporations.html": {
-   "corporations": true,
-   "five city corporations": false,
-   "Greater Bengaluru": false
+   "corporations": true
   },
   "http://cstep.in/wp-content/uploads/2025/11/BHRIGU-Organisational-Mapping-Exercise_Booklet.pdf": {
    "heat": true
   },
   "https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf": {
-   "154": false,
-   "waste": false
+   "154": true,
+   "waste": true
+  },
+  "https://grove.rainmatter.org/raw/4976/9": {
+   "Bengaluru": true,
+   "Charter document": true,
+   "Strategy Note": true,
+   "living document": true,
+   "302 projects": true,
+   "182 for BSCC": true,
+   "120 for BNCC": true
+  },
+  "https://grove.rainmatter.org/raw/4976/12": {
+   "Bengaluru Heat Collective": true,
+   "steered by WRI India": true,
+   "Begur": true,
+   "Sensing Local": true
+  },
+  "https://grove.rainmatter.org/raw/4976/18": {
+   "Bengaluru Heat Collective": true,
+   "convened in August": true,
+   "theory of change": true,
+   "strategic workplan": true,
+   "Shantinagar": true,
+   "Bengaluru Central City Corporation": true,
+   "completed and submitted": true,
+   "anchored the drafting": true
+  },
+  "https://grove.rainmatter.org/raw/5067/1": {
+   "Bengaluru Heat Collective": true,
+   "Science Gallery": true,
+   "charter": true
+  },
+  "https://thefederal.com/category/states/south/karnataka/greater-bengaluru-authority-comes-into-effect-204813": {
+   "Greater Bengaluru Authority": true,
+   "five corporations": true,
+   "Bengaluru Central": true
   }
  },
  "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july": "OK",
@@ -274,5 +307,10 @@
  "https://ksndmc.org/Content/Documents/General/Karnataka_HAP_2026.pdf": "FAIL",
  "https://www.theweek.in/wire-updates/national/2025/09/02/srg2-ka-new-corporations.html": "OK",
  "http://cstep.in/wp-content/uploads/2025/11/BHRIGU-Organisational-Mapping-Exercise_Booklet.pdf": "OK",
- "https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf": "OK"
+ "https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf": "OK",
+ "https://grove.rainmatter.org/raw/4976/9": "OK",
+ "https://grove.rainmatter.org/raw/4976/12": "OK",
+ "https://grove.rainmatter.org/raw/4976/18": "OK",
+ "https://grove.rainmatter.org/raw/5067/1": "OK",
+ "https://thefederal.com/category/states/south/karnataka/greater-bengaluru-authority-comes-into-effect-204813": "OK"
 }
