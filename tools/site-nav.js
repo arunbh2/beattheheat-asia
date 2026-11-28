@@ -10,7 +10,12 @@ const GROUPS = NAV.groups;
 
 const fill = require("./nav-counts.js");   // {key} in nav.json becomes the count the page itself records
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const items = g => g.items.map(([u, t, d, tier]) => ({ u, t, d: fill(d), tier }));
+const FIRSTS = require("./page-firsts.js");   // pages new since the latest State of the field edition are marked "New"
+const items = g => g.items.map(([u, t, d, tier]) => ({ u, t, d: fill(d), tier, n: FIRSTS.isNew(u) }));
+const NEWTAG = `<span class="csn__new">New<span class="csn-vh"> since ${FIRSTS.editionName}</span></span>`;
+const fresh = g => items(g).filter(i => i.n).length;
+const GDOT = g => fresh(g) ? `<span class="csn__gdot" aria-hidden="true"></span><span class="csn-vh">, ${fresh(g)} new</span>` : "";
+const li = (i, cur) => `<li><a href="${i.u}"${i.u === cur ? ' aria-current="page"' : ""}><b>${esc(i.t)}${i.n ? " " + NEWTAG : ""}</b><small>${esc(i.d)}</small></a></li>`;
 const NAMES = { ...NAV.names };
 GROUPS.forEach(g => { NAMES[g.hub] = NAMES[g.hub] || g.h; [g.lead, ...g.items].forEach(([u, t]) => { if (u.endsWith("/") && !NAMES[u]) NAMES[u] = t; }); });
 const TEXT = GROUPS.flatMap(g => items(g).filter(i => i.tier === 2 && /\btext\b/i.test(i.d + i.t)).map(i => [i.u, i.t.replace(/, as text$/, "")]));
@@ -59,14 +64,14 @@ const LENS = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circ
 function more(g, cur, cls) {
   const rest = items(g).filter(i => i.tier === 2); if (!rest.length) return "";
   const here = rest.some(i => i.u === cur);
-  return `<details class="csn__more ${cls}"${here ? " open" : ""}><summary><span>More in ${esc(g.h)}</span> <span class="csn__more-n">${rest.length}</span>${CHEV}</summary><ul>${rest.map(i => `<li><a href="${i.u}"${i.u === cur ? ' aria-current="page"' : ""}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}</ul></details>`;
+  return `<details class="csn__more ${cls}"${here ? " open" : ""}><summary><span>More in ${esc(g.h)}</span> <span class="csn__more-n">${rest.length}</span>${rest.some(i => i.n) ? ` <span class="csn__more-new">${rest.filter(i => i.n).length} new</span>` : ""}${CHEV}</summary><ul>${rest.map(i => li(i, cur)).join("")}</ul></details>`;
 }
 
 function panel(g, cur) {
   const ac = u => (u === cur ? ' aria-current="page"' : "");
   return `<div class="csn__panel" id="csn-p-${g.id}" role="region" aria-label="${esc(g.h)}" hidden><div class="csn__pin">
       <a class="csn__lead" href="${g.lead[0]}"${ac(g.lead[0])}><span class="csn__k">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(fill(g.lead[2]))}</span><span class="csn__go">Open <span aria-hidden="true">→</span></span></a>
-      <ul class="csn__links">${items(g).filter(i => i.tier === 1).map(i => `<li><a href="${i.u}"${ac(i.u)}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}</ul>
+      <ul class="csn__links">${items(g).filter(i => i.tier === 1).map(i => li(i, cur)).join("")}</ul>
       ${more(g, cur, "csn__more--panel")}
       <div class="csn__side"><p class="csn__k">For you</p><div class="csn__foryou" data-csn-foryou="${g.id}"><p>Choose a path by role, and your next stops appear here.</p><button type="button" class="csn__btn" data-csn-paths>Choose a path</button></div>
         <a class="csn__hub" href="${g.hub}">Everything in ${esc(g.h)} <span aria-hidden="true">→</span></a></div>
@@ -79,7 +84,7 @@ function header(pathname, title) {
   <div class="csn__in">
     <a class="csn__home" href="/">${MARK}<span>COMMON SHADE</span><span class="csn-vh">: home, the map of extreme heat</span></a>
     <nav class="csn__main" aria-label="Main">
-      <ul class="csn__groups">${GROUPS.map(g => `<li><button type="button" class="csn__gb${g === g0 ? " is-here" : ""}" aria-expanded="false" aria-controls="csn-p-${g.id}" data-g="${g.id}">${esc(g.label)}${CHEV}</button><a class="csn__gl" href="${g.hub}">${esc(g.label)}</a>
+      <ul class="csn__groups">${GROUPS.map(g => `<li><button type="button" class="csn__gb${g === g0 ? " is-here" : ""}" aria-expanded="false" aria-controls="csn-p-${g.id}" data-g="${g.id}">${esc(g.label)}${GDOT(g)}${CHEV}</button><a class="csn__gl" href="${g.hub}">${esc(g.label)}</a>
         ${panel(g, cur)}</li>`).join("")}</ul>
     </nav>
     <div class="csn__tools">
@@ -94,9 +99,9 @@ function header(pathname, title) {
   <div class="csn__pathbar" data-csn-pathbar hidden></div>
   <div class="csn__sheet" id="csn-sheet" role="region" aria-label="Menu" hidden>
     <div class="csn__sheet-tools"><a class="csn__btn csn__btn--wide csn__btn--signals" href="/signals/">${SIGI} Signals: which way heat policy is moving</a><a class="csn__btn csn__btn--wide csn__btn--map" href="/#explore">${MAPI} Open the map</a><button type="button" class="csn__btn csn__btn--wide" data-csn-search>${LENS} Search the site</button><button type="button" class="csn__btn csn__btn--wide csn__btn--warm" data-csn-paths>Start here: choose a path by role</button></div>
-    ${GROUPS.map(g => `<details class="csn__acc"${g === g0 ? " open" : ""}><summary>${esc(g.h)}${CHEV}</summary><ul>
+    ${GROUPS.map(g => `<details class="csn__acc"${g === g0 ? " open" : ""}><summary>${esc(g.h)}${GDOT(g)}${CHEV}</summary><ul>
       <li><a class="csn__acc-lead" href="${g.lead[0]}"><b>${esc(g.lead[1])}</b><small>${esc(fill(g.lead[2]))}</small></a></li>
-      ${items(g).filter(i => i.tier === 1).map(i => `<li><a href="${i.u}"${i.u === cur ? ' aria-current="page"' : ""}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}
+      ${items(g).filter(i => i.tier === 1).map(i => li(i, cur)).join("")}
       <li>${more(g, cur, "csn__more--sheet")}</li>
       <li><a class="csn__hub" href="${g.hub}">Everything in ${esc(g.h)} <span aria-hidden="true">→</span></a></li></ul></details>`).join("\n    ")}
   </div>
@@ -412,6 +417,9 @@ nav.tools .cs-sh{background:#fff;color:#16202B;border:2px solid #16202B}
 .csn-d__all{position:relative;display:inline-block}.csn-d__all::after{content:"";position:absolute;inset:-12px -4px}
 @media (hover:hover) and (pointer:fine){.csn__more li a:hover{background:var(--canvas)}.csn__more>summary:hover{color:var(--ember)}}
 @media (prefers-reduced-motion:reduce){.csn__panel:not([hidden]),.csn__sheet:not([hidden]),.csn-d[open],.csn__more[open]>ul{animation:none}.csn__panel.is-out,.csn__sheet.is-out{animation:none}.csn__chev,.csn__gb,.csn__burger,.csn__start,.csn__search,.csn__signals,.csn__map,.csn__btn,.csn-d__x,.csn-d__card,.csf__social a,.csf__copy{transition:none}.csn__gb:active,.csn__burger:active,.csn__start:active,.csn__search:active,.csn__signals:active,.csn__map:active,.csn__btn:active,.csn-d__x:active,.csn-d__card:active,.csf__social a:active,.csf__copy:active{transform:none}}
+.csn__new{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;border:1px solid var(--line);background:var(--sand-50,#FBF7F1);color:var(--ink);font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1.4;vertical-align:2px}
+.csn__more-new{font-size:.75rem;font-weight:700;color:var(--grey-700,#39424D)}
+.csn__gdot{display:inline-block;width:7px;height:7px;margin-left:5px;border-radius:50%;background:var(--orange);vertical-align:3px}
 @media print{.csn,.csf,.csn-skip,.ticker,.csp,.csn-d,.cse,.csn-new,.cs-check,.cs-sh,.cs-sh-top,.cs-sh-home{display:none!important}}`;
 
 // The behaviour: menu panels, phone menu, search, paths and the citation copy. Plain ES5, no libraries.

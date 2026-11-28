@@ -153,6 +153,10 @@ module.exports = function buildNav() {
   applyHome();
   fs.writeFileSync(VERS_FILE, JSON.stringify(Object.fromEntries(Object.entries(VERS).sort()), null, 1) + "\n");
   console.log("Navigation on", list.length, "pages");
+  // the pages the menu marks "New" (first published after the latest State of the field edition's cut-off), also for machines
+  const F = require("./page-firsts.js"), names = {}; NAV.GROUPS.forEach(g => g.items.forEach(([u, t, d]) => { names[u] = [t, d]; }));
+  console.log(`Menu marks ${F.fresh.size} page(s) new since ${F.editionName || "no edition"}`);
+  if (F.fresh.size && fs.existsSync(path.join(ROOT, "llms.txt"))) fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## New since ${F.editionName} of State of the field\n\n${[...F.fresh].map(u => `- [${names[u][0]}](https://beattheheat.asia${u}): ${names[u][1].replace(/\{[a-z_]+\}/g, "").trim()}; first published ${F.firsts[u]}`).join("\n")}\n`);
   // share coverage: a page with no written message is shared with its description, and named here so the gap is seen
   const by = k => SHARED.filter(r => r.source === k);
   console.log(`Share this page on ${SHARED.length} pages: ${by("page").length} written messages, ${by("family").length} from their family's pattern, ${by("fallback").length} using the page description`);
