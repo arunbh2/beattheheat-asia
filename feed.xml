@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-27T00:00:00Z</updated>
+  <updated>2026-11-28T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>Heat in markets and street vending: a market plan, an intervention library and a worksheet</title>
+    <link href="https://beattheheat.asia/growing/#g-market-heat" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-market-heat</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>A sibling of Heat inside factories follows heat through an open street market by zone and by hour, from wholesale loading at dawn to unsold stock at dusk. Its library of measures, from storm-proof shade and women-safe toilets to stall-minding rosters, protected porter turns and pitch protection before upgrades, gives each one's evidence type and limits, with a finder, comparison, worked examples and a one-page worksheet for vendor associations and market teams.</summary>
+  </entry>
   <entry>
     <title>Heat, health and the ability to act: who can use protection, and what makes it possible</title>
     <link href="https://beattheheat.asia/growing/#g-heat-health-equity" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-network-depth-3</id>
     <updated>2026-11-17T00:00:00Z</updated>
     <summary>Forty more organisations in the heat network now link to the page on their own site that shows their heat work, not just their homepage. Each link was opened on GitHub and held the word it rests on; six that did not open or did not hold it were left as they were.</summary>
-  </entry>
-  <entry>
-    <title>Signals now shows what the evidence confirms for each promise</title>
-    <link href="https://beattheheat.asia/growing/#g-signals-evidence-records" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-signals-evidence-records</id>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <summary>Each commitment on Signals is now tracked deliverable by deliverable, so an office, a research fund and a future plan no longer share one status, and every milestone names its sources, what each establishes and whether the site's source check confirmed it. Secondary reports and pages that only opened are shown as such, nothing missing is called failed, and a filtered view can be shared, saved, printed or downloaded.</summary>
   </entry>
 </feed>

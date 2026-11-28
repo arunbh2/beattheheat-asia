@@ -1088,6 +1088,18 @@
                   "open": "NOAA's next discussion (due 10 December 2026), IMD's November bulletin, WMO's December to February update, and the national guidance documents the checker could not open." },
       "pages": [["/el-nino/", "El Niño and heat in Asia"], ["/el-nino-and-cities/#protections", "Four protections"], ["/heat-tools/#el-nino", "El Niño route"]], "action": ["Read the outlook", "/el-nino/#outlook"],
       "links": [{ "to": "lever:hap", "why": "The four protections are what a heat plan has working before the season; El Niño sets the lead time, not the trigger.", "basis": "record" }]
+    },
+    {
+      "id": "g-market-heat", "kind": "tool", "root": "practical", "added": "2026-11-28", "pr": null,
+      "title": "Heat in markets and street vending: a market plan, an intervention library and a worksheet",
+      "why": "A sibling of Heat inside factories follows heat through an open street market by zone and by hour, from wholesale loading at dawn to unsold stock at dusk. Its library of measures, from storm-proof shade and women-safe toilets to stall-minding rosters, protected porter turns and pitch protection before upgrades, gives each one's evidence type and limits, with a finder, comparison, worked examples and a one-page worksheet for vendor associations and market teams.",
+      "places": ["region", "india"], "people": ["workers", "women"], "topics": ["heatrules"],
+      "event": { "what": "Feature published", "date": "2026-11-28" },
+      "review": "Eleven sources staged and checked on GitHub; 8 of 12 claims passed on the first run, and two more after they were rewritten to each source's own words. The Bangkok hours figure, the Rewa grant and the Peliyagoda ice price are held back. Shade evidence is labelled a temperature measurement and the toilets study a study of the harm; the six flagship records of the owner's build pack were adapted to the page's record shape and evidence scale.",
+      "effort": { "asked": "What lets a vendor or porter drink, rest and keep earning in an open market in the hottest hours, and what does the evidence show for each measure?", "inbox": "data/inbox/2026-11-market-heat", "dropped": "research/2026-11/market-heat/dropped-after-check.json",
+                  "open": "The full Greenpeace India and National Hawkers Federation report with its exact Delhi figures; the WIEGO Bangkok brief in readable text; any evaluation of market shade, toilets or stall-minding on vendors' health or earnings." },
+      "pages": [["/market-heat/", "Heat in markets and street vending"], ["/market-heat/worksheet/", "Walk the market together"]], "action": ["Explore a market", "/market-heat/#explore"],
+      "links": [{ "to": "lever:heatrules", "why": "The intervention library sets out what lets vendors and porters drink, rest and stop in an open market, measure by measure.", "basis": "record" }]
     }
   ]
 }

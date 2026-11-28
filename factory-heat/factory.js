@@ -5,6 +5,8 @@
   var doc = document, root = doc.documentElement;
   root.classList.add("fh-js");
   var CONDS = window.FH_CONDITIONS || [], FAMS = window.FH_FAMILIES || [];
+  // a page reusing this script (Heat in markets) names its own shortlist key, its "where" row and its first zone
+  var OPT = window.FH_OPTS || {}, SLKEY = OPT.key || "fh-shortlist", WHERE = OPT.where || "Factory types and tasks";
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function $(s, el) { return (el || doc).querySelector(s); }
   function $$(s, el) { return Array.prototype.slice.call((el || doc).querySelectorAll(s)); }
@@ -31,10 +33,15 @@
     });
   });
   var h = location.hash.match(/^#zone-([a-z]+)/);
-  selectZone(h ? h[1] : "sewing", !!h);
+  selectZone(h ? h[1] : (OPT.start || "sewing"), !!h);
+
+  // ---- time of day (Heat in markets): show what each zone is like at the chosen time; without JS both are shown ----
+  var tbtn = $$("[data-time-set]");
+  function setTime(v) { tbtn.forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-time-set") === v ? "true" : "false"); }); $$("[data-time]").forEach(function (el) { el.hidden = el.getAttribute("data-time") !== v; }); }
+  if (tbtn.length) { var tbar = $(".fh-timebar"); if (tbar) tbar.hidden = false; tbtn.forEach(function (b) { b.addEventListener("click", function () { setTime(b.getAttribute("data-time-set")); }); }); setTime(tbtn[0].getAttribute("data-time-set")); }
 
   // ---- records: compare (up to three) and shortlist buttons ----
-  var recs = $$(".fh-rec"), cmp = [], sl = store("fh-shortlist") || [];
+  var recs = $$(".fh-rec"), cmp = [], sl = store(SLKEY) || [];
   var byId = {}; recs.forEach(function (r) { byId[r.getAttribute("data-rec")] = r; });
   sl = sl.filter(function (id) { return byId[id]; });
   var tray = $(".fh-tray"), cmpBox = $("#compare"), slBox = $("#shortlist");
@@ -51,7 +58,7 @@
   });
   function evText(r) { return $$(".fh-tag", r).map(function (t) { return t.textContent; }).join(" · "); }
   function field(r, f) { var el = $("[data-f=" + f + "]", r); return el ? el.innerHTML.replace(/^<b>[^<]*<\/b>\s*/, "") : ""; }
-  var ROWS = [["addresses", "Addresses"], ["how", "How it works"], ["where", "Factory types and tasks"], ["works", "Works if"], ["caution", "Take care"], ["upfront", "Upfront"], ["recurrent", "Running"], ["owners", "Who runs it"], ["equity", "Equity and access"], ["ev", "Evidence"], ["measure", "Measure before and after"]];
+  var ROWS = [["addresses", "Addresses"], ["how", "How it works"], ["where", WHERE], ["works", "Works if"], ["caution", "Take care"], ["upfront", "Upfront"], ["recurrent", "Running"], ["owners", "Who runs it"], ["equity", "Equity and access"], ["ev", "Evidence"], ["measure", "Measure before and after"]];
   function toggleCmp(id) {
     var i = cmp.indexOf(id);
     if (i >= 0) cmp.splice(i, 1); else if (cmp.length < 3) cmp.push(id);
@@ -70,7 +77,7 @@
     }
   }
   tray.addEventListener("click", function (e) { var b = e.target.closest("[data-act=clear]"); if (b) { cmp = []; renderCmp(); } });
-  function toggleSl(id) { var i = sl.indexOf(id); if (i >= 0) sl.splice(i, 1); else sl.push(id); store("fh-shortlist", sl); renderSl(); }
+  function toggleSl(id) { var i = sl.indexOf(id); if (i >= 0) sl.splice(i, 1); else sl.push(id); store(SLKEY, sl); renderSl(); }
   function renderSl() {
     recs.forEach(function (r) { $("[data-act=sl]", r).setAttribute("aria-pressed", sl.indexOf(r.getAttribute("data-rec")) >= 0 ? "true" : "false"); });
     slBox.hidden = !sl.length;

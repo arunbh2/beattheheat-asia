@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-27
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 91 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 92 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,49 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-91 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+92 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Practical measures
+
+### Heat in markets and street vending: a market plan, an intervention library and a worksheet
+
+Added 28 November 2026 · Feature published 28 November 2026
+
+Why it matters our readingA sibling of Heat inside factories follows heat through an open street market by zone and by hour, from wholesale loading at dawn to unsold stock at dusk. Its library of measures, from storm-proof shade and women-safe toilets to stall-minding rosters, protected porter turns and pitch protection before upgrades, gives each one's evidence type and limits, with a finder, comparison, worked examples and a one-page worksheet for vendor associations and market teams.
+
+- South and Southeast Asia
+- India
+- Workers in heat-exposed jobs
+- Women whose livelihoods are held back by unequal access
+- Heat-safe work
+
+ReviewEleven sources staged and checked on GitHub; 8 of 12 claims passed on the first run, and two more after they were rewritten to each source's own words. The Bangkok hours figure, the Rewa grant and the Peliyagoda ice price are held back. Shade evidence is labelled a temperature measurement and the toilets study a study of the harm; the six flagship records of the owner's build pack were adapted to the page's record shape and evidence scale.. 10 checked · 11 confirmed.
+
+What it took to add this
+
+- **The question.** What lets a vendor or porter drink, rest and keep earning in an open market in the hottest hours, and what does the evidence show for each measure?
+- **The search.** 10 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 11 confirmed.
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** The full Greenpeace India and National Hawkers Federation report with its exact Delhi figures; the WIEGO Bangkok brief in readable text; any evaluation of market shade, toilets or stall-minding on vendors' health or earnings.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-market-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/market-heat/dropped-after-check.json)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+The intervention library sets out what lets vendors and porters drink, rest and stop in an open market, measure by measure.
+
+[Explore a market](https://beattheheat.asia/market-heat/#explore)
+[Heat in markets and street vending](https://beattheheat.asia/market-heat/)[Walk the market together](https://beattheheat.asia/market-heat/worksheet/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20in%20markets%20and%20street%20vending%3A%20a%20market%20plan%2C%20an%20intervention%20library%20and%20a%20worksheet&ref=g-market-heat#way-share)
 
 Tool improved · Practical measures
 
