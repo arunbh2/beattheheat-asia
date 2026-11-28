@@ -104,7 +104,7 @@ module.exports = function cityEcosystems({ page, write, esc, hero, V }) {
   ${start}${directory}${collective}${themes}${tools}${places}${delivery}${orgs}${gaps}${method}
   <script src="/cities/ecosystem.js?v=${V}" defer></script>`;
   const css = `\n  <link rel="stylesheet" href="/cities/ecosystem.css?v=${V}">`;
-  write(slug, page(slug, P.title, `Who is working on heat in ${P.name}, what they are doing, what can be used and what is still only planned: ${P.activities.length} activities, ${C ? `the ${C.name}, ` : ""}${P.tools.length ? "tools, " : ""} announced money and open questions, each checked against its source.`, body, css));
+  write(slug, page(slug, P.title, `Who is working on heat in ${P.name}, what they are doing, what can be used and what is still only planned: ${[`${P.activities.length} activities`, C ? `the ${C.name}` : "", P.tools.length ? "tools" : "", P.money.length ? "announced money" : ""].filter(Boolean).join(", ")} and open questions, each checked against its source.`, body, css));
   built.push({ id, slug, title: P.title });
  }
  return built;

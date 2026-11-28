@@ -34,11 +34,83 @@ What extreme heat is doing in 22 Asian cities: whether each has a heat plan, the
 [Open the interactive city view](https://beattheheat.asia/#city)
 City deep dive
 
+## [Ahmedabad: who is doing what about heat?](https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/)
+
+Who is working on heat in Ahmedabad, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 5 activities and 3 organisations, each line checked against its source.
+
+[Open the Ahmedabad profile](https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/)
+
+City deep dive
+
 ## [Bengaluru: who is doing what about heat?](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/)
 
 Who is working on heat in Bengaluru, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 13 activities and 14 organisations, each line checked against its source.
 
 [Open the Bengaluru profile](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/)
+
+City deep dive
+
+## [Bhubaneswar: who is doing what about heat?](https://beattheheat.asia/cities/bhubaneswar/who-is-doing-what/)
+
+Who is working on heat in Bhubaneswar, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 2 activities and 3 organisations, each line checked against its source.
+
+[Open the Bhubaneswar profile](https://beattheheat.asia/cities/bhubaneswar/who-is-doing-what/)
+
+City deep dive
+
+## [Chennai: who is doing what about heat?](https://beattheheat.asia/cities/chennai/who-is-doing-what/)
+
+Who is working on heat in Chennai, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 3 activities and 3 organisations, each line checked against its source.
+
+[Open the Chennai profile](https://beattheheat.asia/cities/chennai/who-is-doing-what/)
+
+City deep dive
+
+## [Delhi: who is doing what about heat?](https://beattheheat.asia/cities/delhi/who-is-doing-what/)
+
+Who is working on heat in Delhi, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 8 activities and 7 organisations, each line checked against its source.
+
+[Open the Delhi profile](https://beattheheat.asia/cities/delhi/who-is-doing-what/)
+
+City deep dive
+
+## [Dhaka: who is doing what about heat?](https://beattheheat.asia/cities/dhaka/who-is-doing-what/)
+
+Who is working on heat in Dhaka, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 5 activities and 6 organisations, each line checked against its source.
+
+[Open the Dhaka profile](https://beattheheat.asia/cities/dhaka/who-is-doing-what/)
+
+City deep dive
+
+## [Hyderabad: who is doing what about heat?](https://beattheheat.asia/cities/hyderabad/who-is-doing-what/)
+
+Who is working on heat in Hyderabad, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 5 activities and 4 organisations, each line checked against its source.
+
+[Open the Hyderabad profile](https://beattheheat.asia/cities/hyderabad/who-is-doing-what/)
+
+City deep dive
+
+## [Kathmandu: who is doing what about heat?](https://beattheheat.asia/cities/kathmandu/who-is-doing-what/)
+
+Who is working on heat in Kathmandu, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 3 activities and 3 organisations, each line checked against its source.
+
+[Open the Kathmandu profile](https://beattheheat.asia/cities/kathmandu/who-is-doing-what/)
+
+City deep dive
+
+## [Kolkata: who is doing what about heat?](https://beattheheat.asia/cities/kolkata/who-is-doing-what/)
+
+Who is working on heat in Kolkata, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 2 activities and 1 organisations, each line checked against its source.
+
+[Open the Kolkata profile](https://beattheheat.asia/cities/kolkata/who-is-doing-what/)
+
+City deep dive
+
+## [Mumbai: who is doing what about heat?](https://beattheheat.asia/cities/mumbai/who-is-doing-what/)
+
+Who is working on heat in Mumbai, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 3 activities and 5 organisations, each line checked against its source.
+
+[Open the Mumbai profile](https://beattheheat.asia/cities/mumbai/who-is-doing-what/)
 
 ## [Singapore, Singapore](https://beattheheat.asia/cities/singapore/)
 

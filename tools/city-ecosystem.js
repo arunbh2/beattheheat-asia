@@ -50,7 +50,8 @@ function checkedOn(batch) {
 }
 
 function load(id) {
- const P = raw(id), C = confirmed(P.batch), OK = new Set(C.map(c => c.id)), CL = claimsOf(P.batch);
+ // a batch shared by several cities: each profile counts and cites only its own claims (claims.json "where" equals claim_scope)
+ const P = raw(id), mine = c => !P.claim_scope || c.where === P.claim_scope, C = confirmed(P.batch).filter(mine), OK = new Set(C.map(c => c.id)), CL0 = claimsOf(P.batch), CL = Object.assign({}, CL0, { claims: CL0.claims.filter(mine) });
  const byClaim = Object.fromEntries(C.map(c => [c.id, c]));
  const pass = ids => (ids || []).every(c => OK.has(c));
  const held = [];

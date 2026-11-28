@@ -160,9 +160,15 @@ The [India heat action plan archive](https://beattheheat.asia/resources/heat-act
 
 [Tamil Nadu’s state-wide heat network](https://beattheheat.asia/worked-plans/#tamilnadu) (Tamil Nadu, India, 2024 onwards)
 
+City deep dive[Chennai: who is doing what about heat?](https://beattheheat.asia/cities/chennai/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
-Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city. [The heat network](https://beattheheat.asia/heat-network/)
+- [Greater Chennai Corporation](https://www.dtnext.in/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience): Expanding cool roofs to 55 schools with the TN Green Climate Company and UNEP, and signed an agreement with CEEW (July 2026) to plan heat projects in vulnerable wards.
+- [TN Green Climate Company (Tamil Nadu)](https://www.dtnext.in/news/chennai/chennai-corporation-expands-cool-roof-initiative-to-55-schools-2): The Tamil Nadu company through which cool roofs are being applied to 55 Chennai schools with UNEP, under the TN Climate Change Mission.
+- [Council on Energy, Environment and Water (CEEW)](https://www.ceew.in/publications?field_focus_area_tid=All&field_pub_type_tid=All&field_authors_target_id_selective=All&title=heat): Assessed heat risk in all 734 districts of India in 2025, finding 57% of districts, home to three in four Indians, at high or very high risk. Its 2026 heat-health reports for the GHHIN South Asia hub cover India, Nepal, Bangladesh and Bhutan, and it helped Thane build its heat action plan.
+- [UNEP Cool Coalition](https://coolcoalition.org): A global network for clean, efficient cooling and cooler cities. With the COP30 Presidency, it runs Beat the Heat, an initiative supporting cities in the Global South with heat assessments and cooling action.
+- [CEPT University](https://cept.ac.in/projects/heat-sink-building-under-the-indian-sun): Helped administer the Global Cooling Prize.
 
 Listing does not imply partnership, affiliation or endorsement.
 

@@ -162,12 +162,16 @@ The [India heat action plan archive](https://beattheheat.asia/resources/heat-act
 
 [Thane’s ward-by-ward heat action plan](https://beattheheat.asia/worked-plans/#thane) (Thane, India, 2024 onwards)
 
+City deep dive[Mumbai: who is doing what about heat?](https://beattheheat.asia/cities/mumbai/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
 - [WRI India](https://india.mongabay.com/2025/04/safeguarding-indian-cities-from-heat-in-conversation-with-sudeshna-chatterjee-interview/): Works on heat mitigation planning with Indian cities, including greening and cooling pilots in Kochi and Mumbai and the Bengaluru Heat Collective.
 - [C40 Cities](https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-joins-global-coalition-to-beat-extreme-heat-3786724): Its Cool Cities Accelerator brings together cities including Ahmedabad, Bengaluru, Mumbai and Singapore on early warnings, building standards and tree cover.
 - [HDFC Life (Swabhimaan CSR)](https://www.hdfclife.com/hdfc-careers/csr.html): Funds city forests and waterbody revival in Sikkim, Maharashtra and Gujarat alongside livelihoods and health work. Heat-specific funding is not confirmed.
 - [ICLEI South Asia](https://southasia.iclei.org/news/extreme-heat-new-knowledge-products-highlight-need-to-build-resilience-adaptation/): Supports cities with heat risk assessments, heat action plans, urban greening and preparedness tools in India, Nepal and Bangladesh.
+- [Tarutium Global Consulting (formerly TARU Leading Edge)](https://tarutium.com/hydro-meteorological-resilient-action-plans/): Provides climate risk and resilience planning, including urban heat assessment and heatwave management guidance.
+- [cBalance](https://cbalance.in): Co-designed and installed low-carbon cooling with women in low-income neighbourhoods.
 
 Listing does not imply partnership, affiliation or endorsement.
 

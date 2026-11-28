@@ -1090,7 +1090,19 @@
       "links": [{ "to": "lever:hap", "why": "The four protections are what a heat plan has working before the season; El Niño sets the lead time, not the trigger.", "basis": "record" }]
     },
     {
-      "id": "g-bengaluru-ecosystem", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": null,
+      "id": "g-city-ecosystems-nine", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": null,
+      "title": "Who is doing what about heat, in nine more cities",
+      "why": "The Bengaluru deep dive now has nine siblings: Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu. Each follows heat work activity by activity, from Ahmedabad's cool roofs and heat insurance to Dhaka's Red Crescent early action and Hyderabad's cool roof policy, with plans kept apart from delivery, and where the public record is thin, as in Kolkata and Kathmandu, the page says so.",
+      "places": ["india", "bangladesh", "nepal"], "people": ["workers", "women"], "topics": ["hap", "coolbydesign"],
+      "event": { "what": "Feature published", "date": "2026-11-28" },
+      "review": "REVIEW_TEXT",
+      "effort": { "asked": "In each city on Common Shade in India, and in Dhaka and Kathmandu, who is working on heat, what exactly are they doing, and what is still only planned?", "inbox": "data/inbox/2026-11-city-ecosystems", "dropped": "research/2026-11/city-ecosystems/dropped-after-check.json",
+                  "open": "Delivery of Delhi's promised water coolers and cool roofs; progress against Telangana's cool roof targets; a city heat plan for Kolkata, Mumbai or Kathmandu; what Dhaka North's heat office has delivered since 2023; local-language sources." },
+      "pages": [["/cities/delhi/who-is-doing-what/", "Delhi: who is doing what about heat?"], ["/cities/dhaka/who-is-doing-what/", "Dhaka: who is doing what about heat?"], ["/cities/ahmedabad/who-is-doing-what/", "Ahmedabad: who is doing what about heat?"]], "action": ["Explore Delhi's heat work", "/cities/delhi/who-is-doing-what/#directory"],
+      "links": [{ "to": "lever:hap", "why": "City and state heat plans in nine cities, each at the stage its source shows.", "basis": "record" }]
+    },
+    {
+      "id": "g-bengaluru-ecosystem", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": 371,
       "title": "Bengaluru: who is doing what about heat?",
       "why": "The first city deep dive follows heat work in Bengaluru activity by activity: the new Bengaluru Heat Collective and its eleven founding members, ward climate plans and their first budgets, a national heat pilot run through one city corporation, seasonal cooling centres and kits for outdoor workers, and the tools anyone can use. Plans are kept apart from delivery, announced money from money spent, and membership from any role.",
       "places": ["india"], "people": ["workers", "women"], "topics": ["heatrules", "hap"],
@@ -1102,7 +1114,7 @@
       "links": [{ "to": "lever:hap", "why": "Ward climate plans, the Collective's priorities and the city corporations' first heat money, each at the stage its source shows.", "basis": "record" }]
     },
     {
-      "id": "g-market-heat", "kind": "tool", "root": "practical", "added": "2026-11-28", "pr": null,
+      "id": "g-market-heat", "kind": "tool", "root": "practical", "added": "2026-11-28", "pr": 369,
       "title": "Heat in markets and street vending: a market plan, an intervention library and a worksheet",
       "why": "A sibling of Heat inside factories follows heat through an open street market by zone and by hour, from wholesale loading at dawn to unsold stock at dusk. Its library of measures, from storm-proof shade and women-safe toilets to stall-minding rosters, protected porter turns and pitch protection before upgrades, gives each one's evidence type and limits, with a finder, comparison, worked examples and a one-page worksheet for vendor associations and market teams.",
       "places": ["region", "india"], "people": ["workers", "women"], "topics": ["heatrules"],

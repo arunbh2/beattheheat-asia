@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Dhaka: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/dhaka/
-updated: 2026-11-26
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -105,6 +105,8 @@ Every change is checked before it appears. [What changed this month](https://bea
 
 [Dhaka acts before the heat peaks](https://beattheheat.asia/worked-plans/#dhaka) (Dhaka, Bangladesh, 2023 onwards)
 
+City deep dive[Dhaka: who is doing what about heat?](https://beattheheat.asia/cities/dhaka/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
 - [Dhaka North City Corporation](https://www.dhakatribune.com/bangladesh/310693/arsht-rock-bangladesh%E2%80%99s-first-chief-heat-officer): Appointed Asia’s first Chief Heat Officer in 2023, focused on cooling the poorest neighbourhoods.
@@ -113,6 +115,11 @@ Every change is checked before it appears. [What changed this month](https://bea
 - [BRAC](https://bracusa.org/bangladesh_heat_emergency/): In Bangladesh’s April 2024 heat emergency, mobilised 50,000 community health workers to raise awareness, with a focus on families with pregnant women, and is piloting heat-reduction ideas in urban informal settlements.
 - [Practical Action](https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/): Connects heat risk intelligence, local action, practical technology, institutions and finance, following a Sense → Decide → Act → Sustain logic. In Nepal, Dhangadhi’s heat action plan links temperature, humidity and health data, hotspot mapping and community views to thresholds and set municipal responses. In Bangladesh, heat is being built into early warning and livelihood work. A partner in the Zurich Climate Resilience Alliance.
 - [Bangladesh Bank](https://www.bssnews.net/news/391823): Steers credit to farmers after climate shocks through its refinancing schemes. In June 2026 it told banks to prioritise farmers hit by heavy rain. Heat is not yet among the shocks that trigger this support.
+- [International Federation of Red Cross and Red Crescent Societies (IFRC)](https://www.ifrc.org/get-involved/campaign-us/heat-action-day): Mobilises national societies and communities to prepare for heatwaves and reach people at risk, including through its global Heat Action Day campaign.
+- [Atlantic Council Climate Resilience Center (formerly Arsht-Rock)](https://onebillionresilient.org/project/extreme-heat-protection-initiative/): Places Chief Heat Officers in cities, and with SEWA tested the world’s first parametric insurance for extreme heat in 2023.
+- [Shakti Foundation](https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/): Local partner in Dhaka North City Corporation's Chief Heat Officer initiative (2023).
+- [Institute of Water Modelling, Bangladesh](https://today.thefinancialexpress.com.bd/print/a-data-driven-push-to-beat-urban-boil-1753202222): Collected a year of microclimate data at more than 20 points across Dhaka from April 2024, under the Department of Environment, to inform a proposed Heat Action Plan.
+- [ICLEI South Asia](https://southasia.iclei.org/news/extreme-heat-new-knowledge-products-highlight-need-to-build-resilience-adaptation/): Supports cities with heat risk assessments, heat action plans, urban greening and preparedness tools in India, Nepal and Bangladesh.
 
 Listing does not imply partnership, affiliation or endorsement.
 

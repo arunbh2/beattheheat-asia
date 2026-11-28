@@ -149,10 +149,14 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 
 The [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) has no verified document for Kolkata itself yet. It holds 2 state-level plans for West Bengal, which cover the city: [see the West Bengal plans](https://beattheheat.asia/resources/heat-action-plans/india/?state=West%20Bengal&level=state).
 
+City deep dive[Kolkata: who is doing what about heat?](https://beattheheat.asia/cities/kolkata/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
 - [Research Council of Norway](https://www.cicero.oslo.no/en/articles/will-develop-advanced-early-warning-and-decision-support-systems-for-heat-and-air-pollution-delhi-and-kolkata): Co-funds COPE, a research project building early warnings for combined heat and air pollution in Delhi and Kolkata.
 - [U.S. National Science Foundation](https://www.cicero.oslo.no/en/articles/will-develop-advanced-early-warning-and-decision-support-systems-for-heat-and-air-pollution-delhi-and-kolkata): A named co-funder of COPE, the four-year heat and air-pollution early warning research project in Delhi and Kolkata.
+- [Centre for Science and Environment (CSE)](https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat): Analyses urban heat stress ward by ward: in Delhi it found almost 76 per cent of the city facing heat stress in summer (2015 to 2024), and it has mapped heat zones in Kolkata.
+- [Kolkata Municipal Corporation](https://cdn.cseindia.org/attachments/0.91719500_1772510583_kolkata-va.pdf): The city corporation whose area a Centre for Science and Environment assessment mapped for severe heat zones. No city heat action plan was found.
 
 Listing does not imply partnership, affiliation or endorsement.
 

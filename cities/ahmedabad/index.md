@@ -95,6 +95,8 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 
 [Ahmedabad’s heat action plan](https://beattheheat.asia/worked-plans/#ahmedabad) (Ahmedabad, India, 2013 onwards)
 
+City deep dive[Ahmedabad: who is doing what about heat?](https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
 - [Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC](https://www.nrdc.org/press-releases/new-evidence-shows-pioneering-heat-action-plan-helps-millions-avoid-killer-heat): Launched South Asia’s first heat action plan in 2013: early warnings, public outreach and training for medical staff.
@@ -102,6 +104,9 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 - [IBISA](https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/): Launched a parametric heat-index product in Ahmedabad in 2024 that pays women workers when heat cuts their working hours, and Ushma Kavach, which protects dairy farmers against heat-stress losses.
 - [C40 Cities](https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-joins-global-coalition-to-beat-extreme-heat-3786724): Its Cool Cities Accelerator brings together cities including Ahmedabad, Bengaluru, Mumbai and Singapore on early warnings, building standards and tree cover.
 - [Heat Resilience Action (HERA), formerly Climate Resilience for All](https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/): Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves.
+- [Mahila Housing Trust](https://citizenmatters.in/new-cool-roof-solutions-heat-in-informal-settlements/): Cools homes in informal settlements with reflective and modular roofs, and runs heat income insurance for women workers.
+- [Natural Resources Defense Council (NRDC), India programme](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf): Works with Indian cities and states on heat action plans. It developed Ahmedabad's 2013 heat action plan, the first in South Asia, with the Indian Institute of Public Health-Gandhinagar, and reviews heat policy in India.
+- [Indian Institute of Public Health Gandhinagar (IIPH-G)](https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2): A partner of the Ahmedabad Municipal Corporation, with NRDC and Mahila Housing Trust, on the city's 2017 cool roof pilot under its Heat Action Plan.
 
 Listing does not imply partnership, affiliation or endorsement.
 

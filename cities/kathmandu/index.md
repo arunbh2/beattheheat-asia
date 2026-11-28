@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Kathmandu: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/kathmandu/
-updated: 2026-11-26
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -83,6 +83,8 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 - [Women whose livelihoods are held back by unequal access](https://beattheheat.asia/who-is-at-risk/#women)
 - [Older people](https://beattheheat.asia/who-is-at-risk/#older)
 
+City deep dive[Kathmandu: who is doing what about heat?](https://beattheheat.asia/cities/kathmandu/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
 - [National Disaster Risk Reduction and Management Authority, Nepal](https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html): Issued Nepal’s first federal heat plan in 2024.
@@ -90,6 +92,9 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 - [Tewa, Nepal Women’s Fund](https://annualreport.bothends.org/nepalese-women-lead-local-advocacy-on-climate-change/): Makes small grants to grassroots women’s groups in Nepal; one won municipal funding for irrigation after training on climate budgets. Heat-specific funding is not confirmed.
 - [Nepal Rastra Bank](https://www.nrb.org.np/): Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red.
 - [Practical Action](https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/): Connects heat risk intelligence, local action, practical technology, institutions and finance, following a Sense → Decide → Act → Sustain logic. In Nepal, Dhangadhi’s heat action plan links temperature, humidity and health data, hotspot mapping and community views to thresholds and set municipal responses. In Bangladesh, heat is being built into early warning and livelihood work. A partner in the Zurich Climate Resilience Alliance.
+- [People’s Courage International](https://www.weforum.org/organizations/peoples-courage-international/): Works on safe migration and labour protection for migrant workers in South and Southeast Asia. Its Migrants Resilience Collaborative supports more than seven million households.
+- [World Bank](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities): Its 2026 report A Livable Future finds extreme heat already costs South Asia the equivalent of about 31 million full-time jobs a year, and sets out how cities can protect jobs and growth.
+- [UN-Habitat](https://unhabitat.org/handbook-on-urban-heat-management-in-the-global-south): Develops guidance on urban heat management, helping cities combine planning, building design, green infrastructure and cooling to protect vulnerable residents.
 
 Listing does not imply partnership, affiliation or endorsement.
 

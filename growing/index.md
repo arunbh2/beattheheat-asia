@@ -2998,7 +2998,7 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Institutions and plans138
 - Financing230
 
-Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 472 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 482 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

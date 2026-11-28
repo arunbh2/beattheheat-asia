@@ -33,7 +33,12 @@ Cycle | Why here | One action that breaks it |
 
 ## Already at work here
 
-Not found yet in the heat network's list.
+- Greater Hyderabad Municipal Corporation (GHMC)
+- Municipal Administration and Urban Development Department, Telangana
+- Administrative Staff College of India (ASCI)
+- IIIT Hyderabad
+- Natural Resources Defense Council (NRDC), India programme
+- UNICEF
 
 Listing does not imply partnership, affiliation or endorsement.
 

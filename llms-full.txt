@@ -2750,7 +2750,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Organisations working on extreme heat
 
-352 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+368 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Each organisation is marked with its main side in a heat alliance. Demand: Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected. Supply: Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data. Platform: Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market. Many play more than one part; this is the main one.
 
@@ -2972,6 +2972,18 @@ Every link was opened by an automated check on 17 November 2026. A listing says 
 
 - Department of Health, Government of Karnataka (Demand; Health body; India): Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka. (https://www.artpark.in/about/programs/social-impact)
 
+- Bhubaneswar Municipal Corporation (Demand; City or district government; India): Launched the city's first Integrated Heat and Cooling Action Plan in September 2025, covering greening in all wards and the state's energy building codes. (https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303)
+
+- Greater Chennai Corporation (Demand; City or district government; India): Expanding cool roofs to 55 schools with the TN Green Climate Company and UNEP, and signed an agreement with CEEW (July 2026) to plan heat projects in vulnerable wards. (https://www.dtnext.in/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience)
+
+- TN Green Climate Company (Tamil Nadu) (Demand; Government body; India): The Tamil Nadu company through which cool roofs are being applied to 55 Chennai schools with UNEP, under the TN Climate Change Mission. (https://www.dtnext.in/news/chennai/chennai-corporation-expands-cool-roof-initiative-to-55-schools-2)
+
+- Greater Hyderabad Municipal Corporation (GHMC) (Demand; City or district government; India): Ran a cool roof pilot in 2017; each summer acts under Telangana's heatwave plan, with drinking water kiosks, medical camps at construction sites and heat warnings on junction screens (2026). (https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197)
+
+- Municipal Administration and Urban Development Department, Telangana (Demand; Government body; India): Leads the Telangana Cool Roofs Policy 2023-2028, with a target of 300 square kilometres of cool roofs and a rule in building permits. (https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy)
+
+- Kolkata Municipal Corporation (Demand; City or district government; India): The city corporation whose area a Centre for Science and Environment assessment mapped for severe heat zones. No city heat action plan was found. (https://cdn.cseindia.org/attachments/0.91719500_1772510583_kolkata-va.pdf)
+
 ### Research and evidence
 
 - Council on Energy, Environment and Water (CEEW) (Supply; Research body; India, Bangladesh, Nepal, Bhutan): Assessed heat risk in all 734 districts of India in 2025, finding 57% of districts, home to three in four Indians, at high or very high risk. Its 2026 heat-health reports for the GHHIN South Asia hub cover India, Nepal, Bangladesh and Bhutan, and it helped Thane build its heat action plan. (https://www.ceew.in/publications?field_focus_area_tid=All&field_pub_type_tid=All&field_authors_target_id_selective=All&title=heat)
@@ -3106,6 +3118,18 @@ Every link was opened by an automated check on 17 November 2026. A listing says 
 
 - WELL Labs (Supply; Research body; India): A technical partner for Bengaluru's city climate plan and part of the working group behind its ward climate action plans. Heat-specific work was not identified in the sources reviewed. (https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/)
 
+- Indian Institute of Public Health Gandhinagar (IIPH-G) (Supply; Health body; India): A partner of the Ahmedabad Municipal Corporation, with NRDC and Mahila Housing Trust, on the city's 2017 cool roof pilot under its Heat Action Plan. (https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2)
+
+- International Forum for Environment, Sustainability and Technology (iFOREST) (Supply; Research body; India): Developed Bhubaneswar's Integrated Heat and Cooling Action Plan (2025) with the city corporation and the Singapore-ETH Centre. (https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/)
+
+- Centre for Science and Environment (CSE) (Supply; Research body; India): Analyses urban heat stress ward by ward: in Delhi it found almost 76 per cent of the city facing heat stress in summer (2015 to 2024), and it has mapped heat zones in Kolkata. (https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat)
+
+- Institute of Water Modelling, Bangladesh (Supply; Research body; Bangladesh): Collected a year of microclimate data at more than 20 points across Dhaka from April 2024, under the Department of Environment, to inform a proposed Heat Action Plan. (https://today.thefinancialexpress.com.bd/print/a-data-driven-push-to-beat-urban-boil-1753202222)
+
+- Administrative Staff College of India (ASCI) (Supply; Research body; India): A partner on Hyderabad's 2017 cool roof pilot and on the Telangana Cool Roofs Policy 2023-2028. (https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy)
+
+- IIIT Hyderabad (Supply; Research body; India): A partner on Hyderabad's 2017 cool roof pilot and the state cool roof policy; tests roof materials over several years. (https://www.nrdc.org/bio/anjali-jaiswal/keeping-it-cool-models-city-cool-roof-programs)
+
 ### Working on the ground
 
 - Self Employed Women’s Association (SEWA) (Demand; Worker organisation; India): Protects women informal workers’ income in heatwaves. After the May 2024 heatwaves, more than 46,000 members received insurance payouts. (https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html)
@@ -3197,6 +3221,14 @@ Every link was opened by an automated check on 17 November 2026. A listing says 
 - Bengaluru Heat Collective (Platform; Network or alliance; India): A collective of 11 organisations launched in Bengaluru on 15 July 2026 to advance coordinated action on rising urban heat. Its priorities for an initial phase are heat mapping and data, cooling infrastructure, relief for vulnerable communities and ward-level microplanning. Its sources name no secretariat or lead organisation. (https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july)
 
 - KHPT (Supply; Non-profit organisation; India): A founding partner of the Bengaluru Heat Collective (July 2026). A separate Bengaluru heat project was not identified in the sources reviewed. (https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/)
+
+- Greenpeace India (Demand; Non-profit organisation; India): Surveyed over 700 Delhi street vendors on heatwaves with the National Hawkers Federation, and asked the Delhi Heat Action Plan's authority to consult outdoor workers. (https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+- National Hawkers Federation (Demand; Worker organisation; India): A street vendors' federation that collected Delhi vendors' heatwave experiences with Greenpeace India. (https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+- Indo-Global Social Service Society (IGSSS) (Supply; Non-profit organisation; India): Fitted thirty Delhi homes with wall panels in a pilot from April 2022 to March 2023. (https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/)
+
+- Shakti Foundation (Supply; Non-profit organisation; Bangladesh): Local partner in Dhaka North City Corporation's Chief Heat Officer initiative (2023). (https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/)
 
 ### Cooling solutions
 
@@ -3482,7 +3514,25 @@ Every link was opened by an automated check on 17 November 2026. A listing says 
 
 What extreme heat is doing in 22 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
+City deep dive: Ahmedabad: who is doing what about heat? (https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/).
+
 City deep dive: Bengaluru: who is doing what about heat? (https://beattheheat.asia/cities/bengaluru/who-is-doing-what/).
+
+City deep dive: Bhubaneswar: who is doing what about heat? (https://beattheheat.asia/cities/bhubaneswar/who-is-doing-what/).
+
+City deep dive: Chennai: who is doing what about heat? (https://beattheheat.asia/cities/chennai/who-is-doing-what/).
+
+City deep dive: Delhi: who is doing what about heat? (https://beattheheat.asia/cities/delhi/who-is-doing-what/).
+
+City deep dive: Dhaka: who is doing what about heat? (https://beattheheat.asia/cities/dhaka/who-is-doing-what/).
+
+City deep dive: Hyderabad: who is doing what about heat? (https://beattheheat.asia/cities/hyderabad/who-is-doing-what/).
+
+City deep dive: Kathmandu: who is doing what about heat? (https://beattheheat.asia/cities/kathmandu/who-is-doing-what/).
+
+City deep dive: Kolkata: who is doing what about heat? (https://beattheheat.asia/cities/kolkata/who-is-doing-what/).
+
+City deep dive: Mumbai: who is doing what about heat? (https://beattheheat.asia/cities/mumbai/who-is-doing-what/).
 
 ### Singapore, Singapore
 
@@ -3694,7 +3744,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
 
-Already at work: National Disaster Management Authority, India; India Meteorological Department and IITM Pune; National Centre for Disease Control, India; Council on Energy, Environment and Water (CEEW); SEEDS; HeatWatch India
+City deep dive: Delhi: who is doing what about heat? (https://beattheheat.asia/cities/delhi/who-is-doing-what/).
+
+Already at work: National Disaster Management Authority, India; India Meteorological Department and IITM Pune; National Centre for Disease Control, India; Council on Energy, Environment and Water (CEEW); SEEDS; HeatWatch India; Centre for Science and Environment (CSE); Women in Informal Employment: Globalizing and Organizing (WIEGO); Greenpeace India; National Hawkers Federation; Indo-Global Social Service Society (IGSSS); Mahila Housing Trust; Self Employed Women’s Association (SEWA)
 
 Page: https://beattheheat.asia/cities/delhi/
 
@@ -3722,7 +3774,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
 
-Already at work: Dhaka North City Corporation; Bangladesh Red Crescent Society; icddr,b; BRAC; Practical Action; Bangladesh Bank
+City deep dive: Dhaka: who is doing what about heat? (https://beattheheat.asia/cities/dhaka/who-is-doing-what/).
+
+Already at work: Dhaka North City Corporation; Bangladesh Red Crescent Society; icddr,b; BRAC; Practical Action; Bangladesh Bank; International Federation of Red Cross and Red Crescent Societies (IFRC); Atlantic Council Climate Resilience Center (formerly Arsht-Rock); Shakti Foundation; Institute of Water Modelling, Bangladesh; ICLEI South Asia
 
 Page: https://beattheheat.asia/cities/dhaka/
 
@@ -3746,7 +3800,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Women whose livelihoods are held back by unequal access; Older people
 
-Already at work: National Disaster Risk Reduction and Management Authority, Nepal; Nepal Red Cross Society; Tewa, Nepal Women’s Fund; Nepal Rastra Bank; Practical Action
+City deep dive: Kathmandu: who is doing what about heat? (https://beattheheat.asia/cities/kathmandu/who-is-doing-what/).
+
+Already at work: National Disaster Risk Reduction and Management Authority, Nepal; Nepal Red Cross Society; Tewa, Nepal Women’s Fund; Nepal Rastra Bank; Practical Action; People’s Courage International; World Bank; UN-Habitat
 
 Page: https://beattheheat.asia/cities/kathmandu/
 
@@ -3780,7 +3836,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: People in informal settlements; Workers in heat-exposed jobs
 
-Already at work: WRI India; C40 Cities; HDFC Life (Swabhimaan CSR); ICLEI South Asia
+City deep dive: Mumbai: who is doing what about heat? (https://beattheheat.asia/cities/mumbai/who-is-doing-what/).
+
+Already at work: WRI India; C40 Cities; HDFC Life (Swabhimaan CSR); ICLEI South Asia; Tarutium Global Consulting (formerly TARU Leading Edge); cBalance
 
 Page: https://beattheheat.asia/cities/mumbai/
 
@@ -3806,7 +3864,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
 
-Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All
+City deep dive: Ahmedabad: who is doing what about heat? (https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/).
+
+Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All; Mahila Housing Trust; Natural Resources Defense Council (NRDC), India programme; Indian Institute of Public Health Gandhinagar (IIPH-G)
 
 Page: https://beattheheat.asia/cities/ahmedabad/
 
@@ -3890,7 +3950,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
 
-Already at work: Research Council of Norway; U.S. National Science Foundation
+City deep dive: Kolkata: who is doing what about heat? (https://beattheheat.asia/cities/kolkata/who-is-doing-what/).
+
+Already at work: Research Council of Norway; U.S. National Science Foundation; Centre for Science and Environment (CSE); Kolkata Municipal Corporation
 
 Page: https://beattheheat.asia/cities/kolkata/
 
@@ -3924,7 +3986,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
 
-Already at work: Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city.
+City deep dive: Chennai: who is doing what about heat? (https://beattheheat.asia/cities/chennai/who-is-doing-what/).
+
+Already at work: Greater Chennai Corporation; TN Green Climate Company (Tamil Nadu); Council on Energy, Environment and Water (CEEW); UNEP Cool Coalition; CEPT University
 
 Page: https://beattheheat.asia/cities/chennai/
 
@@ -3956,7 +4020,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Workers in heat-exposed jobs; Migrants, prisoners and other excluded groups
 
-Already at work: Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city.
+City deep dive: Hyderabad: who is doing what about heat? (https://beattheheat.asia/cities/hyderabad/who-is-doing-what/).
+
+Already at work: Greater Hyderabad Municipal Corporation (GHMC); Municipal Administration and Urban Development Department, Telangana; Administrative Staff College of India (ASCI); IIIT Hyderabad; Natural Resources Defense Council (NRDC), India programme; UNICEF
 
 Page: https://beattheheat.asia/cities/hyderabad/
 
@@ -4022,7 +4088,9 @@ Heat today and the next three days: the page shows estimated heat stress (wbgt) 
 
 Who heat hits hardest: Women whose livelihoods are held back by unequal access; Workers in heat-exposed jobs
 
-Already at work: Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city.
+City deep dive: Bhubaneswar: who is doing what about heat? (https://beattheheat.asia/cities/bhubaneswar/who-is-doing-what/).
+
+Already at work: Bhubaneswar Municipal Corporation; International Forum for Environment, Sustainability and Technology (iFOREST); Singapore-ETH Centre; Integrated Research and Action for Development (IRADe)
 
 Page: https://beattheheat.asia/cities/bhubaneswar/
 
@@ -6712,6 +6780,78 @@ Tick what you see. The finder lists measures that address those conditions, with
 Worksheet to print: https://beattheheat.asia/market-heat/worksheet/
 
 
+## Ahmedabad: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Ahmedabad, and no organisation was contacted.
+
+Ahmedabad wrote South Asia's first city heat action plan in 2013, after the 2010 heat wave, and an evaluation cited by the WHO Foundation credits it with lives saved. Since then the work has spread from warnings to homes, streets and income: cool roofs, a misted bus stop and a heat insurance for women in informal work, much of it carried by one women's housing organisation working with the city.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [ahm-hap] Heat Action Plan with early warnings (Underway). The city's plan, first launched in 2013: an early warning system, awareness campaigns, and since 2017 cool roofs. Scroll reported that parks stay open for shade, signboards explain heatstroke and all departments meet weekly on the plan. Lead: Ahmedabad Municipal Corporation. Where: Ahmedabad (City-wide). People: Residents. Evaluation: An evaluation by researchers credits the plan with 1,190 lives saved a year in its first five years; the evaluation itself was not read for this profile. Evidence: Independent reporting. Sources: https://www.who.foundation/post/in-india-a-plan-to-beat-the-heat-is-saving-lives https://scroll.in/article/1080066/hit-by-heatwave-mumbai-is-ignoring-a-quick-fix-to-cool-off-keeping-parks-open-in-the-afternoon
+
+- [ahm-roof-pilot] Cool roof pilot on 3,000 low-income homes (2017) (Completed). Roofs of over 3,000 low-income homes painted with white lime paint under the Heat Action Plan, by city staff, student volunteers and civil society groups. In 2018 real estate developers were asked to apply cool roofs to private buildings voluntarily. Lead: Ahmedabad Municipal Corporation. With: Natural Resources Defense Council (NRDC), India programme (partner); Indian Institute of Public Health Gandhinagar (partner); Mahila Housing Trust (partner). Where: Low-income neighbourhoods (not named) (Neighbourhoods). People: Low-income households. Evaluation: Not evaluated in the sources read. Evidence: The organisation's own account. Sources: https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2
+
+- [ahm-cool-roofs] Cool Roofs Initiative in low-income homes (Underway). Heat-reflective paint on the roofs of low-income homes, run by Mahila Housing Trust within the city's Heat Action Plan. In 2019 the city was preparing a city-wide programme; by 2025 the city had included cool roofs in its plan. Lead: Mahila Housing Trust. With: Ahmedabad Municipal Corporation (included cool roofs in the Heat Action Plan). Where: Low-income neighbourhoods (not named) (Neighbourhoods). People: Low-income households, Women. Evaluation: Not evaluated in the sources read. Evidence: Own account and independent reporting. Sources: https://www.who.foundation/post/in-india-a-plan-to-beat-the-heat-is-saving-lives https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-ahmedabad-uses-cool-roofs-misting-bus-stops-heat-insurance-for-climate-resilience https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2
+
+- [ahm-bus-stop] Misted cool bus stop at Lal Darwaza (Completed). A high-pressure misting system at one bus stop, installed by Mahila Housing Trust with the city. Lead: Mahila Housing Trust. With: Ahmedabad Municipal Corporation (partner). Where: Lal Darwaza bus stop (Named sites). People: Bus passengers. Evaluation: Mahila Housing Trust reports at least 4 to 7°C of relief; no independent measurement was found. Evidence: The organisation's own account. Sources: https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-ahmedabad-uses-cool-roofs-misting-bus-stops-heat-insurance-for-climate-resilience
+
+- [ahm-insurance] Heat insurance for women in informal work (Underway). A parametric insurance that pays women a fixed sum when temperatures cross set thresholds, so a lost day's earnings is partly covered without a claim. Launched in April 2024; a payout was triggered in May 2024. Lead: Mahila Housing Trust. Where: Ahmedabad (City-wide). People: Women in informal work. Evaluation: Not evaluated in the sources read. Evidence: Independent reporting. Sources: https://www.who.foundation/post/in-india-a-plan-to-beat-the-heat-is-saving-lives https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-ahmedabad-uses-cool-roofs-misting-bus-stops-heat-insurance-for-climate-resilience
+
+### Money that has been announced
+
+Each figure is attributed to whoever stated it and kept at the stage the source describes. A component is shown inside its parent, never added to it, and climate budgets are not counted as heat budgets. The figures are not summed.
+
+- ₹700,000: Total cost of the 2017 cool roof pilot. Spent: Given by NRDC as the programme's total cost for 2017. Heat-specific: yes.
+
+### What happened, and when
+
+- 2010 (event): A heat wave; experts later estimated heat contributed to more than 1,000 deaths.
+
+- 2013 (plan): The Heat Action Plan is launched, the first by a city in South Asia.
+
+- 2017 (delivery): Cool roof pilot on over 3,000 low-income homes.
+
+- April 2019 (plan): A city-wide cool roof programme in draft.
+
+- April 2024 (delivery): Heat insurance for women in informal work launched.
+
+- May 2024 (delivery): A temperature threshold is crossed and insurance payouts follow.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- Mahila Housing Trust (also MHT, Mahila Housing SEWA Trust): A women's housing organisation that runs the Cool Roofs Initiative in the city's heat plan, a misted bus stop with the city, and a heat insurance for women in informal work. Outside Ahmedabad: It works on heat plans in other cities (Churu and Varanasi, among others); that work is not counted here. Not known: How many roofs the initiative has coated since 2019, when NRDC gave a figure of over 100. How many women hold the heat insurance, and the total paid out.
+
+- Natural Resources Defense Council (NRDC), India programme (also NRDC): A partner of the Ahmedabad Municipal Corporation on the 2017 cool roof pilot and the city-wide programme that followed. Outside Ahmedabad: Its cool roof work in Telangana and elsewhere is counted on those cities' profiles. Not known: Its current role in the city's plan.
+
+- Indian Institute of Public Health Gandhinagar (also IIPH-G, IIPH Gandhinagar): A partner of the Ahmedabad Municipal Corporation on the 2017 cool roof pilot. Not known: Its current role in the plan and in evaluating it was not read for this profile.
+
+### Who has public authority to act
+
+- Ahmedabad Municipal Corporation (AMC): Leads the Heat Action Plan, first launched in 2013, and the city's cool roof programme.
+
+### What is not known
+
+- How many roofs have been coated city-wide since the 2017 pilot, and how many were maintained.
+
+- The current edition of the Heat Action Plan was not read for this profile; its partners and budget are not described here.
+
+- Whether the cool roofs, the misted bus stop or the insurance have been independently evaluated.
+
+- Gujarati-language sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+- Heat insurance terms: Down To Earth (June 2025) describes two thresholds of 43.7°C and 44.1°C, paying Rs 750 and a further Rs 1,250; the WHO Foundation (September 2024) describes one trigger of 44.2 ºC and Rs 2,000 a season. They may describe different seasons of the scheme.
+
 ## Bengaluru: who is doing what about heat?
 
 Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/bengaluru/who-is-doing-what/
@@ -6909,6 +7049,534 @@ One card per organisation, with its verified names. Membership of the Collective
 - Member names vary across sources: Socratus appears as Socratus, Socratus Corporation, Socratus Collective Wisdom Corporation and Socratus Foundation; Jan Sahas also as Jan Sahas Foundation and Jansahas.
 
 - KHPT describes itself joining ten organisations; WRI India counts eleven founding members including KHPT. These agree on the same eleven.
+
+## Bhubaneswar: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/bhubaneswar/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Bhubaneswar, and no organisation was contacted.
+
+Bhubaneswar, in a state long known for heatwave preparedness, launched an integrated heat and cooling plan in 2025 that links heat to the city's fast-growing demand for air conditioning, its lost water bodies and its building codes. It follows an earlier city heat action plan prepared with IRADe.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [bbs-ihcap] Integrated Heat and Cooling Action Plan (2025) (Planned). A plan linking heat and cooling demand: greening in all wards, strict use of the state's energy building codes, and projections of cooling demand to 2050. Lead: Bhubaneswar Municipal Corporation. With: International Forum for Environment, Sustainability and Technology (iFOREST) (developed the plan); Singapore-ETH Centre (collaborated). Where: All wards (One city corporation). People: Residents. Evaluation: Not evaluated; temperature reductions are modelled projections. Evidence: Independent reporting. Sources: https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303 https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/
+
+- [bbs-hap] Climate Adaptive Heat Action Plan (Completed). An earlier city heat action plan prepared by IRADe. Lead: Integrated Research and Action for Development (IRADe). Where: Bhubaneswar (City-wide). People: Residents. Evaluation: Not evaluated in the sources read. Evidence: The organisation's own account. Sources: https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf
+
+### Money that has been announced
+
+No announced money for heat work in Bhubaneswar was found in the sources reviewed.
+
+### What happened, and when
+
+- September 2025 (plan): Integrated Heat and Cooling Action Plan launched.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- International Forum for Environment, Sustainability and Technology (iFOREST) (also iFOREST): Developed the city's Integrated Heat and Cooling Action Plan with the corporation. Not known: Its role in carrying out the plan.
+
+- Singapore-ETH Centre (also SEC): Collaborated with iFOREST on the city's heat and cooling plan. Outside Bhubaneswar: Its Singapore work is listed on Singapore's page.
+
+- Integrated Research and Action for Development (IRADe) (also IRADe): Prepared an earlier Climate Adaptive Heat Action Plan for the city. Not known: How that plan was used.
+
+### Who has public authority to act
+
+- Bhubaneswar Municipal Corporation (BMC): Launched the Integrated Heat and Cooling Action Plan in September 2025.
+
+### What is not known
+
+- The city corporation's seasonal heatwave measures (helplines, water, shelters) were reported in 2025 but the reports could not be read for this profile.
+
+- Budgets and timelines for the 2025 plan's measures.
+
+- How Odisha's state heat action plan applies in the city was not read for this profile.
+
+- Odia-language sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+## Chennai: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/chennai/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Chennai, and no organisation was contacted.
+
+In Chennai the visible heat work is led from the state: Tamil Nadu has declared heat a disaster, and its green climate company is coating school roofs with UNEP. The city corporation has trained school staff, signed an agreement with CEEW to plan ward-level heat projects, and is folding heat mapping by UNEP and CEPT University into its master plan.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [che-school-roofs] Cool roofs on 55 schools (Underway). Reflective roof coatings on schools in areas vulnerable to high temperatures, with training for teachers and headmasters. Lead: Greater Chennai Corporation. With: TN Green Climate Company (implementing agency); UNEP and its Cool Coalition (partner). Where: 55 schools (49 Corporation, six government) (Named sites). People: Schoolchildren, Teachers. Evaluation: Earlier pilots were reported to lower classroom temperatures; no evaluation was read for this profile. Evidence: Independent reporting. Sources: https://www.dtnext.in/news/chennai/chennai-corporation-expands-cool-roof-initiative-to-55-schools-2
+
+- [che-ceew-pmu] Heat risk management unit with CEEW (Planned). A planned project management unit to identify, design and prioritise heat mitigation in heat-vulnerable wards and zones, with detailed project reports. Lead: Greater Chennai Corporation. With: Council on Energy, Environment and Water (CEEW) (partner under the agreement). Where: Heat-vulnerable wards and zones (Wards). People: Residents. Evaluation: Not applicable yet. Evidence: Independent reporting. Sources: https://www.dtnext.in/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience
+
+- [che-heat-map] City heat mapping for the master plan (Underway). A map of the city's hottest areas and recommendations being integrated into the master plan. Lead: UNEP and its Cool Coalition. With: CEPT University (mapped the city). Where: Chennai (City-wide). People: Residents. Evaluation: The 4°C figure is a projection, not a measured result. Evidence: The organisation's own account. Sources: https://india.un.org/en/node/295625
+
+### Money that has been announced
+
+No announced money for heat work in Chennai was found in the sources reviewed.
+
+### What happened, and when
+
+- June 2025 (plan): UNEP reports its heat mapping with CEPT University is being folded into the master plan.
+
+- June 2026 (delivery): School cool roofs expand to 55 schools; five completed.
+
+- July 2026 (plan): Agreement with CEEW on heat risk management.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- UNEP and its Cool Coalition (also United Nations Environment Programme): Partner on the school cool roofs, and mapped the city's heat with CEPT University.
+
+- Council on Energy, Environment and Water (CEEW) (also CEEW): Signed an agreement with the corporation to set up a unit that prioritises and designs heat projects in vulnerable wards. Not known: Whether the unit has been set up.
+
+- CEPT University: Mapped Chennai's heat with UNEP's Cool Coalition.
+
+### Who has public authority to act
+
+- Greater Chennai Corporation (GCC, Chennai Corporation): Runs the school cool roof expansion locally and signed the heat agreement with CEEW.
+
+- TN Green Climate Company (TNGCC): The Tamil Nadu company through which the school cool roofs are implemented, under the TN Climate Change Mission.
+
+- Government of Tamil Nadu: Has declared heat a disaster.
+
+### What is not known
+
+- Whether Chennai has a city heat action plan of its own; the Chennai Climate Action Plan and Tamil Nadu's urban cooling guidelines were found but not read for this profile.
+
+- Budgets for the school roofs and the planned unit.
+
+- What declaring heat a disaster has unlocked in money or rules for the city.
+
+- Tamil-language sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+## Delhi: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/delhi/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Delhi, and no organisation was contacted.
+
+Delhi's 2025 Heat Action Plan promised graded alerts, thousands of water coolers, hospital heatstroke units and cool roof pilots. Reporters and researchers found much of it hard to see on the ground, and found that heat cannot draw on the disaster fund. Worker organisations and researchers have filled in what the plan does not measure: lost hours, lost income and markets with no water.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [del-hap] Heat Action Plan 2025: graded alerts and hospital heatstroke units (Announced). Graded heat alerts from an early warning system built with the IMD, and air-conditioned units in hospitals for heatstroke and dehydration. Lead: Government of Delhi and the Delhi Disaster Management Authority. With: India Meteorological Department (developed the alert system); National Disaster Management Authority (named as a partner). Where: Delhi (City-wide). People: Residents, Patients. Evaluation: Not evaluated. Evidence: Independent reporting. Sources: https://iifiir.org/en/news/india-delhi-government-unveils-its-heat-action-plan-hap-2025 https://theprint.in/environment/what-delhi-govts-2025-heat-action-plan-promises-what-it-misses/2601632
+
+- [del-water] Water coolers, cooling shelters and bus shelters (Announced). Nearly 3,000 water coolers, cooling shelters on roads and shaded footpaths, and bus shelters with drinking water, as promised in the plan. A transport union told reporters none of the bus shelter measures was in action. Lead: Government of Delhi and the Delhi Disaster Management Authority. With: Delhi Transport Corporation (asked to provide bus shelters with drinking water). Where: Delhi (City-wide). People: Commuters, Outdoor workers. Evaluation: Not evaluated; delivery not documented in the sources read. Evidence: Independent reporting. Sources: https://theprint.in/environment/what-delhi-govts-2025-heat-action-plan-promises-what-it-misses/2601632 https://www.newslaundry.com/2025/04/25/good-measures-poor-implementation-no-legal-teeth-can-delhis-heat-action-plan-face-the-heat
+
+- [del-cool-roofs] Cool roof pilots in public buildings and slums (Proposed). Pilots at the Delhi Secretariat and two inter-state bus terminals, and a proposed pilot of white roof painting or gunny bags on tin and asbestos roofs in slums. Lead: Government of Delhi and the Delhi Disaster Management Authority. Where: Delhi Secretariat, Kashmere Gate ISBT, Anand Vihar ISBT; slums (not named) (Named sites). People: Slum residents. Evaluation: Not evaluated. A housing rights worker said in April 2025 that no slum roof action had been implemented as far as they knew. Evidence: Independent reporting. Sources: https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat https://www.newslaundry.com/2025/04/25/good-measures-poor-implementation-no-legal-teeth-can-delhis-heat-action-plan-face-the-heat
+
+- [del-cse-wards] Ward-level heat stress analysis (Completed). An analysis of heat stress across Delhi's wards from 2015 to 2024, naming the most stressed and most vulnerable wards. Lead: Centre for Science and Environment. Where: All wards (Wards). People: Residents. Evaluation: Not applicable. Evidence: The organisation's own account. Sources: https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat
+
+- [del-wiego-survey] Street vendor survey around the 2025 heatwave (Completed). A two-round survey of street vendors and a mapping of 17 markets, covering working hours, water, heat alerts, illness and borrowing. Lead: WIEGO (Women in Informal Employment: Globalizing and Organizing). With: Self Employed Women's Association (SEWA) (named as a source of support for some women vendors). Where: 17 major markets (Named sites). People: Street vendors, Women. Evaluation: Not applicable. Evidence: Independent reporting. Sources: https://www.downtoearth.org.in/governance/heatwave-cuts-working-hours-for-90-per-cent-of-delhi-street-vendors-survey-finds
+
+- [del-gp-survey] Heatwave Havoc: street vendor survey (Completed). A survey of over 700 street vendors on awareness, guidance, medical help and lost income in heatwaves, with recommendations to the plan's authority. Lead: Greenpeace India. With: National Hawkers Federation (collected responses with volunteers). Where: Delhi (City-wide). People: Street vendors. Evaluation: Not applicable. Evidence: The organisation's own account. Sources: https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/
+
+- [del-roof-paint-study] Study of heat-reflective roof paint in informal settlements (Stage not stated). A study of whether heat-reflective roof paint lowers indoor temperatures in Delhi homes. Lead: Mahila Housing Trust. With: Energy Policy Institute at the University of Chicago (EPIC-India) (research partner). Where: Informal settlements (not named) (Neighbourhoods). People: Low-income households. Evaluation: Results not found. Evidence: Independent reporting. Sources: https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/ (archived copy: https://web.archive.org/web/20260607164821/https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/)
+
+- [del-igsss-panels] Wall panel pilot in thirty homes (Completed). Thirty houses fitted with panels on their walls, April 2022 to March 2023. Lead: Indo-Global Social Service Society (IGSSS). Where: Delhi (settlement not named in the source) (Named sites). People: Low-income households. Evaluation: Results not given in the source read. Evidence: Independent reporting. Sources: https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/ (archived copy: https://web.archive.org/web/20260607164821/https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/)
+
+### Money that has been announced
+
+Each figure is attributed to whoever stated it and kept at the stage the source describes. A component is shown inside its parent, never added to it, and climate budgets are not counted as heat budgets. The figures are not summed.
+
+- ₹2,500 lakh: Delhi's State Disaster Response Fund for 2025-26 (up from ₹300 lakh in 2024-25). Allocated: As reported by Newslaundry. Heat is not a notified disaster, so the fund is largely out of reach for heat work. Heat-specific: no.
+
+### What happened, and when
+
+- April 2022 (delivery): IGSSS wall panel pilot begins in thirty homes (to March 2023).
+
+- June 2024 (event): Greenpeace India and the National Hawkers Federation publish their street vendor survey.
+
+- 21 April 2025 (plan): Delhi Heat Action Plan 2025 launched.
+
+- August 2025 (event): CSE's ward analysis published in Down To Earth.
+
+- March 2026 (event): WIEGO's street vendor survey findings reported.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- Centre for Science and Environment (also CSE): Analysed heat stress across Delhi's wards from 2015 to 2024 and proposed ways to pay for cooling the most exposed. Outside Delhi: Its Kolkata analysis is counted on Kolkata's profile. Not known: Whether any authority has used its ward analysis.
+
+- WIEGO (Women in Informal Employment: Globalizing and Organizing) (also WIEGO): Surveyed Delhi street vendors in two rounds around the 2025 heatwave and mapped conditions in 17 markets. Not known: The survey's sample size, not given in the report read.
+
+- Greenpeace India: Surveyed over 700 Delhi street vendors with the National Hawkers Federation and asked the plan's authority to consult outdoor workers.
+
+- National Hawkers Federation: Collected Delhi street vendors' responses with Greenpeace India volunteers. Not known: Its own website was not identified.
+
+- Self Employed Women's Association (SEWA) (also SEWA): Named in WIEGO's survey as an organisation through which some women vendors had better support in the heat. Not known: What support SEWA provided in Delhi; the survey report does not say.
+
+- Mahila Housing Trust (also MHT): Studying, with University of Chicago researchers, whether heat-reflective roof paint lowers indoor temperatures in Delhi. Outside Delhi: Its Ahmedabad work is counted on Ahmedabad's profile. Not known: The study's dates, size and results.
+
+- Indo-Global Social Service Society (IGSSS) (also IGSSS): Fitted thirty Delhi houses with wall panels in a pilot from April 2022 to March 2023. Not known: The pilot's measured results.
+
+### Who has public authority to act
+
+- Government of Delhi and the Delhi Disaster Management Authority (DDMA): Launched the Delhi Heat Action Plan 2025.
+
+- India Meteorological Department (IMD): Developed the graded alert system with the Delhi government.
+
+- National Disaster Management Authority (NDMA): Named as working with the Delhi government on the plan.
+
+- Delhi Transport Corporation (DTC): Asked by the plan to provide bus shelters with drinking water.
+
+### What is not known
+
+- How many of the promised water coolers, shelters and cool roofs were installed, and where.
+
+- Whether the hospital heatstroke units opened, and how many patients they treated.
+
+- The plan document itself was not read for this profile; departmental roles are described from reporting.
+
+- Results of the roof paint study and the wall panel pilot.
+
+- Hindi-language sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+## Dhaka: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/dhaka/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Dhaka, and no organisation was contacted.
+
+Dhaka has two strands of heat work. Dhaka North appointed Asia's first city Chief Heat Officer in 2023, with water booths, plans for cooling zones and greening. The Red Crescent has the most tested system: an early action protocol that, in April 2024, released cash, cooling stations and water before the worst heat. A city heat action plan is still proposed.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [dha-eap] Red Crescent early action for heatwaves (Completed). A protocol that releases money and action once a heat forecast crosses a threshold. In April 2024 it was activated for the first time: cash grants, cooling stations at three locations, ambulance support, early warnings and drinking water. Lead: Bangladesh Red Crescent Society. With: International Federation of Red Cross and Red Crescent Societies (IFRC) (funded the activation). Where: Adabor, Gendaria, Kamrangir Char, Lalbagh, Mohammadpur and Pallabi; warnings city-wide (Neighbourhoods). People: Older people, Outdoor workers, Slum residents. Evaluation: A post-activation report exists but was not read for this profile. Evidence: The organisation's own account. Sources: https://anticipation-hub.org/news/the-bangladesh-red-crescent-society-activates-its-early-action-protocol-for-heatwaves-in-dhaka https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/
+
+- [dha-urban-rc] Urban heat support with the German and Danish Red Cross (Planned). Work with urban working-class people, with planned healthcare and cash grants for vulnerable families. Lead: Bangladesh Red Crescent Society. With: German Red Cross (partner); Danish Red Cross (partner). Where: Dhaka (City-wide). People: Low-income workers. Evaluation: Not evaluated. Evidence: Independent reporting. Sources: https://www.eco-business.com/ms/news/can-new-bangladesh-chief-heat-officer-bring-relief-to-dhaka/
+
+- [dha-cho] Chief Heat Officer and city heat measures (Underway). A Chief Heat Officer to lead Dhaka North's heat response, with 100 water booths, planned cooling zones, tree planting, parks and a tax incentive for rooftop gardens. Lead: Dhaka North City Corporation. With: Atlantic Council Climate Resilience Center (formerly Arsht-Rock) (initiative partner); Shakti Foundation (local partner). Where: Dhaka North (One city corporation). People: Residents, Low-income neighbourhoods. Evaluation: Not evaluated. Evidence: Own account and independent reporting. Sources: https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/ https://www.eco-business.com/ms/news/can-new-bangladesh-chief-heat-officer-bring-relief-to-dhaka/
+
+- [dha-iclei] Climate action plans for both city corporations (Underway). Climate action plans for Dhaka North and Dhaka South. Lead: ICLEI South Asia. Where: Dhaka North and Dhaka South (City-wide). Evaluation: Not applicable. Evidence: Independent reporting. Sources: https://www.eco-business.com/ms/news/can-new-bangladesh-chief-heat-officer-bring-relief-to-dhaka/
+
+- [dha-heat-map] City heat mapping for a proposed Heat Action Plan (Underway). A year of microclimate data from more than 20 points (parks, slums, water bodies and built-up areas) to inform a proposed Heat Action Plan and the National Adaptation Plan. Lead: Institute of Water Modelling. With: Department of Environment, Bangladesh (the study is conducted under it). Where: More than 20 points across the capital (Named sites). Evaluation: Not applicable. Evidence: Independent reporting. Sources: https://today.thefinancialexpress.com.bd/print/a-data-driven-push-to-beat-urban-boil-1753202222
+
+### Money that has been announced
+
+Each figure is attributed to whoever stated it and kept at the stage the source describes. A component is shown inside its parent, never added to it, and climate budgets are not counted as heat budgets. The figures are not summed.
+
+- CHF 499,930: The April 2024 heatwave early actions in Dhaka. Approved: From the IFRC's Disaster Response Emergency Fund, as stated at activation; spending is in the post-activation report, not read here. Heat-specific: yes.
+
+### What happened, and when
+
+- May 2023 (authority): Dhaka North appoints a Chief Heat Officer.
+
+- 21 April 2024 (delivery): The Red Crescent activates its heatwave early action protocol for the first time.
+
+- April 2024 (event): City heat data collection begins at more than 20 points.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- Bangladesh Red Crescent Society (also BDRCS): Activated its heatwave early action protocol in Dhaka in April 2024, with cash grants, cooling stations, ambulances and water. Not known: How many people received each kind of support in 2024 (a post-activation report exists but was not read).
+
+- International Federation of Red Cross and Red Crescent Societies (IFRC) (also IFRC): Its Disaster Response Emergency Fund paid for the April 2024 early actions.
+
+- Atlantic Council Climate Resilience Center (formerly Arsht-Rock) (also Arsht-Rock): Partner in Dhaka North's Chief Heat Officer initiative. Not known: The terms of its support.
+
+- Shakti Foundation: Local partner in the Chief Heat Officer initiative. Not known: Its heat activities in the city.
+
+- ICLEI South Asia (also ICLEI): Preparing climate action plans for Dhaka's two city corporations (2023). Not known: Whether the plans were completed and how they treat heat.
+
+- Institute of Water Modelling (also IWM): Collected a year of heat data across the capital for the Department of Environment. Not known: Whether the study has been published.
+
+### Who has public authority to act
+
+- Dhaka North City Corporation (DNCC): Appointed a Chief Heat Officer in 2023; runs water booths and greening plans.
+
+- Department of Environment, Bangladesh (DoE): Oversees the city heat mapping study that is to inform a proposed Heat Action Plan.
+
+### What is not known
+
+- Dhaka South City Corporation's heat work was not found in the sources reviewed.
+
+- Whether the proposed Heat Action Plan has been drafted.
+
+- What the Chief Heat Officer's office has delivered since 2023; most reporting found is from 2023.
+
+- Bangla-language sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+- People targeted by the April 2024 early actions: 123,700 (Anticipation Hub) or 124,000 (Climate Centre).
+
+## Hyderabad: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/hyderabad/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Hyderabad, and no organisation was contacted.
+
+Hyderabad tested cool roofs on 25 homes in 2017, and Telangana turned that into India's first state cool roof policy in 2023, with targets and a building permit rule. Each summer the state heatwave plan and the city corporation add water kiosks, health camps and warnings on junction screens, though the plan is advisory.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [hyd-pilot] Cool roof pilot on 25 homes (2017) (Evaluated). Cool roofs on 25 homes in one low-income neighbourhood, measured against homes without them. Lead: Greater Hyderabad Municipal Corporation. With: Administrative Staff College of India (ASCI) (partner); IIIT Hyderabad (partner); Natural Resources Defense Council (NRDC), India programme (partner). Where: One low-income neighbourhood (not named) (Neighbourhoods). People: Low-income households. Evaluation: Indoor air on average 2°C cooler; 76% of residents in the trial group satisfied (NRDC's account). Evidence: The organisation's own account. Sources: https://www.nrdc.org/bio/anjali-jaiswal/keeping-it-cool-models-city-cool-roof-programs
+
+- [hyd-policy] Telangana Cool Roofs Policy 2023-2028 (Underway). State targets for cool roofs, a rule in building permits, mandatory coatings in government low-cost housing, and delivery to low-income homes through city heat plans. Lead: Municipal Administration and Urban Development Department, Telangana. With: Natural Resources Defense Council (NRDC), India programme (working with the state); Administrative Staff College of India (ASCI) (working with the state); IIIT Hyderabad (working with the state). Where: Telangana, 200 sq km of it in Hyderabad (State). People: Building owners, Low-income households. Evaluation: Progress against the targets was not found. Evidence: Own account and independent reporting. Sources: https://theprint.in/india/governance/with-scheme-for-cool-roofs-that-absorb-less-sunlight-telangana-wages-battle-on-urban-warming/1494284 https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy
+
+- [hyd-materials] Roof material testing (Underway). Twenty roof materials exposed on rooftop racks over five years in four cities, to see how they hold up. Lead: IIIT Hyderabad. Where: Hyderabad and three other cities (Named sites). Evaluation: Not reported. Evidence: The organisation's own account. Sources: https://blogs.iiit.ac.in/?p=9890
+
+- [hyd-state-hap] Telangana Heatwave Action Plan 2025 (Announced). The state plan that sets what departments do once temperatures cross 40°C: treatment in health centres, changed work hours, free drinking water stands. Lead: Revenue (Disaster Management) Department, Telangana. With: India Meteorological Department (inputs); UNICEF (inputs); Greater Hyderabad Municipal Corporation (acts under the plan in the city). Where: Telangana (State). People: Residents, Outdoor workers. Evaluation: Not evaluated. The measures are directory, without legal backing. Evidence: Independent reporting. Sources: https://www.thenewsminute.com/telangana/telangana-has-a-heatwave-action-plan-but-does-it-meet-peoples-needs
+
+- [hyd-ghmc-summer] Summer heat preparedness in the city (2026) (Underway). Drinking water kiosks, coordination with urban health centres and Basti Dawakhanas, medical camps at construction sites and heat warnings on junction screens. Lead: Greater Hyderabad Municipal Corporation. With: India Meteorological Department (source of the warnings). Where: Select locations and major junctions (One city corporation). People: Construction workers, Residents. Evaluation: Not evaluated. Evidence: Independent reporting. Sources: https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197
+
+### Money that has been announced
+
+No announced money for heat work in Hyderabad was found in the sources reviewed.
+
+### What happened, and when
+
+- 2017 (delivery): Cool roof pilot on 25 homes.
+
+- 1 April 2023 (plan): Telangana Cool Roofs Policy takes effect.
+
+- 2 May 2025 (plan): Telangana Heatwave Action Plan 2025 released.
+
+- April 2026 (delivery): City summer preparedness plan in place.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- Administrative Staff College of India (ASCI) (also ASCI): A partner on the 2017 cool roof pilot and on the state cool roof policy.
+
+- IIIT Hyderabad (also IIIT-H): A partner on the 2017 pilot and the policy; tests roof materials on rooftop racks. Not known: Results of the five-year material tests.
+
+- Natural Resources Defense Council (NRDC), India programme (also NRDC): A partner on the 2017 pilot and the state cool roof policy. Outside Hyderabad: Its Ahmedabad work is counted on Ahmedabad's profile.
+
+- UNICEF: Its Hyderabad field office gave inputs to Telangana's Heatwave Action Plan 2025.
+
+### Who has public authority to act
+
+- Greater Hyderabad Municipal Corporation (GHMC): Ran the 2017 cool roof pilot and acts under the state heatwave plan each summer.
+
+- Municipal Administration and Urban Development Department, Telangana (MAUD): Leads the Telangana Cool Roofs Policy.
+
+- Revenue (Disaster Management) Department, Telangana: Prepared the Heatwave Action Plan 2025.
+
+- India Meteorological Department (IMD): Gave inputs to the state plan; its warnings are shown on city junction boards.
+
+### What is not known
+
+- How many square kilometres of cool roofs have been installed against the policy targets.
+
+- Whether a Hyderabad city heat action plan exists separately from the state plan.
+
+- Budgets for the summer measures.
+
+- Telugu and Urdu sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+- Residential threshold of the cool roof mandate: NRDC gives 600 sq. m of plot area; ThePrint gives 600 square yards.
+
+## Kathmandu: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/kathmandu/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Kathmandu, and no organisation was contacted.
+
+Kathmandu is cooler than the lowland cities on this site, but it set a temperature record in 2024 and its core runs several degrees hotter than the valley around it. The sources reviewed show research and calls for action rather than a city heat programme: no heat action plan was found for the city, and the most concrete public works are greening and a pavement trial next door in Lalitpur.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [ktm-greening] Urban green spaces, tree planting and community forests (Underway). Greening work in the valley reported as underway; who leads it is not named in the source. Lead: not named in the sources. Where: Kathmandu Valley (District). People: Residents. Evaluation: Not evaluated. Evidence: Independent reporting. Sources: https://theannapurnaexpress.com/story/50434
+
+- [ktm-pavements] Permeable pavement trial in Lalitpur (Completed). Permeable pavements tested in Lalitpur Metropolitan, next to Kathmandu. Lead: not named in the sources. With: Lalitpur Metropolitan City (where the test took place). Where: Lalitpur Metropolitan City (Named sites). Evaluation: Results not given in the source read. Evidence: Independent reporting. Sources: https://kathmandupost.com/columns/2025/06/17/the-growing-risks-of-extreme-heat
+
+- [ktm-wb-report] World Bank analysis of heat in South Asia's cities (Completed). Measured the city core's heat against the valley and recommended heritage site retrofits and heat-resilient building standards. Lead: World Bank. Where: Kathmandu Valley (District). Evaluation: Not applicable. Evidence: Independent reporting. Sources: https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates
+
+### Money that has been announced
+
+No announced money for heat work in Kathmandu was found in the sources reviewed.
+
+### What happened, and when
+
+- June 2024 (event): Kathmandu records 35.3°C, its highest on record.
+
+- July 2026 (event): World Bank report on heat in South Asia's cities.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- People's Courage International: Details held back until the source check confirms them.
+
+- World Bank: Its 2026 report on heat in South Asia's cities measured Kathmandu's urban heat and recommended heritage site retrofits. Not known: Whether any project has followed.
+
+- UN-Habitat Nepal: Its staff called for early warning and preparedness in 2025; a heat activity of its own in Kathmandu was not identified in the sources reviewed. Outside Kathmandu: Its school pilot in Dang is outside Kathmandu and not counted here.
+
+### Who has public authority to act
+
+- Lalitpur Metropolitan City: Where permeable pavements were tested, in the Kathmandu Valley.
+
+### What is not known
+
+- Whether Kathmandu Metropolitan City has any heat plan or seasonal measures; none was found.
+
+- Whether the Department of Hydrology and Meteorology issues heat warnings for the valley.
+
+- Health, worker and community organisations acting on heat in the city; none was found beyond the studies listed.
+
+- Nepali-language sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+### Held back after the source check
+
+- Survey of migrant workers in the heat
+
+## Kolkata: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/kolkata/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Kolkata, and no organisation was contacted.
+
+For Kolkata, the sources reviewed show more analysis than action: research on where heat is most severe and on lost water bodies and greenery, a state heat wave plan, and repeated calls for a city plan. No Kolkata Municipal Corporation heat action plan was found.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [kol-cse-zones] Heat zone and land cover assessment (Completed). Maps of very severe and severe heat zones across the municipal area, and measures of lost water bodies and vegetation. Lead: Centre for Science and Environment. Where: Kolkata Municipal Corporation area (One city corporation). People: Residents. Evaluation: Not applicable. Evidence: The organisation's own account. Sources: https://cdn.cseindia.org/attachments/0.91719500_1772510583_kolkata-va.pdf https://www.downtoearth.org.in/news/climate-change/it-has-been-a-sizzling-april-for-kolkata-combination-of-climate-change-urbanisation-pushing-city-beyond-tipping-point-95939
+
+- [kol-wb-hap] West Bengal Heat Wave Action Plan (Announced). The state plan that sets departmental duties in a heat wave. Lead: Disaster Management department, Government of West Bengal. Where: West Bengal (State). People: Residents. Evaluation: Not evaluated. A study of nine cities including Kolkata found most measures were seasonal or reactive. Evidence: The organisation's own account. Sources: https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf https://www.eco-business.com/ms/news/why-indias-heat-action-plans-arent-cooling-cities/
+
+### Money that has been announced
+
+No announced money for heat work in Kolkata was found in the sources reviewed.
+
+### What happened, and when
+
+- May 2024 (event): After a hot April, scientists call for a city heat action plan.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- Centre for Science and Environment (also CSE): Mapped heat zones across the municipal area and measured the loss of water bodies and vegetation. Outside Kolkata: Its Delhi analysis is counted on Delhi's profile. Not known: Whether the city has used the assessment.
+
+### Who has public authority to act
+
+- Kolkata Municipal Corporation (KMC): The city corporation; the area of the heat zone assessment.
+
+- Disaster Management department, Government of West Bengal: Prepared the state Heat Wave Action Plan.
+
+### What is not known
+
+- Whether the Kolkata Municipal Corporation has a heat action plan; none was found.
+
+- Who in the city runs water points, shelters or health measures in a heat wave; no city-specific source was read.
+
+- Worker, community and health organisations working on heat in Kolkata; none was found in the sources reviewed, which says more about the search than the city.
+
+- Bengali-language sources were not searched systematically for this first version.
+
+### Where sources disagree
+
+## Mumbai: who is doing what about heat?
+
+Who is working on heat in the city, what exactly they are doing, what anyone can use, and what is still only planned. Built from public sources, each line checked against its source. Page: https://beattheheat.asia/cities/mumbai/who-is-doing-what/
+
+Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Mumbai, and no organisation was contacted.
+
+Mumbai has a climate action plan that names urban heat, a climate budget and a heat implementation pathway written with C40, but no standalone heat action plan was found. Reporters describe a climate cell short of staff and parks closed in the hottest hours; volunteers and a small design firm work on cooling homes in informal settlements.
+
+### Who is doing what
+
+Each card is one piece of work. The lead is named only where a source names one; collaborators carry the role a source gives them. A joint project appears once, under all its partners.
+
+Distinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
+
+- [mum-mcap] Mumbai Climate Action Plan and Climate Action Cell (Underway). The city's climate plan, launched in 2022, which places heatwaves under urban heat, and a Climate Action Cell to carry it out. Lead: Brihanmumbai Municipal Corporation. With: WRI India (drafted the plan; set up the cell with the corporation). Where: Mumbai (One city corporation). People: Residents. Evaluation: Not evaluated. Citizen Matters reported in August 2024 that little had moved. Evidence: Independent reporting. Sources: https://themigrationstory.com/post/big-budgets-and-plans-but-mumbais-climate-preparedness-misses-the-margins/ https://citizenmatters.in/mcap-climate-change-heat-mumbai/
+
+- [mum-pathway] Implementation pathway to address heat (Completed). A roadmap for heat in buildings: hotspots ground-truthed in three areas, reflective materials, nature-based solutions and protections for construction workers, meant to bring heat into city rules. Lead: Brihanmumbai Municipal Corporation. With: C40 Cities (supported); Tarutium Global Consulting (supported). Where: Three areas (not named in the summary read) (Neighbourhoods). People: Construction workers, Residents. Evaluation: Not applicable; adoption into rules not found. Evidence: The organisation's own account. Sources: https://udri.org/library/mumbai-heat-risk-summary/
+
+- [mum-slum-cooling] Low-cost cooling for homes in informal settlements (Stage not stated). Low-cost designs to lower indoor temperatures in slum homes, and a volunteer group working on heat. Lead: cBalance. With: Heatwave action coalition (volunteer group named alongside). Where: Informal settlements (not named) (Neighbourhoods). People: Slum residents. Evaluation: Not evaluated. Evidence: Independent reporting. Sources: https://citizenmatters.in/mcap-climate-change-heat-mumbai/
+
+### Money that has been announced
+
+Each figure is attributed to whoever stated it and kept at the stage the source describes. A component is shown inside its parent, never added to it, and climate budgets are not counted as heat budgets. The figures are not summed.
+
+- ₹17,000 crore: The corporation's second climate budget (37% of capital expenditure). Allocated: A climate budget, reported by The Migration Story; the heat share is not stated. The corporation reported 86.26% financial progress on its 2024-25 climate budget. Heat-specific: no: a climate budget, not a heat budget.
+
+### What happened, and when
+
+- 2022 (plan): Mumbai Climate Action Plan launched.
+
+- August 2024 (event): Reporting finds little movement on the plan since the change in power.
+
+- March 2025 (event): Reporting notes parks stay shut in the afternoon during a heatwave.
+
+- June 2025 (authority): Four of 41 Climate Action Cell posts filled.
+
+### Organisations
+
+One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
+
+- WRI India (also World Resources Institute): Drafted the Mumbai Climate Action Plan and set up the corporation's Climate Action Cell with it. Outside Mumbai: Its Bengaluru work is counted on Bengaluru's profile. Not known: Its current role in the cell.
+
+- C40 Cities: Supported the corporation's heat implementation pathway.
+
+- Tarutium Global Consulting (also formerly TARU Leading Edge): Supported the corporation's heat implementation pathway.
+
+- cBalance: Designs low-cost ways to lower indoor temperatures in slum homes. Not known: Where in Mumbai its designs have been used.
+
+- Heatwave action coalition: A volunteer group named in reporting on Mumbai's heat. Not known: Its members, activities and website were not found.
+
+### Who has public authority to act
+
+- Brihanmumbai Municipal Corporation (BMC, MCGM): Owns the Mumbai Climate Action Plan, the climate budget and the heat implementation pathway.
+
+### What is not known
+
+- Whether Mumbai has adopted a standalone heat action plan; none was found.
+
+- The date of the heat implementation pathway, and whether it has entered building rules.
+
+- How much of the climate budget goes to heat.
+
+- Marathi-language sources were not searched systematically for this first version.
+
+### Where sources disagree
 
 ## Heat from field to factory
 https://beattheheat.asia/cotton-and-heat/
@@ -7871,7 +8539,7 @@ See what we are learning, what is changing, and how it connects to protection fr
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1123 of 1956 works dated; 808 have no established date yet, 25 only an "online by" date; 472 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1123 of 1956 works dated; 808 have no established date yet, 25 only an "online by" date; 482 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
 - Before 2024: 471 works. Financing: 81; Institutions and plans: 64; Practical measures: 100; Experience: 23; Evidence: 203.
 

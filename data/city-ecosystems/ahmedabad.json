@@ -9,6 +9,7 @@
  "slug": "who-is-doing-what",
  "title": "Ahmedabad: who is doing what about heat?",
  "batch": "city-ecosystems",
+ "claim_scope": "Ahmedabad",
  "researched": "2026-11-28",
  "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Ahmedabad, and no organisation was contacted.",
  "orientation": [
@@ -105,8 +106,8 @@
     "Its current role in the plan and in evaluating it was not read for this profile."
    ],
    "outside": null,
-   "id": "iiphg",
-   "network": "iiphg",
+   "id": "indianinstituteofpublich",
+   "network": "indianinstituteofpublich",
    "name": "Indian Institute of Public Health Gandhinagar",
    "type": "health",
    "based": "Gandhinagar",
@@ -179,7 +180,7 @@
      "partner"
     ],
     [
-     "iiphg",
+     "indianinstituteofpublich",
      "partner"
     ],
     [

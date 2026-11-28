@@ -42,6 +42,8 @@ Cycle | Why here | One action that breaks it |
 - C40 Cities
 - HDFC Life (Swabhimaan CSR)
 - ICLEI South Asia
+- Tarutium Global Consulting (formerly TARU Leading Edge)
+- cBalance
 
 Listing does not imply partnership, affiliation or endorsement.
 

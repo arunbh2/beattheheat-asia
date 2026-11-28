@@ -66,4 +66,4 @@ coalition section and the membership tags. An empty `tools` list leaves out the 
 says no announced money was found, describing the sources, not the city. A money record may carry `label` for an
 amount in another currency or written as the source gives it (`"CHF 499,930"`, `"₹700,000"`). `method_note` adds a
 line to "How this was made"; `city_use` on a tool replaces `bengaluru_use`. The India heat action plan archive link
-shows only when `country` is India.
+shows only when `country` is India. `claim_scope` names the `where` value of the profile's own claims in a shared batch, so each page counts and cites only its own.
