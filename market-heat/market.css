@@ -1,0 +1,30 @@
+/* Heat in markets and street vending: what differs from Heat inside factories (factory-heat/factory.css, loaded first).
+   The market plan's layout, the time-of-day toggle, one more evidence type and the one-page worksheet. */
+.mh-plan { grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr) minmax(0, 1fr); grid-template-areas: "rest loading toilets" "water produce toilets" "water produce edge"; }
+.mh-zone--produce { grid-area: produce; min-height: 190px; background: color-mix(in srgb, var(--ember) 8%, var(--white)); }
+.mh-zone--loading { grid-area: loading; background: color-mix(in srgb, var(--ember) 8%, var(--white)); }
+.mh-zone--toilets { grid-area: toilets; }
+.mh-zone--water { grid-area: water; background: color-mix(in srgb, var(--break) 8%, var(--white)); }
+.mh-zone--edge { grid-area: edge; border-style: dashed; }
+.mh-zone--rest { grid-area: rest; background: color-mix(in srgb, var(--break) 8%, var(--white)); }
+@media (max-width: 600px) {
+  .mh-plan { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "loading loading" "produce produce" "water toilets" "rest edge"; }
+  .mh-zone--produce { min-height: 92px; }
+}
+.fh-timebar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); margin: var(--s-3) 0 0; }
+.fh-timebar__l { font-size: var(--fs-14); line-height: 1.4; color: var(--grey-700); }
+.fh-timebar .fh-btn[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--white); }
+.mh-when { margin: 0 0 var(--s-2); padding: var(--pad-compact); border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--sand-50); font-size: var(--fs-14); line-height: 1.5; }
+.fh-tag--study { border-color: var(--ev-limited); }
+.mhw-q { font-size: var(--fs-12); line-height: 1.4; color: var(--grey-700); }
+.mhw .fhw-grid tbody td { height: 52px; }
+@media print {
+  .fh-timebar { display: none !important; }
+  .mh-when[hidden] { display: block !important; }
+  .mhw .fhw-lede { font-size: var(--fs-14); margin: 4px 0; }
+  .mhw .fhw-h { font-size: var(--fs-18); }
+  .mhw .fhw-part { margin-top: 6px; }
+  .mhw .fhw-part h2 { font-size: var(--fs-14); margin-bottom: 4px; }
+  .mhw .fhw-grid tbody td { height: 46px; }
+  .mhw .fhw-checks { gap: 2px; font-size: var(--fs-12); }
+}

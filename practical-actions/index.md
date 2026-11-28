@@ -1,7 +1,7 @@
 ---
 title: "Practical actions against extreme heat, by setting | Common Shade"
 url: https://beattheheat.asia/practical-actions/
-updated: 2026-11-26
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -572,7 +572,7 @@ Evidence: Measured in a study · Before the season
 
 ## What could a heat-resilient market look like?
 
-Illustrative setting, not a survey of a specific place. These are possibilities to explore, not a guarantee of protection. What works depends on local conditions and the people using the space. [Explore it as a drawing](https://beattheheat.asia/practical/#market)
+Illustrative setting, not a survey of a specific place. These are possibilities to explore, not a guarantee of protection. What works depends on local conditions and the people using the space. [Explore it as a drawing](https://beattheheat.asia/practical/#market) · [Heat in markets and street vending: a market plan, measures and a worksheet](https://beattheheat.asia/market-heat/)
 
 ### Stall canopy: Shade where people trade and wait
 

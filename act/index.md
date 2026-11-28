@@ -1,7 +1,7 @@
 ---
 title: "Act"
 url: https://beattheheat.asia/act/
-updated: 2026-11-20
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -30,6 +30,7 @@ What can be done, in which setting, by whom, and what keeps it working.
 
 - [Cooling optionsWhat to build where people areOn the path for: Employers](https://beattheheat.asia/cooling-options/)
 - [Heat inside factoriesSources, protection and an intervention library, with garment factories as the worked example](https://beattheheat.asia/factory-heat/)
+- [Heat in markets and street vendingStalls, porters, toilets and shade: a market plan by time of day, an intervention library and a worksheet](https://beattheheat.asia/market-heat/)
 - [Heat from field to factoryCotton from field to gin: who can stop work in the heat, and who pays for protection](https://beattheheat.asia/cotton-and-heat/)
 - [El Niño and smaller citiesWhat a smaller Indian city can prepare before its hot season, and how to check people got relief](https://beattheheat.asia/el-nino-and-cities/)
 - [Make it work togetherAgree who does what in one placeOn the path for: Communities](https://beattheheat.asia/together/)

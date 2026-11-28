@@ -1,7 +1,7 @@
 ---
 title: "Who extreme heat hits hardest | Common Shade"
 url: https://beattheheat.asia/who-is-at-risk/
-updated: 2026-11-21
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -50,6 +50,8 @@ These barriers rarely come alone. [Intersections](https://beattheheat.asia/inter
 For farm and processing work, [Heat from field to factory](https://beattheheat.asia/cotton-and-heat/) follows cotton from field to gin, and asks who can actually stop work when it is too hot.
 
 For workers indoors, [Heat inside factories](https://beattheheat.asia/factory-heat/) follows heat by task, place and time through a garment factory, with a section on women's work, pregnancy and the arrangements around them.
+
+For open markets and street vending, [Heat in markets and street vending](https://beattheheat.asia/market-heat/) follows heat by zone and hour, with toilets, stall-minding, porter queues and protection from eviction.
 
 ## Smallholder and rainfed farming households
 

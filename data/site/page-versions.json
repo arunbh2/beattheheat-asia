@@ -20,11 +20,11 @@
   "changed": "2026-11-26"
  },
  "/act/": {
-  "hash": "abbd38a6b0ee1277",
-  "changed": "2026-11-20"
+  "hash": "161178a74c1fd220",
+  "changed": "2026-11-28"
  },
  "/actions/": {
-  "hash": "fec048c5554da726",
+  "hash": "9f68dee8d8d0ad31",
   "changed": "2026-11-28"
  },
  "/approach/": {
@@ -240,15 +240,15 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "9b055607464f562f",
-  "changed": "2026-11-27"
+  "hash": "8d99dedd81d3405b",
+  "changed": "2026-11-28"
  },
  "/guide/": {
   "hash": "2c7d2aacf77f240a",
   "changed": "2026-11-26"
  },
  "/heat-assembly/": {
-  "hash": "dc72d835d9644c81",
+  "hash": "b74d519259ce283f",
   "changed": "2026-11-28"
  },
  "/heat-economy/": {
@@ -292,7 +292,7 @@
   "changed": "2026-10-01"
  },
  "/heat-network/": {
-  "hash": "9774f0cfe71ddb02",
+  "hash": "2032b96aa69be13a",
   "changed": "2026-11-28"
  },
  "/heat-tools/": {
@@ -432,8 +432,8 @@
   "changed": "2026-11-26"
  },
  "/intersections/": {
-  "hash": "22d5124f49a2cb87",
-  "changed": "2026-11-19"
+  "hash": "2d222df3304f5eb8",
+  "changed": "2026-11-28"
  },
  "/join/": {
   "hash": "150465899076b4c9",
@@ -444,12 +444,20 @@
   "changed": "2026-11-26"
  },
  "/live-through-a-heatwave/": {
-  "hash": "7919c4fdeff8a94e",
+  "hash": "a0b191c89daa2c1b",
   "changed": "2026-11-28"
  },
  "/loops/": {
   "hash": "56613217d5f39a88",
   "changed": "2026-11-26"
+ },
+ "/market-heat/": {
+  "hash": "092d01dd065aaf2c",
+  "changed": "2026-11-28"
+ },
+ "/market-heat/worksheet/": {
+  "hash": "3088a11f60b89a9a",
+  "changed": "2026-10-01"
  },
  "/news/": {
   "hash": "09af98243a415b6c",
@@ -500,8 +508,8 @@
   "changed": "2026-11-27"
  },
  "/practical-actions/": {
-  "hash": "6843a027c1b8bf00",
-  "changed": "2026-11-26"
+  "hash": "086d5ee76ff12b1f",
+  "changed": "2026-11-28"
  },
  "/practical/": {
   "hash": "bdaf4b15c026df38",
@@ -720,7 +728,7 @@
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "2c16ffae9653b88f",
+  "hash": "c217ffa57e6a415d",
   "changed": "2026-11-28"
  },
  "/signals/all/": {
@@ -776,8 +784,8 @@
   "changed": "2026-11-19"
  },
  "/who-is-at-risk/": {
-  "hash": "5f1ad35e09e6bbb1",
-  "changed": "2026-11-21"
+  "hash": "6add55ebac6fdd5a",
+  "changed": "2026-11-28"
  },
  "/worked-plans/": {
   "hash": "7c579e3076b7ac2f",

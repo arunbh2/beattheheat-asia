@@ -1,0 +1,75 @@
+{
+ "_terms": {
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/": {
+   "sanitary facilities": true,
+   "87%": true,
+   "genitourinary": true,
+   "dehydration": true,
+   "toilet": true
+  },
+  "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/": {
+   "721": false,
+   "street vendors": true,
+   "49%": false,
+   "80%": false
+  },
+  "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf": {
+   "Bangkok": true,
+   "80%": true,
+   "reduced their hours": false
+  },
+  "https://www.mdpi.com/2071-1050/14/8/4653": {
+   "canopy": true,
+   "Pathum Thani": true,
+   "street market": true,
+   "tree canopies": true
+  },
+  "https://scholars.cityu.edu.hk/en/publications/harnessing-street-shade-to-mitigate-heat-stress-an-in-situ-parall/": {
+   "shade": true,
+   "mean radiant temperature": true,
+   "Singapore": true
+  },
+  "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation": {
+   "heat": true,
+   "reflective": true,
+   "pedestrian": true,
+   "Los Angeles": true
+  },
+  "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024": {
+   "school": true,
+   "171 million": true,
+   "South Asia": true
+  },
+  "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and": {
+   "heat": true,
+   "Rewa": false,
+   "umbrella": false
+  },
+  "https://www.greenpeace.org/india/en/story/18953/beyond-the-forecast-inside-indias-first-community-led-early-warning-system-for-extreme-weather-for-informal-workers/": {
+   "informal workers": true,
+   "WhatsApp": true,
+   "street vendors": true,
+   "IMD": true
+  },
+  "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html": {
+   "green nets": true,
+   "wind": true,
+   "March": false
+  },
+  "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html": {
+   "heat": true,
+   "buddy": true
+  }
+ },
+ "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/": "REDIRECT",
+ "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/": "OK",
+ "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf": "OK",
+ "https://www.mdpi.com/2071-1050/14/8/4653": "BLOCKED",
+ "https://scholars.cityu.edu.hk/en/publications/harnessing-street-shade-to-mitigate-heat-stress-an-in-situ-parall/": "OK",
+ "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation": "OK",
+ "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024": "OK",
+ "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and": "BLOCKED",
+ "https://www.greenpeace.org/india/en/story/18953/beyond-the-forecast-inside-indias-first-community-led-early-warning-system-for-extreme-weather-for-informal-workers/": "OK",
+ "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html": "OK",
+ "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html": "OK"
+}

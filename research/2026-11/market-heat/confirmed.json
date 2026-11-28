@@ -1,0 +1,112 @@
+[
+ {
+  "id": "c-mh-toilets",
+  "where": "Health and equity; women-safe toilets",
+  "text": "In a study of Indian women workers across several kinds of work, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
+  "sources": [
+   {
+    "label": "Global Health Action: Heat stress and inadequate sanitary facilities at workplaces: an occupational health concern for women?, 2016",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-toilets-plain",
+  "where": "Health and equity; women-safe toilets (fallback without the figure)",
+  "text": "A study of Indian women workers linked poor or missing toilets at work to genitourinary problems, alongside heat strain and dehydration.",
+  "sources": [
+   {
+    "label": "Global Health Action: Heat stress and inadequate sanitary facilities at workplaces: an occupational health concern for women?, 2016",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-delhi-vendors",
+  "where": "Understand market heat; spoilage and income",
+  "text": "A 2024 report by Greenpeace India and the National Hawkers Federation recorded the experiences of over 700 street vendors through one of India's worst heat waves, and the toll it took on their livelihoods.",
+  "sources": [
+   {
+    "label": "Greenpeace India and National Hawkers Federation: Report by Greenpeace India and National Hawkers Federation on the heatwave toll on street vendors, 2024",
+    "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-canopy",
+  "where": "Shade; vendor-co-designed canopies",
+  "text": "In a small trial in a university car park in Pathum Thani, Thailand, artificial canopy materials of the kind used over market stalls lowered air temperature by 1.6-2.3 °C, and dense tree clusters by up to 2.3-3 °C. It measured air temperature, not a working market or anyone's health.",
+  "sources": [
+   {
+    "label": "Sustainability (MDPI): A comparative study of cooling performance and thermal comfort under street market shades and tree canopies in tropical savanna climate, 2022",
+    "url": "https://www.mdpi.com/2071-1050/14/8/4653"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-sg-shade",
+  "where": "Shade; radiant heat",
+  "text": "Across 20 shaded and sunlit street sites in Singapore on one very hot afternoon, shade lowered mean radiant temperature by about 10 °C on average, far more than air temperature.",
+  "sources": [
+   {
+    "label": "City University of Hong Kong (research output): Harnessing street shade to mitigate heat stress: an in-situ parallel measurement, 2025",
+    "url": "https://scholars.cityu.edu.hk/en/publications/harnessing-street-shade-to-mitigate-heat-stress-an-in-situ-parall/"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-la-pavement",
+  "where": "Shade; the reflective-pavement trap",
+  "text": "In Los Angeles, reflective-coated roads were cooler on the surface, but people walking above them received more radiant heat; the study's authors paired reflective surfaces with shade.",
+  "sources": [
+   {
+    "label": "Arizona State University: Street smarts required in heat mitigation, 2020",
+    "url": "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-schools",
+  "where": "Childcare and school closures",
+  "text": "Heatwaves disrupted schooling for an estimated 171 million students in 2024; South Asia was the most affected region.",
+  "sources": [
+   {
+    "label": "UNICEF: Learning interrupted: global snapshot of climate-related school disruptions in 2024, 2025",
+    "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-delhi-boards",
+  "where": "Two-way alerts",
+  "text": "In Delhi in 2025, the India Meteorological Department, worker organisations and Greenpeace India set up colour-coded heat boards at vending carts and sent bilingual audio and text alerts on WhatsApp to worker leaders, who passed them on.",
+  "sources": [
+   {
+    "label": "Greenpeace India: Beyond the forecast: inside India's first community-led early warning system for extreme weather for informal workers, 2025",
+    "url": "https://www.greenpeace.org/india/en/story/18953/beyond-the-forecast-inside-indias-first-community-led-early-warning-system-for-extreme-weather-for-informal-workers/"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-nagpur",
+  "where": "Shade; timing and storms",
+  "text": "In Nagpur in May 2026, temporary green nets over busy junctions kept collapsing in strong winds; commuters and officials asked for durable structures and a long-term heat action plan instead of seasonal fixes.",
+  "sources": [
+   {
+    "label": "The Hitavada: Green nets at city squares: relief measure or another half-planned civic experiment?, 2026",
+    "url": "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html"
+   }
+  ]
+ },
+ {
+  "id": "c-mh-buddy-guide",
+  "where": "Stall-minding and rest",
+  "text": "Occupational heat guidance describes workers watching one another for signs of heat illness as part of protection in hot work; it was written for workplaces, not markets.",
+  "sources": [
+   {
+    "label": "Canadian Centre for Occupational Health and Safety: Hot environments: control measures, 2024",
+    "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat_control.html"
+   }
+  ]
+ }
+]

@@ -76,6 +76,7 @@ module.exports = function intersections({ page, write, esc, V, D }) {
         <li class="std"><b><a href="/a-night-in-the-heat/">A night in the heat</a></b><span>Stay with an older woman living alone, a pregnant woman or a family with a baby through a hot night and a clinic visit.</span></li>
         <li class="std"><b><a href="/who-is-at-risk/">Who heat hits hardest</a></b><span>${(D.AT_RISK || []).length} groups, the barriers between them and safety, and what helps.</span></li>
         <li class="std"><b><a href="/shared-heat/">Who shares the heat</a></b><span>The same heat ties a porter, a carer and a tea seller together, without giving them the same say. One market followed through a hot season.</span></li>
+        <li class="std"><b><a href="/market-heat/">Heat in markets and street vending</a></b><span>The street vendor, porter and stall-holder's heat, zone by zone and hour by hour, with measures that let people drink, rest and keep their pitch.</span></li>
       </ul>
       <p class="ix-more">We will be adding many more resources. If you know one that belongs here, we would be glad to <a href="/join/#join-form">hear about it</a>.</p>
     </section>
