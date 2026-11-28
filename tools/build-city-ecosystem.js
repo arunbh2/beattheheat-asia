@@ -20,7 +20,7 @@ module.exports = function cityEcosystems({ page, write, esc, hero, V }) {
   P.catalogueIds = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, "data/heat-tools/catalogue.json"), "utf8")).records.map(r => r.id));
   const name = oid => esc((P.orgById[oid] || {}).name || oid);
   const orgLink = oid => P.orgs.some(o => o.id === oid) ? `<a href="#org-${oid}">${name(oid)}</a>` : P.authorities.some(a => a.id === oid) ? `<a href="#auth-${oid}">${name(oid)}</a>` : name(oid);
-  const srcs = ids => { const s = P.sourcesFor(ids); return s.length ? `<p class="ce-src">Sources: ${s.map(x => `<a href="${esc(x.url)}" rel="noopener">${esc(x.label)}</a>`).join(" · ")}</p>` : ""; };
+  const srcs = ids => { const s = P.sourcesFor(ids); return s.length ? `<p class="ce-src">Sources: ${s.map(x => `<a href="${esc(x.open)}" rel="noopener">${esc(x.label)}</a>${x.archive ? ` (<a href="${esc(x.archive)}" rel="noopener">archived copy</a>)` : ""}`).join(" · ")}</p>` : ""; };
   const theme = Object.fromEntries(P.themes);
   const typeOf = oid => (P.orgById[oid] || {}).type || (P.authorities.some(a => a.id === oid) ? "authority" : "");
   // ---- activity cards

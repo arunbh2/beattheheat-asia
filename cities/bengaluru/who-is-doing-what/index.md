@@ -77,7 +77,7 @@ Mentioned, consulted, deciding, receiving and benefiting are different things; a
 
 On Common Shade: [Practical actions for markets and neighbourhoods](https://beattheheat.asia/practical-actions/#neighbourhoods) · [Worked plans](https://beattheheat.asia/worked-plans/)
 
-Sources: [Mongabay India: Ward-level plans bring climate action closer to communities, 2026](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) · [Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025](https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 9, Bengaluru), 2026](https://grove.rainmatter.org/raw/4976/9) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026](https://grove.rainmatter.org/raw/4976/18)
+Sources: [Mongabay India: Ward-level plans bring climate action closer to communities, 2026](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) · [Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025](https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 9, Bengaluru), 2026](https://grove.rainmatter.org/t/4976/9) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026](https://grove.rainmatter.org/t/4976/18)
 
 AnnouncedWard planning and public budgetsBuildings, shade and public spaceWater and sanitation
 
@@ -115,7 +115,7 @@ Who is included, and how
 
 Mentioned, consulted, deciding, receiving and benefiting are different things; a blank means the sources do not say.
 
-Sources: [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 12, Launch of the Bengaluru Heat Collective), 2026](https://grove.rainmatter.org/raw/4976/12)
+Sources: [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 12, Launch of the Bengaluru Heat Collective), 2026](https://grove.rainmatter.org/t/4976/12)
 
 PlannedBuildings, shade and public spaceWorker and livelihood protection
 
@@ -467,7 +467,7 @@ Who is included, and how
 
 Mentioned, consulted, deciding, receiving and benefiting are different things; a blank means the sources do not say.
 
-Sources: [C40 Cities: Request for Proposals: Development of High Impact Actions for Heat Resilience in Bengaluru and Hubballi-Dharwad, 2025](https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf)
+Sources: [C40 Cities: Request for Proposals: Development of High Impact Actions for Heat Resilience in Bengaluru and Hubballi-Dharwad, 2025](https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf) ([archived copy](https://web.archive.org/web/20251001194846/https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf))
 
 Stage not statedRisk intelligence and early warningHealth and care
 
@@ -580,7 +580,7 @@ Named for the Collective's initial phase. These are priorities; the sources do n
 - At the launch, an ASHA worker, a domestic worker, a construction worker and a waste picker spoke about heat in their work.
 - Officials of Bengaluru North City Corporation, Bengaluru South City Corporation and NIUA's Climate Centre for Cities spoke at the launch.
 
-Sources: [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) · [KHPT: KHPT Joins 10 Organisations to Launch the Bengaluru Heat Collective, 2026](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 9, Bengaluru), 2026](https://grove.rainmatter.org/raw/4976/9) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026](https://grove.rainmatter.org/raw/4976/18) · [WRI India on Rainmatter Grove: Launch: Bengaluru Heat Collective (event notice text), 2026](https://grove.rainmatter.org/raw/5067/1)
+Sources: [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) · [KHPT: KHPT Joins 10 Organisations to Launch the Bengaluru Heat Collective, 2026](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 9, Bengaluru), 2026](https://grove.rainmatter.org/t/4976/9) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026](https://grove.rainmatter.org/t/4976/18) · [WRI India on Rainmatter Grove: Launch: Bengaluru Heat Collective (event notice text), 2026](https://grove.rainmatter.org/t/5067/1)
 
 ## Work by theme
 
@@ -968,7 +968,7 @@ Not known
 
 [Website](https://www.c40.org/) · [In the heat network](https://beattheheat.asia/heat-network/?q=C40%20Cities)
 
-Sources: [C40 Cities: Request for Proposals: Development of High Impact Actions for Heat Resilience in Bengaluru and Hubballi-Dharwad, 2025](https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf) · [Citizen Matters: Cooling kits help Bengaluru workers combat heat stress, 2026](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/)
+Sources: [C40 Cities: Request for Proposals: Development of High Impact Actions for Heat Resilience in Bengaluru and Hubballi-Dharwad, 2025](https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf) ([archived copy](https://web.archive.org/web/20251001194846/https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf)) · [Citizen Matters: Cooling kits help Bengaluru workers combat heat stress, 2026](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/)
 
 ### CSTEP
 
@@ -1043,7 +1043,7 @@ Not known
 - How many workers used the Bengaluru centres; the published figures are national.
 - Who funds the centres.
 
-[Website](https://jansahas.org/) · [In the heat network](https://beattheheat.asia/heat-network/?q=Jan%20Sahas)
+[Website](https://jansahasfoundation.org/) · [In the heat network](https://beattheheat.asia/heat-network/?q=Jan%20Sahas)
 
 Sources: [The Migration Story: Air coolers, ORS and medical aid: Outdoor workers in India find rare relief from heat, 2026](https://themigrationstory.com/?p=19496) · [Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025](https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/)
 
@@ -1109,7 +1109,7 @@ Not known
 
 [Website](https://wri-india.org/) · [In the heat network](https://beattheheat.asia/heat-network/?q=WRI%20India)
 
-Sources: [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 12, Launch of the Bengaluru Heat Collective), 2026](https://grove.rainmatter.org/raw/4976/12) · [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july)
+Sources: [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 12, Launch of the Bengaluru Heat Collective), 2026](https://grove.rainmatter.org/t/4976/12) · [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july)
 
 ### Sensing Local
 
@@ -1174,7 +1174,7 @@ Public bodies with responsibilities that touch heat in the city, under their cur
 - **Department of Health, Government of Karnataka**: Named by ARTPARK as a partner in its heat-risk forecasts. [In the heat network](https://beattheheat.asia/heat-network/?q=Department%20of%20Health%2C%20Government%20of%20Karnataka)
 - **India Meteorological Department** (IMD): Runs the city observatory whose records the July 2026 temperature figures come from. [In the heat network](https://beattheheat.asia/heat-network/?q=India%20Meteorological%20Department)
 
-Sources: [The Federal: Greater Bengaluru Authority comes into effect, 2025](https://thefederal.com/category/states/south/karnataka/greater-bengaluru-authority-comes-into-effect-204813) · [Mongabay India: Ward-level plans bring climate action closer to communities, 2026](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) · [Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025](https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/) · [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) · [Citizen Matters: Cooling kits help Bengaluru workers combat heat stress, 2026](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/) · [KHPT: KHPT Joins 10 Organisations to Launch the Bengaluru Heat Collective, 2026](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026](https://grove.rainmatter.org/raw/4976/18) · [ARTPARK (AI & Robotics Technology Park), IISc: Social impact programmes, 2026](https://www.artpark.in/about/programs/social-impact)
+Sources: [The Federal: Greater Bengaluru Authority comes into effect, 2025](https://thefederal.com/category/states/south/karnataka/greater-bengaluru-authority-comes-into-effect-204813) · [Mongabay India: Ward-level plans bring climate action closer to communities, 2026](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) · [Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025](https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/) · [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) · [Citizen Matters: Cooling kits help Bengaluru workers combat heat stress, 2026](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/) · [KHPT: KHPT Joins 10 Organisations to Launch the Bengaluru Heat Collective, 2026](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026](https://grove.rainmatter.org/t/4976/18) · [ARTPARK (AI & Robotics Technology Park), IISc: Social impact programmes, 2026](https://www.artpark.in/about/programs/social-impact)
 
 ## What is not known
 

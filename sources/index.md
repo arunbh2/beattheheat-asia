@@ -4364,7 +4364,7 @@ Organisations working on extreme heat, as listed in The heat network. Listing on
 
 - [Basel Agency for Sustainable Energy (BASE)](https://energy-base.org/wp-content/uploads/2020/03/10.CaaS_Instrument-Analysis-Paper_FINAL_09.17.19.pdf)energy-base.orgUsed on: The heat network
 
-- [Bengaluru Central City Corporation](https://grove.rainmatter.org/raw/4976/18)grove.rainmatter.orgUsed on: The heat network
+- [Bengaluru Central City Corporation](https://grove.rainmatter.org/t/transforming-indias-city-regions/4976/18)grove.rainmatter.orgUsed on: The heat network
 
 - [Bengaluru Heat Collective](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july)wri-india.orgUsed on: The heat network
 

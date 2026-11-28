@@ -69,7 +69,11 @@ function load(id) {
  });
  // an activity a held collaborator or lead points to still shows; an org whose summary failed shows its name and membership only
  out.orgById = Object.fromEntries([...orgs, ...(P.authorities || []), ...(P.extra_orgs || [])].map(o => [o.id, o]));
- out.sourcesFor = ids => { const seen = new Map(); (ids || []).forEach(c => ((byClaim[c] || {}).sources || []).forEach(s => seen.set(s.url, s))); return [...seen.values()]; };
+ // what the reader opens: a forum post's normal page, not the plain-text address the checker read; and, where the original
+ // blocked automated readers and the check used an archived copy, that copy as well
+ const inbox = (() => { try { const dir = path.join(ROOT, "data", "inbox", "2026-11-" + P.batch); const S = JSON.parse(fs.readFileSync(path.join(dir, "sources.json"), "utf8")), L = JSON.parse(fs.readFileSync(path.join(dir, "link-check.json"), "utf8")); return Object.fromEntries(S.map(r => [r.url, { archive: r.archive, status: String(L[r.url] || "") }])); } catch (e) { return {}; } })();
+ const readable = u => u.replace(/^(https:\/\/[^/]+)\/raw\/(\d+)\/(\d+)$/, (m, h, t, n) => `${h}/t/${t}/${n}`);
+ out.sourcesFor = ids => { const seen = new Map(); (ids || []).forEach(c => ((byClaim[c] || {}).sources || []).forEach(s => { const i = inbox[s.url] || {}; seen.set(s.url, Object.assign({}, s, { open: readable(s.url), archive: /^BLOCKED/.test(i.status) && i.archive ? i.archive : null })); })); return [...seen.values()]; };
  out.collective = P.coalition ? Object.assign({}, P.coalition, { ok: pass(P.coalition.purpose_claims) && pass(P.coalition.members_claims) }) : null;
  return out;
 }
