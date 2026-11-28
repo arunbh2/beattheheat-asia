@@ -334,5 +334,11 @@
   "healthserve": "supply",
   "twc2": "supply",
   "niua-ccube": "supply",
-  "nrdc-india": "supply"
+  "nrdc-india": "supply",
+  "artpark": "supply",
+  "socratus": "demand",
+  "sensinglocal": "supply",
+  "baf": "demand",
+  "greaterbengaluruautho": "demand",
+  "ksndmc": "demand"
 }

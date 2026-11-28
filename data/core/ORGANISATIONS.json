@@ -2686,5 +2686,53 @@
     "url": "https://twc2.org.sg/helping-workers-in-need/",
     "does": "Helps low-wage migrant workers in Singapore who are in trouble; it says over 20,000 contact it digitally each year and about 1,500 come in person.",
     "levers": ["socialprotection"]
+  },
+  {
+    "id": "artpark",
+    "role": "research",
+    "name": "ARTPARK (AI & Robotics Technology Park, IISc)",
+    "url": "https://www.artpark.in/about/programs/social-impact",
+    "does": "Builds sub-district heat-risk predictions up to seven days ahead with the Government of Karnataka's disaster monitoring centre, disaster management authority and health department. A founding member of the Bengaluru Heat Collective.",
+    "levers": ["anticipatory", "hap"]
+  },
+  {
+    "id": "socratus",
+    "role": "ground",
+    "name": "Socratus",
+    "url": "https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/",
+    "does": "Runs community conversations on climate through art in Bengaluru, including focus groups with domestic, gig and migrant workers, pourakarmikas and ASHA workers under Bengaluru Sustainability Forum's Climate Charche; part of the city's ward climate plan working group and a founding member of the Bengaluru Heat Collective.",
+    "levers": ["hap"]
+  },
+  {
+    "id": "sensinglocal",
+    "role": "research",
+    "name": "Sensing Local",
+    "url": "https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/",
+    "does": "With Hasiru Dala and C40 Cities, piloted cooling kits for 202 outdoor public workers in Bengaluru in April 2026; part of the city's ward climate plan working group.",
+    "levers": ["heatrules", "greencity"]
+  },
+  {
+    "id": "baf",
+    "role": "ground",
+    "name": "Bangalore Apartment Federation",
+    "url": "https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+    "does": "Developed a Heat Safety Charter for workers in apartment complexes with HeatWatch Foundation, in English, Kannada and Hindi.",
+    "levers": ["heatrules"]
+  },
+  {
+    "id": "greaterbengaluruautho",
+    "role": "asia",
+    "name": "Greater Bengaluru Authority",
+    "url": "https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/",
+    "does": "Bengaluru's city-wide authority over five city corporations since September 2025. Its Climate Action Cell leads ward-level climate action plans, and a cooling centre for outdoor workers ran in one of its facilities in 2026.",
+    "levers": ["hap", "greencity"]
+  },
+  {
+    "id": "ksndmc",
+    "role": "asia",
+    "name": "Karnataka State Natural Disaster Monitoring Centre (KSNDMC)",
+    "url": "https://www.artpark.in/about/programs/social-impact",
+    "does": "Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.",
+    "levers": ["anticipatory"]
   }
 ]

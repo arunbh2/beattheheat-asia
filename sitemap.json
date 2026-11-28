@@ -82,7 +82,7 @@
     {
       "url": "https://beattheheat.asia/cities/",
       "markdown": "https://beattheheat.asia/cities/index.md",
-      "updated": "2026-11-26"
+      "updated": "2026-11-28"
     },
     {
       "url": "https://beattheheat.asia/cities/ahmedabad/",
@@ -97,7 +97,12 @@
     {
       "url": "https://beattheheat.asia/cities/bengaluru/",
       "markdown": "https://beattheheat.asia/cities/bengaluru/index.md",
-      "updated": "2026-11-26"
+      "updated": "2026-11-28"
+    },
+    {
+      "url": "https://beattheheat.asia/cities/bengaluru/who-is-doing-what/",
+      "markdown": "https://beattheheat.asia/cities/bengaluru/who-is-doing-what/index.md",
+      "updated": "2026-11-28"
     },
     {
       "url": "https://beattheheat.asia/cities/bhubaneswar/",
@@ -292,7 +297,7 @@
     {
       "url": "https://beattheheat.asia/fund/",
       "markdown": "https://beattheheat.asia/fund/index.md",
-      "updated": "2026-11-22"
+      "updated": "2026-11-28"
     },
     {
       "url": "https://beattheheat.asia/glossary/",
@@ -372,7 +377,12 @@
     {
       "url": "https://beattheheat.asia/heat-tools/",
       "markdown": "https://beattheheat.asia/heat-tools/index.md",
-      "updated": "2026-11-27"
+      "updated": "2026-11-28"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/artpark_heat_forecast/",
+      "markdown": "https://beattheheat.asia/heat-tools/artpark_heat_forecast/index.md",
+      "updated": "2026-10-01"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/asmc_enso/",
@@ -440,6 +450,11 @@
       "updated": "2026-11-26"
     },
     {
+      "url": "https://beattheheat.asia/heat-tools/cstep_deft/",
+      "markdown": "https://beattheheat.asia/heat-tools/cstep_deft/index.md",
+      "updated": "2026-10-01"
+    },
+    {
       "url": "https://beattheheat.asia/heat-tools/dhm/",
       "markdown": "https://beattheheat.asia/heat-tools/dhm/index.md",
       "updated": "2026-11-26"
@@ -457,6 +472,11 @@
     {
       "url": "https://beattheheat.asia/heat-tools/ghhin/",
       "markdown": "https://beattheheat.asia/heat-tools/ghhin/index.md",
+      "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/heatwatch_apartment_charter/",
+      "markdown": "https://beattheheat.asia/heat-tools/heatwatch_apartment_charter/index.md",
       "updated": "2026-10-01"
     },
     {
@@ -602,7 +622,7 @@
     {
       "url": "https://beattheheat.asia/paths/funder/",
       "markdown": "https://beattheheat.asia/paths/funder/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-28"
     },
     {
       "url": "https://beattheheat.asia/paths/health/",

@@ -1,7 +1,7 @@
 ---
 title: "Heat Tool Finder: which heat tool fits your decision"
 url: https://beattheheat.asia/heat-tools/
-updated: 2026-11-27
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -21,11 +21,27 @@ A navigation and comparison service. Inclusion is not endorsement or certificati
 
 Reading a seasonal El Niño signal? A probability for the Pacific is not a heatwave forecast for a city: [El Niño and India's smaller cities](https://beattheheat.asia/el-nino-and-cities/#outlook) explains what it can and cannot tell a municipality, with the latest dated outlooks and a route to your own district's warning. How El Niño reaches Asia, region by region: [El Niño and heat in Asia](https://beattheheat.asia/el-nino/).
 
-23 outside resources and 5 Common Shade pages, in groups by how they apply.
+26 outside resources and 5 Common Shade pages, in groups by how they apply.
 
-### Country services and assessments 9
+### Country services and assessments 12
 
 Named coverage of one country. Coverage is not local validation.
+
+Tool: modellingSource description found; further checks needed
+
+#### [ARTPARK heat-risk forecasting (Karnataka)](https://beattheheat.asia/heat-tools/artpark_heat_forecast/)
+
+ARTPARK (IISc), with KSNDMC, KSDMA and the Karnataka Department of Health
+
+**Helps you:** decide where to focus; build a heat response. Sub-district heat-risk predictions up to seven days ahead, built with Government of Karnataka bodies. No public view of the forecasts was found.
+
+Country specific: India · Karnataka, sub-district (extent not stated) · Access terms not verified
+
+**Important limit:** A forecast horizon is not evidence of accuracy; no validation is published on the page.
+
+Public description reviewed · 2026-11-28
+
+[View profile](https://beattheheat.asia/heat-tools/artpark_heat_forecast/)
 
 Dataset: data portalSource description found; further checks needed
 
@@ -90,6 +106,38 @@ Country specific: India · District · Free to read
 Public description reviewed · 2026-11-10
 
 [View profile](https://beattheheat.asia/heat-tools/ceew/)
+
+Tool: planning workbookSource description found; further checks needed
+
+#### [DEFT: Ecosystem-based Adaptation Feasibility Tool (Bengaluru)](https://beattheheat.asia/heat-tools/cstep_deft/)
+
+CSTEP, supported by IUCN (Global EbA Fund)
+
+**Helps you:** design cooler places; decide where to focus. A GIS-based decision-support tool in development to judge where ecosystem-based measures could reduce heatwave and flood risk in Bengaluru, extending to Bangalore Urban District.
+
+Country specific: India · Bengaluru and Bangalore Urban District; described as hyper-local, resolution not stated · Access terms not verified
+
+**Important limit:** In development: no live tool address was found.
+
+Public description reviewed · 2026-11-28
+
+[View profile](https://beattheheat.asia/heat-tools/cstep_deft/)
+
+GuidanceSource description found; further checks needed
+
+#### [Heat Safety Charter for Apartment Workers (Bengaluru)](https://beattheheat.asia/heat-tools/heatwatch_apartment_charter/)
+
+HeatWatch Foundation and the Bangalore Apartment Federation, with support from the Bangalore Sustainability Forum
+
+**Helps you:** plan worker protection; check who protection misses. Practical heat safety measures an apartment community can adopt in extreme heat for domestic and housekeeping staff, security guards, gardeners, delivery workers and drivers, in English, Kannada and Hindi.
+
+Country specific: India · Written for apartment complexes in Bengaluru · Free to read
+
+**Important limit:** No adoption figures were found.
+
+Public description reviewed · 2026-11-28
+
+[View profile](https://beattheheat.asia/heat-tools/heatwatch_apartment_charter/)
 
 Warning serviceSource description found; further checks needed
 
@@ -748,7 +796,7 @@ Illustrative workflow, by decision horizon; not an official procedure
 
 ## How this catalogue works
 
-It lists 24 outside resources and 5 Common Shade pages, researched up to 2026-11-10. That number describes this starter catalogue only, not the size of the field or how well heat protection works.
+It lists 27 outside resources and 5 Common Shade pages, researched up to 2026-11-10. That number describes this starter catalogue only, not the size of the field or how well heat protection works.
 
 **Public description reviewed**: The provider's public description was read.
 

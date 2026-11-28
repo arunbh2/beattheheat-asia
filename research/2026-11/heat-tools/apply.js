@@ -23,7 +23,7 @@ if (fail.length) { console.error("apply: refused\n" + fail.join("\n")); process.
 // additions (additions-*.json): records, sources and workflows researched after the seed. A record joins only when every
 // source its provider facts rest on passed the source check (a claim id from that source is in a batch's confirmed.json);
 // 'patch' adds a field (such as 'seasonal') to an existing record without touching its researched text.
-const OKC = new Set(["enso-asia", "enso-update"].flatMap(b => { const f = path.join(HERE, "..", b, "confirmed.json"); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")).map(c => c.id) : []; }));
+const OKC = new Set(["enso-asia", "enso-update", "bengaluru-ecosystem"].flatMap(b => { const f = path.join(HERE, "..", b, "confirmed.json"); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")).map(c => c.id) : []; }));
 const held = [];
 for (const f of fs.readdirSync(HERE).filter(f => /^additions-.*\.json$/.test(f)).sort()) {
   const A = JSON.parse(fs.readFileSync(path.join(HERE, f), "utf8")), conf = A.confirm || {};

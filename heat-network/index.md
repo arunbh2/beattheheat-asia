@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> 336 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+> 342 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Who could we work with?
 
@@ -21,7 +21,7 @@ Organisations already at work, by the part they play.
 
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
 
-336 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+342 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 [Open the interactive network](https://beattheheat.asia/#network)
 
@@ -334,6 +334,12 @@ Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/
 - [National Institute of Urban Affairs, Climate Centre for Cities (C-Cube)](https://niua.in/c-cube) (Supply): Works with Indian cities on climate action. Its heat work includes the Heat Resilient Cities Framework and a Building Heat Resilient Cities programme, and it publishes free learning notes for city officials.
 Research bodyIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
+- [Greater Bengaluru Authority](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) (Demand): Bengaluru's city-wide authority over five city corporations since September 2025. Its Climate Action Cell leads ward-level climate action plans, and a cooling centre for outdoor workers ran in one of its facilities in 2026.
+City or district governmentIndiaLink opens a page by someone else
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
+- [Karnataka State Natural Disaster Monitoring Centre (KSNDMC)](https://www.artpark.in/about/programs/social-impact) (Demand): Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.
+Government bodyIndia
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 
 ## Research and evidence
 
@@ -520,6 +526,12 @@ Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/
 - [La Isla Network](https://laislanetwork.org/prevent-heat-stress/) (Supply): Develops occupational heat-protection research and rest-shade-hydration programmes.
 Network or alliancePlace not stated in the listing
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+- [ARTPARK (AI & Robotics Technology Park, IISc)](https://www.artpark.in/about/programs/social-impact) (Supply): Builds sub-district heat-risk predictions up to seven days ahead with the Government of Karnataka's disaster monitoring centre, disaster management authority and health department. A founding member of the Bengaluru Heat Collective.
+Research bodyIndia
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
+- [Sensing Local](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/) (Supply): With Hasiru Dala and C40 Cities, piloted cooling kits for 202 outdoor public workers in Bengaluru in April 2026; part of the city's ward climate plan working group.
+Research bodyIndia
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 
 ## Working on the ground
 
@@ -646,6 +658,12 @@ Works on: [Social protection floors](https://beattheheat.asia/actions/#socialpro
 - [Transient Workers Count Too (TWC2)](https://twc2.org.sg/helping-workers-in-need/) (Supply): Helps low-wage migrant workers in Singapore who are in trouble; it says over 20,000 contact it digitally each year and about 1,500 come in person.
 Non-profit organisationSingapore
 Works on: [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
+- [Socratus](https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/) (Demand): Runs community conversations on climate through art in Bengaluru, including focus groups with domestic, gig and migrant workers, pourakarmikas and ASHA workers under Bengaluru Sustainability Forum's Climate Charche; part of the city's ward climate plan working group and a founding member of the Bengaluru Heat Collective.
+Non-profit organisationIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
+- [Bangalore Apartment Federation](https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments) (Demand): Developed a Heat Safety Charter for workers in apartment complexes with HeatWatch Foundation, in English, Kannada and Hindi.
+Non-profit organisationIndia
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 
 ## Cooling solutions
 

@@ -245,7 +245,7 @@
   },
   {
    "id": "khpt",
-   "network": "khpt",
+   "network": null,
    "name": "KHPT",
    "aliases": [],
    "type": "health",
@@ -264,7 +264,7 @@
   },
   {
    "id": "nimhans",
-   "network": "nimhans",
+   "network": null,
    "name": "NIMHANS",
    "aliases": [
     "NIMHANS, Bangalore",
@@ -352,7 +352,7 @@
   },
   {
    "id": "welllabs",
-   "network": "welllabs",
+   "network": null,
    "name": "WELL Labs",
    "aliases": [
     "WellLabs"
@@ -466,7 +466,7 @@
   },
   {
    "id": "niua",
-   "network": "niua",
+   "network": "niua-ccube",
    "name": "National Institute of Urban Affairs (Climate Centre for Cities)",
    "aliases": [
     "NIUA"

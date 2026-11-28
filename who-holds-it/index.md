@@ -11,7 +11,7 @@ Who could carry it to people?
 
 For each action, who could permit it, pay for it, deliver it and check it, with the organisations already at work and the parts where we found no one yet.
 
-**Then:** [See all 336 organisations](https://beattheheat.asia/heat-network/)
+**Then:** [See all 342 organisations](https://beattheheat.asia/heat-network/)
 
 [Next stop: How could a few grants work together?](https://beattheheat.asia/build/)
 

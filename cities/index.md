@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in 22 Asian cities | Common Shade"
 url: https://beattheheat.asia/cities/
-updated: 2026-11-26
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -32,6 +32,13 @@ What is heat doing in our city?
 What extreme heat is doing in 22 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 [Open the interactive city view](https://beattheheat.asia/#city)
+City deep dive
+
+## [Bengaluru: who is doing what about heat?](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/)
+
+Who is working on heat in Bengaluru, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 11 activities and 14 organisations, each line checked against its source.
+
+[Open the Bengaluru profile](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/)
 
 ## [Singapore, Singapore](https://beattheheat.asia/cities/singapore/)
 

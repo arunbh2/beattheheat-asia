@@ -333,4 +333,10 @@
 "nipponpaintindia":{"countries":["IN"],"basis":"text","scale":"country","type":"company","link":"home"},
 "haqdarshak":{"countries":["IN"],"basis":"text","scale":"country","type":"ngo","link":"home"},
 "healthserve":{"countries":["SG"],"basis":"text","scale":"country","type":"ngo","link":"work"},
-"twc2":{"countries":["SG"],"basis":"text","scale":"country","type":"ngo","link":"work"}}
+"twc2":{"countries":["SG"],"basis":"text","scale":"country","type":"ngo","link":"work"},
+"artpark":{"countries":["IN"],"basis":"text","scale":"country","type":"research","link":"work"},
+"socratus":{"countries":["IN"],"basis":"text","scale":"country","type":"ngo","link":"work"},
+"sensinglocal":{"countries":["IN"],"basis":"text","scale":"country","type":"research","link":"work","year":2026},
+"baf":{"countries":["IN"],"basis":"text","scale":"country","type":"ngo","link":"work"},
+"greaterbengaluruautho":{"countries":["IN"],"basis":"text","scale":"country","type":"government","link":"third","year":2026},
+"ksndmc":{"countries":["IN"],"basis":"text","scale":"country","type":"government","link":"work"}}

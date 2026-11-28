@@ -334,5 +334,11 @@
  "nipponpaintindia": {"countries":["IN"],"basis":"text","type":"company","scale":"country","link":"home","checked":"2026-11-14"},
  "haqdarshak": {"countries":["IN"],"basis":"text","type":"ngo","scale":"country","link":"home","checked":"2026-11-14"},
  "healthserve": {"countries":["SG"],"basis":"text","type":"ngo","scale":"country","link":"work","linkStatus":"blocked"},
- "twc2": {"countries":["SG"],"basis":"text","type":"ngo","scale":"country","link":"work","checked":"2026-11-14"}
+ "twc2": {"countries":["SG"],"basis":"text","type":"ngo","scale":"country","link":"work","checked":"2026-11-14"},
+ "artpark": {"countries":["IN"],"basis":"edit","type":"research","scale":"subnational","link":"work"},
+ "socratus": {"countries":["IN"],"basis":"edit","type":"ngo","scale":"city","link":"work"},
+ "sensinglocal": {"countries":["IN"],"basis":"edit","type":"research","scale":"city","link":"work","year":2026},
+ "baf": {"countries":["IN"],"basis":"edit","type":"ngo","scale":"city","link":"work"},
+ "greaterbengaluruautho": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"third","year":2026},
+ "ksndmc": {"countries":["IN"],"basis":"edit","type":"government","scale":"subnational","link":"work"}
 }

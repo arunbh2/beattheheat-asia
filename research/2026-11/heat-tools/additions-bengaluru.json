@@ -1,0 +1,334 @@
+{
+ "about": "Bengaluru heat ecosystem (28 November 2026): resources found while researching /cities/bengaluru/who-is-doing-what/. Provider facts rest on pages checked in research/2026-11/bengaluru-ecosystem; a record whose source was not confirmed is left out (see apply.js). None is a validated or tested product.",
+ "sources": [
+  {
+   "id": "blr_artpark",
+   "title": "Social impact programmes: Heat-risk forecasting",
+   "publisher": "ARTPARK, IISc",
+   "url": "https://www.artpark.in/about/programs/social-impact",
+   "review_depth": "source_page_reviewed",
+   "accessed_on": "2026-11-28",
+   "scope": "Public page checked by Common Shade's source check (batch 2026-11-bengaluru-ecosystem); no live tool execution or independent validation."
+  },
+  {
+   "id": "blr_deft",
+   "title": "Developing an Ecosystem-based Adaptation Feasibility Tool (DEFT)",
+   "publisher": "CSTEP",
+   "url": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+   "review_depth": "source_page_reviewed",
+   "accessed_on": "2026-11-28",
+   "scope": "Public page checked by Common Shade's source check (batch 2026-11-bengaluru-ecosystem); no live tool execution or independent validation."
+  },
+  {
+   "id": "blr_charter",
+   "title": "Heat Safety Charter for Workers in Apartments",
+   "publisher": "HeatWatch",
+   "url": "https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+   "review_depth": "source_page_reviewed",
+   "accessed_on": "2026-11-28",
+   "scope": "Public page checked by Common Shade's source check (batch 2026-11-bengaluru-ecosystem); no live tool execution or independent validation."
+  }
+ ],
+ "confirm": {
+  "blr_artpark": [
+   "c-blr-artpark"
+  ],
+  "blr_deft": [
+   "c-blr-deft"
+  ],
+  "blr_charter": [
+   "c-blr-charter-apt"
+  ]
+ },
+ "records": [
+  {
+   "id": "artpark_heat_forecast",
+   "name": "ARTPARK heat-risk forecasting (Karnataka)",
+   "provider": "ARTPARK (IISc), with KSNDMC, KSDMA and the Karnataka Department of Health",
+   "origin": "external",
+   "resource_type": "modelling_tool",
+   "decision_tags": [
+    "prioritise_places",
+    "plan_response"
+   ],
+   "user_roles": [
+    "city",
+    "health"
+   ],
+   "summary": "Sub-district heat-risk predictions up to seven days ahead, built with Government of Karnataka bodies. No public view of the forecasts was found.",
+   "inputs": [
+    "Not documented on the provider's page."
+   ],
+   "outputs": [
+    "Heat-risk predictions at sub-district level, up to seven days ahead (as described)."
+   ],
+   "geography": {
+    "country_codes": [
+     "IN"
+    ],
+    "scope": "country_specific",
+    "asia_applicability": "explicit_geographic_coverage",
+    "local_validation_countries": [],
+    "spatial_scale": "Karnataka, sub-district (extent not stated)"
+   },
+   "time_horizons": [
+    "operational"
+   ],
+   "heat_metrics": [
+    "provider_defined"
+   ],
+   "method_summary": "Provider description only; method, inputs and validation are not published on the page.",
+   "limitations": [
+    "A forecast horizon is not evidence of accuracy; no validation is published on the page.",
+    "Public access, users and operational status were not found.",
+    "Do not treat as an official warning: warnings stay with IMD and KSNDMC."
+   ],
+   "access": {
+    "mode": "unknown",
+    "registration_required": null,
+    "price_amount": null,
+    "currency": null,
+    "licence": null,
+    "licence_status": "not_verified",
+    "rehosting_allowed": null
+   },
+   "technical": {
+    "api_status": "not_checked",
+    "api_docs_url": null,
+    "integration_mode": "link_out",
+    "live_execution_tested": false
+   },
+   "evidence": {
+    "review_depth": "source_page_reviewed",
+    "reviewed_on": "2026-11-28",
+    "local_validation_status": "not_assessed",
+    "source_ids": [
+     "blr_artpark"
+    ],
+    "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+   },
+   "publication": {
+    "status": "provisional_listing",
+    "featured": false,
+    "maintenance_status": "not_verified",
+    "next_review_due": "2027-02-28"
+   },
+   "links": {
+    "primary_url": "https://www.artpark.in/about/programs/social-impact",
+    "common_shade_next_step": "/cities/bengaluru/who-is-doing-what/#tools"
+   },
+   "field_provenance": {
+    "provider_facts_source_ids": [
+     "blr_artpark"
+    ],
+    "editorial_fields": [
+     "decision_tags",
+     "user_roles",
+     "limitations",
+     "links.common_shade_next_step"
+    ],
+    "unknown_fields": [
+     "access.mode",
+     "access.licence",
+     "inputs"
+    ]
+   },
+   "follow_up_checks": [
+    "Find a public product page or government use record.",
+    "Look for any published validation."
+   ]
+  },
+  {
+   "id": "cstep_deft",
+   "name": "DEFT: Ecosystem-based Adaptation Feasibility Tool (Bengaluru)",
+   "provider": "CSTEP, supported by IUCN (Global EbA Fund)",
+   "origin": "external",
+   "resource_type": "planning_tool",
+   "decision_tags": [
+    "design_cooling",
+    "prioritise_places"
+   ],
+   "user_roles": [
+    "city",
+    "designer",
+    "researcher"
+   ],
+   "summary": "A GIS-based decision-support tool in development to judge where ecosystem-based measures could reduce heatwave and flood risk in Bengaluru, extending to Bangalore Urban District.",
+   "inputs": [
+    "Not yet public; the project describes hydrology, land use, biodiversity and socio-economic data, a household survey and an ecological survey."
+   ],
+   "outputs": [
+    "Feasibility of ecosystem-based measures; flood and heatwave risk maps; a blue-green infrastructure map (intended)."
+   ],
+   "geography": {
+    "country_codes": [
+     "IN"
+    ],
+    "scope": "country_specific",
+    "asia_applicability": "explicit_geographic_coverage",
+    "local_validation_countries": [],
+    "spatial_scale": "Bengaluru and Bangalore Urban District; described as hyper-local, resolution not stated"
+   },
+   "time_horizons": [
+    "planning"
+   ],
+   "heat_metrics": [
+    "not_applicable"
+   ],
+   "method_summary": "Provider description of a tool in development; intended outputs are not yet released.",
+   "limitations": [
+    "In development: no live tool address was found.",
+    "Intended outputs are not completed outputs.",
+    "Resolution is not stated."
+   ],
+   "access": {
+    "mode": "unknown",
+    "registration_required": null,
+    "price_amount": null,
+    "currency": null,
+    "licence": null,
+    "licence_status": "not_verified",
+    "rehosting_allowed": null
+   },
+   "technical": {
+    "api_status": "not_checked",
+    "api_docs_url": null,
+    "integration_mode": "link_out",
+    "live_execution_tested": false
+   },
+   "evidence": {
+    "review_depth": "source_page_reviewed",
+    "reviewed_on": "2026-11-28",
+    "local_validation_status": "not_assessed",
+    "source_ids": [
+     "blr_deft"
+    ],
+    "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+   },
+   "publication": {
+    "status": "provisional_listing",
+    "featured": false,
+    "maintenance_status": "not_verified",
+    "next_review_due": "2027-02-28"
+   },
+   "links": {
+    "primary_url": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+    "common_shade_next_step": "/cities/bengaluru/who-is-doing-what/#tools"
+   },
+   "field_provenance": {
+    "provider_facts_source_ids": [
+     "blr_deft"
+    ],
+    "editorial_fields": [
+     "decision_tags",
+     "user_roles",
+     "limitations",
+     "links.common_shade_next_step"
+    ],
+    "unknown_fields": [
+     "access.mode",
+     "access.licence"
+    ]
+   },
+   "follow_up_checks": [
+    "Check for a public release of the tool.",
+    "Record its resolution and licence once published."
+   ]
+  },
+  {
+   "id": "heatwatch_apartment_charter",
+   "name": "Heat Safety Charter for Apartment Workers (Bengaluru)",
+   "provider": "HeatWatch Foundation and the Bangalore Apartment Federation, with support from the Bangalore Sustainability Forum",
+   "origin": "external",
+   "resource_type": "guidance",
+   "decision_tags": [
+    "protect_workers",
+    "check_inclusion"
+   ],
+   "user_roles": [
+    "employer",
+    "ngo",
+    "city"
+   ],
+   "summary": "Practical heat safety measures an apartment community can adopt in extreme heat for domestic and housekeeping staff, security guards, gardeners, delivery workers and drivers, in English, Kannada and Hindi.",
+   "inputs": [
+    "None: read and adapt."
+   ],
+   "outputs": [
+    "Apartment-level and employer-level measures."
+   ],
+   "geography": {
+    "country_codes": [
+     "IN"
+    ],
+    "scope": "country_specific",
+    "asia_applicability": "explicit_geographic_coverage",
+    "local_validation_countries": [],
+    "spatial_scale": "Written for apartment complexes in Bengaluru"
+   },
+   "time_horizons": [
+    "planning"
+   ],
+   "heat_metrics": [
+    "not_applicable"
+   ],
+   "method_summary": "A charter developed by a worker-focused organisation and an apartment federation; not an evaluated intervention.",
+   "limitations": [
+    "No adoption figures were found.",
+    "No reuse licence is stated: free to read is not permission to republish."
+   ],
+   "access": {
+    "mode": "public_read",
+    "registration_required": null,
+    "price_amount": null,
+    "currency": null,
+    "licence": null,
+    "licence_status": "not_verified",
+    "rehosting_allowed": null
+   },
+   "technical": {
+    "api_status": "not_checked",
+    "api_docs_url": null,
+    "integration_mode": "link_out",
+    "live_execution_tested": false
+   },
+   "evidence": {
+    "review_depth": "source_page_reviewed",
+    "reviewed_on": "2026-11-28",
+    "local_validation_status": "not_assessed",
+    "source_ids": [
+     "blr_charter"
+    ],
+    "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+   },
+   "publication": {
+    "status": "provisional_listing",
+    "featured": false,
+    "maintenance_status": "not_verified",
+    "next_review_due": "2027-02-28"
+   },
+   "links": {
+    "primary_url": "https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+    "common_shade_next_step": "/cities/bengaluru/who-is-doing-what/#tools"
+   },
+   "field_provenance": {
+    "provider_facts_source_ids": [
+     "blr_charter"
+    ],
+    "editorial_fields": [
+     "decision_tags",
+     "user_roles",
+     "limitations",
+     "links.common_shade_next_step"
+    ],
+    "unknown_fields": [
+     "access.licence"
+    ]
+   },
+   "follow_up_checks": [
+    "Check whether adoption is being tracked.",
+    "Check the Kannada and Hindi versions with a speaker."
+   ]
+  }
+ ]
+}

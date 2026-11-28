@@ -1428,6 +1428,12 @@
    "how": "meta"
   },
   {
+   "url": "https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/",
+   "label": "Sensing Local",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://citizenmatters.in/mcap-climate-change-heat-mumbai/",
    "label": "Citizen Matters",
    "root": "experience",
@@ -5513,6 +5519,15 @@
    "root": "practical",
    "org": false,
    "date": "2025-07",
+   "precision": "month",
+   "how": "url"
+  },
+  {
+   "url": "https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/",
+   "label": "Greater Bengaluru Authority",
+   "root": "institutions",
+   "org": true,
+   "date": "2026-03",
    "precision": "month",
    "how": "url"
   },
@@ -10338,6 +10353,12 @@
    "how": "label"
   },
   {
+   "url": "https://www.artpark.in/about/programs/social-impact",
+   "label": "ARTPARK (AI & Robotics Technology Park, IISc)",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.asianagri.com/en/media-publications/press-release/asian-agri-holds-fire-readiness-drill-in-anticipation-of-dry-season-and-signs-mou-for-fire-free-village-programme-2024-2025/",
    "label": "Asian Agri Fire Free Village 2024–2025",
    "root": "financing",
@@ -12312,6 +12333,12 @@
    "org": true
   },
   {
+   "url": "https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/",
+   "label": "Socratus",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.globalresiliencepartnership.org/building-heat-resilience-in-freetown-sierra-leone/",
    "label": "Global Resilience Partnership",
    "root": "institutions",
@@ -12623,6 +12650,12 @@
   {
    "url": "https://www.heatwatch.in",
    "label": "HeatWatch Foundation",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+   "label": "Bangalore Apartment Federation",
    "root": "institutions",
    "org": true
   },

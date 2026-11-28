@@ -235,3 +235,8 @@ Rows where the record's own words did not settle the draft. Decisions go in `fac
 | haqdarshak | Haqdarshak | IN | country | ngo | type from its group |
 | healthserve | HealthServe | SG | country | ngo | type from its group |
 | twc2 | Transient Workers Count Too (TWC2) | SG | country | ngo | type from its group |
+| artpark | ARTPARK (AI & Robotics Technology Park, IISc) | IN | country | research | type from its group |
+| socratus | Socratus | IN | country | ngo | type from its group |
+| sensinglocal | Sensing Local | IN | country | research | type from its group |
+| baf | Bangalore Apartment Federation | IN | country | ngo | type from its group |
+| ksndmc | Karnataka State Natural Disaster Monitoring Centre (KSNDMC) | IN | country | government | type from its group |

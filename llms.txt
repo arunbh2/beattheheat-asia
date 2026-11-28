@@ -125,7 +125,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 ## Heat Tool Finder
 
-- [Heat Tool Finder](https://beattheheat.asia/heat-tools/index.md): which heat tool fits a decision (warnings, where to focus, future heat, exposure, worker protection, cooler places, response plans, financial protection, inclusion): 24 outside resources and 5 Common Shade pages, each with what it needs, what it gives, its limits and how far it was reviewed; never ranked, and none run by Common Shade (also in llms-full.txt; data at https://beattheheat.asia/data/heat-tools/catalogue.json)
+- [Heat Tool Finder](https://beattheheat.asia/heat-tools/index.md): which heat tool fits a decision (warnings, where to focus, future heat, exposure, worker protection, cooler places, response plans, financial protection, inclusion): 27 outside resources and 5 Common Shade pages, each with what it needs, what it gives, its limits and how far it was reviewed; never ranked, and none run by Common Shade (also in llms-full.txt; data at https://beattheheat.asia/data/heat-tools/catalogue.json)
 
 ## For AI agents
 
@@ -139,7 +139,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 ## Everything the site covers: the evidence
 
-- [2,417 sources](https://beattheheat.asia/sources/index.md): cited, every one listed
+- [2,422 sources](https://beattheheat.asia/sources/index.md): cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/index.md): cycle by cycle, on the evidence map
 - [44 learning questions](https://beattheheat.asia/evidence-map/index.md): nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/index.md): the Lancet Countdown 2026, in plain language
@@ -155,7 +155,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 - [98 schemes](https://beattheheat.asia/paying-when-heat-strikes/index.md): and 36 financial instruments, and whether they paid
 - [91 businesses](https://beattheheat.asia/heat-economy/index.md): and 77 funders in the heat economy
-- [336 organisations](https://beattheheat.asia/heat-network/index.md): mapped, each with a profile
+- [342 organisations](https://beattheheat.asia/heat-network/index.md): mapped, each with a profile
 
 ## New since the November 2026 edition of State of the field
 

@@ -36,8 +36,16 @@ Cycle | Why here | One action that breaks it |
 - Hasiru Dala
 - Bengaluru Sustainability Forum
 - Bruhat Bengaluru Mahanagara Palike / Bengaluru city government
+- Greater Bengaluru Authority
 - C40 Cities
 - WRI India
+- Center for Study of Science, Technology and Policy (CSTEP)
+- HeatWatch India
+- Jan Sahas
+- ARTPARK (AI & Robotics Technology Park, IISc)
+- Socratus
+- Sensing Local
+- Bangalore Apartment Federation
 
 Listing does not imply partnership, affiliation or endorsement.
 
