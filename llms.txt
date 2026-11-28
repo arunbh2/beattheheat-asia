@@ -68,6 +68,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 - [Funding landscape](https://beattheheat.asia/heat-economy/money/index.md): funders and programmes relevant to extreme heat, with their access routes, each checked against its official page (also in llms-full.txt)
 - [Open calls and tenders](https://beattheheat.asia/heat-economy/money/opportunities/index.md): calls, tenders and procurement notices with application status and verification kept apart; CSV download
 - [Careers](https://beattheheat.asia/heat-economy/money/careers/index.md): jobs, consultancies, research posts and fellowships on extreme heat, each checked against the employer's own page; CSV download
+- [Heat Opportunities](https://beattheheat.asia/opportunities/index.md): one searchable hub for jobs, consultancies, fellowships, grants, research calls and tenders on extreme heat, with heat relevance explained, deadlines as published, coverage of the heat network, an Atom feed and JSON data
 - [Country snapshots](https://beattheheat.asia/countries/index.md): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand
 - [The Lancet Countdown 2026, for extreme heat in Asia](https://beattheheat.asia/lancet-countdown-2026/index.md): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references
 - [How heat is reported](https://beattheheat.asia/how-heat-is-reported/index.md): how 101 news articles on extreme heat in South and Southeast Asia (2018–2026), in two collections, follow protection: an explorer with each reviewed article's reporting trail, examples, comparisons and a question kit; records as CSV and JSON
@@ -172,6 +173,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 - [Heat from field to factory](https://beattheheat.asia/cotton-and-heat/index.md): Cotton from field to gin: who can stop work in the heat, and who pays for protection; first published 2026-11-20
 - [El Niño and smaller cities](https://beattheheat.asia/el-nino-and-cities/index.md): What a smaller Indian city can prepare before its hot season, and how to check people got relief; first published 2026-11-18
 - [The Heat Assembly](https://beattheheat.asia/heat-assembly/index.md): A game for one person or a group: who could use heat protection, and why; first published 2026-11-16
+- [Heat Opportunities](https://beattheheat.asia/opportunities/index.md): Jobs, consultancies, fellowships, grants and tenders on extreme heat, with deadlines as published; first published 2026-11-28
 - [Open calls and tenders](https://beattheheat.asia/heat-economy/money/opportunities/index.md): Grants, calls and procurement notices, {fundingOpen} verified open, with the archive; first published 2026-11-21
 - [Careers in heat resilience](https://beattheheat.asia/heat-economy/money/careers/index.md): jobs, consultancies, research posts and fellowships; first published 2026-11-21
 

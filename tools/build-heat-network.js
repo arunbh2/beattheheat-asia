@@ -53,6 +53,9 @@ function body({ D, esc, ext, V }) {
   <p class="meta"><a href="/heat-network/heat-network.csv" download>Download the whole list as a spreadsheet (CSV)</a>. Something missing or out of date? <a href="/join/">Tell us</a> or see <a href="/corrections/">corrections</a>.</p>
   <div id="hn-list">`;
   const m = [sidesIntro, TEXT.how, TEXT.linkNote(lastCheck(F))];
+  // open listings on /opportunities/ (tools/build-opportunities.js), counted per organisation; a listing is not a partnership
+  const OPEN = {}; { const OH = require("../opportunities/hub-core.js"), now = new Date().toISOString().slice(0, 10);
+    require("./build-opportunities.js").items().filter(it => it.network_id && !OH.isArchived(it, now)).forEach(it => { OPEN[it.network_id] = (OPEN[it.network_id] || 0) + 1; }); }
   D.ORG_ROLES.forEach(r => {
     const os = D.ORGANISATIONS.filter(o => o.role === r.id); if (!os.length) return;
     h += `<section class="hn-group"><h2 id="${r.id}">${esc(r.name)}</h2><ul class="hn-cards">${os.map(o => {
@@ -60,7 +63,8 @@ function body({ D, esc, ext, V }) {
       const tag = linkTag(f);
       return `<li class="hn-card" id="org-${esc(o.id)}" data-c="${f.countries.join(" ")}" data-s="${f.scale}" data-p="${esc(side.id || "")}" data-t="${f.type}" data-l="${acts.join(" ")}">${ext(o.url, o.name)} <span class="meta">(${esc(side.name || "")})</span>: ${esc(o.does)}
         <span class="hn-tags"><span>${esc(N.TYPE[f.type])}</span><span>${esc(N.placeWords(f))}</span>${tag ? `<span class="hn-tag--link">${esc(tag)}</span>` : ""}</span>${acts.length ? `
-        <span class="hn-acts">Works on: ${acts.map(l => `<a href="/actions/#${esc(l)}">${esc(lever[l])}</a>`).join(", ")}</span>` : ""}</li>`; }).join("")}</ul></section>`;
+        <span class="hn-acts">Works on: ${acts.map(l => `<a href="/actions/#${esc(l)}">${esc(lever[l])}</a>`).join(", ")}</span>` : ""}${OPEN[o.id] ? `
+        <span class="hn-acts"><a href="/opportunities/?org=${esc(o.id)}&amp;rel=all">Open opportunities listed on Common Shade (${OPEN[o.id]})</a></span>` : ""}</li>`; }).join("")}</ul></section>`;
     m.push(`### ${r.name}`, ...os.map(o => { const f = F[o.id]; return `- ${o.name} (${sideOf(o.id).name}; ${N.TYPE[f.type]}; ${N.placeWords(f)}): ${o.does} (${o.url})`; }));
   });
   h += `</div>

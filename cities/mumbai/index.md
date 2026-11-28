@@ -179,6 +179,8 @@ Listing does not imply partnership, affiliation or endorsement.
 
 Plans and law, warnings, rules for heat at work, cooling, money and other cities in India: [the India country snapshot](https://beattheheat.asia/countries/india/).
 
+**Open heat opportunities connected to Mumbai:** [Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)](https://beattheheat.asia/opportunities/car-nrdcin-cehsc-analyst-2026/) (NRDC India; 11 December 2026); [Senior Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)](https://beattheheat.asia/opportunities/car-nrdcin-cehsc-senior-analyst-2026/) (NRDC India; 11 December 2026). [Heat Opportunities](https://beattheheat.asia/opportunities/?city=mumbai)
+
 **Find tools for this decision.** Official warnings, heat risk and cooler places in India: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=IN)
 
 **Who is already working here.** Organisations whose listed heat work is in India, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=IN)

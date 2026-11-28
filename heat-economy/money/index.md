@@ -22,8 +22,8 @@ The funding landscape and how each programme can be reached, open calls and care
 
 Who funds work relevant to extreme heat in South and Southeast Asia, through which programmes, and how each can be reached. A funder is not an open call: most of these programmes are not accepting applications today, and several are reached only through an accredited entity, a government nomination, a consortium or an invitation.
 
-[Open calls and tenders3 verified open now, with the archive of earlier rounds](https://beattheheat.asia/heat-economy/money/opportunities/)
-[Careers10 listings, 6 verified open](https://beattheheat.asia/heat-economy/money/careers/)
+[Open calls and tenders4 verified open now, with the archive of earlier rounds](https://beattheheat.asia/heat-economy/money/opportunities/)
+[Careers18 listings, 10 verified open](https://beattheheat.asia/heat-economy/money/careers/)
 [What needs funding?Where this dataset has verified support, and where it has little](#needs)
 
 Each programme shows its access route, who can receive money, what kind of money it is, and how its remit connects to heat. The connection is labelled by how direct it is.
@@ -82,7 +82,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/)
 
-**Source checked:** 22 November 2026 · [Adaptation Fund: LLA Single Country Grants](https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/)
+**Source checked:** 28 November 2026 · [Adaptation Fund: LLA Single Country Grants](https://www.adaptation-fund.org/apply-funding/locally-led-adaptation/lla-single-country-grants/)
 
 IKI Medium GrantsPotential connection requiring confirmationPeriodic competitive callsConsortium or institutional leadInternational Climate Initiative (IKI)
 
@@ -138,7 +138,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
 
-**Source checked:** 22 November 2026 · [International Climate Initiative (IKI): Medium Grants](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
+**Source checked:** 28 November 2026 · [International Climate Initiative (IKI): Medium Grants](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
 
 Climate Justice Resilience Fund grantsPotential connection requiring confirmationNo public application route foundClimate Justice Resilience Fund
 
@@ -194,63 +194,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.cjrfund.org/)
 
-**Source checked:** 22 November 2026 · [Climate Justice Resilience Fund: Climate Justice Resilience Fund](https://www.cjrfund.org/)
-
-Commonwealth Foundation grantsPotential connection requiring confirmationPeriodic competitive callsCommonwealth Foundation
-
-#### What it funds
-
-Grants to civil society organisations and collectives in Commonwealth member countries; climate and environmental justice is one priority.
-
-#### How it connects to heat
-
-Common Shade's reading. Civil society work on heat and climate justice could fit the climate and environmental justice priority.
-
-#### How to reach it
-
-Periodic competitive calls.
-
-#### Who can receive money
-
-Not-for-profit organisations and collectives in eligible Commonwealth countries.
-
-#### Kind of money
-
-Grant
-
-#### What it could support
-
-Community organising and participation, Policy and institutional capacity
-
-#### Calls and rounds
-
-- [Commonwealth Foundation open grants call 2026 to 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-cwf-2026) · Closed
-
-Health and equity reach
-
-**Intended beneficiaries**: Not assessed
-
-**Setting and geography**: Not assessed
-
-**Type of protection**: Earnings or social protection; Workplace heat protection
-
-**Equity provisions**: Not assessed
-
-**Who delivers**: Grantees or partners chosen by Commonwealth Foundation; no delivery organisation is named for specific work
-
-**Participation or governance**: Not assessed
-
-**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
-
-**Implementation stage**: Reported operational by the funder (not independently evaluated)
-
-**Evidence of actual reach**: Not assessed
-
-Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
-
-[Monitor future calls](https://commonwealthfoundation.com/grants/annual/)
-
-**Source checked:** 22 November 2026 · [Commonwealth Foundation: Open grants call](https://commonwealthfoundation.com/grants/annual/)
+**Source checked:** 28 November 2026 · [Climate Justice Resilience Fund: Climate Justice Resilience Fund](https://www.cjrfund.org/)
 
 Advancing Research on Climate and HealthRelated remit with a clear heat applicationPeriodic competitive callsInternational Development Research Centre
 
@@ -306,7 +250,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health)
 
-**Source checked:** 22 November 2026 · [International Development Research Centre (IDRC): Advancing Research on Climate and Health](https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health)
+**Source checked:** 28 November 2026 · [International Development Research Centre (IDRC): Advancing Research on Climate and Health](https://idrc-crdi.ca/en/initiative/advancing-research-climate-and-health)
 
 APN Collaborative Regional Research (CRRP) and Scientific Capacity Development (CAPaBLE)Potential connection requiring confirmationPeriodic competitive callsConsortium or institutional leadAsia-Pacific Network for Global Change Research
 
@@ -362,7 +306,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://www.apn-gcr.org/opportunities/calls-for-proposals/)
 
-**Source checked:** 22 November 2026 · [Asia-Pacific Network for Global Change Research: Calls for proposals](https://www.apn-gcr.org/opportunities/calls-for-proposals/)
+**Source checked:** 28 November 2026 · [Asia-Pacific Network for Global Change Research: Calls for proposals](https://www.apn-gcr.org/opportunities/calls-for-proposals/)
 
 Climate Adaptation and Resilience (CLARE)Related remit with a clear heat applicationPeriodic competitive callsConsortium or institutional leadInternational Development Research Centre, with UK Foreign, Commonwealth and Development Office
 
@@ -418,7 +362,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)
 
-**Source checked:** 22 November 2026 · [International Development Research Centre (IDRC): Climate Adaptation and Resilience (CLARE)](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)
+**Source checked:** 28 November 2026 · [International Development Research Centre (IDRC): Climate Adaptation and Resilience (CLARE)](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)
 
 Horizon Europe Cluster 1: Health (environment and health topics)Related remit with a clear heat applicationConsortium or institutional leadEuropean Commission
 
@@ -474,7 +418,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-ENVHLTH-02)
 
-**Source checked:** 22 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
+**Source checked:** 28 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
 
 Nexa (climate and health, Africa, Latin America and the Caribbean)Explicit heat focusPeriodic competitive callsGrand Challenges Canada
 
@@ -530,7 +474,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.grandchallenges.ca/funding-opportunity-nexa/)
 
-**Source checked:** 22 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa](https://www.grandchallenges.ca/funding-opportunity-nexa/)
+**Source checked:** 28 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa](https://www.grandchallenges.ca/funding-opportunity-nexa/)
 
 Nexa Lighthouse (climate and health innovation, Asia and the Pacific)Explicit heat focusPeriodic competitive callsGrand Challenges Canada, with AVPN
 
@@ -590,7 +534,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.grandchallenges.ca/portfolio/nexa-lighthouse/)
 
-**Source checked:** 22 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa Lighthouse](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/) · [Grand Challenges Canada: Nexa Lighthouse](https://www.grandchallenges.ca/portfolio/nexa-lighthouse/)
+**Source checked:** 28 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa Lighthouse](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/) · [Grand Challenges Canada: Nexa Lighthouse](https://www.grandchallenges.ca/portfolio/nexa-lighthouse/)
 
 Wellcome Climate Impacts AwardsRelated remit with a clear heat applicationPeriodic competitive callsConsortium or institutional leadWellcome
 
@@ -651,7 +595,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
 
-**Source checked:** 22 November 2026 · [Wellcome: Climate Impacts Awards](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
+**Source checked:** 28 November 2026 · [Wellcome: Climate Impacts Awards](https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2)
 
 ClimateWorks Adaptation and Resilience FundExplicit heat focusPeriodic competitive callsInvitation onlyClimateWorks Foundation
 
@@ -711,7 +655,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.climateworks.org/programs/adaptation-and-resilience/fund/)
 
-**Source checked:** 22 November 2026 · [ClimateWorks Foundation: Adaptation and Resilience Fund](https://www.climateworks.org/programs/adaptation-and-resilience/fund/) · [ClimateWorks Foundation: Meet the grantees from our global call for extreme heat solutions](https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/)
+**Source checked:** 28 November 2026 · [ClimateWorks Foundation: Adaptation and Resilience Fund](https://www.climateworks.org/programs/adaptation-and-resilience/fund/) · [ClimateWorks Foundation: Meet the grantees from our global call for extreme heat solutions](https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/)
 
 Grand Challenges: climate change's impact on health, agriculture and genderExplicit heat focusPeriodic competitive callsGates Foundation
 
@@ -771,7 +715,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
 
-**Source checked:** 22 November 2026 · [Gates Foundation (Grand Challenges): Accelerating and catalyzing solutions to climate change's impact on health, agriculture and gender](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
+**Source checked:** 28 November 2026 · [Gates Foundation (Grand Challenges): Accelerating and catalyzing solutions to climate change's impact on health, agriculture and gender](https://gcgh.grandchallenges.org/challenge/accelerating-catalyzing-solutions-climate-changes-impact-health-agriculture-and-gender)
 
 Toyota Foundation International Grant ProgramPotential connection requiring confirmationPeriodic competitive callsToyota Foundation
 
@@ -827,7 +771,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.toyotafound.or.jp/english/grant/international/)
 
-**Source checked:** 22 November 2026 · [Toyota Foundation: International Grant Program](https://www.toyotafound.or.jp/english/grant/international/)
+**Source checked:** 28 November 2026 · [Toyota Foundation: International Grant Program](https://www.toyotafound.or.jp/english/grant/international/)
 
 Z Zurich Foundation partnership with the IFRC Global Climate Resilience PlatformExplicit heat focusNo public application route foundZ Zurich Foundation
 
@@ -883,7 +827,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf)
 
-**Source checked:** 22 November 2026 · [IFRC: Global Climate Resilience Platform: status update report, issue 2](https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf)
+**Source checked:** 28 November 2026 · [IFRC: Global Climate Resilience Platform: status update report, issue 2](https://www.ifrc.org/sites/default/files/2026-10/GCRP2026_Status-Update-Report_Issue-2.pdf)
 
 Asia Climate Solutions design grantPotential connection requiring confirmationPeriodic competitive callsConvergence
 
@@ -939,7 +883,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.convergence.finance/accelerator/acs)
 
-**Source checked:** 22 November 2026 · [Convergence: Asia Climate Solutions Design Grant](https://www.convergence.finance/accelerator/acs)
+**Source checked:** 28 November 2026 · [Convergence: Asia Climate Solutions Design Grant](https://www.convergence.finance/accelerator/acs)
 
 GRP Innovation ChallengePotential connection requiring confirmationPeriodic competitive callsGlobal Resilience Partnership
 
@@ -995,7 +939,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
 
-**Source checked:** 22 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
+**Source checked:** 28 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
 
 UNICEF Venture Fund: climate and healthExplicit heat focusPeriodic competitive callsUNICEF Venture Fund
 
@@ -1051,7 +995,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
 
-**Source checked:** 22 November 2026 · [UNICEF Venture Fund: Funding frontier climate tech for children's health](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
+**Source checked:** 28 November 2026 · [UNICEF Venture Fund: Funding frontier climate tech for children's health](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
 
 Community Resilience Partnership Program Trust FundRelated remit with a clear heat applicationGovernment nomination or endorsementAsian Development Bank
 
@@ -1107,7 +1051,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)
 
-**Source checked:** 22 November 2026 · [Asian Development Bank: Community Resilience Partnership Program Trust Fund](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)
+**Source checked:** 28 November 2026 · [Asian Development Bank: Community Resilience Partnership Program Trust Fund](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)
 
 GEF Small Grants ProgrammePotential connection requiring confirmationPeriodic competitive callsGEF Small Grants Programme
 
@@ -1163,7 +1107,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://sgp.undp.org/about-us-157/how-to-apply.html)
 
-**Source checked:** 22 November 2026 · [GEF Small Grants Programme (UNDP): How to Apply](https://sgp.undp.org/about-us-157/how-to-apply.html)
+**Source checked:** 28 November 2026 · [GEF Small Grants Programme (UNDP): How to Apply](https://sgp.undp.org/about-us-157/how-to-apply.html)
 
 IKI Small GrantsPotential connection requiring confirmationPeriodic competitive callsGIZ, with International Climate Initiative (IKI)
 
@@ -1219,7 +1163,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
 
-**Source checked:** 22 November 2026 · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
+**Source checked:** 28 November 2026 · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
 
 ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)Explicit heat focusProcurement or vendor registrationGovernment nomination or endorsementAsian Development Bank
 
@@ -1275,7 +1219,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://www.adb.org/projects/59391-001/main)
 
-**Source checked:** 22 November 2026 · [Asian Development Bank: 59391-001: Investing in Resilience to Extreme Heat: Sector and Gender-Responsive Adaptation Solutions](https://www.adb.org/projects/59391-001/main)
+**Source checked:** 28 November 2026 · [Asian Development Bank: 59391-001: Investing in Resilience to Extreme Heat: Sector and Gender-Responsive Adaptation Solutions](https://www.adb.org/projects/59391-001/main)
 
 GCF funding through accredited entitiesRelated remit with a clear heat applicationThrough accredited entitiesGovernment nomination or endorsementGreen Climate Fund
 
@@ -1331,7 +1275,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://www.greenclimate.fund/partners/accredited-entities)
 
-**Source checked:** 22 November 2026 · [Green Climate Fund: Accredited Entities](https://www.greenclimate.fund/partners/accredited-entities)
+**Source checked:** 28 November 2026 · [Green Climate Fund: Accredited Entities](https://www.greenclimate.fund/partners/accredited-entities)
 
 GCF Readiness and Preparatory SupportRelated remit with a clear heat applicationGovernment nomination or endorsementThrough accredited entitiesGreen Climate Fund
 
@@ -1387,7 +1331,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Check institutional eligibility](https://www.greenclimate.fund/readiness)
 
-**Source checked:** 22 November 2026 · [Green Climate Fund: Readiness and Preparatory Support](https://www.greenclimate.fund/readiness)
+**Source checked:** 28 November 2026 · [Green Climate Fund: Readiness and Preparatory Support](https://www.greenclimate.fund/readiness)
 
 Global EbA FundPotential connection requiring confirmationPeriodic competitive callsIUCN
 
@@ -1443,7 +1387,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
 
-**Source checked:** 22 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
+**Source checked:** 28 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
 
 Clean Cooling CollaborativeExplicit heat focusNo public application route foundClimateWorks Foundation
 
@@ -1499,7 +1443,67 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.cleancoolingcollaborative.org/)
 
-**Source checked:** 22 November 2026 · [Clean Cooling Collaborative (ClimateWorks Foundation): Clean Cooling Collaborative](https://www.cleancoolingcollaborative.org/)
+**Source checked:** 28 November 2026 · [Clean Cooling Collaborative (ClimateWorks Foundation): Clean Cooling Collaborative](https://www.cleancoolingcollaborative.org/)
+
+Beat the Heat in CitiesExplicit heat focusGovernment nomination or endorsementCool Coalition (UNEP)
+
+#### What it funds
+
+Support for cities on heat action and urban cooling, with countries and cities proposing cities through an expression of interest.
+
+#### How it connects to heat
+
+Common Shade's reading. Heat action and urban cooling in cities is the programme's subject.
+
+#### How to reach it
+
+Government nomination or endorsement. Countries and cities submit an expression of interest proposing up to three cities; the Secretariat replies with next steps. (not confirmed by the source check)
+
+#### Who can receive money
+
+Cities, proposed by their national or city governments.
+
+#### Kind of money
+
+Not stated
+
+#### What it could support
+
+Policy and institutional capacity, Pilots and demonstrations
+
+#### Calls and rounds
+
+- [Beat the Heat in Cities: expression of interest for countries and cities](https://beattheheat.asia/heat-economy/money/opportunities/#opp-cool-bth-eoi) · Status unknown
+
+#### On Signals
+
+- [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026) Funded, original checked
+
+Health and equity reach
+
+**Intended beneficiaries**: Not assessed
+
+**Setting and geography**: Not assessed
+
+**Type of protection**: Public cooling and accessible infrastructure; Household or public cooling
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Grantees or partners chosen by Cool Coalition (UNEP); no delivery organisation is named for specific work
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: A programme a funder runs; no amounts or allocations to particular components are tracked in this record
+
+**Implementation stage**: Reported operational by the funder (not independently evaluated)
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's checked remit, recipients and geography. A programme mentioning households does not show who in a household benefits, and a remit is not a gender-responsive budget.
+
+[Check institutional eligibility](https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities)
+
+**Source checked:** 28 November 2026 · [Cool Coalition (UNEP): Beat the Heat in Cities](https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities)
 
 City Climate Finance Gap FundRelated remit with a clear heat applicationDirect open applicationsCity Climate Finance Gap Fund
 
@@ -1555,7 +1559,7 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 [Monitor future calls](https://www.citygapfund.org/)
 
-**Source checked:** 22 November 2026 · [City Climate Finance Gap Fund: City Climate Finance Gap Fund](https://www.citygapfund.org/)
+**Source checked:** 28 November 2026 · [City Climate Finance Gap Fund: City Climate Finance Gap Fund](https://www.citygapfund.org/)
 
 **The three relevance labels.** Explicit heat focus; Related remit with a clear heat application; Potential connection requiring confirmation. The third is never presented as confirmed eligibility.
 
@@ -1563,9 +1567,9 @@ Read by script from this record's checked remit, recipients and geography. A pro
 
 The kinds of work heat protection needs, and how many records in this curated dataset explicitly support each. A low number is a gap in the dataset, not proof that no funding exists: the absence of a published call is not the absence of funding.
 
-- **Research and evidence**9 records[APN Collaborative Regional Research (CRRP) and Scientific Capacity Development (CAPaBLE)](#fund-prog-apn) · [Wellcome Climate Impacts Awards](#fund-prog-wellcome-cia) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Advancing Research on Climate and Health](#fund-prog-idrc-arch) · [ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)](#fund-prog-adb-heat-ta) · [Grand Challenges: climate change's impact on health, agriculture and gender](#fund-prog-gates-gc-climate) and 3 more
-- **Community organising and participation**10 records[IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) · [ClimateWorks Adaptation and Resilience Fund](#fund-prog-cw-arf) · [Climate Justice Resilience Fund grants](#fund-prog-cjrf) · [Community Resilience Partnership Program Trust Fund](#fund-prog-adb-crpp) and 4 more
-- **Pilots and demonstrations**18 records[Nexa Lighthouse (climate and health innovation, Asia and the Pacific)](#fund-prog-gcc-nexa-lighthouse) · [Nexa (climate and health, Africa, Latin America and the Caribbean)](#fund-prog-gcc-nexa) · [IKI Medium Grants](#fund-prog-iki-medium) · [IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) and 12 more
+- **Research and evidence**10 records[APN Collaborative Regional Research (CRRP) and Scientific Capacity Development (CAPaBLE)](#fund-prog-apn) · [Wellcome Climate Impacts Awards](#fund-prog-wellcome-cia) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Advancing Research on Climate and Health](#fund-prog-idrc-arch) · [ADB technical assistance: Investing in Resilience to Extreme Heat (59391-001)](#fund-prog-adb-heat-ta) · [Grand Challenges: climate change's impact on health, agriculture and gender](#fund-prog-gates-gc-climate) and 4 more
+- **Community organising and participation**8 records[IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) · [ClimateWorks Adaptation and Resilience Fund](#fund-prog-cw-arf) · [Climate Justice Resilience Fund grants](#fund-prog-cjrf) · [Community Resilience Partnership Program Trust Fund](#fund-prog-adb-crpp) and 2 more
+- **Pilots and demonstrations**20 records[Nexa Lighthouse (climate and health innovation, Asia and the Pacific)](#fund-prog-gcc-nexa-lighthouse) · [Nexa (climate and health, Africa, Latin America and the Caribbean)](#fund-prog-gcc-nexa) · [IKI Medium Grants](#fund-prog-iki-medium) · [IKI Small Grants](#fund-prog-iki-small) · [GEF Small Grants Programme](#fund-prog-gef-sgp) · [Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla) and 14 more
 - **Infrastructure and equipment**3 records[GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Community Resilience Partnership Program Trust Fund](#fund-prog-adb-crpp) · [City Climate Finance Gap Fund](#fund-prog-gapfund)
 - **Recurring delivery and maintenance**1 record · Little verified coverage so far[Adaptation Fund locally led adaptation (single-country grants)](#fund-prog-af-lla)
 - **Policy and institutional capacity**14 records[IKI Medium Grants](#fund-prog-iki-medium) · [APN Collaborative Regional Research (CRRP) and Scientific Capacity Development (CAPaBLE)](#fund-prog-apn) · [GCF Readiness and Preparatory Support](#fund-prog-gcf-readiness) · [GCF funding through accredited entities](#fund-prog-gcf-accredited) · [Climate Adaptation and Resilience (CLARE)](#fund-prog-idrc-clare) · [Clean Cooling Collaborative](#fund-prog-ccc) and 8 more
@@ -1573,16 +1577,16 @@ The kinds of work heat protection needs, and how many records in this curated da
 
 ### By the heat problem it touches
 
-- **Occupational heat and informal workers** 4
+- **Occupational heat and informal workers** 2 · Little verified coverage so far
 - **Factory and agricultural value chains** 2 · Little verified coverage so far
-- **Homes and night-time recovery** 1 · Little verified coverage so far
+- **Homes and night-time recovery** 2 · Little verified coverage so far
 - **Schools and care** 2 · Little verified coverage so far
 - **Health systems** 15
 - **Early warning and anticipatory action** 7
-- **Municipal governance** 16
-- **Water, nature and public space** 10
-- **Cooling and energy** 4
-- **Gender, disability and social protection** 11
+- **Municipal governance** 18
+- **Water, nature and public space** 12
+- **Cooling and energy** 6
+- **Gender, disability and social protection** 10
 
 - Coverage is curated, not complete. Calls in national languages, national government schemes and private foundations without public calls are under-represented.
 - Few verified records fund recurring delivery and maintenance, worker organisations or locally led delivery. This is a gap in the dataset, not a finding about the whole funding landscape.
@@ -1594,13 +1598,13 @@ Within the records tracked by Common Shade: 27 funding programmes and 21 policy 
 
 Records by the kind of protection they name (a record can count more than once)Kind of protection | Funding programmes | Policy commitments |
 Care-service continuity | 1 | 0 |
-Earnings or social protection | 9 | 1 |
+Earnings or social protection | 8 | 1 |
 Healthcare and maternal services | 11 | 5 |
 Household cooling | 1 | 0 |
-Household or public cooling | 4 | 0 |
-Public cooling and accessible infrastructure | 15 | 2 |
+Household or public cooling | 5 | 0 |
+Public cooling and accessible infrastructure | 16 | 2 |
 Warning and response systems | 5 | 15 |
-Workplace heat protection | 4 | 3 |
+Workplace heat protection | 3 | 3 |
 
 What remains unknown across these records: who actually benefits, how money is split between components, and evidence of reach. Each card's "Health and equity reach" panel says which of these it documents. Little funding identified, an undisclosed amount, funding not yet researched and an evidenced financing gap are different things; these records establish none of the last.
 

@@ -136,6 +136,7 @@
    ],
    "type": "intergovernmental",
    "website": "https://www.apn-gcr.org/",
+   "network_id": "apn",
    "remit": {
     "text": "Intergovernmental network that funds regional research (CRRP) and scientific capacity (CAPaBLE) on global change in Asia and the Pacific.",
     "src": "apn-calls",
@@ -266,6 +267,7 @@
    ],
    "type": "foundation",
    "website": "https://wellcome.org/",
+   "network_id": "wellcome",
    "remit": {
     "text": "Charitable foundation funding health research, including climate and health.",
     "src": "wellcome-cia",
@@ -292,6 +294,7 @@
    ],
    "type": "bilateral",
    "website": "https://idrc-crdi.ca/",
+   "network_id": "idrc",
    "remit": {
     "text": "Canadian research funder; runs climate adaptation and climate and health research programmes with the UK.",
     "src": "idrc-clare",
@@ -318,6 +321,7 @@
    ],
    "type": "bilateral",
    "website": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+   "network_id": "ukforeigncommonwealthand",
    "remit": {
     "text": "Co-funds the CLARE programme with IDRC.",
     "src": "idrc-clare",
@@ -341,6 +345,7 @@
    "name": "ClimateWorks Foundation",
    "type": "foundation",
    "website": "https://www.climateworks.org/",
+   "network_id": "climateworks",
    "remit": {
     "text": "Runs the Adaptation and Resilience Fund, which ran a global call for extreme heat solutions, and hosts the Clean Cooling Collaborative.",
     "src": "cw-heat-grantees",
@@ -393,6 +398,7 @@
    ],
    "type": "development-bank",
    "website": "https://www.adb.org/",
+   "network_id": "adb",
    "remit": {
     "text": "Regional development bank; lends to and supports member governments, and runs trust funds and technical assistance for community-level adaptation.",
     "src": "adb-crpp",
@@ -446,6 +452,7 @@
    "name": "World Bank",
    "type": "development-bank",
    "website": "https://www.worldbank.org/",
+   "network_id": "worldbank",
    "remit": {
     "text": "Lends to governments; its 2026 report on extreme heat in South Asia's cities recommends strengthening heat action plans.",
     "src": "wb-heat-report",
@@ -497,6 +504,7 @@
    "name": "Start Network",
    "type": "humanitarian-fund",
    "website": "https://startnetwork.org/",
+   "network_id": "startnetwork",
    "remit": {
     "text": "Network of aid organisations running the Start Fund for rapid humanitarian response.",
     "src": "start-fund",
@@ -523,6 +531,7 @@
    ],
    "type": "humanitarian-fund",
    "website": "https://www.ifrc.org/",
+   "network_id": "ifrc",
    "remit": {
     "text": "Runs the Disaster Response Emergency Fund (DREF) for National Red Cross and Red Crescent Societies.",
     "src": "ifrc-dref",
@@ -549,6 +558,7 @@
    ],
    "type": "un-body",
    "website": "https://www.unicef.org/innovation/",
+   "network_id": "unicef",
    "remit": {
     "text": "Equity-free funding for early-stage technology, including a 2026 call on climate and children's health.",
     "src": "unicef-ch-2026",
@@ -575,6 +585,7 @@
    ],
    "type": "partnership",
    "website": "https://www.globalresiliencepartnership.org/",
+   "network_id": "globalresiliencepartners",
    "remit": {
     "text": "Runs innovation challenges for resilience across the Global South.",
     "src": "grp-2026",
@@ -650,6 +661,7 @@
    ],
    "type": "partnership",
    "website": "https://iucn.org/",
+   "network_id": "iucn",
    "remit": {
     "text": "Co-manages the Global EbA Fund with UNEP.",
     "src": "eba-iucn",
@@ -768,6 +780,7 @@
    ],
    "type": "un-body",
    "website": "https://procurement-notices.undp.org/",
+   "network_id": "undp",
    "remit": {
     "text": "Buys services through public procurement notices, including on heat resilience.",
     "src": "undp-ind-heatsmart",
@@ -794,6 +807,7 @@
    ],
    "type": "un-body",
    "website": "https://www.ungm.org/",
+   "network_id": "ilo",
    "remit": {
     "text": "Buys services through the UN Global Marketplace, including on occupational heat exposure.",
     "src": "ungm-ilo-th",
@@ -820,6 +834,7 @@
    ],
    "type": "un-body",
    "website": "https://www.who.int/",
+   "network_id": "worldhealthorganization",
    "remit": {
     "text": "Recruits consultants for climate and health work, including on heat.",
     "src": "who-heat-consultant",
@@ -894,6 +909,7 @@
    ],
    "type": "un-body",
    "website": "https://coolcoalition.org/",
+   "network_id": "coolcoalition",
    "remit": {
     "text": "UNEP-led coalition on sustainable cooling; runs Beat the Heat in Cities.",
     "src": "cool-bth",
@@ -918,6 +934,7 @@
    ],
    "type": "un-body",
    "website": "https://careers.un.org/",
+   "network_id": "unenvironmentprogramme",
    "remit": {
     "text": "Recruits consultants for its work on extreme heat and sustainable cooling, including urban heat assessments in India.",
     "src": "uncareers-287135-api",

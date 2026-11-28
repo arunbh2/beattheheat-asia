@@ -1714,6 +1714,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Check institutional eligibility: APN Collaborative Regional Research (CRRP) and Scientific Capacity Development (CAPaBLE)](https://www.apn-gcr.org/opportunities/calls-for-proposals/)apn-gcr.orgUsed on: The heat economy: money and support
 
+- [Check institutional eligibility: Beat the Heat in Cities](https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities)coolcoalition.orgUsed on: The heat economy: money and support
+
 - [Check institutional eligibility: Climate Adaptation and Resilience (CLARE)](https://idrc-crdi.ca/en/initiative/climate-adaptation-and-resilience-clare)idrc-crdi.caUsed on: The heat economy: money and support
 
 - [Check institutional eligibility: Community Resilience Partnership Program Trust Fund](https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund)adb.orgUsed on: The heat economy: money and support
@@ -2025,8 +2027,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Monitor future calls: Climate Justice Resilience Fund grants](https://www.cjrfund.org/)cjrfund.orgUsed on: The heat economy: money and support
 
 - [Monitor future calls: ClimateWorks Adaptation and Resilience Fund](https://www.climateworks.org/programs/adaptation-and-resilience/fund/)climateworks.orgUsed on: The heat economy: money and support
-
-- [Monitor future calls: Commonwealth Foundation grants](https://commonwealthfoundation.com/grants/annual/)commonwealthfoundation.comUsed on: The heat economy: money and support
 
 - [Monitor future calls: GEF Small Grants Programme](https://sgp.undp.org/about-us-157/how-to-apply.html)sgp.undp.orgUsed on: The heat economy: money and support
 

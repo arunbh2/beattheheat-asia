@@ -50,6 +50,12 @@ function family(p, title) {
     const by = r.origin === "external" ? `, from ${r.provider}` : ", from Common Shade";
     return `${r.name}${by}: ${lc1(r.summary.replace(/\.$/, ""))}. Its Heat Tool Finder profile says what it needs, what it gives and what it cannot tell you. A listing, not an endorsement.`;
   }
+  if ((m = p.match(/^\/opportunities\/([a-z0-9-]+)\/$/))) {
+    // the listing itself, from the hub's data file (tools/build-opportunities.js), not parsed from the page title
+    let it = null; try { it = JSON.parse(require("fs").readFileSync(require("path").join(__dirname, "..", "opportunities", "opportunities.json"), "utf8")).items.find(x => x.id === m[1]); } catch (e) { return null; }
+    if (!it) return null;
+    return `${it.title}, at ${it.org_name}: listed on Heat Opportunities with why it matters for heat, the deadline as published and a link to the official listing. Read the official listing before applying.`;
+  }
   if ((m = p.match(/^\/paths\/([a-z]+)\/$/))) {
     const r = PATHS.paths.find(x => x.id === m[1]); if (!r) return null;
     return `A short guided path through Common Shade for ${lc1(r.label)}. ${r.card} A handful of stops, each answering one question you are likely to be asked.`;

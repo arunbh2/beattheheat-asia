@@ -250,7 +250,7 @@ Programmes and calls in the funding dataset whose published remit touches this t
 
 - [IKI Small Grants: eighth call](https://beattheheat.asia/heat-economy/money/opportunities/#opp-iki-small-2026) Open · Grant call
 - [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](https://beattheheat.asia/heat-economy/money/opportunities/#opp-gcf-readiness-2027) Rolling · Readiness support window
-- [GCF Readiness and Preparatory Support](https://beattheheat.asia/heat-economy/money/#fund-prog-gcf-readiness) Related remit with a clear heat application · Government nomination or endorsement
+- [Open call: share traditional and cultural heat management practices (Southeast Asia)](https://beattheheat.asia/heat-economy/money/opportunities/#opp-ghhinsea-heritage-practices-2026) Open · Call for contributions (unpaid)
 
 [All calls on this topic](https://beattheheat.asia/heat-economy/money/opportunities/?topic=municipal&status=all) · [The funding landscape](https://beattheheat.asia/heat-economy/money/#landscape) · [Careers](https://beattheheat.asia/heat-economy/money/careers/)
 

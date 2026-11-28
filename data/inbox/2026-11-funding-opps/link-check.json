@@ -255,10 +255,10 @@
    "medium-size": true
   },
   "https://commonwealthfoundation.com/grants/annual/": {
-   "26 October 2026": true,
-   "Climate and environmental justice": true,
-   "Collective Action": true,
-   "Individual Organisation": true
+   "26 October 2026": false,
+   "Climate and environmental justice": false,
+   "Collective Action": false,
+   "Individual Organisation": false
   },
   "https://www.toyotafound.or.jp/english/grant/international/": {
    "International Grant Program": true,
@@ -416,11 +416,11 @@
    "closed": false
   },
   "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma-innovation-fund/": {
-   "2026": false,
-   "GSMA": false,
-   "apply": false,
-   "applications": false,
-   "closed": false
+   "2026": true,
+   "GSMA": true,
+   "apply": true,
+   "applications": true,
+   "closed": true
   },
   "https://www.globalinnovation.fund/what-we-do": {
    "2026": true,
@@ -466,7 +466,7 @@
   },
   "https://coolcoalition.org/projects/nature-cooling-challenge": {
    "2026": false,
-   "Nature": false,
+   "Nature": true,
    "apply": false,
    "applications": false,
    "closed": false
@@ -479,9 +479,9 @@
    "closed": true
   },
   "https://10across.org/10xprize/": {
-   "2026": true,
-   "PRIZE": true,
-   "apply": true,
+   "2026": false,
+   "PRIZE": false,
+   "apply": false,
    "applications": false,
    "closed": false
   },
@@ -493,12 +493,12 @@
    "closed": false
   },
   "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities": {
-   "Beat the Heat": false,
-   "expression of interest": false,
+   "Beat the Heat": true,
+   "expression of interest": true,
    "three cities": false,
-   "Secretariat": false,
-   "heat action": false,
-   "cities": false
+   "Secretariat": true,
+   "heat action": true,
+   "cities": true
   },
   "https://careers.un.org/jobSearchDescription/287135?language=en": {
    "Urban Heat": false,
@@ -575,6 +575,94 @@
    "endDate": true,
    "Monitoring, Evaluation": true,
    "CON": true
+  },
+  "https://www.nrdcindia.org/careers": {
+   "Current Openings": true,
+   "Analyst Consultant CEHSC": true,
+   "Senior Analyst Consultant CEHSC": true,
+   "Administrative Assistant": true,
+   "Director of Program": true
+  },
+  "https://www.nrdcindia.org/jobdetail/Analyst-Consultant-CEHSC": {
+   "Centre of Excellence for Heat Resilience and Sustainable Cooling": true,
+   "Nagpur, Maharashtra": true,
+   "2 - 3 years of relevant experience": true,
+   "initial period of one (1) year": true,
+   "December 11, 2026": true,
+   "extreme heat and access to cooling": true,
+   "Junior Consultant": true,
+   "Mumbai or Nagpur": true,
+   "curriculum vitae and a cover letter": true,
+   "Competitive compensation": true
+  },
+  "https://www.nrdcindia.org/jobdetail/Senior-Analyst-Consultant-CEHSC": {
+   "Centre of Excellence for Heat Resilience and Sustainable Cooling": true,
+   "Mumbai, Maharashtra": true,
+   "8 - 10 years of relevant experience": true,
+   "Minimum 8 years of relevant professional experience": true,
+   "initial period of one (1) year": true,
+   "December 11, 2026": true,
+   "research on extreme heat": true,
+   "Senior Consultant": true,
+   "Mumbai or Nagpur": true,
+   "curriculum vitae and a cover letter": true,
+   "Competitive compensation": true
+  },
+  "https://www.nrdcindia.org/jobdetail/Administrative-assistant": {
+   "Administrative Assistant": true,
+   "New Delhi, India": true,
+   "Hybrid": true,
+   "0 - 3 years of relevant experience": true,
+   "2-3 years of relevant experience": true,
+   "December 26, 2026": true,
+   "full-time Administrative Assistant": true,
+   "curriculum vitae and a cover letter": true
+  },
+  "https://www.nrdcindia.org/jobdetail/Climate-resilience-associate": {
+   "CLIMATE RESILIENCE ASSOCIATE": true,
+   "New Delhi, India": true,
+   "1-3 years related experience": true,
+   "November 20, 2026": true,
+   "Cooling & Climate Resilience Associate": true,
+   "heat": true
+  },
+  "https://www.nrdcindia.org/jobdetail/Director-of-program": {
+   "Director of Program": true,
+   "No Longer Accepting Applications": true,
+   "New Delhi, India": true,
+   "November 30, 2026": true
+  },
+  "https://selcofoundation.org/careers/consultant-project-architect-be-for-health/": {
+   "Consultant Project Architect": true,
+   "thermal comfort": true,
+   "healthcare": true,
+   "2–4 years of experience": true,
+   "Bachelor’s degree in Architecture": true,
+   "application form": true
+  },
+  "https://selcofoundation.org/careers/program-manager-disaster-climate-resilience/": {
+   "Program Manager": true,
+   "Disaster": true,
+   "Bengaluru": true,
+   "6 to 7 years": true,
+   "Full-time": true,
+   "application form": true
+  },
+  "https://www.clasp.ngo/associate-india-program/": {
+   "India Program": true,
+   "New Delhi office": true,
+   "Three to four years of professional experience": true,
+   "rolling basis until the position is closed": true,
+   "energy efficiency": true,
+   "competitive compensation": true
+  },
+  "https://heathealth.info/news/new-regional-initiative-documenting-traditional-cultural-practices-of-heat-management-in-southeast-asia/": {
+   "18 December 2026": true,
+   "heat management practices": true,
+   "Southeast Asia": true,
+   "community members, practitioners and knowledge-holders": true,
+   "public repository": true,
+   "Share your community": true
   }
  },
  "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/": "OK",
@@ -602,7 +690,7 @@
  "https://www.climateworks.org/programs/adaptation-and-resilience/fund/": "OK",
  "https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/": "OK",
  "https://www.cleancoolingcollaborative.org/": "OK",
- "https://www.cjrfund.org/": "OK",
+ "https://www.cjrfund.org/": "REDIRECT",
  "https://www.adb.org/what-we-do/funds/community-resilience-partnership-program-trust-fund": "OK",
  "https://www.adb.org/projects/59391-001/main": "BLOCKED",
  "https://www.adb.org/work-with-us/consultants": "FAIL",
@@ -665,5 +753,15 @@
  "https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/": "OK",
  "https://careers.nus.edu.sg/NUS/job/COLLEGE-OF-DESIGN-&-ENG-Research-EngineerAssistant-%28Environmental-and-Thermal-Sensing%29-Kent/57408144/": "OK",
  "https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/": "OK",
- "https://careers.un.org/api/public/opening/jo/287469/en": "OK"
+ "https://careers.un.org/api/public/opening/jo/287469/en": "OK",
+ "https://www.nrdcindia.org/careers": "OK",
+ "https://www.nrdcindia.org/jobdetail/Analyst-Consultant-CEHSC": "OK",
+ "https://www.nrdcindia.org/jobdetail/Senior-Analyst-Consultant-CEHSC": "OK",
+ "https://www.nrdcindia.org/jobdetail/Administrative-assistant": "OK",
+ "https://www.nrdcindia.org/jobdetail/Climate-resilience-associate": "OK",
+ "https://www.nrdcindia.org/jobdetail/Director-of-program": "OK",
+ "https://selcofoundation.org/careers/consultant-project-architect-be-for-health/": "OK",
+ "https://selcofoundation.org/careers/program-manager-disaster-climate-resilience/": "OK",
+ "https://www.clasp.ngo/associate-india-program/": "OK",
+ "https://heathealth.info/news/new-regional-initiative-documenting-traditional-cultural-practices-of-heat-management-in-southeast-asia/": "OK"
 }

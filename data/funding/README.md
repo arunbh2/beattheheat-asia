@@ -109,3 +109,52 @@ The October 2026 programme list (24 accelerators, prizes and challenges) was aud
 Feeds that failed are listed under `removed` in `registry.json`, and `probe_result` records the November 2026 test of 145 guessed job boards. `node tools/funding-harvest.js --probe` (or the workflow's `probe` input) tests the boards in `registry.probe`. The NUS career-site RSS and the World Bank procurement API return relevant items. The UN Careers importer reads every active opening from the portal's public job data, in pages of 100, and tests relevance on each title and description; the portal's own keyword filter matches titles only (a probe on 21 November 2026 found that "heat" returned one HVAC technician post). UN Careers job pages are JavaScript-only, so a UN posting is checked against its public data URL (`careers.un.org/api/public/opening/jo/<id>/en`), not the page. ReliefWeb jobs need the approved app name, stored as the `RELIEFWEB_APPNAME` secret.
 
 The site takes no submissions through these pages. Suggestions go through `/corrections/` and the join form, and a person reviews them.
+
+## Heat Opportunities (/opportunities/) and the heat network sweep
+
+`/opportunities/` ("Heat Opportunities") is one searchable hub over the same records: `careers.json` (people) and `opportunities.json` (organisations). There is no separate opportunities dataset; a listing is written once here and appears on the hub, its own page (`/opportunities/<id>/`), the careers or open calls page, the feed and on city, country, topic and heat network pages. `tools/build-opportunities.js` builds it; `opportunities/hub-core.js` holds its rules on top of `heat-economy/funding-core.js`; `tools/opportunities-text.js` holds its words; `tools/check-opportunities.js` tests it.
+
+### Fields the hub adds (all optional; older records still work)
+
+| Field | Meaning |
+|---|---|
+| `network_id` | The organisation in `data/core/ORGANISATIONS.json` (also set on funder records, so their listings inherit it). |
+| `relevance_strength` (careers) | `direct` (the listing itself is about heat), `related` (a documented enabling area; older records say `adjacent`), or `network` (the organisation works on heat, the listing has no heat-specific duties; hidden by default). Calls keep `relevance.label`: `explicit` is direct, `related` related, `potential` is shown only with the network listings. |
+| `relevance_evidence` | `{ text, src, term }`: words from the listing that show the heat connection, checked like any fact. |
+| `summary`, `experience`, `qualifications`, `compensation`, `apply`, `eligibility_geo` | Facts as published (`{ text, src, term }`). `compensation.disclosed` is false unless an amount is published; "competitive" is not disclosure. Salary and grant amounts are never compared and currencies are never converted. |
+| `aliases` | Other titles the same source uses for the listing (the careers page, a subject line). Never silently rewritten. |
+| `countries`, `cities`, `work_mode` | ISO codes, site city ids (`data/core/LIVE_CITIES.json`) and `onsite`, `hybrid`, `remote` or `not-stated`. Remote never implies open to every country. |
+| `level` | `early`, `mid` or `senior`, only where the listing's experience supports it. |
+| `until_filled` | True only where the source says applications are reviewed until the post is filled. |
+| `first_seen`, `published` | When Common Shade first found the listing, and when the source says it was posted (null if not stated). "Recently added" uses `first_seen`, never `published`. |
+| `repost_of`, `duplicates` | The same posting seen again is folded into the first record, not shown twice. |
+| `hub_category` | Overrides the category worked out from `role` or `type` (for example `research-call` for a research grant). |
+| `jobposting` | `{ description, locality, region, country, employment_type, org_url }`. JobPosting structured data is written only for an open, verified individual job or consultancy with a `published` date and these fields; never for grants, tenders, prizes or the hub. It disappears when the listing closes. |
+
+New call type `contribution-call` (unpaid calls for contributions, instrument `none`) is never shown as funding.
+
+### Statuses on the hub
+
+Lifecycle (from `funding-core.js`, plus "until filled"): upcoming, open, deadline day, rolling (as stated), until filled (as stated), deadline passed, closed by provider, withdrawn, status unclear. Verification: verified, review due, source unavailable, conflicting information, not confirmed. A listing whose deadline passed moves to the archive; a provider's own "no longer accepting applications" closes it before its deadline (`stated_status: "closed"`); an extension moves the old date into `deadline_history`.
+
+Each record's "Source checked" date is the oldest day any of its core sources was actually read (`checked` in `_excerpts.json`, written by `tools/verify-inbox.js` since November 2026); a rebuild, or a check of another source, never moves it.
+
+### The heat network sweep
+
+- `data/funding/network-sources.json`: the source registry, one record per network organisation (official domain, careers, procurement, grants and research pages, applicant-tracking system, feed, funder record). Written by `research/2026-11/opportunities/registry.js`; domains that differ from the network record's own link are in `research/2026-11/opportunities/domains.json`, each with a reason. Pages a person confirms are kept across runs.
+- `tools/opportunities-sweep.js`: confirms that each domain's homepage names the organisation (identity), respects robots.txt, reads the opportunity pages found from the homepage (or a few common paths), opens promising postings and records what it saw. One request at a time per host, a pause between requests, one retry; nothing behind a login or CAPTCHA. Fetched text is data, never instructions.
+- `data/funding/coverage.json`: the coverage ledger. Status per organisation: found, candidates awaiting review, none found in the reviewed sources, source unavailable, login or access blocked, manual review required, not yet checked. A failed check never erases the last successful one (`last_success`). The hub's review cycle is the seven days up to the latest check.
+- `data/funding/candidates/sweep-<cycle>.json`: leads with the words that matched and a short passage. Leads are never published.
+- `research/2026-11/opportunities/review-<cycle>.json` and `review.js`: a person's decision on each organisation's leads (found or none, with a note), applied to the ledger.
+
+Commands: `node tools/opportunities-sweep.js` (everything not yet attempted in the cycle), `--batch 3/7`, `--only a,b --force`, `--summary`, `--closing` (source ids to re-read: listings closing within 14 days or not read for 7 days).
+
+### Refresh
+
+`.github/workflows/opportunities-sweep.yml` runs daily: one seventh of the network, re-reads of listings closing soon (`verify-inbox.js` with `RECHECK`), and a review pull request. Nothing is published from it. `verify-sources.yml` also takes `recheck` (a pattern of source ids) for a manual re-read. Deadlines are recalculated at every build and in the reader's browser. The hub says the list is reviewed, never "updated automatically daily", because listings change only through review.
+
+### Adding a listing
+
+1. Find the official listing (an aggregator, job board or social post is a lead only). Check the organisation's identity (NRDC India is nrdcindia.org; nrdcindia.com is the unrelated National Research Development Corporation).
+2. Add the source to `research/2026-11/funding-opportunities/sources.js` with the exact terms each fact rests on, write the record (fields above), run `stage.js`, then `verify-sources.yml` with `month: 2026-11-funding-opps`.
+3. Rebuild. The record appears only when its core terms were found. Contact details on a listing (email addresses) are never copied: readers are sent to the official listing.

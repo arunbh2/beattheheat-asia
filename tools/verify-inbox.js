@@ -83,7 +83,9 @@ function around(body, nb, terms) {
     let changed = false;
     for (const r of list.filter(x => x.type === "source" && x.url)) {
       const prevFound = links._terms[r.url] && Object.values(links._terms[r.url]).some(Boolean);
-      if (process.env.FORCE !== "1" && r.archive && prevFound && excerpts[r.id]) { console.log(`done     ${r.id}  (checked in an earlier run)`); continue; }
+      // RECHECK (a pattern of source ids, e.g. "src-fo-nrdc-.*") reads those again even when done: listings closing soon are re-read
+      const recheck = process.env.RECHECK && new RegExp("^(?:" + process.env.RECHECK + ")$").test(r.id);
+      if (process.env.FORCE !== "1" && !recheck && r.archive && prevFound && excerpts[r.id]) { console.log(`done     ${r.id}  (checked in an earlier run)`); continue; }
       const page = await get(r.url);
       const status = page.ok ? (new URL(page.url).host !== new URL(r.url).host ? "REDIRECT" : "OK") : [401, 403, 429, 999].includes(page.status) ? "BLOCKED" : "FAIL";
       links[r.url] = status;
@@ -98,7 +100,8 @@ function around(body, nb, terms) {
       (r.expect || []).forEach(t => { found[t] = nb.includes(norm(t)); });
       links._terms[r.url] = found;
       const title = (page.body.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [, ""])[1].replace(/\s+/g, " ").trim();
-      excerpts[r.id] = { url: r.url, status, http: page.status, archive: r.archive || "", title, found,
+      // checked: the day this page was actually read, so a record's "Source checked" date never moves because another source was read
+      excerpts[r.id] = { url: r.url, status, http: page.status, checked: new Date().toISOString().slice(0, 10), archive: r.archive || "", title, found,
         around: around(body, nb, (r.expect || []).filter(t => found[t])),
         opening: body.slice(0, 1500) };
       console.log(`${status.padEnd(8)} ${r.id}  archive: ${r.archive ? "yes" : "NO"}  terms: ${Object.entries(found).map(([t, v]) => (v ? "✓ " : "✗ ") + t).join(" · ")}`);

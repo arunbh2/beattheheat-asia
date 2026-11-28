@@ -25,7 +25,7 @@ function load() {
   const ran = key => { const s = SRC[key]; return !!s && LC[s.url] !== undefined; };
   // a fact { ..., src, term }: confirmed when its term was found on its source
   const fact = f => !f ? null : Object.assign({}, f, { confirmed: !f.src || !f.term ? null : has(f.src, f.term) });
-  const FIELDS = ["purpose", "amount", "budget", "duration", "opens", "eligibility", "geography", "partnership", "cofinancing", "costs", "stages", "documents", "salary", "location", "contract", "access_note", "remit", "recipients", "instruments_note", "limits_note"];
+  const FIELDS = ["purpose", "amount", "budget", "duration", "opens", "eligibility", "geography", "partnership", "cofinancing", "costs", "stages", "documents", "salary", "location", "contract", "summary", "experience", "compensation", "apply", "relevance_evidence", "eligibility_geo", "qualifications", "access_note", "remit", "recipients", "instruments_note", "limits_note"];
   function attach(r, kind) {
     const out = Object.assign({ kind }, r);
     FIELDS.forEach(k => { if (r[k] && typeof r[k] === "object" && !Array.isArray(r[k])) out[k] = fact(r[k]); });
@@ -36,7 +36,10 @@ function load() {
     // the deadline that decides the status must be confirmed too, or the record cannot show as open
     const dl = out.deadlines[0]; if (dl && dl.confirmed === false) missing.push(`${dl.src}: deadline "${dl.term}"`);
     const notRun = keys.filter(k => !ran(k));
-    out.check = { checked: notRun.length ? "" : checked, ok: keys.length ? keys.every(opened) : null, confirmed: notRun.length ? null : !missing.length, missing, batch: BATCH, not_run: notRun };
+    // the record's own check date: the oldest day any of its core sources was actually read (excerpt "checked"), else, for
+    // sources read before per-page dates were kept, the commit that recorded the check. Reading another source never moves it.
+    const days = keys.map(k => (X[`src-fo-${k}`] || {}).checked || checked).filter(Boolean).sort();
+    out.check = { checked: notRun.length ? "" : (days[0] || checked), ok: keys.length ? keys.every(opened) : null, confirmed: notRun.length ? null : !missing.length, missing, batch: BATCH, not_run: notRun };
     out.sources = (r.sources || keys).map(k => SRC[k] ? { key: k, url: SRC[k].url, label: `${SRC[k].publisher}: ${SRC[k].title}`, opened: opened(k) } : { key: k, url: "", label: k, opened: false });
     return out;
   }

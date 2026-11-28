@@ -1,7 +1,7 @@
 ---
 title: "Cooling options by place, and what keeps them working | Common Shade"
 url: https://beattheheat.asia/cooling-options/
-updated: 2026-11-21
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -282,9 +282,9 @@ Cool roofs in low-income homes | Ahmedabad | 16 slum households, 4 to 10 October
 
 Programmes and calls in the funding dataset whose published remit touches this topic. A programme is not an open call; each record says how it can be reached.
 
+- [Open call: share traditional and cultural heat management practices (Southeast Asia)](https://beattheheat.asia/heat-economy/money/opportunities/#opp-ghhinsea-heritage-practices-2026) Open · Call for contributions (unpaid)
 - [GCF funding through accredited entities](https://beattheheat.asia/heat-economy/money/#fund-prog-gcf-accredited) Related remit with a clear heat application · Through accredited entities
 - [ClimateWorks Adaptation and Resilience Fund](https://beattheheat.asia/heat-economy/money/#fund-prog-cw-arf) Explicit heat focus · Periodic competitive calls
-- [Clean Cooling Collaborative](https://beattheheat.asia/heat-economy/money/#fund-prog-ccc) Explicit heat focus · No public application route found
 
 [All calls on this topic](https://beattheheat.asia/heat-economy/money/opportunities/?topic=cooling&status=all) · [The funding landscape](https://beattheheat.asia/heat-economy/money/#landscape) · [Careers](https://beattheheat.asia/heat-economy/money/careers/)
 

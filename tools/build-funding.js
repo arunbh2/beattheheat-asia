@@ -31,7 +31,7 @@ function prep(r, kind) {
     location_text: factText(r.location), countries: r.countries || [], remote: !!r.remote, remote_countries: r.remote_countries || [], remote_text: r.remote_text || "Not stated", contract_text: factText(r.contract) || "Not stated",
     pay: r.pay || "not-stated", salary_published: !!(r.salary && r.salary.text), salary_text: factText(r.salary) || "Not published", relevance: r.relevance_strength || "direct",
     search: [r.title, org.name, r.discipline, factText(r.location), r.relevance_why].join(" ") });
-  return Object.assign(base, { org_name: org.name || "", programme_name: prog.name || "", round: r.round || "", reference: r.reference || "", purpose_text: factText(r.purpose),
+  return Object.assign(base, { org_name: org.name || r.employer || "", programme_name: prog.name || "", round: r.round || "", reference: r.reference || "", purpose_text: factText(r.purpose),
     eligibility: { applicants: E.applicants || [], lead_countries: E.lead_countries || [], requires: E.requires || [] }, geography: { countries: G.countries || [] },
     eligibility_text: factText(E) || "Not published", lead_text: E.lead_text || "", geography_text: factText(G) || "Not published", partnership_text: factText(r.partnership),
     amount: r.amount ? { min: r.amount.min, max: r.amount.max, currency: r.amount.currency, basis: r.amount.basis } : null, amount_text: amount, duration_text: factText(r.duration),
@@ -195,7 +195,7 @@ function pages({ page, shell, write }) {
   const ABOUT2 = `<p class="sol-caveat he-about"><b>About this page.</b> Researched in November 2026 from official funder, employer and buyer pages; each record shows when its source was last checked. ${esc(T.TRUST)}</p>`;
   const oppBody = shell("money/opportunities", "The heat economy · Open calls and tenders", esc(T.OPP.h), `${esc(T.OPP.lede)} ${vopen} verified open as of the source checks; ${opps.length} records in all, closed rounds included.`,
     `<div class="fo" data-fund="opportunities">
-      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a call</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/#landscape">The funding landscape</a> · <a href="/heat-economy/money/careers/">Careers</a></nav>
+      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a call</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/#landscape">The funding landscape</a> · <a href="/heat-economy/money/careers/">Careers</a> · <a href="/opportunities/">Heat Opportunities: everything in one search</a></nav>
       <section id="find" aria-labelledby="find-h"><h2 id="find-h" class="visually-hidden">Find a call</h2>
       <p class="he-note" data-js hidden>${esc(T.OPP.default)}</p>
       <form class="fo-filters" role="search" onsubmit="return false" aria-label="Filter calls and tenders">${filters("opportunities")}</form>
@@ -216,7 +216,7 @@ function pages({ page, shell, write }) {
   const groups = C.CONTRIBUTION.map(([k, l]) => [l, PC.filter(r => r.contribution === k)]).filter(([, l]) => l.length);
   const carBody = shell("money/careers", "The heat economy · Careers", esc(T.CAR.h), `${esc(T.CAR.lede)} ${esc(T.CAR.sub)}`,
     `<div class="fo" data-fund="careers">
-      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a role</a> · <a href="#by-contribution">By contribution</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/opportunities/">Open calls</a></nav>
+      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a role</a> · <a href="#by-contribution">By contribution</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/opportunities/">Open calls</a> · <a href="/opportunities/">Heat Opportunities: everything in one search</a></nav>
       <section id="find" aria-labelledby="find-h"><h2 id="find-h" class="visually-hidden">Find a role</h2>
       <p class="he-note">${vcar} verified open now; ${cars.length} listings in all, closed ones included. This list is small and curated: each is checked against the employer's own page.</p>
       <form class="fo-filters" role="search" onsubmit="return false" aria-label="Filter roles">${filters("careers")}</form>
