@@ -1,5 +1,5 @@
 {
- "about": "City heat ecosystem profiles for Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu (/cities/<city>/who-is-doing-what/), November 2026. Each claim is tied to the exact words its source has to hold; stage.js stages the sources in data/inbox/2026-11-city-ecosystems/, verify-sources.yml checks them, and gate.js writes confirmed.json. Only confirmed claims reach the pages. Researched 28 November 2026 from public sources only; no organisation was contacted.",
+ "about": "City heat ecosystem profiles for Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu (/cities/<city>/who-is-doing-what/), November 2026. Each claim is tied to the exact words its source has to hold; stage.js stages the sources in data/inbox/2026-11-city-ecosystems/, verify-sources.yml checks them, and gate.js writes confirmed.json. Only confirmed claims reach the pages. Researched 28 November 2026 from public sources only; no organisation was contacted. After the first check (28 November 2026): Asia News Network refused the checker, so the Kathmandu worker survey claim is restaged on the original Kathmandu Post article.",
  "sources": [
   {
    "key": "ahm-dte",
@@ -384,9 +384,9 @@
   {
    "key": "ktm-ann",
    "title": "Adverse weather adds to informal workers' stress in Kathmandu",
-   "publisher": "Asia News Network (from The Kathmandu Post)",
+   "publisher": "The Kathmandu Post",
    "year": 2026,
-   "url": "https://asianews.network/?p=277129",
+   "url": "https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu",
    "kind": "news report",
    "where": "Nepal",
    "expect": []
