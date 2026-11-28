@@ -1,0 +1,1073 @@
+{
+ "about": "Living Knowledge claims: each says what kind of statement it is (status), what it is about (outcome) and the exact words in a source it rests on (terms).",
+ "records": [
+  {
+   "practice": "loose-cotton-clothing",
+   "sources": [
+    "churu"
+   ],
+   "id": "c-clothing-churu",
+   "text": "The Churu plan describes loose-fitting, breathable cotton garments in light shades as traditional dress for heat in Rajasthan.",
+   "status": "policy",
+   "outcome": "use",
+   "terms": [
+    [
+     "churu",
+     "loose-fitting, breathable cotton garments"
+    ]
+   ],
+   "locator": "Churu Heat Action Plan, section 2.3.3, p. 15"
+  },
+  {
+   "practice": "loose-cotton-clothing",
+   "sources": [
+    "bd-workers"
+   ],
+   "id": "c-clothing-bd",
+   "text": "In a survey of 320 construction and welding workers in Bangladesh, wearing loose clothing was one of the adaptive behaviours examined; construction workers were more likely to report increasing it.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "bd-workers",
+     "320 construction and welding workers"
+    ],
+    [
+     "bd-workers",
+     "wearing loose clothing"
+    ]
+   ],
+   "locator": "Abstract, results"
+  },
+  {
+   "practice": "loose-cotton-clothing",
+   "sources": [
+    "who-heat"
+   ],
+   "id": "c-clothing-who",
+   "text": "WHO advises light and loose-fitting clothing and bed linens in hot weather.",
+   "status": "guidance",
+   "outcome": "guidance",
+   "terms": [
+    [
+     "who-heat",
+     "Use light and loose-fitting clothing and bed linens"
+    ]
+   ],
+   "locator": "WHO fact sheet, \"What actions should the public take?\""
+  },
+  {
+   "practice": "loose-cotton-clothing",
+   "sources": [
+    "unicef-heat"
+   ],
+   "id": "c-clothing-unicef",
+   "text": "UNICEF advises light and loose clothes and calls cotton ideal on hot days.",
+   "status": "guidance",
+   "outcome": "guidance",
+   "terms": [
+    [
+     "unicef-heat",
+     "wear light and loose clothes"
+    ],
+    [
+     "unicef-heat",
+     "Cotton is ideal"
+    ]
+   ],
+   "locator": "UNICEF heat wave safety tips"
+  },
+  {
+   "practice": "rajasthani-garments",
+   "sources": [
+    "churu"
+   ],
+   "id": "c-garments-churu",
+   "text": "The Churu plan names lehariya turbans and odhnis among garments that allow airflow while shielding from the sun.",
+   "status": "policy",
+   "outcome": "use",
+   "terms": [
+    [
+     "churu",
+     "lehariya turbans"
+    ],
+    [
+     "churu",
+     "odhnis"
+    ]
+   ],
+   "locator": "Churu Heat Action Plan, section 2.3.3, p. 15"
+  },
+  {
+   "practice": "rajasthani-garments",
+   "sources": [
+    "churu"
+   ],
+   "id": "c-garments-layer",
+   "text": "The plan states that layered clothing protects against heat by insulating against hot air; this is the plan's statement, not a measured result.",
+   "status": "policy",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "churu",
+     "Layered clothing"
+    ]
+   ],
+   "locator": "Churu Heat Action Plan, section 2.3.3, p. 15",
+   "restriction": "Not used as advice: untested, and may not hold in humid heat."
+  },
+  {
+   "practice": "kutcha-roofs",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-kutcha-recall",
+   "text": "Older participants recalled kutcha houses with mud and hay roofs that kept the house cooler than outside, and contrasted them with tin-sheet roofs.",
+   "status": "reported",
+   "outcome": "experience",
+   "terms": [
+    [
+     "rajasthan",
+     "kutcha houses"
+    ]
+   ],
+   "locator": "Results, theme 2, housing adaptations"
+  },
+  {
+   "practice": "kutcha-roofs",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-kutcha-thatch",
+   "text": "Participants described thatched roofs and additional windows as housing adaptations to heat.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "thatched roofs"
+    ],
+    [
+     "rajasthan",
+     "additional windows"
+    ]
+   ],
+   "locator": "Results, theme 2, housing adaptations"
+  },
+  {
+   "practice": "lime-coating",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-lime-report",
+   "text": "Participants described coating the roof with limestone or alum to keep the house cool.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "coat the roof with limestone or alum"
+    ]
+   ],
+   "locator": "Results, theme 2, housing adaptations"
+  },
+  {
+   "practice": "lime-coating",
+   "sources": [
+    "bikaner"
+   ],
+   "id": "c-lime-bikaner",
+   "text": "Lime plaster and Dulmera sandstone feature in older Bikaner buildings; the study reports its results only as preliminary findings.",
+   "status": "observed",
+   "outcome": "use",
+   "terms": [
+    [
+     "bikaner",
+     "lime plaster"
+    ],
+    [
+     "bikaner",
+     "Dulmera sandstone"
+    ],
+    [
+     "bikaner",
+     "Preliminary findings"
+    ]
+   ],
+   "locator": "Introduction and section 4"
+  },
+  {
+   "practice": "lime-coating",
+   "sources": [
+    "churu"
+   ],
+   "id": "c-lime-churu",
+   "text": "The Churu plan encourages lime-plastered surfaces, jaali, courtyards, thick mud walls and high ceilings in new construction and retrofits, assigned to the Municipal Council Churu.",
+   "status": "policy",
+   "outcome": "policy",
+   "terms": [
+    [
+     "churu",
+     "Jaali (perforated walls)"
+    ],
+    [
+     "churu",
+     "Municipal Council Churu"
+    ]
+   ],
+   "locator": "Churu Heat Action Plan, table 4, measure 2"
+  },
+  {
+   "practice": "wet-screens",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-wetscreen-report",
+   "text": "Some respondents hang wet sacks or cloths over the doors and windows to prevent hot air entering the house.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "wet sacks or cloths over the doors and windows"
+    ]
+   ],
+   "locator": "Results, theme 2, housing adaptations"
+  },
+  {
+   "practice": "wet-screens",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-wetscreen-water",
+   "text": "The same villages hire water tankers in summer because piped supply is irregular.",
+   "status": "reported",
+   "outcome": "livelihood",
+   "terms": [
+    [
+     "rajasthan",
+     "We hire water tankers"
+    ]
+   ],
+   "locator": "Results, theme 4, water and electricity"
+  },
+  {
+   "practice": "cooking-timing",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-cook-report",
+   "text": "Participants cook very early in the morning and in the evening to keep kitchen heat out of the house during hotter hours.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "We cook food very early in the morning"
+    ]
+   ],
+   "locator": "Results, theme 2, housing adaptations"
+  },
+  {
+   "practice": "cooking-timing",
+   "sources": [
+    "who-heat"
+   ],
+   "id": "c-cook-who",
+   "text": "WHO notes that gender shapes heat exposure, for example where women are primarily responsible for cooking indoors during hot weather.",
+   "status": "guidance",
+   "outcome": "guidance",
+   "terms": [
+    [
+     "who-heat",
+     "women are primarily responsible for cooking indoors"
+    ]
+   ],
+   "locator": "WHO fact sheet, vulnerability factors"
+  },
+  {
+   "practice": "courtyards-lanes",
+   "sources": [
+    "bikaner"
+   ],
+   "id": "c-lanes-bikaner",
+   "text": "The Bikaner study says older buildings within the walled city, with narrow streets, internal courtyards and dense fabric, improve passive cooling through reciprocal shadowing; it reports this as preliminary findings without measurements.",
+   "status": "interpretation",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "bikaner",
+     "internal courtyards"
+    ],
+    [
+     "bikaner",
+     "reciprocal shadowing"
+    ],
+    [
+     "bikaner",
+     "Preliminary findings"
+    ]
+   ],
+   "locator": "Section 4, results"
+  },
+  {
+   "practice": "courtyards-lanes",
+   "sources": [
+    "churu"
+   ],
+   "id": "c-lanes-churu",
+   "text": "The Churu plan describes traditional architecture in Rajasthan, including jaali, courtyards and lime plaster, and includes it as a planned measure.",
+   "status": "policy",
+   "outcome": "policy",
+   "terms": [
+    [
+     "churu",
+     "Traditional Heat Adaptation Practices"
+    ],
+    [
+     "churu",
+     "Jaali (perforated walls)"
+    ]
+   ],
+   "locator": "Churu Heat Action Plan, section 2.3.3 and table 4"
+  },
+  {
+   "practice": "air-well-terrace",
+   "sources": [
+    "airwell"
+   ],
+   "id": "c-airwell-measured",
+   "text": "Over a six-month duration, the air-well air temperature ranged from 27.48 °C to 30.92 °C in a single-storey terraced house in Malaysia.",
+   "status": "measured",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "airwell",
+     "six-month duration"
+    ],
+    [
+     "airwell",
+     "27.48"
+    ],
+    [
+     "airwell",
+     "30.92"
+    ],
+    [
+     "airwell",
+     "air-well"
+    ]
+   ],
+   "locator": "Abstract, results",
+   "quant": {
+    "value": "27.48 to 30.92",
+    "unit": "°C air temperature",
+    "comparator": "None (range over the period)",
+    "period": "Six months",
+    "setting": "One air well in one house"
+   }
+  },
+  {
+   "practice": "air-well-terrace",
+   "sources": [
+    "airwell"
+   ],
+   "id": "c-airwell-conclusion",
+   "text": "The authors conclude the minimum 10% openings rule is less effective than intended for thermal comfort.",
+   "status": "interpretation",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "airwell",
+     "less effective"
+    ]
+   ],
+   "locator": "Abstract, conclusion"
+  },
+  {
+   "practice": "double-height-mud-house",
+   "sources": [
+    "dhaka-rural"
+   ],
+   "id": "c-dhaka-mud",
+   "text": "The study found the double-heightened mud home more pleasant in thermal comfort factors and residents' responses than single-height mud and corrugated iron sheet houses.",
+   "status": "measured",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "dhaka-rural",
+     "double-heightened mud home"
+    ]
+   ],
+   "locator": "Abstract"
+  },
+  {
+   "practice": "stilt-house",
+   "sources": [
+    "palu"
+   ],
+   "id": "c-palu-measured",
+   "text": "In one vernacular stilt house in Palu City, the outdoor air temperature peaked at 36.8 °C while the first-floor indoor peak reached 32 °C.",
+   "status": "measured",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "palu",
+     "outdoor air temperature peak is 36.8"
+    ],
+    [
+     "palu",
+     "indoor peak temperature on the 1st floor reached 32"
+    ]
+   ],
+   "locator": "Abstract, results",
+   "quant": {
+    "value": "36.8 outdoors; 32 first floor indoors (peaks)",
+    "unit": "°C air temperature",
+    "comparator": "Outdoor air at the same site",
+    "period": "Measurement period not stated in the abstract",
+    "setting": "One house, Palu City"
+   }
+  },
+  {
+   "practice": "simalungun-house",
+   "sources": [
+    "simalungun"
+   ],
+   "id": "c-simalungun",
+   "text": "Measurements in a Simalungun traditional house were compared with simulation in a building tool.",
+   "status": "measured",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "simalungun",
+     "Simalungun traditional house"
+    ],
+    [
+     "simalungun",
+     "Ecotech"
+    ]
+   ],
+   "locator": "Abstract, methods"
+  },
+  {
+   "practice": "jaffna-courtyard",
+   "sources": [
+    "jaffna"
+   ],
+   "id": "c-jaffna",
+   "text": "The study investigated the thermal performance of vernacular courtyard houses in Jaffna, comparing two houses.",
+   "status": "measured",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "jaffna",
+     "vernacular courtyard houses in Jaffna"
+    ]
+   ],
+   "locator": "Abstract",
+   "note": "The abstract does not state whether performance was measured or simulated."
+  },
+  {
+   "practice": "matka",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-matka-observed",
+   "text": "Researchers observed water pots for drinking in front of most houses, accessible to everyone.",
+   "status": "observed",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "Water pots for drinking in front of most houses"
+    ]
+   ],
+   "locator": "Figure 3 caption"
+  },
+  {
+   "practice": "matka",
+   "sources": [
+    "churu"
+   ],
+   "id": "c-matka-churu",
+   "text": "The Churu plan proposes distributing cool clay refrigerators and water pots to low-income groups and filling community matkas at bus stops, hospitals and markets.",
+   "status": "policy",
+   "outcome": "policy",
+   "terms": [
+    [
+     "churu",
+     "Cool Clay Refrigerators"
+    ],
+    [
+     "churu",
+     "community matkas"
+    ]
+   ],
+   "locator": "Churu Heat Action Plan, table 4, measures 2 and 5"
+  },
+  {
+   "practice": "matka",
+   "sources": [
+    "sheep-pot"
+   ],
+   "id": "c-matka-tradition",
+   "text": "A livestock study describes keeping drinking water in an earthen pot to cool it in summer as a traditional village practice in India.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "sheep-pot",
+     "earthen pot"
+    ]
+   ],
+   "locator": "Abstract, introduction"
+  },
+  {
+   "practice": "wet-jute-bottle",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-jute-observed",
+   "text": "Carrying water bottles covered by wet jute was observed as a common practice during travel and at work.",
+   "status": "observed",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "wet jute"
+    ]
+   ],
+   "locator": "Results, theme 3, vocational and transport adjustments"
+  },
+  {
+   "practice": "public-water",
+   "sources": [
+    "east-india"
+   ],
+   "id": "c-water-eastindia",
+   "text": "Cool drinking water from public taps was among participants' preferred coping mechanisms in Dalkhola, West Bengal.",
+   "status": "reported",
+   "outcome": "experience",
+   "terms": [
+    [
+     "east-india",
+     "Cool drinking water from public taps"
+    ],
+    [
+     "east-india",
+     "Dalkhola"
+    ]
+   ],
+   "locator": "Abstract, results"
+  },
+  {
+   "practice": "public-water",
+   "sources": [
+    "churu"
+   ],
+   "id": "c-water-churu",
+   "text": "The Churu plan proposes filling community matkas at key locations.",
+   "status": "policy",
+   "outcome": "policy",
+   "terms": [
+    [
+     "churu",
+     "community matkas"
+    ]
+   ],
+   "locator": "Churu Heat Action Plan, table 4, measure 5"
+  },
+  {
+   "practice": "summer-foods",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-food-report",
+   "text": "Participants described preferring buttermilk and curd in summer and using desert beans in dishes such as ker sangri.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "buttermilk"
+    ],
+    [
+     "rajasthan",
+     "Ker sangri"
+    ]
+   ],
+   "locator": "Results, theme 3, dietary practices"
+  },
+  {
+   "practice": "summer-foods",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-food-afford",
+   "text": "Fruit was preferred in summer, but many respondents said it is not affordable.",
+   "status": "reported",
+   "outcome": "livelihood",
+   "terms": [
+    [
+     "rajasthan",
+     "not affordable"
+    ]
+   ],
+   "locator": "Results, theme 3, dietary practices"
+  },
+  {
+   "practice": "summer-foods",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-food-kevala",
+   "text": "Some participants soak screw pine flowers in stored water, believing it cools the body; no evidence of an effect is offered.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "screw pine"
+    ]
+   ],
+   "locator": "Results, theme 3, dietary practices",
+   "restriction": "A cultural belief, documented without effect claims."
+  },
+  {
+   "practice": "home-remedies",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-remedy-clay",
+   "text": "Participants described applying multani mitti (bentonite clay) to the body and using tamarind water for heat symptoms.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "multani mitti"
+    ],
+    [
+     "rajasthan",
+     "tamarind"
+    ]
+   ],
+   "locator": "Results, theme 1, home remedies",
+   "restriction": "Documented only; not treatment guidance."
+  },
+  {
+   "practice": "home-remedies",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-remedy-noevidence",
+   "text": "The authors state there is no scientific evidence supporting the spice decoction's effectiveness.",
+   "status": "interpretation",
+   "outcome": "health",
+   "terms": [
+    [
+     "rajasthan",
+     "no scientific evidence supporting its effectiveness"
+    ]
+   ],
+   "locator": "Discussion"
+  },
+  {
+   "practice": "work-timing",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-work-mnrega",
+   "text": "Key informants said scheme working hours are adjusted in summer, for example from 9 am to 5 pm to 6 am to 11 am or 12 pm, when a heatwave alert is received.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "6 a.m. to 11 a.m."
+    ]
+   ],
+   "locator": "Results, theme 3, vocational and transport adjustments"
+  },
+  {
+   "practice": "work-timing",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-work-wages",
+   "text": "Participants described sickness absence and loss of wages in extreme heat, making it hard for daily-wage workers to make ends meet.",
+   "status": "reported",
+   "outcome": "livelihood",
+   "terms": [
+    [
+     "rajasthan",
+     "loss of wages"
+    ]
+   ],
+   "locator": "Results, theme 3"
+  },
+  {
+   "practice": "work-timing",
+   "sources": [
+    "bd-workers"
+   ],
+   "id": "c-work-bd",
+   "text": "Planning work during cooler hours was among the adaptive behaviours examined among construction and welding workers in Bangladesh.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "bd-workers",
+     "planning work during cooler hours"
+    ]
+   ],
+   "locator": "Abstract, results"
+  },
+  {
+   "practice": "work-timing",
+   "sources": [
+    "dhaka-older"
+   ],
+   "id": "c-work-dhaka",
+   "text": "Older informal workers in Dhaka use altered work schedules and traditional cooling practices, but these were largely insufficient given socioeconomic constraints.",
+   "status": "reported",
+   "outcome": "experience",
+   "terms": [
+    [
+     "dhaka-older",
+     "altered work schedules and traditional cooling practices"
+    ],
+    [
+     "dhaka-older",
+     "largely insufficient"
+    ]
+   ],
+   "locator": "Abstract"
+  },
+  {
+   "practice": "work-timing",
+   "sources": [
+    "who-heat"
+   ],
+   "id": "c-work-who",
+   "text": "WHO advises avoiding going outside and strenuous activity during the hottest time of day.",
+   "status": "guidance",
+   "outcome": "guidance",
+   "terms": [
+    [
+     "who-heat",
+     "Avoid going outside and doing strenuous activity during the hottest time of day"
+    ]
+   ],
+   "locator": "WHO fact sheet"
+  },
+  {
+   "practice": "rest-breaks",
+   "sources": [
+    "bd-workers"
+   ],
+   "id": "c-breaks-bd",
+   "text": "Construction workers in Bangladesh were more likely to report increasing regular breaks (OR 9.49).",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "bd-workers",
+     "taking regular breaks"
+    ],
+    [
+     "bd-workers",
+     "9.49"
+    ]
+   ],
+   "locator": "Abstract, results",
+   "quant": {
+    "value": "9.49 (95% CI 2.45 to 36.74)",
+    "unit": "odds ratio",
+    "comparator": "Welding workers",
+    "period": "Survey",
+    "setting": "320 workers, Bangladesh"
+   }
+  },
+  {
+   "practice": "rest-breaks",
+   "sources": [
+    "dhaka-informal"
+   ],
+   "id": "c-breaks-dhaka",
+   "text": "A pilot study of 416 informal workers in Dhaka recommends rest breaks and hydration access.",
+   "status": "interpretation",
+   "outcome": "health",
+   "terms": [
+    [
+     "dhaka-informal",
+     "rest breaks"
+    ]
+   ],
+   "locator": "Abstract, conclusions"
+  },
+  {
+   "practice": "village-alert-group",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-sajag",
+   "text": "A village council head described an informal group called Sajag used to disseminate weather and heat information and to adjust scheme working hours.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "Sajag"
+    ]
+   ],
+   "locator": "Results, theme 1, awareness about heatwaves"
+  },
+  {
+   "practice": "trees-shade",
+   "sources": [
+    "east-india"
+   ],
+   "id": "c-trees-eastindia",
+   "text": "Trees were seen as the primary coping strategy for heat stress in Dalkhola, though many participants noted a loss of tree cover.",
+   "status": "reported",
+   "outcome": "experience",
+   "terms": [
+    [
+     "east-india",
+     "Trees were seen as the primary coping strategy"
+    ],
+    [
+     "east-india",
+     "loss of tree cover"
+    ]
+   ],
+   "locator": "Abstract, results"
+  },
+  {
+   "practice": "trees-shade",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-trees-rajasthan",
+   "text": "Researchers observed that almost all households had huge trees in their setbacks, offering shade.",
+   "status": "observed",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "huge trees in their setbacks"
+    ]
+   ],
+   "locator": "Results, theme 2"
+  },
+  {
+   "practice": "trees-shade",
+   "sources": [
+    "angkor"
+   ],
+   "id": "c-trees-angkor",
+   "text": "Temples at Angkor with less tree canopy cover were warmer at night than the surrounding forest.",
+   "status": "measured",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "angkor",
+     "warmer at night than the surrounding forest"
+    ],
+    [
+     "angkor",
+     "tree canopy cover"
+    ],
+    [
+     "angkor",
+     "1-5"
+    ]
+   ],
+   "locator": "Abstract, results",
+   "quant": {
+    "value": "1 to 5",
+    "unit": "°C ambient temperature, warmer at night",
+    "comparator": "Surrounding forest",
+    "period": "Dry and rainy seasons",
+    "setting": "Three temples, Angkor"
+   }
+  },
+  {
+   "practice": "trees-shade",
+   "sources": [
+    "wb-unlivable"
+   ],
+   "id": "c-trees-wb",
+   "text": "The World Bank recommends promoting urban greening through strategic planning.",
+   "status": "policy",
+   "outcome": "policy",
+   "terms": [
+    [
+     "wb-unlivable",
+     "promote urban greening through strategic planning"
+    ]
+   ],
+   "locator": "Report summary"
+  },
+  {
+   "practice": "street-shade",
+   "sources": [
+    "sg-shade"
+   ],
+   "id": "c-shade-sg",
+   "text": "Across 20 pairs of parallel sites in Singapore, street shade lowered air temperature by an average of 0.8 °C and lowered mean radiant temperature markedly.",
+   "status": "measured",
+   "outcome": "thermal",
+   "terms": [
+    [
+     "sg-shade",
+     "20 pairs of parallel sites"
+    ],
+    [
+     "sg-shade",
+     "average decreases of 0.8"
+    ],
+    [
+     "sg-shade",
+     "mean radiant temperature"
+    ],
+    [
+     "sg-shade",
+     "10.0"
+    ],
+    [
+     "sg-shade",
+     "3.1"
+    ]
+   ],
+   "locator": "Abstract, results",
+   "quant": {
+    "value": "0.8 (air); 10.0 (mean radiant); 3.1 (UTCI)",
+    "unit": "°C average decrease",
+    "comparator": "Paired sunlit site",
+    "period": "One extremely hot afternoon",
+    "setting": "High-density district, Singapore"
+   }
+  },
+  {
+   "practice": "street-shade",
+   "sources": [
+    "wb-unlivable"
+   ],
+   "id": "c-shade-wb",
+   "text": "The World Bank lists cooling city spaces through wind, shade and urban design among its options for action.",
+   "status": "policy",
+   "outcome": "policy",
+   "terms": [
+    [
+     "wb-unlivable",
+     "cool city spaces through wind, shade, and urban design"
+    ]
+   ],
+   "locator": "Report summary"
+  },
+  {
+   "practice": "infant-feeding-heat",
+   "sources": [
+    "infant-feeding"
+   ],
+   "id": "c-infant-review",
+   "text": "A systematic review found that in some settings health care providers and relatives continue to advise water supplementation in hot weather, and concludes that exclusive breastfeeding is recommended even in hot conditions.",
+   "status": "guidance",
+   "outcome": "health",
+   "terms": [
+    [
+     "infant-feeding",
+     "continue to advise water supplementation"
+    ],
+    [
+     "infant-feeding",
+     "exclusive breastfeeding (EBF) is recommended even in hot conditions"
+    ]
+   ],
+   "locator": "Abstract, results and conclusion"
+  },
+  {
+   "practice": "infant-feeding-heat",
+   "sources": [
+    "unicef-heat"
+   ],
+   "id": "c-infant-unicef",
+   "text": "UNICEF advises breastfeeding infants under 6 months exclusively in heat waves.",
+   "status": "guidance",
+   "outcome": "guidance",
+   "terms": [
+    [
+     "unicef-heat",
+     "Breastfeed infants under 6 months exclusively"
+    ]
+   ],
+   "locator": "UNICEF heat wave safety tips"
+  },
+  {
+   "practice": "livestock-sheds",
+   "sources": [
+    "rajasthan"
+   ],
+   "id": "c-chappra",
+   "text": "Participants described constructing chappra (animal sheds made of straw) and spraying water to cool animals.",
+   "status": "reported",
+   "outcome": "use",
+   "terms": [
+    [
+     "rajasthan",
+     "chappra"
+    ],
+    [
+     "rajasthan",
+     "spraying water"
+    ]
+   ],
+   "locator": "Results, theme 2, protection of animals"
+  },
+  {
+   "practice": "livestock-sheds",
+   "sources": [
+    "thatch-shed"
+   ],
+   "id": "c-thatch-shed",
+   "text": "In a controlled comparison, an open-ridge ventilated, double-slope thatch roof shed created a more favourable microclimate than an asbestos roof shed and reduced the heat-related drop in milk yield.",
+   "status": "measured",
+   "outcome": "animal",
+   "terms": [
+    [
+     "thatch-shed",
+     "open-ridge ventilated, double-slope thatch roof shed"
+    ],
+    [
+     "thatch-shed",
+     "asbestos roof"
+    ]
+   ],
+   "locator": "Abstract"
+  },
+  {
+   "practice": "livestock-pot-water",
+   "sources": [
+    "sheep-pot"
+   ],
+   "id": "c-sheep-pot",
+   "text": "Avishaan rams under heat stress given earthen pot water lost less body weight and had higher intake than heat-stressed rams given ambient water.",
+   "status": "measured",
+   "outcome": "animal",
+   "terms": [
+    [
+     "sheep-pot",
+     "Avishaan rams"
+    ],
+    [
+     "sheep-pot",
+     "earthen pot"
+    ]
+   ],
+   "locator": "Abstract"
+  }
+ ]
+}

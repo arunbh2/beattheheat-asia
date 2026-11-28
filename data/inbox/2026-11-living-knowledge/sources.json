@@ -1,0 +1,471 @@
+[
+ {
+  "id": "src-lk-rajasthan",
+  "type": "source",
+  "title": "Sociocultural and indigenous practices of rural India in adapting to heat stress: an exploratory descriptive qualitative study",
+  "publisher": "International Health (Oxford University Press)",
+  "year": 2026,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13329950/fullTextXML",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "between March and June 2023",
+   "36 participants",
+   "wet sacks or cloths over the doors and windows",
+   "thatched roofs",
+   "coat the roof with limestone or alum",
+   "chappra",
+   "6 a.m. to 11 a.m.",
+   "wet jute",
+   "Water pots for drinking in front of most houses",
+   "Sajag",
+   "multani mitti",
+   "tamarind",
+   "no scientific evidence supporting its effectiveness",
+   "buttermilk",
+   "Ker sangri",
+   "screw pine",
+   "We cook food very early in the morning",
+   "huge trees in their setbacks",
+   "not affordable",
+   "We hire water tankers",
+   "spraying water",
+   "loss of wages",
+   "kutcha houses",
+   "additional windows"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-bikaner",
+  "type": "source",
+  "title": "Vernacular Knowledge for Modern Sustainability: Integrating Traditional Construction Practices for Thermal Comfort in Rajasthan",
+  "publisher": "SSRG International Journal of Civil Engineering",
+  "year": 2026,
+  "url": "https://www.internationaljournalssrg.org/IJCE/2025/Volume12-Issue8/IJCE-V12I8P105.pdf",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "Dulmera sandstone",
+   "lime plaster",
+   "Preliminary findings",
+   "internal courtyards",
+   "reciprocal shadowing"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-niua",
+  "type": "source",
+  "title": "Traditional & Indigenous Practices for Climate Resilience in India",
+  "publisher": "National Institute of Urban Affairs (NIUA)",
+  "year": 2026,
+  "url": "https://niua.in/intranet/sites/default/files/2853.pdf",
+  "kind": "compendium",
+  "where": "Living Knowledge",
+  "expect": [
+   "Traditional & Indigenous Practices for Climate Resilience in India",
+   "Oran System",
+   "June 2023"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-ik-review",
+  "type": "source",
+  "title": "Understanding How Indigenous Knowledge Contributes to Climate Change Adaptation and Resilience: A Systematic Literature Review",
+  "publisher": "Environmental Management (Springer)",
+  "year": 2026,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11549107/fullTextXML",
+  "kind": "review",
+  "where": "Living Knowledge",
+  "expect": [
+   "71 papers",
+   "PRISMA",
+   "bridge it with scientific knowledge"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-churu",
+  "type": "source",
+  "title": "Churu Heat Action Plan",
+  "publisher": "Municipal Council Churu, with NRDC India and Mahila Housing Trust (posted by the Global Heat Health Information Network)",
+  "year": 2026,
+  "url": "https://heathealth.info/wp-content/uploads/MHT-Churu-Heat-Action-Plan-compressed.pdf",
+  "kind": "plan",
+  "where": "Living Knowledge",
+  "expect": [
+   "Traditional Heat Adaptation Practices",
+   "lehariya turbans",
+   "odhnis",
+   "Layered clothing",
+   "loose-fitting, breathable cotton garments",
+   "Cool Clay Refrigerators",
+   "Jaali (perforated walls)",
+   "community matkas",
+   "insulated shoes or cooling insoles",
+   "Municipal Council Churu",
+   "Mahila Housing Trust"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-who-heat",
+  "type": "source",
+  "title": "Climate change, heat and health (fact sheet)",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+  "kind": "guidance",
+  "where": "Living Knowledge",
+  "expect": [
+   "Avoid going outside and doing strenuous activity during the hottest time of day",
+   "Stay in the shade",
+   "women are primarily responsible for cooking indoors",
+   "Use light and loose-fitting clothing and bed linens",
+   "Wet your skin using a damp cloth"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-unicef-heat",
+  "type": "source",
+  "title": "Heat wave safety tips",
+  "publisher": "UNICEF East Asia and the Pacific",
+  "year": 2026,
+  "url": "https://www.unicef.org/asia-pacific/stories/heat-wave-safety-tips",
+  "kind": "guidance",
+  "where": "Living Knowledge",
+  "expect": [
+   "wear light and loose clothes",
+   "Cotton is ideal",
+   "Breastfeed infants under 6 months exclusively"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-unfpa-heat",
+  "type": "source",
+  "title": "5 ways stronger maternal health systems build climate resilience",
+  "publisher": "UNFPA Arab States Regional Office",
+  "year": 2026,
+  "url": "https://asro.unfpa.org/en/news/5-ways-stronger-maternal-health-systems-build-climate-resilience",
+  "kind": "guidance",
+  "where": "Living Knowledge",
+  "expect": [
+   "preterm birth by up to 16%"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-wb-unlivable",
+  "type": "source",
+  "title": "Unlivable: What the Urban Heat Island Effect Means for East Asia's Cities",
+  "publisher": "World Bank",
+  "year": 2026,
+  "url": "https://www.worldbank.org/en/region/eap/publication/unlivable-what-the-urban-heat-island-effect-means-for-east-asia-s-cities",
+  "kind": "report",
+  "where": "Living Knowledge",
+  "expect": [
+   "promote urban greening through strategic planning",
+   "cool city spaces through wind, shade, and urban design",
+   "protect heat-exposed workers"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-east-india",
+  "type": "source",
+  "title": "Adaptation to heat stress: a qualitative study from Eastern India",
+  "publisher": "Environmental Research Letters (IOP Publishing)",
+  "year": 2026,
+  "url": "https://doi.org/10.1088/1748-9326/ad33d2",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "Dalkhola",
+   "Trees were seen as the primary coping strategy",
+   "loss of tree cover",
+   "Cool drinking water from public taps"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-airwell",
+  "type": "source",
+  "title": "Thermal Performance of Single-Story Air-Welled Terraced House in Malaysia: A Field Measurement Approach",
+  "publisher": "Sustainability (MDPI)",
+  "year": 2026,
+  "url": "https://www.mdpi.com/2071-1050/13/1/201",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "air-well",
+   "six-month duration",
+   "27.48",
+   "30.92",
+   "less effective"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-dhaka-rural",
+  "type": "source",
+  "title": "Indoor Thermal Comfort Condition Analyzing In Naturally Ventilated Rural Houses of Dhaka Region, Bangladesh",
+  "publisher": "Journal of Interior Designing and Regional Planning",
+  "year": 2026,
+  "url": "https://doi.org/10.46610/joidrp.2023.v08i02.001",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "double-heightened mud home"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-jaffna",
+  "type": "source",
+  "title": "Vernacular courtyard as a design strategy for thermal performance in hot dry climate with reference to residential buildings in Jaffna",
+  "publisher": "University of Moratuwa, FARU International Research Conference 2023",
+  "year": 2026,
+  "url": "https://doi.org/10.31705/faru.2023.10",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "vernacular courtyard houses in Jaffna"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-palu",
+  "type": "source",
+  "title": "Thermal Performance of Vernacular Stilt House in Palu City",
+  "publisher": "Interdisciplinary Journal and Humanity (INJURITY)",
+  "year": 2026,
+  "url": "https://injurity.pusatpublikasi.id/index.php/inj/article/view/180",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "outdoor air temperature peak is 36.8",
+   "indoor peak temperature on the 1st floor reached 32",
+   "Hobo"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-simalungun",
+  "type": "source",
+  "title": "Study of Thermal Comfort in Traditional House Buildings (Case Study: Simalungun Traditional House)",
+  "publisher": "International Journal of Architecture and Urbanism",
+  "year": 2026,
+  "url": "https://talenta.usu.ac.id/ijau/article/view/6035",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "Simalungun traditional house",
+   "Ecotech"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-bd-workers",
+  "type": "source",
+  "title": "Occupational heat risk perceptions and behavioral adaptation strategies among construction and welding workers in Bangladesh",
+  "publisher": "Scientific Reports",
+  "year": 2026,
+  "url": "https://doi.org/10.1038/s41598-026-53118-x",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "320 construction and welding workers",
+   "taking regular breaks",
+   "wearing loose clothing",
+   "planning work during cooler hours",
+   "9.49"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-nepal-workers",
+  "type": "source",
+  "title": "Exploring outdoor workers' knowledge, attitudes, practices, and perceived risks of heatwaves in Nepal",
+  "publisher": "PLOS ONE",
+  "year": 2026,
+  "url": "https://doi.org/10.1371/journal.pone.0329557",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "356 outdoor workers",
+   "43% had heard of heatwaves"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-dhaka-informal",
+  "type": "source",
+  "title": "Comparative study of heat-related symptoms among indoor and outdoor informal workers: A pilot study in Dhaka, Bangladesh",
+  "publisher": "The Journal of Climate Change and Health",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.joclim.2025.100576",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "416 informal workers",
+   "rest breaks"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-dhaka-older",
+  "type": "source",
+  "title": "Heatwaves and health vulnerabilities of older informal workers in Dhaka, Bangladesh: A qualitative study",
+  "publisher": "Health & Place",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.healthplace.2026.103677",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "altered work schedules and traditional cooling practices",
+   "largely insufficient"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-infant-feeding",
+  "type": "source",
+  "title": "A systematic review of hot weather impacts on infant feeding practices in low-and middle-income countries",
+  "publisher": "Frontiers in Pediatrics",
+  "year": 2026,
+  "url": "https://doi.org/10.3389/fped.2022.930348",
+  "kind": "review",
+  "where": "Living Knowledge",
+  "expect": [
+   "continue to advise water supplementation",
+   "exclusive breastfeeding (EBF) is recommended even in hot conditions"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-hap-maternal",
+  "type": "source",
+  "title": "Safeguarding maternal health against extreme heat in India: A policy analysis of state-level heat action plans",
+  "publisher": "International Journal of Gynecology & Obstetrics",
+  "year": 2026,
+  "url": "https://doi.org/10.1002/ijgo.70747",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "Twelve of 35 state plans",
+   "no recommendations for pregnant or lactating women"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-hip-india",
+  "type": "source",
+  "title": "Heat adaptations among women during the antenatal period in India: the Heat in Pregnancy Project (qualitative study protocol)",
+  "publisher": "Wellcome Open Research",
+  "year": 2026,
+  "url": "https://doi.org/10.12688/wellcomeopenres.25507.2",
+  "kind": "protocol",
+  "where": "Living Knowledge",
+  "expect": [
+   "document traditional and emerging coping strategies"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-tn-women",
+  "type": "source",
+  "title": "High heat exposure and climate anxiety among rural women in Tamil Nadu: health and social impacts",
+  "publisher": "BMC Public Health",
+  "year": 2026,
+  "url": "https://doi.org/10.1186/s12889-026-27397-y",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "350 rural women",
+   "reduced caregiving capacity"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-angkor",
+  "type": "source",
+  "title": "Impact of tree canopy cover on the local thermal environments at the Angkor temples of Cambodia",
+  "publisher": "Scientific Reports",
+  "year": 2026,
+  "url": "https://doi.org/10.1038/s41598-025-07695-y",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "warmer at night than the surrounding forest",
+   "tree canopy cover",
+   "1-5"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-sg-shade",
+  "type": "source",
+  "title": "Harnessing street shade to mitigate heat stress: An in-situ parallel investigation under extreme heat conditions in tropical Singapore",
+  "publisher": "Science of the Total Environment",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.scitotenv.2024.177864",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "20 pairs of parallel sites",
+   "average decreases of 0.8",
+   "mean radiant temperature",
+   "10.0",
+   "3.1"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-thatch-shed",
+  "type": "source",
+  "title": "Effect of heat stress amelioration through open-ridge ventilated thatched roof housing on production and reproduction performance of lactating crossbred Jersey cows",
+  "publisher": "Tropical Animal Health and Production",
+  "year": 2026,
+  "url": "https://doi.org/10.1007/s11250-021-02574-w",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "open-ridge ventilated, double-slope thatch roof shed",
+   "asbestos roof"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-sheep-pot",
+  "type": "source",
+  "title": "Effect of drinking earthen pot water on physiological response and behavior of sheep under heat stress",
+  "publisher": "Journal of Thermal Biology",
+  "year": 2026,
+  "url": "https://doi.org/10.1016/j.jtherbio.2019.102476",
+  "kind": "study",
+  "where": "Living Knowledge",
+  "expect": [
+   "earthen pot",
+   "Avishaan rams"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ },
+ {
+  "id": "src-lk-ghcf-2026",
+  "type": "source",
+  "title": "Proceedings from the Global Heat and Cooling Forum 2026",
+  "publisher": "NRDC, with NDMA, DST and CDRI",
+  "year": 2026,
+  "url": "https://www.ghcf.co.in/wp-content/uploads/2026/06/GHCF-2026_Proceedings_web-optimised.pdf",
+  "kind": "report",
+  "where": "Living Knowledge",
+  "expect": [
+   "integration of traditional knowledge and ground-level community insights"
+  ],
+  "note": "Staged for Living Knowledge: a claim is published only when every term it rests on is found here. Not published from the inbox."
+ }
+]
