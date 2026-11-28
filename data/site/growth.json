@@ -1090,6 +1090,18 @@
       "links": [{ "to": "lever:hap", "why": "The four protections are what a heat plan has working before the season; El Niño sets the lead time, not the trigger.", "basis": "record" }]
     },
     {
+      "id": "g-bengaluru-ecosystem", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": null,
+      "title": "Bengaluru: who is doing what about heat?",
+      "why": "The first city deep dive follows heat work in Bengaluru activity by activity: the new Bengaluru Heat Collective and its eleven founding members, ward climate plans and their first budgets, a national heat pilot run through one city corporation, seasonal cooling centres and kits for outdoor workers, and the tools anyone can use. Plans are kept apart from delivery, announced money from money spent, and membership from any role.",
+      "places": ["india"], "people": ["workers", "women"], "topics": ["heatrules", "hap"],
+      "event": { "what": "Feature published", "date": "2026-11-28" },
+      "review": "Thirty-two public sources staged and checked on GitHub in two runs; 52 of 54 claims passed. Later posts of WRI India's forum thread were restaged on their plain-text addresses after the first run, and the city corporations claim moved to a report the checker could read. C40's accelerator report and the Karnataka Heat Action Plan 2026 are held back. No organisation was contacted.",
+      "effort": { "asked": "Who is working on heat in Bengaluru, what exactly are they doing, what can anyone use, and what is still only planned?", "inbox": "data/inbox/2026-11-bengaluru-ecosystem", "dropped": "research/2026-11/bengaluru-ecosystem/dropped-after-check.json",
+                  "open": "Sanction and spending records for the announced ₹5 crore and ₹2 crore; the Collective's charter and strategy note; Bengaluru user numbers for the cooling centres; any evaluation of a heat measure in the city; Kannada-language sources." },
+      "pages": [["/cities/bengaluru/who-is-doing-what/", "Bengaluru: who is doing what about heat?"]], "action": ["Explore who is doing what", "/cities/bengaluru/who-is-doing-what/#directory"],
+      "links": [{ "to": "lever:hap", "why": "Ward climate plans, the Collective's priorities and the city corporations' first heat money, each at the stage its source shows.", "basis": "record" }]
+    },
+    {
       "id": "g-market-heat", "kind": "tool", "root": "practical", "added": "2026-11-28", "pr": null,
       "title": "Heat in markets and street vending: a market plan, an intervention library and a worksheet",
       "why": "A sibling of Heat inside factories follows heat through an open street market by zone and by hour, from wholesale loading at dawn to unsold stock at dusk. Its library of measures, from storm-proof shade and women-safe toilets to stall-minding rosters, protected porter turns and pitch protection before upgrades, gives each one's evidence type and limits, with a finder, comparison, worked examples and a one-page worksheet for vendor associations and market teams.",

@@ -28,8 +28,8 @@
 .ce-src { color: var(--grey-700); overflow-wrap: anywhere; }
 .ce-filters { display: grid; gap: var(--s-2) var(--s-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); align-items: end; margin: var(--s-3) 0; padding: var(--pad-std); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--sand-50); }
 .ce-filters[hidden] { display: none; }
-.ce-filters label { display: grid; gap: 4px; font-size: var(--fs-14); line-height: 1.4; font-weight: 700; }
-.ce-filters select { min-height: 44px; max-width: 100%; font: inherit; font-weight: 400; font-size: var(--fs-16); padding: 6px 8px; border: 1px solid var(--line-strong); border-radius: var(--r-sm); background: var(--white); color: var(--ink); }
+.ce-filters label { display: grid; gap: 4px; min-width: 0; font-size: var(--fs-14); line-height: 1.4; font-weight: 700; }
+.ce-filters select { min-height: 44px; width: 100%; max-width: 100%; box-sizing: border-box; min-width: 0; font: inherit; font-weight: 400; font-size: var(--fs-16); padding: 6px 8px; border: 1px solid var(--line-strong); border-radius: var(--r-sm); background: var(--white); color: var(--ink); }
 .ce-reset, .ce-btn { min-height: 44px; padding: 8px 14px; border: 1px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink); font: inherit; font-size: var(--fs-14); font-weight: 700; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
 .ce-btn { border-color: var(--orange); }
 .ce-count { font-size: var(--fs-14); line-height: 1.4; color: var(--grey-700); margin: 0 0 var(--s-2); }
@@ -49,3 +49,9 @@
   .ce-more > *:not(summary) { display: block !important; }
   .ce-act, .ce-tool, .ce-org { break-inside: avoid; content-visibility: visible; }
 }
+/* Narrow screens and large text: stack each label over its value (an em breakpoint, so text zoom triggers it too). */
+@media (max-width: 30em) { .ce-dl > div, .ce-dl--wide > div { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+.ce-dl dd, .ce-src, .ce-link { overflow-wrap: anywhere; }
+/* Tap areas: card links get a 4px invisible layer above and below, as the site's stacked links do (styles.css). */
+.ce-dl dd a, .ce-link a, .ce-src a, .ce-theme li a, .ce-auth a { position: relative; }
+.ce-dl dd a::after, .ce-link a::after, .ce-src a::after, .ce-theme li a::after, .ce-auth a::after { content: ""; position: absolute; inset: -4px 0; }

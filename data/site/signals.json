@@ -1081,6 +1081,64 @@
     {"date":"2026","stage":"announced","note":"Reported as being established within the planned State Institute of Disaster Management"},
     {"date":"2026","stage":"adopted","note":"Described on the state disaster management authority's site, hosted within the Relief and Rehabilitation Department"}
    ]
+  },
+  {
+   "id": "sig-bengaluru-heat-resilience-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-07",
+   "title": "Bengaluru's city corporations announce first heat resilience money",
+   "summary": "At the launch of the Bengaluru Heat Collective on 15 July 2026, Bengaluru North City Corporation described ₹5 crore allocated for heat resilience by an NIUA pilot under AMRUT 2.0, ₹1 crore of it for vulnerable populations such as outdoor informal workers, and planned roof coating demonstrations on its buildings. Bengaluru South City Corporation announced ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, called a starting point and not a final budget. The figures are reported by WRI India and others; no sanction order or spending record was found.",
+   "who": "Bengaluru North City Corporation and Bengaluru South City Corporation (Greater Bengaluru Authority), with NIUA",
+   "places": ["india"],
+   "levers": ["heatbudget","coolbydesign","hap"],
+   "next": "A sanction or release of the ₹5 crore and ₹2 crore, installation of the roof coating demonstrations, and safety gear reaching outdoor workers.",
+   "sources": [
+    {"id":"wri-blr","type":"secondary","label":"WRI India, 2026: Eleven organisations launch Bengaluru Heat Collective","url":"https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july"},
+    {"id":"chenab-blr","type":"secondary","label":"The Chenab Times, 2026: Bengaluru Heat Collective launched to combat rising temperatures","url":"https://thechenabtimes.com/2026/07/15/bengaluru-launches-heat-collective-to-combat-rising-urban-temperatures/"},
+    {"id":"grove-blr","type":"secondary","label":"WRI India partner update on Rainmatter Grove, 2026: Launch of the Bengaluru Heat Collective","url":"https://grove.rainmatter.org/raw/4976/12"}
+   ],
+   "where": "Bengaluru, India",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-niua-pilot",
+     "what": "₹5 crore for heat resilience in Bengaluru North City Corporation under NIUA's Building Heat Resilient Cities pilot, ₹1 crore of it for vulnerable populations",
+     "type": "funding",
+     "milestones": [
+      {"id":"m-funding-announced","step":"funding-announced","date":"2026-07-15","note":"Described as allocated by the Commissioner of Bengaluru North City Corporation at the Collective's launch","evidence":[{"source":"wri-blr","establishes":"The launch release reports the ₹5 crore, the ₹1 crore component and the NIUA pilot under AMRUT 2.0.","terms":["5 crore","1 crore","NIUA pilot","AMRUT 2.0"]},{"source":"chenab-blr","establishes":"An independent report of the launch says the ₹1 crore is for safety gear and neck fans for outdoor informal workers.","terms":["neck fans"]}]}
+     ],
+     "unknown": ["A sanction order or release of the money: not verified","Whether safety gear has reached workers: not verified"],
+     "next": "A sanction or release record, and distribution of safety gear."
+    },
+    {
+     "id": "d-roof-coating",
+     "what": "Roof coating demonstrations on North City Corporation buildings",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-announced","step":"announced","date":"2026-07-15","note":"Described as planned by the Commissioner at the launch","evidence":[{"source":"wri-blr","establishes":"The Commissioner describes roof coating demonstrations as planned.","terms":["roof coating demonstrations","planned"]},{"source":"chenab-blr","establishes":"The independent report mentions albedo coating demonstrations.","terms":["albedo"]}]}
+     ],
+     "unknown": ["Whether any demonstration has been installed: not verified"],
+     "next": "Installation on named buildings."
+    },
+    {
+     "id": "d-begur",
+     "what": "₹2 crore for phased implementation of the Begur Ward Climate Action Plan (heat proofing of buildings, blue-green schools, groundwater recharge and more)",
+     "type": "funding",
+     "milestones": [
+      {"id":"m-funding-announced","step":"funding-announced","date":"2026-07-15","note":"Announced by Bengaluru South City Corporation at the Collective's launch","evidence":[{"source":"wri-blr","establishes":"The launch release reports the ₹2 crore for phased implementation of the Begur plan, called not a final budget.","terms":["2 crore","Begur","phased implementation","not a final budget"]},{"source":"grove-blr","establishes":"WRI India's update says the Begur plan was introduced at the launch and its enabling work was steered by WRI India.","terms":["Begur","steered by WRI India"]}]}
+     ],
+     "unknown": ["How much of the ₹2 crore is for heat: not stated","Release or spending: not verified"],
+     "next": "Spending on heat proofing of buildings in Begur."
+    }
+   ],
+   "review": {"reviewed":"2026-11-28","due":"2027-02-28"},
+   "stage": "funded",
+   "history": [
+    {"date":"2026-07-15","stage":"funded","note":"Described as allocated by the Commissioner of Bengaluru North City Corporation at the Collective's launch"},
+    {"date":"2026-07-15","stage":"announced","note":"Described as planned by the Commissioner at the launch"},
+    {"date":"2026-07-15","stage":"funded","note":"Announced by Bengaluru South City Corporation at the Collective's launch"}
+   ]
   }
  ]
 }

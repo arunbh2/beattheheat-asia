@@ -1,52 +1,5 @@
 [
  {
-  "id": "c-blr-charter",
-  "where": "Collective: governance",
-  "text": "WRI India's partner update of 20 July 2026 reports that the members agreed a Charter document for the group to function as a collective body, and that a Strategy Note on heat resilience in Bengaluru was developed as a living document. Neither document was found published.",
-  "missing": [
-   "grove-updates: \"Charter document\"",
-   "grove-updates: \"Strategy Note\"",
-   "grove-updates: \"living document\""
-  ]
- },
- {
-  "id": "c-blr-toc",
-  "where": "Collective: governance",
-  "text": "A later partner update reports that the Collective convened in August 2026 to begin developing a theory of change and a strategic workplan.",
-  "missing": [
-   "grove-updates: \"theory of change\"",
-   "grove-updates: \"strategic workplan\""
-  ]
- },
- {
-  "id": "c-blr-event",
-  "where": "Collective: launch",
-  "text": "The launch notice described a panel on lived experiences of heat and a charter signing at Science Gallery Bengaluru.",
-  "missing": [
-   "grove-launch: \"Science Gallery\"",
-   "grove-launch: \"charter\""
-  ]
- },
- {
-  "id": "c-blr-begur-steer",
-  "where": "Activity: Begur ward plan",
-  "text": "WRI India's partner update says the Begur plan's enabling work was steered by WRI India with working group members Jan Sahas, WellLabs, Hasiru Dala, Socratus, CSTEP and Sensing Local, and that BSCC introduced it at the Collective's launch.",
-  "missing": [
-   "grove-updates: \"steered by WRI India\"",
-   "grove-updates: \"Begur\"",
-   "grove-updates: \"Sensing Local\""
-  ]
- },
- {
-  "id": "c-blr-302",
-  "where": "Activity: ward climate plans",
-  "text": "The same updates report 302 project suggestions (182 for BSCC and 120 for BNCC) formally submitted to the commissioners and Chief Engineer.",
-  "missing": [
-   "grove-updates: \"302\"",
-   "grove-updates: \"182\""
-  ]
- },
- {
   "id": "c-blr-c40-cca",
   "where": "Activity: C40 Cool Cities Accelerator",
   "text": "Bengaluru is listed among the signatory cities of C40's Cool Cities Accelerator.",
@@ -56,30 +9,12 @@
   ]
  },
  {
-  "id": "c-blr-gba",
-  "where": "Public authority: city government",
-  "text": "The Karnataka government notified five city corporations under the Greater Bengaluru Authority, which took over from the Bruhat Bengaluru Mahanagara Palike (BBMP) in September 2025.",
-  "missing": [
-   "gba-week: \"five city corporations\"",
-   "gba-week: \"Greater Bengaluru\""
-  ]
- },
- {
   "id": "c-blr-state-hap",
   "where": "Public authority: state heat plan",
   "text": "The Karnataka Heat Action Plan 2026 includes the Greater Bengaluru area.",
   "missing": [
    "ksndmc-hap: \"Greater Bengaluru\"",
    "ksndmc-hap: \"Heat Action Plan\""
-  ]
- },
- {
-  "id": "c-blr-hd-pdf",
-  "where": "Activity: waste workers report",
-  "text": "The report is also published on Hasiru Dala's own site.",
-  "missing": [
-   "hd-report-pdf: \"154\"",
-   "hd-report-pdf: \"waste\""
   ]
  }
 ]

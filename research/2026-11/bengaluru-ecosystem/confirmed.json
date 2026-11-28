@@ -77,6 +77,39 @@
   ]
  },
  {
+  "id": "c-blr-charter",
+  "where": "Collective: governance",
+  "text": "A WRI India partner update after the launch reports that the members agreed a Charter document for the group to function as a collective body, and that a Strategy Note on heat resilience in Bengaluru was developed as a living document. Neither document was found published.",
+  "sources": [
+   {
+    "label": "WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 9, Bengaluru), 2026",
+    "url": "https://grove.rainmatter.org/raw/4976/9"
+   }
+  ]
+ },
+ {
+  "id": "c-blr-toc",
+  "where": "Collective: governance",
+  "text": "A later partner update reports that the Collective convened in August 2026 to begin developing a theory of change and a strategic workplan.",
+  "sources": [
+   {
+    "label": "WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026",
+    "url": "https://grove.rainmatter.org/raw/4976/18"
+   }
+  ]
+ },
+ {
+  "id": "c-blr-event",
+  "where": "Collective: launch",
+  "text": "The launch notice described a panel on lived experiences of heat and a charter signing at Science Gallery Bengaluru.",
+  "sources": [
+   {
+    "label": "WRI India on Rainmatter Grove: Launch: Bengaluru Heat Collective (event notice text), 2026",
+    "url": "https://grove.rainmatter.org/raw/5067/1"
+   }
+  ]
+ },
+ {
   "id": "c-blr-panel",
   "where": "Collective: launch",
   "text": "At the launch, an ASHA worker, a domestic worker, a construction worker and a waste picker spoke about heat in their work.",
@@ -176,6 +209,17 @@
   ]
  },
  {
+  "id": "c-blr-begur-steer",
+  "where": "Activity: Begur ward plan",
+  "text": "WRI India's partner update says the Begur plan's enabling work was steered by WRI India with working group members Jan Sahas, WellLabs, Hasiru Dala, Socratus, CSTEP and Sensing Local, and that BSCC introduced it at the Collective's launch.",
+  "sources": [
+   {
+    "label": "WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 12, Launch of the Bengaluru Heat Collective), 2026",
+    "url": "https://grove.rainmatter.org/raw/4976/12"
+   }
+  ]
+ },
+ {
   "id": "c-blr-52cr",
   "where": "Money: ward climate budgets",
   "text": "WRI India's partner update of 27 June 2026 reports that four of the five municipal corporations allocated about ₹52 crore in total directly towards climate action in their 2026-27 budgets. This is climate spending in general, not heat spending.",
@@ -183,6 +227,17 @@
    {
     "label": "WRI India on Rainmatter Grove: Transforming India's City Regions: partner updates, 2026",
     "url": "https://grove.rainmatter.org/t/transforming-indias-city-regions/4976"
+   }
+  ]
+ },
+ {
+  "id": "c-blr-302",
+  "where": "Activity: ward climate plans",
+  "text": "WRI India reports a pipeline of 302 projects (182 for the South and 120 for the North City Corporation), co-developed with more than ten organisations for the 2026-27 Climate Action Plan and formally submitted to the corporations.",
+  "sources": [
+   {
+    "label": "WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 9, Bengaluru), 2026",
+    "url": "https://grove.rainmatter.org/raw/4976/9"
    }
   ]
  },
@@ -473,6 +528,50 @@
    {
     "label": "C40 Cities: Request for Proposals: Development of High Impact Actions for Heat Resilience in Bengaluru and Hubballi-Dharwad, 2025",
     "url": "https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-blr-gba",
+  "where": "Public authority: city government",
+  "text": "The Greater Bengaluru Authority's five city corporations, Bengaluru Central, North, South, East and West, came into being in September 2025.",
+  "sources": [
+   {
+    "label": "The Federal: Greater Bengaluru Authority comes into effect, 2025",
+    "url": "https://thefederal.com/category/states/south/karnataka/greater-bengaluru-authority-comes-into-effect-204813"
+   }
+  ]
+ },
+ {
+  "id": "c-blr-hd-pdf",
+  "where": "Activity: waste workers report",
+  "text": "The report is also published on Hasiru Dala's own site.",
+  "sources": [
+   {
+    "label": "HeatWatch and Hasiru Dala: Rising Heat and Waste Workers (report PDF on Hasiru Dala's site), 2025",
+    "url": "https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-blr-shantinagar",
+  "where": "Activity: ward climate plans",
+  "text": "Shantinagar's ward plan, in Bengaluru Central City Corporation, was completed and submitted to the GBA Climate Action Cell and the corporation by the seven-member working group, with WRI India anchoring the drafting. The Climate Action Cell has a ward plan webpage.",
+  "sources": [
+   {
+    "label": "WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026",
+    "url": "https://grove.rainmatter.org/raw/4976/18"
+   }
+  ]
+ },
+ {
+  "id": "c-blr-bbmp",
+  "where": "Public authority: city government",
+  "text": "Citizen Matters reported the ₹28 crore climate earmark in the BBMP's budget for 2025-26, before the change to the Greater Bengaluru Authority.",
+  "sources": [
+   {
+    "label": "Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025",
+    "url": "https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/"
    }
   ]
  }

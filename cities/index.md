@@ -36,7 +36,7 @@ City deep dive
 
 ## [Bengaluru: who is doing what about heat?](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/)
 
-Who is working on heat in Bengaluru, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 11 activities and 14 organisations, each line checked against its source.
+Who is working on heat in Bengaluru, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 13 activities and 14 organisations, each line checked against its source.
 
 [Open the Bengaluru profile](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/)
 

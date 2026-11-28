@@ -1,7 +1,7 @@
 ---
 title: "Heat Safety Charter for Apartment Workers (Bengaluru): Heat Tool Finder"
 url: https://beattheheat.asia/heat-tools/heatwatch_apartment_charter/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -92,7 +92,7 @@ From the provider's sources: the description, inputs, outputs and access. Common
 
 ## What to do next
 
-Carry what you learn into [/cities/bengaluru/who-is-doing-what/#tools](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/#tools) on Common Shade, or go back to [the Heat Tool Finder](https://beattheheat.asia/heat-tools/) to compare it with others.
+Carry what you learn into [/cities/bengaluru/who-is-doing-what/](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/) on Common Shade, or go back to [the Heat Tool Finder](https://beattheheat.asia/heat-tools/) to compare it with others.
 
 ---
 Human edition: https://beattheheat.asia/heat-tools/heatwatch_apartment_charter/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

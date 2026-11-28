@@ -485,11 +485,11 @@ Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) ·
 Developments in India tracked on Signals, newest first, with the furthest step each has evidence for.
 
 - [India adds heatwaves to its notified natural calamities](https://beattheheat.asia/signals/#sig-india-heatwave-calamity-2026) Adopted, not verified · latest development August 2026
+- [Bengaluru's city corporations announce first heat resilience money](https://beattheheat.asia/signals/#sig-bengaluru-heat-resilience-2026) Funded, reported · latest development 15 July 2026
 - [April's pre-monsoon heatwave was made three times more likely](https://beattheheat.asia/signals/#sig-south-asia-pre-monsoon-2026) Finding · latest development May 2026
 - [Maharashtra sets up a Centre of Excellence for heat resilience and sustainable cooling](https://beattheheat.asia/signals/#sig-maharashtra-heat-coe) Adopted, original checked · latest development 2026
-- [India's Heat Resilient Cities Framework](https://beattheheat.asia/signals/#sig-niua-heat-resilient-cities-2026) Guidance · latest development 2026
 
-[All 5 for India on Signals](https://beattheheat.asia/signals/?place=india) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[All 6 for India on Signals](https://beattheheat.asia/signals/?place=india) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/countries/india/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

@@ -84,6 +84,23 @@
     }
    }
   ],
+  "https://grove.rainmatter.org/raw/4976/12": [
+   {
+    "kind": "content",
+    "batch": "2026-11-bengaluru-ecosystem",
+    "checked": "2026-11-28",
+    "status": "OK",
+    "terms": {
+     "Bengaluru Heat Collective": true,
+     "steered by WRI India": true,
+     "Begur": true,
+     "Sensing Local": true
+    },
+    "passages": {
+     "Begur": "…https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july ) *Soft-launch of Begur Ward-level Climate Action Plan (WCAP)* The Begur Ward Climate Action Plan (WCAP) was publicly introduced by Sri."
+    }
+   }
+  ],
   "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/": [
    {
     "kind": "content",
@@ -374,6 +391,24 @@
     "batch": "research/2026-11/go-live",
     "checked": "2026-11-07",
     "status": "OK"
+   }
+  ],
+  "https://thechenabtimes.com/2026/07/15/bengaluru-launches-heat-collective-to-combat-rising-urban-temperatures/": [
+   {
+    "kind": "content",
+    "batch": "2026-11-bengaluru-ecosystem",
+    "checked": "2026-11-28",
+    "status": "OK",
+    "terms": {
+     "Heat Collective": true,
+     "neck fans": true,
+     "albedo": true
+    },
+    "passages": {
+     "Heat Collective": "The Bengaluru Heat Collective aims to tackle these issues through a multi-pronged strategy.",
+     "neck fans": "These protective measures will include providing safety gear and neck fans for thousands of outdoor informal workers.",
+     "albedo": "The city has already planned several interventions, such as demonstrations of albedo coating on North City Corporation buildings."
+    }
    }
   ],
   "https://thejakartapost.com/world/2026/07/12/south-korea-issues-first-emergency-heatwave-warning-under-new-rating-system": [
@@ -673,6 +708,88 @@
     },
     "passages": {
      "El Niño": "El Niño has intensified since August and is expected to reach record strength by December."
+    }
+   }
+  ],
+  "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july": [
+   {
+    "kind": "content",
+    "batch": "2026-11-bengaluru-ecosystem",
+    "checked": "2026-11-28",
+    "status": "OK",
+    "terms": {
+     "1914": true,
+     "Bengaluru Heat Collective": true,
+     "15 July 2026": true,
+     "initiated by 11 organisations": true,
+     "coordinated action on rising urban heat": true,
+     "July 17, 2026": true,
+     "ARTPARK": true,
+     "Bengaluru Sustainability Forum": true,
+     "C40 Cities": true,
+     "CSTEP": true,
+     "Hasiru Dala": true,
+     "HeatWatch": true,
+     "Jan Sahas": true,
+     "KHPT": true,
+     "NIMHANS": true,
+     "Socratus": true,
+     "WRI India": true,
+     "four priority areas": true,
+     "spatial dimensions": true,
+     "enabling infrastructure interventions": true,
+     "vulnerable communities": true,
+     "ward-level microplanning": true,
+     "33.6": true,
+     "33.3": true,
+     "India Meteorological Department": true,
+     "5 crore": true,
+     "NIUA pilot": true,
+     "Building Heat Resilient Cities": true,
+     "AMRUT 2.0": true,
+     "1 crore": true,
+     "vulnerable populations": true,
+     "outdoor informal workers": true,
+     "submitted by Bengaluru North City Corporation": true,
+     "roof coating demonstrations": true,
+     "planned": true,
+     "2 crore": true,
+     "Begur": true,
+     "phased implementation": true,
+     "not a final budget": true
+    },
+    "passages": {
+     "Bengaluru Heat Collective": "Bengaluru, 15 July 2026: The Bengaluru Heat Collective, a platform initiated by 11 organisations to advance coordinated action on rising urban heat, was launched today in Bengaluru.",
+     "15 July 2026": "Bengaluru, 15 July 2026: The Bengaluru Heat Collective, a platform initiated by 11 organisations to advance coordinated action on rising urban heat, was launched today in Bengaluru.",
+     "initiated by 11 organisations": "Bengaluru, 15 July 2026: The Bengaluru Heat Collective, a platform initiated by 11 organisations to advance coordinated action on rising urban heat, was launched today in Bengaluru.",
+     "coordinated action on rising urban heat": "Bengaluru, 15 July 2026: The Bengaluru Heat Collective, a platform initiated by 11 organisations to advance coordinated action on rising urban heat, was launched today in Bengaluru.",
+     "ARTPARK": "Know more: wri-india.org ARTPARK AI and Robotics Technology Park (ARTPARK) (registered as I-Hub for Robotics and Autonomous Systems Innovation Foundation) is a not-for-profit Section 8 translational research organization at the Indian Institute of Science (IISc), Bengaluru.",
+     "C40 Cities": "C40 Cities C40 is a global network of nearly 100 mayors of the world’s leading cities that are united in action to confront the climate crisis and create a future where everyone, everywhere can thrive.",
+     "CSTEP": "CSTEP CSTEP is a not-for-profit policy think tank with a mission to bridge the gap between science, technology, and policy.",
+     "Hasiru Dala": "Hasiru Dala Hasiru Dala is a not-for-profit organisation dedicated to advancing social justice for waste pickers through direct interventions in identity rights, education, healthcare, housing, pensions, skill development, and employment access.",
+     "HeatWatch": "HeatWatch HeatWatch is a climate adaption nonprofit working at the intersection of economic, social justice, urban planning and public health.",
+     "Jan Sahas": "Know more: heatwatch.in Jan Sahas Jan Sahas, established in 2000, is a grassroots not for profit organization dedicated to promoting the development and well being of socially excluded communities, with a special focus on informal and migrant workers.",
+     "WRI India": "Through research, analysis, and recommendations, WRI India puts ideas into action to build transformative solutions to protect the earth, promote livelihoods, and enhance human well-being.",
+     "four priority areas": "In its initial phase, the Collective will focus on four priority areas: understanding heat and its spatial dimensions to inform policy and investment, enabling infrastructure interventions, strengthen…",
+     "spatial dimensions": "In its initial phase, the Collective will focus on four priority areas: understanding heat and its spatial dimensions to inform policy and investment, enabling infrastructure interventions, strengthening relief and resilience measures for vulnerab…",
+     "enabling infrastructure interventions": "…the Collective will focus on four priority areas: understanding heat and its spatial dimensions to inform policy and investment, enabling infrastructure interventions, strengthening relief and resilience measures for vulnerable communities, and advancing ward-level microplanning.",
+     "vulnerable communities": "…mensions to inform policy and investment, enabling infrastructure interventions, strengthening relief and resilience measures for vulnerable communities, and advancing ward-level microplanning.",
+     "ward-level microplanning": "…nt, enabling infrastructure interventions, strengthening relief and resilience measures for vulnerable communities, and advancing ward-level microplanning.",
+     "India Meteorological Department": "On 14 July 2026, the Bengaluru city observatory recorded a maximum of 33.6°C, the highest July temperature ever recorded in the city, surpassing the previous all-time record of 33.3°C set in 1914 and 1926, and a full 5.3°C above the July normal of 28.3°C (India Meteorological Department).",
+     "5 crore": "Of the ₹5 crore allocated for heat resilience by NIUA pilot, ₹1 crore is dedicated to protecting our most vulnerable populations through measures…",
+     "NIUA pilot": "Of the ₹5 crore allocated for heat resilience by NIUA pilot, ₹1 crore is dedicated to protecting our most vulnerable populations through measures such as safety gear for thousands of outdoo…",
+     "Building Heat Resilient Cities": "…of outdoor informal workers.” Sri Depinder Kapur, Head, Climate Centre for Cities, NIUA, said, \"Bengaluru's participation in the Building Heat Resilient Cities Programme under AMRUT 2.0 marks several firsts.",
+     "AMRUT 2.0": "…ur, Head, Climate Centre for Cities, NIUA, said, \"Bengaluru's participation in the Building Heat Resilient Cities Programme under AMRUT 2.0 marks several firsts.",
+     "1 crore": "Of the ₹5 crore allocated for heat resilience by NIUA pilot, ₹1 crore is dedicated to protecting our most vulnerable populations through measures such as safety gear for thousands of outdoor informal…",
+     "vulnerable populations": "Of the ₹5 crore allocated for heat resilience by NIUA pilot, ₹1 crore is dedicated to protecting our most vulnerable populations through measures such as safety gear for thousands of outdoor informal workers.” Sri Depinder Kapur, Head, Climate Centre for Cit…",
+     "outdoor informal workers": "…pilot, ₹1 crore is dedicated to protecting our most vulnerable populations through measures such as safety gear for thousands of outdoor informal workers.” Sri Depinder Kapur, Head, Climate Centre for Cities, NIUA, said, \"Bengaluru's participation in the Building Heat Resilient Citi…",
+     "submitted by Bengaluru North City Corporation": "The heat resilience proposal submitted by Bengaluru North City Corporation brings a clear city cooling perspective, defining priority interventions that focus on vulnerable urban settlements and communities and strengthen heat-resilient public infrastructure.",
+     "roof coating demonstrations": "We have already planned several tangible interventions, including roof coating demonstrations on North City Corporation buildings.",
+     "planned": "We have already planned several tangible interventions, including roof coating demonstrations on North City Corporation buildings.",
+     "2 crore": "For the first time, BSCC has allocated ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, covering projects such as heat proofing of buildings, developing blue-green schools, increasing groundwater recharge, and more.",
+     "Begur": "…seven Working Group organisations, Climate Action Cell and everyone involved in preparing the Ward Level Climate Action Plan for Begur.",
+     "phased implementation": "For the first time, BSCC has allocated ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, covering projects such as heat proofing of buildings, developing blue-green schools, increasing groundwater recharge, and more.",
+     "not a final budget": "This is not a final budget, but a starting point to demonstrate what can be implemented.\" Dr."
     }
    }
   ],
