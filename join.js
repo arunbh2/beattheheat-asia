@@ -83,6 +83,8 @@
      It appears once someone has read for 20 seconds and scrolled a little (or straight away on a short page). Once they
      answer it (a link, Not now, x or Escape), it rests for the rest of that visit, so it never returns on every click.
      Only one card shows at a time: <html data-cs-pop> marks one that is open (see everything.js). */
+  // something else is in front: the phone menu, a desktop menu panel, or any open dialog (search, Start here, Share)
+  function busy() { return !!document.querySelector("dialog[open], #csn-sheet:not([hidden]), .csn__panel:not([hidden])"); }
   function invite() {
     if (!JOIN.formUrl) return;
     var preview = /[?&]preview=invite\b/.test(location.search);   // to check the card: add ?preview=invite to any address
@@ -91,6 +93,7 @@
 
     function show() {
       if (shown || document.documentElement.dataset.csPop) return;
+      if (busy()) { setTimeout(show, 1000); return; }   // wait for the menu or dialog to close, then appear
       shown = true; cleanup(); clearInterval(timer);
       document.documentElement.dataset.csPop = "invite";
       el = document.createElement("div");
@@ -105,7 +108,8 @@
           '<a class="invite__btn" href="/join/#way-listen" target="_blank" rel="noopener" data-act="updates">Just keep me updated<span class="visually-hidden"> (opens in a new tab)</span></a>' +
         '</div>' +
         '<button type="button" class="invite__later">Not now</button>';
-      document.body.appendChild(el);
+      var main = document.querySelector("main");   // after the main content in reading and Tab order, not after the footer
+      if (main && main.parentNode) main.parentNode.insertBefore(el, main.nextSibling); else document.body.appendChild(el);
       requestAnimationFrame(function () { el.classList.add("is-in"); });
       el.addEventListener("click", function (e) {
         var t = e.target.closest("[data-act], .invite__x, .invite__later"); if (!t) return;
@@ -120,12 +124,14 @@
       document.removeEventListener("keydown", onKey);
       if (el) { el.classList.remove("is-in"); setTimeout(function () { if (el) el.remove(); }, 300); }
     }
-    function onKey(e) { if (e.key === "Escape") close(false); }
+    // Escape closes the card only when it is the top layer: not when the menu, a panel or a dialog handled the key
+    function onKey(e) { if (e.key === "Escape" && !e.defaultPrevented && !busy()) close(false); }
     function ready() {
       var h = document.documentElement, short = h.scrollHeight < innerHeight * 1.6, depth = (h.scrollTop + innerHeight) / h.scrollHeight;
       if (Date.now() - start > 20000 && (short || depth > 0.25)) show();
     }
     function cleanup() { removeEventListener("scroll", ready); }
+    if (preview) setTimeout(show, 300);
     addEventListener("scroll", ready, { passive: true });
     var timer = setInterval(ready, 2500);   // a short page has nothing to scroll
   }

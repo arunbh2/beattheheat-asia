@@ -24,8 +24,8 @@
   "changed": "2026-11-20"
  },
  "/actions/": {
-  "hash": "05574e28c78efba4",
-  "changed": "2026-11-27"
+  "hash": "fec048c5554da726",
+  "changed": "2026-11-28"
  },
  "/approach/": {
   "hash": "e89e4d4a4230d3af",
@@ -212,8 +212,8 @@
   "changed": "2026-11-16"
  },
  "/evidence/": {
-  "hash": "7f1ce96f4869b71d",
-  "changed": "2026-11-19"
+  "hash": "d2ecedfb1580cad5",
+  "changed": "2026-11-28"
  },
  "/factory-heat/": {
   "hash": "6fe1691bd0ad423d",
@@ -248,8 +248,8 @@
   "changed": "2026-11-26"
  },
  "/heat-assembly/": {
-  "hash": "c8792c30a7dc94c3",
-  "changed": "2026-11-27"
+  "hash": "dc72d835d9644c81",
+  "changed": "2026-11-28"
  },
  "/heat-economy/": {
   "hash": "a84c70cf483dd687",
@@ -292,8 +292,8 @@
   "changed": "2026-10-01"
  },
  "/heat-network/": {
-  "hash": "00316f7e4f13566f",
-  "changed": "2026-11-27"
+  "hash": "9774f0cfe71ddb02",
+  "changed": "2026-11-28"
  },
  "/heat-tools/": {
   "hash": "7a72282940db0c59",
@@ -444,8 +444,8 @@
   "changed": "2026-11-26"
  },
  "/live-through-a-heatwave/": {
-  "hash": "f03746ca90808429",
-  "changed": "2026-11-27"
+  "hash": "7919c4fdeff8a94e",
+  "changed": "2026-11-28"
  },
  "/loops/": {
   "hash": "56613217d5f39a88",
@@ -720,8 +720,8 @@
   "changed": "2026-11-19"
  },
  "/signals/": {
-  "hash": "9543eebec7b674f5",
-  "changed": "2026-11-27"
+  "hash": "2c16ffae9653b88f",
+  "changed": "2026-11-28"
  },
  "/signals/all/": {
   "hash": "394a546998fbc6ae",
@@ -748,8 +748,8 @@
   "changed": "2026-11-26"
  },
  "/understand/": {
-  "hash": "649660ad2e4889b7",
-  "changed": "2026-11-27"
+  "hash": "30d669c79e9a10b0",
+  "changed": "2026-11-28"
  },
  "/use-with-ai/": {
   "hash": "b1b604513cefb53b",

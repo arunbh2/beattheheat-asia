@@ -115,7 +115,7 @@ const JS = `/* Common Shade: "Everything Common Shade covers", the card shown wh
   try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
   var TOP = ${JSON.stringify(TOP)}, HTML = ${JSON.stringify(HTML)}, FOOT = ${JSON.stringify(FOOT)}, CSS = ${JSON.stringify(CSS)};
   function show(via) {
-    if (shown || root.dataset.csPop || document.querySelector("dialog[open]")) return;
+    if (shown || root.dataset.csPop || document.querySelector("dialog[open], #csn-sheet:not([hidden]), .csn__panel:not([hidden])")) return;   // a reader in the menu or a dialog is not leaving
     shown = true; root.dataset.csPop = "exit"; off();
     var st = document.createElement("style"); st.textContent = CSS; document.head.appendChild(st);
     var d = document.createElement("dialog"); d.className = "csx"; d.setAttribute("aria-labelledby", "csx-h");

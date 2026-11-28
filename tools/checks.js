@@ -21,6 +21,7 @@ const CHECKS = [
   { name: "city-history", cmd: "node tools/check-city-history.js", guards: "heat over time: statistics and station rules" },
   { name: "signals", cmd: "node tools/check-signals.js", guards: "the Signals tracking model, cards and anchors" },
   { name: "enso", cmd: "node tools/check-enso.js", guards: "the El Niño pages: one outlook record, the same status sentences on every page, forecast periods, probabilities, anchors and the tools route" },
+  { name: "nav-coverage", cmd: "node tools/check-nav-coverage.js", guards: "every top-level page is in the menu or footer, every menu link exists, and each section lists its further pages under More in" },
   { name: "equity", cmd: "node tools/check-equity.js", guards: "Health and equity: the shared taxonomy, solutions labels (includes / names it / not assessed), the heat plan provision review, reach panels on funding and Signals, the four health and equity pages and kept anchors" },
   { name: "wet-bulb", cmd: "node tools/check-wet-bulb.js", guards: "The wet-bulb wall: the calculation against CoolProp, its physics, the weather adapter on synthetic records, page wording and its sources" },
   { name: "heat-futures", cmd: "node tools/check-heat-futures.js", guards: "Heat futures: projected data and its re-read, the protection model, climate and protection kept apart, shared links, wording and sources" },
