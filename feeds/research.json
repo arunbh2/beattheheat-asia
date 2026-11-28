@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:49:56.300Z",
+ "updated": "2026-11-27T21:28:42.108Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -72,6 +72,16 @@
    "preprint": true,
    "url": "https://doi.org/10.21203/rs.3.rs-10514260/v1",
    "firstAuthor": "Haroon MH"
+  },
+  {
+   "title": "Effects of Probiotic and Vitamin C Supplementation, Alone or Combined, on Nutrient Digestibility, Serum Biochemistry, Fatty Acid Profile, and Fecal Bacterial Counts in Adult Rabbits Under Naturally Occurring Heat-Stress Conditions.",
+   "journal": "Veterinary sciences",
+   "date": "2026-11-15",
+   "doi": "10.3390/vetsci13111230",
+   "pmid": "43094016",
+   "preprint": false,
+   "url": "https://doi.org/10.3390/vetsci13111230",
+   "firstAuthor": "Sayedahmed MM"
   },
   {
    "title": "Decoupling of cryogenic N&lt;sub&gt;2&lt;/sub&gt; porosity and ambient-temperature CO&lt;sub&gt;2&lt;/sub&gt; uptake in PVA-GTMAC-functionalized biomass carbon.",
@@ -162,16 +172,6 @@
    "preprint": true,
    "url": "https://doi.org/10.21203/rs.3.rs-10746072/v1",
    "firstAuthor": "Majeed M"
-  },
-  {
-   "title": "Effects of Probiotic and Vitamin C Supplementation, Alone or Combined, on Nutrient Digestibility, Serum Biochemistry, Fatty Acid Profile, and Fecal Bacterial Counts in Adult Rabbits Under Naturally Occurring Heat-Stress Conditions",
-   "journal": "Veterinary sciences",
-   "date": "2026-11-01",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13808118",
-   "firstAuthor": "Sayedahmed M"
   },
   {
    "title": "Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women.",
