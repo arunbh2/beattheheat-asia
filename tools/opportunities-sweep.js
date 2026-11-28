@@ -179,11 +179,28 @@ function summary(led, orgs) {
  return { cycle: cyc.id || null, started: cyc.started || null, total: orgs.length, by };
 }
 
+// one organisation's ledger entry after a sweep: a failure this cycle never erases the last successful result
+function mergeLedger(prev, r, cycle) {
+ prev = prev || {}; const ok = ["candidates", "none", "found"].includes(r.status);
+ return { cycle, status: r.status, attempted: r.attempted, last_success: ok ? r.attempted : (prev.last_success || null), last_success_status: ok ? r.status : (prev.last_success_status || null),
+  pages: (r.pages || []).map(p => ({ url: p.url, status: p.status, http: p.http, ats: p.ats || undefined, heat: (p.heat || []).length || undefined })), identity: r.identity ? r.identity.by : undefined,
+  identity_ok: r.identity ? r.identity.ok : undefined, candidates: (r.candidates || []).length, notes: r.notes, reviewed: prev.cycle === cycle ? prev.reviewed : undefined, review_note: prev.cycle === cycle ? prev.review_note : undefined };
+}
+
 async function main() {
  const ORGS = read(path.join(ROOT, "data", "core", "ORGANISATIONS.json"), []);
  const REG = read(REG_F, { records: [] }), regById = Object.fromEntries(REG.records.map(r => [r.id, r]));
  const LED = read(LED_F, { about: "", cycle: null, orgs: {} });
  if (flag("--summary")) { console.log(JSON.stringify(summary(LED, ORGS), null, 1)); return; }
+ // --closing: the source ids (src-fo-<key>) of published listings that close within 14 days, open or rolling ones not read for 7 days,
+ // as a pattern for verify-inbox.js RECHECK; prints nothing when there are none
+ if (flag("--closing")) {
+  const H = require("../opportunities/hub-core.js"), M = require("./funding-model.js").load(), now = Date.now(), keys = new Set();
+  [...M.CAR.map(r => [r, "career"]), ...M.OPP.map(r => [r, "opportunity"])].forEach(([r, k]) => { const it = H.item(r, k, {}); if (!H.isOpen(it, now) && H.lifecycle(it, now).status !== "unknown") return;
+   const age = it.check.checked ? (now - Date.parse(it.check.checked + "T00:00:00Z")) / 864e5 : 99;
+   if (H.closingSoon(it, now) || age > 7) (r.core || []).forEach(([key]) => keys.add("src-fo-" + key)); });
+  console.log([...keys].join("|")); return;
+ }
  const cycle = arg("--cycle") || (LED.cycle && LED.cycle.id) || today();
  if (!LED.cycle || LED.cycle.id !== cycle) LED.cycle = { id: cycle, started: today(), ended: null };
  let todo = ORGS.filter(o => regById[o.id]);
@@ -202,12 +219,7 @@ async function main() {
   while (i < todo.length) {
    const o = todo[i++], reg = regById[o.id];
    let r; try { r = await sweepOrg(o, reg); } catch (e) { r = { id: o.id, attempted: today(), status: "unavailable", notes: ["Sweep error: " + String(e.message || e).slice(0, 160)], pages: [], candidates: [] }; }
-   const prev = LED.orgs[o.id] || {};
-   const ok = ["candidates", "none", "found"].includes(r.status);
-   // a failure this cycle never erases the last successful result
-   LED.orgs[o.id] = { cycle, status: r.status, attempted: r.attempted, last_success: ok ? r.attempted : (prev.last_success || null), last_success_status: ok ? r.status : (prev.last_success_status || null),
-    pages: (r.pages || []).map(p => ({ url: p.url, status: p.status, http: p.http, ats: p.ats || undefined, heat: (p.heat || []).length || undefined })), identity: r.identity ? r.identity.by : undefined,
-    identity_ok: r.identity ? r.identity.ok : undefined, candidates: (r.candidates || []).length, notes: r.notes, reviewed: prev.cycle === cycle ? prev.reviewed : undefined };
+   LED.orgs[o.id] = mergeLedger(LED.orgs[o.id], r, cycle);
    if ((r.candidates || []).length) CAND.orgs[o.id] = r.candidates; else delete CAND.orgs[o.id];
    console.log(`${String(i).padStart(3)} ${o.id.padEnd(24)} ${r.status}${r.candidates && r.candidates.length ? ` (${r.candidates.length})` : ""}`);
    if (i % 5 === 0) save();
@@ -218,4 +230,4 @@ async function main() {
  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `summary=${Object.entries(s.by).map(([k, v]) => `${k}:${v}`).join(",")}\n`);
 }
 if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });
-module.exports = { HEAT, RELATED, STATUS, identity, page, hits, summary, allowedFor: allowed, DEADLINE_RX };
+module.exports = { mergeLedger, HEAT, RELATED, STATUS, identity, page, hits, summary, allowedFor: allowed, DEADLINE_RX };

@@ -1090,7 +1090,7 @@
       "links": [{ "to": "lever:hap", "why": "The four protections are what a heat plan has working before the season; El Niño sets the lead time, not the trigger.", "basis": "record" }]
     },
     {
-      "id": "g-city-ecosystems-nine", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": null,
+      "id": "g-city-ecosystems-nine", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": 373,
       "title": "Who is doing what about heat, in nine more cities",
       "why": "The Bengaluru deep dive now has nine siblings: Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu. Each follows heat work activity by activity, from Ahmedabad's cool roofs and heat insurance to Dhaka's Red Crescent early action and Hyderabad's cool roof policy, with plans kept apart from delivery, and where the public record is thin, as in Kolkata and Kathmandu, the page says so.",
       "places": ["india", "bangladesh", "nepal"], "people": ["workers", "women"], "topics": ["hap", "coolbydesign"],
@@ -1100,6 +1100,19 @@
                   "open": "Delivery of Delhi's promised water coolers and cool roofs; progress against Telangana's cool roof targets; a city heat plan for Kolkata, Mumbai or Kathmandu; what Dhaka North's heat office has delivered since 2023; local-language sources." },
       "pages": [["/cities/delhi/who-is-doing-what/", "Delhi: who is doing what about heat?"], ["/cities/dhaka/who-is-doing-what/", "Dhaka: who is doing what about heat?"], ["/cities/ahmedabad/who-is-doing-what/", "Ahmedabad: who is doing what about heat?"]], "action": ["Explore Delhi's heat work", "/cities/delhi/who-is-doing-what/#directory"],
       "links": [{ "to": "lever:hap", "why": "City and state heat plans in nine cities, each at the stage its source shows.", "basis": "record" }]
+    },
+    {
+      "id": "g-heat-opportunities", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": null,
+      "title": "Heat Opportunities: where you could help, and what is open now",
+      "why": "One search for jobs, individual consultancies, fellowships, grants, research calls and tenders on extreme heat, each saying why it matters for heat in the listing's own words, with deadlines as published. Behind it, every organisation in the heat network had its public opportunity pages checked, and the page says plainly how many could be read.",
+      "places": ["india", "singapore"], "people": ["workers"], "topics": ["hap", "coolbydesign"],
+      "event": { "what": "Feature published", "date": "2026-11-28" },
+      "review": "PENDING",
+      "effort": { "asked": "Where can someone contribute to heat resilience, and what is genuinely open to them now?", "inbox": "data/inbox/2026-11-funding-opps", "dropped": "research/2026-11/opportunities/review-2026-11-28.json",
+                  "open": "Organisations whose opportunity pages need a login, JavaScript or a person to read; national-language listings; government procurement portals; an approved app name for ReliefWeb jobs." },
+      "pages": [["/opportunities/", "Heat Opportunities"]],
+      "action": ["Find a heat opportunity", "/opportunities/"],
+      "links": [{ "to": "lever:hap", "why": "Roles supporting heat action planning, including Maharashtra's centre of excellence for heat resilience.", "basis": "record" }]
     },
     {
       "id": "g-bengaluru-ecosystem", "kind": "tool", "root": "institutions", "added": "2026-11-28", "pr": 371,

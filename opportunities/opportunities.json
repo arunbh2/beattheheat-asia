@@ -780,7 +780,7 @@
    "aliases": [],
    "org": "org-unep",
    "org_name": "UN Environment Programme",
-   "network_id": null,
+   "network_id": "unenvironmentprogramme",
    "rel": "related",
    "rel_why": "Sustainable cooling and cold chains are part of how people and supply chains are protected from heat, but this role builds monitoring and learning for the programme as a whole and the posting does not mention extreme heat or Asia.",
    "rel_evidence": null,
@@ -842,7 +842,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "UN Environment Programme",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/car-unep-scccs-mel-287469/"
@@ -857,7 +857,7 @@
    "aliases": [],
    "org": "org-unep",
    "org_name": "UN Environment Programme",
-   "network_id": null,
+   "network_id": "unenvironmentprogramme",
    "rel": "direct",
    "rel_why": "Carries out urban heat island assessments and adaptation strategies for 50 Indian cities, following the UNEP-CEPT methodology.",
    "rel_evidence": null,
@@ -921,7 +921,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "UN Environment Programme",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/car-unep-urban-heat-expert-287135/"
@@ -936,7 +936,7 @@
    "aliases": [],
    "org": "org-ilo",
    "org_name": "International Labour Organization",
-   "network_id": null,
+   "network_id": "ilo",
    "rel": "direct",
    "rel_why": "Occupational heat exposure is the subject.",
    "rel_evidence": null,
@@ -1002,7 +1002,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "International Labour Organization",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/opp-ilo-th-heat-review-2026/"
@@ -1097,7 +1097,7 @@
    "aliases": [],
    "org": "org-iucn",
    "org_name": "IUCN",
-   "network_id": null,
+   "network_id": "iucn",
    "rel": "network",
    "rel_why": "Ecosystem-based measures such as urban greening can lower heat; fit depends on the call's priorities.",
    "rel_evidence": null,
@@ -1161,7 +1161,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "International Union for Conservation of Nature (IUCN)",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/opp-global-eba-small-2026/"
@@ -1176,7 +1176,7 @@
    "aliases": [],
    "org": "org-who",
    "org_name": "World Health Organization",
-   "network_id": null,
+   "network_id": "worldhealthorganization",
    "rel": "direct",
    "rel_why": "Builds health sector capacity on heat and health.",
    "rel_evidence": null,
@@ -1238,7 +1238,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "World Health Organization",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/car-who-heat-aq-consultant-2026/"
@@ -1253,7 +1253,7 @@
    "aliases": [],
    "org": "org-undp",
    "org_name": "UNDP",
-   "network_id": null,
+   "network_id": "undp",
    "rel": "direct",
    "rel_why": "Heat resilience in a city is the subject of the procurement.",
    "rel_evidence": null,
@@ -1319,7 +1319,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "United Nations Development Programme (UNDP)",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/opp-undp-ind-heatsmart-2026/"
@@ -1334,7 +1334,7 @@
    "aliases": [],
    "org": "org-grp",
    "org_name": "Global Resilience Partnership",
-   "network_id": null,
+   "network_id": "globalresiliencepartners",
    "rel": "network",
    "rel_why": "Themes are set each year; heat was not confirmed as a 2026 theme.",
    "rel_evidence": null,
@@ -1398,7 +1398,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "Global Resilience Partnership",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/opp-grp-2026/"
@@ -1413,7 +1413,7 @@
    "aliases": [],
    "org": "org-unicef",
    "org_name": "UNICEF Venture Fund",
-   "network_id": null,
+   "network_id": "unicef",
    "rel": "direct",
    "rel_why": "The call cited children's exposure to extreme heat.",
    "rel_evidence": null,
@@ -1478,7 +1478,7 @@
     }
    ],
    "jobposting": null,
-   "network_name": "",
+   "network_name": "UNICEF",
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/opp-unicef-climate-health-2026/"

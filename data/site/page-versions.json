@@ -272,7 +272,7 @@
   "changed": "2026-11-28"
  },
  "/fund/": {
-  "hash": "fcc6e2fa1ec03615",
+  "hash": "5f501d35f24d10db",
   "changed": "2026-11-28"
  },
  "/glossary/": {
@@ -312,11 +312,11 @@
   "changed": "2026-11-28"
  },
  "/heat-economy/money/careers/": {
-  "hash": "4fe1f9bc8c5fe164",
-  "changed": "2026-11-26"
+  "hash": "54893f84d5ca1480",
+  "changed": "2026-11-28"
  },
  "/heat-economy/money/opportunities/": {
-  "hash": "8ca4a3f45bfd2cb6",
+  "hash": "92e7f4d6e827e85f",
   "changed": "2026-11-28"
  },
  "/heat-economy/opportunities/": {
@@ -516,8 +516,8 @@
   "changed": "2026-11-26"
  },
  "/opportunities/": {
-  "hash": "1c6a30955073653a",
-  "changed": "2026-10-01"
+  "hash": "65c2edcc23d4fbe5",
+  "changed": "2026-11-28"
  },
  "/opportunities/car-hghi-burke-climate-2027/": {
   "hash": "9749dfec0b9a84aa",
@@ -548,16 +548,16 @@
   "changed": "2026-10-01"
  },
  "/opportunities/car-unep-scccs-mel-287469/": {
-  "hash": "45559504af469174",
-  "changed": "2026-10-01"
+  "hash": "eb1f72fb184b28de",
+  "changed": "2026-11-28"
  },
  "/opportunities/car-unep-urban-heat-expert-287135/": {
-  "hash": "5ac1141c3e272220",
-  "changed": "2026-10-01"
+  "hash": "976727159c010c35",
+  "changed": "2026-11-28"
  },
  "/opportunities/car-who-heat-aq-consultant-2026/": {
-  "hash": "5f23988773d83c8f",
-  "changed": "2026-10-01"
+  "hash": "97218bfe5375c490",
+  "changed": "2026-11-28"
  },
  "/opportunities/opp-cwf-2026/": {
   "hash": "2fb7b55b47d6be2c",
@@ -572,12 +572,12 @@
   "changed": "2026-10-01"
  },
  "/opportunities/opp-global-eba-small-2026/": {
-  "hash": "a40a8987546b6897",
-  "changed": "2026-10-01"
+  "hash": "f6470346aad315f2",
+  "changed": "2026-11-28"
  },
  "/opportunities/opp-grp-2026/": {
-  "hash": "a82aeec2b7425ef8",
-  "changed": "2026-10-01"
+  "hash": "46882ca9f5c6274b",
+  "changed": "2026-11-28"
  },
  "/opportunities/opp-he-envhlth-02-2027/": {
   "hash": "550a7b236a55ae20",
@@ -592,16 +592,16 @@
   "changed": "2026-10-01"
  },
  "/opportunities/opp-ilo-th-heat-review-2026/": {
-  "hash": "703708c63a550e60",
-  "changed": "2026-10-01"
+  "hash": "7bfec9a0f2dc87f5",
+  "changed": "2026-11-28"
  },
  "/opportunities/opp-undp-ind-heatsmart-2026/": {
-  "hash": "5a0bdd3d69a27c42",
-  "changed": "2026-10-01"
+  "hash": "3b55805de15a2a12",
+  "changed": "2026-11-28"
  },
  "/opportunities/opp-unicef-climate-health-2026/": {
-  "hash": "9e0b6d9d1b88cc00",
-  "changed": "2026-10-01"
+  "hash": "e7a8a43ec7066389",
+  "changed": "2026-11-28"
  },
  "/paths/": {
   "hash": "df19ea438bbf729f",

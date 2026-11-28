@@ -1,7 +1,7 @@
 ---
 title: "Global EbA Fund: small-size grants, eighth call (IUCN)"
 url: https://beattheheat.asia/opportunities/opp-global-eba-small-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # Global EbA Fund: small-size grants, eighth call
 
-IUCN · ODA-eligible countries, with priority for least developed countries and small island states.
+[IUCN](https://beattheheat.asia/heat-network/#org-iucn) · ODA-eligible countries, with priority for least developed countries and small island states.
 
 Grant or funding callFor organisationsHeat-network organisationDeadline passedVerified
 
@@ -43,6 +43,10 @@ Not openThe deadline day has ended everywhere. This listing is kept in the archi
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
 **Source checked:** 22 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
+
+## Related on Common Shade
+
+- [International Union for Conservation of Nature (IUCN) in the heat network](https://beattheheat.asia/heat-network/#org-iucn)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

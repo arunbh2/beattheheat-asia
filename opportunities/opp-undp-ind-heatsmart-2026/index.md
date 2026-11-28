@@ -1,7 +1,7 @@
 ---
 title: "UNDP India RFP-050-IND-2026: workplan for a 'heat-smart' city and a digital heat-resilience toolkit (UNDP)"
 url: https://beattheheat.asia/opportunities/opp-undp-ind-heatsmart-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # UNDP India RFP-050-IND-2026: workplan for a 'heat-smart' city and a digital heat-resilience toolkit
 
-UNDP · India.
+[UNDP](https://beattheheat.asia/heat-network/#org-undp) · India.
 
 Consulting RFP or tenderFor organisationsDirect heat relevanceDeadline passedVerified
 
@@ -48,6 +48,7 @@ Read the official listing before applying: the employer or funder's own words de
 
 - [India](https://beattheheat.asia/countries/india/)
 - [Plan a heat response](https://beattheheat.asia/plan/)
+- [United Nations Development Programme (UNDP) in the heat network](https://beattheheat.asia/heat-network/#org-undp)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

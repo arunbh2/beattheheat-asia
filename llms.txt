@@ -173,6 +173,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 - [Heat from field to factory](https://beattheheat.asia/cotton-and-heat/index.md): Cotton from field to gin: who can stop work in the heat, and who pays for protection; first published 2026-11-20
 - [El Niño and smaller cities](https://beattheheat.asia/el-nino-and-cities/index.md): What a smaller Indian city can prepare before its hot season, and how to check people got relief; first published 2026-11-18
 - [The Heat Assembly](https://beattheheat.asia/heat-assembly/index.md): A game for one person or a group: who could use heat protection, and why; first published 2026-11-16
+- [Heat Opportunities](https://beattheheat.asia/opportunities/index.md): Jobs, consultancies, fellowships, grants and tenders on extreme heat, with deadlines as published; first published 2026-11-28
 - [Open calls and tenders](https://beattheheat.asia/heat-economy/money/opportunities/index.md): Grants, calls and procurement notices, {fundingOpen} verified open, with the archive; first published 2026-11-21
 - [Careers in heat resilience](https://beattheheat.asia/heat-economy/money/careers/index.md): jobs, consultancies, research posts and fellowships; first published 2026-11-21
 

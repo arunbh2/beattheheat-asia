@@ -21,6 +21,7 @@ Where money for protection comes from, where it reaches, and what to ask before 
 - [Paying when heat strikesInsurance, pools, credit and forecast funds: did they pay, and when?On the path for: National](https://beattheheat.asia/paying-when-heat-strikes/)
 - [Paying for protectionWhat needs paying for, and when money is neededOn the path for: City teams, National](https://beattheheat.asia/finance/)
 - [Funders and fundingWho funds heat work and how to reach them, open calls and careers; 52 pieces of funding traced](https://beattheheat.asia/heat-economy/money/)
+- [Heat OpportunitiesJobs, consultancies, fellowships, grants and tenders on extreme heat, with deadlines as published](https://beattheheat.asia/opportunities/)
 - [Questions to askBefore you buy, fund or start something](https://beattheheat.asia/heat-economy/conditions/)
 - [Ideas to explore32 ideas, one or more for every cycle](https://beattheheat.asia/heat-economy/opportunities/)
 

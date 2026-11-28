@@ -9172,7 +9172,7 @@ Find work, research and funding opportunities to help protect people from extrem
 
 https://beattheheat.asia/opportunities/ · feed https://beattheheat.asia/opportunities/feed.xml · data https://beattheheat.asia/opportunities/opportunities.json · coverage https://beattheheat.asia/opportunities/coverage.json
 
-Coverage: checked 204 of 367 heat network organisations in review cycle 2026-11-28. "None found" means none in the pages reviewed, not that the organisation has no opportunities anywhere.
+Coverage: checked 204 of 367 heat network organisations in review cycle 2026-11-22 to 2026-11-28. "None found" means none in the pages reviewed, not that the organisation has no opportunities anywhere.
 
 Open (direct or related heat relevance):
 - Nexa Lighthouse: Transition to Scale funding for climate and health innovation in Asia and the Pacific, Grand Challenges Canada (Grant or funding call; Direct heat relevance). Projects implemented in eligible countries in Asia and the Pacific, listed in Appendix B of the funding opportunity.. Open; deadline: 8 December 2026, 14:00 ET. https://beattheheat.asia/opportunities/opp-gcc-nexa-lighthouse-2026/

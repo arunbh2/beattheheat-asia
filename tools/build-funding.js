@@ -195,7 +195,7 @@ function pages({ page, shell, write }) {
   const ABOUT2 = `<p class="sol-caveat he-about"><b>About this page.</b> Researched in November 2026 from official funder, employer and buyer pages; each record shows when its source was last checked. ${esc(T.TRUST)}</p>`;
   const oppBody = shell("money/opportunities", "The heat economy · Open calls and tenders", esc(T.OPP.h), `${esc(T.OPP.lede)} ${vopen} verified open as of the source checks; ${opps.length} records in all, closed rounds included.`,
     `<div class="fo" data-fund="opportunities">
-      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a call</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/#landscape">The funding landscape</a> · <a href="/heat-economy/money/careers/">Careers</a></nav>
+      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a call</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/#landscape">The funding landscape</a> · <a href="/heat-economy/money/careers/">Careers</a> · <a href="/opportunities/">Heat Opportunities: everything in one search</a></nav>
       <section id="find" aria-labelledby="find-h"><h2 id="find-h" class="visually-hidden">Find a call</h2>
       <p class="he-note" data-js hidden>${esc(T.OPP.default)}</p>
       <form class="fo-filters" role="search" onsubmit="return false" aria-label="Filter calls and tenders">${filters("opportunities")}</form>
@@ -216,7 +216,7 @@ function pages({ page, shell, write }) {
   const groups = C.CONTRIBUTION.map(([k, l]) => [l, PC.filter(r => r.contribution === k)]).filter(([, l]) => l.length);
   const carBody = shell("money/careers", "The heat economy · Careers", esc(T.CAR.h), `${esc(T.CAR.lede)} ${esc(T.CAR.sub)}`,
     `<div class="fo" data-fund="careers">
-      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a role</a> · <a href="#by-contribution">By contribution</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/opportunities/">Open calls</a></nav>
+      <nav class="sol-jump" aria-label="On this page"><a href="#find">Find a role</a> · <a href="#by-contribution">By contribution</a> · <a href="#read">How to read these</a> · <a href="/heat-economy/money/opportunities/">Open calls</a> · <a href="/opportunities/">Heat Opportunities: everything in one search</a></nav>
       <section id="find" aria-labelledby="find-h"><h2 id="find-h" class="visually-hidden">Find a role</h2>
       <p class="he-note">${vcar} verified open now; ${cars.length} listings in all, closed ones included. This list is small and curated: each is checked against the employer's own page.</p>
       <form class="fo-filters" role="search" onsubmit="return false" aria-label="Filter roles">${filters("careers")}</form>

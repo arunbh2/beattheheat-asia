@@ -1,7 +1,7 @@
 ---
 title: "Heat Opportunities"
 url: https://beattheheat.asia/opportunities/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -376,7 +376,7 @@ Individual consultancyFor individualsRelated to heat resilienceDeadline passedVe
 
 ### [Programme support and MEL expert: Sustainable Cooling and Cold Chain Solutions programme](https://beattheheat.asia/opportunities/car-unep-scccs-mel-287469/)
 
-UN Environment Programme
+[UN Environment Programme](https://beattheheat.asia/heat-network/#org-unenvironmentprogramme)
 
 **Location**: Listed under the Paris duty station; the posting names ACES, the programme's first Regional Centre of Excellence, among delivery partners, and does not name a country in Asia.
 
@@ -409,7 +409,7 @@ Individual consultancyFor individualsDirect heat relevanceDeadline passedVerifie
 
 ### [Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India](https://beattheheat.asia/opportunities/car-unep-urban-heat-expert-287135/)
 
-UN Environment Programme
+[UN Environment Programme](https://beattheheat.asia/heat-network/#org-unenvironmentprogramme)
 
 **Location**: Listed under the Paris duty station; the work covers 50 cities in India.
 
@@ -442,7 +442,7 @@ Consulting RFP or tenderFor organisationsDirect heat relevanceDeadline passedVer
 
 ### [ILO request for quotation: desk review and evidence mapping of occupational exposure to excessive heat in Thailand](https://beattheheat.asia/opportunities/opp-ilo-th-heat-review-2026/)
 
-International Labour Organization
+[International Labour Organization](https://beattheheat.asia/heat-network/#org-ilo)
 
 **Location**: Thailand.
 
@@ -506,7 +506,7 @@ Grant or funding callFor organisationsHeat-network organisationDeadline passedVe
 
 ### [Global EbA Fund: small-size grants, eighth call](https://beattheheat.asia/opportunities/opp-global-eba-small-2026/)
 
-IUCN
+[IUCN](https://beattheheat.asia/heat-network/#org-iucn)
 
 **Location**: ODA-eligible countries, with priority for least developed countries and small island states.
 
@@ -537,7 +537,7 @@ Individual consultancyFor individualsDirect heat relevanceDeadline passedVerifie
 
 ### [Consultant: health sector capacity on heat, air quality and health](https://beattheheat.asia/opportunities/car-who-heat-aq-consultant-2026/)
 
-World Health Organization
+[World Health Organization](https://beattheheat.asia/heat-network/#org-worldhealthorganization)
 
 **Location**: As stated in the call.
 
@@ -568,7 +568,7 @@ Consulting RFP or tenderFor organisationsDirect heat relevanceDeadline passedVer
 
 ### [UNDP India RFP-050-IND-2026: workplan for a 'heat-smart' city and a digital heat-resilience toolkit](https://beattheheat.asia/opportunities/opp-undp-ind-heatsmart-2026/)
 
-UNDP
+[UNDP](https://beattheheat.asia/heat-network/#org-undp)
 
 **Location**: India.
 
@@ -601,7 +601,7 @@ Innovation challenge or prizeFor organisationsHeat-network organisationDeadline 
 
 ### [GRP Innovation Challenge 2026](https://beattheheat.asia/opportunities/opp-grp-2026/)
 
-Global Resilience Partnership
+[Global Resilience Partnership](https://beattheheat.asia/heat-network/#org-globalresiliencepartners)
 
 **Location**: The Global South.
 
@@ -632,7 +632,7 @@ Grant or funding callFor organisationsDirect heat relevanceDeadline passedVerifi
 
 ### [UNICEF Venture Fund: funding frontier climate tech for children's health](https://beattheheat.asia/opportunities/opp-unicef-climate-health-2026/)
 
-UNICEF Venture Fund
+[UNICEF Venture Fund](https://beattheheat.asia/heat-network/#org-unicef)
 
 **Location**: Programme countries, as the call defined.
 
@@ -703,11 +703,11 @@ Listings are not exhaustive. Common Shade checks the public opportunity pages of
 - **33** Source unavailable
 - **367** organisations in the heat network in all
 
-Review cycle 2026-11-28: pages read from 28 November 2026 to 28 November 2026. An organisation's coverage status says whether its pages were read in this review cycle. It is separate from how fresh each listing is: every listing carries its own "Source checked" date. "None found" means none in the pages reviewed, not that the organisation has no opportunities anywhere.
+The latest review cycle is the seven days to 28 November 2026; pages were read from 28 November 2026. An organisation's coverage status says whether its pages were read in this review cycle. It is separate from how fresh each listing is: every listing carries its own "Source checked" date. "None found" means none in the pages reviewed, not that the organisation has no opportunities anywhere.
 
 Every organisation and what was found
 
-How this list is kept up to date: the sweep that reads every network organisation's pages runs from a GitHub workflow; each run opens a review pull request, and a person adds or updates a listing only after its official page passes the source check. Deadlines are recalculated every time the site is built and in your browser as you read.
+How this list is kept up to date: a sweep of every network organisation's public pages is scheduled from a GitHub workflow, a seventh of the network each day; each run opens a review pull request, and a person adds or updates a listing only after its official page passes the source check. Deadlines are recalculated every time the site is built and in your browser as you read.
 
 ## How to read these
 

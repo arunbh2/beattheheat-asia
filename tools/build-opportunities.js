@@ -30,15 +30,19 @@ municipal: [["/plan/", "Plan a heat response"]], homes: [["/home-is-also-the-wor
 function items() {
   const m = M.load(), names = Object.fromEntries([...m.ORG].map(o => [o.id, o.name]));
   const net = Object.fromEntries(read("data/core/ORGANISATIONS.json", []).map(o => [o.id, o.name]));
-  const list = [...m.CAR.filter(r => H.ROLE_CAT[r.role]).map(r => H.item(r, "career", names)), ...m.OPP.map(r => {
-    const it = H.item(r, "opportunity", names), org = m.byId[r.org] || {}; if (!it.network_id && org.network_id) it.network_id = org.network_id; return it; })];
+  // a listing joins the heat network through its own network_id or its funder or employer record's
+  const withNet = (r, kind) => { const it = H.item(r, kind, names), org = m.byId[r.org] || {}; if (!it.network_id && org.network_id) it.network_id = org.network_id; return it; };
+  const list = [...m.CAR.filter(r => H.ROLE_CAT[r.role]).map(r => withNet(r, "career")), ...m.OPP.map(r => withNet(r, "opportunity"))];
   list.forEach(it => { it.network_name = it.network_id ? net[it.network_id] || "" : ""; if (!it.org_name && it.network_name) it.org_name = it.network_name; });
   const now = today();
   return H.dedupe(list).sort((a, b) => H.compare(a, b, now));
 }
 function coverage() {
   const orgs = read("data/core/ORGANISATIONS.json", []), led = read("data/funding/coverage.json", { cycle: null, orgs: {} }), reg = Object.fromEntries(read("data/funding/network-sources.json", { records: [] }).records.map(r => [r.id, r]));
-  const sweep = require("./opportunities-sweep.js"), cyc = led.cycle || {}, rows = orgs.map(o => { const e = (led.orgs || {})[o.id]; const inCycle = e && e.cycle === cyc.id;
+  // the review cycle is the seven days up to the latest check: the daily sweep reads a seventh of the network each day
+  const all = Object.values(led.orgs || {}).map(e => e.attempted).filter(Boolean).sort(), end = all[all.length - 1] || null;
+  const start = end ? new Date(Date.parse(end + "T00:00:00Z") - 6 * 864e5).toISOString().slice(0, 10) : null;
+  const sweep = require("./opportunities-sweep.js"), cyc = { id: end ? `${start} to ${end}` : null }, rows = orgs.map(o => { const e = (led.orgs || {})[o.id]; const inCycle = !!(e && e.attempted && e.attempted >= start);
     // reviewed candidates resolve to found or none; unreviewed stay "candidates awaiting review"
     let s = inCycle ? e.status : "unchecked"; if (s === "candidates" && e.reviewed) s = e.reviewed === "found" ? "found" : "none";
     return { id: o.id, name: o.name, status: s, label: sweep.STATUS[s], attempted: inCycle ? e.attempted : null, last_success: e ? e.last_success : null, domain: (reg[o.id] || {}).domain || null, note: inCycle ? (e.review_note || (e.notes || [])[0] || "") : "" }; });
@@ -129,7 +133,7 @@ module.exports = function buildOpportunities({ page, write, V }) {
   const covSection = `<section class="cty-s op-cov" id="coverage" aria-labelledby="cov-h"><h2 id="cov-h">${escH(T.coverage.h)}</h2>
       <p>${escH(T.coverage.note)}</p>
       <ul class="op-covlist">${ORDER.filter(k => cov.by[k]).map(k => `<li><b>${cov.by[k]}</b> ${escH(sweep.STATUS[k])}</li>`).join("")}<li><b>${cov.total}</b> organisations in the heat network in all</li></ul>
-      <p class="fo-sub">Review cycle ${escH(cov.cycle || "not started")}${cov.from ? `: pages read from ${escH(fmt(cov.from))} to ${escH(fmt(cov.to))}` : ""}. ${escH(T.coverage.statusNote)} ${escH(T.coverage.none)}</p>
+      <p class="fo-sub">${cov.from ? `The latest review cycle is the seven days to ${escH(fmt(cov.to))}; pages were read from ${escH(fmt(cov.from))}.` : "No review cycle has run yet."} ${escH(T.coverage.statusNote)} ${escH(T.coverage.none)}</p>
       <details class="op-more"><summary>Every organisation and what was found</summary><div class="fo-tablewrap" role="region" aria-label="Coverage by organisation" tabindex="0"><table class="fo-table op-covtable"><caption class="visually-hidden">Coverage of the heat network in this review cycle</caption><thead><tr><th scope="col">Organisation</th><th scope="col">Status</th><th scope="col">Last attempted</th><th scope="col">Note</th></tr></thead><tbody>
       ${covRows().map(r => `<tr><th scope="row"><a href="/heat-network/#org-${escH(r.id)}">${escH(r.name)}</a></th><td>${escH(r.label)}</td><td>${escH(r.attempted || "")}</td><td>${escH(r.note)}</td></tr>`).join("")}
       </tbody></table></div></details>

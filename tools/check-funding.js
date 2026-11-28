@@ -72,7 +72,9 @@ const nm = s => String(s || "").toLowerCase().replace(/^the /, "").replace(/[^a-
 { const seen = {}; M.all.ORG.forEach(o => [o.name, ...(o.aliases || [])].forEach(n => { const k = nm(n); ok(!seen[k] || seen[k] === o.id, `duplicate organisation: ${o.id} and ${seen[k]} share the name "${n}"`); seen[k] = o.id; }));
   const dom = {}; M.all.ORG.forEach(o => { const d = String(o.website || "").replace(/^https?:\/\/(www\.)?/, "").split("/")[0]; if (d) { ok(!dom[d] || dom[d] === o.id, `duplicate organisation website: ${o.id} and ${dom[d]} (${d})`); dom[d] = o.id; } }); }
 M.all.OPP.forEach(o => {
-  ok(o.org && M.all.ORG.some(x => x.id === o.org), `${o.id}: issuing organisation ${o.org} exists`);
+  // an issuer that is not a funder record (an unpaid call from a network organisation) names itself and its heat network record
+  const NET = new Set(JSON.parse(require("fs").readFileSync(require("path").join(__dirname, "..", "data", "core", "ORGANISATIONS.json"), "utf8")).map(x => x.id));
+  ok(o.org ? M.all.ORG.some(x => x.id === o.org) : !!(o.employer && NET.has(o.network_id)), `${o.id}: issuing organisation ${o.org || o.employer} exists`);
   ok(!o.programme || M.all.PROG.some(x => x.id === o.programme), `${o.id}: programme ${o.programme} exists`);
   ok(C.TYPE[o.type] && C.INSTRUMENT[o.instrument], `${o.id}: type and kind of money are set`);
   ok(/^https:\/\//.test(o.official_url || ""), `${o.id}: an https official link`);

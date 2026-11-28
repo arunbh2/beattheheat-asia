@@ -1,7 +1,7 @@
 ---
 title: "Careers in heat resilience"
 url: https://beattheheat.asia/heat-economy/money/careers/
-updated: 2026-11-26
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 

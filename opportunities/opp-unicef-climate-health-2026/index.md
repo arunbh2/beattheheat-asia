@@ -1,7 +1,7 @@
 ---
 title: "UNICEF Venture Fund: funding frontier climate tech for children's health (UNICEF Venture Fund)"
 url: https://beattheheat.asia/opportunities/opp-unicef-climate-health-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # UNICEF Venture Fund: funding frontier climate tech for children's health
 
-UNICEF Venture Fund · Programme countries, as the call defined.
+[UNICEF Venture Fund](https://beattheheat.asia/heat-network/#org-unicef) · Programme countries, as the call defined.
 
 Grant or funding callFor organisationsDirect heat relevanceDeadline passedVerified
 
@@ -48,6 +48,7 @@ Read the official listing before applying: the employer or funder's own words de
 
 - [Heat, health and equity](https://beattheheat.asia/heat-health-and-equity/)
 - [Care through heat](https://beattheheat.asia/care-through-heat/)
+- [UNICEF in the heat network](https://beattheheat.asia/heat-network/#org-unicef)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

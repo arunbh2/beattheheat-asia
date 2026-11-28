@@ -1,7 +1,7 @@
 ---
 title: "Consultant: health sector capacity on heat, air quality and health (World Health Organization)"
 url: https://beattheheat.asia/opportunities/car-who-heat-aq-consultant-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # Consultant: health sector capacity on heat, air quality and health
 
-World Health Organization · As stated in the call.
+[World Health Organization](https://beattheheat.asia/heat-network/#org-worldhealthorganization) · As stated in the call.
 
 Individual consultancyFor individualsDirect heat relevanceDeadline passedVerified
 
@@ -41,6 +41,10 @@ Not openThe deadline day has ended everywhere. This listing is kept in the archi
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
 **Source checked:** 22 November 2026 · [World Health Organization: Call for consultant: health sector capacity on heat, air quality and health](https://www.who.int/news-room/articles-detail/call-for-consultant-health-sector-capacity-on-heat-air-quality-and-health)
+
+## Related on Common Shade
+
+- [World Health Organization in the heat network](https://beattheheat.asia/heat-network/#org-worldhealthorganization)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

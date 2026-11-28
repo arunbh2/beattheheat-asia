@@ -1,7 +1,7 @@
 ---
 title: "GRP Innovation Challenge 2026 (Global Resilience Partnership)"
 url: https://beattheheat.asia/opportunities/opp-grp-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # GRP Innovation Challenge 2026
 
-Global Resilience Partnership · The Global South.
+[Global Resilience Partnership](https://beattheheat.asia/heat-network/#org-globalresiliencepartners) · The Global South.
 
 Innovation challenge or prizeFor organisationsHeat-network organisationDeadline passedVerified
 
@@ -47,6 +47,7 @@ Read the official listing before applying: the employer or funder's own words de
 ## Related on Common Shade
 
 - [Social protection](https://beattheheat.asia/social-protection/)
+- [Global Resilience Partnership in the heat network](https://beattheheat.asia/heat-network/#org-globalresiliencepartners)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

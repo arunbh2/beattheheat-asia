@@ -1,0 +1,72 @@
+# Heat Opportunities: the daily sweep of the heat network (tools/opportunities-sweep.js). Each day it reads one seventh of the
+# organisations in data/core/ORGANISATIONS.json (so the whole network is covered once a week, in a cycle named after that
+# week's Monday), re-reads the official pages of published listings that close within 14 days or have not been read for a
+# week (tools/verify-inbox.js with RECHECK, batch 2026-11-funding-opps), and opens a review pull request with the coverage
+# ledger, the leads and the checker's results.
+# No listing reaches the website from this workflow; once merged, the coverage note reflects the new ledger. A person reviews the leads (research/2026-11/opportunities/review.js),
+# writes or updates a listing in data/funding/, and the next build publishes it only if the source check confirmed it.
+# A failed run changes nothing: the ledger keeps each organisation's last successful check, and published listings stay
+# as they were (a page that did not open is shown as "source unavailable", never "closed").
+# Free: no paid services, no secrets beyond the built-in token. Run by hand with a batch of "all" for a full pass.
+# Needs, once: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+name: Heat Opportunities sweep
+on:
+  schedule:
+    - cron: "41 2 * * *"
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Which organisations to read - "auto" (today's seventh), "all", or a batch such as 3/7
+        default: "auto"
+      recheck:
+        description: Re-read the pages of listings closing soon (true or false)
+        default: "true"
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: opportunities-sweep
+  cancel-in-progress: false
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Install pdftotext, so PDF listings can be checked
+        run: sudo apt-get install -y -qq poppler-utils >/dev/null || echo "pdftotext not installed; PDF terms will read as missing"
+      # inputs reach the shell as variables, never as script text, and are checked before use
+      - name: Sweep the network
+        id: s
+        env:
+          BATCH: ${{ inputs.batch || 'auto' }}
+        run: |
+          [[ "$BATCH" =~ ^(auto|all|[1-7]/7)$ ]] || { echo "::error::batch must be auto, all or k/7"; exit 1; }
+          CYCLE=$(date -u -d "$(( $(date -u +%u) - 1 )) days ago" +%F)   # this week's Monday
+          if [ "$BATCH" = "auto" ]; then BATCH="$(date -u +%u)/7"; fi   # Monday reads the first seventh, Sunday the last
+          echo "cycle=$CYCLE" >> "$GITHUB_OUTPUT"; echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+          if [ "$BATCH" = "all" ]; then node tools/opportunities-sweep.js --cycle "$CYCLE" --workers 6; else node tools/opportunities-sweep.js --cycle "$CYCLE" --batch "$BATCH" --workers 6; fi
+      - name: Re-read listings closing soon
+        if: ${{ inputs.recheck != 'false' }}
+        run: |
+          RECHECK=$(node tools/opportunities-sweep.js --closing)
+          if [ -n "$RECHECK" ]; then RECHECK="$RECHECK" node tools/verify-inbox.js 2026-11-funding-opps; else echo "No listing needs re-reading today."; fi
+      - name: Open the review pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAY: ${{ steps.s.outputs.date }}
+          CYCLE: ${{ steps.s.outputs.cycle }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/funding/coverage.json data/funding/candidates data/inbox/2026-11-funding-opps
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          BR="opportunities/sweep-$DAY"
+          git checkout -b "$BR"
+          git commit -q -m "Heat Opportunities sweep $DAY (cycle $CYCLE)"
+          git push -q origin "$BR"
+          SUMMARY=$(node tools/opportunities-sweep.js --summary)
+          gh pr create --base "${GITHUB_REF_NAME}" --head "$BR" --title "Heat Opportunities sweep $DAY" --body "$(printf 'The daily sweep of the heat network (cycle %s) and re-reads of listings closing soon.\n\nLedger summary:\n\n```\n%s\n```\n\nLeads are in data/funding/candidates/sweep-%s.json. They are leads, not listings: review each against its official page, record decisions in research/2026-11/opportunities/review-%s.json and run review.js. Merging records the sweep and updates the coverage note; no listing is published from this pull request.' "$CYCLE" "$SUMMARY" "$CYCLE" "$CYCLE")"

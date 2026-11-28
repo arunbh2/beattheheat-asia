@@ -1,7 +1,7 @@
 ---
 title: "ILO request for quotation: desk review and evidence mapping of occupational exposure to excessive heat in Thailand (International Labour Organization)"
 url: https://beattheheat.asia/opportunities/opp-ilo-th-heat-review-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # ILO request for quotation: desk review and evidence mapping of occupational exposure to excessive heat in Thailand
 
-International Labour Organization · Thailand.
+[International Labour Organization](https://beattheheat.asia/heat-network/#org-ilo) · Thailand.
 
 Consulting RFP or tenderFor organisationsDirect heat relevanceDeadline passedVerified
 
@@ -49,6 +49,7 @@ Read the official listing before applying: the employer or funder's own words de
 - [Thailand](https://beattheheat.asia/countries/thailand/)
 - [Factory heat](https://beattheheat.asia/factory-heat/)
 - [Heat, health and equity](https://beattheheat.asia/heat-health-and-equity/)
+- [International Labour Organization in the heat network](https://beattheheat.asia/heat-network/#org-ilo)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

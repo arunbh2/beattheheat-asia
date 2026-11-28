@@ -29,7 +29,7 @@ module.exports = {
     statusNote: "An organisation's coverage status says whether its pages were read in this review cycle. It is separate from how fresh each listing is: every listing carries its own \"Source checked\" date.",
     none: "\"None found\" means none in the pages reviewed, not that the organisation has no opportunities anywhere."
   },
-  refresh: "How this list is kept up to date: the sweep that reads every network organisation's pages runs from a GitHub workflow; each run opens a review pull request, and a person adds or updates a listing only after its official page passes the source check. Deadlines are recalculated every time the site is built and in your browser as you read.",
+  refresh: "How this list is kept up to date: a sweep of every network organisation's public pages is scheduled from a GitHub workflow, a seventh of the network each day; each run opens a review pull request, and a person adds or updates a listing only after its official page passes the source check. Deadlines are recalculated every time the site is built and in your browser as you read.",
   save: "Saved searches and saved listings stay in this browser, on this device only. Nothing is sent anywhere and no account is needed.",
   none: "No listing matches these filters. Try fewer filters, include other roles at heat-network organisations, or look at the archive.",
   apply: "Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.",

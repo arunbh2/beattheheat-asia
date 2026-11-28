@@ -1,7 +1,7 @@
 ---
 title: "Programme support and MEL expert: Sustainable Cooling and Cold Chain Solutions programme (UN Environment Programme)"
 url: https://beattheheat.asia/opportunities/car-unep-scccs-mel-287469/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # Programme support and MEL expert: Sustainable Cooling and Cold Chain Solutions programme
 
-UN Environment Programme · Listed under the Paris duty station; the posting names ACES, the programme's first Regional Centre of Excellence, among delivery partners, and does not name a country in Asia.
+[UN Environment Programme](https://beattheheat.asia/heat-network/#org-unenvironmentprogramme) · Listed under the Paris duty station; the posting names ACES, the programme's first Regional Centre of Excellence, among delivery partners, and does not name a country in Asia.
 
 Individual consultancyFor individualsRelated to heat resilienceDeadline passedVerified
 
@@ -41,6 +41,10 @@ Not openThe published deadline has passed. This listing is kept in the archive f
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
 **Source checked:** 22 November 2026 · [United Nations Careers (UNEP): Programme support and MEL expert, job opening data](https://careers.un.org/api/public/opening/jo/287469/en)
+
+## Related on Common Shade
+
+- [UN Environment Programme in the heat network](https://beattheheat.asia/heat-network/#org-unenvironmentprogramme)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

@@ -1,7 +1,7 @@
 ---
 title: "Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India (UN Environment Programme)"
 url: https://beattheheat.asia/opportunities/car-unep-urban-heat-expert-287135/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -11,7 +11,7 @@ licence: CC BY 4.0
 
 # Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India
 
-UN Environment Programme · Listed under the Paris duty station; the work covers 50 cities in India.
+[UN Environment Programme](https://beattheheat.asia/heat-network/#org-unenvironmentprogramme) · Listed under the Paris duty station; the work covers 50 cities in India.
 
 Individual consultancyFor individualsDirect heat relevanceDeadline passedVerified
 
@@ -45,6 +45,7 @@ Read the official listing before applying: the employer or funder's own words de
 ## Related on Common Shade
 
 - [India](https://beattheheat.asia/countries/india/)
+- [UN Environment Programme in the heat network](https://beattheheat.asia/heat-network/#org-unenvironmentprogramme)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 
