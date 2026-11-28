@@ -276,6 +276,12 @@
   "https://www.ijurr.org/spotlight-on/extreme-heat/why-focus-on-heat-a-silent-disaster-unfolding-in-nepal/": {
    "no comprehensive heat plan": true,
    "not systematically tracked in Nepal": true
+  },
+  "https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu": {
+   "Hot Cities Make Hard Work Harder": true,
+   "Courage International": true,
+   "305 migrant workers in Kathmandu": true,
+   "46 percent": true
   }
  },
  "https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-ahmedabad-uses-cool-roofs-misting-bus-stops-heat-insurance-for-climate-resilience": "OK",
@@ -317,5 +323,6 @@
  "https://theannapurnaexpress.com/story/50434": "OK",
  "https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates": "OK",
  "https://asianews.network/?p=277129": "BLOCKED",
- "https://www.ijurr.org/spotlight-on/extreme-heat/why-focus-on-heat-a-silent-disaster-unfolding-in-nepal/": "OK"
+ "https://www.ijurr.org/spotlight-on/extreme-heat/why-focus-on-heat-a-silent-disaster-unfolding-in-nepal/": "OK",
+ "https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu": "OK"
 }
