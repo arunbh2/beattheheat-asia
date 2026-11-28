@@ -6,6 +6,7 @@
 //   node tools/check-nav-coverage.js
 "use strict";
 const fs = require("fs"), path = require("path");
+process.env.CS_NO_WRITE = "1";   // read the recorded first dates; never write them from a check
 const ROOT = path.join(__dirname, "..");
 const nav = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "nav.json"), "utf8"));
 const FAMILY = [
@@ -37,6 +38,14 @@ ok(!dead.length, `every menu and footer link points to a page that exists${dead.
 const built = fs.readFileSync(path.join(ROOT, "solutions", "index.html"), "utf8");
 const want = nav.groups.filter(g => g.items.some(i => i[3] === 2));
 const shown = want.every(g => { const n = g.items.filter(i => i[3] === 2).length; const re = new RegExp(`More in ${g.h.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}</span> <span class="csn__more-n">${n}</span>`, "g"); return (built.match(re) || []).length === 2; });
+const F = require("./page-firsts.js");
+const unrecorded = F.urls().filter(u => !F.firsts[u] || !/^\d{4}-\d{2}-\d{2}$/.test(F.firsts[u]));
+ok(!unrecorded.length, `every menu page has a first-published date in data/site/page-firsts.json${unrecorded.length ? "; missing: " + unrecorded.join(", ") + " (run node tools/build-static.js to record it)" : ""}`);
+const marked = [...built.matchAll(/<li><a href="([^"]+)"[^>]*><b>[^<]*<span class="csn__new">/g)].map(m => m[1]);
+const want2 = [...F.fresh].sort().join(), got = [...new Set(marked)].sort().join();
+ok(want2 === got && marked.length === F.fresh.size * 2, `the menu marks "New" exactly the ${F.fresh.size} page(s) first published after ${F.since || "the latest edition"}, in both the desktop panel and the phone menu${want2 === got ? "" : `; expected ${want2 || "none"}, found ${got || "none"} (rebuild with node tools/build-static.js)`}`);
+const llms = fs.readFileSync(path.join(ROOT, "llms.txt"), "utf8");
+ok(!F.fresh.size || [...F.fresh].every(u => (llms.includes(`(https://beattheheat.asia${u})`) || llms.includes(`(https://beattheheat.asia${u}index.md)`)) && llms.includes(`## New since ${F.editionName}`)), "llms.txt lists the same new pages");
 ok(shown, "each section's further pages are listed under “More in …”, in both the desktop panel and the phone menu, with the right count");
 console.log(bad ? `nav coverage check: ${bad} failing` : `nav coverage check passed: ${listed} pages in the menu or footer, ${family} reached through their section, ${unlisted} deliberately unlisted`);
 process.exit(bad ? 1 : 0);
