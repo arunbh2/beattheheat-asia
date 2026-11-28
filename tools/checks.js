@@ -22,6 +22,7 @@ const CHECKS = [
   { name: "signals", cmd: "node tools/check-signals.js", guards: "the Signals tracking model, cards and anchors" },
   { name: "enso", cmd: "node tools/check-enso.js", guards: "the El Niño pages: one outlook record, the same status sentences on every page, forecast periods, probabilities, anchors and the tools route" },
   { name: "nav-coverage", cmd: "node tools/check-nav-coverage.js", guards: "every top-level page is in the menu or footer, every menu link exists, and each section lists its further pages under More in" },
+  { name: "setting-guides", cmd: "node tools/check-setting-guides.js", guards: "Guides by setting: each is linked from Plan a response, Practical actions, the Act hub and the Evidence map, with anchors that exist" },
   { name: "market-heat", cmd: "node tools/check-market-heat.js", guards: "Heat in markets: every card carries the fields Compare and Shortlist read, only confirmed claims, its own shortlist key, the worksheet and the llms-full.txt twin" },
   { name: "equity", cmd: "node tools/check-equity.js", guards: "Health and equity: the shared taxonomy, solutions labels (includes / names it / not assessed), the heat plan provision review, reach panels on funding and Signals, the four health and equity pages and kept anchors" },
   { name: "wet-bulb", cmd: "node tools/check-wet-bulb.js", guards: "The wet-bulb wall: the calculation against CoolProp, its physics, the weather adapter on synthetic records, page wording and its sources" },

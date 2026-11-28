@@ -1,7 +1,7 @@
 ---
 title: "Plan a response to extreme heat | Common Shade"
 url: https://beattheheat.asia/plan/
-updated: 2026-11-27
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -49,7 +49,7 @@ People at risk
 Exposure questions prompts to discuss, not a risk score
 
 2 Choose the actions
-Actions suggested for the people you chose are marked. Add or remove any. Not sure what to do? See [practical actions by setting](https://beattheheat.asia/practical/) and [cooling options by place](https://beattheheat.asia/cooling-options/).
+Actions suggested for the people you chose are marked. Add or remove any. Not sure what to do? See [practical actions by setting](https://beattheheat.asia/practical/) and [cooling options by place](https://beattheheat.asia/cooling-options/). In depth, guides by setting: [Factories](https://beattheheat.asia/factory-heat/) · [Markets and street vending](https://beattheheat.asia/market-heat/) · [Cotton, from field to gin](https://beattheheat.asia/cotton-and-heat/).
 
 3 Agree who leads, who pays, when it happens and how you will know
 

@@ -59,6 +59,8 @@ Evidence labels: **Design concept**: Designed, but not yet tried by the people i
 
 **Start from a question:** [How do I protect outdoor workers?](#work) · [How do I cool homes or classrooms?](#homes) · [What could our municipality do before summer?](#summer) · [Why are our interventions failing?](https://beattheheat.asia/#stalls) · [What would this mean for one worker?](#heatweek) · [How do we pay for protection?](https://beattheheat.asia/paying-for-protection/)
 
+Guides by setting, in depth: [Factories](https://beattheheat.asia/factory-heat/) · [Markets and street vending](https://beattheheat.asia/market-heat/) · [Cotton, from field to gin](https://beattheheat.asia/cotton-and-heat/).
+
 ## Outdoor and hot workplaces
 
 People who cannot stop working when it is hot: builders, vendors, riders, farm, factory and sanitation workers. [Print these cards](https://beattheheat.asia/print/actions-work/) · [Open them in the interactive version](https://beattheheat.asia/practical/#practical-work) · [Options, costs and traps](https://beattheheat.asia/cooling-options/#work) · [Heat inside factories: sources, measures and a worksheet](https://beattheheat.asia/factory-heat/)

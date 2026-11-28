@@ -4266,6 +4266,8 @@ A shade, a water point or a rest break protects people only while it keeps worki
 
 - Monitoring, and a way to fix failures: A way to report a failure, someone who fixes it, and a record of how long it took.
 
+Guides by setting, in depth: Heat inside factories (https://beattheheat.asia/factory-heat/); Heat in markets and street vending (https://beattheheat.asia/market-heat/); Heat from field to factory (https://beattheheat.asia/cotton-and-heat/).
+
 ### Outdoor and hot workplaces
 
 People who cannot stop working when it is hot: builders, vendors, riders, farm, factory and sanitation workers.
