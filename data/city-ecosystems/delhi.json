@@ -1,0 +1,633 @@
+{
+ "schema": 1,
+ "id": "delhi",
+ "name": "Delhi",
+ "aliases": [
+  "New Delhi",
+  "NCT of Delhi"
+ ],
+ "country": "India",
+ "slug": "who-is-doing-what",
+ "title": "Delhi: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "claim_scope": "Delhi",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Delhi, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "Delhi's 2025 Heat Action Plan promised graded alerts, thousands of water coolers, hospital heatstroke units and cool roof pilots. Reporters and researchers found much of it hard to see on the ground, and found that heat cannot draw on the disaster fund. Worker organisations and researchers have filled in what the plan does not measure: lost hours, lost income and markets with no water.",
+   "claims": [
+    "c-del-hap",
+    "c-del-coolers",
+    "c-del-dtc",
+    "c-del-sdrf",
+    "c-del-wiego",
+    "c-del-earnings"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "health",
+   "Health and care"
+  ],
+  [
+   "workers",
+   "Worker and livelihood protection"
+  ],
+  [
+   "buildings",
+   "Buildings, shade and public space"
+  ],
+  [
+   "water",
+   "Water and sanitation"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [
+    "CSE"
+   ],
+   "unknowns": [
+    "Whether any authority has used its ward analysis."
+   ],
+   "outside": "Its Kolkata analysis is counted on Kolkata's profile.",
+   "id": "cse",
+   "network": "cse",
+   "name": "Centre for Science and Environment",
+   "type": "research",
+   "based": "Delhi",
+   "summary": "Analysed heat stress across Delhi's wards from 2015 to 2024 and proposed ways to pay for cooling the most exposed.",
+   "summary_claims": [
+    "c-del-cse"
+   ],
+   "site": "https://www.cseindia.org/",
+   "coalition": null,
+   "activities": [
+    "del-cse-wards"
+   ]
+  },
+  {
+   "aliases": [
+    "WIEGO"
+   ],
+   "unknowns": [
+    "The survey's sample size, not given in the report read."
+   ],
+   "outside": null,
+   "id": "wiego",
+   "network": "wiego",
+   "name": "WIEGO (Women in Informal Employment: Globalizing and Organizing)",
+   "type": "network",
+   "based": "International",
+   "summary": "Surveyed Delhi street vendors in two rounds around the 2025 heatwave and mapped conditions in 17 markets.",
+   "summary_claims": [
+    "c-del-wiego"
+   ],
+   "site": "https://www.wiego.org/",
+   "coalition": null,
+   "activities": [
+    "del-wiego-survey"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [],
+   "outside": null,
+   "id": "greenpeaceindia",
+   "network": "greenpeaceindia",
+   "name": "Greenpeace India",
+   "type": "ngo",
+   "based": "India",
+   "summary": "Surveyed over 700 Delhi street vendors with the National Hawkers Federation and asked the plan's authority to consult outdoor workers.",
+   "summary_claims": [
+    "c-del-gp"
+   ],
+   "site": "https://www.greenpeace.org/india/en/",
+   "coalition": null,
+   "activities": [
+    "del-gp-survey"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [
+    "Its own website was not identified."
+   ],
+   "outside": null,
+   "id": "nhf",
+   "network": "nationalhawkersfed",
+   "name": "National Hawkers Federation",
+   "type": "community",
+   "based": "India",
+   "summary": "Collected Delhi street vendors' responses with Greenpeace India volunteers.",
+   "summary_claims": [
+    "c-del-gp"
+   ],
+   "site": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+   "coalition": null,
+   "activities": [
+    "del-gp-survey"
+   ]
+  },
+  {
+   "aliases": [
+    "SEWA"
+   ],
+   "unknowns": [
+    "What support SEWA provided in Delhi; the survey report does not say."
+   ],
+   "outside": null,
+   "id": "sewa",
+   "network": "sewa",
+   "name": "Self Employed Women's Association (SEWA)",
+   "type": "community",
+   "based": "India",
+   "summary": "Named in WIEGO's survey as an organisation through which some women vendors had better support in the heat.",
+   "summary_claims": [
+    "c-del-wiego-sewa"
+   ],
+   "site": "https://www.sewa.org/",
+   "coalition": null,
+   "activities": [
+    "del-wiego-survey"
+   ]
+  },
+  {
+   "aliases": [
+    "MHT"
+   ],
+   "unknowns": [
+    "The study's dates, size and results."
+   ],
+   "outside": "Its Ahmedabad work is counted on Ahmedabad's profile.",
+   "id": "mht",
+   "network": "mht",
+   "name": "Mahila Housing Trust",
+   "type": "community",
+   "based": "Ahmedabad",
+   "summary": "Studying, with University of Chicago researchers, whether heat-reflective roof paint lowers indoor temperatures in Delhi.",
+   "summary_claims": [
+    "c-del-mht"
+   ],
+   "site": "https://www.mahilahousingtrust.org/",
+   "coalition": null,
+   "activities": [
+    "del-roof-paint-study"
+   ]
+  },
+  {
+   "aliases": [
+    "IGSSS"
+   ],
+   "unknowns": [
+    "The pilot's measured results."
+   ],
+   "outside": null,
+   "id": "igsss",
+   "network": "igsss",
+   "name": "Indo-Global Social Service Society (IGSSS)",
+   "type": "ngo",
+   "based": "Delhi",
+   "summary": "Fitted thirty Delhi houses with wall panels in a pilot from April 2022 to March 2023.",
+   "summary_claims": [
+    "c-del-igsss"
+   ],
+   "site": "https://igsss.org/",
+   "coalition": null,
+   "activities": [
+    "del-igsss-panels"
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [
+    "DDMA"
+   ],
+   "id": "gnctd",
+   "network": "delhidisastermanagementa",
+   "name": "Government of Delhi and the Delhi Disaster Management Authority",
+   "role": "Launched the Delhi Heat Action Plan 2025.",
+   "claims": [
+    "c-del-hap"
+   ]
+  },
+  {
+   "aliases": [
+    "IMD"
+   ],
+   "id": "imd",
+   "network": "imd",
+   "name": "India Meteorological Department",
+   "role": "Developed the graded alert system with the Delhi government.",
+   "claims": [
+    "c-del-hap"
+   ]
+  },
+  {
+   "aliases": [
+    "NDMA"
+   ],
+   "id": "ndma",
+   "network": "ndma",
+   "name": "National Disaster Management Authority",
+   "role": "Named as working with the Delhi government on the plan.",
+   "claims": [
+    "c-del-ndma"
+   ]
+  },
+  {
+   "aliases": [
+    "DTC"
+   ],
+   "id": "dtc",
+   "network": null,
+   "name": "Delhi Transport Corporation",
+   "role": "Asked by the plan to provide bus shelters with drinking water.",
+   "claims": [
+    "c-del-dtc"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [
+    [
+     "imd",
+     "developed the alert system"
+    ],
+    [
+     "ndma",
+     "named as a partner"
+    ]
+   ],
+   "people": [
+    "Residents",
+    "Patients"
+   ],
+   "start": "2025-04",
+   "outputs": [
+    "The plan, launched 21 April 2025"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "equity": {},
+   "related": [],
+   "id": "del-hap",
+   "title": "Heat Action Plan 2025: graded alerts and hospital heatstroke units",
+   "desc": "Graded heat alerts from an early warning system built with the IMD, and air-conditioned units in hospitals for heatstroke and dehydration.",
+   "lead": "gnctd",
+   "place": "Delhi",
+   "precision": "city",
+   "status": "announced",
+   "themes": [
+    "risk",
+    "health"
+   ],
+   "claims": [
+    "c-del-hap",
+    "c-del-ndma"
+   ],
+   "evidence": "independent",
+   "last": "2025-05"
+  },
+  {
+   "collaborators": [
+    [
+     "dtc",
+     "asked to provide bus shelters with drinking water"
+    ]
+   ],
+   "people": [
+    "Commuters",
+    "Outdoor workers"
+   ],
+   "start": "2025-04",
+   "outputs": [
+    "Promised: nearly 3,000 water coolers"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated; delivery not documented in the sources read.",
+   "equity": {},
+   "related": [],
+   "id": "del-water",
+   "title": "Water coolers, cooling shelters and bus shelters",
+   "desc": "Nearly 3,000 water coolers, cooling shelters on roads and shaded footpaths, and bus shelters with drinking water, as promised in the plan. A transport union told reporters none of the bus shelter measures was in action.",
+   "lead": "gnctd",
+   "place": "Delhi",
+   "precision": "city",
+   "status": "announced",
+   "themes": [
+    "water",
+    "buildings"
+   ],
+   "claims": [
+    "c-del-coolers",
+    "c-del-dtc"
+   ],
+   "evidence": "independent",
+   "last": "2025-04"
+  },
+  {
+   "collaborators": [],
+   "people": [
+    "Slum residents"
+   ],
+   "start": "2025-04",
+   "outputs": [
+    "Pilots floated in the plan"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated. A housing rights worker said in April 2025 that no slum roof action had been implemented as far as they knew.",
+   "equity": {},
+   "related": [],
+   "id": "del-cool-roofs",
+   "title": "Cool roof pilots in public buildings and slums",
+   "desc": "Pilots at the Delhi Secretariat and two inter-state bus terminals, and a proposed pilot of white roof painting or gunny bags on tin and asbestos roofs in slums.",
+   "lead": "gnctd",
+   "place": "Delhi Secretariat, Kashmere Gate ISBT, Anand Vihar ISBT; slums (not named)",
+   "precision": "sites",
+   "status": "proposed",
+   "themes": [
+    "buildings"
+   ],
+   "claims": [
+    "c-del-roofs",
+    "c-del-slum-roofs"
+   ],
+   "evidence": "independent",
+   "last": "2025-08"
+  },
+  {
+   "collaborators": [],
+   "people": [
+    "Residents"
+   ],
+   "start": null,
+   "outputs": [
+    "Ward heat stress and vulnerability findings"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {},
+   "related": [],
+   "id": "del-cse-wards",
+   "title": "Ward-level heat stress analysis",
+   "desc": "An analysis of heat stress across Delhi's wards from 2015 to 2024, naming the most stressed and most vulnerable wards.",
+   "lead": "cse",
+   "place": "All wards",
+   "precision": "wards",
+   "status": "completed",
+   "themes": [
+    "risk"
+   ],
+   "claims": [
+    "c-del-cse"
+   ],
+   "evidence": "own",
+   "last": "2025-08"
+  },
+  {
+   "collaborators": [
+    [
+     "sewa",
+     "named as a source of support for some women vendors"
+    ]
+   ],
+   "people": [
+    "Street vendors",
+    "Women"
+   ],
+   "start": "2025",
+   "outputs": [
+    "Survey findings published March 2026"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {
+    "mentioned": "Women vendors, some with support through SEWA."
+   },
+   "related": [],
+   "id": "del-wiego-survey",
+   "title": "Street vendor survey around the 2025 heatwave",
+   "desc": "A two-round survey of street vendors and a mapping of 17 markets, covering working hours, water, heat alerts, illness and borrowing.",
+   "lead": "wiego",
+   "place": "17 major markets",
+   "precision": "sites",
+   "status": "completed",
+   "themes": [
+    "workers",
+    "water"
+   ],
+   "claims": [
+    "c-del-wiego",
+    "c-del-wiego-sewa"
+   ],
+   "evidence": "independent",
+   "last": "2026-03"
+  },
+  {
+   "collaborators": [
+    [
+     "nhf",
+     "collected responses with volunteers"
+    ]
+   ],
+   "people": [
+    "Street vendors"
+   ],
+   "start": null,
+   "outputs": [
+    "Report: Heatwave Havoc"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {
+    "consulted": "Over 700 street vendors were surveyed."
+   },
+   "related": [],
+   "id": "del-gp-survey",
+   "title": "Heatwave Havoc: street vendor survey",
+   "desc": "A survey of over 700 street vendors on awareness, guidance, medical help and lost income in heatwaves, with recommendations to the plan's authority.",
+   "lead": "greenpeaceindia",
+   "place": "Delhi",
+   "precision": "city",
+   "status": "completed",
+   "themes": [
+    "workers"
+   ],
+   "claims": [
+    "c-del-gp"
+   ],
+   "evidence": "own",
+   "last": "2024-06"
+  },
+  {
+   "collaborators": [
+    [
+     "epic",
+     "research partner"
+    ]
+   ],
+   "people": [
+    "Low-income households"
+   ],
+   "start": null,
+   "outputs": [
+    "Not reported in the source read"
+   ],
+   "outcomes": [],
+   "evaluation": "Results not found.",
+   "equity": {},
+   "related": [],
+   "id": "del-roof-paint-study",
+   "title": "Study of heat-reflective roof paint in informal settlements",
+   "desc": "A study of whether heat-reflective roof paint lowers indoor temperatures in Delhi homes.",
+   "lead": "mht",
+   "place": "Informal settlements (not named)",
+   "precision": "neighbourhoods",
+   "status": "not_stated",
+   "themes": [
+    "buildings"
+   ],
+   "claims": [
+    "c-del-mht"
+   ],
+   "evidence": "independent",
+   "last": "2025-01"
+  },
+  {
+   "collaborators": [],
+   "people": [
+    "Low-income households"
+   ],
+   "start": "2022-04",
+   "outputs": [
+    "Thirty homes fitted"
+   ],
+   "outcomes": [],
+   "evaluation": "Results not given in the source read.",
+   "equity": {},
+   "related": [],
+   "id": "del-igsss-panels",
+   "title": "Wall panel pilot in thirty homes",
+   "desc": "Thirty houses fitted with panels on their walls, April 2022 to March 2023.",
+   "lead": "igsss",
+   "place": "Delhi (settlement not named in the source)",
+   "precision": "sites",
+   "end": "2023-03",
+   "status": "completed",
+   "themes": [
+    "buildings"
+   ],
+   "claims": [
+    "c-del-igsss"
+   ],
+   "evidence": "independent",
+   "last": "2025-01"
+  }
+ ],
+ "extra_orgs": [
+  {
+   "id": "epic",
+   "name": "Energy Policy Institute at the University of Chicago (EPIC-India)",
+   "role": "Research partner on the roof paint study",
+   "network": null
+  }
+ ],
+ "tools": [],
+ "money": [
+  {
+   "id": "m-del-sdrf",
+   "label": "₹2,500 lakh",
+   "amount": 2500,
+   "unit": "lakh",
+   "what": "Delhi's State Disaster Response Fund for 2025-26 (up from ₹300 lakh in 2024-25)",
+   "who": "gnctd",
+   "stage": "allocated",
+   "stage_note": "As reported by Newslaundry. Heat is not a notified disaster, so the fund is largely out of reach for heat work.",
+   "date": "2025-04",
+   "heat": "no",
+   "parent": null,
+   "claims": [
+    "c-del-sdrf"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2022-04",
+   "kind": "delivery",
+   "text": "IGSSS wall panel pilot begins in thirty homes (to March 2023).",
+   "claims": [
+    "c-del-igsss"
+   ]
+  },
+  {
+   "date": "2024-06",
+   "kind": "event",
+   "text": "Greenpeace India and the National Hawkers Federation publish their street vendor survey.",
+   "claims": [
+    "c-del-gp"
+   ]
+  },
+  {
+   "date": "2025-04-21",
+   "kind": "plan",
+   "text": "Delhi Heat Action Plan 2025 launched.",
+   "claims": [
+    "c-del-hap"
+   ]
+  },
+  {
+   "date": "2025-08",
+   "kind": "event",
+   "text": "CSE's ward analysis published in Down To Earth.",
+   "claims": [
+    "c-del-cse"
+   ]
+  },
+  {
+   "date": "2026-03",
+   "kind": "event",
+   "text": "WIEGO's street vendor survey findings reported.",
+   "claims": [
+    "c-del-wiego"
+   ]
+  }
+ ],
+ "gaps": [
+  "How many of the promised water coolers, shelters and cool roofs were installed, and where.",
+  "Whether the hospital heatstroke units opened, and how many patients they treated.",
+  "The plan document itself was not read for this profile; departmental roles are described from reporting.",
+  "Results of the roof paint study and the wall panel pilot.",
+  "Hindi-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [],
+ "start_here": [
+  {
+   "who": "A city department",
+   "text": "The vendor surveys list concrete gaps (no water in markets, late alerts) that a plan can be checked against.",
+   "ref": [
+    "del-wiego-survey",
+    "del-gp-survey"
+   ]
+  },
+  {
+   "who": "A funder",
+   "text": "The disaster fund cannot be used for heat in Delhi; analysts have proposed other funds.",
+   "ref": [
+    "del-cse-wards"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

@@ -1203,7 +1203,9 @@ Organisations and activities identified in public sources, read between 24 and 2
 
 52 of 54 claims passed the source check, last run 28 November 2026: each was kept only when every word it rests on was found on its source. A source that only opened does not count. The date of the check is not a date any project moved.
 
-CSTEP's organisational mapping of heat actors was used to find leads; every entry used here was checked separately. The research matrix and the claims are published as files: [research matrix](https://beattheheat.asia/research/2026-11/bengaluru-ecosystem/matrix.md) · [claims](https://beattheheat.asia/research/2026-11/bengaluru-ecosystem/claims.json) · [confirmed claims](https://beattheheat.asia/research/2026-11/bengaluru-ecosystem/confirmed.json).
+CSTEP's organisational mapping of heat actors was used to find leads; every entry used here was checked separately.
+
+The research matrix and the claims are published as files: [research matrix](https://beattheheat.asia/research/2026-11/bengaluru-ecosystem/matrix.md) · [claims](https://beattheheat.asia/research/2026-11/bengaluru-ecosystem/claims.json) · [confirmed claims](https://beattheheat.asia/research/2026-11/bengaluru-ecosystem/confirmed.json).
 
 ### Correct or add to this profile
 

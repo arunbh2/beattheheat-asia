@@ -296,7 +296,7 @@
         }
       }
     ],
-    "orgs": ["ndma","imd","ncdc","ceew","seeds","heatwatch"],
+    "orgs": ["ndma","imd","ncdc","ceew","seeds","heatwatch","cse","wiego","greenpeaceindia","nationalhawkersfed","igsss","mht","sewa"],
     "examples": ["ahmedabad"],
     "risk": ["workers","settlements"]
   },
@@ -340,7 +340,7 @@
         }
       }
     ],
-    "orgs": ["dncc","bdrcs","icddrb","bracngo","practicalaction","bangladeshbank"],
+    "orgs": ["dncc","bdrcs","icddrb","bracngo","practicalaction","bangladeshbank","ifrc","crc","shaktifoundation","iwmbangladesh","iclei"],
     "examples": ["dhaka"],
     "risk": ["workers","settlements"]
   },
@@ -380,7 +380,7 @@
         }
       }
     ],
-    "orgs": ["ndrrma","nrcs","tewa","nrb","practicalaction"],
+    "orgs": ["ndrrma","nrcs","tewa","nrb","practicalaction","pci","worldbank","unhabitat"],
     "examples": [],
     "risk": ["women","older"]
   },
@@ -424,7 +424,7 @@
         }
       }
     ],
-    "orgs": ["wriindia","c40","hdfclife","iclei"],
+    "orgs": ["wriindia","c40","hdfclife","iclei","tarutium","cbalance"],
     "examples": ["thane"],
     "risk": ["settlements","workers"]
   },
@@ -464,7 +464,7 @@
         "why": "As in most countries, heat deaths are hard to count, which makes the case for prevention harder to see."
       }
     ],
-    "orgs": ["ahmedabad","aidmi","ibisa","c40","hera"],
+    "orgs": ["ahmedabad","aidmi","ibisa","c40","hera","mht","nrdc-india","indianinstituteofpublich"],
     "examples": ["ahmedabad"],
     "risk": ["workers","settlements"]
   },
@@ -588,7 +588,7 @@
         }
       }
     ],
-    "orgs": ["forskningsradet","nsf"],
+    "orgs": ["forskningsradet","nsf","cse","kolkatamunicipalcorp"],
     "examples": [],
     "risk": ["workers","settlements"]
   },
@@ -636,7 +636,7 @@
         }
       }
     ],
-    "orgs": [],
+    "orgs": ["greaterchennaicorp","tngcc","ceew","coolcoalition","ceptuniversity"],
     "examples": ["tamilnadu"],
     "risk": ["workers","settlements"]
   },
@@ -676,7 +676,7 @@
         }
       }
     ],
-    "orgs": [],
+    "orgs": ["ghmc","maudtelangana","asci","iiith","nrdc-india","unicef"],
     "examples": [],
     "risk": ["workers","excluded"]
   },
@@ -752,7 +752,7 @@
         }
       }
     ],
-    "orgs": [],
+    "orgs": ["bhubaneswarmunicipalcorp","iforest","singaporeethcentre","irade"],
     "examples": [],
     "risk": ["women","workers"]
   },

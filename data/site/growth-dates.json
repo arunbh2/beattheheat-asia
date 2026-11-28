@@ -948,6 +948,12 @@
    "org": true
   },
   {
+   "url": "https://cdn.cseindia.org/attachments/0.91719500_1772510583_kolkata-va.pdf",
+   "label": "Kolkata Municipal Corporation",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://cdn.s3waas.gov.in/s317e62166fc8586dfa4d1bc0e1742c08b/uploads/2026/06/17810050802992.pdf",
    "label": "District Action Plan on Climate Change and Human Health",
    "root": "institutions",
@@ -5517,6 +5523,15 @@
    "how": "url"
   },
   {
+   "url": "https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/",
+   "label": "Indo-Global Social Service Society (IGSSS)",
+   "root": "institutions",
+   "org": true,
+   "date": "2025-01",
+   "precision": "month",
+   "how": "url"
+  },
+  {
    "url": "https://india.mongabay.com/2025/04/safeguarding-indian-cities-from-heat-in-conversation-with-sudeshna-chatterjee-interview/",
    "label": "WRI India",
    "root": "institutions",
@@ -7376,6 +7391,12 @@
   {
    "url": "https://oko.finance/products/",
    "label": "OKO",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/",
+   "label": "International Forum for Environment, Sustainability and Technology (iFOREST)",
    "root": "institutions",
    "org": true
   },
@@ -9283,6 +9304,12 @@
    "date": "2023",
    "precision": "year",
    "how": "label"
+  },
+  {
+   "url": "https://today.thefinancialexpress.com.bd/print/a-data-driven-push-to-beat-urban-boil-1753202222",
+   "label": "Institute of Water Modelling, Bangladesh",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://tomkat.stanford.edu/innovation-transfer",
@@ -11607,6 +11634,12 @@
    "org": true
   },
   {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197",
+   "label": "Greater Hyderabad Municipal Corporation (GHMC)",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-joins-global-coalition-to-beat-extreme-heat-3786724",
    "label": "C40 Cities",
    "root": "institutions",
@@ -11751,6 +11784,12 @@
    "how": "meta"
   },
   {
+   "url": "https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat",
+   "label": "Centre for Science and Environment (CSE)",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.downtoearth.org.in/environment/how-to-fight-heat-wave-the-odisha-way-49950",
    "label": "Down To Earth: how to fight heat wave the Odisha way",
    "root": "evidence",
@@ -11803,6 +11842,18 @@
    "date": "2024-07-26",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://www.dtnext.in/news/chennai/chennai-corporation-expands-cool-roof-initiative-to-55-schools-2",
+   "label": "TN Green Climate Company (Tamil Nadu)",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.dtnext.in/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience",
+   "label": "Greater Chennai Corporation",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240",
@@ -14836,6 +14887,12 @@
    "label": "NRDC: community-led cool roofs in four Indian cities",
    "root": "practical",
    "org": false
+  },
+  {
+   "url": "https://www.nrdc.org/bio/anjali-jaiswal/keeping-it-cool-models-city-cool-roof-programs",
+   "label": "IIIT Hyderabad",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://www.nrdc.org/bio/charlotte-steiner/planning-action-how-two-indian-cities-are-building-resilience-extreme-heat",

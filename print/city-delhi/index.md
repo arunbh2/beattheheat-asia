@@ -45,6 +45,13 @@ Cycle | Why here | One action that breaks it |
 - Council on Energy, Environment and Water (CEEW)
 - SEEDS
 - HeatWatch India
+- Centre for Science and Environment (CSE)
+- Women in Informal Employment: Globalizing and Organizing (WIEGO)
+- Greenpeace India
+- National Hawkers Federation
+- Indo-Global Social Service Society (IGSSS)
+- Mahila Housing Trust
+- Self Employed Women’s Association (SEWA)
 
 Listing does not imply partnership, affiliation or endorsement.
 

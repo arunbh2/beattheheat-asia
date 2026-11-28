@@ -350,5 +350,20 @@
  "bengalurucentralcitycorp": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work","year":2026},
  "ksdma": {"countries":["IN"],"basis":"edit","type":"government","scale":"subnational","link":"work"},
  "karnatakahealthdept": {"countries":["IN"],"basis":"edit","type":"health","scale":"subnational","link":"work"},
- "iucn": {"countries":["IN"],"basis":"edit","type":"funder","scale":"city","link":"work"}
+ "iucn": {"countries":["IN"],"basis":"edit","type":"funder","scale":"city","link":"work"},
+ "iforest": {"countries":["IN"],"basis":"edit","type":"research","scale":"city","link":"work","year":2025},
+ "bhubaneswarmunicipalcorp": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work","year":2025},
+ "greaterchennaicorp": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work","year":2026},
+ "tngcc": {"countries":["IN"],"basis":"edit","type":"government","scale":"subnational","link":"work"},
+ "cse": {"countries":["IN"],"basis":"edit","type":"research","scale":"country","link":"third","year":2024},
+ "greenpeaceindia": {"countries":["IN"],"basis":"edit","type":"ngo","scale":"city","link":"work"},
+ "nationalhawkersfed": {"countries":["IN"],"basis":"edit","type":"worker","scale":"city","link":"work"},
+ "igsss": {"countries":["IN"],"basis":"edit","type":"ngo","scale":"city","link":"third","year":2023},
+ "shaktifoundation": {"countries":["BD"],"basis":"edit","type":"ngo","scale":"city","link":"work","year":2023},
+ "iwmbangladesh": {"countries":["BD"],"basis":"edit","type":"research","scale":"city","link":"work","year":2024},
+ "asci": {"countries":["IN"],"basis":"edit","type":"research","scale":"subnational","link":"work","year":2028},
+ "iiith": {"countries":["IN"],"basis":"edit","type":"research","scale":"subnational","link":"work","year":2017},
+ "ghmc": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work","year":2026},
+ "maudtelangana": {"countries":["IN"],"basis":"edit","type":"government","scale":"subnational","link":"work","year":2028},
+ "kolkatamunicipalcorp": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work"}
 }

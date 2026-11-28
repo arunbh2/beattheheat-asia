@@ -1,0 +1,461 @@
+{
+ "schema": 1,
+ "id": "hyderabad",
+ "name": "Hyderabad",
+ "aliases": [],
+ "country": "India",
+ "slug": "who-is-doing-what",
+ "title": "Hyderabad: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "claim_scope": "Hyderabad",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Hyderabad, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "Hyderabad tested cool roofs on 25 homes in 2017, and Telangana turned that into India's first state cool roof policy in 2023, with targets and a building permit rule. Each summer the state heatwave plan and the city corporation add water kiosks, health camps and warnings on junction screens, though the plan is advisory.",
+   "claims": [
+    "c-hyd-pilot",
+    "c-hyd-policy",
+    "c-hyd-mandate",
+    "c-hyd-hap",
+    "c-hyd-ghmc26",
+    "c-hyd-trigger"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "health",
+   "Health and care"
+  ],
+  [
+   "buildings",
+   "Buildings, shade and public space"
+  ],
+  [
+   "water",
+   "Water and sanitation"
+  ],
+  [
+   "workers",
+   "Worker and livelihood protection"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [
+    "ASCI"
+   ],
+   "unknowns": [],
+   "outside": null,
+   "id": "asci",
+   "network": "asci",
+   "name": "Administrative Staff College of India (ASCI)",
+   "type": "research",
+   "based": "Hyderabad",
+   "summary": "A partner on the 2017 cool roof pilot and on the state cool roof policy.",
+   "summary_claims": [
+    "c-hyd-pilot",
+    "c-hyd-partners"
+   ],
+   "site": "https://www.asci.org.in/",
+   "coalition": null,
+   "activities": [
+    "hyd-pilot",
+    "hyd-policy"
+   ]
+  },
+  {
+   "aliases": [
+    "IIIT-H"
+   ],
+   "unknowns": [
+    "Results of the five-year material tests."
+   ],
+   "outside": null,
+   "id": "iiith",
+   "network": "iiith",
+   "name": "IIIT Hyderabad",
+   "type": "research",
+   "based": "Hyderabad",
+   "summary": "A partner on the 2017 pilot and the policy; tests roof materials on rooftop racks.",
+   "summary_claims": [
+    "c-hyd-pilot",
+    "c-hyd-iiit"
+   ],
+   "site": "https://www.iiit.ac.in/",
+   "coalition": null,
+   "activities": [
+    "hyd-pilot",
+    "hyd-policy",
+    "hyd-materials"
+   ]
+  },
+  {
+   "aliases": [
+    "NRDC"
+   ],
+   "unknowns": [],
+   "outside": "Its Ahmedabad work is counted on Ahmedabad's profile.",
+   "id": "nrdc",
+   "network": "nrdc-india",
+   "name": "Natural Resources Defense Council (NRDC), India programme",
+   "type": "ngo",
+   "based": "International (India programme)",
+   "summary": "A partner on the 2017 pilot and the state cool roof policy.",
+   "summary_claims": [
+    "c-hyd-pilot",
+    "c-hyd-partners"
+   ],
+   "site": "https://www.nrdc.org/",
+   "coalition": null,
+   "activities": [
+    "hyd-pilot",
+    "hyd-policy"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [],
+   "outside": null,
+   "id": "unicef",
+   "network": "unicef",
+   "name": "UNICEF",
+   "type": "multilateral",
+   "based": "International (Hyderabad field office)",
+   "summary": "Its Hyderabad field office gave inputs to Telangana's Heatwave Action Plan 2025.",
+   "summary_claims": [
+    "c-hyd-hap"
+   ],
+   "site": "https://www.unicef.org/india/",
+   "coalition": null,
+   "activities": [
+    "hyd-state-hap"
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [
+    "GHMC"
+   ],
+   "id": "ghmc",
+   "network": "ghmc",
+   "name": "Greater Hyderabad Municipal Corporation",
+   "role": "Ran the 2017 cool roof pilot and acts under the state heatwave plan each summer.",
+   "claims": [
+    "c-hyd-pilot",
+    "c-hyd-ghmc26"
+   ]
+  },
+  {
+   "aliases": [
+    "MAUD"
+   ],
+   "id": "maud",
+   "network": "maudtelangana",
+   "name": "Municipal Administration and Urban Development Department, Telangana",
+   "role": "Leads the Telangana Cool Roofs Policy.",
+   "claims": [
+    "c-hyd-partners"
+   ]
+  },
+  {
+   "aliases": [],
+   "id": "tsrev",
+   "network": null,
+   "name": "Revenue (Disaster Management) Department, Telangana",
+   "role": "Prepared the Heatwave Action Plan 2025.",
+   "claims": [
+    "c-hyd-hap"
+   ]
+  },
+  {
+   "aliases": [
+    "IMD"
+   ],
+   "id": "imd",
+   "network": "imd",
+   "name": "India Meteorological Department",
+   "role": "Gave inputs to the state plan; its warnings are shown on city junction boards.",
+   "claims": [
+    "c-hyd-hap",
+    "c-hyd-ghmc26"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [
+    [
+     "asci",
+     "partner"
+    ],
+    [
+     "iiith",
+     "partner"
+    ],
+    [
+     "nrdc",
+     "partner"
+    ]
+   ],
+   "people": [
+    "Low-income households"
+   ],
+   "start": "2017",
+   "outputs": [
+    "25 roofs"
+   ],
+   "outcomes": [],
+   "evaluation": "Indoor air on average 2°C cooler; 76% of residents in the trial group satisfied (NRDC's account).",
+   "equity": {},
+   "related": [],
+   "id": "hyd-pilot",
+   "title": "Cool roof pilot on 25 homes (2017)",
+   "desc": "Cool roofs on 25 homes in one low-income neighbourhood, measured against homes without them.",
+   "lead": "ghmc",
+   "place": "One low-income neighbourhood (not named)",
+   "precision": "neighbourhoods",
+   "status": "evaluated",
+   "themes": [
+    "buildings"
+   ],
+   "claims": [
+    "c-hyd-pilot"
+   ],
+   "evidence": "own",
+   "last": "2018-05"
+  },
+  {
+   "collaborators": [
+    [
+     "nrdc",
+     "working with the state"
+    ],
+    [
+     "asci",
+     "working with the state"
+    ],
+    [
+     "iiith",
+     "working with the state"
+    ]
+   ],
+   "people": [
+    "Building owners",
+    "Low-income households"
+   ],
+   "start": "2023-04",
+   "outputs": [
+    "Policy in effect from 1 April 2023",
+    "First-year target: 5 sq km of Hyderabad"
+   ],
+   "outcomes": [],
+   "evaluation": "Progress against the targets was not found.",
+   "equity": {},
+   "related": [],
+   "id": "hyd-policy",
+   "title": "Telangana Cool Roofs Policy 2023-2028",
+   "desc": "State targets for cool roofs, a rule in building permits, mandatory coatings in government low-cost housing, and delivery to low-income homes through city heat plans.",
+   "lead": "maud",
+   "place": "Telangana, 200 sq km of it in Hyderabad",
+   "precision": "state",
+   "end": "2029",
+   "status": "underway",
+   "themes": [
+    "buildings"
+   ],
+   "claims": [
+    "c-hyd-policy",
+    "c-hyd-mandate",
+    "c-hyd-partners"
+   ],
+   "evidence": "both",
+   "last": "2023-04"
+  },
+  {
+   "collaborators": [],
+   "people": [],
+   "start": "2019",
+   "outputs": [
+    "Not published in the source read"
+   ],
+   "outcomes": [],
+   "evaluation": "Not reported.",
+   "equity": {},
+   "related": [],
+   "id": "hyd-materials",
+   "title": "Roof material testing",
+   "desc": "Twenty roof materials exposed on rooftop racks over five years in four cities, to see how they hold up.",
+   "lead": "iiith",
+   "place": "Hyderabad and three other cities",
+   "precision": "sites",
+   "status": "underway",
+   "themes": [
+    "buildings"
+   ],
+   "claims": [
+    "c-hyd-iiit"
+   ],
+   "evidence": "own",
+   "last": "2019-06"
+  },
+  {
+   "collaborators": [
+    [
+     "imd",
+     "inputs"
+    ],
+    [
+     "unicef",
+     "inputs"
+    ],
+    [
+     "ghmc",
+     "acts under the plan in the city"
+    ]
+   ],
+   "people": [
+    "Residents",
+    "Outdoor workers"
+   ],
+   "start": "2025-05",
+   "outputs": [
+    "The plan, released 2 May 2025"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated. The measures are directory, without legal backing.",
+   "equity": {},
+   "related": [],
+   "id": "hyd-state-hap",
+   "title": "Telangana Heatwave Action Plan 2025",
+   "desc": "The state plan that sets what departments do once temperatures cross 40°C: treatment in health centres, changed work hours, free drinking water stands.",
+   "lead": "tsrev",
+   "place": "Telangana",
+   "precision": "state",
+   "status": "announced",
+   "themes": [
+    "risk",
+    "health",
+    "workers"
+   ],
+   "claims": [
+    "c-hyd-hap",
+    "c-hyd-trigger"
+   ],
+   "evidence": "independent",
+   "last": "2025-05"
+  },
+  {
+   "collaborators": [
+    [
+     "imd",
+     "source of the warnings"
+    ]
+   ],
+   "people": [
+    "Construction workers",
+    "Residents"
+   ],
+   "start": "2026-04",
+   "outputs": [
+    "Water kiosks",
+    "Medical camps at construction sites",
+    "Warnings on digital boards"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "equity": {},
+   "related": [],
+   "id": "hyd-ghmc-summer",
+   "title": "Summer heat preparedness in the city (2026)",
+   "desc": "Drinking water kiosks, coordination with urban health centres and Basti Dawakhanas, medical camps at construction sites and heat warnings on junction screens.",
+   "lead": "ghmc",
+   "place": "Select locations and major junctions",
+   "precision": "corporation",
+   "status": "underway",
+   "season": "Summer 2026",
+   "themes": [
+    "water",
+    "health",
+    "workers",
+    "risk"
+   ],
+   "claims": [
+    "c-hyd-ghmc26"
+   ],
+   "evidence": "independent",
+   "last": "2026-04"
+  }
+ ],
+ "extra_orgs": [],
+ "tools": [],
+ "money": [],
+ "timeline": [
+  {
+   "date": "2017",
+   "kind": "delivery",
+   "text": "Cool roof pilot on 25 homes.",
+   "claims": [
+    "c-hyd-pilot"
+   ]
+  },
+  {
+   "date": "2023-04-01",
+   "kind": "plan",
+   "text": "Telangana Cool Roofs Policy takes effect.",
+   "claims": [
+    "c-hyd-mandate"
+   ]
+  },
+  {
+   "date": "2025-05-02",
+   "kind": "plan",
+   "text": "Telangana Heatwave Action Plan 2025 released.",
+   "claims": [
+    "c-hyd-hap"
+   ]
+  },
+  {
+   "date": "2026-04",
+   "kind": "delivery",
+   "text": "City summer preparedness plan in place.",
+   "claims": [
+    "c-hyd-ghmc26"
+   ]
+  }
+ ],
+ "gaps": [
+  "How many square kilometres of cool roofs have been installed against the policy targets.",
+  "Whether a Hyderabad city heat action plan exists separately from the state plan.",
+  "Budgets for the summer measures.",
+  "Telugu and Urdu sources were not searched systematically for this first version."
+ ],
+ "contradictions": [
+  {
+   "text": "Residential threshold of the cool roof mandate: NRDC gives 600 sq. m of plot area; ThePrint gives 600 square yards.",
+   "claims": [
+    "c-hyd-plot-nrdc",
+    "c-hyd-plot-print"
+   ]
+  }
+ ],
+ "start_here": [
+  {
+   "who": "A state or city team",
+   "text": "The cool roof policy shows how a pilot became a target and a permit rule.",
+   "ref": [
+    "hyd-pilot",
+    "hyd-policy"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 93 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 94 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,51 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-93 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+94 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Institutions and plans
+
+### Who is doing what about heat, in nine more cities
+
+Added 28 November 2026 · Feature published 28 November 2026
+
+Why it matters our readingThe Bengaluru deep dive now has nine siblings: Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu. Each follows heat work activity by activity, from Ahmedabad's cool roofs and heat insurance to Dhaka's Red Crescent early action and Hyderabad's cool roof policy, with plans kept apart from delivery, and where the public record is thin, as in Kolkata and Kathmandu, the page says so.
+
+- India
+- Bangladesh
+- Nepal
+- Workers in heat-exposed jobs
+- Women whose livelihoods are held back by unequal access
+- Heat action plans
+- Cool by design
+
+ReviewForty public sources staged and checked on GitHub in two runs; all 78 claims passed. Asia News Network refused the checker, so the Kathmandu worker survey was restaged on the original Kathmandu Post article. Local-language sources were not searched systematically, and no organisation was contacted.. 40 checked · 40 confirmed · 1 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** In each city on Common Shade in India, and in Dhaka and Kathmandu, who is working on heat, what exactly are they doing, and what is still only planned?
+- **The search.** 40 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 40 confirmed, and 1 could not be (1 blocked automated reading).
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Delivery of Delhi's promised water coolers and cool roofs; progress against Telangana's cool roof targets; a city heat plan for Kolkata, Mumbai or Kathmandu; what Dhaka North's heat office has delivered since 2023; local-language sources.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-city-ecosystems/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/city-ecosystems/dropped-after-check.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+City and state heat plans in nine cities, each at the stage its source shows.
+
+[Explore Delhi's heat work](https://beattheheat.asia/cities/delhi/who-is-doing-what/#directory)
+[Delhi: who is doing what about heat?](https://beattheheat.asia/cities/delhi/who-is-doing-what/)[Dhaka: who is doing what about heat?](https://beattheheat.asia/cities/dhaka/who-is-doing-what/)[Ahmedabad: who is doing what about heat?](https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Who%20is%20doing%20what%20about%20heat%2C%20in%20nine%20more%20cities&ref=g-city-ecosystems-nine#way-share)
 
 Tool improved · Institutions and plans
 
@@ -2998,7 +3038,7 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Institutions and plans138
 - Financing230
 
-Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 472 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 481 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

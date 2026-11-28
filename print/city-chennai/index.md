@@ -38,7 +38,11 @@ Cycle | Why here | One action that breaks it |
 
 ## Already at work here
 
-Not found yet in the heat network's list.
+- Greater Chennai Corporation
+- TN Green Climate Company (Tamil Nadu)
+- Council on Energy, Environment and Water (CEEW)
+- UNEP Cool Coalition
+- CEPT University
 
 Listing does not imply partnership, affiliation or endorsement.
 

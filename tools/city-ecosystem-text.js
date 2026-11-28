@@ -24,13 +24,13 @@ const W = {
  notMember: "Common Shade is not a member, partner or representative of the Bengaluru Heat Collective, and this page does not speak for it or its members.",
 };
 const stage = s => E.STAGES[s] || s;
-const rupee = m => `${m.approx ? "about " : ""}₹${m.amount} ${m.unit}`;
+const rupee = m => m.label || `${m.approx ? "about " : ""}₹${m.amount} ${m.unit}`;
 const fmtDate = d => { if (!d) return "Date not stated"; const [y, mo, da] = String(d).split("-"); const M = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; return [da ? +da : "", mo ? M[+mo - 1] : "", y].filter(Boolean).join(" "); };
 
 // the text twin for llms-full.txt
 function md(P, SITE) {
  const url = `${SITE}/cities/${P.id}/${P.slug}/`, name = id => (P.orgById[id] || {}).name || id, L = [];
- L.push(`## ${P.title}`, `${W.lede} Page: ${url}`, P.scope, W.notMember);
+ L.push(`## ${P.title}`, `${W.lede} Page: ${url}`, P.scope, P.coalition ? W.notMember : "");
  P.orientation.forEach(o => L.push(o.text));
  if (P.collective && P.collective.ok) {
   const C = P.collective;
@@ -38,9 +38,9 @@ function md(P, SITE) {
  }
  L.push(`### ${W.h.directory}`, W.directoryIntro, W.claimsNote);
  P.activities.forEach(a => L.push(`- [${a.id}] ${a.title} (${stage(a.status)}). ${a.desc} Lead: ${a.lead ? name(a.lead) : "not named in the sources"}${a.lead_note ? ` (${a.lead_note})` : ""}. ${a.collaborators.length ? `With: ${a.collaborators.map(([o, r]) => `${name(o)} (${r})`).join("; ")}. ` : ""}Where: ${a.place} (${E.PRECISION[a.precision]}). ${a.people.length ? `People: ${a.people.join(", ")}. ` : ""}Evaluation: ${a.evaluation} Evidence: ${E.EVIDENCE[a.evidence]}. Sources: ${P.sourcesFor(a.claims).map(s => s.open + (s.archive ? ` (archived copy: ${s.archive})` : "")).join(" ")}`));
- L.push(`### ${W.h.tools}`, W.toolsIntro);
- P.tools.forEach(t => L.push(`- ${t.name} (${E.KINDS[t.kind]}; ${E.ACCESS[t.access]}). Owner: ${name(t.owner)}. Supports: ${t.decision}. Coverage: ${t.coverage}. Resolution: ${t.resolution}. Limits: ${t.limits.join(" ")} Use in ${P.name}: ${t.bengaluru_use} ${t.url}`));
- L.push(`### ${W.h.money}`, W.moneyIntro);
+ if (P.tools.length) L.push(`### ${W.h.tools}`, W.toolsIntro);
+ P.tools.forEach(t => L.push(`- ${t.name} (${E.KINDS[t.kind]}; ${E.ACCESS[t.access]}). Owner: ${name(t.owner)}. Supports: ${t.decision}. Coverage: ${t.coverage}. Resolution: ${t.resolution}. Limits: ${t.limits.join(" ")} Use in ${P.name}: ${t.city_use || t.bengaluru_use} ${t.url}`));
+ L.push(`### ${W.h.money}`, P.money.length ? W.moneyIntro : `No announced money for heat work in ${P.name} was found in the sources reviewed.`);
  P.money.forEach(m => L.push(`- ${rupee(m)}: ${m.what}. ${stage(m.stage)}: ${m.stage_note}${m.parent ? ` Part of ${rupee(P.money.find(x => x.id === m.parent) || {})}, not in addition to it.` : ""} Heat-specific: ${m.heat}.`));
  L.push(`### ${W.h.timeline}`, ...P.timeline.map(t => `- ${fmtDate(t.date)} (${t.kind}): ${t.text}`));
  L.push(`### ${W.h.orgs}`, W.orgsIntro, ...P.orgs.map(o => `- ${o.name}${o.aliases.length ? ` (also ${o.aliases.join(", ")})` : ""}: ${o.coalition === "founding" ? "founding member of the Collective. " : ""}${o.verified ? o.summary : "Details held back until the source check confirms them."}${o.outside ? ` Outside ${P.name}: ${o.outside}` : ""}${o.unknowns.length ? ` Not known: ${o.unknowns.join(" ")}` : ""}`));

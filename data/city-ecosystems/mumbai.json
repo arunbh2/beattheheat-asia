@@ -1,0 +1,363 @@
+{
+ "schema": 1,
+ "id": "mumbai",
+ "name": "Mumbai",
+ "aliases": [
+  "Bombay"
+ ],
+ "country": "India",
+ "slug": "who-is-doing-what",
+ "title": "Mumbai: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "claim_scope": "Mumbai",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Mumbai, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "Mumbai has a climate action plan that names urban heat, a climate budget and a heat implementation pathway written with C40, but no standalone heat action plan was found. Reporters describe a climate cell short of staff and parks closed in the hottest hours; volunteers and a small design firm work on cooling homes in informal settlements.",
+   "claims": [
+    "c-mum-mcap",
+    "c-mum-cell",
+    "c-mum-pathway",
+    "c-mum-parks",
+    "c-mum-coalition"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "buildings",
+   "Buildings, shade and public space"
+  ],
+  [
+   "workers",
+   "Worker and livelihood protection"
+  ],
+  [
+   "wards",
+   "Ward planning and public budgets"
+  ],
+  [
+   "community",
+   "Community participation"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [
+    "World Resources Institute"
+   ],
+   "unknowns": [
+    "Its current role in the cell."
+   ],
+   "outside": "Its Bengaluru work is counted on Bengaluru's profile.",
+   "id": "wriindia",
+   "network": "wriindia",
+   "name": "WRI India",
+   "type": "research",
+   "based": "India",
+   "summary": "Drafted the Mumbai Climate Action Plan and set up the corporation's Climate Action Cell with it.",
+   "summary_claims": [
+    "c-mum-mcap",
+    "c-mum-cell"
+   ],
+   "site": "https://wri-india.org/",
+   "coalition": null,
+   "activities": [
+    "mum-mcap"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [],
+   "outside": null,
+   "id": "c40",
+   "network": "c40",
+   "name": "C40 Cities",
+   "type": "network",
+   "based": "International",
+   "summary": "Supported the corporation's heat implementation pathway.",
+   "summary_claims": [
+    "c-mum-pathway"
+   ],
+   "site": "https://www.c40.org/",
+   "coalition": null,
+   "activities": [
+    "mum-pathway"
+   ]
+  },
+  {
+   "aliases": [
+    "formerly TARU Leading Edge"
+   ],
+   "unknowns": [],
+   "outside": null,
+   "id": "tarutium",
+   "network": "tarutium",
+   "name": "Tarutium Global Consulting",
+   "type": "business",
+   "based": "India",
+   "summary": "Supported the corporation's heat implementation pathway.",
+   "summary_claims": [
+    "c-mum-pathway"
+   ],
+   "site": "https://tarutium.com/",
+   "coalition": null,
+   "activities": [
+    "mum-pathway"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [
+    "Where in Mumbai its designs have been used."
+   ],
+   "outside": null,
+   "id": "cbalance",
+   "network": "cbalance",
+   "name": "cBalance",
+   "type": "business",
+   "based": "India",
+   "summary": "Designs low-cost ways to lower indoor temperatures in slum homes.",
+   "summary_claims": [
+    "c-mum-coalition"
+   ],
+   "site": "https://www.cbalance.in/",
+   "coalition": null,
+   "activities": [
+    "mum-slum-cooling"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [
+    "Its members, activities and website were not found."
+   ],
+   "outside": null,
+   "id": "hac",
+   "network": null,
+   "name": "Heatwave action coalition",
+   "type": "community",
+   "based": "Mumbai",
+   "summary": "A volunteer group named in reporting on Mumbai's heat.",
+   "summary_claims": [
+    "c-mum-coalition"
+   ],
+   "site": "https://citizenmatters.in/mcap-climate-change-heat-mumbai/",
+   "coalition": null,
+   "activities": [
+    "mum-slum-cooling"
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [
+    "BMC",
+    "MCGM"
+   ],
+   "id": "bmc",
+   "network": "brihanmumbaimunicipalcor",
+   "name": "Brihanmumbai Municipal Corporation",
+   "role": "Owns the Mumbai Climate Action Plan, the climate budget and the heat implementation pathway.",
+   "claims": [
+    "c-mum-mcap",
+    "c-mum-pathway"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [
+    [
+     "wriindia",
+     "drafted the plan; set up the cell with the corporation"
+    ]
+   ],
+   "people": [
+    "Residents"
+   ],
+   "start": "2022",
+   "outputs": [
+    "The plan (2022)",
+    "A Climate Action Cell, four of 41 posts filled in June 2025",
+    "Climate budgets"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated. Citizen Matters reported in August 2024 that little had moved.",
+   "equity": {},
+   "related": [],
+   "id": "mum-mcap",
+   "title": "Mumbai Climate Action Plan and Climate Action Cell",
+   "desc": "The city's climate plan, launched in 2022, which places heatwaves under urban heat, and a Climate Action Cell to carry it out.",
+   "lead": "bmc",
+   "place": "Mumbai",
+   "precision": "corporation",
+   "status": "underway",
+   "themes": [
+    "wards"
+   ],
+   "claims": [
+    "c-mum-mcap",
+    "c-mum-stalled",
+    "c-mum-cell",
+    "c-mum-budget"
+   ],
+   "evidence": "independent",
+   "last": "2025-06"
+  },
+  {
+   "collaborators": [
+    [
+     "c40",
+     "supported"
+    ],
+    [
+     "tarutium",
+     "supported"
+    ]
+   ],
+   "people": [
+    "Construction workers",
+    "Residents"
+   ],
+   "start": null,
+   "outputs": [
+    "The pathway document"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable; adoption into rules not found.",
+   "equity": {},
+   "related": [],
+   "id": "mum-pathway",
+   "title": "Implementation pathway to address heat",
+   "desc": "A roadmap for heat in buildings: hotspots ground-truthed in three areas, reflective materials, nature-based solutions and protections for construction workers, meant to bring heat into city rules.",
+   "lead": "bmc",
+   "place": "Three areas (not named in the summary read)",
+   "precision": "neighbourhoods",
+   "status": "completed",
+   "themes": [
+    "buildings",
+    "workers",
+    "risk"
+   ],
+   "claims": [
+    "c-mum-pathway"
+   ],
+   "evidence": "own",
+   "last": "2025"
+  },
+  {
+   "collaborators": [
+    [
+     "hac",
+     "volunteer group named alongside"
+    ]
+   ],
+   "people": [
+    "Slum residents"
+   ],
+   "start": null,
+   "outputs": [
+    "Not documented in the source read"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "equity": {},
+   "related": [],
+   "id": "mum-slum-cooling",
+   "title": "Low-cost cooling for homes in informal settlements",
+   "desc": "Low-cost designs to lower indoor temperatures in slum homes, and a volunteer group working on heat.",
+   "lead": "cbalance",
+   "place": "Informal settlements (not named)",
+   "precision": "neighbourhoods",
+   "status": "not_stated",
+   "themes": [
+    "community",
+    "buildings"
+   ],
+   "claims": [
+    "c-mum-coalition"
+   ],
+   "evidence": "independent",
+   "last": "2024-08"
+  }
+ ],
+ "extra_orgs": [],
+ "tools": [],
+ "money": [
+  {
+   "id": "m-mum-climate",
+   "label": "₹17,000 crore",
+   "amount": 17000,
+   "unit": "crore",
+   "what": "The corporation's second climate budget (37% of capital expenditure)",
+   "who": "bmc",
+   "stage": "allocated",
+   "stage_note": "A climate budget, reported by The Migration Story; the heat share is not stated. The corporation reported 86.26% financial progress on its 2024-25 climate budget.",
+   "date": "2025",
+   "heat": "no: a climate budget, not a heat budget",
+   "parent": null,
+   "claims": [
+    "c-mum-budget"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2022",
+   "kind": "plan",
+   "text": "Mumbai Climate Action Plan launched.",
+   "claims": [
+    "c-mum-mcap"
+   ]
+  },
+  {
+   "date": "2024-08",
+   "kind": "event",
+   "text": "Reporting finds little movement on the plan since the change in power.",
+   "claims": [
+    "c-mum-stalled"
+   ]
+  },
+  {
+   "date": "2025-03",
+   "kind": "event",
+   "text": "Reporting notes parks stay shut in the afternoon during a heatwave.",
+   "claims": [
+    "c-mum-parks"
+   ]
+  },
+  {
+   "date": "2025-06",
+   "kind": "authority",
+   "text": "Four of 41 Climate Action Cell posts filled.",
+   "claims": [
+    "c-mum-cell"
+   ]
+  }
+ ],
+ "gaps": [
+  "Whether Mumbai has adopted a standalone heat action plan; none was found.",
+  "The date of the heat implementation pathway, and whether it has entered building rules.",
+  "How much of the climate budget goes to heat.",
+  "Marathi-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [],
+ "start_here": [
+  {
+   "who": "A city or ward team",
+   "text": "The heat pathway is the most specific document: hotspots, materials and protections for construction workers.",
+   "ref": [
+    "mum-pathway"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

@@ -1,0 +1,273 @@
+{
+ "schema": 1,
+ "id": "kathmandu",
+ "name": "Kathmandu",
+ "aliases": [],
+ "country": "Nepal",
+ "slug": "who-is-doing-what",
+ "title": "Kathmandu: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "claim_scope": "Kathmandu",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Kathmandu, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "Kathmandu is cooler than the lowland cities on this site, but it set a temperature record in 2024 and its core runs several degrees hotter than the valley around it. The sources reviewed show research and calls for action rather than a city heat programme: no heat action plan was found for the city, and the most concrete public works are greening and a pavement trial next door in Lalitpur.",
+   "claims": [
+    "c-ktm-record",
+    "c-ktm-wb",
+    "c-ktm-noplan",
+    "c-ktm-green",
+    "c-ktm-unh"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "nature",
+   "Nature-based cooling"
+  ],
+  [
+   "workers",
+   "Worker and livelihood protection"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [],
+   "unknowns": [],
+   "outside": null,
+   "id": "pci",
+   "network": "pci",
+   "name": "People's Courage International",
+   "type": "ngo",
+   "based": "International",
+   "summary": "Co-published a survey of 305 migrant workers in Kathmandu on heat and hard work.",
+   "summary_claims": [
+    "c-ktm-pci"
+   ],
+   "site": "https://peoplescourage.org/",
+   "coalition": null,
+   "activities": [
+    "ktm-pci-study"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [
+    "Whether any project has followed."
+   ],
+   "outside": null,
+   "id": "worldbank",
+   "network": "worldbank",
+   "name": "World Bank",
+   "type": "multilateral",
+   "based": "International",
+   "summary": "Its 2026 report on heat in South Asia's cities measured Kathmandu's urban heat and recommended heritage site retrofits.",
+   "summary_claims": [
+    "c-ktm-wb"
+   ],
+   "site": "https://www.worldbank.org/",
+   "coalition": null,
+   "activities": [
+    "ktm-wb-report"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [],
+   "outside": "Its school pilot in Dang is outside Kathmandu and not counted here.",
+   "id": "unhabitat",
+   "network": "unhabitat",
+   "name": "UN-Habitat Nepal",
+   "type": "multilateral",
+   "based": "Kathmandu",
+   "summary": "Its staff called for early warning and preparedness in 2025; a heat activity of its own in Kathmandu was not identified in the sources reviewed.",
+   "summary_claims": [
+    "c-ktm-unh"
+   ],
+   "site": "https://unhabitat.org/nepal",
+   "coalition": null,
+   "activities": []
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [],
+   "id": "lalitpur",
+   "network": null,
+   "name": "Lalitpur Metropolitan City",
+   "role": "Where permeable pavements were tested, in the Kathmandu Valley.",
+   "claims": [
+    "c-ktm-unh"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [],
+   "people": [
+    "Residents"
+   ],
+   "start": null,
+   "outputs": [
+    "Not quantified"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "equity": {},
+   "related": [],
+   "id": "ktm-greening",
+   "title": "Urban green spaces, tree planting and community forests",
+   "desc": "Greening work in the valley reported as underway; who leads it is not named in the source.",
+   "lead": null,
+   "place": "Kathmandu Valley",
+   "precision": "district",
+   "status": "underway",
+   "themes": [
+    "nature"
+   ],
+   "claims": [
+    "c-ktm-green"
+   ],
+   "evidence": "independent",
+   "last": "2024-09"
+  },
+  {
+   "collaborators": [
+    [
+     "lalitpur",
+     "where the test took place"
+    ]
+   ],
+   "people": [],
+   "start": null,
+   "outputs": [
+    "Pavements tested"
+   ],
+   "outcomes": [],
+   "evaluation": "Results not given in the source read.",
+   "equity": {},
+   "related": [],
+   "id": "ktm-pavements",
+   "title": "Permeable pavement trial in Lalitpur",
+   "desc": "Permeable pavements tested in Lalitpur Metropolitan, next to Kathmandu.",
+   "lead": null,
+   "place": "Lalitpur Metropolitan City",
+   "precision": "sites",
+   "status": "completed",
+   "themes": [
+    "nature"
+   ],
+   "claims": [
+    "c-ktm-unh"
+   ],
+   "evidence": "independent",
+   "last": "2025-06"
+  },
+  {
+   "collaborators": [],
+   "people": [
+    "Migrant workers",
+    "Informal workers"
+   ],
+   "start": null,
+   "outputs": [
+    "Report: Hot Cities Make Hard Work Harder"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {
+    "consulted": "305 migrant workers surveyed."
+   },
+   "related": [],
+   "id": "ktm-pci-study",
+   "title": "Survey of migrant workers in the heat",
+   "desc": "A survey of 305 migrant and informal workers and focus groups on how heat affects work.",
+   "lead": "pci",
+   "place": "Kathmandu",
+   "precision": "city",
+   "status": "completed",
+   "themes": [
+    "workers"
+   ],
+   "claims": [
+    "c-ktm-pci"
+   ],
+   "evidence": "independent",
+   "last": "2026-05"
+  },
+  {
+   "collaborators": [],
+   "people": [],
+   "start": null,
+   "outputs": [
+    "Report: A Livable Future (2026)"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {},
+   "related": [],
+   "id": "ktm-wb-report",
+   "title": "World Bank analysis of heat in South Asia's cities",
+   "desc": "Measured the city core's heat against the valley and recommended heritage site retrofits and heat-resilient building standards.",
+   "lead": "worldbank",
+   "place": "Kathmandu Valley",
+   "precision": "district",
+   "status": "completed",
+   "themes": [
+    "risk"
+   ],
+   "claims": [
+    "c-ktm-wb"
+   ],
+   "evidence": "independent",
+   "last": "2026-07"
+  }
+ ],
+ "extra_orgs": [],
+ "tools": [],
+ "money": [],
+ "timeline": [
+  {
+   "date": "2024-06",
+   "kind": "event",
+   "text": "Kathmandu records 35.3°C, its highest on record.",
+   "claims": [
+    "c-ktm-record"
+   ]
+  },
+  {
+   "date": "2026-07",
+   "kind": "event",
+   "text": "World Bank report on heat in South Asia's cities.",
+   "claims": [
+    "c-ktm-wb"
+   ]
+  }
+ ],
+ "gaps": [
+  "Whether Kathmandu Metropolitan City has any heat plan or seasonal measures; none was found.",
+  "Whether the Department of Hydrology and Meteorology issues heat warnings for the valley.",
+  "Health, worker and community organisations acting on heat in the city; none was found beyond the studies listed.",
+  "Nepali-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [],
+ "start_here": [
+  {
+   "who": "A city team",
+   "text": "The worker survey and the World Bank analysis are the most specific evidence on Kathmandu found.",
+   "ref": [
+    "ktm-pci-study",
+    "ktm-wb-report"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

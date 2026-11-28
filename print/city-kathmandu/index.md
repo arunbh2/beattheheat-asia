@@ -38,6 +38,9 @@ Cycle | Why here | One action that breaks it |
 - Tewa, Nepal Women’s Fund
 - Nepal Rastra Bank
 - Practical Action
+- People’s Courage International
+- World Bank
+- UN-Habitat
 
 Listing does not imply partnership, affiliation or endorsement.
 

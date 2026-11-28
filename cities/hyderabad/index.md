@@ -150,9 +150,16 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 
 The [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) has no verified document for Hyderabad itself yet. It holds 2 state-level plans for Telangana, which cover the city: [see the Telangana plans](https://beattheheat.asia/resources/heat-action-plans/india/?state=Telangana&level=state).
 
+City deep dive[Hyderabad: who is doing what about heat?](https://beattheheat.asia/cities/hyderabad/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
-Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city. [The heat network](https://beattheheat.asia/heat-network/)
+- [Greater Hyderabad Municipal Corporation (GHMC)](https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197): Ran a cool roof pilot in 2017; each summer acts under Telangana's heatwave plan, with drinking water kiosks, medical camps at construction sites and heat warnings on junction screens (2026).
+- [Municipal Administration and Urban Development Department, Telangana](https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy): Leads the Telangana Cool Roofs Policy 2023-2028, with a target of 300 square kilometres of cool roofs and a rule in building permits.
+- [Administrative Staff College of India (ASCI)](https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy): A partner on Hyderabad's 2017 cool roof pilot and on the Telangana Cool Roofs Policy 2023-2028.
+- [IIIT Hyderabad](https://www.nrdc.org/bio/anjali-jaiswal/keeping-it-cool-models-city-cool-roof-programs): A partner on Hyderabad's 2017 cool roof pilot and the state cool roof policy; tests roof materials over several years.
+- [Natural Resources Defense Council (NRDC), India programme](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf): Works with Indian cities and states on heat action plans. It developed Ahmedabad's 2013 heat action plan, the first in South Asia, with the Indian Institute of Public Health-Gandhinagar, and reviews heat policy in India.
+- [UNICEF](https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024): Tracks how heatwaves and other climate hazards disrupt children’s schooling.
 
 Listing does not imply partnership, affiliation or endorsement.
 

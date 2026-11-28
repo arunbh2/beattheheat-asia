@@ -2814,5 +2814,125 @@
     "url": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
     "does": "Supports CSTEP's Ecosystem-based Adaptation Feasibility Tool (DEFT) for Bengaluru, which is to map heatwave and flood risk, through the Global EbA Fund.",
     "levers": ["greencity"]
+  },
+  {
+    "id": "iforest",
+    "role": "research",
+    "name": "International Forum for Environment, Sustainability and Technology (iFOREST)",
+    "url": "https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/",
+    "does": "Developed Bhubaneswar's Integrated Heat and Cooling Action Plan (2025) with the city corporation and the Singapore-ETH Centre.",
+    "levers": ["hap", "coolbydesign", "greencity"]
+  },
+  {
+    "id": "bhubaneswarmunicipalcorp",
+    "role": "asia",
+    "name": "Bhubaneswar Municipal Corporation",
+    "url": "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303",
+    "does": "Launched the city's first Integrated Heat and Cooling Action Plan in September 2025, covering greening in all wards and the state's energy building codes.",
+    "levers": ["hap", "greencity", "coolbydesign"]
+  },
+  {
+    "id": "greaterchennaicorp",
+    "role": "asia",
+    "name": "Greater Chennai Corporation",
+    "url": "https://www.dtnext.in/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience",
+    "does": "Expanding cool roofs to 55 schools with the TN Green Climate Company and UNEP, and signed an agreement with CEEW (July 2026) to plan heat projects in vulnerable wards.",
+    "levers": ["coolbydesign", "keepinschool", "hap"]
+  },
+  {
+    "id": "tngcc",
+    "role": "asia",
+    "name": "TN Green Climate Company (Tamil Nadu)",
+    "url": "https://www.dtnext.in/news/chennai/chennai-corporation-expands-cool-roof-initiative-to-55-schools-2",
+    "does": "The Tamil Nadu company through which cool roofs are being applied to 55 Chennai schools with UNEP, under the TN Climate Change Mission.",
+    "levers": ["coolbydesign", "keepinschool"]
+  },
+  {
+    "id": "cse",
+    "role": "research",
+    "name": "Centre for Science and Environment (CSE)",
+    "url": "https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat",
+    "does": "Analyses urban heat stress ward by ward: in Delhi it found almost 76 per cent of the city facing heat stress in summer (2015 to 2024), and it has mapped heat zones in Kolkata.",
+    "levers": ["hap", "coolhousing"]
+  },
+  {
+    "id": "greenpeaceindia",
+    "role": "ground",
+    "name": "Greenpeace India",
+    "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+    "does": "Surveyed over 700 Delhi street vendors on heatwaves with the National Hawkers Federation, and asked the Delhi Heat Action Plan's authority to consult outdoor workers.",
+    "levers": ["hap", "socialprotection"]
+  },
+  {
+    "id": "nationalhawkersfed",
+    "role": "ground",
+    "name": "National Hawkers Federation",
+    "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+    "does": "A street vendors' federation that collected Delhi vendors' heatwave experiences with Greenpeace India.",
+    "levers": ["socialprotection"]
+  },
+  {
+    "id": "igsss",
+    "role": "ground",
+    "name": "Indo-Global Social Service Society (IGSSS)",
+    "url": "https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/",
+    "does": "Fitted thirty Delhi homes with wall panels in a pilot from April 2022 to March 2023.",
+    "levers": ["coolhousing"]
+  },
+  {
+    "id": "shaktifoundation",
+    "role": "ground",
+    "name": "Shakti Foundation",
+    "url": "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/",
+    "does": "Local partner in Dhaka North City Corporation's Chief Heat Officer initiative (2023).",
+    "levers": ["hap"]
+  },
+  {
+    "id": "iwmbangladesh",
+    "role": "research",
+    "name": "Institute of Water Modelling, Bangladesh",
+    "url": "https://today.thefinancialexpress.com.bd/print/a-data-driven-push-to-beat-urban-boil-1753202222",
+    "does": "Collected a year of microclimate data at more than 20 points across Dhaka from April 2024, under the Department of Environment, to inform a proposed Heat Action Plan.",
+    "levers": ["hap"]
+  },
+  {
+    "id": "asci",
+    "role": "research",
+    "name": "Administrative Staff College of India (ASCI)",
+    "url": "https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy",
+    "does": "A partner on Hyderabad's 2017 cool roof pilot and on the Telangana Cool Roofs Policy 2023-2028.",
+    "levers": ["coolbydesign", "coolhousing"]
+  },
+  {
+    "id": "iiith",
+    "role": "research",
+    "name": "IIIT Hyderabad",
+    "url": "https://www.nrdc.org/bio/anjali-jaiswal/keeping-it-cool-models-city-cool-roof-programs",
+    "does": "A partner on Hyderabad's 2017 cool roof pilot and the state cool roof policy; tests roof materials over several years.",
+    "levers": ["coolbydesign"]
+  },
+  {
+    "id": "ghmc",
+    "role": "asia",
+    "name": "Greater Hyderabad Municipal Corporation (GHMC)",
+    "url": "https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197",
+    "does": "Ran a cool roof pilot in 2017; each summer acts under Telangana's heatwave plan, with drinking water kiosks, medical camps at construction sites and heat warnings on junction screens (2026).",
+    "levers": ["hap", "coolbydesign", "readyclinics"]
+  },
+  {
+    "id": "maudtelangana",
+    "role": "asia",
+    "name": "Municipal Administration and Urban Development Department, Telangana",
+    "url": "https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy",
+    "does": "Leads the Telangana Cool Roofs Policy 2023-2028, with a target of 300 square kilometres of cool roofs and a rule in building permits.",
+    "levers": ["coolbydesign", "heatrules"]
+  },
+  {
+    "id": "kolkatamunicipalcorp",
+    "role": "asia",
+    "name": "Kolkata Municipal Corporation",
+    "url": "https://cdn.cseindia.org/attachments/0.91719500_1772510583_kolkata-va.pdf",
+    "does": "The city corporation whose area a Centre for Science and Environment assessment mapped for severe heat zones. No city heat action plan was found.",
+    "levers": []
   }
 ]

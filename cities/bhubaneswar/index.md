@@ -149,9 +149,14 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 
 1 document for Bhubaneswar in the [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/?q=Bhubaneswar), with a link to each PDF.
 
+City deep dive[Bhubaneswar: who is doing what about heat?](https://beattheheat.asia/cities/bhubaneswar/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
-Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city. [The heat network](https://beattheheat.asia/heat-network/)
+- [Bhubaneswar Municipal Corporation](https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303): Launched the city's first Integrated Heat and Cooling Action Plan in September 2025, covering greening in all wards and the state's energy building codes.
+- [International Forum for Environment, Sustainability and Technology (iFOREST)](https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/): Developed Bhubaneswar's Integrated Heat and Cooling Action Plan (2025) with the city corporation and the Singapore-ETH Centre.
+- [Singapore-ETH Centre](https://sec.ethz.ch/research/cs.html): Participates in Cooling Singapore 2.0 urban-climate modelling.
+- [Integrated Research and Action for Development (IRADe)](https://irade.org/Rajkot-Heat-Action-Plan.pdf): Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka.
 
 Listing does not imply partnership, affiliation or endorsement.
 

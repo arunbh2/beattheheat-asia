@@ -1,0 +1,182 @@
+{
+ "schema": 1,
+ "id": "kolkata",
+ "name": "Kolkata",
+ "aliases": [
+  "Calcutta"
+ ],
+ "country": "India",
+ "slug": "who-is-doing-what",
+ "title": "Kolkata: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "claim_scope": "Kolkata",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Kolkata, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "For Kolkata, the sources reviewed show more analysis than action: research on where heat is most severe and on lost water bodies and greenery, a state heat wave plan, and repeated calls for a city plan. No Kolkata Municipal Corporation heat action plan was found.",
+   "claims": [
+    "c-kol-cse",
+    "c-kol-cse-change",
+    "c-kol-wb",
+    "c-kol-need"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "nature",
+   "Nature-based cooling"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [
+    "CSE"
+   ],
+   "unknowns": [
+    "Whether the city has used the assessment."
+   ],
+   "outside": "Its Delhi analysis is counted on Delhi's profile.",
+   "id": "cse",
+   "network": "cse",
+   "name": "Centre for Science and Environment",
+   "type": "research",
+   "based": "Delhi",
+   "summary": "Mapped heat zones across the municipal area and measured the loss of water bodies and vegetation.",
+   "summary_claims": [
+    "c-kol-cse",
+    "c-kol-cse-change"
+   ],
+   "site": "https://www.cseindia.org/",
+   "coalition": null,
+   "activities": [
+    "kol-cse-zones"
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [
+    "KMC"
+   ],
+   "id": "kmc",
+   "network": "kolkatamunicipalcorp",
+   "name": "Kolkata Municipal Corporation",
+   "role": "The city corporation; the area of the heat zone assessment.",
+   "claims": [
+    "c-kol-cse"
+   ]
+  },
+  {
+   "aliases": [],
+   "id": "wbdm",
+   "network": null,
+   "name": "Disaster Management department, Government of West Bengal",
+   "role": "Prepared the state Heat Wave Action Plan.",
+   "claims": [
+    "c-kol-wb"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [],
+   "people": [
+    "Residents"
+   ],
+   "start": null,
+   "outputs": [
+    "Heat zone assessment",
+    "Land cover change findings"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {},
+   "related": [],
+   "id": "kol-cse-zones",
+   "title": "Heat zone and land cover assessment",
+   "desc": "Maps of very severe and severe heat zones across the municipal area, and measures of lost water bodies and vegetation.",
+   "lead": "cse",
+   "place": "Kolkata Municipal Corporation area",
+   "precision": "corporation",
+   "status": "completed",
+   "themes": [
+    "risk",
+    "nature"
+   ],
+   "claims": [
+    "c-kol-cse",
+    "c-kol-cse-change"
+   ],
+   "evidence": "own",
+   "last": "2024-05"
+  },
+  {
+   "collaborators": [],
+   "people": [
+    "Residents"
+   ],
+   "start": "2023",
+   "outputs": [
+    "The plan document"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated. A study of nine cities including Kolkata found most measures were seasonal or reactive.",
+   "equity": {},
+   "related": [],
+   "id": "kol-wb-hap",
+   "title": "West Bengal Heat Wave Action Plan",
+   "desc": "The state plan that sets departmental duties in a heat wave.",
+   "lead": "wbdm",
+   "place": "West Bengal",
+   "precision": "state",
+   "status": "announced",
+   "themes": [
+    "risk"
+   ],
+   "claims": [
+    "c-kol-wb",
+    "c-kol-nine"
+   ],
+   "evidence": "own",
+   "last": "2025-08"
+  }
+ ],
+ "extra_orgs": [],
+ "tools": [],
+ "money": [],
+ "timeline": [
+  {
+   "date": "2024-05",
+   "kind": "event",
+   "text": "After a hot April, scientists call for a city heat action plan.",
+   "claims": [
+    "c-kol-need"
+   ]
+  }
+ ],
+ "gaps": [
+  "Whether the Kolkata Municipal Corporation has a heat action plan; none was found.",
+  "Who in the city runs water points, shelters or health measures in a heat wave; no city-specific source was read.",
+  "Worker, community and health organisations working on heat in Kolkata; none was found in the sources reviewed, which says more about the search than the city.",
+  "Bengali-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [],
+ "start_here": [
+  {
+   "who": "A city team",
+   "text": "The heat zone assessment is a ready starting map.",
+   "ref": [
+    "kol-cse-zones"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

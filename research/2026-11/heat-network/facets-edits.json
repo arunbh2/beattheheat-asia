@@ -421,5 +421,125 @@
   "type": "funder",
   "scale": "city",
   "why": "its listed work here is support for a Bengaluru tool (CSTEP's DEFT); IUCN itself works globally"
+ },
+ "iforest": {
+  "countries": [
+   "IN"
+  ],
+  "type": "research",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "bhubaneswarmunicipalcorp": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "greaterchennaicorp": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "tngcc": {
+  "countries": [
+   "IN"
+  ],
+  "type": "government",
+  "scale": "subnational",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "cse": {
+  "countries": [
+   "IN"
+  ],
+  "type": "research",
+  "scale": "country",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "greenpeaceindia": {
+  "countries": [
+   "IN"
+  ],
+  "type": "ngo",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "nationalhawkersfed": {
+  "countries": [
+   "IN"
+  ],
+  "type": "worker",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "igsss": {
+  "countries": [
+   "IN"
+  ],
+  "type": "ngo",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "shaktifoundation": {
+  "countries": [
+   "BD"
+  ],
+  "type": "ngo",
+  "scale": "city",
+  "why": "its listed work is in Bangladesh (city heat ecosystem research, November 2026)"
+ },
+ "iwmbangladesh": {
+  "countries": [
+   "BD"
+  ],
+  "type": "research",
+  "scale": "city",
+  "why": "its listed work is in Bangladesh (city heat ecosystem research, November 2026)"
+ },
+ "asci": {
+  "countries": [
+   "IN"
+  ],
+  "type": "research",
+  "scale": "subnational",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "iiith": {
+  "countries": [
+   "IN"
+  ],
+  "type": "research",
+  "scale": "subnational",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "ghmc": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "maudtelangana": {
+  "countries": [
+   "IN"
+  ],
+  "type": "government",
+  "scale": "subnational",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
+ },
+ "kolkatamunicipalcorp": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in India (city heat ecosystem research, November 2026)"
  }
 }

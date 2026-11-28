@@ -139,11 +139,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 ## Everything the site covers: the evidence
 
-- [2,426 sources](https://beattheheat.asia/sources/index.md): cited, every one listed
+- [2,436 sources](https://beattheheat.asia/sources/index.md): cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/index.md): cycle by cycle, on the evidence map
 - [44 learning questions](https://beattheheat.asia/evidence-map/index.md): nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/index.md): the Lancet Countdown 2026, in plain language
-- [186 news headlines](https://beattheheat.asia/news/index.md): and 71 articles studied for how heat is reported
+- [187 news headlines](https://beattheheat.asia/news/index.md): and 71 articles studied for how heat is reported
 
 ## Everything the site covers: what helps
 
@@ -155,7 +155,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 - [98 schemes](https://beattheheat.asia/paying-when-heat-strikes/index.md): and 36 financial instruments, and whether they paid
 - [91 businesses](https://beattheheat.asia/heat-economy/index.md): and 77 funders in the heat economy
-- [352 organisations](https://beattheheat.asia/heat-network/index.md): mapped, each with a profile
+- [367 organisations](https://beattheheat.asia/heat-network/index.md): mapped, each with a profile
 
 ## New since the November 2026 edition of State of the field
 
@@ -189,4 +189,4 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The li
 
 ## Optional
 
-- [The whole site in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go (about 1.3 MB)
+- [The whole site in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go (about 1.4 MB)

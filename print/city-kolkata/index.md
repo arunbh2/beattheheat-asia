@@ -35,6 +35,8 @@ Cycle | Why here | One action that breaks it |
 
 - Research Council of Norway
 - U.S. National Science Foundation
+- Centre for Science and Environment (CSE)
+- Kolkata Municipal Corporation
 
 Listing does not imply partnership, affiliation or endorsement.
 

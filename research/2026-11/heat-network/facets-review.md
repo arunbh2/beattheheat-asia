@@ -243,3 +243,13 @@ Rows where the record's own words did not settle the draft. Decisions go in `fac
 | khpt | KHPT | IN | country | ngo | type from its group |
 | nimhans | NIMHANS (National Institute of Mental Health and Neurosciences), Bengaluru | IN | country | research | type from its group |
 | welllabs | WELL Labs | IN | country | research | type from its group |
+| greaterchennaicorp | Greater Chennai Corporation | IN | country | government | type from its group |
+| tngcc | TN Green Climate Company (Tamil Nadu) | IN | subnational | government | type from its group |
+| cse | Centre for Science and Environment (CSE) | IN | country | research | type from its group |
+| greenpeaceindia | Greenpeace India | IN | country | ngo | type from its group |
+| nationalhawkersfed | National Hawkers Federation | IN | country | ngo | type from its group |
+| igsss | Indo-Global Social Service Society (IGSSS) | IN | country | ngo | type from its group |
+| shaktifoundation | Shakti Foundation | BD | country | ngo | type from its group |
+| iwmbangladesh | Institute of Water Modelling, Bangladesh | BD | country | research | type from its group |
+| asci | Administrative Staff College of India (ASCI) | IN | country | research | type from its group |
+| iiith | IIIT Hyderabad | IN | country | research | type from its group |

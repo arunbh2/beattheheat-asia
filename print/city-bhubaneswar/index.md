@@ -33,7 +33,10 @@ Cycle | Why here | One action that breaks it |
 
 ## Already at work here
 
-Not found yet in the heat network's list.
+- Bhubaneswar Municipal Corporation
+- International Forum for Environment, Sustainability and Technology (iFOREST)
+- Singapore-ETH Centre
+- Integrated Research and Action for Development (IRADe)
 
 Listing does not imply partnership, affiliation or endorsement.
 

@@ -45,6 +45,11 @@ Cycle | Why here | One action that breaks it |
 - BRAC
 - Practical Action
 - Bangladesh Bank
+- International Federation of Red Cross and Red Crescent Societies (IFRC)
+- Atlantic Council Climate Resilience Center (formerly Arsht-Rock)
+- Shakti Foundation
+- Institute of Water Modelling, Bangladesh
+- ICLEI South Asia
 
 Listing does not imply partnership, affiliation or endorsement.
 

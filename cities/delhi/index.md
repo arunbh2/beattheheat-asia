@@ -182,6 +182,8 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 
 [Ahmedabad’s heat action plan](https://beattheheat.asia/worked-plans/#ahmedabad) (Ahmedabad, India, 2013 onwards)
 
+City deep dive[Delhi: who is doing what about heat?](https://beattheheat.asia/cities/delhi/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
 - [National Disaster Management Authority, India](https://ndma.gov.in): Issues national guidance for state and city heat action plans.
@@ -190,6 +192,13 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 - [Council on Energy, Environment and Water (CEEW)](https://www.ceew.in/publications?field_focus_area_tid=All&field_pub_type_tid=All&field_authors_target_id_selective=All&title=heat): Assessed heat risk in all 734 districts of India in 2025, finding 57% of districts, home to three in four Indians, at high or very high risk. Its 2026 heat-health reports for the GHHIN South Asia hub cover India, Nepal, Bangladesh and Bhutan, and it helped Thane build its heat action plan.
 - [SEEDS](https://www.seedsindia.org/portfolio/partnering-to-strengthen-climate-resilience/): Combines building-level heat risk mapping, community preparedness and affordable cool roofs for vulnerable urban settlements in India.
 - [HeatWatch India](https://cooling-centres.heatwatch.in/about): Focuses on heat and worker protection through research, heat exposure mapping, practical education and a public directory of cooling centres.
+- [Centre for Science and Environment (CSE)](https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat): Analyses urban heat stress ward by ward: in Delhi it found almost 76 per cent of the city facing heat stress in summer (2015 to 2024), and it has mapped heat zones in Kolkata.
+- [Women in Informal Employment: Globalizing and Organizing (WIEGO)](https://www.wiego.org/research-library-publications/working-heat-street-vendors-delhi-india/): Documents how heat affects informal workers’ health and earnings, and develops worker education, policy recommendations and protection guidance with local organisations.
+- [Greenpeace India](https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/): Surveyed over 700 Delhi street vendors on heatwaves with the National Hawkers Federation, and asked the Delhi Heat Action Plan's authority to consult outdoor workers.
+- [National Hawkers Federation](https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/): A street vendors' federation that collected Delhi vendors' heatwave experiences with Greenpeace India.
+- [Indo-Global Social Service Society (IGSSS)](https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/): Fitted thirty Delhi homes with wall panels in a pilot from April 2022 to March 2023.
+- [Mahila Housing Trust](https://citizenmatters.in/new-cool-roof-solutions-heat-in-informal-settlements/): Cools homes in informal settlements with reflective and modular roofs, and runs heat income insurance for women workers.
+- [Self Employed Women’s Association (SEWA)](https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html): Protects women informal workers’ income in heatwaves. After the May 2024 heatwaves, more than 46,000 members received insurance payouts.
 
 Listing does not imply partnership, affiliation or endorsement.
 

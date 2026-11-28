@@ -1,0 +1,488 @@
+{
+ "schema": 1,
+ "id": "dhaka",
+ "name": "Dhaka",
+ "aliases": [],
+ "country": "Bangladesh",
+ "slug": "who-is-doing-what",
+ "title": "Dhaka: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "claim_scope": "Dhaka",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Dhaka, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "Dhaka has two strands of heat work. Dhaka North appointed Asia's first city Chief Heat Officer in 2023, with water booths, plans for cooling zones and greening. The Red Crescent has the most tested system: an early action protocol that, in April 2024, released cash, cooling stations and water before the worst heat. A city heat action plan is still proposed.",
+   "claims": [
+    "c-dha-cho",
+    "c-dha-water",
+    "c-dha-eap",
+    "c-dha-eap-actions",
+    "c-dha-iwm"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "health",
+   "Health and care"
+  ],
+  [
+   "water",
+   "Water and sanitation"
+  ],
+  [
+   "nature",
+   "Nature-based cooling"
+  ],
+  [
+   "workers",
+   "Worker and livelihood protection"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [
+    "BDRCS"
+   ],
+   "unknowns": [
+    "How many people received each kind of support in 2024 (a post-activation report exists but was not read)."
+   ],
+   "outside": null,
+   "id": "bdrcs",
+   "network": "bdrcs",
+   "name": "Bangladesh Red Crescent Society",
+   "type": "humanitarian",
+   "based": "Dhaka",
+   "summary": "Activated its heatwave early action protocol in Dhaka in April 2024, with cash grants, cooling stations, ambulances and water.",
+   "summary_claims": [
+    "c-dha-eap",
+    "c-dha-eap-actions"
+   ],
+   "site": "https://bdrcs.org/",
+   "coalition": null,
+   "activities": [
+    "dha-eap",
+    "dha-urban-rc"
+   ]
+  },
+  {
+   "aliases": [
+    "IFRC"
+   ],
+   "unknowns": [],
+   "outside": null,
+   "id": "ifrc",
+   "network": "ifrc",
+   "name": "International Federation of Red Cross and Red Crescent Societies (IFRC)",
+   "type": "humanitarian",
+   "based": "International",
+   "summary": "Its Disaster Response Emergency Fund paid for the April 2024 early actions.",
+   "summary_claims": [
+    "c-dha-eap"
+   ],
+   "site": "https://www.ifrc.org/",
+   "coalition": null,
+   "activities": [
+    "dha-eap"
+   ]
+  },
+  {
+   "aliases": [
+    "Arsht-Rock"
+   ],
+   "unknowns": [
+    "The terms of its support."
+   ],
+   "outside": null,
+   "id": "crc",
+   "network": "crc",
+   "name": "Atlantic Council Climate Resilience Center (formerly Arsht-Rock)",
+   "type": "funder",
+   "based": "International",
+   "summary": "Partner in Dhaka North's Chief Heat Officer initiative.",
+   "summary_claims": [
+    "c-dha-cho"
+   ],
+   "site": "https://onebillionresilient.org/",
+   "coalition": null,
+   "activities": [
+    "dha-cho"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [
+    "Its heat activities in the city."
+   ],
+   "outside": null,
+   "id": "shakti",
+   "network": "shaktifoundation",
+   "name": "Shakti Foundation",
+   "type": "ngo",
+   "based": "Dhaka",
+   "summary": "Local partner in the Chief Heat Officer initiative.",
+   "summary_claims": [
+    "c-dha-cho"
+   ],
+   "site": "https://www.shakti.org.bd/",
+   "coalition": null,
+   "activities": [
+    "dha-cho"
+   ]
+  },
+  {
+   "aliases": [
+    "ICLEI"
+   ],
+   "unknowns": [
+    "Whether the plans were completed and how they treat heat."
+   ],
+   "outside": null,
+   "id": "iclei",
+   "network": "iclei",
+   "name": "ICLEI South Asia",
+   "type": "network",
+   "based": "Delhi",
+   "summary": "Preparing climate action plans for Dhaka's two city corporations (2023).",
+   "summary_claims": [
+    "c-dha-iclei"
+   ],
+   "site": "https://southasia.iclei.org/",
+   "coalition": null,
+   "activities": [
+    "dha-iclei"
+   ]
+  },
+  {
+   "aliases": [
+    "IWM"
+   ],
+   "unknowns": [
+    "Whether the study has been published."
+   ],
+   "outside": null,
+   "id": "iwm",
+   "network": "iwmbangladesh",
+   "name": "Institute of Water Modelling",
+   "type": "research",
+   "based": "Dhaka",
+   "summary": "Collected a year of heat data across the capital for the Department of Environment.",
+   "summary_claims": [
+    "c-dha-iwm"
+   ],
+   "site": "https://www.iwmbd.org/",
+   "coalition": null,
+   "activities": [
+    "dha-heat-map"
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [
+    "DNCC"
+   ],
+   "id": "dncc",
+   "network": "dncc",
+   "name": "Dhaka North City Corporation",
+   "role": "Appointed a Chief Heat Officer in 2023; runs water booths and greening plans.",
+   "claims": [
+    "c-dha-cho",
+    "c-dha-water",
+    "c-dha-green"
+   ]
+  },
+  {
+   "aliases": [
+    "DoE"
+   ],
+   "id": "doe",
+   "network": null,
+   "name": "Department of Environment, Bangladesh",
+   "role": "Oversees the city heat mapping study that is to inform a proposed Heat Action Plan.",
+   "claims": [
+    "c-dha-iwm"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [
+    [
+     "ifrc",
+     "funded the activation"
+    ]
+   ],
+   "people": [
+    "Older people",
+    "Outdoor workers",
+    "Slum residents"
+   ],
+   "start": "2024-04",
+   "outputs": [
+    "Activated 21 April 2024",
+    "Three cooling stations"
+   ],
+   "outcomes": [],
+   "evaluation": "A post-activation report exists but was not read for this profile.",
+   "equity": {
+    "receiving": "Elderly people, outdoor workers and other vulnerable residents in six areas."
+   },
+   "related": [],
+   "id": "dha-eap",
+   "title": "Red Crescent early action for heatwaves",
+   "desc": "A protocol that releases money and action once a heat forecast crosses a threshold. In April 2024 it was activated for the first time: cash grants, cooling stations at three locations, ambulance support, early warnings and drinking water.",
+   "lead": "bdrcs",
+   "place": "Adabor, Gendaria, Kamrangir Char, Lalbagh, Mohammadpur and Pallabi; warnings city-wide",
+   "precision": "neighbourhoods",
+   "status": "completed",
+   "season": "April 2024",
+   "themes": [
+    "risk",
+    "health",
+    "water",
+    "workers"
+   ],
+   "claims": [
+    "c-dha-eap",
+    "c-dha-eap-actions",
+    "c-dha-eap-ah",
+    "c-dha-eap-cc"
+   ],
+   "evidence": "own",
+   "last": "2024-04"
+  },
+  {
+   "collaborators": [
+    [
+     "grc",
+     "partner"
+    ],
+    [
+     "drc",
+     "partner"
+    ]
+   ],
+   "people": [
+    "Low-income workers"
+   ],
+   "start": null,
+   "outputs": [
+    "Not documented"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "equity": {},
+   "related": [],
+   "id": "dha-urban-rc",
+   "title": "Urban heat support with the German and Danish Red Cross",
+   "desc": "Work with urban working-class people, with planned healthcare and cash grants for vulnerable families.",
+   "lead": "bdrcs",
+   "place": "Dhaka",
+   "precision": "city",
+   "status": "planned",
+   "themes": [
+    "health",
+    "workers"
+   ],
+   "claims": [
+    "c-dha-rc23"
+   ],
+   "evidence": "independent",
+   "last": "2023-07"
+  },
+  {
+   "collaborators": [
+    [
+     "crc",
+     "initiative partner"
+    ],
+    [
+     "shakti",
+     "local partner"
+    ]
+   ],
+   "people": [
+    "Residents",
+    "Low-income neighbourhoods"
+   ],
+   "start": "2023-05",
+   "outputs": [
+    "100 water booths (July 2023)",
+    "Rooftop garden tax incentive approved"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "equity": {},
+   "related": [],
+   "id": "dha-cho",
+   "title": "Chief Heat Officer and city heat measures",
+   "desc": "A Chief Heat Officer to lead Dhaka North's heat response, with 100 water booths, planned cooling zones, tree planting, parks and a tax incentive for rooftop gardens.",
+   "lead": "dncc",
+   "place": "Dhaka North",
+   "precision": "corporation",
+   "status": "underway",
+   "themes": [
+    "water",
+    "nature"
+   ],
+   "claims": [
+    "c-dha-cho",
+    "c-dha-water",
+    "c-dha-green"
+   ],
+   "evidence": "both",
+   "last": "2023-07"
+  },
+  {
+   "collaborators": [],
+   "people": [],
+   "start": null,
+   "outputs": [
+    "Not documented"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {},
+   "related": [],
+   "id": "dha-iclei",
+   "title": "Climate action plans for both city corporations",
+   "desc": "Climate action plans for Dhaka North and Dhaka South.",
+   "lead": "iclei",
+   "place": "Dhaka North and Dhaka South",
+   "precision": "city",
+   "status": "underway",
+   "themes": [
+    "risk"
+   ],
+   "claims": [
+    "c-dha-iclei"
+   ],
+   "evidence": "independent",
+   "last": "2023-07"
+  },
+  {
+   "collaborators": [
+    [
+     "doe",
+     "the study is conducted under it"
+    ]
+   ],
+   "people": [],
+   "start": "2024-04",
+   "outputs": [
+    "One year of data"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable.",
+   "equity": {},
+   "related": [],
+   "id": "dha-heat-map",
+   "title": "City heat mapping for a proposed Heat Action Plan",
+   "desc": "A year of microclimate data from more than 20 points (parks, slums, water bodies and built-up areas) to inform a proposed Heat Action Plan and the National Adaptation Plan.",
+   "lead": "iwm",
+   "place": "More than 20 points across the capital",
+   "precision": "sites",
+   "status": "underway",
+   "themes": [
+    "risk"
+   ],
+   "claims": [
+    "c-dha-iwm"
+   ],
+   "evidence": "independent",
+   "last": "2025-07"
+  }
+ ],
+ "extra_orgs": [
+  {
+   "id": "grc",
+   "name": "German Red Cross",
+   "role": "Partner of the Bangladesh Red Crescent",
+   "network": null
+  },
+  {
+   "id": "drc",
+   "name": "Danish Red Cross",
+   "role": "Partner of the Bangladesh Red Crescent",
+   "network": null
+  }
+ ],
+ "tools": [],
+ "money": [
+  {
+   "id": "m-dha-dref",
+   "label": "CHF 499,930",
+   "amount": 499930,
+   "unit": "Swiss francs",
+   "what": "The April 2024 heatwave early actions in Dhaka",
+   "who": "ifrc",
+   "stage": "approved",
+   "stage_note": "From the IFRC's Disaster Response Emergency Fund, as stated at activation; spending is in the post-activation report, not read here.",
+   "date": "2024-04-21",
+   "heat": "yes",
+   "parent": null,
+   "claims": [
+    "c-dha-eap"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2023-05",
+   "kind": "authority",
+   "text": "Dhaka North appoints a Chief Heat Officer.",
+   "claims": [
+    "c-dha-cho"
+   ]
+  },
+  {
+   "date": "2024-04-21",
+   "kind": "delivery",
+   "text": "The Red Crescent activates its heatwave early action protocol for the first time.",
+   "claims": [
+    "c-dha-eap"
+   ]
+  },
+  {
+   "date": "2024-04",
+   "kind": "event",
+   "text": "City heat data collection begins at more than 20 points.",
+   "claims": [
+    "c-dha-iwm"
+   ]
+  }
+ ],
+ "gaps": [
+  "Dhaka South City Corporation's heat work was not found in the sources reviewed.",
+  "Whether the proposed Heat Action Plan has been drafted.",
+  "What the Chief Heat Officer's office has delivered since 2023; most reporting found is from 2023.",
+  "Bangla-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [
+  {
+   "text": "People targeted by the April 2024 early actions: 123,700 (Anticipation Hub) or 124,000 (Climate Centre).",
+   "claims": [
+    "c-dha-eap-ah",
+    "c-dha-eap-cc"
+   ]
+  }
+ ],
+ "start_here": [
+  {
+   "who": "A humanitarian or city team",
+   "text": "The early action protocol is a tested way to release cash and cooling before the worst day.",
+   "ref": [
+    "dha-eap"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

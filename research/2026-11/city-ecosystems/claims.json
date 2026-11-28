@@ -1,0 +1,1741 @@
+{
+ "about": "City heat ecosystem profiles for Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu (/cities/<city>/who-is-doing-what/), November 2026. Each claim is tied to the exact words its source has to hold; stage.js stages the sources in data/inbox/2026-11-city-ecosystems/, verify-sources.yml checks them, and gate.js writes confirmed.json. Only confirmed claims reach the pages. Researched 28 November 2026 from public sources only; no organisation was contacted. After the first check (28 November 2026): Asia News Network refused the checker, so the Kathmandu worker survey claim is restaged on the original Kathmandu Post article.",
+ "sources": [
+  {
+   "key": "ahm-dte",
+   "title": "Beyond the thermometer: Ahmedabad uses cool roofs, misting bus stops and heat insurance for climate resilience",
+   "publisher": "Down To Earth",
+   "year": 2025,
+   "url": "https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-ahmedabad-uses-cool-roofs-misting-bus-stops-heat-insurance-for-climate-resilience",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "ahm-nrdc",
+   "title": "New Cool Roof Programs in India: Ahmedabad (Part 2)",
+   "publisher": "NRDC",
+   "year": 2019,
+   "url": "https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2",
+   "kind": "blog (partner organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "ahm-whof",
+   "title": "In India, a Plan to Beat the Heat Is Saving Lives",
+   "publisher": "WHO Foundation",
+   "year": 2024,
+   "url": "https://www.who.foundation/post/in-india-a-plan-to-beat-the-heat-is-saving-lives",
+   "kind": "feature",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "mum-scroll",
+   "title": "Hit by heatwave, Mumbai is ignoring a quick fix to cool off: keeping parks open in the afternoon",
+   "publisher": "Scroll",
+   "year": 2025,
+   "url": "https://scroll.in/article/1080066/hit-by-heatwave-mumbai-is-ignoring-a-quick-fix-to-cool-off-keeping-parks-open-in-the-afternoon",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "mum-ms",
+   "title": "Big budgets and plans but Mumbai's climate preparedness misses the margins",
+   "publisher": "The Migration Story",
+   "year": 2025,
+   "url": "https://themigrationstory.com/post/big-budgets-and-plans-but-mumbais-climate-preparedness-misses-the-margins/",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "mum-udri",
+   "title": "Mumbai Heat Risk: Summary",
+   "publisher": "Urban Design Research Institute (library)",
+   "year": null,
+   "url": "https://udri.org/library/mumbai-heat-risk-summary/",
+   "kind": "library record of a BMC document",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "mum-cm",
+   "title": "Heat waves a real and present threat (Mumbai climate action)",
+   "publisher": "Citizen Matters",
+   "year": 2024,
+   "url": "https://citizenmatters.in/mcap-climate-change-heat-mumbai/",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "del-print",
+   "title": "What Delhi govt's 2025 Heat Action Plan promises and what it misses",
+   "publisher": "ThePrint",
+   "year": 2025,
+   "url": "https://theprint.in/environment/what-delhi-govts-2025-heat-action-plan-promises-what-it-misses/2601632",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "del-nl",
+   "title": "Good measures, poor implementation, no legal teeth: Can Delhi's heat action plan face the heat?",
+   "publisher": "Newslaundry",
+   "year": 2025,
+   "url": "https://www.newslaundry.com/2025/04/25/good-measures-poor-implementation-no-legal-teeth-can-delhis-heat-action-plan-face-the-heat",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "del-cse",
+   "title": "No time (and money) to cool: Delhi's vulnerable seek priority relief from rising heat",
+   "publisher": "Down To Earth (authors from CSE)",
+   "year": 2025,
+   "url": "https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat",
+   "kind": "analysis (research organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "del-iifiir",
+   "title": "India: Delhi government unveils its Heat Action Plan (HAP) 2025",
+   "publisher": "International Institute of Refrigeration",
+   "year": 2025,
+   "url": "https://iifiir.org/en/news/india-delhi-government-unveils-its-heat-action-plan-hap-2025",
+   "kind": "news summary",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "del-wiego",
+   "title": "Heatwave cuts working hours for 90 per cent of Delhi street vendors, survey finds",
+   "publisher": "Down To Earth",
+   "year": 2026,
+   "url": "https://www.downtoearth.org.in/governance/heatwave-cuts-working-hours-for-90-per-cent-of-delhi-street-vendors-survey-finds",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "del-mongabay",
+   "title": "When heat rises, incomes fall for the informal workforce",
+   "publisher": "Mongabay India",
+   "year": 2025,
+   "url": "https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "del-gp",
+   "title": "New report by Greenpeace India and National Hawkers Federation reveals harsh heatwave toll on street vendors",
+   "publisher": "Greenpeace India",
+   "year": 2024,
+   "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+   "kind": "press release (author organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "che-roofs",
+   "title": "Chennai Corporation expands cool roof initiative to 55 schools",
+   "publisher": "DT Next",
+   "year": 2026,
+   "url": "https://www.dtnext.in/news/chennai/chennai-corporation-expands-cool-roof-initiative-to-55-schools-2",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "che-ceew",
+   "title": "GCC partners with CEEW to boost city's extreme heat resilience",
+   "publisher": "DT Next",
+   "year": 2026,
+   "url": "https://www.dtnext.in/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "che-un",
+   "title": "Amid scorching temperatures, India turns to ideas both old and new to beat the heat",
+   "publisher": "United Nations in India (from UNEP)",
+   "year": 2025,
+   "url": "https://india.un.org/en/node/295625",
+   "kind": "feature (partner organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "hyd-print",
+   "title": "With scheme for cool roofs that absorb less sunlight, Telangana wages battle on urban warming",
+   "publisher": "ThePrint",
+   "year": 2023,
+   "url": "https://theprint.in/india/governance/with-scheme-for-cool-roofs-that-absorb-less-sunlight-telangana-wages-battle-on-urban-warming/1494284",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "hyd-nrdc23",
+   "title": "Telangana Announces a Groundbreaking Cool Roof Policy",
+   "publisher": "NRDC",
+   "year": 2023,
+   "url": "https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy",
+   "kind": "blog (partner organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "hyd-nrdc18",
+   "title": "Keeping It Cool: Models for City Cool Roof Programs",
+   "publisher": "NRDC",
+   "year": 2018,
+   "url": "https://www.nrdc.org/bio/anjali-jaiswal/keeping-it-cool-models-city-cool-roof-programs",
+   "kind": "blog (partner organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "hyd-iiit",
+   "title": "A for AC, B for Building, C for Cool Roof",
+   "publisher": "IIIT Hyderabad",
+   "year": 2019,
+   "url": "https://blogs.iiit.ac.in/?p=9890",
+   "kind": "blog (research organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "hyd-tnm",
+   "title": "Telangana has a Heatwave Action Plan, but does it meet people's needs?",
+   "publisher": "The News Minute",
+   "year": 2025,
+   "url": "https://www.thenewsminute.com/telangana/telangana-has-a-heatwave-action-plan-but-does-it-meet-peoples-needs",
+   "kind": "analysis",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "hyd-dc",
+   "title": "GHMC Rolls Out Summer Heatwave Plan",
+   "publisher": "Deccan Chronicle",
+   "year": 2026,
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "bbs-otv",
+   "title": "Bhubaneswar to face extreme heat, sevenfold rise in AC demand by 2050; BMC unveils action plan",
+   "publisher": "OdishaTV",
+   "year": 2025,
+   "url": "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "bbs-omm",
+   "title": "Bhubaneswar Launches Action Plan To Beat Rising Heat And Cooling Demands",
+   "publisher": "Ommcom News",
+   "year": 2025,
+   "url": "https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "bbs-irade",
+   "title": "Climate Adaptive Heat Action Plan for Bhubaneswar",
+   "publisher": "IRADe, on the Global Heat Health Information Network",
+   "year": 2020,
+   "url": "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf",
+   "kind": "plan document",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "kol-dte",
+   "title": "It has been a sizzling April for Kolkata; combination of climate change, urbanisation pushing city beyond tipping point",
+   "publisher": "Down To Earth",
+   "year": 2024,
+   "url": "https://www.downtoearth.org.in/news/climate-change/it-has-been-a-sizzling-april-for-kolkata-combination-of-climate-change-urbanisation-pushing-city-beyond-tipping-point-95939",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "kol-eco",
+   "title": "Why India's heat action plans aren't cooling cities",
+   "publisher": "Eco-Business (from Context, Thomson Reuters Foundation)",
+   "year": 2025,
+   "url": "https://www.eco-business.com/ms/news/why-indias-heat-action-plans-arent-cooling-cities/",
+   "kind": "news report",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "kol-wbhap",
+   "title": "Heat Wave Action Plan, West Bengal",
+   "publisher": "Government of West Bengal, on the Global Heat Health Information Network",
+   "year": 2023,
+   "url": "https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf",
+   "kind": "plan document",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "kol-cse",
+   "title": "Kolkata heat vulnerability assessment",
+   "publisher": "Centre for Science and Environment",
+   "year": null,
+   "url": "https://cdn.cseindia.org/attachments/0.91719500_1772510583_kolkata-va.pdf",
+   "kind": "report (research organisation)",
+   "where": "India",
+   "expect": []
+  },
+  {
+   "key": "dha-crc",
+   "title": "Dhaka North becomes the first city in Asia to appoint a Chief Heat Officer",
+   "publisher": "Atlantic Council Climate Resilience Center (then Arsht-Rock)",
+   "year": 2023,
+   "url": "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/",
+   "kind": "announcement (partner organisation)",
+   "where": "Bangladesh",
+   "expect": []
+  },
+  {
+   "key": "dha-eco",
+   "title": "Can new Bangladesh chief heat officer bring relief to Dhaka?",
+   "publisher": "Eco-Business (from Thomson Reuters Foundation)",
+   "year": 2023,
+   "url": "https://www.eco-business.com/ms/news/can-new-bangladesh-chief-heat-officer-bring-relief-to-dhaka/",
+   "kind": "news report",
+   "where": "Bangladesh",
+   "expect": []
+  },
+  {
+   "key": "dha-cc",
+   "title": "First-ever Bangladesh Red Crescent activation of early action protocol for heatwave",
+   "publisher": "Red Cross Red Crescent Climate Centre",
+   "year": 2024,
+   "url": "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/",
+   "kind": "news (partner organisation)",
+   "where": "Bangladesh",
+   "expect": []
+  },
+  {
+   "key": "dha-ah",
+   "title": "The Bangladesh Red Crescent Society activates its Early Action Protocol for Heatwaves in Dhaka",
+   "publisher": "Anticipation Hub",
+   "year": 2024,
+   "url": "https://anticipation-hub.org/news/the-bangladesh-red-crescent-society-activates-its-early-action-protocol-for-heatwaves-in-dhaka",
+   "kind": "news (partner network)",
+   "where": "Bangladesh",
+   "expect": []
+  },
+  {
+   "key": "dha-fe",
+   "title": "A data-driven push to beat urban boil",
+   "publisher": "The Financial Express",
+   "year": 2025,
+   "url": "https://today.thefinancialexpress.com.bd/print/a-data-driven-push-to-beat-urban-boil-1753202222",
+   "kind": "news report",
+   "where": "Bangladesh",
+   "expect": []
+  },
+  {
+   "key": "ktm-post25",
+   "title": "The growing risks of extreme heat",
+   "publisher": "The Kathmandu Post (column by UN-Habitat Nepal staff)",
+   "year": 2025,
+   "url": "https://kathmandupost.com/columns/2025/06/17/the-growing-risks-of-extreme-heat",
+   "kind": "opinion column",
+   "where": "Nepal",
+   "expect": []
+  },
+  {
+   "key": "ktm-ae",
+   "title": "Addressing the UHI effect in Kathmandu",
+   "publisher": "The Annapurna Express",
+   "year": 2024,
+   "url": "https://theannapurnaexpress.com/story/50434",
+   "kind": "cover story",
+   "where": "Nepal",
+   "expect": []
+  },
+  {
+   "key": "ktm-post26",
+   "title": "Extreme heat threatens Nepal's economy as warming accelerates",
+   "publisher": "The Kathmandu Post",
+   "year": 2026,
+   "url": "https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates",
+   "kind": "news report",
+   "where": "Nepal",
+   "expect": []
+  },
+  {
+   "key": "ktm-ann",
+   "title": "Adverse weather adds to informal workers' stress in Kathmandu",
+   "publisher": "The Kathmandu Post",
+   "year": 2026,
+   "url": "https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu",
+   "kind": "news report",
+   "where": "Nepal",
+   "expect": []
+  },
+  {
+   "key": "ktm-ijurr",
+   "title": "Why focus on heat? A silent disaster unfolding in Nepal",
+   "publisher": "IJURR Spotlight On",
+   "year": 2023,
+   "url": "https://www.ijurr.org/spotlight-on/extreme-heat/why-focus-on-heat-a-silent-disaster-unfolding-in-nepal/",
+   "kind": "essay (researchers)",
+   "where": "Nepal",
+   "expect": []
+  }
+ ],
+ "claims": [
+  {
+   "id": "c-ahm-hap2013",
+   "where": "Ahmedabad",
+   "text": "In 2013 Ahmedabad became the first city in South Asia to launch its own Heat Action Plan, which includes an early warning system and awareness campaigns.",
+   "rests_on": [
+    [
+     "ahm-whof",
+     "first city in South Asia to launch its own Heat Action Plan"
+    ],
+    [
+     "ahm-whof",
+     "In 2013"
+    ],
+    [
+     "ahm-whof",
+     "early-warning system"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-eval",
+   "where": "Ahmedabad",
+   "text": "An evaluation by researchers, cited by the WHO Foundation, found the plan helped save 1,190 lives every year in its first five years.",
+   "rests_on": [
+    [
+     "ahm-whof",
+     "1,190 lives every year"
+    ],
+    [
+     "ahm-whof",
+     "evaluation by researchers"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-2010",
+   "where": "Ahmedabad",
+   "text": "NRDC writes that after the 2010 heat wave, experts estimated that heat contributed to more than 1,000 deaths in the city.",
+   "rests_on": [
+    [
+     "ahm-nrdc",
+     "heat contributed to more than 1,000 deaths"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-pilot",
+   "where": "Ahmedabad",
+   "text": "In 2017 the Ahmedabad Municipal Corporation piloted cool roofs on over 3,000 low-income homes as part of the Heat Action Plan, with NRDC, IIPH Gandhinagar and Mahila Housing Trust as partners, using white lime paint; NRDC gives a total programme cost of ₹700,000 for 2017.",
+   "rests_on": [
+    [
+     "ahm-nrdc",
+     "pilot cool roofs program for over 3,000 low income homes"
+    ],
+    [
+     "ahm-nrdc",
+     "Indian Institute of Public Health- Gandhinagar (IIPH-G) and Mahila Housing Trust (MHT)"
+    ],
+    [
+     "ahm-nrdc",
+     "white lime paint"
+    ],
+    [
+     "ahm-nrdc",
+     "₹700,000"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-pilot-team",
+   "where": "Ahmedabad",
+   "text": "NRDC says the pilot was carried out by city staff, over 50 volunteer students and local civil society groups, and engaged 20 to 25 real estate developers to apply cool roofs to private buildings voluntarily in 2018.",
+   "rests_on": [
+    [
+     "ahm-nrdc",
+     "over 50 volunteer students"
+    ],
+    [
+     "ahm-nrdc",
+     "20-25 local real estate developers"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-citywide",
+   "where": "Ahmedabad",
+   "text": "In April 2019 NRDC reported the city was scaling up to a city-wide cool roof programme and meeting stakeholders on the draft.",
+   "rests_on": [
+    [
+     "ahm-nrdc",
+     "scaling up to a city-wide cool roof program"
+    ],
+    [
+     "ahm-nrdc",
+     "stakeholder meeting"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-mht-roofs",
+   "where": "Ahmedabad",
+   "text": "Mahila Housing Trust runs a Cool Roofs Initiative within the city's Heat Action Plan, painting the roofs of low-income homes with heat-reflective paint; in June 2025 Down To Earth reported that the Ahmedabad Municipal Corporation had included cool roofs in the plan.",
+   "rests_on": [
+    [
+     "ahm-whof",
+     "Cool Roofs Initiative"
+    ],
+    [
+     "ahm-whof",
+     "heat-reflective paint"
+    ],
+    [
+     "ahm-dte",
+     "Ahmedabad Municipal Corporation (AMC) has included this"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-busstop",
+   "where": "Ahmedabad",
+   "text": "With the Ahmedabad Municipal Corporation, Mahila Housing Trust installed a high-pressure misting system at the Lal Darwaza bus stop; Mahila Housing Trust says waiting passengers get at least 4 to 7°C of relief.",
+   "rests_on": [
+    [
+     "ahm-dte",
+     "Cool Bus Stop"
+    ],
+    [
+     "ahm-dte",
+     "Lal Darwaza"
+    ],
+    [
+     "ahm-dte",
+     "high-pressure misting system"
+    ],
+    [
+     "ahm-dte",
+     "4-7°C"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-insurance",
+   "where": "Ahmedabad",
+   "text": "Mahila Housing Trust offers women in informal work a heat insurance launched in April 2024 that pays out automatically when temperatures cross set thresholds; in May 2024 a threshold was crossed and payouts followed.",
+   "rests_on": [
+    [
+     "ahm-whof",
+     "In April 2024"
+    ],
+    [
+     "ahm-whof",
+     "heat insurance policy"
+    ],
+    [
+     "ahm-dte",
+     "parametric"
+    ],
+    [
+     "ahm-dte",
+     "In May 2024, the lower threshold was breached"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-ins-dte",
+   "where": "Ahmedabad",
+   "text": "Down To Earth (June 2025) describes two thresholds, 43.7°C and 44.1°C, paying Rs 750 and a further Rs 1,250, up to Rs 2,000 a year for an annual premium of Rs 354.",
+   "rests_on": [
+    [
+     "ahm-dte",
+     "43.7°C and 44.1°C"
+    ],
+    [
+     "ahm-dte",
+     "Rs 750"
+    ],
+    [
+     "ahm-dte",
+     "Rs 1,250"
+    ],
+    [
+     "ahm-dte",
+     "annual premium of Rs 354"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-ins-who",
+   "where": "Ahmedabad",
+   "text": "The WHO Foundation (September 2024) describes one trigger of 44.2 ºC and up to 2,000 rupees a season.",
+   "rests_on": [
+    [
+     "ahm-whof",
+     "44.2"
+    ],
+    [
+     "ahm-whof",
+     "2,000 Indian rupees"
+    ]
+   ]
+  },
+  {
+   "id": "c-ahm-parks",
+   "where": "Ahmedabad",
+   "text": "Scroll reported in March 2025 that Ahmedabad keeps its 293 parks open from 6 am to 11 pm for shade, has put up 120 heatstroke signboards and holds weekly meetings of all departments on the plan.",
+   "rests_on": [
+    [
+     "mum-scroll",
+     "293 parks open from 6 am till 11 pm"
+    ],
+    [
+     "mum-scroll",
+     "120 signboards"
+    ],
+    [
+     "mum-scroll",
+     "weekly meetings of all departments"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-hap",
+   "where": "Delhi",
+   "text": "The Government of Delhi launched the Delhi Heat Action Plan 2025 on 21 April 2025, with a city-wide early warning system developed with the IMD to issue graded alerts and special air-conditioned units in hospitals for heatstroke.",
+   "rests_on": [
+    [
+     "del-iifiir",
+     "21 April 2025"
+    ],
+    [
+     "del-iifiir",
+     "early warning system developed with IMD"
+    ],
+    [
+     "del-iifiir",
+     "air-conditioned units"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-coolers",
+   "where": "Delhi",
+   "text": "The plan promised nearly 3,000 water coolers, cooling shelters on roads, shaded footpaths and green roofs, and the recruitment of Aapda Mitra disaster volunteers.",
+   "rests_on": [
+    [
+     "del-print",
+     "nearly 3,000 water coolers"
+    ],
+    [
+     "del-print",
+     "Aapda Mitras"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-ndma",
+   "where": "Delhi",
+   "text": "ThePrint reported that the Delhi government was working with the IMD and the NDMA on the plan.",
+   "rests_on": [
+    [
+     "del-print",
+     "IMD"
+    ],
+    [
+     "del-print",
+     "NDMA"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-roofs",
+   "where": "Delhi",
+   "text": "The plan floated cool roof pilots at the Delhi Secretariat, Kashmere Gate ISBT and Anand Vihar ISBT.",
+   "rests_on": [
+    [
+     "del-cse",
+     "Delhi Secretariat, Kashmere Gate ISBT and Anand Vihar ISBT"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-slum-roofs",
+   "where": "Delhi",
+   "text": "The plan includes a pilot of white roof painting, or gunny bags for tin and asbestos roofs, in slums; a housing rights worker told Newslaundry in April 2025 that no such action had been implemented as far as they knew.",
+   "rests_on": [
+    [
+     "del-nl",
+     "pilot project on roof painting with white colour"
+    ],
+    [
+     "del-nl",
+     "No such actions as far as I know have been implemented"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-dtc",
+   "where": "Delhi",
+   "text": "The plan asks the Delhi Transport Corporation to provide bus shelters with drinking water; a union leader told Newslaundry none of the measures were in action.",
+   "rests_on": [
+    [
+     "del-nl",
+     "bus shelters with drinking facilities"
+    ],
+    [
+     "del-nl",
+     "None of the measures mentioned are in action"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-sdrf",
+   "where": "Delhi",
+   "text": "Newslaundry reported that heat is not among the notified disasters, so Delhi cannot draw on its State Disaster Response Fund for heat, although that fund rose from Rs 300 lakh in 2024-25 to Rs 2,500 lakh in 2025-26.",
+   "rests_on": [
+    [
+     "del-nl",
+     "Rs 300 lakh"
+    ],
+    [
+     "del-nl",
+     "Rs 2,500 lakh"
+    ],
+    [
+     "del-nl",
+     "SDRF"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-cse",
+   "where": "Delhi",
+   "text": "A Centre for Science and Environment analysis found almost 76 per cent of Delhi facing heat stress in summer months over 2015 to 2024, and rated Matiala the only ward of very high vulnerability.",
+   "rests_on": [
+    [
+     "del-cse",
+     "almost 76 per cent of Delhi"
+    ],
+    [
+     "del-cse",
+     "Matiala"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-wiego",
+   "where": "Delhi",
+   "text": "A two-round survey by WIEGO found 90 per cent of Delhi street vendors cut their working hours in the 2025 heatwave; none of 17 major markets mapped had a municipal water point, and fewer than one-third of vendors received timely heat alerts.",
+   "rests_on": [
+    [
+     "del-wiego",
+     "90 per cent"
+    ],
+    [
+     "del-wiego",
+     "17 major markets across Delhi"
+    ],
+    [
+     "del-wiego",
+     "none of the markets had a municipal water point"
+    ],
+    [
+     "del-wiego",
+     "Less than one-third of vendors reported receiving timely heat alerts"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-wiego-sewa",
+   "where": "Delhi",
+   "text": "The same survey found some women vendors had better support through organisations such as SEWA, and that borrowing among vendors doubled between the two rounds.",
+   "rests_on": [
+    [
+     "del-wiego",
+     "SEWA"
+    ],
+    [
+     "del-wiego",
+     "Overall borrowing among vendors doubled"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-gp",
+   "where": "Delhi",
+   "text": "Greenpeace India and the National Hawkers Federation surveyed over 700 Delhi street vendors; 49.27% reported lost income during heatwaves, and the report urged the Delhi Heat Action Plan authority to consult vendors and other outdoor workers.",
+   "rests_on": [
+    [
+     "del-gp",
+     "over 700 street vendors"
+    ],
+    [
+     "del-gp",
+     "49.27%"
+    ],
+    [
+     "del-gp",
+     "consult with vendors and other outdoor workers"
+    ],
+    [
+     "del-gp",
+     "National Hawkers Federation"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-earnings",
+   "where": "Delhi",
+   "text": "A study of 396 workers in two Delhi informal settlements found their earnings were 40% lower on the hottest days.",
+   "rests_on": [
+    [
+     "del-mongabay",
+     "396 workers living in two informal settlements in Delhi"
+    ],
+    [
+     "del-mongabay",
+     "earnings were 40% lower"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-mht",
+   "where": "Delhi",
+   "text": "Mahila Housing Trust, with the Energy Policy Institute at the University of Chicago and the University of Chicago Energy and Environment Lab, has studied whether heat-reflective roof paint lowers indoor temperatures in Delhi.",
+   "rests_on": [
+    [
+     "del-mongabay",
+     "Energy Policy Institute at the University of Chicago (EPIC-India)"
+    ],
+    [
+     "del-mongabay",
+     "heat-reflective paint on roofs"
+    ]
+   ]
+  },
+  {
+   "id": "c-del-igsss",
+   "where": "Delhi",
+   "text": "IGSSS fitted thirty Delhi houses with wall panels in a pilot run between April 2022 and March 2023.",
+   "rests_on": [
+    [
+     "del-mongabay",
+     "IGSSS"
+    ],
+    [
+     "del-mongabay",
+     "Thirty houses were fitted with the panels on the walls"
+    ],
+    [
+     "del-mongabay",
+     "between April 2022 and March 2023"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-mcap",
+   "where": "Mumbai",
+   "text": "The Brihanmumbai Municipal Corporation launched the Mumbai Climate Action Plan in 2022; drafted by the World Resources Institute, it treats heatwaves under urban heat.",
+   "rests_on": [
+    [
+     "mum-ms",
+     "Mumbai Climate Action Plan (MCAP) in 2022"
+    ],
+    [
+     "mum-cm",
+     "Drafted by the World Resources Institute"
+    ],
+    [
+     "mum-cm",
+     "heatwaves under urban heat"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-stalled",
+   "where": "Mumbai",
+   "text": "Citizen Matters reported in August 2024 that little had moved on the plan since the change in power.",
+   "rests_on": [
+    [
+     "mum-cm",
+     "little has moved since the change in power"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-cell",
+   "where": "Mumbai",
+   "text": "The corporation set up a Climate Action Cell with WRI India; in June 2025 only four of its 41 sanctioned positions were filled.",
+   "rests_on": [
+    [
+     "mum-ms",
+     "Climate Action Cell with WRI India"
+    ],
+    [
+     "mum-ms",
+     "only four out of total 41 sanctioned positions"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-budget",
+   "where": "Mumbai",
+   "text": "The corporation's second climate budget was Rs 17,000 crores, 37% of its capital expenditure, and it reported 86.26% financial progress on its 2024-25 climate budget.",
+   "rests_on": [
+    [
+     "mum-ms",
+     "Rs 17,000 crores"
+    ],
+    [
+     "mum-ms",
+     "37% of its capital expenditure"
+    ],
+    [
+     "mum-ms",
+     "86.26% financial progress"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-lst",
+   "where": "Mumbai",
+   "text": "Informal settlements in Mumbai show land surface temperatures 5 to 8 degrees higher than neighbouring areas.",
+   "rests_on": [
+    [
+     "mum-ms",
+     "land surface temperatures 5-8 degrees higher"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-pathway",
+   "where": "Mumbai",
+   "text": "The corporation, supported by C40 Cities and Tarutium Global Consulting, developed an implementation pathway on heat targeting building-sector hotspots, using baseline assessments and ground-truthing in three areas; it covers reflective materials and nature-based solutions and outlines protections for construction workers.",
+   "rests_on": [
+    [
+     "mum-udri",
+     "BMC, supported by C40 Cities and Tarutium Global Consulting, developed an implementation pathway"
+    ],
+    [
+     "mum-udri",
+     "ground-truthing in three areas"
+    ],
+    [
+     "mum-udri",
+     "reflective materials"
+    ],
+    [
+     "mum-udri",
+     "protections for construction workers"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-parks",
+   "where": "Mumbai",
+   "text": "Scroll reported in March 2025 that the city's 1,000-plus parks, gardens and playgrounds stay shut in the afternoon, open 5 am to 1 pm and 3 pm to 10 pm.",
+   "rests_on": [
+    [
+     "mum-scroll",
+     "1,000-plus parks"
+    ],
+    [
+     "mum-scroll",
+     "5 am to 1 pm and 3 pm to 10 pm"
+    ]
+   ]
+  },
+  {
+   "id": "c-mum-coalition",
+   "where": "Mumbai",
+   "text": "A volunteer group, the Heatwave action coalition, and cBalance, which designs low-cost ways to cool homes in slums, were named by Citizen Matters in August 2024.",
+   "rests_on": [
+    [
+     "mum-cm",
+     "Heatwave action coalition is a group of volunteers"
+    ],
+    [
+     "mum-cm",
+     "low cost innovations that lower the temperature in the houses in slums"
+    ]
+   ]
+  },
+  {
+   "id": "c-che-roofs",
+   "where": "Chennai",
+   "text": "A cool roof programme for schools is being expanded to 55 schools in Chennai, 49 Corporation schools and six government schools, implemented through the TN Green Climate Company with UNEP under the TN Climate Change Mission; work was already complete in five government schools in June 2026.",
+   "rests_on": [
+    [
+     "che-roofs",
+     "55 schools"
+    ],
+    [
+     "che-roofs",
+     "49 Corporation schools and six government schools"
+    ],
+    [
+     "che-roofs",
+     "TN Green Climate Company (TNGCC)"
+    ],
+    [
+     "che-roofs",
+     "United Nations Environment Programme (UNEP)"
+    ],
+    [
+     "che-roofs",
+     "Work has already been completed in five government schools"
+    ]
+   ]
+  },
+  {
+   "id": "c-che-training",
+   "where": "Chennai",
+   "text": "The Greater Chennai Corporation trained teachers and headmasters for the programme, which targets schools in areas vulnerable to high temperatures.",
+   "rests_on": [
+    [
+     "che-roofs",
+     "training programme for teachers and headmasters"
+    ],
+    [
+     "che-roofs",
+     "vulnerable to high temperatures"
+    ]
+   ]
+  },
+  {
+   "id": "c-che-ceew",
+   "where": "Chennai",
+   "text": "The Greater Chennai Corporation and CEEW signed a memorandum of understanding on extreme heat risk management in July 2026; a Project Management Unit is to prioritise heat mitigation in heat-vulnerable wards and zones and prepare Detailed Project Reports.",
+   "rests_on": [
+    [
+     "che-ceew",
+     "Memorandum of Understanding (MoU)"
+    ],
+    [
+     "che-ceew",
+     "extreme heat risk management"
+    ],
+    [
+     "che-ceew",
+     "Project Management Unit (PMU) will be established"
+    ],
+    [
+     "che-ceew",
+     "heat-vulnerable wards and zones"
+    ],
+    [
+     "che-ceew",
+     "Detailed Project Reports (DPRs)"
+    ]
+   ]
+  },
+  {
+   "id": "c-che-cept",
+   "where": "Chennai",
+   "text": "UNEP's Cool Coalition and CEPT University mapped the city's heat; their recommendations, projected to reduce urban heat by up to 4°C, are being integrated into the master plan.",
+   "rests_on": [
+    [
+     "che-un",
+     "CEPT University mapped the city"
+    ],
+    [
+     "che-un",
+     "These recommendations are being integrated into"
+    ],
+    [
+     "che-un",
+     "up to 4°C"
+    ]
+   ]
+  },
+  {
+   "id": "c-che-funders",
+   "where": "Chennai",
+   "text": "That work was supported by the Swiss Agency for Development and Cooperation, the Government of Denmark, the Clean Cooling Collaborative and the World Bank.",
+   "rests_on": [
+    [
+     "che-un",
+     "Swiss Agency for Development and Cooperation"
+    ],
+    [
+     "che-un",
+     "the Government of Denmark"
+    ],
+    [
+     "che-un",
+     "Clean Cooling Collaborative"
+    ]
+   ]
+  },
+  {
+   "id": "c-che-disaster",
+   "where": "Chennai",
+   "text": "Tamil Nadu's government has declared heat a disaster.",
+   "rests_on": [
+    [
+     "che-un",
+     "declared heat a disaster"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-pilot",
+   "where": "Hyderabad",
+   "text": "In 2017 the Greater Hyderabad Municipal Corporation, with ASCI, IIIT-H and NRDC, ran a cool roofs pilot on 25 city roofs in one low-income neighbourhood; indoor air was on average 2°C cooler and 76% of residents in the trial group were satisfied.",
+   "rests_on": [
+    [
+     "hyd-nrdc18",
+     "partnered with ASCI, IIIT-H, and NRDC"
+    ],
+    [
+     "hyd-nrdc18",
+     "25 city roofs in one low-income neighborhood"
+    ],
+    [
+     "hyd-nrdc18",
+     "average of 2°C"
+    ],
+    [
+     "hyd-nrdc18",
+     "76%"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-policy",
+   "where": "Hyderabad",
+   "text": "The Telangana Cool Roofs Policy 2023-2028 aims to convert roofs across 300 square kilometres of the state, 200 of them in Hyderabad, by 2028-29, starting with 5 sq km of Hyderabad in 2023-2024.",
+   "rests_on": [
+    [
+     "hyd-print",
+     "Telangana Cool Roofs Policy 2023-2028"
+    ],
+    [
+     "hyd-print",
+     "300 square kilometres"
+    ],
+    [
+     "hyd-print",
+     "200 sq km will be in Hyderabad"
+    ],
+    [
+     "hyd-print",
+     "5 sq km area of Hyderabad in 2023-2024"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-mandate",
+   "where": "Hyderabad",
+   "text": "NRDC wrote that the policy took effect on 1 April 2023, is built into building permit applications, makes cool roofs mandatory in government low-cost housing, and is to reach low-income homes through city Heat Action Plans.",
+   "rests_on": [
+    [
+     "hyd-nrdc23",
+     "effective from April 1"
+    ],
+    [
+     "hyd-nrdc23",
+     "building permit applications"
+    ],
+    [
+     "hyd-nrdc23",
+     "government low-cost housing"
+    ],
+    [
+     "hyd-nrdc23",
+     "through the Heat Action Plans"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-plot-nrdc",
+   "where": "Hyderabad",
+   "text": "NRDC gives the residential threshold as a plot area of 600 sq. m and above.",
+   "rests_on": [
+    [
+     "hyd-nrdc23",
+     "600 sq. m"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-plot-print",
+   "where": "Hyderabad",
+   "text": "ThePrint gives it as properties over 600 square yards.",
+   "rests_on": [
+    [
+     "hyd-print",
+     "600 square yards"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-partners",
+   "where": "Hyderabad",
+   "text": "The policy is led by Telangana's Municipal Administration and Urban Development Department; NRDC wrote that it and ASCI, IIIT-H and Plaksha University would work with the state on it.",
+   "rests_on": [
+    [
+     "hyd-nrdc23",
+     "Municipal Administration and Urban Development (MAUD)"
+    ],
+    [
+     "hyd-nrdc23",
+     "ASCI, IIIT-H, Plaksha University"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-iiit",
+   "where": "Hyderabad",
+   "text": "In 2019 IIIT Hyderabad was testing 20 samples of roof materials on rooftop racks over five years across four cities.",
+   "rests_on": [
+    [
+     "hyd-iiit",
+     "20 samples of different materials"
+    ],
+    [
+     "hyd-iiit",
+     "4 cities"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-hap",
+   "where": "Hyderabad",
+   "text": "Telangana released its Heatwave Action Plan 2025 on 2 May 2025, prepared by the Revenue (Disaster Management) Department with inputs from the IMD and UNICEF's Hyderabad field office; declaring heat a state disaster lets Telangana use 10% of its State Disaster Response Fund on heatwaves.",
+   "rests_on": [
+    [
+     "hyd-tnm",
+     "released its Heatwave Action Plan (HAP) for 2025 on May 2"
+    ],
+    [
+     "hyd-tnm",
+     "Hyderabad field office"
+    ],
+    [
+     "hyd-tnm",
+     "10% of the State Disaster Response Funds"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-trigger",
+   "where": "Hyderabad",
+   "text": "The News Minute reported that Hyderabad's relief measures start once temperatures cross 40°C, when the Greater Hyderabad Municipal Corporation and other departments act under the plan, and that the measures are directory, without legal backing.",
+   "rests_on": [
+    [
+     "hyd-tnm",
+     "breaching the 40-degree Celsius mark"
+    ],
+    [
+     "hyd-tnm",
+     "directory without any legal backing"
+    ]
+   ]
+  },
+  {
+   "id": "c-hyd-ghmc26",
+   "where": "Hyderabad",
+   "text": "For summer 2026 the Greater Hyderabad Municipal Corporation put in place a preparedness and mitigation plan: drinking water kiosks (chalivendrams), coordination with urban health centres and Basti Dawakhanas, medical camps at construction sites, and IMD heat warnings on digital boards at major junctions.",
+   "rests_on": [
+    [
+     "hyd-dc",
+     "preparedness and mitigation plan"
+    ],
+    [
+     "hyd-dc",
+     "chalivendrams (drinking water kiosks)"
+    ],
+    [
+     "hyd-dc",
+     "Basti Dawakhanas"
+    ],
+    [
+     "hyd-dc",
+     "medical camps have been organised at construction sites"
+    ],
+    [
+     "hyd-dc",
+     "digital boards at major traffic junctions"
+    ]
+   ]
+  },
+  {
+   "id": "c-bbs-ihcap",
+   "where": "Bhubaneswar",
+   "text": "In September 2025 the Bhubaneswar Municipal Corporation launched the city's first Integrated Heat and Cooling Action Plan, developed by iFOREST with the Singapore-ETH Centre.",
+   "rests_on": [
+    [
+     "bbs-otv",
+     "first Integrated Heat and Cooling Action Plan (IHCAP)"
+    ],
+    [
+     "bbs-otv",
+     "Singapore-ETH Centre (SEC)"
+    ],
+    [
+     "bbs-omm",
+     "International Forum for Environment, Sustainability and Technology (iFOREST)"
+    ]
+   ]
+  },
+  {
+   "id": "c-bbs-demand",
+   "where": "Bhubaneswar",
+   "text": "The plan projects that the city could face a sevenfold rise in cooling electricity demand by 2050.",
+   "rests_on": [
+    [
+     "bbs-otv",
+     "sevenfold rise in cooling electricity demand by 2050"
+    ]
+   ]
+  },
+  {
+   "id": "c-bbs-measures",
+   "where": "Bhubaneswar",
+   "text": "It calls for urban greening in all wards toward the WHO benchmark of nine square metres per person, and strict implementation of the Odisha Energy Conservation Building Codes.",
+   "rests_on": [
+    [
+     "bbs-omm",
+     "expansion of urban greening in all wards"
+    ],
+    [
+     "bbs-otv",
+     "nine square metres per person"
+    ],
+    [
+     "bbs-otv",
+     "Odisha Energy Conservation Building Codes"
+    ]
+   ]
+  },
+  {
+   "id": "c-bbs-land",
+   "where": "Bhubaneswar",
+   "text": "Between 2018 and 2024 built-up areas in the city grew by 23 per cent and water bodies shrank by 75 per cent, according to the plan's findings as reported.",
+   "rests_on": [
+    [
+     "bbs-omm",
+     "built-up areas in the capital grew by 23 per cent"
+    ],
+    [
+     "bbs-omm",
+     "water bodies shrank by an alarming 75 per cent"
+    ]
+   ]
+  },
+  {
+   "id": "c-bbs-proj",
+   "where": "Bhubaneswar",
+   "text": "If implemented, the plan's measures are projected to lower surface temperatures by 0.5 to 9.4 degrees Celsius; this is a modelled projection of surface temperature, not air temperature.",
+   "rests_on": [
+    [
+     "bbs-omm",
+     "between 0.5 and 9.4 degrees Celsius"
+    ]
+   ]
+  },
+  {
+   "id": "c-bbs-irade",
+   "where": "Bhubaneswar",
+   "text": "An earlier Climate Adaptive Heat Action Plan for Bhubaneswar was prepared by IRADe.",
+   "rests_on": [
+    [
+     "bbs-irade",
+     "Climate Adaptive Heat Action Plan"
+    ],
+    [
+     "bbs-irade",
+     "Bhubaneswar"
+    ],
+    [
+     "bbs-irade",
+     "IRADe"
+    ]
+   ]
+  },
+  {
+   "id": "c-kol-cse",
+   "where": "Kolkata",
+   "text": "A Centre for Science and Environment assessment of the Kolkata Municipal Corporation area found very severe and severe heat zones covering 11.82 per cent and 38.25 per cent of the municipal area.",
+   "rests_on": [
+    [
+     "kol-cse",
+     "11.82"
+    ],
+    [
+     "kol-cse",
+     "38.25"
+    ]
+   ]
+  },
+  {
+   "id": "c-kol-cse-change",
+   "where": "Kolkata",
+   "text": "A 2022-23 study by the Centre for Science and Environment showed the city's water bodies decreased by 39 per cent and its vegetation by 19 per cent.",
+   "rests_on": [
+    [
+     "kol-dte",
+     "Centre for Science and Environment"
+    ],
+    [
+     "kol-dte",
+     "water bodies decreased by 39 per cent"
+    ],
+    [
+     "kol-dte",
+     "vegetation by 19 per cent"
+    ]
+   ]
+  },
+  {
+   "id": "c-kol-need",
+   "where": "Kolkata",
+   "text": "Scientists quoted by Down To Earth in May 2024 said the city needs a heat action plan.",
+   "rests_on": [
+    [
+     "kol-dte",
+     "it definitely needs a heat action plan"
+    ]
+   ]
+  },
+  {
+   "id": "c-kol-wb",
+   "where": "Kolkata",
+   "text": "West Bengal has a state Heat Wave Action Plan prepared by its disaster management department.",
+   "rests_on": [
+    [
+     "kol-wbhap",
+     "West Bengal"
+    ],
+    [
+     "kol-wbhap",
+     "Heat Wave"
+    ],
+    [
+     "kol-wbhap",
+     "Disaster Management"
+    ]
+   ]
+  },
+  {
+   "id": "c-kol-nine",
+   "where": "Kolkata",
+   "text": "A study of nine high-risk cities, including Kolkata, found 150 heat-related measures between 2018 and 2023, most of them seasonal or taken after heatwaves had struck.",
+   "rests_on": [
+    [
+     "kol-eco",
+     "Nine-high risk cities, including New Delhi, Bhopal, Kolkata and Varanasi"
+    ],
+    [
+     "kol-eco",
+     "150 heat-related measures between 2018 and 2023"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-cho",
+   "where": "Dhaka",
+   "text": "In May 2023 Dhaka North City Corporation appointed a Chief Heat Officer under a joint initiative with Arsht-Rock, the first of its kind in Asia, with Shakti Foundation as a local partner.",
+   "rests_on": [
+    [
+     "dha-crc",
+     "first of its kind in Asia"
+    ],
+    [
+     "dha-crc",
+     "Chief Heat Officer"
+    ],
+    [
+     "dha-crc",
+     "Shakti Foundation"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-unh",
+   "where": "Dhaka",
+   "text": "Arsht-Rock and UN-Habitat collaborate to support a global Chief Heat Officer.",
+   "rests_on": [
+    [
+     "dha-crc",
+     "UN-Habitat"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-water",
+   "where": "Dhaka",
+   "text": "By July 2023 the city authority had set up 100 water booths; the Chief Heat Officer planned cooling zones with water, ventilation and shaded seating.",
+   "rests_on": [
+    [
+     "dha-eco",
+     "100 water booths"
+    ],
+    [
+     "dha-eco",
+     "cooling zones"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-green",
+   "where": "Dhaka",
+   "text": "Dhaka North announced plans to plant trees and create parks and approved a tax incentive for rooftop gardens.",
+   "rests_on": [
+    [
+     "dha-eco",
+     "plant trees and create parks"
+    ],
+    [
+     "dha-eco",
+     "tax incentive for those who set up gardens on their rooftops"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-iclei",
+   "where": "Dhaka",
+   "text": "ICLEI was preparing climate change action plans for Dhaka's two city corporations in 2023.",
+   "rests_on": [
+    [
+     "dha-eco",
+     "ICLEI"
+    ],
+    [
+     "dha-eco",
+     "two city corporations"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-rc23",
+   "where": "Dhaka",
+   "text": "The Bangladesh Red Crescent Society, with the German and Danish Red Cross, was working with urban working-class people and planned healthcare and cash grants for vulnerable families.",
+   "rests_on": [
+    [
+     "dha-eco",
+     "Bangladesh Red Crescent Society together with the German and Danish Red Cross"
+    ],
+    [
+     "dha-eco",
+     "cash grants"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-eap",
+   "where": "Dhaka",
+   "text": "On 21 April 2024 the Bangladesh Red Crescent Society activated its Early Action Protocol for heatwaves in Dhaka for the first time, funded by the IFRC's Disaster Response Emergency Fund with 499,930 Swiss francs.",
+   "rests_on": [
+    [
+     "dha-ah",
+     "21 April 2024"
+    ],
+    [
+     "dha-ah",
+     "499,930 Swiss francs"
+    ],
+    [
+     "dha-cc",
+     "for the first time activated its early action protocol for heatwave"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-eap-actions",
+   "where": "Dhaka",
+   "text": "The planned actions were multipurpose cash grants for the most vulnerable, such as elderly people and outdoor workers, cooling stations in three strategic locations, ambulance support, early warning messages and safe drinking water, focused on Adabor, Gendaria, Kamrangir Char, Lalbagh, Mohammadpur and Pallabi.",
+   "rests_on": [
+    [
+     "dha-ah",
+     "multipurpose cash grants"
+    ],
+    [
+     "dha-ah",
+     "cooling stations in three strategic locations"
+    ],
+    [
+     "dha-ah",
+     "ambulance support"
+    ],
+    [
+     "dha-ah",
+     "Adabor, Gendaria, Kamrangir Char, Lalbagh, Mohammadpur and Pallabi"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-eap-ah",
+   "where": "Dhaka",
+   "text": "The Anticipation Hub gives the target as 123,700 vulnerable people.",
+   "rests_on": [
+    [
+     "dha-ah",
+     "123,700 vulnerable people"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-eap-cc",
+   "where": "Dhaka",
+   "text": "The Climate Centre gives it as 124,000 vulnerable people.",
+   "rests_on": [
+    [
+     "dha-cc",
+     "124,000 vulnerable people"
+    ]
+   ]
+  },
+  {
+   "id": "c-dha-iwm",
+   "where": "Dhaka",
+   "text": "Under the Department of Environment, the Institute of Water Modelling collected a year of microclimate data from more than 20 points across the capital from April 2024; findings are to inform a proposed Heat Action Plan.",
+   "rests_on": [
+    [
+     "dha-fe",
+     "Department of Environment (DoE)"
+    ],
+    [
+     "dha-fe",
+     "more than 20 points across the capital"
+    ],
+    [
+     "dha-fe",
+     "beginning in April 2024"
+    ],
+    [
+     "dha-fe",
+     "proposed Heat Action Plan"
+    ]
+   ]
+  },
+  {
+   "id": "c-ktm-record",
+   "where": "Kathmandu",
+   "text": "Kathmandu recorded 35.3 degrees Celsius in June 2024, its highest temperature on record.",
+   "rests_on": [
+    [
+     "ktm-post25",
+     "35.3 degrees Celsius in Kathmandu in June 2024"
+    ],
+    [
+     "ktm-ae",
+     "highest temperature ever recorded"
+    ]
+   ]
+  },
+  {
+   "id": "c-ktm-noplan",
+   "where": "Kathmandu",
+   "text": "Researchers writing in 2023 found no comprehensive heat plan in Nepal, and that heat illness and excess deaths are not systematically tracked.",
+   "rests_on": [
+    [
+     "ktm-ijurr",
+     "no comprehensive heat plan"
+    ],
+    [
+     "ktm-ijurr",
+     "not systematically tracked in Nepal"
+    ]
+   ]
+  },
+  {
+   "id": "c-ktm-unh",
+   "where": "Kathmandu",
+   "text": "In June 2025 UN-Habitat Nepal staff called for a robust early warning system and preparedness, and noted permeable pavements tested in Lalitpur Metropolitan.",
+   "rests_on": [
+    [
+     "ktm-post25",
+     "robust early warning system"
+    ],
+    [
+     "ktm-post25",
+     "permeable pavements tested in Lalitpur Metropolitan"
+    ]
+   ]
+  },
+  {
+   "id": "c-ktm-green",
+   "where": "Kathmandu",
+   "text": "The Annapurna Express reported in 2024 that urban green spaces, tree planting and community-managed forests are underway, while public awareness of urban heat lags.",
+   "rests_on": [
+    [
+     "ktm-ae",
+     "Urban Green Spaces (UGS), tree plantations and community-managed forests are underway"
+    ],
+    [
+     "ktm-ae",
+     "raising public awareness on UHIs"
+    ]
+   ]
+  },
+  {
+   "id": "c-ktm-pci",
+   "where": "Kathmandu",
+   "text": "A 2026 study, Hot Cities Make Hard Work Harder, co-published by People's Courage International, surveyed 305 migrant workers in Kathmandu; 46 percent reported being negatively affected.",
+   "rests_on": [
+    [
+     "ktm-ann",
+     "Hot Cities Make Hard Work Harder"
+    ],
+    [
+     "ktm-ann",
+     "Courage International"
+    ],
+    [
+     "ktm-ann",
+     "305 migrant workers in Kathmandu"
+    ],
+    [
+     "ktm-ann",
+     "46 percent"
+    ]
+   ]
+  },
+  {
+   "id": "c-ktm-wb",
+   "where": "Kathmandu",
+   "text": "A 2026 World Bank report, A Livable Future, found the city core up to 4 degrees Celsius hotter than surrounding parts of the valley and recommended retrofitting heritage sites in the Kathmandu Valley.",
+   "rests_on": [
+    [
+     "ktm-post26",
+     "A Livable Future"
+    ],
+    [
+     "ktm-post26",
+     "up to 4 degrees Celsius higher"
+    ],
+    [
+     "ktm-post26",
+     "retrofitting heritage sites in the Kathmandu Valley"
+    ]
+   ]
+  }
+ ]
+}

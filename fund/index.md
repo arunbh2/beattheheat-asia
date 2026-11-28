@@ -29,7 +29,7 @@ Where money for protection comes from, where it reaches, and what to ask before 
 - [Open calls and tendersGrants, calls and procurement notices, 3 verified open, with the archive](https://beattheheat.asia/heat-economy/money/opportunities/)
 - [Careers in heat resilience10 jobs, consultancies, research posts and fellowships](https://beattheheat.asia/heat-economy/money/careers/)
 - [Businesses91 businesses offering protectionOn the path for: Employers](https://beattheheat.asia/heat-economy/businesses/)
-- [The heat network352 organisations already at workOn the path for: Communities](https://beattheheat.asia/heat-network/)
+- [The heat network367 organisations already at workOn the path for: Communities](https://beattheheat.asia/heat-network/)
 - [Paying for protection, as textCases and instruments in plain text](https://beattheheat.asia/paying-for-protection/)
 
 ## Paths through this group

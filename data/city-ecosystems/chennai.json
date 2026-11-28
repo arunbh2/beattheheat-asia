@@ -1,0 +1,308 @@
+{
+ "schema": 1,
+ "id": "chennai",
+ "name": "Chennai",
+ "aliases": [
+  "Madras"
+ ],
+ "country": "India",
+ "slug": "who-is-doing-what",
+ "title": "Chennai: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "claim_scope": "Chennai",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Chennai, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "In Chennai the visible heat work is led from the state: Tamil Nadu has declared heat a disaster, and its green climate company is coating school roofs with UNEP. The city corporation has trained school staff, signed an agreement with CEEW to plan ward-level heat projects, and is folding heat mapping by UNEP and CEPT University into its master plan.",
+   "claims": [
+    "c-che-disaster",
+    "c-che-roofs",
+    "c-che-training",
+    "c-che-ceew",
+    "c-che-cept"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "buildings",
+   "Buildings, shade and public space"
+  ],
+  [
+   "wards",
+   "Ward planning and public budgets"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [
+    "United Nations Environment Programme"
+   ],
+   "unknowns": [],
+   "outside": null,
+   "id": "unep",
+   "network": "coolcoalition",
+   "name": "UNEP and its Cool Coalition",
+   "type": "multilateral",
+   "based": "International",
+   "summary": "Partner on the school cool roofs, and mapped the city's heat with CEPT University.",
+   "summary_claims": [
+    "c-che-roofs",
+    "c-che-cept"
+   ],
+   "site": "https://coolcoalition.org/",
+   "coalition": null,
+   "activities": [
+    "che-school-roofs",
+    "che-heat-map"
+   ]
+  },
+  {
+   "aliases": [
+    "CEEW"
+   ],
+   "unknowns": [
+    "Whether the unit has been set up."
+   ],
+   "outside": null,
+   "id": "ceew",
+   "network": "ceew",
+   "name": "Council on Energy, Environment and Water (CEEW)",
+   "type": "research",
+   "based": "Delhi",
+   "summary": "Signed an agreement with the corporation to set up a unit that prioritises and designs heat projects in vulnerable wards.",
+   "summary_claims": [
+    "c-che-ceew"
+   ],
+   "site": "https://www.ceew.in/",
+   "coalition": null,
+   "activities": [
+    "che-ceew-pmu"
+   ]
+  },
+  {
+   "aliases": [],
+   "unknowns": [],
+   "outside": null,
+   "id": "cept",
+   "network": "ceptuniversity",
+   "name": "CEPT University",
+   "type": "research",
+   "based": "Ahmedabad",
+   "summary": "Mapped Chennai's heat with UNEP's Cool Coalition.",
+   "summary_claims": [
+    "c-che-cept"
+   ],
+   "site": "https://cept.ac.in/",
+   "coalition": null,
+   "activities": [
+    "che-heat-map"
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [
+    "GCC",
+    "Chennai Corporation"
+   ],
+   "id": "gcc",
+   "network": "greaterchennaicorp",
+   "name": "Greater Chennai Corporation",
+   "role": "Runs the school cool roof expansion locally and signed the heat agreement with CEEW.",
+   "claims": [
+    "c-che-roofs",
+    "c-che-ceew"
+   ]
+  },
+  {
+   "aliases": [
+    "TNGCC"
+   ],
+   "id": "tngcc",
+   "network": "tngcc",
+   "name": "TN Green Climate Company",
+   "role": "The Tamil Nadu company through which the school cool roofs are implemented, under the TN Climate Change Mission.",
+   "claims": [
+    "c-che-roofs"
+   ]
+  },
+  {
+   "aliases": [],
+   "id": "tn",
+   "network": null,
+   "name": "Government of Tamil Nadu",
+   "role": "Has declared heat a disaster.",
+   "claims": [
+    "c-che-disaster"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [
+    [
+     "tngcc",
+     "implementing agency"
+    ],
+    [
+     "unep",
+     "partner"
+    ]
+   ],
+   "people": [
+    "Schoolchildren",
+    "Teachers"
+   ],
+   "start": null,
+   "outputs": [
+    "Five government schools completed (June 2026)",
+    "Teachers and headmasters trained"
+   ],
+   "outcomes": [],
+   "evaluation": "Earlier pilots were reported to lower classroom temperatures; no evaluation was read for this profile.",
+   "equity": {},
+   "related": [],
+   "id": "che-school-roofs",
+   "title": "Cool roofs on 55 schools",
+   "desc": "Reflective roof coatings on schools in areas vulnerable to high temperatures, with training for teachers and headmasters.",
+   "lead": "gcc",
+   "place": "55 schools (49 Corporation, six government)",
+   "precision": "sites",
+   "status": "underway",
+   "themes": [
+    "buildings"
+   ],
+   "claims": [
+    "c-che-roofs",
+    "c-che-training"
+   ],
+   "evidence": "independent",
+   "last": "2026-06"
+  },
+  {
+   "collaborators": [
+    [
+     "ceew",
+     "partner under the agreement"
+    ]
+   ],
+   "people": [
+    "Residents"
+   ],
+   "start": "2026-07",
+   "outputs": [
+    "Agreement signed (July 2026)"
+   ],
+   "outcomes": [],
+   "evaluation": "Not applicable yet.",
+   "equity": {},
+   "related": [],
+   "id": "che-ceew-pmu",
+   "title": "Heat risk management unit with CEEW",
+   "desc": "A planned project management unit to identify, design and prioritise heat mitigation in heat-vulnerable wards and zones, with detailed project reports.",
+   "lead": "gcc",
+   "place": "Heat-vulnerable wards and zones",
+   "precision": "wards",
+   "status": "planned",
+   "themes": [
+    "wards",
+    "risk"
+   ],
+   "claims": [
+    "c-che-ceew"
+   ],
+   "evidence": "independent",
+   "last": "2026-07"
+  },
+  {
+   "collaborators": [
+    [
+     "cept",
+     "mapped the city"
+    ]
+   ],
+   "people": [
+    "Residents"
+   ],
+   "start": null,
+   "outputs": [
+    "Heat map and recommendations"
+   ],
+   "outcomes": [],
+   "evaluation": "The 4°C figure is a projection, not a measured result.",
+   "equity": {},
+   "related": [],
+   "id": "che-heat-map",
+   "title": "City heat mapping for the master plan",
+   "desc": "A map of the city's hottest areas and recommendations being integrated into the master plan.",
+   "lead": "unep",
+   "place": "Chennai",
+   "precision": "city",
+   "status": "underway",
+   "themes": [
+    "risk",
+    "buildings"
+   ],
+   "claims": [
+    "c-che-cept",
+    "c-che-funders"
+   ],
+   "evidence": "own",
+   "last": "2025-06"
+  }
+ ],
+ "extra_orgs": [],
+ "tools": [],
+ "money": [],
+ "timeline": [
+  {
+   "date": "2025-06",
+   "kind": "plan",
+   "text": "UNEP reports its heat mapping with CEPT University is being folded into the master plan.",
+   "claims": [
+    "c-che-cept"
+   ]
+  },
+  {
+   "date": "2026-06",
+   "kind": "delivery",
+   "text": "School cool roofs expand to 55 schools; five completed.",
+   "claims": [
+    "c-che-roofs"
+   ]
+  },
+  {
+   "date": "2026-07",
+   "kind": "plan",
+   "text": "Agreement with CEEW on heat risk management.",
+   "claims": [
+    "c-che-ceew"
+   ]
+  }
+ ],
+ "gaps": [
+  "Whether Chennai has a city heat action plan of its own; the Chennai Climate Action Plan and Tamil Nadu's urban cooling guidelines were found but not read for this profile.",
+  "Budgets for the school roofs and the planned unit.",
+  "What declaring heat a disaster has unlocked in money or rules for the city.",
+  "Tamil-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [],
+ "start_here": [
+  {
+   "who": "A school or education department",
+   "text": "The school roofs programme pairs coatings with training for staff.",
+   "ref": [
+    "che-school-roofs"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

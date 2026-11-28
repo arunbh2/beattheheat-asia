@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> 352 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+> 367 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Who could we work with?
 
@@ -21,7 +21,7 @@ Organisations already at work, by the part they play.
 
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
 
-352 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+367 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 [Open the interactive network](https://beattheheat.asia/#network)
 
@@ -354,6 +354,23 @@ Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [Department of Health, Government of Karnataka](https://www.artpark.in/about/programs/social-impact) (Demand): Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.
 Health bodyIndia
 Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
+- [Bhubaneswar Municipal Corporation](https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303) (Demand): Launched the city's first Integrated Heat and Cooling Action Plan in September 2025, covering greening in all wards and the state's energy building codes.
+City or district governmentIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
+- [Greater Chennai Corporation](https://www.dtnext.in/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience) (Demand): Expanding cool roofs to 55 schools with the TN Green Climate Company and UNEP, and signed an agreement with CEEW (July 2026) to plan heat projects in vulnerable wards.
+City or district governmentIndia
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Keep children in school](https://beattheheat.asia/actions/#keepinschool), [Heat action plans](https://beattheheat.asia/actions/#hap)
+- [TN Green Climate Company (Tamil Nadu)](https://www.dtnext.in/news/chennai/chennai-corporation-expands-cool-roof-initiative-to-55-schools-2) (Demand): The Tamil Nadu company through which cool roofs are being applied to 55 Chennai schools with UNEP, under the TN Climate Change Mission.
+Government bodyIndia
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
+- [Greater Hyderabad Municipal Corporation (GHMC)](https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197) (Demand): Ran a cool roof pilot in 2017; each summer acts under Telangana's heatwave plan, with drinking water kiosks, medical camps at construction sites and heat warnings on junction screens (2026).
+City or district governmentIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
+- [Municipal Administration and Urban Development Department, Telangana](https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy) (Demand): Leads the Telangana Cool Roofs Policy 2023-2028, with a target of 300 square kilometres of cool roofs and a rule in building permits.
+Government bodyIndia
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+- [Kolkata Municipal Corporation](https://cdn.cseindia.org/attachments/0.91719500_1772510583_kolkata-va.pdf) (Demand): The city corporation whose area a Centre for Science and Environment assessment mapped for severe heat zones. No city heat action plan was found.
+City or district governmentIndia
 
 ## Research and evidence
 
@@ -550,6 +567,21 @@ Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Green,
 Health bodyIndia
 - [WELL Labs](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) (Supply): A technical partner for Bengaluru's city climate plan and part of the working group behind its ward climate action plans. Heat-specific work was not identified in the sources reviewed.
 Research bodyIndiaLink opens a page by someone else
+- [International Forum for Environment, Sustainability and Technology (iFOREST)](https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/) (Supply): Developed Bhubaneswar's Integrated Heat and Cooling Action Plan (2025) with the city corporation and the Singapore-ETH Centre.
+Research bodyIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
+- [Centre for Science and Environment (CSE)](https://www.downtoearth.org.in/climate-change/no-time-and-money-to-cool-delhis-vulnerable-seek-priority-relief-from-rising-heat) (Supply): Analyses urban heat stress ward by ward: in Delhi it found almost 76 per cent of the city facing heat stress in summer (2015 to 2024), and it has mapped heat zones in Kolkata.
+Research bodyIndiaLink opens a page by someone else
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
+- [Institute of Water Modelling, Bangladesh](https://today.thefinancialexpress.com.bd/print/a-data-driven-push-to-beat-urban-boil-1753202222) (Supply): Collected a year of microclimate data at more than 20 points across Dhaka from April 2024, under the Department of Environment, to inform a proposed Heat Action Plan.
+Research bodyBangladesh
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
+- [Administrative Staff College of India (ASCI)](https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy) (Supply): A partner on Hyderabad's 2017 cool roof pilot and on the Telangana Cool Roofs Policy 2023-2028.
+Research bodyIndia
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
+- [IIIT Hyderabad](https://www.nrdc.org/bio/anjali-jaiswal/keeping-it-cool-models-city-cool-roof-programs) (Supply): A partner on Hyderabad's 2017 cool roof pilot and the state cool roof policy; tests roof materials over several years.
+Research bodyIndia
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 
 ## Working on the ground
 
@@ -687,6 +719,18 @@ Network or allianceIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [KHPT](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) (Supply): A founding partner of the Bengaluru Heat Collective (July 2026). A separate Bengaluru heat project was not identified in the sources reviewed.
 Non-profit organisationIndia
+- [Greenpeace India](https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/) (Demand): Surveyed over 700 Delhi street vendors on heatwaves with the National Hawkers Federation, and asked the Delhi Heat Action Plan's authority to consult outdoor workers.
+Non-profit organisationIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
+- [National Hawkers Federation](https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/) (Demand): A street vendors' federation that collected Delhi vendors' heatwave experiences with Greenpeace India.
+Worker organisationIndia
+Works on: [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
+- [Indo-Global Social Service Society (IGSSS)](https://india.mongabay.com/2025/01/when-heat-rises-incomes-fall-for-the-informal-workforce/) (Supply): Fitted thirty Delhi homes with wall panels in a pilot from April 2022 to March 2023.
+Non-profit organisationIndiaLink opens a page by someone else
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
+- [Shakti Foundation](https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/) (Supply): Local partner in Dhaka North City Corporation's Chief Heat Officer initiative (2023).
+Non-profit organisationBangladesh
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 
 ## Cooling solutions
 

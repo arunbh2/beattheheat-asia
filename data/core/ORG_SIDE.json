@@ -350,5 +350,20 @@
   "bengalurucentralcitycorp": "demand",
   "ksdma": "demand",
   "karnatakahealthdept": "demand",
-  "iucn": "supply"
+  "iucn": "supply",
+  "iforest": "supply",
+  "bhubaneswarmunicipalcorp": "demand",
+  "greaterchennaicorp": "demand",
+  "tngcc": "demand",
+  "cse": "supply",
+  "greenpeaceindia": "demand",
+  "nationalhawkersfed": "demand",
+  "igsss": "supply",
+  "shaktifoundation": "supply",
+  "iwmbangladesh": "supply",
+  "asci": "supply",
+  "iiith": "supply",
+  "ghmc": "demand",
+  "maudtelangana": "demand",
+  "kolkatamunicipalcorp": "demand"
 }
