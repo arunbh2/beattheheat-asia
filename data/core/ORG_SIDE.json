@@ -334,5 +334,21 @@
   "healthserve": "supply",
   "twc2": "supply",
   "niua-ccube": "supply",
-  "nrdc-india": "supply"
+  "nrdc-india": "supply",
+  "artpark": "supply",
+  "socratus": "demand",
+  "sensinglocal": "supply",
+  "baf": "demand",
+  "greaterbengaluruautho": "demand",
+  "ksndmc": "demand",
+  "bengaluruheatcollective": "platform",
+  "khpt": "supply",
+  "nimhans": "supply",
+  "welllabs": "supply",
+  "bengalurunorthcitycorp": "demand",
+  "bengalurusouthcitycorp": "demand",
+  "bengalurucentralcitycorp": "demand",
+  "ksdma": "demand",
+  "karnatakahealthdept": "demand",
+  "iucn": "supply"
 }

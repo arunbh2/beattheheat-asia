@@ -1,0 +1,57 @@
+/* City heat ecosystem profiles (/cities/<city>/who-is-doing-what/), built by tools/build-city-ecosystem.js.
+   Cards and notes use the shared shapes (.cs-card, .cs-note); this file only lays them out. */
+.ce-sec { margin-top: var(--s-6); }
+.ce-lede { font-family: var(--font-serif); font-size: var(--fs-18); line-height: 1.55; max-width: 70ch; }
+.ce-glance { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); margin: var(--s-3) 0; font-size: var(--fs-14); line-height: 1.4; color: var(--grey-700); }
+.ce-glance b { font-size: var(--fs-22); line-height: 1.15; color: var(--ink); margin-right: 4px; }
+.ce-muted { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.ce-grid { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.ce-grid--start { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+.ce-acts { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); }
+.ce-act, .ce-tool, .ce-org { content-visibility: auto; contain-intrinsic-size: auto 560px; }
+.ce-act h3, .ce-tool h3, .ce-org h3, .ce-theme h3 { font-size: var(--fs-18); line-height: 1.15; margin: var(--s-1) 0 var(--s-2); }
+.ce-act[hidden] { display: none; }
+.ce-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
+.ce-tag, .ce-stage, .ce-access { display: inline-block; padding: 2px 8px; border: 1px solid var(--line); border-radius: 999px; font-size: var(--fs-12); line-height: 1.4; font-weight: 700; text-transform: uppercase; letter-spacing: var(--label-track); color: var(--grey-700); background: var(--white); }
+.ce-tag--member { border-color: var(--line-strong); color: var(--ink); }
+.ce-stage--completed, .ce-stage--evaluated, .ce-access--public { border-color: var(--break); color: var(--break); }
+.ce-stage--underway { border-color: var(--line-strong); color: var(--ink); }
+.ce-stage--proposed, .ce-stage--announced, .ce-stage--planned, .ce-stage--not_stated, .ce-access--announced, .ce-access--in_development, .ce-access--not_verified, .ce-access--unavailable { border-color: var(--line-strong); color: var(--grey-700); background: var(--sand-50); }
+.ce-dl { margin: var(--s-2) 0; font-size: var(--fs-14); line-height: 1.5; }
+.ce-dl > div { display: grid; grid-template-columns: minmax(0, 7.5em) minmax(0, 1fr); gap: var(--s-2); padding: 4px 0; border-top: 1px solid var(--line); }
+.ce-dl dt { font-weight: 700; color: var(--grey-700); }
+.ce-dl dd { margin: 0; overflow-wrap: break-word; }
+.ce-dl--wide > div { grid-template-columns: minmax(0, 12em) minmax(0, 1fr); }
+.ce-more { margin: var(--s-2) 0; font-size: var(--fs-14); line-height: 1.5; }
+.ce-more summary { cursor: pointer; font-weight: 700; min-height: 24px; padding: 6px 0; }
+.ce-link, .ce-src { font-size: var(--fs-14); line-height: 1.5; margin: var(--s-2) 0 0; }
+.ce-src { color: var(--grey-700); overflow-wrap: anywhere; }
+.ce-filters { display: grid; gap: var(--s-2) var(--s-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); align-items: end; margin: var(--s-3) 0; padding: var(--pad-std); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--sand-50); }
+.ce-filters[hidden] { display: none; }
+.ce-filters label { display: grid; gap: 4px; min-width: 0; font-size: var(--fs-14); line-height: 1.4; font-weight: 700; }
+.ce-filters select { min-height: 44px; width: 100%; max-width: 100%; box-sizing: border-box; min-width: 0; font: inherit; font-weight: 400; font-size: var(--fs-16); padding: 6px 8px; border: 1px solid var(--line-strong); border-radius: var(--r-sm); background: var(--white); color: var(--ink); }
+.ce-reset, .ce-btn { min-height: 44px; padding: 8px 14px; border: 1px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink); font: inherit; font-size: var(--fs-14); font-weight: 700; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
+.ce-btn { border-color: var(--orange); }
+.ce-count { font-size: var(--fs-14); line-height: 1.4; color: var(--grey-700); margin: 0 0 var(--s-2); }
+.ce-prio li, .ce-auth li, .ce-time li { margin: 0 0 var(--s-2); line-height: 1.55; }
+.ce-time { list-style: none; padding: 0; }
+.ce-date { font-weight: 700; }
+.ce-table { overflow-x: auto; margin: var(--s-2) 0; }
+.ce-table table { width: 100%; border-collapse: collapse; font-size: var(--fs-14); line-height: 1.5; }
+.ce-table th, .ce-table td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); overflow-wrap: break-word; }
+.ce-table th { font-weight: 700; color: var(--grey-700); }
+.ce-themes { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+.ce-theme ul { margin: 0; padding-left: 1.1em; font-size: var(--fs-14); line-height: 1.5; }
+@media (hover: hover) and (pointer: fine) { .ce-reset:hover, .ce-btn:hover { background: var(--sand-50); } }
+@media print {
+  .ce-filters, .ce-count, .sol-jump { display: none !important; }
+  .ce-act[hidden] { display: block !important; }
+  .ce-more > *:not(summary) { display: block !important; }
+  .ce-act, .ce-tool, .ce-org { break-inside: avoid; content-visibility: visible; }
+}
+/* Narrow screens and large text: stack each label over its value (an em breakpoint, so text zoom triggers it too). */
+@media (max-width: 30em) { .ce-dl > div, .ce-dl--wide > div { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+.ce-dl dd, .ce-src, .ce-link { overflow-wrap: anywhere; }
+/* Tap areas: card links get a 4px invisible layer above and below, as the site's stacked links do (styles.css). */
+.ce-dl dd a, .ce-link a, .ce-src a, .ce-theme li a, .ce-auth a { position: relative; }
+.ce-dl dd a::after, .ce-link a::after, .ce-src a::after, .ce-theme li a::after, .ce-auth a::after { content: ""; position: absolute; inset: -4px 0; }

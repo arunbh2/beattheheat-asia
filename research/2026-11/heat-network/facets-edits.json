@@ -293,5 +293,133 @@
  "niua-ccube": {
   "type": "research",
   "why": "a national institute for research and training on urban affairs, by its own name and learning notes"
+ },
+ "artpark": {
+  "countries": [
+   "IN"
+  ],
+  "type": "research",
+  "scale": "subnational",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "socratus": {
+  "countries": [
+   "IN"
+  ],
+  "type": "ngo",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "sensinglocal": {
+  "countries": [
+   "IN"
+  ],
+  "type": "research",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "baf": {
+  "countries": [
+   "IN"
+  ],
+  "type": "ngo",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026); an association of apartment residents"
+ },
+ "greaterbengaluruautho": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "ksndmc": {
+  "countries": [
+   "IN"
+  ],
+  "type": "government",
+  "scale": "subnational",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "bengaluruheatcollective": {
+  "countries": [
+   "IN"
+  ],
+  "type": "network",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026); a coalition of 11 organisations"
+ },
+ "khpt": {
+  "countries": [
+   "IN"
+  ],
+  "type": "ngo",
+  "scale": "subnational",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "nimhans": {
+  "countries": [
+   "IN"
+  ],
+  "type": "health",
+  "scale": "country",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026); a national institute based in Bengaluru"
+ },
+ "welllabs": {
+  "countries": [
+   "IN"
+  ],
+  "type": "research",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "bengalurunorthcitycorp": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "bengalurusouthcitycorp": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "bengalurucentralcitycorp": {
+  "countries": [
+   "IN"
+  ],
+  "type": "city",
+  "scale": "city",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "ksdma": {
+  "countries": [
+   "IN"
+  ],
+  "type": "government",
+  "scale": "subnational",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "karnatakahealthdept": {
+  "countries": [
+   "IN"
+  ],
+  "type": "health",
+  "scale": "subnational",
+  "why": "its listed work is in Bengaluru or Karnataka, India (Bengaluru heat ecosystem research, November 2026)"
+ },
+ "iucn": {
+  "countries": [
+   "IN"
+  ],
+  "type": "funder",
+  "scale": "city",
+  "why": "its listed work here is support for a Bengaluru tool (CSTEP's DEFT); IUCN itself works globally"
  }
 }

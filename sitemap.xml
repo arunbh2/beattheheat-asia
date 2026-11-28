@@ -19,6 +19,7 @@
   <url><loc>https://beattheheat.asia/cities/ahmedabad/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/cities/bangkok/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/cities/bengaluru/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/bengaluru/who-is-doing-what/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/cities/bhubaneswar/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/cities/chattogram/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/cities/chennai/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
@@ -74,6 +75,7 @@
   <url><loc>https://beattheheat.asia/heat-health-and-equity/</loc><lastmod>2026-11-28</lastmod><priority>0.8</priority></url>
   <url><loc>https://beattheheat.asia/heat-network/</loc><lastmod>2026-11-28</lastmod><priority>0.8</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/</loc><lastmod>2026-11-28</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/heat-tools/artpark_heat_forecast/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/asmc_enso/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/asmc_so/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/bmd/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
@@ -87,10 +89,12 @@
   <url><loc>https://beattheheat.asia/heat-tools/cs_finance/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/cs_intersections/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/cs_plan/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/heat-tools/cstep_deft/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/dhm/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/edge/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/era5/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/ghhin/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/heat-tools/heatwatch_apartment_charter/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/imd/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/imd_enso/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-tools/imd_erf/</loc><lastmod>2026-11-28</lastmod><priority>0.7</priority></url>

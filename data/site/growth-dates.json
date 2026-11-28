@@ -1428,6 +1428,12 @@
    "how": "meta"
   },
   {
+   "url": "https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/",
+   "label": "Sensing Local",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://citizenmatters.in/mcap-climate-change-heat-mumbai/",
    "label": "Citizen Matters",
    "root": "experience",
@@ -1763,6 +1769,12 @@
   {
    "url": "https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/",
    "label": "Center for Study of Science, Technology and Policy (CSTEP)",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+   "label": "International Union for Conservation of Nature (IUCN)",
    "root": "institutions",
    "org": true
   },
@@ -4719,6 +4731,12 @@
    "how": "url"
   },
   {
+   "url": "https://grove.rainmatter.org/raw/4976/18",
+   "label": "Bengaluru Central City Corporation",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://gulfnews.com/world/gulf/saudi/hajj-2024-saudi-arabia-says-1301-deaths-mostly-unregistered-pilgrims-1.1719169731102",
    "label": "Saudi Ministry of Health figures, reported by Gulf News, 2024: 1,301 deaths during Hajj",
    "root": "evidence",
@@ -5513,6 +5531,15 @@
    "root": "practical",
    "org": false,
    "date": "2025-07",
+   "precision": "month",
+   "how": "url"
+  },
+  {
+   "url": "https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/",
+   "label": "Greater Bengaluru Authority",
+   "root": "institutions",
+   "org": true,
+   "date": "2026-03",
    "precision": "month",
    "how": "url"
   },
@@ -9870,6 +9897,12 @@
    "org": false
   },
   {
+   "url": "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july",
+   "label": "Bengaluru Heat Collective",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://wri-india.org/perspectives/mapping-path-heat-resilience-tamil-nadu",
    "label": "WRI India: mapping the path to heat resilience in Tamil Nadu",
    "root": "experience",
@@ -10336,6 +10369,12 @@
    "date": "2023",
    "precision": "year",
    "how": "label"
+  },
+  {
+   "url": "https://www.artpark.in/about/programs/social-impact",
+   "label": "ARTPARK (AI & Robotics Technology Park, IISc)",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://www.asianagri.com/en/media-publications/press-release/asian-agri-holds-fire-readiness-drill-in-anticipation-of-dry-season-and-signs-mou-for-fire-free-village-programme-2024-2025/",
@@ -12312,6 +12351,12 @@
    "org": true
   },
   {
+   "url": "https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/",
+   "label": "Socratus",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.globalresiliencepartnership.org/building-heat-resilience-in-freetown-sierra-leone/",
    "label": "Global Resilience Partnership",
    "root": "institutions",
@@ -12623,6 +12668,12 @@
   {
    "url": "https://www.heatwatch.in",
    "label": "HeatWatch Foundation",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+   "label": "Bangalore Apartment Federation",
    "root": "institutions",
    "org": true
   },
@@ -13649,6 +13700,12 @@
   {
    "url": "https://www.keralaenergy.gov.in",
    "label": "Energy Management Centre, Kerala",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/",
+   "label": "KHPT",
    "root": "institutions",
    "org": true
   },

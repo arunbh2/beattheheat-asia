@@ -114,7 +114,7 @@ Sources: [NRDC, 2026: Extreme Heat in India, a review of the evolving policy and
 
 [See it on the map](https://beattheheat.asia/#break-coolbydesign) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolbydesign)
 
-Moving now [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026) (Funded, original checked, 16 November 2026); [The Antalya Compact for Energy Efficient Buildings opens for endorsement](https://beattheheat.asia/signals/#sig-cop31-antalya-compact-2026) (Announced, original checked, 29 October 2026) · [All 3 on Signals](https://beattheheat.asia/signals/?lever=coolbydesign)
+Moving now [Governments back a heat resilience and sustainable cooling roadmap at the Cooling Ministerial](https://beattheheat.asia/signals/#sig-cop31-cooling-ministerial-2026) (Funded, original checked, 16 November 2026); [The Antalya Compact for Energy Efficient Buildings opens for endorsement](https://beattheheat.asia/signals/#sig-cop31-antalya-compact-2026) (Announced, original checked, 29 October 2026) · [All 4 on Signals](https://beattheheat.asia/signals/?lever=coolbydesign)
 
 ## Green, cool cities
 
@@ -266,7 +266,7 @@ Sources: [Scientific Reports, 2025: widespread heat stress will become the norm 
 
 [See it on the map](https://beattheheat.asia/#break-hap) · [Who works on this](https://beattheheat.asia/heat-network/?action=hap)
 
-Moving now [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025) (Adopted, original checked, 22 November 2026); [COP31 lets the Adaptation Fund receive a share of carbon-market proceeds](https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026) (Adopted, reported, 22 November 2026) · [All 21 on Signals](https://beattheheat.asia/signals/?lever=hap)
+Moving now [59 Belém Adaptation Indicators to measure progress on adaptation](https://beattheheat.asia/signals/#sig-belem-adaptation-indicators-2025) (Adopted, original checked, 22 November 2026); [COP31 lets the Adaptation Fund receive a share of carbon-market proceeds](https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026) (Adopted, reported, 22 November 2026) · [All 22 on Signals](https://beattheheat.asia/signals/?lever=hap)
 
 ## Heat-ready health services
 
@@ -538,7 +538,7 @@ Sources: [CEEW, Nepal in a Warming World, 2025](https://www.ceew.in/publications
 
 [See it on the map](https://beattheheat.asia/#break-heatbudget) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatbudget)
 
-Moving now [COP31 lets the Adaptation Fund receive a share of carbon-market proceeds](https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026) (Adopted, reported, 22 November 2026); [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026) · [All 8 on Signals](https://beattheheat.asia/signals/?lever=heatbudget)
+Moving now [COP31 lets the Adaptation Fund receive a share of carbon-market proceeds](https://beattheheat.asia/signals/#sig-cop31-adaptation-fund-2026) (Adopted, reported, 22 November 2026); [COP31 opens in Antalya](https://beattheheat.asia/signals/#sig-cop31-2026) (Gathering, 9 November 2026) · [All 9 on Signals](https://beattheheat.asia/signals/?lever=heatbudget)
 
 ## Anticipatory action
 

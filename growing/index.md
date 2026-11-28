@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 92 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 93 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,49 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-92 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+93 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Institutions and plans
+
+### Bengaluru: who is doing what about heat?
+
+Added 28 November 2026 · Feature published 28 November 2026
+
+Why it matters our readingThe first city deep dive follows heat work in Bengaluru activity by activity: the new Bengaluru Heat Collective and its eleven founding members, ward climate plans and their first budgets, a national heat pilot run through one city corporation, seasonal cooling centres and kits for outdoor workers, and the tools anyone can use. Plans are kept apart from delivery, announced money from money spent, and membership from any role.
+
+- India
+- Workers in heat-exposed jobs
+- Women whose livelihoods are held back by unequal access
+- Heat-safe work
+- Heat action plans
+
+ReviewThirty-two public sources staged and checked on GitHub in two runs; 52 of 54 claims passed. Later posts of WRI India's forum thread were restaged on their plain-text addresses after the first run, and the city corporations claim moved to a report the checker could read. C40's accelerator report and the Karnataka Heat Action Plan 2026 are held back. No organisation was contacted.. 32 checked · 30 confirmed · 2 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Who is working on heat in Bengaluru, what exactly are they doing, what can anyone use, and what is still only planned?
+- **The search.** 32 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 30 confirmed, and 2 could not be (1 blocked automated reading, 1 did not respond).
+- **What we set aside.** 10 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Sanction and spending records for the announced ₹5 crore and ₹2 crore; the Collective's charter and strategy note; Bengaluru user numbers for the cooling centres; any evaluation of a heat measure in the city; Kannada-language sources.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-bengaluru-ecosystem/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/bengaluru-ecosystem/dropped-after-check.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+Ward climate plans, the Collective's priorities and the city corporations' first heat money, each at the stage its source shows.
+
+[Explore who is doing what](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/#directory)
+[Bengaluru: who is doing what about heat?](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Bengaluru%3A%20who%20is%20doing%20what%20about%20heat%3F&ref=g-bengaluru-ecosystem#way-share)
 
 Tool improved · Practical measures
 
@@ -2960,7 +2998,7 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Institutions and plans138
 - Financing230
 
-Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 463 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 25 known only to have been online by a certain date. 472 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

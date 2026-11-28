@@ -1,11 +1,11 @@
 ---
 title: "Signals: every record"
 url: https://beattheheat.asia/signals/all/
-updated: 2026-11-27
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> All 32 records on Signals, newest first, on one page.
+> All 33 records on Signals, newest first, on one page.
 
 Signals
 
@@ -902,6 +902,115 @@ Sources and review
 ReviewRecord last reviewed 16 November 2026. Sources last checked 22 November 2026. Next review due 16 May 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
 
 Explore on Common Shade[Green, cool cities](https://beattheheat.asia/actions/#greencity)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)
+
+CommitmentLatest development 15 July 2026
+
+### [Bengaluru's city corporations announce first heat resilience money](https://beattheheat.asia/signals/#sig-bengaluru-heat-resilience-2026)
+
+Bengaluru North City Corporation and Bengaluru South City Corporation (Greater Bengaluru Authority), with NIUA Bengaluru, India
+
+At the launch of the Bengaluru Heat Collective on 15 July 2026, Bengaluru North City Corporation described ₹5 crore allocated for heat resilience by an NIUA pilot under AMRUT 2.0, ₹1 crore of it for vulnerable populations such as outdoor informal workers, and planned roof coating demonstrations on its buildings. Bengaluru South City Corporation announced ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, called a starting point and not a final budget. The figures are reported by WRI India and others; no sanction order or spending record was found.
+
+What is tracked (3 deliverables)
+
+#### ₹5 crore for heat resilience in Bengaluru North City Corporation under NIUA's Building Heat Resilient Cities pilot, ₹1 crore of it for vulnerable populations Funding
+
+- FundedFunding announced, 15 July 2026: reported
+
+Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itA sanction or release record, and distribution of safety gear. Commitment made by Bengaluru North City Corporation and Bengaluru South City Corporation (Greater Bengaluru Authority), with NIUA.
+
+#### Roof coating demonstrations on North City Corporation buildings Plan
+
+- AnnouncedAnnounced, 15 July 2026: reported
+
+Adopted, Funded and Delivered: not verified in the sources checked. No evaluation found.
+
+Next step, as the sources describe itInstallation on named buildings. Commitment made by Bengaluru North City Corporation and Bengaluru South City Corporation (Greater Bengaluru Authority), with NIUA.
+
+#### ₹2 crore for phased implementation of the Begur Ward Climate Action Plan (heat proofing of buildings, blue-green schools, groundwater recharge and more) Funding
+
+- FundedFunding announced, 15 July 2026: reported
+
+Announced: no separate evidence recorded. Delivered: not verified in the sources checked. No evaluation found. Adopted: not tracked for this kind of deliverable.
+
+Next step, as the sources describe itSpending on heat proofing of buildings in Begur. Commitment made by Bengaluru North City Corporation and Bengaluru South City Corporation (Greater Bengaluru Authority), with NIUA.
+
+Evidence, history and what is not known
+
+#### ₹5 crore for heat resilience in Bengaluru North City Corporation under NIUA's Building Heat Resilient Cities pilot, ₹1 crore of it for vulnerable populations
+
+- 15 July 2026 **Funding announced**. Described as allocated by the Commissioner of Bengaluru North City Corporation at the Collective's launch
+
+- [WRI India, 2026: Eleven organisations launch Bengaluru Heat Collective](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) Secondary
+The launch release reports the ₹5 crore, the ₹1 crore component and the NIUA pilot under AMRUT 2.0. reported: checked 28 November 2026 for “5 crore”, “1 crore”, “NIUA pilot”, “AMRUT 2.0”From the checked pageOf the ₹5 crore allocated for heat resilience by NIUA pilot, ₹1 crore is dedicated to protecting our most vulnerable populations through measures such as safety gear for thousands of outdoo…
+- [The Chenab Times, 2026: Bengaluru Heat Collective launched to combat rising temperatures](https://thechenabtimes.com/2026/07/15/bengaluru-launches-heat-collective-to-combat-rising-urban-temperatures/) Secondary
+An independent report of the launch says the ₹1 crore is for safety gear and neck fans for outdoor informal workers. reported: checked 28 November 2026 for “neck fans”From the checked pageThese protective measures will include providing safety gear and neck fans for thousands of outdoor informal workers.
+
+Not known yet
+
+- A sanction order or release of the money: not verified
+- Whether safety gear has reached workers: not verified
+
+What would change this recordA sanction or release record, and distribution of safety gear.
+
+#### Roof coating demonstrations on North City Corporation buildings
+
+- 15 July 2026 **Announced**. Described as planned by the Commissioner at the launch
+
+- [WRI India, 2026: Eleven organisations launch Bengaluru Heat Collective](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) Secondary
+The Commissioner describes roof coating demonstrations as planned. reported: checked 28 November 2026 for “roof coating demonstrations”, “planned”From the checked pageWe have already planned several tangible interventions, including roof coating demonstrations on North City Corporation buildings.
+- [The Chenab Times, 2026: Bengaluru Heat Collective launched to combat rising temperatures](https://thechenabtimes.com/2026/07/15/bengaluru-launches-heat-collective-to-combat-rising-urban-temperatures/) Secondary
+The independent report mentions albedo coating demonstrations. reported: checked 28 November 2026 for “albedo”From the checked pageThe city has already planned several interventions, such as demonstrations of albedo coating on North City Corporation buildings.
+
+Not known yet
+
+- Whether any demonstration has been installed: not verified
+
+What would change this recordInstallation on named buildings.
+
+#### ₹2 crore for phased implementation of the Begur Ward Climate Action Plan (heat proofing of buildings, blue-green schools, groundwater recharge and more)
+
+- 15 July 2026 **Funding announced**. Announced by Bengaluru South City Corporation at the Collective's launch
+
+- [WRI India, 2026: Eleven organisations launch Bengaluru Heat Collective](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) Secondary
+The launch release reports the ₹2 crore for phased implementation of the Begur plan, called not a final budget. reported: checked 28 November 2026 for “2 crore”, “Begur”, “phased implementation”, “not a final budget”From the checked pageFor the first time, BSCC has allocated ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, covering projects such as heat proofing of buildings, developing blue-green schools, increasing groundwater recharge, and more.
+- [WRI India partner update on Rainmatter Grove, 2026: Launch of the Bengaluru Heat Collective](https://grove.rainmatter.org/raw/4976/12) Secondary
+WRI India's update says the Begur plan was introduced at the launch and its enabling work was steered by WRI India. reported: checked 28 November 2026 for “Begur”, “steered by WRI India”From the checked page…https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july ) *Soft-launch of Begur Ward-level Climate Action Plan (WCAP)* The Begur Ward Climate Action Plan (WCAP) was publicly introduced by Sri.
+
+Not known yet
+
+- How much of the ₹2 crore is for heat: not stated
+- Release or spending: not verified
+
+What would change this recordSpending on heat proofing of buildings in Begur.
+
+ReviewRecord last reviewed 28 November 2026. Sources last checked 28 November 2026. Next review due 28 February 2027. [What a review covers](https://beattheheat.asia/signals/#sg-method)
+
+Health and equity reach
+
+**Intended beneficiaries**: Named in the record: Informal, contract and piece-rate workers
+
+**Setting and geography**: Bengaluru, India
+
+**Type of protection**: Warning and response systems
+
+**Equity provisions**: Not assessed
+
+**Who delivers**: Bengaluru North City Corporation and Bengaluru South City Corporation (Greater Bengaluru Authority), with NIUA
+
+**Participation or governance**: Not assessed
+
+**Funding stage**: Announced
+
+**Implementation stage**: Not assessed
+
+**Evidence of actual reach**: Not assessed
+
+Read by script from this record's own summary and its derived stage. Progress is never inferred from time passing.
+
+Explore on Common Shade[India](https://beattheheat.asia/countries/india/)[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)[Cool by design](https://beattheheat.asia/actions/#coolbydesign)[Heat action plans](https://beattheheat.asia/actions/#hap)[Paying for protection](https://beattheheat.asia/paying-for-protection/)
 
 CommitmentLatest development 12 July 2026
 

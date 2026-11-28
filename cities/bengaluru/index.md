@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Bengaluru: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/bengaluru/
-updated: 2026-11-26
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -146,13 +146,26 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 
 The [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) has no verified document for Bengaluru itself yet. It holds 3 state-level plans for Karnataka, which cover the city: [see the Karnataka plans](https://beattheheat.asia/resources/heat-action-plans/india/?state=Karnataka&level=state).
 
+City deep dive[Bengaluru: who is doing what about heat?](https://beattheheat.asia/cities/bengaluru/who-is-doing-what/): the organisations, activities, tools, announced money and open questions, each checked against its source.
+
 ## Already at work here
 
+- [Bengaluru Heat Collective](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july): A collective of 11 organisations launched in Bengaluru on 15 July 2026 to advance coordinated action on rising urban heat. Its priorities for an initial phase are heat mapping and data, cooling infrastructure, relief for vulnerable communities and ward-level microplanning. Its sources name no secretariat or lead organisation.
 - [Hasiru Dala](https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf): Works with waste workers in Bengaluru to document heat-related health and income losses and press for water, shade, safer housing and workplace protection.
 - [Bengaluru Sustainability Forum](https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/): Supports a domestic-worker heat research and training project.
 - [Bruhat Bengaluru Mahanagara Palike / Bengaluru city government](https://bbmp.gov.in): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+- [Greater Bengaluru Authority](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/): Bengaluru's city-wide authority over five city corporations since September 2025. Its Climate Action Cell leads ward-level climate action plans, and a cooling centre for outdoor workers ran in one of its facilities in 2026.
+- [Bengaluru North City Corporation](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july): Submitted Bengaluru's proposal under NIUA's Building Heat Resilient Cities pilot and described ₹5 crore allocated for heat resilience, ₹1 crore of it for vulnerable populations such as outdoor informal workers, with roof coating demonstrations planned on its buildings (July 2026). No sanction order or installation was found reported.
+- [Bengaluru South City Corporation](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july): Announced ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, including heat proofing of buildings, blue-green schools and groundwater recharge, as a starting point rather than a final budget (July 2026).
 - [C40 Cities](https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-joins-global-coalition-to-beat-extreme-heat-3786724): Its Cool Cities Accelerator brings together cities including Ahmedabad, Bengaluru, Mumbai and Singapore on early warnings, building standards and tree cover.
 - [WRI India](https://india.mongabay.com/2025/04/safeguarding-indian-cities-from-heat-in-conversation-with-sudeshna-chatterjee-interview/): Works on heat mitigation planning with Indian cities, including greening and cooling pilots in Kochi and Mumbai and the Bengaluru Heat Collective.
+- [Center for Study of Science, Technology and Policy (CSTEP)](https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/): Builds heat intelligence and decision-support tools for Indian cities, including the BHRIGU National Heat Insights Explorer.
+- [HeatWatch India](https://cooling-centres.heatwatch.in/about): Focuses on heat and worker protection through research, heat exposure mapping, practical education and a public directory of cooling centres.
+- [Jan Sahas](https://indiaclimatecollaborative.org/blog/centering-workers-in-heat-resilience-from-lived-experience-to-systemic-action): Works with migrant and informal workers on community-led heat resilience, and funds premiums for a temperature-triggered heat cover with Go Digit and K.M. Dastur.
+- [ARTPARK (AI & Robotics Technology Park, IISc)](https://www.artpark.in/about/programs/social-impact): Builds sub-district heat-risk predictions up to seven days ahead with the Government of Karnataka's disaster monitoring centre, disaster management authority and health department. A founding member of the Bengaluru Heat Collective.
+- [Socratus](https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/): Runs community conversations on climate through art in Bengaluru, including focus groups with domestic, gig and migrant workers, pourakarmikas and ASHA workers under Bengaluru Sustainability Forum's Climate Charche; part of the city's ward climate plan working group and a founding member of the Bengaluru Heat Collective.
+- [Sensing Local](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/): With Hasiru Dala and C40 Cities, piloted cooling kits for 202 outdoor public workers in Bengaluru in April 2026; part of the city's ward climate plan working group.
+- [Bangalore Apartment Federation](https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments): Developed a Heat Safety Charter for workers in apartment complexes with HeatWatch Foundation, in English, Kannada and Hindi.
 
 Listing does not imply partnership, affiliation or endorsement.
 
@@ -169,11 +182,11 @@ Plans and law, warnings, rules for heat at work, cooling, money and other cities
 Developments in India tracked on Signals, newest first, with the furthest step each has evidence for. They concern the country, not only this city.
 
 - [India adds heatwaves to its notified natural calamities](https://beattheheat.asia/signals/#sig-india-heatwave-calamity-2026) Adopted, not verified · latest development August 2026
+- [Bengaluru's city corporations announce first heat resilience money](https://beattheheat.asia/signals/#sig-bengaluru-heat-resilience-2026) Funded, reported · latest development 15 July 2026
 - [April's pre-monsoon heatwave was made three times more likely](https://beattheheat.asia/signals/#sig-south-asia-pre-monsoon-2026) Finding · latest development May 2026
 - [Maharashtra sets up a Centre of Excellence for heat resilience and sustainable cooling](https://beattheheat.asia/signals/#sig-maharashtra-heat-coe) Adopted, original checked · latest development 2026
-- [India's Heat Resilient Cities Framework](https://beattheheat.asia/signals/#sig-niua-heat-resilient-cities-2026) Guidance · latest development 2026
 
-[All 5 for India on Signals](https://beattheheat.asia/signals/?place=india) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
+[All 6 for India on Signals](https://beattheheat.asia/signals/?place=india) · [21 region-wide developments](https://beattheheat.asia/signals/?place=region) · [What moved recently](https://beattheheat.asia/signals/#moved)
 
 ---
 Human edition: https://beattheheat.asia/cities/bengaluru/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

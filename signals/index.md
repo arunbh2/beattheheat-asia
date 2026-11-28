@@ -466,7 +466,7 @@ Read by script from this record's own summary and its derived stage. Progress is
 
 Explore on Common Shade[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
 
-Showing the 8 newest of 32 records. [See all 32 records on one page](https://beattheheat.asia/signals/all/)
+Showing the 8 newest of 33 records. [See all 33 records on one page](https://beattheheat.asia/signals/all/)
 
 Older records, newest first. Each opens here with its evidence; without JavaScript, on the page of every record.
 
@@ -479,6 +479,7 @@ Older records, newest first. Each opens here with its evidence; without JavaScri
 - [Singapore makes heat stress measures mandatory for outdoor work from 1 December 2026](https://beattheheat.asia/signals/all/#sig-singapore-mandatory-heat-measures-2026) Commitment · latest development 28 August 2026
 - [India adds heatwaves to its notified natural calamities](https://beattheheat.asia/signals/all/#sig-india-heatwave-calamity-2026) Commitment · latest development August 2026
 - [World Bank: extreme heat already costs jobs and growth in South Asia's cities](https://beattheheat.asia/signals/all/#sig-world-bank-livable-future-2026) Finding · latest development 29 July 2026
+- [Bengaluru's city corporations announce first heat resilience money](https://beattheheat.asia/signals/all/#sig-bengaluru-heat-resilience-2026) Commitment · latest development 15 July 2026
 - [South Korea issues its first emergency heatwave warning under a new rating system](https://beattheheat.asia/signals/all/#sig-korea-heat-emergency-warning-2026) Commitment · latest development 12 July 2026
 - [Nearly all outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems](https://beattheheat.asia/signals/all/#sig-viet-nam-outdoor-workers-2026) Finding · latest development June 2026
 - [April's pre-monsoon heatwave was made three times more likely](https://beattheheat.asia/signals/all/#sig-south-asia-pre-monsoon-2026) Finding · latest development May 2026
@@ -499,14 +500,14 @@ Where the commitments stand
 
 ## From promise to proof, deliverable by deliverable
 
-Of 29 deliverables in 20 commitments tracked here, among 32 records in all (20 commitments, 2 gatherings, 9 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
+Of 32 deliverables in 21 commitments tracked here, among 33 records in all (21 commitments, 2 gatherings, 9 findings, 1 guidance). This is a selection of developments the site has checked, not a census of the region.
 
-- 8
-**Announced** Said in public. A weak signal on its own: announcements happen whether or not anything follows.
+- 9
+**Announced** Said in public. A weak signal on its own: announcements happen whether or not anything follows. 1 of these rests on secondary reports only.
 - 13
 **Adopted** Made formal: a plan approved, a rule changed, an office set up. 3 of these rest on secondary reports only. 1 not verified by a content check.
-- 5
-**Funded** Money committed to it, whether or not the amount is public. 2 of these rest on secondary reports only.
+- 7
+**Funded** Money committed to it, whether or not the amount is public. 4 of these rest on secondary reports only.
 - 3
 **Delivered** Something exists that people can use: a service open, a guide published, money paid out. 1 of these rests on secondary reports only.
 - 0
@@ -524,7 +525,7 @@ Records tracked here for each place, in alphabetical order, and when the weekly 
 
 - [2 Bangladesh](https://beattheheat.asia/signals/?place=bangladesh)Searched 21 November 2026
 - [1 Cambodia](https://beattheheat.asia/signals/?place=cambodia)Searched 21 November 2026
-- [5 India](https://beattheheat.asia/signals/?place=india)Searched 21 November 2026
+- [6 India](https://beattheheat.asia/signals/?place=india)Searched 21 November 2026
 - [1 Indonesia](https://beattheheat.asia/signals/?place=indonesia)Searched 21 November 2026
 - [0 Lao PDR](https://beattheheat.asia/signals/?place=lao)Searched 21 November 2026
 - [0 Malaysia](https://beattheheat.asia/signals/?place=malaysia)Searched 21 November 2026

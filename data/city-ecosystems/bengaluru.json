@@ -1,0 +1,1708 @@
+{
+ "schema": 1,
+ "id": "bengaluru",
+ "name": "Bengaluru",
+ "aliases": [
+  "Bangalore"
+ ],
+ "country": "India",
+ "slug": "who-is-doing-what",
+ "title": "Bengaluru: who is doing what about heat?",
+ "batch": "bengaluru-ecosystem",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read between 24 and 28 November 2026. It is not a complete list of everyone working on heat in Bengaluru, and no organisation was contacted. Common Shade is not a member, partner or representative of the Bengaluru Heat Collective.",
+ "orientation": [
+  {
+   "text": "In July 2026 the city recorded its hottest July day on record. The response so far is a mix: a new coalition of research, worker and civic groups, ward climate plans with first budgets, a national heat pilot run through one city corporation, and seasonal cooling centres and kits for outdoor workers. Most of it is planned or in its first season; little has been evaluated.",
+   "claims": [
+    "c-blr-july-record",
+    "c-blr-launch",
+    "c-blr-niua-5cr",
+    "c-blr-wcap-lead",
+    "c-blr-mrc",
+    "c-blr-kits"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "health",
+   "Health and care"
+  ],
+  [
+   "workers",
+   "Worker and livelihood protection"
+  ],
+  [
+   "buildings",
+   "Buildings, shade and public space"
+  ],
+  [
+   "water",
+   "Water and sanitation"
+  ],
+  [
+   "nature",
+   "Nature-based cooling"
+  ],
+  [
+   "wards",
+   "Ward planning and public budgets"
+  ],
+  [
+   "community",
+   "Community participation"
+  ]
+ ],
+ "orgs": [
+  {
+   "id": "artpark",
+   "network": "artpark",
+   "name": "ARTPARK",
+   "aliases": [
+    "AI & Robotics Technology Park"
+   ],
+   "type": "research",
+   "based": "Bengaluru (IISc)",
+   "coalition": "founding",
+   "summary": "Builds sub-district heat-risk forecasts with Karnataka's disaster monitoring centre, disaster management authority and health department.",
+   "summary_claims": [
+    "c-blr-artpark"
+   ],
+   "site": "https://www.artpark.in/about/programs/social-impact",
+   "activities": [
+    "blr-artpark-forecast"
+   ],
+   "unknowns": [
+    "Whether the heat forecasts are in routine use, by whom, and how accurate they have been.",
+    "Whether any public view of the forecasts exists.",
+    "An earlier news report gave a different forecast horizon from ARTPARK's own page; it was not read for this profile."
+   ],
+   "outside": "Its other public-health programmes (dengue, One Health, maternal health) are separate and are not counted here."
+  },
+  {
+   "id": "bsf",
+   "network": "bengalurusustainabilityf",
+   "name": "Bengaluru Sustainability Forum",
+   "aliases": [
+    "BSF",
+    "Bangalore Sustainability Forum"
+   ],
+   "type": "network",
+   "based": "Bengaluru",
+   "coalition": "founding",
+   "summary": "An inter-institutional forum whose small grants support heat work, including a domestic-worker heat project, and which supported the apartment workers' Heat Safety Charter.",
+   "summary_claims": [
+    "c-blr-bsf",
+    "c-blr-domestic-bsf",
+    "c-blr-charter-apt"
+   ],
+   "site": "https://www.bengalurusustainabilityforum.org/",
+   "activities": [
+    "blr-domestic-workers",
+    "blr-apartment-charter",
+    "blr-climate-charche"
+   ],
+   "unknowns": [
+    "The amounts of its heat-related grants.",
+    "What its role in the Collective is beyond founding membership."
+   ]
+  },
+  {
+   "id": "c40",
+   "network": "c40",
+   "name": "C40 Cities",
+   "aliases": [
+    "C40 Cities South and West Asia"
+   ],
+   "type": "network",
+   "based": "International, with a South and West Asia office",
+   "coalition": "founding",
+   "summary": "Commissioned technical assistance for two high impact heat actions in Bengaluru wards with the Greater Bengaluru Authority, and joined a cooling kits pilot for outdoor workers.",
+   "summary_claims": [
+    "c-blr-c40-rfp",
+    "c-blr-kits"
+   ],
+   "site": "https://www.c40.org/",
+   "activities": [
+    "blr-c40-hia",
+    "blr-cooling-kits"
+   ],
+   "unknowns": [
+    "Which two high impact actions were chosen, and whether their project reports were delivered by the planned end of March 2026."
+   ]
+  },
+  {
+   "id": "cstep",
+   "network": "cstep",
+   "name": "CSTEP",
+   "aliases": [
+    "Center for Study of Science, Technology and Policy"
+   ],
+   "type": "research",
+   "based": "Bengaluru",
+   "coalition": "founding",
+   "summary": "Developing an ecosystem-based adaptation tool for Bengaluru that maps heatwave and flood risk, and part of the ward climate plan working group.",
+   "summary_claims": [
+    "c-blr-deft",
+    "c-blr-wcap-group"
+   ],
+   "site": "https://cstep.in/",
+   "activities": [
+    "blr-deft",
+    "blr-ward-plans"
+   ],
+   "unknowns": [
+    "When DEFT will be public, and in what form.",
+    "Whether BHRIGU's six urbanscapes include Bengaluru."
+   ],
+   "outside": "BHRIGU, its national heat programme, plans an open National Heat Insights Explorer; Bengaluru is not named as one of its places."
+  },
+  {
+   "id": "hasirudala",
+   "network": "hasirudala",
+   "name": "Hasiru Dala",
+   "aliases": [],
+   "type": "community",
+   "based": "Bengaluru",
+   "coalition": "founding",
+   "summary": "Works with waste pickers; co-authored a survey of heat's effect on waste workers' health and income, joined a cooling kits pilot and is in the ward climate plan working group.",
+   "summary_claims": [
+    "c-blr-waste",
+    "c-blr-kits",
+    "c-blr-wcap-group"
+   ],
+   "site": "https://hasirudala.in/",
+   "activities": [
+    "blr-waste-report",
+    "blr-cooling-kits",
+    "blr-ward-plans"
+   ],
+   "unknowns": [
+    "Which of the similarly named Hasiru Dala entities is the member. The sources name only Hasiru Dala.",
+    "Whether the survey's recommendations have been taken up."
+   ]
+  },
+  {
+   "id": "heatwatch",
+   "network": "heatwatch",
+   "name": "HeatWatch",
+   "aliases": [
+    "HeatWatch India",
+    "HeatWatch Foundation"
+   ],
+   "type": "research",
+   "based": "India",
+   "coalition": "founding",
+   "summary": "Researches heat and workers in Bengaluru: a waste-worker survey with Hasiru Dala, a heat charter for apartment workers with the apartment federation, domestic-worker research and a campaign to keep parks open in the heat.",
+   "summary_claims": [
+    "c-blr-waste",
+    "c-blr-charter-apt",
+    "c-blr-domestic-hw",
+    "c-blr-parks"
+   ],
+   "site": "https://www.heatwatch.in/",
+   "activities": [
+    "blr-waste-report",
+    "blr-apartment-charter",
+    "blr-domestic-workers",
+    "blr-open-parks"
+   ],
+   "unknowns": [
+    "How many apartment complexes have adopted the charter."
+   ],
+   "outside": "Its garment-worker dashboard and garment fieldwork cover factories outside Bengaluru."
+  },
+  {
+   "id": "jansahas",
+   "network": "jansahas",
+   "name": "Jan Sahas",
+   "aliases": [
+    "Jan Sahas Foundation",
+    "Jansahas"
+   ],
+   "type": "community",
+   "based": "India",
+   "coalition": "founding",
+   "summary": "Initiated the Migrants Resilience Collaborative, which ran three cooling centres for outdoor workers in Bengaluru in 2026, and is in the ward climate plan working group.",
+   "summary_claims": [
+    "c-blr-mrc",
+    "c-blr-wcap-group"
+   ],
+   "site": "https://jansahas.org/",
+   "activities": [
+    "blr-cooling-centres",
+    "blr-ward-plans"
+   ],
+   "unknowns": [
+    "How many workers used the Bengaluru centres; the published figures are national.",
+    "Who funds the centres."
+   ]
+  },
+  {
+   "id": "khpt",
+   "network": "khpt",
+   "name": "KHPT",
+   "aliases": [],
+   "type": "health",
+   "based": "Bengaluru",
+   "coalition": "founding",
+   "summary": "Describes itself as a founding partner of the Collective. A separate Bengaluru heat project was not identified in the sources reviewed.",
+   "summary_claims": [
+    "c-blr-aliases",
+    "c-blr-launch"
+   ],
+   "site": "https://www.khpt.org/",
+   "activities": [],
+   "unknowns": [
+    "What KHPT will contribute to the Collective's health and community work."
+   ]
+  },
+  {
+   "id": "nimhans",
+   "network": "nimhans",
+   "name": "NIMHANS",
+   "aliases": [
+    "NIMHANS, Bangalore",
+    "National Institute of Mental Health and Neurosciences"
+   ],
+   "type": "health",
+   "based": "Bengaluru",
+   "coalition": "founding",
+   "summary": "Founding membership verified; a separate Bengaluru heat project was not identified in the sources reviewed.",
+   "summary_claims": [
+    "c-blr-members"
+   ],
+   "site": "https://nimhans.ac.in/",
+   "activities": [],
+   "unknowns": [
+    "Whether NIMHANS will lead or join any heat and mental health work in the Collective. Membership does not establish a role."
+   ]
+  },
+  {
+   "id": "socratus",
+   "network": "socratus",
+   "name": "Socratus",
+   "aliases": [
+    "Socratus Collective Wisdom Corporation",
+    "Socratus Corporation",
+    "Socratus Foundation"
+   ],
+   "type": "community",
+   "based": "Bengaluru",
+   "coalition": "founding",
+   "summary": "Runs community engagement through art and conversation, including focus groups with workers under Bengaluru Sustainability Forum's Climate Charche, and is in the ward climate plan working group.",
+   "summary_claims": [
+    "c-blr-socratus",
+    "c-blr-wcap-group"
+   ],
+   "site": "https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/",
+   "activities": [
+    "blr-climate-charche",
+    "blr-ward-plans"
+   ],
+   "unknowns": [
+    "Its legal name: sources use four variants."
+   ]
+  },
+  {
+   "id": "wriindia",
+   "network": "wriindia",
+   "name": "WRI India",
+   "aliases": [],
+   "type": "research",
+   "based": "Bengaluru and other cities",
+   "coalition": "founding",
+   "summary": "Steered the Begur ward climate plan's enabling work and the ward plan working group, and published the Collective's launch release and partner updates.",
+   "summary_claims": [
+    "c-blr-begur-steer",
+    "c-blr-pubdate"
+   ],
+   "site": "https://wri-india.org/",
+   "activities": [
+    "blr-ward-plans"
+   ],
+   "unknowns": [
+    "Whether WRI India holds any coordinating role in the Collective. No source names a lead or secretariat."
+   ]
+  },
+  {
+   "id": "sensinglocal",
+   "network": "sensinglocal",
+   "name": "Sensing Local",
+   "aliases": [],
+   "type": "research",
+   "based": "Bengaluru",
+   "coalition": null,
+   "summary": "Not a member of the Collective. Joined the cooling kits pilot and the ward climate plan working group.",
+   "summary_claims": [
+    "c-blr-kits",
+    "c-blr-wcap-group"
+   ],
+   "site": "https://sensinglocal.in/",
+   "activities": [
+    "blr-cooling-kits",
+    "blr-ward-plans"
+   ],
+   "unknowns": []
+  },
+  {
+   "id": "welllabs",
+   "network": "welllabs",
+   "name": "WELL Labs",
+   "aliases": [
+    "WellLabs"
+   ],
+   "type": "research",
+   "based": "Bengaluru",
+   "coalition": null,
+   "summary": "Not a member of the Collective. A technical partner for the city climate plan's water work and part of the ward plan working group.",
+   "summary_claims": [
+    "c-blr-wcap-partners",
+    "c-blr-wcap-group"
+   ],
+   "site": "https://welllabs.org/",
+   "activities": [
+    "blr-ward-plans"
+   ],
+   "unknowns": [
+    "Any heat-specific work."
+   ]
+  },
+  {
+   "id": "baf",
+   "network": "baf",
+   "name": "Bangalore Apartment Federation",
+   "aliases": [
+    "BAF"
+   ],
+   "type": "community",
+   "based": "Bengaluru",
+   "coalition": null,
+   "summary": "Not a member of the Collective. Developed the Heat Safety Charter for apartment workers with HeatWatch Foundation.",
+   "summary_claims": [
+    "c-blr-charter-apt"
+   ],
+   "site": "https://www.baf.org.in/",
+   "activities": [
+    "blr-apartment-charter"
+   ],
+   "unknowns": [
+    "How the federation is promoting the charter among member apartments."
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "id": "gba",
+   "network": "greaterbengaluruautho",
+   "name": "Greater Bengaluru Authority",
+   "aliases": [
+    "GBA"
+   ],
+   "role": "City-wide authority over five city corporations (Bengaluru Central, North, South, East and West) since September 2025; its Climate Action Cell leads the ward climate plans.",
+   "since": "2025-09",
+   "claims": [
+    "c-blr-gba",
+    "c-blr-wcap-lead"
+   ],
+   "replaces": "bbmp"
+  },
+  {
+   "id": "bbmp",
+   "network": "bruhatbengalurumahanagar",
+   "name": "Bruhat Bengaluru Mahanagara Palike",
+   "aliases": [
+    "BBMP"
+   ],
+   "role": "The city's former municipal corporation, before the Greater Bengaluru Authority and its five corporations (September 2025). Its name is kept for older records, such as the 2025-26 climate earmark.",
+   "until": "2025-09",
+   "claims": [
+    "c-blr-bbmp",
+    "c-blr-gba"
+   ]
+  },
+  {
+   "id": "bncc",
+   "name": "Bengaluru North City Corporation",
+   "aliases": [
+    "BNCC",
+    "North City Corporation"
+   ],
+   "role": "Submitted the city's proposal under the national heat resilience pilot; plans roof coating demonstrations; most cooling kits went to its workers.",
+   "claims": [
+    "c-blr-niua-proposal",
+    "c-blr-roof",
+    "c-blr-kits"
+   ],
+   "network": "bengalurunorthcitycorp"
+  },
+  {
+   "id": "bscc",
+   "name": "Bengaluru South City Corporation",
+   "aliases": [
+    "BSCC",
+    "South City Corporation"
+   ],
+   "role": "Announced ₹2 crore for phased implementation of the Begur ward climate plan.",
+   "claims": [
+    "c-blr-begur-2cr",
+    "c-blr-officials"
+   ],
+   "network": "bengalurusouthcitycorp"
+  },
+  {
+   "id": "bccc",
+   "name": "Bengaluru Central City Corporation",
+   "aliases": [
+    "BCCC"
+   ],
+   "role": "Received the completed Shantinagar ward climate plan.",
+   "claims": [
+    "c-blr-shantinagar"
+   ],
+   "network": "bengalurucentralcitycorp"
+  },
+  {
+   "id": "niua",
+   "network": "niua-ccube",
+   "name": "National Institute of Urban Affairs (Climate Centre for Cities)",
+   "aliases": [
+    "NIUA"
+   ],
+   "role": "Runs the Building Heat Resilient Cities pilot under AMRUT 2.0 of the Ministry of Housing and Urban Affairs, in which Bengaluru takes part.",
+   "claims": [
+    "c-blr-niua-5cr",
+    "c-blr-officials"
+   ]
+  },
+  {
+   "id": "ksndmc",
+   "network": "ksndmc",
+   "name": "Karnataka State Natural Disaster Monitoring Centre",
+   "aliases": [
+    "KSNDMC"
+   ],
+   "role": "Named by ARTPARK as a partner in its heat-risk forecasts.",
+   "claims": [
+    "c-blr-artpark"
+   ]
+  },
+  {
+   "id": "ksdma",
+   "name": "Karnataka State Disaster Management Authority",
+   "aliases": [
+    "KSDMA"
+   ],
+   "role": "Named by ARTPARK as a partner in its heat-risk forecasts.",
+   "claims": [
+    "c-blr-artpark"
+   ],
+   "network": "ksdma"
+  },
+  {
+   "id": "kahealth",
+   "name": "Department of Health, Government of Karnataka",
+   "aliases": [],
+   "role": "Named by ARTPARK as a partner in its heat-risk forecasts.",
+   "claims": [
+    "c-blr-artpark"
+   ],
+   "network": "karnatakahealthdept"
+  },
+  {
+   "id": "imd",
+   "network": "indiameteorologicaldepar",
+   "name": "India Meteorological Department",
+   "aliases": [
+    "IMD"
+   ],
+   "role": "Runs the city observatory whose records the July 2026 temperature figures come from.",
+   "claims": [
+    "c-blr-july-record"
+   ]
+  }
+ ],
+ "coalition": {
+  "id": "bengaluru-heat-collective",
+  "name": "Bengaluru Heat Collective",
+  "event": "2026-07-15",
+  "published": [
+   {
+    "by": "wriindia",
+    "date": "2026-07-17",
+    "claims": [
+     "c-blr-pubdate"
+    ]
+   },
+   {
+    "by": "khpt",
+    "date": "2026-07-17",
+    "claims": [
+     "c-blr-khpt-date"
+    ]
+   }
+  ],
+  "purpose_claims": [
+   "c-blr-launch"
+  ],
+  "members_claims": [
+   "c-blr-members",
+   "c-blr-aliases"
+  ],
+  "priorities": [
+   {
+    "text": "Understanding heat and its spatial dimensions to inform policy and investment",
+    "short": "Heat mapping, data and monitoring",
+    "themes": [
+     "risk"
+    ]
+   },
+   {
+    "text": "Enabling infrastructure interventions",
+    "short": "Cooling infrastructure and the built environment",
+    "themes": [
+     "buildings",
+     "nature"
+    ]
+   },
+   {
+    "text": "Strengthening relief and resilience measures for vulnerable communities",
+    "short": "Worker and community protection and health",
+    "themes": [
+     "workers",
+     "health"
+    ]
+   },
+   {
+    "text": "Advancing ward-level microplanning",
+    "short": "Ward-level planning",
+    "themes": [
+     "wards"
+    ]
+   }
+  ],
+  "priorities_claims": [
+   "c-blr-priorities",
+   "c-blr-priorities-khpt"
+  ],
+  "governance": {
+   "known": [
+    "c-blr-charter",
+    "c-blr-toc"
+   ],
+   "not_found": "No secretariat, lead organisation, workstream leads, legal status or public contact address for the Collective was found in the sources reviewed. Its charter and strategy note were not found published."
+  },
+  "launch_claims": [
+   "c-blr-event",
+   "c-blr-panel",
+   "c-blr-officials"
+  ],
+  "network": "bengaluruheatcollective"
+ },
+ "activities": [
+  {
+   "id": "blr-ward-plans",
+   "title": "Ward climate action plans in five pilot wards",
+   "desc": "Plans that list climate projects ward by ward, built with public consultations in Shantinagar, Jakkur, Begur, Vijinapura and Nalwadi Krishnaraja Wadiyar. Heat is not one of their sectors, but heat maps informed them and Begur's plan includes heat proofing of buildings.",
+   "lead": "gba",
+   "collaborators": [
+    [
+     "wriindia",
+     "anchored the drafting (Shantinagar) and steered the enabling work (Begur)"
+    ],
+    [
+     "jansahas",
+     "working group: community engagement"
+    ],
+    [
+     "socratus",
+     "working group: community engagement"
+    ],
+    [
+     "hasirudala",
+     "working group"
+    ],
+    [
+     "sensinglocal",
+     "working group"
+    ],
+    [
+     "cstep",
+     "working group: anchors the energy sector"
+    ],
+    [
+     "welllabs",
+     "working group: water"
+    ],
+    [
+     "bccc",
+     "received the Shantinagar plan"
+    ]
+   ],
+   "place": "Five pilot wards, one in each zone",
+   "precision": "wards",
+   "people": [
+    "Residents",
+    "Informal workers",
+    "Waste workers"
+   ],
+   "start": "2025-12",
+   "status": "underway",
+   "outputs": [
+    "Public consultations held in all five pilot wards",
+    "Shantinagar's plan completed and submitted to the Climate Action Cell and Bengaluru Central City Corporation",
+    "A pipeline of 302 projects submitted to the South and North corporations for 2026-27"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "themes": [
+    "wards",
+    "community",
+    "nature",
+    "water"
+   ],
+   "claims": [
+    "c-blr-wcap-lead",
+    "c-blr-wcap-heat",
+    "c-blr-wcap-group",
+    "c-blr-wcap-partners",
+    "c-blr-302",
+    "c-blr-shantinagar"
+   ],
+   "evidence": "both",
+   "last": "2026-10",
+   "equity": {
+    "consulted": "Informal workers, waste workers and migrants took part in the ward consultations.",
+    "governance": "Not documented.",
+    "receiving": "Not yet: projects are at the proposal and budget stage."
+   },
+   "related": [
+    [
+     "/practical-actions/#neighbourhoods",
+     "Practical actions for markets and neighbourhoods"
+    ],
+    [
+     "/worked-plans/",
+     "Worked plans"
+    ]
+   ]
+  },
+  {
+   "id": "blr-begur-budget",
+   "title": "First budget for a ward climate plan: Begur",
+   "desc": "Bengaluru South City Corporation announced money for phased implementation of the Begur ward plan, covering heat proofing of buildings, blue-green schools and groundwater recharge.",
+   "lead": "bscc",
+   "collaborators": [
+    [
+     "wriindia",
+     "steered the plan's enabling work"
+    ]
+   ],
+   "place": "Begur ward",
+   "precision": "ward",
+   "people": [
+    "Residents",
+    "Schools"
+   ],
+   "start": "2026-07",
+   "status": "announced",
+   "outputs": [
+    "₹2 crore announced as allocated, described as a starting point and not a final budget"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated; no spending reported.",
+   "themes": [
+    "wards",
+    "buildings",
+    "water"
+   ],
+   "claims": [
+    "c-blr-begur-2cr",
+    "c-blr-begur-steer"
+   ],
+   "evidence": "own",
+   "last": "2026-08-31",
+   "equity": {}
+  },
+  {
+   "id": "blr-niua-pilot",
+   "title": "National heat resilience pilot through North City Corporation",
+   "desc": "Bengaluru takes part in the Building Heat Resilient Cities Programme under AMRUT 2.0, with a proposal submitted by Bengaluru North City Corporation. Planned measures include roof coating demonstrations on corporation buildings and protective gear for outdoor informal workers.",
+   "lead": "bncc",
+   "collaborators": [
+    [
+     "niua",
+     "runs the national pilot"
+    ]
+   ],
+   "place": "Bengaluru North City Corporation",
+   "precision": "corporation",
+   "people": [
+    "Outdoor informal workers"
+   ],
+   "start": "2026",
+   "status": "planned",
+   "outputs": [
+    "₹5 crore described as allocated by the pilot, ₹1 crore of it for vulnerable populations"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated; no installation or distribution under the pilot found reported.",
+   "themes": [
+    "buildings",
+    "workers"
+   ],
+   "claims": [
+    "c-blr-niua-5cr",
+    "c-blr-niua-1cr",
+    "c-blr-niua-proposal",
+    "c-blr-roof",
+    "c-blr-neckfans"
+   ],
+   "evidence": "both",
+   "last": "2026-07-17",
+   "equity": {
+    "mentioned": "Outdoor informal workers.",
+    "receiving": "Planned, not reported delivered."
+   }
+  },
+  {
+   "id": "blr-cooling-centres",
+   "title": "Cooling centres for outdoor workers",
+   "desc": "Three seasonal centres with drinking water, ORS, coolers, cots and first aid: at a construction site in Whitefield, in Greater Bengaluru Authority facilities in Vidyaranyapura and above an Anganwadi in Allalasandra. Staff also helped workers apply for welfare cards and benefits.",
+   "lead": "jansahas",
+   "lead_note": "Run by the Migrants Resilience Collaborative, which Jan Sahas initiated.",
+   "collaborators": [
+    [
+     "gba",
+     "hosts the Vidyaranyapura centre in its facilities"
+    ]
+   ],
+   "place": "Whitefield, Vidyaranyapura and Allalasandra",
+   "precision": "sites",
+   "people": [
+    "Construction workers",
+    "Migrant workers",
+    "Pourakarmikas"
+   ],
+   "start": "2026-04-10",
+   "end": "2026-07",
+   "status": "completed",
+   "season": "Summer 2026 (seasonal)",
+   "outputs": [
+    "Three centres open from 10 April to the first week of July 2026",
+    "Help with construction welfare cards, Ayushman and e-Shram registration (staff figures)"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated; accounts come from workers, staff and the organisers.",
+   "themes": [
+    "workers",
+    "health",
+    "buildings"
+   ],
+   "claims": [
+    "c-blr-mrc",
+    "c-blr-mrc-welfare",
+    "c-blr-mrc-89"
+   ],
+   "evidence": "both",
+   "last": "2026-07-09",
+   "equity": {
+    "receiving": "Construction workers, migrant workers and pourakarmikas used the centres.",
+    "benefit": "Not measured."
+   },
+   "related": [
+    [
+     "/rest-without-losing-income/",
+     "Rest without losing income"
+    ],
+    [
+     "/practical-actions/#work",
+     "Practical actions for outdoor and hot workplaces"
+    ]
+   ]
+  },
+  {
+   "id": "blr-cooling-kits",
+   "title": "Cooling kits for outdoor public workers",
+   "desc": "Kits with a sun hat, cooling sleeves and an insulated bottle, plus shared neck fans, given to ASHAs, pourakarmikas, dry waste collection centre workers and traffic police, mostly in North City Corporation. The team proposed turning 63 Indira canteens into cooling centres during heat alerts.",
+   "lead": null,
+   "collaborators": [
+    [
+     "hasirudala",
+     "piloted the kits"
+    ],
+    [
+     "c40",
+     "piloted the kits"
+    ],
+    [
+     "sensinglocal",
+     "piloted the kits"
+    ],
+    [
+     "bncc",
+     "where most kits went; named for scale-up"
+    ]
+   ],
+   "place": "Mostly Bengaluru North City Corporation",
+   "precision": "corporation",
+   "people": [
+    "ASHA workers",
+    "Pourakarmikas",
+    "Waste workers",
+    "Traffic police"
+   ],
+   "start": "2026-04",
+   "status": "completed",
+   "season": "April 2026 pilot",
+   "outputs": [
+    "Kits for 202 workers, about ₹2,160 each",
+    "A proposal to use 63 Indira canteens as cooling centres during heat alerts"
+   ],
+   "outcomes": [],
+   "evaluation": "An impact report was being prepared; not published when checked.",
+   "themes": [
+    "workers",
+    "health"
+   ],
+   "claims": [
+    "c-blr-kits",
+    "c-blr-indira"
+   ],
+   "evidence": "independent",
+   "last": "2026-08-27",
+   "equity": {
+    "receiving": "202 workers, including 46 ASHAs and 116 pourakarmikas.",
+    "benefit": "Not yet reported."
+   },
+   "related": [
+    [
+     "/practical-actions/#work",
+     "Practical actions for outdoor and hot workplaces"
+    ]
+   ]
+  },
+  {
+   "id": "blr-waste-report",
+   "title": "How heat hits waste workers' health and income",
+   "desc": "A survey of 154 waste workers on access to water and toilets, symptoms, lost income and medical costs in the heat.",
+   "lead": null,
+   "collaborators": [
+    [
+     "heatwatch",
+     "co-author"
+    ],
+    [
+     "hasirudala",
+     "co-author"
+    ]
+   ],
+   "place": "Bengaluru",
+   "precision": "city",
+   "people": [
+    "Waste workers",
+    "Women workers",
+    "Scheduled Caste workers"
+   ],
+   "start": "2025",
+   "status": "completed",
+   "outputs": [
+    "Survey report"
+   ],
+   "outcomes": [],
+   "evaluation": "A survey of the harm, not an evaluation of any measure.",
+   "themes": [
+    "workers",
+    "health",
+    "water"
+   ],
+   "claims": [
+    "c-blr-waste",
+    "c-blr-waste-sc"
+   ],
+   "evidence": "own",
+   "last": "2025",
+   "equity": {
+    "mentioned": "98 of the 154 respondents were women; over 60% belonged to Scheduled Castes."
+   },
+   "related": [
+    [
+     "/home-is-also-the-workplace/",
+     "Home is also the workplace"
+    ],
+    [
+     "/who-is-at-risk/",
+     "Who is at risk"
+    ]
+   ]
+  },
+  {
+   "id": "blr-apartment-charter",
+   "title": "A heat safety charter for apartment workers",
+   "desc": "Measures apartment communities can adopt in extreme heat for the people who work there, from domestic and housekeeping staff to security guards, gardeners, delivery workers and drivers, in English, Kannada and Hindi.",
+   "lead": null,
+   "collaborators": [
+    [
+     "baf",
+     "developed it"
+    ],
+    [
+     "heatwatch",
+     "developed it"
+    ],
+    [
+     "bsf",
+     "supported it"
+    ]
+   ],
+   "place": "Apartment complexes in Bengaluru",
+   "precision": "city",
+   "people": [
+    "Domestic workers",
+    "Security guards",
+    "Housekeeping staff",
+    "Delivery workers"
+   ],
+   "start": "2026",
+   "status": "completed",
+   "outputs": [
+    "The charter, in three languages"
+   ],
+   "outcomes": [],
+   "evaluation": "No adoption figures or evaluation found.",
+   "themes": [
+    "workers",
+    "buildings"
+   ],
+   "claims": [
+    "c-blr-charter-apt",
+    "c-blr-charter-scope"
+   ],
+   "evidence": "own",
+   "last": "2026",
+   "equity": {
+    "mentioned": "Workers in apartment complexes."
+   },
+   "related": [
+    [
+     "/home-is-also-the-workplace/",
+     "Home is also the workplace"
+    ],
+    [
+     "/factory-heat/",
+     "Heat inside factories"
+    ]
+   ]
+  },
+  {
+   "id": "blr-domestic-workers",
+   "title": "Domestic workers and heat",
+   "desc": "Participatory research, workshops and a replication playbook with domestic workers, unions and resident associations, alongside HeatWatch's ongoing work with the Domestic Workers Union.",
+   "lead": "heatwatch",
+   "collaborators": [
+    [
+     "bsf",
+     "lists it among supported projects"
+    ]
+   ],
+   "place": "Bengaluru",
+   "precision": "city",
+   "people": [
+    "Domestic workers"
+   ],
+   "start": "2025-09",
+   "status": "underway",
+   "outputs": [
+    "Progress report (February 2026) and final report linked from the project page"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "themes": [
+    "workers",
+    "community",
+    "health"
+   ],
+   "claims": [
+    "c-blr-domestic-bsf",
+    "c-blr-domestic-hw"
+   ],
+   "evidence": "own",
+   "last": "2026",
+   "equity": {
+    "consulted": "Domestic workers, their unions and resident associations."
+   },
+   "related": [
+    [
+     "/home-is-also-the-workplace/",
+     "Home is also the workplace"
+    ]
+   ]
+  },
+  {
+   "id": "blr-open-parks",
+   "title": "#OpenOurParks: parks as cool places in the day",
+   "desc": "Volunteers audited parks closed between 11 AM and 4 PM and asked for longer hours and for parks to count as cooling and resting spaces.",
+   "lead": "heatwatch",
+   "collaborators": [],
+   "place": "Parks in south Bengaluru",
+   "precision": "neighbourhoods",
+   "people": [
+    "Residents",
+    "Outdoor workers"
+   ],
+   "start": "2026-04",
+   "status": "proposed",
+   "outputs": [
+    "Park audits and a representation to an elected representative"
+   ],
+   "outcomes": [],
+   "evaluation": "No decision found reported.",
+   "themes": [
+    "buildings",
+    "nature",
+    "community"
+   ],
+   "claims": [
+    "c-blr-parks"
+   ],
+   "evidence": "own",
+   "last": "2026-04",
+   "equity": {}
+  },
+  {
+   "id": "blr-climate-charche",
+   "title": "Climate Charche: workers' conversations on climate",
+   "desc": "Focus groups with domestic, gig and migrant workers, pourakarmikas and ASHA workers, through art and conversation; water was the main theme, heat a secondary one.",
+   "lead": "socratus",
+   "collaborators": [
+    [
+     "bsf",
+     "runs the Climate Charche initiative"
+    ]
+   ],
+   "place": "Bengaluru",
+   "precision": "city",
+   "people": [
+    "Domestic workers",
+    "Gig workers",
+    "Migrant workers",
+    "Pourakarmikas",
+    "ASHA workers"
+   ],
+   "start": "2024",
+   "status": "completed",
+   "outputs": [
+    "Focus group discussions"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "themes": [
+    "community"
+   ],
+   "claims": [
+    "c-blr-socratus"
+   ],
+   "evidence": "own",
+   "last": "2025-04-01",
+   "equity": {
+    "consulted": "Workers in focus groups."
+   }
+  },
+  {
+   "id": "blr-c40-hia",
+   "title": "Two high impact heat actions for Bengaluru wards",
+   "desc": "Technical assistance commissioned to choose two high impact actions for urban heat in identified wards and write detailed project reports, with the Greater Bengaluru Authority.",
+   "lead": "c40",
+   "collaborators": [
+    [
+     "gba",
+     "city counterpart"
+    ]
+   ],
+   "place": "Identified wards (not named)",
+   "precision": "wards",
+   "people": [],
+   "start": "2025-11",
+   "end": "2026-03",
+   "status": "planned",
+   "outputs": [
+    "Two detailed project reports (planned)"
+   ],
+   "outcomes": [],
+   "evaluation": "Delivery not found reported.",
+   "themes": [
+    "buildings",
+    "nature",
+    "wards"
+   ],
+   "claims": [
+    "c-blr-c40-rfp"
+   ],
+   "evidence": "own",
+   "last": "2025-09",
+   "equity": {}
+  },
+  {
+   "id": "blr-artpark-forecast",
+   "title": "Sub-district heat-risk forecasts",
+   "desc": "Heat-risk predictions for areas smaller than a district, up to seven days ahead, built with the state's disaster monitoring centre, disaster management authority and health department.",
+   "lead": "artpark",
+   "collaborators": [
+    [
+     "ksndmc",
+     "government partner"
+    ],
+    [
+     "ksdma",
+     "government partner"
+    ],
+    [
+     "kahealth",
+     "government partner"
+    ]
+   ],
+   "place": "Karnataka (coverage not stated)",
+   "precision": "state",
+   "people": [],
+   "start": null,
+   "status": "not_stated",
+   "outputs": [
+    "Forecasts (public access not verified)"
+   ],
+   "outcomes": [],
+   "evaluation": "No accuracy or use figures published on the page.",
+   "themes": [
+    "risk",
+    "health"
+   ],
+   "claims": [
+    "c-blr-artpark"
+   ],
+   "evidence": "own",
+   "last": "2026",
+   "equity": {}
+  },
+  {
+   "id": "blr-deft",
+   "title": "An ecosystem-based adaptation tool for Bengaluru",
+   "desc": "A GIS-based tool to judge where blue-green measures could reduce heatwave and flood risk, with hyper-local risk maps and a household survey.",
+   "lead": "cstep",
+   "collaborators": [
+    [
+     "iucn",
+     "funder, through the Global EbA Fund"
+    ]
+   ],
+   "place": "Bengaluru, extending to Bangalore Urban District; a workshop used Hebbal as a case",
+   "precision": "district",
+   "people": [
+    "Households (survey)"
+   ],
+   "start": "2025",
+   "status": "underway",
+   "outputs": [
+    "Workshops and a synthesis note; the tool itself is in development"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated.",
+   "themes": [
+    "nature",
+    "risk",
+    "wards"
+   ],
+   "claims": [
+    "c-blr-deft",
+    "c-blr-deft-hebbal"
+   ],
+   "evidence": "own",
+   "last": "2025-11",
+   "equity": {},
+   "related": [
+    [
+     "/solutions/",
+     "The solutions library"
+    ],
+    [
+     "/cooling-options/",
+     "Cooling options by place"
+    ]
+   ]
+  }
+ ],
+ "extra_orgs": [
+  {
+   "id": "iucn",
+   "name": "IUCN",
+   "role": "Funder of DEFT through the Global EbA Fund",
+   "network": "iucn"
+  },
+  {
+   "id": "grp",
+   "name": "Global Resilience Partnership",
+   "role": "Awarded Socratus a Knowledge into Use grant",
+   "network": "globalresiliencepartners"
+  }
+ ],
+ "tools": [
+  {
+   "id": "blr-tool-artpark",
+   "name": "ARTPARK heat-risk forecasting",
+   "owner": "artpark",
+   "collaborators": [
+    "ksndmc",
+    "ksdma",
+    "kahealth"
+   ],
+   "kind": "forecast",
+   "decision": "Where heat risk may be highest in the coming week",
+   "users": "State and district teams (implied by the government partners; users not documented)",
+   "coverage": "Karnataka, at sub-district level (extent not stated)",
+   "inputs": "Not documented on the page",
+   "outputs": "Heat-risk predictions",
+   "resolution": "Sub-district; up to seven days ahead",
+   "access": "not_verified",
+   "cost": null,
+   "language": null,
+   "licence": null,
+   "docs": null,
+   "url": "https://www.artpark.in/about/programs/social-impact",
+   "button": "View project",
+   "status": "Status not stated",
+   "limits": [
+    "A forecast horizon is not proof of accuracy; no validation is published on the page.",
+    "No public view of the forecasts was found."
+   ],
+   "bengaluru_use": "Not independently documented.",
+   "claims": [
+    "c-blr-artpark"
+   ],
+   "catalogue": "artpark_heat_forecast"
+  },
+  {
+   "id": "blr-tool-deft",
+   "name": "DEFT: Ecosystem-based Adaptation Feasibility Tool",
+   "owner": "cstep",
+   "collaborators": [
+    "iucn"
+   ],
+   "kind": "planning",
+   "decision": "Where blue-green measures are feasible and could reduce heatwave and flood risk",
+   "users": "Urban planners, policymakers and local institutions",
+   "coverage": "Bengaluru, extending to Bangalore Urban District",
+   "inputs": "Hydrology, land use, biodiversity and socio-economic data, a household survey and an ecological survey",
+   "outputs": "Feasibility of ecosystem-based measures; flood and heatwave risk maps; a blue-green infrastructure map",
+   "resolution": "Described as hyper-local; not quantified",
+   "access": "in_development",
+   "cost": null,
+   "language": null,
+   "licence": null,
+   "docs": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+   "url": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+   "button": "View project",
+   "status": "In development",
+   "limits": [
+    "Intended outputs are not yet published as a tool.",
+    "Hyper-local is the project's word; the resolution is not stated."
+   ],
+   "bengaluru_use": "Built for Bengaluru; use by any authority not documented.",
+   "claims": [
+    "c-blr-deft"
+   ],
+   "catalogue": "cstep_deft"
+  },
+  {
+   "id": "blr-tool-charter",
+   "name": "Heat Safety Charter for Apartment Workers",
+   "owner": "heatwatch",
+   "collaborators": [
+    "baf",
+    "bsf"
+   ],
+   "kind": "charter",
+   "decision": "What an apartment community can do for the people who work there in extreme heat",
+   "users": "Apartment associations and residents who employ workers",
+   "coverage": "Written for Bengaluru apartments",
+   "inputs": "None",
+   "outputs": "Apartment-level and employer-level measures",
+   "resolution": "Not applicable",
+   "access": "public",
+   "cost": "Free to read",
+   "language": "English, Kannada and Hindi",
+   "licence": null,
+   "docs": "https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+   "url": "https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+   "button": "Read guidance",
+   "status": "Published",
+   "limits": [
+    "No adoption figures found.",
+    "No licence for reuse stated."
+   ],
+   "bengaluru_use": "Adoption by apartments not documented.",
+   "claims": [
+    "c-blr-charter-apt",
+    "c-blr-charter-scope"
+   ],
+   "catalogue": "heatwatch_apartment_charter"
+  },
+  {
+   "id": "blr-tool-waste",
+   "name": "Rising Heat and Waste Workers (report)",
+   "owner": "heatwatch",
+   "collaborators": [
+    "hasirudala"
+   ],
+   "kind": "report",
+   "decision": "What waste workers need to keep working safely in the heat",
+   "users": "City corporations, worker organisations, funders",
+   "coverage": "Bengaluru",
+   "inputs": "None",
+   "outputs": "Survey findings and recommendations",
+   "resolution": "City-wide survey of 154 workers",
+   "access": "public",
+   "cost": "Free to read",
+   "language": "English",
+   "licence": null,
+   "docs": "https://www.heatwatch.in/report/rising-heat-and-waste-workers-impact-of-heat-stress-on-the-livelihood-and-health-of-waste-workers-in-bengaluru/",
+   "url": "https://www.heatwatch.in/report/rising-heat-and-waste-workers-impact-of-heat-stress-on-the-livelihood-and-health-of-waste-workers-in-bengaluru/",
+   "button": "Read guidance",
+   "status": "Published",
+   "limits": [
+    "A survey of harm, not an evaluation of any measure.",
+    "Self-reported symptoms and costs."
+   ],
+   "bengaluru_use": "Not documented.",
+   "claims": [
+    "c-blr-waste"
+   ],
+   "catalogue": null
+  },
+  {
+   "id": "blr-tool-nhie",
+   "name": "BHRIGU National Heat Insights Explorer",
+   "owner": "cstep",
+   "collaborators": [],
+   "kind": "dashboard",
+   "decision": "Where heat and other hazards combine across India",
+   "users": "Not stated",
+   "coverage": "India (planned); Bengaluru not named",
+   "inputs": "Not documented",
+   "outputs": "Multi-hazard risk visualisation (planned)",
+   "resolution": "Not stated",
+   "access": "announced",
+   "cost": null,
+   "language": null,
+   "licence": null,
+   "docs": "https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/",
+   "url": "https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/",
+   "button": "View project",
+   "status": "Announced",
+   "limits": [
+    "Described as an envisioned outcome; no live address found.",
+    "Not specific to Bengaluru."
+   ],
+   "bengaluru_use": "Not documented.",
+   "claims": [
+    "c-blr-bhrigu"
+   ],
+   "catalogue": null
+  },
+  {
+   "id": "blr-tool-hwdash",
+   "name": "HeatWatch garment worker dashboard",
+   "owner": "heatwatch",
+   "collaborators": [],
+   "kind": "dashboard",
+   "decision": "Where garment workers' heat exposure meets brand supply chains",
+   "users": "Not stated",
+   "coverage": "India's textile and garment sector; Bengaluru factories not evidenced",
+   "inputs": "None for the user",
+   "outputs": "Maps of worker heat exposure and brand supply chains",
+   "resolution": "Factory level (described)",
+   "access": "not_verified",
+   "cost": null,
+   "language": null,
+   "licence": null,
+   "docs": null,
+   "url": "https://dashboard.heatwatch.in/",
+   "button": "Access details",
+   "status": "Opened when checked; content not readable by the checker",
+   "limits": [
+    "Not a Bengaluru deployment.",
+    "Its temperature source and resolution are not described."
+   ],
+   "bengaluru_use": "Not documented.",
+   "claims": [
+    "c-blr-hw-dash"
+   ],
+   "catalogue": null
+  }
+ ],
+ "money": [
+  {
+   "id": "m-niua-5cr",
+   "amount": 5,
+   "unit": "crore",
+   "what": "Heat resilience, under the NIUA pilot (Building Heat Resilient Cities, AMRUT 2.0)",
+   "who": "bncc",
+   "stage": "announced",
+   "stage_note": "Described as allocated, in a statement at the launch; no sanction order found.",
+   "date": "2026-07-15",
+   "heat": "yes",
+   "parent": null,
+   "claims": [
+    "c-blr-niua-5cr"
+   ]
+  },
+  {
+   "id": "m-niua-1cr",
+   "amount": 1,
+   "unit": "crore",
+   "what": "Protecting vulnerable populations, such as safety gear for outdoor informal workers",
+   "who": "bncc",
+   "stage": "announced",
+   "stage_note": "Described as dedicated, within the ₹5 crore.",
+   "date": "2026-07-15",
+   "heat": "yes",
+   "parent": "m-niua-5cr",
+   "claims": [
+    "c-blr-niua-1cr"
+   ]
+  },
+  {
+   "id": "m-begur-2cr",
+   "amount": 2,
+   "unit": "crore",
+   "what": "Phased implementation of the Begur Ward Climate Action Plan: heat proofing of buildings, blue-green schools, groundwater recharge and more",
+   "who": "bscc",
+   "stage": "announced",
+   "stage_note": "Announced as allocated; called a starting point, not a final budget.",
+   "date": "2026-07-15",
+   "heat": "partly",
+   "parent": null,
+   "claims": [
+    "c-blr-begur-2cr"
+   ]
+  },
+  {
+   "id": "m-52cr",
+   "amount": 52,
+   "unit": "crore",
+   "approx": true,
+   "what": "Climate action in four of the five corporations' 2026-27 budgets",
+   "who": "gba",
+   "stage": "allocated",
+   "stage_note": "Reported by WRI India as allocated; the budget documents were not checked.",
+   "date": "2026-06-27",
+   "heat": "not stated",
+   "parent": null,
+   "claims": [
+    "c-blr-52cr"
+   ]
+  },
+  {
+   "id": "m-28cr",
+   "amount": 28,
+   "unit": "crore",
+   "what": "Climate action, including proposed ward-level plans, in the former BBMP's 2025-26 budget",
+   "who": "bbmp",
+   "stage": "allocated",
+   "stage_note": "Described as allocated by one report and as earmarked by another.",
+   "date": "2025",
+   "heat": "not stated",
+   "parent": null,
+   "claims": [
+    "c-blr-wcap-budget",
+    "c-blr-bbmp"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2025",
+   "kind": "event",
+   "text": "HeatWatch and Hasiru Dala publish their waste-worker heat survey. The report page shows no date; the PDF on Hasiru Dala's site sits in a folder dated August 2025.",
+   "claims": [
+    "c-blr-waste"
+   ]
+  },
+  {
+   "date": "2025-09",
+   "kind": "authority",
+   "text": "The Greater Bengaluru Authority's five city corporations come into being, after the BBMP.",
+   "claims": [
+    "c-blr-gba",
+    "c-blr-bbmp"
+   ]
+  },
+  {
+   "date": "2025-09",
+   "kind": "plan",
+   "text": "A domestic-worker heat project starts, supported through Bengaluru Sustainability Forum.",
+   "claims": [
+    "c-blr-domestic-bsf"
+   ]
+  },
+  {
+   "date": "2025-10-19",
+   "kind": "plan",
+   "text": "Deadline for C40's request for technical assistance on two high impact heat actions; work planned for November 2025 to March 2026.",
+   "claims": [
+    "c-blr-c40-rfp"
+   ]
+  },
+  {
+   "date": "2026-03",
+   "kind": "plan",
+   "text": "Ward climate plan consultations completed in five pilot wards; zone-wise budgets not yet released.",
+   "claims": [
+    "c-blr-wcap-lead",
+    "c-blr-wcap-budget"
+   ]
+  },
+  {
+   "date": "2026-04",
+   "kind": "delivery",
+   "text": "Cooling kits go to 202 outdoor public workers, mostly in North City Corporation.",
+   "claims": [
+    "c-blr-kits"
+   ]
+  },
+  {
+   "date": "2026-04-10",
+   "kind": "delivery",
+   "text": "Three cooling centres for outdoor workers open; they close in the first week of July.",
+   "claims": [
+    "c-blr-mrc"
+   ]
+  },
+  {
+   "date": "2026-06-27",
+   "kind": "money",
+   "text": "Four of five corporations reported to have put about ₹52 crore towards climate action in 2026-27 budgets (not heat-specific).",
+   "claims": [
+    "c-blr-52cr"
+   ]
+  },
+  {
+   "date": "2026-07",
+   "kind": "plan",
+   "text": "After the launch, members reported to have agreed a charter and a strategy note (neither found published).",
+   "claims": [
+    "c-blr-charter"
+   ]
+  },
+  {
+   "date": "2026-07-14",
+   "kind": "event",
+   "text": "The city records 33.6°C, its hottest July day on record.",
+   "claims": [
+    "c-blr-july-record"
+   ]
+  },
+  {
+   "date": "2026-07-15",
+   "kind": "event",
+   "text": "The Bengaluru Heat Collective is launched by 11 organisations. North City Corporation describes ₹5 crore under the NIUA pilot and plans roof coating demonstrations; South City Corporation announces ₹2 crore for the Begur ward plan.",
+   "claims": [
+    "c-blr-launch",
+    "c-blr-niua-5cr",
+    "c-blr-roof",
+    "c-blr-begur-2cr"
+   ]
+  },
+  {
+   "date": "2026-08",
+   "kind": "plan",
+   "text": "The Collective reported to have begun a theory of change and strategic workplan.",
+   "claims": [
+    "c-blr-toc"
+   ]
+  },
+  {
+   "date": "2026-10",
+   "kind": "plan",
+   "text": "Shantinagar's ward climate plan is completed and submitted to the Climate Action Cell and Bengaluru Central City Corporation.",
+   "claims": [
+    "c-blr-shantinagar"
+   ]
+  }
+ ],
+ "gaps": [
+  "No published evaluation of any heat measure in Bengaluru was found: cooling centres, kits and plans are described by organisers or reporters.",
+  "Whether the ₹5 crore and ₹2 crore have been sanctioned, released or spent. Only statements at the launch were found.",
+  "Whether the planned roof coating demonstrations have been installed.",
+  "The Collective's charter, strategy note, workstreams and any lead or coordinator.",
+  "How many workers used Bengaluru's cooling centres; published figures are national.",
+  "Whether the ARTPARK forecasts are used by any authority, and their accuracy.",
+  "Where women, older and disabled people, and migrant workers shape decisions, as distinct from being consulted or receiving support.",
+  "The Karnataka Heat Action Plan 2026 could not be read for this profile (its server returned an error), so its arrangements for Greater Bengaluru are not described here.",
+  "Kannada-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [
+  {
+   "text": "Pilot wards: Mongabay India names five (one per zone); Citizen Matters, three months earlier, reported plans for ten wards across five corporations.",
+   "claims": [
+    "c-blr-wcap-lead",
+    "c-blr-wcap-group"
+   ]
+  },
+  {
+   "text": "The ₹28 crore for climate action: described as allocated by the former body in one report and as earmarked for proposed plans in another.",
+   "claims": [
+    "c-blr-wcap-budget"
+   ]
+  },
+  {
+   "text": "Member names vary across sources: Socratus appears as Socratus, Socratus Corporation, Socratus Collective Wisdom Corporation and Socratus Foundation; Jan Sahas also as Jan Sahas Foundation and Jansahas.",
+   "claims": [
+    "c-blr-members",
+    "c-blr-aliases",
+    "c-blr-wcap-group"
+   ]
+  },
+  {
+   "text": "KHPT describes itself joining ten organisations; WRI India counts eleven founding members including KHPT. These agree on the same eleven.",
+   "claims": [
+    "c-blr-members",
+    "c-blr-aliases"
+   ]
+  }
+ ],
+ "start_here": [
+  {
+   "who": "A city or ward team",
+   "text": "The Begur plan and its first budget are the most concrete ward-level starting point; the cooling kit team's proposal for Indira canteens is a ready list for heat alerts.",
+   "ref": [
+    "blr-begur-budget",
+    "blr-cooling-kits"
+   ]
+  },
+  {
+   "who": "A worker organisation or NGO",
+   "text": "The waste-worker survey and the apartment workers' charter give evidence and a practical text to build on; the cooling centres show what a season of relief took.",
+   "ref": [
+    "blr-waste-report",
+    "blr-apartment-charter",
+    "blr-cooling-centres"
+   ]
+  },
+  {
+   "who": "A researcher",
+   "text": "Nothing here has been evaluated. Measuring what the centres, kits and roof coatings change for workers' health and income is an open question.",
+   "ref": []
+  },
+  {
+   "who": "A funder",
+   "text": "The announced allocations have no published spending record yet; following them from announcement to delivery is itself useful work.",
+   "ref": []
+  }
+ ],
+ "signals": [
+  "sig-bengaluru-heat-resilience-2026"
+ ]
+}

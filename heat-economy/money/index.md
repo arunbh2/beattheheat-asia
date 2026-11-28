@@ -1,7 +1,7 @@
 ---
 title: "Funding and support for protection from heat"
 url: https://beattheheat.asia/heat-economy/money/
-updated: 2026-11-27
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -1590,7 +1590,7 @@ The kinds of work heat protection needs, and how many records in this curated da
 
 ## Health and equity reach
 
-Within the records tracked by Common Shade: 27 funding programmes and 20 policy commitments on Signals. A record can sit under more than one kind of protection, so the counts do not add up to a total, and no money is summed: the records do not track amounts in a way that can be compared. Being absent here does not mean no funding exists.
+Within the records tracked by Common Shade: 27 funding programmes and 21 policy commitments on Signals. A record can sit under more than one kind of protection, so the counts do not add up to a total, and no money is summed: the records do not track amounts in a way that can be compared. Being absent here does not mean no funding exists.
 
 Records by the kind of protection they name (a record can count more than once)Kind of protection | Funding programmes | Policy commitments |
 Care-service continuity | 1 | 0 |
@@ -1599,7 +1599,7 @@ Healthcare and maternal services | 11 | 5 |
 Household cooling | 1 | 0 |
 Household or public cooling | 4 | 0 |
 Public cooling and accessible infrastructure | 15 | 2 |
-Warning and response systems | 5 | 14 |
+Warning and response systems | 5 | 15 |
 Workplace heat protection | 4 | 3 |
 
 What remains unknown across these records: who actually benefits, how money is split between components, and evidence of reach. Each card's "Health and equity reach" panel says which of these it documents. Little funding identified, an undisclosed amount, funding not yet researched and an evidenced financing gap are different things; these records establish none of the last.

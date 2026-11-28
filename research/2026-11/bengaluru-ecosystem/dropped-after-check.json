@@ -1,0 +1,20 @@
+[
+ {
+  "id": "c-blr-c40-cca",
+  "where": "Activity: C40 Cool Cities Accelerator",
+  "text": "Bengaluru is listed among the signatory cities of C40's Cool Cities Accelerator.",
+  "missing": [
+   "c40-cca: \"Bengaluru\"",
+   "c40-cca: \"Cool Cities Accelerator\""
+  ]
+ },
+ {
+  "id": "c-blr-state-hap",
+  "where": "Public authority: state heat plan",
+  "text": "The Karnataka Heat Action Plan 2026 includes the Greater Bengaluru area.",
+  "missing": [
+   "ksndmc-hap: \"Greater Bengaluru\"",
+   "ksndmc-hap: \"Heat Action Plan\""
+  ]
+ }
+]
