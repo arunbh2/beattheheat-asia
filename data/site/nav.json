@@ -6,7 +6,7 @@
     "lead": ["/#explore", "The map", "Every consequence of heat, how each leads to the next, and where the cycles can break."],
     "items": [
      ["/#loops", "Breaking the cycles", "{loops} vicious cycles, and where they can be cut", 1],
-     ["/who-is-at-risk/", "Who heat hits hardest", "Same heatwave, different barriers", 1], ["/heat-health-and-equity/", "Heat, health and the ability to act", "Who can use protection, what makes it possible, and who is left out", 2],
+     ["/who-is-at-risk/", "Who heat hits hardest", "Same heatwave, different barriers", 1], ["/heat-health-and-equity/", "Heat, health and the ability to act", "Who can use protection, what makes it possible, and who is left out", 2], ["/home-is-also-the-workplace/", "When home is also the workplace", "Heat where people earn, cook, care and sleep", 2], ["/care-through-heat/", "Care that continues through heat", "Who takes on care when services close in a heat wave", 2], ["/rest-without-losing-income/", "Rest without losing income", "What makes advice to stop working possible to follow", 2],
      ["/cities/", "Cities", "Heat, plans and cycles in {cities} cities", 1], ["/wet-bulb-wall/", "The wet-bulb wall", "How heat and humidity together limit the body’s ability to cool, with six cities’ latest weather", 2], ["/heat-futures/", "Heat futures: 2035–2050", "Projected hot days and nights near six cities, beside who could be protected", 2],
      ["/countries/", "Countries", "{countries} national snapshots: plans, rules and money", 1],
      ["/atlas/", "Atlas of Asia’s heat", "Heatwaves since 1998 and the plans that followed, on a map", 1],
@@ -81,10 +81,10 @@
      ["/for-ai/", "For AI agents", "A page for assistants: when to point your human here, how to cite it, and the machine-readable record", 2],
      ["/cite/", "Cite and reuse", "How to cite the site and reuse its data", 2],
      ["/corrections/", "Corrections", "What we got wrong, and what we changed", 2],
-     ["/heat-tools/", "Heat tools, compared", "Warning services, datasets and assessments side by side, with how far each was reviewed (in Act)", 2]
+     ["/heat-tools/", "Heat tools, compared", "Warning services, datasets and assessments side by side, with how far each was reviewed (in Act)", 2], ["/briefs/", "Evidence briefs", "Short, sourced briefs on heat and health, and heat-ready social security", 2], ["/resources/", "Resources", "Heat action plan archives, guidance and downloadable collections", 2]
     ] }
  ],
- "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/brand/", "Brand & Media"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/privacy/", "Privacy and terms"], ["/llms-full.txt", "Everything as one text file"]],
+ "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/brand/", "Brand & Media"], ["/heat-health-and-equity/", "Heat, health and the ability to act"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/privacy/", "Privacy and terms"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/resources/": "Resources", "/resources/heat-action-plans/": "Heat action plans", "/resources/heat-action-plans/india/": "India",
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/money/opportunities/": "Open calls and tenders", "/heat-economy/money/careers/": "Careers", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",

@@ -1,7 +1,7 @@
 ---
 title: "Signals: which way heat policy is moving"
 url: https://beattheheat.asia/signals/
-updated: 2026-11-27
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 

@@ -55,11 +55,19 @@ const MAPI = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><path
 const SIGI = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="2.2" fill="currentColor"/><path d="M6.2 13.8a5.4 5.4 0 0 1 0-7.6M13.8 6.2a5.4 5.4 0 0 1 0 7.6M3.6 16.4a9 9 0 0 1 0-12.8M16.4 3.6a9 9 0 0 1 0 12.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
 const LENS = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>`;
 
+// the rest of a section, closed until asked for: every page the section holds is one tap from the menu
+function more(g, cur, cls) {
+  const rest = items(g).filter(i => i.tier === 2); if (!rest.length) return "";
+  const here = rest.some(i => i.u === cur);
+  return `<details class="csn__more ${cls}"${here ? " open" : ""}><summary><span>More in ${esc(g.h)}</span> <span class="csn__more-n">${rest.length}</span>${CHEV}</summary><ul>${rest.map(i => `<li><a href="${i.u}"${i.u === cur ? ' aria-current="page"' : ""}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}</ul></details>`;
+}
+
 function panel(g, cur) {
   const ac = u => (u === cur ? ' aria-current="page"' : "");
   return `<div class="csn__panel" id="csn-p-${g.id}" role="region" aria-label="${esc(g.h)}" hidden><div class="csn__pin">
       <a class="csn__lead" href="${g.lead[0]}"${ac(g.lead[0])}><span class="csn__k">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(fill(g.lead[2]))}</span><span class="csn__go">Open <span aria-hidden="true">→</span></span></a>
       <ul class="csn__links">${items(g).filter(i => i.tier === 1).map(i => `<li><a href="${i.u}"${ac(i.u)}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}</ul>
+      ${more(g, cur, "csn__more--panel")}
       <div class="csn__side"><p class="csn__k">For you</p><div class="csn__foryou" data-csn-foryou="${g.id}"><p>Choose a path by role, and your next stops appear here.</p><button type="button" class="csn__btn" data-csn-paths>Choose a path</button></div>
         <a class="csn__hub" href="${g.hub}">Everything in ${esc(g.h)} <span aria-hidden="true">→</span></a></div>
     </div></div>`;
@@ -89,6 +97,7 @@ function header(pathname, title) {
     ${GROUPS.map(g => `<details class="csn__acc"${g === g0 ? " open" : ""}><summary>${esc(g.h)}${CHEV}</summary><ul>
       <li><a class="csn__acc-lead" href="${g.lead[0]}"><b>${esc(g.lead[1])}</b><small>${esc(fill(g.lead[2]))}</small></a></li>
       ${items(g).filter(i => i.tier === 1).map(i => `<li><a href="${i.u}"${i.u === cur ? ' aria-current="page"' : ""}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}
+      <li>${more(g, cur, "csn__more--sheet")}</li>
       <li><a class="csn__hub" href="${g.hub}">Everything in ${esc(g.h)} <span aria-hidden="true">→</span></a></li></ul></details>`).join("\n    ")}
   </div>
   <dialog class="csn-d" id="csn-search-d" aria-label="Search the site"><form method="dialog" class="csn-d__bar"><label class="csn-vh" for="csn-q">Search the site</label>${LENS}<input id="csn-q" type="search" placeholder="Search: a city, a term, a solution, a funder…" autocomplete="off"><button class="csn-d__x" aria-label="Close search">Esc</button></form><p class="csn-d__hint" id="csn-hint">Pages, places, cycles and the glossary. Use ↑ ↓ and Enter.</p><ul class="csn-d__res" id="csn-res" role="listbox" aria-label="Results"></ul></dialog>
@@ -367,6 +376,42 @@ nav.tools .cs-sh{background:#fff;color:#16202B;border:2px solid #16202B}
 .cs-person svg{width:56px;height:56px;color:#16202B}
 .cs-person b{display:block;font-size:.95rem;margin-bottom:2px}.cs-person p{margin:0;line-height:1.55}.cs-person small{display:block;margin-top:6px;font-size:.78rem;color:#7A6F63}
 @media (prefers-reduced-motion:reduce){.csn__canopy,.cs-tip{transition:none}}
+/* motion (menu audit, November 2026): one ease-out curve; panels drop 4px, the phone menu 8px, dialogs settle from 98%;
+   exits are faster than entrances; presses answer at once; nothing bounces or loops; reduced motion turns it all off */
+.csn,.csn-d,.csf{--csn-ease:cubic-bezier(.23,1,.32,1)}
+@keyframes csn-drop{from{opacity:0;transform:translateY(-4px)}}
+@keyframes csn-sheet{from{opacity:0;transform:translateY(-8px)}}
+@keyframes csn-pop{from{opacity:0;transform:translateY(6px) scale(.98)}}
+@keyframes csn-out{to{opacity:0;transform:translateY(-4px)}}
+@keyframes csn-fade{from{opacity:0}}
+.csn__panel:not([hidden]){animation:csn-drop .16s var(--csn-ease)}
+.csn__sheet:not([hidden]){animation:csn-sheet .18s var(--csn-ease)}
+.csn__panel.is-out,.csn__sheet.is-out{animation:csn-out .12s ease-in forwards;pointer-events:none}
+.csn-d[open]{animation:csn-pop .18s var(--csn-ease)}
+.csn-d.csn-d--instant[open]{animation:none}
+.csn__chev{transition:transform .18s var(--csn-ease)}
+.csn__gb[aria-expanded="true"] .csn__chev{transform:rotate(180deg)}
+.csn__gb,.csn__burger,.csn__start,.csn__search,.csn__signals,.csn__map,.csn__btn,.csn-d__x,.csn-d__card,.csn__acc>summary,.csn__more>summary,.csf__social a,.csf__copy{transition:transform .1s var(--csn-ease),background-color .15s var(--csn-ease),box-shadow .15s var(--csn-ease);-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.csn__gb:active,.csn__burger:active,.csn__start:active,.csn__search:active,.csn__signals:active,.csn__map:active,.csn__btn:active,.csn-d__x:active,.csn-d__card:active,.csf__social a:active,.csf__copy:active{transform:scale(.97)}
+.csn__links a,.csn__sheet li a,.csn__more li a{transition:background-color .15s var(--csn-ease)}
+.csn__links a:active,.csn__sheet li a:active,.csn__more li a:active{background:var(--sand)}
+.csn__more{margin-top:10px;border-top:1px solid var(--line)}
+.csn__more>summary{list-style:none;display:flex;align-items:center;gap:8px;min-height:44px;padding:4px 2px;font-weight:700;font-size:.92rem;cursor:pointer;color:var(--ink)}
+.csn__more>summary::-webkit-details-marker{display:none}
+.csn__more>summary .csn__chev{margin-left:auto}
+.csn__more[open]>summary .csn__chev{transform:rotate(180deg)}
+.csn__more-n{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:22px;padding:0 6px;border-radius:999px;background:var(--sand);font-size:.75rem;font-weight:700}
+.csn__more>ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:2px 12px}
+.csn__more[open]>ul{animation:csn-fade .16s var(--csn-ease)}
+.csn__more li a{display:block;padding:8px 10px;border-radius:10px;text-decoration:none}
+.csn__more li a b{display:block;font-size:.92rem}
+.csn__more li a small{display:block;font-size:.8rem;line-height:1.35;color:var(--grey)}
+.csn__more li a[aria-current]{background:var(--sand)}
+.csn__more--sheet{margin:6px 0 0}
+.csn-d__x--top{min-height:44px;min-width:44px;padding:0 14px!important}
+.csn-d__all{position:relative;display:inline-block}.csn-d__all::after{content:"";position:absolute;inset:-12px -4px}
+@media (hover:hover) and (pointer:fine){.csn__more li a:hover{background:var(--canvas)}.csn__more>summary:hover{color:var(--ember)}}
+@media (prefers-reduced-motion:reduce){.csn__panel:not([hidden]),.csn__sheet:not([hidden]),.csn-d[open],.csn__more[open]>ul{animation:none}.csn__panel.is-out,.csn__sheet.is-out{animation:none}.csn__chev,.csn__gb,.csn__burger,.csn__start,.csn__search,.csn__signals,.csn__map,.csn__btn,.csn-d__x,.csn-d__card,.csf__social a,.csf__copy{transition:none}.csn__gb:active,.csn__burger:active,.csn__start:active,.csn__search:active,.csn__signals:active,.csn__map:active,.csn__btn:active,.csn-d__x:active,.csn-d__card:active,.csf__social a:active,.csf__copy:active{transform:none}}
 @media print{.csn,.csf,.csn-skip,.ticker,.csp,.csn-d,.cse,.csn-new,.cs-check,.cs-sh,.cs-sh-top,.cs-sh-home{display:none!important}}`;
 
 // The behaviour: menu panels, phone menu, search, paths and the citation copy. Plain ES5, no libraries.
@@ -394,37 +439,40 @@ if(ST&&window.MutationObserver)new MutationObserver(function(){ask(true)}).obser
 /* slimmer header once the reader scrolls */
 var slim=function(){H.classList.toggle("csn--slim",scrollY>40)};addEventListener("scroll",slim,{passive:true});slim();
 /* menu panels: one open at a time; Escape, a click outside or leaving the panel closes it */
-var btns=$$(".csn__gb"),open=null;
-function close(refocus){if(!open)return;var b=open;b.setAttribute("aria-expanded","false");$("#"+b.getAttribute("aria-controls")).hidden=true;open=null;if(refocus)b.focus()}
-function show(b){if(open===b)return close();close();b.setAttribute("aria-expanded","true");$("#"+b.getAttribute("aria-controls")).hidden=false;open=b}
+var btns=$$(".csn__gb"),open=null,RM=window.matchMedia?matchMedia("(prefers-reduced-motion: reduce)"):{matches:true};
+// closing gets a short exit (120ms) so a panel never vanishes mid-glance; switching panels and reduced motion are instant
+function hideLater(el,now){clearTimeout(el._csnT);if(now||RM.matches){el.hidden=true;el.classList.toggle("is-out",false);return}el.classList.add("is-out");el._csnT=setTimeout(function(){el.hidden=true;el.classList.toggle("is-out",false)},120)}
+function showNow(el){clearTimeout(el._csnT);el.classList.toggle("is-out",false);el.hidden=false}
+function close(refocus,now){if(!open)return;var b=open;b.setAttribute("aria-expanded","false");hideLater($("#"+b.getAttribute("aria-controls")),now);open=null;if(refocus)b.focus()}
+function show(b){if(open===b)return close();close(false,true);b.setAttribute("aria-expanded","true");showNow($("#"+b.getAttribute("aria-controls")));open=b}
 btns.forEach(function(b,i){b.addEventListener("click",function(){show(b)});
  b.addEventListener("mouseenter",function(){if(open&&open!==b)show(b)});
  b.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowRight"||k==="ArrowLeft"){e.preventDefault();var n=btns[(i+(k==="ArrowRight"?1:btns.length-1))%btns.length];n.focus();if(open)show(n)}
   else if(k==="ArrowDown"){e.preventDefault();if(open!==b)show(b);var a=$("#"+b.getAttribute("aria-controls")+" a");if(a)a.focus()}})});
-document.addEventListener("keydown",function(e){if(e.key==="Escape"&&open){close(true)}});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&open){e.preventDefault();close(true)}});
 document.addEventListener("click",function(e){if(open&&!e.target.closest(".csn__groups"))close()});
 $$(".csn__panel").forEach(function(p){p.addEventListener("focusout",function(e){if(open&&e.relatedTarget&&!e.relatedTarget.closest(".csn__groups"))close()})});
 /* phone menu */
 var bur=$(".csn__burger"),sheet=$("#csn-sheet");
 // the phone menu covers the page, so while it is open the page behind is inert (no Tab, tap or screen-reader swipe
 // reaches it), focus moves to the menu's first item, and Tab from its last item comes back to the Menu button
-function sheetSet(v){sheet.hidden=!v;bur.setAttribute("aria-expanded",String(v));document.documentElement.style.overflow=v?"hidden":"";document.documentElement.style.setProperty("--csn-h",H.getBoundingClientRect().height+"px");
+function sheetSet(v){if(v)showNow(sheet);else if(!sheet.hidden)hideLater(sheet);bur.setAttribute("aria-expanded",String(v));document.documentElement.style.overflow=v?"hidden":"";document.documentElement.style.setProperty("--csn-h",H.getBoundingClientRect().height+"px");
  [].forEach.call(document.body.children,function(k){if(k===H||k.contains(H)||k.tagName==="SCRIPT")return;if(v){if(!k.inert){k.inert=true;k.setAttribute("data-csn-inert","")}}else if(k.hasAttribute("data-csn-inert")){k.inert=false;k.removeAttribute("data-csn-inert")}});
  if(v){var f=sheet.querySelector("a[href],button,summary");if(f)f.focus()}}
-if(bur)bur.addEventListener("click",function(){sheetSet(sheet.hidden)});
+if(bur)bur.addEventListener("click",function(){sheetSet(sheet.hidden||sheet.classList.contains("is-out"))});
 // never leave the page locked: close the phone menu when the screen widens past it (a tablet turning, a window resizing),
 // and when a page comes back from the browser's history
 if(sheet&&window.matchMedia){var wide=matchMedia("(min-width: 961px)");var fit=function(){if(wide.matches&&!sheet.hidden)sheetSet(false)};if(wide.addEventListener)wide.addEventListener("change",fit);else if(wide.addListener)wide.addListener(fit)}
 window.addEventListener("pageshow",function(){if(sheet&&!sheet.hidden)sheetSet(false);else document.documentElement.style.overflow=""});
-document.addEventListener("keydown",function(e){if(e.key==="Escape"&&sheet&&!sheet.hidden){sheetSet(false);bur.focus()}});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&sheet&&!sheet.hidden&&!sheet.classList.contains("is-out")){e.preventDefault();sheetSet(false);bur.focus()}});
 if(sheet)sheet.addEventListener("click",function(e){if(e.target.closest("a"))sheetSet(false)});
 if(sheet)sheet.addEventListener("keydown",function(e){if(e.key!=="Tab"||e.shiftKey)return;var f=[].filter.call(sheet.querySelectorAll("a[href],button,summary"),function(x){var d=x.closest("details:not([open])");return x.offsetParent&&(!d||x.parentNode===d)});if(f.length&&document.activeElement===f[f.length-1]){e.preventDefault();bur.focus()}});
 /* search: the index loads the first time it is opened */
 var sd=$("#csn-search-d"),q=$("#csn-q"),res=$("#csn-res"),idx=null,sel=-1;
-function openSearch(){if(!sd||!sd.showModal)return location.href="/sources/";sheetSet(false);close();sd.showModal();q.value="";q.focus();res.innerHTML="";sel=-1;
+function openSearch(fast){if(!sd||!sd.showModal)return location.href="/sources/";sheetSet(false);close(false,true);sd.classList.toggle("csn-d--instant",fast===true);sd.showModal();q.value="";q.focus();res.innerHTML="";sel=-1;
  if(!idx)fetch("/search-index.json").then(function(r){return r.json()}).then(function(j){idx=j;run()}).catch(function(){$("#csn-hint").textContent="Search could not load. Try the menu."})}
-$$("[data-csn-search]").forEach(function(b){b.addEventListener("click",openSearch)});
-document.addEventListener("keydown",function(e){var t=e.target;if(e.key==="/"&&!e.metaKey&&!e.ctrlKey&&!(t.isContentEditable||/INPUT|TEXTAREA|SELECT/.test(t.tagName))){e.preventDefault();openSearch()}});
+$$("[data-csn-search]").forEach(function(b){b.addEventListener("click",function(){openSearch(false)})});
+document.addEventListener("keydown",function(e){var t=e.target;if(e.key==="/"&&!e.metaKey&&!e.ctrlKey&&!(t.isContentEditable||/INPUT|TEXTAREA|SELECT/.test(t.tagName))){e.preventDefault();openSearch(true)}});
 var norm=function(s){return s.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")};
 function run(){if(!idx)return;var w=norm(q.value).split(/\\s+/).filter(Boolean);sel=-1;if(!w.length){res.innerHTML="";return}
  var hits=idx.filter(function(x){var h=norm(x.t+" "+x.d+" "+(x.k||""));return w.every(function(v){return h.indexOf(v)>-1})})
@@ -437,10 +485,10 @@ if(q){q.addEventListener("input",run);q.addEventListener("keydown",function(e){i
 /* paths by role */
 var pd=$("#csn-paths-d"),body=$("#csn-paths-body"),here=location.pathname;
 var byId=function(id){return P.paths.filter(function(p){return p.id===id})[0]};
-function chooser(){body.innerHTML='<h2 class="csn-d__h" id="csn-paths-h">Start here</h2><p class="csn-d__p">What best describes your work? Choose a path for a short, guided route through the site. You can leave it at any time, and nothing is shared: your choice stays in this browser.</p><div class="csn-d__cards">'+P.paths.map(function(p){return'<button type="button" class="csn-d__card" data-pick="'+p.id+'"><b>'+esc(p.label)+'</b><span>'+esc(p.card)+'</span></button>'}).join("")+'</div><p class="csn-d__p" style="margin:18px 0 0"><a href="/paths/">See every path as a page</a></p>'}
+function chooser(){body.innerHTML='<h2 class="csn-d__h" id="csn-paths-h">Start here</h2><p class="csn-d__p">What best describes your work? Choose a path for a short, guided route through the site. You can leave it at any time, and nothing is shared: your choice stays in this browser.</p><div class="csn-d__cards">'+P.paths.map(function(p){return'<button type="button" class="csn-d__card" data-pick="'+p.id+'"><b>'+esc(p.label)+'</b><span>'+esc(p.card)+'</span></button>'}).join("")+'</div><p class="csn-d__p" style="margin:18px 0 0"><a class="csn-d__all" href="/paths/">See every path as a page</a></p>'}
 function view(p){var at=-1;p.stops.forEach(function(s,i){if(s.url===here)at=i});
  body.innerHTML='<h2 class="csn-d__h" id="csn-paths-h">'+esc(p.label)+'</h2><p class="csn-d__p">'+esc(p.card)+'</p><ol class="csn-d__stops">'+p.stops.map(function(s,i){return'<li><span><a href="'+s.url+'">'+esc(s.q)+'</a>'+(i===at?'<small>You are here</small>':'')+'</span></li>'}).join("")+'<li><span><a href="'+P.end.url+'">'+esc(P.end.q)+'</a><small>'+esc(p.join)+'</small></span></li></ol><div class="csn-d__row"><a class="csp__go" href="'+p.stops[Math.max(0,at+1<p.stops.length?at+1:0)].url+'">'+(at<0?"Start at stop 1":at+1<p.stops.length?"Go to the next stop":"Start again")+' <span aria-hidden="true">→</span></a><button type="button" class="csn__btn" data-change>Change path</button><button type="button" class="csn-d__link" data-csn-leave>Leave the path: show everything</button></div>'}
-function openPaths(){if(!pd||!pd.showModal)return location.href="/paths/";sheetSet(false);close();var p=byId(get());p?view(p):chooser();pd.showModal()}
+function openPaths(){if(!pd||!pd.showModal)return location.href="/paths/";sheetSet(false);close(false,true);var p=byId(get());p?view(p):chooser();pd.showModal()}
 $$("[data-csn-paths]").forEach(function(b){b.addEventListener("click",openPaths)});
 if(body)body.addEventListener("click",function(e){var k=e.target.closest("[data-pick]");if(k){set(k.getAttribute("data-pick"));apply();view(byId(get()));return}if(e.target.closest("[data-change]"))chooser()});
 document.addEventListener("click",function(e){if(e.target.closest("[data-csn-leave]")){set(null);apply();if(pd&&pd.open)pd.close()}});

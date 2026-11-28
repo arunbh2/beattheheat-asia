@@ -1,7 +1,7 @@
 ---
 title: "News and evidence"
 url: https://beattheheat.asia/evidence/
-updated: 2026-11-19
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -36,6 +36,8 @@ What the evidence says, how sure we are, and where every claim comes from.
 - [Cite and reuseHow to cite the site and reuse its data](https://beattheheat.asia/cite/)
 - [CorrectionsWhat we got wrong, and what we changed](https://beattheheat.asia/corrections/)
 - [Heat tools, comparedWarning services, datasets and assessments side by side, with how far each was reviewed (in Act)](https://beattheheat.asia/heat-tools/)
+- [Evidence briefsShort, sourced briefs on heat and health, and heat-ready social security](https://beattheheat.asia/briefs/)
+- [ResourcesHeat action plan archives, guidance and downloadable collections](https://beattheheat.asia/resources/)
 
 ## Paths through this group
 

@@ -47,11 +47,11 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 - `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
 - `.github/workflows/`: data checks, link checks, news feed, source and URL verification, and the weekly evidence review.
 - `tools/site-counts.js` → `data/site/counts.json` (generated): each builder records the headline counts it prints (solutions, sources, schemes and so on), so anything showing a count reads the page's own figure. The menu (`data/site/nav.json`) writes a count as `{key}`, filled by `tools/nav-counts.js`; `build-data.js --check` refuses a typed count there, and any publication date after today in the news feeds.
-- Pop-ups, on every page of every visit (the site owner's choice, November 2026). Each rests for the rest of a visit once the reader answers it, and only one shows at a time (`<html data-cs-pop>`):
-  - the invitation (`join.js`)
+- Pop-ups, available on every page of every visit (the site owner's choice, November 2026). Each rests for the rest of a visit once the reader answers it, only one shows at a time (`<html data-cs-pop>`), and none opens while the phone menu, a desktop menu panel or a dialog (search, Start here, Share) is open: the invitation waits and appears once they close, and the exit card lets that moment pass. When each appears:
+  - the invitation (`join.js`): after 20 seconds on a page and a quarter of it read (at once on a short page), placed after the main content in reading order; Escape closes it only when it is the top layer
   - the State of the field notice (`tools/site-nav.js`)
-  - the exit card "Everything Common Shade covers" (`tools/build-everything.js` → `everything.js`, also listed in llms.txt)
-  `join.js` and `everything.js` load 2.5 s after the page loads; the notice comes with the shared header. Check a card with `?preview=invite` or `?preview=everything`.
+  - the exit card "Everything Common Shade covers" (`tools/build-everything.js` → `everything.js`, also listed in llms.txt): on leaving intent (the pointer leaving the top of the window, or a quick scroll back up after reading deep on a phone)
+  `join.js` and `everything.js` load 2.5 s after the page loads; the notice comes with the shared header. Check a card with `?preview=invite` or `?preview=everything` (both show at once). The menu: each section's core pages, then a closed "More in …" list of the rest (tier 2 in nav.json), so every page is one tap away; `tools/check-nav-coverage.js` fails on any top-level page in neither the menu nor the footer. Menu and dialog motion is one ease-out curve, short exits, press feedback and nothing under reduced motion (the motion block in `tools/site-nav.js` CSS).
 
 ## Every change
 1. Edit the source (data, builder or page script), never only the generated HTML.
