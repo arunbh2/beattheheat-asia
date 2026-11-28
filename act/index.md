@@ -26,12 +26,17 @@ What can be done, in which setting, by whom, and what keeps it working.
 - [Who holds it upWho could permit, pay for, deliver and check each actionOn the path for: Funders](https://beattheheat.asia/who-holds-it/)
 - [Live through a heatwaveA night at home, a city under strain, a worker’s week](https://beattheheat.asia/live-through-a-heatwave/)
 
-## Also in Act
+## Guides by setting
 
-- [Cooling optionsWhat to build where people areOn the path for: Employers](https://beattheheat.asia/cooling-options/)
+One place each, in depth: a plan of the place, a library of measures with what the evidence shows for each, and what is not known.
+
 - [Heat inside factoriesSources, protection and an intervention library, with garment factories as the worked example](https://beattheheat.asia/factory-heat/)
 - [Heat in markets and street vendingStalls, porters, toilets and shade: a market plan by time of day, an intervention library and a worksheet](https://beattheheat.asia/market-heat/)
 - [Heat from field to factoryCotton from field to gin: who can stop work in the heat, and who pays for protection](https://beattheheat.asia/cotton-and-heat/)
+
+## Also in Act
+
+- [Cooling optionsWhat to build where people areOn the path for: Employers](https://beattheheat.asia/cooling-options/)
 - [El Niño and smaller citiesWhat a smaller Indian city can prepare before its hot season, and how to check people got relief](https://beattheheat.asia/el-nino-and-cities/)
 - [Make it work togetherAgree who does what in one placeOn the path for: Communities](https://beattheheat.asia/together/)
 - [A night in the heatCare and health through a hot night and a clinic visitOn the path for: Health](https://beattheheat.asia/a-night-in-the-heat/)

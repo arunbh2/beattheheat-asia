@@ -20,7 +20,7 @@
   "changed": "2026-11-26"
  },
  "/act/": {
-  "hash": "161178a74c1fd220",
+  "hash": "b9235d86337bff6f",
   "changed": "2026-11-28"
  },
  "/actions/": {
@@ -208,8 +208,8 @@
   "changed": "2026-11-26"
  },
  "/evidence-map/": {
-  "hash": "414069663018d1f7",
-  "changed": "2026-11-16"
+  "hash": "e88bc52d06c90706",
+  "changed": "2026-11-28"
  },
  "/evidence/": {
   "hash": "d2ecedfb1580cad5",
@@ -504,16 +504,16 @@
   "changed": "2026-11-13"
  },
  "/plan/": {
-  "hash": "cf476adc38191f50",
-  "changed": "2026-11-27"
+  "hash": "70ba3210315a837f",
+  "changed": "2026-11-28"
  },
  "/practical-actions/": {
-  "hash": "086d5ee76ff12b1f",
+  "hash": "2233b37304c3df68",
   "changed": "2026-11-28"
  },
  "/practical/": {
-  "hash": "bdaf4b15c026df38",
-  "changed": "2026-11-26"
+  "hash": "aa2e75dc265fb5c9",
+  "changed": "2026-11-28"
  },
  "/print/": {
   "hash": "a4ba868de2307a0c",

@@ -56,6 +56,8 @@ const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
     });
     if (out !== html) fs.writeFileSync(file, out);
   });
+  // guides by setting on the plan and practical actions pages (tools/setting-guides.js)
+  require("./setting-guides.js").fill(e);
 }
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const SH = require("./shared-heat-text.js");
@@ -531,6 +533,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
   const EN = require("./el-nino-text.js");
   const RL = SH.RELIABLE;
   let h = `${EN.promo(esc, "en-promo-practical", "p")}<h2 id="reliable">${esc(RL.h)}</h2><p>${esc(RL.intro)}</p><ul>${RL.items.map(x => `<li><strong>${esc(x.t)}:</strong> ${esc(x.d)}</li>`).join("")}</ul><p class="meta">Each card below says what it takes to run. <a href="/${SH.SLUG}/#resources">See who authorises, pays, runs and fixes each part in one worked example</a>.</p><p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro, EN.promoMd(), `### ${SH.RELIABLE.h}`, SH.RELIABLE.intro, ...SH.RELIABLE.items.map(x => `- ${x.t}: ${x.d}`)];
+  { const SG = require("./setting-guides.js"); h += `<p id="by-setting">${SG.line(esc, "Guides by setting, in depth")}</p>`; m.push(SG.lineText(SITE, "Guides by setting, in depth")); }
   D.ACTION_SETTINGS.forEach(st => {
     h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/practical/#practical-${st.id}">Open them in the interactive version</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}${st.id === "summer" ? ` · <a href="/el-nino-and-cities/">El Niño and India's smaller cities: preparing for summer 2027</a>` : ""}${st.id === "work" ? ` · <a href="/factory-heat/">Heat inside factories: sources, measures and a worksheet</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);

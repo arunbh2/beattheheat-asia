@@ -1,7 +1,7 @@
 ---
 title: "Evidence map"
 url: https://beattheheat.asia/evidence-map/
-updated: 2026-11-16
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -561,6 +561,8 @@ Not shown, because our library has no solution or funding for them yet: Deep emi
 A learning agenda, drawn from the limits the studies above state about themselves. Each question is sized so that one well-designed study could move it. The suggested approach and scale are ours, offered for discussion; researchers and funders closer to each place will know better.
 
 Five of these questions, on pregnancy, newborns, children, mental health and violence against women, are set out with their evidence in a citable brief: [Heat and the health of mothers, children and minds](https://beattheheat.asia/briefs/heat-mothers-children-minds/).
+
+**Gaps by setting.** Each guide to one setting states plainly what is not known there, measure by measure: [Factories](https://beattheheat.asia/factory-heat/#gaps) · [Markets and street vending](https://beattheheat.asia/market-heat/#gaps) · [Cotton, from field to gin](https://beattheheat.asia/cotton-and-heat/#evidence).
 
 - The overwhelmed-clinic loop · Uncertain
 

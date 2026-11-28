@@ -55,17 +55,21 @@ const write = (slug, html) => { const dir = path.join(ROOT, slug); fs.mkdirSync(
 const hero = (k, h, p) => `<header class="pg-hero"><div class="container"><p class="eyebrow">${esc(k)}</p><h1 class="pg-h1">${h}</h1>${p ? `<p class="pg-lede">${p}</p>` : ""}</div></header>`;
 const pathsFor = url => PATHS.paths.filter(p => p.stops.some(s => s.url === url)).map(p => p.short);
 
+const SG = require("./setting-guides.js");
 // ---- the four group hubs ----
 for (const g of NAVJ.groups) {
   const all = [g.lead.concat([0]), ...g.items];
   const card = ([u, t, d]) => { const who = pathsFor(u); return `<li><a class="hub-card" href="${u}"><b>${esc(t)}</b><span>${esc(fillCounts(d))}</span>${who.length ? `<small>On the path for: ${esc(who.join(", "))}</small>` : ""}</a></li>`; };
   const onPaths = PATHS.paths.filter(p => p.stops.some(s => all.some(i => i[0] === s.url)));
+  // guides by setting get their own row (tools/setting-guides.js), and leave "Also in" so no card shows twice
+  const guides = g.items.filter(i => SG.URLS.includes(i[0])), also = g.items.filter(i => i[3] === 2 && !SG.URLS.includes(i[0]));
   const body = `${hero(g.h, esc(g.h), esc(g.intro))}
     <section class="container hub">
       <a class="hub-lead" href="${g.lead[0]}"><span class="eyebrow">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(fillCounts(g.lead[2]))}</span><span class="hub-go">Open <span aria-hidden="true">→</span></span></a>
       <h2 class="hub-h">The core pages</h2>
       <ul class="hub-grid">${g.items.filter(i => i[3] === 1).map(card).join("")}</ul>
-      ${g.items.some(i => i[3] === 2) ? `<h2 class="hub-h">Also in ${esc(g.h)}</h2><ul class="hub-grid hub-grid--quiet">${g.items.filter(i => i[3] === 2).map(card).join("")}</ul>` : ""}
+      ${guides.length ? `<h2 class="hub-h" id="by-setting">${esc(SG.H.plan)}</h2><p class="hub-p">One place each, in depth: a plan of the place, a library of measures with what the evidence shows for each, and what is not known.</p><ul class="hub-grid">${guides.map(card).join("")}</ul>` : ""}
+      ${also.length ? `<h2 class="hub-h">Also in ${esc(g.h)}</h2><ul class="hub-grid hub-grid--quiet">${also.map(card).join("")}</ul>` : ""}
       ${onPaths.length ? `<h2 class="hub-h">Paths through this group</h2><p class="hub-p">Short, guided routes for each kind of reader. Choose one, and the site points you to your next stop.</p><ul class="hub-paths">${onPaths.map(p => `<li><a href="/paths/${p.id}/"><b>${esc(p.label)}</b><span>${esc(p.card)}</span></a></li>`).join("")}</ul>` : ""}
     </section>`;
   write(g.hub.replace(/^\/|\/$/g, ""), page(g.hub.replace(/^\/|\/$/g, ""), g.h, `${g.h} on Common Shade: ${g.intro}`, body));
@@ -232,6 +236,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
       <h2 class="hub-h" id="questions">Questions nobody has answered yet</h2>
       <p class="hub-p">A learning agenda, drawn from the limits the studies above state about themselves. Each question is sized so that one well-designed study could move it. The suggested approach and scale are ours, offered for discussion; researchers and funders closer to each place will know better.</p>
       <p class="hub-p">Five of these questions, on pregnancy, newborns, children, mental health and violence against women, are set out with their evidence in a citable brief: <a href="/briefs/heat-mothers-children-minds/">Heat and the health of mothers, children and minds</a>.</p>
+      ${SG.gapsPara(esc)}
       <ol class="evm-qs">${LQ.filter(q => q.status !== "answered").map(q => `<li class="evm-q" id="${esc(q.id)}"><p class="evm-q-k">${esc((D.LOOPS.find(l => l.id === q.loop) || {}).name || "")} · <span class="evm-chip evm-chip--emerging">${q.status === "advanced" ? "Advanced, not answered" : "Uncertain"}</span></p><h3>${esc(q.q)}</h3>${qHist(q)}
           <dl><dt>What we have</dt><dd>${esc(q.have)} <a href="#ev-${esc(q.loop)}">The studies</a></dd>${(q.underway || []).map(u => `<dt>Work under way <span class="sol-note">(not yet an answer)</span></dt><dd>${esc(u.text)} <a href="${esc(u.source[1])}" target="_blank" rel="noopener">${esc(u.source[0])}<span class="visually-hidden"> (opens in a new tab)</span></a></dd>`).join("")}<dt>What could answer it <span class="sol-note">(our suggestion)</span></dt><dd>${esc(q.could)}</dd><dt>Scale</dt><dd>${esc(q.scale)}</dd></dl></li>`).join("")}</ol>
       <p class="hub-p">Know of a study that answers one of these, or a better question? <a href="/corrections/">Tell us</a>, and we will add it with credit.</p>
