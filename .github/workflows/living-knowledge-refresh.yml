@@ -1,0 +1,48 @@
+# Living Knowledge: the monthly research refresh. Repeats the logged searches of research/2026-11/living-knowledge/search.js
+# from the date of the last run (Europe PMC and Crossref, free public APIs, no keys) and opens a review pull request with the
+# new dated run in search-log.json. Nothing reaches the website from it: a person screens the leads (screening.json), writes
+# any new source and practice records, and a record is published only after verify-sources.yml confirms every claim.
+# A failed request is recorded in the run with its error; earlier runs and the published records are never touched.
+# Needs, once: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+name: Living Knowledge refresh
+on:
+  schedule:
+    - cron: "23 3 4 * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: living-knowledge-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Search from the last run date
+        id: s
+        run: |
+          SINCE=$(node -e 'const l=require("./research/2026-11/living-knowledge/search-log.json");console.log(l.runs.map(r=>r.date).sort().pop())')
+          [[ "$SINCE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "::error::no valid last search date"; exit 1; }
+          echo "since=$SINCE" >> "$GITHUB_OUTPUT"; echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+          node research/2026-11/living-knowledge/search.js --since "$SINCE"
+      - name: Open the review pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAY: ${{ steps.s.outputs.date }}
+          SINCE: ${{ steps.s.outputs.since }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/2026-11/living-knowledge/search-log.json
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          BR="living-knowledge/refresh-$DAY"
+          git checkout -b "$BR"
+          git commit -q -m "Living Knowledge refresh: searches since $SINCE"
+          git push -q origin "$BR"
+          gh pr create --base "${GITHUB_REF_NAME}" --head "$BR" --title "Living Knowledge refresh $DAY" --body "Repeated the logged searches for studies first published since $SINCE. The new run is the last entry in research/2026-11/living-knowledge/search-log.json. These are leads, not records: screen them in screening.json, add sources and records by hand, then run assemble.js, stage.js and verify-sources.yml (month 2026-11-living-knowledge). Also check existing sources for corrections or retractions. Nothing is published from this pull request."

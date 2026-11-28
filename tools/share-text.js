@@ -50,6 +50,15 @@ function family(p, title) {
     const by = r.origin === "external" ? `, from ${r.provider}` : ", from Common Shade";
     return `${r.name}${by}: ${lc1(r.summary.replace(/\.$/, ""))}. Its Heat Tool Finder profile says what it needs, what it gives and what it cannot tell you. A listing, not an endorsement.`;
   }
+  if ((m = p.match(/^\/living-knowledge\/for\/([a-z]+)\/$/))) {
+    const g = (require("../living-knowledge/lk-core.js").STAKE.find(x => x[0] === m[1]) || [])[1]; if (!g) return null;
+    return `What ${g.toLowerCase()} could do with each documented local practice for living with heat: one suggestion per practice, its kind of evidence and what it depends on. Printable.`;
+  }
+  if ((m = p.match(/^\/living-knowledge\/([a-z0-9-]+)\/$/))) {
+    let r = null; try { r = JSON.parse(require("fs").readFileSync(require("path").join(__dirname, "..", "living-knowledge", "practices.json"), "utf8")).practices.find(x => x.id === m[1]); } catch (e) { return null; }
+    if (!r) return null;
+    return `${r.title}: a local practice for living with heat, with where it is documented, what kind of evidence exists, where it stops working and what it takes to keep it usable.`;
+  }
   if ((m = p.match(/^\/opportunities\/([a-z0-9-]+)\/$/))) {
     // the listing itself, from the hub's data file (tools/build-opportunities.js), not parsed from the page title
     let it = null; try { it = JSON.parse(require("fs").readFileSync(require("path").join(__dirname, "..", "opportunities", "opportunities.json"), "utf8")).items.find(x => x.id === m[1]); } catch (e) { return null; }

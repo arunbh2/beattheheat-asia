@@ -1,0 +1,13 @@
+{
+ "about": "Screening decisions for leads from search-log.json (28 November 2026). Titles were screened; promising leads were read at abstract or full-text level. Excluded groups are summarised with reasons; included leads are in sources.js.",
+ "included": ["rajasthan", "bikaner", "niua (context)", "ik-review (framing)", "churu", "east-india", "airwell", "dhaka-rural", "jaffna", "palu", "simalungun", "bd-workers", "nepal-workers", "dhaka-informal", "dhaka-older", "infant-feeding", "hap-maternal", "hip-india", "tn-women", "angkor", "sg-shade", "thatch-shed", "sheep-pot", "who-heat", "unicef-heat", "unfpa-heat", "wb-unlivable", "ghcf-2026"],
+ "excluded_groups": [
+  { "group": "Engineering and materials research (smart textiles, hydrogels, phase-change fibres, evaporative condensers, PV cooling with clay pots)", "reason": "No link to a local practice people use; product development." },
+  { "group": "Crop and livestock genetics (heat tolerance genes, cattle genomics)", "reason": "Not a practice; breeding research." },
+  { "group": "Heat-health epidemiology and forecasting (mortality, heatwave prediction, UHI mapping)", "reason": "Context for risk, not about practices." },
+  { "group": "Studies outside South and Southeast Asia (Kenya, South Africa, Ecuador, Iran, China, USA, Europe)", "reason": "Out of region; not used as evidence for regional records. China's Dong stilt houses noted as transferability context only." },
+  { "group": "Garment-factory cooling interventions in Bangladesh", "reason": "Factory engineering, not local practice; covered on /factory-heat/." },
+  { "group": "Protocols and preprints without findings (Pakistan housing trial protocol; Prayagraj, Khulna and student preprints)", "reason": "No findings yet, or preprint text not readable here; leads for refresh." }
+ ],
+ "leads_for_next_edition": ["Kerala traditional houses (Energy and Buildings 2010)", "Traditional Malay house studies (1994, 2012, 2024)", "Bugis house (2019)", "Chinese shophouse courtyards in Malacca (2015)", "Nepal vernacular houses summer and winter (2002)", "Amaravati vernacular house (IJTK 2025)", "Vernacular rural walling field measurement (J Building Engineering 2026)", "Eastern India study full text (ERL 2024)", "Heat in Pregnancy India findings once published", "Local-language searches (Hindi, Bangla, Bahasa Indonesia, Tagalog, Vietnamese, Thai)"]
+}

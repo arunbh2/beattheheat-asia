@@ -673,7 +673,8 @@ require("./build-wet-bulb-wall.js")({ page, write, esc, hero, V });   // /wet-bu
 require("./build-heat-futures.js")({ page, write, esc, hero, V });   // /heat-futures/: projections beside illustrative protection
 require("./build-brand.js")({ page, write, esc, hero, V });   // /brand/: logos, colours, films and channels
 require("./build-hap-archive.js")({ page, write, esc, V, ROOT });
-require("./build-opportunities.js")({ page, write, V });   // /opportunities/: Heat Opportunities, from the careers and calls records
+require("./build-opportunities.js")({ page, write, V });
+require("./build-living-knowledge.js")({ page, write, V });   // /living-knowledge/: local practices for heat resilience   // /opportunities/: Heat Opportunities, from the careers and calls records
 
 // ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----
 function searchIndex() {

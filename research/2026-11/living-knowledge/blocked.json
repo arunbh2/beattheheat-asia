@@ -1,0 +1,15 @@
+{
+ "about": "Sources that could not be read in full during the first edition, and what was done. A blocked source is never inferred from its title or filename.",
+ "records": [
+  { "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329950/", "status": "CAPTCHA", "date": "2026-11-28", "action": "Read the same article's open full text through Europe PMC's REST API." },
+  { "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11549107/", "status": "CAPTCHA", "date": "2026-11-28", "action": "Read through Europe PMC's REST API." },
+  { "source": "Kerala traditional residential buildings thermal comfort survey (Energy and Buildings, 2010, DOI 10.1016/j.enbuild.2010.07.004)", "status": "Publisher page did not return an abstract", "date": "2026-11-28", "action": "Left out; listed as a lead for a later edition." },
+  { "source": "Courtyards in Chinese shophouses in Malacca (Procedia Engineering, 2015, DOI 10.1016/j.proeng.2015.08.1094)", "status": "Publisher page did not return an abstract", "date": "2026-11-28", "action": "Left out; lead." },
+  { "source": "Traditional Bugis house thermal comfort (Tesa Arsitektur, 2019, DOI 10.24167/tesa.v17i1.1803)", "status": "Landing page showed no abstract", "date": "2026-11-28", "action": "Left out; lead." },
+  { "source": "Malay traditional house (Building Research & Information, 1994; Iranica J. Energy & Environment, 2012; SSRN 2024)", "status": "No abstract; 404; SSRN refused (403)", "date": "2026-11-28", "action": "Left out; leads." },
+  { "source": "Rural Dhaka houses (DOI 10.46610/joidrp.2023.v08i02.001)", "status": "Journal page returned 404; abstract read through Crossref", "date": "2026-11-28", "action": "Used at abstract level, marked abstract only." },
+  { "source": "Air-welled terraced house, Malaysia (MDPI)", "status": "MDPI refused this container (403); abstract read through Europe PMC", "date": "2026-11-28", "action": "Used at abstract level; the GitHub source check reads the page." },
+  { "source": "State heat action plans maternal analysis (Wiley)", "status": "Wiley refused (403); abstract read through Europe PMC", "date": "2026-11-28", "action": "Used at abstract level." },
+  { "source": "UNICEF and UNFPA heat pages at first-tried addresses", "status": "404", "date": "2026-11-28", "action": "Found current pages by search: UNICEF East Asia and Pacific heat wave tips; UNFPA Arab States article." }
+ ]
+}
