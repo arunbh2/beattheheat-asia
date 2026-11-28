@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> 342 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+> 352 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Who could we work with?
 
@@ -21,7 +21,7 @@ Organisations already at work, by the part they play.
 
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
 
-342 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+352 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 [Open the interactive network](https://beattheheat.asia/#network)
 
@@ -340,6 +340,20 @@ Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Green, co
 - [Karnataka State Natural Disaster Monitoring Centre (KSNDMC)](https://www.artpark.in/about/programs/social-impact) (Demand): Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.
 Government bodyIndia
 Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
+- [Bengaluru North City Corporation](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) (Demand): Submitted Bengaluru's proposal under NIUA's Building Heat Resilient Cities pilot and described ₹5 crore allocated for heat resilience, ₹1 crore of it for vulnerable populations such as outdoor informal workers, with roof coating demonstrations planned on its buildings (July 2026). No sanction order or installation was found reported.
+City or district governmentIndia
+Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
+- [Bengaluru South City Corporation](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) (Demand): Announced ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, including heat proofing of buildings, blue-green schools and groundwater recharge, as a starting point rather than a final budget (July 2026).
+City or district governmentIndia
+Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
+- [Bengaluru Central City Corporation](https://grove.rainmatter.org/raw/4976/18) (Demand): Received the completed ward climate action plan for Shantinagar ward, one of Bengaluru's five pilot wards (2026).
+City or district governmentIndia
+- [Karnataka State Disaster Management Authority (KSDMA)](https://www.artpark.in/about/programs/social-impact) (Demand): Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.
+Government bodyIndia
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
+- [Department of Health, Government of Karnataka](https://www.artpark.in/about/programs/social-impact) (Demand): Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.
+Health bodyIndia
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 
 ## Research and evidence
 
@@ -532,6 +546,10 @@ Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory),
 - [Sensing Local](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/) (Supply): With Hasiru Dala and C40 Cities, piloted cooling kits for 202 outdoor public workers in Bengaluru in April 2026; part of the city's ward climate plan working group.
 Research bodyIndia
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
+- [NIMHANS (National Institute of Mental Health and Neurosciences), Bengaluru](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) (Supply): A founding member of the Bengaluru Heat Collective (July 2026). A separate Bengaluru heat project was not identified in the sources reviewed, and membership does not establish a role in heat and mental health work.
+Health bodyIndia
+- [WELL Labs](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) (Supply): A technical partner for Bengaluru's city climate plan and part of the working group behind its ward climate action plans. Heat-specific work was not identified in the sources reviewed.
+Research bodyIndiaLink opens a page by someone else
 
 ## Working on the ground
 
@@ -664,6 +682,11 @@ Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Bangalore Apartment Federation](https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments) (Demand): Developed a Heat Safety Charter for workers in apartment complexes with HeatWatch Foundation, in English, Kannada and Hindi.
 Non-profit organisationIndia
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+- [Bengaluru Heat Collective](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) (Platform): A collective of 11 organisations launched in Bengaluru on 15 July 2026 to advance coordinated action on rising urban heat. Its priorities for an initial phase are heat mapping and data, cooling infrastructure, relief for vulnerable communities and ward-level microplanning. Its sources name no secretariat or lead organisation.
+Network or allianceIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+- [KHPT](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) (Supply): A founding partner of the Bengaluru Heat Collective (July 2026). A separate Bengaluru heat project was not identified in the sources reviewed.
+Non-profit organisationIndia
 
 ## Cooling solutions
 
@@ -1048,6 +1071,9 @@ Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated
 - [Global Environment Facility](https://www.thegef.org) (Supply): Backs the Nature for Cooling Challenge through a grant.
 FunderPlace not stated in the listingLink opens the homepage only
 Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending), [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
+- [International Union for Conservation of Nature (IUCN)](https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/) (Supply): Supports CSTEP's Ecosystem-based Adaptation Feasibility Tool (DEFT) for Bengaluru, which is to map heatwave and flood risk, through the Global EbA Fund.
+FunderIndia
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 
 ---
 Human edition: https://beattheheat.asia/heat-network/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

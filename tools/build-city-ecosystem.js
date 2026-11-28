@@ -51,7 +51,7 @@ module.exports = function cityEcosystems({ page, write, esc, hero, V }) {
   // ---- the collective
   const C = P.collective;
   const collective = C && C.ok ? `<section class="container ce-sec" id="collective" aria-labelledby="ce-col-h"><h2 class="hub-h" id="ce-col-h">${esc(C.name)}</h2>
-   <p>${esc(P.claimText["c-blr-launch"])} ${esc(W.notMember)}</p>
+   <p>${esc(P.claimText["c-blr-launch"])} ${esc(W.notMember)}${C.network && P.networkIds.has(C.network) ? ` <a href="/heat-network/?q=${encodeURIComponent(C.name)}">The Collective in the heat network</a>` : ""}</p>
    <dl class="ce-dl ce-dl--wide"><div><dt>Launch event</dt><dd>${esc(fmtDate(C.event))}</dd></div><div><dt>Announcements published</dt><dd>${C.published.filter(p => p.claims.every(c => P.OK.has(c))).map(p => `${esc(fmtDate(p.date))} by ${orgLink(p.by)}`).join("; ")}</dd></div>
     <div><dt>Founding members</dt><dd>${P.orgs.filter(o => o.coalition === "founding").map(o => orgLink(o.id)).join(", ")}</dd></div></dl>
    <h3>Four priority areas</h3><p class="ce-muted">Named for the Collective's initial phase. These are priorities; the sources do not report them as delivered work.</p>
@@ -81,7 +81,7 @@ module.exports = function cityEcosystems({ page, write, esc, hero, V }) {
    ${o.outside ? `<p class="ce-muted"><b>Outside ${esc(P.name)}:</b> ${esc(o.outside)}</p>` : ""}
    ${o.unknowns.length ? `<details class="ce-more"><summary>Not known</summary><ul>${o.unknowns.map(u => `<li>${esc(u)}</li>`).join("")}</ul></details>` : ""}
    <p class="ce-link"><a href="${esc(o.site)}" rel="noopener">Website<span class="visually-hidden">: ${esc(o.name)}</span></a>${P.networkIds.has(o.network) ? ` · <a href="/heat-network/?q=${encodeURIComponent(o.name)}">In the heat network</a>` : ""}</p>${o.verified ? srcs(o.summary_claims) : ""}</article>`).join("")}</div>
-   <h3 id="authorities">${W.h.authorities}</h3><p>${esc(W.authoritiesIntro)}</p><ul class="ce-auth">${P.authorities.map(a => `<li id="auth-${a.id}"><b>${esc(a.name)}</b>${a.aliases.length ? ` (${esc(a.aliases.join(", "))})` : ""}${a.since ? `, since ${esc(fmtDate(a.since))}` : ""}${a.until ? `, until ${esc(fmtDate(a.until))}` : ""}: ${esc(a.role)}</li>`).join("")}</ul>${srcs(P.authorities.flatMap(a => a.claims))}</section>`;
+   <h3 id="authorities">${W.h.authorities}</h3><p>${esc(W.authoritiesIntro)}</p><ul class="ce-auth">${P.authorities.map(a => `<li id="auth-${a.id}"><b>${esc(a.name)}</b>${a.aliases.length ? ` (${esc(a.aliases.join(", "))})` : ""}${a.since ? `, since ${esc(fmtDate(a.since))}` : ""}${a.until ? `, until ${esc(fmtDate(a.until))}` : ""}: ${esc(a.role)}${a.network && P.networkIds.has(a.network) ? ` <a href="/heat-network/?q=${encodeURIComponent(a.name.replace(/ \(.*$/, ""))}">In the heat network</a>` : ""}</li>`).join("")}</ul>${srcs(P.authorities.flatMap(a => a.claims))}</section>`;
   // ---- gaps, contradictions, held back, method
   const gaps = `<section class="container ce-sec" id="gaps" aria-labelledby="ce-gp-h"><h2 class="hub-h" id="ce-gp-h">${W.h.gaps}</h2><p>${esc(W.gapsIntro)}</p><ul>${P.gaps.map(g => `<li>${esc(g)}</li>`).join("")}</ul>
    <h3>${W.h.contradictions}</h3><ul>${P.contradictions.map(c => `<li>${esc(c.text)}</li>`).join("")}</ul>

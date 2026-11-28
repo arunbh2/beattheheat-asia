@@ -551,7 +551,7 @@ Sources: [CSTEP: Developing an Ecosystem-based Adaptation Feasibility Tool (DEFT
 
 ## Bengaluru Heat Collective
 
-The Bengaluru Heat Collective was launched in Bengaluru on 15 July 2026 by 11 organisations, as a platform to advance coordinated action on rising urban heat. Common Shade is not a member, partner or representative of the Bengaluru Heat Collective, and this page does not speak for it or its members.
+The Bengaluru Heat Collective was launched in Bengaluru on 15 July 2026 by 11 organisations, as a platform to advance coordinated action on rising urban heat. Common Shade is not a member, partner or representative of the Bengaluru Heat Collective, and this page does not speak for it or its members. [The Collective in the heat network](https://beattheheat.asia/heat-network/?q=Bengaluru%20Heat%20Collective)
 
 **Launch event**: 15 July 2026
 
@@ -1057,7 +1057,7 @@ Not known
 
 - What KHPT will contribute to the Collective's health and community work.
 
-[Website](https://www.khpt.org/)
+[Website](https://www.khpt.org/) · [In the heat network](https://beattheheat.asia/heat-network/?q=KHPT)
 
 Sources: [KHPT: KHPT Joins 10 Organisations to Launch the Bengaluru Heat Collective, 2026](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) · [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july)
 
@@ -1073,7 +1073,7 @@ Not known
 
 - Whether NIMHANS will lead or join any heat and mental health work in the Collective. Membership does not establish a role.
 
-[Website](https://nimhans.ac.in/)
+[Website](https://nimhans.ac.in/) · [In the heat network](https://beattheheat.asia/heat-network/?q=NIMHANS)
 
 Sources: [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july)
 
@@ -1137,7 +1137,7 @@ Not known
 
 - Any heat-specific work.
 
-[Website](https://welllabs.org/)
+[Website](https://welllabs.org/) · [In the heat network](https://beattheheat.asia/heat-network/?q=WELL%20Labs)
 
 Sources: [Mongabay India: Ward-level plans bring climate action closer to communities, 2026](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) · [Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025](https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/)
 
@@ -1163,16 +1163,16 @@ Sources: [HeatWatch: Heat Safety Charter for Workers in Apartments, 2026](https:
 
 Public bodies with responsibilities that touch heat in the city, under their current names. Older names are kept for older records.
 
-- **Greater Bengaluru Authority** (GBA), since September 2025: City-wide authority over five city corporations (Bengaluru Central, North, South, East and West) since September 2025; its Climate Action Cell leads the ward climate plans.
-- **Bruhat Bengaluru Mahanagara Palike** (BBMP), until September 2025: The city's former municipal corporation, before the Greater Bengaluru Authority and its five corporations (September 2025). Its name is kept for older records, such as the 2025-26 climate earmark.
-- **Bengaluru North City Corporation** (BNCC, North City Corporation): Submitted the city's proposal under the national heat resilience pilot; plans roof coating demonstrations; most cooling kits went to its workers.
-- **Bengaluru South City Corporation** (BSCC, South City Corporation): Announced ₹2 crore for phased implementation of the Begur ward climate plan.
-- **Bengaluru Central City Corporation** (BCCC): Received the completed Shantinagar ward climate plan.
-- **National Institute of Urban Affairs (Climate Centre for Cities)** (NIUA): Runs the Building Heat Resilient Cities pilot under AMRUT 2.0 of the Ministry of Housing and Urban Affairs, in which Bengaluru takes part.
-- **Karnataka State Natural Disaster Monitoring Centre** (KSNDMC): Named by ARTPARK as a partner in its heat-risk forecasts.
-- **Karnataka State Disaster Management Authority** (KSDMA): Named by ARTPARK as a partner in its heat-risk forecasts.
-- **Department of Health, Government of Karnataka**: Named by ARTPARK as a partner in its heat-risk forecasts.
-- **India Meteorological Department** (IMD): Runs the city observatory whose records the July 2026 temperature figures come from.
+- **Greater Bengaluru Authority** (GBA), since September 2025: City-wide authority over five city corporations (Bengaluru Central, North, South, East and West) since September 2025; its Climate Action Cell leads the ward climate plans. [In the heat network](https://beattheheat.asia/heat-network/?q=Greater%20Bengaluru%20Authority)
+- **Bruhat Bengaluru Mahanagara Palike** (BBMP), until September 2025: The city's former municipal corporation, before the Greater Bengaluru Authority and its five corporations (September 2025). Its name is kept for older records, such as the 2025-26 climate earmark. [In the heat network](https://beattheheat.asia/heat-network/?q=Bruhat%20Bengaluru%20Mahanagara%20Palike)
+- **Bengaluru North City Corporation** (BNCC, North City Corporation): Submitted the city's proposal under the national heat resilience pilot; plans roof coating demonstrations; most cooling kits went to its workers. [In the heat network](https://beattheheat.asia/heat-network/?q=Bengaluru%20North%20City%20Corporation)
+- **Bengaluru South City Corporation** (BSCC, South City Corporation): Announced ₹2 crore for phased implementation of the Begur ward climate plan. [In the heat network](https://beattheheat.asia/heat-network/?q=Bengaluru%20South%20City%20Corporation)
+- **Bengaluru Central City Corporation** (BCCC): Received the completed Shantinagar ward climate plan. [In the heat network](https://beattheheat.asia/heat-network/?q=Bengaluru%20Central%20City%20Corporation)
+- **National Institute of Urban Affairs (Climate Centre for Cities)** (NIUA): Runs the Building Heat Resilient Cities pilot under AMRUT 2.0 of the Ministry of Housing and Urban Affairs, in which Bengaluru takes part. [In the heat network](https://beattheheat.asia/heat-network/?q=National%20Institute%20of%20Urban%20Affairs)
+- **Karnataka State Natural Disaster Monitoring Centre** (KSNDMC): Named by ARTPARK as a partner in its heat-risk forecasts. [In the heat network](https://beattheheat.asia/heat-network/?q=Karnataka%20State%20Natural%20Disaster%20Monitoring%20Centre)
+- **Karnataka State Disaster Management Authority** (KSDMA): Named by ARTPARK as a partner in its heat-risk forecasts. [In the heat network](https://beattheheat.asia/heat-network/?q=Karnataka%20State%20Disaster%20Management%20Authority)
+- **Department of Health, Government of Karnataka**: Named by ARTPARK as a partner in its heat-risk forecasts. [In the heat network](https://beattheheat.asia/heat-network/?q=Department%20of%20Health%2C%20Government%20of%20Karnataka)
+- **India Meteorological Department** (IMD): Runs the city observatory whose records the July 2026 temperature figures come from. [In the heat network](https://beattheheat.asia/heat-network/?q=India%20Meteorological%20Department)
 
 Sources: [The Federal: Greater Bengaluru Authority comes into effect, 2025](https://thefederal.com/category/states/south/karnataka/greater-bengaluru-authority-comes-into-effect-204813) · [Mongabay India: Ward-level plans bring climate action closer to communities, 2026](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) · [Citizen Matters: Bengaluru is building ward-level climate action plans: Here is how, 2025](https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/) · [WRI India: Eleven Organisations Launch Bengaluru Heat Collective as City Records its Highest July Temperature at 33.6°C, 2026](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) · [Citizen Matters: Cooling kits help Bengaluru workers combat heat stress, 2026](https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/) · [KHPT: KHPT Joins 10 Organisations to Launch the Bengaluru Heat Collective, 2026](https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/) · [WRI India on Rainmatter Grove: Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening), 2026](https://grove.rainmatter.org/raw/4976/18) · [ARTPARK (AI & Robotics Technology Park), IISc: Social impact programmes, 2026](https://www.artpark.in/about/programs/social-impact)
 

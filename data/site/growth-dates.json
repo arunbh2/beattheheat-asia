@@ -1773,6 +1773,12 @@
    "org": true
   },
   {
+   "url": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+   "label": "International Union for Conservation of Nature (IUCN)",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://d-lab.mit.edu/news-blog/blog/disseminating-evaporative-cooling-technologies-rural-uganda",
    "label": "MIT D-Lab: dissemination in rural Uganda",
    "root": "practical",
@@ -4723,6 +4729,12 @@
    "date": "2026-03",
    "precision": "month",
    "how": "url"
+  },
+  {
+   "url": "https://grove.rainmatter.org/raw/4976/18",
+   "label": "Bengaluru Central City Corporation",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://gulfnews.com/world/gulf/saudi/hajj-2024-saudi-arabia-says-1301-deaths-mostly-unregistered-pilgrims-1.1719169731102",
@@ -9885,6 +9897,12 @@
    "org": false
   },
   {
+   "url": "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july",
+   "label": "Bengaluru Heat Collective",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://wri-india.org/perspectives/mapping-path-heat-resilience-tamil-nadu",
    "label": "WRI India: mapping the path to heat resilience in Tamil Nadu",
    "root": "experience",
@@ -13682,6 +13700,12 @@
   {
    "url": "https://www.keralaenergy.gov.in",
    "label": "Energy Management Centre, Kerala",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/",
+   "label": "KHPT",
    "root": "institutions",
    "org": true
   },

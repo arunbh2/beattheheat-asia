@@ -340,5 +340,15 @@
  "sensinglocal": {"countries":["IN"],"basis":"edit","type":"research","scale":"city","link":"work","year":2026},
  "baf": {"countries":["IN"],"basis":"edit","type":"ngo","scale":"city","link":"work"},
  "greaterbengaluruautho": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"third","year":2026},
- "ksndmc": {"countries":["IN"],"basis":"edit","type":"government","scale":"subnational","link":"work"}
+ "ksndmc": {"countries":["IN"],"basis":"edit","type":"government","scale":"subnational","link":"work"},
+ "bengaluruheatcollective": {"countries":["IN"],"basis":"edit","type":"network","scale":"city","link":"work","year":2026},
+ "khpt": {"countries":["IN"],"basis":"edit","type":"ngo","scale":"subnational","link":"work","year":2026},
+ "nimhans": {"countries":["IN"],"basis":"edit","type":"health","scale":"country","link":"work","year":2026},
+ "welllabs": {"countries":["IN"],"basis":"edit","type":"research","scale":"city","link":"third"},
+ "bengalurunorthcitycorp": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work","year":2026},
+ "bengalurusouthcitycorp": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work","year":2026},
+ "bengalurucentralcitycorp": {"countries":["IN"],"basis":"edit","type":"city","scale":"city","link":"work","year":2026},
+ "ksdma": {"countries":["IN"],"basis":"edit","type":"government","scale":"subnational","link":"work"},
+ "karnatakahealthdept": {"countries":["IN"],"basis":"edit","type":"health","scale":"subnational","link":"work"},
+ "iucn": {"countries":["IN"],"basis":"edit","type":"funder","scale":"city","link":"work"}
 }

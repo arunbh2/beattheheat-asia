@@ -393,7 +393,7 @@ Inclusion describes relevant published work. It does not imply partnership, affi
 
 How many organisations on this list work on a lever that acts on each loop. A low number shows a gap in this directory’s coverage, not proof that nobody is working on it.
 
-Browse all 342 organisations
+Browse all 352 organisations
 
 [Download the whole list as a spreadsheet (CSV)](https://beattheheat.asia/heat-network/heat-network.csv): name, side, group, what each does, the levers it works on and a link. For mapping who needs protection, who provides it and who connects them.
 

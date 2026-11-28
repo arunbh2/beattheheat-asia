@@ -76,11 +76,11 @@
   "changed": "2026-11-26"
  },
  "/cities/bengaluru/": {
-  "hash": "5b5108529a66e8cf",
+  "hash": "e66fa1da48c0e1fb",
   "changed": "2026-11-28"
  },
  "/cities/bengaluru/who-is-doing-what/": {
-  "hash": "c2581865aee68434",
+  "hash": "47dba32c4347bc6a",
   "changed": "2026-11-28"
  },
  "/cities/bhubaneswar/": {
@@ -232,11 +232,11 @@
   "changed": "2026-11-26"
  },
  "/for-ai/": {
-  "hash": "64c86b0d85ae3c4e",
+  "hash": "194a2c176524e230",
   "changed": "2026-11-28"
  },
  "/fund/": {
-  "hash": "44ae1c7202c7327b",
+  "hash": "b6126f506a164acb",
   "changed": "2026-11-28"
  },
  "/glossary/": {
@@ -244,7 +244,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "147d6609b7fc041a",
+  "hash": "ff97fb539249d9ff",
   "changed": "2026-11-28"
  },
  "/guide/": {
@@ -296,7 +296,7 @@
   "changed": "2026-10-01"
  },
  "/heat-network/": {
-  "hash": "dd53031e5b4f445b",
+  "hash": "b576df1ca9321a95",
   "changed": "2026-11-28"
  },
  "/heat-tools/": {
@@ -496,7 +496,7 @@
   "changed": "2026-10-01"
  },
  "/paths/funder/": {
-  "hash": "51d9b2a204cffa65",
+  "hash": "8ee47d82e97ba273",
   "changed": "2026-11-28"
  },
  "/paths/health/": {
@@ -572,7 +572,7 @@
   "changed": "2026-11-28"
  },
  "/print/city-bengaluru/": {
-  "hash": "9245e62d133c4d24",
+  "hash": "edac5800db810ade",
   "changed": "2026-11-28"
  },
  "/print/city-bhubaneswar/": {
@@ -760,7 +760,7 @@
   "changed": "2026-11-27"
  },
  "/sources/": {
-  "hash": "05b3a259e60d80e7",
+  "hash": "1c0d6747a8cb99fd",
   "changed": "2026-11-28"
  },
  "/the-web/": {

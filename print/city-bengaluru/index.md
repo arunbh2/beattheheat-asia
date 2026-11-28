@@ -33,10 +33,13 @@ Cycle | Why here | One action that breaks it |
 
 ## Already at work here
 
+- Bengaluru Heat Collective
 - Hasiru Dala
 - Bengaluru Sustainability Forum
 - Bruhat Bengaluru Mahanagara Palike / Bengaluru city government
 - Greater Bengaluru Authority
+- Bengaluru North City Corporation
+- Bengaluru South City Corporation
 - C40 Cities
 - WRI India
 - Center for Study of Science, Technology and Policy (CSTEP)

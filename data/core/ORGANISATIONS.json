@@ -2734,5 +2734,85 @@
     "url": "https://www.artpark.in/about/programs/social-impact",
     "does": "Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.",
     "levers": ["anticipatory"]
+  },
+  {
+    "id": "bengaluruheatcollective",
+    "role": "ground",
+    "name": "Bengaluru Heat Collective",
+    "url": "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july",
+    "does": "A collective of 11 organisations launched in Bengaluru on 15 July 2026 to advance coordinated action on rising urban heat. Its priorities for an initial phase are heat mapping and data, cooling infrastructure, relief for vulnerable communities and ward-level microplanning. Its sources name no secretariat or lead organisation.",
+    "levers": ["hap", "coolingcentres", "heatrules"]
+  },
+  {
+    "id": "khpt",
+    "role": "ground",
+    "name": "KHPT",
+    "url": "https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/",
+    "does": "A founding partner of the Bengaluru Heat Collective (July 2026). A separate Bengaluru heat project was not identified in the sources reviewed.",
+    "levers": []
+  },
+  {
+    "id": "nimhans",
+    "role": "research",
+    "name": "NIMHANS (National Institute of Mental Health and Neurosciences), Bengaluru",
+    "url": "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july",
+    "does": "A founding member of the Bengaluru Heat Collective (July 2026). A separate Bengaluru heat project was not identified in the sources reviewed, and membership does not establish a role in heat and mental health work.",
+    "levers": []
+  },
+  {
+    "id": "welllabs",
+    "role": "research",
+    "name": "WELL Labs",
+    "url": "https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/",
+    "does": "A technical partner for Bengaluru's city climate plan and part of the working group behind its ward climate action plans. Heat-specific work was not identified in the sources reviewed.",
+    "levers": []
+  },
+  {
+    "id": "bengalurunorthcitycorp",
+    "role": "asia",
+    "name": "Bengaluru North City Corporation",
+    "url": "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july",
+    "does": "Submitted Bengaluru's proposal under NIUA's Building Heat Resilient Cities pilot and described ₹5 crore allocated for heat resilience, ₹1 crore of it for vulnerable populations such as outdoor informal workers, with roof coating demonstrations planned on its buildings (July 2026). No sanction order or installation was found reported.",
+    "levers": ["heatbudget", "coolbydesign"]
+  },
+  {
+    "id": "bengalurusouthcitycorp",
+    "role": "asia",
+    "name": "Bengaluru South City Corporation",
+    "url": "https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july",
+    "does": "Announced ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, including heat proofing of buildings, blue-green schools and groundwater recharge, as a starting point rather than a final budget (July 2026).",
+    "levers": ["heatbudget", "greencity"]
+  },
+  {
+    "id": "bengalurucentralcitycorp",
+    "role": "asia",
+    "name": "Bengaluru Central City Corporation",
+    "url": "https://grove.rainmatter.org/raw/4976/18",
+    "does": "Received the completed ward climate action plan for Shantinagar ward, one of Bengaluru's five pilot wards (2026).",
+    "levers": []
+  },
+  {
+    "id": "ksdma",
+    "role": "asia",
+    "name": "Karnataka State Disaster Management Authority (KSDMA)",
+    "url": "https://www.artpark.in/about/programs/social-impact",
+    "does": "Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.",
+    "levers": ["anticipatory"]
+  },
+  {
+    "id": "karnatakahealthdept",
+    "role": "asia",
+    "name": "Department of Health, Government of Karnataka",
+    "url": "https://www.artpark.in/about/programs/social-impact",
+    "does": "Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.",
+    "levers": ["anticipatory"]
+  },
+  {
+    "id": "iucn",
+    "role": "funders",
+    "name": "International Union for Conservation of Nature (IUCN)",
+    "url": "https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+    "does": "Supports CSTEP's Ecosystem-based Adaptation Feasibility Tool (DEFT) for Bengaluru, which is to map heatwave and flood risk, through the Global EbA Fund.",
+    "levers": ["greencity"]
   }
 ]

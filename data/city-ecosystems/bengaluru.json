@@ -245,7 +245,7 @@
   },
   {
    "id": "khpt",
-   "network": null,
+   "network": "khpt",
    "name": "KHPT",
    "aliases": [],
    "type": "health",
@@ -264,7 +264,7 @@
   },
   {
    "id": "nimhans",
-   "network": null,
+   "network": "nimhans",
    "name": "NIMHANS",
    "aliases": [
     "NIMHANS, Bangalore",
@@ -352,7 +352,7 @@
   },
   {
    "id": "welllabs",
-   "network": null,
+   "network": "welllabs",
    "name": "WELL Labs",
    "aliases": [
     "WellLabs"
@@ -438,7 +438,8 @@
     "c-blr-niua-proposal",
     "c-blr-roof",
     "c-blr-kits"
-   ]
+   ],
+   "network": "bengalurunorthcitycorp"
   },
   {
    "id": "bscc",
@@ -451,7 +452,8 @@
    "claims": [
     "c-blr-begur-2cr",
     "c-blr-officials"
-   ]
+   ],
+   "network": "bengalurusouthcitycorp"
   },
   {
    "id": "bccc",
@@ -462,7 +464,8 @@
    "role": "Received the completed Shantinagar ward climate plan.",
    "claims": [
     "c-blr-shantinagar"
-   ]
+   ],
+   "network": "bengalurucentralcitycorp"
   },
   {
    "id": "niua",
@@ -498,7 +501,8 @@
    "role": "Named by ARTPARK as a partner in its heat-risk forecasts.",
    "claims": [
     "c-blr-artpark"
-   ]
+   ],
+   "network": "ksdma"
   },
   {
    "id": "kahealth",
@@ -507,7 +511,8 @@
    "role": "Named by ARTPARK as a partner in its heat-risk forecasts.",
    "claims": [
     "c-blr-artpark"
-   ]
+   ],
+   "network": "karnatakahealthdept"
   },
   {
    "id": "imd",
@@ -596,7 +601,8 @@
    "c-blr-event",
    "c-blr-panel",
    "c-blr-officials"
-  ]
+  ],
+  "network": "bengaluruheatcollective"
  },
  "activities": [
   {
@@ -1232,12 +1238,14 @@
   {
    "id": "iucn",
    "name": "IUCN",
-   "role": "Funder of DEFT through the Global EbA Fund"
+   "role": "Funder of DEFT through the Global EbA Fund",
+   "network": "iucn"
   },
   {
    "id": "grp",
    "name": "Global Resilience Partnership",
-   "role": "Awarded Socratus a Knowledge into Use grant"
+   "role": "Awarded Socratus a Knowledge into Use grant",
+   "network": "globalresiliencepartners"
   }
  ],
  "tools": [

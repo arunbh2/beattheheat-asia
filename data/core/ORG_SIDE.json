@@ -340,5 +340,15 @@
   "sensinglocal": "supply",
   "baf": "demand",
   "greaterbengaluruautho": "demand",
-  "ksndmc": "demand"
+  "ksndmc": "demand",
+  "bengaluruheatcollective": "platform",
+  "khpt": "supply",
+  "nimhans": "supply",
+  "welllabs": "supply",
+  "bengalurunorthcitycorp": "demand",
+  "bengalurusouthcitycorp": "demand",
+  "bengalurucentralcitycorp": "demand",
+  "ksdma": "demand",
+  "karnatakahealthdept": "demand",
+  "iucn": "supply"
 }

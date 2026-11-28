@@ -240,3 +240,6 @@ Rows where the record's own words did not settle the draft. Decisions go in `fac
 | sensinglocal | Sensing Local | IN | country | research | type from its group |
 | baf | Bangalore Apartment Federation | IN | country | ngo | type from its group |
 | ksndmc | Karnataka State Natural Disaster Monitoring Centre (KSNDMC) | IN | country | government | type from its group |
+| khpt | KHPT | IN | country | ngo | type from its group |
+| nimhans | NIMHANS (National Institute of Mental Health and Neurosciences), Bengaluru | IN | country | research | type from its group |
+| welllabs | WELL Labs | IN | country | research | type from its group |
