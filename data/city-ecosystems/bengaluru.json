@@ -1702,6 +1702,7 @@
    "ref": []
   }
  ],
+ "method_note": "CSTEP's organisational mapping of heat actors was used to find leads; every entry used here was checked separately.",
  "signals": [
   "sig-bengaluru-heat-resilience-2026"
  ]

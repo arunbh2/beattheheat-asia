@@ -1,0 +1,227 @@
+{
+ "schema": 1,
+ "id": "bhubaneswar",
+ "name": "Bhubaneswar",
+ "aliases": [],
+ "country": "India",
+ "slug": "who-is-doing-what",
+ "title": "Bhubaneswar: who is doing what about heat?",
+ "batch": "city-ecosystems",
+ "researched": "2026-11-28",
+ "scope": "Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Bhubaneswar, and no organisation was contacted.",
+ "orientation": [
+  {
+   "text": "Bhubaneswar, in a state long known for heatwave preparedness, launched an integrated heat and cooling plan in 2025 that links heat to the city's fast-growing demand for air conditioning, its lost water bodies and its building codes. It follows an earlier city heat action plan prepared with IRADe.",
+   "claims": [
+    "c-bbs-ihcap",
+    "c-bbs-demand",
+    "c-bbs-land",
+    "c-bbs-irade"
+   ]
+  }
+ ],
+ "themes": [
+  [
+   "risk",
+   "Risk intelligence and early warning"
+  ],
+  [
+   "buildings",
+   "Buildings, shade and public space"
+  ],
+  [
+   "nature",
+   "Nature-based cooling"
+  ]
+ ],
+ "orgs": [
+  {
+   "aliases": [
+    "iFOREST"
+   ],
+   "unknowns": [
+    "Its role in carrying out the plan."
+   ],
+   "outside": null,
+   "id": "iforest",
+   "network": "iforest",
+   "name": "International Forum for Environment, Sustainability and Technology (iFOREST)",
+   "type": "research",
+   "based": "Delhi",
+   "summary": "Developed the city's Integrated Heat and Cooling Action Plan with the corporation.",
+   "summary_claims": [
+    "c-bbs-ihcap"
+   ],
+   "site": "https://iforest.global/",
+   "coalition": null,
+   "activities": [
+    "bbs-ihcap"
+   ]
+  },
+  {
+   "aliases": [
+    "SEC"
+   ],
+   "unknowns": [],
+   "outside": "Its Singapore work is listed on Singapore's page.",
+   "id": "sec",
+   "network": "singaporeethcentre",
+   "name": "Singapore-ETH Centre",
+   "type": "research",
+   "based": "Singapore",
+   "summary": "Collaborated with iFOREST on the city's heat and cooling plan.",
+   "summary_claims": [
+    "c-bbs-ihcap"
+   ],
+   "site": "https://sec.ethz.ch/",
+   "coalition": null,
+   "activities": [
+    "bbs-ihcap"
+   ]
+  },
+  {
+   "aliases": [
+    "IRADe"
+   ],
+   "unknowns": [
+    "How that plan was used."
+   ],
+   "outside": null,
+   "id": "irade",
+   "network": "irade",
+   "name": "Integrated Research and Action for Development (IRADe)",
+   "type": "research",
+   "based": "Delhi",
+   "summary": "Prepared an earlier Climate Adaptive Heat Action Plan for the city.",
+   "summary_claims": [
+    "c-bbs-irade"
+   ],
+   "site": "https://irade.org/",
+   "coalition": null,
+   "activities": [
+    "bbs-hap"
+   ]
+  }
+ ],
+ "authorities": [
+  {
+   "aliases": [
+    "BMC"
+   ],
+   "id": "bmcbbs",
+   "network": "bhubaneswarmunicipalcorp",
+   "name": "Bhubaneswar Municipal Corporation",
+   "role": "Launched the Integrated Heat and Cooling Action Plan in September 2025.",
+   "claims": [
+    "c-bbs-ihcap"
+   ]
+  }
+ ],
+ "coalition": null,
+ "activities": [
+  {
+   "collaborators": [
+    [
+     "iforest",
+     "developed the plan"
+    ],
+    [
+     "sec",
+     "collaborated"
+    ]
+   ],
+   "people": [
+    "Residents"
+   ],
+   "start": "2025-09",
+   "outputs": [
+    "The plan, launched September 2025"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated; temperature reductions are modelled projections.",
+   "equity": {},
+   "related": [],
+   "id": "bbs-ihcap",
+   "title": "Integrated Heat and Cooling Action Plan (2025)",
+   "desc": "A plan linking heat and cooling demand: greening in all wards, strict use of the state's energy building codes, and projections of cooling demand to 2050.",
+   "lead": "bmcbbs",
+   "place": "All wards",
+   "precision": "corporation",
+   "status": "planned",
+   "themes": [
+    "buildings",
+    "nature",
+    "risk"
+   ],
+   "claims": [
+    "c-bbs-ihcap",
+    "c-bbs-demand",
+    "c-bbs-measures",
+    "c-bbs-land",
+    "c-bbs-proj"
+   ],
+   "evidence": "independent",
+   "last": "2025-09"
+  },
+  {
+   "collaborators": [],
+   "people": [
+    "Residents"
+   ],
+   "start": null,
+   "outputs": [
+    "The plan document"
+   ],
+   "outcomes": [],
+   "evaluation": "Not evaluated in the sources read.",
+   "equity": {},
+   "related": [],
+   "id": "bbs-hap",
+   "title": "Climate Adaptive Heat Action Plan",
+   "desc": "An earlier city heat action plan prepared by IRADe.",
+   "lead": "irade",
+   "place": "Bhubaneswar",
+   "precision": "city",
+   "status": "completed",
+   "themes": [
+    "risk"
+   ],
+   "claims": [
+    "c-bbs-irade"
+   ],
+   "evidence": "own",
+   "last": "2020"
+  }
+ ],
+ "extra_orgs": [],
+ "tools": [],
+ "money": [],
+ "timeline": [
+  {
+   "date": "2025-09",
+   "kind": "plan",
+   "text": "Integrated Heat and Cooling Action Plan launched.",
+   "claims": [
+    "c-bbs-ihcap"
+   ]
+  }
+ ],
+ "gaps": [
+  "The city corporation's seasonal heatwave measures (helplines, water, shelters) were reported in 2025 but the reports could not be read for this profile.",
+  "Budgets and timelines for the 2025 plan's measures.",
+  "How Odisha's state heat action plan applies in the city was not read for this profile.",
+  "Odia-language sources were not searched systematically for this first version."
+ ],
+ "contradictions": [],
+ "start_here": [
+  {
+   "who": "A city or energy team",
+   "text": "The 2025 plan treats heat and cooling demand together.",
+   "ref": [
+    "bbs-ihcap"
+   ]
+  }
+ ],
+ "method_note": "Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.",
+ "signals": []
+}

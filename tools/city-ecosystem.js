@@ -25,7 +25,7 @@ const KINDS = { dashboard: "Interactive dashboard", forecast: "Forecast or warni
  charter: "Checklist or charter", training: "Training resource", report: "Research report" };
 const BUTTONS = ["Open tool", "Read guidance", "View project", "Access details"];
 const ORG_TYPES = { research: "Research or think tank", health: "Health institution", community: "Worker or community organisation", network: "Network or forum",
- authority: "Public authority", funder: "Funder" };
+ authority: "Public authority", funder: "Funder", ngo: "NGO or civil society", humanitarian: "Humanitarian organisation", multilateral: "International or UN agency", business: "Business or consultancy" };
 const EVIDENCE = { own: "The organisation's own account", independent: "Independent reporting", both: "Own account and independent reporting" };
 const PRECISION = { sites: "Named sites", ward: "One ward", wards: "Wards", neighbourhoods: "Neighbourhoods", corporation: "One city corporation", city: "City-wide",
  district: "District", state: "State" };
@@ -61,7 +61,7 @@ function load(id) {
   authorities: keep(P.authorities, "authority", x => x.name),
   activities: keep(P.activities, "activity", x => x.title),
   tools: keep(P.tools, "tool", x => x.name),
-  money: keep(P.money, "money", x => `₹${x.amount} ${x.unit}: ${x.what}`),
+  money: keep(P.money, "money", x => `${x.label || `₹${x.amount} ${x.unit}`}: ${x.what}`),
   timeline: keep(P.timeline, "timeline", x => x.text),
   contradictions: keep(P.contradictions, "contradiction", x => x.text),
   orientation: keep(P.orientation, "orientation", x => x.text),
