@@ -346,7 +346,7 @@ Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Bengaluru South City Corporation](https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july) (Demand): Announced ₹2 crore for phased implementation of the Begur Ward Climate Action Plan, including heat proofing of buildings, blue-green schools and groundwater recharge, as a starting point rather than a final budget (July 2026).
 City or district governmentIndia
 Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
-- [Bengaluru Central City Corporation](https://grove.rainmatter.org/raw/4976/18) (Demand): Received the completed ward climate action plan for Shantinagar ward, one of Bengaluru's five pilot wards (2026).
+- [Bengaluru Central City Corporation](https://grove.rainmatter.org/t/transforming-indias-city-regions/4976/18) (Demand): Received the completed ward climate action plan for Shantinagar ward, one of Bengaluru's five pilot wards (2026).
 City or district governmentIndia
 - [Karnataka State Disaster Management Authority (KSDMA)](https://www.artpark.in/about/programs/social-impact) (Demand): Named by ARTPARK as a government partner in its sub-district heat-risk predictions for Karnataka.
 Government bodyIndia

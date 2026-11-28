@@ -48,6 +48,10 @@ for (const id of E.cities()) {
  ok(!dead.length, `${id}: internal links resolve${dead.length ? "; missing: " + dead.join(", ") : ""}`);
  const files = [...html.matchAll(/href="(\/research\/[^"]+)"/g)].map(m => m[1]).filter(u => !fs.existsSync(path.join(ROOT, u)));
  ok(!files.length, `${id}: research files linked from the page exist${files.length ? "; missing: " + files.join(", ") : ""}`);
+ // readers open a source's normal page: no plain-text forum addresses, and an archived copy beside any original that blocked the checker
+ ok(!/href="[^"]*\/raw\/\d+\/\d+"/.test(html), `${id}: no source links to a plain-text forum address (show the post's own page)`);
+ const blocked = P.sourcesFor(Object.keys(P.byClaim)).filter(x => x.archive);
+ ok(blocked.every(x => html.includes(`href="${x.archive}"`)), `${id}: every source that blocked the checker also offers its archived copy (${blocked.length})`);
  // filters: every option matches at least one card, and the page works without JavaScript
  ok(/<form class="ce-filters" hidden/.test(html), `${id}: filters stay hidden without JavaScript, so every card shows`);
  // the city's own page and the cities index link here; the city page keeps its anchors
