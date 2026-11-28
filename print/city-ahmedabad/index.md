@@ -45,7 +45,7 @@ Cycle | Why here | One action that breaks it |
 - Heat Resilience Action (HERA), formerly Climate Resilience for All
 - Mahila Housing Trust
 - Natural Resources Defense Council (NRDC), India programme
-- Indian Institute of Public Health Gandhinagar (IIPH-G)
+- Indian Institute of Public Health Gandhinagar
 
 Listing does not imply partnership, affiliation or endorsement.
 

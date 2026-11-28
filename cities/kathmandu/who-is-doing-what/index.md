@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> Who is working on heat in Kathmandu, what they are doing, what can be used and what is still only planned: 3 activities and open questions, each checked against its source.
+> Who is working on heat in Kathmandu, what they are doing, what can be used and what is still only planned: 4 activities and open questions, each checked against its source.
 
 Cities
 
@@ -15,13 +15,13 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 Kathmandu is cooler than the lowland cities on this site, but it set a temperature record in 2024 and its core runs several degrees hotter than the valley around it. The sources reviewed show research and calls for action rather than a city heat programme: no heat action plan was found for the city, and the most concrete public works are greening and a pavement trial next door in Lalitpur.
 
-**3** activities**3** organisations**0** tools and resources**1** public bodies
+**4** activities**3** organisations**1** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Kathmandu, and no organisation was contacted.
 
 ## Start here
 
-A city teamThe worker survey and the World Bank analysis are the most specific evidence on Kathmandu found. [World Bank analysis of heat in South Asia's cities](#ktm-wb-report)
+A city teamThe worker survey and the World Bank analysis are the most specific evidence on Kathmandu found. [Survey of migrant workers in the heat](#ktm-pci-study) · [World Bank analysis of heat in South Asia's cities](#ktm-wb-report)
 
 Also on Common Shade: [Kathmandu: heat today, heat over time and plans](https://beattheheat.asia/cities/kathmandu/) · [Organisations working on extreme heat](https://beattheheat.asia/heat-network/) · [Heat Tool Finder](https://beattheheat.asia/heat-tools/) · [Signals](https://beattheheat.asia/signals/)
 
@@ -31,7 +31,7 @@ Each card is one piece of work. The lead is named only where a source names one;
 
 Kept apartDistinctions kept on every card: based in the city is not working in it; developing a tool that could serve the city is not using it there; announced money is not money spent; planned is not delivered.
 
-3 activities
+4 activities
 
 UnderwayNature-based cooling
 
@@ -105,6 +105,42 @@ Mentioned, consulted, deciding, receiving and benefiting are different things; a
 
 Sources: [The Kathmandu Post (column by UN-Habitat Nepal staff): The growing risks of extreme heat, 2025](https://kathmandupost.com/columns/2025/06/17/the-growing-risks-of-extreme-heat)
 
+CompletedWorker and livelihood protection
+
+### Survey of migrant workers in the heat
+
+A survey of 305 migrant and informal workers and focus groups on how heat affects work.
+
+**Lead**: [People's Courage International](#org-pci)
+
+**Where**: Kathmandu (City-wide)
+
+**People**: Migrant workers, Informal workers
+
+**When**: Start not stated
+
+**Outputs**: Report: Hot Cities Make Hard Work Harder
+
+**Evaluation**: Not applicable.
+
+**Evidence**: Independent reporting; latest dated evidence May 2026
+
+Who is included, and how
+
+**Named or mentioned**: Not documented in the sources reviewed.
+
+**Consulted**: 305 migrant workers surveyed.
+
+**In decisions or governance**: Not documented in the sources reviewed.
+
+**Receiving the intervention**: Not documented in the sources reviewed.
+
+**Evidence of benefit**: Not documented in the sources reviewed.
+
+Mentioned, consulted, deciding, receiving and benefiting are different things; a blank means the sources do not say.
+
+Sources: [The Kathmandu Post: Adverse weather adds to informal workers' stress in Kathmandu, 2026](https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu)
+
 CompletedRisk intelligence and early warning
 
 ### World Bank analysis of heat in South Asia's cities
@@ -154,7 +190,7 @@ The same activities, grouped by what they work on. An activity can sit under sev
 
 ### Worker and livelihood protection
 
-No activity found in the sources reviewed.
+- [Survey of migrant workers in the heat](#ktm-pci-study) (Completed)
 
 ## Places and projects
 
@@ -162,6 +198,7 @@ Where each piece of work happens, at the precision the sources give. No office a
 
 Where | Precision | Activity | Stage |
 Lalitpur Metropolitan City | Named sites | [Permeable pavement trial in Lalitpur](#ktm-pavements) | Completed |
+Kathmandu | City-wide | [Survey of migrant workers in the heat](#ktm-pci-study) | Completed |
 Kathmandu Valley | District | [Urban green spaces, tree planting and community forests](#ktm-greening) | Underway |
 Kathmandu Valley | District | [World Bank analysis of heat in South Asia's cities](#ktm-wb-report) | Completed |
 
@@ -186,11 +223,13 @@ One card per organisation, with its verified names. Membership of the Collective
 
 NGO or civil societyBased: International
 
-Details held back until the source check confirms them.
+Co-published a survey of 305 migrant workers in Kathmandu on heat and hard work.
 
-Activities:
+Activities: [Survey of migrant workers in the heat](#ktm-pci-study)
 
 [Website](https://peoplescourage.org/) · [In the heat network](https://beattheheat.asia/heat-network/?q=People's%20Courage%20International)
+
+Sources: [The Kathmandu Post: Adverse weather adds to informal workers' stress in Kathmandu, 2026](https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu)
 
 ### World Bank
 
@@ -239,17 +278,11 @@ Open questions, stated as gaps in what the sources show, not as failures of any 
 
 ### Where sources disagree
 
-Held back after the source check (1)
-
-These rest on a claim the source check did not confirm, so they are not shown above. Each can return once its source holds it.
-
-- Survey of migrant workers in the heat
-
 ## How this was made
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Kathmandu, and no organisation was contacted.
 
-5 of 6 claims passed the source check, last run 28 November 2026: each was kept only when every word it rests on was found on its source. A source that only opened does not count. The date of the check is not a date any project moved.
+6 of 6 claims passed the source check, last run 28 November 2026: each was kept only when every word it rests on was found on its source. A source that only opened does not count. The date of the check is not a date any project moved.
 
 Sources were found by web search in English; local-language sources were not searched systematically. Where a source could not be read, nothing rests on it.
 

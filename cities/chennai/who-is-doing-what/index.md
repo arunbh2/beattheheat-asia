@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 In Chennai the visible heat work is led from the state: Tamil Nadu has declared heat a disaster, and its green climate company is coating school roofs with UNEP. The city corporation has trained school staff, signed an agreement with CEEW to plan ward-level heat projects, and is folding heat mapping by UNEP and CEPT University into its master plan.
 
-**3** activities**3** organisations**0** tools and resources**3** public bodies
+**3** activities**3** organisations**3** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Chennai, and no organisation was contacted.
 

@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 Dhaka has two strands of heat work. Dhaka North appointed Asia's first city Chief Heat Officer in 2023, with water booths, plans for cooling zones and greening. The Red Crescent has the most tested system: an early action protocol that, in April 2024, released cash, cooling stations and water before the worst heat. A city heat action plan is still proposed.
 
-**5** activities**6** organisations**0** tools and resources**2** public bodies
+**5** activities**6** organisations**2** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Dhaka, and no organisation was contacted.
 

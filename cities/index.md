@@ -92,7 +92,7 @@ City deep dive
 
 ## [Kathmandu: who is doing what about heat?](https://beattheheat.asia/cities/kathmandu/who-is-doing-what/)
 
-Who is working on heat in Kathmandu, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 3 activities and 3 organisations, each line checked against its source.
+Who is working on heat in Kathmandu, what exactly they are doing, which tools anyone can use, what money has been announced and what is still only planned: 4 activities and 3 organisations, each line checked against its source.
 
 [Open the Kathmandu profile](https://beattheheat.asia/cities/kathmandu/who-is-doing-what/)
 

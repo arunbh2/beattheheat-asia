@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 Ahmedabad wrote South Asia's first city heat action plan in 2013, after the 2010 heat wave, and an evaluation cited by the WHO Foundation credits it with lives saved. Since then the work has spread from warnings to homes, streets and income: cool roofs, a misted bus stop and a heat insurance for women in informal work, much of it carried by one women's housing organisation working with the city.
 
-**5** activities**3** organisations**0** tools and resources**1** public bodies
+**5** activities**3** organisations**1** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Ahmedabad, and no organisation was contacted.
 
@@ -79,7 +79,7 @@ Roofs of over 3,000 low-income homes painted with white lime paint under the Hea
 
 **Lead**: [Ahmedabad Municipal Corporation](#auth-amc)
 
-**With**: [Natural Resources Defense Council (NRDC), India programme](#org-nrdc) (partner); [Indian Institute of Public Health Gandhinagar](#org-iiphg) (partner); [Mahila Housing Trust](#org-mht) (partner)
+**With**: [Natural Resources Defense Council (NRDC), India programme](#org-nrdc) (partner); [Indian Institute of Public Health Gandhinagar](#org-indianinstituteofpublich) (partner); [Mahila Housing Trust](#org-mht) (partner)
 
 **Where**: Low-income neighbourhoods (not named) (Neighbourhoods)
 

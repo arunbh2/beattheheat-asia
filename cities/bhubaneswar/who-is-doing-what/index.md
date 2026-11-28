@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 Bhubaneswar, in a state long known for heatwave preparedness, launched an integrated heat and cooling plan in 2025 that links heat to the city's fast-growing demand for air conditioning, its lost water bodies and its building codes. It follows an earlier city heat action plan prepared with IRADe.
 
-**2** activities**3** organisations**0** tools and resources**1** public bodies
+**2** activities**3** organisations**1** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Bhubaneswar, and no organisation was contacted.
 

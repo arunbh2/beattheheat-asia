@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 Delhi's 2025 Heat Action Plan promised graded alerts, thousands of water coolers, hospital heatstroke units and cool roof pilots. Reporters and researchers found much of it hard to see on the ground, and found that heat cannot draw on the disaster fund. Worker organisations and researchers have filled in what the plan does not measure: lost hours, lost income and markets with no water.
 
-**8** activities**7** organisations**0** tools and resources**4** public bodies
+**8** activities**7** organisations**4** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Delhi, and no organisation was contacted.
 

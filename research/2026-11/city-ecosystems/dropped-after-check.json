@@ -1,13 +1,1 @@
-[
- {
-  "id": "c-ktm-pci",
-  "where": "Kathmandu",
-  "text": "A 2026 study, Hot Cities Make Hard Work Harder, co-published by People's Courage International, surveyed 305 migrant workers in Kathmandu; 46 percent reported being negatively affected.",
-  "missing": [
-   "ktm-ann: \"Hot Cities Make Hard Work Harder\"",
-   "ktm-ann: \"Courage International\"",
-   "ktm-ann: \"305 migrant workers in Kathmandu\"",
-   "ktm-ann: \"46 percent\""
-  ]
- }
-]
+[]

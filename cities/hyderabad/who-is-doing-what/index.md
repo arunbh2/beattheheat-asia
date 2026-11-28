@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 Hyderabad tested cool roofs on 25 homes in 2017, and Telangana turned that into India's first state cool roof policy in 2023, with targets and a building permit rule. Each summer the state heatwave plan and the city corporation add water kiosks, health camps and warnings on junction screens, though the plan is advisory.
 
-**5** activities**4** organisations**0** tools and resources**4** public bodies
+**5** activities**4** organisations**4** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Hyderabad, and no organisation was contacted.
 

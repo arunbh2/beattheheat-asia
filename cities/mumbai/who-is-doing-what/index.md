@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 Mumbai has a climate action plan that names urban heat, a climate budget and a heat implementation pathway written with C40, but no standalone heat action plan was found. Reporters describe a climate cell short of staff and parks closed in the hottest hours; volunteers and a small design firm work on cooling homes in informal settlements.
 
-**3** activities**5** organisations**0** tools and resources**1** public bodies
+**3** activities**5** organisations**1** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Mumbai, and no organisation was contacted.
 

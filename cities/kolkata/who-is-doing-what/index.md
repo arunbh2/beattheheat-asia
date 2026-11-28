@@ -15,7 +15,7 @@ Who is working on heat in the city, what exactly they are doing, what anyone can
 
 For Kolkata, the sources reviewed show more analysis than action: research on where heat is most severe and on lost water bodies and greenery, a state heat wave plan, and repeated calls for a city plan. No Kolkata Municipal Corporation heat action plan was found.
 
-**2** activities**1** organisations**0** tools and resources**2** public bodies
+**2** activities**1** organisations**2** public bodies
 
 Organisations and activities identified in public sources, read on 28 November 2026. It is not a complete list of everyone working on heat in Kolkata, and no organisation was contacted.
 

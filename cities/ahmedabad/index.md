@@ -106,7 +106,7 @@ City deep dive[Ahmedabad: who is doing what about heat?](https://beattheheat.asi
 - [Heat Resilience Action (HERA), formerly Climate Resilience for All](https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/): Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves.
 - [Mahila Housing Trust](https://citizenmatters.in/new-cool-roof-solutions-heat-in-informal-settlements/): Cools homes in informal settlements with reflective and modular roofs, and runs heat income insurance for women workers.
 - [Natural Resources Defense Council (NRDC), India programme](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf): Works with Indian cities and states on heat action plans. It developed Ahmedabad's 2013 heat action plan, the first in South Asia, with the Indian Institute of Public Health-Gandhinagar, and reviews heat policy in India.
-- [Indian Institute of Public Health Gandhinagar (IIPH-G)](https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2): A partner of the Ahmedabad Municipal Corporation, with NRDC and Mahila Housing Trust, on the city's 2017 cool roof pilot under its Heat Action Plan.
+- [Indian Institute of Public Health Gandhinagar](https://iiphg.edu.in/scientific-publications-heat-health-activities/): Provides public-health support for city heat action planning.
 
 Listing does not imply partnership, affiliation or endorsement.
 

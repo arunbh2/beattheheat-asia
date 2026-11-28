@@ -2750,7 +2750,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Organisations working on extreme heat
 
-368 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+367 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Each organisation is marked with its main side in a heat alliance. Demand: Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected. Supply: Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data. Platform: Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market. Many play more than one part; this is the main one.
 
@@ -3117,8 +3117,6 @@ Every link was opened by an automated check on 17 November 2026. A listing says 
 - NIMHANS (National Institute of Mental Health and Neurosciences), Bengaluru (Supply; Health body; India): A founding member of the Bengaluru Heat Collective (July 2026). A separate Bengaluru heat project was not identified in the sources reviewed, and membership does not establish a role in heat and mental health work. (https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july)
 
 - WELL Labs (Supply; Research body; India): A technical partner for Bengaluru's city climate plan and part of the working group behind its ward climate action plans. Heat-specific work was not identified in the sources reviewed. (https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/)
-
-- Indian Institute of Public Health Gandhinagar (IIPH-G) (Supply; Health body; India): A partner of the Ahmedabad Municipal Corporation, with NRDC and Mahila Housing Trust, on the city's 2017 cool roof pilot under its Heat Action Plan. (https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2)
 
 - International Forum for Environment, Sustainability and Technology (iFOREST) (Supply; Research body; India): Developed Bhubaneswar's Integrated Heat and Cooling Action Plan (2025) with the city corporation and the Singapore-ETH Centre. (https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/)
 
@@ -3866,7 +3864,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 
 City deep dive: Ahmedabad: who is doing what about heat? (https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/).
 
-Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All; Mahila Housing Trust; Natural Resources Defense Council (NRDC), India programme; Indian Institute of Public Health Gandhinagar (IIPH-G)
+Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All; Mahila Housing Trust; Natural Resources Defense Council (NRDC), India programme; Indian Institute of Public Health Gandhinagar
 
 Page: https://beattheheat.asia/cities/ahmedabad/
 
@@ -7420,6 +7418,8 @@ Distinctions kept on every card: based in the city is not working in it; develop
 
 - [ktm-pavements] Permeable pavement trial in Lalitpur (Completed). Permeable pavements tested in Lalitpur Metropolitan, next to Kathmandu. Lead: not named in the sources. With: Lalitpur Metropolitan City (where the test took place). Where: Lalitpur Metropolitan City (Named sites). Evaluation: Results not given in the source read. Evidence: Independent reporting. Sources: https://kathmandupost.com/columns/2025/06/17/the-growing-risks-of-extreme-heat
 
+- [ktm-pci-study] Survey of migrant workers in the heat (Completed). A survey of 305 migrant and informal workers and focus groups on how heat affects work. Lead: People's Courage International. Where: Kathmandu (City-wide). People: Migrant workers, Informal workers. Evaluation: Not applicable. Evidence: Independent reporting. Sources: https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu
+
 - [ktm-wb-report] World Bank analysis of heat in South Asia's cities (Completed). Measured the city core's heat against the valley and recommended heritage site retrofits and heat-resilient building standards. Lead: World Bank. Where: Kathmandu Valley (District). Evaluation: Not applicable. Evidence: Independent reporting. Sources: https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates
 
 ### Money that has been announced
@@ -7436,7 +7436,7 @@ No announced money for heat work in Kathmandu was found in the sources reviewed.
 
 One card per organisation, with its verified names. Membership of the Collective does not on its own establish a role in any piece of work.
 
-- People's Courage International: Details held back until the source check confirms them.
+- People's Courage International: Co-published a survey of 305 migrant workers in Kathmandu on heat and hard work.
 
 - World Bank: Its 2026 report on heat in South Asia's cities measured Kathmandu's urban heat and recommended heritage site retrofits. Not known: Whether any project has followed.
 
@@ -7457,10 +7457,6 @@ One card per organisation, with its verified names. Membership of the Collective
 - Nepali-language sources were not searched systematically for this first version.
 
 ### Where sources disagree
-
-### Held back after the source check
-
-- Survey of migrant workers in the heat
 
 ## Kolkata: who is doing what about heat?
 
@@ -8535,11 +8531,11 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 93 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 94 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1123 of 1956 works dated; 808 have no established date yet, 25 only an "online by" date; 482 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1123 of 1956 works dated; 808 have no established date yet, 25 only an "online by" date; 481 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
 - Before 2024: 471 works. Financing: 81; Institutions and plans: 64; Practical measures: 100; Experience: 23; Evidence: 203.
 
@@ -8550,6 +8546,8 @@ Dated by the publication date of the work Common Shade draws on (1123 of 1956 wo
 - 2026 so far: 246 works published (142 with a known month), 1123 in all by the end of the period. Financing: 230; Institutions and plans: 138; Practical measures: 248; Experience: 98; Evidence: 409.
 
 ### Changes, newest first
+
+- Tool improved: Who is doing what about heat, in nine more cities. Added 28 November 2026 · Feature published 28 November 2026. Why it matters (our reading): The Bengaluru deep dive now has nine siblings: Delhi, Mumbai, Ahmedabad, Kolkata, Chennai, Hyderabad, Bhubaneswar, Dhaka and Kathmandu. Each follows heat work activity by activity, from Ahmedabad's cool roofs and heat insurance to Dhaka's Red Crescent early action and Hyderabad's cool roof policy, with plans kept apart from delivery, and where the public record is thin, as in Kolkata and Kathmandu, the page says so. Places: India, Bangladesh, Nepal. People: Workers in heat-exposed jobs, Women whose livelihoods are held back by unequal access. Topics: Heat action plans, Cool by design. Review: Forty public sources staged and checked on GitHub in two runs; all 78 claims passed. Asia News Network refused the checker, so the Kathmandu worker survey was restaged on the original Kathmandu Post article. Local-language sources were not searched systematically, and no organisation was contacted.. Next: Explore Delhi's heat work https://beattheheat.asia/cities/delhi/who-is-doing-what/#directory. Connections: Heat action plans (from the site's records): City and state heat plans in nine cities, each at the stage its source shows. What it took to add this: The question: In each city on Common Shade in India, and in Dhaka and Kathmandu, who is working on heat, what exactly are they doing, and what is still only planned? 40 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 40 confirmed, and 1 could not be (1 blocked automated reading). 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Delivery of Delhi's promised water coolers and cool roofs; progress against Telangana's cool roof targets; a city heat plan for Kolkata, Mumbai or Kathmandu; what Dhaka North's heat office has delivered since 2023; local-language sources.
 
 - Tool improved: Bengaluru: who is doing what about heat?. Added 28 November 2026 · Feature published 28 November 2026. Why it matters (our reading): The first city deep dive follows heat work in Bengaluru activity by activity: the new Bengaluru Heat Collective and its eleven founding members, ward climate plans and their first budgets, a national heat pilot run through one city corporation, seasonal cooling centres and kits for outdoor workers, and the tools anyone can use. Plans are kept apart from delivery, announced money from money spent, and membership from any role. Places: India. People: Workers in heat-exposed jobs, Women whose livelihoods are held back by unequal access. Topics: Heat-safe work, Heat action plans. Review: Thirty-two public sources staged and checked on GitHub in two runs; 52 of 54 claims passed. Later posts of WRI India's forum thread were restaged on their plain-text addresses after the first run, and the city corporations claim moved to a report the checker could read. C40's accelerator report and the Karnataka Heat Action Plan 2026 are held back. No organisation was contacted.. Next: Explore who is doing what https://beattheheat.asia/cities/bengaluru/who-is-doing-what/#directory. Connections: Heat action plans (from the site's records): Ward climate plans, the Collective's priorities and the city corporations' first heat money, each at the stage its source shows. What it took to add this: The question: Who is working on heat in Bengaluru, what exactly are they doing, what can anyone use, and what is still only planned? 32 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 30 confirmed, and 2 could not be (1 blocked automated reading, 1 did not respond). 10 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Sanction and spending records for the announced ₹5 crore and ₹2 crore; the Collective's charter and strategy note; Bengaluru user numbers for the cooling centres; any evaluation of a heat measure in the city; Kannada-language sources.
 

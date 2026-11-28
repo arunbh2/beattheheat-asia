@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> 368 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+> 367 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Who could we work with?
 
@@ -21,7 +21,7 @@ Organisations already at work, by the part they play.
 
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
 
-368 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+367 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 [Open the interactive network](https://beattheheat.asia/#network)
 
@@ -567,9 +567,6 @@ Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Green,
 Health bodyIndia
 - [WELL Labs](https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/) (Supply): A technical partner for Bengaluru's city climate plan and part of the working group behind its ward climate action plans. Heat-specific work was not identified in the sources reviewed.
 Research bodyIndiaLink opens a page by someone else
-- [Indian Institute of Public Health Gandhinagar (IIPH-G)](https://www.nrdc.org/bio/anjali-jaiswal/new-cool-roof-programs-india-ahmedabad-part-2) (Supply): A partner of the Ahmedabad Municipal Corporation, with NRDC and Mahila Housing Trust, on the city's 2017 cool roof pilot under its Heat Action Plan.
-Health bodyIndia
-Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
 - [International Forum for Environment, Sustainability and Technology (iFOREST)](https://ommcomnews.com/odisha-news/bhubaneswar-launches-action-plan-to-beat-rising-heat-and-cooling-demands/) (Supply): Developed Bhubaneswar's Integrated Heat and Cooling Action Plan (2025) with the city corporation and the Singapore-ETH Centre.
 Research bodyIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
