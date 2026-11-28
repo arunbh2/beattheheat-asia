@@ -214,6 +214,14 @@
  ],
  "research": [
   {
+   "title": "Techno-Economic Assessment of Ambient-Temperature Hydrometallurgical Processing of Spent Lithium-Ion Batteries as a Secondary Resource in Bangladesh and Australia",
+   "url": "https://doi.org/10.20944/preprints202611.2722.v1",
+   "journal": "Preprint",
+   "date": "2026-11-26",
+   "firstAuthor": "Qadir MR",
+   "preprint": true
+  },
+  {
    "title": "Developing a Personalized Occupational Heat Exposure Index",
    "url": "https://europepmc.org/article/PMC/PMC13794220",
    "journal": "Environment & Health",
@@ -1463,5 +1471,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-27T21:28:42.727Z"
+ "updated": "2026-11-28T08:06:28.649Z"
 }

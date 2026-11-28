@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-27T21:28:42.108Z",
+ "updated": "2026-11-28T08:06:28.497Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Techno-Economic Assessment of Ambient-Temperature Hydrometallurgical Processing of Spent Lithium-Ion Batteries as a Secondary Resource in Bangladesh and Australia",
+   "journal": "Preprint",
+   "date": "2026-11-26",
+   "doi": "10.20944/preprints202611.2722.v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.20944/preprints202611.2722.v1",
+   "firstAuthor": "Qadir MR"
+  },
   {
    "title": "Uncertainty-aware heatwave hazard zoning for India from two gridded temperature records",
    "journal": "Preprint",
@@ -592,16 +602,6 @@
    "preprint": true,
    "url": "https://doi.org/10.21203/rs.3.rs-10941020/v1",
    "firstAuthor": "Mamun ARA"
-  },
-  {
-   "title": "Duration-dependent mild heat stress attenuates mercury-induced Neuroreproductive and oxidative toxicity in Drosophila melanogaster via hormetic mechanisms.",
-   "journal": "Biometals : an international journal on the role of metal ions in biology, biochemistry, and medicine",
-   "date": "2026-09-24",
-   "doi": "10.1007/s10534-026-00887-7",
-   "pmid": "42782463",
-   "preprint": false,
-   "url": "https://doi.org/10.1007/s10534-026-00887-7",
-   "firstAuthor": "Olatomide OD"
   }
  ]
 }
