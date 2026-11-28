@@ -71,7 +71,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -86,6 +86,366 @@
    "lifecycle": "open",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/opp-gcc-nexa-lighthouse-2026/"
+  },
+  {
+   "id": "car-nrdcin-cehsc-analyst-2026",
+   "kind": "career",
+   "cat": "consultancy",
+   "cat_label": "Individual consultancy",
+   "who": "individual",
+   "title": "Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)",
+   "aliases": [
+    "Analyst Consultant CEHSC (careers page)",
+    "Junior Consultant - Climate Resilience (the listing's position summary)"
+   ],
+   "org": null,
+   "org_name": "NRDC India",
+   "network_id": "nrdc-india",
+   "rel": "direct",
+   "rel_why": "The role supports the Maharashtra Centre of Excellence for Heat Resilience and Sustainable Cooling, with research on heat action planning and sustainable cooling.",
+   "rel_evidence": {
+    "text": "support its work on extreme heat and access to cooling",
+    "confirmed": true
+   },
+   "summary": "Supports NRDC India's technical assistance to the Government of Maharashtra for its Centre of Excellence for Heat Resilience and Sustainable Cooling in Nagpur: research, knowledge products, communications and coordination of the Centre's working groups.",
+   "themes": [
+    "municipal",
+    "cooling",
+    "health"
+   ],
+   "countries": [
+    "IN"
+   ],
+   "cities": [
+    "mumbai"
+   ],
+   "location": "Nagpur, Maharashtra, India. The listing also asks for the ability to work based in Mumbai or Nagpur, prefers candidates based in Nagpur and in Maharashtra, and mentions about 30% travel.",
+   "mode": "not-stated",
+   "remote_text": "Not stated",
+   "eligibility_geo": "Not stated",
+   "experience": "2 - 3 years of relevant experience; the listing says candidates with greater experience are encouraged to apply.",
+   "level": "early",
+   "qualifications": "A bachelor's degree in public health, economics, public policy, development studies, engineering, urban planning or a related discipline; a master's is a plus. English and one more Indian language preferred.",
+   "contract": "Full-time consultant engagement for an initial one year, with a possible extension of a further year.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed. The listing says competitive compensation aligned with qualifications, experience and scope.",
+   "comp_kind": "pay",
+   "deadline": {
+    "date": "2026-12-11",
+    "time": null,
+    "tz": null,
+    "wording": "Kindly send your application by December 11, 2026.",
+    "confirmed": true
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-12-11",
+     "time": null,
+     "tz": null,
+     "wording": "Kindly send your application by December 11, 2026."
+    }
+   ],
+   "deadline_history": [],
+   "stated_status": "open",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://www.nrdcindia.org/jobdetail/Analyst-Consultant-CEHSC",
+   "application_url": "",
+   "apply_text": "By email, with a CV and a cover letter and the subject line the listing gives; the addresses are on the official listing.",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://www.nrdcindia.org/jobdetail/Analyst-Consultant-CEHSC",
+     "label": "NRDC India: Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)"
+    },
+    {
+     "url": "https://www.nrdcindia.org/careers",
+     "label": "NRDC India: Careers"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "Natural Resources Defense Council (NRDC), India programme",
+   "lifecycle": "open",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-nrdcin-cehsc-analyst-2026/"
+  },
+  {
+   "id": "car-nrdcin-cehsc-senior-analyst-2026",
+   "kind": "career",
+   "cat": "consultancy",
+   "cat_label": "Individual consultancy",
+   "who": "individual",
+   "title": "Senior Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)",
+   "aliases": [
+    "Senior Analyst Consultant CEHSC (careers page)",
+    "Senior Consultant - Climate Resilience (the listing's position summary)"
+   ],
+   "org": null,
+   "org_name": "NRDC India",
+   "network_id": "nrdc-india",
+   "rel": "direct",
+   "rel_why": "The role leads research on extreme heat and health and reviews heat action plans for the Maharashtra Centre of Excellence for Heat Resilience and Sustainable Cooling.",
+   "rel_evidence": {
+    "text": "research on extreme heat",
+    "confirmed": true
+   },
+   "summary": "Leads research on extreme heat, including health impacts, occupational exposure and health-system preparedness, and manages NRDC India's technical support to the Government of Maharashtra for its Centre of Excellence for Heat Resilience and Sustainable Cooling.",
+   "themes": [
+    "health",
+    "municipal",
+    "work",
+    "cooling"
+   ],
+   "countries": [
+    "IN"
+   ],
+   "cities": [
+    "mumbai"
+   ],
+   "location": "Mumbai, Maharashtra, India. The listing also asks for the ability to work based in Mumbai or Nagpur, prefers candidates based in Maharashtra and in Mumbai, and mentions about 20-30% travel.",
+   "mode": "not-stated",
+   "remote_text": "Not stated",
+   "eligibility_geo": "Not stated",
+   "experience": "The header says 8 - 10 years of relevant experience; the requirements say a minimum of 8 years.",
+   "level": "senior",
+   "qualifications": "A postgraduate degree, preferably in disaster management, public health or epidemiology, environmental science, engineering, science, social science or humanities.",
+   "contract": "Full-time consultant engagement for an initial one year, with a possible extension of a further year.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed. The listing says competitive compensation aligned with qualifications, experience and scope.",
+   "comp_kind": "pay",
+   "deadline": {
+    "date": "2026-12-11",
+    "time": null,
+    "tz": null,
+    "wording": "Kindly send your application by December 11, 2026.",
+    "confirmed": true
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-12-11",
+     "time": null,
+     "tz": null,
+     "wording": "Kindly send your application by December 11, 2026."
+    }
+   ],
+   "deadline_history": [],
+   "stated_status": "open",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://www.nrdcindia.org/jobdetail/Senior-Analyst-Consultant-CEHSC",
+   "application_url": "",
+   "apply_text": "By email, with a CV and a cover letter and the subject line the listing gives; the addresses are on the official listing.",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://www.nrdcindia.org/jobdetail/Senior-Analyst-Consultant-CEHSC",
+     "label": "NRDC India: Senior Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)"
+    },
+    {
+     "url": "https://www.nrdcindia.org/careers",
+     "label": "NRDC India: Careers"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "Natural Resources Defense Council (NRDC), India programme",
+   "lifecycle": "open",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-nrdcin-cehsc-senior-analyst-2026/"
+  },
+  {
+   "id": "opp-ghhinsea-heritage-practices-2026",
+   "kind": "opportunity",
+   "cat": "partnership",
+   "cat_label": "Partnership or support call",
+   "who": "organisation",
+   "title": "Open call: share traditional and cultural heat management practices (Southeast Asia)",
+   "aliases": [],
+   "org": null,
+   "org_name": "Global Heat Health Information Network (GHHIN) Southeast Asia Hub",
+   "network_id": "ghhinsea",
+   "rel": "direct",
+   "rel_why": "Heat prevention and management practices are the subject of the call.",
+   "rel_evidence": {
+    "text": "heat management practices",
+    "confirmed": true
+   },
+   "summary": "Community members, practitioners and knowledge-holders are invited to contribute traditional and cultural heat management practices (traditional medicine, vernacular architecture, farming, clothing, oral history) to a public repository.",
+   "themes": [
+    "nature",
+    "homes",
+    "inclusion"
+   ],
+   "countries": [],
+   "cities": [],
+   "location": "Southeast Asia.",
+   "mode": "not-stated",
+   "remote_text": "",
+   "eligibility_geo": "Community members, practitioners and knowledge-holders.",
+   "experience": "Not stated",
+   "level": null,
+   "qualifications": "",
+   "contract": "Not stated",
+   "comp_disclosed": false,
+   "comp_text": "No payment or funding: an unpaid contribution",
+   "comp_kind": "funding",
+   "deadline": {
+    "date": "2026-12-18",
+    "time": null,
+    "tz": null,
+    "wording": "by 18 December 2026",
+    "confirmed": true
+   },
+   "deadlines": [
+    {
+     "stage": "Contributions",
+     "date": "2026-12-18",
+     "time": null,
+     "tz": null,
+     "wording": "by 18 December 2026"
+    }
+   ],
+   "deadline_history": [],
+   "stated_status": "open",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": "2026-07-01",
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://heathealth.info/news/new-regional-initiative-documenting-traditional-cultural-practices-of-heat-management-in-southeast-asia/",
+   "application_url": "https://forms.cloud.microsoft/r/CHczauxS7j",
+   "apply_text": "",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://heathealth.info/news/new-regional-initiative-documenting-traditional-cultural-practices-of-heat-management-in-southeast-asia/",
+     "label": "Global Heat Health Information Network (GHHIN) Southeast Asia Hub: New Regional Initiative Documenting Traditional & Cultural Practices of Heat Management in Southeast Asia"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "Global Heat Health Information Network, Southeast Asia Hub",
+   "lifecycle": "open",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/opp-ghhinsea-heritage-practices-2026/"
+  },
+  {
+   "id": "car-nrdcin-admin-assistant-2026",
+   "kind": "career",
+   "cat": "employment",
+   "cat_label": "Job",
+   "who": "individual",
+   "title": "Administrative Assistant",
+   "aliases": [],
+   "org": null,
+   "org_name": "NRDC India",
+   "network_id": "nrdc-india",
+   "rel": "network",
+   "rel_why": "NRDC India works on extreme heat and cooling, but this administrative post lists no heat-specific duties; the listing says interest in climate, energy or the environment is a plus, not required.",
+   "rel_evidence": null,
+   "summary": "A full-time administrative post supporting NRDC India's New Delhi team: scheduling, events, document preparation, budget tracking support and travel logistics.",
+   "themes": [],
+   "countries": [
+    "IN"
+   ],
+   "cities": [
+    "delhi"
+   ],
+   "location": "New Delhi, India (hybrid; about 10% travel).",
+   "mode": "hybrid",
+   "remote_text": "Hybrid, as the listing states",
+   "eligibility_geo": "Not stated",
+   "experience": "The header says 0 - 3 years of relevant experience; the requirements say 2-3 years, with more experience preferred.",
+   "level": "early",
+   "qualifications": "A bachelor's degree or higher.",
+   "contract": "Full-time; the contract length is not stated.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed.",
+   "comp_kind": "pay",
+   "deadline": {
+    "date": "2026-12-26",
+    "time": null,
+    "tz": null,
+    "wording": "Kindly send your application by December 26, 2026.",
+    "confirmed": true
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-12-26",
+     "time": null,
+     "tz": null,
+     "wording": "Kindly send your application by December 26, 2026."
+    }
+   ],
+   "deadline_history": [],
+   "stated_status": "open",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://www.nrdcindia.org/jobdetail/Administrative-assistant",
+   "application_url": "",
+   "apply_text": "By email, with a CV and a cover letter and the subject line the listing gives; the addresses are on the official listing.",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://www.nrdcindia.org/jobdetail/Administrative-assistant",
+     "label": "NRDC India: Administrative Assistant"
+    },
+    {
+     "url": "https://www.nrdcindia.org/careers",
+     "label": "NRDC India: Careers"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "Natural Resources Defense Council (NRDC), India programme",
+   "lifecycle": "open",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-nrdcin-admin-assistant-2026/"
   },
   {
    "id": "car-hghi-burke-climate-2027",
@@ -148,7 +508,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -229,7 +589,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -294,7 +654,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -309,6 +669,210 @@
    "lifecycle": "open",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/car-nus-ylls-assistant-professor/"
+  },
+  {
+   "id": "car-clasp-associate-india",
+   "kind": "career",
+   "cat": "employment",
+   "cat_label": "Job",
+   "who": "individual",
+   "title": "Associate, India Program",
+   "aliases": [],
+   "org": null,
+   "org_name": "CLASP",
+   "network_id": "clasp",
+   "rel": "network",
+   "rel_why": "CLASP works on the efficiency of appliances including air conditioners and fans, but this role covers India's energy efficiency programmes broadly and lists no cooling- or heat-specific duties.",
+   "rel_evidence": null,
+   "summary": "",
+   "themes": [],
+   "countries": [
+    "IN"
+   ],
+   "cities": [
+    "delhi"
+   ],
+   "location": "New Delhi office, with time at government and private sector partners' offices.",
+   "mode": "onsite",
+   "remote_text": "Based in the New Delhi office; the listing mentions flexible telecommuting after a period of employment",
+   "eligibility_geo": "Not stated",
+   "experience": "Three to four years of professional experience in energy efficiency, clean energy or energy in India.",
+   "level": "mid",
+   "qualifications": "",
+   "contract": "Not stated.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed. The listing says competitive compensation commensurate with experience.",
+   "comp_kind": "pay",
+   "deadline": null,
+   "deadlines": [],
+   "deadline_history": [],
+   "stated_status": "open",
+   "rolling": false,
+   "until_filled": true,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://www.clasp.ngo/associate-india-program/",
+   "application_url": "",
+   "apply_text": "Through the link on the official listing; applications are considered on a rolling basis until the position is closed.",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://www.clasp.ngo/associate-india-program/",
+     "label": "CLASP: Associate, India Program"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "CLASP",
+   "lifecycle": "until-filled",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-clasp-associate-india/"
+  },
+  {
+   "id": "opp-cool-bth-eoi",
+   "kind": "opportunity",
+   "cat": "partnership",
+   "cat_label": "Partnership or support call",
+   "who": "organisation",
+   "title": "Beat the Heat in Cities: expression of interest for countries and cities",
+   "aliases": [],
+   "org": "org-cool-coalition",
+   "org_name": "Cool Coalition (UNEP)",
+   "network_id": "coolcoalition",
+   "rel": "direct",
+   "rel_why": "Heat action planning and urban cooling are the subject.",
+   "rel_evidence": null,
+   "summary": "Countries and cities propose up to three cities for support on heat action planning and urban cooling.",
+   "themes": [
+    "municipal",
+    "cooling"
+   ],
+   "countries": [],
+   "cities": [],
+   "location": "Cities worldwide, as proposed by countries and cities.",
+   "mode": "not-stated",
+   "remote_text": "",
+   "eligibility_geo": "National and city governments, proposing cities.",
+   "experience": "Not stated",
+   "level": null,
+   "qualifications": "",
+   "contract": "Not stated",
+   "comp_disclosed": false,
+   "comp_text": "Not published",
+   "comp_kind": "funding",
+   "deadline": null,
+   "deadlines": [],
+   "deadline_history": [],
+   "stated_status": "",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": null,
+   "requisition": "",
+   "official_url": "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities",
+   "application_url": "",
+   "apply_text": "",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities",
+     "label": "Cool Coalition (UNEP): Beat the Heat in Cities"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "UNEP Cool Coalition",
+   "lifecycle": "unknown",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/opp-cool-bth-eoi/"
+  },
+  {
+   "id": "car-selco-architect-be-health",
+   "kind": "career",
+   "cat": "consultancy",
+   "cat_label": "Individual consultancy",
+   "who": "individual",
+   "title": "Consultant Project Architect - BE for Health",
+   "aliases": [],
+   "org": null,
+   "org_name": "SELCO Foundation",
+   "network_id": "selco",
+   "rel": "related",
+   "rel_why": "Designs healthcare buildings for underserved communities; the listing asks for assessments of thermal comfort in existing facilities, one of several building needs it names.",
+   "rel_evidence": {
+    "text": "thermal comfort",
+    "confirmed": true
+   },
+   "summary": "Research, design and implementation support for healthcare buildings in underserved areas, including assessments of thermal comfort, daylight, ventilation and energy access in existing facilities.",
+   "themes": [
+    "health",
+    "homes"
+   ],
+   "countries": [
+    "IN"
+   ],
+   "cities": [],
+   "location": "Not stated on the listing; it asks for regular field travel to rural and semi-urban project sites across states in India.",
+   "mode": "not-stated",
+   "remote_text": "Not stated",
+   "eligibility_geo": "Not stated",
+   "experience": "2–4 years of experience in architectural design and project coordination.",
+   "level": "mid",
+   "qualifications": "A bachelor's degree in architecture (B.Arch) is essential; English and Hindi.",
+   "contract": "A consultancy; its length is not stated.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed.",
+   "comp_kind": "pay",
+   "deadline": null,
+   "deadlines": [],
+   "deadline_history": [],
+   "stated_status": "",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://selcofoundation.org/careers/consultant-project-architect-be-for-health/",
+   "application_url": "",
+   "apply_text": "Through the application form linked from the official listing.",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://selcofoundation.org/careers/consultant-project-architect-be-for-health/",
+     "label": "SELCO Foundation: Consultant Project Architect - BE for Health"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "SELCO Foundation",
+   "lifecycle": "unknown",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-selco-architect-be-health/"
   },
   {
    "id": "opp-he-envhlth-02-2027",
@@ -359,7 +923,7 @@
    "duplicates": [],
    "conflict": "Published deadlines for this topic differ between sources (17 February 2027 and 13 April 2027); check the Funding and Tenders portal.",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -425,7 +989,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -494,7 +1058,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -509,6 +1073,73 @@
    "lifecycle": "open",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/car-nus-urban-climate-postdoc/"
+  },
+  {
+   "id": "car-selco-pm-disaster-climate",
+   "kind": "career",
+   "cat": "employment",
+   "cat_label": "Job",
+   "who": "individual",
+   "title": "Program Manager - Disaster & Climate Resilience",
+   "aliases": [],
+   "org": null,
+   "org_name": "SELCO Foundation",
+   "network_id": "selco",
+   "rel": "network",
+   "rel_why": "SELCO Foundation works on heat (including design for work at high temperatures), but this disaster and climate resilience role lists no heat-specific duties.",
+   "rel_evidence": null,
+   "summary": "",
+   "themes": [],
+   "countries": [
+    "IN"
+   ],
+   "cities": [
+    "bengaluru"
+   ],
+   "location": "Bengaluru (SELCO Foundation headquarters), with regular travel to project areas in the Northeast, Maharashtra, Karnataka and Odisha.",
+   "mode": "not-stated",
+   "remote_text": "Not stated",
+   "eligibility_geo": "Not stated",
+   "experience": "6 to 7 years of relevant professional experience in disaster risk reduction, climate adaptation or livelihoods.",
+   "level": "mid",
+   "qualifications": "",
+   "contract": "Full-time.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed.",
+   "comp_kind": "pay",
+   "deadline": null,
+   "deadlines": [],
+   "deadline_history": [],
+   "stated_status": "",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://selcofoundation.org/careers/program-manager-disaster-climate-resilience/",
+   "application_url": "",
+   "apply_text": "Through the application form linked from the official listing.",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://selcofoundation.org/careers/program-manager-disaster-climate-resilience/",
+     "label": "SELCO Foundation: Program Manager - Disaster & Climate Resilience"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "SELCO Foundation",
+   "lifecycle": "unknown",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-selco-pm-disaster-climate/"
   },
   {
    "id": "car-nus-hrpc-programme-manager",
@@ -559,7 +1190,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -624,7 +1255,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -689,7 +1320,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -754,7 +1385,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -769,6 +1400,91 @@
    "lifecycle": "open",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/car-nus-microclimate-rf/"
+  },
+  {
+   "id": "car-nrdcin-director-program-2026",
+   "kind": "career",
+   "cat": "employment",
+   "cat_label": "Job",
+   "who": "individual",
+   "title": "Director of Program",
+   "aliases": [],
+   "org": null,
+   "org_name": "NRDC India",
+   "network_id": "nrdc-india",
+   "rel": "network",
+   "rel_why": "NRDC India works on extreme heat and cooling, among other areas; this leadership post is not specific to heat.",
+   "rel_evidence": null,
+   "summary": "",
+   "themes": [],
+   "countries": [
+    "IN"
+   ],
+   "cities": [
+    "delhi"
+   ],
+   "location": "New Delhi, India (hybrid; 30-40% domestic and international travel).",
+   "mode": "hybrid",
+   "remote_text": "Hybrid, as the listing states",
+   "eligibility_geo": "Not stated",
+   "experience": "Senior",
+   "level": "senior",
+   "qualifications": "",
+   "contract": "Not stated.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed.",
+   "comp_kind": "pay",
+   "deadline": {
+    "date": "2026-11-30",
+    "time": null,
+    "tz": null,
+    "wording": "Kindly send your Application by November 30, 2026.",
+    "confirmed": true
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-11-30",
+     "time": null,
+     "tz": null,
+     "wording": "Kindly send your Application by November 30, 2026."
+    }
+   ],
+   "deadline_history": [],
+   "stated_status": "closed",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://www.nrdcindia.org/jobdetail/Director-of-program",
+   "application_url": "",
+   "apply_text": "",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://www.nrdcindia.org/jobdetail/Director-of-program",
+     "label": "NRDC India: Director of Program"
+    },
+    {
+     "url": "https://www.nrdcindia.org/careers",
+     "label": "NRDC India: Careers"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "Natural Resources Defense Council (NRDC), India programme",
+   "lifecycle": "closed-provider",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-nrdcin-director-program-2026/"
   },
   {
    "id": "car-unep-scccs-mel-287469",
@@ -831,7 +1547,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -846,6 +1562,95 @@
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/car-unep-scccs-mel-287469/"
+  },
+  {
+   "id": "car-nrdcin-climate-resilience-assoc-2026",
+   "kind": "career",
+   "cat": "employment",
+   "cat_label": "Job",
+   "who": "individual",
+   "title": "Climate Resilience Associate (2 positions)",
+   "aliases": [
+    "Cooling & Climate Resilience Associate (the subject line the listing asks for)"
+   ],
+   "org": null,
+   "org_name": "NRDC India",
+   "network_id": "nrdc-india",
+   "rel": "direct",
+   "rel_why": "The role works on NRDC India's climate resilience programme, whose listing describes work on extreme heat and heat action, with cooling and energy efficiency.",
+   "rel_evidence": {
+    "text": "heat",
+    "confirmed": true
+   },
+   "summary": "",
+   "themes": [
+    "municipal",
+    "cooling"
+   ],
+   "countries": [
+    "IN"
+   ],
+   "cities": [
+    "delhi"
+   ],
+   "location": "New Delhi, India; about 30% travel.",
+   "mode": "not-stated",
+   "remote_text": "Not stated",
+   "eligibility_geo": "Not stated",
+   "experience": "1-3 years related experience.",
+   "level": "early",
+   "qualifications": "",
+   "contract": "Not stated.",
+   "comp_disclosed": false,
+   "comp_text": "Not disclosed.",
+   "comp_kind": "pay",
+   "deadline": {
+    "date": "2026-11-20",
+    "time": null,
+    "tz": null,
+    "wording": "Kindly send your application by November 20, 2026.",
+    "confirmed": true
+   },
+   "deadlines": [
+    {
+     "stage": "Application",
+     "date": "2026-11-20",
+     "time": null,
+     "tz": null,
+     "wording": "Kindly send your application by November 20, 2026."
+    }
+   ],
+   "deadline_history": [],
+   "stated_status": "",
+   "rolling": false,
+   "until_filled": false,
+   "withdrawn": false,
+   "opens": null,
+   "published": null,
+   "first_seen": "2026-11-28",
+   "requisition": "",
+   "official_url": "https://www.nrdcindia.org/jobdetail/Climate-resilience-associate",
+   "application_url": "",
+   "apply_text": "",
+   "repost_of": null,
+   "duplicates": [],
+   "conflict": "",
+   "check": {
+    "checked": "2026-11-28",
+    "ok": true,
+    "confirmed": true
+   },
+   "sources": [
+    {
+     "url": "https://www.nrdcindia.org/jobdetail/Climate-resilience-associate",
+     "label": "NRDC India: Climate Resilience Associate (2 positions)"
+    }
+   ],
+   "jobposting": null,
+   "network_name": "Natural Resources Defense Council (NRDC), India programme",
+   "lifecycle": "closed",
+   "verification": "verified",
+   "url": "https://beattheheat.asia/opportunities/car-nrdcin-climate-resilience-assoc-2026/"
   },
   {
    "id": "car-unep-urban-heat-expert-287135",
@@ -910,7 +1715,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -991,7 +1796,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -1006,86 +1811,6 @@
    "lifecycle": "closed",
    "verification": "verified",
    "url": "https://beattheheat.asia/opportunities/opp-ilo-th-heat-review-2026/"
-  },
-  {
-   "id": "opp-cwf-2026",
-   "kind": "opportunity",
-   "cat": "grant",
-   "cat_label": "Grant or funding call",
-   "who": "organisation",
-   "title": "Commonwealth Foundation open grants call 2026 to 2027",
-   "aliases": [],
-   "org": "org-cwf",
-   "org_name": "Commonwealth Foundation",
-   "network_id": null,
-   "rel": "network",
-   "rel_why": "Civil society work on heat could fit the climate and environmental justice priority.",
-   "rel_evidence": null,
-   "summary": "Grants to civil society organisations and collectives; climate and environmental justice is one of three priorities.",
-   "themes": [
-    "inclusion",
-    "work"
-   ],
-   "countries": [],
-   "cities": [],
-   "location": "Eligible Commonwealth member countries (see the Foundation's eligible countries list); a project is implemented at least in the applicant's country of registration.",
-   "mode": "not-stated",
-   "remote_text": "",
-   "eligibility_geo": "Not-for-profit organisations and collectives registered in eligible Commonwealth member countries.",
-   "experience": "Not stated",
-   "level": null,
-   "qualifications": "",
-   "contract": "Not stated",
-   "comp_disclosed": false,
-   "comp_text": "Not published",
-   "comp_kind": "funding",
-   "deadline": {
-    "date": "2026-10-26",
-    "time": "13:00",
-    "tz": "GMT",
-    "wording": "1pm GMT on 26 October 2026",
-    "confirmed": true
-   },
-   "deadlines": [
-    {
-     "stage": "Application",
-     "date": "2026-10-26",
-     "time": "13:00",
-     "tz": "GMT",
-     "wording": "1pm GMT on 26 October 2026"
-    }
-   ],
-   "deadline_history": [],
-   "stated_status": "closed",
-   "rolling": false,
-   "until_filled": false,
-   "withdrawn": false,
-   "opens": null,
-   "published": null,
-   "first_seen": null,
-   "requisition": "",
-   "official_url": "https://commonwealthfoundation.com/grants/annual/",
-   "application_url": "",
-   "apply_text": "",
-   "repost_of": null,
-   "duplicates": [],
-   "conflict": "",
-   "check": {
-    "checked": "2026-11-22",
-    "ok": true,
-    "confirmed": true
-   },
-   "sources": [
-    {
-     "url": "https://commonwealthfoundation.com/grants/annual/",
-     "label": "Commonwealth Foundation: Open grants call"
-    }
-   ],
-   "jobposting": null,
-   "network_name": "",
-   "lifecycle": "closed",
-   "verification": "verified",
-   "url": "https://beattheheat.asia/opportunities/opp-cwf-2026/"
   },
   {
    "id": "opp-global-eba-small-2026",
@@ -1150,7 +1875,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -1227,7 +1952,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -1308,7 +2033,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -1387,7 +2112,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -1467,7 +2192,7 @@
    "duplicates": [],
    "conflict": "",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },
@@ -1533,7 +2258,7 @@
    "duplicates": [],
    "conflict": "The IKI page lists Medium Grants 2026 as closed; secondary listings gave a deadline of 12 January 2027. The official page is followed here.",
    "check": {
-    "checked": "2026-11-22",
+    "checked": "2026-11-28",
     "ok": true,
     "confirmed": true
    },

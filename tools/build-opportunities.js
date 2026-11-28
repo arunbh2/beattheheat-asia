@@ -134,9 +134,7 @@ module.exports = function buildOpportunities({ page, write, V }) {
       <p>${escH(T.coverage.note)}</p>
       <ul class="op-covlist">${ORDER.filter(k => cov.by[k]).map(k => `<li><b>${cov.by[k]}</b> ${escH(sweep.STATUS[k])}</li>`).join("")}<li><b>${cov.total}</b> organisations in the heat network in all</li></ul>
       <p class="fo-sub">${cov.from ? `The latest review cycle is the seven days to ${escH(fmt(cov.to))}; pages were read from ${escH(fmt(cov.from))}.` : "No review cycle has run yet."} ${escH(T.coverage.statusNote)} ${escH(T.coverage.none)}</p>
-      <details class="op-more"><summary>Every organisation and what was found</summary><div class="fo-tablewrap" role="region" aria-label="Coverage by organisation" tabindex="0"><table class="fo-table op-covtable"><caption class="visually-hidden">Coverage of the heat network in this review cycle</caption><thead><tr><th scope="col">Organisation</th><th scope="col">Status</th><th scope="col">Last attempted</th><th scope="col">Note</th></tr></thead><tbody>
-      ${covRows().map(r => `<tr><th scope="row"><a href="/heat-network/#org-${escH(r.id)}">${escH(r.name)}</a></th><td>${escH(r.label)}</td><td>${escH(r.attempted || "")}</td><td>${escH(r.note)}</td></tr>`).join("")}
-      </tbody></table></div></details>
+      <p><a href="/opportunities/coverage/">Every organisation in the heat network and what was found in this review cycle</a> · <a href="/opportunities/coverage.json">as data (JSON)</a></p>
       <p class="fo-sub">${escH(T.refresh)}</p></section>`;
   const body = `<header class="pg-hero"><div class="container"><p class="eyebrow">Opportunities</p><h1 class="pg-h1">${escH(T.h)}</h1><p class="pg-lede">${escH(T.lede)}</p></div></header>
   <div class="container op">
@@ -159,8 +157,18 @@ module.exports = function buildOpportunities({ page, write, V }) {
       <p class="he-note">${escH(T.apply)} ${escH(T.trust)} <a href="/corrections/">Corrections</a>. Also on Common Shade: <a href="/heat-economy/money/">the funding landscape</a> · <a href="/heat-economy/money/opportunities/">open calls and tenders</a> · <a href="/heat-economy/money/careers/">careers</a> · <a href="/heat-network/">the heat network</a>.</p></section>
   </div>${data}`;
   write("opportunities", page("opportunities", T.title, `${T.lede} ${main.length} open with direct or related heat relevance, each checked against its official listing.`, body, css));
+  // the full coverage table on its own page, so the hub stays light
+  const covTable = `      <div class="fo-tablewrap" role="region" aria-label="Coverage by organisation" tabindex="0"><table class="fo-table op-covtable"><caption class="visually-hidden">Coverage of the heat network in this review cycle</caption><thead><tr><th scope="col">Organisation</th><th scope="col">Status</th><th scope="col">Last attempted</th><th scope="col">Note</th></tr></thead><tbody>
+      ${covRows().map(r => `<tr><th scope="row"><a href="/heat-network/#org-${escH(r.id)}">${escH(r.name)}</a></th><td>${escH(r.label)}</td><td>${escH(r.attempted || "")}</td><td>${escH(r.note)}</td></tr>`).join("")}
+      </tbody></table></div>`;
+  write("opportunities/coverage", page("opportunities/coverage", "Heat Opportunities: coverage of the heat network", `Which of the ${cov.total} heat network organisations had their opportunity pages read in the latest review cycle, and what was found.`,
+    `<header class="pg-hero"><div class="container"><p class="eyebrow"><a href="/opportunities/">Heat Opportunities</a></p><h1 class="pg-h1">Coverage of the heat network</h1><p class="pg-lede">${escH(covLine.replace(/ <a[^>]*>.*$/, ""))}</p></div></header>
+  <div class="container op"><p>${escH(T.coverage.note)}</p><p class="fo-sub">${escH(T.coverage.statusNote)} ${escH(T.coverage.none)}</p>
+    <ul class="op-covlist">${ORDER.filter(k => cov.by[k]).map(k => `<li><b>${cov.by[k]}</b> ${escH(sweep.STATUS[k])}</li>`).join("")}</ul>
+    ${covTable}
+    <p class="he-note"><a href="/opportunities/">All heat opportunities</a> · <a href="/opportunities/coverage.json">Coverage as data (JSON)</a></p></div>`, css));
   // detail pages
-  const keep = new Set(all.map(i => i.id)), dir = path.join(ROOT, "opportunities");
+  const keep = new Set([...all.map(i => i.id), "coverage"]), dir = path.join(ROOT, "opportunities");
   fs.readdirSync(dir).filter(d => fs.statSync(path.join(dir, d)).isDirectory() && !keep.has(d)).forEach(d => fs.rmSync(path.join(dir, d), { recursive: true }));
   all.forEach(it => {
     const a = H.action(it), jp = H.jobPosting(it, now, SITE);

@@ -1,7 +1,7 @@
 ---
 title: "HGHI-Salata Burke Climate and Health Research Fellowship, 2027 to 2028 cohort (Harvard Global Health Institute)"
 url: https://beattheheat.asia/opportunities/car-hghi-burke-climate-2027/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -23,7 +23,7 @@ FellowshipFor individualsRelated to heat resilienceStatus unclearVerified
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Postdoctoral
 
@@ -38,7 +38,7 @@ FellowshipFor individualsRelated to heat resilienceStatus unclearVerified
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [Harvard Global Health Institute: HGHI Burke Fellowship](https://globalhealth.harvard.edu/fellowships/hghi-burke-fellowship/)
+**Source checked:** 28 November 2026 · [Harvard Global Health Institute: HGHI Burke Fellowship](https://globalhealth.harvard.edu/fellowships/hghi-burke-fellowship/)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

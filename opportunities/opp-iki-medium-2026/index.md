@@ -1,7 +1,7 @@
 ---
 title: "IKI Medium Grants 2026 (International Climate Initiative (IKI))"
 url: https://beattheheat.asia/opportunities/opp-iki-medium-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -25,7 +25,7 @@ Climate action and biodiversity projects in ODA-eligible countries, led by organ
 
 **Funding**: EUR 300,000 to EUR 800,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -44,7 +44,7 @@ Not openThe source says applications are closed. This listing is kept in the arc
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [International Climate Initiative (IKI): Medium Grants](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
+**Source checked:** 28 November 2026 · [International Climate Initiative (IKI): Medium Grants](https://www.international-climate-initiative.com/en/find-funding/medium-grants/)
 
 ## Related on Common Shade
 

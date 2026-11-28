@@ -26,3 +26,5 @@
   .op-card { break-inside: avoid; content-visibility: visible; }
   .op-more { display: block; } .op-more > * { display: block; }
 }
+/* tap areas: organisation links on cards and in the coverage table */
+.op-card .fo-sub a, .op-covtable th a { display: inline-block; min-height: 24px; line-height: 24px; }

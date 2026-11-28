@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> Find work, research and funding opportunities to help protect people from extreme heat. 10 open with direct or related heat relevance, each checked against its official listing.
+> Find work, research and funding opportunities to help protect people from extreme heat. 15 open with direct or related heat relevance, each checked against its official listing.
 
 Opportunities
 
@@ -15,11 +15,11 @@ Find work, research and funding opportunities to help protect people from extrem
 
 Jobs, individual consultancies, fellowships and research posts for people; grants, research calls, tenders and challenges for organisations. Each links to the official listing, says why it matters for heat, and shows when its source was last checked.
 
-[Jobs and consultancies2 open now · Paid roles and individual consultancies, each linked to the employer's own listing.](?view=jobs)[Funding and RFPs3 open now · Grants, research calls, tenders and challenges for organisations.](?view=funding)[Fellowships and research5 open now · Fellowships, studentships, internships, research posts and research funding calls.](?view=research)
+[Jobs and consultancies5 open now · Paid roles and individual consultancies, each linked to the employer's own listing.](?view=jobs)[Funding and RFPs5 open now · Grants, research calls, tenders and challenges for organisations.](?view=funding)[Fellowships and research5 open now · Fellowships, studentships, internships, research posts and research funding calls.](?view=research)
 
 Checked 204 of 367 network organisations in the latest review cycle (28 November 2026). [How complete is this?](#coverage)
 
-10 open opportunities with direct or related heat relevance; 1 more at heat-network organisations; 10 in the archive.
+15 open opportunities with direct or related heat relevance; 4 more at heat-network organisations; 11 in the archive.
 
 Grant or funding callFor organisationsDirect heat relevanceOpenVerified
 
@@ -35,7 +35,7 @@ Grand Challenges Canada
 
 **Funding**: USD 250,000 to USD 2,000,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -52,6 +52,146 @@ Eligibility and source details
 [View official listing](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/)
 [Share on WhatsApp](https://wa.me/?text=Nexa%20Lighthouse%3A%20Transition%20to%20Scale%20funding%20for%20climate%20and%20health%20innovation%20in%20Asia%20and%20the%20Pacific%2C%20Grand%20Challenges%20Canada%0ALocation%3A%20Projects%20implemented%20in%20eligible%20countries%20in%20Asia%20and%20the%20Pacific%2C%20listed%20in%20Appendix%20B%20of%20the%20funding%20opportunity.%0ADeadline%3A%208%20December%202026%2C%2014%3A00%20ET%20%C2%B7%2010%20days%20left%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fopp-gcc-nexa-lighthouse-2026%2F)
 
+Individual consultancyFor individualsDirect heat relevanceOpenVerified
+
+### [Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)](https://beattheheat.asia/opportunities/car-nrdcin-cehsc-analyst-2026/)
+
+[NRDC India](https://beattheheat.asia/heat-network/#org-nrdc-india)
+
+**Location**: Nagpur, Maharashtra, India. The listing also asks for the ability to work based in Mumbai or Nagpur, prefers candidates based in Nagpur and in Maharashtra, and mentions about 30% travel.
+
+**Why this is relevant to heat**: The role supports the Maharashtra Centre of Excellence for Heat Resilience and Sustainable Cooling, with research on heat action planning and sustainable cooling.
+
+**Deadline**: 11 December 2026 (cut-off time not published)As published: “Kindly send your application by December 11, 2026.”
+
+**Pay**: Not disclosed. The listing says competitive compensation aligned with qualifications, experience and scope.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: 2 - 3 years of relevant experience; the listing says candidates with greater experience are encouraged to apply.
+
+**Qualifications**: A bachelor's degree in public health, economics, public policy, development studies, engineering, urban planning or a related discipline; a master's is a plus. English and one more Indian language preferred.
+
+**Contract or duration**: Full-time consultant engagement for an initial one year, with a possible extension of a further year.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: By email, with a CV and a cover letter and the subject line the listing gives; the addresses are on the official listing.
+
+**From the listing**: “support its work on extreme heat and access to cooling”
+
+**Also titled**: Analyst Consultant CEHSC (careers page); Junior Consultant - Climate Resilience (the listing's position summary)
+
+**Sources**: [NRDC India: Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)](https://www.nrdcindia.org/jobdetail/Analyst-Consultant-CEHSC) · [NRDC India: Careers](https://www.nrdcindia.org/careers)
+
+[View official listing](https://www.nrdcindia.org/jobdetail/Analyst-Consultant-CEHSC)
+[Share on WhatsApp](https://wa.me/?text=Analyst%20(Consultant)%20-%20Centre%20of%20Excellence%20for%20Heat%20Resilience%20and%20Sustainable%20Cooling%20(CEHSC)%2C%20NRDC%20India%0ALocation%3A%20Nagpur%2C%20Maharashtra%2C%20India.%20The%20listing%20also%20asks%20for%20the%20ability%20to%20work%20based%20in%20Mumbai%20or%20Nagpur%2C%20prefers%20candidates%20based%20in%20Nagpur%20and%20in%20Maharashtra%2C%20and%20mentions%20about%2030%25%20travel.%0ADeadline%3A%2011%20December%202026%20(cut-off%20time%20not%20published)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-nrdcin-cehsc-analyst-2026%2F)
+
+Individual consultancyFor individualsDirect heat relevanceOpenVerified
+
+### [Senior Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)](https://beattheheat.asia/opportunities/car-nrdcin-cehsc-senior-analyst-2026/)
+
+[NRDC India](https://beattheheat.asia/heat-network/#org-nrdc-india)
+
+**Location**: Mumbai, Maharashtra, India. The listing also asks for the ability to work based in Mumbai or Nagpur, prefers candidates based in Maharashtra and in Mumbai, and mentions about 20-30% travel.
+
+**Why this is relevant to heat**: The role leads research on extreme heat and health and reviews heat action plans for the Maharashtra Centre of Excellence for Heat Resilience and Sustainable Cooling.
+
+**Deadline**: 11 December 2026 (cut-off time not published)As published: “Kindly send your application by December 11, 2026.”
+
+**Pay**: Not disclosed. The listing says competitive compensation aligned with qualifications, experience and scope.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: The header says 8 - 10 years of relevant experience; the requirements say a minimum of 8 years.
+
+**Qualifications**: A postgraduate degree, preferably in disaster management, public health or epidemiology, environmental science, engineering, science, social science or humanities.
+
+**Contract or duration**: Full-time consultant engagement for an initial one year, with a possible extension of a further year.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: By email, with a CV and a cover letter and the subject line the listing gives; the addresses are on the official listing.
+
+**From the listing**: “research on extreme heat”
+
+**Also titled**: Senior Analyst Consultant CEHSC (careers page); Senior Consultant - Climate Resilience (the listing's position summary)
+
+**Sources**: [NRDC India: Senior Analyst (Consultant) - Centre of Excellence for Heat Resilience and Sustainable Cooling (CEHSC)](https://www.nrdcindia.org/jobdetail/Senior-Analyst-Consultant-CEHSC) · [NRDC India: Careers](https://www.nrdcindia.org/careers)
+
+[View official listing](https://www.nrdcindia.org/jobdetail/Senior-Analyst-Consultant-CEHSC)
+[Share on WhatsApp](https://wa.me/?text=Senior%20Analyst%20(Consultant)%20-%20Centre%20of%20Excellence%20for%20Heat%20Resilience%20and%20Sustainable%20Cooling%20(CEHSC)%2C%20NRDC%20India%0ALocation%3A%20Mumbai%2C%20Maharashtra%2C%20India.%20The%20listing%20also%20asks%20for%20the%20ability%20to%20work%20based%20in%20Mumbai%20or%20Nagpur%2C%20prefers%20candidates%20based%20in%20Maharashtra%20and%20in%20Mumbai%2C%20and%20mentions%20about%2020-30%25%20travel.%0ADeadline%3A%2011%20December%202026%20(cut-off%20time%20not%20published)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-nrdcin-cehsc-senior-analyst-2026%2F)
+
+Partnership or support callFor organisationsDirect heat relevanceOpenVerified
+
+### [Open call: share traditional and cultural heat management practices (Southeast Asia)](https://beattheheat.asia/opportunities/opp-ghhinsea-heritage-practices-2026/)
+
+[Global Heat Health Information Network (GHHIN) Southeast Asia Hub](https://beattheheat.asia/heat-network/#org-ghhinsea)
+
+**Location**: Southeast Asia.
+
+**Why this is relevant to heat**: Heat prevention and management practices are the subject of the call.
+
+**Deadline**: 18 December 2026 (cut-off time not published)As published: “by 18 December 2026”
+
+**Funding**: No payment or funding: an unpaid contribution
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: Not stated
+
+**Contract or duration**: Not stated
+
+**Who can apply and from where**: Community members, practitioners and knowledge-holders.
+
+**How to apply**: As described on the official listing.
+
+**From the listing**: “heat management practices”
+
+**Sources**: [Global Heat Health Information Network (GHHIN) Southeast Asia Hub: New Regional Initiative Documenting Traditional & Cultural Practices of Heat Management in Southeast Asia](https://heathealth.info/news/new-regional-initiative-documenting-traditional-cultural-practices-of-heat-management-in-southeast-asia/)
+
+[Apply on the official site](https://forms.cloud.microsoft/r/CHczauxS7j)
+[Share on WhatsApp](https://wa.me/?text=Open%20call%3A%20share%20traditional%20and%20cultural%20heat%20management%20practices%20(Southeast%20Asia)%2C%20Global%20Heat%20Health%20Information%20Network%20(GHHIN)%20Southeast%20Asia%20Hub%0ALocation%3A%20Southeast%20Asia.%0ADeadline%3A%2018%20December%202026%20(cut-off%20time%20not%20published)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fopp-ghhinsea-heritage-practices-2026%2F)
+
+JobFor individualsHeat-network organisationOpenVerified
+
+### [Administrative Assistant](https://beattheheat.asia/opportunities/car-nrdcin-admin-assistant-2026/)
+
+[NRDC India](https://beattheheat.asia/heat-network/#org-nrdc-india)
+
+**Location**: New Delhi, India (hybrid; about 10% travel). Hybrid
+
+**Why this is relevant to heat**: NRDC India works on extreme heat and cooling, but this administrative post lists no heat-specific duties; the listing says interest in climate, energy or the environment is a plus, not required.
+
+**Deadline**: 26 December 2026 (cut-off time not published)As published: “Kindly send your application by December 26, 2026.”
+
+**Pay**: Not disclosed.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: The header says 0 - 3 years of relevant experience; the requirements say 2-3 years, with more experience preferred.
+
+**Qualifications**: A bachelor's degree or higher.
+
+**Contract or duration**: Full-time; the contract length is not stated.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: By email, with a CV and a cover letter and the subject line the listing gives; the addresses are on the official listing.
+
+**Sources**: [NRDC India: Administrative Assistant](https://www.nrdcindia.org/jobdetail/Administrative-assistant) · [NRDC India: Careers](https://www.nrdcindia.org/careers)
+
+[View official listing](https://www.nrdcindia.org/jobdetail/Administrative-assistant)
+[Share on WhatsApp](https://wa.me/?text=Administrative%20Assistant%2C%20NRDC%20India%0ALocation%3A%20New%20Delhi%2C%20India%20(hybrid%3B%20about%2010%25%20travel).%0ADeadline%3A%2026%20December%202026%20(cut-off%20time%20not%20published)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-nrdcin-admin-assistant-2026%2F)
+
 FellowshipFor individualsRelated to heat resilienceStatus unclearVerified
 
 ### [HGHI-Salata Burke Climate and Health Research Fellowship, 2027 to 2028 cohort](https://beattheheat.asia/opportunities/car-hghi-burke-climate-2027/)
@@ -66,7 +206,7 @@ Harvard Global Health Institute
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -97,7 +237,7 @@ Green Climate Fund
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -128,7 +268,7 @@ National University of Singapore
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -145,6 +285,103 @@ Eligibility and source details
 [View official listing](https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/)
 [Share on WhatsApp](https://wa.me/?text=Assistant%20Professor%2C%20Yong%20Loo%20Lin%20School%20of%20Medicine%2C%20National%20University%20of%20Singapore%0ALocation%3A%20Kent%20Ridge%20Campus%2C%20Singapore.%0ADeadline%3A%20No%20deadline%20published%20(not%20the%20same%20as%20rolling)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-nus-ylls-assistant-professor%2F)
 
+JobFor individualsHeat-network organisationUntil filled (as stated)Verified
+
+### [Associate, India Program](https://beattheheat.asia/opportunities/car-clasp-associate-india/)
+
+[CLASP](https://beattheheat.asia/heat-network/#org-clasp)
+
+**Location**: New Delhi office, with time at government and private sector partners' offices. On site
+
+**Why this is relevant to heat**: CLASP works on the efficiency of appliances including air conditioners and fans, but this role covers India's energy efficiency programmes broadly and lists no cooling- or heat-specific duties.
+
+**Deadline**: Until filled, as the source states
+
+**Pay**: Not disclosed. The listing says competitive compensation commensurate with experience.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: Three to four years of professional experience in energy efficiency, clean energy or energy in India.
+
+**Contract or duration**: Not stated.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: Through the link on the official listing; applications are considered on a rolling basis until the position is closed.
+
+**Sources**: [CLASP: Associate, India Program](https://www.clasp.ngo/associate-india-program/)
+
+[View official listing](https://www.clasp.ngo/associate-india-program/)
+[Share on WhatsApp](https://wa.me/?text=Associate%2C%20India%20Program%2C%20CLASP%0ALocation%3A%20New%20Delhi%20office%2C%20with%20time%20at%20government%20and%20private%20sector%20partners'%20offices.%0ADeadline%3A%20Until%20filled%2C%20as%20the%20source%20states%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-clasp-associate-india%2F)
+
+Partnership or support callFor organisationsDirect heat relevanceStatus unclearVerified
+
+### [Beat the Heat in Cities: expression of interest for countries and cities](https://beattheheat.asia/opportunities/opp-cool-bth-eoi/)
+
+[Cool Coalition (UNEP)](https://beattheheat.asia/heat-network/#org-coolcoalition)
+
+**Location**: Cities worldwide, as proposed by countries and cities.
+
+**Why this is relevant to heat**: Heat action planning and urban cooling are the subject.
+
+**Deadline**: No deadline published (not the same as rolling)
+
+**Funding**: Not published
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: Not stated
+
+**Contract or duration**: Not stated
+
+**Who can apply and from where**: National and city governments, proposing cities.
+
+**How to apply**: As described on the official listing.
+
+**Sources**: [Cool Coalition (UNEP): Beat the Heat in Cities](https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities)
+
+[View official listing](https://coolcoalition.org/pilot-projects/beat-the-heat-in-cities)
+[Share on WhatsApp](https://wa.me/?text=Beat%20the%20Heat%20in%20Cities%3A%20expression%20of%20interest%20for%20countries%20and%20cities%2C%20Cool%20Coalition%20(UNEP)%0ALocation%3A%20Cities%20worldwide%2C%20as%20proposed%20by%20countries%20and%20cities.%0ADeadline%3A%20No%20deadline%20published%20(not%20the%20same%20as%20rolling)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fopp-cool-bth-eoi%2F)
+
+Individual consultancyFor individualsRelated to heat resilienceStatus unclearVerified
+
+### [Consultant Project Architect - BE for Health](https://beattheheat.asia/opportunities/car-selco-architect-be-health/)
+
+[SELCO Foundation](https://beattheheat.asia/heat-network/#org-selco)
+
+**Location**: Not stated on the listing; it asks for regular field travel to rural and semi-urban project sites across states in India.
+
+**Why this is relevant to heat**: Designs healthcare buildings for underserved communities; the listing asks for assessments of thermal comfort in existing facilities, one of several building needs it names.
+
+**Deadline**: No deadline published (not the same as rolling)
+
+**Pay**: Not disclosed.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: 2–4 years of experience in architectural design and project coordination.
+
+**Qualifications**: A bachelor's degree in architecture (B.Arch) is essential; English and Hindi.
+
+**Contract or duration**: A consultancy; its length is not stated.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: Through the application form linked from the official listing.
+
+**From the listing**: “thermal comfort”
+
+**Sources**: [SELCO Foundation: Consultant Project Architect - BE for Health](https://selcofoundation.org/careers/consultant-project-architect-be-for-health/)
+
+[View official listing](https://selcofoundation.org/careers/consultant-project-architect-be-for-health/)
+[Share on WhatsApp](https://wa.me/?text=Consultant%20Project%20Architect%20-%20BE%20for%20Health%2C%20SELCO%20Foundation%0ALocation%3A%20Not%20stated%20on%20the%20listing%3B%20it%20asks%20for%20regular%20field%20travel%20to%20rural%20and%20semi-urban%20project%20sites%20across%20states%20in%20India.%0ADeadline%3A%20No%20deadline%20published%20(not%20the%20same%20as%20rolling)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-selco-architect-be-health%2F)
+
 Grant or funding callFor organisationsRelated to heat resilienceUpcomingConflicting information
 
 ### [Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02)](https://beattheheat.asia/opportunities/opp-he-envhlth-02-2027/)
@@ -159,7 +396,7 @@ European Commission
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -194,7 +431,7 @@ GIZ
 
 **Funding**: EUR 60,000 to EUR 200,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -225,7 +462,7 @@ National University of Singapore
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -242,6 +479,37 @@ Eligibility and source details
 [View official listing](https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/)
 [Share on WhatsApp](https://wa.me/?text=Postdoctoral%20Fellow%20in%20Urban%20and%20Regional%20Climate%20Modeling%2C%20National%20University%20of%20Singapore%0ALocation%3A%20Kent%20Ridge%20Campus%2C%20Singapore.%0ADeadline%3A%20No%20deadline%20published%20(not%20the%20same%20as%20rolling)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-nus-urban-climate-postdoc%2F)
 
+JobFor individualsHeat-network organisationStatus unclearVerified
+
+### [Program Manager - Disaster & Climate Resilience](https://beattheheat.asia/opportunities/car-selco-pm-disaster-climate/)
+
+[SELCO Foundation](https://beattheheat.asia/heat-network/#org-selco)
+
+**Location**: Bengaluru (SELCO Foundation headquarters), with regular travel to project areas in the Northeast, Maharashtra, Karnataka and Odisha.
+
+**Why this is relevant to heat**: SELCO Foundation works on heat (including design for work at high temperatures), but this disaster and climate resilience role lists no heat-specific duties.
+
+**Deadline**: No deadline published (not the same as rolling)
+
+**Pay**: Not disclosed.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: 6 to 7 years of relevant professional experience in disaster risk reduction, climate adaptation or livelihoods.
+
+**Contract or duration**: Full-time.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: Through the application form linked from the official listing.
+
+**Sources**: [SELCO Foundation: Program Manager - Disaster & Climate Resilience](https://selcofoundation.org/careers/program-manager-disaster-climate-resilience/)
+
+[View official listing](https://selcofoundation.org/careers/program-manager-disaster-climate-resilience/)
+[Share on WhatsApp](https://wa.me/?text=Program%20Manager%20-%20Disaster%20%26%20Climate%20Resilience%2C%20SELCO%20Foundation%0ALocation%3A%20Bengaluru%20(SELCO%20Foundation%20headquarters)%2C%20with%20regular%20travel%20to%20project%20areas%20in%20the%20Northeast%2C%20Maharashtra%2C%20Karnataka%20and%20Odisha.%0ADeadline%3A%20No%20deadline%20published%20(not%20the%20same%20as%20rolling)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-selco-pm-disaster-climate%2F)
+
 JobFor individualsDirect heat relevanceOpenVerified
 
 ### [Programme Manager, Heat Resilience & Performance Centre (2-year contract)](https://beattheheat.asia/opportunities/car-nus-hrpc-programme-manager/)
@@ -256,7 +524,7 @@ National University of Singapore
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -287,7 +555,7 @@ National University of Singapore
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -320,7 +588,7 @@ National University of Singapore
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -351,7 +619,7 @@ National University of Singapore
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -372,6 +640,37 @@ Eligibility and source details
 
 Listings whose deadline has passed, or that the provider closed or withdrew. Kept for the record; not open.
 
+JobFor individualsHeat-network organisationClosed by providerVerified
+
+### [Director of Program](https://beattheheat.asia/opportunities/car-nrdcin-director-program-2026/)
+
+[NRDC India](https://beattheheat.asia/heat-network/#org-nrdc-india)
+
+**Location**: New Delhi, India (hybrid; 30-40% domestic and international travel). Hybrid
+
+**Why this is relevant to heat**: NRDC India works on extreme heat and cooling, among other areas; this leadership post is not specific to heat.
+
+**Deadline**: 30 November 2026 (cut-off time not published)As published: “Kindly send your Application by November 30, 2026.”
+
+**Pay**: Not disclosed.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: Senior
+
+**Contract or duration**: Not stated.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: As described on the official listing.
+
+**Sources**: [NRDC India: Director of Program](https://www.nrdcindia.org/jobdetail/Director-of-program) · [NRDC India: Careers](https://www.nrdcindia.org/careers)
+
+[View official listing](https://www.nrdcindia.org/jobdetail/Director-of-program)
+[Share on WhatsApp](https://wa.me/?text=Director%20of%20Program%2C%20NRDC%20India%0ALocation%3A%20New%20Delhi%2C%20India%20(hybrid%3B%2030-40%25%20domestic%20and%20international%20travel).%0ADeadline%3A%2030%20November%202026%20(cut-off%20time%20not%20published)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-nrdcin-director-program-2026%2F)
+
 Individual consultancyFor individualsRelated to heat resilienceDeadline passedVerified
 
 ### [Programme support and MEL expert: Sustainable Cooling and Cold Chain Solutions programme](https://beattheheat.asia/opportunities/car-unep-scccs-mel-287469/)
@@ -386,7 +685,7 @@ Individual consultancyFor individualsRelated to heat resilienceDeadline passedVe
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -405,6 +704,41 @@ Eligibility and source details
 [View official listing](https://careers.un.org/jobSearchDescription/287469?language=en)
 [Share on WhatsApp](https://wa.me/?text=Programme%20support%20and%20MEL%20expert%3A%20Sustainable%20Cooling%20and%20Cold%20Chain%20Solutions%20programme%2C%20UN%20Environment%20Programme%0ALocation%3A%20Listed%20under%20the%20Paris%20duty%20station%3B%20the%20posting%20names%20ACES%2C%20the%20programme's%20first%20Regional%20Centre%20of%20Excellence%2C%20among%20delivery%20partners%2C%20and%20does%20not%20name%20a%20country%20in%20Asia.%0ADeadline%3A%2022%20November%202026%2C%2023%3A59%20ET%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-unep-scccs-mel-287469%2F)
 
+JobFor individualsDirect heat relevanceDeadline passedVerified
+
+### [Climate Resilience Associate (2 positions)](https://beattheheat.asia/opportunities/car-nrdcin-climate-resilience-assoc-2026/)
+
+[NRDC India](https://beattheheat.asia/heat-network/#org-nrdc-india)
+
+**Location**: New Delhi, India; about 30% travel.
+
+**Why this is relevant to heat**: The role works on NRDC India's climate resilience programme, whose listing describes work on extreme heat and heat action, with cooling and energy efficiency.
+
+**Deadline**: 20 November 2026 (cut-off time not published)As published: “Kindly send your application by November 20, 2026.”
+
+**Pay**: Not disclosed.
+
+**Source checked**: 28 November 2026
+
+Eligibility and source details
+
+**Experience**: 1-3 years related experience.
+
+**Contract or duration**: Not stated.
+
+**Who can apply and from where**: Not stated
+
+**How to apply**: As described on the official listing.
+
+**From the listing**: “heat”
+
+**Also titled**: Cooling & Climate Resilience Associate (the subject line the listing asks for)
+
+**Sources**: [NRDC India: Climate Resilience Associate (2 positions)](https://www.nrdcindia.org/jobdetail/Climate-resilience-associate)
+
+[View official listing](https://www.nrdcindia.org/jobdetail/Climate-resilience-associate)
+[Share on WhatsApp](https://wa.me/?text=Climate%20Resilience%20Associate%20(2%20positions)%2C%20NRDC%20India%0ALocation%3A%20New%20Delhi%2C%20India%3B%20about%2030%25%20travel.%0ADeadline%3A%2020%20November%202026%20(cut-off%20time%20not%20published)%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fcar-nrdcin-climate-resilience-assoc-2026%2F)
+
 Individual consultancyFor individualsDirect heat relevanceDeadline passedVerified
 
 ### [Project Scientist II (Urban Heat Expert): urban heat assessments in 50 cities in India](https://beattheheat.asia/opportunities/car-unep-urban-heat-expert-287135/)
@@ -419,7 +753,7 @@ Individual consultancyFor individualsDirect heat relevanceDeadline passedVerifie
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -452,7 +786,7 @@ Consulting RFP or tenderFor organisationsDirect heat relevanceDeadline passedVer
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -473,37 +807,6 @@ Eligibility and source details
 
 Grant or funding callFor organisationsHeat-network organisationDeadline passedVerified
 
-### [Commonwealth Foundation open grants call 2026 to 2027](https://beattheheat.asia/opportunities/opp-cwf-2026/)
-
-Commonwealth Foundation
-
-**Location**: Eligible Commonwealth member countries (see the Foundation's eligible countries list); a project is implemented at least in the applicant's country of registration.
-
-**Why this is relevant to heat**: Civil society work on heat could fit the climate and environmental justice priority.
-
-**Deadline**: 26 October 2026, 13:00 GMTAs published: “1pm GMT on 26 October 2026”
-
-**Funding**: Not published
-
-**Source checked**: 22 November 2026
-
-Eligibility and source details
-
-**Experience**: Not stated
-
-**Contract or duration**: Not stated
-
-**Who can apply and from where**: Not-for-profit organisations and collectives registered in eligible Commonwealth member countries.
-
-**How to apply**: As described on the official listing.
-
-**Sources**: [Commonwealth Foundation: Open grants call](https://commonwealthfoundation.com/grants/annual/)
-
-[View official listing](https://commonwealthfoundation.com/grants/annual/)
-[Share on WhatsApp](https://wa.me/?text=Commonwealth%20Foundation%20open%20grants%20call%202026%20to%202027%2C%20Commonwealth%20Foundation%0ALocation%3A%20Eligible%20Commonwealth%20member%20countries%20(see%20the%20Foundation's%20eligible%20countries%20list)%3B%20a%20project%20is%20implemented%20at%20least%20in%20the%20applicant's%20country%20of%20registration.%0ADeadline%3A%2026%20October%202026%2C%2013%3A00%20GMT%0ADetails%3A%20https%3A%2F%2Fbeattheheat.asia%2Fopportunities%2Fopp-cwf-2026%2F)
-
-Grant or funding callFor organisationsHeat-network organisationDeadline passedVerified
-
 ### [Global EbA Fund: small-size grants, eighth call](https://beattheheat.asia/opportunities/opp-global-eba-small-2026/)
 
 [IUCN](https://beattheheat.asia/heat-network/#org-iucn)
@@ -516,7 +819,7 @@ Grant or funding callFor organisationsHeat-network organisationDeadline passedVe
 
 **Funding**: Up to USD 250,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -547,7 +850,7 @@ Individual consultancyFor individualsDirect heat relevanceDeadline passedVerifie
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -578,7 +881,7 @@ Consulting RFP or tenderFor organisationsDirect heat relevanceDeadline passedVer
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -611,7 +914,7 @@ Innovation challenge or prizeFor organisationsHeat-network organisationDeadline 
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -642,7 +945,7 @@ Grant or funding callFor organisationsDirect heat relevanceDeadline passedVerifi
 
 **Funding**: Up to USD 100,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -673,7 +976,7 @@ International Climate Initiative (IKI)
 
 **Funding**: EUR 300,000 to EUR 800,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 Eligibility and source details
 
@@ -705,7 +1008,7 @@ Listings are not exhaustive. Common Shade checks the public opportunity pages of
 
 The latest review cycle is the seven days to 28 November 2026; pages were read from 28 November 2026. An organisation's coverage status says whether its pages were read in this review cycle. It is separate from how fresh each listing is: every listing carries its own "Source checked" date. "None found" means none in the pages reviewed, not that the organisation has no opportunities anywhere.
 
-Every organisation and what was found
+[Every organisation in the heat network and what was found in this review cycle](https://beattheheat.asia/opportunities/coverage/) · [as data (JSON)](https://beattheheat.asia/opportunities/coverage.json)
 
 How this list is kept up to date: a sweep of every network organisation's public pages is scheduled from a GitHub workflow, a seventh of the network each day; each run opens a review pull request, and a person adds or updates a listing only after its official page passes the source check. Deadlines are recalculated every time the site is built and in your browser as you read.
 

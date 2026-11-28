@@ -1,7 +1,7 @@
 ---
 title: "Horizon Europe: integrating climate-related exposures into the human exposome (HORIZON-HLTH-2027-01-ENVHLTH-02) (European Commission)"
 url: https://beattheheat.asia/opportunities/opp-he-envhlth-02-2027/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -25,7 +25,7 @@ Research on climate-related exposures and how the human exposome changes with cl
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -42,7 +42,7 @@ Conflicting informationPublished deadlines for this topic differ between sources
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
+**Source checked:** 28 November 2026 · [European Commission (Funding and Tenders portal): HORIZON-HLTH-2027-01-ENVHLTH-02: Integrating climate-related exposures into the human exposome](https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-hlth-2027-01-envhlth-02.json)
 
 ## Related on Common Shade
 

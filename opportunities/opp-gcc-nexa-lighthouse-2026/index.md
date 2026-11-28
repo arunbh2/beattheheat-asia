@@ -1,7 +1,7 @@
 ---
 title: "Nexa Lighthouse: Transition to Scale funding for climate and health innovation in Asia and the Pacific (Grand Challenges Canada)"
 url: https://beattheheat.asia/opportunities/opp-gcc-nexa-lighthouse-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -25,7 +25,7 @@ Funds proven innovations that help local health actors turn climate-risk signals
 
 **Funding**: USD 250,000 to USD 2,000,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -40,7 +40,7 @@ Funds proven innovations that help local health actors turn climate-risk signals
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa Lighthouse](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/)
+**Source checked:** 28 November 2026 · [Grand Challenges Canada: Funding Opportunity: Nexa Lighthouse](https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/)
 
 ## Related on Common Shade
 

@@ -55,6 +55,7 @@ Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#hea
 - [UNEP Cool Coalition](https://coolcoalition.org) (Platform): A global network for clean, efficient cooling and cooler cities. With the COP30 Presidency, it runs Beat the Heat, an initiative supporting cities in the Global South with heat assessments and cooling action.
 Network or allianceGlobalLink not confirmed: the site turned the check away
 Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
+[Open opportunities listed on Common Shade (1)](https://beattheheat.asia/opportunities/?org=coolcoalition&rel=all)
 - [Red Cross Red Crescent Climate Centre](https://preparecenter.org/resource/heatwave-guide-for-cities) (Supply): Wrote the Heatwave Guide for Cities with more than 25 partners, covering how cities prepare for, respond to and learn from heatwaves.
 Red Cross or Red CrescentGlobal
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
@@ -157,6 +158,7 @@ Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Natural Resources Defense Council (NRDC), India programme](https://nrdcindia.org/pdf/extreme-heat-India-report1.pdf) (Supply): Works with Indian cities and states on heat action plans. It developed Ahmedabad's 2013 heat action plan, the first in South Asia, with the Indian Institute of Public Health-Gandhinagar, and reviews heat policy in India.
 Non-profit organisationIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
+[Open opportunities listed on Common Shade (3)](https://beattheheat.asia/opportunities/?org=nrdc-india&rel=all)
 
 ## Governments and regional bodies in Asia
 
@@ -286,6 +288,7 @@ Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory),
 - [Global Heat Health Information Network, Southeast Asia Hub](https://heathealth.info/southeastasia/) (Platform): Based in Singapore, shares heat-health evidence and practice across the region; Philanthropy Asia Alliance supports its work in countries including Indonesia and Thailand.
 Network or allianceThailand, Indonesia, Singapore
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
+[Open opportunities listed on Common Shade (1)](https://beattheheat.asia/opportunities/?org=ghhinsea&rel=all)
 - [Ministry of Sustainability and the Environment, Singapore](https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/) (Demand): Coordinates heat resilience and sustainable cooling policy. In March 2026 it set up a Heat Resilience Policy Office to coordinate action across agencies, oversee research and draft a heat resilience action plan, and announced a S$40 million ‘Adapting to Heat Impacts’ funding initiative for research on heat impacts and community heat resilience, within its RIE2030 Heat Resilience R&D Programme.
 Government bodySingapore
 Works on: [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
@@ -606,6 +609,7 @@ Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousi
 - [SELCO Foundation](https://selcofoundation.org/built-environments/) (Supply): Develops sustainable energy and cooling for underserved communities, including thermally comfortable buildings, cool roofs and decentralised cold storage.
 Non-profit organisationPlace not stated in the listing
 Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool)
+[Open opportunities listed on Common Shade (2)](https://beattheheat.asia/opportunities/?org=selco&rel=all)
 - [HeatWatch India](https://cooling-centres.heatwatch.in/about) (Supply): Focuses on heat and worker protection through research, heat exposure mapping, practical education and a public directory of cooling centres.
 Non-profit organisationIndia
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
@@ -737,6 +741,7 @@ Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [CLASP](https://www.clasp.ngo/about/insights/making-efficient-affordable-fans-the-standard-in-india/) (Supply): Helps governments and manufacturers make cooling appliances more efficient and affordable, including efficient fans in India.
 Non-profit organisationIndia
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
+[Open opportunities listed on Common Shade (1)](https://beattheheat.asia/opportunities/?org=clasp&rel=all)
 - [RMI](https://rmi.org/resources/reshaping-the-future-of-heating-and-cooling/) (Supply): Advances efficient air conditioning, passive cooling and reflective roofs through research, field demonstrations and innovation support.
 Non-profit organisationPlace not stated in the listing
 Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)

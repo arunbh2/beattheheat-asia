@@ -1,7 +1,7 @@
 ---
 title: "IKI Small Grants: eighth call (GIZ)"
 url: https://beattheheat.asia/opportunities/opp-iki-small-2026/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -25,7 +25,7 @@ Local climate and biodiversity projects by non-profit organisations in ODA-eligi
 
 **Funding**: EUR 60,000 to EUR 200,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -40,7 +40,7 @@ Local climate and biodiversity projects by non-profit organisations in ODA-eligi
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [GIZ for the International Climate Initiative: IKI Small Grants](https://iki-small-grants.de/) · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
+**Source checked:** 28 November 2026 · [GIZ for the International Climate Initiative: IKI Small Grants](https://iki-small-grants.de/) · [International Climate Initiative (IKI): Small Grants](https://www.international-climate-initiative.com/en/find-funding/small-grants/)
 
 ## Related on Common Shade
 

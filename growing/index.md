@@ -5,7 +5,7 @@ updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 94 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 95 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-94 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
+95 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 7 connections documented and 3 questions opened. Beneath them, 1,123 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -58,6 +58,43 @@ City and state heat plans in nine cities, each at the stage its source shows.
 [Delhi: who is doing what about heat?](https://beattheheat.asia/cities/delhi/who-is-doing-what/)[Dhaka: who is doing what about heat?](https://beattheheat.asia/cities/dhaka/who-is-doing-what/)[Ahmedabad: who is doing what about heat?](https://beattheheat.asia/cities/ahmedabad/who-is-doing-what/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Who%20is%20doing%20what%20about%20heat%2C%20in%20nine%20more%20cities&ref=g-city-ecosystems-nine#way-share)
+
+Tool improved · Institutions and plans
+
+### Heat Opportunities: where you could help, and what is open now
+
+Added 28 November 2026 · Feature published 28 November 2026
+
+Why it matters our readingOne search for jobs, individual consultancies, fellowships, grants, research calls and tenders on extreme heat, each saying why it matters for heat in the listing's own words, with deadlines as published. Behind it, every organisation in the heat network had its public opportunity pages checked, and the page says plainly how many could be read.
+
+- India
+- Singapore
+- Workers in heat-exposed jobs
+- Heat action plans
+- Cool by design
+
+ReviewAll 367 heat network organisations were attempted: 204 had their opportunity pages read, 40 refused automated reading, 33 did not respond and 90 need a person to look. Leads from 32 organisations were reviewed by hand. Fifteen new listings were checked on GitHub against their official pages and all passed; no organisation was contacted.. 99 checked · 89 confirmed · 10 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Where can someone contribute to heat resilience, and what is genuinely open to them now?
+- **The search.** 99 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 89 confirmed, and 10 could not be (3 blocked automated reading, 3 did not respond, 4 did not show the expected text).
+- **What we set aside.** 66 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Organisations whose opportunity pages need a login, JavaScript or a person to read; national-language listings; government procurement portals; an approved app name for ReliefWeb jobs.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-funding-opps/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/opportunities/review-2026-11-28.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+Roles supporting heat action planning, including Maharashtra's centre of excellence for heat resilience.
+
+[Find a heat opportunity](https://beattheheat.asia/opportunities/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20Opportunities%3A%20where%20you%20could%20help%2C%20and%20what%20is%20open%20now&ref=g-heat-opportunities#way-share)
 
 Tool improved · Institutions and plans
 
@@ -452,14 +489,14 @@ What the source says quoted“submissions may be made at any time”
 - Heat action plans
 - Anticipatory action
 
-ReviewFifty-seven sources staged and checked on GitHub, plus the 22 programme pages from the October research. Records whose key facts were not found stay held back; several secondary listings were corrected by the official pages, including a call listed as open that its funder shows as closed, and a tender deadline a week later than reported elsewhere.. 99 checked · 78 confirmed · 11 not confirmed, each recorded.
+ReviewFifty-seven sources staged and checked on GitHub, plus the 22 programme pages from the October research. Records whose key facts were not found stay held back; several secondary listings were corrected by the official pages, including a call listed as open that its funder shows as closed, and a tender deadline a week later than reported elsewhere.. 99 checked · 89 confirmed · 10 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** Who funds work on extreme heat in South and Southeast Asia, which calls are open, who can apply, and where are the jobs?
 - **The search.** 99 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 78 confirmed, and 11 could not be (6 blocked automated reading, 3 did not respond, 2 did not show the expected text).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 89 confirmed, and 10 could not be (3 blocked automated reading, 3 did not respond, 4 did not show the expected text).
 - **What we set aside.** 117 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** More verified current calls and jobs, especially in national languages and from national schemes; funding for recurring delivery, worker organisations and locally led work; ReliefWeb jobs once its app name is approved.

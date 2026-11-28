@@ -1,7 +1,7 @@
 ---
 title: "Postdoctoral Fellow in Urban and Regional Climate Modeling (National University of Singapore)"
 url: https://beattheheat.asia/opportunities/car-nus-urban-climate-postdoc/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -23,7 +23,7 @@ Research positionFor individualsDirect heat relevanceOpenVerified
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Postdoctoral
 
@@ -38,7 +38,7 @@ Research positionFor individualsDirect heat relevanceOpenVerified
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [National University of Singapore: Postdoctoral Fellow in Urban and Regional Climate Modeling](https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/)
+**Source checked:** 28 November 2026 · [National University of Singapore: Postdoctoral Fellow in Urban and Regional Climate Modeling](https://careers.nus.edu.sg/NUS/job/ARTS-&-SOC-SC-Postdoctoral-Fellow-in-Urban-and-Regional-Climate-Modeling-Kent/61477544/)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 

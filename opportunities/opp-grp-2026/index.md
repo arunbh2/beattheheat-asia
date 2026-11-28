@@ -25,7 +25,7 @@ Resilience innovations across the Global South.
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -42,7 +42,7 @@ Not openThe deadline day has ended everywhere. This listing is kept in the archi
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
+**Source checked:** 28 November 2026 · [Global Resilience Partnership: Call for proposals for innovations across the Global South now open](https://www.globalresiliencepartnership.org/call-for-proposals-for-innovations-across-the-global-south-now-open/)
 
 ## Related on Common Shade
 

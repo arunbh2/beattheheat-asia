@@ -25,7 +25,7 @@ Desk review and evidence mapping of occupational exposure to excessive heat and 
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -42,7 +42,7 @@ Not openThe published deadline has passed. This listing is kept in the archive f
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [ILO via UN Global Marketplace: ILO request for quotation: desk review of occupational heat exposure in Thailand](https://www.ungm.org/Public/Notice/317698)
+**Source checked:** 28 November 2026 · [ILO via UN Global Marketplace: ILO request for quotation: desk review of occupational heat exposure in Thailand](https://www.ungm.org/Public/Notice/317698)
 
 ## Related on Common Shade
 

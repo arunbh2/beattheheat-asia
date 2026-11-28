@@ -1,7 +1,7 @@
 ---
 title: "GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027 (Green Climate Fund)"
 url: https://beattheheat.asia/opportunities/opp-gcf-readiness-2027/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -25,7 +25,7 @@ Readiness support for national institutions, country programming and direct acce
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -40,7 +40,7 @@ Readiness support for national institutions, country programming and direct acce
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [Green Climate Fund: Guide to accessing readiness support: country support modality](https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf)
+**Source checked:** 28 November 2026 · [Green Climate Fund: Guide to accessing readiness support: country support modality](https://www.greenclimate.fund/sites/default/files/documents/2026-06/guide-accessing-readiness-support-country-support-modality.pdf)
 
 ## Related on Common Shade
 

@@ -25,7 +25,7 @@ A firm to develop a workplan for a heat-smart city and an interactive digital he
 
 **Funding**: Not published
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -42,7 +42,7 @@ Not openThe published deadline has passed. This listing is kept in the archive f
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [UNDP India (procurement notice): RFP-050-IND-2026: Developing a workplan for 'heat-smart' city and interactive digital heat-resilience toolkit](https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250)
+**Source checked:** 28 November 2026 · [UNDP India (procurement notice): RFP-050-IND-2026: Developing a workplan for 'heat-smart' city and interactive digital heat-resilience toolkit](https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46250)
 
 ## Related on Common Shade
 

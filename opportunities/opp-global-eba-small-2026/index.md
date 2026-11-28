@@ -25,7 +25,7 @@ Ecosystem-based adaptation projects.
 
 **Funding**: Up to USD 250,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -42,7 +42,7 @@ Not openThe deadline day has ended everywhere. This listing is kept in the archi
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
+**Source checked:** 28 November 2026 · [IUCN: IUCN and UNEP offering USD 75 million in grants for ecosystem-based adaptation projects](https://iucn.org/news/202608/iucn-and-unep-offering-usd75-million-grants-ecosystem-based-adaptation-projects)
 
 ## Related on Common Shade
 

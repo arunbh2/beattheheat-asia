@@ -25,7 +25,7 @@ Equity-free funding for early-stage climate and health technology for children.
 
 **Funding**: Up to USD 100,000 per award
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Not stated
 
@@ -42,7 +42,7 @@ Not openThe deadline day has ended everywhere. This listing is kept in the archi
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [UNICEF Venture Fund: Funding frontier climate tech for children's health](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
+**Source checked:** 28 November 2026 · [UNICEF Venture Fund: Funding frontier climate tech for children's health](https://www.unicef.org/innovation/call-for-application-climate-and-health-2026)
 
 ## Related on Common Shade
 

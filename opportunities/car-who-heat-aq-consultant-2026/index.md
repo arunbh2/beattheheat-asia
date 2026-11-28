@@ -23,7 +23,7 @@ Individual consultancyFor individualsDirect heat relevanceDeadline passedVerifie
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Experienced
 
@@ -40,7 +40,7 @@ Not openThe deadline day has ended everywhere. This listing is kept in the archi
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [World Health Organization: Call for consultant: health sector capacity on heat, air quality and health](https://www.who.int/news-room/articles-detail/call-for-consultant-health-sector-capacity-on-heat-air-quality-and-health)
+**Source checked:** 28 November 2026 · [World Health Organization: Call for consultant: health sector capacity on heat, air quality and health](https://www.who.int/news-room/articles-detail/call-for-consultant-health-sector-capacity-on-heat-air-quality-and-health)
 
 ## Related on Common Shade
 

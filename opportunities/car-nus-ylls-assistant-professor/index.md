@@ -1,7 +1,7 @@
 ---
 title: "Assistant Professor, Yong Loo Lin School of Medicine (National University of Singapore)"
 url: https://beattheheat.asia/opportunities/car-nus-ylls-assistant-professor/
-updated: 2026-10-01
+updated: 2026-11-28
 licence: CC BY 4.0
 ---
 
@@ -23,7 +23,7 @@ JobFor individualsDirect heat relevanceOpenVerified
 
 **Pay**: Not disclosed
 
-**Source checked**: 22 November 2026
+**Source checked**: 28 November 2026
 
 **Experience**: Faculty
 
@@ -38,7 +38,7 @@ JobFor individualsDirect heat relevanceOpenVerified
 
 Read the official listing before applying: the employer or funder's own words decide eligibility, deadlines and how to apply.
 
-**Source checked:** 22 November 2026 · [National University of Singapore: Assistant Professor, Yong Loo Lin School of Medicine](https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/)
+**Source checked:** 28 November 2026 · [National University of Singapore: Assistant Professor, Yong Loo Lin School of Medicine](https://careers.nus.edu.sg/NUS/job/YONG-LOO-LIN-SCH-OF-MEDICINE-Assistant-Professor-NUS/59328944/)
 
 [All heat opportunities](https://beattheheat.asia/opportunities/) · Being listed does not mean an organisation endorses Common Shade, or that Common Shade recommends or ranks it. Something wrong or missing? Tell us through the corrections page. [Corrections](https://beattheheat.asia/corrections/)
 
