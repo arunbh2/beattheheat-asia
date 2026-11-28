@@ -64,8 +64,8 @@
    "c-blr-roof",
    "c-blr-begur-2cr"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261128061551/https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july"
+  "archive": "https://web.archive.org/web/20261128061551/https://wri-india.org/media/eleven-organisations-launch-bengaluru-heat-collective-city-records-its-highest-july",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-khpt-launch",
@@ -106,8 +106,8 @@
    "c-blr-panel",
    "c-blr-officials"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261128061616/https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/"
+  "archive": "https://web.archive.org/web/20261128061616/https://www.khpt.org/events-and-updates/khpt-joins-10-organisations-to-launch-the-bengaluru-heat-collective/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-grove-launch",
@@ -122,15 +122,11 @@
   "kind": "event notice (member organisation)",
   "where": "India",
   "expect": [
-   "Bengaluru Heat Collective",
-   "Science Gallery",
-   "charter"
+   "Bengaluru Heat Collective"
   ],
-  "claims": [
-   "c-blr-event"
-  ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260810082919/https://grove.rainmatter.org/t/launch-bengaluru-heat-collective/5067"
+  "claims": [],
+  "archive": "https://web.archive.org/web/20260810082919/https://grove.rainmatter.org/t/launch-bengaluru-heat-collective/5067",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-grove-updates",
@@ -146,29 +142,14 @@
   "where": "India",
   "expect": [
    "Bengaluru",
-   "Charter document",
-   "Strategy Note",
-   "living document",
-   "theory of change",
-   "strategic workplan",
-   "steered by WRI India",
-   "Begur",
-   "Sensing Local",
    "52 crores",
-   "climate action",
-   "302",
-   "182",
-   "120"
+   "climate action"
   ],
   "claims": [
-   "c-blr-charter",
-   "c-blr-toc",
-   "c-blr-begur-steer",
-   "c-blr-52cr",
-   "c-blr-302"
+   "c-blr-52cr"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260714134722/https://grove.rainmatter.org/t/transforming-indias-city-regions/4976"
+  "archive": "https://web.archive.org/web/20260714134722/https://grove.rainmatter.org/t/transforming-indias-city-regions/4976",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-chenab",
@@ -190,8 +171,8 @@
   "claims": [
    "c-blr-neckfans"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260812024341/https://thechenabtimes.com/2026/07/15/bengaluru-launches-heat-collective-to-combat-rising-urban-temperatures/"
+  "archive": "https://web.archive.org/web/20260812024341/https://thechenabtimes.com/2026/07/15/bengaluru-launches-heat-collective-to-combat-rising-urban-temperatures/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-artpark",
@@ -217,8 +198,8 @@
   "claims": [
    "c-blr-artpark"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261128061646/https://www.artpark.in/about/programs/social-impact"
+  "archive": "https://web.archive.org/web/20261128061646/https://www.artpark.in/about/programs/social-impact",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-cstep-bhrigu",
@@ -243,8 +224,8 @@
    "c-blr-bhrigu",
    "c-blr-mapping"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260721045649/https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/"
+  "archive": "https://web.archive.org/web/20260721045649/https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-cstep-deft",
@@ -271,8 +252,8 @@
    "c-blr-deft",
    "c-blr-deft-hebbal"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260813210448/https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/"
+  "archive": "https://web.archive.org/web/20260813210448/https://cstep.in/projects/developing-an-ecosystem-based-adaptation-feasibility-tool-deft/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-hw-home",
@@ -295,8 +276,8 @@
   "claims": [
    "c-blr-hw-dash"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260811133123/https://www.heatwatch.in/"
+  "archive": "https://web.archive.org/web/20260811133123/https://www.heatwatch.in/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-hw-charter",
@@ -325,8 +306,8 @@
    "c-blr-charter-apt",
    "c-blr-charter-scope"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260813125400/https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments"
+  "archive": "https://web.archive.org/web/20260813125400/https://www.heatwatch.in/blogs/heat-safety-charter-for-workers-in-apartments",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-hw-waste",
@@ -355,8 +336,8 @@
    "c-blr-waste",
    "c-blr-waste-sc"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260813125755/https://www.heatwatch.in/report/rising-heat-and-waste-workers-impact-of-heat-stress-on-the-livelihood-and-health-of-waste-workers-in-bengaluru/"
+  "archive": "https://web.archive.org/web/20260813125755/https://www.heatwatch.in/report/rising-heat-and-waste-workers-impact-of-heat-stress-on-the-livelihood-and-health-of-waste-workers-in-bengaluru/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-hw-parks",
@@ -379,8 +360,8 @@
   "claims": [
    "c-blr-parks"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260813113248/https://www.heatwatch.in/blogs/openourparks-keeping-bengalurus-parks-open-when-it-matters-most/"
+  "archive": "https://web.archive.org/web/20260813113248/https://www.heatwatch.in/blogs/openourparks-keeping-bengalurus-parks-open-when-it-matters-most/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-hw-domestic",
@@ -402,8 +383,8 @@
   "claims": [
    "c-blr-domestic-hw"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260813130824/https://www.heatwatch.in/project/domestic-workers/"
+  "archive": "https://web.archive.org/web/20260813130824/https://www.heatwatch.in/project/domestic-workers/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-bsf-domestic",
@@ -427,8 +408,8 @@
   "claims": [
    "c-blr-domestic-bsf"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260606044914/https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/"
+  "archive": "https://web.archive.org/web/20260606044914/https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-bsf-home",
@@ -450,8 +431,8 @@
   "claims": [
    "c-blr-bsf"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260720103531/http://www.bengalurusustainabilityforum.org/"
+  "archive": "https://web.archive.org/web/20260720103531/http://www.bengalurusustainabilityforum.org/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-grp-socratus",
@@ -474,8 +455,8 @@
   "claims": [
    "c-blr-socratus"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260513035220/https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/"
+  "archive": "https://web.archive.org/web/20260513035220/https://www.globalresiliencepartnership.org/art-for-resilience-in-bengaluru/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-mongabay-wcap",
@@ -508,8 +489,8 @@
    "c-blr-wcap-budget",
    "c-blr-wcap-partners"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260717195722/https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/"
+  "archive": "https://web.archive.org/web/20260717195722/https://india.mongabay.com/2026/03/ward-level-plans-bring-climate-action-closer-to-communities/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-cm-wcap",
@@ -530,14 +511,16 @@
    "Jansahas",
    "WellLabs",
    "Sensing Local",
-   "ten wards"
+   "ten wards",
+   "BBMP"
   ],
   "claims": [
    "c-blr-wcap-budget",
-   "c-blr-wcap-group"
+   "c-blr-wcap-group",
+   "c-blr-bbmp"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260412231125/https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/"
+  "archive": "https://web.archive.org/web/20260412231125/https://citizenmatters.in/bengaluru-is-building-ward-level-climate-action-plans-here-is-how/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-migration-story",
@@ -565,8 +548,8 @@
    "c-blr-mrc",
    "c-blr-mrc-welfare"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261128061728/https://themigrationstory.com/post/air-coolers-ors-and-medical-aid-outdoor-workers-in-india-find-rare-relief-from-heat/"
+  "archive": "https://web.archive.org/web/20261128061728/https://themigrationstory.com/post/air-coolers-ors-and-medical-aid-outdoor-workers-in-india-find-rare-relief-from-heat/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-icc-mrc",
@@ -589,8 +572,8 @@
   "claims": [
    "c-blr-mrc-89"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260501171328/https://indiaclimatecollaborative.org/blog/centering-workers-in-heat-resilience-from-lived-experience-to-systemic-action"
+  "archive": "https://web.archive.org/web/20260501171328/https://indiaclimatecollaborative.org/blog/centering-workers-in-heat-resilience-from-lived-experience-to-systemic-action",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-cm-kits",
@@ -620,8 +603,8 @@
    "c-blr-kits",
    "c-blr-indira"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261012174006/https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/"
+  "archive": "https://web.archive.org/web/20261012174006/https://citizenmatters.in/cooling-kits-help-bengaluru-workers-combat-heat-stress/",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-c40-rfp",
@@ -645,8 +628,8 @@
   "claims": [
    "c-blr-c40-rfp"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20251001194846/https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf"
+  "archive": "https://web.archive.org/web/20251001194846/https://www.c40.org/wp-content/uploads/2025/09/RfP-_-Heat-Resilience-in-Bengaluru-Hubballi-Dharwad.pdf",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-c40-cca",
@@ -689,8 +672,8 @@
   "claims": [
    "c-blr-state-hap"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261113170629/https://ksndmc.org/Content/Documents/General/Karnataka_HAP_2026.pdf"
+  "archive": "https://web.archive.org/web/20261113170629/https://ksndmc.org/Content/Documents/General/Karnataka_HAP_2026.pdf",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-gba-week",
@@ -705,13 +688,9 @@
   "kind": "news wire",
   "where": "India",
   "expect": [
-   "corporations",
-   "five city corporations",
-   "Greater Bengaluru"
+   "corporations"
   ],
-  "claims": [
-   "c-blr-gba"
-  ],
+  "claims": [],
   "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
@@ -730,8 +709,8 @@
    "heat"
   ],
   "claims": [],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260606233344/https://cstep.in/wp-content/uploads/2025/11/BHRIGU-Organisational-Mapping-Exercise_Booklet.pdf"
+  "archive": "https://web.archive.org/web/20260606233344/https://cstep.in/wp-content/uploads/2025/11/BHRIGU-Organisational-Mapping-Exercise_Booklet.pdf",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  },
  {
   "id": "src-blr-hd-report-pdf",
@@ -752,7 +731,129 @@
   "claims": [
    "c-blr-hd-pdf"
   ],
-  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20251201103728/https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf"
+  "archive": "https://web.archive.org/web/20251201103728/https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf",
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-blr-grove-p9",
+  "type": "source",
+  "keys": [
+   "grove-p9"
+  ],
+  "title": "Transforming India's City Regions: partner update (post 9, Bengaluru)",
+  "publisher": "WRI India on Rainmatter Grove",
+  "year": 2026,
+  "url": "https://grove.rainmatter.org/raw/4976/9",
+  "kind": "partner update (member organisation)",
+  "where": "India",
+  "expect": [
+   "Bengaluru",
+   "Charter document",
+   "Strategy Note",
+   "living document",
+   "302 projects",
+   "182 for BSCC",
+   "120 for BNCC"
+  ],
+  "claims": [
+   "c-blr-charter",
+   "c-blr-302"
+  ],
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-blr-grove-p12",
+  "type": "source",
+  "keys": [
+   "grove-p12"
+  ],
+  "title": "Transforming India's City Regions: partner update (post 12, Launch of the Bengaluru Heat Collective)",
+  "publisher": "WRI India on Rainmatter Grove",
+  "year": 2026,
+  "url": "https://grove.rainmatter.org/raw/4976/12",
+  "kind": "partner update (member organisation)",
+  "where": "India",
+  "expect": [
+   "Bengaluru Heat Collective",
+   "steered by WRI India",
+   "Begur",
+   "Sensing Local"
+  ],
+  "claims": [
+   "c-blr-begur-steer"
+  ],
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-blr-grove-p18",
+  "type": "source",
+  "keys": [
+   "grove-p18"
+  ],
+  "title": "Transforming India's City Regions: partner update (post 18, Shantinagar WCAP and the Heat Collective convening)",
+  "publisher": "WRI India on Rainmatter Grove",
+  "year": 2026,
+  "url": "https://grove.rainmatter.org/raw/4976/18",
+  "kind": "partner update (member organisation)",
+  "where": "India",
+  "expect": [
+   "Bengaluru Heat Collective",
+   "convened in August",
+   "theory of change",
+   "strategic workplan",
+   "Shantinagar",
+   "Bengaluru Central City Corporation",
+   "completed and submitted",
+   "anchored the drafting"
+  ],
+  "claims": [
+   "c-blr-toc",
+   "c-blr-shantinagar"
+  ],
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-blr-grove-launch-raw",
+  "type": "source",
+  "keys": [
+   "grove-launch-raw"
+  ],
+  "title": "Launch: Bengaluru Heat Collective (event notice text)",
+  "publisher": "WRI India on Rainmatter Grove",
+  "year": 2026,
+  "url": "https://grove.rainmatter.org/raw/5067/1",
+  "kind": "event notice (member organisation)",
+  "where": "India",
+  "expect": [
+   "Bengaluru Heat Collective",
+   "Science Gallery",
+   "charter"
+  ],
+  "claims": [
+   "c-blr-event"
+  ],
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-blr-federal-gba",
+  "type": "source",
+  "keys": [
+   "federal-gba"
+  ],
+  "title": "Greater Bengaluru Authority comes into effect",
+  "publisher": "The Federal",
+  "year": 2025,
+  "url": "https://thefederal.com/category/states/south/karnataka/greater-bengaluru-authority-comes-into-effect-204813",
+  "kind": "news report",
+  "where": "India",
+  "expect": [
+   "Greater Bengaluru Authority",
+   "five corporations",
+   "Bengaluru Central"
+  ],
+  "claims": [
+   "c-blr-gba"
+  ],
+  "note": "Staged from the Bengaluru ecosystem batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  }
 ]

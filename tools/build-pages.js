@@ -657,6 +657,7 @@ require("./build-el-nino.js")({ page, write, esc, hero, V });
 require("./build-el-nino-explainer.js")({ page, write, esc, hero, V });
 require("./build-factory-heat.js")({ page, write, esc, hero, V });
 require("./build-market-heat.js")({ page, write, esc, hero, V });
+require("./build-city-ecosystem.js")({ page, write, esc, hero, V });
 require("./build-cotton-heat.js")({ page, write, esc, hero, V });
 require("./build-social-protection.js")({ page, write, esc, hero, V, D });
 require("./build-growing.js")({ page, write, esc, hero, V });
