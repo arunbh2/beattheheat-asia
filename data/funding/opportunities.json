@@ -994,6 +994,89 @@
      "expression of interest"
     ]
    ]
+  },
+  {
+   "id": "opp-ghhinsea-heritage-practices-2026",
+   "title": "Open call: share traditional and cultural heat management practices (Southeast Asia)",
+   "org": null,
+   "employer": "Global Heat Health Information Network (GHHIN) Southeast Asia Hub",
+   "network_id": "ghhinsea",
+   "programme": null,
+   "round": "2026",
+   "type": "contribution-call",
+   "instrument": "none",
+   "asia": true,
+   "purpose": {
+    "text": "Community members, practitioners and knowledge-holders are invited to contribute traditional and cultural heat management practices (traditional medicine, vernacular architecture, farming, clothing, oral history) to a public repository.",
+    "src": "ghhinsea-heritage-call",
+    "term": "heat management practices"
+   },
+   "relevance": {
+    "label": "explicit",
+    "why": "Heat prevention and management practices are the subject of the call."
+   },
+   "relevance_evidence": {
+    "text": "heat management practices",
+    "src": "ghhinsea-heritage-call",
+    "term": "heat management practices"
+   },
+   "eligibility": {
+    "text": "Community members, practitioners and knowledge-holders.",
+    "src": "ghhinsea-heritage-call",
+    "term": "community members, practitioners and knowledge-holders",
+    "applicants": [
+     "community"
+    ],
+    "requires": []
+   },
+   "geography": {
+    "text": "Southeast Asia.",
+    "src": "ghhinsea-heritage-call",
+    "term": "Southeast Asia",
+    "countries": [
+     "ASIA"
+    ]
+   },
+   "deadlines": [
+    {
+     "stage": "Contributions",
+     "date": "2026-12-18",
+     "wording": "by 18 December 2026",
+     "src": "ghhinsea-heritage-call",
+     "term": "18 December 2026"
+    }
+   ],
+   "deadline_history": [],
+   "stated_status": "open",
+   "note": "Published 1 July 2026. An unpaid contribution, not funding or paid work; contributions go through the form linked on the page.",
+   "official_url": "https://heathealth.info/news/new-regional-initiative-documenting-traditional-cultural-practices-of-heat-management-in-southeast-asia/",
+   "application_url": "https://forms.cloud.microsoft/r/CHczauxS7j",
+   "access": [
+    "open-call"
+   ],
+   "topics": [
+    "nature",
+    "homes",
+    "inclusion"
+   ],
+   "activities": [
+    "research"
+   ],
+   "first_seen": "2026-11-28",
+   "published": "2026-07-01",
+   "sources": [
+    "ghhinsea-heritage-call"
+   ],
+   "core": [
+    [
+     "ghhinsea-heritage-call",
+     "heat management practices"
+    ],
+    [
+     "ghhinsea-heritage-call",
+     "18 December 2026"
+    ]
+   ]
   }
  ]
 }

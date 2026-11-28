@@ -280,7 +280,7 @@
   "changed": "2026-11-19"
  },
  "/growing/": {
-  "hash": "3f2b695bddc88580",
+  "hash": "6aef7e5a75746fae",
   "changed": "2026-11-28"
  },
  "/guide/": {
@@ -316,7 +316,7 @@
   "changed": "2026-11-26"
  },
  "/heat-economy/money/opportunities/": {
-  "hash": "2aeb4fa1c5841c74",
+  "hash": "8ca4a3f45bfd2cb6",
   "changed": "2026-11-28"
  },
  "/heat-economy/opportunities/": {
@@ -515,6 +515,94 @@
   "hash": "09af98243a415b6c",
   "changed": "2026-11-26"
  },
+ "/opportunities/": {
+  "hash": "1c6a30955073653a",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-hghi-burke-climate-2027/": {
+  "hash": "9749dfec0b9a84aa",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-nus-hrpc-programme-manager/": {
+  "hash": "0fff36880fc8d8e8",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-nus-microclimate-ra-33562/": {
+  "hash": "c4eb42e8575b1ead",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-nus-microclimate-rf/": {
+  "hash": "7370d13880b21cf6",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-nus-thermal-sensing-engineer/": {
+  "hash": "9cc13b30b322974c",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-nus-urban-climate-postdoc/": {
+  "hash": "b68e5d6d336a7559",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-nus-ylls-assistant-professor/": {
+  "hash": "2b72abdc68ec27d8",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-unep-scccs-mel-287469/": {
+  "hash": "45559504af469174",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-unep-urban-heat-expert-287135/": {
+  "hash": "5ac1141c3e272220",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/car-who-heat-aq-consultant-2026/": {
+  "hash": "5f23988773d83c8f",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-cwf-2026/": {
+  "hash": "2fb7b55b47d6be2c",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-gcc-nexa-lighthouse-2026/": {
+  "hash": "626bbdd41f9ff8d1",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-gcf-readiness-2027/": {
+  "hash": "7f3a35d33c3fdc66",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-global-eba-small-2026/": {
+  "hash": "a40a8987546b6897",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-grp-2026/": {
+  "hash": "a82aeec2b7425ef8",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-he-envhlth-02-2027/": {
+  "hash": "550a7b236a55ae20",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-iki-medium-2026/": {
+  "hash": "bf531e4fd04b9ee6",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-iki-small-2026/": {
+  "hash": "fc2dc2605e721ac5",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-ilo-th-heat-review-2026/": {
+  "hash": "703708c63a550e60",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-undp-ind-heatsmart-2026/": {
+  "hash": "5a0bdd3d69a27c42",
+  "changed": "2026-10-01"
+ },
+ "/opportunities/opp-unicef-climate-health-2026/": {
+  "hash": "9e0b6d9d1b88cc00",
+  "changed": "2026-10-01"
+ },
  "/paths/": {
   "hash": "df19ea438bbf729f",
   "changed": "2026-10-31"
@@ -556,7 +644,7 @@
   "changed": "2026-11-13"
  },
  "/plan/": {
-  "hash": "70ba3210315a837f",
+  "hash": "4265db8cac754095",
   "changed": "2026-11-28"
  },
  "/practical-actions/": {

@@ -1,0 +1,206 @@
+{
+ "ndrrma": {
+  "domain": "bipad.gov.np",
+  "why": "network link is a news story"
+ },
+ "dncc": {
+  "domain": "dncc.gov.bd",
+  "why": "network link is a news story"
+ },
+ "deped": {
+  "domain": "www.deped.gov.ph",
+  "why": "network link is a news story"
+ },
+ "icimod": {
+  "domain": "www.icimod.org",
+  "why": "network link is a news story"
+ },
+ "adb": {
+  "domain": "www.adb.org",
+  "why": "network link is a PreventionWeb page"
+ },
+ "lancet": {
+  "domain": "lancetcountdown.org",
+  "why": "network link is a DOI"
+ },
+ "irri": {
+  "domain": "www.irri.org",
+  "why": "network link is a DOI"
+ },
+ "wriindia": {
+  "domain": "wri-india.org",
+  "why": "network link is a news story"
+ },
+ "pci": {
+  "domain": "peoplescourage.org",
+  "why": "network link is a World Economic Forum page"
+ },
+ "c40": {
+  "domain": "www.c40.org",
+  "why": "network link is a news story"
+ },
+ "mht": {
+  "domain": "www.mahilahousingtrust.org",
+  "why": "network link is a news story"
+ },
+ "kmdastur": {
+  "domain": "www.kmdastur.com",
+  "why": "network link is a LinkedIn post"
+ },
+ "godigit": {
+  "domain": "www.godigit.com",
+  "why": "network link is a LinkedIn post"
+ },
+ "paa": {
+  "domain": "philanthropyasiaalliance.org",
+  "why": "network link is a news story"
+ },
+ "pdmasindh": {
+  "domain": "www.pdma.gos.pk",
+  "why": "network link is a ReliefWeb page"
+ },
+ "bsp": {
+  "domain": "www.bsp.gov.ph",
+  "why": "network link is a news story"
+ },
+ "sbv": {
+  "domain": "www.sbv.gov.vn",
+  "why": "network link is a news story"
+ },
+ "sensinglocal": {
+  "domain": "sensinglocal.in",
+  "why": "network link is a news story"
+ },
+ "welllabs": {
+  "domain": "welllabs.org",
+  "why": "network link is a news story"
+ },
+ "greaterchennaicorp": {
+  "domain": "chennaicorporation.gov.in",
+  "why": "network link is a news story"
+ },
+ "cse": {
+  "domain": "www.cseindia.org",
+  "why": "network link is a Down To Earth story"
+ },
+ "igsss": {
+  "domain": "igsss.org",
+  "why": "network link is a news story"
+ },
+ "iwmbangladesh": {
+  "domain": "www.iwmbd.org",
+  "why": "network link is a news story"
+ },
+ "nrdc-india": {
+  "domain": "www.nrdcindia.org",
+  "why": "NRDC India's own site (nrdcindia.org); not nrdcindia.com, which belongs to the unrelated National Research Development Corporation"
+ },
+ "ahmedabad": {
+  "domain": "ahmedabadcity.gov.in",
+  "why": "network link is an NRDC press release; the record is the Ahmedabad Municipal Corporation"
+ },
+ "asci": {
+  "domain": "www.asci.org.in",
+  "why": "network link is an NRDC page"
+ },
+ "iiith": {
+  "domain": "www.iiit.ac.in",
+  "why": "network link is an NRDC page"
+ },
+ "maudtelangana": {
+  "domain": "www.cdma.telangana.gov.in",
+  "why": "network link is an NRDC page"
+ },
+ "sewa": {
+  "domain": "www.sewa.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "ciff": {
+  "domain": "ciff.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "doen": {
+  "domain": "www.doen.nl",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "goodenergies": {
+  "domain": "www.goodenergies.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "opecfund": {
+  "domain": "opecfund.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "iucn": {
+  "domain": "iucn.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "rockefeller": {
+  "domain": "www.rockefellerfoundation.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "iiser": {
+  "domain": "www.iiserpune.ac.in",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "imd": {
+  "domain": "mausam.imd.gov.in",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "nimhans": {
+  "domain": "nimhans.ac.in",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "htparekh": {
+  "domain": "www.htparekhfoundation.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "shaktifoundation": {
+  "domain": "shaktifoundation.in",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "wotr": {
+  "domain": "wotr.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "nsf": {
+  "domain": "www.nsf.gov",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "forskningsradet": {
+  "domain": "www.forskningsradet.no",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "moes": {
+  "domain": "moes.gov.in",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "ksndmc": {
+  "domain": "www.ksndmc.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "brac": {
+  "domain": "bracjpgsph.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "directorategeneralofheal": {
+  "domain": "dghs.gov.bd",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "nrfsg": {
+  "domain": "www.nrf.gov.sg",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "ibisa": {
+  "domain": "ibisa.network",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "icicilombard": {
+  "domain": "www.icicilombard.com",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ },
+ "jansahas": {
+  "domain": "jansahas.org",
+  "why": "network link is a partner's or funder's page, not the organisation's own site"
+ }
+}

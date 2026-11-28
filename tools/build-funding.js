@@ -31,7 +31,7 @@ function prep(r, kind) {
     location_text: factText(r.location), countries: r.countries || [], remote: !!r.remote, remote_countries: r.remote_countries || [], remote_text: r.remote_text || "Not stated", contract_text: factText(r.contract) || "Not stated",
     pay: r.pay || "not-stated", salary_published: !!(r.salary && r.salary.text), salary_text: factText(r.salary) || "Not published", relevance: r.relevance_strength || "direct",
     search: [r.title, org.name, r.discipline, factText(r.location), r.relevance_why].join(" ") });
-  return Object.assign(base, { org_name: org.name || "", programme_name: prog.name || "", round: r.round || "", reference: r.reference || "", purpose_text: factText(r.purpose),
+  return Object.assign(base, { org_name: org.name || r.employer || "", programme_name: prog.name || "", round: r.round || "", reference: r.reference || "", purpose_text: factText(r.purpose),
     eligibility: { applicants: E.applicants || [], lead_countries: E.lead_countries || [], requires: E.requires || [] }, geography: { countries: G.countries || [] },
     eligibility_text: factText(E) || "Not published", lead_text: E.lead_text || "", geography_text: factText(G) || "Not published", partnership_text: factText(r.partnership),
     amount: r.amount ? { min: r.amount.min, max: r.amount.max, currency: r.amount.currency, basis: r.amount.basis } : null, amount_text: amount, duration_text: factText(r.duration),

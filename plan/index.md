@@ -86,6 +86,8 @@ A plan holds up when it names the shared arrangement it depends on. Check that y
 
 [See it worked through for one market ](https://beattheheat.asia/shared-heat/)
 
+**Open heat opportunities on this topic:** [GCF Readiness support: proposals accepted at any time, recommended by 31 March 2027](https://beattheheat.asia/opportunities/opp-gcf-readiness-2027/) (Green Climate Fund; 31 March 2027). [Heat Opportunities](https://beattheheat.asia/opportunities/?theme=municipal)
+
 **Find tools for this decision.** Before you name triggers and payers, compare the warning services, assessments and guidance that could inform them, with what each cannot tell you. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?decision=check_warnings,prioritise_places,plan_response)
 
 ---

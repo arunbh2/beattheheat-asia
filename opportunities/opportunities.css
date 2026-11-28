@@ -1,0 +1,28 @@
+/* Common Shade: Heat Opportunities (/opportunities/). Builds on the shared .fo-* (funding pages) and .cs-card classes in
+   styles.css; only layout specific to the hub lives here. */
+.op { padding-block: var(--s-5, 24px) var(--s-7, 48px); }
+.op-sub { max-width: 68ch; }
+.op-paths { margin-block: var(--s-4, 16px); }
+.op-covline { color: var(--grey-700); font-size: var(--fs-14); line-height: 1.5; }
+.op-views { display: flex; flex-wrap: wrap; gap: 8px; margin-block: var(--s-4, 16px); }
+.op-views a { display: inline-block; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-size: var(--fs-14); line-height: 1.4; min-height: 24px; }
+.op-views a[aria-current="page"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.op-list { display: grid; gap: var(--s-4, 16px); grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 900px) { .op-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.op-card { content-visibility: auto; contain-intrinsic-size: auto 420px; }
+.op-card--one { content-visibility: visible; }
+.op-card .fo-rec__h a { color: inherit; }
+.op-dl > div { margin-block: 6px; }
+.op-more { margin-block: var(--s-3, 12px); }
+.op-more summary { cursor: pointer; font-weight: 700; min-height: 24px; }
+.op-rel--direct { background: color-mix(in srgb, var(--ember) 10%, #fff); }
+.op-rel--related { background: var(--sand-50); }
+.op-rel--network { background: var(--canvas); }
+.op-covlist { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.op-saved ul { padding-left: 1.2em; }
+.op-h1 { overflow-wrap: anywhere; }
+@media print {
+  .op-views, .op-filters, .fo-tools, .op-saved, .fo-actions .fo-btn, .op-cov details, .wkp-foot { display: none !important; }
+  .op-card { break-inside: avoid; content-visibility: visible; }
+  .op-more { display: block; } .op-more > * { display: block; }
+}

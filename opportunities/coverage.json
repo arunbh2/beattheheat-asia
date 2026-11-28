@@ -1,0 +1,2586 @@
+{
+ "about": "Coverage of the heat network by the opportunities sweep in the latest review cycle. 'none' means none found in the pages reviewed, not that the organisation has no opportunities anywhere.",
+ "cycle": "2026-11-28",
+ "from": "2026-11-28",
+ "to": "2026-11-28",
+ "total": 367,
+ "checked": 204,
+ "by": {
+  "none": 200,
+  "blocked": 40,
+  "unavailable": 33,
+  "manual": 90,
+  "found": 4
+ },
+ "organisations": [
+  {
+   "id": "ghhin",
+   "name": "Global Heat Health Information Network (WHO, WMO and NOAA)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ilo",
+   "name": "International Labour Organization",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "unicef",
+   "name": "UNICEF",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "zcra",
+   "name": "Zurich Climate Resilience Alliance",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hera",
+   "name": "Heat Resilience Action (HERA), formerly Climate Resilience for All",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "coolcoalition",
+   "name": "UNEP Cool Coalition",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "climatecentre",
+   "name": "Red Cross Red Crescent Climate Centre",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "seforall",
+   "name": "Sustainable Energy for All",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "iea",
+   "name": "International Energy Agency",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ndma",
+   "name": "National Disaster Management Authority, India",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ndrrma",
+   "name": "National Disaster Risk Reduction and Management Authority, Nepal",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ahmedabad",
+   "name": "Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "dncc",
+   "name": "Dhaka North City Corporation",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "nrcs",
+   "name": "Nepal Red Cross Society",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "deped",
+   "name": "Department of Education, Philippines",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bdrcs",
+   "name": "Bangladesh Red Crescent Society",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "icimod",
+   "name": "ICIMOD",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "adb",
+   "name": "Asian Development Bank",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "escap",
+   "name": "UN ESCAP",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "imd",
+   "name": "India Meteorological Department and IITM Pune",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "pagasa",
+   "name": "PAGASA, Philippines",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "mom",
+   "name": "Ministry of Manpower, Singapore",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ncdc",
+   "name": "National Centre for Disease Control, India",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "nea",
+   "name": "National Environment Agency, Singapore",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hko",
+   "name": "Hong Kong Observatory",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "tmd",
+   "name": "Thai Meteorological Department",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ceew",
+   "name": "Council on Energy, Environment and Water (CEEW)",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "lancet",
+   "name": "Lancet Countdown",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "nushrpc",
+   "name": "NUS Heat Resilience & Performance Centre",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cornellgli",
+   "name": "Cornell Global Labor Institute",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "irri",
+   "name": "International Rice Research Institute (IRRI)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "icddrb",
+   "name": "icddr,b",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "brac",
+   "name": "BRAC James P Grant School of Public Health",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "iiser",
+   "name": "IISER Pune",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "iied",
+   "name": "International Institute for Environment and Development (IIED)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "usyd",
+   "name": "Heat and Health Research Centre, University of Sydney",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "salata",
+   "name": "Salata Institute, Harvard University",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "wriindia",
+   "name": "WRI India",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "gbl",
+   "name": "Good Business Lab",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "irade",
+   "name": "Integrated Research and Action for Development (IRADe)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "iihs",
+   "name": "Indian Institute for Human Settlements (IIHS)",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cstep",
+   "name": "Center for Study of Science, Technology and Policy (CSTEP)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "teri",
+   "name": "The Energy and Resources Institute (TERI)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "sfc",
+   "name": "Sustainable Futures Collaborative",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "kul",
+   "name": "Karachi Urban Lab",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "smu",
+   "name": "Singapore Management University, Urban Institute",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hkust",
+   "name": "Hong Kong University of Science and Technology (HKUST)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "lshtm",
+   "name": "London School of Hygiene & Tropical Medicine",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "sriher",
+   "name": "Sri Ramachandra Institute of Higher Education and Research",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cept",
+   "name": "CEPT University, Centre for Advanced Research in Building Science and Energy",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "lbnl",
+   "name": "Heat Island Group, Lawrence Berkeley National Laboratory",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "duke",
+   "name": "Heat Policy Innovation Hub, Duke University",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "practicalaction",
+   "name": "Practical Action",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "pci",
+   "name": "People’s Courage International",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "worldbank",
+   "name": "World Bank",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "wmo",
+   "name": "World Meteorological Organization",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "c40",
+   "name": "C40 Cities",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "vital",
+   "name": "Vital Strategies",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "gbpn",
+   "name": "Global Buildings Performance Network",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "startnetwork",
+   "name": "Start Network",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "mercycorps",
+   "name": "Mercy Corps",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "undp",
+   "name": "United Nations Development Programme (UNDP)",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "unhabitat",
+   "name": "UN-Habitat",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "undrr",
+   "name": "UN Office for Disaster Risk Reduction (UNDRR)",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "rcn",
+   "name": "Resilient Cities Network",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "iclei",
+   "name": "ICLEI South Asia",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "uclg",
+   "name": "United Cities and Local Governments Asia-Pacific (UCLG ASPAC)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "wiego",
+   "name": "Women in Informal Employment: Globalizing and Organizing (WIEGO)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ifrc",
+   "name": "International Federation of Red Cross and Red Crescent Societies (IFRC)",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cdkn",
+   "name": "Climate and Development Knowledge Network (CDKN)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "u4e",
+   "name": "United for Efficiency (UNEP-led)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "sewa",
+   "name": "Self Employed Women’s Association (SEWA)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "mht",
+   "name": "Mahila Housing Trust",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "adra",
+   "name": "ADRA India",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "homenet",
+   "name": "HomeNet Thailand",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "aidmi",
+   "name": "All India Disaster Mitigation Institute (AIDMI)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "seeds",
+   "name": "SEEDS",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "selco",
+   "name": "SELCO Foundation",
+   "status": "found",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "heatwatch",
+   "name": "HeatWatch India",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "chintan",
+   "name": "Chintan Environmental Research and Action Group",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hasirudala",
+   "name": "Hasiru Dala",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "janpahal",
+   "name": "Janpahal",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "jansahas",
+   "name": "Jan Sahas",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "savechildren",
+   "name": "Save the Children International",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "clasp",
+   "name": "CLASP",
+   "status": "found",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "rmi",
+   "name": "RMI",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "crrc",
+   "name": "Cool Roof Rating Council",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ecozen",
+   "name": "Ecozen",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "tarutium",
+   "name": "Tarutium Global Consulting (formerly TARU Leading Edge)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "crc",
+   "name": "Atlantic Council Climate Resilience Center (formerly Arsht-Rock)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "swissre",
+   "name": "Swiss Re",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ibisa",
+   "name": "IBISA",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "icicilombard",
+   "name": "ICICI Lombard",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "howden",
+   "name": "Howden",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cpi",
+   "name": "Climate Policy Initiative",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ifc",
+   "name": "International Finance Corporation (IFC)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "base",
+   "name": "Basel Agency for Sustainable Energy (BASE)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bluemarble",
+   "name": "Blue Marble",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "celsiuspro",
+   "name": "CelsiusPro Group, including Global Parametrics",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "kmdastur",
+   "name": "K.M. Dastur Insurance and Reinsurance Brokers",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "godigit",
+   "name": "Go Digit General Insurance",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "wtw",
+   "name": "WTW (Willis)",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "aon",
+   "name": "Aon",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "marsh",
+   "name": "Marsh",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "munichre",
+   "name": "Munich Re",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hannoverre",
+   "name": "Hannover Re",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "scor",
+   "name": "SCOR",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "gicre",
+   "name": "General Insurance Corporation of India (GIC Re)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hdfcergo",
+   "name": "HDFC ERGO General Insurance",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "axaclimate",
+   "name": "AXA Climate",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "msig",
+   "name": "MSIG (Mitsui Sumitomo Insurance)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "tokiomarine",
+   "name": "Tokio Marine Group",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "generali",
+   "name": "Generali Global Corporate & Commercial",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "descartes",
+   "name": "Descartes Underwriting",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "arbol",
+   "name": "Arbol",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "wrms",
+   "name": "Weather Risk Management Services (WRMS)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hillridge",
+   "name": "Hillridge Technology",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "raincoat",
+   "name": "Raincoat",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "pula",
+   "name": "Pula",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "oko",
+   "name": "OKO",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "acre",
+   "name": "ACRE Africa",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "floodflash",
+   "name": "FloodFlash",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "prudence",
+   "name": "Prudence Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "paa",
+   "name": "Philanthropy Asia Alliance",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "temasektrust",
+   "name": "Temasek Trust (through Temasek Foundation)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "rnp",
+   "name": "Rohini Nilekani Philanthropies",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "htparekh",
+   "name": "HT Parekh Foundation",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "rainmatter",
+   "name": "Rainmatter Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "chfc",
+   "name": "Climate & Health Funders Coalition",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ciff",
+   "name": "Children’s Investment Fund Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "climateworks",
+   "name": "ClimateWorks Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "rockefeller",
+   "name": "The Rockefeller Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "wellcome",
+   "name": "Wellcome",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "laudes",
+   "name": "Laudes Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "idrc",
+   "name": "International Development Research Centre (IDRC)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ikeafdn",
+   "name": "IKEA Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "scbf",
+   "name": "Swiss Capacity Building Facility (SCBF)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "howdenfdn",
+   "name": "Howden Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "icc",
+   "name": "India Climate Collaborative",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ccc",
+   "name": "Clean Cooling Collaborative (ClimateWorks Foundation)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "cimmyt",
+   "name": "CIMMYT (International Maize and Wheat Improvement Center)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "icrisat",
+   "name": "ICRISAT",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "wotr",
+   "name": "Watershed Organisation Trust (WOTR)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bracngo",
+   "name": "BRAC",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "helpage",
+   "name": "HelpAge International",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "pdmasindh",
+   "name": "Provincial Disaster Management Authority, Sindh (Pakistan)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ncf",
+   "name": "Nature Conservation Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cdd",
+   "name": "Centre for Disability in Development (CDD), with CBM",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hi",
+   "name": "Humanity & Inclusion (HI)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hrw",
+   "name": "Human Rights Watch",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "novonordisk",
+   "name": "Novo Nordisk Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "earthon",
+   "name": "EarthON Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ramboll",
+   "name": "Ramboll Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "nrfsg",
+   "name": "National Research Foundation, Singapore",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "rgchk",
+   "name": "Research Grants Council, Hong Kong",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "forskningsradet",
+   "name": "Research Council of Norway",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "nsf",
+   "name": "U.S. National Science Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "apn",
+   "name": "Asia-Pacific Network for Global Change Research (APN)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "nihr",
+   "name": "National Institute for Health and Care Research (NIHR)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "icmr",
+   "name": "Indian Council of Medical Research (ICMR)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "snsf",
+   "name": "Swiss National Science Foundation (SNSF)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "moes",
+   "name": "Ministry of Earth Sciences, Government of India",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "dst",
+   "name": "Department of Science and Technology, Government of India",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "hecpk",
+   "name": "Higher Education Commission, Pakistan",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "lemelson",
+   "name": "The Lemelson Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hkjc",
+   "name": "The Hong Kong Jockey Club Charities Trust",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "pdjf",
+   "name": "Poul Due Jensen Foundation (Grundfos Foundation)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "boschstiftung",
+   "name": "Robert Bosch Stiftung",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "atecf",
+   "name": "A.T.E. Chandra Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "dcmshriram",
+   "name": "DCM Shriram Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cipla",
+   "name": "Cipla Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "dsgroup",
+   "name": "Dharampal Satyapal Limited (DS Group) CSR",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "hdfclife",
+   "name": "HDFC Life (Swabhimaan CSR)",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cimbfdn",
+   "name": "CIMB Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "yayasanpetronas",
+   "name": "Yayasan PETRONAS",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "nusantarafund",
+   "name": "Nusantara Fund (Dana Nusantara)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "wfasia",
+   "name": "Women’s Fund Asia",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "tewa",
+   "name": "Tewa, Nepal Women’s Fund",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "mamacash",
+   "name": "Mama Cash",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bothends",
+   "name": "Both ENDS",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "gfcf",
+   "name": "Global Fund for Community Foundations",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "doen",
+   "name": "DOEN Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "goodenergies",
+   "name": "Good Energies Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "luce",
+   "name": "Henry Luce Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "metlife",
+   "name": "MetLife Foundation",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "stonefamily",
+   "name": "Stone Family Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "waterloo",
+   "name": "The Waterloo Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "suezfdn",
+   "name": "Fondation SUEZ",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "halton",
+   "name": "Halton Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "takeda",
+   "name": "Takeda (Global CSR Program)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "danonecomm",
+   "name": "Danone Communities",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "botnar",
+   "name": "Fondation Botnar",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "opecfund",
+   "name": "OPEC Fund for International Development",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "mas",
+   "name": "Monetary Authority of Singapore",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bot",
+   "name": "Bank of Thailand",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ojk",
+   "name": "Otoritas Jasa Keuangan (Financial Services Authority), Indonesia",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bsp",
+   "name": "Bangko Sentral ng Pilipinas",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "sbv",
+   "name": "State Bank of Vietnam",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bangladeshbank",
+   "name": "Bangladesh Bank",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "nrb",
+   "name": "Nepal Rastra Bank",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "rbi",
+   "name": "Reserve Bank of India",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "sbfn",
+   "name": "Sustainable Banking and Finance Network",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "komida",
+   "name": "KOMIDA, with Build Change (Indonesia)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "cfi",
+   "name": "Center for Financial Inclusion",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bracuniversityjamespgran",
+   "name": "BRAC University: James P Grant School of Public Health",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "indianinstituteoftropica",
+   "name": "Indian Institute of Tropical Meteorology",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "indiameteorologicaldepar",
+   "name": "India Meteorological Department",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "worldhealthorganization",
+   "name": "World Health Organization",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ministryofhealthindonesi",
+   "name": "Ministry of Health, Indonesia",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ministryofenvironmentind",
+   "name": "Ministry of Environment, Indonesia",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bmkgindonesia",
+   "name": "BMKG: Indonesia",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "universitasindonesia",
+   "name": "Universitas Indonesia",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "hasanuddinuniversity",
+   "name": "Hasanuddin University",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "diponegorouniversity",
+   "name": "Diponegoro University",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "seadrifinsurancecompany",
+   "name": "SEADRIF Insurance Company",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "asianinstituteoftechnolo",
+   "name": "Asian Institute of Technology",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "rujakcenterforurbanstudi",
+   "name": "Rujak Center for Urban Studies",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "universitikebangsaanmala",
+   "name": "Universiti Kebangsaan Malaysia",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "kotakitafoundation",
+   "name": "Kota Kita Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "thailandenvironmentinsti",
+   "name": "Thailand Environment Institute",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "rmituniversityvietnam",
+   "name": "RMIT University Vietnam",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "alluvium",
+   "name": "Alluvium",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "royaluniversityofphnompe",
+   "name": "Royal University of Phnom Penh",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "indianinstituteofpublich",
+   "name": "Indian Institute of Public Health Gandhinagar",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "varanasimunicipalcorpora",
+   "name": "Varanasi Municipal Corporation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "churudistrictadministrat",
+   "name": "Churu District Administration",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "shrikashivishwanathtempl",
+   "name": "Shri Kashi Vishwanath Temple Trust",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ahmedabadmunicipalcorpor",
+   "name": "Ahmedabad Municipal Corporation",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "tatatrusts",
+   "name": "Tata Trusts",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "globalresiliencepartners",
+   "name": "Global Resilience Partnership",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "homenetsouthasia",
+   "name": "HomeNet South Asia",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "dhangadhisubmetropolitan",
+   "name": "Dhangadhi Sub-Metropolitan City",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "britishredcross",
+   "name": "British Red Cross",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "americanredcross",
+   "name": "American Red Cross",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "instituteofhimalayanrisk",
+   "name": "Institute of Himalayan Risk Reduction",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "peopleinneed",
+   "name": "People in Need",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "danchurchaid",
+   "name": "DanChurchAid",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "communityselfreliancecen",
+   "name": "Community Self Reliance Centre",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "localinitiativesforbiodi",
+   "name": "Local Initiatives for Biodiversity, Research and Development (LI-BIRD)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "youthinnovationlab",
+   "name": "Youth Innovation Lab",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "departmentofhydrologyand",
+   "name": "Department of Hydrology and Meteorology, Nepal",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ukmetoffice",
+   "name": "UK Met Office",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "agakhanuniversity",
+   "name": "Aga Khan University",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "pakistanmeteorologicalde",
+   "name": "Pakistan Meteorological Department",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "sindhintegratedemergency",
+   "name": "Sindh Integrated Emergency and Health Services",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "srilankaredcrosssociety",
+   "name": "Sri Lanka Red Cross Society",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "departmentofmeteorologys",
+   "name": "Department of Meteorology, Sri Lanka",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "centralenvironmentalauth",
+   "name": "Central Environmental Authority, Sri Lanka",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "nationalbuildingresearch",
+   "name": "National Building Research Organisation, Sri Lanka",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "mdecinssansfrontiressout",
+   "name": "Médecins Sans Frontières: South Asia",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ashden",
+   "name": "Ashden",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "cbalance",
+   "name": "cBalance",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "theconduitfoundation",
+   "name": "The Conduit Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "streetnetinternational",
+   "name": "StreetNet International",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "internationalunionoffood",
+   "name": "International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "htparekhfoundation",
+   "name": "H T Parekh Foundation",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "sattvaconsulting",
+   "name": "Sattva Consulting",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bengalurusustainabilityf",
+   "name": "Bengaluru Sustainability Forum",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "heatwatchfoundation",
+   "name": "HeatWatch Foundation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "stjohnsmedicalcollegehos",
+   "name": "St John’s Medical College Hospital",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "helpageindia",
+   "name": "HelpAge India",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "dawateislamifgrf",
+   "name": "Dawat-e-Islami: FGRF",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ministryoflabourandemplo",
+   "name": "Ministry of Labour and Employment, India",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "employeesstateinsurancec",
+   "name": "Employees’ State Insurance Corporation",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "keralastatedisastermanag",
+   "name": "Kerala State Disaster Management Authority",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "departmentofagricultured",
+   "name": "Department of Agriculture Development and Farmers’ Welfare, Kerala",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "generaleducationdepartme",
+   "name": "General Education Department, Kerala",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "energymanagementcentreke",
+   "name": "Energy Management Centre, Kerala",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "geohazardsinternational",
+   "name": "GeoHazards International",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "woodwellclimateresearchc",
+   "name": "Woodwell Climate Research Center",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ministryofjalshaktiindia",
+   "name": "Ministry of Jal Shakti, India",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bangladeshmeteorological",
+   "name": "Bangladesh Meteorological Department",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "directorategeneralofheal",
+   "name": "Directorate General of Health Services, Bangladesh",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bangkokmetropolitanadmin",
+   "name": "Bangkok Metropolitan Administration",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "pagasa2",
+   "name": "PAGASA",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ghhinsea",
+   "name": "Global Heat Health Information Network, Southeast Asia Hub",
+   "status": "found",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ministryofsustainability",
+   "name": "Ministry of Sustainability and the Environment, Singapore",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "workplacesafetyandhealth",
+   "name": "Workplace Safety and Health Council, Singapore",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "sentosadevelopmentcorpor",
+   "name": "Sentosa Development Corporation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "spgroup",
+   "name": "SP Group",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "housingdevelopmentboards",
+   "name": "Housing & Development Board, Singapore",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "banpunext",
+   "name": "Banpu NEXT",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "singaporegreenbuildingco",
+   "name": "Singapore Green Building Council",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "buildingandconstructiona",
+   "name": "Building and Construction Authority, Singapore",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "urbanredevelopmentauthor",
+   "name": "Urban Redevelopment Authority, Singapore",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "singaporeethcentre",
+   "name": "Singapore-ETH Centre",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "singaporemanagementunive",
+   "name": "Singapore Management University",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "singaporemitallianceforr",
+   "name": "Singapore-MIT Alliance for Research and Technology",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "tumcreate",
+   "name": "TUMCREATE",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "cambridgecares",
+   "name": "Cambridge CARES",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "icicilombardgeneralinsur",
+   "name": "ICICI Lombard General Insurance",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cgap",
+   "name": "CGAP",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "buildchange",
+   "name": "Build Change",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "komida2",
+   "name": "KOMIDA",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "internationalfoodpolicyr",
+   "name": "International Food Policy Research Institute",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "stepchange",
+   "name": "StepChange",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "microsaveconsulting",
+   "name": "MicroSave Consulting",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "africanriskcapacitylimit",
+   "name": "African Risk Capacity Limited",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "internationallivestockre",
+   "name": "International Livestock Research Institute",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "foodandagricultureorgani",
+   "name": "Food and Agriculture Organization of the United Nations",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ukforeigncommonwealthand",
+   "name": "UK Foreign, Commonwealth and Development Office",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "universityofthessalyfame",
+   "name": "University of Thessaly: FAME Laboratory",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "icleilocalgovernmentsfor",
+   "name": "ICLEI: Local Governments for Sustainability",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "citiesclimatefinancelead",
+   "name": "Cities Climate Finance Leadership Alliance",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "unenvironmentprogramme",
+   "name": "UN Environment Programme",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "globalenvironmentfacilit",
+   "name": "Global Environment Facility",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bruhatbengalurumahanagar",
+   "name": "Bruhat Bengaluru Mahanagara Palike / Bengaluru city government",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "jakartaprovincialgovernm",
+   "name": "Jakarta Provincial Government",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "quezoncitygovernment",
+   "name": "Quezon City Government",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "brihanmumbaimunicipalcor",
+   "name": "Brihanmumbai Municipal Corporation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "karachimetropolitancorpo",
+   "name": "Karachi Metropolitan Corporation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "freetowncitycouncil",
+   "name": "Freetown City Council",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "cityofathens",
+   "name": "City of Athens",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "daikin",
+   "name": "Daikin",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "greeelectricappliances",
+   "name": "Gree Electric Appliances",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "tsinghuauniversity",
+   "name": "Tsinghua University",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "nikkensekkei",
+   "name": "Nikken Sekkei",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "godrejenterprisesapplian",
+   "name": "Godrej Enterprises: Appliances",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ateenterprises",
+   "name": "A.T.E. Enterprises",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "allianceforanenergyeffic",
+   "name": "Alliance for an Energy Efficient Economy",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ceptuniversity",
+   "name": "CEPT University",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "indianhotelscompanylimit",
+   "name": "Indian Hotels Company Limited",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "internationalorganizatio",
+   "name": "International Organization for Standardization",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "nrdc-india",
+   "name": "Natural Resources Defense Council (NRDC), India programme",
+   "status": "found",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bureauofenergyefficiency",
+   "name": "Bureau of Energy Efficiency, India",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "disabilityrightsuk",
+   "name": "Disability Rights UK",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "laislanetwork",
+   "name": "La Isla Network",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "delhidisastermanagementa",
+   "name": "Delhi Disaster Management Authority",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "delhijalboard",
+   "name": "Delhi Jal Board",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bsesdelhidistributionuti",
+   "name": "BSES Delhi distribution utilities",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "delhiurbanshelterimprove",
+   "name": "Delhi Urban Shelter Improvement Board",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "niua-ccube",
+   "name": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "nipponpaintindia",
+   "name": "Nippon Paint India",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "haqdarshak",
+   "name": "Haqdarshak",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "healthserve",
+   "name": "HealthServe",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "twc2",
+   "name": "Transient Workers Count Too (TWC2)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "artpark",
+   "name": "ARTPARK (AI & Robotics Technology Park, IISc)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "socratus",
+   "name": "Socratus",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "sensinglocal",
+   "name": "Sensing Local",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "baf",
+   "name": "Bangalore Apartment Federation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "greaterbengaluruautho",
+   "name": "Greater Bengaluru Authority",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ksndmc",
+   "name": "Karnataka State Natural Disaster Monitoring Centre (KSNDMC)",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bengaluruheatcollective",
+   "name": "Bengaluru Heat Collective",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "khpt",
+   "name": "KHPT",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "nimhans",
+   "name": "NIMHANS (National Institute of Mental Health and Neurosciences), Bengaluru",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "welllabs",
+   "name": "WELL Labs",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "bengalurunorthcitycorp",
+   "name": "Bengaluru North City Corporation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bengalurusouthcitycorp",
+   "name": "Bengaluru South City Corporation",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bengalurucentralcitycorp",
+   "name": "Bengaluru Central City Corporation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "ksdma",
+   "name": "Karnataka State Disaster Management Authority (KSDMA)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "karnatakahealthdept",
+   "name": "Department of Health, Government of Karnataka",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "iucn",
+   "name": "International Union for Conservation of Nature (IUCN)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "iforest",
+   "name": "International Forum for Environment, Sustainability and Technology (iFOREST)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "bhubaneswarmunicipalcorp",
+   "name": "Bhubaneswar Municipal Corporation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "greaterchennaicorp",
+   "name": "Greater Chennai Corporation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "tngcc",
+   "name": "TN Green Climate Company (Tamil Nadu)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "cse",
+   "name": "Centre for Science and Environment (CSE)",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "greenpeaceindia",
+   "name": "Greenpeace India",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "nationalhawkersfed",
+   "name": "National Hawkers Federation",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "igsss",
+   "name": "Indo-Global Social Service Society (IGSSS)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "shaktifoundation",
+   "name": "Shakti Foundation",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "iwmbangladesh",
+   "name": "Institute of Water Modelling, Bangladesh",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "asci",
+   "name": "Administrative Staff College of India (ASCI)",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "iiith",
+   "name": "IIIT Hyderabad",
+   "status": "none",
+   "attempted": "2026-11-28",
+   "last_success": "2026-11-28"
+  },
+  {
+   "id": "ghmc",
+   "name": "Greater Hyderabad Municipal Corporation (GHMC)",
+   "status": "manual",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "maudtelangana",
+   "name": "Municipal Administration and Urban Development Department, Telangana",
+   "status": "unavailable",
+   "attempted": "2026-11-28",
+   "last_success": null
+  },
+  {
+   "id": "kolkatamunicipalcorp",
+   "name": "Kolkata Municipal Corporation",
+   "status": "blocked",
+   "attempted": "2026-11-28",
+   "last_success": null
+  }
+ ]
+}
